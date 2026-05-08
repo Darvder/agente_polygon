@@ -210,3 +210,16 @@
 2026-05-08 20:34:38,797 | INFO | Abiertas: 7 | Cerradas: 4 | P&L: $+1.06
 2026-05-08 20:34:38,797 | INFO | TP:1 SL:1 Time:2
 2026-05-08 20:34:38,797 | INFO | =======================================================
+2026-05-08 21:42:18,997 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 21:42:18,997 | INFO | =======================================================
+2026-05-08 21:42:18,997 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 21:42:18,997 | INFO | =======================================================
+2026-05-08 21:42:19,128 | INFO | Mercados activos rastreables: 24
+2026-05-08 21:42:19,134 | WARNING | Error salida idx=2: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-08 21:42:19,138 | INFO | Señales de momentum: 7 | Cupo: 24
+2026-05-08 21:42:19,665 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 21:42:19,691 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 21:42:19,691 | INFO | CICLO #13 | Rastreando 25 mercados
+2026-05-08 21:42:19,691 | INFO | Abiertas: 6 | Cerradas: 5 | P&L: $+1.06
+2026-05-08 21:42:19,691 | INFO | TP:1 SL:1 Time:3
+2026-05-08 21:42:19,691 | INFO | =======================================================
