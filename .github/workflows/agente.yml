@@ -29,8 +29,16 @@ jobs:
 
       - name: Guardar resultados
         run: |
-                git config user.email "bot@agente"
-                git config user.name "Agente Bot"
-                git add -A
-                git diff --staged --quiet || git commit -m "ciclo $(date +'%Y-%m-%d %H:%M')"
-                git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git config user.email "bot@agente"
+          git config user.name "Agente Bot"
+          git add -A
+          git diff --staged --quiet || git commit -m "ciclo $(date +'%Y-%m-%d %H:%M')"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Deploy Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: datos_polymarket/
+
+      - name: Publicar Pages
+        uses: actions/deploy-pages@v4
