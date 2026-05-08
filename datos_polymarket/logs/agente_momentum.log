@@ -130,3 +130,28 @@
 2026-05-08 14:54:20,117 | INFO | Abiertas: 4 | Cerradas: 0 | P&L: $+0.00
 2026-05-08 14:54:20,117 | INFO | TP:0 SL:0 Time:0
 2026-05-08 14:54:20,117 | INFO | =======================================================
+2026-05-08 16:16:50,086 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 16:16:50,086 | INFO | =======================================================
+2026-05-08 16:16:50,086 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 16:16:50,086 | INFO | =======================================================
+2026-05-08 16:16:50,271 | INFO | Mercados activos rastreables: 25
+2026-05-08 16:16:50,277 | WARNING | Error salida idx=0: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-08 16:16:50,278 | WARNING | Error salida idx=1: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-08 16:16:50,282 | INFO | Señales de momentum: 7 | Cupo: 28
+2026-05-08 16:16:50,681 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 16:16:50,703 | INFO | LLM descarta: Will the Anaheim Ducks win the 2026 NHL Stanl
+2026-05-08 16:16:52,010 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 16:16:52,011 | INFO | ✅ NUEVA: COMPRAR YES | Will the New York Knicks win the 2026 NB | mom=+2.9% (1h=+3.2%) | $11.01
+2026-05-08 16:16:53,946 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 16:16:53,947 | INFO | ✅ NUEVA: COMPRAR YES | Will John Cornyn win the 2026 Texas Repu | mom=+2.6% (1h=+2.6%) | $8.76
+2026-05-08 16:16:55,761 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 16:16:55,762 | INFO | LLM descarta: Will Ken Paxton win the 2026 Texas Republican
+2026-05-08 16:16:57,132 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 16:16:57,133 | INFO | ✅ NUEVA: COMPRAR YES | New Playboi Carti Album before GTA VI? | mom=+2.1% (1h=+3.7%) | $5.0
+2026-05-08 16:16:59,116 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 16:16:59,117 | INFO | LLM descarta: Will the Vegas Golden Knights win the 2026 NH
+2026-05-08 16:17:00,123 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 16:17:00,123 | INFO | CICLO #9 | Rastreando 25 mercados
+2026-05-08 16:17:00,123 | INFO | Abiertas: 5 | Cerradas: 2 | P&L: $+0.44
+2026-05-08 16:17:00,123 | INFO | TP:0 SL:0 Time:2
+2026-05-08 16:17:00,123 | INFO | =======================================================
