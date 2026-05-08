@@ -24,6 +24,9 @@ jobs:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: python agente_momentum.py
 
+      - name: Generar dashboard
+        run: python generar_dashboard_momentum.py
+
       - name: Guardar resultados
         run: |
                 git config user.email "bot@agente"
