@@ -155,3 +155,22 @@
 2026-05-08 16:17:00,123 | INFO | Abiertas: 5 | Cerradas: 2 | P&L: $+0.44
 2026-05-08 16:17:00,123 | INFO | TP:0 SL:0 Time:2
 2026-05-08 16:17:00,123 | INFO | =======================================================
+2026-05-08 17:52:57,252 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 17:52:57,252 | INFO | =======================================================
+2026-05-08 17:52:57,252 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 17:52:57,252 | INFO | =======================================================
+2026-05-08 17:52:57,372 | INFO | Mercados activos rastreables: 24
+2026-05-08 17:52:57,381 | INFO | Señales de momentum: 7 | Cupo: 25
+2026-05-08 17:52:57,811 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 17:52:57,833 | INFO | ✅ NUEVA: COMPRAR YES | Will the San Antonio Spurs win the 2026  | mom=+4.2% (1h=+4.6%) | $13.75
+2026-05-08 17:52:59,695 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 17:52:59,696 | INFO | LLM descarta: Will the Oklahoma City Thunder win the 2026 N
+2026-05-08 17:53:00,994 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 17:53:01,390 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 17:53:01,391 | INFO | LLM descarta: Will the Vegas Golden Knights win the 2026 NH
+2026-05-08 17:53:02,713 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 17:53:02,719 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 17:53:02,719 | INFO | CICLO #10 | Rastreando 25 mercados
+2026-05-08 17:53:02,719 | INFO | Abiertas: 6 | Cerradas: 2 | P&L: $+0.44
+2026-05-08 17:53:02,719 | INFO | TP:0 SL:0 Time:2
+2026-05-08 17:53:02,719 | INFO | =======================================================
