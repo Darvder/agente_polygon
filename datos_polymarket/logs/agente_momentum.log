@@ -193,3 +193,20 @@
 2026-05-08 19:24:43,840 | INFO | Abiertas: 6 | Cerradas: 3 | P&L: $+2.55
 2026-05-08 19:24:43,840 | INFO | TP:1 SL:0 Time:2
 2026-05-08 19:24:43,840 | INFO | =======================================================
+2026-05-08 20:34:34,372 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 20:34:34,372 | INFO | =======================================================
+2026-05-08 20:34:34,372 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 20:34:34,373 | INFO | =======================================================
+2026-05-08 20:34:34,484 | INFO | Mercados activos rastreables: 24
+2026-05-08 20:34:34,491 | WARNING | Error salida idx=8: Invalid value 'STOP_LOSS' for dtype 'float64'
+2026-05-08 20:34:34,494 | INFO | Señales de momentum: 5 | Cupo: 25
+2026-05-08 20:34:35,038 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 20:34:35,061 | INFO | ✅ NUEVA: COMPRAR YES | Will the Montreal Canadiens win the 2026 | mom=+3.2% (1h=-7.4%) | $10.25
+2026-05-08 20:34:36,961 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 20:34:36,962 | INFO | ✅ NUEVA: COMPRAR YES | New Rihanna Album before GTA VI? | mom=+2.2% (1h=+1.9%) | $8.13
+2026-05-08 20:34:38,790 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 20:34:38,796 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 20:34:38,797 | INFO | CICLO #12 | Rastreando 25 mercados
+2026-05-08 20:34:38,797 | INFO | Abiertas: 7 | Cerradas: 4 | P&L: $+1.06
+2026-05-08 20:34:38,797 | INFO | TP:1 SL:1 Time:2
+2026-05-08 20:34:38,797 | INFO | =======================================================
