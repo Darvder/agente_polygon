@@ -25,6 +25,7 @@ from datetime import datetime, timedelta
 # ══════════════════════════════════════════════════════════════════
 
 import os
+os.environ['TZ'] = 'America/Guayaquil'
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 
