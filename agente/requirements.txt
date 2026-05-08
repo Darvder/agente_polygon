@@ -1,5 +1,0 @@
-groq
-requests
-pandas
-apscheduler
-newsapi-python
