@@ -80,3 +80,20 @@
 2026-05-08 11:21:46,816 | INFO | Abiertas: 2 | Cerradas: 0 | P&L: $+0.00
 2026-05-08 11:21:46,816 | INFO | TP:0 SL:0 Time:0
 2026-05-08 11:21:46,816 | INFO | =======================================================
+2026-05-08 12:54:26,117 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 12:54:26,117 | INFO | =======================================================
+2026-05-08 12:54:26,117 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 12:54:26,117 | INFO | =======================================================
+2026-05-08 12:54:26,319 | INFO | Mercados activos rastreables: 25
+2026-05-08 12:54:26,325 | INFO | Señales de momentum: 5 | Cupo: 28
+2026-05-08 12:54:27,326 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 12:54:27,348 | INFO | LLM descarta: Will the Anaheim Ducks win the 2026 NHL Stanl
+2026-05-08 12:54:28,841 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 12:54:28,842 | INFO | LLM descarta: Will the Vegas Golden Knights win the 2026 NH
+2026-05-08 12:54:30,110 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 12:54:30,111 | INFO | ✅ NUEVA: COMPRAR YES | Will the Carolina Hurricanes win the 202 | mom=+1.5% (1h=+1.5%) | $5.73
+2026-05-08 12:54:31,616 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 12:54:31,616 | INFO | CICLO #6 | Rastreando 25 mercados
+2026-05-08 12:54:31,616 | INFO | Abiertas: 3 | Cerradas: 0 | P&L: $+0.00
+2026-05-08 12:54:31,616 | INFO | TP:0 SL:0 Time:0
+2026-05-08 12:54:31,616 | INFO | =======================================================
