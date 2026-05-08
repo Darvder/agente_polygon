@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 name: Agente Momentum\
+\
+on:\
+  schedule:\
+    - cron: '*/15 * * * *'\
+  workflow_dispatch:\
+\
+jobs:\
+  run:\
+    runs-on: ubuntu-latest\
+    steps:\
+      - uses: actions/checkout@v3\
+\
+      - uses: actions/setup-python@v4\
+        with:\
+          python-version: '3.11'\
+\
+      - name: Instalar dependencias\
+        run: pip install -r requirements.txt\
+\
+      - name: Ejecutar agente\
+        env:\
+          GROQ_API_KEY: $\{\{ secrets.GROQ_API_KEY \}\}\
+          NEWS_API_KEY: $\{\{ secrets.NEWS_API_KEY \}\}\
+        run: python agente_momentum.py\
+\
+      - name: Guardar resultados\
+        run: |\
+          git config user.email "bot@agente"\
+          git config user.name "Agente Bot"\
+          git add -A\
+          git diff --staged --quiet || git commit -m "ciclo $(date +'%Y-%m-%d %H:%M')"\
+          git push }
