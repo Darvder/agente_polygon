@@ -112,3 +112,21 @@
 2026-05-08 13:27:20,459 | INFO | Abiertas: 3 | Cerradas: 0 | P&L: $+0.00
 2026-05-08 13:27:20,459 | INFO | TP:0 SL:0 Time:0
 2026-05-08 13:27:20,459 | INFO | =======================================================
+2026-05-08 14:54:14,488 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 14:54:14,488 | INFO | =======================================================
+2026-05-08 14:54:14,488 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 14:54:14,488 | INFO | =======================================================
+2026-05-08 14:54:14,735 | INFO | Mercados activos rastreables: 24
+2026-05-08 14:54:14,749 | INFO | Señales de momentum: 5 | Cupo: 27
+2026-05-08 14:54:15,380 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 14:54:15,396 | INFO | ✅ NUEVA: COMPRAR YES | Will the Montreal Canadiens win the 2026 | mom=+1.8% (1h=+2.2%) | $7.02
+2026-05-08 14:54:17,234 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 14:54:17,235 | INFO | LLM descarta: Will Ken Paxton win the 2026 Texas Republican
+2026-05-08 14:54:18,748 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 14:54:18,749 | INFO | LLM descarta: Russia-Ukraine Ceasefire before GTA VI?
+2026-05-08 14:54:20,112 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 14:54:20,117 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 14:54:20,117 | INFO | CICLO #8 | Rastreando 25 mercados
+2026-05-08 14:54:20,117 | INFO | Abiertas: 4 | Cerradas: 0 | P&L: $+0.00
+2026-05-08 14:54:20,117 | INFO | TP:0 SL:0 Time:0
+2026-05-08 14:54:20,117 | INFO | =======================================================
