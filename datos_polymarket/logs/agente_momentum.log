@@ -238,3 +238,22 @@
 2026-05-08 22:39:54,402 | INFO | Abiertas: 6 | Cerradas: 5 | P&L: $+1.06
 2026-05-08 22:39:54,402 | INFO | TP:1 SL:1 Time:3
 2026-05-08 22:39:54,402 | INFO | =======================================================
+2026-05-08 23:40:11,062 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 23:40:11,063 | INFO | =======================================================
+2026-05-08 23:40:11,063 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 23:40:11,063 | INFO | =======================================================
+2026-05-08 23:40:11,164 | INFO | Mercados activos rastreables: 24
+2026-05-08 23:40:11,171 | WARNING | Error salida idx=9: Invalid value 'TAKE_PROFIT' for dtype 'float64'
+2026-05-08 23:40:11,174 | INFO | Señales de momentum: 7 | Cupo: 25
+2026-05-08 23:40:11,718 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 23:40:11,735 | INFO | ✅ NUEVA: COMPRAR YES | Will the Montreal Canadiens win the 2026 | mom=+20.0% (1h=+23.2%) | $20
+2026-05-08 23:40:13,554 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 23:40:13,555 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-08 23:40:14,998 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 23:40:14,999 | INFO | ✅ NUEVA: COMPRAR NO | Will Ken Paxton win the 2026 Texas Repub | mom=-3.5% (1h=-3.5%) | $7.7
+2026-05-08 23:40:16,846 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 23:40:16,852 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 23:40:16,852 | INFO | CICLO #15 | Rastreando 25 mercados
+2026-05-08 23:40:16,852 | INFO | Abiertas: 7 | Cerradas: 6 | P&L: $+3.44
+2026-05-08 23:40:16,852 | INFO | TP:2 SL:1 Time:3
+2026-05-08 23:40:16,852 | INFO | =======================================================
