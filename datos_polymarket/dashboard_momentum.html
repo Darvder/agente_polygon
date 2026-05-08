@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Momentum Agent Dashboard</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+     background:#0f172a;color:#e2e8f0;padding:24px}
+h1{font-size:20px;font-weight:700;color:#f8fafc;margin-bottom:4px}
+.sub0{color:#94a3b8;font-size:12px;margin-bottom:20px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}
+.card{background:#1e293b;border-radius:10px;padding:18px;border:1px solid #334155}
+.lbl{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.val{font-size:24px;font-weight:700;color:#f8fafc}
+.sub{font-size:11px;color:#64748b;margin-top:4px}
+.section{background:#1e293b;border-radius:10px;padding:18px;
+          border:1px solid #334155;margin-bottom:16px}
+.stitle{font-size:14px;font-weight:600;color:#f8fafc;margin-bottom:14px;
+         display:flex;align-items:center;gap:8px}
+table{width:100%;border-collapse:collapse}
+th{text-align:left;font-size:11px;color:#64748b;text-transform:uppercase;
+    padding:7px 10px;border-bottom:1px solid #334155}
+td{padding:8px 10px;border-bottom:1px solid #1a2744;font-size:13px;vertical-align:middle}
+tr:hover td{background:#253349}
+.badge{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600}
+.blue{background:#1e3a5f;color:#93c5fd}
+.green{background:#14532d;color:#86efac}
+@media(max-width:700px){.grid4{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<h1>⚡ Agente Momentum — Polymarket</h1>
+<div class="sub0">2026-05-08 13:27 · TP +8% · SL -5% · Max 8h · Ciclo 15min</div>
+<div class="grid4">
+  <div class="card"><div class="lbl">Capital actual</div>
+    <div class="val">$969</div>
+    <div class="sub">Inicial $1,000 · En riesgo $31</div></div>
+  <div class="card"><div class="lbl">P&L realizado</div>
+    <div class="val" style="color:#16a34a">$+0.00</div>
+    <div class="sub" style="color:#16a34a">+0.00% retorno</div></div>
+  <div class="card"><div class="lbl">Win Rate</div>
+    <div class="val">—</div>
+    <div class="sub">0/0 ops cerradas</div></div>
+  <div class="card"><div class="lbl">Actividad</div>
+    <div class="val" style="font-size:16px">
+      <span style="color:#86efac">TP 0</span> ·
+      <span style="color:#fca5a5">SL 0</span> ·
+      <span style="color:#93c5fd">⏱ 0</span></div>
+    <div class="sub">Ciclo #7 · 2026-05-08 13:27 · 25 mercados</div></div>
+</div>
+<div class="section">
+  <div class="stitle">📌 Abiertas <span class="badge blue">3</span></div>
+  <table><thead><tr><th>Mercado</th><th>Señal</th><th>Momentum</th>
+  <th>Entrada</th><th>Actual</th><th>Var%</th><th>P&L</th><th>Monto</th></tr></thead>
+  <tbody><tr>
+<td style="max-width:220px;font-size:13px">Will the New York Knicks win the 2026 NBA Finals?</td>
+<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
+<td style="color:#16a34a;font-weight:700">+4.5%</td>
+<td>9.3%</td>
+<td>9.2%</td>
+<td style="color:#dc2626;font-weight:600">-1.1%</td>
+<td style="color:#dc2626;font-weight:600">$-0.19</td>
+<td>$18</td></tr><tr>
+<td style="max-width:220px;font-size:13px">New Playboi Carti Album before GTA VI?</td>
+<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
+<td style="color:#16a34a;font-weight:700">+1.8%</td>
+<td>56.0%</td>
+<td>57.5%</td>
+<td style="color:#16a34a;font-weight:600">+2.7%</td>
+<td style="color:#16a34a;font-weight:600">$+0.19</td>
+<td>$7</td></tr><tr>
+<td style="max-width:220px;font-size:13px">Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?</td>
+<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
+<td style="color:#16a34a;font-weight:700">+1.5%</td>
+<td>34.5%</td>
+<td>34.5%</td>
+<td style="color:#16a34a;font-weight:600">+0.0%</td>
+<td style="color:#16a34a;font-weight:600">$+0.00</td>
+<td>$6</td></tr></tbody></table></div>
+
+<div class="section">
+  <div class="stitle">✅ Historial <span class="badge green">0</span></div>
+  <table><thead><tr><th>Mercado</th><th>Señal</th><th>Mom.</th>
+  <th>Cierre</th><th>Var%</th><th>P&L</th><th>Fecha</th></tr></thead>
+  <tbody><tr><td colspan="7" style="text-align:center;color:#6b7280;padding:20px">Sin operaciones cerradas</td></tr></tbody></table></div>
+<div style="text-align:center;color:#475569;font-size:11px;margin-top:14px">
+  Paper Trading · <code>python generar_dashboard_momentum.py</code>
+</div></body></html>

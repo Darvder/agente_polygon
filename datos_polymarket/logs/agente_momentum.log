@@ -97,3 +97,18 @@
 2026-05-08 12:54:31,616 | INFO | Abiertas: 3 | Cerradas: 0 | P&L: $+0.00
 2026-05-08 12:54:31,616 | INFO | TP:0 SL:0 Time:0
 2026-05-08 12:54:31,616 | INFO | =======================================================
+2026-05-08 13:27:17,555 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 13:27:17,555 | INFO | =======================================================
+2026-05-08 13:27:17,555 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 13:27:17,555 | INFO | =======================================================
+2026-05-08 13:27:17,705 | INFO | Mercados activos rastreables: 25
+2026-05-08 13:27:17,712 | INFO | Señales de momentum: 5 | Cupo: 27
+2026-05-08 13:27:18,127 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 13:27:18,147 | INFO | LLM descarta: Will the Anaheim Ducks win the 2026 NHL Stanl
+2026-05-08 13:27:19,456 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 13:27:19,457 | INFO | LLM descarta: Will the Vegas Golden Knights win the 2026 NH
+2026-05-08 13:27:20,459 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 13:27:20,459 | INFO | CICLO #7 | Rastreando 25 mercados
+2026-05-08 13:27:20,459 | INFO | Abiertas: 3 | Cerradas: 0 | P&L: $+0.00
+2026-05-08 13:27:20,459 | INFO | TP:0 SL:0 Time:0
+2026-05-08 13:27:20,459 | INFO | =======================================================
