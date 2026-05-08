@@ -10,3 +10,21 @@
 2026-05-08 04:16:25,368 | INFO | Abiertas: 0 | Cerradas: 0 | P&L: $+0.00
 2026-05-08 04:16:25,368 | INFO | TP:0 SL:0 Time:0
 2026-05-08 04:16:25,368 | INFO | =======================================================
+2026-05-08 06:10:46,814 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 06:10:46,814 | INFO | =======================================================
+2026-05-08 06:10:46,814 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 06:10:46,814 | INFO | =======================================================
+2026-05-08 06:10:47,011 | INFO | Mercados activos rastreables: 25
+2026-05-08 06:10:47,013 | INFO | Señales de momentum: 4 | Cupo: 30
+2026-05-08 06:10:47,379 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 06:10:47,402 | INFO | LLM descarta: Will the Vegas Golden Knights win the 2026 NH
+2026-05-08 06:10:48,647 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 06:10:48,648 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-08 06:10:49,958 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 06:10:50,238 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 06:10:50,239 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-08 06:10:51,240 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 06:10:51,240 | INFO | CICLO #2 | Rastreando 25 mercados
+2026-05-08 06:10:51,240 | INFO | Abiertas: 0 | Cerradas: 0 | P&L: $+0.00
+2026-05-08 06:10:51,240 | INFO | TP:0 SL:0 Time:0
+2026-05-08 06:10:51,240 | INFO | =======================================================
