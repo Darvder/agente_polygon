@@ -28,3 +28,23 @@
 2026-05-08 06:10:51,240 | INFO | Abiertas: 0 | Cerradas: 0 | P&L: $+0.00
 2026-05-08 06:10:51,240 | INFO | TP:0 SL:0 Time:0
 2026-05-08 06:10:51,240 | INFO | =======================================================
+2026-05-08 07:59:19,151 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-08 07:59:19,151 | INFO | =======================================================
+2026-05-08 07:59:19,151 | INFO | CICLO MOMENTUM INICIADO
+2026-05-08 07:59:19,151 | INFO | =======================================================
+2026-05-08 07:59:19,253 | INFO | Mercados activos rastreables: 25
+2026-05-08 07:59:19,256 | INFO | Señales de momentum: 5 | Cupo: 30
+2026-05-08 07:59:19,648 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 07:59:19,667 | INFO | ✅ NUEVA: COMPRAR YES | Will the New York Knicks win the 2026 NB | mom=+4.5% (1h=+6.9%) | $17.84
+2026-05-08 07:59:21,441 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 07:59:21,442 | INFO | ✅ NUEVA: COMPRAR YES | New Playboi Carti Album before GTA VI? | mom=+1.8% (1h=+2.8%) | $7.16
+2026-05-08 07:59:23,248 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 07:59:23,529 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 07:59:23,530 | INFO | LLM descarta: Will the San Antonio Spurs win the 2026 NBA F
+2026-05-08 07:59:24,815 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 07:59:24,816 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-08 07:59:25,820 | INFO | ───────────────────────────────────────────────────────
+2026-05-08 07:59:25,820 | INFO | CICLO #3 | Rastreando 25 mercados
+2026-05-08 07:59:25,820 | INFO | Abiertas: 2 | Cerradas: 0 | P&L: $+0.00
+2026-05-08 07:59:25,821 | INFO | TP:0 SL:0 Time:0
+2026-05-08 07:59:25,821 | INFO | =======================================================
