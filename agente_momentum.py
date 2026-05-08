@@ -35,8 +35,8 @@ TIMEOUT  = 10
 TAKE_PROFIT       = 0.08    # +8% → cerrar con ganancia
 STOP_LOSS         = -0.05   # -5% → cortar pérdida
 MAX_HORAS         = 8       # máx tiempo abierto (intraday real)
-MIN_MOMENTUM_1H   = 0.03    # movimiento mínimo en 1h para señal (3%)
-MIN_MOMENTUM_4H   = 0.05    # movimiento mínimo en 4h (5%)
+MIN_MOMENTUM_1H   = 0.01# movimiento mínimo en 1h para señal (3%)
+MIN_MOMENTUM_4H   = 0.02    # movimiento mínimo en 4h (5%)
 CICLO_HORAS       = 0.10       # frecuencia del ciclo
 
 # ── Filtros de mercado ─────────────────────────────────────────────
@@ -49,7 +49,7 @@ MAX_DIAS_MERCADO  = 180     # mercados hasta 6 meses (la restricción viene del 
 # ── Posiciones ────────────────────────────────────────────────────
 CAPITAL_INICIAL   = 1_000
 CAPITAL_POR_OP    = 20      # pequeño — muchas operaciones, aprender rápido
-MAX_POSICIONES    = 25
+MAX_POSICIONES    = 30
 
 # Excluir solo lo imposible de analizar
 PATRONES_EXCLUIR  = ["jesus","christ","second coming","rapture",
