@@ -426,3 +426,29 @@
 2026-05-09 14:55:23,373 | INFO | Abiertas: 4 | Cerradas: 21 | P&L: $+5.96
 2026-05-09 14:55:23,373 | INFO | TP:5 SL:4 Time:12
 2026-05-09 14:55:23,373 | INFO | =======================================================
+2026-05-09 15:56:57,252 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 15:56:57,252 | INFO | =======================================================
+2026-05-09 15:56:57,252 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 15:56:57,252 | INFO | =======================================================
+2026-05-09 15:56:57,488 | INFO | Mercados activos rastreables: 23
+2026-05-09 15:56:57,496 | WARNING | Error salida idx=22: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 15:56:57,499 | INFO | Señales de momentum: 9 | Cupo: 27
+2026-05-09 15:56:57,933 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:56:57,956 | INFO | ✅ NUEVA: COMPRAR YES | Will the San Antonio Spurs win the 2026  | mom=+4.0% (1h=+4.0%) | $10.86
+2026-05-09 15:56:59,723 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:56:59,724 | INFO | ✅ NUEVA: COMPRAR YES | Will the Vegas Golden Knights win the 20 | mom=+2.4% (1h=+3.2%) | $5.66
+2026-05-09 15:57:01,580 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:57:01,942 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:57:01,943 | INFO | LLM descarta: Will John Cornyn win the 2026 Texas Republica
+2026-05-09 15:57:03,184 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:57:03,185 | INFO | ✅ NUEVA: COMPRAR YES | Will the New York Knicks win the 2026 NB | mom=+2.2% (1h=+2.0%) | $5.9
+2026-05-09 15:57:05,017 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:57:05,018 | INFO | LLM descarta: New Rihanna Album before GTA VI?
+2026-05-09 15:57:06,428 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:57:06,765 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 15:57:06,766 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 15:57:07,771 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 15:57:07,771 | INFO | CICLO #25 | Rastreando 25 mercados
+2026-05-09 15:57:07,772 | INFO | Abiertas: 6 | Cerradas: 22 | P&L: $+5.43
+2026-05-09 15:57:07,772 | INFO | TP:5 SL:4 Time:13
+2026-05-09 15:57:07,772 | INFO | =======================================================
