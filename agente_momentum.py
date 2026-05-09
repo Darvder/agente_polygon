@@ -35,9 +35,9 @@ TIMEOUT  = 10
 # ── Parámetros intraday ────────────────────────────────────────────
 TAKE_PROFIT       = 0.08    # +8% → cerrar con ganancia
 STOP_LOSS         = -0.05   # -5% → cortar pérdida
-MAX_HORAS         = 8       # máx tiempo abierto (intraday real)
-MIN_MOMENTUM_1H   = 0.01# movimiento mínimo en 1h para señal (3%)
-MIN_MOMENTUM_4H   = 0.02    # movimiento mínimo en 4h (5%)
+MAX_HORAS         = 4       # máx tiempo abierto (intraday real)
+MIN_MOMENTUM_1H   = 0.02# movimiento mínimo en 1h para señal (3%)
+MIN_MOMENTUM_4H   = 0.03    # movimiento mínimo en 4h (5%)
 CICLO_HORAS       = 0.10       # frecuencia del ciclo
 
 # ── Filtros de mercado ─────────────────────────────────────────────
