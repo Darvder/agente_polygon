@@ -283,3 +283,27 @@
 2026-05-09 01:24:17,133 | INFO | Abiertas: 8 | Cerradas: 9 | P&L: $+5.04
 2026-05-09 01:24:17,133 | INFO | TP:3 SL:1 Time:5
 2026-05-09 01:24:17,133 | INFO | =======================================================
+2026-05-09 04:50:50,384 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 04:50:50,384 | INFO | =======================================================
+2026-05-09 04:50:50,384 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 04:50:50,384 | INFO | =======================================================
+2026-05-09 04:50:50,612 | INFO | Mercados activos rastreables: 23
+2026-05-09 04:50:50,619 | WARNING | Error salida idx=7: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 04:50:50,620 | WARNING | Error salida idx=10: Invalid value 'TAKE_PROFIT' for dtype 'float64'
+2026-05-09 04:50:50,621 | WARNING | Error salida idx=11: Invalid value 'TAKE_PROFIT' for dtype 'float64'
+2026-05-09 04:50:50,624 | INFO | Señales de momentum: 7 | Cupo: 25
+2026-05-09 04:50:51,093 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 04:50:51,113 | INFO | ✅ NUEVA: COMPRAR YES | New Rihanna Album before GTA VI? | mom=+38.8% (1h=+38.8%) | $20
+2026-05-09 04:50:52,950 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 04:50:52,951 | INFO | ✅ NUEVA: COMPRAR YES | Will the Vegas Golden Knights win the 20 | mom=+30.2% (1h=+30.2%) | $20
+2026-05-09 04:50:54,763 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 04:50:54,764 | INFO | ✅ NUEVA: COMPRAR YES | Will the Montreal Canadiens win the 2026 | mom=+8.2% (1h=+7.9%) | $20
+2026-05-09 04:50:56,671 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 04:50:56,672 | INFO | ✅ NUEVA: COMPRAR YES | Will the San Antonio Spurs win the 2026  | mom=+8.0% (1h=+8.7%) | $20
+2026-05-09 04:50:58,423 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 04:50:58,424 | INFO | ✅ NUEVA: COMPRAR YES | New Playboi Carti Album before GTA VI? | mom=+3.6% (1h=+6.5%) | $11.71
+2026-05-09 04:50:59,929 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 04:50:59,929 | INFO | CICLO #17 | Rastreando 25 mercados
+2026-05-09 04:50:59,929 | INFO | Abiertas: 10 | Cerradas: 12 | P&L: $+10.39
+2026-05-09 04:50:59,929 | INFO | TP:5 SL:1 Time:6
+2026-05-09 04:50:59,929 | INFO | =======================================================
