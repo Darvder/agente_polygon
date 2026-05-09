@@ -492,3 +492,19 @@
 2026-05-09 16:33:29,388 | INFO | Abiertas: 7 | Cerradas: 22 | P&L: $+5.43
 2026-05-09 16:33:29,388 | INFO | TP:5 SL:4 Time:13
 2026-05-09 16:33:29,388 | INFO | =======================================================
+2026-05-09 16:36:46,617 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 16:36:46,618 | INFO | =======================================================
+2026-05-09 16:36:46,618 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 16:36:46,618 | INFO | =======================================================
+2026-05-09 16:36:46,921 | INFO | Mercados activos rastreables: 68
+2026-05-09 16:36:46,930 | INFO | ✅ [TIME_EXIT] Will the Buffalo Sabres win the 2026 NHL Stan | +0.3% | P&L=+0.04$ | 6.5h
+2026-05-09 16:36:46,935 | INFO | Señales de momentum: 7 | Cupo: 24
+2026-05-09 16:36:47,422 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:36:47,443 | INFO | ✅ NUEVA: COMPRAR YES | New Rihanna Album before GTA VI? | mom=+2.3% (1h=+2.3%) | $6.0
+2026-05-09 16:36:49,195 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:36:49,196 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 16:36:50,201 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 16:36:50,201 | INFO | CICLO #28 | Rastreando 70 mercados
+2026-05-09 16:36:50,201 | INFO | Abiertas: 7 | Cerradas: 23 | P&L: $+5.47
+2026-05-09 16:36:50,202 | INFO | TP:5 SL:4 Time:14
+2026-05-09 16:36:50,202 | INFO | =======================================================
