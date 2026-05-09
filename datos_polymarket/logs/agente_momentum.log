@@ -392,3 +392,23 @@
 2026-05-09 12:03:57,945 | INFO | Abiertas: 6 | Cerradas: 18 | P&L: $+5.57
 2026-05-09 12:03:57,945 | INFO | TP:5 SL:4 Time:9
 2026-05-09 12:03:57,945 | INFO | =======================================================
+2026-05-09 13:53:54,667 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 13:53:54,668 | INFO | =======================================================
+2026-05-09 13:53:54,668 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 13:53:54,668 | INFO | =======================================================
+2026-05-09 13:53:54,772 | INFO | Mercados activos rastreables: 23
+2026-05-09 13:53:54,780 | WARNING | Error salida idx=18: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 13:53:54,781 | WARNING | Error salida idx=20: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 13:53:54,782 | WARNING | Error salida idx=21: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 13:53:54,786 | INFO | Señales de momentum: 4 | Cupo: 27
+2026-05-09 13:53:55,198 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 13:53:55,220 | INFO | ✅ NUEVA: COMPRAR YES | Will the Montreal Canadiens win the 2026 | mom=+12.0% (1h=+10.1%) | $20
+2026-05-09 13:53:57,118 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 13:53:57,119 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 13:53:58,430 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 13:53:58,431 | INFO | LLM descarta: Will the Vegas Golden Knights win the 2026 NH
+2026-05-09 13:53:59,437 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 13:53:59,437 | INFO | CICLO #23 | Rastreando 25 mercados
+2026-05-09 13:53:59,437 | INFO | Abiertas: 4 | Cerradas: 21 | P&L: $+5.96
+2026-05-09 13:53:59,437 | INFO | TP:5 SL:4 Time:12
+2026-05-09 13:53:59,438 | INFO | =======================================================
