@@ -452,3 +452,22 @@
 2026-05-09 15:57:07,772 | INFO | Abiertas: 6 | Cerradas: 22 | P&L: $+5.43
 2026-05-09 15:57:07,772 | INFO | TP:5 SL:4 Time:13
 2026-05-09 15:57:07,772 | INFO | =======================================================
+2026-05-09 16:24:32,509 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 16:24:32,510 | INFO | =======================================================
+2026-05-09 16:24:32,510 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 16:24:32,510 | INFO | =======================================================
+2026-05-09 16:24:32,659 | INFO | Mercados activos rastreables: 68
+2026-05-09 16:24:32,670 | INFO | Señales de momentum: 9 | Cupo: 24
+2026-05-09 16:24:33,289 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:24:33,312 | INFO | ✅ NUEVA: COMPRAR YES | Will Ken Paxton win the 2026 Texas Repub | mom=+2.6% (1h=+2.6%) | $6.9
+2026-05-09 16:24:35,040 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:24:35,416 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:24:35,417 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 16:24:36,661 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:24:36,662 | INFO | LLM descarta: New Playboi Carti Album before GTA VI?
+2026-05-09 16:24:38,014 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:24:38,020 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 16:24:38,020 | INFO | CICLO #26 | Rastreando 70 mercados
+2026-05-09 16:24:38,020 | INFO | Abiertas: 7 | Cerradas: 22 | P&L: $+5.43
+2026-05-09 16:24:38,020 | INFO | TP:5 SL:4 Time:13
+2026-05-09 16:24:38,020 | INFO | =======================================================
