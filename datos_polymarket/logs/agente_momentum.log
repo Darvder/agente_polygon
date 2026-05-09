@@ -412,3 +412,17 @@
 2026-05-09 13:53:59,437 | INFO | Abiertas: 4 | Cerradas: 21 | P&L: $+5.96
 2026-05-09 13:53:59,437 | INFO | TP:5 SL:4 Time:12
 2026-05-09 13:53:59,438 | INFO | =======================================================
+2026-05-09 14:55:21,278 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 14:55:21,279 | INFO | =======================================================
+2026-05-09 14:55:21,279 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 14:55:21,279 | INFO | =======================================================
+2026-05-09 14:55:21,538 | INFO | Mercados activos rastreables: 23
+2026-05-09 14:55:21,547 | INFO | Señales de momentum: 4 | Cupo: 26
+2026-05-09 14:55:22,015 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 14:55:22,369 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 14:55:22,370 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 14:55:23,373 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 14:55:23,373 | INFO | CICLO #24 | Rastreando 25 mercados
+2026-05-09 14:55:23,373 | INFO | Abiertas: 4 | Cerradas: 21 | P&L: $+5.96
+2026-05-09 14:55:23,373 | INFO | TP:5 SL:4 Time:12
+2026-05-09 14:55:23,373 | INFO | =======================================================
