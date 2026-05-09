@@ -309,12 +309,13 @@ def ciclo():
         ]["market_id"].astype(str).tolist()
     else:
         recientes = []
-    # Agregar IDs cerrados en este ciclo al bloqueo
+# Agregar IDs cerrados en las últimas 2 horas al bloqueo
+    ahora_str = datetime.now().strftime("%Y-%m-%d %H:%M")
     ids_cerrados_este_ciclo = [
         str(df_libro.loc[idx, "market_id"])
         for idx in df_libro.index
         if df_libro.loc[idx, "estado"] == "CERRADA"
-        and df_libro.loc[idx, "fecha_cierre_real"] == ahora.strftime("%Y-%m-%d %H:%M")
+        and str(df_libro.loc[idx, "fecha_cierre_real"]) == ahora_str
     ]
     recientes += ids_cerrados_este_ciclo
 
