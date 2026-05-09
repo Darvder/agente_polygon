@@ -641,3 +641,31 @@
 2026-05-09 20:42:34,360 | INFO | Abiertas: 11 | Cerradas: 31 | P&L: $+11.89
 2026-05-09 20:42:34,360 | INFO | TP:7 SL:5 Time:19
 2026-05-09 20:42:34,360 | INFO | =======================================================
+2026-05-09 21:01:34,812 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 21:01:34,812 | INFO | =======================================================
+2026-05-09 21:01:34,812 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 21:01:34,812 | INFO | =======================================================
+2026-05-09 21:01:35,091 | INFO | Mercados activos rastreables: 69
+2026-05-09 21:01:35,108 | INFO | Señales de momentum: 19 | Cupo: 19
+2026-05-09 21:01:35,654 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:35,667 | INFO | ✅ NUEVA: COMPRAR NO | Will Paloma Valencia win the 2026 Colomb | mom=-10.2% (1h=-17.7%) | $14.21
+2026-05-09 21:01:37,475 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:37,476 | INFO | LLM descarta: Will the Detroit Pistons win the NBA Eastern 
+2026-05-09 21:01:38,766 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:38,767 | INFO | LLM descarta: New Rihanna Album before GTA VI?
+2026-05-09 21:01:40,238 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:40,239 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 21:01:41,239 | INFO | Anti re-entrada: Will the Vegas Golden Knights win the 20
+2026-05-09 21:01:41,591 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:41,592 | INFO | LLM descarta: Will Arsenal win the 2025–26 English Premier 
+2026-05-09 21:01:42,921 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:42,922 | INFO | LLM descarta: Will the Democratic Party control the Senate 
+2026-05-09 21:01:44,226 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:44,227 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-09 21:01:45,629 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:01:45,630 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-09 21:01:46,636 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 21:01:46,636 | INFO | CICLO #34 | Rastreando 72 mercados
+2026-05-09 21:01:46,636 | INFO | Abiertas: 12 | Cerradas: 31 | P&L: $+11.89
+2026-05-09 21:01:46,636 | INFO | TP:7 SL:5 Time:19
+2026-05-09 21:01:46,637 | INFO | =======================================================
