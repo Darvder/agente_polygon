@@ -386,14 +386,14 @@ def ciclo():
                 log.info(f"Anti re-entrada: {m['pregunta'][:40]}")
                 continue
           # Cap de exposición por mercado
-    if not df_libro.empty:
-        expuesto = df_libro[
-            (df_libro["estado"] == "ABIERTA") &
-            (df_libro["market_id"].astype(str) == str(m["id"]))
-        ]["monto_usdc"].sum()
-        if expuesto >= MAX_EXPOSICION_MERCADO:
-            log.info(f"Cap mercado: {m['pregunta'][:40]} — ${expuesto:.0f} expuesto")
-            continue
+            if not df_libro.empty:
+                expuesto = df_libro[
+                    (df_libro["estado"] == "ABIERTA") &
+                    (df_libro["market_id"].astype(str) == str(m["id"]))
+                ]["monto_usdc"].sum()
+                if expuesto >= MAX_EXPOSICION_MERCADO:
+                    log.info(f"Cap mercado: {m['pregunta'][:40]} — ${expuesto:.0f} expuesto")
+                    continue
 
             # ── LLM: sanity check rápido (opcional pero útil) ──
             # Pregunta concisa: ¿tiene sentido este movimiento?
