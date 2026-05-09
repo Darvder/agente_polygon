@@ -269,6 +269,8 @@ def verificar_salidas(df_libro, estado, mercados_actuales):
                 df_libro.loc[idx, "precio_cierre"]     = p_token_a
                 df_libro.loc[idx, "pct_cambio"]        = round(pct, 4)
                 df_libro.loc[idx, "pnl_realizado"]     = pnl
+                df_libro["razon_cierre"] = df_libro["razon_cierre"].astype(str)
+                df_libro["fecha_cierre_real"] = df_libro["fecha_cierre_real"].astype(str)
                 df_libro.loc[idx, "razon_cierre"]      = razon
                 df_libro.loc[idx, "fecha_cierre_real"] = ahora.strftime("%Y-%m-%d %H:%M")
                 estado["capital_actual"]    = estado.get("capital_actual", CAPITAL_INICIAL) \
