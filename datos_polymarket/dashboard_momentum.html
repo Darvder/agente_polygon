@@ -1,389 +1,530 @@
-<!DOCTYPE html><html lang="es"><head>
+<!DOCTYPE html>
+<html lang="es"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Momentum Agent Dashboard</title>
+<meta http-equiv="refresh" content="300">
+<title>Agente Momentum · Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-     background:#0f172a;color:#e2e8f0;padding:24px}
-h1{font-size:20px;font-weight:700;color:#f8fafc;margin-bottom:4px}
-.sub0{color:#94a3b8;font-size:12px;margin-bottom:20px}
-.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}
-.card{background:#1e293b;border-radius:10px;padding:18px;border:1px solid #334155}
-.lbl{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
-.val{font-size:24px;font-weight:700;color:#f8fafc}
-.sub{font-size:11px;color:#64748b;margin-top:4px}
-.section{background:#1e293b;border-radius:10px;padding:18px;
-          border:1px solid #334155;margin-bottom:16px}
-.stitle{font-size:14px;font-weight:600;color:#f8fafc;margin-bottom:14px;
-         display:flex;align-items:center;gap:8px}
-table{width:100%;border-collapse:collapse}
-th{text-align:left;font-size:11px;color:#64748b;text-transform:uppercase;
-    padding:7px 10px;border-bottom:1px solid #334155}
-td{padding:8px 10px;border-bottom:1px solid #1a2744;font-size:13px;vertical-align:middle}
-tr:hover td{background:#253349}
-.badge{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600}
-.blue{background:#1e3a5f;color:#93c5fd}
-.green{background:#14532d;color:#86efac}
-@media(max-width:700px){.grid4{grid-template-columns:repeat(2,1fr)}}
-</style></head><body>
-<h1>⚡ Agente Momentum — Polymarket</h1>
-<div class="sub0">2026-05-09 21:34 · TP +8% · SL -5% · Max 8h · Ciclo 15min</div>
-<div class="grid4">
-  <div class="card"><div class="lbl">Capital actual</div>
-    <div class="val">$545</div>
-    <div class="sub">Inicial $1,000 · En riesgo $460</div></div>
-  <div class="card"><div class="lbl">P&L realizado</div>
-    <div class="val" style="color:#16a34a">$+11.32</div>
-    <div class="sub" style="color:#16a34a">+1.13% retorno</div></div>
-  <div class="card"><div class="lbl">Win Rate</div>
-    <div class="val">62%</div>
-    <div class="sub">20/32 ops cerradas</div></div>
-  <div class="card"><div class="lbl">Actividad</div>
-    <div class="val" style="font-size:16px">
-      <span style="color:#86efac">TP 7</span> ·
-      <span style="color:#fca5a5">SL 6</span> ·
-      <span style="color:#93c5fd">⏱ 19</span></div>
-    <div class="sub">Ciclo #36 · 2026-05-09 21:34 · 72 mercados</div></div>
+* { box-sizing:border-box; margin:0; padding:0 }
+body { font-family:'DM Sans',sans-serif; background:#060b14; color:#e2e8f0;
+       min-height:100vh; padding:28px; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+@keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+.fade { animation: fadeIn .4s ease both }
+.kpis { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; margin-bottom:22px }
+.kpi { background:#0d1829; border:1px solid #162033; border-radius:12px; padding:18px;
+        position:relative; overflow:hidden }
+.kpi::after { content:''; position:absolute; top:0; left:0; right:0; height:1px;
+               background:var(--a,#1e293b) }
+.kpi.g { --a:#10b981 } .kpi.r { --a:#ef4444 } .kpi.b { --a:#3b82f6 }
+.kl { font-size:10px; color:#475569; text-transform:uppercase; letter-spacing:.1em; margin-bottom:8px }
+.kv { font-family:'Space Mono',monospace; font-size:24px; font-weight:700; line-height:1 }
+.ks { font-size:11px; color:#334155; margin-top:6px }
+.card { background:#0d1829; border:1px solid #162033; border-radius:12px; padding:20px; margin-bottom:18px }
+.ct { font-size:11px; font-weight:600; color:#475569; text-transform:uppercase;
+       letter-spacing:.1em; margin-bottom:16px; display:flex; align-items:center; gap:8px }
+.badge { display:inline-block; padding:2px 8px; border-radius:99px; font-size:10px; font-weight:700 }
+.grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:12px }
+.live { display:inline-flex; align-items:center; gap:5px; font-size:10px; color:#10b981 }
+.dot { width:5px; height:5px; border-radius:50%; background:#10b981; animation:pulse 2s infinite }
+@media(max-width:700px){ .kpis{grid-template-columns:repeat(2,1fr)} .grid3{grid-template-columns:1fr} }
+</style></head>
+<body>
+
+<!-- Header -->
+<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px" class="fade">
+  <div>
+    <div style="font-size:11px;color:#334155;font-family:'Space Mono',monospace;margin-bottom:6px">POLYMARKET · PAPER TRADING</div>
+    <h1 style="font-size:30px;font-weight:700;letter-spacing:-1px">
+      Agente <span style="color:#10b981">Momentum</span>
+    </h1>
+    <div style="font-size:12px;color:#334155;margin-top:4px">Ciclo #37 · 72 mercados rastreados</div>
+  </div>
+  <div style="text-align:right;font-size:11px;color:#334155;line-height:2">
+    <div class="live"><span class="dot"></span> Auto-refresh 5min</div>
+    <div>Último ciclo: 2026-05-09 21:51</div>
+    <div>TP +8% · SL -5% · Max 4h</div>
+  </div>
 </div>
-<div class="section">
-  <div class="stitle">📌 Abiertas <span class="badge blue">12</span></div>
-  <table><thead><tr><th>Mercado</th><th>Señal</th><th>Momentum</th>
-  <th>Entrada</th><th>Actual</th><th>Var%</th><th>P&L</th><th>Monto</th></tr></thead>
-  <tbody><tr>
-<td style="max-width:220px;font-size:13px">Will the Anaheim Ducks win the 2026 NHL Stanley Cup?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+2.4%</td>
-<td>4.2%</td>
-<td>4.2%</td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td>$6</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will the Republican Party control the House after the 2026 M</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+6.0%</td>
-<td>23.5%</td>
-<td>23.5%</td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td>$16</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will Arsenal finish in 2nd place in the 2025-26 English Prem</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+17.9%</td>
-<td>25.5%</td>
-<td>25.5%</td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td>$20</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will Manchester City win the 2025–26 English Premier League?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+11.6%</td>
-<td>26.5%</td>
-<td>26.5%</td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td>$20</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will Manchester City finish in 2nd place in the 2025-26 Engl</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+7.7%</td>
-<td>75.5%</td>
-<td>74.5%</td>
-<td style="color:#dc2626;font-weight:600">-1.3%</td>
-<td style="color:#dc2626;font-weight:600">$-0.26</td>
-<td>$20</td></tr><tr>
-<td style="max-width:220px;font-size:13px">2026 Balance of Power: R Senate, R House</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+3.0%</td>
-<td>22.5%</td>
-<td>22.5%</td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td>$8</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will the Republican Party control the Senate after the 2026 </td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+2.4%</td>
-<td>56.5%</td>
-<td>54.5%</td>
-<td style="color:#dc2626;font-weight:600">-3.5%</td>
-<td style="color:#dc2626;font-weight:600">$-0.19</td>
-<td>$5</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Callum Turner announced as next James Bond?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+9.2%</td>
-<td>7.1%</td>
-<td>6.9%</td>
-<td style="color:#dc2626;font-weight:600">-3.5%</td>
-<td style="color:#dc2626;font-weight:600">$-0.70</td>
-<td>$20</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will the San Antonio Spurs win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+5.4%</td>
-<td>21.1%</td>
-<td>21.1%</td>
-<td style="color:#dc2626;font-weight:600">-0.2%</td>
-<td style="color:#dc2626;font-weight:600">$-0.03</td>
-<td>$13</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will the Cleveland Cavaliers win the NBA Eastern Conference </td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+23.5%</td>
-<td>10.5%</td>
-<td>10.0%</td>
-<td style="color:#dc2626;font-weight:600">-4.8%</td>
-<td style="color:#dc2626;font-weight:600">$-0.95</td>
-<td>$20</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will Paloma Valencia win the 2026 Colombian presidential ele</td>
-<td><span style="color:#dc2626;font-weight:700">COMPRAR NO</span></td>
-<td style="color:#dc2626;font-weight:700">-10.2%</td>
-<td>16.8%</td>
-<td>16.8%</td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td>$14</td></tr><tr>
-<td style="max-width:220px;font-size:13px">Will the Democratic Party control the Senate after the 2026 </td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a;font-weight:700">+4.2%</td>
-<td>46.5%</td>
-<td>46.5%</td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td>$8</td></tr></tbody></table></div>
-<div class="section">
-  <div class="stitle">📊 Análisis de salidas</div>
-  <table><thead><tr><th>Tipo</th><th style="text-align:center">Ops</th>
-  <th style="text-align:center">Win%</th><th>P&L</th></tr></thead>
-  <tbody><tr><td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#14532d;color:#86efac">TP ✅</span></td><td style="text-align:center">2</td><td style="text-align:center">100%</td><td style="color:#16a34a;font-weight:600">$+5.67</td></tr><tr><td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#450a0a;color:#fca5a5">SL ❌</span></td><td style="text-align:center">2</td><td style="text-align:center">0%</td><td style="color:#dc2626;font-weight:600">$-0.88</td></tr><tr><td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#1e3a5f;color:#93c5fd">⏱ Tiempo</span></td><td style="text-align:center">6</td><td style="text-align:center">100%</td><td style="color:#16a34a;font-weight:600">$+1.10</td></tr></tbody></table><div style="margin-top:12px;padding:10px;background:#0f172a;border-radius:8px;font-size:12px;color:#94a3b8">
-  💡 Momentum promedio ganadoras: <span style="color:#86efac">+5.0%</span> ·
-  Perdedoras: <span style="color:#fca5a5">+11.0%</span>
-  · Señal: momentum no predice bien aún
+
+<!-- KPIs -->
+<div class="kpis fade">
+  <div class="kpi g">
+    <div class="kl">P&L Total</div>
+    <div class="kv" style="color:#10b981">+11.32$</div>
+    <div class="ks">+1.13% retorno</div>
+  </div>
+  <div class="kpi b">
+    <div class="kl">Capital</div>
+    <div class="kv">545$</div>
+    <div class="ks">En riesgo 460$</div>
+  </div>
+  <div class="kpi">
+    <div class="kl">Win Rate</div>
+    <div class="kv">62%</div>
+    <div class="ks">20/32 cerradas</div>
+  </div>
+  <div class="kpi">
+    <div class="kl">Avg Win / Loss</div>
+    <div style="margin-top:4px">
+      <span style="color:#10b981;font-size:18px;font-weight:700;font-family:'Space Mono',monospace">+0.99$</span>
+      <span style="color:#334155;font-size:12px"> / </span>
+      <span style="color:#ef4444;font-size:18px;font-weight:700;font-family:'Space Mono',monospace">-0.70$</span>
+    </div>
+    <div class="ks">por operación</div>
+  </div>
+  <div class="kpi">
+    <div class="kl">TP · SL · ⏱</div>
+    <div style="margin-top:6px;font-size:16px;font-weight:700">
+      <span style="color:#10b981">7</span>
+      <span style="color:#334155;font-size:12px;margin:0 4px">·</span>
+      <span style="color:#ef4444">6</span>
+      <span style="color:#334155;font-size:12px;margin:0 4px">·</span>
+      <span style="color:#3b82f6">19</span>
+    </div>
+    <div class="ks">ratio TP/SL 1.17</div>
+  </div>
+</div>
+
+<!-- Chart -->
+<div class="card fade">
+  <div class="ct">📈 P&L Acumulado</div>
+  <div style="height:160px;position:relative"><canvas id="chart"></canvas></div>
+</div>
+
+<!-- Abiertas -->
+<div class="card fade">
+  <div class="ct">
+    📌 Posiciones Abiertas
+    <span class="badge" style="background:#1e3a5f;color:#93c5fd">12</span>
+    <span style="font-size:10px;font-weight:400;color:#334155">barra → SL (-5%) hasta TP (+8%)</span>
+  </div>
+  <div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will the Anaheim Ducks win the 2026 NHL Stanley Cup?</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +2.4%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 4.2% · Actual 4.2% · $6</span>
+    <span style="color:#10b981;font-weight:700">+0.00$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:38.5%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">+0.0%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will the Republican Party control the House after the 2026</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +6.0%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 23.5% · Actual 23.5% · $16</span>
+    <span style="color:#10b981;font-weight:700">+0.00$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:38.5%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">+0.0%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will Arsenal finish in 2nd place in the 2025-26 English Pr</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +17.9%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 25.5% · Actual 25.5% · $20</span>
+    <span style="color:#10b981;font-weight:700">+0.00$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:38.5%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">+0.0%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will Manchester City win the 2025–26 English Premier Leagu</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +11.6%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 26.5% · Actual 26.5% · $20</span>
+    <span style="color:#10b981;font-weight:700">+0.00$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:38.5%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">+0.0%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will Manchester City finish in 2nd place in the 2025-26 En</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +7.7%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 75.5% · Actual 74.5% · $20</span>
+    <span style="color:#ef4444;font-weight:700">-0.26$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:28.3%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">-1.3%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">2026 Balance of Power: R Senate, R House</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +3.0%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 22.5% · Actual 22.5% · $8</span>
+    <span style="color:#10b981;font-weight:700">+0.00$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:38.5%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">+0.0%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will the Republican Party control the Senate after the 202</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +2.4%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 56.5% · Actual 54.5% · $5</span>
+    <span style="color:#ef4444;font-weight:700">-0.19$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:11.2%;top:-5px;width:15px;height:15px;background:#ef4444;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #ef444499"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#ef4444;font-weight:700">-3.5%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Callum Turner announced as next James Bond?</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +9.2%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 7.1% · Actual 6.9% · $20</span>
+    <span style="color:#ef4444;font-weight:700">-0.70$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:11.4%;top:-5px;width:15px;height:15px;background:#ef4444;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #ef444499"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#ef4444;font-weight:700">-3.5%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will the San Antonio Spurs win the 2026 NBA Finals?</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +5.4%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 21.1% · Actual 21.1% · $13</span>
+    <span style="color:#ef4444;font-weight:700">-0.03$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:36.6%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">-0.2%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will the Cleveland Cavaliers win the NBA Eastern Conferenc</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +23.5%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 10.5% · Actual 10.0% · $20</span>
+    <span style="color:#ef4444;font-weight:700">-0.95$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:1.8%;top:-5px;width:15px;height:15px;background:#ef4444;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #ef444499"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#ef4444;font-weight:700">-4.8%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will Paloma Valencia win the 2026 Colombian presidential e</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#ef4444;font-weight:700">COMPRAR NO</span>
+      <span style="color:#475569;margin-left:6px">mom -10.2%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 16.8% · Actual 16.8% · $14</span>
+    <span style="color:#10b981;font-weight:700">+0.00$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:38.5%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">+0.0%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;padding:14px;margin-bottom:10px">
+  <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+    <div style="font-size:13px;color:#cbd5e1;font-weight:500;max-width:68%">Will the Democratic Party control the Senate after the 202</div>
+    <div style="text-align:right;font-size:11px">
+      <span style="color:#10b981;font-weight:700">COMPRAR YES</span>
+      <span style="color:#475569;margin-left:6px">mom +4.2%</span>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:#475569">
+    <span>Entrada 46.5% · Actual 46.5% · $8</span>
+    <span style="color:#10b981;font-weight:700">+0.00$</span>
+  </div>
+  <div style="position:relative;height:5px;background:#162033;border-radius:3px;margin:8px 0 4px">
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:13px;background:#ef4444;border-radius:1px"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:13px;background:#10b981;border-radius:1px"></div>
+  <div style="position:absolute;left:38.5%;top:-5px;width:15px;height:15px;background:#f59e0b;
+              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;box-shadow:0 0 8px #f59e0b99"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;margin-top:10px">
+  <span style="color:#ef4444">SL -5%</span>
+  <span style="color:#f59e0b;font-weight:700">+0.0%</span>
+  <span style="color:#10b981">TP +8%</span>
+</div>
+</div>
+</div>
+
+<!-- Exit stats -->
+<div class="card fade">
+  <div class="ct">📊 Rendimiento por tipo de salida</div>
+  <div class="grid3"><div style="background:#060b14;border:1px solid #162033;border-radius:10px;
+padding:16px;text-align:center">
+  <div style="color:#10b981;font-weight:700;font-size:13px;margin-bottom:8px">TP ✅</div>
+  <div style="font-size:28px;font-weight:800;color:#f1f5f9;font-family:'Space Mono',monospace">2</div>
+  <div style="font-size:11px;color:#475569;margin:4px 0">100% ganadoras</div>
+  <div style="font-size:15px;font-weight:700;color:#10b981">+5.67$</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;
+padding:16px;text-align:center">
+  <div style="color:#ef4444;font-weight:700;font-size:13px;margin-bottom:8px">SL ❌</div>
+  <div style="font-size:28px;font-weight:800;color:#f1f5f9;font-family:'Space Mono',monospace">2</div>
+  <div style="font-size:11px;color:#475569;margin:4px 0">0% ganadoras</div>
+  <div style="font-size:15px;font-weight:700;color:#ef4444">-0.88$</div>
+</div><div style="background:#060b14;border:1px solid #162033;border-radius:10px;
+padding:16px;text-align:center">
+  <div style="color:#3b82f6;font-weight:700;font-size:13px;margin-bottom:8px">⏱ Tiempo</div>
+  <div style="font-size:28px;font-weight:800;color:#f1f5f9;font-family:'Space Mono',monospace">6</div>
+  <div style="font-size:11px;color:#475569;margin:4px 0">100% ganadoras</div>
+  <div style="font-size:15px;font-weight:700;color:#10b981">+1.10$</div>
 </div></div>
-<div class="section">
-  <div class="stitle">✅ Historial <span class="badge green">32</span></div>
-  <table><thead><tr><th>Mercado</th><th>Señal</th><th>Mom.</th>
-  <th>Cierre</th><th>Var%</th><th>P&L</th><th>Fecha</th></tr></thead>
-  <tbody><tr>
-<td style="max-width:200px;font-size:13px">Will Abelardo de la Espriella win the 1st round of the </td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+3.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#450a0a;color:#fca5a5">SL ❌</span></td>
-<td style="color:#dc2626;font-weight:600">-7.0%</td>
-<td style="color:#dc2626;font-weight:600">$-0.57</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 21:34</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Cleveland Cavaliers win the NBA Eastern Confer</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+11.8%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#14532d;color:#86efac">TP ✅</span></td>
-<td style="color:#16a34a;font-weight:600">+10.5%</td>
-<td style="color:#16a34a;font-weight:600">$+2.11</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 20:42</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the San Antonio Spurs win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+4.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#1e3a5f;color:#93c5fd">⏱ Tiempo</span></td>
-<td style="color:#16a34a;font-weight:600">+2.4%</td>
-<td style="color:#16a34a;font-weight:600">$+0.26</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 20:27</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Vegas Golden Knights win the 2026 NHL Stanley </td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.4%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#1e3a5f;color:#93c5fd">⏱ Tiempo</span></td>
-<td style="color:#16a34a;font-weight:600">+0.4%</td>
-<td style="color:#16a34a;font-weight:600">$+0.03</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 20:27</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the New York Knicks win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.2%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#1e3a5f;color:#93c5fd">⏱ Tiempo</span></td>
-<td style="color:#16a34a;font-weight:600">+4.9%</td>
-<td style="color:#16a34a;font-weight:600">$+0.29</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 20:27</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will Ken Paxton win the 2026 Texas Republican Primary?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.6%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#1e3a5f;color:#93c5fd">⏱ Tiempo</span></td>
-<td style="color:#16a34a;font-weight:600">+0.9%</td>
-<td style="color:#16a34a;font-weight:600">$+0.06</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 20:27</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will Manchester City win the 2025–26 English Premier Le</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+21.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#14532d;color:#86efac">TP ✅</span></td>
-<td style="color:#16a34a;font-weight:600">+17.8%</td>
-<td style="color:#16a34a;font-weight:600">$+3.56</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 19:34</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Montreal Canadiens win the 2026 NHL Stanley Cu</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+12.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#1e3a5f;color:#93c5fd">⏱ Tiempo</span></td>
-<td style="color:#16a34a;font-weight:600">+2.1%</td>
-<td style="color:#16a34a;font-weight:600">$+0.42</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 18:05</td></tr><tr>
-<td style="max-width:200px;font-size:13px">New Rihanna Album before GTA VI?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.3%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#450a0a;color:#fca5a5">SL ❌</span></td>
-<td style="color:#dc2626;font-weight:600">-5.2%</td>
-<td style="color:#dc2626;font-weight:600">$-0.31</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 18:05</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Buffalo Sabres win the 2026 NHL Stanley Cup?</td>
-<td><span style="color:#dc2626;font-weight:700">COMPRAR NO</span></td>
-<td style="color:#dc2626">-4.5%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#1e3a5f;color:#93c5fd">⏱ Tiempo</span></td>
-<td style="color:#16a34a;font-weight:600">+0.3%</td>
-<td style="color:#16a34a;font-weight:600">$+0.04</td>
-<td style="font-size:11px;color:#6b7280">2026-05-09 16:36</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the New York Knicks win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+4.5%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+2.1%</td>
-<td style="color:#16a34a;font-weight:600">$+0.38</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">New Playboi Carti Album before GTA VI?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+1.8%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+0.9%</td>
-<td style="color:#16a34a;font-weight:600">$+0.06</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Carolina Hurricanes win the 2026 NHL Stanley C</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+1.5%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Montreal Canadiens win the 2026 NHL Stanley Cu</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+1.8%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+30.1%</td>
-<td style="color:#16a34a;font-weight:600">$+2.11</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the New York Knicks win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.9%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+10.5%</td>
-<td style="color:#16a34a;font-weight:600">$+1.15</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will John Cornyn win the 2026 Texas Republican Primary?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.6%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+7.6%</td>
-<td style="color:#16a34a;font-weight:600">$+0.67</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">New Playboi Carti Album before GTA VI?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.1%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-4.4%</td>
-<td style="color:#dc2626;font-weight:600">$-0.22</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the San Antonio Spurs win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+4.2%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+6.3%</td>
-<td style="color:#16a34a;font-weight:600">$+0.87</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Montreal Canadiens win the 2026 NHL Stanley Cu</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+32.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-7.4%</td>
-<td style="color:#dc2626;font-weight:600">$-1.49</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Montreal Canadiens win the 2026 NHL Stanley Cu</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+3.2%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+23.2%</td>
-<td style="color:#16a34a;font-weight:600">$+2.38</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">New Rihanna Album before GTA VI?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.2%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+33.6%</td>
-<td style="color:#16a34a;font-weight:600">$+2.74</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Montreal Canadiens win the 2026 NHL Stanley Cu</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+20.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+8.7%</td>
-<td style="color:#16a34a;font-weight:600">$+1.74</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will Ken Paxton win the 2026 Texas Republican Primary?</td>
-<td><span style="color:#dc2626;font-weight:700">COMPRAR NO</span></td>
-<td style="color:#dc2626">-3.5%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-2.2%</td>
-<td style="color:#dc2626;font-weight:600">$-0.17</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the New York Knicks win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+8.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-7.6%</td>
-<td style="color:#dc2626;font-weight:600">$-1.52</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Buffalo Sabres win the 2026 NHL Stanley Cup?</td>
-<td><span style="color:#dc2626;font-weight:700">COMPRAR NO</span></td>
-<td style="color:#dc2626">-5.9%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+0.7%</td>
-<td style="color:#16a34a;font-weight:600">$+0.08</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will John Cornyn win the 2026 Texas Republican Primary?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+2.7%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+2.4%</td>
-<td style="color:#16a34a;font-weight:600">$+0.19</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">New Rihanna Album before GTA VI?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+38.8%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-7.0%</td>
-<td style="color:#dc2626;font-weight:600">$-1.40</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Vegas Golden Knights win the 2026 NHL Stanley </td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+30.2%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-0.9%</td>
-<td style="color:#dc2626;font-weight:600">$-0.18</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the Montreal Canadiens win the 2026 NHL Stanley Cu</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+8.2%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-10.0%</td>
-<td style="color:#dc2626;font-weight:600">$-2.00</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">Will the San Antonio Spurs win the 2026 NBA Finals?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+8.0%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+2.9%</td>
-<td style="color:#16a34a;font-weight:600">$+0.57</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">New Playboi Carti Album before GTA VI?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+3.6%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#16a34a;font-weight:600">+0.0%</td>
-<td style="color:#16a34a;font-weight:600">$+0.00</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr><tr>
-<td style="max-width:200px;font-size:13px">New Rihanna Album before GTA VI?</td>
-<td><span style="color:#16a34a;font-weight:700">COMPRAR YES</span></td>
-<td style="color:#16a34a">+5.7%</td>
-<td><span style="padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;background:#334155;color:#94a3b8">nan</span></td>
-<td style="color:#dc2626;font-weight:600">-3.8%</td>
-<td style="color:#dc2626;font-weight:600">$-0.53</td>
-<td style="font-size:11px;color:#6b7280">nan</td></tr></tbody></table></div>
-<div style="text-align:center;color:#475569;font-size:11px;margin-top:14px">
-  Paper Trading · <code>python generar_dashboard_momentum.py</code>
-</div></body></html>
+</div>
+
+<!-- Historial -->
+<div class="card fade">
+  <div class="ct">🕐 Últimas operaciones <span class="badge" style="background:#14532d;color:#86efac">32</span></div>
+  <div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will Abelardo de la Espriella win the 1st round of</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#450a0a;color:#fca5a5">SL ❌</span>
+  <span style="color:#ef4444;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">-0.57$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the Cleveland Cavaliers win the NBA Eastern C</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#14532d;color:#86efac">TP ✅</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+2.11$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the San Antonio Spurs win the 2026 NBA Finals</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e3a5f;color:#93c5fd">⏱ Time</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.26$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the Vegas Golden Knights win the 2026 NHL Sta</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e3a5f;color:#93c5fd">⏱ Time</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.03$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the New York Knicks win the 2026 NBA Finals?</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e3a5f;color:#93c5fd">⏱ Time</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.29$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will Ken Paxton win the 2026 Texas Republican Prim</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e3a5f;color:#93c5fd">⏱ Time</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.06$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will Manchester City win the 2025–26 English Premi</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#14532d;color:#86efac">TP ✅</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+3.56$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the Montreal Canadiens win the 2026 NHL Stanl</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e3a5f;color:#93c5fd">⏱ Time</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.42$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">New Rihanna Album before GTA VI?</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#450a0a;color:#fca5a5">SL ❌</span>
+  <span style="color:#ef4444;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">-0.31$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the Buffalo Sabres win the 2026 NHL Stanley C</div>
+  <span style="font-size:10px;color:#ef4444;font-weight:600">COMPRAR NO</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e3a5f;color:#93c5fd">⏱ Time</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.04$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the New York Knicks win the 2026 NBA Finals?</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e293b;color:#64748b">nan</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.38$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">New Playboi Carti Album before GTA VI?</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e293b;color:#64748b">nan</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.06$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the Carolina Hurricanes win the 2026 NHL Stan</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e293b;color:#64748b">nan</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+0.00$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the Montreal Canadiens win the 2026 NHL Stanl</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e293b;color:#64748b">nan</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+2.11$</span>
+</div><div style="display:grid;grid-template-columns:1fr auto auto auto;gap:10px;
+align-items:center;padding:9px 0;border-bottom:1px solid #0d1829">
+  <div style="font-size:12px;color:#64748b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Will the New York Knicks win the 2026 NBA Finals?</div>
+  <span style="font-size:10px;color:#10b981;font-weight:600">COMPRAR YES</span>
+  <span style="padding:2px 7px;border-radius:99px;font-size:10px;font-weight:700;background:#1e293b;color:#64748b">nan</span>
+  <span style="color:#10b981;font-weight:700;font-size:13px;font-family:'Space Mono',monospace">+1.15$</span>
+</div>
+</div>
+
+<div style="text-align:center;color:#162033;font-size:10px;margin-top:16px;font-family:'Space Mono',monospace">
+  AGENTE MOMENTUM · 2026-05-09 21:51
+</div>
+
+<script>
+const labels=["2026-05-09 16:36", "2026-05-09 18:05", "2026-05-09 18:05", "2026-05-09 19:34", "2026-05-09 20:27", "2026-05-09 20:27", "2026-05-09 20:27", "2026-05-09 20:27", "2026-05-09 20:42", "2026-05-09 21:34"], values=[0.04, 0.46, 0.15, 3.71, 3.97, 4.0, 4.29, 4.35, 6.46, 5.89];
+if(labels.length>0){
+  const ctx=document.getElementById('chart').getContext('2d');
+  const g=ctx.createLinearGradient(0,0,0,160);
+  g.addColorStop(0,'#10b98144'); g.addColorStop(1,'#10b98100');
+  new Chart(ctx,{
+    type:'line',
+    data:{labels,datasets:[{data:values,borderColor:'#10b981',backgroundColor:g,
+      borderWidth:2,pointRadius:values.map((_,i)=>i===values.length-1?5:0),
+      pointBackgroundColor:'#10b981',fill:true,tension:0.4}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{backgroundColor:'#0d1829',
+        borderColor:'#162033',borderWidth:1,bodyColor:'#f8fafc',
+        callbacks:{label:c=>' $'+c.parsed.y.toFixed(2)}}},
+      scales:{x:{display:false},y:{grid:{color:'#0d1829'},
+        ticks:{color:'#334155',font:{family:'Space Mono',size:10},
+        callback:v=>'$'+v.toFixed(1)}}}}
+  });
+} else {
+  document.getElementById('chart').parentElement.innerHTML=
+    '<div style="display:flex;align-items:center;justify-content:center;height:160px;color:#1e293b;font-size:12px">Sin datos de cierre aún</div>';
+}
+</script>
+</body></html>
