@@ -365,3 +365,16 @@
 2026-05-09 10:09:27,760 | INFO | Abiertas: 6 | Cerradas: 18 | P&L: $+5.57
 2026-05-09 10:09:27,760 | INFO | TP:5 SL:4 Time:9
 2026-05-09 10:09:27,760 | INFO | =======================================================
+2026-05-09 11:12:21,762 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 11:12:21,762 | INFO | =======================================================
+2026-05-09 11:12:21,762 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 11:12:21,762 | INFO | =======================================================
+2026-05-09 11:12:21,955 | INFO | Mercados activos rastreables: 23
+2026-05-09 11:12:21,965 | INFO | Señales de momentum: 5 | Cupo: 24
+2026-05-09 11:12:22,332 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 11:12:22,700 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 11:12:22,703 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 11:12:22,703 | INFO | CICLO #21 | Rastreando 25 mercados
+2026-05-09 11:12:22,703 | INFO | Abiertas: 6 | Cerradas: 18 | P&L: $+5.57
+2026-05-09 11:12:22,703 | INFO | TP:5 SL:4 Time:9
+2026-05-09 11:12:22,703 | INFO | =======================================================
