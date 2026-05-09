@@ -784,3 +784,37 @@
 2026-05-09 22:08:31,028 | INFO | Abiertas: 11 | Cerradas: 34 | P&L: $+10.09
 2026-05-09 22:08:31,028 | INFO | TP:7 SL:7 Time:20
 2026-05-09 22:08:31,028 | INFO | =======================================================
+2026-05-09 23:06:34,533 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 23:06:34,534 | INFO | =======================================================
+2026-05-09 23:06:34,534 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 23:06:34,534 | INFO | =======================================================
+2026-05-09 23:06:35,052 | INFO | Mercados activos rastreables: 69
+2026-05-09 23:06:35,064 | INFO | ✅ [TAKE_PROFIT] Will Arsenal finish in 2nd place in the 2025- | +11.8% | P&L=+2.35$ | 3.5h
+2026-05-09 23:06:35,067 | INFO | ❌ [STOP_LOSS] Callum Turner announced as next James Bond? | -6.3% | P&L=-1.27$ | 2.7h
+2026-05-09 23:06:35,072 | INFO | Señales de momentum: 18 | Cupo: 21
+2026-05-09 23:06:35,597 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:35,609 | INFO | ✅ NUEVA: COMPRAR YES | Will Arsenal finish in 2nd place in the  | mom=+14.3% (1h=+11.8%) | $20
+2026-05-09 23:06:37,419 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:37,420 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-09 23:06:38,791 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:38,792 | INFO | LLM descarta: No one announced as next James Bond?
+2026-05-09 23:06:40,056 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:40,057 | INFO | LLM descarta: Will the Detroit Pistons win the NBA Eastern 
+2026-05-09 23:06:41,058 | INFO | Anti re-entrada: 2026 Balance of Power: R Senate, R House
+2026-05-09 23:06:41,549 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:41,550 | INFO | ✅ NUEVA: COMPRAR YES | Will the Vegas Golden Knights win the 20 | mom=+4.2% (1h=+4.5%) | $10.26
+2026-05-09 23:06:43,398 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:43,694 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:43,695 | INFO | LLM descarta: Will Arsenal win the 2025–26 English Premier 
+2026-05-09 23:06:44,997 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:44,998 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-09 23:06:46,473 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:46,474 | INFO | LLM descarta: New Rihanna Album before GTA VI?
+2026-05-09 23:06:47,474 | INFO | Anti re-entrada: Will Abelardo de la Espriella win the 1s
+2026-05-09 23:06:47,781 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 23:06:47,782 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-09 23:06:48,788 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 23:06:48,788 | INFO | CICLO #39 | Rastreando 72 mercados
+2026-05-09 23:06:48,788 | INFO | Abiertas: 11 | Cerradas: 36 | P&L: $+11.17
+2026-05-09 23:06:48,788 | INFO | TP:8 SL:8 Time:20
+2026-05-09 23:06:48,788 | INFO | =======================================================
