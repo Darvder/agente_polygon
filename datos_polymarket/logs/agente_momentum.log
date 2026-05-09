@@ -343,3 +343,25 @@
 2026-05-09 08:53:21,128 | INFO | Abiertas: 7 | Cerradas: 16 | P&L: $+5.30
 2026-05-09 08:53:21,128 | INFO | TP:5 SL:4 Time:7
 2026-05-09 08:53:21,128 | INFO | =======================================================
+2026-05-09 10:09:21,283 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 10:09:21,283 | INFO | =======================================================
+2026-05-09 10:09:21,283 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 10:09:21,283 | INFO | =======================================================
+2026-05-09 10:09:21,659 | INFO | Mercados activos rastreables: 23
+2026-05-09 10:09:21,665 | WARNING | Error salida idx=14: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 10:09:21,666 | WARNING | Error salida idx=15: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 10:09:21,670 | INFO | Señales de momentum: 7 | Cupo: 25
+2026-05-09 10:09:22,033 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 10:09:22,054 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-09 10:09:23,321 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 10:09:23,322 | INFO | ✅ NUEVA: COMPRAR NO | Will the Buffalo Sabres win the 2026 NHL | mom=-4.5% (1h=-12.0%) | $11.12
+2026-05-09 10:09:25,255 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 10:09:25,256 | INFO | LLM descarta: Will the New York Knicks win the 2026 NBA Fin
+2026-05-09 10:09:26,506 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 10:09:26,507 | INFO | LLM descarta: Will the Oklahoma City Thunder win the 2026 N
+2026-05-09 10:09:27,753 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 10:09:27,759 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 10:09:27,759 | INFO | CICLO #20 | Rastreando 25 mercados
+2026-05-09 10:09:27,760 | INFO | Abiertas: 6 | Cerradas: 18 | P&L: $+5.57
+2026-05-09 10:09:27,760 | INFO | TP:5 SL:4 Time:9
+2026-05-09 10:09:27,760 | INFO | =======================================================
