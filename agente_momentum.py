@@ -163,11 +163,12 @@ def calcular_momentum(market_id, historial):
     momentum = cambio_1h * 0.65 + cambio_4h * 0.35
 
     # Señal: solo si supera umbral mínimo en al menos una ventana
+    # DESPUÉS:
     if abs(cambio_1h) >= MIN_MOMENTUM_1H or abs(cambio_4h) >= MIN_MOMENTUM_4H:
         señal = "COMPRAR YES" if momentum > 0 else "COMPRAR NO"
     else:
         señal = "NEUTRAL"
-
+    
     return señal, round(momentum, 4), round(cambio_1h, 4), round(cambio_4h, 4), precio_actual
 
 
@@ -177,10 +178,11 @@ def calcular_momentum(market_id, historial):
 
 def escanear_mercados():
     """Sin filtro de categoría. Solo liquidez mínima."""
+    MIN_VOLUMEN_MOMENTUM = 50_000  #volumen mínimo para señal válida
     hoy = datetime.now().date()
     try:
         r = requests.get(f"{BASE_URL}/markets",
-                         params={"active": True, "closed": False, "limit": 200},
+                         params={"active": True, "closed": False, "limit": 500},
                          timeout=TIMEOUT)
         r.raise_for_status()
         raw = r.json()
@@ -298,6 +300,15 @@ def ciclo():
 
     estado   = cargar_estado()
     df_libro = cargar_libro()
+    # Mercados cerrados en las últimas 2 horas — no re-entrar
+    hace_2h = (datetime.now() - timedelta(hours=2)).strftime("%Y-%m-%d %H:%M")
+    if not df_libro.empty and "CERRADA" in df_libro["estado"].values:
+        recientes = df_libro[
+            (df_libro["estado"] == "CERRADA") &
+            (df_libro["fecha_cierre_real"] >= hace_2h)
+        ]["market_id"].astype(str).tolist()
+    else:
+        recientes = []
 
     # ── 1. Escanear todos los mercados ───────────────────────────
     mercados = escanear_mercados()
@@ -326,6 +337,8 @@ def ciclo():
         señal, mom, c1h, c4h, p_act = calcular_momentum(m["id"], historial)
         if señal == "NEUTRAL":
             continue
+        if m["volumen_usd"] < MIN_VOLUMEN_MOMENTUM:
+            continue
         señales.append({**m, "señal": señal, "momentum": mom,
                         "cambio_1h": c1h, "cambio_4h": c4h})
 
@@ -346,6 +359,9 @@ def ciclo():
         for m in señales:
             if len(nuevas) >= cupo: break
             if m["pregunta"][:70] in preguntas_abiertas: continue
+            if str(m["id"]) in recientes:
+                log.info(f"Anti re-entrada: {m['pregunta'][:40]}")
+                continue
 
             # ── LLM: sanity check rápido (opcional pero útil) ──
             # Pregunta concisa: ¿tiene sentido este movimiento?
