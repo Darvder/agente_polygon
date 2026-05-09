@@ -259,7 +259,9 @@ def verificar_salidas(df_libro, estado, mercados_actuales):
             p_token_e = float(pos["precio_token_entrada"])
             p_token_a = mid_actual if pos["señal"] == "COMPRAR YES" else 1 - mid_actual
             pct       = (p_token_a - p_token_e) / p_token_e
-
+            
+            df_libro["razon_cierre"]      = df_libro["razon_cierre"].astype(object)
+            df_libro["fecha_cierre_real"] = df_libro["fecha_cierre_real"].astype(object)
             razon = None
             if   pct >= TAKE_PROFIT:          razon = "TAKE_PROFIT"; estado["n_tp"]   += 1
             elif pct <= STOP_LOSS:            razon = "STOP_LOSS";   estado["n_sl"]   += 1
