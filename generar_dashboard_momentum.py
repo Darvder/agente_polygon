@@ -35,7 +35,7 @@ def build_pnl_series(df):
     values = ce["pnl_acum"].round(2).tolist()
     return labels, values
 
-def progress_bar(pct, tp=0.08, sl=-0.05):
+def progress_bar(pct, tp=0.09, sl=-0.05):
     rango = tp - sl
     pos   = max(0, min(1, (pct - sl) / rango)) * 100
     col   = "#10b981" if pct >= tp*0.7 else "#ef4444" if pct <= sl*0.7 else "#f59e0b"
