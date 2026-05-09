@@ -300,12 +300,13 @@ def ciclo():
 
     estado   = cargar_estado()
     df_libro = cargar_libro()
-    # Mercados cerrados en las últimas 2 horas — no re-entrar
+# DESPUÉS:
     hace_2h = (datetime.now() - timedelta(hours=2)).strftime("%Y-%m-%d %H:%M")
     if not df_libro.empty and "CERRADA" in df_libro["estado"].values:
-        recientes = df_libro[
-            (df_libro["estado"] == "CERRADA") &
-            (df_libro["fecha_cierre_real"] >= hace_2h)
+        cerradas = df_libro[df_libro["estado"] == "CERRADA"].copy()
+        cerradas["fecha_cierre_real"] = cerradas["fecha_cierre_real"].fillna("").astype(str)
+        recientes = cerradas[
+            cerradas["fecha_cierre_real"] >= hace_2h
         ]["market_id"].astype(str).tolist()
     else:
         recientes = []
