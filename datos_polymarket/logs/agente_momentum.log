@@ -577,3 +577,39 @@
 2026-05-09 19:34:54,809 | INFO | Abiertas: 12 | Cerradas: 26 | P&L: $+9.14
 2026-05-09 19:34:54,809 | INFO | TP:6 SL:5 Time:15
 2026-05-09 19:34:54,809 | INFO | =======================================================
+2026-05-09 20:27:06,819 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 20:27:06,819 | INFO | =======================================================
+2026-05-09 20:27:06,819 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 20:27:06,819 | INFO | =======================================================
+2026-05-09 20:27:06,987 | INFO | Mercados activos rastreables: 69
+2026-05-09 20:27:06,998 | INFO | ✅ [TIME_EXIT] Will the San Antonio Spurs win the 2026 NBA F | +2.4% | P&L=+0.26$ | 4.5h
+2026-05-09 20:27:07,000 | INFO | ✅ [TIME_EXIT] Will the Vegas Golden Knights win the 2026 NH | +0.4% | P&L=+0.03$ | 4.5h
+2026-05-09 20:27:07,002 | INFO | ✅ [TIME_EXIT] Will the New York Knicks win the 2026 NBA Fin | +4.9% | P&L=+0.29$ | 4.5h
+2026-05-09 20:27:07,003 | INFO | ✅ [TIME_EXIT] Will Ken Paxton win the 2026 Texas Republican | +0.9% | P&L=+0.06$ | 4.1h
+2026-05-09 20:27:07,010 | INFO | Señales de momentum: 18 | Cupo: 22
+2026-05-09 20:27:07,515 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:07,537 | INFO | LLM descarta: Will Paloma Valencia win the 2026 Colombian p
+2026-05-09 20:27:08,796 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:08,797 | INFO | ✅ NUEVA: COMPRAR YES | Will the Cleveland Cavaliers win the NBA | mom=+11.8% (1h=+11.8%) | $20
+2026-05-09 20:27:10,545 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:10,546 | INFO | ✅ NUEVA: COMPRAR YES | Callum Turner announced as next James Bo | mom=+9.2% (1h=+11.8%) | $20
+2026-05-09 20:27:12,485 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:12,485 | INFO | LLM descarta: Will Arsenal win the 2025–26 English Premier 
+2026-05-09 20:27:13,939 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:13,940 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-09 20:27:15,272 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:15,273 | INFO | ✅ NUEVA: COMPRAR YES | Will the San Antonio Spurs win the 2026  | mom=+5.4% (1h=+6.0%) | $13.15
+2026-05-09 20:27:17,102 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:17,103 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-09 20:27:18,539 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:18,540 | INFO | LLM descarta: New Rihanna Album before GTA VI?
+2026-05-09 20:27:19,943 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:19,943 | INFO | LLM descarta: Will the Democratic Party control the Senate 
+2026-05-09 20:27:21,245 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:21,246 | INFO | LLM descarta: Will the San Antonio Spurs win the NBA Wester
+2026-05-09 20:27:22,546 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:27:22,553 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 20:27:22,553 | INFO | CICLO #32 | Rastreando 72 mercados
+2026-05-09 20:27:22,553 | INFO | Abiertas: 11 | Cerradas: 30 | P&L: $+9.78
+2026-05-09 20:27:22,553 | INFO | TP:6 SL:5 Time:19
+2026-05-09 20:27:22,553 | INFO | =======================================================
