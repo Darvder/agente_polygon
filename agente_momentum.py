@@ -39,6 +39,7 @@ MAX_HORAS         = 4       # máx tiempo abierto (intraday real)
 MIN_MOMENTUM_1H   = 0.02# movimiento mínimo en 1h para señal (3%)
 MIN_MOMENTUM_4H   = 0.03    # movimiento mínimo en 4h (5%)
 CICLO_HORAS       = 0.10       # frecuencia del ciclo
+MIN_MOMENTUM_30M = 0.03
 
 # ── Filtros de mercado ─────────────────────────────────────────────
 MIN_VOLUMEN       = 5_000   # bajo — queremos capturar mercados activos pequeños
@@ -134,19 +135,14 @@ def registrar_snapshot(mercados):
 
 
 def calcular_momentum(market_id, historial):
-    """
-    Calcula cuánto se movió el precio en las últimas 1h y 4h.
-    Retorna (señal, momentum_score, cambio_1h, cambio_4h, precio_actual)
-    """
     if market_id not in historial:
-        return "NEUTRAL", 0, 0, 0, None
-
+        return "NEUTRAL", 0, 0, 0, 0, None
     entradas = historial[market_id]["precios"]
     if len(entradas) < 2:
-        return "NEUTRAL", 0, 0, 0, entradas[-1]["p"] if entradas else None
+        return "NEUTRAL", 0, 0, 0, 0, entradas[-1]["p"] if entradas else None
 
-    ahora          = datetime.now()
-    precio_actual  = entradas[-1]["p"]
+    ahora         = datetime.now()
+    precio_actual = entradas[-1]["p"]
 
     def precio_hace(horas):
         cutoff = ahora - timedelta(hours=horas)
@@ -154,24 +150,25 @@ def calcular_momentum(market_id, historial):
                    if datetime.fromisoformat(e["ts"]) <= cutoff]
         return pasados[-1]["p"] if pasados else None
 
+    p30m = precio_hace(0.5)
     p1h  = precio_hace(1)
     p4h  = precio_hace(4)
 
-    cambio_1h = (precio_actual - p1h)  / p1h  if p1h  and p1h  > 0 else 0
-    cambio_4h = (precio_actual - p4h)  / p4h  if p4h  and p4h  > 0 else 0
+    cambio_30m = (precio_actual - p30m) / p30m if p30m and p30m > 0 else 0
+    cambio_1h  = (precio_actual - p1h)  / p1h  if p1h  and p1h  > 0 else 0
+    cambio_4h  = (precio_actual - p4h)  / p4h  if p4h  and p4h  > 0 else 0
 
-    # Score combinado: más peso a movimiento reciente (1h)
-    momentum = cambio_1h * 0.65 + cambio_4h * 0.35
+    # Más peso a movimientos recientes
+    momentum = cambio_30m * 0.50 + cambio_1h * 0.35 + cambio_4h * 0.15
 
-    # Señal: solo si supera umbral mínimo en al menos una ventana
-    # DESPUÉS:
-    if abs(cambio_1h) >= MIN_MOMENTUM_1H or abs(cambio_4h) >= MIN_MOMENTUM_4H:
+    if (abs(cambio_30m) >= MIN_MOMENTUM_30M or
+        abs(cambio_1h)  >= MIN_MOMENTUM_1H  or
+        abs(cambio_4h)  >= MIN_MOMENTUM_4H):
         señal = "COMPRAR YES" if momentum > 0 else "COMPRAR NO"
     else:
         señal = "NEUTRAL"
-    
-    return señal, round(momentum, 4), round(cambio_1h, 4), round(cambio_4h, 4), precio_actual
 
+    return señal, round(momentum, 4), round(cambio_1h, 4), round(cambio_4h, 4), round(cambio_30m, 4), precio_actual
 
 # ══════════════════════════════════════════════════════════════════
 # SCANNER: TODOS LOS MERCADOS LÍQUIDOS
@@ -337,7 +334,7 @@ def ciclo():
 
     señales = []
     for m in mercados:
-        señal, mom, c1h, c4h, p_act = calcular_momentum(m["id"], historial)
+        señal, mom, c1h, c4h, c30m, p_act = calcular_momentum(m["id"], historial)
         if señal == "NEUTRAL":
             continue
         if m["volumen_usd"] < MIN_VOLUMEN_MOMENTUM:
