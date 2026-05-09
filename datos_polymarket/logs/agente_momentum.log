@@ -327,3 +327,19 @@
 2026-05-09 07:10:28,418 | INFO | Abiertas: 8 | Cerradas: 15 | P&L: $+5.47
 2026-05-09 07:10:28,418 | INFO | TP:5 SL:4 Time:6
 2026-05-09 07:10:28,418 | INFO | =======================================================
+2026-05-09 08:53:18,124 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 08:53:18,124 | INFO | =======================================================
+2026-05-09 08:53:18,124 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 08:53:18,124 | INFO | =======================================================
+2026-05-09 08:53:18,368 | INFO | Mercados activos rastreables: 23
+2026-05-09 08:53:18,374 | WARNING | Error salida idx=12: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 08:53:18,378 | INFO | Señales de momentum: 6 | Cupo: 23
+2026-05-09 08:53:18,833 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 08:53:18,850 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-09 08:53:20,124 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 08:53:20,125 | INFO | LLM descarta: Will the New York Knicks win the 2026 NBA Fin
+2026-05-09 08:53:21,128 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 08:53:21,128 | INFO | CICLO #19 | Rastreando 25 mercados
+2026-05-09 08:53:21,128 | INFO | Abiertas: 7 | Cerradas: 16 | P&L: $+5.30
+2026-05-09 08:53:21,128 | INFO | TP:5 SL:4 Time:7
+2026-05-09 08:53:21,128 | INFO | =======================================================
