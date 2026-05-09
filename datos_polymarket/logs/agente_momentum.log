@@ -547,3 +547,33 @@
 2026-05-09 18:05:58,152 | INFO | Abiertas: 8 | Cerradas: 25 | P&L: $+5.58
 2026-05-09 18:05:58,152 | INFO | TP:5 SL:5 Time:15
 2026-05-09 18:05:58,152 | INFO | =======================================================
+2026-05-09 19:34:40,467 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 19:34:40,467 | INFO | =======================================================
+2026-05-09 19:34:40,467 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 19:34:40,467 | INFO | =======================================================
+2026-05-09 19:34:40,870 | INFO | Mercados activos rastreables: 69
+2026-05-09 19:34:40,882 | INFO | ✅ [TAKE_PROFIT] Will Manchester City win the 2025–26 English  | +17.8% | P&L=+3.56$ | 1.5h
+2026-05-09 19:34:40,886 | INFO | Señales de momentum: 14 | Cupo: 23
+2026-05-09 19:34:41,406 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:41,427 | INFO | ✅ NUEVA: COMPRAR YES | Will Arsenal finish in 2nd place in the  | mom=+17.9% (1h=+27.5%) | $20
+2026-05-09 19:34:43,427 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:43,428 | INFO | ✅ NUEVA: COMPRAR YES | Will Manchester City win the 2025–26 Eng | mom=+11.6% (1h=+17.8%) | $20
+2026-05-09 19:34:45,278 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:45,279 | INFO | ✅ NUEVA: COMPRAR YES | Will Manchester City finish in 2nd place | mom=+7.7% (1h=+11.8%) | $20
+2026-05-09 19:34:47,061 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:47,062 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-09 19:34:48,062 | INFO | Anti re-entrada: Will the Montreal Canadiens win the 2026
+2026-05-09 19:34:48,583 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:48,584 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-09 19:34:50,105 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:50,106 | INFO | LLM descarta: Will Arsenal win the 2025–26 English Premier 
+2026-05-09 19:34:51,416 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:51,417 | INFO | ✅ NUEVA: COMPRAR YES | 2026 Balance of Power: R Senate, R House | mom=+3.0% (1h=+4.7%) | $7.91
+2026-05-09 19:34:53,302 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 19:34:53,303 | INFO | ✅ NUEVA: COMPRAR YES | Will the Republican Party control the Se | mom=+2.4% (1h=+3.7%) | $5.47
+2026-05-09 19:34:54,803 | INFO | Anti re-entrada: New Rihanna Album before GTA VI?
+2026-05-09 19:34:54,809 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 19:34:54,809 | INFO | CICLO #31 | Rastreando 72 mercados
+2026-05-09 19:34:54,809 | INFO | Abiertas: 12 | Cerradas: 26 | P&L: $+9.14
+2026-05-09 19:34:54,809 | INFO | TP:6 SL:5 Time:15
+2026-05-09 19:34:54,809 | INFO | =======================================================
