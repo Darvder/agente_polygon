@@ -669,3 +669,30 @@
 2026-05-09 21:01:46,636 | INFO | Abiertas: 12 | Cerradas: 31 | P&L: $+11.89
 2026-05-09 21:01:46,636 | INFO | TP:7 SL:5 Time:19
 2026-05-09 21:01:46,637 | INFO | =======================================================
+2026-05-09 21:23:35,224 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 21:23:35,225 | INFO | =======================================================
+2026-05-09 21:23:35,225 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 21:23:35,225 | INFO | =======================================================
+2026-05-09 21:23:35,621 | INFO | Mercados activos rastreables: 69
+2026-05-09 21:23:35,638 | INFO | Señales de momentum: 20 | Cupo: 18
+2026-05-09 21:23:36,212 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:36,224 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 21:23:37,844 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:37,845 | INFO | LLM descarta: New Rihanna Album before GTA VI?
+2026-05-09 21:23:38,845 | INFO | Anti re-entrada: Will the Vegas Golden Knights win the 20
+2026-05-09 21:23:39,208 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:39,209 | INFO | LLM descarta: No one announced as next James Bond?
+2026-05-09 21:23:40,675 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:40,676 | INFO | LLM descarta: Will Arsenal win the 2025–26 English Premier 
+2026-05-09 21:23:42,109 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:42,547 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:42,548 | INFO | LLM descarta: Will the Democratic Party control the Senate 
+2026-05-09 21:23:43,891 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:43,892 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-09 21:23:45,321 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 21:23:45,322 | INFO | LLM descarta: Will the Detroit Pistons win the NBA Eastern 
+2026-05-09 21:23:46,325 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 21:23:46,325 | INFO | CICLO #35 | Rastreando 72 mercados
+2026-05-09 21:23:46,325 | INFO | Abiertas: 12 | Cerradas: 31 | P&L: $+11.89
+2026-05-09 21:23:46,325 | INFO | TP:7 SL:5 Time:19
+2026-05-09 21:23:46,325 | INFO | =======================================================
