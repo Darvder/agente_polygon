@@ -46,6 +46,7 @@ MAX_SPREAD        = 0.08
 MIN_PRECIO        = 0.04
 MAX_PRECIO        = 0.96
 MAX_DIAS_MERCADO  = 180     # mercados hasta 6 meses (la restricción viene del momentum)
+MIN_VOLUMEN_MOMENTUM = 50_000
 
 # ── Posiciones ────────────────────────────────────────────────────
 CAPITAL_INICIAL   = 1_000
@@ -178,7 +179,6 @@ def calcular_momentum(market_id, historial):
 
 def escanear_mercados():
     """Sin filtro de categoría. Solo liquidez mínima."""
-    MIN_VOLUMEN_MOMENTUM = 50_000  #volumen mínimo para señal válida
     hoy = datetime.now().date()
     try:
         r = requests.get(f"{BASE_URL}/markets",
