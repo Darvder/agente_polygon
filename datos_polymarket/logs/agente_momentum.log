@@ -307,3 +307,23 @@
 2026-05-09 04:50:59,929 | INFO | Abiertas: 10 | Cerradas: 12 | P&L: $+10.39
 2026-05-09 04:50:59,929 | INFO | TP:5 SL:1 Time:6
 2026-05-09 04:50:59,929 | INFO | =======================================================
+2026-05-09 07:10:23,595 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 07:10:23,595 | INFO | =======================================================
+2026-05-09 07:10:23,595 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 07:10:23,595 | INFO | =======================================================
+2026-05-09 07:10:23,885 | INFO | Mercados activos rastreables: 23
+2026-05-09 07:10:23,892 | WARNING | Error salida idx=13: Invalid value 'STOP_LOSS' for dtype 'float64'
+2026-05-09 07:10:23,893 | WARNING | Error salida idx=17: Invalid value 'STOP_LOSS' for dtype 'float64'
+2026-05-09 07:10:23,895 | WARNING | Error salida idx=19: Invalid value 'STOP_LOSS' for dtype 'float64'
+2026-05-09 07:10:23,898 | INFO | Señales de momentum: 7 | Cupo: 23
+2026-05-09 07:10:24,328 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 07:10:24,351 | INFO | LLM descarta: Will the New York Knicks win the 2026 NBA Fin
+2026-05-09 07:10:25,580 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 07:10:25,581 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-09 07:10:26,911 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 07:10:26,912 | INFO | ✅ NUEVA: COMPRAR YES | New Rihanna Album before GTA VI? | mom=+5.7% (1h=-7.0%) | $14.22
+2026-05-09 07:10:28,418 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 07:10:28,418 | INFO | CICLO #18 | Rastreando 25 mercados
+2026-05-09 07:10:28,418 | INFO | Abiertas: 8 | Cerradas: 15 | P&L: $+5.47
+2026-05-09 07:10:28,418 | INFO | TP:5 SL:4 Time:6
+2026-05-09 07:10:28,418 | INFO | =======================================================
