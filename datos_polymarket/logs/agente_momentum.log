@@ -471,3 +471,24 @@
 2026-05-09 16:24:38,020 | INFO | Abiertas: 7 | Cerradas: 22 | P&L: $+5.43
 2026-05-09 16:24:38,020 | INFO | TP:5 SL:4 Time:13
 2026-05-09 16:24:38,020 | INFO | =======================================================
+2026-05-09 16:33:23,085 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 16:33:23,085 | INFO | =======================================================
+2026-05-09 16:33:23,085 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 16:33:23,085 | INFO | =======================================================
+2026-05-09 16:33:23,313 | INFO | Mercados activos rastreables: 68
+2026-05-09 16:33:23,325 | INFO | Señales de momentum: 11 | Cupo: 23
+2026-05-09 16:33:23,727 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:33:23,748 | INFO | LLM descarta: Will the Colorado Avalanche win the 2026 NHL 
+2026-05-09 16:33:25,112 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:33:25,415 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:33:25,416 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 16:33:26,761 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:33:27,043 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:33:27,044 | INFO | LLM descarta: New Playboi Carti Album before GTA VI?
+2026-05-09 16:33:28,384 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:33:28,385 | INFO | LLM descarta: Will John Cornyn win the 2026 Texas Republica
+2026-05-09 16:33:29,388 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 16:33:29,388 | INFO | CICLO #27 | Rastreando 70 mercados
+2026-05-09 16:33:29,388 | INFO | Abiertas: 7 | Cerradas: 22 | P&L: $+5.43
+2026-05-09 16:33:29,388 | INFO | TP:5 SL:4 Time:13
+2026-05-09 16:33:29,388 | INFO | =======================================================
