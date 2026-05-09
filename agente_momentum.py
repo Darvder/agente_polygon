@@ -33,13 +33,15 @@ BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 10
 
 # ── Parámetros intraday ────────────────────────────────────────────
-TAKE_PROFIT       = 0.08    # +8% → cerrar con ganancia
+TAKE_PROFIT       = 0.09    # +9% → cerrar con ganancia
 STOP_LOSS         = -0.05   # -5% → cortar pérdida
 MAX_HORAS         = 4       # máx tiempo abierto (intraday real)
 MIN_MOMENTUM_1H   = 0.02# movimiento mínimo en 1h para señal (3%)
 MIN_MOMENTUM_4H   = 0.03    # movimiento mínimo en 4h (5%)
 CICLO_HORAS       = 0.10       # frecuencia del ciclo
 MIN_MOMENTUM_30M = 0.03
+MAX_EXPOSICION_MERCADO = 40   # máx $40 en un mismo mercado
+MAX_PERDIDA_DIA        = 30   # circuit breaker: parar si pierde $30 en el día
 
 # ── Filtros de mercado ─────────────────────────────────────────────
 MIN_VOLUMEN       = 5_000   # bajo — queremos capturar mercados activos pequeños
@@ -299,6 +301,18 @@ def ciclo():
 
     estado   = cargar_estado()
     df_libro = cargar_libro()
+
+  # Circuit breaker: verificar pérdida del día
+    hoy = datetime.now().strftime("%Y-%m-%d")
+    if not df_libro.empty and "CERRADA" in df_libro["estado"].values:
+        cerradas_hoy = df_libro[
+            (df_libro["estado"] == "CERRADA") &
+            (df_libro["fecha_cierre_real"].fillna("").str.startswith(hoy))
+        ]
+        perdida_hoy = cerradas_hoy["pnl_realizado"].sum()
+        if perdida_hoy <= -MAX_PERDIDA_DIA:
+            log.warning(f"⛔ CIRCUIT BREAKER: pérdida del día ${perdida_hoy:.2f} — sin nuevas entradas")
+            return
   
     hace_2h = (datetime.now() - timedelta(hours=2)).strftime("%Y-%m-%d %H:%M")
     if not df_libro.empty and "CERRADA" in df_libro["estado"].values:
@@ -371,6 +385,15 @@ def ciclo():
             if str(m["id"]) in recientes:
                 log.info(f"Anti re-entrada: {m['pregunta'][:40]}")
                 continue
+          # Cap de exposición por mercado
+    if not df_libro.empty:
+        expuesto = df_libro[
+            (df_libro["estado"] == "ABIERTA") &
+            (df_libro["market_id"].astype(str) == str(m["id"]))
+        ]["monto_usdc"].sum()
+        if expuesto >= MAX_EXPOSICION_MERCADO:
+            log.info(f"Cap mercado: {m['pregunta'][:40]} — ${expuesto:.0f} expuesto")
+            continue
 
             # ── LLM: sanity check rápido (opcional pero útil) ──
             # Pregunta concisa: ¿tiene sentido este movimiento?
