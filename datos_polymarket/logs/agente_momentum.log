@@ -257,3 +257,29 @@
 2026-05-08 23:40:16,852 | INFO | Abiertas: 7 | Cerradas: 6 | P&L: $+3.44
 2026-05-08 23:40:16,852 | INFO | TP:2 SL:1 Time:3
 2026-05-08 23:40:16,852 | INFO | =======================================================
+2026-05-09 01:24:06,235 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-09 01:24:06,235 | INFO | =======================================================
+2026-05-09 01:24:06,235 | INFO | CICLO MOMENTUM INICIADO
+2026-05-09 01:24:06,235 | INFO | =======================================================
+2026-05-09 01:24:06,536 | INFO | Mercados activos rastreables: 24
+2026-05-09 01:24:06,543 | WARNING | Error salida idx=4: Invalid value 'TAKE_PROFIT' for dtype 'float64'
+2026-05-09 01:24:06,544 | WARNING | Error salida idx=5: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 01:24:06,545 | WARNING | Error salida idx=6: Invalid value 'TIME_EXIT' for dtype 'float64'
+2026-05-09 01:24:06,549 | INFO | Señales de momentum: 10 | Cupo: 26
+2026-05-09 01:24:06,956 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 01:24:06,977 | INFO | ✅ NUEVA: COMPRAR YES | Will the New York Knicks win the 2026 NB | mom=+8.0% (1h=+7.6%) | $20
+2026-05-09 01:24:08,805 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 01:24:08,806 | INFO | LLM descarta: New Playboi Carti Album before GTA VI?
+2026-05-09 01:24:10,282 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 01:24:10,283 | INFO | ✅ NUEVA: COMPRAR NO | Will the Buffalo Sabres win the 2026 NHL | mom=-5.9% (1h=-2.6%) | $12.76
+2026-05-09 01:24:12,176 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 01:24:12,177 | INFO | ✅ NUEVA: COMPRAR YES | Will John Cornyn win the 2026 Texas Repu | mom=+2.7% (1h=+0.0%) | $7.98
+2026-05-09 01:24:14,235 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 01:24:14,236 | INFO | ✅ NUEVA: COMPRAR YES | Will the Anaheim Ducks win the 2026 NHL  | mom=+2.4% (1h=+2.4%) | $6.28
+2026-05-09 01:24:16,127 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 01:24:16,128 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-09 01:24:17,133 | INFO | ───────────────────────────────────────────────────────
+2026-05-09 01:24:17,133 | INFO | CICLO #16 | Rastreando 25 mercados
+2026-05-09 01:24:17,133 | INFO | Abiertas: 8 | Cerradas: 9 | P&L: $+5.04
+2026-05-09 01:24:17,133 | INFO | TP:3 SL:1 Time:5
+2026-05-09 01:24:17,133 | INFO | =======================================================
