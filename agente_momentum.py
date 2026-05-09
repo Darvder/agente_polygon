@@ -299,7 +299,7 @@ def ciclo():
 
     estado   = cargar_estado()
     df_libro = cargar_libro()
-# DESPUÉS:
+  
     hace_2h = (datetime.now() - timedelta(hours=2)).strftime("%Y-%m-%d %H:%M")
     if not df_libro.empty and "CERRADA" in df_libro["estado"].values:
         cerradas = df_libro[df_libro["estado"] == "CERRADA"].copy()
@@ -309,6 +309,14 @@ def ciclo():
         ]["market_id"].astype(str).tolist()
     else:
         recientes = []
+    # Agregar IDs cerrados en este ciclo al bloqueo
+    ids_cerrados_este_ciclo = [
+        str(df_libro.loc[idx, "market_id"])
+        for idx in df_libro.index
+        if df_libro.loc[idx, "estado"] == "CERRADA"
+        and df_libro.loc[idx, "fecha_cierre_real"] == ahora.strftime("%Y-%m-%d %H:%M")
+    ]
+    recientes += ids_cerrados_este_ciclo
 
     # ── 1. Escanear todos los mercados ───────────────────────────
     mercados = escanear_mercados()
