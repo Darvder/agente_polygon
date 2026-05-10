@@ -854,3 +854,29 @@
 2026-05-10 00:05:54,534 | INFO | Abiertas: 10 | Cerradas: 40 | P&L: $+8.34
 2026-05-10 00:05:54,534 | INFO | TP:8 SL:9 Time:23
 2026-05-10 00:05:54,534 | INFO | =======================================================
+2026-05-10 01:26:10,479 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 01:26:10,479 | INFO | =======================================================
+2026-05-10 01:26:10,479 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 01:26:10,479 | INFO | =======================================================
+2026-05-10 01:26:10,841 | INFO | Mercados activos rastreables: 68
+2026-05-10 01:26:10,852 | INFO | ❌ [TIME_EXIT] Will the San Antonio Spurs win the 2026 NBA F | -2.8% | P&L=-0.37$ | 5.0h
+2026-05-10 01:26:10,854 | INFO | ✅ [TIME_EXIT] Will Paloma Valencia win the 2026 Colombian p | +1.0% | P&L=+0.14$ | 4.4h
+2026-05-10 01:26:10,861 | INFO | Señales de momentum: 12 | Cupo: 22
+2026-05-10 01:26:11,342 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 01:26:11,354 | INFO | ✅ NUEVA: COMPRAR YES | Will Abelardo de la Espriella win the 1s | mom=+5.2% (1h=+6.1%) | $8.39
+2026-05-10 01:26:12,854 | INFO | Anti re-entrada: Will the Cleveland Cavaliers win the NBA
+2026-05-10 01:26:12,854 | INFO | Anti re-entrada: Will Manchester City win the 2025–26 Eng
+2026-05-10 01:26:13,158 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 01:26:13,159 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-10 01:26:14,591 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 01:26:14,592 | INFO | LLM descarta: No one announced as next James Bond?
+2026-05-10 01:26:15,901 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 01:26:15,902 | INFO | LLM descarta: Will Paloma Valencia win the 2026 Colombian p
+2026-05-10 01:26:16,902 | INFO | Anti re-entrada: Will the Republican Party control the Se
+2026-05-10 01:26:17,251 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 01:26:17,252 | INFO | LLM descarta: Will the Detroit Pistons win the NBA Eastern 
+2026-05-10 01:26:18,257 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 01:26:18,257 | INFO | CICLO #41 | Rastreando 72 mercados
+2026-05-10 01:26:18,257 | INFO | Abiertas: 9 | Cerradas: 42 | P&L: $+8.11
+2026-05-10 01:26:18,257 | INFO | TP:8 SL:9 Time:25
+2026-05-10 01:26:18,257 | INFO | =======================================================
