@@ -1052,3 +1052,22 @@
 2026-05-10 11:34:57,397 | INFO | Abiertas: 8 | Cerradas: 62 | P&L: $+5.42
 2026-05-10 11:34:57,397 | INFO | TP:9 SL:12 Time:41
 2026-05-10 11:34:57,397 | INFO | =======================================================
+2026-05-10 12:42:22,173 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 12:42:22,173 | INFO | =======================================================
+2026-05-10 12:42:22,173 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 12:42:22,173 | INFO | =======================================================
+2026-05-10 12:42:22,308 | INFO | Mercados activos rastreables: 69
+2026-05-10 12:42:22,324 | INFO | ❌ [STOP_LOSS] Will the Minnesota Wild win the 2026 NHL Stan | -12.4% | P&L=-2.48$ | 2.1h
+2026-05-10 12:42:22,329 | INFO | Señales de momentum: 10 | Cupo: 23
+2026-05-10 12:42:22,724 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 12:42:22,738 | INFO | LLM descarta: Will the Minnesota Wild win the 2026 NHL Stan
+2026-05-10 12:42:24,019 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 12:42:24,020 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 12:42:25,393 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 12:42:25,689 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 12:42:25,690 | INFO | Anti re-entrada: Will Abelardo de la Espriella win the 1s
+2026-05-10 12:42:25,693 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 12:42:25,693 | INFO | CICLO #47 | Rastreando 74 mercados
+2026-05-10 12:42:25,693 | INFO | Abiertas: 7 | Cerradas: 63 | P&L: $+2.94
+2026-05-10 12:42:25,693 | INFO | TP:9 SL:13 Time:41
+2026-05-10 12:42:25,693 | INFO | =======================================================
