@@ -1420,3 +1420,62 @@ PRECIO_BUCKET:
 2026-05-10 17:32:14,924 | INFO | Abiertas: 7 | Cerradas: 72 | P&L: $-12.23
 2026-05-10 17:32:14,924 | INFO | TP:9 SL:17 Time:46
 2026-05-10 17:32:14,924 | INFO | =======================================================
+2026-05-10 17:48:20,157 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 17:48:20,157 | INFO | =======================================================
+2026-05-10 17:48:20,157 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 17:48:20,157 | INFO | =======================================================
+2026-05-10 17:48:20,169 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-10 17:48:20,169 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:futbol                    █████░░░░░ 57% (4/7 trades)
+  categoria:deportes                  █████░░░░░ 56% (18/32 trades)
+  categoria:politica                  ████░░░░░░ 42% (8/19 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   ██████░░░░ 64% (9/14 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 46% (10/22 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 38% (8/21 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_bajo                 ██████░░░░ 67% (2/3 trades)
+  mom_bucket:muy_alto                 ██████░░░░ 62% (8/13 trades)
+  mom_bucket:bajo                     █████░░░░░ 52% (12/23 trades)
+  mom_bucket:medio                    ████░░░░░░ 40% (8/20 trades)
+  mom_bucket:alto                     ███░░░░░░░ 31% (4/13 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:bajo                  ██████░░░░ 61% (14/23 trades)
+  precio_bucket:muy_bajo              █████░░░░░ 59% (10/17 trades)
+  precio_bucket:medio                 ███░░░░░░░ 38% (5/13 trades)
+  precio_bucket:alto                  ██░░░░░░░░ 28% (5/18 trades)
+2026-05-10 17:48:20,319 | INFO | Mercados activos rastreables: 71
+2026-05-10 17:48:20,335 | INFO | ❌ [STOP_LOSS] Will Arsenal finish in 2nd place in the 2025- | -46.3% | P&L=-2.76$ | 3.3h
+2026-05-10 17:48:20,338 | INFO | ❌ [STOP_LOSS] Will Arsenal win the 2025–26 English Premier  | -72.2% | P&L=-14.44$ | 0.3h
+2026-05-10 17:48:20,341 | INFO | Momentum tardío: New Rihanna Album before GTA VI?
+2026-05-10 17:48:20,343 | INFO | Momentum tardío: Will Abelardo de la Espriella win the 1s
+2026-05-10 17:48:20,344 | INFO | Señales de momentum: 12 | Cupo: 10
+2026-05-10 17:48:20,377 | INFO | Anti re-entrada: Will Manchester City win the 2025–26 Eng
+2026-05-10 17:48:20,927 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:20,940 | INFO | LLM descarta: Will Arsenal finish in 2nd place in the 2025-
+2026-05-10 17:48:22,204 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:22,205 | INFO | ✅ NUEVA: COMPRAR YES | Will Arsenal win the 2025–26 English Pre | mom=+25.6% (1h=+25.9%) | $20
+2026-05-10 17:48:24,089 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:24,090 | INFO | ✅ NUEVA: COMPRAR YES | Will Manchester City finish in 2nd place | mom=+15.7% (1h=+15.9%) | $20
+2026-05-10 17:48:26,004 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:26,005 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 17:48:27,296 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:27,297 | INFO | ✅ NUEVA: COMPRAR YES | Will Paloma Valencia win the 2026 Colomb | mom=+3.6% (1h=+3.0%) | $9.12
+2026-05-10 17:48:28,798 | INFO | Anti re-entrada: Will the Buffalo Sabres win the 2026 NHL
+2026-05-10 17:48:29,047 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:29,048 | INFO | LLM descarta: Will the Colorado Avalanche win the 2026 NHL 
+2026-05-10 17:48:30,307 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:30,604 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:48:30,611 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 17:48:30,611 | INFO | CICLO #62 | Rastreando 75 mercados
+2026-05-10 17:48:30,611 | INFO | Abiertas: 8 | Cerradas: 74 | P&L: $-29.43
+2026-05-10 17:48:30,611 | INFO | TP:9 SL:19 Time:46
+2026-05-10 17:48:30,611 | INFO | =======================================================
