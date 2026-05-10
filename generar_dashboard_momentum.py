@@ -277,7 +277,7 @@ body {{ font-family:'DM Sans',sans-serif; background:#060b14; color:#e2e8f0; pad
 
   <div class="kpi">
     <div class="kl">Capital Líquido</div>
-    <div class="kv" style="color:#f1f5f9">{{(capital_inicial + pnl_neto_absoluto - capital_en_riesgo):,.2f}$</div>
+    <div class="kv" style="color:#f1f5f9">{(capital_inicial + pnl_neto_absoluto - capital_en_riesgo):,.2f}$</div>
     <div class="ks">En riesgo: <span style="color:#f59e0b">{capital_en_riesgo:,.2f}$</span></div>
   </div>
 
