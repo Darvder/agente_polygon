@@ -957,3 +957,42 @@
 2026-05-10 07:13:39,384 | INFO | Abiertas: 11 | Cerradas: 51 | P&L: $+7.72
 2026-05-10 07:13:39,384 | INFO | TP:8 SL:10 Time:33
 2026-05-10 07:13:39,384 | INFO | =======================================================
+2026-05-10 09:06:04,892 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 09:06:04,892 | INFO | =======================================================
+2026-05-10 09:06:04,892 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 09:06:04,892 | INFO | =======================================================
+2026-05-10 09:06:05,246 | INFO | Mercados activos rastreables: 71
+2026-05-10 09:06:05,259 | INFO | ✅ [TIME_EXIT] Will the Montreal Canadiens win the 2026 NHL  | +1.4% | P&L=+0.16$ | 4.8h
+2026-05-10 09:06:05,260 | INFO | ✅ [TIME_EXIT] 2026 Balance of Power: R Senate, R House | +0.0% | P&L=+0.00$ | 4.8h
+2026-05-10 09:06:05,262 | INFO | ✅ [TIME_EXIT] Will the Buffalo Sabres win the 2026 NHL Stan | +0.0% | P&L=+0.00$ | 4.8h
+2026-05-10 09:06:05,263 | INFO | ✅ [TIME_EXIT] No one announced as next James Bond? | +2.2% | P&L=+0.18$ | 4.8h
+2026-05-10 09:06:05,264 | INFO | ✅ [TAKE_PROFIT] New Rihanna Album before GTA VI? | +13.6% | P&L=+0.99$ | 4.8h
+2026-05-10 09:06:05,266 | INFO | ❌ [STOP_LOSS] New Playboi Carti Album before GTA VI? | -6.0% | P&L=-0.37$ | 4.8h
+2026-05-10 09:06:05,267 | INFO | ❌ [TIME_EXIT] Will Abelardo de la Espriella  win the 2026 C | -1.2% | P&L=-0.07$ | 4.8h
+2026-05-10 09:06:05,272 | INFO | Señales de momentum: 15 | Cupo: 26
+2026-05-10 09:06:05,657 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:05,669 | INFO | ✅ NUEVA: COMPRAR YES | Will Paloma Valencia win the 2026 Colomb | mom=+22.0% (1h=+21.8%) | $20
+2026-05-10 09:06:07,503 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:07,504 | INFO | ✅ NUEVA: COMPRAR YES | Will the Cleveland Cavaliers win the NBA | mom=+17.6% (1h=+17.6%) | $20
+2026-05-10 09:06:09,318 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:09,319 | INFO | ✅ NUEVA: COMPRAR YES | New Rihanna Album before GTA VI? | mom=+14.4% (1h=+14.5%) | $20
+2026-05-10 09:06:11,087 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:11,088 | INFO | ✅ NUEVA: COMPRAR YES | Will the Detroit Pistons win the NBA Eas | mom=+5.9% (1h=+5.9%) | $15.7
+2026-05-10 09:06:13,122 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:13,123 | INFO | LLM descarta: New Playboi Carti Album before GTA VI?
+2026-05-10 09:06:14,455 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:14,456 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 09:06:15,772 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:15,773 | INFO | ✅ NUEVA: COMPRAR YES | Will France win the 2026 FIFA World Cup? | mom=+3.5% (1h=+3.5%) | $9.33
+2026-05-10 09:06:17,646 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:17,647 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-10 09:06:19,016 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:19,412 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:19,720 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:19,721 | INFO | LLM descarta: Will Arsenal finish in 2nd place in the 2025-
+2026-05-10 09:06:21,043 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 09:06:21,049 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 09:06:21,049 | INFO | CICLO #44 | Rastreando 74 mercados
+2026-05-10 09:06:21,049 | INFO | Abiertas: 9 | Cerradas: 58 | P&L: $+8.61
+2026-05-10 09:06:21,049 | INFO | TP:9 SL:11 Time:38
+2026-05-10 09:06:21,049 | INFO | =======================================================
