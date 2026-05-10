@@ -1216,3 +1216,17 @@
 2026-05-10 14:53:46,462 | INFO | Abiertas: 4 | Cerradas: 69 | P&L: $+2.18
 2026-05-10 14:53:46,462 | INFO | TP:9 SL:15 Time:45
 2026-05-10 14:53:46,463 | INFO | =======================================================
+2026-05-10 15:01:36,810 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 15:01:36,810 | INFO | =======================================================
+2026-05-10 15:01:36,810 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 15:01:36,810 | INFO | =======================================================
+2026-05-10 15:01:37,132 | INFO | Mercados activos rastreables: 70
+2026-05-10 15:01:37,151 | INFO | Señales de momentum: 5 | Cupo: 11
+2026-05-10 15:01:37,184 | INFO | Anti re-entrada: Will the Detroit Pistons win the NBA Eas
+2026-05-10 15:01:37,555 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 15:01:37,569 | INFO | LLM descarta: Will the Minnesota Wild win the 2026 NHL Stan
+2026-05-10 15:01:38,571 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 15:01:38,571 | INFO | CICLO #54 | Rastreando 74 mercados
+2026-05-10 15:01:38,571 | INFO | Abiertas: 4 | Cerradas: 69 | P&L: $+2.18
+2026-05-10 15:01:38,571 | INFO | TP:9 SL:15 Time:45
+2026-05-10 15:01:38,572 | INFO | =======================================================
