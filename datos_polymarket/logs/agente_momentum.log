@@ -1837,3 +1837,63 @@ PRECIO_BUCKET:
 2026-05-10 22:53:12,210 | INFO | Abiertas: 6 | Cerradas: 83 | P&L: $-31.49
 2026-05-10 22:53:12,210 | INFO | TP:10 SL:21 Time:52
 2026-05-10 22:53:12,210 | INFO | =======================================================
+2026-05-10 23:56:03,396 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 23:56:03,396 | INFO | =======================================================
+2026-05-10 23:56:03,396 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 23:56:03,396 | INFO | =======================================================
+2026-05-10 23:56:03,410 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-10 23:56:03,410 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 56% (19/34 trades)
+  categoria:futbol                    ████░░░░░░ 46% (5/11 trades)
+  categoria:politica                  ███░░░░░░░ 38% (9/24 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   █████░░░░░ 50% (12/24 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 44% (10/23 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 38% (8/21 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_alto                 █████░░░░░ 56% (9/16 trades)
+  mom_bucket:bajo                     █████░░░░░ 52% (14/27 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:medio                    ███░░░░░░░ 38% (8/21 trades)
+  mom_bucket:alto                     ██░░░░░░░░ 27% (4/15 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:bajo                  █████░░░░░ 58% (15/26 trades)
+  precio_bucket:muy_bajo              █████░░░░░ 56% (10/18 trades)
+  precio_bucket:medio                 ███░░░░░░░ 35% (6/17 trades)
+  precio_bucket:muy_alto              ███░░░░░░░ 33% (1/3 trades)
+  precio_bucket:alto                  ██░░░░░░░░ 26% (5/19 trades)
+2026-05-10 23:56:03,757 | INFO | Mercados activos rastreables: 70
+2026-05-10 23:56:03,776 | INFO | ❌ [STOP_LOSS] Will the San Antonio Spurs win the NBA Wester | -7.8% | P&L=-0.63$ | 1.3h
+2026-05-10 23:56:03,779 | INFO | Momentum tardío: New Rihanna Album before GTA VI?
+2026-05-10 23:56:03,779 | INFO | Momentum tardío: New Playboi Carti Album before GTA VI?
+2026-05-10 23:56:03,780 | INFO | Momentum tardío: Will the Minnesota Wild win the 2026 NHL
+2026-05-10 23:56:03,780 | INFO | Momentum tardío: Will the Montreal Canadiens win the 2026
+2026-05-10 23:56:03,780 | INFO | Momentum tardío: Will the New York Knicks win the 2026 NB
+2026-05-10 23:56:03,780 | INFO | Momentum tardío: Will the San Antonio Spurs win the 2026 
+2026-05-10 23:56:03,781 | INFO | Momentum tardío: Will the New York Knicks win the NBA Eas
+2026-05-10 23:56:03,781 | INFO | Momentum tardío: Will Manchester City win the 2025–26 Eng
+2026-05-10 23:56:03,782 | INFO | Momentum tardío: Will Paloma Valencia win the 2026 Colomb
+2026-05-10 23:56:03,782 | INFO | Bayesiano bloquea (score=39%): Jacob Elordi announced as next James Bon | cultura mom=alto precio=muy_bajo
+2026-05-10 23:56:03,783 | INFO | Señales de momentum: 5 | Cupo: 25
+2026-05-10 23:56:04,286 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 23:56:04,300 | INFO | LLM descarta: Will the San Antonio Spurs win the NBA Wester
+2026-05-10 23:56:05,750 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 23:56:05,751 | INFO | ✅ NUEVA: COMPRAR NO | Will the Buffalo Sabres win the 2026 NHL | mom=-4.4% (1h=-3.9%) | $6.38
+2026-05-10 23:56:07,525 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 23:56:07,526 | INFO | LLM descarta: Will Ivan Cepeda Castro win the 2026 Colombia
+2026-05-10 23:56:08,880 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 23:56:08,881 | INFO | LLM descarta: Will Arsenal finish in 2nd place in the 2025-
+2026-05-10 23:56:10,354 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 23:56:10,361 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 23:56:10,361 | INFO | CICLO #65 | Rastreando 77 mercados
+2026-05-10 23:56:10,361 | INFO | Abiertas: 6 | Cerradas: 84 | P&L: $-32.12
+2026-05-10 23:56:10,361 | INFO | TP:10 SL:22 Time:52
+2026-05-10 23:56:10,361 | INFO | =======================================================
