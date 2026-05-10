@@ -19,6 +19,7 @@ from groq import Groq
 from apscheduler.schedulers.blocking import BlockingScheduler
 import requests, pandas as pd, json, os, time, logging
 from datetime import datetime, timedelta
+from bayesian_engine import BayesianEngine
 
 # ══════════════════════════════════════════════════════════════════
 # CONFIG
@@ -307,6 +308,10 @@ def ciclo():
     estado   = cargar_estado()
     df_libro = cargar_libro()
 
+    bayesian = BayesianEngine()
+    bayesian.entrenar()
+    log.info(bayesian.reporte())
+
   # Circuit breaker: verificar pérdida del día
     hoy = datetime.now().strftime("%Y-%m-%d")
     if not df_libro.empty and "CERRADA" in df_libro["estado"].values:
@@ -371,8 +376,21 @@ def ciclo():
         if abs(c4h) > abs(c1h) * 2 and abs(c4h) > 0.05:
             log.info(f"Momentum tardío: {m['pregunta'][:40]}")
             continue
+    ok, score, feats = bayesian.should_trade(
+        pregunta    = m["pregunta"],
+        cambio_1h   = c1h,
+        precio_entrada = m["mid_price"],
+        fecha_dt    = datetime.now().strftime("%Y-%m-%d %H:%M"),
+    )
+    if not ok:
+        log.info(
+            f"Bayesiano bloquea (score={score:.0%}): "
+            f"{m['pregunta'][:40]} | {feats['categoria']} "
+            f"mom={feats['mom_bucket']} precio={feats['precio_bucket']}"
+        )
+        continue
         
-        señales.append({**m, "señal": señal, "momentum": mom,
+    señales.append({**m, "señal": señal, "momentum": mom,
                         "cambio_1h": c1h, "cambio_4h": c4h})
 
     # Ordenar por momentum absoluto (mayor movimiento = más urgente)
