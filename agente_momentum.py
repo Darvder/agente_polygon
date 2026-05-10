@@ -249,9 +249,14 @@ def verificar_salidas(df_libro, estado, mercados_actuales):
             horas_abiertas = (ahora - dt_entrada).total_seconds() / 3600
 
             mid_actual = (precio_lookup.get(str(pos.get("market_id", ""))) or
-                          pregunta_lookup.get(str(pos["pregunta"])[:70]))
+              pregunta_lookup.get(str(pos["pregunta"])[:70]))
+
+            # TIME_EXIT no necesita precio actual — cerrar con último precio conocido
             if mid_actual is None:
-                continue
+                if horas_abiertas >= MAX_HORAS:
+                    mid_actual = float(pos["precio_actual"])  # usar último precio guardado
+                else:
+                    continue
 
             df_libro.loc[idx, "precio_actual"] = mid_actual
 
