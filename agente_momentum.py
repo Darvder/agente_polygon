@@ -367,6 +367,9 @@ def ciclo():
             continue
         if m["volumen_usd"] < MIN_VOLUMEN_MOMENTUM:
             continue
+        if abs(m["cambio_4h"]) > abs(m["cambio_1h"]) * 2 and abs(m["cambio_4h"]) > 0.05:
+            log.info(f"Momentum tardío: {m['pregunta'][:40]}")
+            continue
         señales.append({**m, "señal": señal, "momentum": mom,
                         "cambio_1h": c1h, "cambio_4h": c4h})
 
