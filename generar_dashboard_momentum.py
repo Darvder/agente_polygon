@@ -97,7 +97,6 @@ def generar():
     # --- LÓGICA DE CAPITAL CORREGIDA ---
     capital_inicial = float(e.get("capital_inicial", 1000))
     capital_actual = float(e.get("capital_actual", 1000))
-    capital_en_riesgo = float(ab["monto_usdc"].sum()) if not ab.empty else 0.0
     
     # Patrimonio Neto (Equity)
     patrimonio_neto = capital_actual + capital_en_riesgo
@@ -107,6 +106,7 @@ def generar():
 
     ab = df[df["estado"]=="ABIERTA"] if not df.empty else pd.DataFrame()
     ce = df[df["estado"]=="CERRADA"] if not df.empty else pd.DataFrame()
+    capital_en_riesgo = float(ab["monto_usdc"].sum()) if not ab.empty else 0.0
 
     pnl_realizado_total = ce["pnl_realizado"].sum() if not ce.empty else 0
     wins      = (ce["pnl_realizado"]>0).sum() if not ce.empty else 0
