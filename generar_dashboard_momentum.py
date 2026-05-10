@@ -99,14 +99,17 @@ def generar():
     capital_actual = float(e.get("capital_actual", 1000))
     
     # Patrimonio Neto (Equity)
+    ab = df[df["estado"]=="ABIERTA"] if not df.empty else pd.DataFrame()
+    ce = df[df["estado"]=="CERRADA"] if not df.empty else pd.DataFrame()
+    capital_en_riesgo = float(ab["monto_usdc"].sum()) if not ab.empty else 0.0
+  
     patrimonio_neto = capital_actual + capital_en_riesgo
     # Ganancia/Pérdida Total Real respecto al depósito inicial
     pnl_neto_absoluto = patrimonio_neto - capital_inicial
     ret_neto = (pnl_neto_absoluto / capital_inicial) * 100
 
-    ab = df[df["estado"]=="ABIERTA"] if not df.empty else pd.DataFrame()
-    ce = df[df["estado"]=="CERRADA"] if not df.empty else pd.DataFrame()
-    capital_en_riesgo = float(ab["monto_usdc"].sum()) if not ab.empty else 0.0
+
+    
 
     pnl_realizado_total = ce["pnl_realizado"].sum() if not ce.empty else 0
     wins      = (ce["pnl_realizado"]>0).sum() if not ce.empty else 0
