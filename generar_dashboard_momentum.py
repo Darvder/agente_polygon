@@ -97,7 +97,7 @@ def generar():
     # --- LÓGICA DE CAPITAL CORREGIDA ---
     capital_inicial = float(e.get("capital_inicial", 1000))
     capital_actual = float(e.get("capital_actual", 1000))
-    capital_en_riesgo = float(e.get("capital_en_riesgo", 0))
+    capital_en_riesgo = float(ab["monto_usdc"].sum()) if not ab.empty else 0.0
     
     # Patrimonio Neto (Equity)
     patrimonio_neto = capital_actual + capital_en_riesgo
