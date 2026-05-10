@@ -1174,3 +1174,22 @@
 2026-05-10 14:29:45,218 | INFO | Abiertas: 5 | Cerradas: 68 | P&L: $+2.18
 2026-05-10 14:29:45,218 | INFO | TP:9 SL:15 Time:44
 2026-05-10 14:29:45,218 | INFO | =======================================================
+2026-05-10 14:45:31,778 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 14:45:31,778 | INFO | =======================================================
+2026-05-10 14:45:31,778 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 14:45:31,778 | INFO | =======================================================
+2026-05-10 14:45:32,066 | INFO | Mercados activos rastreables: 70
+2026-05-10 14:45:32,085 | INFO | Señales de momentum: 9 | Cupo: 25
+2026-05-10 14:45:32,460 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:45:32,474 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-10 14:45:33,474 | INFO | Anti re-entrada: Will the Detroit Pistons win the NBA Eas
+2026-05-10 14:45:33,766 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:45:33,767 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 14:45:35,077 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:45:35,078 | INFO | LLM descarta: Will the Republican Party control the House a
+2026-05-10 14:45:36,525 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:45:36,529 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 14:45:36,529 | INFO | CICLO #52 | Rastreando 74 mercados
+2026-05-10 14:45:36,529 | INFO | Abiertas: 5 | Cerradas: 68 | P&L: $+2.18
+2026-05-10 14:45:36,529 | INFO | TP:9 SL:15 Time:44
+2026-05-10 14:45:36,529 | INFO | =======================================================
