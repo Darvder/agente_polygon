@@ -115,7 +115,10 @@ def generar():
     wr        = wins/len(ce) if not ce.empty else 0
     avg_win   = ce[ce["pnl_realizado"]>0]["pnl_realizado"].mean() if not ce.empty and wins>0 else 0
     avg_loss  = ce[ce["pnl_realizado"]<=0]["pnl_realizado"].mean() if not ce.empty and (len(ce)-wins)>0 else 0
-    tp_sl_r   = e['n_tp']/(e['n_sl'] if e['n_sl']>0 else 1)
+    n_tp    = int((ce["razon_cierre"] == "TAKE_PROFIT").sum()) if not ce.empty else 0
+    n_sl    = int((ce["razon_cierre"] == "STOP_LOSS").sum())   if not ce.empty else 0
+    n_time  = int((ce["razon_cierre"] == "TIME_EXIT").sum())   if not ce.empty else 0
+    tp_sl_r = n_tp / (n_sl if n_sl > 0 else 1)
 
     # --- SERIES Y DRAWDOWN ---
     labels_s, labels_f, values = build_pnl_series(df)
