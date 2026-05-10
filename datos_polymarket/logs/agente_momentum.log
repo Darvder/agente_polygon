@@ -1677,3 +1677,36 @@ PRECIO_BUCKET:
   precio_bucket:medio                 ███░░░░░░░ 36% (5/14 trades)
   precio_bucket:alto                  ██░░░░░░░░ 26% (5/19 trades)
 2026-05-10 21:52:28,247 | WARNING | ⛔ CIRCUIT BREAKER: pérdida del día $-40.60 — sin nuevas entradas
+2026-05-10 22:32:42,955 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 22:32:42,955 | INFO | =======================================================
+2026-05-10 22:32:42,955 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 22:32:42,955 | INFO | =======================================================
+2026-05-10 22:32:42,965 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-10 22:32:42,965 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 56% (18/32 trades)
+  categoria:futbol                    ████░░░░░░ 44% (4/9 trades)
+  categoria:politica                  ████░░░░░░ 42% (8/19 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   █████░░░░░ 56% (9/16 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 46% (10/22 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 38% (8/21 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_alto                 █████░░░░░ 57% (8/14 trades)
+  mom_bucket:bajo                     █████░░░░░ 52% (12/23 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:medio                    ████░░░░░░ 40% (8/20 trades)
+  mom_bucket:alto                     ███░░░░░░░ 31% (4/13 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:bajo                  ██████░░░░ 61% (14/23 trades)
+  precio_bucket:muy_bajo              █████░░░░░ 59% (10/17 trades)
+  precio_bucket:medio                 ███░░░░░░░ 36% (5/14 trades)
+  precio_bucket:alto                  ██░░░░░░░░ 26% (5/19 trades)
+2026-05-10 22:32:42,966 | WARNING | ⛔ CIRCUIT BREAKER: pérdida del día $-40.60 — sin nuevas entradas
