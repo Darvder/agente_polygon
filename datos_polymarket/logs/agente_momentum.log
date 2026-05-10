@@ -1230,3 +1230,18 @@
 2026-05-10 15:01:38,571 | INFO | Abiertas: 4 | Cerradas: 69 | P&L: $+2.18
 2026-05-10 15:01:38,571 | INFO | TP:9 SL:15 Time:45
 2026-05-10 15:01:38,572 | INFO | =======================================================
+2026-05-10 15:10:43,033 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 15:10:43,033 | INFO | =======================================================
+2026-05-10 15:10:43,033 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 15:10:43,033 | INFO | =======================================================
+2026-05-10 15:10:43,415 | INFO | Mercados activos rastreables: 70
+2026-05-10 15:10:43,433 | INFO | Momentum tardío: Will the Minnesota Wild win the 2026 NHL
+2026-05-10 15:10:43,433 | INFO | Momentum tardío: Will the Detroit Pistons win the NBA Eas
+2026-05-10 15:10:43,434 | INFO | Señales de momentum: 4 | Cupo: 11
+2026-05-10 15:10:43,944 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 15:10:43,958 | INFO | LLM descarta: Will Abelardo de la Espriella win the 1st rou
+2026-05-10 15:10:44,960 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 15:10:44,961 | INFO | CICLO #55 | Rastreando 74 mercados
+2026-05-10 15:10:44,961 | INFO | Abiertas: 4 | Cerradas: 69 | P&L: $+2.18
+2026-05-10 15:10:44,961 | INFO | TP:9 SL:15 Time:45
+2026-05-10 15:10:44,961 | INFO | =======================================================
