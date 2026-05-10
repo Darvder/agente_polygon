@@ -389,6 +389,11 @@ def ciclo():
                 f"mom={feats['mom_bucket']} precio={feats['precio_bucket']}"
             )
             continue
+        # Filtro evento inminente: no entrar en mercados que resuelven en ≤2 días con momentum alto (riesgo de resultado binario)
+
+        if m["dias"] <= 2 and abs(c1h) > 0.05:
+            log.info(f"Evento inminente: {m['pregunta'][:40]} ({m['dias']}d)")
+            continue
             
         señales.append({**m, "señal": señal, "momentum": mom,
                             "cambio_1h": c1h, "cambio_4h": c4h})
