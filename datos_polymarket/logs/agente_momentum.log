@@ -996,3 +996,28 @@
 2026-05-10 09:06:21,049 | INFO | Abiertas: 9 | Cerradas: 58 | P&L: $+8.61
 2026-05-10 09:06:21,049 | INFO | TP:9 SL:11 Time:38
 2026-05-10 09:06:21,049 | INFO | =======================================================
+2026-05-10 10:38:44,392 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 10:38:44,392 | INFO | =======================================================
+2026-05-10 10:38:44,392 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 10:38:44,392 | INFO | =======================================================
+2026-05-10 10:38:44,603 | INFO | Mercados activos rastreables: 70
+2026-05-10 10:38:44,624 | INFO | Señales de momentum: 17 | Cupo: 21
+2026-05-10 10:38:44,948 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 10:38:44,962 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 10:38:46,278 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 10:38:46,278 | INFO | ✅ NUEVA: COMPRAR YES | Will the Minnesota Wild win the 2026 NHL | mom=+18.8% (1h=+22.1%) | $20
+2026-05-10 10:38:47,779 | INFO | Anti re-entrada: New Playboi Carti Album before GTA VI?
+2026-05-10 10:38:47,779 | INFO | Anti re-entrada: Will the Montreal Canadiens win the 2026
+2026-05-10 10:38:48,115 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 10:38:48,116 | INFO | LLM descarta: Will Ivan Cepeda Castro win the 2026 Colombia
+2026-05-10 10:38:49,419 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 10:38:49,763 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 10:38:49,764 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-10 10:38:51,066 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 10:38:51,375 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 10:38:51,376 | INFO | LLM descarta: Will Arsenal finish in 2nd place in the 2025-
+2026-05-10 10:38:52,382 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 10:38:52,382 | INFO | CICLO #45 | Rastreando 74 mercados
+2026-05-10 10:38:52,382 | INFO | Abiertas: 10 | Cerradas: 58 | P&L: $+8.61
+2026-05-10 10:38:52,382 | INFO | TP:9 SL:11 Time:38
+2026-05-10 10:38:52,382 | INFO | =======================================================
