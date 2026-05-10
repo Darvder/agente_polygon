@@ -376,22 +376,22 @@ def ciclo():
         if abs(c4h) > abs(c1h) * 2 and abs(c4h) > 0.05:
             log.info(f"Momentum tardío: {m['pregunta'][:40]}")
             continue
-    ok, score, feats = bayesian.should_trade(
-        pregunta    = m["pregunta"],
-        cambio_1h   = c1h,
-        precio_entrada = m["mid_price"],
-        fecha_dt    = datetime.now().strftime("%Y-%m-%d %H:%M"),
-    )
-    if not ok:
-        log.info(
-            f"Bayesiano bloquea (score={score:.0%}): "
-            f"{m['pregunta'][:40]} | {feats['categoria']} "
-            f"mom={feats['mom_bucket']} precio={feats['precio_bucket']}"
+        ok, score, feats = bayesian.should_trade(
+            pregunta    = m["pregunta"],
+            cambio_1h   = c1h,
+            precio_entrada = m["mid_price"],
+            fecha_dt    = datetime.now().strftime("%Y-%m-%d %H:%M"),
         )
-        continue
-        
-    señales.append({**m, "señal": señal, "momentum": mom,
-                        "cambio_1h": c1h, "cambio_4h": c4h})
+        if not ok:
+            log.info(
+                f"Bayesiano bloquea (score={score:.0%}): "
+                f"{m['pregunta'][:40]} | {feats['categoria']} "
+                f"mom={feats['mom_bucket']} precio={feats['precio_bucket']}"
+            )
+            continue
+            
+        señales.append({**m, "señal": señal, "momentum": mom,
+                            "cambio_1h": c1h, "cambio_4h": c4h})
 
     # Ordenar por momentum absoluto (mayor movimiento = más urgente)
     señales = sorted(señales, key=lambda x: abs(x["momentum"]), reverse=True)
