@@ -55,7 +55,7 @@ MIN_VOLUMEN_MOMENTUM = 50_000
 # ── Posiciones ────────────────────────────────────────────────────
 CAPITAL_INICIAL   = 1_000
 CAPITAL_POR_OP    = 20      # pequeño — muchas operaciones, aprender rápido
-MAX_POSICIONES    = 15
+MAX_POSICIONES    = 30
 
 # Excluir solo lo imposible de analizar
 PATRONES_EXCLUIR  = ["jesus","christ","second coming","rapture",
