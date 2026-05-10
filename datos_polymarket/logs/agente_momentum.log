@@ -1783,3 +1783,57 @@ PRECIO_BUCKET:
 2026-05-10 22:36:55,245 | INFO | Abiertas: 7 | Cerradas: 82 | P&L: $-29.74
 2026-05-10 22:36:55,246 | INFO | TP:10 SL:20 Time:52
 2026-05-10 22:36:55,246 | INFO | =======================================================
+2026-05-10 22:53:07,538 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 22:53:07,538 | INFO | =======================================================
+2026-05-10 22:53:07,538 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 22:53:07,538 | INFO | =======================================================
+2026-05-10 22:53:07,546 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-10 22:53:07,546 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 56% (19/34 trades)
+  categoria:futbol                    ████░░░░░░ 46% (5/11 trades)
+  categoria:politica                  ███░░░░░░░ 39% (9/23 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   █████░░░░░ 50% (12/24 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 46% (10/22 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 38% (8/21 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_alto                 █████░░░░░ 56% (9/16 trades)
+  mom_bucket:bajo                     █████░░░░░ 52% (14/27 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:medio                    ███░░░░░░░ 38% (8/21 trades)
+  mom_bucket:alto                     ██░░░░░░░░ 29% (4/14 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:bajo                  ██████░░░░ 60% (15/25 trades)
+  precio_bucket:muy_bajo              █████░░░░░ 56% (10/18 trades)
+  precio_bucket:medio                 ███░░░░░░░ 35% (6/17 trades)
+  precio_bucket:muy_alto              ███░░░░░░░ 33% (1/3 trades)
+  precio_bucket:alto                  ██░░░░░░░░ 26% (5/19 trades)
+2026-05-10 22:53:07,706 | INFO | Mercados activos rastreables: 70
+2026-05-10 22:53:07,720 | INFO | ❌ [STOP_LOSS] Will Abelardo de la Espriella win the 1st rou | -8.8% | P&L=-1.75$ | 0.3h
+2026-05-10 22:53:07,723 | INFO | Bayesiano bloquea (score=38%): New Rihanna Album before GTA VI? | cultura mom=bajo precio=alto
+2026-05-10 22:53:07,723 | INFO | Bayesiano bloquea (score=35%): New Playboi Carti Album before GTA VI? | cultura mom=medio precio=alto
+2026-05-10 22:53:07,724 | INFO | Bayesiano bloquea (score=40%): Will Ivan Cepeda Castro win the 2026 Col | politica mom=medio precio=medio
+2026-05-10 22:53:07,725 | INFO | Bayesiano bloquea (score=40%): Jacob Elordi announced as next James Bon | cultura mom=alto precio=muy_bajo
+2026-05-10 22:53:07,725 | INFO | Señales de momentum: 12 | Cupo: 24
+2026-05-10 22:53:08,232 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:53:08,242 | INFO | LLM descarta: Will the San Antonio Spurs win the 2026 NBA F
+2026-05-10 22:53:09,242 | INFO | Anti re-entrada: Will the Minnesota Wild win the 2026 NHL
+2026-05-10 22:53:09,585 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:53:09,586 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-10 22:53:10,933 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:53:11,200 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:53:11,201 | INFO | LLM descarta: Will the Colorado Avalanche win the 2026 NHL 
+2026-05-10 22:53:12,201 | INFO | Anti re-entrada: Will Abelardo de la Espriella win the 1s
+2026-05-10 22:53:12,210 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 22:53:12,210 | INFO | CICLO #64 | Rastreando 77 mercados
+2026-05-10 22:53:12,210 | INFO | Abiertas: 6 | Cerradas: 83 | P&L: $-31.49
+2026-05-10 22:53:12,210 | INFO | TP:10 SL:21 Time:52
+2026-05-10 22:53:12,210 | INFO | =======================================================
