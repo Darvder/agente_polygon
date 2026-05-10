@@ -53,16 +53,21 @@ def build_pnl_series(df):
     if df.empty or "CERRADA" not in df["estado"].values:
         return ["00:00"], ["Inicio"], [0.0]
     ce = df[df["estado"]=="CERRADA"].copy()
-    ce["fecha_cierre_real"] = ce["fecha_cierre_real"].fillna("").astype(str)
-    ce = ce[ce["fecha_cierre_real"]!=""].sort_values("fecha_cierre_real")
-    if ce.empty: return ["00:00"], ["Inicio"], [0.0]
     ce["pnl_realizado"] = pd.to_numeric(ce["pnl_realizado"],errors="coerce").fillna(0)
+    
+    # Usar fecha_cierre_real, o fecha_entrada_dt como fallback
+    ce["fecha_cierre_real"] = ce["fecha_cierre_real"].fillna("").astype(str)
+    ce["fecha_orden"] = ce["fecha_cierre_real"].replace("", pd.NA)
+    ce["fecha_orden"] = ce["fecha_orden"].fillna(ce["fecha_entrada_dt"])
+    
+    ce = ce.sort_values("fecha_orden")
     ce["pnl_acum"] = ce["pnl_realizado"].cumsum()
     
-    # Añadimos punto inicial cero para ver la evolución desde el origen
-    labels_short = ["00:00"] + ce["fecha_cierre_real"].str[11:16].tolist()
-    labels_full  = ["Inicio"] + ce["fecha_cierre_real"].str[:16].tolist()
+    labels_short = ce["fecha_orden"].str[11:16].tolist()
+    labels_full  = ce["fecha_orden"].str[:16].tolist()
     values = [0.0] + ce["pnl_acum"].round(2).tolist()
+    labels_short = ["00:00"] + labels_short
+    labels_full  = ["Inicio"] + labels_full
     return labels_short, labels_full, values
 
 def horas_abiertas(fecha_str):
