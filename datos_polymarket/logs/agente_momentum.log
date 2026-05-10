@@ -1288,3 +1288,33 @@
 2026-05-10 15:25:52,401 | INFO | Abiertas: 5 | Cerradas: 69 | P&L: $+2.18
 2026-05-10 15:25:52,401 | INFO | TP:9 SL:15 Time:45
 2026-05-10 15:25:52,401 | INFO | =======================================================
+2026-05-10 16:29:59,876 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 16:29:59,876 | INFO | =======================================================
+2026-05-10 16:29:59,876 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 16:29:59,876 | INFO | =======================================================
+2026-05-10 16:30:00,027 | INFO | Mercados activos rastreables: 69
+2026-05-10 16:30:00,041 | INFO | ❌ [TIME_EXIT] Will the Buffalo Sabres win the 2026 NHL Stan | -2.9% | P&L=-0.28$ | 4.9h
+2026-05-10 16:30:00,043 | INFO | ❌ [STOP_LOSS] New Rihanna Album before GTA VI? | -14.4% | P&L=-2.84$ | 2.0h
+2026-05-10 16:30:00,047 | INFO | Momentum tardío: Will the Minnesota Wild win the 2026 NHL
+2026-05-10 16:30:00,049 | INFO | Señales de momentum: 11 | Cupo: 12
+2026-05-10 16:30:00,082 | INFO | Anti re-entrada: New Rihanna Album before GTA VI?
+2026-05-10 16:30:00,545 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:00,558 | INFO | ✅ NUEVA: COMPRAR YES | Will Manchester City win the 2025–26 Eng | mom=+12.7% (1h=+12.7%) | $20
+2026-05-10 16:30:02,365 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:02,366 | INFO | LLM descarta: Will Arsenal win the 2025–26 English Premier 
+2026-05-10 16:30:03,777 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:03,778 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-10 16:30:05,195 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:05,196 | INFO | LLM descarta: Will the Colorado Avalanche win the 2026 NHL 
+2026-05-10 16:30:06,604 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:06,605 | INFO | ✅ NUEVA: COMPRAR YES | 2026 Balance of Power: D Senate, D House | mom=+2.7% (1h=+2.3%) | $7.29
+2026-05-10 16:30:08,396 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:08,397 | INFO | ✅ NUEVA: COMPRAR YES | Will Abelardo de la Espriella  win the 2 | mom=+2.6% (1h=+2.4%) | $7.12
+2026-05-10 16:30:10,212 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:10,213 | INFO | LLM descarta: 2026 Balance of Power: R Senate, R House
+2026-05-10 16:30:11,570 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 16:30:11,576 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 16:30:11,576 | INFO | CICLO #59 | Rastreando 75 mercados
+2026-05-10 16:30:11,577 | INFO | Abiertas: 6 | Cerradas: 71 | P&L: $-0.94
+2026-05-10 16:30:11,577 | INFO | TP:9 SL:16 Time:46
+2026-05-10 16:30:11,577 | INFO | =======================================================
