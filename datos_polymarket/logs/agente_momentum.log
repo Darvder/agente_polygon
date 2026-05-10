@@ -1124,3 +1124,25 @@
 2026-05-10 14:09:02,435 | INFO | Abiertas: 4 | Cerradas: 67 | P&L: $+4.32
 2026-05-10 14:09:02,435 | INFO | TP:9 SL:14 Time:44
 2026-05-10 14:09:02,436 | INFO | =======================================================
+2026-05-10 14:10:39,286 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 14:10:39,286 | INFO | =======================================================
+2026-05-10 14:10:39,286 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 14:10:39,286 | INFO | =======================================================
+2026-05-10 14:10:39,603 | INFO | Mercados activos rastreables: 69
+2026-05-10 14:10:39,621 | INFO | Señales de momentum: 11 | Cupo: 26
+2026-05-10 14:10:39,655 | INFO | Anti re-entrada: Will the Minnesota Wild win the 2026 NHL
+2026-05-10 14:10:40,088 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:10:40,102 | INFO | LLM descarta: Will the Republican Party control the House a
+2026-05-10 14:10:41,102 | INFO | Anti re-entrada: Will the Detroit Pistons win the NBA Eas
+2026-05-10 14:10:41,390 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:10:41,392 | INFO | Anti re-entrada: Will Paloma Valencia win the 2026 Colomb
+2026-05-10 14:10:41,756 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:10:41,757 | INFO | Anti re-entrada: Will the Cleveland Cavaliers win the NBA
+2026-05-10 14:10:42,042 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:10:42,388 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:10:42,389 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 14:10:43,391 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 14:10:43,392 | INFO | CICLO #50 | Rastreando 74 mercados
+2026-05-10 14:10:43,392 | INFO | Abiertas: 4 | Cerradas: 67 | P&L: $+4.32
+2026-05-10 14:10:43,392 | INFO | TP:9 SL:14 Time:44
+2026-05-10 14:10:43,392 | INFO | =======================================================
