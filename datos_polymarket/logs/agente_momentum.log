@@ -1710,3 +1710,76 @@ PRECIO_BUCKET:
   precio_bucket:medio                 ███░░░░░░░ 36% (5/14 trades)
   precio_bucket:alto                  ██░░░░░░░░ 26% (5/19 trades)
 2026-05-10 22:32:42,966 | WARNING | ⛔ CIRCUIT BREAKER: pérdida del día $-40.60 — sin nuevas entradas
+2026-05-10 22:36:35,363 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 22:36:35,363 | INFO | =======================================================
+2026-05-10 22:36:35,363 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 22:36:35,363 | INFO | =======================================================
+2026-05-10 22:36:35,375 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-10 22:36:35,376 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 56% (18/32 trades)
+  categoria:futbol                    ████░░░░░░ 44% (4/9 trades)
+  categoria:politica                  ████░░░░░░ 42% (8/19 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   █████░░░░░ 56% (9/16 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 46% (10/22 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 38% (8/21 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_alto                 █████░░░░░ 57% (8/14 trades)
+  mom_bucket:bajo                     █████░░░░░ 52% (12/23 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:medio                    ████░░░░░░ 40% (8/20 trades)
+  mom_bucket:alto                     ███░░░░░░░ 31% (4/13 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:bajo                  ██████░░░░ 61% (14/23 trades)
+  precio_bucket:muy_bajo              █████░░░░░ 59% (10/17 trades)
+  precio_bucket:medio                 ███░░░░░░░ 36% (5/14 trades)
+  precio_bucket:alto                  ██░░░░░░░░ 26% (5/19 trades)
+2026-05-10 22:36:35,737 | INFO | Mercados activos rastreables: 70
+2026-05-10 22:36:35,753 | INFO | ✅ [TIME_EXIT] Will the Carolina Hurricanes win the 2026 NHL | +1.4% | P&L=+0.10$ | 8.6h
+2026-05-10 22:36:35,755 | INFO | ❌ [TIME_EXIT] Will Abelardo de la Espriella win the 1st rou | -0.8% | P&L=-0.05$ | 7.3h
+2026-05-10 22:36:35,756 | INFO | ❌ [TIME_EXIT] 2026 Balance of Power: D Senate, D House | -2.2% | P&L=-0.16$ | 6.1h
+2026-05-10 22:36:35,758 | INFO | ❌ [TIME_EXIT] Will Abelardo de la Espriella  win the 2026 C | -1.2% | P&L=-0.08$ | 6.1h
+2026-05-10 22:36:35,759 | INFO | ❌ [STOP_LOSS] Will the Minnesota Wild win the 2026 NHL Stan | -8.7% | P&L=-1.75$ | 5.8h
+2026-05-10 22:36:35,761 | INFO | ❌ [TIME_EXIT] Will Arsenal win the 2025–26 English Premier  | -1.1% | P&L=-0.23$ | 4.8h
+2026-05-10 22:36:35,762 | INFO | ✅ [TIME_EXIT] Will Manchester City finish in 2nd place in t | +2.4% | P&L=+0.48$ | 4.8h
+2026-05-10 22:36:35,764 | INFO | ✅ [TAKE_PROFIT] Will Paloma Valencia win the 2026 Colombian p | +15.2% | P&L=+1.38$ | 4.8h
+2026-05-10 22:36:35,767 | INFO | Bayesiano bloquea (score=38%): New Rihanna Album before GTA VI? | cultura mom=bajo precio=alto
+2026-05-10 22:36:35,767 | INFO | Bayesiano bloquea (score=35%): New Playboi Carti Album before GTA VI? | cultura mom=medio precio=alto
+2026-05-10 22:36:35,769 | INFO | Señales de momentum: 12 | Cupo: 30
+2026-05-10 22:36:36,139 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:36,153 | INFO | ✅ NUEVA: COMPRAR YES | Will the New York Knicks win the 2026 NB | mom=+20.3% (1h=+20.3%) | $20
+2026-05-10 22:36:38,084 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:38,085 | INFO | ✅ NUEVA: COMPRAR YES | Will the Montreal Canadiens win the 2026 | mom=+15.5% (1h=+15.5%) | $20
+2026-05-10 22:36:39,952 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:39,953 | INFO | ✅ NUEVA: COMPRAR YES | Will Paloma Valencia win the 2026 Colomb | mom=+15.2% (1h=+15.2%) | $20
+2026-05-10 22:36:41,762 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:41,763 | INFO | ✅ NUEVA: COMPRAR YES | Will Abelardo de la Espriella win the 1s | mom=+13.0% (1h=+13.0%) | $20
+2026-05-10 22:36:43,554 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:43,554 | INFO | LLM descarta: Will the San Antonio Spurs win the 2026 NBA F
+2026-05-10 22:36:44,801 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:44,802 | INFO | ✅ NUEVA: COMPRAR YES | Will Manchester City win the 2025–26 Eng | mom=+8.0% (1h=+8.0%) | $20
+2026-05-10 22:36:46,513 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:46,514 | INFO | ✅ NUEVA: COMPRAR YES | Will the New York Knicks win the NBA Eas | mom=+5.4% (1h=+5.4%) | $14.49
+2026-05-10 22:36:48,443 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:48,444 | INFO | LLM descarta: Will the Minnesota Wild win the 2026 NHL Stan
+2026-05-10 22:36:49,787 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:49,788 | INFO | LLM descarta: Will Ivan Cepeda Castro win the 2026 Colombia
+2026-05-10 22:36:51,136 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:51,136 | INFO | LLM descarta: Will the Buffalo Sabres win the 2026 NHL Stan
+2026-05-10 22:36:52,452 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:52,453 | INFO | LLM descarta: Will Arsenal finish in 2nd place in the 2025-
+2026-05-10 22:36:53,738 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:36:53,739 | INFO | ✅ NUEVA: COMPRAR YES | Will the San Antonio Spurs win the NBA W | mom=+3.4% (1h=+3.4%) | $8.07
+2026-05-10 22:36:55,245 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 22:36:55,245 | INFO | CICLO #63 | Rastreando 77 mercados
+2026-05-10 22:36:55,245 | INFO | Abiertas: 7 | Cerradas: 82 | P&L: $-29.74
+2026-05-10 22:36:55,246 | INFO | TP:10 SL:20 Time:52
+2026-05-10 22:36:55,246 | INFO | =======================================================
