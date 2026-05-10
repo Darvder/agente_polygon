@@ -1146,3 +1146,31 @@
 2026-05-10 14:10:43,392 | INFO | Abiertas: 4 | Cerradas: 67 | P&L: $+4.32
 2026-05-10 14:10:43,392 | INFO | TP:9 SL:14 Time:44
 2026-05-10 14:10:43,392 | INFO | =======================================================
+2026-05-10 14:29:36,563 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 14:29:36,563 | INFO | =======================================================
+2026-05-10 14:29:36,563 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 14:29:36,563 | INFO | =======================================================
+2026-05-10 14:29:36,848 | INFO | Mercados activos rastreables: 70
+2026-05-10 14:29:36,862 | INFO | ❌ [STOP_LOSS] New Rihanna Album before GTA VI? | -10.7% | P&L=-2.14$ | 2.9h
+2026-05-10 14:29:36,867 | INFO | Señales de momentum: 13 | Cupo: 27
+2026-05-10 14:29:37,369 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:29:37,383 | INFO | ✅ NUEVA: COMPRAR YES | New Rihanna Album before GTA VI? | mom=+7.2% (1h=+9.7%) | $19.7
+2026-05-10 14:29:38,884 | INFO | Anti re-entrada: Will the Minnesota Wild win the 2026 NHL
+2026-05-10 14:29:39,211 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:29:39,212 | INFO | LLM descarta: Will the Republican Party control the House a
+2026-05-10 14:29:40,212 | INFO | Anti re-entrada: Will the Detroit Pistons win the NBA Eas
+2026-05-10 14:29:40,518 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:29:40,519 | INFO | ✅ NUEVA: COMPRAR YES | Will Arsenal finish in 2nd place in the  | mom=+2.2% (1h=+1.9%) | $5.97
+2026-05-10 14:29:42,020 | INFO | Anti re-entrada: Will Paloma Valencia win the 2026 Colomb
+2026-05-10 14:29:42,324 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:29:42,631 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:29:42,632 | INFO | LLM descarta: Will Abelardo de la Espriella win the 1st rou
+2026-05-10 14:29:43,632 | INFO | Anti re-entrada: Will the Cleveland Cavaliers win the NBA
+2026-05-10 14:29:43,918 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:29:44,211 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:29:44,212 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 14:29:45,218 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 14:29:45,218 | INFO | CICLO #51 | Rastreando 74 mercados
+2026-05-10 14:29:45,218 | INFO | Abiertas: 5 | Cerradas: 68 | P&L: $+2.18
+2026-05-10 14:29:45,218 | INFO | TP:9 SL:15 Time:44
+2026-05-10 14:29:45,218 | INFO | =======================================================
