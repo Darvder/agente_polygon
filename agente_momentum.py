@@ -42,7 +42,7 @@ MIN_MOMENTUM_4H   = 0.03    # movimiento mínimo en 4h (5%)
 CICLO_HORAS       = 0.10       # frecuencia del ciclo
 MIN_MOMENTUM_30M = 0.05
 MAX_EXPOSICION_MERCADO = 40   # máx $40 en un mismo mercado
-MAX_PERDIDA_DIA        = 30   # circuit breaker: parar si pierde $30 en el día
+MAX_PERDIDA_DIA        = 100   # circuit breaker: parar si pierde $30 en el día
 
 # ── Filtros de mercado ─────────────────────────────────────────────
 MIN_VOLUMEN       = 5_000   # bajo — queremos capturar mercados activos pequeños
