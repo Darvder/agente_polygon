@@ -818,3 +818,39 @@
 2026-05-09 23:06:48,788 | INFO | Abiertas: 11 | Cerradas: 36 | P&L: $+11.17
 2026-05-09 23:06:48,788 | INFO | TP:8 SL:8 Time:20
 2026-05-09 23:06:48,788 | INFO | =======================================================
+2026-05-10 00:05:39,746 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 00:05:39,746 | INFO | =======================================================
+2026-05-10 00:05:39,746 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 00:05:39,746 | INFO | =======================================================
+2026-05-10 00:05:40,006 | INFO | Mercados activos rastreables: 68
+2026-05-10 00:05:40,018 | INFO | ✅ [TIME_EXIT] Will Manchester City win the 2025–26 English  | +3.8% | P&L=+0.75$ | 4.5h
+2026-05-10 00:05:40,019 | INFO | ❌ [TIME_EXIT] Will Manchester City finish in 2nd place in t | -2.6% | P&L=-0.53$ | 4.5h
+2026-05-10 00:05:40,020 | INFO | ❌ [TIME_EXIT] Will the Republican Party control the Senate  | -3.5% | P&L=-0.19$ | 4.5h
+2026-05-10 00:05:40,022 | INFO | ❌ [STOP_LOSS] Will the Cleveland Cavaliers win the NBA East | -14.3% | P&L=-2.86$ | 3.4h
+2026-05-10 00:05:40,027 | INFO | Señales de momentum: 17 | Cupo: 23
+2026-05-10 00:05:40,470 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:40,483 | INFO | LLM descarta: Will the Cleveland Cavaliers win the NBA East
+2026-05-10 00:05:41,821 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:41,822 | INFO | LLM descarta: Will the Montreal Canadiens win the 2026 NHL 
+2026-05-10 00:05:43,387 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:43,388 | INFO | LLM descarta: No one announced as next James Bond?
+2026-05-10 00:05:44,776 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:44,777 | INFO | LLM descarta: Will the Detroit Pistons win the NBA Eastern 
+2026-05-10 00:05:46,146 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:46,147 | INFO | ✅ NUEVA: COMPRAR YES | Will Abelardo de la Espriella  win the 2 | mom=+2.5% (1h=+2.5%) | $6.44
+2026-05-10 00:05:47,647 | INFO | Anti re-entrada: 2026 Balance of Power: R Senate, R House
+2026-05-10 00:05:47,923 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:47,924 | INFO | ✅ NUEVA: COMPRAR YES | 2026 Balance of Power: D Senate, D House | mom=+2.4% (1h=+2.4%) | $6.13
+2026-05-10 00:05:49,733 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:49,734 | INFO | ✅ NUEVA: COMPRAR YES | Will Ivan Cepeda Castro win the 2026 Col | mom=+2.4% (1h=+2.4%) | $5.36
+2026-05-10 00:05:51,568 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:51,569 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-10 00:05:52,905 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:53,215 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:53,216 | INFO | LLM descarta: New Rihanna Album before GTA VI?
+2026-05-10 00:05:54,528 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 00:05:54,534 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 00:05:54,534 | INFO | CICLO #40 | Rastreando 72 mercados
+2026-05-10 00:05:54,534 | INFO | Abiertas: 10 | Cerradas: 40 | P&L: $+8.34
+2026-05-10 00:05:54,534 | INFO | TP:8 SL:9 Time:23
+2026-05-10 00:05:54,534 | INFO | =======================================================
