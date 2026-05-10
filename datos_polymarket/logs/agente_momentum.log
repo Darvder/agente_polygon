@@ -1193,3 +1193,26 @@
 2026-05-10 14:45:36,529 | INFO | Abiertas: 5 | Cerradas: 68 | P&L: $+2.18
 2026-05-10 14:45:36,529 | INFO | TP:9 SL:15 Time:44
 2026-05-10 14:45:36,529 | INFO | =======================================================
+2026-05-10 14:53:39,624 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 14:53:39,625 | INFO | =======================================================
+2026-05-10 14:53:39,625 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 14:53:39,625 | INFO | =======================================================
+2026-05-10 14:53:40,224 | INFO | Mercados activos rastreables: 70
+2026-05-10 14:53:40,238 | INFO | ✅ [TIME_EXIT] Will the Anaheim Ducks win the 2026 NHL Stanl | +0.0% | P&L=+0.00$ | 37.5h
+2026-05-10 14:53:40,245 | INFO | Señales de momentum: 11 | Cupo: 26
+2026-05-10 14:53:40,695 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:53:40,709 | INFO | LLM descarta: Will Abelardo de la Espriella win the 1st rou
+2026-05-10 14:53:42,065 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:53:42,066 | INFO | LLM descarta: Will the Detroit Pistons win the 2026 NBA Fin
+2026-05-10 14:53:43,066 | INFO | Anti re-entrada: Will the Detroit Pistons win the NBA Eas
+2026-05-10 14:53:43,572 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:53:43,837 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:53:43,838 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 14:53:45,152 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:53:45,152 | INFO | LLM descarta: Will the Republican Party control the House a
+2026-05-10 14:53:46,459 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:53:46,462 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 14:53:46,462 | INFO | CICLO #53 | Rastreando 74 mercados
+2026-05-10 14:53:46,462 | INFO | Abiertas: 4 | Cerradas: 69 | P&L: $+2.18
+2026-05-10 14:53:46,462 | INFO | TP:9 SL:15 Time:45
+2026-05-10 14:53:46,463 | INFO | =======================================================
