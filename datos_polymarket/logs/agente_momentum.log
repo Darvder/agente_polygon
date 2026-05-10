@@ -1071,3 +1071,33 @@
 2026-05-10 12:42:25,693 | INFO | Abiertas: 7 | Cerradas: 63 | P&L: $+2.94
 2026-05-10 12:42:25,693 | INFO | TP:9 SL:13 Time:41
 2026-05-10 12:42:25,693 | INFO | =======================================================
+2026-05-10 14:02:49,288 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 14:02:49,288 | INFO | =======================================================
+2026-05-10 14:02:49,288 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 14:02:49,288 | INFO | =======================================================
+2026-05-10 14:02:49,421 | INFO | Mercados activos rastreables: 69
+2026-05-10 14:02:49,437 | INFO | ✅ [TIME_EXIT] Will Paloma Valencia win the 2026 Colombian p | +6.4% | P&L=+1.28$ | 4.9h
+2026-05-10 14:02:49,439 | INFO | ✅ [TIME_EXIT] Will the Cleveland Cavaliers win the NBA East | +5.0% | P&L=+1.00$ | 4.9h
+2026-05-10 14:02:49,441 | INFO | ❌ [STOP_LOSS] Will the Detroit Pistons win the NBA Eastern  | -6.0% | P&L=-0.95$ | 4.9h
+2026-05-10 14:02:49,443 | INFO | ✅ [TIME_EXIT] Will France win the 2026 FIFA World Cup? | +0.6% | P&L=+0.05$ | 4.9h
+2026-05-10 14:02:49,449 | INFO | Señales de momentum: 12 | Cupo: 27
+2026-05-10 14:02:49,877 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:49,891 | INFO | LLM descarta: Callum Turner announced as next James Bond?
+2026-05-10 14:02:51,325 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:51,326 | INFO | ✅ NUEVA: COMPRAR YES | Will the Carolina Hurricanes win the 202 | mom=+2.9% (1h=+2.9%) | $6.84
+2026-05-10 14:02:53,106 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:53,107 | INFO | LLM descarta: Will the Republican Party control the House a
+2026-05-10 14:02:54,447 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:54,448 | INFO | LLM descarta: Will the Detroit Pistons win the NBA Eastern 
+2026-05-10 14:02:55,794 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:55,795 | INFO | Anti re-entrada: Will the Minnesota Wild win the 2026 NHL
+2026-05-10 14:02:56,090 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:56,495 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:56,496 | INFO | LLM descarta: Will Abelardo de la Espriella win the 1st rou
+2026-05-10 14:02:57,799 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:58,136 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:02:58,143 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 14:02:58,143 | INFO | CICLO #48 | Rastreando 74 mercados
+2026-05-10 14:02:58,143 | INFO | Abiertas: 4 | Cerradas: 67 | P&L: $+4.32
+2026-05-10 14:02:58,143 | INFO | TP:9 SL:14 Time:44
+2026-05-10 14:02:58,143 | INFO | =======================================================
