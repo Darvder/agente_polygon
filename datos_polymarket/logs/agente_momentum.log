@@ -2299,3 +2299,58 @@ PRECIO_BUCKET:
 2026-05-10 21:49:15,537 | INFO | Abiertas: 3 | Cerradas: 90 | P&L: $-33.56
 2026-05-10 21:49:15,538 | INFO | TP:11 SL:25 Time:54
 2026-05-10 21:49:15,538 | INFO | =======================================================
+2026-05-10 22:03:44,725 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 22:03:44,725 | INFO | =======================================================
+2026-05-10 22:03:44,725 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 22:03:44,725 | INFO | =======================================================
+2026-05-10 22:03:44,736 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-10 22:03:44,736 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 54% (21/39 trades)
+  categoria:futbol                    ████░░░░░░ 42% (5/12 trades)
+  categoria:politica                  ███░░░░░░░ 36% (9/25 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   █████░░░░░ 50% (12/24 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 41% (12/29 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 36% (8/22 trades)
+
+MOM_BUCKET:
+  mom_bucket:bajo                     █████░░░░░ 50% (14/28 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:muy_alto                 █████░░░░░ 50% (10/20 trades)
+  mom_bucket:medio                    ████░░░░░░ 41% (9/22 trades)
+  mom_bucket:alto                     ██░░░░░░░░ 25% (4/16 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              █████░░░░░ 55% (11/20 trades)
+  precio_bucket:bajo                  █████░░░░░ 52% (15/29 trades)
+  precio_bucket:medio                 ███░░░░░░░ 33% (6/18 trades)
+  precio_bucket:muy_alto              ███░░░░░░░ 33% (1/3 trades)
+  precio_bucket:alto                  ███░░░░░░░ 30% (6/20 trades)
+2026-05-10 22:03:45,010 | INFO | Mercados activos rastreables: 69
+2026-05-10 22:03:45,027 | INFO | ✅ [TIME_EXIT] Will the Buffalo Sabres win the 2026 NHL Stan | +2.2% | P&L=+0.14$ | 3.1h
+2026-05-10 22:03:45,031 | INFO | Bayesiano bloquea (score=38%): New Rihanna Album before GTA VI? | cultura mom=muy_alto precio=alto
+2026-05-10 22:03:45,031 | INFO | Bayesiano bloquea (score=35%): New Playboi Carti Album before GTA VI? | cultura mom=medio precio=alto
+2026-05-10 22:03:45,032 | INFO | Bayesiano bloquea (score=43%): Will the New York Knicks win the 2026 NB | deportes mom=alto precio=bajo
+2026-05-10 22:03:45,032 | INFO | Bayesiano bloquea (score=40%): Will John Cornyn win the 2026 Texas Repu | politica mom=bajo precio=medio
+2026-05-10 22:03:45,033 | INFO | Bayesiano bloquea (score=42%): Will the New York Knicks win the NBA Eas | deportes mom=medio precio=alto
+2026-05-10 22:03:45,033 | INFO | Bayesiano bloquea (score=43%): Will the San Antonio Spurs win the NBA W | deportes mom=alto precio=bajo
+2026-05-10 22:03:45,033 | INFO | Bayesiano bloquea (score=40%): Will Manchester City win the 2025–26 Eng | futbol mom=alto precio=bajo
+2026-05-10 22:03:45,033 | INFO | Bayesiano bloquea (score=38%): Will Abelardo de la Espriella win the 1s | politica mom=alto precio=bajo
+2026-05-10 22:03:45,033 | INFO | Bayesiano bloquea (score=38%): Will Ivan Cepeda Castro win the 2026 Col | politica mom=medio precio=medio
+2026-05-10 22:03:45,034 | INFO | Bayesiano bloquea (score=38%): Will Paloma Valencia win the 2026 Colomb | politica mom=alto precio=bajo
+2026-05-10 22:03:45,034 | INFO | Bayesiano bloquea (score=42%): Will Freiburg win the 2025-26 UEFA Europ | otro mom=bajo precio=medio
+2026-05-10 22:03:45,034 | INFO | Señales de momentum: 3 | Cupo: 13
+2026-05-10 22:03:45,066 | INFO | Anti re-entrada: Will the Montreal Canadiens win the 2026
+2026-05-10 22:03:45,480 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:03:45,492 | INFO | ✅ NUEVA: COMPRAR NO | Will the San Antonio Spurs win the 2026  | mom=-20.1% (1h=-20.1%) | $20
+2026-05-10 22:03:46,999 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 22:03:46,999 | INFO | CICLO #73 | Rastreando 80 mercados
+2026-05-10 22:03:46,999 | INFO | Abiertas: 3 | Cerradas: 91 | P&L: $-33.42
+2026-05-10 22:03:46,999 | INFO | TP:11 SL:25 Time:55
+2026-05-10 22:03:46,999 | INFO | =======================================================
