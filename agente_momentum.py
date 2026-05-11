@@ -247,8 +247,7 @@ def verificar_salidas(df_libro, estado, mercados_actuales):
     precio_lookup   = {m["id"]: m["mid_price"] for m in mercados_actuales}
     pregunta_lookup = {m["pregunta"][:70]: m["mid_price"] for m in mercados_actuales}
 
-    from datetime import timezone
-    ahora = datetime.now(timezone.utc).replace(tzinfo=None)
+    ahora = datetime.now()
     abiertas = df_libro[df_libro["estado"] == "ABIERTA"].copy()
     cerradas = 0
 
@@ -478,7 +477,7 @@ def ciclo():
 
             nuevas.append({
                 "fecha_entrada":        datetime.now().strftime("%Y-%m-%d"),
-                "fecha_entrada_dt":     datetime.utcnow().strftime("%Y-%m-%d %H:%M"),
+                "fecha_entrada_dt":     datetime.now().strftime("%Y-%m-%d %H:%M"),
                 "market_id":            m["id"],
                 "pregunta":             m["pregunta"][:70],
                 "señal":                m["señal"],
