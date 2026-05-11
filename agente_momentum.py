@@ -259,7 +259,7 @@ def verificar_salidas(df_libro, estado, mercados_actuales):
     for idx, pos in abiertas.iterrows():
         try:
             dt_entrada     = datetime.strptime(pos["fecha_entrada_dt"], "%Y-%m-%d %H:%M")
-            horas_abiertas = (ahora - dt_entrada).total_seconds() / 3600
+            horas_abiertas = abs((ahora - dt_entrada).total_seconds() / 3600)
 
             mid_actual = (precio_lookup.get(str(pos.get("market_id", ""))) or
               pregunta_lookup.get(str(pos["pregunta"])[:70]))
