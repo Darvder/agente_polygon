@@ -2823,3 +2823,49 @@ PRECIO_BUCKET:
 2026-05-11 11:19:16,668 | INFO | Abiertas: 2 | Cerradas: 96 | P&L: $-33.61
 2026-05-11 11:19:16,668 | INFO | TP:11 SL:25 Time:60
 2026-05-11 11:19:16,668 | INFO | =======================================================
+2026-05-11 11:48:17,964 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-11 11:48:17,964 | INFO | =======================================================
+2026-05-11 11:48:17,964 | INFO | CICLO MOMENTUM INICIADO
+2026-05-11 11:48:17,964 | INFO | =======================================================
+2026-05-11 11:48:17,978 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-11 11:48:17,978 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 52% (23/44 trades)
+  categoria:futbol                    ████░░░░░░ 42% (5/12 trades)
+  categoria:politica                  ███░░░░░░░ 35% (9/26 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:manana                  █████░░░░░ 50% (8/16 trades)
+  hora_bucket:tarde                   █████░░░░░ 50% (12/24 trades)
+  hora_bucket:noche                   ████░░░░░░ 43% (13/30 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 31% (8/26 trades)
+
+MOM_BUCKET:
+  mom_bucket:bajo                     █████░░░░░ 52% (16/31 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:muy_alto                 ████░░░░░░ 46% (10/22 trades)
+  mom_bucket:medio                    ███░░░░░░░ 39% (9/23 trades)
+  mom_bucket:alto                     ██░░░░░░░░ 25% (4/16 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              █████░░░░░ 52% (12/23 trades)
+  precio_bucket:bajo                  █████░░░░░ 50% (16/32 trades)
+  precio_bucket:medio                 ███░░░░░░░ 33% (6/18 trades)
+  precio_bucket:muy_alto              ███░░░░░░░ 33% (1/3 trades)
+  precio_bucket:alto                  ███░░░░░░░ 30% (6/20 trades)
+2026-05-11 11:48:18,267 | INFO | Mercados activos rastreables: 68
+2026-05-11 11:48:18,289 | INFO | Momentum tardío: Will the Buffalo Sabres win the 2026 NHL
+2026-05-11 11:48:18,290 | INFO | Momentum tardío: Will the Detroit Pistons win the 2026 NB
+2026-05-11 11:48:18,291 | INFO | Momentum tardío: Will Manchester City win the 2025–26 Eng
+2026-05-11 11:48:18,291 | INFO | Bayesiano bloquea (score=43%): Will Paloma Valencia win the 2026 Colomb | politica mom=medio precio=bajo
+2026-05-11 11:48:18,292 | INFO | Bayesiano bloquea (score=41%): Starmer out by June 30, 2026? | otro mom=medio precio=medio
+2026-05-11 11:48:18,292 | INFO | Señales de momentum: 0 | Cupo: 13
+2026-05-11 11:48:18,292 | INFO | Sin cupo o sin señales — fin de ciclo
+2026-05-11 11:48:18,294 | INFO | ───────────────────────────────────────────────────────
+2026-05-11 11:48:18,294 | INFO | CICLO #83 | Rastreando 80 mercados
+2026-05-11 11:48:18,294 | INFO | Abiertas: 2 | Cerradas: 96 | P&L: $-33.61
+2026-05-11 11:48:18,294 | INFO | TP:11 SL:25 Time:60
+2026-05-11 11:48:18,295 | INFO | =======================================================
