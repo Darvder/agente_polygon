@@ -37,12 +37,13 @@ TIMEOUT  = 10
 TAKE_PROFIT       = 0.09    # +9% → cerrar con ganancia
 STOP_LOSS         = -0.05   # -5% → cortar pérdida
 MAX_HORAS         = 4       # máx tiempo abierto (intraday real)
-MIN_MOMENTUM_1H   = 0.04# movimiento mínimo en 1h para señal (3%)
+MIN_MOMENTUM_1H   = 0.05# movimiento mínimo en 1h para señal (3%)
 MIN_MOMENTUM_4H   = 0.03    # movimiento mínimo en 4h (5%)
 CICLO_HORAS       = 0.10       # frecuencia del ciclo
 MIN_MOMENTUM_30M = 0.05
 MAX_EXPOSICION_MERCADO = 40   # máx $40 en un mismo mercado
-MAX_PERDIDA_DIA        = 100   # circuit breaker: parar si pierde $30 en el día
+MAX_PERDIDA_DIA        = 100
+MIN_WIN_RATE = 0.50# circuit breaker: parar si pierde $30 en el día
 
 # ── Filtros de mercado ─────────────────────────────────────────────
 MIN_VOLUMEN       = 5_000   # bajo — queremos capturar mercados activos pequeños
@@ -50,12 +51,12 @@ MAX_SPREAD        = 0.08
 MIN_PRECIO        = 0.04
 MAX_PRECIO        = 0.96
 MAX_DIAS_MERCADO  = 180     # mercados hasta 6 meses (la restricción viene del momentum)
-MIN_VOLUMEN_MOMENTUM = 50_000
+MIN_VOLUMEN_MOMENTUM = 100_000
 
 # ── Posiciones ────────────────────────────────────────────────────
 CAPITAL_INICIAL   = 1_000
 CAPITAL_POR_OP    = 20      # pequeño — muchas operaciones, aprender rápido
-MAX_POSICIONES    = 30
+MAX_POSICIONES    = 8
 
 # Excluir solo lo imposible de analizar
 PATRONES_EXCLUIR = [
