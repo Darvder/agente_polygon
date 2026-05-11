@@ -58,8 +58,14 @@ CAPITAL_POR_OP    = 20      # pequeño — muchas operaciones, aprender rápido
 MAX_POSICIONES    = 30
 
 # Excluir solo lo imposible de analizar
-PATRONES_EXCLUIR  = ["jesus","christ","second coming","rapture",
-                     "alien","ufo","zombie","apocalypse"]
+PATRONES_EXCLUIR = [
+    "jesus","christ","second coming","rapture",
+    "alien","ufo","zombie","apocalypse",
+    "win the 2025-26 english premier",
+    "finish in 2nd place",
+    "finish in 1st place",
+    "finish in 3rd place",
+]
 
 ARCHIVO_LIBRO    = "datos_polymarket/paper_trading/libro_momentum.csv"
 ARCHIVO_ESTADO   = "datos_polymarket/paper_trading/estado_momentum.json"
