@@ -249,6 +249,11 @@ def verificar_salidas(df_libro, estado, mercados_actuales):
 
     ahora = datetime.now()
     abiertas = df_libro[df_libro["estado"] == "ABIERTA"].copy()
+    log.info(f"DEBUG verificar_salidas: {len(abiertas)} abiertas | ahora={ahora}")
+    for idx, pos in abiertas.iterrows():
+        dt_entrada = datetime.strptime(pos["fecha_entrada_dt"], "%Y-%m-%d %H:%M")
+        h = (ahora - dt_entrada).total_seconds() / 3600
+        log.info(f"DEBUG pos: {pos['pregunta'][:30]} | entrada={pos['fecha_entrada_dt']} | horas={h:.1f}")
     cerradas = 0
 
     for idx, pos in abiertas.iterrows():
