@@ -17,8 +17,8 @@ ARCHIVO_OUT    = "datos_polymarket/dashboard_momentum.html"
 
 # Configuración del agente
 TAKE_PROFIT = 0.09
-STOP_LOSS   = -0.05
-MAX_HORAS   = 4
+STOP_LOSS   = -0.07
+MAX_HORAS   = 3
 
 def cargar():
     # Estado inicial por defecto
