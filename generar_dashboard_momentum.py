@@ -74,7 +74,7 @@ def horas_abiertas(fecha_str):
     try:
         dt = datetime.strptime(str(fecha_str)[:16], "%Y-%m-%d %H:%M")
         h  = (datetime.now() - dt).total_seconds() / 3600
-        return h
+        return abs(h)  # ← agregar abs() como fix temporal
     except:
         return 0
 
