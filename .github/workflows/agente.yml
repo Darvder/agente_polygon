@@ -30,6 +30,8 @@ jobs:
         run: python agente_momentum.py
 
       - name: Generar dashboard
+        env:
+            TZ: America/Guayaquil
         run: python generar_dashboard_momentum.py
 
       - name: Guardar resultados
