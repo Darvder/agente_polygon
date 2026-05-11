@@ -2406,3 +2406,63 @@ PRECIO_BUCKET:
 2026-05-10 22:13:54,484 | INFO | Abiertas: 3 | Cerradas: 91 | P&L: $-33.42
 2026-05-10 22:13:54,484 | INFO | TP:11 SL:25 Time:55
 2026-05-10 22:13:54,484 | INFO | =======================================================
+2026-05-10 22:20:58,659 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-10 22:20:58,660 | INFO | =======================================================
+2026-05-10 22:20:58,660 | INFO | CICLO MOMENTUM INICIADO
+2026-05-10 22:20:58,660 | INFO | =======================================================
+2026-05-10 22:20:58,673 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-10 22:20:58,674 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 55% (22/40 trades)
+  categoria:futbol                    ████░░░░░░ 42% (5/12 trades)
+  categoria:politica                  ███░░░░░░░ 36% (9/25 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   █████░░░░░ 50% (12/24 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 43% (13/30 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 36% (8/22 trades)
+
+MOM_BUCKET:
+  mom_bucket:bajo                     █████░░░░░ 52% (15/29 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:muy_alto                 █████░░░░░ 50% (10/20 trades)
+  mom_bucket:medio                    ████░░░░░░ 41% (9/22 trades)
+  mom_bucket:alto                     ██░░░░░░░░ 25% (4/16 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              █████░░░░░ 57% (12/21 trades)
+  precio_bucket:bajo                  █████░░░░░ 52% (15/29 trades)
+  precio_bucket:medio                 ███░░░░░░░ 33% (6/18 trades)
+  precio_bucket:muy_alto              ███░░░░░░░ 33% (1/3 trades)
+  precio_bucket:alto                  ███░░░░░░░ 30% (6/20 trades)
+2026-05-10 22:20:58,970 | INFO | Mercados activos rastreables: 69
+2026-05-10 22:20:58,986 | INFO | DEBUG verificar_salidas: 3 abiertas | ahora=2026-05-10 22:20:58.985247
+2026-05-10 22:20:58,987 | INFO | DEBUG pos: Will Abelardo de la Espriella  | entrada=2026-05-11 02:24 | horas=-4.1
+2026-05-10 22:20:58,987 | INFO | DEBUG pos: Will the Minnesota Wild win th | entrada=2026-05-11 02:24 | horas=-4.1
+2026-05-10 22:20:58,987 | INFO | DEBUG pos: Will the San Antonio Spurs win | entrada=2026-05-11 03:03 | horas=-4.7
+2026-05-10 22:20:58,992 | INFO | Bayesiano bloquea (score=38%): New Rihanna Album before GTA VI? | cultura mom=muy_alto precio=alto
+2026-05-10 22:20:58,992 | INFO | Bayesiano bloquea (score=36%): New Playboi Carti Album before GTA VI? | cultura mom=medio precio=alto
+2026-05-10 22:20:58,993 | INFO | Bayesiano bloquea (score=43%): Will the Colorado Avalanche win the 2026 | deportes mom=medio precio=medio
+2026-05-10 22:20:58,993 | INFO | Bayesiano bloquea (score=44%): Will the New York Knicks win the 2026 NB | deportes mom=alto precio=bajo
+2026-05-10 22:20:58,994 | INFO | Bayesiano bloquea (score=41%): Will John Cornyn win the 2026 Texas Repu | politica mom=bajo precio=medio
+2026-05-10 22:20:58,994 | INFO | Bayesiano bloquea (score=42%): Will the New York Knicks win the NBA Eas | deportes mom=medio precio=alto
+2026-05-10 22:20:58,995 | INFO | Bayesiano bloquea (score=44%): Will the San Antonio Spurs win the NBA W | deportes mom=alto precio=bajo
+2026-05-10 22:20:58,995 | INFO | Bayesiano bloquea (score=40%): Will Manchester City win the 2025–26 Eng | futbol mom=alto precio=bajo
+2026-05-10 22:20:58,995 | INFO | Bayesiano bloquea (score=39%): Will Abelardo de la Espriella win the 1s | politica mom=alto precio=bajo
+2026-05-10 22:20:58,996 | INFO | Bayesiano bloquea (score=38%): Will Ivan Cepeda Castro win the 2026 Col | politica mom=medio precio=medio
+2026-05-10 22:20:58,996 | INFO | Bayesiano bloquea (score=39%): Will Paloma Valencia win the 2026 Colomb | politica mom=alto precio=bajo
+2026-05-10 22:20:58,996 | INFO | Bayesiano bloquea (score=43%): Will Freiburg win the 2025-26 UEFA Europ | otro mom=bajo precio=medio
+2026-05-10 22:20:58,997 | INFO | Señales de momentum: 5 | Cupo: 12
+2026-05-10 22:20:59,030 | INFO | Anti re-entrada: Will the Montreal Canadiens win the 2026
+2026-05-10 22:20:59,470 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 22:20:59,483 | INFO | LLM descarta: Will the Vegas Golden Knights win the 2026 NH
+2026-05-10 22:21:00,484 | INFO | Anti re-entrada: Will the Minnesota Timberwolves win the 
+2026-05-10 22:21:00,486 | INFO | ───────────────────────────────────────────────────────
+2026-05-10 22:21:00,486 | INFO | CICLO #75 | Rastreando 80 mercados
+2026-05-10 22:21:00,486 | INFO | Abiertas: 3 | Cerradas: 91 | P&L: $-33.42
+2026-05-10 22:21:00,487 | INFO | TP:11 SL:25 Time:55
+2026-05-10 22:21:00,487 | INFO | =======================================================
