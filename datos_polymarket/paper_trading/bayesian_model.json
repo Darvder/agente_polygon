@@ -1,13 +1,13 @@
 {
   "categoria:deportes": {
-    "n": 37,
-    "wins": 20,
-    "wr": 0.541
+    "n": 38,
+    "wins": 21,
+    "wr": 0.553
   },
   "mom_bucket:medio": {
-    "n": 21,
-    "wins": 8,
-    "wr": 0.381
+    "n": 22,
+    "wins": 9,
+    "wr": 0.409
   },
   "precio_bucket:muy_bajo": {
     "n": 19,
@@ -30,9 +30,9 @@
     "wr": 0.5
   },
   "precio_bucket:alto": {
-    "n": 19,
-    "wins": 5,
-    "wr": 0.263
+    "n": 20,
+    "wins": 6,
+    "wr": 0.3
   },
   "mom_bucket:muy_bajo": {
     "n": 4,
@@ -55,9 +55,9 @@
     "wr": 0.36
   },
   "precio_bucket:bajo": {
-    "n": 28,
+    "n": 29,
     "wins": 15,
-    "wr": 0.536
+    "wr": 0.517
   },
   "mom_bucket:muy_alto": {
     "n": 19,
@@ -65,9 +65,9 @@
     "wr": 0.526
   },
   "hora_bucket:noche": {
-    "n": 27,
-    "wins": 11,
-    "wr": 0.407
+    "n": 29,
+    "wins": 12,
+    "wr": 0.414
   },
   "hora_bucket:madrugada": {
     "n": 21,
@@ -75,14 +75,14 @@
     "wr": 0.381
   },
   "mom_bucket:alto": {
-    "n": 15,
+    "n": 16,
     "wins": 4,
-    "wr": 0.267
+    "wr": 0.25
   },
   "categoria:futbol": {
-    "n": 11,
+    "n": 12,
     "wins": 5,
-    "wr": 0.455
+    "wr": 0.417
   },
   "precio_bucket:muy_alto": {
     "n": 3,
