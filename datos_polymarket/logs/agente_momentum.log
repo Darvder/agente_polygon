@@ -1897,3 +1897,68 @@ PRECIO_BUCKET:
 2026-05-10 23:56:10,361 | INFO | Abiertas: 6 | Cerradas: 84 | P&L: $-32.12
 2026-05-10 23:56:10,361 | INFO | TP:10 SL:22 Time:52
 2026-05-10 23:56:10,361 | INFO | =======================================================
+2026-05-11 00:54:00,702 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-11 00:54:00,702 | INFO | =======================================================
+2026-05-11 00:54:00,702 | INFO | CICLO MOMENTUM INICIADO
+2026-05-11 00:54:00,702 | INFO | =======================================================
+2026-05-11 00:54:00,714 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-11 00:54:00,714 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  █████░░░░░ 54% (19/35 trades)
+  categoria:futbol                    ████░░░░░░ 46% (5/11 trades)
+  categoria:politica                  ███░░░░░░░ 38% (9/24 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:tarde                   █████░░░░░ 50% (12/24 trades)
+  hora_bucket:manana                  ████░░░░░░ 47% (7/15 trades)
+  hora_bucket:noche                   ████░░░░░░ 42% (10/24 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 38% (8/21 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_alto                 █████░░░░░ 56% (9/16 trades)
+  mom_bucket:bajo                     █████░░░░░ 50% (14/28 trades)
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (2/4 trades)
+  mom_bucket:medio                    ███░░░░░░░ 38% (8/21 trades)
+  mom_bucket:alto                     ██░░░░░░░░ 27% (4/15 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:bajo                  █████░░░░░ 58% (15/26 trades)
+  precio_bucket:muy_bajo              █████░░░░░ 56% (10/18 trades)
+  precio_bucket:medio                 ███░░░░░░░ 33% (6/18 trades)
+  precio_bucket:muy_alto              ███░░░░░░░ 33% (1/3 trades)
+  precio_bucket:alto                  ██░░░░░░░░ 26% (5/19 trades)
+2026-05-11 00:54:01,030 | INFO | Mercados activos rastreables: 70
+2026-05-11 00:54:01,046 | INFO | ✅ [TAKE_PROFIT] Will the Montreal Canadiens win the 2026 NHL  | +12.3% | P&L=+2.46$ | 2.3h
+2026-05-11 00:54:01,047 | INFO | ❌ [STOP_LOSS] Will Paloma Valencia win the 2026 Colombian p | -5.6% | P&L=-1.11$ | 2.3h
+2026-05-11 00:54:01,051 | INFO | Momentum tardío: New Rihanna Album before GTA VI?
+2026-05-11 00:54:01,052 | INFO | Momentum tardío: New Playboi Carti Album before GTA VI?
+2026-05-11 00:54:01,052 | INFO | Momentum tardío: Will the Minnesota Wild win the 2026 NHL
+2026-05-11 00:54:01,052 | INFO | Momentum tardío: Will the Montreal Canadiens win the 2026
+2026-05-11 00:54:01,052 | INFO | Momentum tardío: Will the Buffalo Sabres win the 2026 NHL
+2026-05-11 00:54:01,052 | INFO | Momentum tardío: Will the New York Knicks win the 2026 NB
+2026-05-11 00:54:01,053 | INFO | Momentum tardío: Will the New York Knicks win the NBA Eas
+2026-05-11 00:54:01,053 | INFO | Momentum tardío: Will Manchester City win the 2025–26 Eng
+2026-05-11 00:54:01,054 | INFO | Bayesiano bloquea (score=40%): Will Abelardo de la Espriella win the 1s | politica mom=alto precio=muy_bajo
+2026-05-11 00:54:01,054 | INFO | Bayesiano bloquea (score=40%): Will Abelardo de la Espriella  win the 2 | politica mom=bajo precio=medio
+2026-05-11 00:54:01,054 | INFO | Bayesiano bloquea (score=40%): Will Ivan Cepeda Castro win the 2026 Col | politica mom=muy_bajo precio=medio
+2026-05-11 00:54:01,054 | INFO | Bayesiano bloquea (score=37%): Jacob Elordi announced as next James Bon | cultura mom=alto precio=muy_bajo
+2026-05-11 00:54:01,055 | INFO | Señales de momentum: 6 | Cupo: 26
+2026-05-11 00:54:01,462 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 00:54:01,474 | INFO | LLM descarta: Will the San Antonio Spurs win the 2026 NBA F
+2026-05-11 00:54:02,474 | INFO | Anti re-entrada: Will the San Antonio Spurs win the NBA W
+2026-05-11 00:54:02,822 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 00:54:02,823 | INFO | LLM descarta: Will Freiburg win the 2025-26 UEFA Europa Lea
+2026-05-11 00:54:04,201 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 00:54:04,202 | INFO | LLM descarta: Will Paloma Valencia win the 2026 Colombian p
+2026-05-11 00:54:05,465 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 00:54:05,466 | INFO | LLM descarta: Will the Colorado Avalanche win the 2026 NHL 
+2026-05-11 00:54:06,801 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 00:54:06,802 | INFO | LLM descarta: Will Arsenal finish in 2nd place in the 2025-
+2026-05-11 00:54:07,804 | INFO | ───────────────────────────────────────────────────────
+2026-05-11 00:54:07,804 | INFO | CICLO #66 | Rastreando 77 mercados
+2026-05-11 00:54:07,804 | INFO | Abiertas: 4 | Cerradas: 86 | P&L: $-30.77
+2026-05-11 00:54:07,804 | INFO | TP:11 SL:23 Time:52
+2026-05-11 00:54:07,804 | INFO | =======================================================
