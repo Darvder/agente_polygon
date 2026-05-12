@@ -1,8 +1,8 @@
 {
   "categoria:deportes": {
-    "n": 50,
-    "wins": 25,
-    "wr": 0.5
+    "n": 51,
+    "wins": 26,
+    "wr": 0.51
   },
   "mom_bucket:medio": {
     "n": 27,
@@ -55,19 +55,19 @@
     "wr": 0.346
   },
   "precio_bucket:bajo": {
-    "n": 34,
-    "wins": 16,
-    "wr": 0.471
+    "n": 35,
+    "wins": 17,
+    "wr": 0.486
   },
   "mom_bucket:muy_alto": {
-    "n": 22,
-    "wins": 10,
-    "wr": 0.455
+    "n": 23,
+    "wins": 11,
+    "wr": 0.478
   },
   "hora_bucket:noche": {
-    "n": 31,
-    "wins": 13,
-    "wr": 0.419
+    "n": 32,
+    "wins": 14,
+    "wr": 0.438
   },
   "hora_bucket:madrugada": {
     "n": 26,
