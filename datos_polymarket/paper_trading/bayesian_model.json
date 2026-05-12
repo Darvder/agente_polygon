@@ -1,18 +1,18 @@
 {
   "categoria:deportes": {
-    "n": 48,
+    "n": 49,
     "wins": 25,
-    "wr": 0.521
+    "wr": 0.51
   },
   "mom_bucket:medio": {
-    "n": 26,
+    "n": 27,
     "wins": 10,
-    "wr": 0.385
+    "wr": 0.37
   },
   "precio_bucket:muy_bajo": {
-    "n": 26,
+    "n": 27,
     "wins": 14,
-    "wr": 0.538
+    "wr": 0.519
   },
   "hora_bucket:manana": {
     "n": 18,
@@ -45,9 +45,9 @@
     "wr": 0.333
   },
   "hora_bucket:tarde": {
-    "n": 27,
+    "n": 28,
     "wins": 13,
-    "wr": 0.481
+    "wr": 0.464
   },
   "categoria:politica": {
     "n": 26,
