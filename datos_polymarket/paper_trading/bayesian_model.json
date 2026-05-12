@@ -15,9 +15,9 @@
     "wr": 0.536
   },
   "hora_bucket:manana": {
-    "n": 18,
-    "wins": 9,
-    "wr": 0.5
+    "n": 19,
+    "wins": 10,
+    "wr": 0.526
   },
   "categoria:cultura": {
     "n": 14,
@@ -35,9 +35,9 @@
     "wr": 0.3
   },
   "mom_bucket:muy_bajo": {
-    "n": 4,
-    "wins": 2,
-    "wr": 0.5
+    "n": 5,
+    "wins": 3,
+    "wr": 0.6
   },
   "precio_bucket:medio": {
     "n": 19,
@@ -50,14 +50,14 @@
     "wr": 0.464
   },
   "categoria:politica": {
-    "n": 26,
-    "wins": 9,
-    "wr": 0.346
+    "n": 27,
+    "wins": 10,
+    "wr": 0.37
   },
   "precio_bucket:bajo": {
-    "n": 37,
-    "wins": 18,
-    "wr": 0.486
+    "n": 38,
+    "wins": 19,
+    "wr": 0.5
   },
   "mom_bucket:muy_alto": {
     "n": 23,
