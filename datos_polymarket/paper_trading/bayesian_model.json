@@ -1,8 +1,8 @@
 {
   "categoria:deportes": {
-    "n": 62,
-    "wins": 31,
-    "wr": 0.5
+    "n": 63,
+    "wins": 32,
+    "wr": 0.508
   },
   "mom_bucket:medio": {
     "n": 33,
@@ -10,14 +10,14 @@
     "wr": 0.424
   },
   "precio_bucket:muy_bajo": {
-    "n": 30,
+    "n": 31,
     "wins": 16,
-    "wr": 0.533
+    "wr": 0.516
   },
   "hora_bucket:manana": {
-    "n": 21,
-    "wins": 10,
-    "wr": 0.476
+    "n": 23,
+    "wins": 11,
+    "wr": 0.478
   },
   "categoria:cultura": {
     "n": 14,
@@ -25,9 +25,9 @@
     "wr": 0.286
   },
   "mom_bucket:bajo": {
-    "n": 36,
-    "wins": 17,
-    "wr": 0.472
+    "n": 38,
+    "wins": 18,
+    "wr": 0.474
   },
   "precio_bucket:alto": {
     "n": 21,
@@ -55,9 +55,9 @@
     "wr": 0.37
   },
   "precio_bucket:bajo": {
-    "n": 42,
-    "wins": 21,
-    "wr": 0.5
+    "n": 43,
+    "wins": 22,
+    "wr": 0.512
   },
   "mom_bucket:muy_alto": {
     "n": 25,
@@ -80,9 +80,9 @@
     "wr": 0.25
   },
   "categoria:futbol": {
-    "n": 13,
+    "n": 14,
     "wins": 5,
-    "wr": 0.385
+    "wr": 0.357
   },
   "precio_bucket:muy_alto": {
     "n": 3,
