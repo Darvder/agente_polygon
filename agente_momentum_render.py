@@ -29,7 +29,7 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 
 # ── GitHub para commits automáticos ───────────────────────────────
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_TOKEN = os.environ.get("G_TOKEN_PUSH", "")
 GITHUB_REPO  = os.environ.get("GITHUB_REPO", "Darvder/agente_polygon")
 
 BASE_URL = "https://gamma-api.polymarket.com"
