@@ -4553,3 +4553,55 @@ PRECIO_BUCKET:
 2026-05-12 22:10:35,740 | INFO | Abiertas: 2 | Cerradas: 113 | P&L: $-32.60
 2026-05-12 22:10:35,740 | INFO | TP:13 SL:27 Time:73
 2026-05-12 22:10:35,740 | INFO | =======================================================
+2026-05-12 22:40:00,662 | INFO | Ejecutando ciclo único (GitHub Actions)
+2026-05-12 22:40:00,662 | INFO | =======================================================
+2026-05-12 22:40:00,662 | INFO | CICLO MOMENTUM INICIADO
+2026-05-12 22:40:00,662 | INFO | =======================================================
+2026-05-12 22:40:00,678 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-12 22:40:00,678 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:deportes                  ████░░░░░░ 49% (29/59 trades)
+  categoria:futbol                    ███░░░░░░░ 38% (5/13 trades)
+  categoria:politica                  ███░░░░░░░ 37% (10/27 trades)
+  categoria:cultura                   ██░░░░░░░░ 29% (4/14 trades)
+
+HORA_BUCKET:
+  hora_bucket:manana                  ████░░░░░░ 48% (10/21 trades)
+  hora_bucket:noche                   ████░░░░░░ 46% (16/35 trades)
+  hora_bucket:tarde                   ████░░░░░░ 45% (14/31 trades)
+  hora_bucket:madrugada               ███░░░░░░░ 31% (8/26 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_bajo                 █████░░░░░ 50% (3/6 trades)
+  mom_bucket:muy_alto                 ████░░░░░░ 48% (11/23 trades)
+  mom_bucket:bajo                     ████░░░░░░ 47% (17/36 trades)
+  mom_bucket:medio                    ████░░░░░░ 41% (13/32 trades)
+  mom_bucket:alto                     ██░░░░░░░░ 25% (4/16 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              █████░░░░░ 54% (15/28 trades)
+  precio_bucket:bajo                  ████░░░░░░ 49% (20/41 trades)
+  precio_bucket:muy_alto              ███░░░░░░░ 33% (1/3 trades)
+  precio_bucket:medio                 ███░░░░░░░ 30% (6/20 trades)
+  precio_bucket:alto                  ██░░░░░░░░ 29% (6/21 trades)
+2026-05-12 22:40:00,949 | INFO | Mercados activos rastreables: 66
+2026-05-12 22:40:00,967 | INFO | ✅ [TAKE_PROFIT] Will the San Antonio Spurs win the 2026 NBA F | +9.3% | P&L=+1.56$ | 1.5h
+2026-05-12 22:40:00,971 | INFO | Momentum tardío: New Rihanna Album before GTA VI?
+2026-05-12 22:40:00,971 | INFO | Momentum tardío: Will the Vegas Golden Knights win the 20
+2026-05-12 22:40:00,971 | INFO | Momentum tardío: Will the Montreal Canadiens win the 2026
+2026-05-12 22:40:00,971 | INFO | Momentum tardío: Will the Buffalo Sabres win the 2026 NHL
+2026-05-12 22:40:00,972 | INFO | Bayesiano bloquea (score=42%): Will the San Antonio Spurs win the 2026  | deportes mom=alto precio=bajo
+2026-05-12 22:40:00,972 | INFO | Momentum tardío: Will the San Antonio Spurs win the NBA W
+2026-05-12 22:40:00,973 | INFO | Bayesiano bloquea (score=39%): Will Abelardo de la Espriella win the 1s | politica mom=alto precio=bajo
+2026-05-12 22:40:00,973 | INFO | Bayesiano bloquea (score=40%): Will Abelardo de la Espriella  win the 2 | politica mom=bajo precio=medio
+2026-05-12 22:40:00,973 | INFO | Bayesiano bloquea (score=45%): Will Paloma Valencia win the 2026 Colomb | politica mom=bajo precio=bajo
+2026-05-12 22:40:00,974 | INFO | Bayesiano bloquea (score=40%): Will Abdul El-Sayed win the 2026 Michiga | politica mom=muy_bajo precio=alto
+2026-05-12 22:40:00,974 | INFO | Señales de momentum: 1 | Cupo: 14
+2026-05-12 22:40:01,460 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 22:40:01,477 | INFO | ───────────────────────────────────────────────────────
+2026-05-12 22:40:01,477 | INFO | CICLO #117 | Rastreando 83 mercados
+2026-05-12 22:40:01,477 | INFO | Abiertas: 1 | Cerradas: 114 | P&L: $-31.04
+2026-05-12 22:40:01,477 | INFO | TP:14 SL:27 Time:73
+2026-05-12 22:40:01,477 | INFO | =======================================================
