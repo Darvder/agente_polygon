@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: agente-momentum
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python agente_momentum_render.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: NEWS_API_KEY
+        sync: false
+      - key: TZ
+        value: America/Guayaquil
