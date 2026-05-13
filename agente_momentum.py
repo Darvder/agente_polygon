@@ -373,36 +373,36 @@ def ciclo():
     cupo = MAX_POSICIONES - n_abiertas
 
     señales = []
-    for m in mercados:
-        señal, mom, c1h, c4h, c30m, p_act = calcular_momentum(m["id"], historial)
-        if señal == "NEUTRAL":
-            continue
-        if m["volumen_usd"] < MIN_VOLUMEN_MOMENTUM:
-            continue
-        # Filtro momentum fresco
-        if abs(c4h) > abs(c1h) * 2 and abs(c4h) > 0.05:
-            log.info(f"Momentum tardío: {m['pregunta'][:40]}")
-            continue
-        ok, score, feats = bayesian.should_trade(
-            pregunta    = m["pregunta"],
-            cambio_1h   = c1h,
-            precio_entrada = m["mid_price"],
-            fecha_dt    = datetime.now().strftime("%Y-%m-%d %H:%M"),
-        )
-        if not ok:
-            log.info(
-                f"Bayesiano bloquea (score={score:.0%}): "
-                f"{m['pregunta'][:40]} | {feats['categoria']} "
-                f"mom={feats['mom_bucket']} precio={feats['precio_bucket']}"
+    hora_actual = datetime.now().hour
+    if hora_actual < 6:
+        log.info(f"Hora madrugada ({hora_actual}h) — sin nuevas entradas hoy")
+    else:
+        for m in mercados:
+            señal, mom, c1h, c4h, c30m, p_act = calcular_momentum(m["id"], historial)
+            if señal == "NEUTRAL":
+                continue
+            if m["volumen_usd"] < MIN_VOLUMEN_MOMENTUM:
+                continue
+            if abs(c4h) > abs(c1h) * 2 and abs(c4h) > 0.05:
+                log.info(f"Momentum tardío: {m['pregunta'][:40]}")
+                continue
+            ok, score, feats = bayesian.should_trade(
+                pregunta       = m["pregunta"],
+                cambio_1h      = c1h,
+                precio_entrada = m["mid_price"],
+                fecha_dt       = datetime.now().strftime("%Y-%m-%d %H:%M"),
             )
-            continue
-        # Filtro evento inminente: no entrar en mercados que resuelven en ≤2 días con momentum alto (riesgo de resultado binario)
-
-        if m["dias"] <= 2 and abs(c1h) > 0.05:
-            log.info(f"Evento inminente: {m['pregunta'][:40]} ({m['dias']}d)")
-            continue
-            
-        señales.append({**m, "señal": señal, "momentum": mom,
+            if not ok:
+                log.info(
+                    f"Bayesiano bloquea (score={score:.0%}): "
+                    f"{m['pregunta'][:40]} | {feats['categoria']} "
+                    f"mom={feats['mom_bucket']} precio={feats['precio_bucket']}"
+                )
+                continue
+            if m["dias"] <= 2 and abs(c1h) > 0.05:
+                log.info(f"Evento inminente: {m['pregunta'][:40]} ({m['dias']}d)")
+                continue
+            señales.append({**m, "señal": señal, "momentum": mom,
                             "cambio_1h": c1h, "cambio_4h": c4h})
 
     # Ordenar por momentum absoluto (mayor movimiento = más urgente)
