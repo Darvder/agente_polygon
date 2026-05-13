@@ -1,8 +1,8 @@
 {
   "categoria:deportes": {
-    "n": 66,
-    "wins": 33,
-    "wr": 0.5
+    "n": 67,
+    "wins": 34,
+    "wr": 0.507
   },
   "mom_bucket:medio": {
     "n": 34,
@@ -35,9 +35,9 @@
     "wr": 0.286
   },
   "mom_bucket:muy_bajo": {
-    "n": 6,
-    "wins": 3,
-    "wr": 0.5
+    "n": 7,
+    "wins": 4,
+    "wr": 0.571
   },
   "precio_bucket:medio": {
     "n": 20,
@@ -45,9 +45,9 @@
     "wr": 0.3
   },
   "hora_bucket:tarde": {
-    "n": 33,
-    "wins": 14,
-    "wr": 0.424
+    "n": 35,
+    "wins": 16,
+    "wr": 0.457
   },
   "categoria:politica": {
     "n": 28,
@@ -55,14 +55,14 @@
     "wr": 0.357
   },
   "precio_bucket:bajo": {
-    "n": 47,
-    "wins": 23,
-    "wr": 0.489
+    "n": 49,
+    "wins": 25,
+    "wr": 0.51
   },
   "mom_bucket:muy_alto": {
-    "n": 25,
-    "wins": 12,
-    "wr": 0.48
+    "n": 26,
+    "wins": 13,
+    "wr": 0.5
   },
   "hora_bucket:noche": {
     "n": 38,
@@ -80,9 +80,9 @@
     "wr": 0.25
   },
   "categoria:futbol": {
-    "n": 14,
-    "wins": 5,
-    "wr": 0.357
+    "n": 15,
+    "wins": 6,
+    "wr": 0.4
   },
   "precio_bucket:muy_alto": {
     "n": 3,
