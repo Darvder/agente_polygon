@@ -66,3 +66,12 @@
 2026-05-13 22:59:50,903 | INFO | Abiertas: 1 | Cerradas: 0 | P&L: $+0.00
 2026-05-13 22:59:50,903 | INFO | TP:0 SL:0 Time:0
 2026-05-13 22:59:50,903 | INFO | =======================================================
+2026-05-14 00:57:14,010 | INFO | Agente HÍBRIDO iniciando...
+2026-05-14 00:57:14,010 | INFO | TP=9% | SL=-7% | MaxH=6h | Edge mín=6%
+2026-05-14 00:57:14,010 | INFO | Señal: noticias+LLM | Salida: TP/SL/TIME activos
+2026-05-14 00:57:14,010 | INFO | =======================================================
+2026-05-14 00:57:14,010 | INFO | CICLO HÍBRIDO INICIADO
+2026-05-14 00:57:14,010 | INFO | =======================================================
+2026-05-14 00:57:14,027 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-14 00:57:14,241 | INFO | Mercados escaneados: 68
+2026-05-14 00:57:14,246 | INFO | Madrugada (0h) — sin nuevas entradas
