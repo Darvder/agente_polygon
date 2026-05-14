@@ -11,8 +11,8 @@ import pandas as pd, json, os
 from datetime import datetime
 
 # Rutas de archivos
-ARCHIVO_LIBRO  = "datos_polymarket/paper_trading/libro_momentum.csv"
-ARCHIVO_ESTADO = "datos_polymarket/paper_trading/estado_momentum.json"
+ARCHIVO_LIBRO  = "datos_polymarket/paper_trading/libro_hibrido.csv"
+ARCHIVO_ESTADO = "datos_polymarket/paper_trading/estado_hibrido.json"
 ARCHIVO_OUT    = "datos_polymarket/dashboard_momentum.html"
 
 # Configuración del agente
