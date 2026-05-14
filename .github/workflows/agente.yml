@@ -1,37 +1,38 @@
+name: Agente Hibrido
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
 permissions:
   contents: write
   pages: write
   id-token: write
-name: Agente Momentum
-
-on:
-  schedule:
-    - cron: '*/15 * * * *'
-  workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Ejecutar agente
+      - name: Ejecutar agente híbrido
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
           TZ: America/Guayaquil
-        run: python agente_momentum.py
+        run: python agente_hibrido.py
 
       - name: Generar dashboard
         env:
-            TZ: America/Guayaquil
+          TZ: America/Guayaquil
         run: python generar_dashboard_momentum.py
 
       - name: Guardar resultados
@@ -41,11 +42,3 @@ jobs:
           git add -A
           git diff --staged --quiet || git commit -m "ciclo $(date +'%Y-%m-%d %H:%M')"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
-      - name: Deploy Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: datos_polymarket/
-
-      - name: Publicar Pages
-        uses: actions/deploy-pages@v4
