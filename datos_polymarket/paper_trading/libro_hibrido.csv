@@ -1,0 +1,2 @@
+fecha_entrada,fecha_entrada_dt,market_id,pregunta,señal,precio_entrada,precio_token_entrada,precio_actual,precio_cierre,pct_cambio,llm_estimacion,llm_confianza,llm_edge,hay_noticia,n_noticias,monto_usdc,dias_mercado,fecha_cierre_mercado,fecha_cierre_real,pnl_realizado,estado,razon_cierre,razonamiento
+2026-05-13,2026-05-13 22:36,553866,Will the San Antonio Spurs win the 2026 NBA Finals?,COMPRAR YES,0.232,0.232,0.232,,,0.32,0.8,0.08,True,5,19.2,49,2026-07-01,,,ABIERTA,,Las noticias recientes sobre el rendimiento destacado de Victor Wembanyama y la victoria aplastante 

@@ -1,0 +1,34 @@
+2026-05-13 22:36:34,805 | INFO | Agente HÍBRIDO iniciando...
+2026-05-13 22:36:34,805 | INFO | TP=9% | SL=-7% | MaxH=6h | Edge mín=6%
+2026-05-13 22:36:34,806 | INFO | Señal: noticias+LLM | Salida: TP/SL/TIME activos
+2026-05-13 22:36:34,806 | INFO | =======================================================
+2026-05-13 22:36:34,806 | INFO | CICLO HÍBRIDO INICIADO
+2026-05-13 22:36:34,806 | INFO | =======================================================
+2026-05-13 22:36:35,149 | INFO | Mercados escaneados: 69
+2026-05-13 22:36:36,005 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:36,016 | INFO | ✅ NUEVA: COMPRAR YES | Will the San Antonio Spurs win the 2026  | precio=23.2% → LLM=32.0% | edge=8.0% | $19.2
+2026-05-13 22:36:38,586 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:40,705 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:42,856 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:45,049 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:47,325 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:49,365 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:51,470 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:53,573 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:55,707 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:57,975 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:57,975 | INFO | Sin edge: Will the New York Knicks win the 2026 NB | edge=1.80% conf=80%
+2026-05-13 22:37:00,191 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:02,230 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:04,346 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:06,378 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:08,422 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:08,423 | INFO | Sin edge: Will Arsenal win the 2025–26 Champions L | edge=1.50% conf=60%
+2026-05-13 22:37:10,541 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:10,542 | INFO | Sin edge: Will Ken Paxton win the 2026 Texas Repub | edge=0.00% conf=80%
+2026-05-13 22:37:12,589 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:14,094 | INFO | ───────────────────────────────────────────────────────
+2026-05-13 22:37:14,094 | INFO | CICLO #1 | Analizados: 18 | Nuevas: 1
+2026-05-13 22:37:14,094 | INFO | Abiertas: 1 | Cerradas: 0 | P&L: $+0.00
+2026-05-13 22:37:14,095 | INFO | TP:0 SL:0 Time:0
+2026-05-13 22:37:14,095 | INFO | =======================================================
