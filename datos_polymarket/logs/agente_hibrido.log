@@ -75,3 +75,12 @@
 2026-05-14 00:57:14,027 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
 2026-05-14 00:57:14,241 | INFO | Mercados escaneados: 68
 2026-05-14 00:57:14,246 | INFO | Madrugada (0h) — sin nuevas entradas
+2026-05-14 01:41:04,198 | INFO | Agente HÍBRIDO iniciando...
+2026-05-14 01:41:04,199 | INFO | TP=9% | SL=-7% | MaxH=6h | Edge mín=6%
+2026-05-14 01:41:04,199 | INFO | Señal: noticias+LLM | Salida: TP/SL/TIME activos
+2026-05-14 01:41:04,199 | INFO | =======================================================
+2026-05-14 01:41:04,199 | INFO | CICLO HÍBRIDO INICIADO
+2026-05-14 01:41:04,199 | INFO | =======================================================
+2026-05-14 01:41:04,213 | INFO | Modelo Bayesiano actualizado: 18 condiciones aprendidas
+2026-05-14 01:41:04,619 | INFO | Mercados escaneados: 68
+2026-05-14 01:41:04,624 | INFO | Madrugada (1h) — sin nuevas entradas
