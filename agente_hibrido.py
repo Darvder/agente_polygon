@@ -273,7 +273,7 @@ def ciclo():
 
     # Bayesiano
     bayesian = BayesianEngine(
-        archivo_libro=ARCHIVO_LIBRO,
+        archivo_libro="datos_polymarket/paper_trading/libro_momentum.csv",
         archivo_modelo="datos_polymarket/paper_trading/bayesian_hibrido.json"
     )
     bayesian.entrenar()
