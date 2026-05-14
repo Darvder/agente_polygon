@@ -114,19 +114,20 @@ class BayesianEngine:
     Decisión de entrada: promedio ponderado de win rates
     por cada feature presente en la señal.
     """
-
-    def __init__(self):
+    def __init__(self, archivo_libro=None, archivo_modelo=None):
+        self.archivo_libro  = archivo_libro or ARCHIVO_LIBRO
+        self.archivo_modelo = archivo_modelo or ARCHIVO_MODELO
         self.modelo = self._cargar_modelo()
 
     def _cargar_modelo(self):
-        if os.path.exists(ARCHIVO_MODELO):
-            with open(ARCHIVO_MODELO) as f:
+        if os.path.exists(self.archivo_modelo):
+            with open(self.archivo_modelo) as f:
                 return json.load(f)
         return {}
 
     def _guardar_modelo(self):
-        os.makedirs(os.path.dirname(ARCHIVO_MODELO), exist_ok=True)
-        with open(ARCHIVO_MODELO, "w") as f:
+        os.makedirs(os.path.dirname(self.archivo_modelo), exist_ok=True)
+        with open(self.archivo_modelo, "w") as f:
             json.dump(self.modelo, f, indent=2)
 
     def entrenar(self):
@@ -135,10 +136,10 @@ class BayesianEngine:
         con todas las operaciones cerradas.
         Se llama al inicio de cada ciclo del agente.
         """
-        if not os.path.exists(ARCHIVO_LIBRO):
+        if not os.path.exists(self.archivo_libro):
             return
 
-        df = pd.read_csv(ARCHIVO_LIBRO)
+        df = pd.read_csv(self.archivo_libro)
         cerradas = df[
             (df["estado"] == "CERRADA") &
             (df["pnl_realizado"].notna())
