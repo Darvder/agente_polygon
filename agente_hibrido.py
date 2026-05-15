@@ -16,6 +16,15 @@ import pandas as pd
 from groq import Groq
 from newsapi import NewsApiClient
 from datetime import datetime, timedelta
+import re
+
+def extraer_json_puro(texto):
+    """Extrae solo el bloque JSON si la IA agrega texto extra."""
+    try:
+        match = re.search(r'\{.*\}', texto, re.DOTALL)
+        return match.group(0) if match else texto
+    except:
+        return texto
 
 from bayesian_engine   import BayesianEngine
 from volatility_engine import VolatilityEngine
@@ -212,7 +221,15 @@ def verificar_salidas(df, estado, mercados_actuales):
 # ══════════════════════════════════════════════════════════════════
 # CICLO PRINCIPAL
 # ══════════════════════════════════════════════════════════════════
+import re
 
+def extraer_json_puro(texto):
+    """Extrae el bloque JSON {} incluso si la IA añade texto extra o comete errores de formato."""
+    try:
+        match = re.search(r'\{.*\}', texto, re.DOTALL)
+        return match.group(0) if match else texto
+    except:
+        return texto
 def ciclo():
     log.info("="*55)
     log.info("CICLO HÍBRIDO v2 INICIADO")
@@ -315,10 +332,13 @@ def ciclo():
                 model="llama-3.3-70b-versatile",
                 messages=[{"role":"user","content":prompt}], max_tokens=150)
             txt = msg.choices[0].message.content.strip()
-            if "```" in txt: txt = txt.split("```")[1].split("```")[0].replace("json","").strip()
-            an = json.loads(txt)
+            
+            # PARSEO ROBUSTO: Limpiamos el JSON antes de cargarlo
+            txt_limpio = extraer_json_puro(txt)
+            an = json.loads(txt_limpio)
         except Exception as e:
-            log.warning(f"Error LLM: {e}"); time.sleep(2); analizados+=1; continue
+            log.warning(f"Error LLM (Salto mercado): {e}")
+            time.sleep(2); analizados+=1; continue
 
         estimacion  = float(an.get("estimacion", m["mid_price"]))
         confianza   = float(an.get("confianza", 0.5))
@@ -326,8 +346,11 @@ def ciclo():
         diferencia  = estimacion - m["mid_price"]
         edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
+        # Log de descarte por noticias para evitar "puntos ciegos"
         if not hay_noticia:
+            log.info(f"IA descarta (No noticia): {m['pregunta'][:40]}")
             analizados+=1; time.sleep(1); continue
+            
         if edge_neto < MIN_EDGE or confianza < MIN_CONFIANZA:
             log.info(f"Sin edge: {m['pregunta'][:40]} | edge={edge_neto:.1%}")
             analizados+=1; time.sleep(1); continue
@@ -343,14 +366,17 @@ def ciclo():
             analizados+=1; time.sleep(1); continue
 
         # ── Volatility Engine → SL/TP/HORAS dinámicos ─────────────
+        # Aquí es donde ocurría el crash. Requiere parche en volatility_engine.py
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
 
         # ── Señal y posición ───────────────────────────────────────
-        señal       = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
-        precio_tok  = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
-        kelly       = edge_neto * confianza * 0.3
-        monto       = round(min(estado["capital_actual"]*kelly, CAPITAL_POR_OP), 2)
-        if monto < 5: analizados+=1; continue
+        señal        = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
+        precio_tok   = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
+        kelly        = edge_neto * confianza * 0.3
+        monto        = round(min(estado["capital_actual"]*kelly, CAPITAL_POR_OP), 2)
+        if monto < 5: 
+            log.info(f"Monto insuficiente (${monto}): {m['pregunta'][:40]}")
+            analizados+=1; continue
 
         # Registrar evento en detector
         ev_detector.registrar_evento(m["id"], m["pregunta"])
@@ -371,7 +397,7 @@ def ciclo():
             "llm_edge":             edge_neto,
             "hay_noticia":          hay_noticia,
             "n_noticias":           len(nots),
-            "tp_dinamico":          tp,       # ← guardados por posición
+            "tp_dinamico":          tp,
             "sl_dinamico":          sl,
             "horas_max":            max_h,
             "vol_1d":               met["vol_1d"] if met else None,
@@ -412,9 +438,3 @@ def ciclo():
     log.info(f"Abiertas={n_ab} Cerradas={n_ce} P&L=${pnl:+.2f}")
     log.info(f"TP:{estado['n_tp']} SL:{estado['n_sl']} Time:{estado['n_time']}")
     log.info("="*55)
-
-
-if __name__ == "__main__":
-    log.info("Agente HÍBRIDO v2 iniciando...")
-    log.info(f"Módulos: BayesianEngine + VolatilityEngine + EventDetector")
-    ciclo()
