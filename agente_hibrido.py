@@ -438,3 +438,8 @@ def ciclo():
     log.info(f"Abiertas={n_ab} Cerradas={n_ce} P&L=${pnl:+.2f}")
     log.info(f"TP:{estado['n_tp']} SL:{estado['n_sl']} Time:{estado['n_time']}")
     log.info("="*55)
+  
+if __name__ == "__main__":
+    log.info("Agente HÍBRIDO v2 iniciando...")
+    log.info("Módulos: BayesianEngine + VolatilityEngine + EventDetector")
+    ciclo()
