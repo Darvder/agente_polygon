@@ -330,8 +330,10 @@ def ciclo():
         try:
             msg = cliente_llm.chat.completions.create(
                 model="llama-3.3-70b-versatile",
-                messages=[{"role":"user","content":prompt}], max_tokens=150)
-            txt = msg.choices[0].message.content.strip()
+                messages=[{"role":"user","content":prompt}], 
+                max_tokens=150,
+                response_format={"type": "json_object"} # <--- ESTO OBLIGA A UN JSON PERFECTO
+            )
             
             # PARSEO ROBUSTO: Limpiamos el JSON antes de cargarlo
             txt_limpio = extraer_json_puro(txt)
