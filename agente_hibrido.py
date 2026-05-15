@@ -31,7 +31,7 @@ TIMEOUT  = 10
 
 # ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
 MIN_EDGE        = 0.04
-MIN_CONFIANZA   = 0.55
+MIN_CONFIANZA   = 0.50
 MIN_VOLUMEN     = 10_000
 MAX_SPREAD      = 0.08
 MIN_PRECIO      = 0.04
