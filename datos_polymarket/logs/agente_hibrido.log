@@ -1002,3 +1002,36 @@ PRECIO_BUCKET:
 2026-05-15 07:16:58,868 | INFO | Abiertas=0 Cerradas=1 P&L=$-0.37
 2026-05-15 07:16:58,868 | INFO | TP:0 SL:0 Time:1
 2026-05-15 07:16:58,868 | INFO | =======================================================
+2026-05-15 07:58:42,914 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-15 07:58:42,914 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-15 07:58:42,914 | INFO | =======================================================
+2026-05-15 07:58:42,914 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-15 07:58:42,914 | INFO | =======================================================
+2026-05-15 07:58:42,922 | INFO | Modelo Bayesiano actualizado: 4 condiciones aprendidas
+2026-05-15 07:58:42,922 | INFO | 
+=== MODELO BAYESIANO ===
+2026-05-15 07:58:43,047 | INFO | Mercados: 19
+2026-05-15 07:58:43,701 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:45,521 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:47,151 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:48,672 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:50,219 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:51,751 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:53,404 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:54,928 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:56,518 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:56,518 | INFO | Sin edge: Will the Colorado Avalanche win the 2026 | edge=2.1%
+2026-05-15 07:58:58,294 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:58:59,883 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:01,351 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:03,056 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:04,855 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:06,368 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:08,046 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:09,638 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:11,178 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 07:59:12,183 | INFO | ───────────────────────────────────────────────────────
+2026-05-15 07:59:12,183 | INFO | CICLO #30 | Analizados=18 Nuevas=0
+2026-05-15 07:59:12,183 | INFO | Abiertas=0 Cerradas=1 P&L=$-0.37
+2026-05-15 07:59:12,183 | INFO | TP:0 SL:0 Time:1
+2026-05-15 07:59:12,183 | INFO | =======================================================
