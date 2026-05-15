@@ -332,12 +332,16 @@ def ciclo():
                 model="llama-3.3-70b-versatile",
                 messages=[{"role":"user","content":prompt}], 
                 max_tokens=150,
-                response_format={"type": "json_object"} # <--- ESTO OBLIGA A UN JSON PERFECTO
+                response_format={"type": "json_object"}
             )
+            
+            # ¡ESTA ES LA LÍNEA QUE SE HABÍA BORRADO!
+            txt = msg.choices[0].message.content.strip()
             
             # PARSEO ROBUSTO: Limpiamos el JSON antes de cargarlo
             txt_limpio = extraer_json_puro(txt)
             an = json.loads(txt_limpio)
+            
         except Exception as e:
             log.warning(f"Error LLM (Salto mercado): {e}")
             time.sleep(2); analizados+=1; continue
