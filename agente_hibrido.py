@@ -279,7 +279,7 @@ def ciclo():
 
     for m in sorted(mercados, key=lambda x: -x["volumen_usd"]):
         if len(nuevas) >= cupo: break
-        if analizados >= min(cupo+8, 20): break
+        if analizados >= min(cupo+8, 100): break
         if m["pregunta"][:70] in preguntas_ab: continue
 
         # ── Event detector ─────────────────────────────────────────
