@@ -16,37 +16,52 @@ def generar_dashboard():
 
     # 1. Cargar datos
     df = pd.read_csv(PATH_LIBRO)
-    with open(PATH_ESTADO, 'r') as f:
-        estado = json.load(f)
+    
+    # Manejo seguro del archivo de estado
+    balance_actual = 0
+    if os.path.exists(PATH_ESTADO):
+        with open(PATH_ESTADO, 'r') as f:
+            try:
+                estado = json.load(f)
+                balance_actual = estado.get("balance_total", 0)
+            except json.JSONDecodeError:
+                pass
 
     # 2. Calcular métricas clave
-    balance_actual = estado.get("balance_total", 0)
-    ops_cerradas = df[df['estado'] == 'cerrado']
-    win_rate = (ops_cerradas['pnl_final'] > 0).mean() * 100 if not ops_cerradas.empty else 0
-    pnl_total = ops_cerradas['pnl_final'].sum()
+    # Usamos .str.upper() para asegurar que atrape 'CERRADA' sin importar mayúsculas/minúsculas
+    ops_cerradas = df[df['estado'].astype(str).str.upper() == 'CERRADA']
+    
+    # Usamos 'pnl_realizado' tal cual está en el CSV del híbrido
+    win_rate = (ops_cerradas['pnl_realizado'] > 0).mean() * 100 if not ops_cerradas.empty else 0
+    pnl_total = ops_cerradas['pnl_realizado'].sum()
 
-    # 3. Gráfico de evolución del Balance
-    # (Asumiendo que el libro tiene timestamps de cierre)
-    fig_balance = px.line(ops_cerradas, x='fecha_cierre', y='pnl_final', 
-                          title="Rendimiento Acumulado (Híbrido)",
-                          template="plotly_dark")
+    # 3. Gráficos
+    if not ops_cerradas.empty:
+        # Gráfico de evolución del Balance (usamos 'fecha_cierre_real')
+        fig_balance = px.line(ops_cerradas, x='fecha_cierre_real', y='pnl_realizado', 
+                              title="Rendimiento Acumulado (Híbrido)",
+                              template="plotly_dark")
 
-    # 4. Gráfico de distribución de beneficios
-    fig_dist = px.histogram(ops_cerradas, x="pnl_final", 
-                            title="Distribución de Ganancias/Pérdidas",
-                            color_discrete_sequence=['#00cc96'],
-                            template="plotly_dark")
+        # Gráfico de distribución de beneficios
+        fig_dist = px.histogram(ops_cerradas, x="pnl_realizado", 
+                                title="Distribución de Ganancias/Pérdidas",
+                                color_discrete_sequence=['#00cc96'],
+                                template="plotly_dark")
+    else:
+        # Gráficos vacíos por si aún no hay operaciones cerradas
+        fig_balance = px.line(title="Esperando operaciones cerradas...")
+        fig_dist = px.histogram(title="Esperando operaciones cerradas...")
 
-    # 5. Generar HTML
+    # 4. Generar HTML
     with open(PATH_SALIDA, 'w') as f:
-        f.write(f"<html><head><title>Dashboard Agente Híbrido</title></head><body>")
-        f.write(f"<h1 style='font-family:sans-serif;'>Resumen Agente Híbrido</h1>")
-        f.write(f"<p>Balance Actual: ${balance_actual:.2f} | Win Rate: {win_rate:.1f}% | PNL Total: ${pnl_total:.2f}</p>")
+        f.write(f"<html><head><title>Dashboard Agente Híbrido</title></head><body style='background-color:#111111; color:white; font-family:sans-serif; padding: 20px;'>")
+        f.write(f"<h1>Resumen Agente Híbrido</h1>")
+        f.write(f"<h2>Balance Actual: ${balance_actual:.2f} | Win Rate: {win_rate:.1f}% | PNL Total: ${pnl_total:.2f}</h2>")
         f.write(fig_balance.to_html(full_html=False, include_plotlyjs='cdn'))
         f.write(fig_dist.to_html(full_html=False, include_plotlyjs='cdn'))
         f.write("</body></html>")
     
-    print(f"Dashboard actualizado en: {PATH_SALIDA}")
+    print(f"Dashboard actualizado exitosamente en: {PATH_SALIDA}")
 
 if __name__ == "__main__":
     generar_dashboard()
