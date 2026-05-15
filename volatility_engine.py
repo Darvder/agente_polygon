@@ -43,21 +43,20 @@ def _load_cache():
  # Asegúrate de que numpy esté importado al inicio
 
 def _save_cache(c):
-    """
-    Guarda el caché en formato JSON de manera robusta, 
-    convirtiendo tipos de datos de NumPy a tipos nativos de Python.
-    """
-    def convertidor_numpy(obj):
+    """Guarda el caché convirtiendo tipos de NumPy a nativos para evitar el crash."""
+    def convertidor(obj):
+        if isinstance(obj, (np.bool_, bool)):
+            return bool(obj) 
         if isinstance(obj, np.generic):
-            return obj.item()  # Convierte np.bool_, np.int64, etc. a nativo
-        raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
-
+            return obj.item()
+        raise TypeError
+    
     try:
         with open(CACHE_FILE, "w") as f:
-            # Usamos el parámetro 'default' para manejar los tipos no serializables
-            json.dump(c, f, indent=4, default=convertidor_numpy)
+            # El parámetro 'default' es lo que evita el error de serialización
+            json.dump(c, f, indent=4, default=convertidor)
     except Exception as e:
-        print(f"Error crítico guardando caché de volatilidad: {e}")
+        print(f"Error guardando caché: {e}")
       
 def _valid(entry):
     try:
