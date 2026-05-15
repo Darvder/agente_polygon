@@ -30,7 +30,7 @@ BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 10
 
 # ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
-MIN_EDGE        = 0.04
+MIN_EDGE        = 0.03
 MIN_CONFIANZA   = 0.50
 MIN_VOLUMEN     = 10_000
 MAX_SPREAD      = 0.08
