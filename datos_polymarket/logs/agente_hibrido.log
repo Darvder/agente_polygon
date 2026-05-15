@@ -1521,3 +1521,53 @@ PRECIO_BUCKET:
 2026-05-15 17:02:20,859 | INFO | Abiertas=0 Cerradas=1 P&L=$-0.37
 2026-05-15 17:02:20,859 | INFO | TP:0 SL:0 Time:1
 2026-05-15 17:02:20,859 | INFO | =======================================================
+2026-05-15 18:26:55,279 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-15 18:26:55,279 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-15 18:26:55,279 | INFO | =======================================================
+2026-05-15 18:26:55,279 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-15 18:26:55,279 | INFO | =======================================================
+2026-05-15 18:26:55,286 | INFO | Modelo Bayesiano actualizado: 4 condiciones aprendidas
+2026-05-15 18:26:55,286 | INFO | 
+=== MODELO BAYESIANO ===
+2026-05-15 18:26:55,510 | INFO | Mercados: 19
+2026-05-15 18:26:56,133 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:26:56,144 | INFO | IA descarta (No noticia): Will the San Antonio Spurs win the 2026 
+2026-05-15 18:26:57,693 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:26:57,694 | INFO | IA descarta (No noticia): Will France win the 2026 FIFA World Cup?
+2026-05-15 18:26:59,178 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:26:59,178 | INFO | IA descarta (No noticia): Will Spain win the 2026 FIFA World Cup?
+2026-05-15 18:27:00,736 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:00,737 | INFO | IA descarta (No noticia): Will Portugal win the 2026 FIFA World Cu
+2026-05-15 18:27:02,439 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:02,440 | INFO | IA descarta (No noticia): Will Brazil win the 2026 FIFA World Cup?
+2026-05-15 18:27:03,867 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:03,868 | INFO | IA descarta (No noticia): Will Argentina win the 2026 FIFA World C
+2026-05-15 18:27:05,367 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:05,368 | INFO | IA descarta (No noticia): Will England win the 2026 FIFA World Cup
+2026-05-15 18:27:06,957 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:06,958 | INFO | IA descarta (No noticia): Will Germany win the 2026 FIFA World Cup
+2026-05-15 18:27:08,419 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:08,420 | INFO | IA descarta (No noticia): Will the Colorado Avalanche win the 2026
+2026-05-15 18:27:09,959 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:09,960 | INFO | IA descarta (No noticia): Will the New York Knicks win the 2026 NB
+2026-05-15 18:27:11,419 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:11,420 | INFO | IA descarta (No noticia): Will the Oklahoma City Thunder win the 2
+2026-05-15 18:27:13,067 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:13,068 | INFO | IA descarta (No noticia): Will bitcoin hit $1m before GTA VI?
+2026-05-15 18:27:14,572 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:14,573 | INFO | IA descarta (No noticia): Will the Montreal Canadiens win the 2026
+2026-05-15 18:27:16,078 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:16,079 | INFO | IA descarta (No noticia): Will the Vegas Golden Knights win the 20
+2026-05-15 18:27:17,559 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:17,559 | INFO | IA descarta (No noticia): Will China invades Taiwan before GTA VI?
+2026-05-15 18:27:18,983 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:18,984 | INFO | IA descarta (No noticia): Will the Carolina Hurricanes win the 202
+2026-05-15 18:27:20,398 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:20,399 | INFO | IA descarta (No noticia): New Playboi Carti Album before GTA VI?
+2026-05-15 18:27:21,869 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 18:27:21,869 | INFO | IA descarta (No noticia): New Rihanna Album before GTA VI?
+2026-05-15 18:27:22,871 | INFO | ───────────────────────────────────────────────────────
+2026-05-15 18:27:22,871 | INFO | CICLO #41 | Analizados=18 Nuevas=0
+2026-05-15 18:27:22,871 | INFO | Abiertas=0 Cerradas=1 P&L=$-0.37
+2026-05-15 18:27:22,872 | INFO | TP:0 SL:0 Time:1
+2026-05-15 18:27:22,872 | INFO | =======================================================
