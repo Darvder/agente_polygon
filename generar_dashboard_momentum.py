@@ -130,11 +130,18 @@ def generar():
                 pta   = float(p.get("precio_actual", 0))
                 if p.get("señal", "") != "COMPRAR YES": pta = 1 - pta
                 pct   = (pta-pte)/pte if pte>0 else 0
+                tp_din = p.get("tp_dinamico", 0.09)
+                sl_din = p.get("sl_dinamico", -0.07)
+                
                 pnl_nr = float(p.get("monto_usdc", 0)) * pct
-                col   = "#10b981" if pct>=0 else "#ef4444"
-                bar   = progress_bar(pct)
-            except:
-                pct=0; pnl_nr=0; col="#64748b"; bar=progress_bar(0)
+                col = "#10b981" if pct >= 0 else "#ef4444"
+                
+                # LLAMADA ACTUALIZADA:
+                bar = progress_bar(pct, tp_din, sl_din) 
+            except Exception as e:
+                pct = 0; pnl_nr = 0; col = "#64748b"
+                bar = progress_bar(0, 0.09, -0.07)
+                
 
             h_ab  = horas_abiertas(p.get("fecha_entrada_dt",""))
             h_col = "#ef4444" if h_ab >= 3*0.8 else "#f59e0b" if h_ab >= 3*0.5 else "#64748b"
