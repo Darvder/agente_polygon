@@ -16,7 +16,7 @@ import json, os, logging
 import pandas as pd
 from datetime import datetime
 
-ARCHIVO_LIBRO   = "datos_polymarket/paper_trading/libro_momentum.csv"
+ARCHIVO_LIBRO  = "datos_polymarket/paper_trading/libro_hibrido.csv"
 ARCHIVO_MODELO  = "datos_polymarket/paper_trading/bayesian_model.json"
 MIN_SAMPLES     = 3    # mínimo de trades para usar el win rate de una condición
 MIN_WIN_RATE    = 0.45 # win rate mínimo para operar (45%)
