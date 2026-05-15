@@ -1071,3 +1071,53 @@ PRECIO_BUCKET:
 2026-05-15 08:14:59,513 | INFO | Abiertas=0 Cerradas=1 P&L=$-0.37
 2026-05-15 08:14:59,513 | INFO | TP:0 SL:0 Time:1
 2026-05-15 08:14:59,513 | INFO | =======================================================
+2026-05-15 09:53:29,770 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-15 09:53:29,770 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-15 09:53:29,770 | INFO | =======================================================
+2026-05-15 09:53:29,770 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-15 09:53:29,771 | INFO | =======================================================
+2026-05-15 09:53:29,777 | INFO | Modelo Bayesiano actualizado: 4 condiciones aprendidas
+2026-05-15 09:53:29,777 | INFO | 
+=== MODELO BAYESIANO ===
+2026-05-15 09:53:29,959 | INFO | Mercados: 19
+2026-05-15 09:53:30,923 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:30,935 | INFO | IA descarta (No noticia): Will the San Antonio Spurs win the 2026 
+2026-05-15 09:53:32,572 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:32,573 | INFO | IA descarta (No noticia): Will France win the 2026 FIFA World Cup?
+2026-05-15 09:53:34,297 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:34,298 | INFO | IA descarta (No noticia): Will Spain win the 2026 FIFA World Cup?
+2026-05-15 09:53:36,114 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:36,114 | INFO | IA descarta (No noticia): Will Portugal win the 2026 FIFA World Cu
+2026-05-15 09:53:37,867 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:37,868 | WARNING | Error LLM (Salto mercado): Expecting ':' delimiter: line 1 column 314 (char 313)
+2026-05-15 09:53:40,676 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:40,677 | INFO | IA descarta (No noticia): Will Argentina win the 2026 FIFA World C
+2026-05-15 09:53:42,272 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:42,273 | INFO | IA descarta (No noticia): Will England win the 2026 FIFA World Cup
+2026-05-15 09:53:43,874 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:43,875 | INFO | IA descarta (No noticia): Will Germany win the 2026 FIFA World Cup
+2026-05-15 09:53:45,453 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:45,454 | INFO | IA descarta (No noticia): Will the Colorado Avalanche win the 2026
+2026-05-15 09:53:47,087 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:47,088 | INFO | IA descarta (No noticia): Will the New York Knicks win the 2026 NB
+2026-05-15 09:53:48,679 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:48,680 | INFO | IA descarta (No noticia): Will the Oklahoma City Thunder win the 2
+2026-05-15 09:53:50,207 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:50,207 | INFO | IA descarta (No noticia): Will bitcoin hit $1m before GTA VI?
+2026-05-15 09:53:51,837 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:51,837 | WARNING | Error LLM (Salto mercado): Expecting ':' delimiter: line 1 column 270 (char 269)
+2026-05-15 09:53:54,345 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:54,346 | INFO | IA descarta (No noticia): Will the Vegas Golden Knights win the 20
+2026-05-15 09:53:56,056 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:56,057 | WARNING | Error LLM (Salto mercado): Expecting ',' delimiter: line 1 column 262 (char 261)
+2026-05-15 09:53:58,622 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:53:58,623 | INFO | IA descarta (No noticia): Will the Carolina Hurricanes win the 202
+2026-05-15 09:54:00,292 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:54:00,293 | INFO | IA descarta (No noticia): New Playboi Carti Album before GTA VI?
+2026-05-15 09:54:01,808 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 09:54:01,809 | INFO | IA descarta (No noticia): New Rihanna Album before GTA VI?
+2026-05-15 09:54:02,811 | INFO | ───────────────────────────────────────────────────────
+2026-05-15 09:54:02,811 | INFO | CICLO #32 | Analizados=18 Nuevas=0
+2026-05-15 09:54:02,811 | INFO | Abiertas=0 Cerradas=1 P&L=$-0.37
+2026-05-15 09:54:02,811 | INFO | TP:0 SL:0 Time:1
+2026-05-15 09:54:02,811 | INFO | =======================================================
