@@ -65,24 +65,30 @@ def horas_abiertas(fecha_str):
         return abs(h)
     except: return 0
 
-def progress_bar(pct):
-    # Como el agente híbrido usa SL/TP dinámicos, usamos una referencia visual estándar
-    tp = 0.09
-    sl = -0.07
+def progress_bar(pct, tp_pos, sl_pos):
+    """Genera la barra de progreso usando los límites dinámicos de la posición."""
+    # Asegurar que los límites no sean cero para evitar errores de división
+    tp = float(tp_pos) if float(tp_pos) != 0 else 0.09
+    sl = float(sl_pos) if float(sl_pos) != 0 else -0.07
+    
     rango = tp - sl
-    pos   = max(0, min(1, (pct - sl) / rango)) * 100
-    col   = "#10b981" if pct >= tp*0.7 else "#ef4444" if pct <= sl*0.7 else "#f59e0b"
+    # Calcular posición relativa del porcentaje actual entre el SL y el TP
+    pos = max(0, min(1, (pct - sl) / rango)) * 100
+    
+    # Color dinámico basado en la proximidad a los límites
+    col = "#10b981" if pct >= tp * 0.8 else "#ef4444" if pct <= sl * 0.8 else "#f59e0b"
+    
     return f'''<div style="position:relative;height:4px;background:#1e293b;border-radius:2px;margin:10px 0 6px">
-  <div style="position:absolute;left:0;top:-4px;width:2px;height:12px;background:#ef4444;border-radius:1px;opacity:.8"></div>
-  <div style="position:absolute;right:0;top:-4px;width:2px;height:12px;background:#10b981;border-radius:1px;opacity:.8"></div>
+  <div style="position:absolute;left:0;top:-4px;width:2px;height:12px;background:#ef4444;border-radius:1px;opacity:.8" title="SL: {sl:.1%}"></div>
+  <div style="position:absolute;right:0;top:-4px;width:2px;height:12px;background:#10b981;border-radius:1px;opacity:.8" title="TP: {tp:.1%}"></div>
   <div style="position:absolute;left:{pos:.1f}%;top:-6px;width:16px;height:16px;background:{col};
               border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;
               box-shadow:0 0 10px {col}bb"></div>
 </div>
 <div style="display:flex;justify-content:space-between;font-size:11px;margin-top:10px">
-  <span style="color:#f87171;font-weight:600">Referencia SL</span>
+  <span style="color:#f87171;font-weight:600">SL {sl:+.1%}</span>
   <span style="color:{col};font-weight:700;font-size:12px">{pct:+.1%}</span>
-  <span style="color:#34d399;font-weight:600">Referencia TP</span>
+  <span style="color:#34d399;font-weight:600">TP {tp:+.1%}</span>
 </div>'''
 
 def generar():
