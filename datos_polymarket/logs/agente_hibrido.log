@@ -2622,3 +2622,31 @@ PRECIO_BUCKET:
 2026-05-16 17:36:59,223 | INFO | CICLO #64 | Analizados=0 Nuevas=0 [Enfoque Volatilidad]
 2026-05-16 17:36:59,223 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
 2026-05-16 17:36:59,223 | INFO | =======================================================
+2026-05-16 18:37:48,278 | INFO | =======================================================
+2026-05-16 18:37:48,278 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-16 18:37:48,278 | INFO | =======================================================
+2026-05-16 18:37:48,284 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 18:37:48,416 | INFO | Mercados: 19
+2026-05-16 18:37:48,474 | INFO | Mercados: 19
+2026-05-16 18:37:49,114 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:49,139 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:49,158 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:49,575 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:49,650 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:49,663 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:50,084 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:50,155 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:50,160 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:50,514 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-16 18:37:50,514 | WARNING | ⚠️ Error en tarea async LLM: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n  "estimacion": 0.143,\n   "confianza": 0.5,\n   "hay_noticia": false,\n   "razonamiento": "No hay noticias relevantes, por lo que la estimación se basa en el precio actual", "No hay historial previo para considerar"\n}'}}
+2026-05-16 18:37:50,597 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:50,712 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:50,979 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:51,005 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:51,278 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:51,448 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:51,551 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:51,745 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:51,820 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:37:51,821 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #65 | Nuevas Abiertas: 0
+2026-05-16 18:37:51,821 | INFO | =======================================================
