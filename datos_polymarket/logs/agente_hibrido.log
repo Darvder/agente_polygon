@@ -1729,3 +1729,47 @@ PRECIO_BUCKET:
 2026-05-15 22:56:23,538 | INFO | Abiertas=4 Cerradas=1 P&L=$-0.37
 2026-05-15 22:56:23,538 | INFO | TP:0 SL:0 Time:1
 2026-05-15 22:56:23,538 | INFO | =======================================================
+2026-05-15 23:00:35,369 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-15 23:00:35,369 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-15 23:00:35,369 | INFO | =======================================================
+2026-05-15 23:00:35,369 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-15 23:00:35,369 | INFO | =======================================================
+2026-05-15 23:00:35,375 | INFO | 
+=== MODELO BAYESIANO ===
+2026-05-15 23:00:35,571 | INFO | Mercados: 19
+2026-05-15 23:00:36,198 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:36,211 | INFO | IA descarta (No noticia y edge estándar): Will the San Antonio Spurs win the 2026  | edge=-0.1%
+2026-05-15 23:00:37,988 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:37,989 | INFO | IA descarta (No noticia y edge estándar): Will Spain win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-15 23:00:39,602 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:39,603 | INFO | IA descarta (No noticia y edge estándar): Will Portugal win the 2026 FIFA World Cu | edge=-0.1%
+2026-05-15 23:00:41,000 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:41,369 | INFO | Vol [558938]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-15 23:00:41,370 | INFO | ✅ NUEVA: COMPRAR YES | Will Argentina win the 2026 FIFA World | edge=851.4% | TP=4% SL=-3% 10h | $20
+2026-05-15 23:00:44,243 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:44,244 | INFO | IA descarta (No noticia y edge estándar): Will the Colorado Avalanche win the 2026 | edge=-0.6%
+2026-05-15 23:00:45,879 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:45,880 | INFO | IA descarta (No noticia y edge estándar): Will the New York Knicks win the 2026 NB | edge=-0.2%
+2026-05-15 23:00:47,471 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:47,472 | INFO | IA descarta (No noticia y edge estándar): Will the Oklahoma City Thunder win the 2 | edge=-1.0%
+2026-05-15 23:00:49,042 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:49,043 | INFO | IA descarta (No noticia y edge estándar): Will bitcoin hit $1m before GTA VI? | edge=-0.2%
+2026-05-15 23:00:50,538 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:50,539 | INFO | IA descarta (No noticia y edge estándar): Will the Montreal Canadiens win the 2026 | edge=-0.2%
+2026-05-15 23:00:52,095 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:52,095 | INFO | IA descarta (No noticia y edge estándar): Will the Vegas Golden Knights win the 20 | edge=-0.2%
+2026-05-15 23:00:53,963 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:53,964 | INFO | IA descarta (No noticia y edge estándar): Will China invades Taiwan before GTA VI? | edge=-1.0%
+2026-05-15 23:00:55,362 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:55,363 | INFO | IA descarta (No noticia y edge estándar): Will the Carolina Hurricanes win the 202 | edge=-1.0%
+2026-05-15 23:00:56,863 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 23:00:56,864 | INFO | IA descarta (No noticia y edge estándar): New Playboi Carti Album before GTA VI? | edge=-2.0%
+2026-05-15 23:00:58,057 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 23:00:58,058 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99915, Requested 258. Please try again in 2m29.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-15 23:01:00,174 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 23:01:00,174 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99913, Requested 260. Please try again in 2m29.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-15 23:01:02,179 | INFO | ───────────────────────────────────────────────────────
+2026-05-15 23:01:02,179 | INFO | CICLO #45 | Analizados=15 Nuevas=1
+2026-05-15 23:01:02,179 | INFO | Abiertas=5 Cerradas=0 P&L=$+0.00
+2026-05-15 23:01:02,179 | INFO | TP:0 SL:0 Time:1
+2026-05-15 23:01:02,179 | INFO | =======================================================

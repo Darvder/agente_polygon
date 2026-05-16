@@ -58,5 +58,20 @@
             "precio_max": 0.0545,
             "n": 4131
         }
+    },
+    "558938": {
+        "ts": "2026-05-15T23:00:41.369546",
+        "m": {
+            "vol_1d": 0.0,
+            "vol_7d": 0.00088,
+            "rango": 0.002,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.0855,
+            "precio_max": 0.0905,
+            "n": 4222
+        }
     }
 }
