@@ -1,343 +1,688 @@
 <!DOCTYPE html>
-<html lang="es"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="300">
-<title>Agente Híbrido · Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<style>
-* { box-sizing:border-box; margin:0; padding:0 }
-body { font-family:'DM Sans',sans-serif; background:#060b14; color:#e2e8f0; padding:28px; min-height:100vh }
-@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
-@keyframes fadeUp { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
-.fade { animation:fadeUp .35s ease both }
-.f2 { animation-delay:.05s } .f3 { animation-delay:.1s } .f4 { animation-delay:.15s }
-.kpis { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; margin-bottom:22px }
-.kpi { background:#0d1829; border:1px solid #1e293b; border-radius:12px; padding:18px; position:relative; overflow:hidden }
-.kpi::after { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:var(--a,#1e293b) }
-.kpi.g { --a:#10b981 } .kpi.r { --a:#ef4444 } .kpi.b { --a:#8b5cf6 }
-.kl { font-size:11px; color:#94a3b8; text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; font-weight:600 }
-.kv { font-family:'Space Mono',monospace; font-size:24px; font-weight:700; line-height:1 }
-.ks { font-size:12px; color:#64748b; margin-top:6px }
-.card { background:#0d1829; border:1px solid #1e293b; border-radius:12px; padding:20px; margin-bottom:18px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
-.ct { font-size:11px; font-weight:700; color:#94a3b8; text-transform:uppercase; letter-spacing:.08em; margin-bottom:16px; display:flex; align-items:center; gap:8px }
-.badge { display:inline-block; padding:2px 9px; border-radius:99px; font-size:10px; font-weight:700 }
-.grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:12px }
-.live { display:inline-flex; align-items:center; gap:5px; font-size:11px; color:#8b5cf6; font-weight:600 }
-.dot { width:6px; height:6px; border-radius:50%; background:#8b5cf6; animation:pulse 2s infinite }
-@media(max-width:900px) { .kpis{grid-template-columns:repeat(2,1fr)} .grid3{grid-template-columns:1fr} }
-</style></head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control - Agente Híbrido IA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-principal: #0b0f19;
+            --bg-tarjetas: #151f32;
+            --bg-lineas: #24344d;
+            --accent-purple: #8b5cf6;
+            --accent-purple-hover: #a78bfa;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --green-profit: #10b981;
+            --red-loss: #ef4444;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-principal);
+            color: var(--text-main);
+            padding: 2rem;
+            line-height: 1.5;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--bg-lineas);
+            padding-bottom: 1.5rem;
+        }
+
+        .brand h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .brand h1 span {
+            color: var(--accent-purple);
+        }
+
+        .brand p {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .cron {
+            text-align: right;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .cron strong {
+            color: var(--accent-purple-hover);
+        }
+
+        /* METRICAS GRID */
+        .grid-metricas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .card-metrica {
+            background-color: var(--bg-tarjetas);
+            border: 1px solid var(--bg-lineas);
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-metrica::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background-color: var(--bg-lineas);
+        }
+
+        .card-metrica.destacada::before {
+            background-color: var(--accent-purple);
+        }
+
+        .card-metrica.profit::before {
+            background-color: var(--green-profit);
+        }
+
+        .card-metrica h4 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 0.05em;
+        }
+
+        .card-metrica .valor {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-top: 0.5rem;
+        }
+
+        .positive { color: var(--green-profit); }
+        .negative { color: var(--red-loss); }
+
+        /* CONTENIDO PRINCIPAL */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 1024px) {
+            .main-layout { grid-template-columns: 1fr; }
+        }
+
+        .panel-bloque {
+            background-color: var(--bg-tarjetas);
+            border: 1px solid var(--bg-lineas);
+            border-radius: 16px;
+            padding: 1.5rem;
+        }
+
+        .panel-bloque h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1.25rem;
+            color: var(--text-main);
+            border-left: 3px solid var(--accent-purple);
+            padding-left: 0.5rem;
+        }
+
+        /* TARJETAS DE POSICIONES ABIERTAS */
+        .abiertas-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .card-orden {
+            background-color: #1c2a42;
+            border: 1px solid var(--bg-lineas);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: transform 0.2s ease;
+        }
+
+        .card-orden:hover {
+            transform: translateY(-2px);
+            border-color: #3b5278;
+        }
+
+        .card-orden-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .badge-senal {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            text-transform: uppercase;
+        }
+
+        .badge-senal.comprar-yes { background-color: rgba(16, 185, 129, 0.2); color: var(--green-profit); }
+        .badge-senal.comprar-no { background-color: rgba(239, 68, 68, 0.2); color: var(--red-loss); }
+
+        .monto-orden {
+            font-weight: 600;
+            color: #e5e7eb;
+            font-size: 0.95rem;
+        }
+
+        .pregunta-titulo {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 1rem;
+        }
+
+        .metadatos-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            background-color: rgba(11, 15, 25, 0.4);
+            padding: 0.75rem;
+            border-radius: 8px;
+            margin-bottom: 1.25rem;
+        }
+
+        @media (max-width: 480px) {
+            .metadatos-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .meta-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .meta-value {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-top: 0.15rem;
+        }
+
+        /* BARRA DE RIESGO ADAPTATIVA DINÁMICA */
+        .riesgo-container {
+            margin-top: 1rem;
+            padding-top: 0.5rem;
+        }
+
+        .riesgo-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 0.4rem;
+        }
+
+        .label-sl { color: var(--red-loss); font-weight: 600; }
+        .label-tp { color: var(--green-profit); font-weight: 600; }
+        .label-entry { color: var(--text-muted); }
+
+        .riesgo-barra-bg {
+            height: 8px;
+            background: linear-gradient(to right, var(--red-loss) 0%, #4b5563 35%, #4b5563 65%, var(--green-profit) 100%);
+            border-radius: 4px;
+            position: relative;
+            margin-bottom: 0.4rem;
+        }
+
+        .riesgo-burbuja {
+            width: 14px;
+            height: 14px;
+            background-color: #ffffff;
+            border: 3px solid var(--accent-purple);
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 8px rgba(139, 92, 246, 0.8);
+            transition: left 0.3s ease;
+        }
+
+        .riesgo-precios {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        /* TABLA HISTORIAL */
+        .tabla-contenedor {
+            width: 100%;
+            overflow-x: auto;
+            margin-top: 1.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background-color: rgba(11, 15, 25, 0.6);
+            color: var(--text-muted);
+            font-weight: 600;
+            padding: 0.75rem 1rem;
+            border-bottom: 2px solid var(--bg-lineas);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--bg-lineas);
+            color: #d1d5db;
+        }
+
+        tr:hover td {
+            background-color: rgba(36, 52, 77, 0.3);
+        }
+
+        .row-ganancia .bold-pnl { color: var(--green-profit); font-weight: 600; }
+        .row-perdida .bold-pnl { color: var(--red-loss); font-weight: 600; }
+
+        .badge-tabla {
+            background-color: #24344d;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .badge-razon {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+        }
+        .badge-razon.tp_exit { background-color: rgba(16, 185, 129, 0.15); color: var(--green-profit); }
+        .badge-razon.sl_exit { background-color: rgba(239, 68, 68, 0.15); color: var(--red-loss); }
+        .badge-razon.time_exit { background-color: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+
+        .txt-truncate {
+            max-width: 280px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .no-data {
+            text-align: center;
+            color: var(--text-muted);
+            padding: 2rem;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        /* ANIMACIONES */
+        .animated-fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
 <body>
 
-<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px" class="fade">
-  <div>
-    <div style="font-size:11px;color:#334155;font-family:'Space Mono',monospace;letter-spacing:.1em;margin-bottom:6px">POLYMARKET · AUTOMATED AGENT</div>
-    <h1 style="font-size:30px;font-weight:700;letter-spacing:-1px;color:#f1f5f9">
-      Agente <span style="color:#8b5cf6">Híbrido (LLM)</span>
-    </h1>
-    <div style="font-size:12px;color:#64748b;margin-top:5px">Ciclo #47 · Insights de IA integrados</div>
-  </div>
-  <div style="text-align:right;font-size:12px;color:#64748b;line-height:2">
-    <div class="live"><span class="dot"></span> Auto-refresh 5min</div>
-    <div>Último ciclo: <span style="color:#94a3b8">2026-05-15 23:17</span></div>
-    <div>Calibración Dinámica de Volatilidad</div>
-  </div>
-</div>
+    <header>
+        <div class="brand">
+            <h1>🤖 Agente Híbrido <span>v2</span></h1>
+            <p>Análisis fundamental de noticias procesado por IA integrado con Momentum & Volatilidad Cuántica</p>
+        </div>
+        <div class="cron">
+            <p>Ciclos Ejecutados: <strong>#48</strong></p>
+            <p>Última actualización: <strong>2026-05-15 23:20</strong></p>
+        </div>
+    </header>
 
-<div class="kpis fade f2">
-  <div class="kpi g">
-    <div class="kl">Patrimonio Neto (Equity)</div>
-    <div class="kv" style="color:#f1f5f9">1,000.00$</div>
-    <div class="ks" style="color:#10b981">
-        +0.00$ (+0.00%)
+    <div class="grid-metricas">
+        <div class="card-metrica destacada">
+            <h4>Capital Disponible</h4>
+            <div class="valor">$899.63 USDC</div>
+        </div>
+        <div class="card-metrica">
+            <h4>Capital en Riesgo</h4>
+            <div class="valor" style="color: #a78bfa;">$100.00 USDC</div>
+        </div>
+        <div class="card-metrica profit">
+            <h4>Rendimiento Neto (P&L)</h4>
+            <div class="valor positive">
+                Tiny$0.00
+            </div>
+        </div>
+        <div class="card-metrica">
+            <h4>Efectividad (Win Rate)</h4>
+            <div class="valor" style="color: #38bdf8;">0.0%</div>
+        </div>
     </div>
-  </div>
 
-  <div class="kpi">
-    <div class="kl">Capital Líquido</div>
-    <div class="kv" style="color:#f1f5f9">900.00$</div>
-    <div class="ks">En riesgo: <span style="color:#f59e0b">100.00$</span></div>
-  </div>
+    <div class="main-layout">
+        <div class="panel-bloque">
+            <h3>Curva de Rendimiento Histórico</h3>
+            <div style="width: 100%; height: 320px; position: relative; margin-top: 1rem;">
+                <canvas id="graficoRendimiento"></canvas>
+            </div>
+        </div>
 
-  <div class="kpi">
-    <div class="kl">P&L Realizado</div>
-    <div class="kv" style="color:#10b981">+0.00$</div>
-    <div class="ks">Trades cerrados</div>
-  </div>
+        <div class="panel-bloque">
+            <h3>Posiciones Activas</h3>
+            <div class="abiertas-wrapper">
+                
+                <div class="card-orden animated-fade-in">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-yes">COMPRAR YES</span>
+                        <span class="monto-orden">$20.00 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will France win the 2026 FIFA World Cup?</div>
+                    
+                    <div class="metadatos-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">🤖 Confianza IA</span>
+                            <span class="meta-value">50%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📈 Edge Neto</span>
+                            <span class="meta-value">+1712.5%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">⏱️ Tiempo Máx</span>
+                            <span class="meta-value">10.0h</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📊 P&L Flotante</span>
+                            <span class="meta-value positive">+$+0.00</span>
+                        </div>
+                    </div>
 
-  <div class="kpi">
-    <div class="kl">Drawdown (Pico)</div>
-    <div class="kv" style="color:#ef4444">+0.00$</div>
-    <div class="ks">Caída desde máximo</div>
-  </div>
-  
-  <div class="kpi b">
-    <div class="kl">Win Rate</div>
-    <div class="kv" style="color:#f1f5f9">0%</div>
-    <div class="ks">0 de 0 cerradas</div>
-  </div>
-</div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL: -3.0%</span>
+                            <span class="label-entry">Entrada: 0.17</span>
+                            <span class="label-tp">TP: 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left: 40.000000000000085%;" title="Precio Actual: 0.17"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.17</span>
+                            <span style="font-weight: bold; color: #a78bfa;">Actual: $0.17</span>
+                            <span>$0.18</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-orden animated-fade-in">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-yes">COMPRAR YES</span>
+                        <span class="monto-orden">$20.00 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will Brazil win the 2026 FIFA World Cup?</div>
+                    
+                    <div class="metadatos-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">🤖 Confianza IA</span>
+                            <span class="meta-value">50%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📈 Edge Neto</span>
+                            <span class="meta-value">+910.8%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">⏱️ Tiempo Máx</span>
+                            <span class="meta-value">10.0h</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📊 P&L Flotante</span>
+                            <span class="meta-value positive">+$+0.00</span>
+                        </div>
+                    </div>
 
-<div class="card fade f3">
-  <div class="ct">📈 Evolución del P&L Acumulado (Equity Curve)</div>
-  <div style="height:170px;position:relative"><canvas id="chart"></canvas></div>
-</div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL: -3.0%</span>
+                            <span class="label-entry">Entrada: 0.09</span>
+                            <span class="label-tp">TP: 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left: 40.0%;" title="Precio Actual: 0.09"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.09</span>
+                            <span style="font-weight: bold; color: #a78bfa;">Actual: $0.09</span>
+                            <span>$0.10</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-orden animated-fade-in">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-yes">COMPRAR YES</span>
+                        <span class="monto-orden">$20.00 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will England win the 2026 FIFA World Cup?</div>
+                    
+                    <div class="metadatos-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">🤖 Confianza IA</span>
+                            <span class="meta-value">50%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📈 Edge Neto</span>
+                            <span class="meta-value">+1118.5%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">⏱️ Tiempo Máx</span>
+                            <span class="meta-value">10.0h</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📊 P&L Flotante</span>
+                            <span class="meta-value positive">+$+0.00</span>
+                        </div>
+                    </div>
 
-<div class="card fade f3">
-  <div class="ct">
-    📌 Posiciones Abiertas
-    <span class="badge" style="background:#4c1d95;color:#ddd6fe">5</span>
-  </div>
-  <div style="background:#060b14;border:1px solid #1e293b;border-radius:10px;padding:14px 16px;margin-bottom:10px; transition: all 0.2s ease;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
-    <div style="display:flex;align-items:center;gap:8px;flex:1;min-width:0">
-      <span style="font-size:14px">📊</span>
-      <span style="font-size:13px;color:#cbd5e1;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Will France win the 2026 FIFA World Cup?</span>
-    </div>
-    <div style="text-align:right;flex-shrink:0">
-      <span style="color:#10b981;font-weight:700;font-size:12px">COMPRAR YES</span>
-      <span style="color:#8b5cf6;font-size:11px;margin-left:6px;font-weight:600">🤖 Conf 0.50</span>
-    </div>
-  </div>
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
-    <div style="font-size:11px;color:#64748b">
-      Entrada <span style="color:#94a3b8">0.17</span> ·
-      Actual <span style="color:#94a3b8">0.17</span> ·
-      Monto <span style="color:#94a3b8">$20</span> ·
-      <span style="color:#64748b;font-weight:600">0.4h</span>
-    </div>
-    <span style="color:#10b981;font-weight:700;font-size:13px">+0.00$</span>
-  </div>
-  <div style="position:relative;height:4px;background:#1e293b;border-radius:2px;margin:10px 0 6px">
-  <div style="position:absolute;left:0;top:-4px;width:2px;height:12px;background:#ef4444;border-radius:1px;opacity:.8" title="SL: -3.0%"></div>
-  <div style="position:absolute;right:0;top:-4px;width:2px;height:12px;background:#10b981;border-radius:1px;opacity:.8" title="TP: 4.5%"></div>
-  <div style="position:absolute;left:40.0%;top:-6px;width:16px;height:16px;background:#f59e0b;
-              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;
-              box-shadow:0 0 10px #f59e0bbb"></div>
-</div>
-<div style="display:flex;justify-content:space-between;font-size:11px;margin-top:10px">
-  <span style="color:#f87171;font-weight:600">SL -3.0%</span>
-  <span style="color:#f59e0b;font-weight:700;font-size:12px">+0.0%</span>
-  <span style="color:#34d399;font-weight:600">TP +4.5%</span>
-</div>
-</div><div style="background:#060b14;border:1px solid #1e293b;border-radius:10px;padding:14px 16px;margin-bottom:10px; transition: all 0.2s ease;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
-    <div style="display:flex;align-items:center;gap:8px;flex:1;min-width:0">
-      <span style="font-size:14px">📊</span>
-      <span style="font-size:13px;color:#cbd5e1;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Will Brazil win the 2026 FIFA World Cup?</span>
-    </div>
-    <div style="text-align:right;flex-shrink:0">
-      <span style="color:#10b981;font-weight:700;font-size:12px">COMPRAR YES</span>
-      <span style="color:#8b5cf6;font-size:11px;margin-left:6px;font-weight:600">🤖 Conf 0.50</span>
-    </div>
-  </div>
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
-    <div style="font-size:11px;color:#64748b">
-      Entrada <span style="color:#94a3b8">0.09</span> ·
-      Actual <span style="color:#94a3b8">0.09</span> ·
-      Monto <span style="color:#94a3b8">$20</span> ·
-      <span style="color:#64748b;font-weight:600">0.4h</span>
-    </div>
-    <span style="color:#10b981;font-weight:700;font-size:13px">+0.00$</span>
-  </div>
-  <div style="position:relative;height:4px;background:#1e293b;border-radius:2px;margin:10px 0 6px">
-  <div style="position:absolute;left:0;top:-4px;width:2px;height:12px;background:#ef4444;border-radius:1px;opacity:.8" title="SL: -3.0%"></div>
-  <div style="position:absolute;right:0;top:-4px;width:2px;height:12px;background:#10b981;border-radius:1px;opacity:.8" title="TP: 4.5%"></div>
-  <div style="position:absolute;left:40.0%;top:-6px;width:16px;height:16px;background:#f59e0b;
-              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;
-              box-shadow:0 0 10px #f59e0bbb"></div>
-</div>
-<div style="display:flex;justify-content:space-between;font-size:11px;margin-top:10px">
-  <span style="color:#f87171;font-weight:600">SL -3.0%</span>
-  <span style="color:#f59e0b;font-weight:700;font-size:12px">+0.0%</span>
-  <span style="color:#34d399;font-weight:600">TP +4.5%</span>
-</div>
-</div><div style="background:#060b14;border:1px solid #1e293b;border-radius:10px;padding:14px 16px;margin-bottom:10px; transition: all 0.2s ease;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
-    <div style="display:flex;align-items:center;gap:8px;flex:1;min-width:0">
-      <span style="font-size:14px">📊</span>
-      <span style="font-size:13px;color:#cbd5e1;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Will England win the 2026 FIFA World Cup?</span>
-    </div>
-    <div style="text-align:right;flex-shrink:0">
-      <span style="color:#10b981;font-weight:700;font-size:12px">COMPRAR YES</span>
-      <span style="color:#8b5cf6;font-size:11px;margin-left:6px;font-weight:600">🤖 Conf 0.50</span>
-    </div>
-  </div>
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
-    <div style="font-size:11px;color:#64748b">
-      Entrada <span style="color:#94a3b8">0.11</span> ·
-      Actual <span style="color:#94a3b8">0.11</span> ·
-      Monto <span style="color:#94a3b8">$20</span> ·
-      <span style="color:#64748b;font-weight:600">0.4h</span>
-    </div>
-    <span style="color:#10b981;font-weight:700;font-size:13px">+0.00$</span>
-  </div>
-  <div style="position:relative;height:4px;background:#1e293b;border-radius:2px;margin:10px 0 6px">
-  <div style="position:absolute;left:0;top:-4px;width:2px;height:12px;background:#ef4444;border-radius:1px;opacity:.8" title="SL: -3.0%"></div>
-  <div style="position:absolute;right:0;top:-4px;width:2px;height:12px;background:#10b981;border-radius:1px;opacity:.8" title="TP: 4.5%"></div>
-  <div style="position:absolute;left:40.0%;top:-6px;width:16px;height:16px;background:#f59e0b;
-              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;
-              box-shadow:0 0 10px #f59e0bbb"></div>
-</div>
-<div style="display:flex;justify-content:space-between;font-size:11px;margin-top:10px">
-  <span style="color:#f87171;font-weight:600">SL -3.0%</span>
-  <span style="color:#f59e0b;font-weight:700;font-size:12px">+0.0%</span>
-  <span style="color:#34d399;font-weight:600">TP +4.5%</span>
-</div>
-</div><div style="background:#060b14;border:1px solid #1e293b;border-radius:10px;padding:14px 16px;margin-bottom:10px; transition: all 0.2s ease;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
-    <div style="display:flex;align-items:center;gap:8px;flex:1;min-width:0">
-      <span style="font-size:14px">📊</span>
-      <span style="font-size:13px;color:#cbd5e1;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Will Germany win the 2026 FIFA World Cup?</span>
-    </div>
-    <div style="text-align:right;flex-shrink:0">
-      <span style="color:#10b981;font-weight:700;font-size:12px">COMPRAR YES</span>
-      <span style="color:#8b5cf6;font-size:11px;margin-left:6px;font-weight:600">🤖 Conf 0.50</span>
-    </div>
-  </div>
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
-    <div style="font-size:11px;color:#64748b">
-      Entrada <span style="color:#94a3b8">0.05</span> ·
-      Actual <span style="color:#94a3b8">0.05</span> ·
-      Monto <span style="color:#94a3b8">$20</span> ·
-      <span style="color:#64748b;font-weight:600">0.4h</span>
-    </div>
-    <span style="color:#10b981;font-weight:700;font-size:13px">+0.00$</span>
-  </div>
-  <div style="position:relative;height:4px;background:#1e293b;border-radius:2px;margin:10px 0 6px">
-  <div style="position:absolute;left:0;top:-4px;width:2px;height:12px;background:#ef4444;border-radius:1px;opacity:.8" title="SL: -3.0%"></div>
-  <div style="position:absolute;right:0;top:-4px;width:2px;height:12px;background:#10b981;border-radius:1px;opacity:.8" title="TP: 4.5%"></div>
-  <div style="position:absolute;left:40.0%;top:-6px;width:16px;height:16px;background:#f59e0b;
-              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;
-              box-shadow:0 0 10px #f59e0bbb"></div>
-</div>
-<div style="display:flex;justify-content:space-between;font-size:11px;margin-top:10px">
-  <span style="color:#f87171;font-weight:600">SL -3.0%</span>
-  <span style="color:#f59e0b;font-weight:700;font-size:12px">+0.0%</span>
-  <span style="color:#34d399;font-weight:600">TP +4.5%</span>
-</div>
-</div><div style="background:#060b14;border:1px solid #1e293b;border-radius:10px;padding:14px 16px;margin-bottom:10px; transition: all 0.2s ease;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
-    <div style="display:flex;align-items:center;gap:8px;flex:1;min-width:0">
-      <span style="font-size:14px">📊</span>
-      <span style="font-size:13px;color:#cbd5e1;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Will Argentina win the 2026 FIFA World Cup?</span>
-    </div>
-    <div style="text-align:right;flex-shrink:0">
-      <span style="color:#10b981;font-weight:700;font-size:12px">COMPRAR YES</span>
-      <span style="color:#8b5cf6;font-size:11px;margin-left:6px;font-weight:600">🤖 Conf 0.50</span>
-    </div>
-  </div>
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
-    <div style="font-size:11px;color:#64748b">
-      Entrada <span style="color:#94a3b8">0.09</span> ·
-      Actual <span style="color:#94a3b8">0.09</span> ·
-      Monto <span style="color:#94a3b8">$20</span> ·
-      <span style="color:#64748b;font-weight:600">0.3h</span>
-    </div>
-    <span style="color:#10b981;font-weight:700;font-size:13px">+0.00$</span>
-  </div>
-  <div style="position:relative;height:4px;background:#1e293b;border-radius:2px;margin:10px 0 6px">
-  <div style="position:absolute;left:0;top:-4px;width:2px;height:12px;background:#ef4444;border-radius:1px;opacity:.8" title="SL: -3.0%"></div>
-  <div style="position:absolute;right:0;top:-4px;width:2px;height:12px;background:#10b981;border-radius:1px;opacity:.8" title="TP: 4.5%"></div>
-  <div style="position:absolute;left:40.0%;top:-6px;width:16px;height:16px;background:#f59e0b;
-              border-radius:50%;transform:translateX(-50%);border:2px solid #060b14;
-              box-shadow:0 0 10px #f59e0bbb"></div>
-</div>
-<div style="display:flex;justify-content:space-between;font-size:11px;margin-top:10px">
-  <span style="color:#f87171;font-weight:600">SL -3.0%</span>
-  <span style="color:#f59e0b;font-weight:700;font-size:12px">+0.0%</span>
-  <span style="color:#34d399;font-weight:600">TP +4.5%</span>
-</div>
-</div>
-</div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL: -3.0%</span>
+                            <span class="label-entry">Entrada: 0.11</span>
+                            <span class="label-tp">TP: 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left: 40.0000000000001%;" title="Precio Actual: 0.11"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.11</span>
+                            <span style="font-weight: bold; color: #a78bfa;">Actual: $0.11</span>
+                            <span>$0.12</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-orden animated-fade-in">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-yes">COMPRAR YES</span>
+                        <span class="monto-orden">$20.00 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will Germany win the 2026 FIFA World Cup?</div>
+                    
+                    <div class="metadatos-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">🤖 Confianza IA</span>
+                            <span class="meta-value">50%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📈 Edge Neto</span>
+                            <span class="meta-value">+504.8%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">⏱️ Tiempo Máx</span>
+                            <span class="meta-value">10.0h</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📊 P&L Flotante</span>
+                            <span class="meta-value positive">+$+0.00</span>
+                        </div>
+                    </div>
 
-<div class="card fade f4">
-  <div class="ct">📊 Rendimiento por tipo de salida</div>
-  <div class="grid3"></div>
-</div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL: -3.0%</span>
+                            <span class="label-entry">Entrada: 0.05</span>
+                            <span class="label-tp">TP: 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left: 40.00000000000014%;" title="Precio Actual: 0.05"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.05</span>
+                            <span style="font-weight: bold; color: #a78bfa;">Actual: $0.05</span>
+                            <span>$0.05</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-orden animated-fade-in">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-yes">COMPRAR YES</span>
+                        <span class="monto-orden">$20.00 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will Argentina win the 2026 FIFA World Cup?</div>
+                    
+                    <div class="metadatos-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">🤖 Confianza IA</span>
+                            <span class="meta-value">50%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📈 Edge Neto</span>
+                            <span class="meta-value">+851.4%</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">⏱️ Tiempo Máx</span>
+                            <span class="meta-value">10.0h</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">📊 P&L Flotante</span>
+                            <span class="meta-value positive">+$+0.00</span>
+                        </div>
+                    </div>
 
-<div class="card fade f4">
-  <div class="ct">
-    🕐 Últimas operaciones
-    <span class="badge" style="background:#14532d;color:#86efac">0</span>
-  </div>
-  <div style="display:grid;grid-template-columns:20px 1fr 80px 70px 65px;gap:10px;
-              padding:0 4px 8px;border-bottom:1px solid #1e293b;margin-bottom:4px">
-    <span></span>
-    <span style="font-size:10px;color:#475569;font-weight:600;text-transform:uppercase;letter-spacing:.06em">Mercado</span>
-    <span style="font-size:10px;color:#475569;font-weight:600;text-transform:uppercase;letter-spacing:.06em;text-align:center">Fecha</span>
-    <span style="font-size:10px;color:#475569;font-weight:600;text-transform:uppercase;letter-spacing:.06em;text-align:center">Cierre</span>
-    <span style="font-size:10px;color:#475569;font-weight:600;text-transform:uppercase;letter-spacing:.06em;text-align:right">P&L</span>
-  </div>
-  
-</div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL: -3.0%</span>
+                            <span class="label-entry">Entrada: 0.09</span>
+                            <span class="label-tp">TP: 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left: 40.00000000000004%;" title="Precio Actual: 0.09"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.08</span>
+                            <span style="font-weight: bold; color: #a78bfa;">Actual: $0.09</span>
+                            <span>$0.09</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 
-<div style="text-align:center;color:#1e293b;font-size:10px;margin-top:16px;font-family:'Space Mono',monospace;letter-spacing:.1em">
-  AGENTE HÍBRIDO (LLM) · 2026-05-15 23:17
-</div>
+    <div class="panel-bloque" style="margin-top: 2rem;">
+        <h3>Historial Completo de Operaciones</h3>
+        <div class="tabla-contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha Ejecución</th>
+                        <th>Mercado / Pregunta Predictiva</th>
+                        <th>Señal</th>
+                        <th>Monto</th>
+                        <th>Resultado Realizado</th>
+                        <th>Gatillo Salida</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="6" class="no-data">No se registran operaciones cerradas en este ciclo híbrido.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-<script>
-const labelsShort = ["00:00"];
-const labelsFull  = ["Inicio"];
-const values      = [0.0];
-
-if (values.length > 0) {
-  const ctx = document.getElementById('chart').getContext('2d');
-  const g   = ctx.createLinearGradient(0, 0, 0, 170);
-  g.addColorStop(0, '#8b5cf655');
-  g.addColorStop(1, '#8b5cf600');
-
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: labelsShort,
-      datasets: [{
-        data: values,
-        borderColor: '#8b5cf6',
-        backgroundColor: g,
-        borderWidth: 2,
-        pointRadius: values.map((_,i) => i===values.length-1 ? 6 : 0),
-        pointHoverRadius: 5,
-        pointBackgroundColor: '#8b5cf6',
-        fill: true,
-        tension: 0.4,
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#0d1829',
-          borderColor: '#1e293b',
-          borderWidth: 1,
-          titleColor: '#94a3b8',
-          bodyColor: '#f1f5f9',
-          padding: 10,
-          callbacks: {
-            title: items => labelsFull[items[0].dataIndex],
-            label: c => ' P&L: $' + c.parsed.y.toFixed(2)
-          }
-        }
-      },
-      scales: {
-        x: {
-          ticks: { color: '#475569', font: { family: 'Space Mono', size: 9 }, maxRotation: 0, maxTicksLimit: 10 },
-          grid: { color: '#0d1829' },
-          border: { color: '#1e293b' }
-        },
-        y: {
-          grid: { color: '#0d1829' },
-          border: { color: '#1e293b' },
-          ticks: { color: '#475569', font: { family: 'Space Mono', size: 10 }, callback: v => '$' + v.toFixed(1) }
-        }
-      }
-    }
-  });
-} else {
-  document.getElementById('chart').parentElement.innerHTML =
-    '<div style="display:flex;align-items:center;justify-content:center;height:170px;color:#334155;font-size:12px">Sin datos aún</div>';
-}
-</script>
-</body></html>
+    <script>
+        const ctx = document.getElementById('graficoRendimiento').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["2026-05-15"],
+                datasets: [{
+                    label: 'P&L Acumulado (USDC)',
+                    data: [0.0],
+                    borderColor: '#8b5cf6',
+                    backgroundColor: 'rgba(139, 92, 246, 0.08)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.25,
+                    pointBackgroundColor: '#a78bfa',
+                    pointRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        grid: { color: '#1f293d' },
+                        ticks: { color: '#9ca3af', font: { size: 10 } }
+                    },
+                    y: {
+                        grid: { color: '#1f293d' },
+                        ticks: { color: '#9ca3af', font: { size: 11 } }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
