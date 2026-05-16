@@ -2508,3 +2508,67 @@ PRECIO_BUCKET:
 2026-05-16 15:44:06,100 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
 2026-05-16 15:44:06,100 | INFO | TP:0 SL:0 Time:6
 2026-05-16 15:44:06,100 | INFO | =======================================================
+2026-05-16 16:40:13,729 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-16 16:40:13,729 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-16 16:40:13,729 | INFO | =======================================================
+2026-05-16 16:40:13,729 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-16 16:40:13,729 | INFO | =======================================================
+2026-05-16 16:40:13,737 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 16:40:13,738 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:futbol                    ░░░░░░░░░░ 0% (0/5 trades)
+
+HORA_BUCKET:
+  hora_bucket:noche                   ░░░░░░░░░░ 0% (0/5 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_bajo                 ░░░░░░░░░░ 0% (0/5 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              ░░░░░░░░░░ 0% (0/3 trades)
+2026-05-16 16:40:13,983 | INFO | Mercados: 19
+2026-05-16 16:40:14,689 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:40:14,701 | INFO | IA descarta (No noticia y edge estándar): Will the San Antonio Spurs win the 2026  | edge=-0.1%
+2026-05-16 16:40:16,215 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:40:16,216 | INFO | IA descarta (No noticia y edge estándar): Will France win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 16:40:17,926 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:40:17,927 | INFO | IA descarta (No noticia y edge estándar): Will Spain win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 16:40:19,480 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:40:19,481 | INFO | IA descarta (No noticia y edge estándar): Will Portugal win the 2026 FIFA World Cu | edge=-0.1%
+2026-05-16 16:40:21,161 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:40:21,162 | INFO | IA descarta (No noticia y edge estándar): Will Brazil win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 16:40:22,800 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:40:22,801 | INFO | IA descarta (No noticia y edge estándar): Will Argentina win the 2026 FIFA World C | edge=-0.1%
+2026-05-16 16:40:24,080 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:24,081 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99633, Requested 476. Please try again in 1m34.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:26,362 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:26,362 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99630, Requested 462. Please try again in 1m19.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:28,626 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:28,627 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99628, Requested 465. Please try again in 1m20.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:30,843 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:30,843 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99625, Requested 478. Please try again in 1m28.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:33,070 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:33,070 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99623, Requested 491. Please try again in 1m38.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:35,511 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:40:35,512 | INFO | IA descarta (No noticia y edge estándar): Will bitcoin hit $1m before GTA VI? | edge=-0.2%
+2026-05-16 16:40:36,729 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:36,730 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99922, Requested 493. Please try again in 5m58.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:38,927 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:38,927 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99919, Requested 316. Please try again in 3m23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:41,124 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:41,125 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99917, Requested 311. Please try again in 3m16.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:43,350 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:43,350 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99914, Requested 306. Please try again in 3m10.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:45,563 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:45,564 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99912, Requested 304. Please try again in 3m6.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:47,801 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:47,802 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99909, Requested 309. Please try again in 3m8.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:50,058 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 16:40:50,059 | WARNING | Error LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99906, Requested 321. Please try again in 3m16.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 16:40:52,061 | INFO | ───────────────────────────────────────────────────────
+2026-05-16 16:40:52,061 | INFO | CICLO #62 | Analizados=19 Nuevas=0
+2026-05-16 16:40:52,061 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
+2026-05-16 16:40:52,061 | INFO | TP:0 SL:0 Time:6
+2026-05-16 16:40:52,061 | INFO | =======================================================
