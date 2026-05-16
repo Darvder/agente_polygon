@@ -1952,3 +1952,12 @@ PRECIO_BUCKET:
 === MODELO BAYESIANO ===
 2026-05-16 01:39:04,471 | INFO | Mercados: 20
 2026-05-16 01:39:04,477 | INFO | Madrugada — sin nuevas entradas
+2026-05-16 03:45:14,507 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-16 03:45:14,507 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-16 03:45:14,507 | INFO | =======================================================
+2026-05-16 03:45:14,507 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-16 03:45:14,508 | INFO | =======================================================
+2026-05-16 03:45:14,513 | INFO | 
+=== MODELO BAYESIANO ===
+2026-05-16 03:45:14,634 | INFO | Mercados: 19
+2026-05-16 03:45:14,640 | INFO | Madrugada — sin nuevas entradas
