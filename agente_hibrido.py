@@ -77,11 +77,12 @@ logging.basicConfig(
 )
 log = logging.getLogger("hibrido")
 
-PROMPT = """Eres un trader especializado en mercados de predicción.
+PROMPT = """Eres un trader experto y especializado en mercados de predicción.
 
 Mercado: {pregunta}
 Precio actual YES: {precio:.1%}
 Días hasta resolución: {dias}
+Variación de Precio (Última 1h): {momentum}
 Spread: {spread:.1%}
 
 Noticias de las últimas 48 horas:
@@ -254,7 +255,7 @@ def ciclo():
             guardar_estado(estado);
             return
 
-    # Inicializar módulos
+    # Inicializar módulos (Híbrido lee su propio libro)
     bayesian  = BayesianEngine(
         archivo_libro  = ARCHIVO_LIBRO,
         archivo_modelo = "datos_polymarket/paper_trading/bayesian_hibrido.json"
@@ -296,11 +297,10 @@ def ciclo():
     nuevas = []
     analizados = 0
     
-    # 🔎 [OPCIÓN B] SE MODIFICA EL LÍMITE DEL BUCLE 
-    # Eliminamos el cuello de botella 'min(cupo+8, 100)' que frenaba el análisis prematuramente.
+    # 🔎 [OPCIÓN B OPTIMIZADA] Escaneo de hasta 40 mercados para cuidar cuota de Groq
     for m in sorted(mercados, key=lambda x: -x["volumen_usd"]):
         if len(nuevas) >= cupo: break
-        if analizados >= 100: break  # Ahora escanea con potencia total hasta 100 mercados disponibles
+        if analizados >= 40: break  
         if m["pregunta"][:70] in preguntas_ab: continue
 
         # ── Event detector ─────────────────────────────────────────
@@ -316,6 +316,9 @@ def ciclo():
                      (df["market_id"].astype(str)==str(m["id"]))]["monto_usdc"].sum()
             if exp >= MAX_EXPOSICION: continue
 
+        # 📈 [MOMENTUM REAL] Extraemos el verdadero impulso técnico del mercado
+        real_momentum_1h = float(m.get("cambio_1h", 0.0))
+
         # ── Noticias ───────────────────────────────────────────────
         nots = noticias(m["pregunta"], cliente_news)
         nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias en las últimas 48h."
@@ -324,32 +327,38 @@ def ciclo():
         patron = ev_detector.patron_mercado(m["id"])
         patron_txt = f"n={patron.get('n',0)} trades, wr={patron.get('wr',0):.0%}, pnl=${patron.get('pnl',0):+.2f}" if patron else "sin historial"
 
-        # ── LLM ────────────────────────────────────────────────────
+        # ── LLM con JSON MODE NATIVO ───────────────────────────────
+        # Inyectamos la métrica técnica de momentum en el prompt
         prompt = PROMPT.format(
             pregunta=m["pregunta"], precio=m["mid_price"],
             dias=m["dias"], spread=m["spread"],
-            noticias=nots_txt, patron=patron_txt
+            noticias=nots_txt, patron=patron_txt,
+            momentum=f"{real_momentum_1h:.2%}"
         )
         try:
             msg = cliente_llm.chat.completions.create(
                 model="llama-3.3-70b-versatile",
-                messages=[{"role":"user","content":prompt}], max_tokens=150)
+                messages=[{"role":"user","content":prompt}],
+                response_format={"type": "json_object"},  # ✨ Forzamos JSON perfecto de raíz
+                max_tokens=150
+            )
             txt = msg.choices[0].message.content.strip()
-            if "```" in txt: 
-                txt = txt.split("```")[1].split("```")[0].replace("json","").strip()
             an = json.loads(txt)
         except Exception as e:
             log.warning(f"Error LLM: {e}");
             time.sleep(2); analizados+=1; continue
 
-        estimacion  = float(an.get("estimacion", m["mid_price"]))
+        # 🎯 [NORMALIZACIÓN] Corrección de escala de porcentaje de la IA (85% -> 0.85)
+        estimacion = float(an.get("estimacion", m["mid_price"]))
+        if estimacion > 1.0:
+            estimacion = estimacion / 100.0
+
         confianza   = float(an.get("confianza", 0.5))
         hay_noticia = bool(an.get("hay_noticia", False))
         diferencia  = estimacion - m["mid_price"]
         edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
         # 📰 [OPCIÓN A] FILTRO FLEXIBLE DE NOTICIAS 
-        # Exige noticia solo si la ineficiencia es normal. Si detecta un Edge masivo (>= 7%), opera igual.
         if not hay_noticia and edge_neto < 0.07:
             log.info(f"IA descarta (No noticia y edge estándar): {m['pregunta'][:40]} | edge={edge_neto:.1%}")
             analizados+=1;
@@ -360,9 +369,10 @@ def ciclo():
             analizados+=1;
             time.sleep(1); continue
 
-        # ── Bayesiano ──────────────────────────────────────────────
+        # 🧠 [MOTOR BAYESIANO CORREGIDO] Evaluamos la probabilidad con MOMENTUM REAL
         ok, score, feats = bayesian.should_trade(
-            pregunta=m["pregunta"], cambio_1h=diferencia,
+            pregunta=m["pregunta"], 
+            cambio_1h=real_momentum_1h,  # 🛠️ ¡Solucionado! Ya no pasamos la "diferencia" de la IA
             precio_entrada=m["mid_price"],
             fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
