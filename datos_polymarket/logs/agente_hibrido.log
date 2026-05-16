@@ -1970,3 +1970,46 @@ PRECIO_BUCKET:
 === MODELO BAYESIANO ===
 2026-05-16 05:07:53,483 | INFO | Mercados: 19
 2026-05-16 05:07:53,490 | INFO | Madrugada — sin nuevas entradas
+2026-05-16 06:29:48,686 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-16 06:29:48,686 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-16 06:29:48,686 | INFO | =======================================================
+2026-05-16 06:29:48,686 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-16 06:29:48,686 | INFO | =======================================================
+2026-05-16 06:29:48,692 | INFO | 
+=== MODELO BAYESIANO ===
+2026-05-16 06:29:48,915 | INFO | Mercados: 20
+2026-05-16 06:29:49,623 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:29:49,636 | INFO | IA descarta (No noticia y edge estándar): Will the San Antonio Spurs win the 2026  | edge=-0.4%
+2026-05-16 06:29:51,371 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:29:51,372 | INFO | IA descarta (No noticia y edge estándar): Will Spain win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 06:29:52,910 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:29:52,911 | INFO | IA descarta (No noticia y edge estándar): Will Portugal win the 2026 FIFA World Cu | edge=-0.1%
+2026-05-16 06:29:54,302 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:29:54,303 | INFO | IA descarta (No noticia y edge estándar): Will the Detroit Pistons win the 2026 NB | edge=-0.2%
+2026-05-16 06:29:55,695 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:29:55,696 | INFO | IA descarta (No noticia y edge estándar): Will the Colorado Avalanche win the 2026 | edge=-0.1%
+2026-05-16 06:29:57,325 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:29:57,326 | INFO | IA descarta (No noticia y edge estándar): Will the New York Knicks win the 2026 NB | edge=-0.1%
+2026-05-16 06:29:58,735 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:29:58,736 | INFO | IA descarta (No noticia y edge estándar): Will the Oklahoma City Thunder win the 2 | edge=-1.0%
+2026-05-16 06:30:00,224 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:00,225 | INFO | IA descarta (No noticia y edge estándar): Will bitcoin hit $1m before GTA VI? | edge=-0.1%
+2026-05-16 06:30:01,785 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:01,786 | INFO | IA descarta (No noticia y edge estándar): Will the Montreal Canadiens win the 2026 | edge=-0.1%
+2026-05-16 06:30:03,535 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:03,536 | INFO | IA descarta (No noticia y edge estándar): Will the Vegas Golden Knights win the 20 | edge=-0.1%
+2026-05-16 06:30:05,122 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:05,122 | INFO | IA descarta (No noticia y edge estándar): Will China invades Taiwan before GTA VI? | edge=-1.0%
+2026-05-16 06:30:06,534 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:06,535 | INFO | IA descarta (No noticia y edge estándar): Will the Carolina Hurricanes win the 202 | edge=-1.0%
+2026-05-16 06:30:08,088 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:08,089 | INFO | IA descarta (No noticia y edge estándar): New Playboi Carti Album before GTA VI? | edge=-3.0%
+2026-05-16 06:30:09,746 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:09,747 | INFO | IA descarta (No noticia y edge estándar): New Rihanna Album before GTA VI? | edge=-1.0%
+2026-05-16 06:30:11,358 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 06:30:11,359 | INFO | IA descarta (No noticia y edge estándar): Trump out as President before GTA VI? | edge=-1.0%
+2026-05-16 06:30:12,361 | INFO | ───────────────────────────────────────────────────────
+2026-05-16 06:30:12,361 | INFO | CICLO #53 | Analizados=15 Nuevas=0
+2026-05-16 06:30:12,361 | INFO | Abiertas=5 Cerradas=0 P&L=$+0.00
+2026-05-16 06:30:12,361 | INFO | TP:0 SL:0 Time:1
+2026-05-16 06:30:12,361 | INFO | =======================================================
