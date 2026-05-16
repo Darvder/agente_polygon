@@ -234,10 +234,8 @@ def ciclo():
     log.info("="*55)
     log.info("CICLO HÍBRIDO v2 INICIADO")
     log.info("="*55)
-
     estado = cargar_estado()
     df     = cargar_libro()
-
     if not df.empty:
         estado["capital_en_riesgo"] = float(
             df[df["estado"]=="ABIERTA"]["monto_usdc"].sum()
@@ -253,7 +251,8 @@ def ciclo():
         if ce_hoy["pnl_realizado"].sum() <= -MAX_PERDIDA_DIA:
             log.warning("⛔ CIRCUIT BREAKER activado")
             estado["n_ciclos"]+=1; estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
-            guardar_estado(estado); return
+            guardar_estado(estado);
+            return
 
     # Inicializar módulos
     bayesian  = BayesianEngine(
@@ -273,14 +272,15 @@ def ciclo():
     # Escanear y verificar salidas
     mercados = escanear()
     if not mercados: return
-
     df, n_cerradas = verificar_salidas(df, estado, mercados)
-    if n_cerradas: guardar_estado(estado)
+    if n_cerradas:
+        guardar_estado(estado)
 
     # Filtro hora madrugada
     if datetime.now().hour < 6:
         log.info("Madrugada — sin nuevas entradas")
-        estado["n_ciclos"]+=1; estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
+        estado["n_ciclos"]+=1;
+        estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
         guardar_estado(estado); return
 
     # Cupo
@@ -288,22 +288,27 @@ def ciclo():
     cupo = MAX_POSICIONES - n_ab
     if cupo <= 0:
         log.info("Cartera llena")
-        estado["n_ciclos"]+=1; estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
+        estado["n_ciclos"]+=1;
+        estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
         guardar_estado(estado); return
 
     preguntas_ab = set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set()
-    nuevas = []; analizados = 0
-
+    nuevas = []
+    analizados = 0
+    
+    # 🔎 [OPCIÓN B] SE MODIFICA EL LÍMITE DEL BUCLE 
+    # Eliminamos el cuello de botella 'min(cupo+8, 100)' que frenaba el análisis prematuramente.
     for m in sorted(mercados, key=lambda x: -x["volumen_usd"]):
         if len(nuevas) >= cupo: break
-        if analizados >= min(cupo+8, 100): break
+        if analizados >= 100: break  # Ahora escanea con potencia total hasta 100 mercados disponibles
         if m["pregunta"][:70] in preguntas_ab: continue
 
         # ── Event detector ─────────────────────────────────────────
         puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
         if not puede:
             log.info(f"EventDetector: {m['pregunta'][:40]} → {motivo}")
-            analizados+=1; continue
+            analizados+=1;
+            continue
 
         # ── Cap por mercado ────────────────────────────────────────
         if not df.empty:
@@ -313,13 +318,11 @@ def ciclo():
 
         # ── Noticias ───────────────────────────────────────────────
         nots = noticias(m["pregunta"], cliente_news)
-        nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) \
-                   if nots else "Sin noticias en las últimas 48h."
+        nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias en las últimas 48h."
 
         # ── Patrón histórico del mercado ───────────────────────────
         patron = ev_detector.patron_mercado(m["id"])
-        patron_txt = f"n={patron.get('n',0)} trades, wr={patron.get('wr',0):.0%}, pnl=${patron.get('pnl',0):+.2f}" \
-                     if patron else "sin historial"
+        patron_txt = f"n={patron.get('n',0)} trades, wr={patron.get('wr',0):.0%}, pnl=${patron.get('pnl',0):+.2f}" if patron else "sin historial"
 
         # ── LLM ────────────────────────────────────────────────────
         prompt = PROMPT.format(
@@ -330,20 +333,13 @@ def ciclo():
         try:
             msg = cliente_llm.chat.completions.create(
                 model="llama-3.3-70b-versatile",
-                messages=[{"role":"user","content":prompt}], 
-                max_tokens=150,
-                response_format={"type": "json_object"}
-            )
-            
-            # ¡ESTA ES LA LÍNEA QUE SE HABÍA BORRADO!
+                messages=[{"role":"user","content":prompt}], max_tokens=150)
             txt = msg.choices[0].message.content.strip()
-            
-            # PARSEO ROBUSTO: Limpiamos el JSON antes de cargarlo
-            txt_limpio = extraer_json_puro(txt)
-            an = json.loads(txt_limpio)
-            
+            if "```" in txt: 
+                txt = txt.split("```")[1].split("```")[0].replace("json","").strip()
+            an = json.loads(txt)
         except Exception as e:
-            log.warning(f"Error LLM (Salto mercado): {e}")
+            log.warning(f"Error LLM: {e}");
             time.sleep(2); analizados+=1; continue
 
         estimacion  = float(an.get("estimacion", m["mid_price"]))
@@ -352,14 +348,17 @@ def ciclo():
         diferencia  = estimacion - m["mid_price"]
         edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
-        # Log de descarte por noticias para evitar "puntos ciegos"
-        if not hay_noticia:
-            log.info(f"IA descarta (No noticia): {m['pregunta'][:40]}")
-            analizados+=1; time.sleep(1); continue
-            
+        # 📰 [OPCIÓN A] FILTRO FLEXIBLE DE NOTICIAS 
+        # Exige noticia solo si la ineficiencia es normal. Si detecta un Edge masivo (>= 7%), opera igual.
+        if not hay_noticia and edge_neto < 0.07:
+            log.info(f"IA descarta (No noticia y edge estándar): {m['pregunta'][:40]} | edge={edge_neto:.1%}")
+            analizados+=1;
+            time.sleep(1); continue
+
         if edge_neto < MIN_EDGE or confianza < MIN_CONFIANZA:
             log.info(f"Sin edge: {m['pregunta'][:40]} | edge={edge_neto:.1%}")
-            analizados+=1; time.sleep(1); continue
+            analizados+=1;
+            time.sleep(1); continue
 
         # ── Bayesiano ──────────────────────────────────────────────
         ok, score, feats = bayesian.should_trade(
@@ -369,31 +368,30 @@ def ciclo():
         )
         if not ok:
             log.info(f"Bayesiano bloquea ({score:.0%}): {m['pregunta'][:40]}")
-            analizados+=1; time.sleep(1); continue
+            analizados+=1;
+            time.sleep(1); continue
 
         # ── Volatility Engine → SL/TP/HORAS dinámicos ─────────────
-        # Aquí es donde ocurría el crash. Requiere parche en volatility_engine.py
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
 
         # ── Señal y posición ───────────────────────────────────────
-        señal        = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
-        precio_tok   = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
-        kelly        = edge_neto * confianza * 0.3
-        monto        = round(min(estado["capital_actual"]*kelly, CAPITAL_POR_OP), 2)
+        señal       = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
+        precio_tok  = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
+        kelly       = edge_neto * confianza * 0.3
+        monto       = round(min(estado["capital_actual"]*kelly, CAPITAL_POR_OP), 2)
         if monto < 5: 
-            log.info(f"Monto insuficiente (${monto}): {m['pregunta'][:40]}")
-            analizados+=1; continue
+            analizados+=1;
+            continue
 
         # Registrar evento en detector
         ev_detector.registrar_evento(m["id"], m["pregunta"])
-
         nuevas.append({
-            "fecha_entrada":        datetime.now().strftime("%Y-%m-%d"),
-            "fecha_entrada_dt":     datetime.now().strftime("%Y-%m-%d %H:%M"),
-            "market_id":            m["id"],
+            "fecha_entrada":       datetime.now().strftime("%Y-%m-%d"),
+            "fecha_entrada_dt":    datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "market_id":           m["id"],
             "pregunta":             m["pregunta"][:70],
             "señal":                señal,
-            "precio_entrada":       m["mid_price"],
+            "precio_entrada":      m["mid_price"],
             "precio_token_entrada": precio_tok,
             "precio_actual":        m["mid_price"],
             "precio_cierre":        None,
@@ -416,12 +414,12 @@ def ciclo():
             "razon_cierre":         None,
             "razonamiento":         an.get("razonamiento","")[:100],
         })
-
         log.info(
             f"✅ NUEVA: {señal} | {m['pregunta'][:38]} | "
             f"edge={edge_neto:.1%} | TP={tp:.0%} SL={sl:.0%} {max_h}h | ${monto}"
         )
-        analizados+=1; time.sleep(2)
+        analizados+=1;
+        time.sleep(2)
 
     if nuevas:
         df_n = pd.DataFrame(nuevas)
