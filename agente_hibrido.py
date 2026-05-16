@@ -33,12 +33,12 @@ from event_detector    import EventDetector
 
 os.environ['TZ'] = 'America/Guayaquil'
 
-cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
+
 # Definimos un semáforo para permitir máximo 3 peticiones simultáneas a Groq y evitar el Error 429
 groq_semaphore = asyncio.Semaphore(3)
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
-
+cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
 BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 10
 
