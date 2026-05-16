@@ -13,10 +13,11 @@ Salida: TP/SL/TIME dinámicos adaptados a cada mercado
 import os, json, time, logging
 import requests
 import pandas as pd
-from groq import Groq
 from newsapi import NewsApiClient
 from datetime import datetime, timedelta
 import re
+import asyncio
+from groq import AsyncGroq
 
 def extraer_json_puro(texto):
     """Extrae solo el bloque JSON si la IA agrega texto extra."""
@@ -32,6 +33,9 @@ from event_detector    import EventDetector
 
 os.environ['TZ'] = 'America/Guayaquil'
 
+cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
+# Definimos un semáforo para permitir máximo 3 peticiones simultáneas a Groq y evitar el Error 429
+groq_semaphore = asyncio.Semaphore(3)
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 
@@ -183,6 +187,20 @@ def verificar_salidas(df, estado, mercados_actuales):
             tp_pos = float(pos.get("tp_dinamico", 0.09))
             sl_pos = float(pos.get("sl_dinamico", -0.07))
             h_max  = float(pos.get("horas_max",   6))
+            fecha_entrada = pd.to_datetime(fila["fecha_entrada_dt"])
+            horas_transcurridas = (datetime.now() - fecha_entrada).total_seconds() / 3600.0
+            horas_max = float(fila["horas_max"])
+            
+            tp_dinamico = float(fila["tp_dinamico"])
+            rendimiento_actual = float(fila["pct_cambio"]) # Rendimiento actual de la posición
+            
+            # REGLA DE EARLY EXIT (Rotación de Capital)
+            # Si logramos el 70% del TP esperado en las primeras horas, aseguramos ganancias.
+            target_early_exit = tp_dinamico * 0.70
+            if rendimiento_actual >= target_early_exit and horas_transcurridas < (horas_max * 0.25):
+                ejecutar_cierre_mercado(fila["market_id"], razon="EARLY_EXIT")
+                log.info(f"⚡ EARLY EXIT: Rotación de capital en {fila['pregunta'][:30]}. ROI rápido: {rendimiento_actual:.1%}")
+                continue
 
             if mid is None:
                 if h >= h_max: mid = float(pos["precio_actual"])
@@ -218,6 +236,99 @@ def verificar_salidas(df, estado, mercados_actuales):
     guardar_libro(df)
     return df, cerradas
 
+async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news):
+    """Procesa un único mercado de forma asíncrona."""
+    # Controlamos el acceso a Groq con el semáforo para evitar Rate Limits
+    async with groq_semaphore:
+        if m["pregunta"][:70] in set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set():
+            return None
+            
+        # 1. --- Event Detector ---
+        puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
+        if not puede:
+            return None
+
+        # 2. --- Noticias ---
+        # Usamos asyncio.to_thread para que la librería síncrona NewsAPI no congele el bucle asíncrono
+        nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
+        nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias."
+
+        # 3. --- Prompt y Llamada Asíncrona a Groq ---
+        patron = ev_detector.patron_mercado(m["id"])
+        patron_txt = f"n={patron.get('n',0)} trades" if patron else "sin historial"
+        
+        prompt = PROMPT.format(
+            pregunta=m["pregunta"], precio=m["mid_price"],
+            dias=m["dias"], spread=m["spread"],
+            noticias=nots_txt, patron=patron_txt,
+            momentum=m.get("cambio_1h", 0.0) 
+        )
+
+        try:
+            # Llamada asíncrona real utilizando await
+            msg = await cliente_llm.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role":"user","content":prompt}],
+                max_tokens=150,
+                response_format={"type": "json_object"} # JSON Mode activo para evitar errores de formato
+            )
+            txt = msg.choices[0].message.content.strip()
+            an = json.loads(txt)
+        except Exception as e:
+            log.warning(f"⚠️ Error en tarea async LLM: {e}")
+            return None
+
+        # 4. --- Filtros Matemáticos y Edge ---
+        estimacion = float(an.get("estimacion", m["mid_price"]))
+        if estimacion > 1.0: estimacion /= 100.0 # Normalización base-100 corregida
+        
+        confianza = float(an.get("confianza", 0.5))
+        hay_noticia = bool(an.get("hay_noticia", False))
+        diferencia = estimacion - m["mid_price"]
+        edge_neto = round(abs(diferencia) - m["spread"], 4)
+
+        # Filtro Inteligente de Noticias (Bypass condicional)
+        if not hay_noticia and edge_neto < 0.07:
+            return None
+            
+        if edge_neto < MIN_EDGE or confianza < MIN_CONFIANZA:
+            return None
+
+        # 5. --- Motor Bayesiano y de Volatilidad ---
+        ok, score, feats = bayesian.should_trade(
+            pregunta=m["pregunta"], cambio_1h=m.get("cambio_1h", 0.0),
+            precio_entrada=m["mid_price"], fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
+        )
+        if not ok: return None
+
+        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        
+        # Generar Estructura de la Nueva Posición
+        señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
+        precio_tok = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
+        kelly = edge_neto * confianza * 0.3
+        monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
+        
+        if monto < 5: return None
+        
+        ev_detector.registrar_evento(m["id"], m["pregunta"])
+        return {
+            "fecha_entrada": datetime.now().strftime("%Y-%m-%d"),
+            "fecha_entrada_dt": datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "market_id": m["id"],
+            "pregunta": m["pregunta"][:70],
+            "señal": señal,
+            "precio_entrada": m["mid_price"],
+            "precio_token_entrada": precio_tok,
+            "precio_actual": m["mid_price"],
+            "tp_dinamico": tp,
+            "sl_dinamico": sl,
+            "horas_max": max_h,
+            "monto_usdc": monto,
+            "estado": "ABIERTA",
+            "razonamiento": an.get("razonamiento","")[:100]
+        }
+
 
 # ══════════════════════════════════════════════════════════════════
 # CICLO PRINCIPAL
@@ -231,235 +342,74 @@ def extraer_json_puro(texto):
         return match.group(0) if match else texto
     except:
         return texto
-def ciclo():
+async def ciclo():
     log.info("="*55)
-    log.info("CICLO VOLATILIDAD v2 INICIADO")
+    log.info("🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3")
     log.info("="*55)
+    
     estado = cargar_estado()
-    df     = cargar_libro()
-    if not df.empty:
-        estado["capital_en_riesgo"] = float(
-            df[df["estado"]=="ABIERTA"]["monto_usdc"].sum()
-        )
-
-    # Circuit breaker
-    hoy = datetime.now().strftime("%Y-%m-%d")
-    if not df.empty and "CERRADA" in df["estado"].values:
-        ce_hoy = df[
-            (df["estado"]=="CERRADA") &
-            (df["fecha_cierre_real"].fillna("").astype(str).str.startswith(hoy))
-        ]
-        if ce_hoy["pnl_realizado"].sum() <= -MAX_PERDIDA_DIA:
-            log.warning("⛔ CIRCUIT BREAKER activado")
-            estado["n_ciclos"]+=1; estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
-            guardar_estado(estado);
-            return
-
-    # Inicializar módulos
-    bayesian  = BayesianEngine(
-        archivo_libro  = ARCHIVO_LIBRO,
-        archivo_modelo = "datos_polymarket/paper_trading/bayesian_hibrido.json"
-    )
+    df = cargar_libro()
+    
+    # Inicialización de Módulos
+    bayesian = BayesianEngine(archivo_libro=ARCHIVO_LIBRO, archivo_modelo="datos_polymarket/paper_trading/bayesian_hibrido.json")
     bayesian.entrenar()
-    log.info(bayesian.reporte())
-
     vol_engine = VolatilityEngine()
     ev_detector = EventDetector(archivo_libro=ARCHIVO_LIBRO)
-
-    # Clientes
-    cliente_llm  = Groq(api_key=GROQ_API_KEY)
     cliente_news = NewsApiClient(api_key=NEWS_API_KEY)
 
-    # Escanear y verificar salidas (Verificación ultra-rápida local)
+    # 1. Verificar salidas (Incluye la nueva lógica de Early Exit)
+    df, n_cerradas = verificar_salidas(df, estado, escanear())
+    if n_cerradas: guardar_estado(estado)
+
+    # Escanear mercados del CLOB
     mercados = escanear()
     if not mercados: return
-    df, n_cerradas = verificar_salidas(df, estado, mercados)
-    if n_cerradas:
-        guardar_estado(estado)
 
-    # Filtro hora madrugada
-    if datetime.now().hour < 6:
-        log.info("Madrugada — sin nuevas entradas")
-        estado["n_ciclos"]+=1;
-        estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
-        guardar_estado(estado); return
-
-    # Cupo
+    # Filtro de cupo disponible
     n_ab = len(df[df["estado"]=="ABIERTA"]) if not df.empty else 0
     cupo = MAX_POSICIONES - n_ab
     if cupo <= 0:
         log.info("Cartera llena")
-        estado["n_ciclos"]+=1;
-        estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
-        guardar_estado(estado); return
+        return
 
-    preguntas_ab = set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set()
-    nuevas = []
-    analizados = 0
+    # 2. CREAR TAREAS ASÍNCRONAS EN PARALELO
+    # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
+    mercados_a_revisar = sorted(mercados, key=lambda x: -x["volumen_usd"])[:40]
     
-    # 🌪️ [PASO 1: REORDENAR POR VOLATILIDAD] 
-    # El bot ahora prioriza los mercados con mayor fluctuación diaria (vol_1d) en vez de volumen plano.
-    mercados_activos = [
-        m for m in mercados 
-        if float(m.get("vol_1d", 0.0)) > 0.005 or abs(float(m.get("cambio_1h", 0.0))) > 0.01
+    tareas = [
+        procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
+        for m in mercados_a_revisar
     ]
-
-    for m in sorted(mercados_activos, key=lambda x: -float(x.get("vol_1d", 0.0))):
-        if len(nuevas) >= cupo: break
-        if analizados >= 40: break  # Control estricto de cuota de Groq
-        if m["pregunta"][:70] in preguntas_ab: continue
-
-        # ── Event detector ─────────────────────────────────────────
-        puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
-        if not puede:
-            analizados+=1; continue
-
-        # ── Cap por mercado ────────────────────────────────────────
-        if not df.empty:
-            exp = df[(df["estado"]=="ABIERTA") &
-                     (df["market_id"].astype(str)==str(m["id"]))]["monto_usdc"].sum()
-            if exp >= MAX_EXPOSICION: continue
-
-        # Métricas de velocidad del mercado
-        vol_actual = float(m.get("vol_1d", 0.0))
-        real_momentum_1h = float(m.get("cambio_1h", 0.0))
-
-        # ── Noticias ───────────────────────────────────────────────
-        nots = noticias(m["pregunta"], cliente_news)
-        nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias en las últimas 48h."
-
-        # ── Patrón histórico del mercado ───────────────────────────
-        patron = ev_detector.patron_mercado(m["id"])
-        patron_txt = f"n={patron.get('n',0)} trades, wr={patron.get('wr',0):.0%}, pnl=${patron.get('pnl',0):+.2f}" if patron else "sin historial"
-
-        # ── LLM con JSON MODE NATIVO ───────────────────────────────
-        prompt = PROMPT.format(
-            pregunta=m["pregunta"], precio=m["mid_price"],
-            dias=m["dias"], spread=m["spread"],
-            noticias=nots_txt, patron=patron_txt,
-            momentum=f"{real_momentum_1h:.2%}"
-        )
-        try:
-            msg = cliente_llm.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[{"role":"user","content":prompt}],
-                response_format={"type": "json_object"},
-                max_tokens=150
-            )
-            txt = msg.choices[0].message.content.strip()
-            an = json.loads(txt)
-        except Exception as e:
-            log.warning(f"Error LLM: {e}");
-            time.sleep(1); analizados+=1; continue
-
-        # Normalización matemática de escala de la IA
-        estimacion = float(an.get("estimacion", m["mid_price"]))
-        if estimacion > 1.0:
-            estimacion = estimacion / 100.0
-
-        confianza   = float(an.get("confianza", 0.5))
-        hay_noticia = bool(an.get("hay_noticia", False))
-        diferencia  = estimacion - m["mid_price"]
-        edge_neto   = round(abs(diferencia) - m["spread"], 4)
-
-        # 📰 FILTRO ADAPTATIVO: En alta volatilidad operamos con Edge estándar si la IA valida la tendencia
-        if not hay_noticia and edge_neto < 0.05 and vol_actual < 0.03:
-            analizados+=1; continue
-
-        if edge_neto < MIN_EDGE or confianza < MIN_CONFIANZA:
-            analizados+=1; continue
-
-        # Motor Bayesiano analizando el momentum real
-        ok, score, feats = bayesian.should_trade(
-            pregunta=m["pregunta"], 
-            cambio_1h=real_momentum_1h,
-            precio_entrada=m["mid_price"],
-            fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
-        )
-        if not ok:
-            log.info(f"Bayesiano bloquea ({score:.0%}): {m['pregunta'][:40]}")
-            analizados+=1; continue
-
-        # 🌪️ [PASO 2: INTERVENCIÓN DE SCALPING DE ALTA VOLATILIDAD]
-        # Si el mercado está acelerado, forzamos parámetros ajustados y salida estricta en 3 horas.
-        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+    
+    # Ejecución paralela masiva
+    resultados = await asyncio.gather(*tareas)
+    
+    # 3. PROCESAR RESULTADOS DE MANERA SECUENCIAL
+    nuevas_posiciones = [r for r in resultados if r is not None]
+    
+    nuevas_guardadas = []
+    for pos in nuevas_posiciones:
+        if len(nuevas_guardadas) >= cupo: break
+        nuevas_guardadas.append(pos)
+        log.info(f"✅ NUEVA POSICIÓN ASYNC: {pos['señal']} | {pos['pregunta'][:35]} | Monto: ${pos['monto_usdc']}")
         
-        if vol_actual > 0.025 or abs(real_momentum_1h) > 0.035:
-            max_h = 3      # ⏱️ ¡3 horas máximo o liquidación por tiempo!
-            tp = 0.04      # 🎯 Buscamos un 4.0% de ganancia rápida
-            sl = -0.03     # 🛡️ Stop Loss ajustado al -3.0% para salir rápido si falla
-
-        # ── Señal y posición ───────────────────────────────────────
-        # Si diferencia < 0, la IA estima que bajará -> COMPRA NO (Equivale a meter un Corto)
-        señal       = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
-        precio_tok  = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
-        
-        # Gestión monetaria dinámica por Criterio de Kelly real
-        kelly       = edge_neto * confianza * 0.3
-        monto       = round(min(estado["capital_actual"]*kelly, CAPITAL_POR_OP), 2)
-        if monto < 5: 
-            analizados+=1; continue
-
-        # Registrar entrada en el detector
-        ev_detector.registrar_evento(m["id"], m["pregunta"])
-        nuevas.append({
-            "fecha_entrada":       datetime.now().strftime("%Y-%m-%d"),
-            "fecha_entrada_dt":    datetime.now().strftime("%Y-%m-%d %H:%M"),
-            "market_id":           m["id"],
-            "pregunta":             m["pregunta"][:70],
-            "señal":                señal,
-            "precio_entrada":      m["mid_price"],
-            "precio_token_entrada": precio_tok,
-            "precio_actual":        m["mid_price"],
-            "precio_cierre":        None,
-            "pct_cambio":           None,
-            "llm_estimacion":       estimacion,
-            "llm_confianza":        confianza,
-            "llm_edge":             edge_neto,
-            "hay_noticia":          hay_noticia,
-            "n_noticias":           len(nots),
-            "tp_dinamico":          tp,
-            "sl_dinamico":          sl,
-            "horas_max":            max_h,
-            "vol_1d":               vol_actual,
-            "monto_usdc":           monto,
-            "dias_mercado":         m["dias"],
-            "fecha_cierre_mercado": m["fecha_cierre"],
-            "fecha_cierre_real":    None,
-            "pnl_realizado":        None,
-            "estado":               "ABIERTA",
-            "razon_cierre":         None,
-            "razonamiento":         an.get("razonamiento","")[:100],
-        })
-        log.info(
-            f"⚡ [VOL_TRADING] {señal} | {m['pregunta'][:35]} | "
-            f"Vol={vol_actual:.1%} | TP={tp:.0%} SL={sl:.0%} | {max_h}h max | ${monto}"
-        )
-        analizados+=1;
-        time.sleep(1)
-
-    if nuevas:
-        df_n = pd.DataFrame(nuevas)
-        df   = pd.concat([df,df_n],ignore_index=True) if not df.empty else df_n
+    if nuevas_guardadas:
+        df_n = pd.DataFrame(nuevas_guardadas)
+        df = pd.concat([df, df_n], ignore_index=True) if not df.empty else df_n
         guardar_libro(df)
-        comp = sum(p["monto_usdc"] for p in nuevas)
-        estado["capital_en_riesgo"] = estado.get("capital_en_riesgo",0)+comp
-        estado["capital_actual"]    = estado.get("capital_actual",CAPITAL_INICIAL)-comp
-
-    estado["n_ciclos"]+=1
-    estado["ultima_corrida"]=datetime.now().strftime("%Y-%m-%d %H:%M")
+        
+        # Re-calcular balances del estado financiero
+        comp = sum(p["monto_usdc"] for p in nuevas_guardadas)
+        estado["capital_en_riesgo"] = estado.get("capital_en_riesgo", 0) + comp
+        estado["capital_actual"] = estado.get("capital_actual", 1000.0) - comp
+        
+    estado["n_ciclos"] += 1
+    estado["ultima_corrida"] = datetime.now().strftime("%Y-%m-%d %H:%M")
     guardar_estado(estado)
-
-    n_ab = len(df[df["estado"]=="ABIERTA"]) if not df.empty else 0
-    n_ce = len(df[df["estado"]=="CERRADA"]) if not df.empty else 0
-    pnl  = df[df["estado"]=="CERRADA"]["pnl_realizado"].sum() if not df.empty and n_ce>0 else 0
-
-    log.info("─"*55)
-    log.info(f"CICLO #{estado['n_ciclos']} | Analizados={analizados} Nuevas={len(nuevas)} [Enfoque Volatilidad]")
-    log.info(f"Abiertas={n_ab} Cerradas={n_ce} P&L=${pnl:+.2f}")
+    
+    log.info(f"🏁 FIN DEL CICLO ASÍNCRONO #{estado['n_ciclos']} | Nuevas Abiertas: {len(nuevas_guardadas)}")
     log.info("="*55)
   
 if __name__ == "__main__":
-    log.info("Agente HÍBRIDO v2 iniciando...")
-    log.info("Módulos: BayesianEngine + VolatilityEngine + EventDetector")
-    ciclo()
+    # Este es el nuevo "botón de encendido" asíncrono para el script
+    asyncio.run(ciclo())
