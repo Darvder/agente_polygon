@@ -18,366 +18,80 @@
             --green-profit: #10b981;
             --red-loss: #ef4444;
         }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Inter', sans-serif;
-        }
-
-        body {
-            background-color: var(--bg-principal);
-            color: var(--text-main);
-            padding: 2rem;
-            line-height: 1.5;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-            border-bottom: 1px solid var(--bg-lineas);
-            padding-bottom: 1.5rem;
-        }
-
-        .brand h1 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            color: var(--text-main);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .brand h1 span {
-            color: var(--accent-purple);
-        }
-
-        .brand p {
-            color: var(--text-muted);
-            font-size: 0.875rem;
-            margin-top: 0.25rem;
-        }
-
-        .cron {
-            text-align: right;
-            font-size: 0.875rem;
-            color: var(--text-muted);
-        }
-
-        .cron strong {
-            color: var(--accent-purple-hover);
-        }
-
-        /* METRICAS GRID */
-        .grid-metricas {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .card-metrica {
-            background-color: var(--bg-tarjetas);
-            border: 1px solid var(--bg-lineas);
-            border-radius: 12px;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .card-metrica::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 4px;
-            height: 100%;
-            background-color: var(--bg-lineas);
-        }
-
-        .card-metrica.destacada::before {
-            background-color: var(--accent-purple);
-        }
-
-        .card-metrica.profit::before {
-            background-color: var(--green-profit);
-        }
-
-        .card-metrica h4 {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            letter-spacing: 0.05em;
-        }
-
-        .card-metrica .valor {
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-top: 0.5rem;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background-color: var(--bg-principal); color: var(--text-main); padding: 2rem; line-height: 1.5; }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid var(--bg-lineas); padding-bottom: 1.5rem; }
+        .brand h1 { font-size: 1.75rem; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem; }
+        .brand h1 span { color: var(--accent-purple); }
+        .brand p { color: var(--text-muted); font-size: 0.875rem; margin-top: 0.25rem; }
+        .cron { text-align: right; font-size: 0.875rem; color: var(--text-muted); }
+        .cron strong { color: var(--accent-purple-hover); }
+        .grid-metricas { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+        .card-metrica { background-color: var(--bg-tarjetas); border: 1px solid var(--bg-lineas); border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; }
+        .card-metrica::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--bg-lineas); }
+        .card-metrica.destacada::before { background-color: var(--accent-purple); }
+        .card-metrica.profit::before { background-color: var(--green-profit); }
+        .card-metrica h4 { font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.05em; }
+        .card-metrica .valor { font-size: 1.8rem; font-weight: 700; margin-top: 0.5rem; }
         .positive { color: var(--green-profit); }
         .negative { color: var(--red-loss); }
-
-        /* CONTENIDO PRINCIPAL */
-        .main-layout {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        @media (max-width: 1024px) {
-            .main-layout { grid-template-columns: 1fr; }
-        }
-
-        .panel-bloque {
-            background-color: var(--bg-tarjetas);
-            border: 1px solid var(--bg-lineas);
-            border-radius: 16px;
-            padding: 1.5rem;
-        }
-
-        .panel-bloque h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 1.25rem;
-            color: var(--text-main);
-            border-left: 3px solid var(--accent-purple);
-            padding-left: 0.5rem;
-        }
-
-        /* TARJETAS DE POSICIONES ABIERTAS */
-        .abiertas-wrapper {
-            display: flex;
-            flex-direction: column;
-            gap: 1.25rem;
-        }
-
-        .card-orden {
-            background-color: #1c2a42;
-            border: 1px solid var(--bg-lineas);
-            border-radius: 12px;
-            padding: 1.25rem;
-            transition: transform 0.2s ease;
-        }
-
-        .card-orden:hover {
-            transform: translateY(-2px);
-            border-color: #3b5278;
-        }
-
-        .card-orden-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0.75rem;
-        }
-
-        .badge-senal {
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 0.25rem 0.6rem;
-            border-radius: 6px;
-            text-transform: uppercase;
-        }
-
+        .main-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+        @media (max-width: 1024px) { .main-layout { grid-template-columns: 1fr; } }
+        .panel-bloque { background-color: var(--bg-tarjetas); border: 1px solid var(--bg-lineas); border-radius: 16px; padding: 1.5rem; }
+        .panel-bloque h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: 1.25rem; color: var(--text-main); border-left: 3px solid var(--accent-purple); padding-left: 0.5rem; }
+        .abiertas-wrapper { display: flex; flex-direction: column; gap: 1.25rem; }
+        .card-orden { background-color: #1c2a42; border: 1px solid var(--bg-lineas); border-radius: 12px; padding: 1.25rem; transition: transform 0.2s ease; }
+        .card-orden:hover { transform: translateY(-2px); border-color: #3b5278; }
+        .card-orden-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
+        .badge-senal { font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px; text-transform: uppercase; }
         .badge-senal.comprar-yes { background-color: rgba(16, 185, 129, 0.2); color: var(--green-profit); }
         .badge-senal.comprar-no { background-color: rgba(239, 68, 68, 0.2); color: var(--red-loss); }
-
-        .monto-orden {
-            font-weight: 600;
-            color: #e5e7eb;
-            font-size: 0.95rem;
-        }
-
-        .pregunta-titulo {
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--text-main);
-            margin-bottom: 1rem;
-        }
-
-        .metadatos-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
-            background-color: rgba(11, 15, 25, 0.4);
-            padding: 0.75rem;
-            border-radius: 8px;
-            margin-bottom: 1.25rem;
-        }
-
-        @media (max-width: 480px) {
-            .metadatos-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-
-        .meta-item {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .meta-label {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
-
-        .meta-value {
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-top: 0.15rem;
-        }
-
-        /* BARRA DE RIESGO ADAPTATIVA DINÁMICA */
-        .riesgo-container {
-            margin-top: 1rem;
-            padding-top: 0.5rem;
-        }
-
-        .riesgo-labels {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            margin-bottom: 0.4rem;
-        }
-
+        .monto-orden { font-weight: 600; color: #e5e7eb; font-size: 0.95rem; }
+        .pregunta-titulo { font-size: 1rem; font-weight: 600; color: var(--text-main); margin-bottom: 1rem; }
+        .metadatos-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; background-color: rgba(11, 15, 25, 0.4); padding: 0.75rem; border-radius: 8px; margin-bottom: 1.25rem; }
+        @media (max-width: 480px) { .metadatos-grid { grid-template-columns: repeat(2, 1fr); } }
+        .meta-item { display: flex; flex-direction: column; }
+        .meta-label { font-size: 0.75rem; color: var(--text-muted); }
+        .meta-value { font-size: 0.9rem; font-weight: 600; margin-top: 0.15rem; }
+        .riesgo-container { margin-top: 1rem; padding-top: 0.5rem; }
+        .riesgo-labels { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.4rem; }
         .label-sl { color: var(--red-loss); font-weight: 600; }
         .label-tp { color: var(--green-profit); font-weight: 600; }
-        .label-entry { color: var(--text-muted); }
-
-        .riesgo-barra-bg {
-            height: 8px;
-            background: linear-gradient(to right, var(--red-loss) 0%, #4b5563 35%, #4b5563 65%, var(--green-profit) 100%);
-            border-radius: 4px;
-            position: relative;
-            margin-bottom: 0.4rem;
-        }
-
-        .riesgo-burbuja {
-            width: 14px;
-            height: 14px;
-            background-color: #ffffff;
-            border: 3px solid var(--accent-purple);
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            box-shadow: 0 0 8px rgba(139, 92, 246, 0.8);
-            transition: left 0.3s ease;
-        }
-
-        .riesgo-precios {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.7rem;
-            color: var(--text-muted);
-        }
-
-        /* TABLA HISTORIAL */
-        .tabla-contenedor {
-            width: 100%;
-            overflow-x: auto;
-            margin-top: 1.5rem;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-            font-size: 0.9rem;
-        }
-
-        th {
-            background-color: rgba(11, 15, 25, 0.6);
-            color: var(--text-muted);
-            font-weight: 600;
-            padding: 0.75rem 1rem;
-            border-bottom: 2px solid var(--bg-lineas);
-            text-transform: uppercase;
-            font-size: 0.75rem;
-            letter-spacing: 0.05em;
-        }
-
-        td {
-            padding: 0.85rem 1rem;
-            border-bottom: 1px solid var(--bg-lineas);
-            color: #d1d5db;
-        }
-
-        tr:hover td {
-            background-color: rgba(36, 52, 77, 0.3);
-        }
-
+        .riesgo-barra-bg { height: 8px; background: linear-gradient(to right, var(--red-loss) 0%, #4b5563 35%, #4b5563 65%, var(--green-profit) 100%); border-radius: 4px; position: relative; margin-bottom: 0.4rem; }
+        .riesgo-burbuja { width: 14px; height: 14px; background-color: #ffffff; border: 3px solid var(--accent-purple); border-radius: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 8px rgba(139, 92, 246, 0.8); transition: left 0.3s ease; }
+        .riesgo-precios { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text-muted); }
+        .tabla-contenedor { width: 100%; overflow-x: auto; margin-top: 1.5rem; }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th { background-color: rgba(11, 15, 25, 0.6); color: var(--text-muted); font-weight: 600; padding: 0.75rem 1rem; border-bottom: 2px solid var(--bg-lineas); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
+        td { padding: 0.85rem 1rem; border-bottom: 1px solid var(--bg-lineas); color: #d1d5db; }
+        tr:hover td { background-color: rgba(36, 52, 77, 0.3); }
         .row-ganancia .bold-pnl { color: var(--green-profit); font-weight: 600; }
         .row-perdida .bold-pnl { color: var(--red-loss); font-weight: 600; }
-
-        .badge-tabla {
-            background-color: #24344d;
-            padding: 0.2rem 0.4rem;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-        }
-
-        .badge-razon {
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 0.15rem 0.4rem;
-            border-radius: 4px;
-        }
+        .badge-tabla { background-color: #24344d; padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+        .badge-razon { font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.4rem; border-radius: 4px; }
         .badge-razon.tp_exit { background-color: rgba(16, 185, 129, 0.15); color: var(--green-profit); }
         .badge-razon.sl_exit { background-color: rgba(239, 68, 68, 0.15); color: var(--red-loss); }
         .badge-razon.time_exit { background-color: rgba(245, 158, 11, 0.15); color: #f59e0b; }
-
-        .txt-truncate {
-            max-width: 280px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .no-data {
-            text-align: center;
-            color: var(--text-muted);
-            padding: 2rem;
-            font-size: 0.9rem;
-            font-style: italic;
-        }
-
-        /* ANIMACIONES */
-        .animated-fade-in {
-            animation: fadeIn 0.4s ease-out forwards;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(4px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+        .txt-truncate { max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .no-data { text-align: center; color: var(--text-muted); padding: 2rem; font-size: 0.9rem; font-style: italic; }
     </style>
 </head>
 <body>
-
     <header>
         <div class="brand">
             <h1>🤖 Agente Híbrido <span>v2</span></h1>
             <p>Análisis fundamental de noticias procesado por IA integrado con Momentum & Volatilidad Cuántica</p>
         </div>
         <div class="cron">
-            <p>Ciclos Ejecutados: <strong>#48</strong></p>
-            <p>Última actualización: <strong>2026-05-15 23:20</strong></p>
+            <p>Ciclos Ejecutados: <strong>#49</strong></p>
+            <p>Última actualización: <strong>2026-05-15 23:36</strong></p>
         </div>
     </header>
 
     <div class="grid-metricas">
         <div class="card-metrica destacada">
             <h4>Capital Disponible</h4>
-            <div class="valor">$899.63 USDC</div>
+            <div class="valor">$900.00 USDC</div>
         </div>
         <div class="card-metrica">
             <h4>Capital en Riesgo</h4>
@@ -421,7 +135,7 @@
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">📈 Edge Neto</span>
-                            <span class="meta-value">+1712.5%</span>
+                            <span class="meta-value">+17.1%</span>
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">⏱️ Tiempo Máx</span>
@@ -440,7 +154,7 @@
                             <span class="label-tp">TP: 4.5%</span>
                         </div>
                         <div class="riesgo-barra-bg">
-                            <div class="riesgo-burbuja" style="left: 40.000000000000085%;" title="Precio Actual: 0.17"></div>
+                            <div class="riesgo-burbuja" style="left: 40.000000000000085%;"></div>
                         </div>
                         <div class="riesgo-precios">
                             <span>$0.17</span>
@@ -464,7 +178,7 @@
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">📈 Edge Neto</span>
-                            <span class="meta-value">+910.8%</span>
+                            <span class="meta-value">+9.1%</span>
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">⏱️ Tiempo Máx</span>
@@ -483,7 +197,7 @@
                             <span class="label-tp">TP: 4.5%</span>
                         </div>
                         <div class="riesgo-barra-bg">
-                            <div class="riesgo-burbuja" style="left: 40.0%;" title="Precio Actual: 0.09"></div>
+                            <div class="riesgo-burbuja" style="left: 40.0%;"></div>
                         </div>
                         <div class="riesgo-precios">
                             <span>$0.09</span>
@@ -507,7 +221,7 @@
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">📈 Edge Neto</span>
-                            <span class="meta-value">+1118.5%</span>
+                            <span class="meta-value">+11.2%</span>
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">⏱️ Tiempo Máx</span>
@@ -526,7 +240,7 @@
                             <span class="label-tp">TP: 4.5%</span>
                         </div>
                         <div class="riesgo-barra-bg">
-                            <div class="riesgo-burbuja" style="left: 40.0000000000001%;" title="Precio Actual: 0.11"></div>
+                            <div class="riesgo-burbuja" style="left: 40.0000000000001%;"></div>
                         </div>
                         <div class="riesgo-precios">
                             <span>$0.11</span>
@@ -550,7 +264,7 @@
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">📈 Edge Neto</span>
-                            <span class="meta-value">+504.8%</span>
+                            <span class="meta-value">+5.0%</span>
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">⏱️ Tiempo Máx</span>
@@ -569,7 +283,7 @@
                             <span class="label-tp">TP: 4.5%</span>
                         </div>
                         <div class="riesgo-barra-bg">
-                            <div class="riesgo-burbuja" style="left: 40.00000000000014%;" title="Precio Actual: 0.05"></div>
+                            <div class="riesgo-burbuja" style="left: 40.00000000000014%;"></div>
                         </div>
                         <div class="riesgo-precios">
                             <span>$0.05</span>
@@ -593,7 +307,7 @@
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">📈 Edge Neto</span>
-                            <span class="meta-value">+851.4%</span>
+                            <span class="meta-value">+8.5%</span>
                         </div>
                         <div class="meta-item">
                             <span class="meta-label">⏱️ Tiempo Máx</span>
@@ -612,7 +326,7 @@
                             <span class="label-tp">TP: 4.5%</span>
                         </div>
                         <div class="riesgo-barra-bg">
-                            <div class="riesgo-burbuja" style="left: 40.00000000000004%;" title="Precio Actual: 0.09"></div>
+                            <div class="riesgo-burbuja" style="left: 40.00000000000004%;"></div>
                         </div>
                         <div class="riesgo-precios">
                             <span>$0.08</span>
@@ -668,18 +382,10 @@
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
-                plugins: {
-                    legend: { display: false }
-                },
+                plugins: { legend: { display: false } },
                 scales: {
-                    x: {
-                        grid: { color: '#1f293d' },
-                        ticks: { color: '#9ca3af', font: { size: 10 } }
-                    },
-                    y: {
-                        grid: { color: '#1f293d' },
-                        ticks: { color: '#9ca3af', font: { size: 11 } }
-                    }
+                    x: { grid: { color: '#1f293d' }, ticks: { color: '#9ca3af', font: { size: 10 } } },
+                    y: { grid: { color: '#1f293d' }, ticks: { color: '#9ca3af', font: { size: 11 } } }
                 }
             }
         });
