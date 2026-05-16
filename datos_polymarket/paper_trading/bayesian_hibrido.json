@@ -1,21 +1,26 @@
 {
-  "categoria:deportes": {
-    "n": 1,
+  "categoria:futbol": {
+    "n": 5,
     "wins": 0,
     "wr": 0.0
   },
   "mom_bucket:muy_bajo": {
-    "n": 1,
+    "n": 5,
     "wins": 0,
     "wr": 0.0
   },
   "precio_bucket:bajo": {
-    "n": 1,
+    "n": 2,
     "wins": 0,
     "wr": 0.0
   },
   "hora_bucket:noche": {
-    "n": 1,
+    "n": 5,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "precio_bucket:muy_bajo": {
+    "n": 3,
     "wins": 0,
     "wr": 0.0
   }

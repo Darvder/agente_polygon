@@ -2114,3 +2114,69 @@ PRECIO_BUCKET:
 2026-05-16 09:19:33,344 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
 2026-05-16 09:19:33,344 | INFO | TP:0 SL:0 Time:6
 2026-05-16 09:19:33,344 | INFO | =======================================================
+2026-05-16 10:32:59,021 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-16 10:32:59,021 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-16 10:32:59,021 | INFO | =======================================================
+2026-05-16 10:32:59,021 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-16 10:32:59,021 | INFO | =======================================================
+2026-05-16 10:32:59,029 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 10:32:59,029 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:futbol                    ░░░░░░░░░░ 0% (0/5 trades)
+
+HORA_BUCKET:
+  hora_bucket:noche                   ░░░░░░░░░░ 0% (0/5 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_bajo                 ░░░░░░░░░░ 0% (0/5 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              ░░░░░░░░░░ 0% (0/3 trades)
+2026-05-16 10:32:59,243 | INFO | Mercados: 20
+2026-05-16 10:33:00,062 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:00,075 | INFO | IA descarta (No noticia y edge estándar): Will the San Antonio Spurs win the 2026  | edge=-0.1%
+2026-05-16 10:33:01,078 | INFO | 🚫 Will France win the 2026 FIFA World Cup?: Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:01,078 | INFO | EventDetector: Will France win the 2026 FIFA World Cup? → Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:01,559 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:01,560 | INFO | IA descarta (No noticia y edge estándar): Will Spain win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 10:33:03,145 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:03,146 | INFO | Sin edge: Will Portugal win the 2026 FIFA World Cu | edge=-0.1%
+2026-05-16 10:33:04,798 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:04,799 | INFO | IA descarta (No noticia y edge estándar): Will the Detroit Pistons win the 2026 NB | edge=-0.1%
+2026-05-16 10:33:05,802 | INFO | 🚫 Will Brazil win the 2026 FIFA World Cup?: Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:05,802 | INFO | EventDetector: Will Brazil win the 2026 FIFA World Cup? → Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:05,804 | INFO | 🚫 Will Argentina win the 2026 FIFA World C: Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:05,804 | INFO | EventDetector: Will Argentina win the 2026 FIFA World C → Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:05,806 | INFO | 🚫 Will England win the 2026 FIFA World Cup: Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:05,806 | INFO | EventDetector: Will England win the 2026 FIFA World Cup → Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:05,809 | INFO | 🚫 Will Germany win the 2026 FIFA World Cup: Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:05,809 | INFO | EventDetector: Will Germany win the 2026 FIFA World Cup → Post-TIME_EXIT (1.2h/4h)
+2026-05-16 10:33:06,283 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:06,285 | INFO | IA descarta (No noticia y edge estándar): Will the Colorado Avalanche win the 2026 | edge=-0.1%
+2026-05-16 10:33:07,881 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:07,883 | INFO | Sin edge: Will the New York Knicks win the 2026 NB | edge=0.5%
+2026-05-16 10:33:09,580 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:09,581 | INFO | IA descarta (No noticia y edge estándar): Will the Oklahoma City Thunder win the 2 | edge=-1.0%
+2026-05-16 10:33:11,074 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:11,075 | INFO | IA descarta (No noticia y edge estándar): Will bitcoin hit $1m before GTA VI? | edge=-0.1%
+2026-05-16 10:33:12,625 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:12,626 | INFO | IA descarta (No noticia y edge estándar): Will the Montreal Canadiens win the 2026 | edge=-0.1%
+2026-05-16 10:33:14,201 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:14,202 | INFO | IA descarta (No noticia y edge estándar): Will the Vegas Golden Knights win the 20 | edge=-0.1%
+2026-05-16 10:33:15,629 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:15,630 | INFO | IA descarta (No noticia y edge estándar): Will China invades Taiwan before GTA VI? | edge=-1.0%
+2026-05-16 10:33:17,200 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:17,201 | INFO | IA descarta (No noticia y edge estándar): Will the Carolina Hurricanes win the 202 | edge=-1.0%
+2026-05-16 10:33:18,781 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:18,782 | INFO | IA descarta (No noticia y edge estándar): New Playboi Carti Album before GTA VI? | edge=-1.0%
+2026-05-16 10:33:20,269 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:20,270 | INFO | IA descarta (No noticia y edge estándar): New Rihanna Album before GTA VI? | edge=-1.0%
+2026-05-16 10:33:21,967 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 10:33:21,968 | INFO | IA descarta (No noticia y edge estándar): Trump out as President before GTA VI? | edge=-1.0%
+2026-05-16 10:33:22,971 | INFO | ───────────────────────────────────────────────────────
+2026-05-16 10:33:22,971 | INFO | CICLO #56 | Analizados=20 Nuevas=0
+2026-05-16 10:33:22,971 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
+2026-05-16 10:33:22,971 | INFO | TP:0 SL:0 Time:6
+2026-05-16 10:33:22,971 | INFO | =======================================================
