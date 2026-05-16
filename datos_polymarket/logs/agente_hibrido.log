@@ -2376,3 +2376,67 @@ PRECIO_BUCKET:
 2026-05-16 13:51:34,264 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
 2026-05-16 13:51:34,264 | INFO | TP:0 SL:0 Time:6
 2026-05-16 13:51:34,264 | INFO | =======================================================
+2026-05-16 14:57:37,251 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-16 14:57:37,251 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-16 14:57:37,251 | INFO | =======================================================
+2026-05-16 14:57:37,251 | INFO | CICLO HÍBRIDO v2 INICIADO
+2026-05-16 14:57:37,252 | INFO | =======================================================
+2026-05-16 14:57:37,259 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 14:57:37,259 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:futbol                    ░░░░░░░░░░ 0% (0/5 trades)
+
+HORA_BUCKET:
+  hora_bucket:noche                   ░░░░░░░░░░ 0% (0/5 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_bajo                 ░░░░░░░░░░ 0% (0/5 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              ░░░░░░░░░░ 0% (0/3 trades)
+2026-05-16 14:57:37,513 | INFO | Mercados: 19
+2026-05-16 14:57:38,595 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:38,606 | INFO | IA descarta (No noticia y edge estándar): Will the San Antonio Spurs win the 2026  | edge=-0.1%
+2026-05-16 14:57:40,581 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:40,582 | INFO | IA descarta (No noticia y edge estándar): Will France win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 14:57:42,357 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:42,358 | INFO | IA descarta (No noticia y edge estándar): Will Spain win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 14:57:44,180 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:44,181 | INFO | Sin edge: Will Portugal win the 2026 FIFA World Cu | edge=-0.1%
+2026-05-16 14:57:45,767 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:45,768 | INFO | IA descarta (No noticia y edge estándar): Will Brazil win the 2026 FIFA World Cup? | edge=-0.1%
+2026-05-16 14:57:47,474 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:47,475 | INFO | IA descarta (No noticia y edge estándar): Will Argentina win the 2026 FIFA World C | edge=-0.1%
+2026-05-16 14:57:49,095 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:49,095 | INFO | IA descarta (No noticia y edge estándar): Will England win the 2026 FIFA World Cup | edge=-0.1%
+2026-05-16 14:57:50,664 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:50,665 | INFO | IA descarta (No noticia y edge estándar): Will Germany win the 2026 FIFA World Cup | edge=-0.1%
+2026-05-16 14:57:52,181 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:52,181 | INFO | IA descarta (No noticia y edge estándar): Will the Colorado Avalanche win the 2026 | edge=-0.4%
+2026-05-16 14:57:53,722 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:53,723 | INFO | Sin edge: Will the New York Knicks win the 2026 NB | edge=-0.1%
+2026-05-16 14:57:55,472 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:55,473 | INFO | IA descarta (No noticia y edge estándar): Will the Oklahoma City Thunder win the 2 | edge=-1.0%
+2026-05-16 14:57:56,972 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:56,973 | INFO | IA descarta (No noticia y edge estándar): Will bitcoin hit $1m before GTA VI? | edge=-0.2%
+2026-05-16 14:57:58,769 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:57:58,769 | INFO | IA descarta (No noticia y edge estándar): Will the Montreal Canadiens win the 2026 | edge=-0.1%
+2026-05-16 14:58:00,314 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:58:00,315 | INFO | IA descarta (No noticia y edge estándar): Will the Vegas Golden Knights win the 20 | edge=-0.2%
+2026-05-16 14:58:01,739 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:58:01,740 | INFO | IA descarta (No noticia y edge estándar): Will China invades Taiwan before GTA VI? | edge=-1.0%
+2026-05-16 14:58:03,523 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:58:03,524 | INFO | IA descarta (No noticia y edge estándar): Will the Carolina Hurricanes win the 202 | edge=-1.0%
+2026-05-16 14:58:05,136 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:58:05,137 | INFO | IA descarta (No noticia y edge estándar): New Playboi Carti Album before GTA VI? | edge=-2.0%
+2026-05-16 14:58:06,625 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:58:06,625 | INFO | IA descarta (No noticia y edge estándar): New Rihanna Album before GTA VI? | edge=-1.0%
+2026-05-16 14:58:08,157 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 14:58:08,158 | INFO | IA descarta (No noticia y edge estándar): Trump out as President before GTA VI? | edge=-1.0%
+2026-05-16 14:58:09,160 | INFO | ───────────────────────────────────────────────────────
+2026-05-16 14:58:09,160 | INFO | CICLO #60 | Analizados=19 Nuevas=0
+2026-05-16 14:58:09,160 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
+2026-05-16 14:58:09,161 | INFO | TP:0 SL:0 Time:6
+2026-05-16 14:58:09,161 | INFO | =======================================================
