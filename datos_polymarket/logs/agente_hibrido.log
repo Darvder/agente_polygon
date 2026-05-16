@@ -2597,3 +2597,28 @@ PRECIO_BUCKET:
 2026-05-16 17:34:26,872 | INFO | CICLO #63 | Analizados=0 Nuevas=0 [Enfoque Volatilidad]
 2026-05-16 17:34:26,872 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
 2026-05-16 17:34:26,872 | INFO | =======================================================
+2026-05-16 17:36:58,953 | INFO | Agente HÍBRIDO v2 iniciando...
+2026-05-16 17:36:58,953 | INFO | Módulos: BayesianEngine + VolatilityEngine + EventDetector
+2026-05-16 17:36:58,953 | INFO | =======================================================
+2026-05-16 17:36:58,953 | INFO | CICLO VOLATILIDAD v2 INICIADO
+2026-05-16 17:36:58,953 | INFO | =======================================================
+2026-05-16 17:36:58,960 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 17:36:58,960 | INFO | 
+=== MODELO BAYESIANO ===
+
+CATEGORIA:
+  categoria:futbol                    ░░░░░░░░░░ 0% (0/5 trades)
+
+HORA_BUCKET:
+  hora_bucket:noche                   ░░░░░░░░░░ 0% (0/5 trades)
+
+MOM_BUCKET:
+  mom_bucket:muy_bajo                 ░░░░░░░░░░ 0% (0/5 trades)
+
+PRECIO_BUCKET:
+  precio_bucket:muy_bajo              ░░░░░░░░░░ 0% (0/3 trades)
+2026-05-16 17:36:59,216 | INFO | Mercados: 19
+2026-05-16 17:36:59,223 | INFO | ───────────────────────────────────────────────────────
+2026-05-16 17:36:59,223 | INFO | CICLO #64 | Analizados=0 Nuevas=0 [Enfoque Volatilidad]
+2026-05-16 17:36:59,223 | INFO | Abiertas=0 Cerradas=5 P&L=$+0.00
+2026-05-16 17:36:59,223 | INFO | =======================================================
