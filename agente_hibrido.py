@@ -233,7 +233,7 @@ def extraer_json_puro(texto):
         return texto
 def ciclo():
     log.info("="*55)
-    log.info("CICLO HÍBRIDO v2 INICIADO")
+    log.info("CICLO VOLATILIDAD v2 INICIADO")
     log.info("="*55)
     estado = cargar_estado()
     df     = cargar_libro()
@@ -255,7 +255,7 @@ def ciclo():
             guardar_estado(estado);
             return
 
-    # Inicializar módulos (Híbrido lee su propio libro)
+    # Inicializar módulos
     bayesian  = BayesianEngine(
         archivo_libro  = ARCHIVO_LIBRO,
         archivo_modelo = "datos_polymarket/paper_trading/bayesian_hibrido.json"
@@ -270,7 +270,7 @@ def ciclo():
     cliente_llm  = Groq(api_key=GROQ_API_KEY)
     cliente_news = NewsApiClient(api_key=NEWS_API_KEY)
 
-    # Escanear y verificar salidas
+    # Escanear y verificar salidas (Verificación ultra-rápida local)
     mercados = escanear()
     if not mercados: return
     df, n_cerradas = verificar_salidas(df, estado, mercados)
@@ -297,18 +297,22 @@ def ciclo():
     nuevas = []
     analizados = 0
     
-    # 🔎 [OPCIÓN B OPTIMIZADA] Escaneo de hasta 40 mercados para cuidar cuota de Groq
-    for m in sorted(mercados, key=lambda x: -x["volumen_usd"]):
+    # 🌪️ [PASO 1: REORDENAR POR VOLATILIDAD] 
+    # El bot ahora prioriza los mercados con mayor fluctuación diaria (vol_1d) en vez de volumen plano.
+    mercados_activos = [
+        m for m in mercados 
+        if float(m.get("vol_1d", 0.0)) > 0.005 or abs(float(m.get("cambio_1h", 0.0))) > 0.01
+    ]
+
+    for m in sorted(mercados_activos, key=lambda x: -float(x.get("vol_1d", 0.0))):
         if len(nuevas) >= cupo: break
-        if analizados >= 40: break  
+        if analizados >= 40: break  # Control estricto de cuota de Groq
         if m["pregunta"][:70] in preguntas_ab: continue
 
         # ── Event detector ─────────────────────────────────────────
         puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
         if not puede:
-            log.info(f"EventDetector: {m['pregunta'][:40]} → {motivo}")
-            analizados+=1;
-            continue
+            analizados+=1; continue
 
         # ── Cap por mercado ────────────────────────────────────────
         if not df.empty:
@@ -316,7 +320,8 @@ def ciclo():
                      (df["market_id"].astype(str)==str(m["id"]))]["monto_usdc"].sum()
             if exp >= MAX_EXPOSICION: continue
 
-        # 📈 [MOMENTUM REAL] Extraemos el verdadero impulso técnico del mercado
+        # Métricas de velocidad del mercado
+        vol_actual = float(m.get("vol_1d", 0.0))
         real_momentum_1h = float(m.get("cambio_1h", 0.0))
 
         # ── Noticias ───────────────────────────────────────────────
@@ -328,7 +333,6 @@ def ciclo():
         patron_txt = f"n={patron.get('n',0)} trades, wr={patron.get('wr',0):.0%}, pnl=${patron.get('pnl',0):+.2f}" if patron else "sin historial"
 
         # ── LLM con JSON MODE NATIVO ───────────────────────────────
-        # Inyectamos la métrica técnica de momentum en el prompt
         prompt = PROMPT.format(
             pregunta=m["pregunta"], precio=m["mid_price"],
             dias=m["dias"], spread=m["spread"],
@@ -339,16 +343,16 @@ def ciclo():
             msg = cliente_llm.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[{"role":"user","content":prompt}],
-                response_format={"type": "json_object"},  # ✨ Forzamos JSON perfecto de raíz
+                response_format={"type": "json_object"},
                 max_tokens=150
             )
             txt = msg.choices[0].message.content.strip()
             an = json.loads(txt)
         except Exception as e:
             log.warning(f"Error LLM: {e}");
-            time.sleep(2); analizados+=1; continue
+            time.sleep(1); analizados+=1; continue
 
-        # 🎯 [NORMALIZACIÓN] Corrección de escala de porcentaje de la IA (85% -> 0.85)
+        # Normalización matemática de escala de la IA
         estimacion = float(an.get("estimacion", m["mid_price"]))
         if estimacion > 1.0:
             estimacion = estimacion / 100.0
@@ -358,42 +362,45 @@ def ciclo():
         diferencia  = estimacion - m["mid_price"]
         edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
-        # 📰 [OPCIÓN A] FILTRO FLEXIBLE DE NOTICIAS 
-        if not hay_noticia and edge_neto < 0.07:
-            log.info(f"IA descarta (No noticia y edge estándar): {m['pregunta'][:40]} | edge={edge_neto:.1%}")
-            analizados+=1;
-            time.sleep(1); continue
+        # 📰 FILTRO ADAPTATIVO: En alta volatilidad operamos con Edge estándar si la IA valida la tendencia
+        if not hay_noticia and edge_neto < 0.05 and vol_actual < 0.03:
+            analizados+=1; continue
 
         if edge_neto < MIN_EDGE or confianza < MIN_CONFIANZA:
-            log.info(f"Sin edge: {m['pregunta'][:40]} | edge={edge_neto:.1%}")
-            analizados+=1;
-            time.sleep(1); continue
+            analizados+=1; continue
 
-        # 🧠 [MOTOR BAYESIANO CORREGIDO] Evaluamos la probabilidad con MOMENTUM REAL
+        # Motor Bayesiano analizando el momentum real
         ok, score, feats = bayesian.should_trade(
             pregunta=m["pregunta"], 
-            cambio_1h=real_momentum_1h,  # 🛠️ ¡Solucionado! Ya no pasamos la "diferencia" de la IA
+            cambio_1h=real_momentum_1h,
             precio_entrada=m["mid_price"],
             fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
         if not ok:
             log.info(f"Bayesiano bloquea ({score:.0%}): {m['pregunta'][:40]}")
-            analizados+=1;
-            time.sleep(1); continue
+            analizados+=1; continue
 
-        # ── Volatility Engine → SL/TP/HORAS dinámicos ─────────────
+        # 🌪️ [PASO 2: INTERVENCIÓN DE SCALPING DE ALTA VOLATILIDAD]
+        # Si el mercado está acelerado, forzamos parámetros ajustados y salida estricta en 3 horas.
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        
+        if vol_actual > 0.025 or abs(real_momentum_1h) > 0.035:
+            max_h = 3      # ⏱️ ¡3 horas máximo o liquidación por tiempo!
+            tp = 0.04      # 🎯 Buscamos un 4.0% de ganancia rápida
+            sl = -0.03     # 🛡️ Stop Loss ajustado al -3.0% para salir rápido si falla
 
         # ── Señal y posición ───────────────────────────────────────
+        # Si diferencia < 0, la IA estima que bajará -> COMPRA NO (Equivale a meter un Corto)
         señal       = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
         precio_tok  = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
+        
+        # Gestión monetaria dinámica por Criterio de Kelly real
         kelly       = edge_neto * confianza * 0.3
         monto       = round(min(estado["capital_actual"]*kelly, CAPITAL_POR_OP), 2)
         if monto < 5: 
-            analizados+=1;
-            continue
+            analizados+=1; continue
 
-        # Registrar evento en detector
+        # Registrar entrada en el detector
         ev_detector.registrar_evento(m["id"], m["pregunta"])
         nuevas.append({
             "fecha_entrada":       datetime.now().strftime("%Y-%m-%d"),
@@ -414,7 +421,7 @@ def ciclo():
             "tp_dinamico":          tp,
             "sl_dinamico":          sl,
             "horas_max":            max_h,
-            "vol_1d":               met["vol_1d"] if met else None,
+            "vol_1d":               vol_actual,
             "monto_usdc":           monto,
             "dias_mercado":         m["dias"],
             "fecha_cierre_mercado": m["fecha_cierre"],
@@ -425,11 +432,11 @@ def ciclo():
             "razonamiento":         an.get("razonamiento","")[:100],
         })
         log.info(
-            f"✅ NUEVA: {señal} | {m['pregunta'][:38]} | "
-            f"edge={edge_neto:.1%} | TP={tp:.0%} SL={sl:.0%} {max_h}h | ${monto}"
+            f"⚡ [VOL_TRADING] {señal} | {m['pregunta'][:35]} | "
+            f"Vol={vol_actual:.1%} | TP={tp:.0%} SL={sl:.0%} | {max_h}h max | ${monto}"
         )
         analizados+=1;
-        time.sleep(2)
+        time.sleep(1)
 
     if nuevas:
         df_n = pd.DataFrame(nuevas)
@@ -448,9 +455,8 @@ def ciclo():
     pnl  = df[df["estado"]=="CERRADA"]["pnl_realizado"].sum() if not df.empty and n_ce>0 else 0
 
     log.info("─"*55)
-    log.info(f"CICLO #{estado['n_ciclos']} | Analizados={analizados} Nuevas={len(nuevas)}")
+    log.info(f"CICLO #{estado['n_ciclos']} | Analizados={analizados} Nuevas={len(nuevas)} [Enfoque Volatilidad]")
     log.info(f"Abiertas={n_ab} Cerradas={n_ce} P&L=${pnl:+.2f}")
-    log.info(f"TP:{estado['n_tp']} SL:{estado['n_sl']} Time:{estado['n_time']}")
     log.info("="*55)
   
 if __name__ == "__main__":
