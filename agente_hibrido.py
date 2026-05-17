@@ -358,6 +358,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             return None
 
         # 5. --- Motor Bayesiano y de Volatilidad ---
+        precio_tok = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
         ok, score, feats = bayesian.should_trade(
             pregunta=nombre_m,
             precio_entrada=precio_tok,
@@ -396,7 +397,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         
         # Generar Estructura de la Nueva Posición
         señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
-        precio_tok = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
+        
         kelly = edge_neto * confianza * 0.3
         monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
         
