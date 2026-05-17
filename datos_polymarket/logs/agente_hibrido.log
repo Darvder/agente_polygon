@@ -3122,3 +3122,88 @@ PRECIO_BUCKET:
 2026-05-16 20:06:01,011 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Will Japan win the 2026 FIFA World  | Monto: $20
 2026-05-16 20:06:01,014 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #73 | Nuevas Abiertas: 2
 2026-05-16 20:06:01,014 | INFO | =======================================================
+2026-05-16 20:32:12,081 | INFO | =======================================================
+2026-05-16 20:32:12,081 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-16 20:32:12,081 | INFO | =======================================================
+2026-05-16 20:32:12,087 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 20:32:12,283 | INFO | Mercados: 23
+2026-05-16 20:32:12,364 | INFO | Mercados: 23
+2026-05-16 20:32:14,910 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:14,924 | INFO | 🧠 Bayesiano Score para New Rihanna Album before GTA VI?: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:14,925 | INFO | 🧠 New Rihanna Album before GTA VI? | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:15,177 | INFO | Vol [540817]: tp=4% sl=-3% h=10h vol=0.010 pulsos=sí
+2026-05-16 20:32:15,177 | INFO | 📊 Volatilidad New Rihanna Album before GTA VI? | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.00976, 'vol_7d': 0.00791, 'rango': 0.085, 'tendencia': -1, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.5, 'precio_max': 0.82, 'n': 4238}
+2026-05-16 20:32:17,717 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:17,718 | INFO | 🧠 Bayesiano Score para New Playboi Carti Album before GTA : 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:17,718 | INFO | 🧠 New Playboi Carti Album before GTA  | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:17,958 | INFO | Vol [540818]: tp=4% sl=-3% h=10h vol=0.002 pulsos=sí
+2026-05-16 20:32:17,958 | INFO | 📊 Volatilidad New Playboi Carti Album before GTA  | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.00193, 'vol_7d': 0.00398, 'rango': 0.02, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.315, 'precio_max': 0.595, 'n': 4120}
+2026-05-16 20:32:20,604 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:20,605 | INFO | 🧠 Bayesiano Score para Trump out as President before GTA V: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:20,605 | INFO | 🧠 Trump out as President before GTA V | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:20,899 | INFO | Vol [540820]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:32:20,899 | INFO | 📊 Volatilidad Trump out as President before GTA V | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.0013, 'rango': 0.0, 'tendencia': 0, 'en_extremo': np.True_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.505, 'precio_max': 0.525, 'n': 4174}
+2026-05-16 20:32:23,386 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:23,387 | INFO | 🧠 Bayesiano Score para Will China invades Taiwan before GT: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:23,387 | INFO | 🧠 Will China invades Taiwan before GT | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:23,747 | INFO | Vol [540843]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:32:23,747 | INFO | 📊 Volatilidad Will China invades Taiwan before GT | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.0, 'rango': 0.01, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.505, 'precio_max': 0.515, 'n': 4115}
+2026-05-16 20:32:26,187 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:26,188 | INFO | 🧠 Bayesiano Score para Will bitcoin hit $1m before GTA VI?: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:26,188 | INFO | 🧠 Will bitcoin hit $1m before GTA VI? | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:26,415 | INFO | Vol [540844]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:32:26,415 | INFO | 📊 Volatilidad Will bitcoin hit $1m before GTA VI? | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.00032, 'rango': 0.004, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.4835, 'precio_max': 0.4965, 'n': 4087}
+2026-05-16 20:32:28,892 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:28,893 | INFO | 🧠 Bayesiano Score para Will the Carolina Hurricanes win th: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:28,893 | INFO | 🧠 Will the Carolina Hurricanes win th | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:29,101 | INFO | Vol [553824]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:32:29,102 | INFO | 📊 Volatilidad Will the Carolina Hurricanes win th | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.0, 'rango': 0.15, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.125, 'precio_max': 0.375, 'n': 4243}
+2026-05-16 20:32:31,647 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:31,648 | INFO | ❌ Will the Colorado Avalanche win the | Edge (0.90%) < umbral (sin noticia: 3.00%)
+2026-05-16 20:32:31,649 | INFO | ⏭️ Will the Vegas Golden Knights win t | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:32:34,303 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:34,304 | INFO | ❌ Will the Montreal Canadiens win the | Descartado: Confianza de la IA (0.40) inferior al mínimo (0.50).
+2026-05-16 20:32:36,663 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:36,664 | INFO | ❌ Will the Oklahoma City Thunder win  | Descartado: Confianza de la IA (0.35) inferior al mínimo (0.50).
+2026-05-16 20:32:39,017 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:39,018 | INFO | 🧠 Bayesiano Score para Will the New York Knicks win the 20: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:39,018 | INFO | 🧠 Will the New York Knicks win the 20 | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:39,229 | INFO | Vol [553858]: tp=4% sl=-3% h=10h vol=0.002 pulsos=sí
+2026-05-16 20:32:39,229 | INFO | 📊 Volatilidad Will the New York Knicks win the 20 | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.00243, 'vol_7d': 0.00904, 'rango': 0.074, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.0165, 'precio_max': 0.157, 'n': 4173}
+2026-05-16 20:32:41,596 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:41,597 | INFO | 🧠 Bayesiano Score para Will the San Antonio Spurs win the : 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:41,599 | INFO | 🧠 Will the San Antonio Spurs win the  | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:41,814 | INFO | Vol [553866]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:32:41,815 | INFO | 📊 Volatilidad Will the San Antonio Spurs win the  | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.00902, 'rango': 0.0525, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.1075, 'precio_max': 0.2425, 'n': 4238}
+2026-05-16 20:32:44,115 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:44,116 | INFO | 🧠 Bayesiano Score para Will the Detroit Pistons win the 20: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:44,116 | INFO | 🧠 Will the Detroit Pistons win the 20 | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:44,326 | INFO | Vol [553871]: tp=4% sl=-3% h=10h vol=0.006 pulsos=sí
+2026-05-16 20:32:44,326 | INFO | 📊 Volatilidad Will the Detroit Pistons win the 20 | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.00567, 'vol_7d': 0.05212, 'rango': 0.0295, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.0005, 'precio_max': 0.0745, 'n': 4086}
+2026-05-16 20:32:46,716 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:46,717 | INFO | 🧠 Bayesiano Score para Will Spain win the 2026 FIFA World : 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:46,717 | INFO | 🧠 Will Spain win the 2026 FIFA World  | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:46,929 | INFO | Vol [558934]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:32:46,929 | INFO | 📊 Volatilidad Will Spain win the 2026 FIFA World  | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.0, 'rango': 0.0085, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.1525, 'precio_max': 0.1715, 'n': 4140}
+2026-05-16 20:32:49,426 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:49,427 | INFO | ❌ Will England win the 2026 FIFA Worl | Descartado: Confianza de la IA (0.40) inferior al mínimo (0.50).
+2026-05-16 20:32:52,653 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:52,654 | INFO | ❌ Will France win the 2026 FIFA World | Edge (2.15%) < umbral (sin noticia: 3.00%)
+2026-05-16 20:32:55,109 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:55,110 | INFO | 🧠 Bayesiano Score para Will Brazil win the 2026 FIFA World: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:32:55,110 | INFO | 🧠 Will Brazil win the 2026 FIFA World | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:32:55,356 | INFO | Vol [558937]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:32:55,356 | INFO | 📊 Volatilidad Will Brazil win the 2026 FIFA World | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.0, 'rango': 0.001, 'tendencia': 0, 'en_extremo': np.True_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.0845, 'precio_max': 0.0925, 'n': 4118}
+2026-05-16 20:32:55,357 | INFO | ⏭️ Will Argentina win the 2026 FIFA Wo | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:32:55,358 | INFO | ⏭️ Will Germany win the 2026 FIFA Worl | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:32:57,817 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:32:57,818 | INFO | ❌ Will Portugal win the 2026 FIFA Wor | Descartado: Confianza de la IA (0.20) inferior al mínimo (0.50).
+2026-05-16 20:32:57,819 | INFO | ⏭️ Will Netherlands win the 2026 FIFA  | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:32:57,820 | INFO | ⏭️ Will Japan win the 2026 FIFA World  | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:32:57,821 | INFO | ⏭️ Will Norway win the 2026 FIFA World | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:32:57,821 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | New Rihanna Album before GTA VI? | Monto: $20
+2026-05-16 20:32:57,821 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | New Playboi Carti Album before GTA  | Monto: $15.71
+2026-05-16 20:32:57,821 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Trump out as President before GTA V | Monto: $17.95
+2026-05-16 20:32:57,821 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will China invades Taiwan before GT | Monto: $20
+2026-05-16 20:32:57,824 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #74 | Nuevas Abiertas: 4
+2026-05-16 20:32:57,824 | INFO | =======================================================
