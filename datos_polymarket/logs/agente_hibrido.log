@@ -6971,3 +6971,125 @@ PRECIO_BUCKET:
 2026-05-17 13:03:06,766 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will Derek Dooley be the Republican | Monto: $8.61
 2026-05-17 13:03:06,771 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #95 | Nuevas Abiertas: 5
 2026-05-17 13:03:06,771 | INFO | =======================================================
+2026-05-17 13:14:27,090 | INFO | =======================================================
+2026-05-17 13:14:27,090 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-17 13:14:27,090 | INFO | =======================================================
+2026-05-17 13:14:27,095 | INFO | 🔒 [INACTIVA] Will JB Bickerstaff win the 2025–2026 NBA Coa | Precio sin movimiento → capital liberado
+2026-05-17 13:14:27,096 | INFO | 🔒 [INACTIVA] New Playboi Carti Album before GTA VI? | Precio sin movimiento → capital liberado
+2026-05-17 13:14:27,097 | INFO | 🔒 [INACTIVA] Will Discord’s market cap be less than $15B a | Precio sin movimiento → capital liberado
+2026-05-17 13:14:27,746 | INFO | Bayesiano: 18 condiciones | 14 trades válidos (45 INACTIVA/TIME_EXIT excluidos)
+2026-05-17 13:14:29,652 | INFO | Mercados escaneados: 2000 | Elegibles: 243
+2026-05-17 13:14:30,895 | INFO | Mercados escaneados: 2000 | Elegibles: 243
+2026-05-17 13:14:30,905 | INFO | ⏭️ Will Paloma Valencia win the 2026 C | Saltado: Ya existe posición ABIERTA.
+2026-05-17 13:14:33,425 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:33,439 | INFO | ❌ Will Park Soo-hyun win the 2026 Chu | Edge (1.90%) < umbral (sin noticia: 3.00%)
+2026-05-17 13:14:35,854 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:35,855 | INFO | ❌ Will Renan Santos win the 2026 Braz | Descartado: Confianza de la IA (0.30) inferior al mínimo (0.50).
+2026-05-17 13:14:38,464 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:38,465 | INFO | ❌ Will Spencer Pratt win the 2026 Los | Descartado: Confianza de la IA (0.30) inferior al mínimo (0.50).
+2026-05-17 13:14:38,467 | INFO | 🚫 Will the Democratic Party control the Ho: Post-TAKE_PROFIT (0.5h/48h)
+2026-05-17 13:14:38,468 | INFO | ❌ Will the Democratic Party control t | Descartado por EventDetector: Post-TAKE_PROFIT (0.5h/48h)
+2026-05-17 13:14:38,470 | INFO | 🚫 2026 Balance of Power: D Senate, D House: Post-INACTIVA (1.2h/4h)
+2026-05-17 13:14:38,470 | INFO | ❌ 2026 Balance of Power: D Senate, D  | Descartado por EventDetector: Post-INACTIVA (1.2h/4h)
+2026-05-17 13:14:40,757 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:40,758 | INFO | Vol [558949]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 13:14:40,758 | INFO | ❌ Will Japan win the 2026 FIFA World  | Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-17 13:14:43,195 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:43,196 | INFO | ❌ Will Norway win the 2026 FIFA World | Edge (2.65%) < umbral (sin noticia: 3.00%)
+2026-05-17 13:14:45,506 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:45,507 | INFO | Vol [637011]: tp=4% sl=-3% h=10h vol=0.005 pulsos=sí
+2026-05-17 13:14:45,507 | INFO | 🧠 [Will Volodymyr Zelenskyy win the No] Bayesiano score=0.63 (✅) | {'vol:bajo': '67% (3 trades)', 'edge:alto': '100% (2 trades)', 'confianza:alta': '50% (14 trades)', 'precio:extremo_bajo': '50% (4 trades)', 'noticia:no': '50% (14 trades)'}
+2026-05-17 13:14:45,507 | INFO | 📊 Will Volodymyr Zelenskyy win the No | vol=0.0048 TP=4.5% SL=-3.0% 10h
+2026-05-17 13:14:45,507 | INFO | 💰 Will Volodymyr Zelenskyy win the No | kelly=0.0291 monto=$20.00 capital=$859.24
+2026-05-17 13:14:47,789 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:47,790 | INFO | ❌ Will Trump and Putin meet next in R | Edge (2.05%) < umbral (sin noticia: 3.00%)
+2026-05-17 13:14:47,793 | INFO | ❌ Will the Buffalo Sabres win the 202 | Descartado por EventDetector: Evento cacheado (16.3h/52h)
+2026-05-17 13:14:50,340 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:50,341 | INFO | ❌ Will Ousmane Dembélé win the 2026 B | Descartado: Confianza de la IA (0.30) inferior al mínimo (0.50).
+2026-05-17 13:14:52,925 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:52,926 | INFO | Vol [628941]: tp=4% sl=-3% h=10h vol=0.001 pulsos=sí
+2026-05-17 13:14:52,926 | INFO | ❌ Will Xavier Becerra win the Califor | Mercado inactivo (vol=0.0012, rango=0.213)
+2026-05-17 13:14:55,362 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:55,363 | INFO | Vol [540817]: tp=4% sl=-3% h=10h vol=0.005 pulsos=sí
+2026-05-17 13:14:55,363 | INFO | 🧠 [New Rihanna Album before GTA VI?] Bayesiano score=0.42 (✅) | {'categoria:cultura': '0% (2 trades)', 'vol:medio': '50% (2 trades)', 'edge:medio': '100% (2 trades)', 'confianza:alta': '50% (14 trades)', 'precio:medio': '0% (4 trades)', 'noticia:no': '50% (14 trades)'}
+2026-05-17 13:14:55,363 | INFO | 📊 New Rihanna Album before GTA VI? | vol=0.0053 TP=4.5% SL=-3.0% 10h
+2026-05-17 13:14:55,363 | INFO | 💰 New Rihanna Album before GTA VI? | kelly=0.0096 monto=$8.25 capital=$859.24
+2026-05-17 13:14:55,366 | INFO | ❌ Will the Carolina Hurricanes win th | Descartado por EventDetector: Evento cacheado (16.7h/52h)
+2026-05-17 13:14:57,698 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:14:57,960 | INFO | Vol [618509]: tp=4% sl=-3% h=10h vol=0.001 pulsos=sí
+2026-05-17 13:14:57,960 | INFO | ❌ Will Trump and Putin not meet? | Mercado inactivo (vol=0.0009, rango=0.069)
+2026-05-17 13:14:57,962 | INFO | ❌ Will the San Antonio Spurs win the  | Descartado por EventDetector: Evento cacheado (16.7h/52h)
+2026-05-17 13:14:57,965 | INFO | 🚫 Will Discord’s market cap be less than $: Post-INACTIVA (0.0h/4h)
+2026-05-17 13:14:57,965 | INFO | ❌ Will Discord’s market cap be less t | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-17 13:15:00,287 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:00,288 | INFO | ❌ Will Michelle Bolsonaro win the 202 | Edge (2.45%) < umbral (sin noticia: 3.00%)
+2026-05-17 13:15:02,787 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:02,788 | INFO | Vol [573647]: tp=4% sl=-3% h=10h vol=0.005 pulsos=sí
+2026-05-17 13:15:02,788 | INFO | 🧠 [Will GPT-6 be released before GTA V] Bayesiano score=0.47 (✅) | {'señal:no': '50% (14 trades)', 'categoria:cultura': '0% (2 trades)', 'vol:medio': '50% (2 trades)', 'edge:muy_alto': '30% (10 trades)', 'confianza:alta': '50% (14 trades)', 'precio:bajo': '100% (5 trades)', 'noticia:no': '50% (14 trades)'}
+2026-05-17 13:15:02,788 | INFO | 📊 Will GPT-6 be released before GTA V | vol=0.0055 TP=4.5% SL=-3.0% 10h
+2026-05-17 13:15:02,788 | INFO | 💰 Will GPT-6 be released before GTA V | kelly=0.0514 monto=$20.00 capital=$859.24
+2026-05-17 13:15:02,791 | INFO | 🚫 Will JB Bickerstaff win the 2025–2026 NB: Post-INACTIVA (0.0h/4h)
+2026-05-17 13:15:02,791 | INFO | ❌ Will JB Bickerstaff win the 2025–20 | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-17 13:15:05,218 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:05,219 | INFO | ❌ Will Tamim bin Hamad Al Thani win t | Edge (0.75%) < umbral (sin noticia: 3.00%)
+2026-05-17 13:15:07,658 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:07,659 | INFO | Vol [558935]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 13:15:07,659 | INFO | ❌ Will England win the 2026 FIFA Worl | Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-17 13:15:10,129 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:10,348 | INFO | Vol [572847]: tp=22% sl=-15% h=3h vol=0.286 pulsos=sí
+2026-05-17 13:15:10,348 | INFO | 🧠 [Will Tottenham be relegated from th] Bayesiano score=0.45 (✅) | {'señal:no': '50% (14 trades)', 'edge:muy_alto': '30% (10 trades)', 'confianza:alta': '50% (14 trades)', 'noticia:no': '50% (14 trades)'}
+2026-05-17 13:15:10,349 | INFO | 📊 Will Tottenham be relegated from th | vol=0.2862 TP=22.5% SL=-15.0% 3h
+2026-05-17 13:15:10,349 | INFO | 💰 Will Tottenham be relegated from th | kelly=0.0566 monto=$20.00 capital=$859.24
+2026-05-17 13:15:10,350 | INFO | ⏭️ Will Ken Paxton win the 2026 Texas  | Saltado: Ya existe posición ABIERTA.
+2026-05-17 13:15:12,929 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:12,930 | INFO | ❌ Will Harry Kane win the 2026 Ballon | Descartado: Confianza de la IA (0.30) inferior al mínimo (0.50).
+2026-05-17 13:15:15,216 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:15,217 | INFO | Vol [628955]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 13:15:15,217 | INFO | ❌ Will Tom Steyer win the California  | Mercado inactivo (vol=0.0000, rango=0.107)
+2026-05-17 13:15:17,663 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:17,663 | INFO | Vol [540820]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 13:15:17,664 | INFO | ❌ Trump out as President before GTA V | Mercado inactivo (vol=0.0000, rango=0.000)
+2026-05-17 13:15:19,964 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:19,964 | INFO | Vol [558941]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 13:15:19,965 | INFO | ❌ Will Netherlands win the 2026 FIFA  | Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-17 13:15:19,967 | INFO | 🚫 Will Chad Bianco win the California Gove: Post-INACTIVA (2.7h/4h)
+2026-05-17 13:15:19,967 | INFO | ❌ Will Chad Bianco win the California | Descartado por EventDetector: Post-INACTIVA (2.7h/4h)
+2026-05-17 13:15:22,417 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:22,418 | INFO | Vol [578527]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 13:15:22,418 | INFO | ❌ Will Aston Villa win the 2025-26 UE | Mercado inactivo (vol=0.0000, rango=0.265)
+2026-05-17 13:15:24,514 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 13:15:24,515 | INFO | Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-05-17 13:15:26,011 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:26,012 | INFO | ❌ Will China invades Taiwan before GT | Descartado: Confianza de la IA (0.20) inferior al mínimo (0.50).
+2026-05-17 13:15:28,113 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 13:15:28,113 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-17 13:15:31,330 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:31,331 | INFO | ❌ Will Yoo Jeong-bok win the 2026 Inc | Edge (-0.05%) < umbral (sin noticia: 3.00%)
+2026-05-17 13:15:33,605 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 13:15:33,606 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 13:15:35,837 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:35,838 | INFO | Vol [566140]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 13:15:35,838 | INFO | ❌ Will Arsenal win the 2025–26 Champi | Mercado inactivo (vol=0.0000, rango=0.150)
+2026-05-17 13:15:35,841 | INFO | ❌ Will the Oklahoma City Thunder win  | Descartado por EventDetector: Evento cacheado (16.3h/52h)
+2026-05-17 13:15:35,843 | INFO | ❌ Will the Detroit Pistons win the NB | Descartado por EventDetector: Evento cacheado (15.8h/52h)
+2026-05-17 13:15:37,942 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 13:15:37,943 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 13:15:40,207 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:40,208 | INFO | Vol [643776]: tp=4% sl=-3% h=10h vol=0.002 pulsos=sí
+2026-05-17 13:15:40,208 | INFO | 🧠 [Will Joe Mazzulla win the 2025–2026] Bayesiano score=0.61 (✅) | {'señal:no': '50% (14 trades)', 'vol:bajo': '67% (3 trades)', 'edge:medio': '100% (2 trades)', 'confianza:alta': '50% (14 trades)', 'precio:extremo_bajo': '50% (4 trades)', 'noticia:no': '50% (14 trades)'}
+2026-05-17 13:15:40,208 | INFO | 📊 Will Joe Mazzulla win the 2025–2026 | vol=0.0020 TP=4.5% SL=-3.0% 10h
+2026-05-17 13:15:40,208 | INFO | 💰 Will Joe Mazzulla win the 2025–2026 | kelly=0.0092 monto=$7.94 capital=$859.24
+2026-05-17 13:15:40,211 | INFO | ❌ Will the Detroit Pistons win the 20 | Descartado por EventDetector: Evento cacheado (16.7h/52h)
+2026-05-17 13:15:42,488 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 13:15:42,488 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-17 13:15:45,691 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 13:15:45,692 | INFO | ❌ Will PSG win the 2025–26 Champions  | Edge (0.50%) < umbral (sin noticia: 3.00%)
+2026-05-17 13:15:45,695 | INFO | 🚫 Will Alphabet be the largest company in : Post-INACTIVA (2.7h/4h)
+2026-05-17 13:15:45,695 | INFO | ❌ Will Alphabet be the largest compan | Descartado por EventDetector: Post-INACTIVA (2.7h/4h)
+2026-05-17 13:15:45,695 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Will Volodymyr Zelenskyy win the No | Monto: $20
+2026-05-17 13:15:45,695 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | New Rihanna Album before GTA VI? | Monto: $8.25
+2026-05-17 13:15:45,695 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will GPT-6 be released before GTA V | Monto: $20
+2026-05-17 13:15:45,695 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will Tottenham be relegated from th | Monto: $20
+2026-05-17 13:15:45,695 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will Joe Mazzulla win the 2025–2026 | Monto: $7.94
+2026-05-17 13:15:45,700 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #96 | Nuevas Abiertas: 5
+2026-05-17 13:15:45,700 | INFO | =======================================================
