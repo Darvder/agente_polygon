@@ -101,12 +101,12 @@ You MUST respond with a single, perfectly formatted JSON object.
 Do NOT include any markdown code blocks (like ```json), do NOT add any introductory or concluding text outside the curly braces, and NEVER add trailing comments or orphan strings inside the JSON object.
 
 Your response must contain EXACTLY these 4 keys and nothing else:
-{
+{{
   "estimacion": (float between 0.0 and 1.0 representing your probability estimation),
   "confianza": (float between 0.0 and 1.0 representing your confidence level),
   "hay_noticia": (boolean true/false, true if there is recent relevant news from the text provided),
   "razonamiento": (string, brief text under 100 characters summarizing your logic. Place ALL your comments, notes, or history warnings strictly INSIDE this string value)
-}"""
+}}"""
 
 
 # ── Estado y libro ─────────────────────────────────────────────────
