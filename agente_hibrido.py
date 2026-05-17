@@ -179,7 +179,6 @@ def noticias(pregunta, cn):
 
 
 # ── Verificar salidas (usa TP/SL/HORAS dinámicos guardados) ───────
-
 def verificar_salidas(df, estado, mercados_actuales):
     if df.empty: return df, 0
     pl = {m["id"]:m["mid_price"] for m in mercados_actuales}
@@ -192,29 +191,15 @@ def verificar_salidas(df, estado, mercados_actuales):
             h   = abs((ahora-dt).total_seconds()/3600)
             mid = pl.get(str(pos.get("market_id",""))) or ql.get(str(pos["pregunta"])[:70])
 
+            if mid is None:
+                if h >= float(pos.get("horas_max", 6)): mid = float(pos["precio_actual"])
+                else: continue
+
             # TP/SL/HORAS específicos guardados en la posición
             tp_pos = float(pos.get("tp_dinamico", 0.09))
             sl_pos = float(pos.get("sl_dinamico", -0.07))
             h_max  = float(pos.get("horas_max",   6))
-            fecha_entrada = pd.to_datetime(fila["fecha_entrada_dt"])
-            horas_transcurridas = (datetime.now() - fecha_entrada).total_seconds() / 3600.0
-            horas_max = float(fila["horas_max"])
             
-            tp_dinamico = float(fila["tp_dinamico"])
-            rendimiento_actual = float(fila["pct_cambio"]) # Rendimiento actual de la posición
-            
-            # REGLA DE EARLY EXIT (Rotación de Capital)
-            # Si logramos el 70% del TP esperado en las primeras horas, aseguramos ganancias.
-            target_early_exit = tp_dinamico * 0.70
-            if rendimiento_actual >= target_early_exit and horas_transcurridas < (horas_max * 0.25):
-                ejecutar_cierre_mercado(fila["market_id"], razon="EARLY_EXIT")
-                log.info(f"⚡ EARLY EXIT: Rotación de capital en {fila['pregunta'][:30]}. ROI rápido: {rendimiento_actual:.1%}")
-                continue
-
-            if mid is None:
-                if h >= h_max: mid = float(pos["precio_actual"])
-                else: continue
-
             df.loc[idx,"precio_actual"] = mid
             pte = float(pos["precio_token_entrada"])
             pta = mid if pos["señal"]=="COMPRAR YES" else 1-mid
@@ -224,9 +209,20 @@ def verificar_salidas(df, estado, mercados_actuales):
             df["fecha_cierre_real"] = df["fecha_cierre_real"].astype(object)
 
             razon = None
-            if   pct >= tp_pos: razon="TAKE_PROFIT"; estado["n_tp"]+=1
-            elif pct <= sl_pos: razon="STOP_LOSS";   estado["n_sl"]+=1
-            elif h >= h_max:    razon="TIME_EXIT";   estado["n_time"]+=1
+            
+            # REGLA DE EARLY EXIT (Rotación de Capital)
+            # Si logramos el 70% del TP esperado en menos del 25% del tiempo permitido, cerramos.
+            if pct >= (tp_pos * 0.70) and h < (h_max * 0.25):
+                razon = "EARLY_EXIT"
+            elif pct >= tp_pos: 
+                razon = "TAKE_PROFIT"
+                estado["n_tp"] = estado.get("n_tp", 0) + 1
+            elif pct <= sl_pos: 
+                razon = "STOP_LOSS"
+                estado["n_sl"] = estado.get("n_sl", 0) + 1
+            elif h >= h_max:    
+                razon = "TIME_EXIT"
+                estado["n_time"] = estado.get("n_time", 0) + 1
 
             if razon:
                 pnl = round(float(pos["monto_usdc"])*pct,2)
@@ -236,12 +232,15 @@ def verificar_salidas(df, estado, mercados_actuales):
                 df.loc[idx,"pnl_realizado"]    = pnl
                 df.loc[idx,"razon_cierre"]     = razon
                 df.loc[idx,"fecha_cierre_real"]= ahora.strftime("%Y-%m-%d %H:%M")
-                estado["capital_actual"]   = estado.get("capital_actual",CAPITAL_INICIAL)+float(pos["monto_usdc"])+pnl
-                estado["capital_en_riesgo"]= max(0,estado.get("capital_en_riesgo",0)-float(pos["monto_usdc"]))
-                cerradas+=1
-                log.info(f"{'✅' if pnl>=0 else '❌'} [{razon}] {pos['pregunta'][:45]} | {pct:+.1%} | ${pnl:+.2f} | {h:.1f}h")
+                estado["capital_actual"]   = estado.get("capital_actual", CAPITAL_INICIAL) + float(pos["monto_usdc"]) + pnl
+                estado["capital_en_riesgo"]= max(0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"]))
+                cerradas += 1
+                
+                icono = "⚡" if razon == "EARLY_EXIT" else ("✅" if pnl >= 0 else "❌")
+                log.info(f"{icono} [{razon}] {pos['pregunta'][:45]} | {pct:+.1%} | ${pnl:+.2f} | {h:.1f}h")
         except Exception as e:
             log.warning(f"Error salida idx={idx}: {e}")
+            
     guardar_libro(df)
     return df, cerradas
 
