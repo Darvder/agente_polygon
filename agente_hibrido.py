@@ -335,6 +335,12 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
 
+        MIN_VOL_1D = 0.001   # < 0.1% vol diaria → precio no se mueve
+        MIN_RANGO  = 0.015   # < 1.5% rango histórico IQR → mercado plano
+        if met and met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO:
+            log.info(f"❌ {nombre_m} | Descartado: Mercado inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
+            return None
+
         # NUEVO LOG: Visualización detallada de Volatilidad y Momentum
         log.info(
             f"📊 Volatilidad {nombre_m} | "
