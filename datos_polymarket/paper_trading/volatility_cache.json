@@ -135,18 +135,18 @@
         }
     },
     "540817": {
-        "ts": "2026-05-16T20:32:15.176926",
+        "ts": "2026-05-17T12:53:49.561755",
         "m": {
-            "vol_1d": 0.00976,
-            "vol_7d": 0.00791,
+            "vol_1d": 0.00532,
+            "vol_7d": 0.00984,
             "rango": 0.085,
-            "tendencia": -1,
+            "tendencia": 1,
             "en_extremo": false,
             "hay_pulsos": true,
             "intervalo_h": 24,
             "precio_min": 0.5,
             "precio_max": 0.82,
-            "n": 4238
+            "n": 4245
         }
     },
     "540818": {
@@ -885,10 +885,10 @@
         }
     },
     "601828": {
-        "ts": "2026-05-17T06:38:19.107252",
+        "ts": "2026-05-17T12:52:55.025534",
         "m": {
-            "vol_1d": 0.00357,
-            "vol_7d": 0.00673,
+            "vol_1d": 0.00363,
+            "vol_7d": 0.00667,
             "rango": 0.0295,
             "tendencia": 0,
             "en_extremo": false,
@@ -896,7 +896,7 @@
             "intervalo_h": 24,
             "precio_min": 0.0135,
             "precio_max": 0.129,
-            "n": 4246
+            "n": 4253
         }
     },
     "678929": {
@@ -1152,6 +1152,81 @@
             "precio_min": 0.394,
             "precio_max": 0.7385,
             "n": 4168
+        }
+    },
+    "608398": {
+        "ts": "2026-05-17T12:52:39.479100",
+        "m": {
+            "vol_1d": 0.07349,
+            "vol_7d": 0.07267,
+            "rango": 0.0415,
+            "tendencia": 0,
+            "en_extremo": true,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.0485,
+            "precio_max": 0.5,
+            "n": 4131
+        }
+    },
+    "679654": {
+        "ts": "2026-05-17T12:52:41.944951",
+        "m": {
+            "vol_1d": 0.01188,
+            "vol_7d": 0.04232,
+            "rango": 0.0775,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.023,
+            "precio_max": 0.655,
+            "n": 4253
+        }
+    },
+    "573647": {
+        "ts": "2026-05-17T12:52:52.309556",
+        "m": {
+            "vol_1d": 0.00547,
+            "vol_7d": 0.00287,
+            "rango": 0.095,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.505,
+            "precio_max": 0.825,
+            "n": 4155
+        }
+    },
+    "564195": {
+        "ts": "2026-05-17T12:53:10.417809",
+        "m": {
+            "vol_1d": 0.0,
+            "vol_7d": 0.00197,
+            "rango": 0.425,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.065,
+            "precio_max": 0.69,
+            "n": 4237
+        }
+    },
+    "582139": {
+        "ts": "2026-05-17T12:53:15.492826",
+        "m": {
+            "vol_1d": 0.0,
+            "vol_7d": 0.00022,
+            "rango": 0.2645,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.17,
+            "precio_max": 0.711,
+            "n": 4144
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "se\u00f1al:no": {
-    "n": 13,
-    "wins": 6,
-    "wr": 0.462
+    "n": 14,
+    "wins": 7,
+    "wr": 0.5
   },
   "categoria:cultura": {
     "n": 2,
@@ -15,14 +15,14 @@
     "wr": 0.286
   },
   "edge:muy_alto": {
-    "n": 9,
-    "wins": 2,
-    "wr": 0.222
+    "n": 10,
+    "wins": 3,
+    "wr": 0.3
   },
   "confianza:alta": {
-    "n": 13,
-    "wins": 6,
-    "wr": 0.462
+    "n": 14,
+    "wins": 7,
+    "wr": 0.5
   },
   "precio:medio": {
     "n": 4,
@@ -30,9 +30,9 @@
     "wr": 0.0
   },
   "noticia:no": {
-    "n": 13,
-    "wins": 6,
-    "wr": 0.462
+    "n": 14,
+    "wins": 7,
+    "wr": 0.5
   },
   "categoria:deportes": {
     "n": 2,
@@ -40,9 +40,9 @@
     "wr": 0.0
   },
   "categoria:politica": {
-    "n": 3,
-    "wins": 2,
-    "wr": 0.667
+    "n": 4,
+    "wins": 3,
+    "wr": 0.75
   },
   "categoria:crypto_tech": {
     "n": 6,
@@ -50,8 +50,8 @@
     "wr": 0.667
   },
   "precio:bajo": {
-    "n": 4,
-    "wins": 4,
+    "n": 5,
+    "wins": 5,
     "wr": 1.0
   },
   "precio:extremo_bajo": {
@@ -65,9 +65,9 @@
     "wr": 0.0
   },
   "vol:bajo": {
-    "n": 2,
-    "wins": 1,
-    "wr": 0.5
+    "n": 3,
+    "wins": 2,
+    "wr": 0.667
   },
   "vol:alto": {
     "n": 2,
