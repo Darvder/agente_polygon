@@ -808,5 +808,80 @@
             "precio_max": 0.08,
             "n": 4162
         }
+    },
+    "601822": {
+        "ts": "2026-05-16T21:45:16.493025",
+        "m": {
+            "vol_1d": 0.00512,
+            "vol_7d": 0.02482,
+            "rango": 0.002,
+            "tendencia": 0,
+            "en_extremo": true,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.0035,
+            "precio_max": 0.0385,
+            "n": 4188
+        }
+    },
+    "604470": {
+        "ts": "2026-05-16T21:46:09.755126",
+        "m": {
+            "vol_1d": 0.00412,
+            "vol_7d": 0.00853,
+            "rango": 0.0115,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.0125,
+            "precio_max": 0.042,
+            "n": 4159
+        }
+    },
+    "562793": {
+        "ts": "2026-05-16T21:46:24.304276",
+        "m": {
+            "vol_1d": 0.0,
+            "vol_7d": 0.00167,
+            "rango": 0.06,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.445,
+            "precio_max": 0.555,
+            "n": 4176
+        }
+    },
+    "628947": {
+        "ts": "2026-05-16T21:46:29.419368",
+        "m": {
+            "vol_1d": 0.04154,
+            "vol_7d": 0.04509,
+            "rango": 0.0176,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.0075,
+            "precio_max": 0.078,
+            "n": 4228
+        }
+    },
+    "569373": {
+        "ts": "2026-05-16T21:46:33.663360",
+        "m": {
+            "vol_1d": 0.00062,
+            "vol_7d": 0.00359,
+            "rango": 0.15,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.1215,
+            "precio_max": 0.4475,
+            "n": 4229
+        }
     }
 }

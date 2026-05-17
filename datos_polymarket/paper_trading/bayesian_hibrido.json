@@ -5,7 +5,7 @@
     "wr": 0.0
   },
   "mom_bucket:muy_bajo": {
-    "n": 15,
+    "n": 21,
     "wins": 0,
     "wr": 0.0
   },
@@ -15,26 +15,36 @@
     "wr": 0.0
   },
   "hora_bucket:noche": {
-    "n": 15,
+    "n": 21,
     "wins": 0,
     "wr": 0.0
   },
   "precio_bucket:muy_bajo": {
-    "n": 10,
+    "n": 14,
     "wins": 0,
     "wr": 0.0
   },
   "categoria:deportes": {
-    "n": 3,
+    "n": 4,
     "wins": 0,
     "wr": 0.0
   },
   "categoria:politica": {
-    "n": 1,
+    "n": 3,
     "wins": 0,
     "wr": 0.0
   },
   "precio_bucket:alto": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "categoria:otro": {
+    "n": 3,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "precio_bucket:medio": {
     "n": 1,
     "wins": 0,
     "wr": 0.0
