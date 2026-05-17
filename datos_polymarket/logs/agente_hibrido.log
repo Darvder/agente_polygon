@@ -3207,3 +3207,10 @@ PRECIO_BUCKET:
 2026-05-16 20:32:57,821 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will China invades Taiwan before GT | Monto: $20
 2026-05-16 20:32:57,824 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #74 | Nuevas Abiertas: 4
 2026-05-16 20:32:57,824 | INFO | =======================================================
+2026-05-16 20:42:42,912 | INFO | =======================================================
+2026-05-16 20:42:42,912 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-16 20:42:42,912 | INFO | =======================================================
+2026-05-16 20:42:42,918 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 20:42:43,158 | INFO | Mercados: 24
+2026-05-16 20:42:43,233 | INFO | Mercados: 24
+2026-05-16 20:42:43,235 | INFO | Cartera llena
