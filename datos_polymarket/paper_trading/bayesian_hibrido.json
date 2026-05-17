@@ -1,72 +1,92 @@
 {
-  "categoria:futbol": {
-    "n": 11,
-    "wins": 0,
-    "wr": 0.0
-  },
-  "mom_bucket:muy_bajo": {
-    "n": 53,
-    "wins": 7,
-    "wr": 0.132
-  },
-  "precio_bucket:bajo": {
-    "n": 9,
-    "wins": 0,
-    "wr": 0.0
-  },
-  "hora_bucket:noche": {
-    "n": 34,
-    "wins": 4,
-    "wr": 0.118
-  },
-  "precio_bucket:muy_bajo": {
-    "n": 26,
-    "wins": 1,
-    "wr": 0.038
-  },
-  "categoria:deportes": {
-    "n": 7,
-    "wins": 0,
-    "wr": 0.0
+  "se\u00f1al:no": {
+    "n": 12,
+    "wins": 5,
+    "wr": 0.417
   },
   "categoria:cultura": {
-    "n": 3,
+    "n": 2,
     "wins": 0,
     "wr": 0.0
   },
-  "precio_bucket:alto": {
-    "n": 10,
-    "wins": 3,
-    "wr": 0.3
+  "vol:plano": {
+    "n": 7,
+    "wins": 2,
+    "wr": 0.286
+  },
+  "edge:muy_alto": {
+    "n": 9,
+    "wins": 2,
+    "wr": 0.222
+  },
+  "confianza:alta": {
+    "n": 12,
+    "wins": 5,
+    "wr": 0.417
+  },
+  "precio:medio": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "noticia:no": {
+    "n": 12,
+    "wins": 5,
+    "wr": 0.417
+  },
+  "categoria:deportes": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.0
   },
   "categoria:politica": {
-    "n": 17,
-    "wins": 2,
-    "wr": 0.118
+    "n": 2,
+    "wins": 1,
+    "wr": 0.5
   },
-  "precio_bucket:medio": {
+  "categoria:crypto_tech": {
+    "n": 6,
+    "wins": 4,
+    "wr": 0.667
+  },
+  "precio:bajo": {
     "n": 3,
-    "wins": 1,
-    "wr": 0.333
+    "wins": 3,
+    "wr": 1.0
   },
-  "categoria:otro": {
-    "n": 15,
-    "wins": 5,
-    "wr": 0.333
-  },
-  "precio_bucket:muy_alto": {
-    "n": 5,
+  "precio:extremo_bajo": {
+    "n": 4,
     "wins": 2,
-    "wr": 0.4
+    "wr": 0.5
   },
-  "hora_bucket:madrugada": {
-    "n": 7,
+  "precio:alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "vol:bajo": {
+    "n": 2,
     "wins": 1,
-    "wr": 0.143
+    "wr": 0.5
   },
-  "hora_bucket:manana": {
-    "n": 12,
+  "vol:alto": {
+    "n": 1,
+    "wins": 1,
+    "wr": 1.0
+  },
+  "edge:alto": {
+    "n": 2,
     "wins": 2,
-    "wr": 0.167
+    "wr": 1.0
+  },
+  "vol:medio": {
+    "n": 2,
+    "wins": 1,
+    "wr": 0.5
+  },
+  "edge:medio": {
+    "n": 1,
+    "wins": 1,
+    "wr": 1.0
   }
 }
