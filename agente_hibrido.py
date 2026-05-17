@@ -359,8 +359,14 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
         # 5. --- Motor Bayesiano y de Volatilidad ---
         ok, score, feats = bayesian.should_trade(
-            pregunta=m["pregunta"], cambio_1h=m.get("cambio_1h", 0.0),
-            precio_entrada=m["mid_price"], fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
+            pregunta=nombre_m,
+            precio_entrada=precio_tok,
+            señal=señal,
+            vol_1d=met.get("vol_1d", 0) if met else 0,
+            edge=edge_neto,
+            confianza=confianza,
+            hay_noticia=hay_noticia,
+            fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
         log.info(f"🧠 Bayesiano Score para {nombre_m}: {score:.4f} | Forzado a True para entrenamiento.")
         # ANTES (línea 326):
