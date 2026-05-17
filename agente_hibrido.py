@@ -438,6 +438,12 @@ async def ciclo():
     df = actualizar_precios_abiertos(df)
     guardar_libro(df)
 
+    # Filtro de cupo disponible
+    n_ab = len(df[df["estado"]=="ABIERTA"]) if not df.empty else 0
+    cupo = MAX_POSICIONES - n_ab
+    if cupo <= 0:
+        log.info("Cartera llena")
+        return
     
     # Inicialización de Módulos
     bayesian = BayesianEngine(archivo_libro=ARCHIVO_LIBRO, archivo_modelo="datos_polymarket/paper_trading/bayesian_hibrido.json")
@@ -454,12 +460,7 @@ async def ciclo():
     mercados = escanear()
     if not mercados: return
 
-    # Filtro de cupo disponible
-    n_ab = len(df[df["estado"]=="ABIERTA"]) if not df.empty else 0
-    cupo = MAX_POSICIONES - n_ab
-    if cupo <= 0:
-        log.info("Cartera llena")
-        return
+
 
     # 2. CREAR TAREAS ASÍNCRONAS EN PARALELO
     # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
