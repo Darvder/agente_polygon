@@ -153,7 +153,8 @@ def generar_dashboard():
                     <td><span class="badge-razon {razon.lower()}">{razon}</span></td>
                 </tr>"""
 
-            win_rate = total_ganadas / total_cerradas if total_cerradas > 0 else 0.0
+            trades_reales = total_ganadas + total_perdidas
+            win_rate = total_ganadas / trades_reales if trades_reales > 0 else 0.0
             avg_win  = sum(wins) / len(wins) if wins else 0.0
             avg_loss = sum(losses) / len(losses) if losses else 0.0
 
