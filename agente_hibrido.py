@@ -248,8 +248,8 @@ def verificar_salidas(df, estado, mercados_actuales):
             razon = None
             
             # REGLA DE EARLY EXIT (Rotación de Capital)
-            # Si logramos el 70% del TP esperado en menos del 25% del tiempo permitido, cerramos.
-            if pct >= (tp_pos * 0.70) and h < (h_max * 0.25):
+            # Si logramos el 80% del TP esperado en menos del 20% del tiempo permitido, cerramos.
+            if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
                 razon = "EARLY_EXIT"
             elif pct >= tp_pos: 
                 razon = "TAKE_PROFIT"
