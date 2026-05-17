@@ -35,7 +35,7 @@ os.environ['TZ'] = 'America/Guayaquil'
 
 
 # Definimos un semáforo para permitir máximo 3 peticiones simultáneas a Groq y evitar el Error 429
-groq_semaphore = asyncio.Semaphore(3)
+groq_semaphore = asyncio.Semaphore(1)
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
@@ -102,7 +102,7 @@ Do NOT include any markdown code blocks (like ```json), do NOT add any introduct
 
 Your response must contain EXACTLY these 4 keys and nothing else:
 {{
-  "estimacion": (float between 0.0 and 1.0 representing your probability estimation),
+  "estimacion": (float between 0.0 and 1.0. MUST be a plain decimal number like 0.093 or 0.126. NEVER use fractions, mathematical expressions, or the slash '/' character),
   "confianza": (float between 0.0 and 1.0 representing your confidence level),
   "hay_noticia": (boolean true/false, true if there is recent relevant news from the text provided),
   "razonamiento": (string, brief text under 100 characters summarizing your logic. Place ALL your comments, notes, or history warnings strictly INSIDE this string value)
@@ -274,6 +274,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         )
 
         try:
+            await asyncio.sleep(2)
             # Llamada asíncrona real utilizando await
             msg = await cliente_llm.chat.completions.create(
                 model="llama-3.1-8b-instant",
