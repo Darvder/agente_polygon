@@ -356,12 +356,23 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         if confianza < MIN_CONFIANZA:
             log.info(f"❌ {nombre_m} | Descartado: Confianza de la IA ({confianza:.2f}) inferior al mínimo ({MIN_CONFIANZA:.2f}).")
             return None
-
         # 5. --- Motor Bayesiano y de Volatilidad ---
+      
         señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
+        
+        # Volatilidad primero (met se necesita para Bayesiano)
+        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        
+        MIN_VOL_1D = 0.002
+        MIN_RANGO  = 0.020
+        if met and (met.get("vol_1d", 0) < MIN_VOL_1D or met.get("rango", 0) < MIN_RANGO):
+            log.info(f"❌ {nombre_m} | Mercado inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
+            return None
+        
         kelly = edge_neto * confianza * 0.3
         monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
-        precio_tok = m["mid_price"] if señal=="COMPRAR YES" else round(1-m["mid_price"],4)
+        precio_tok = m["mid_price"] if señal == "COMPRAR YES" else round(1 - m["mid_price"], 4)
+        
         ok, score, feats = bayesian.should_trade(
             pregunta=nombre_m,
             precio_entrada=precio_tok,
@@ -372,60 +383,16 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             hay_noticia=hay_noticia,
             fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
-        log.info(f"🧠 Bayesiano Score para {nombre_m}: {score:.4f} | Forzado a True para entrenamiento.")
-        # ANTES (línea 326):
-        # DESPUÉS: úsalo como filtro suave (no bloquea, pero sí filtra cuando hay historial)
-        if not ok and patron.get('n', 0) > 5:  # solo bloquea si hay suficiente historial
-            log.info(f"🧠 {nombre_m} | Bayesiano bloquea (score={score:.3f}, n={patron.get('n',0)} trades)")
-            return None
-        log.info(f"🧠 {nombre_m} | Bayesiano: score={score:.4f} ({'bloqueado→ignorado' if not ok else 'OK'})")
-
-        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
-
-        MIN_VOL_1D = 0.001   # < 0.1% vol diaria → precio no se mueve
-        MIN_RANGO  = 0.015   # < 1.5% rango histórico IQR → mercado plano
-        if met and met.get("vol_1d", 0) < MIN_VOL_1D or met.get("rango", 0) < MIN_RANGO:
-            log.info(f"❌ {nombre_m} | Descartado: Mercado inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
-            return None
-
-        # NUEVO LOG: Visualización detallada de Volatilidad y Momentum
-        log.info(
-            f"📊 Volatilidad {nombre_m} | "
-            f"Movimiento 1h: {m.get('cambio_1h', 0.0):+.2%} | "
-            f"TP: {tp:+.1%} | "
-            f"SL: {sl:+.1%} | "
-            f"Límite: {max_h}h | "
-            f"Cálculo: {met}"
-        )
         
-        # Generar Estructura de la Nueva Posición
-
+        if not ok and score < 0.5:
+            log.info(f"❌ {nombre_m} | Bayesiano bloquea (score={score:.2f})")
+            return None
         
-        # Filtro: Capital Mínimo por Trade
+        log.info(f"📊 {nombre_m} | vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%} {max_h}h")
+        
         if monto < 5:
-            log.info(f"❌ {nombre_m} | Descartado: Tamaño de posición Kelly (${monto}) menor al mínimo de $5 USDC.")
+            log.info(f"❌ {nombre_m} | Kelly monto ${monto} < $5 mínimo")
             return None
-        
-        ev_detector.registrar_evento(m["id"], m["pregunta"])
-        return {
-            "fecha_entrada": datetime.now().strftime("%Y-%m-%d"),
-            "fecha_entrada_dt": datetime.now().strftime("%Y-%m-%d %H:%M"),
-            "market_id": m["id"],
-            "pregunta": m["pregunta"][:70],
-            "señal": señal,
-            "precio_entrada": m["mid_price"],
-            "precio_token_entrada": precio_tok,
-            "precio_actual": m["mid_price"],
-            "tp_dinamico": tp,
-            "sl_dinamico": sl,
-            "horas_max": max_h,
-            "monto_usdc": monto,
-            "estado": "ABIERTA",
-            "razonamiento": an.get("razonamiento","")[:100],
-            "llm_confianza": confianza,
-            "llm_edge":      edge_neto,
-            "vol_1d":        met.get("vol_1d", 0.0) if met else 0.0,
-        }
 
 
 # ══════════════════════════════════════════════════════════════════
