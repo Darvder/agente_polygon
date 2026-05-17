@@ -2949,3 +2949,63 @@ PRECIO_BUCKET:
 2026-05-16 19:38:23,150 | INFO | ❌ Will Norway win the 2026 FIFA World | Descartado por Bloqueo del Motor Bayesiano (Score Bajo/Incierto).
 2026-05-16 19:38:23,151 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #70 | Nuevas Abiertas: 0
 2026-05-16 19:38:23,151 | INFO | =======================================================
+2026-05-16 19:47:44,022 | INFO | =======================================================
+2026-05-16 19:47:44,022 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-16 19:47:44,022 | INFO | =======================================================
+2026-05-16 19:47:44,029 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 19:47:44,241 | INFO | Mercados: 23
+2026-05-16 19:47:44,331 | INFO | Mercados: 23
+2026-05-16 19:47:46,918 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:47:46,932 | INFO | ❌ New Rihanna Album before GTA VI? | Descartado: Sin noticias y Edge Neto (-2.00%) inferior al 2% requerido.
+2026-05-16 19:47:49,185 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:47:49,186 | INFO | ❌ New Playboi Carti Album before GTA  | Descartado: Sin noticias y Edge Neto (-2.50%) inferior al 2% requerido.
+2026-05-16 19:47:51,590 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:47:51,591 | INFO | ❌ Trump out as President before GTA V | Descartado: Sin noticias y Edge Neto (-0.50%) inferior al 2% requerido.
+2026-05-16 19:47:53,918 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:47:53,919 | INFO | ❌ Will China invades Taiwan before GT | Descartado: Sin noticias y Edge Neto (-0.50%) inferior al 2% requerido.
+2026-05-16 19:47:56,250 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:47:56,251 | INFO | ❌ Will bitcoin hit $1m before GTA VI? | Descartado: Sin noticias y Edge Neto (0.60%) inferior al 2% requerido.
+2026-05-16 19:47:59,020 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:47:59,021 | INFO | ❌ Will the Carolina Hurricanes win th | Descartado: Sin noticias y Edge Neto (-0.50%) inferior al 2% requerido.
+2026-05-16 19:48:01,388 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:01,389 | INFO | ❌ Will the Colorado Avalanche win the | Descartado: Sin noticias y Edge Neto (0.05%) inferior al 2% requerido.
+2026-05-16 19:48:03,694 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:03,695 | INFO | ❌ Will the Vegas Golden Knights win t | Descartado: Sin noticias y Edge Neto (0.35%) inferior al 2% requerido.
+2026-05-16 19:48:05,956 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:05,957 | INFO | ❌ Will the Montreal Canadiens win the | Descartado: Sin noticias y Edge Neto (-2.00%) inferior al 2% requerido.
+2026-05-16 19:48:08,224 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:08,225 | INFO | ❌ Will the Oklahoma City Thunder win  | Descartado: Sin noticias y Edge Neto (-0.50%) inferior al 2% requerido.
+2026-05-16 19:48:11,014 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:11,015 | INFO | ❌ Will the New York Knicks win the 20 | Descartado: Sin noticias y Edge Neto (0.25%) inferior al 2% requerido.
+2026-05-16 19:48:13,299 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:13,300 | INFO | ❌ Will the San Antonio Spurs win the  | Descartado: Sin noticias y Edge Neto (-0.05%) inferior al 2% requerido.
+2026-05-16 19:48:15,573 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:15,574 | INFO | ❌ Will the Detroit Pistons win the 20 | Descartado: Sin noticias y Edge Neto (-0.05%) inferior al 2% requerido.
+2026-05-16 19:48:18,096 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:18,097 | INFO | ❌ Will Spain win the 2026 FIFA World  | Descartado: Sin noticias y Edge Neto (0.45%) inferior al 2% requerido.
+2026-05-16 19:48:20,371 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:20,372 | INFO | ❌ Will England win the 2026 FIFA Worl | Descartado: Sin noticias y Edge Neto (0.25%) inferior al 2% requerido.
+2026-05-16 19:48:22,585 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:22,586 | INFO | ❌ Will France win the 2026 FIFA World | Descartado: Sin noticias y Edge Neto (0.15%) inferior al 2% requerido.
+2026-05-16 19:48:25,035 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:25,036 | INFO | ❌ Will Brazil win the 2026 FIFA World | Descartado: Sin noticias y Edge Neto (0.05%) inferior al 2% requerido.
+2026-05-16 19:48:27,573 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:27,575 | INFO | 🧠 Bayesiano Score para Will Argentina win the 2026 FIFA Wo: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 19:48:27,996 | INFO | Vol [558938]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 19:48:30,630 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:30,631 | INFO | ❌ Will Germany win the 2026 FIFA Worl | Descartado: Sin noticias y Edge Neto (0.05%) inferior al 2% requerido.
+2026-05-16 19:48:33,272 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:33,273 | INFO | ❌ Will Portugal win the 2026 FIFA Wor | Descartado: Sin noticias y Edge Neto (0.05%) inferior al 2% requerido.
+2026-05-16 19:48:35,713 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:35,714 | INFO | 🧠 Bayesiano Score para Will Netherlands win the 2026 FIFA : 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 19:48:36,129 | INFO | Vol [558941]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 19:48:38,661 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:38,662 | INFO | ❌ Will Japan win the 2026 FIFA World  | Descartado: Confianza de la IA (0.20) inferior al mínimo (0.50).
+2026-05-16 19:48:41,358 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:48:41,359 | INFO | 🧠 Bayesiano Score para Will Norway win the 2026 FIFA World: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 19:48:41,556 | INFO | Vol [558951]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 19:48:41,557 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Will Argentina win the 2026 FIFA Wo | Monto: $20
+2026-05-16 19:48:41,557 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Will Netherlands win the 2026 FIFA  | Monto: $20
+2026-05-16 19:48:41,557 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Will Norway win the 2026 FIFA World | Monto: $20
+2026-05-16 19:48:41,560 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #71 | Nuevas Abiertas: 3
+2026-05-16 19:48:41,561 | INFO | =======================================================
