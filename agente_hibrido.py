@@ -414,7 +414,10 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             "horas_max": max_h,
             "monto_usdc": monto,
             "estado": "ABIERTA",
-            "razonamiento": an.get("razonamiento","")[:100]
+            "razonamiento": an.get("razonamiento","")[:100],
+            "llm_confianza": confianza,
+            "llm_edge":      edge_neto,
+            "vol_1d":        met.get("vol_1d", 0.0) if met else 0.0,
         }
 
 
