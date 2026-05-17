@@ -43,20 +43,20 @@ BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 10
 
 # ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
-MIN_EDGE        = 0.03
-MIN_CONFIANZA   = 0.50
-MIN_VOLUMEN     = 10_000
-MAX_SPREAD      = 0.08
-MIN_PRECIO      = 0.04
-MAX_PRECIO      = 0.96
-MAX_DIAS        = 180
-MIN_DIAS        = 1
-MAX_POSICIONES  = 10
-CAPITAL_INICIAL = 1_000
-CAPITAL_POR_OP  = 20
-MAX_EXPOSICION  = 40
-MAX_PERDIDA_DIA = 30
-NEWS_WINDOW_H   = 48
+MIN_EDGE        = 0.025   # Bajado a 2.5% para capturar más micro-ineficiencias
+MIN_CONFIANZA   = 0.50    # Mantenido (umbral equilibrado para Llama-3)
+MIN_VOLUMEN     = 4_000   # Bajado para escanear mercados medianos con más fallos de precio
+MAX_SPREAD      = 0.10    # Subido al 10% para tolerar libros de órdenes más jóvenes
+MIN_PRECIO      = 0.02    # Permite buscar oportunidades en "long-shots" baratos
+MAX_PRECIO      = 0.98    # Permite operar contratos casi resueltos con ventajas seguras
+MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
+MIN_DIAS        = 1       
+MAX_POSICIONES  = 10      
+CAPITAL_INICIAL = 1_000   
+CAPITAL_POR_OP  = 20      
+MAX_EXPOSICION  = 40      
+MAX_PERDIDA_DIA = 30      
+NEWS_WINDOW_H   = 72
 
 PATRONES_EXCLUIR = [
     "jesus","christ","second coming","rapture",
@@ -297,7 +297,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         edge_neto = round(abs(diferencia) - m["spread"], 4)
 
         # Filtro Inteligente de Noticias (Bypass condicional)
-        if not hay_noticia and edge_neto < 0.07:
+        if not hay_noticia and edge_neto < 0.05:
             return None
             
         if edge_neto < MIN_EDGE or confianza < MIN_CONFIANZA:
