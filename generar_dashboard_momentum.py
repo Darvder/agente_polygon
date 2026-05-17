@@ -78,7 +78,8 @@ def generar_dashboard():
                     pnl_flotante = ((1.0 - precio_act) - precio_ent) * (monto / precio_ent) if precio_ent > 0 else 0
 
                 pnl_clase = "positive" if pnl_flotante >= 0 else "negative"
-                pct_burbuja = calcular_posicion_barra(precio_ent, precio_act, tp_real, sl_real)
+                precio_act_token = precio_act if "YES" in senal.upper() else round(1 - precio_act, 4)
+                pct_burbuja = calcular_posicion_barra(precio_ent, precio_act_token, tp_real, sl_real)
 
                 ops_abiertas_html += f"""
                 <div class="card-orden">
