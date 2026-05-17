@@ -405,18 +405,18 @@
         }
     },
     "566140": {
-        "ts": "2026-05-17T10:35:48.952183",
+        "ts": "2026-05-17T17:13:53.387282",
         "m": {
-            "vol_1d": 0.0,
-            "vol_7d": 0.0,
+            "vol_1d": 0.00475,
+            "vol_7d": 0.00183,
             "rango": 0.15,
-            "tendencia": 0,
+            "tendencia": -1,
             "en_extremo": false,
             "hay_pulsos": true,
             "intervalo_h": 24,
             "precio_min": 0.255,
             "precio_max": 0.425,
-            "n": 4135
+            "n": 4142
         }
     },
     "601826": {
@@ -765,10 +765,10 @@
         }
     },
     "657287": {
-        "ts": "2026-05-17T09:27:02.822303",
+        "ts": "2026-05-17T17:13:27.387580",
         "m": {
-            "vol_1d": 0.00133,
-            "vol_7d": 0.00565,
+            "vol_1d": 0.0,
+            "vol_7d": 0.00225,
             "rango": 0.0165,
             "tendencia": 0,
             "en_extremo": false,
@@ -776,7 +776,7 @@
             "intervalo_h": 24,
             "precio_min": 0.0495,
             "precio_max": 0.107,
-            "n": 4139
+            "n": 4147
         }
     },
     "564198": {
@@ -1362,6 +1362,36 @@
             "precio_min": 0.1,
             "precio_max": 0.295,
             "n": 4259
+        }
+    },
+    "569343": {
+        "ts": "2026-05-17T17:13:16.867838",
+        "m": {
+            "vol_1d": 0.00729,
+            "vol_7d": 0.00427,
+            "rango": 0.055,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.76,
+            "precio_max": 0.955,
+            "n": 4133
+        }
+    },
+    "679651": {
+        "ts": "2026-05-17T17:13:21.608283",
+        "m": {
+            "vol_1d": 0.0897,
+            "vol_7d": 0.10098,
+            "rango": 0.0565,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.0045,
+            "precio_max": 0.4985,
+            "n": 4139
         }
     }
 }
