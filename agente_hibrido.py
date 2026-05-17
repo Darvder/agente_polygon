@@ -276,7 +276,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         try:
             # Llamada asíncrona real utilizando await
             msg = await cliente_llm.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="llama-3.1-8b-instant",
                 messages=[{"role":"user","content":prompt}],
                 max_tokens=150,
                 response_format={"type": "json_object"} # JSON Mode activo para evitar errores de formato
