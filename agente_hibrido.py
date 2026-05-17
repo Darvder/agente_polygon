@@ -51,7 +51,7 @@ MIN_PRECIO      = 0.02    # Permite buscar oportunidades en "long-shots" baratos
 MAX_PRECIO      = 0.98    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
 MIN_DIAS        = 1       
-MAX_POSICIONES  = 10      
+MAX_POSICIONES  = 20     
 CAPITAL_INICIAL = 1_000   
 CAPITAL_POR_OP  = 20      
 MAX_EXPOSICION  = 40      
@@ -108,6 +108,31 @@ Your response must contain EXACTLY these 4 keys and nothing else:
   "razonamiento": (string, brief text under 100 characters summarizing your logic. Place ALL your comments, notes, or history warnings strictly INSIDE this string value)
 }}"""
 
+# Cerrar inactivas __________________________________________________
+def cerrar_inactivas(df, estado):
+    """Cierra posiciones donde el mercado no se ha movido (vol implícita = 0)."""
+    if df.empty: return df, 0
+    cerradas = 0
+    for idx, pos in df[df["estado"] == "ABIERTA"].iterrows():
+        pte = float(pos["precio_token_entrada"])
+        pta = float(pos["precio_actual"])
+        if pte == 0: continue
+        pct = (pta - pte) / pte
+        # Si precio no se movió nada desde entrada → cerrar
+        if abs(pct) < 0.001:
+            pnl = round(float(pos["monto_usdc"]) * pct, 2)
+            df.loc[idx, "estado"]            = "CERRADA"
+            df.loc[idx, "precio_cierre"]     = pta
+            df.loc[idx, "pct_cambio"]        = round(pct, 4)
+            df.loc[idx, "pnl_realizado"]     = pnl
+            df.loc[idx, "razon_cierre"]      = "INACTIVA"
+            df.loc[idx, "fecha_cierre_real"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+            estado["capital_actual"]    = estado.get("capital_actual", 1000.0) + float(pos["monto_usdc"]) + pnl
+            estado["capital_en_riesgo"] = max(0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"]))
+            cerradas += 1
+            log.info(f"🔒 [INACTIVA] {pos['pregunta'][:45]} | Precio sin movimiento → capital liberado")
+    guardar_libro(df)
+    return df, cerradas
 
 # ── Estado y libro ─────────────────────────────────────────────────
 
@@ -400,6 +425,8 @@ async def ciclo():
     
     estado = cargar_estado()
     df = cargar_libro()
+    df, n_inactivas = cerrar_inactivas(df, estado)
+    if n_inactivas: guardar_estado(estado)
     
     # Inicialización de Módulos
     bayesian = BayesianEngine(archivo_libro=ARCHIVO_LIBRO, archivo_modelo="datos_polymarket/paper_trading/bayesian_hibrido.json")
