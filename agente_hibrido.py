@@ -102,7 +102,7 @@ Do NOT include any markdown code blocks (like ```json), do NOT add any introduct
 
 Your response must contain EXACTLY these 4 keys and nothing else:
 {{
-  "estimacion": (float between 0.0 and 1.0. MUST be a plain decimal number like 0.093 or 0.126. NEVER use fractions, mathematical expressions, or the slash '/' character),
+  "estimacion": (integer between 0 and 100 representing your probability percentage. MUST be a plain whole number like 14, 4, or 75. NEVER use decimals, slashes, or divisions),
   "confianza": (float between 0.0 and 1.0 representing your confidence level),
   "hay_noticia": (boolean true/false, true if there is recent relevant news from the text provided),
   "razonamiento": (string, brief text under 100 characters summarizing your logic. Place ALL your comments, notes, or history warnings strictly INSIDE this string value)
@@ -291,8 +291,13 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             return None
 
         # 4. --- Filtros Matemáticos y Edge ---
-        estimacion = float(an.get("estimacion", m["mid_price"]))
-        if estimacion > 1.0: estimacion /= 100.0
+        estimacion_raw = an.get("estimacion", m["mid_price"] * 100)
+        try:
+            estimacion = float(estimacion_raw)
+            if estimacion > 1.0: 
+                estimacion /= 100.0  # Convierte entero (ej: 14) a float (0.14)
+        except Exception:
+            estimacion = m["mid_price"]
         
         confianza = float(an.get("confianza", 0.5))
         hay_noticia = bool(an.get("hay_noticia", False))
@@ -300,8 +305,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         edge_neto = round(abs(diferencia) - m["spread"], 4)
 
         # Filtro: Bypass de Noticias
-        if not hay_noticia and edge_neto < 0.05:
-            log.info(f"❌ {nombre_m} | Descartado: Sin noticias y Edge Neto ({edge_neto:.2%}) inferior al 5% requerido.")
+        if not hay_noticia and edge_neto < 0.02:
+            log.info(f"❌ {nombre_m} | Descartado: Sin noticias y Edge Neto ({edge_neto:.2%}) inferior al 2% requerido.")
             return None
             
         # Filtro: Umbrales Mínimos Básicos
