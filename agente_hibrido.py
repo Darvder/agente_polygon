@@ -316,6 +316,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             await asyncio.sleep(2) # Evita saturación de TPM
             msg = await cliente_llm.chat.completions.create(
                 model="llama-3.1-8b-instant",
+                temperature: 0.0,
                 messages=[{"role":"user","content":prompt}],
                 max_tokens=150,
                 response_format={"type": "json_object"}
@@ -463,11 +464,9 @@ async def ciclo():
     # 2. CREAR TAREAS ASÍNCRONAS EN PARALELO
     # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
     # Ordenar por volumen (más líquidos primero) y tomar top 60
-    mercados_a_revisar = sorted(
-        mercados,
-        key=lambda x: x["volumen_usd"],
-        reverse=True
-    )[:60]
+    import random
+    top100 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:100]
+    mercados_a_revisar = random.sample(top100, min(40, len(top100)))
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
