@@ -1288,5 +1288,35 @@
             "precio_max": 0.667,
             "n": 4134
         }
+    },
+    "569368": {
+        "ts": "2026-05-17T13:36:05.923059",
+        "m": {
+            "vol_1d": 0.00476,
+            "vol_7d": 0.00225,
+            "rango": 0.03,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.28,
+            "precio_max": 0.435,
+            "n": 4137
+        }
+    },
+    "631141": {
+        "ts": "2026-05-17T13:36:17.005794",
+        "m": {
+            "vol_1d": 0.02979,
+            "vol_7d": 0.03216,
+            "rango": 0.055,
+            "tendencia": 0,
+            "en_extremo": false,
+            "hay_pulsos": true,
+            "intervalo_h": 24,
+            "precio_min": 0.045,
+            "precio_max": 0.19,
+            "n": 4136
+        }
     }
 }
