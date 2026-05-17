@@ -6390,3 +6390,170 @@ PRECIO_BUCKET:
 2026-05-17 12:03:09,545 | INFO | ❌ Will Abelardo de la Espriella win t | Descartado por EventDetector: Post-INACTIVA (1.5h/4h)
 2026-05-17 12:03:09,546 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #91 | Nuevas Abiertas: 0
 2026-05-17 12:03:09,546 | INFO | =======================================================
+2026-05-17 12:11:09,132 | INFO | =======================================================
+2026-05-17 12:11:09,132 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-17 12:11:09,132 | INFO | =======================================================
+2026-05-17 12:11:09,906 | INFO | Bayesiano: 18 condiciones | 13 trades válidos (42 INACTIVA/TIME_EXIT excluidos)
+2026-05-17 12:11:11,229 | INFO | Mercados escaneados: 2000 | Elegibles: 239
+2026-05-17 12:11:12,452 | INFO | Mercados escaneados: 2000 | Elegibles: 239
+2026-05-17 12:11:12,478 | INFO | ❌ Will the San Antonio Spurs win the  | Descartado por EventDetector: Evento cacheado (15.6h/52h)
+2026-05-17 12:11:15,199 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:15,214 | INFO | Vol [558936]: tp=4% sl=-3% h=10h vol=0.001 pulsos=sí
+2026-05-17 12:11:15,214 | INFO | ❌ Will France win the 2026 FIFA World | Mercado inactivo (vol=0.0011, rango=0.008)
+2026-05-17 12:11:17,844 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:17,845 | INFO | Vol [558949]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:17,845 | INFO | ❌ Will Japan win the 2026 FIFA World  | Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-17 12:11:20,387 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:20,388 | INFO | Vol [558934]: tp=4% sl=-3% h=10h vol=0.001 pulsos=sí
+2026-05-17 12:11:20,388 | INFO | ❌ Will Spain win the 2026 FIFA World  | Mercado inactivo (vol=0.0012, rango=0.009)
+2026-05-17 12:11:22,917 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:22,918 | INFO | Vol [558940]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:22,918 | INFO | ❌ Will Portugal win the 2026 FIFA Wor | Mercado inactivo (vol=0.0000, rango=0.004)
+2026-05-17 12:11:25,702 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:25,703 | INFO | Vol [558941]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:25,703 | INFO | ❌ Will Netherlands win the 2026 FIFA  | Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-17 12:11:28,276 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:28,276 | INFO | ❌ Will Brazil win the 2026 FIFA World | Descartado: Confianza de la IA (0.40) inferior al mínimo (0.50).
+2026-05-17 12:11:28,278 | INFO | ❌ Will the Detroit Pistons win the 20 | Descartado por EventDetector: Evento cacheado (15.6h/52h)
+2026-05-17 12:11:30,613 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:30,614 | INFO | Vol [558938]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:30,614 | INFO | ❌ Will Argentina win the 2026 FIFA Wo | Mercado inactivo (vol=0.0000, rango=0.002)
+2026-05-17 12:11:33,168 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:33,169 | INFO | ❌ Will Norway win the 2026 FIFA World | Descartado: Confianza de la IA (0.40) inferior al mínimo (0.50).
+2026-05-17 12:11:35,674 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:35,675 | INFO | Vol [558935]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:35,675 | INFO | ❌ Will England win the 2026 FIFA Worl | Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-17 12:11:38,099 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:38,100 | INFO | Vol [558939]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:38,102 | INFO | ❌ Will Germany win the 2026 FIFA Worl | Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-17 12:11:38,106 | INFO | ❌ Will the Colorado Avalanche win the | Descartado por EventDetector: Evento cacheado (15.3h/52h)
+2026-05-17 12:11:38,109 | INFO | ❌ Will the New York Knicks win the 20 | Descartado por EventDetector: Evento cacheado (15.6h/52h)
+2026-05-17 12:11:41,131 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:41,132 | INFO | Vol [566188]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:41,132 | INFO | ❌ Will Manchester City win the 2025–2 | Mercado inactivo (vol=0.0000, rango=0.300)
+2026-05-17 12:11:41,135 | INFO | ❌ Will the Oklahoma City Thunder win  | Descartado por EventDetector: Evento cacheado (15.3h/52h)
+2026-05-17 12:11:41,136 | INFO | ⏭️ Will Arsenal win the 2025–26 Englis | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:11:43,491 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:43,492 | INFO | ❌ Will PSG win the 2025–26 Champions  | Edge (0.50%) < umbral (sin noticia: 3.00%)
+2026-05-17 12:11:46,069 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:46,070 | INFO | Vol [566140]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:11:46,070 | INFO | ❌ Will Arsenal win the 2025–26 Champi | Mercado inactivo (vol=0.0000, rango=0.150)
+2026-05-17 12:11:48,182 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:11:48,183 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:11:50,617 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:51,071 | INFO | Vol [601822]: tp=4% sl=-3% h=10h vol=0.011 pulsos=sí
+2026-05-17 12:11:51,071 | INFO | ❌ Will Michelle Bolsonaro win the 202 | Mercado inactivo (vol=0.0111, rango=0.002)
+2026-05-17 12:11:53,187 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:11:53,187 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:11:55,562 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:11:55,562 | INFO | Vol [601826]: tp=4% sl=-3% h=10h vol=0.001 pulsos=sí
+2026-05-17 12:11:55,562 | INFO | ❌ Will Flávio Bolsonaro win the 2026  | Mercado inactivo (vol=0.0005, rango=0.049)
+2026-05-17 12:11:57,692 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:11:57,693 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-17 12:12:00,948 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:00,949 | INFO | ❌ Will Luiz Inácio Lula da Silva win  | Descartado: Edge Neto (1.50%) inferior al mínimo (2.50%).
+2026-05-17 12:12:03,095 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:03,096 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-17 12:12:06,418 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:06,419 | INFO | ❌ Will Renan Santos win the 2026 Braz | Descartado: Confianza de la IA (0.30) inferior al mínimo (0.50).
+2026-05-17 12:12:06,420 | INFO | ⏭️ Will Ken Paxton win the 2026 Texas  | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:12:08,540 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:08,540 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:12:10,795 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:10,796 | INFO | ❌ Will Fernando Haddad win the 2026 B | Descartado: Confianza de la IA (0.40) inferior al mínimo (0.50).
+2026-05-17 12:12:12,917 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:12,918 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:12:15,186 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:15,187 | INFO | Vol [540844]: tp=4% sl=-3% h=10h vol=0.001 pulsos=sí
+2026-05-17 12:12:15,187 | INFO | ❌ Will bitcoin hit $1m before GTA VI? | Mercado inactivo (vol=0.0008, rango=0.004)
+2026-05-17 12:12:15,190 | INFO | 🚫 Starmer out by June 30, 2026?: Post-EARLY_EXIT (0.2h/4h)
+2026-05-17 12:12:15,190 | INFO | ❌ Starmer out by June 30, 2026? | Descartado por EventDetector: Post-EARLY_EXIT (0.2h/4h)
+2026-05-17 12:12:15,192 | INFO | ❌ Will the Buffalo Sabres win the 202 | Descartado por EventDetector: Evento cacheado (15.3h/52h)
+2026-05-17 12:12:15,193 | INFO | ⏭️ Will the Democratic Party control t | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:12:17,415 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:17,416 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-17 12:12:20,704 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:20,704 | INFO | Vol [637002]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:12:20,704 | INFO | ❌ Will Donald Trump win the Nobel Pea | Mercado inactivo (vol=0.0000, rango=0.010)
+2026-05-17 12:12:20,705 | INFO | ⏭️ Will John Cornyn win the 2026 Texas | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:12:22,829 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:22,829 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-17 12:12:27,311 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:27,312 | INFO | Vol [628955]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:12:27,312 | INFO | ❌ Will Tom Steyer win the California  | Mercado inactivo (vol=0.0000, rango=0.107)
+2026-05-17 12:12:29,428 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:29,429 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:12:31,850 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:31,850 | INFO | Vol [648383]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:12:31,850 | INFO | ❌ Billionaire one-time wealth tax pas | Mercado inactivo (vol=0.0000, rango=0.070)
+2026-05-17 12:12:33,967 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:33,968 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:12:36,254 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:36,255 | INFO | Vol [692258]: tp=4% sl=-3% h=10h vol=0.001 pulsos=sí
+2026-05-17 12:12:36,255 | INFO | ❌ MicroStrategy sells any Bitcoin by  | Mercado inactivo (vol=0.0014, rango=0.630)
+2026-05-17 12:12:36,258 | INFO | 🚫 Will the Republican Party control the Ho: Post-INACTIVA (0.8h/4h)
+2026-05-17 12:12:36,258 | INFO | ❌ Will the Republican Party control t | Descartado por EventDetector: Post-INACTIVA (0.8h/4h)
+2026-05-17 12:12:36,260 | INFO | ❌ Will the Montreal Canadiens win the | Descartado por EventDetector: Evento cacheado (15.1h/52h)
+2026-05-17 12:12:38,374 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:38,375 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-17 12:12:41,615 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:41,616 | INFO | ❌ Will Romeu Zema win the 2026 Brazil | Descartado: Confianza de la IA (0.40) inferior al mínimo (0.50).
+2026-05-17 12:12:41,619 | INFO | ❌ Will the Vegas Golden Knights win t | Descartado por EventDetector: Evento cacheado (16.1h/52h)
+2026-05-17 12:12:43,734 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:43,734 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:12:45,994 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:45,995 | INFO | ❌ Will UNRWA win the Nobel Peace Priz | Edge (2.85%) < umbral (sin noticia: 3.00%)
+2026-05-17 12:12:48,111 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:48,112 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-05-17 12:12:50,347 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:50,348 | INFO | ❌ Will Yoo Jeong-bok win the 2026 Inc | Edge (-0.05%) < umbral (sin noticia: 3.00%)
+2026-05-17 12:12:52,463 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:52,463 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-17 12:12:55,985 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:12:55,986 | INFO | Vol [540843]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:12:55,986 | INFO | ❌ Will China invades Taiwan before GT | Mercado inactivo (vol=0.0000, rango=0.010)
+2026-05-17 12:12:55,989 | INFO | 🚫 2026 Balance of Power: D Senate, D House: Post-INACTIVA (0.2h/4h)
+2026-05-17 12:12:55,989 | INFO | ❌ 2026 Balance of Power: D Senate, D  | Descartado por EventDetector: Post-INACTIVA (0.2h/4h)
+2026-05-17 12:12:55,992 | INFO | 🚫 Will Oh Se-hoon win the 2026 Seoul Mayor: Post-INACTIVA (0.9h/4h)
+2026-05-17 12:12:55,992 | INFO | ❌ Will Oh Se-hoon win the 2026 Seoul  | Descartado por EventDetector: Post-INACTIVA (0.9h/4h)
+2026-05-17 12:12:55,994 | INFO | 🚫 Will Alphabet be the largest company in : Post-INACTIVA (1.6h/4h)
+2026-05-17 12:12:55,994 | INFO | ❌ Will Alphabet be the largest compan | Descartado por EventDetector: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:12:58,121 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:12:58,121 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-17 12:13:02,438 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:13:02,439 | INFO | Vol [562830]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:13:02,439 | INFO | ❌ 2026 Balance of Power: R Senate, D  | Mercado inactivo (vol=0.0000, rango=0.040)
+2026-05-17 12:13:02,442 | INFO | 🚫 Israel and Indonesia normalize relations: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:02,442 | INFO | ❌ Israel and Indonesia normalize rela | Descartado por EventDetector: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:04,547 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:13:04,547 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-17 12:13:08,813 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:13:08,814 | INFO | Vol [562831]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:13:08,815 | INFO | ❌ 2026 Balance of Power: R Senate, R  | Mercado inactivo (vol=0.0000, rango=0.090)
+2026-05-17 12:13:08,817 | INFO | ❌ Will the San Antonio Spurs win the  | Descartado por EventDetector: Evento cacheado (14.8h/52h)
+2026-05-17 12:13:10,958 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:13:10,958 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-17 12:13:15,281 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:13:15,282 | INFO | Vol [562793]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-17 12:13:15,282 | INFO | ❌ Will the Democratic Party control t | Mercado inactivo (vol=0.0000, rango=0.060)
+2026-05-17 12:13:15,284 | INFO | 🚫 Will Chad Bianco win the California Gove: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:15,285 | INFO | ❌ Will Chad Bianco win the California | Descartado por EventDetector: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:15,287 | INFO | 🚫 Will NVIDIA be the largest company in th: Post-STOP_LOSS (0.9h/6h)
+2026-05-17 12:13:15,287 | INFO | ❌ Will NVIDIA be the largest company  | Descartado por EventDetector: Post-STOP_LOSS (0.9h/6h)
+2026-05-17 12:13:17,408 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-17 12:13:17,409 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-17 12:13:21,887 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 12:13:21,888 | INFO | ❌ Will Steve Hilton win the Californi | Descartado: Confianza de la IA (0.10) inferior al mínimo (0.50).
+2026-05-17 12:13:21,889 | INFO | ⏭️ Will Paloma Valencia win the 2026 C | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:13:21,890 | INFO | ⏭️ Will Abelardo de la Espriella  win  | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:13:21,890 | INFO | ⏭️ Will the Republican Party control t | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:13:21,893 | INFO | ❌ Will the Detroit Pistons win the NB | Descartado por EventDetector: Evento cacheado (14.8h/52h)
+2026-05-17 12:13:21,895 | INFO | 🚫 Will MetaMask launch a token by June 30?: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:21,895 | INFO | ❌ Will MetaMask launch a token by Jun | Descartado por EventDetector: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:21,898 | INFO | 🚫 Will Katie Porter win the California Gov: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:21,898 | INFO | ❌ Will Katie Porter win the Californi | Descartado por EventDetector: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:21,899 | INFO | ⏭️ Will Chong Won-oh win the 2026 Seou | Saltado: Ya existe posición ABIERTA.
+2026-05-17 12:13:21,901 | INFO | 🚫 Will Abelardo de la Espriella win the 1s: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:21,901 | INFO | ❌ Will Abelardo de la Espriella win t | Descartado por EventDetector: Post-INACTIVA (1.6h/4h)
+2026-05-17 12:13:21,901 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #92 | Nuevas Abiertas: 0
+2026-05-17 12:13:21,901 | INFO | =======================================================
