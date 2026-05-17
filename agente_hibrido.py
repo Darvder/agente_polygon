@@ -158,8 +158,8 @@ def escanear():
     hoy = datetime.now().date()
     raw = []
     offset = 0
-    BATCH = 500
-    MAX_PAGINAS = 6  # hasta 3000 mercados
+    BATCH = 100
+    MAX_PAGINAS = 20  # hasta 3000 mercados
     try:
         while len(raw) < MAX_PAGINAS * BATCH:
             r = requests.get(f"{BASE_URL}/markets",
