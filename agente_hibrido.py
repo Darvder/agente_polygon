@@ -383,12 +383,17 @@ async def ciclo():
 
     # 2. CREAR TAREAS ASÍNCRONAS EN PARALELO
     # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
-    mercados_a_revisar = sorted(mercados, key=lambda x: -x["volumen_usd"])[:40]
+    mercados_a_revisar = sorted(
+        mercados, 
+        key=lambda x: abs(x.get("cambio_1h", 0.0)), 
+        reverse=True
+    )[:12]
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
         for m in mercados_a_revisar
     ]
+
     
     # Ejecución paralela masiva
     resultados = await asyncio.gather(*tareas)
