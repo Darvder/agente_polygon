@@ -94,7 +94,7 @@ Noticias de las últimas 48 horas:
 
 Historial de este mercado: {patron}
 
-Estima la probabilidad real de YES. Si no hay noticias relevantes → estimacion = precio actual.
+Estima la probabilidad real de YES usando tu conocimiento sobre el evento, el contexto deportivo/político, y las noticias si las hay. Tu estimación puede diferir del precio de mercado si tienes razones fundamentales para ello.
 
 CRITICAL FORMAT INSTRUCTIONS:
 You MUST respond with a single, perfectly formatted JSON object. 
@@ -304,10 +304,13 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         edge_neto = round(abs(diferencia) - m["spread"], 4)
 
         # Filtro: Bypass de Noticias
-        if not hay_noticia and edge_neto < 0.02:
-            log.info(f"❌ {nombre_m} | Descartado: Sin noticias y Edge Neto ({edge_neto:.2%}) inferior al 2% requerido.")
+        EDGE_SIN_NOTICIA = 0.03   # 3% sin noticias (más exigente)
+        EDGE_CON_NOTICIA = 0.015  # 1.5% con noticias (más permisivo)
+        
+        umbral = EDGE_CON_NOTICIA if hay_noticia else EDGE_SIN_NOTICIA
+        if edge_neto < umbral:
+            log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({'con' if hay_noticia else 'sin'} noticia: {umbral:.2%})")
             return None
-            
         # Filtro: Umbrales Mínimos Básicos
         if edge_neto < MIN_EDGE:
             log.info(f"❌ {nombre_m} | Descartado: Edge Neto ({edge_neto:.2%}) inferior al mínimo ({MIN_EDGE:.2%}).")
@@ -323,7 +326,12 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             precio_entrada=m["mid_price"], fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
         log.info(f"🧠 Bayesiano Score para {nombre_m}: {score:.4f} | Forzado a True para entrenamiento.")
-        ok = True #
+        # ANTES (línea 326):
+        # DESPUÉS: úsalo como filtro suave (no bloquea, pero sí filtra cuando hay historial)
+        if not ok and patron.get('n', 0) > 5:  # solo bloquea si hay suficiente historial
+            log.info(f"🧠 {nombre_m} | Bayesiano bloquea (score={score:.3f}, n={patron.get('n',0)} trades)")
+            return None
+        log.info(f"🧠 {nombre_m} | Bayesiano: score={score:.4f} ({'bloqueado→ignorado' if not ok else 'OK'})")
 
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
 
