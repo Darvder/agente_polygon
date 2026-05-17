@@ -5,9 +5,9 @@
     "wr": 0.0
   },
   "mom_bucket:muy_bajo": {
-    "n": 26,
+    "n": 30,
     "wins": 1,
-    "wr": 0.038
+    "wr": 0.033
   },
   "precio_bucket:bajo": {
     "n": 5,
@@ -20,7 +20,7 @@
     "wr": 0.038
   },
   "precio_bucket:muy_bajo": {
-    "n": 16,
+    "n": 19,
     "wins": 0,
     "wr": 0.0
   },
@@ -40,14 +40,14 @@
     "wr": 0.0
   },
   "categoria:politica": {
-    "n": 5,
+    "n": 7,
     "wins": 0,
     "wr": 0.0
   },
   "categoria:otro": {
-    "n": 4,
+    "n": 6,
     "wins": 1,
-    "wr": 0.25
+    "wr": 0.167
   },
   "precio_bucket:medio": {
     "n": 1,
@@ -55,8 +55,13 @@
     "wr": 0.0
   },
   "precio_bucket:muy_alto": {
-    "n": 1,
+    "n": 2,
     "wins": 1,
-    "wr": 1.0
+    "wr": 0.5
+  },
+  "hora_bucket:madrugada": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.0
   }
 }
