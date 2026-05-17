@@ -3214,3 +3214,84 @@ PRECIO_BUCKET:
 2026-05-16 20:42:43,158 | INFO | Mercados: 24
 2026-05-16 20:42:43,233 | INFO | Mercados: 24
 2026-05-16 20:42:43,235 | INFO | Cartera llena
+2026-05-16 20:56:03,939 | INFO | =======================================================
+2026-05-16 20:56:03,940 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-16 20:56:03,940 | INFO | =======================================================
+2026-05-16 20:56:03,945 | INFO | 🔒 [INACTIVA] Will Argentina win the 2026 FIFA World Cup? | Precio sin movimiento → capital liberado
+2026-05-16 20:56:03,946 | INFO | 🔒 [INACTIVA] Will Netherlands win the 2026 FIFA World Cup? | Precio sin movimiento → capital liberado
+2026-05-16 20:56:03,946 | INFO | 🔒 [INACTIVA] Will Norway win the 2026 FIFA World Cup? | Precio sin movimiento → capital liberado
+2026-05-16 20:56:03,947 | INFO | 🔒 [INACTIVA] Will Germany win the 2026 FIFA World Cup? | Precio sin movimiento → capital liberado
+2026-05-16 20:56:03,948 | INFO | 🔒 [INACTIVA] Will the Vegas Golden Knights win the 2026 NH | Precio sin movimiento → capital liberado
+2026-05-16 20:56:03,949 | INFO | 🔒 [INACTIVA] Will Japan win the 2026 FIFA World Cup? | Precio sin movimiento → capital liberado
+2026-05-16 20:56:03,950 | INFO | 🔒 [INACTIVA] Trump out as President before GTA VI? | Precio sin movimiento → capital liberado
+2026-05-16 20:56:03,956 | INFO | Modelo Bayesiano actualizado: 8 condiciones aprendidas
+2026-05-16 20:56:04,185 | INFO | Mercados: 24
+2026-05-16 20:56:04,255 | INFO | Mercados: 24
+2026-05-16 20:56:04,258 | INFO | ⏭️ New Rihanna Album before GTA VI? | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:56:04,258 | INFO | ⏭️ New Playboi Carti Album before GTA  | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:56:04,261 | INFO | 🚫 Trump out as President before GTA VI?: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:04,261 | INFO | ❌ Trump out as President before GTA V | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:04,261 | INFO | ⏭️ Will China invades Taiwan before GT | Saltado: Ya existe posición ABIERTA.
+2026-05-16 20:56:06,743 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:06,758 | INFO | 🧠 Bayesiano Score para Will bitcoin hit $1m before GTA VI?: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:56:06,758 | INFO | 🧠 Will bitcoin hit $1m before GTA VI? | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:56:06,758 | INFO | Vol [540844]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:56:06,758 | INFO | ❌ Will bitcoin hit $1m before GTA VI? | Descartado: Mercado inactivo (vol=0.0000, rango=0.004)
+2026-05-16 20:56:06,760 | INFO | ❌ Will the Carolina Hurricanes win th | Descartado por EventDetector: Evento cacheado (0.4h/52h)
+2026-05-16 20:56:09,240 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:09,241 | INFO | 🧠 Bayesiano Score para Will the Colorado Avalanche win the: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:56:09,241 | INFO | 🧠 Will the Colorado Avalanche win the | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:56:09,486 | INFO | Vol [553828]: tp=4% sl=-3% h=10h vol=0.004 pulsos=sí
+2026-05-16 20:56:09,486 | INFO | 📊 Volatilidad Will the Colorado Avalanche win the | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.00417, 'vol_7d': 0.00339, 'rango': 0.1127, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.2025, 'precio_max': 0.4185, 'n': 4119}
+2026-05-16 20:56:09,489 | INFO | 🚫 Will the Vegas Golden Knights win the 20: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:09,489 | INFO | ❌ Will the Vegas Golden Knights win t | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:12,360 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:12,361 | INFO | ❌ Will the Montreal Canadiens win the | Edge (2.25%) < umbral (sin noticia: 3.00%)
+2026-05-16 20:56:14,759 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:14,761 | INFO | 🧠 Bayesiano Score para Will the Buffalo Sabres win the 202: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:56:14,761 | INFO | 🧠 Will the Buffalo Sabres win the 202 | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:56:14,990 | INFO | Vol [553851]: tp=22% sl=-15% h=3h vol=0.202 pulsos=sí
+2026-05-16 20:56:14,990 | INFO | 📊 Volatilidad Will the Buffalo Sabres win the 202 | Movimiento 1h: +0.00% | TP: +22.5% | SL: -15.0% | Límite: 3h | Cálculo: {'vol_1d': 0.20231, 'vol_7d': 0.08453, 'rango': 0.0185, 'tendencia': 1, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.014, 'precio_max': 0.103, 'n': 4112}
+2026-05-16 20:56:17,549 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:17,550 | INFO | 🧠 Bayesiano Score para Will the Oklahoma City Thunder win : 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:56:17,550 | INFO | 🧠 Will the Oklahoma City Thunder win  | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:56:17,769 | INFO | Vol [553856]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:56:17,769 | INFO | 📊 Volatilidad Will the Oklahoma City Thunder win  | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.0, 'vol_7d': 0.0013, 'rango': 0.09, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.445, 'precio_max': 0.635, 'n': 4104}
+2026-05-16 20:56:17,771 | INFO | ❌ Will the New York Knicks win the 20 | Descartado por EventDetector: Evento cacheado (0.4h/52h)
+2026-05-16 20:56:17,773 | INFO | ❌ Will the San Antonio Spurs win the  | Descartado por EventDetector: Evento cacheado (0.4h/52h)
+2026-05-16 20:56:17,774 | INFO | ❌ Will the Detroit Pistons win the 20 | Descartado por EventDetector: Evento cacheado (0.4h/52h)
+2026-05-16 20:56:20,335 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:20,336 | INFO | 🧠 Bayesiano Score para Will Spain win the 2026 FIFA World : 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:56:20,336 | INFO | 🧠 Will Spain win the 2026 FIFA World  | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:56:20,337 | INFO | Vol [558934]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:56:20,337 | INFO | ❌ Will Spain win the 2026 FIFA World  | Descartado: Mercado inactivo (vol=0.0000, rango=0.009)
+2026-05-16 20:56:22,842 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:22,843 | INFO | ❌ Will England win the 2026 FIFA Worl | Edge (0.55%) < umbral (sin noticia: 3.00%)
+2026-05-16 20:56:25,807 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:25,808 | INFO | 🧠 Bayesiano Score para Will France win the 2026 FIFA World: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:56:25,808 | INFO | 🧠 Will France win the 2026 FIFA World | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:56:26,026 | INFO | Vol [558936]: tp=4% sl=-3% h=10h vol=0.005 pulsos=sí
+2026-05-16 20:56:26,026 | INFO | 📊 Volatilidad Will France win the 2026 FIFA World | Movimiento 1h: +0.00% | TP: +4.5% | SL: -3.0% | Límite: 10h | Cálculo: {'vol_1d': 0.00453, 'vol_7d': 0.00174, 'rango': 0.007, 'tendencia': 0, 'en_extremo': np.False_, 'hay_pulsos': np.True_, 'intervalo_h': 24, 'precio_min': 0.148, 'precio_max': 0.1885, 'n': 4164}
+2026-05-16 20:56:28,535 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:28,536 | INFO | 🧠 Bayesiano Score para Will Brazil win the 2026 FIFA World: 0.0000 | Forzado a True para entrenamiento.
+2026-05-16 20:56:28,536 | INFO | 🧠 Will Brazil win the 2026 FIFA World | Bayesiano: score=0.0000 (bloqueado→ignorado)
+2026-05-16 20:56:28,536 | INFO | Vol [558937]: tp=4% sl=-3% h=10h vol=0.000 pulsos=sí
+2026-05-16 20:56:28,536 | INFO | ❌ Will Brazil win the 2026 FIFA World | Descartado: Mercado inactivo (vol=0.0000, rango=0.001)
+2026-05-16 20:56:28,539 | INFO | 🚫 Will Argentina win the 2026 FIFA World C: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:28,539 | INFO | ❌ Will Argentina win the 2026 FIFA Wo | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:28,541 | INFO | 🚫 Will Germany win the 2026 FIFA World Cup: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:28,541 | INFO | ❌ Will Germany win the 2026 FIFA Worl | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:30,944 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 20:56:30,945 | INFO | ❌ Will Portugal win the 2026 FIFA Wor | Edge (1.75%) < umbral (sin noticia: 3.00%)
+2026-05-16 20:56:30,948 | INFO | 🚫 Will Netherlands win the 2026 FIFA World: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:30,948 | INFO | ❌ Will Netherlands win the 2026 FIFA  | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:30,950 | INFO | 🚫 Will Japan win the 2026 FIFA World Cup?: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:30,950 | INFO | ❌ Will Japan win the 2026 FIFA World  | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:30,952 | INFO | 🚫 Will Norway win the 2026 FIFA World Cup?: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:30,952 | INFO | ❌ Will Norway win the 2026 FIFA World | Descartado por EventDetector: Post-INACTIVA (0.0h/4h)
+2026-05-16 20:56:30,952 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will the Colorado Avalanche win the | Monto: $20
+2026-05-16 20:56:30,953 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Will the Buffalo Sabres win the 202 | Monto: $11.56
+2026-05-16 20:56:30,953 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR NO | Will the Oklahoma City Thunder win  | Monto: $20
+2026-05-16 20:56:30,953 | INFO | ✅ NUEVA POSICIÓN ASYNC: COMPRAR YES | Will France win the 2026 FIFA World | Monto: $20
+2026-05-16 20:56:30,956 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #75 | Nuevas Abiertas: 4
+2026-05-16 20:56:30,956 | INFO | =======================================================

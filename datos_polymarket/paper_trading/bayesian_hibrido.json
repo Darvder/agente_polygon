@@ -1,26 +1,41 @@
 {
   "categoria:futbol": {
-    "n": 5,
+    "n": 10,
     "wins": 0,
     "wr": 0.0
   },
   "mom_bucket:muy_bajo": {
-    "n": 5,
+    "n": 12,
     "wins": 0,
     "wr": 0.0
   },
   "precio_bucket:bajo": {
-    "n": 2,
+    "n": 3,
     "wins": 0,
     "wr": 0.0
   },
   "hora_bucket:noche": {
-    "n": 5,
+    "n": 12,
     "wins": 0,
     "wr": 0.0
   },
   "precio_bucket:muy_bajo": {
-    "n": 3,
+    "n": 8,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "categoria:deportes": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "categoria:politica": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "precio_bucket:alto": {
+    "n": 1,
     "wins": 0,
     "wr": 0.0
   }
