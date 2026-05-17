@@ -1,8 +1,8 @@
 {
   "se\u00f1al:no": {
-    "n": 14,
+    "n": 15,
     "wins": 7,
-    "wr": 0.5
+    "wr": 0.467
   },
   "categoria:cultura": {
     "n": 2,
@@ -20,19 +20,19 @@
     "wr": 0.3
   },
   "confianza:alta": {
-    "n": 14,
+    "n": 15,
     "wins": 7,
-    "wr": 0.5
+    "wr": 0.467
   },
   "precio:medio": {
-    "n": 4,
+    "n": 5,
     "wins": 0,
     "wr": 0.0
   },
   "noticia:no": {
-    "n": 14,
+    "n": 15,
     "wins": 7,
-    "wr": 0.5
+    "wr": 0.467
   },
   "categoria:deportes": {
     "n": 2,
@@ -40,9 +40,9 @@
     "wr": 0.0
   },
   "categoria:politica": {
-    "n": 4,
+    "n": 5,
     "wins": 3,
-    "wr": 0.75
+    "wr": 0.6
   },
   "categoria:crypto_tech": {
     "n": 6,
@@ -80,13 +80,13 @@
     "wr": 1.0
   },
   "vol:medio": {
-    "n": 2,
+    "n": 3,
     "wins": 1,
-    "wr": 0.5
+    "wr": 0.333
   },
   "edge:medio": {
-    "n": 2,
+    "n": 3,
     "wins": 2,
-    "wr": 1.0
+    "wr": 0.667
   }
 }

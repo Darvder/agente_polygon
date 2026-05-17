@@ -840,18 +840,18 @@
         }
     },
     "562793": {
-        "ts": "2026-05-17T06:39:01.077272",
+        "ts": "2026-05-17T14:19:45.810191",
         "m": {
-            "vol_1d": 0.0,
+            "vol_1d": 0.00433,
             "vol_7d": 0.00167,
-            "rango": 0.06,
-            "tendencia": 0,
+            "rango": 0.05,
+            "tendencia": 1,
             "en_extremo": false,
             "hay_pulsos": true,
             "intervalo_h": 24,
             "precio_min": 0.445,
-            "precio_max": 0.555,
-            "n": 4181
+            "precio_max": 0.545,
+            "n": 4184
         }
     },
     "628947": {
