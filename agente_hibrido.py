@@ -327,6 +327,16 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         ok = True #
 
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+
+        # NUEVO LOG: Visualización detallada de Volatilidad y Momentum
+        log.info(
+            f"📊 Volatilidad {nombre_m} | "
+            f"Movimiento 1h: {m.get('cambio_1h', 0.0):+.2%} | "
+            f"TP: {tp:+.1%} | "
+            f"SL: {sl:+.1%} | "
+            f"Límite: {max_h}h | "
+            f"Cálculo: {met}"
+        )
         
         # Generar Estructura de la Nueva Posición
         señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
