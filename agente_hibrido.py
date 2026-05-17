@@ -316,7 +316,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             await asyncio.sleep(2) # Evita saturación de TPM
             msg = await cliente_llm.chat.completions.create(
                 model="llama-3.1-8b-instant",
-                temperature: 0.0,
+                temperature = 0.0,
                 messages=[{"role":"user","content":prompt}],
                 max_tokens=150,
                 response_format={"type": "json_object"}
