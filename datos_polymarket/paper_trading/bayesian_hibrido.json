@@ -5,19 +5,19 @@
     "wr": 0.0
   },
   "mom_bucket:muy_bajo": {
-    "n": 23,
-    "wins": 0,
-    "wr": 0.0
+    "n": 26,
+    "wins": 1,
+    "wr": 0.038
   },
   "precio_bucket:bajo": {
-    "n": 4,
+    "n": 5,
     "wins": 0,
     "wr": 0.0
   },
   "hora_bucket:noche": {
-    "n": 23,
-    "wins": 0,
-    "wr": 0.0
+    "n": 26,
+    "wins": 1,
+    "wr": 0.038
   },
   "precio_bucket:muy_bajo": {
     "n": 16,
@@ -25,7 +25,17 @@
     "wr": 0.0
   },
   "categoria:deportes": {
-    "n": 4,
+    "n": 5,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "categoria:cultura": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.0
+  },
+  "precio_bucket:alto": {
+    "n": 3,
     "wins": 0,
     "wr": 0.0
   },
@@ -34,19 +44,19 @@
     "wins": 0,
     "wr": 0.0
   },
-  "precio_bucket:alto": {
-    "n": 2,
-    "wins": 0,
-    "wr": 0.0
-  },
   "categoria:otro": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.0
+    "n": 4,
+    "wins": 1,
+    "wr": 0.25
   },
   "precio_bucket:medio": {
     "n": 1,
     "wins": 0,
     "wr": 0.0
+  },
+  "precio_bucket:muy_alto": {
+    "n": 1,
+    "wins": 1,
+    "wr": 1.0
   }
 }
