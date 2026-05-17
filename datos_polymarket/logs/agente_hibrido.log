@@ -2754,3 +2754,85 @@ PRECIO_BUCKET:
 2026-05-16 19:06:57,598 | WARNING | ⚠️ Error en tarea async LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99974, Requested 392. Please try again in 5m16.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
 2026-05-16 19:06:57,598 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #67 | Nuevas Abiertas: 0
 2026-05-16 19:06:57,598 | INFO | =======================================================
+2026-05-16 19:17:10,850 | INFO | =======================================================
+2026-05-16 19:17:10,850 | INFO | 🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3
+2026-05-16 19:17:10,850 | INFO | =======================================================
+2026-05-16 19:17:10,855 | INFO | Modelo Bayesiano actualizado: 5 condiciones aprendidas
+2026-05-16 19:17:11,092 | INFO | Mercados: 24
+2026-05-16 19:17:11,205 | INFO | Mercados: 24
+2026-05-16 19:17:11,883 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:12,179 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:12,192 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:12,520 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:12,671 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:12,672 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:12,920 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:13,114 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-16 19:17:13,115 | WARNING | ⚠️ Error en tarea async LLM: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n  "estimacion": 9.3/100,\n   "confianza": 0.7,\n   "hay_noticia": false,\n   "razonamiento": "Basado en el precio actual, sin noticias relevantes de última hora"\n}'}}
+2026-05-16 19:17:13,146 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-16 19:17:13,146 | WARNING | ⚠️ Error en tarea async LLM: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n  "estimacion": 12.6 / 100,\n   "confianza": 0.7,\n   "hay_noticia": false,\n   "razonamiento": "Precio actual es base de estimación ya que no hay noticia relevante y no hay historial del mercado."\n}'}}
+2026-05-16 19:17:13,597 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-16 19:17:13,598 | WARNING | ⚠️ Error en tarea async LLM: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n  "estimacion": 14.3/100,\n   "confianza": 0.9,\n   "hay_noticia": false,\n   "razonamiento": "Sin noticias relevantes, la estimación se basa en el precio actual. A falta de información adicional, se conserva la incertidumbre."\n}'}}
+2026-05-16 19:17:13,665 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:13,716 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:13,880 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:13,881 | INFO | Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-05-16 19:17:13,904 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:13,904 | INFO | Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-05-16 19:17:13,941 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:13,941 | INFO | Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-05-16 19:17:18,983 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:18,983 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:19,064 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:19,064 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-16 19:17:19,234 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:19,459 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:19,460 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-16 19:17:22,318 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:22,536 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:22,537 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:22,539 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:22,539 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:23,064 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:23,065 | WARNING | ⚠️ Error en tarea async LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5881, Requested 420. Please try again in 3.01s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 19:17:23,288 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:23,289 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-16 19:17:26,547 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-16 19:17:26,548 | WARNING | ⚠️ Error en tarea async LLM: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n  "estimacion" : 9.2 / 100,\n   "confianza" : 0.1,\n   "hay_noticia" : false,\n   "razonamiento" : "No hay noticias, precio actual determina la estimación sin cambios previos"\n}'}}
+2026-05-16 19:17:26,617 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:26,617 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:26,667 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:26,668 | WARNING | ⚠️ Error en tarea async LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5934, Requested 420. Please try again in 3.54s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 19:17:26,767 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:26,768 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:26,884 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:26,885 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:30,849 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:30,850 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:30,881 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:30,963 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:30,964 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:31,111 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:31,111 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:35,042 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:35,043 | WARNING | ⚠️ Error en tarea async LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5926, Requested 420. Please try again in 3.46s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 19:17:35,190 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:35,191 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:35,296 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:35,296 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:35,314 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:35,548 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:35,549 | INFO | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-05-16 19:17:38,934 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-16 19:17:38,935 | WARNING | ⚠️ Error en tarea async LLM: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n  "estimacion": 2.1 / 100,\n   "confianza": 0.5,\n   "hay_noticia": false,\n   "razonamiento": "No hay noticias relevantes, se basa únicamente en el precio actual del mercado."\n}'}}
+2026-05-16 19:17:39,151 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:39,152 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:39,272 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:39,272 | WARNING | ⚠️ Error en tarea async LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5923, Requested 419. Please try again in 3.42s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 19:17:39,380 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:39,380 | INFO | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-05-16 19:17:43,514 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-16 19:17:43,514 | WARNING | ⚠️ Error en tarea async LLM: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kq3k53q2fs8rhfrfs6d8hrn7` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5918, Requested 414. Please try again in 3.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-16 19:17:43,552 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 19:17:43,553 | INFO | 🏁 FIN DEL CICLO ASÍNCRONO #68 | Nuevas Abiertas: 0
+2026-05-16 19:17:43,553 | INFO | =======================================================
