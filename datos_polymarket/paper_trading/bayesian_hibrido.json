@@ -1,8 +1,8 @@
 {
   "se\u00f1al:no": {
-    "n": 15,
-    "wins": 7,
-    "wr": 0.467
+    "n": 16,
+    "wins": 8,
+    "wr": 0.5
   },
   "categoria:cultura": {
     "n": 2,
@@ -20,9 +20,9 @@
     "wr": 0.3
   },
   "confianza:alta": {
-    "n": 15,
-    "wins": 7,
-    "wr": 0.467
+    "n": 16,
+    "wins": 8,
+    "wr": 0.5
   },
   "precio:medio": {
     "n": 5,
@@ -30,14 +30,14 @@
     "wr": 0.0
   },
   "noticia:no": {
-    "n": 15,
-    "wins": 7,
-    "wr": 0.467
+    "n": 16,
+    "wins": 8,
+    "wr": 0.5
   },
   "categoria:deportes": {
-    "n": 2,
-    "wins": 0,
-    "wr": 0.0
+    "n": 3,
+    "wins": 1,
+    "wr": 0.333
   },
   "categoria:politica": {
     "n": 5,
@@ -55,9 +55,9 @@
     "wr": 1.0
   },
   "precio:extremo_bajo": {
-    "n": 4,
-    "wins": 2,
-    "wr": 0.5
+    "n": 5,
+    "wins": 3,
+    "wr": 0.6
   },
   "precio:alto": {
     "n": 1,
@@ -65,9 +65,9 @@
     "wr": 0.0
   },
   "vol:bajo": {
-    "n": 3,
-    "wins": 2,
-    "wr": 0.667
+    "n": 4,
+    "wins": 3,
+    "wr": 0.75
   },
   "vol:alto": {
     "n": 2,
@@ -85,8 +85,8 @@
     "wr": 0.333
   },
   "edge:medio": {
-    "n": 3,
-    "wins": 2,
-    "wr": 0.667
+    "n": 4,
+    "wins": 3,
+    "wr": 0.75
   }
 }

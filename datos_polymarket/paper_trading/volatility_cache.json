@@ -420,18 +420,18 @@
         }
     },
     "601826": {
-        "ts": "2026-05-17T07:58:30.094097",
+        "ts": "2026-05-17T14:42:43.669083",
         "m": {
-            "vol_1d": 0.00054,
-            "vol_7d": 0.00573,
-            "rango": 0.0485,
+            "vol_1d": 0.0072,
+            "vol_7d": 0.004,
+            "rango": 0.049,
             "tendencia": 0,
-            "en_extremo": false,
+            "en_extremo": true,
             "hay_pulsos": true,
             "intervalo_h": 24,
             "precio_min": 0.261,
             "precio_max": 0.455,
-            "n": 4244
+            "n": 4254
         }
     },
     "601819": {
