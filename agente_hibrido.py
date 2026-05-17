@@ -394,6 +394,26 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         if monto < 5:
             log.info(f"❌ {nombre_m} | Kelly monto ${monto:.2f} < $5 mínimo")
             return None
+        ev_detector.registrar_evento(m["id"], m["pregunta"])
+        return {
+            "fecha_entrada":       datetime.now().strftime("%Y-%m-%d"),
+            "fecha_entrada_dt":    datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "market_id":           m["id"],
+            "pregunta":            m["pregunta"][:70],
+            "señal":               señal,
+            "precio_entrada":      m["mid_price"],
+            "precio_token_entrada": precio_tok,
+            "precio_actual":       m["mid_price"],
+            "tp_dinamico":         tp,
+            "sl_dinamico":         sl,
+            "horas_max":           max_h,
+            "monto_usdc":          monto,
+            "estado":              "ABIERTA",
+            "razonamiento":        an.get("razonamiento", "")[:100],
+            "llm_confianza":       confianza,
+            "llm_edge":            edge_neto,
+            "vol_1d":              met.get("vol_1d", 0.0) if met else 0.0,
+        }
 
 
 # ══════════════════════════════════════════════════════════════════
