@@ -5,7 +5,7 @@
     "wr": 0.0
   },
   "mom_bucket:muy_bajo": {
-    "n": 21,
+    "n": 22,
     "wins": 0,
     "wr": 0.0
   },
@@ -15,12 +15,12 @@
     "wr": 0.0
   },
   "hora_bucket:noche": {
-    "n": 21,
+    "n": 22,
     "wins": 0,
     "wr": 0.0
   },
   "precio_bucket:muy_bajo": {
-    "n": 14,
+    "n": 15,
     "wins": 0,
     "wr": 0.0
   },
@@ -30,7 +30,7 @@
     "wr": 0.0
   },
   "categoria:politica": {
-    "n": 3,
+    "n": 4,
     "wins": 0,
     "wr": 0.0
   },
