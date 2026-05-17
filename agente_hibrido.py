@@ -156,13 +156,25 @@ def guardar_libro(df): df.to_csv(ARCHIVO_LIBRO,index=False)
 
 def escanear():
     hoy = datetime.now().date()
+    raw = []
+    offset = 0
+    BATCH = 500
+    MAX_PAGINAS = 6  # hasta 3000 mercados
     try:
-        r = requests.get(f"{BASE_URL}/markets",
-                        params={"active":True,"closed":False,"limit":500},
-                        timeout=TIMEOUT)
-        r.raise_for_status(); raw = r.json()
+        while len(raw) < MAX_PAGINAS * BATCH:
+            r = requests.get(f"{BASE_URL}/markets",
+                            params={"active":True,"closed":False,
+                                    "limit":BATCH,"offset":offset},
+                            timeout=TIMEOUT)
+            r.raise_for_status()
+            batch = r.json()
+            if not batch: break
+            raw.extend(batch)
+            if len(batch) < BATCH: break  # última página
+            offset += BATCH
     except Exception as e:
         log.error(f"Error API: {e}"); return []
+
     mercados = []
     for m in raw:
         try:
@@ -182,7 +194,7 @@ def escanear():
                             "volumen_usd":float(m.get("volume",0)),
                             "dias":dias,"fecha_cierre":fs})
         except: continue
-    log.info(f"Mercados: {len(mercados)}")
+    log.info(f"Mercados escaneados: {len(raw)} | Elegibles: {len(mercados)}")
     return mercados
 
 
@@ -452,11 +464,12 @@ async def ciclo():
 
     # 2. CREAR TAREAS ASÍNCRONAS EN PARALELO
     # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
+    # Ordenar por volumen (más líquidos primero) y tomar top 60
     mercados_a_revisar = sorted(
-        mercados, 
-        key=lambda x: abs(x.get("cambio_1h", 0.0)), 
+        mercados,
+        key=lambda x: x["volumen_usd"],
         reverse=True
-    )[:30]
+    )[:60]
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
