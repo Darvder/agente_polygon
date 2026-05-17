@@ -94,7 +94,7 @@ Noticias de las últimas 48 horas:
 
 Historial de este mercado: {patron}
 
-Estima la probabilidad real de YES usando tu conocimiento sobre el evento, el contexto deportivo/político, y las noticias si las hay. Tu estimación puede diferir del precio de mercado si tienes razones fundamentales para ello.
+Estima la probabilidad real de YES usando tu conocimiento sobre el evento, el contexto deportivo(calendario, partidos, tabla de posiciones, historial deportivo, etc)/político(historial, tendencias, opinion publica, etc), y las noticias si las hay. Tu estimación puede diferir del precio de mercado si tienes razones fundamentales para ello.
 
 CRITICAL FORMAT INSTRUCTIONS:
 You MUST respond with a single, perfectly formatted JSON object. 
