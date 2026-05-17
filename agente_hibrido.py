@@ -440,8 +440,29 @@ async def ciclo():
     
     estado = cargar_estado()
     df = cargar_libro()
+  
+    def actualizar_precios_abiertos(df):
+    """Refresca precio_actual para todas las posiciones ABIERTA."""
+    abiertas = df[df['estado'] == 'ABIERTA']
+    if abiertas.empty: return df
+    for idx, pos in abiertas.iterrows():
+        try:
+            r = requests.get("https://gamma-api.polymarket.com/markets",
+                             params={"id": pos['market_id']}, timeout=8)
+            if r.status_code == 200 and r.json():
+                m = r.json()[0]
+                bid = float(m.get("bestBid", 0))
+                ask = float(m.get("bestAsk", 0))
+                if bid > 0 and ask > 0:
+                    df.loc[idx, 'precio_actual'] = round((bid + ask) / 2, 4)
+        except: pass
+    return df
+  
     df, n_inactivas = cerrar_inactivas(df, estado)
     if n_inactivas: guardar_estado(estado)
+    df = actualizar_precios_abiertos(df)
+    guardar_libro(df)
+
     
     # Inicialización de Módulos
     bayesian = BayesianEngine(archivo_libro=ARCHIVO_LIBRO, archivo_modelo="datos_polymarket/paper_trading/bayesian_hibrido.json")
