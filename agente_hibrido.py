@@ -389,9 +389,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             return None
         
         log.info(f"📊 {nombre_m} | vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%} {max_h}h")
-        
+        log.info(f"💰 {nombre_m} | kelly={kelly:.4f} monto=${monto:.2f} capital=${estado['capital_actual']:.2f}")
         if monto < 5:
-            log.info(f"❌ {nombre_m} | Kelly monto ${monto} < $5 mínimo")
+            log.info(f"❌ {nombre_m} | Kelly monto ${monto:.2f} < $5 mínimo")
             return None
 
 
