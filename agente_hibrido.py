@@ -387,7 +387,7 @@ async def ciclo():
         mercados, 
         key=lambda x: abs(x.get("cambio_1h", 0.0)), 
         reverse=True
-    )[:12]
+    )[:30]
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
