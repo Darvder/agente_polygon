@@ -323,9 +323,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             pregunta=m["pregunta"], cambio_1h=m.get("cambio_1h", 0.0),
             precio_entrada=m["mid_price"], fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
-        if not ok:
-            log.info(f"❌ {nombre_m} | Descartado por Bloqueo del Motor Bayesiano (Score Bajo/Incierto).")
-            return None
+        log.info(f"🧠 Bayesiano Score para {nombre_m}: {score:.4f} | Forzado a True para entrenamiento.")
+        ok = True #
 
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
         
