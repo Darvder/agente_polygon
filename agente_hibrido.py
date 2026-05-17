@@ -246,19 +246,22 @@ def verificar_salidas(df, estado, mercados_actuales):
     return df, cerradas
 
 async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news):
-    """Procesa un único mercado de forma asíncrona."""
-    # Controlamos el acceso a Groq con el semáforo para evitar Rate Limits
+    """Procesa un único mercado de forma asíncrona e informa descarte por logs."""
+    nombre_m = m["pregunta"][:35]
+    
     async with groq_semaphore:
+        # Filtro: Ya Abierta
         if m["pregunta"][:70] in set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set():
+            log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
             return None
             
         # 1. --- Event Detector ---
         puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
         if not puede:
+            log.info(f"❌ {nombre_m} | Descartado por EventDetector: {motivo}")
             return None
 
         # 2. --- Noticias ---
-        # Usamos asyncio.to_thread para que la librería síncrona NewsAPI no congele el bucle asíncrono
         nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
         nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias."
 
@@ -274,34 +277,40 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         )
 
         try:
-            await asyncio.sleep(2)
-            # Llamada asíncrona real utilizando await
+            await asyncio.sleep(2) # Evita saturación de TPM
             msg = await cliente_llm.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=[{"role":"user","content":prompt}],
                 max_tokens=150,
-                response_format={"type": "json_object"} # JSON Mode activo para evitar errores de formato
+                response_format={"type": "json_object"}
             )
             txt = msg.choices[0].message.content.strip()
             an = json.loads(txt)
         except Exception as e:
-            log.warning(f"⚠️ Error en tarea async LLM: {e}")
+            log.warning(f"⚠️ {nombre_m} | Error en API Groq / Validación JSON: {e}")
             return None
 
         # 4. --- Filtros Matemáticos y Edge ---
         estimacion = float(an.get("estimacion", m["mid_price"]))
-        if estimacion > 1.0: estimacion /= 100.0 # Normalización base-100 corregida
+        if estimacion > 1.0: estimacion /= 100.0
         
         confianza = float(an.get("confianza", 0.5))
         hay_noticia = bool(an.get("hay_noticia", False))
         diferencia = estimacion - m["mid_price"]
         edge_neto = round(abs(diferencia) - m["spread"], 4)
 
-        # Filtro Inteligente de Noticias (Bypass condicional)
+        # Filtro: Bypass de Noticias
         if not hay_noticia and edge_neto < 0.05:
+            log.info(f"❌ {nombre_m} | Descartado: Sin noticias y Edge Neto ({edge_neto:.2%}) inferior al 5% requerido.")
             return None
             
-        if edge_neto < MIN_EDGE or confianza < MIN_CONFIANZA:
+        # Filtro: Umbrales Mínimos Básicos
+        if edge_neto < MIN_EDGE:
+            log.info(f"❌ {nombre_m} | Descartado: Edge Neto ({edge_neto:.2%}) inferior al mínimo ({MIN_EDGE:.2%}).")
+            return None
+            
+        if confianza < MIN_CONFIANZA:
+            log.info(f"❌ {nombre_m} | Descartado: Confianza de la IA ({confianza:.2f}) inferior al mínimo ({MIN_CONFIANZA:.2f}).")
             return None
 
         # 5. --- Motor Bayesiano y de Volatilidad ---
@@ -309,7 +318,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             pregunta=m["pregunta"], cambio_1h=m.get("cambio_1h", 0.0),
             precio_entrada=m["mid_price"], fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
-        if not ok: return None
+        if not ok:
+            log.info(f"❌ {nombre_m} | Descartado por Bloqueo del Motor Bayesiano (Score Bajo/Incierto).")
+            return None
 
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
         
@@ -319,7 +330,10 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         kelly = edge_neto * confianza * 0.3
         monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
         
-        if monto < 5: return None
+        # Filtro: Capital Mínimo por Trade
+        if monto < 5:
+            log.info(f"❌ {nombre_m} | Descartado: Tamaño de posición Kelly (${monto}) menor al mínimo de $5 USDC.")
+            return None
         
         ev_detector.registrar_evento(m["id"], m["pregunta"])
         return {
