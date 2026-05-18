@@ -92,19 +92,12 @@ async def main():
 
         try:
             await ciclo()
+            subprocess.run("python generar_dashboard_momentum.py", shell=True)
             await push_github()
         except Exception as e:
             log.error(f"❌ Error en ciclo: {e}")
 
         ahora = asyncio.get_event_loop().time()
-
-        if ahora - ultimo_dashboard >= INTERVALO_DASHBOARD:
-            try:
-                subprocess.run("python generar_dashboard_momentum.py", shell=True)
-                log.info("📊 Dashboard regenerado")
-                ultimo_dashboard = ahora
-            except:
-                pass
 
         elapsed = asyncio.get_event_loop().time() - inicio
         espera  = max(0, INTERVALO_CICLO - elapsed)
