@@ -21,17 +21,21 @@ async def push_github():
     try:
         repo  = os.environ.get("GITHUB_REPOSITORY", "")
         token = os.environ.get("GIT_TOKEN", "")
-        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+        ts    = datetime.now().strftime("%Y-%m-%d %H:%M")
+        
+        # Verificar variables
+        log.info(f"🔑 Repo: {repo} | Token: {'OK' if token else 'VACÍO'}")
+        
         cmds = [
             "git config user.email bot@agente",
             "git config user.name 'Agente Bot'",
-            "git add datos_polymarket/",
+            "git add -A",
             f"git commit -m 'ciclo {ts}' || true",
             f"git push https://x-access-token:{token}@github.com/{repo}.git"
         ]
         for cmd in cmds:
-            subprocess.run(cmd, shell=True, capture_output=True)
-        log.info("📦 Git push OK")
+            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            log.info(f"CMD: {cmd[:40]} | RC={result.returncode} | {result.stderr[:80]}")
     except Exception as e:
         log.error(f"❌ Git: {e}")
 
