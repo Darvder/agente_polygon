@@ -37,6 +37,13 @@ async def push_github():
             ("datos_polymarket/dashboard_hibrido.html",             "index.html"),
         ]
 
+        data = json_lib.dumps({
+            "message": f"ciclo {ts}",
+            "content": contenido,
+            "branch": "datos",  # ← rama separada
+            **({"sha": sha} if sha else {})
+        }).encode()
+
         for filepath, github_path in archivos:
             if not os.path.exists(filepath):
                 continue
@@ -44,7 +51,7 @@ async def push_github():
             with open(filepath, "rb") as f:
                 contenido = base64.b64encode(f.read()).decode()
 
-            url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
+            url = f"https://api.github.com/repos/{repo}/contents/{github_path}?ref=datos"
 
             # Obtener SHA actual
             req_get = urllib.request.Request(url, headers={
