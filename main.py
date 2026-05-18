@@ -7,6 +7,9 @@ import asyncio
 import subprocess
 import logging
 from datetime import datetime
+import base64
+import urllib.request
+import json as json_lib
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(message)s")
 log = logging.getLogger("main")
@@ -19,29 +22,48 @@ ultimo_git       = 0
 
 async def push_github():
     try:
-        repo  = os.environ.get("GITHUB_REPOSITORY", "")
         token = os.environ.get("GIT_TOKEN", "")
-        ts    = datetime.now().strftime("%Y-%m-%d %H:%M")
-        url   = f"https://x-access-token:{token}@github.com/{repo}.git"
-
-        cmds = [
-            "git init",
-            f"git remote add origin {url} || git remote set-url origin {url}",
-            "git config user.email bot@agente",
-            "git config user.name 'Agente Bot'",
-            "git fetch origin main",
-            "git checkout -B main origin/main",
-            "git add -A",
-            f"git commit -m 'ciclo {ts}' || true",
-            "git push origin main"
+        repo  = os.environ.get("GITHUB_REPOSITORY", "")
+        
+        archivos = [
+            "datos_polymarket/paper_trading/libro_hibrido.csv",
+            "datos_polymarket/paper_trading/estado_hibrido.json",
+            "datos_polymarket/dashboard_hibrido.html",
         ]
-        for cmd in cmds:
-            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-            if result.returncode not in (0, 1):
-                log.error(f"❌ {cmd[:40]} | {result.stderr[:80]}")
-        log.info("📦 Git push OK")
+        
+        for filepath in archivos:
+            if not os.path.exists(filepath): continue
+            
+            with open(filepath, "rb") as f:
+                contenido = base64.b64encode(f.read()).decode()
+            
+            # Obtener SHA actual del archivo en GitHub
+            url = f"https://api.github.com/repos/{repo}/contents/{filepath}"
+            req = urllib.request.Request(url, headers={
+                "Authorization": f"token {token}",
+                "Accept": "application/vnd.github.v3+json"
+            })
+            try:
+                with urllib.request.urlopen(req) as r:
+                    sha = json_lib.loads(r.read())["sha"]
+            except: sha = None
+            
+            # Push del archivo
+            data = json_lib.dumps({
+                "message": f"ciclo {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+                "content": contenido,
+                "sha": sha
+            }).encode()
+            
+            req = urllib.request.Request(url, data=data, method="PUT", headers={
+                "Authorization": f"token {token}",
+                "Content-Type": "application/json"
+            })
+            urllib.request.urlopen(req)
+            log.info(f"📦 {filepath} → GitHub OK")
+            
     except Exception as e:
-        log.error(f"❌ Git: {e}")
+        log.error(f"❌ GitHub API: {e}")
 
 async def main():
     subprocess.run("git pull", shell=True)
