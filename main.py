@@ -29,7 +29,22 @@ async def push_github():
             "datos_polymarket/paper_trading/libro_hibrido.csv",
             "datos_polymarket/paper_trading/estado_hibrido.json",
             "datos_polymarket/dashboard_hibrido.html",
+            ("datos_polymarket/dashboard_hibrido.html", "index.html"),
         ]
+
+        for item in archivos:
+            if isinstance(item, tuple):
+                filepath, github_path = item
+            else:
+                filepath = github_path = item
+            
+            if not os.path.exists(filepath): continue
+            
+            with open(filepath, "rb") as f:
+                contenido = base64.b64encode(f.read()).decode()
+            
+            url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
+    # ... resto igual
         
         for filepath in archivos:
             if not os.path.exists(filepath): continue
