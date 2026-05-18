@@ -21,7 +21,8 @@ def generar_dashboard():
     # ── Estado ────────────────────────────────────────────────────
     capital_inicial = 1000.0; capital_actual = 900.0
     capital_en_riesgo = 100.0; n_ciclos = 0
-    ultima_corrida = datetime.now().strftime("%Y-%m-%d %H:%M")
+    from zoneinfo import ZoneInfo
+    ultima_corrida = datetime.now(ZoneInfo("America/Guayaquil")).strftime("%Y-%m-%d %H:%M")
     n_tp_est = 0; n_sl_est = 0; n_time_est = 0
 
     if os.path.exists(ARCHIVO_ESTADO):
