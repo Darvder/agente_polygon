@@ -282,139 +282,120 @@ def verificar_salidas(df, estado, mercados_actuales):
     return df, cerradas
 
 async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news):
-    """Procesa un único mercado de forma asíncrona e informa descarte por logs."""
     nombre_m = m["pregunta"][:35]
     
     async with groq_semaphore:
-        # Filtro: Ya Abierta
+        # 1. Ya Abierta
         if m["pregunta"][:70] in set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set():
             log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
             return None
-            
-        # 1. --- Event Detector ---
+
+        # 2. Event Detector
         puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
         if not puede:
-            log.info(f"❌ {nombre_m} | Descartado por EventDetector: {motivo}")
+            log.info(f"❌ {nombre_m} | EventDetector: {motivo}")
             return None
 
-        # 2. --- Noticias ---
+        # 3. ← NUEVO: Volatilidad ANTES de Groq
+        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        MIN_VOL_1D = 0.002; MIN_RANGO = 0.020
+        if met and (met.get("vol_1d", 0) < MIN_VOL_1D or met.get("rango", 0) < MIN_RANGO):
+            log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
+            return None
+
+        # 4. Noticias
         nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
         nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias."
 
-        # 3. --- Prompt y Llamada Asíncrona a Groq ---
+        # 5. Groq ← solo llega aquí si pasó volatilidad
         patron = ev_detector.patron_mercado(m["id"])
         patron_txt = f"n={patron.get('n',0)} trades" if patron else "sin historial"
-        
         prompt = PROMPT.format(
             pregunta=m["pregunta"], precio=m["mid_price"],
             dias=m["dias"], spread=m["spread"],
             noticias=nots_txt, patron=patron_txt,
-            momentum=m.get("cambio_1h", 0.0) 
+            momentum=m.get("cambio_1h", 0.0)
         )
-
         try:
-            await asyncio.sleep(2) # Evita saturación de TPM
+            await asyncio.sleep(2)
             msg = await cliente_llm.chat.completions.create(
                 model="llama-3.1-8b-instant",
-                temperature = 0.0,
+                temperature=0.0,
                 messages=[{"role":"user","content":prompt}],
                 max_tokens=150,
                 response_format={"type": "json_object"}
             )
-            txt = msg.choices[0].message.content.strip()
-            an = json.loads(txt)
+            an = json.loads(msg.choices[0].message.content.strip())
         except Exception as e:
-            log.warning(f"⚠️ {nombre_m} | Error en API Groq / Validación JSON: {e}")
+            log.warning(f"⚠️ {nombre_m} | Groq error: {e}")
             return None
 
-        # 4. --- Filtros Matemáticos y Edge ---
+        # 6. Filtros matemáticos
         estimacion_raw = an.get("estimacion", m["mid_price"] * 100)
         try:
             estimacion = float(estimacion_raw)
-            if estimacion > 1.0: 
-                estimacion /= 100.0  # Convierte entero (ej: 14) a float (0.14)
-        except Exception:
-            estimacion = m["mid_price"]
-        
-        confianza = float(an.get("confianza", 0.5))
-        hay_noticia = bool(an.get("hay_noticia", False))
-        diferencia = estimacion - m["mid_price"]
-        edge_neto = round(abs(diferencia) - m["spread"], 4)
+            if estimacion > 1.0: estimacion /= 100.0
+        except: estimacion = m["mid_price"]
 
-        # Filtro: Bypass de Noticias
-        EDGE_SIN_NOTICIA = 0.03   # 3% sin noticias (más exigente)
-        EDGE_CON_NOTICIA = 0.015  # 1.5% con noticias (más permisivo)
-        
-        umbral = EDGE_CON_NOTICIA if hay_noticia else EDGE_SIN_NOTICIA
+        confianza   = float(an.get("confianza", 0.5))
+        hay_noticia = bool(an.get("hay_noticia", False))
+        diferencia  = estimacion - m["mid_price"]
+        edge_neto   = round(abs(diferencia) - m["spread"], 4)
+
+        umbral = 0.015 if hay_noticia else 0.03
         if edge_neto < umbral:
-            log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({'con' if hay_noticia else 'sin'} noticia: {umbral:.2%})")
+            log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
             return None
-        # Filtro: Umbrales Mínimos Básicos
         if edge_neto < MIN_EDGE:
-            log.info(f"❌ {nombre_m} | Descartado: Edge Neto ({edge_neto:.2%}) inferior al mínimo ({MIN_EDGE:.2%}).")
+            log.info(f"❌ {nombre_m} | Edge mínimo ({edge_neto:.2%} < {MIN_EDGE:.2%})")
             return None
-            
         if confianza < MIN_CONFIANZA:
-            log.info(f"❌ {nombre_m} | Descartado: Confianza de la IA ({confianza:.2f}) inferior al mínimo ({MIN_CONFIANZA:.2f}).")
+            log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {MIN_CONFIANZA:.2f})")
             return None
-        # 5. --- Motor Bayesiano y de Volatilidad ---
-      
-        señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
-        
-        # Volatilidad primero (met se necesita para Bayesiano)
-        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
-        
-        MIN_VOL_1D = 0.002
-        MIN_RANGO  = 0.020
-        if met and (met.get("vol_1d", 0) < MIN_VOL_1D or met.get("rango", 0) < MIN_RANGO):
-            log.info(f"❌ {nombre_m} | Mercado inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
-            return None
-        
-        kelly = edge_neto * confianza * 0.3
-        monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
+
+        # 7. Bayesiano
+        señal     = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
         precio_tok = m["mid_price"] if señal == "COMPRAR YES" else round(1 - m["mid_price"], 4)
-        
+
         ok, score, feats = bayesian.should_trade(
-            pregunta=nombre_m,
-            precio_entrada=precio_tok,
-            señal=señal,
+            pregunta=nombre_m, precio_entrada=precio_tok, señal=señal,
             vol_1d=met.get("vol_1d", 0) if met else 0,
-            edge=edge_neto,
-            confianza=confianza,
+            edge=edge_neto, confianza=confianza,
             hay_noticia=hay_noticia,
             fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
         )
-        
         if not ok and score < 0.5:
             log.info(f"❌ {nombre_m} | Bayesiano bloquea (score={score:.2f})")
             return None
-        
-        log.info(f"📊 {nombre_m} | vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%} {max_h}h")
-        log.info(f"💰 {nombre_m} | kelly={kelly:.4f} monto=${monto:.2f} capital=${estado['capital_actual']:.2f}")
+
+        # 8. Kelly y monto
+        kelly = edge_neto * confianza * 0.3
+        monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
+        log.info(f"💰 {nombre_m} | monto=${monto:.2f} vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%}")
         if monto < 5:
-            log.info(f"❌ {nombre_m} | Kelly monto ${monto:.2f} < $5 mínimo")
+            log.info(f"❌ {nombre_m} | Monto ${monto:.2f} < $5")
             return None
+
         ev_detector.registrar_evento(m["id"], m["pregunta"])
         return {
-            "fecha_entrada":       datetime.now().strftime("%Y-%m-%d"),
-            "fecha_entrada_dt":    datetime.now().strftime("%Y-%m-%d %H:%M"),
-            "market_id":           m["id"],
-            "pregunta":            m["pregunta"][:70],
-            "señal":               señal,
-            "precio_entrada":      m["mid_price"],
+            "fecha_entrada":        datetime.now().strftime("%Y-%m-%d"),
+            "fecha_entrada_dt":     datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "market_id":            m["id"],
+            "pregunta":             m["pregunta"][:70],
+            "señal":                señal,
+            "precio_entrada":       m["mid_price"],
             "precio_token_entrada": precio_tok,
-            "precio_actual":       m["mid_price"],
-            "tp_dinamico":         tp,
-            "sl_dinamico":         sl,
-            "horas_max":           max_h,
-            "monto_usdc":          monto,
-            "estado":              "ABIERTA",
-            "razonamiento":        an.get("razonamiento", "")[:100],
-            "llm_confianza":       confianza,
-            "llm_edge":            edge_neto,
-            "vol_1d":              met.get("vol_1d", 0.0) if met else 0.0,
+            "precio_actual":        m["mid_price"],
+            "tp_dinamico":          tp,
+            "sl_dinamico":          sl,
+            "horas_max":            max_h,
+            "monto_usdc":           monto,
+            "estado":               "ABIERTA",
+            "razonamiento":         an.get("razonamiento", "")[:100],
+            "llm_confianza":        confianza,
+            "llm_edge":             edge_neto,
+            "vol_1d":               met.get("vol_1d", 0.0) if met else 0.0,
         }
-
 
 # ══════════════════════════════════════════════════════════════════
 # CICLO PRINCIPAL
