@@ -81,7 +81,6 @@ async def push_github():
         log.error(f"❌ GitHub API: {e}")
 
 async def main():
-    subprocess.run("git pull", shell=True)
     log.info("📥 Estado cargado desde GitHub")
     global ultimo_dashboard, ultimo_git
 
