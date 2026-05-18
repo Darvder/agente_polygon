@@ -2,6 +2,7 @@
 main.py — Loop infinito para Railway
 El agente corre cada 5 minutos sin overhead de GitHub Actions.
 """
+import os
 import asyncio
 import subprocess
 import logging
@@ -11,29 +12,31 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(message)s")
 log = logging.getLogger("main")
 
 INTERVALO_CICLO   = 5 * 60   # 5 minutos
-INTERVALO_DASHBOARD = 30 * 60  # regenerar dashboard cada 30 min
-INTERVALO_GIT     = 60 * 60  # push a GitHub cada 1 hora
+INTERVALO_DASHBOARD = 5 * 60  # regenerar dashboard cada 30 min # push a GitHub cada 1 hora
 
 ultimo_dashboard = 0
 ultimo_git       = 0
 
 async def push_github():
-    """Guarda resultados en GitHub para persistencia."""
     try:
+        repo  = os.environ.get("GITHUB_REPOSITORY", "")
+        token = os.environ.get("GIT_TOKEN", "")
         cmds = [
             "git config user.email bot@agente",
             "git config user.name 'Agente Bot'",
-            "git add -A",
+            "git add datos_polymarket/",
             f"git commit -m 'ciclo {datetime.now().strftime(\"%Y-%m-%d %H:%M\")}' || true",
-            "git push"
+            f"git push https://x-access-token:{token}@github.com/{repo}.git"
         ]
         for cmd in cmds:
             subprocess.run(cmd, shell=True, capture_output=True)
-        log.info("📦 GitHub: push completado")
+        log.info("📦 Git push OK")
     except Exception as e:
-        log.error(f"❌ Git push falló: {e}")
+        log.error(f"❌ Git: {e}")
 
 async def main():
+    subprocess.run("git pull", shell=True)
+    log.info("📥 Estado cargado desde GitHub")
     global ultimo_dashboard, ultimo_git
 
     # Import aquí para que Railway cargue variables de entorno primero
@@ -45,6 +48,7 @@ async def main():
         inicio = asyncio.get_event_loop().time()
         try:
             await ciclo()
+            await push_github()
         except Exception as e:
             log.error(f"❌ Error en ciclo: {e}")
 
@@ -57,11 +61,6 @@ async def main():
                 log.info("📊 Dashboard regenerado")
                 ultimo_dashboard = ahora
             except: pass
-
-        # Git push cada hora
-        if ahora - ultimo_git >= INTERVALO_GIT:
-            await push_github()
-            ultimo_git = ahora
 
         # Esperar hasta completar 5 min
         elapsed = asyncio.get_event_loop().time() - inicio
