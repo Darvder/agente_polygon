@@ -20,29 +20,21 @@ if os.path.exists(lock_file):
     exit(0)
 open(lock_file, "w").close()
 
-INTERVALO_CICLO     = 4 * 60   # 6 minutos
-
-ultimo_dashboard = 0
+INTERVALO_CICLO = 4 * 60  # 4 minutos de espera DESPUÉS de cada ciclo
 
 
 async def push_github():
     try:
         token = os.environ.get("GIT_TOKEN", "")
         repo  = os.environ.get("GITHUB_REPOSITORY", "")
+        ts    = datetime.now().strftime("%Y-%m-%d %H:%M")
 
         archivos = [
-            ("datos_polymarket/paper_trading/libro_hibrido.csv",    "datos_polymarket/paper_trading/libro_hibrido.csv"),
-            ("datos_polymarket/paper_trading/estado_hibrido.json",  "datos_polymarket/paper_trading/estado_hibrido.json"),
-            ("datos_polymarket/dashboard_hibrido.html",             "datos_polymarket/dashboard_hibrido.html"),
-            ("datos_polymarket/dashboard_hibrido.html",             "index.html"),
+            ("datos_polymarket/paper_trading/libro_hibrido.csv",   "datos_polymarket/paper_trading/libro_hibrido.csv"),
+            ("datos_polymarket/paper_trading/estado_hibrido.json", "datos_polymarket/paper_trading/estado_hibrido.json"),
+            ("datos_polymarket/dashboard_hibrido.html",            "datos_polymarket/dashboard_hibrido.html"),
+            ("datos_polymarket/dashboard_hibrido.html",            "index.html"),
         ]
-
-        data = json_lib.dumps({
-            "message": f"ciclo {ts}",
-            "content": contenido,
-            "branch": "datos",  # ← rama separada
-            **({"sha": sha} if sha else {})
-        }).encode()
 
         for filepath, github_path in archivos:
             if not os.path.exists(filepath):
@@ -51,10 +43,9 @@ async def push_github():
             with open(filepath, "rb") as f:
                 contenido = base64.b64encode(f.read()).decode()
 
-            url = f"https://api.github.com/repos/{repo}/contents/{github_path}?ref=datos"
-
-            # Obtener SHA actual
-            req_get = urllib.request.Request(url, headers={
+            # GET SHA desde rama datos
+            url_get = f"https://api.github.com/repos/{repo}/contents/{github_path}?ref=datos"
+            req_get = urllib.request.Request(url_get, headers={
                 "Authorization": f"token {token}",
                 "Accept": "application/vnd.github.v3+json"
             })
@@ -64,15 +55,16 @@ async def push_github():
             except:
                 sha = None
 
-            # Subir archivo
-            ts   = datetime.now().strftime("%Y-%m-%d %H:%M")
+            # PUT a rama datos
+            url_put = f"https://api.github.com/repos/{repo}/contents/{github_path}"
             data = json_lib.dumps({
                 "message": f"ciclo {ts}",
                 "content": contenido,
+                "branch":  "datos",
                 **({"sha": sha} if sha else {})
             }).encode()
 
-            req_put = urllib.request.Request(url, data=data, method="PUT", headers={
+            req_put = urllib.request.Request(url_put, data=data, method="PUT", headers={
                 "Authorization": f"token {token}",
                 "Content-Type": "application/json"
             })
@@ -87,23 +79,17 @@ async def push_github():
 
 
 async def main():
-    global ultimo_dashboard
-
     from agente_hibrido import ciclo
 
     log.info("🚀 Agente iniciado en Railway — loop continuo")
 
     while True:
-        inicio = asyncio.get_event_loop().time()
-
         try:
             await ciclo()
             subprocess.run("python generar_dashboard_momentum.py", shell=True)
             await push_github()
         except Exception as e:
             log.error(f"❌ Error en ciclo: {e}")
-
-        ahora = asyncio.get_event_loop().time()
 
         log.info(f"⏳ Esperando {INTERVALO_CICLO//60} min antes del próximo ciclo...")
         await asyncio.sleep(INTERVALO_CICLO)
