@@ -1,6 +1,0 @@
-{
-  "build": {
-    "builder": "NIXPACKS",
-    "buildCommand": "apt-get install -y git && pip install -r requirements.txt"
-  }
-}
