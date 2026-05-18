@@ -20,8 +20,7 @@ if os.path.exists(lock_file):
     exit(0)
 open(lock_file, "w").close()
 
-INTERVALO_CICLO     = 6 * 60   # 6 minutos
-INTERVALO_DASHBOARD = 30 * 60  # 30 minutos
+INTERVALO_CICLO     = 4 * 60   # 6 minutos
 
 ultimo_dashboard = 0
 
@@ -99,10 +98,8 @@ async def main():
 
         ahora = asyncio.get_event_loop().time()
 
-        elapsed = asyncio.get_event_loop().time() - inicio
-        espera  = max(0, INTERVALO_CICLO - elapsed)
-        log.info(f"⏳ Próximo ciclo en {espera/60:.1f} min")
-        await asyncio.sleep(espera)
+        log.info(f"⏳ Esperando {INTERVALO_CICLO//60} min antes del próximo ciclo...")
+        await asyncio.sleep(INTERVALO_CICLO)
 
 
 if __name__ == "__main__":
