@@ -21,11 +21,12 @@ async def push_github():
     try:
         repo  = os.environ.get("GITHUB_REPOSITORY", "")
         token = os.environ.get("GIT_TOKEN", "")
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
         cmds = [
             "git config user.email bot@agente",
             "git config user.name 'Agente Bot'",
             "git add datos_polymarket/",
-            f"git commit -m 'ciclo {datetime.now().strftime(\"%Y-%m-%d %H:%M\")}' || true",
+            f"git commit -m 'ciclo {ts}' || true",
             f"git push https://x-access-token:{token}@github.com/{repo}.git"
         ]
         for cmd in cmds:
