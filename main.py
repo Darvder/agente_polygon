@@ -11,6 +11,12 @@ import base64
 import urllib.request
 import json as json_lib
 
+lock_file = "/tmp/agente.lock"
+if os.path.exists(lock_file):
+    log.info("⚠️ Ya hay una instancia corriendo. Saliendo.")
+    exit(0)
+open(lock_file, "w").close()
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(message)s")
 log = logging.getLogger("main")
 
