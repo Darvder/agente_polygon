@@ -11,8 +11,8 @@ from datetime import datetime
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(message)s")
 log = logging.getLogger("main")
 
-INTERVALO_CICLO   = 5 * 60   # 5 minutos
-INTERVALO_DASHBOARD = 5 * 60  # regenerar dashboard cada 30 min # push a GitHub cada 1 hora
+INTERVALO_CICLO   = 6 * 60   # 5 minutos
+INTERVALO_DASHBOARD = 6 * 60  # regenerar dashboard cada 30 min # push a GitHub cada 1 hora
 
 ultimo_dashboard = 0
 ultimo_git       = 0
