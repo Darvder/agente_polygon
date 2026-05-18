@@ -74,8 +74,12 @@ async def push_github():
                 "Authorization": f"token {token}",
                 "Content-Type": "application/json"
             })
-            urllib.request.urlopen(req)
-            log.info(f"📦 {filepath} → GitHub OK")
+            log.info(f"📦 Subiendo: {github_path}")
+            try:
+                urllib.request.urlopen(req)
+                log.info(f"✅ {github_path} OK")
+            except Exception as e:
+                log.error(f"❌ {github_path}: {e}")
             
     except Exception as e:
         log.error(f"❌ GitHub API: {e}")
