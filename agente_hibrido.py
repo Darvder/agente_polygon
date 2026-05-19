@@ -154,8 +154,26 @@ def cargar_estado():
 def guardar_estado(e):
     with open(ARCHIVO_ESTADO,"w") as f: json.dump(e,f,indent=2)
 
+# ── Estructura oficial de columnas para el libro de órdenes ──
+COLUMNAS_LIBRO = [
+    'fecha_entrada', 'fecha_entrada_dt', 'market_id', 'pregunta', 'señal', 
+    'precio_entrada', 'precio_token_entrada', 'precio_actual', 'precio_cierre', 
+    'pct_cambio', 'llm_estimacion', 'llm_confianza', 'llm_edge', 'hay_noticia', 
+    'n_noticias', 'monto_usdc', 'dias_mercado', 'fecha_cierre_mercado', 
+    'fecha_cierre_real', 'pnl_realizado', 'estado', 'razon_cierre', 
+    'razonamiento', 'tp_dinamico', 'sl_dinamico', 'horas_max', 'vol_1d'
+]
+
 def cargar_libro():
-    return pd.read_csv(ARCHIVO_LIBRO) if os.path.exists(ARCHIVO_LIBRO) else pd.DataFrame()
+    if os.path.exists(ARCHIVO_LIBRO):
+        try:
+            return pd.read_csv(ARCHIVO_LIBRO)
+        except pd.errors.EmptyDataError:
+            log.warning(f"⚠️ {ARCHIVO_LIBRO} estaba vacío. Estructurando cabeceras desde cero.")
+            return pd.DataFrame(columns=COLUMNAS_LIBRO)
+    
+    log.info(f"📂 Creando nuevo libro de órdenes virgen: {ARCHIVO_LIBRO}")
+    return pd.DataFrame(columns=COLUMNAS_LIBRO)
 
 def guardar_libro(df): df.to_csv(ARCHIVO_LIBRO,index=False)
 
