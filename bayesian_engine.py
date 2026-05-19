@@ -70,7 +70,7 @@ def get_precio_bucket(precio):
     if p < 0.35: return "bajo"
     if p < 0.65: return "medio"
     if p < 0.85: return "alto"
-    return "extremo_alto
+    return "extremo_alto"
 
 def get_mercado_clave(pregunta):
     q = str(pregunta).lower()
