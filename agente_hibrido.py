@@ -44,7 +44,7 @@ TIMEOUT  = 10
 
 # ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
 MIN_EDGE        = 0.025   # Bajado a 2.5% para capturar más micro-ineficiencias
-MIN_CONFIANZA   = 0.50    # Mantenido (umbral equilibrado para Llama-3)
+MIN_CONFIANZA   = 0.65    # Mantenido (umbral equilibrado para Llama-3)
 MIN_VOLUMEN     = 4_000   # Bajado para escanear mercados medianos con más fallos de precio
 MAX_SPREAD      = 0.10    # Subido al 10% para tolerar libros de órdenes más jóvenes
 MIN_PRECIO      = 0.02    # Permite buscar oportunidades en "long-shots" baratos
@@ -298,7 +298,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
         # 3. ← NUEVO: Volatilidad ANTES de Groq
         tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
-        MIN_VOL_1D = 0.002; MIN_RANGO = 0.020
+        MIN_VOL_1D = 0.003; MIN_RANGO = 0.025
         if met and (met.get("vol_1d", 0) < MIN_VOL_1D or met.get("rango", 0) < MIN_RANGO):
             log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
             return None
@@ -351,6 +351,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             return None
         if confianza < MIN_CONFIANZA:
             log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {MIN_CONFIANZA:.2f})")
+            return None
+        if edge_neto > 0.15:
+            log.info(f"❌ {nombre_m} | Edge muy alto ({edge_neto:.2%}) → señal dudosa")
             return None
 
         # 7. Bayesiano
