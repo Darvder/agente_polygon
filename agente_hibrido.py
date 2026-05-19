@@ -440,6 +440,11 @@ def actualizar_precios_abiertos(df):
         except: pass
     return df
   
+async def ciclo():
+    global estado
+    df = cargar_libro()
+    estado = cargar_estado()
+  
     df, n_inactivas = cerrar_inactivas(df, estado)
     if n_inactivas: guardar_estado(estado)
     df = actualizar_precios_abiertos(df)
