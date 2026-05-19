@@ -414,6 +414,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         }
 
 def actualizar_precios_abiertos(df):
+    if df.empty or 'estado' not in df.columns:
+        return df
     abiertas = df[df['estado'] == 'ABIERTA']
     if abiertas.empty: return df
     for idx, pos in abiertas.iterrows():
