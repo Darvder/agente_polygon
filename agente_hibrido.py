@@ -391,7 +391,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             "señal":                señal,
             "precio_entrada":       m["mid_price"],
             "precio_token_entrada": precio_tok,
-            "precio_actual":        precio-tok,
+            "precio_actual":        precio_tok,
             "tp_dinamico":          tp,
             "sl_dinamico":          sl,
             "horas_max":            max_h,
