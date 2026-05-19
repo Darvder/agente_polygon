@@ -218,67 +218,77 @@ def noticias(pregunta, cn):
 # ── Verificar salidas (usa TP/SL/HORAS dinámicos guardados) ───────
 def verificar_salidas(df, estado, mercados_actuales):
     if df.empty: return df, 0
-    pl = {m["id"]:m["mid_price"] for m in mercados_actuales}
-    ql = {m["pregunta"][:70]:m["mid_price"] for m in mercados_actuales}
-    ahora = datetime.now(); cerradas = 0
+    pl = {m["id"]: m["mid_price"] for m in mercados_actuales}
+    ql = {m["pregunta"][:70]: m["mid_price"] for m in mercados_actuales}
+    ahora = datetime.now()
+    cerradas = 0
 
-    for idx, pos in df[df["estado"]=="ABIERTA"].iterrows():
+    for idx, pos in df[df["estado"] == "ABIERTA"].iterrows():
         try:
-            dt  = datetime.strptime(pos["fecha_entrada_dt"],"%Y-%m-%d %H:%M")
-            h   = abs((ahora-dt).total_seconds()/3600)
-            mid = pl.get(str(pos.get("market_id",""))) or ql.get(str(pos["pregunta"])[:70])
+            dt = datetime.strptime(pos["fecha_entrada_dt"], "%Y-%m-%d %H:%M")
+            h = abs((ahora - dt).total_seconds() / 3600.0)
+            mid = pl.get(str(pos.get("market_id", ""))) or ql.get(str(pos["pregunta"])[:70])
 
-            if mid is not None:
-                # Determinar el precio real del token que poseemos
-                precio_token_actual = mid if pos["señal"] == "COMPRAR YES" else round(1 - mid, 4)
-                df.loc[idx, "precio_actual"] = precio_token_actual
-                
-                pte = float(pos["precio_token_entrada"])
-                pct = (precio_token_actual - pte) / pte
+            # Manejo estricto si el mercado expiró en Polymarket (Caso Dooley)
+            if mid is None:
+                if h >= float(pos.get("horas_max", 6)):
+                    val_actual = pos.get("precio_actual")
+                    # Si la celda es NaN o None, usamos el precio del token de entrada como resguardo de salida
+                    if pd.isna(val_actual) or val_actual is None:
+                        precio_token_actual = float(pos["precio_token_entrada"])
+                    else:
+                        precio_token_actual = float(val_actual)
+                    razon = "TIME_EXIT"  # Forzamos la salida por tiempo vencido
+                else:
+                    continue
+            else:
+                # Si el mercado está activo, calculamos el precio real de nuestro token (YES o NO)
+                precio_token_actual = mid if pos["señal"] == "COMPRAR YES" else round(1.0 - mid, 4)
 
-            # TP/SL/HORAS específicos guardados en la posición
-            tp_pos = float(pos.get("tp_dinamico", 0.09))
-            sl_pos = float(pos.get("sl_dinamico", -0.07))
-            h_max  = float(pos.get("horas_max",   6))
-            
-            df.loc[idx,"precio_actual"] = mid
+            # Actualizamos el libro con el precio real del token que poseemos
+            df.loc[idx, "precio_actual"] = precio_token_actual
             pte = float(pos["precio_token_entrada"])
-            pta = mid if pos["señal"]=="COMPRAR YES" else 1-mid
-            pct = (pta-pte)/pte
+            pct = (precio_token_actual - pte) / pte
 
-            df["razon_cierre"]      = df["razon_cierre"].astype(object)
+            df["razon_cierre"] = df["razon_cierre"].astype(object)
             df["fecha_cierre_real"] = df["fecha_cierre_real"].astype(object)
 
-            razon = None
-            
-            # REGLA DE EARLY EXIT (Rotación de Capital)
-            # Si logramos el 80% del TP esperado en menos del 20% del tiempo permitido, cerramos.
-            if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
-                razon = "EARLY_EXIT"
-            elif pct >= tp_pos: 
-                razon = "TAKE_PROFIT"
-                estado["n_tp"] = estado.get("n_tp", 0) + 1
-            elif pct <= sl_pos: 
-                razon = "STOP_LOSS"
-                estado["n_sl"] = estado.get("n_sl", 0) + 1
-            elif h >= h_max:    
-                razon = "TIME_EXIT"
-                estado["n_time"] = estado.get("n_time", 0) + 1
+            # Si mid era None, ya forzamos la razón a TIME_EXIT, de lo contrario evaluamos TP/SL
+            if mid is not None:
+                razon = None
+                tp_pos = float(pos.get("tp_dinamico", 0.09))
+                sl_pos = float(pos.get("sl_dinamico", -0.07))
+                h_max = float(pos.get("horas_max", 6))
+                
+                if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
+                    razon = "EARLY_EXIT"
+                elif pct >= tp_pos: 
+                    razon = "TAKE_PROFIT"
+                    estado["n_tp"] = estado.get("n_tp", 0) + 1
+                elif pct <= sl_pos: 
+                    razon = "STOP_LOSS"
+                    estado["n_sl"] = estado.get("n_sl", 0) + 1
+                elif h >= h_max:    
+                    razon = "TIME_EXIT"
+                    estado["n_time"] = estado.get("n_time", 0) + 1
 
             if razon:
-                pnl = round(float(pos["monto_usdc"])*pct,2)
-                df.loc[idx,"estado"]           = "CERRADA"
-                df.loc[idx,"precio_cierre"]    = pta
-                df.loc[idx,"pct_cambio"]       = round(pct,4)
-                df.loc[idx,"pnl_realizado"]    = pnl
-                df.loc[idx,"razon_cierre"]     = razon
-                df.loc[idx,"fecha_cierre_real"]= ahora.strftime("%Y-%m-%d %H:%M")
-                estado["capital_actual"]   = estado.get("capital_actual", CAPITAL_INICIAL) + float(pos["monto_usdc"]) + pnl
-                estado["capital_en_riesgo"]= max(0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"]))
+                pnl = round(float(pos["monto_usdc"]) * pct, 2)
+                df.loc[idx, "estado"] = "CERRADA"
+                df.loc[idx, "precio_cierre"] = precio_token_actual
+                df.loc[idx, "pct_cambio"] = round(pct, 4)
+                df.loc[idx, "pnl_realizado"] = pnl
+                df.loc[idx, "razon_cierre"] = razon
+                df.loc[idx, "fecha_cierre_real"] = ahora.strftime("%Y-%m-%d %H:%M")
+                
+                # Forzado a tipos nativos para evitar fallos del JSON en Railway
+                estado["capital_actual"] = float(estado.get("capital_actual", 1000.0) + float(pos["monto_usdc"]) + pnl)
+                estado["capital_en_riesgo"] = float(max(0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"])))
                 cerradas += 1
                 
                 icono = "⚡" if razon == "EARLY_EXIT" else ("✅" if pnl >= 0 else "❌")
                 log.info(f"{icono} [{razon}] {pos['pregunta'][:45]} | {pct:+.1%} | ${pnl:+.2f} | {h:.1f}h")
+                
         except Exception as e:
             log.warning(f"Error salida idx={idx}: {e}")
             
