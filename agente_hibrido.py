@@ -445,6 +445,33 @@ async def ciclo():
   
     df = cargar_libro()
     estado = cargar_estado()
+
+# ══════════════════════════════════════════════════════════════════
+    # HARD PATCH DE AUTO-SANACIÓN (Intercepta y corrige el volumen)
+    # ══════════════════════════════════════════════════════════════════
+    try:
+        if not df.empty:
+            # 1. Forzar el cierre definitivo de la posición zombi de Dooley
+            mask_dooley = (df['market_id'].astype(str) == '679654') & (df['estado'] == 'ABIERTA')
+            if mask_dooley.any():
+                df.loc[mask_dooley, 'estado'] = 'CERRADA'
+                df.loc[mask_dooley, 'razon_cierre'] = 'TIME_EXIT'
+                df.loc[mask_dooley, 'precio_cierre'] = 0.574
+                df.loc[mask_dooley, 'pct_cambio'] = 0.0
+                df.loc[mask_dooley, 'pnl_realizado'] = 0.0
+                log.info("🛠️ [PARCHE] Derek Dooley corregido con éxito a CERRADA.")
+
+            # 2. Corregir el precio del token NO para Starmer
+            mask_starmer = (df['market_id'].astype(str) == '597967') & (df['estado'] == 'ABIERTA')
+            if mask_starmer.any():
+                df.loc[mask_starmer, 'precio_actual'] = 0.705
+                log.info("🛠️ [PARCHE] Precio actual de Keir Starmer corregido a 0.705.")
+            
+            # Guardar inmediatamente para aplicar el cambio en el disco/volumen de Railway
+            guardar_libro(df)
+    except Exception as patch_err:
+        log.warning(f"⚠️ Error al ejecutar parche de auto-sanación: {patch_err}")
+    # ══════════════════════════════════════════════════════════════════
   
     # 1. ACTUALIZAR PRECIOS ANTES DE EVALUAR APUESTAS
     df = actualizar_precios_abiertos(df)
