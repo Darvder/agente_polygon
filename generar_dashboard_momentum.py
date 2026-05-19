@@ -7,401 +7,641 @@ ARCHIVO_LIBRO  = "datos_polymarket/paper_trading/libro_hibrido.csv"
 ARCHIVO_ESTADO = "datos_polymarket/paper_trading/estado_hibrido.json"
 ARCHIVO_OUTPUT = "datos_polymarket/dashboard_hibrido.html"
 
-def calcular_posicion_barra(precio_entrada, precio_actual, tp, sl):
-    try:
-        pe = float(precio_entrada); pa = float(precio_actual)
-        tp = float(tp); sl = float(sl)
-        precio_sl = pe * (1.0 + sl); precio_tp = pe * (1.0 + tp)
-        rango = precio_tp - precio_sl
-        if rango == 0: return 50.0
-        return max(0.0, min(100.0, ((pa - precio_sl) / rango) * 100.0))
-    except: return 50.0
-
 def generar_dashboard():
-    # ── Estado ────────────────────────────────────────────────────
-    capital_inicial = 1000.0; capital_actual = 900.0
-    capital_en_riesgo = 100.0; n_ciclos = 0
-    from zoneinfo import ZoneInfo
-    ultima_corrida = datetime.now(ZoneInfo("America/Guayaquil")).strftime("%Y-%m-%d %H:%M")
-    n_tp_est = 0; n_sl_est = 0; n_time_est = 0
+    # ── 1. CARGA DE BALANCES INICIALES DE RESPALDO ─────────────────
+    capital_inicial = 1000.0
+    capital_actual = 1000.0
+    capital_en_riesgo = 0.0
+    n_ciclos = 0
+    ultima_corrida = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     if os.path.exists(ARCHIVO_ESTADO):
         try:
-            with open(ARCHIVO_ESTADO) as f:
+            with open(ARCHIVO_ESTADO, "r") as f:
                 est = json.load(f)
-                capital_actual    = float(est.get("capital_actual", capital_actual))
-                capital_en_riesgo = float(est.get("capital_en_riesgo", capital_en_riesgo))
-                n_ciclos          = est.get("n_ciclos", 0)
-                ultima_corrida    = est.get("ultima_corrida", ultima_corrida)
-                n_tp_est          = est.get("n_tp", 0)
-                n_sl_est          = est.get("n_sl", 0)
-                n_time_est        = est.get("n_time", 0)
+                capital_inicial = float(est.get("capital_inicial", 1000.0))
+                capital_actual = float(est.get("capital_actual", 1000.0))
+                capital_en_riesgo = float(est.get("capital_en_riesgo", 0.0))
+                n_ciclos = int(est.get("n_ciclos", 0))
+                ultima_corrida = est.get("ultima_corrida", ultima_corrida)
         except Exception as e:
-            print(f"⚠️ Estado: {e}")
+            print(f"Advertencia al leer estado: {e}")
 
-    # ── CSV ───────────────────────────────────────────────────────
-    df = pd.read_csv(ARCHIVO_LIBRO) if os.path.exists(ARCHIVO_LIBRO) else pd.DataFrame()
+    # ── 2. PROCESAMIENTO EXCLUSIVO DE FILAS EN PANDAS ──────────────
+    trades_abiertos = []
+    trades_cerrados = []
 
-    ops_abiertas_html = ""; ops_cerradas_html = ""
-    pnl_total = 0.0; win_rate = 0.0
-    total_ganadas = 0; total_perdidas = 0; total_cerradas = 0
-    n_inactiva = 0; n_tp = 0; n_sl = 0; n_time = 0
-    avg_win = 0.0; avg_loss = 0.0
-    fechas_rendimiento = []; valores_rendimiento = []
-    pnl_acumulado = 0.0
-    n_abiertas = 0
+    if os.path.exists(ARCHIVO_LIBRO):
+        try:
+            df = pd.read_csv(ARCHIVO_LIBRO)
+            if not df.empty:
+                # Sanitizar campos nulos para evitar rupturas de JSON
+                df = df.fillna("")
+                
+                # Convertir a diccionarios nativos de Python
+                raw_rows = df.to_dict(orient="records")
+                
+                for row in raw_rows:
+                    # Clasificar por estado operativo
+                    if str(row.get("estado")).upper() == "ABIERTA":
+                        trades_abiertos.append(row)
+                    else:
+                        trades_cerrados.append(row)
+        except Exception as e:
+            print(f"Error procesando el libro CSV: {e}")
 
-    if not df.empty:
-        df['estado'] = df['estado'].astype(str).str.strip().str.upper()
-        abiertas = df[df['estado'] == 'ABIERTA']
-        n_abiertas = len(abiertas)
+    # Forzar orden cronológico descendente en cerrados (más recientes primero)
+    trades_cerrados.reverse()
 
-        if abiertas.empty:
-            ops_abiertas_html = '<div class="no-data">Sin posiciones abiertas. Buscando oportunidades...</div>'
-        else:
-            for _, p in abiertas.iterrows():
-                tp_real   = float(p.get('tp_dinamico', 0.05))
-                sl_real   = float(p.get('sl_dinamico', -0.04))
-                confianza = float(p.get('llm_confianza', 0.50))
-                edge      = float(p.get('llm_edge', 0.03))
-                if edge > 1.0: edge /= 100.0
-                senal     = str(p.get('señal', 'COMPRAR YES'))
-                monto     = float(p.get('monto_usdc', 0.0))
-                precio_ent = float(p.get('precio_token_entrada', p.get('precio_entrada', 0.5)))
-                precio_act = float(p.get('precio_actual', precio_ent))
-                vol_1d    = float(p.get('vol_1d', 0.0))
-                horas_max = p.get('horas_max', 10)
-                razon_ia  = str(p.get('razonamiento', '—'))[:80]
-
-                if "YES" in senal.upper():
-                    pnl_flotante = (precio_act - precio_ent) * (monto / precio_ent) if precio_ent > 0 else 0
-                else:
-                    pnl_flotante = ((1.0 - precio_act) - precio_ent) * (monto / precio_ent) if precio_ent > 0 else 0
-
-                pnl_clase = "positive" if pnl_flotante >= 0 else "negative"
-                precio_act_token = precio_act if "YES" in senal.upper() else round(1 - precio_act, 4)
-                pct_burbuja = calcular_posicion_barra(precio_ent, precio_act_token, tp_real, sl_real)
-
-                ops_abiertas_html += f"""
-                <div class="card-orden">
-                    <div class="card-orden-header">
-                        <span class="badge-senal {senal.lower().replace(' ', '-')}">{senal}</span>
-                        <span class="monto-orden">${monto:,.2f} USDC</span>
-                    </div>
-                    <div class="pregunta-titulo">{p['pregunta']}</div>
-                    <div class="metadatos-grid">
-                        <div class="meta-item"><span class="meta-label">🤖 Confianza</span><span class="meta-value">{confianza:.0%}</span></div>
-                        <div class="meta-item"><span class="meta-label">📈 Edge</span><span class="meta-value">+{edge:.1%}</span></div>
-                        <div class="meta-item"><span class="meta-label">⏱️ Límite</span><span class="meta-value">{horas_max}h</span></div>
-                        <div class="meta-item"><span class="meta-label">📊 P&L</span><span class="meta-value {pnl_clase}">{"+" if pnl_flotante>=0 else ""}${pnl_flotante:.2f}</span></div>
-                        <div class="meta-item"><span class="meta-label">📉 Vol 1d</span><span class="meta-value">{vol_1d:.4f}</span></div>
-                        <div class="meta-item" style="grid-column: span 3"><span class="meta-label">🧠 IA</span><span class="meta-value" style="font-size:0.78rem;font-weight:400;color:#9ca3af">{razon_ia}</span></div>
-                    </div>
-                    <div class="riesgo-container">
-                        <div class="riesgo-labels">
-                            <span class="label-sl">SL {sl_real:.1%}</span>
-                            <span>Entrada {precio_ent:.3f}</span>
-                            <span class="label-tp">TP {tp_real:.1%}</span>
-                        </div>
-                        <div class="riesgo-barra-bg">
-                            <div class="riesgo-burbuja" style="left:{pct_burbuja}%;"></div>
-                        </div>
-                        <div class="riesgo-precios">
-                            <span>${precio_ent*(1+sl_real):.3f}</span>
-                            <span style="color:#a78bfa;font-weight:600">Actual ${precio_act:.3f}</span>
-                            <span>${precio_ent*(1+tp_real):.3f}</span>
-                        </div>
-                    </div>
-                </div>"""
-
-        # ── Cerradas ──────────────────────────────────────────────
-        cerradas = df[df['estado'] == 'CERRADA'].copy()
-        if not cerradas.empty:
-            if 'fecha_cierre_real' in cerradas.columns:
-                cerradas['fecha_sort'] = pd.to_datetime(cerradas['fecha_cierre_real'], errors='coerce')
-                cerradas = cerradas.sort_values('fecha_sort', ascending=True)
-
-            total_cerradas = len(cerradas)
-            pnl_total = float(df['pnl_realizado'].fillna(0.0).sum())
-
-            wins = []; losses = []
-            for _, p in cerradas.iterrows():
-                pnl_op = float(p.get('pnl_realizado', 0.0))
-                razon  = str(p.get('razon_cierre', 'EXIT')).upper()
-                fecha_cierre = str(p.get('fecha_cierre_real', p.get('fecha_entrada', '---')))
-
-                if pnl_op > 0: total_ganadas += 1; wins.append(pnl_op)
-                elif pnl_op < 0: total_perdidas += 1; losses.append(pnl_op)
-
-                if razon == 'TAKE_PROFIT': n_tp += 1
-                elif razon == 'STOP_LOSS': n_sl += 1
-                elif razon == 'TIME_EXIT': n_time += 1
-                elif razon == 'INACTIVA':  n_inactiva += 1
-                elif razon == 'EARLY_EXIT': n_tp += 1  # cuenta como TP
-
-                pnl_acumulado += pnl_op
-                fechas_rendimiento.append(fecha_cierre[:10])
-                valores_rendimiento.append(round(pnl_acumulado, 2))
-
-                clase_row = "row-ganancia" if pnl_op >= 0 else "row-perdida"
-                ops_cerradas_html += f"""
-                <tr class="{clase_row}">
-                    <td>{fecha_cierre[:16]}</td>
-                    <td class="txt-truncate" title="{p['pregunta']}">{str(p['pregunta'])[:48]}…</td>
-                    <td><span class="badge-tabla">{p.get('señal','—')}</span></td>
-                    <td>${float(p.get('monto_usdc',0)):,.2f}</td>
-                    <td class="bold-pnl">{"+" if pnl_op>=0 else ""}${pnl_op:,.2f}</td>
-                    <td><span class="badge-razon {razon.lower()}">{razon}</span></td>
-                </tr>"""
-
-            trades_reales = total_ganadas + total_perdidas
-            win_rate = total_ganadas / trades_reales if trades_reales > 0 else 0.0
-            avg_win  = sum(wins) / len(wins) if wins else 0.0
-            avg_loss = sum(losses) / len(losses) if losses else 0.0
-
-    if not ops_cerradas_html:
-        ops_cerradas_html = '<tr><td colspan="6" class="no-data">Sin operaciones cerradas aún.</td></tr>'
-    if not fechas_rendimiento:
-        fechas_rendimiento = [datetime.now().strftime("%Y-%m-%d")]
-        valores_rendimiento = [0.0]
-
-    pnl_clase_total = "positive" if pnl_total >= 0 else "negative"
-    pnl_signo = "+" if pnl_total > 0 else ""
-
-    # Donut data
-    donut_labels = ['TP / Early', 'Stop Loss', 'Time Exit', 'Inactiva']
-    donut_data   = [n_tp, n_sl, n_time, n_inactiva]
-    donut_colors = ['#10b981', '#ef4444', '#f59e0b', '#6b7280']
-
-    html = f"""<!DOCTYPE html>
+    # ── 3. CONSTRUCCIÓN DEL MASTER TEMPLATE HTML + CSS + JS ────────
+    html_content = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agente Híbrido — Panel de Control</title>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<style>
-:root {{
-  --bg: #080c12; --surface: #0f1724; --border: #1a2640;
-  --purple: #7c3aed; --purple-light: #a78bfa;
-  --green: #10b981; --red: #ef4444; --amber: #f59e0b; --gray: #6b7280;
-  --text: #e2e8f0; --muted: #64748b;
-  --font-head: 'Syne', sans-serif; --font-mono: 'JetBrains Mono', monospace;
-}}
-* {{ margin:0; padding:0; box-sizing:border-box; }}
-body {{ background:var(--bg); color:var(--text); font-family:var(--font-head); padding:2rem; min-height:100vh; }}
-body::before {{ content:''; position:fixed; inset:0; background:radial-gradient(ellipse 80% 50% at 20% 0%, rgba(124,58,237,0.07) 0%, transparent 60%); pointer-events:none; }}
+  <meta charset="UTF-8">
+  <title>Suite de Trading Cuantitativo - Agente Híbrido</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <style>
+    :root {{
+      --bg-main: #060b13;
+      --bg-card: #0b1320;
+      --border: rgba(255, 255, 255, 0.04);
+      --text-main: #f1f5f9;
+      --text-muted: #64748b;
+      --primary: #8b5cf6;
+      --primary-glow: rgba(139, 92, 246, 0.15);
+      --green: #10b981;
+      --red: #ef4444;
+    }}
 
-/* Header */
-header {{ display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:2.5rem; padding-bottom:1.5rem; border-bottom:1px solid var(--border); }}
-.brand h1 {{ font-size:1.6rem; font-weight:800; letter-spacing:-0.03em; }}
-.brand h1 span {{ color:var(--purple-light); }}
-.brand p {{ color:var(--muted); font-size:0.8rem; margin-top:0.3rem; font-family:var(--font-mono); }}
-.meta-header {{ text-align:right; font-family:var(--font-mono); font-size:0.78rem; color:var(--muted); line-height:1.8; }}
-.meta-header strong {{ color:var(--purple-light); }}
+    * {{
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }}
 
-/* Metric cards */
-.grid-metricas {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin-bottom:2rem; }}
-.card-m {{ background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:1.25rem 1.5rem; position:relative; overflow:hidden; }}
-.card-m::after {{ content:''; position:absolute; bottom:0; left:0; right:0; height:2px; background:var(--accent,var(--border)); }}
-.card-m h4 {{ font-size:0.7rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); font-family:var(--font-mono); }}
-.card-m .val {{ font-size:1.7rem; font-weight:700; margin-top:0.4rem; font-family:var(--font-mono); }}
-.card-m .sub {{ font-size:0.72rem; color:var(--muted); margin-top:0.25rem; font-family:var(--font-mono); }}
-.positive {{ color:var(--green); }} .negative {{ color:var(--red); }}
+    body {{
+      background-color: var(--bg-main);
+      background-image: radial-gradient(circle at 50% 0%, #0d1b2e 0%, var(--bg-main) 75%);
+      color: var(--text-main);
+      padding: 2rem;
+      min-height: 100vh;
+    }}
 
-/* Layout */
-.row-2 {{ display:grid; grid-template-columns:1.6fr 1fr; gap:1.5rem; margin-bottom:1.5rem; }}
-.row-3 {{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:1.5rem; margin-bottom:1.5rem; }}
-@media(max-width:1100px) {{ .row-2,.row-3 {{ grid-template-columns:1fr; }} }}
+    .container {{
+      max-width: 1400px;
+      margin: 0 auto;
+    }}
 
-/* Panels */
-.panel {{ background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:1.5rem; }}
-.panel h3 {{ font-size:0.8rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); font-family:var(--font-mono); margin-bottom:1.25rem; display:flex; align-items:center; gap:0.5rem; }}
-.panel h3::before {{ content:''; display:inline-block; width:3px; height:12px; background:var(--purple); border-radius:2px; }}
+    /* HEADER STYLING */
+    header {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }}
 
-/* Open positions */
-.abiertas-wrapper {{ display:flex; flex-direction:column; gap:1rem; max-height:600px; overflow-y:auto; }}
-.card-orden {{ background:#0d1929; border:1px solid var(--border); border-radius:10px; padding:1.1rem; transition:border-color 0.2s; }}
-.card-orden:hover {{ border-color:#2d4a6e; }}
-.card-orden-header {{ display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem; }}
-.badge-senal {{ font-size:0.68rem; font-weight:700; padding:0.2rem 0.55rem; border-radius:5px; text-transform:uppercase; font-family:var(--font-mono); }}
-.badge-senal.comprar-yes {{ background:rgba(16,185,129,0.15); color:var(--green); }}
-.badge-senal.comprar-no  {{ background:rgba(239,68,68,0.15);  color:var(--red); }}
-.monto-orden {{ font-size:0.85rem; font-weight:600; font-family:var(--font-mono); }}
-.pregunta-titulo {{ font-size:0.88rem; font-weight:600; margin-bottom:0.75rem; line-height:1.4; }}
-.metadatos-grid {{ display:grid; grid-template-columns:repeat(3,1fr); gap:0.6rem; background:rgba(8,12,18,0.5); padding:0.65rem; border-radius:7px; margin-bottom:0.9rem; }}
-.meta-item {{ display:flex; flex-direction:column; }}
-.meta-label {{ font-size:0.65rem; color:var(--muted); font-family:var(--font-mono); }}
-.meta-value {{ font-size:0.82rem; font-weight:600; margin-top:0.1rem; font-family:var(--font-mono); }}
-.riesgo-labels {{ display:flex; justify-content:space-between; font-size:0.68rem; margin-bottom:0.35rem; font-family:var(--font-mono); }}
-.label-sl {{ color:var(--red); }} .label-tp {{ color:var(--green); }}
-.riesgo-barra-bg {{ height:6px; background:linear-gradient(to right,var(--red) 0%,#1a2640 30%,#1a2640 70%,var(--green) 100%); border-radius:3px; position:relative; margin-bottom:0.35rem; }}
-.riesgo-burbuja {{ width:12px; height:12px; background:#fff; border:2px solid var(--purple-light); border-radius:50%; position:absolute; top:50%; transform:translate(-50%,-50%); box-shadow:0 0 6px rgba(167,139,250,0.7); }}
-.riesgo-precios {{ display:flex; justify-content:space-between; font-size:0.65rem; color:var(--muted); font-family:var(--font-mono); }}
+    h1 {{
+      font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em;
+      display: flex; align-items: center; gap: 0.5rem;
+    }}
+    
+    h1 span {{ color: var(--primary); }}
 
-/* Table */
-.tabla-contenedor {{ width:100%; overflow-x:auto; }}
-table {{ width:100%; border-collapse:collapse; font-size:0.83rem; font-family:var(--font-mono); }}
-th {{ background:rgba(8,12,18,0.7); color:var(--muted); font-weight:600; padding:0.65rem 0.9rem; border-bottom:1px solid var(--border); text-transform:uppercase; font-size:0.65rem; letter-spacing:0.08em; }}
-td {{ padding:0.7rem 0.9rem; border-bottom:1px solid var(--border); color:#94a3b8; }}
-tr:hover td {{ background:rgba(26,38,64,0.3); }}
-.row-ganancia .bold-pnl {{ color:var(--green); font-weight:700; }}
-.row-perdida  .bold-pnl {{ color:var(--red); font-weight:700; }}
-.badge-tabla {{ background:#1a2640; padding:0.15rem 0.4rem; border-radius:4px; font-size:0.68rem; font-weight:600; }}
-.badge-razon {{ font-size:0.65rem; font-weight:700; padding:0.15rem 0.45rem; border-radius:4px; }}
-.badge-razon.take_profit,.badge-razon.early_exit {{ background:rgba(16,185,129,0.15); color:var(--green); }}
-.badge-razon.stop_loss   {{ background:rgba(239,68,68,0.15);  color:var(--red); }}
-.badge-razon.time_exit   {{ background:rgba(245,158,11,0.15); color:var(--amber); }}
-.badge-razon.inactiva    {{ background:rgba(107,114,128,0.15);color:var(--gray); }}
-.txt-truncate {{ max-width:260px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
-.no-data {{ text-align:center; color:var(--muted); padding:2rem; font-size:0.85rem; font-style:italic; }}
+    .meta-runtime {{
+      font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted);
+      background: rgba(255,255,255,0.02); padding: 0.5rem 0.75rem; border-radius: 6px; border: 1px solid var(--border);
+    }}
 
-/* Breakdown */
-.breakdown-grid {{ display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; }}
-.bk-item {{ background:rgba(8,12,18,0.5); border-radius:8px; padding:0.85rem; display:flex; align-items:center; gap:0.75rem; }}
-.bk-dot {{ width:10px; height:10px; border-radius:50%; flex-shrink:0; }}
-.bk-label {{ font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); }}
-.bk-count {{ font-family:var(--font-mono); font-size:1.2rem; font-weight:700; }}
-</style>
+    /* INTERACTIVE TIME TABS */
+    .tabs-container {{
+      display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;
+    }}
+
+    .tabs {{
+      display: flex; gap: 0.35rem; background: rgba(255,255,255,0.02); padding: 0.3rem; border-radius: 8px; border: 1px solid var(--border);
+    }}
+
+    .tab-btn {{
+      background: transparent; border: none; color: var(--text-muted);
+      padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; cursor: pointer; border-radius: 6px;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }}
+
+    .tab-btn:hover {{ color: var(--text-main); }}
+    
+    .tab-btn.active {{
+      background: var(--primary); color: white; box-shadow: 0 4px 12px var(--primary-glow);
+    }}
+
+    /* FINANCIAL METRICS CARDS */
+    .metrics-grid {{
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-bottom: 2rem;
+    }}
+
+    .card {{
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem;
+      position: relative; overflow: hidden;
+    }}
+
+    .card::before {{
+      content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: transparent;
+    }}
+    .card.accent::before {{ background: var(--primary); }}
+
+    .card-label {{ font-size: 0.8rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }}
+    .card-value {{ font-family: 'JetBrains Mono', monospace; font-size: 1.75rem; font-weight: 600; letter-spacing: -0.03em; }}
+    
+    .mono-num {{ font-family: 'JetBrains Mono', monospace; }}
+    .text-green {{ color: var(--green); }}
+    .text-red {{ color: var(--red); }}
+
+    /* CHARTS LAYOUT */
+    .charts-grid {{
+      display: grid; grid-template-columns: 2fr 1fr; gap: 1.25rem; margin-bottom: 2rem;
+    }}
+    .chart-box {{ min-height: 320px; display: flex; flex-direction: column; }}
+    .chart-wrapper {{ position: relative; flex-grow: 1; width: 100%; height: 100%; }}
+
+    /* OPEN POSITIONS STYLING (MONETIZED RISK BAR) */
+    .section-title {{ font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem; }}
+    .section-title badge {{ background: var(--primary-glow); color: var(--primary); font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }}
+
+    .positions-grid {{
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(430px, 1fr)); gap: 1.25rem; margin-bottom: 2rem;
+    }}
+
+    .pos-card {{
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }}
+
+    .pos-header {{ display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; gap: 0.5rem; }}
+    .pos-title {{ font-size: 0.9rem; font-weight: 600; line-height: 1.4; flex-grow: 1; }}
+    
+    .badge {{
+      font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace; text-transform: uppercase; white-space: nowrap;
+    }}
+    .badge-yes {{ background: rgba(16, 185, 129, 0.1); color: var(--green); border: 1px solid rgba(16, 185, 129, 0.2); }}
+    .badge-no {{ background: rgba(239, 68, 68, 0.1); color: var(--red); border: 1px solid rgba(239, 68, 68, 0.2); }}
+
+    .pos-meta {{ display: flex; gap: 1rem; margin-bottom: 1.25rem; font-size: 0.8rem; color: var(--text-muted); }}
+    .pos-meta span strong {{ color: var(--text-main); font-family: 'JetBrains Mono', monospace; }}
+
+    /* RISK BAR MONETIZED */
+    .risk-bar-container {{ margin-top: auto; padding-top: 0.5rem; }}
+    .risk-bar-labels {{ display: flex; justify-content: space-between; font-size: 0.75rem; font-family: 'JetBrains Mono', monospace; margin-bottom: 0.35rem; }}
+    .risk-bar-bg {{ height: 6px; background: rgba(255,255,255,0.05); border-radius: 3px; position: relative; }}
+    .risk-bar-fill {{ height: 100%; width: 4px; background: var(--primary); border-radius: 2px; position: absolute; top: 0; box-shadow: 0 0 8px var(--primary); transition: left 0.3s ease; }}
+
+    /* HISTORICAL TABLE STYLING */
+    .table-card {{ background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 2rem; }}
+    .table-wrapper {{ overflow-x: auto; }}
+    table {{ width: 100%; border-collapse: collapse; text-align: left; font-size: 0.85rem; }}
+    th {{ background: rgba(255,255,255,0.01); color: var(--text-muted); font-weight: 600; padding: 1rem; border-bottom: 1px solid var(--border); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }}
+    td {{ padding: 1rem; border-bottom: 1px solid var(--border); color: var(--text-main); vertical-align: middle; }}
+    tr:last-child td {{ border-bottom: none; }}
+    tr:hover td {{ background: rgba(255,255,255,0.005); }}
+
+    .td-pregunta {{ max-width: 320px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+    .td-reason {{ max-width: 280px; color: var(--text-muted); font-size: 0.8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+
+    /* TOOLTIP CSS NATIVO PARA RAZONAMIENTO IA */
+    .tooltip-ia {{ position: relative; cursor: help; display: inline-flex; align-items: center; gap: 0.25rem; }}
+    .tooltip-ia:hover .tooltip-box {{ opacity: 1; visibility: visible; transform: translateY(0); }}
+    .tooltip-box {{
+      position: absolute; bottom: 125%; left: 50%; transform: translateX(-50%) translateY(4px);
+      width: 280px; background: #0f1c30; border: 1px solid var(--primary); padding: 0.75rem;
+      border-radius: 8px; font-size: 0.8rem; color: var(--text-main); line-height: 1.4;
+      opacity: 0; visibility: hidden; z-index: 50; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5); pointer-events: none; white-space: normal;
+    }}
+  </style>
 </head>
 <body>
 
-<header>
-  <div class="brand">
-    <h1>🤖 Agente Híbrido <span>v3</span></h1>
-    <p>CLOB · Bayesian · Volatility · LLM News Signal</p>
-  </div>
-  <div class="meta-header">
-    <div>Ciclos: <strong>#{n_ciclos}</strong></div>
-    <div>Última corrida: <strong>{ultima_corrida}</strong></div>
-    <div>Posiciones abiertas: <strong>{n_abiertas}</strong></div>
-  </div>
-</header>
+<div class="container">
+  <header>
+    <div>
+      <h1>A.I. HÍBRIDO <span>POLYMARKET v3</span></h1>
+    </div>
+    <div class="meta-runtime">
+      🤖 CICLOS: {n_ciclos} | ÚLTIMA CORRIDA: {ultima_corrida} ECT
+    </div>
+  </header>
 
-<!-- Métricas principales -->
-<div class="grid-metricas">
-  <div class="card-m" style="--accent:var(--purple)">
-    <h4>Capital Disponible</h4>
-    <div class="val">${capital_actual:,.2f}</div>
-    <div class="sub">USDC · inicial ${capital_inicial:,.0f}</div>
-  </div>
-  <div class="card-m" style="--accent:#a78bfa">
-    <h4>En Riesgo</h4>
-    <div class="val" style="color:var(--purple-light)">${capital_en_riesgo:,.2f}</div>
-    <div class="sub">USDC · {n_abiertas} posiciones</div>
-  </div>
-  <div class="card-m" style="--accent:{'var(--green)' if pnl_total>=0 else 'var(--red)'}">
-    <h4>P&L Realizado</h4>
-    <div class="val {pnl_clase_total}">{pnl_signo}${pnl_total:,.2f}</div>
-    <div class="sub">{total_cerradas} ops cerradas</div>
-  </div>
-  <div class="card-m" style="--accent:#38bdf8">
-    <h4>Win Rate</h4>
-    <div class="val" style="color:#38bdf8">{win_rate:.1%}</div>
-    <div class="sub">{total_ganadas}W · {total_perdidas}L</div>
-  </div>
-  <div class="card-m" style="--accent:var(--green)">
-    <h4>Avg Win</h4>
-    <div class="val positive">+${avg_win:.2f}</div>
-    <div class="sub">por operación ganadora</div>
-  </div>
-  <div class="card-m" style="--accent:var(--red)">
-    <h4>Avg Loss</h4>
-    <div class="val negative">${avg_loss:.2f}</div>
-    <div class="sub">por operación perdedora</div>
-  </div>
-</div>
-
-<!-- Curva + Posiciones abiertas -->
-<div class="row-2">
-  <div class="panel">
-    <h3>Curva P&L Acumulado</h3>
-    <div style="height:300px;position:relative">
-      <canvas id="chartPnl"></canvas>
+  <div class="tabs-container">
+    <div class="tabs">
+      <button class="tab-btn" onclick="cambiarFiltro('today')">Hoy</button>
+      <button class="tab-btn" onclick="cambiarFiltro('week')">Esta Semana</button>
+      <button class="tab-btn" onclick="cambiarFiltro('month')">Este Mes</button>
+      <button class="tab-btn active" onclick="cambiarFiltro('all')">Todo el Registro</button>
+    </div>
+    <div class="meta-runtime" id="lbl-ventana" style="border-color: var(--primary-glow); color: var(--text-main);">
+      Mostrando: Todo el Registro
     </div>
   </div>
-  <div class="panel">
-    <h3>Distribución de Salidas</h3>
-    <div style="height:200px;position:relative;margin-bottom:1rem">
-      <canvas id="chartDonut"></canvas>
+
+  <div class="metrics-grid">
+    <div class="card accent">
+      <div class="card-label">Patrimonio Neto (NAV)</div>
+      <div class="card-value mono-num" id="metric-nav">$0.00</div>
     </div>
-    <div class="breakdown-grid">
-      <div class="bk-item"><div class="bk-dot" style="background:var(--green)"></div><div><div class="bk-label">TP / Early</div><div class="bk-count" style="color:var(--green)">{n_tp}</div></div></div>
-      <div class="bk-item"><div class="bk-dot" style="background:var(--red)"></div><div><div class="bk-label">Stop Loss</div><div class="bk-count" style="color:var(--red)">{n_sl}</div></div></div>
-      <div class="bk-item"><div class="bk-dot" style="background:var(--amber)"></div><div><div class="bk-label">Time Exit</div><div class="bk-count" style="color:var(--amber)">{n_time}</div></div></div>
-      <div class="bk-item"><div class="bk-dot" style="background:var(--gray)"></div><div><div class="bk-label">Inactiva</div><div class="bk-count" style="color:var(--gray)">{n_inactiva}</div></div></div>
+    <div class="card">
+      <div class="card-label">Disponible / Riesgo</div>
+      <div class="card-value mono-num" id="metric-balances" style="font-size: 1.35rem; margin-top: 0.4rem; color: var(--text-muted);">
+        <span class="text-green" id="metric-disp">$0.00</span> / <span style="color: #a78bfa;" id="metric-riesgo">$0.00</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label">PnL Realizado Window</div>
+      <div class="card-value mono-num" id="metric-pnl">$0.00</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Win Rate Window</div>
+      <div class="card-value mono-num" id="metric-wr">0.0%</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Profit Factor Window</div>
+      <div class="card-value mono-num" id="metric-pf">0.00</div>
     </div>
   </div>
-</div>
 
-<!-- Posiciones abiertas -->
-<div class="panel" style="margin-bottom:1.5rem">
-  <h3>Posiciones Activas ({n_abiertas})</h3>
-  <div class="abiertas-wrapper" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem">
-    {ops_abiertas_html}
+  <div class="charts-grid">
+    <div class="card chart-box">
+      <div class="card-label">Curva Cronológica de Rendimiento Acumulado (USDC)</div>
+      <div class="chart-wrapper">
+        <canvas id="chartPnl"></canvas>
+      </div>
+    </div>
+    <div class="card chart-box">
+      <div class="card-label">Distribución de Cierres de Mercado</div>
+      <div class="chart-wrapper">
+        <canvas id="chartDonut"></canvas>
+      </div>
+    </div>
   </div>
-</div>
 
-<!-- Historial -->
-<div class="panel">
-  <h3>Historial de Operaciones</h3>
-  <div class="tabla-contenedor">
-    <table>
-      <thead><tr>
-        <th>Fecha Cierre</th><th>Mercado</th><th>Señal</th>
-        <th>Monto</th><th>P&L</th><th>Salida</th>
-      </tr></thead>
-      <tbody>{ops_cerradas_html}</tbody>
-    </table>
+  <div class="section-title">
+    🚀 POSICIONES ACTUALMENTE ABIERTAS <badge id="count-abiertas">0</badge>
+  </div>
+  
+  <div class="positions-grid" id="contenedor-abiertas">
+    </div>
+
+  <div class="section-title">
+    📜 HISTORIAL DE TRADES CERRADOS <badge id="count-cerradas">0</badge>
+  </div>
+  
+  <div class="table-card">
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Mercado / Pregunta</th>
+            <th>Señal</th>
+            <th>Monto</th>
+            <th>🧠 Análisis IA</th>
+            <th>Razón</th>
+            <th>Resultado</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-historial">
+          </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
 <script>
-// P&L Chart
-new Chart(document.getElementById('chartPnl').getContext('2d'), {{
-  type:'line',
-  data:{{
-    labels:{json.dumps(fechas_rendimiento)},
-    datasets:[{{
-      data:{json.dumps(valores_rendimiento)},
-      borderColor:'#7c3aed', backgroundColor:'rgba(124,58,237,0.07)',
-      borderWidth:2, fill:true, tension:0.3,
-      pointBackgroundColor:'#a78bfa', pointRadius:3
-    }}]
-  }},
-  options:{{
-    responsive:true, maintainAspectRatio:false,
-    plugins:{{legend:{{display:false}}}},
-    scales:{{
-      x:{{grid:{{color:'#1a2640'}}, ticks:{{color:'#64748b',font:{{size:9,family:'JetBrains Mono'}}}}}},
-      y:{{grid:{{color:'#1a2640'}}, ticks:{{color:'#64748b',font:{{size:10,family:'JetBrains Mono'}}}}}}
+  // ── 4. DATOS CRUDOS INYECTADOS DIRECTAMENTE DESDE PANDAS ──────
+  const ESTRATEGIA_CAPITAL_ACTUAL = {capital_actual};
+  const ESTRATEGIA_CAPITAL_RIESGO = {capital_en_riesgo};
+  
+  const TRADES_ABIERTOS = {json.dumps(trades_abiertos)};
+  const TRADES_CERRADOS = {json.dumps(trades_cerrados)};
+
+  // Instancias globales de gráficos para permitir re-dibujado dinámico
+  let chartPnlInstance = null;
+  let chartDonutInstance = null;
+
+  // ── 5. MOTOR FILTRADOR DE TIEMPO JAVASCRIPT ────────────────────
+  function cambiarFiltro(ventana) {{
+    // Actualizar estados visuales de los botones
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    const ahora = new Date();
+    let filtroFecha = new Date();
+    let textoVentana = "Todo el Registro";
+
+    if (ventana === 'today') {{
+      filtroFecha.setHours(0,0,0,0);
+      textoVentana = "Operaciones de Hoy";
+    }} else if (ventana === 'week') {{
+      filtroFecha.setDate(ahora.getDate() - 7);
+      textoVentana = "Últimos 7 Días";
+    }} else if (ventana === 'month') {{
+      filtroFecha.setDate(ahora.getDate() - 30);
+      textoVentana = "Últimos 30 Días";
+    }}
+
+    document.getElementById('lbl-ventana').innerText = "Mostrando: " + textoVentana;
+
+    // Filtrar los trades cerrados según la ventana temporal
+    const cerradosFiltrados = TRADES_CERRADOS.filter(t => {{
+      if (ventana === 'all') return true;
+      const f_trade = new Date(t.fecha_entrada_dt.replace(' ', 'T'));
+      return f_trade >= filtroFecha;
+    }});
+
+    calcularMétricas(cerradosFiltrados);
+    renderizarAbiertas();
+    renderizarTabla(cerradosFiltrados);
+  }}
+
+  // ── 6. CÓMPUTO DE MÉTRICAS FINANCIERAS (Fondo Cobertura) ──────
+  function calcularMétricas(cerrados) {{
+    let pnlRealizadoWindow = 0;
+    let gananciasBrutas = 0;
+    let perdidasBrutas = 0;
+    let wins = 0;
+    let totalConImpacto = 0;
+
+    let contadorRazones = {{ 'TAKE_PROFIT': 0, 'STOP_LOSS': 0, 'TIME_EXIT': 0, 'INACTIVA': 0, 'EARLY_EXIT': 0 }};
+
+    // Procesar curvas cronológicas acumulativas para Chart.js
+    let curvasCronologicas = [];
+    let pnlAcumuladoSuma = 0;
+
+    // Recorremos al revés cronológico (del más viejo al más nuevo) para armar la curva Chart.js de forma ascendente
+    const copiaCronologica = [...cerrados].reverse();
+
+    copiaCronologica.forEach((t, index) => {{
+      const pnl = parseFloat(t.pnl_realizado) || 0.0;
+      pnlRealizadoWindow += pnl;
+      pnlAcumuladoSuma += pnl;
+      
+      curvasCronologicas.push({{
+        label: `Trade #${{index + 1}}`,
+        valor: pnlAcumuladoSuma
+      }});
+
+      if (pnl > 0) {{
+        gananciasBrutas += pnl;
+        wins++;
+        totalConImpacto++;
+      }} else if (pnl < 0) {{
+        perdidasBrutas += Math.abs(pnl);
+        totalConImpacto++;
+      }} else if (pnl === 0 && strContiene(t.razon_cierre, 'INACTIVA') === false) {{
+        // Si cerró en 0 pero no fue por inactividad limpia, cuenta como exposición neutral
+        totalConImpacto++;
+      }}
+
+      // Contabilizar razones para el gráfico Donut
+      const r = String(t.razon_cierre).toUpperCase();
+      if (r in contadorRazones) contadorRazones[r]++;
+    }});
+
+    // Cómputo del P&L Flotante actual de operaciones vivas
+    let pnlFlotanteTotal = 0;
+    TRADES_ABIERTOS.forEach(t => {{
+      const pte = parseFloat(t.precio_token_entrada) || 1.0;
+      const p_act = parseFloat(t.precio_actual) || pte;
+      const pct = (p_act - pte) / pte;
+      pnlFlotanteTotal += (parseFloat(t.monto_usdc) || 0.0) * pct;
+    }});
+
+    // Actualización de los Cards Principales
+    const navCalculado = ESTRATEGIA_CAPITAL_ACTUAL + ESTRATEGIA_CAPITAL_RIESGO + pnlFlotanteTotal;
+    document.getElementById('metric-nav').innerText = `$${{navCalculado.toFixed(2)}} USDC`;
+    document.getElementById('metric-disp').innerText = `$${{ESTRATEGIA_CAPITAL_ACTUAL.toFixed(2)}}`;
+    document.getElementById('metric-riesgo').innerText = `$${{ESTRATEGIA_CAPITAL_RIESGO.toFixed(2)}}`;
+    
+    document.getElementById('metric-pnl').innerText = `$${{pnlRealizadoWindow.toPrecision(4)}} USDC`;
+    document.getElementById('metric-pnl').className = "card-value mono-num " + (pnlRealizadoWindow >= 0 ? "text-green" : "text-red");
+
+    const winRate = totalConImpacto > 0 ? (wins / totalConImpacto) * 100 : 0;
+    document.getElementById('metric-wr').innerText = `${{winRate.toFixed(1)}}%`;
+
+    const profitFactor = perdidasBrutas > 0 ? (gananciasBrutas / perdidasBrutas) : gananciasBrutas;
+    document.getElementById('metric-pf').innerText = profitFactor === gananciasBrutas && gananciasBrutas > 0 ? "∞" : profitFactor.toFixed(2);
+
+    // Inyectar contadores en los subtítulos
+    document.getElementById('count-abiertas').innerText = TRADES_ABIERTOS.length;
+    document.getElementById('count-cerradas').innerText = cerrados.length;
+
+    // Pintar los gráficos con la data calculada
+    renderizarGraficos(curvasCronologicas, contadorRazones);
+  }}
+
+  // Helper de búsqueda de strings seguro
+  function strContiene(base, busqueda) {{
+    return String(base).toUpperCase().includes(String(busqueda).toUpperCase());
+  }}
+
+  // ── 7. RENDERIZADO DE OPERACIONES VIVAS (BARRAS EN DÓLARES) ───
+  function renderizarAbiertas() {{
+    const contenedor = document.getElementById('contenedor-abiertas');
+    contenedor.innerHTML = "";
+
+    if (TRADES_ABIERTOS.length === 0) {{
+      contenedor.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 2rem; border: 1px dashed var(--border); border-radius: 12px; background: rgba(255,255,255,0.005)">Ninguna operación abierta en este momento. El bot está escaneando ineficiencias...</div>`;
+      return;
+    }}
+
+    TRADES_ABIERTOS.forEach(t => {{
+      const pe = parseFloat(t.precio_entrada) || 0.0;
+      const pte = parseFloat(t.precio_token_entrada) || 0.0;
+      const pa = parseFloat(t.precio_actual) || pte;
+      const monto = parseFloat(t.monto_usdc) || 0.0;
+      const sl = parseFloat(t.sl_dinamico) || -0.03;
+      const tp = parseFloat(t.tp_dinamico) || 0.045;
+
+      const pct = (pa - pte) / pte;
+      const pnlMonetario = monto * pct;
+
+      // Límites absolutos monetizados en USD
+      const usdSL = monto * sl;
+      const usdTP = monto * tp;
+
+      // Calcular posición porcentual de la burbuja en la barra (0% al 100%)
+      const rangoUsd = usdTP - usdSL;
+      let posBurbuja = 50.0;
+      if (rangoUsd > 0) {{
+        posBurbuja = ((pnlMonetario - usdSL) / rangoUsd) * 100.0;
+        posBurbuja = Math.max(0, Math.min(100, posBurbuja));
+      }}
+
+      const claseBadge = strContiene(t.señal, 'YES') ? 'badge-yes' : 'badge-no';
+
+      const htmlCard = `
+        <div class="pos-card">
+          <div>
+            <div class="pos-header">
+              <div class="pos-title">${{t.pregunta}}</div>
+              <div class="badge ${{claseBadge}}">${{t.señal}}</div>
+            </div>
+            <div class="pos-meta">
+              <span>Monto: <strong>$${{monto.toFixed(2)}}</strong></span>
+              <span>Entrada Token: <strong>${{pte.toFixed(3)}}</strong></span>
+              <span>Actual: <strong>${{pa.toFixed(3)}}</strong></span>
+            </div>
+          </div>
+          
+          <div class="risk-bar-container">
+            <div class="risk-bar-labels">
+              <span class="text-red">${{usdSL.toFixed(2)}}$</span>
+              <span class="${{pnlMonetario >= 0 ? 'text-green' : 'text-red'}}" style="font-weight:600;">
+                ${{pnlMonetario >= 0 ? '+' : ''}}${{pnlMonetario.toFixed(2)}}$ (${{(pct*100).toFixed(1)}}%)
+              </span>
+              <span class="text-green">+${{usdTP.toFixed(2)}}$</span>
+            </div>
+            <div class="risk-bar-bg">
+              <div class="risk-bar-fill" style="left: ${{posBurbuja}}%;"></div>
+            </div>
+          </div>
+        </div>
+      `;
+      contenedor.innerHTML += htmlCard;
+    }});
+  }}
+
+  // ── 8. RENDERIZADO DE TABLA HISTÓRICA LIMITADA A 25 ───────────
+  function renderizarTabla(cerrados) {{
+    const tbody = document.getElementById('tabla-historial');
+    tbody.innerHTML = "";
+
+    if (cerrados.length === 0) {{
+      tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; color:var(--text-muted); padding:3rem;">No se encontraron registros de operaciones para el filtro seleccionado.</td></tr>`;
+      return;
+    }}
+
+    // Truncado dinámico: Renderizar un máximo de 25 registros en la interfaz visual
+    const registrosVisibles = cerrados.slice(0, 25);
+
+    registrosVisibles.forEach(t => {{
+      const pnl = parseFloat(t.pnl_realizado) || 0.0;
+      const pct = parseFloat(t.pct_cambio) || 0.0;
+      const clasePnL = pnl > 0 ? "text-green" : (pnl < 0 ? "text-red" : "");
+      const claseBadge = strContiene(t.señal, 'YES') ? 'badge-yes' : 'badge-no';
+
+      const razonMapeada = strContiene(t.razon_cierre, 'INACTIVA') ? '🔒 INACTIVA' : t.razon_cierre;
+
+      const fila = `
+        <tr>
+          <td class="mono-num" style="color:var(--text-muted); font-size:0.8rem;">${{t.fecha_entrada}}</td>
+          <td>
+            <div class="td-pregunta" title="${{t.pregunta}}">${{t.pregunta}}</div>
+          </td>
+          <td><span class="badge ${{claseBadge}}">${{t.señal}}</span></td>
+          <td class="mono-num">$${{parseFloat(t.monto_usdc || 0).toFixed(2)}}</td>
+          <td>
+            <div class="tooltip-ia">
+              <span class="badge" style="background:rgba(139,92,246,0.08); color:var(--primary); border:1px solid rgba(139,92,246,0.15)">🤖 VER RAZÓN</span>
+              <div class="tooltip-box">
+                <strong>Análisis fundamental del LLM:</strong><br>${{t.razonamiento || 'Sin desglose detallado en el registro.'}}
+              </div>
+            </div>
+          </td>
+          <td style="font-weight:600; font-size:0.8rem; color:var(--text-muted);">${{razonMapeada}}</td>
+          <td class="mono-num ${{clasePnL}}" style="font-weight:600;">
+            ${{pnl >= 0 ? '+' : ''}}${{pnl.toFixed(2)}}$ (${{(pct*100).toFixed(1)}}%)
+          </td>
+        </tr>
+      `;
+      tbody.innerHTML += fila;
+    }});
+
+    if (cerrados.length > 25) {{
+      tbody.innerHTML += `<tr><td colspan="7" style="text-align:center; color:var(--text-muted); font-size:0.8rem; background:rgba(255,255,255,0.002)">💡 Omitiendo ${{cerrados.length - 25}} operaciones más antiguas en la vista para optimizar la velocidad del panel.</td></tr>`;
     }}
   }}
-}});
-// Donut
-new Chart(document.getElementById('chartDonut').getContext('2d'), {{
-  type:'doughnut',
-  data:{{
-    labels:{json.dumps(donut_labels)},
-    datasets:[{{
-      data:{json.dumps(donut_data)},
-      backgroundColor:{json.dumps(donut_colors)},
-      borderWidth:0, hoverOffset:4
-    }}]
-  }},
-  options:{{
-    responsive:true, maintainAspectRatio:false, cutout:'70%',
-    plugins:{{legend:{{display:false}}}}
+
+  // ── 9. DIBUJADO DE GRÁFICOS (CHART.JS MASIVO INTERACTIVO) ─────
+  function renderizarGraficos(curvaData, razonesData) {{
+    // Destruir gráficos anteriores para evitar superposiciones visuales al cambiar de pestañas
+    if (chartPnlInstance) chartPnlInstance.destroy();
+    if (chartDonutInstance) chartDonutInstance.destroy();
+
+    // Configuración del Gráfico de Línea Cronológica
+    const ctxLine = document.getElementById('chartPnl').getContext('2d');
+    chartPnlInstance = new Chart(ctxLine, {{
+      type: 'line',
+      data: {{
+        labels: curvaData.map(c => c.label),
+        datasets: [{{
+          data: curvaData.map(c => c.valor),
+          borderColor: '#8b5cf6',
+          backgroundColor: 'rgba(139, 92, 246, 0.04)',
+          borderWidth: 2,
+          fill: true,
+          tension: 0.25,
+          pointBackgroundColor: '#a78bfa',
+          pointRadius: curvaData.length > 50 ? 0 : 2
+        }}]
+      }},
+      options: {{
+        responsive: true, maintainAspectRatio: false,
+        plugins: {{ legend: {{ display: false }} }},
+        scales: {{
+          x: {{ grid: {{ color: 'rgba(255,255,255,0.02)' }}, ticks: {{ color: '#64748b', font: {{ size: 9, family: 'JetBrains Mono' }} }} }},
+          y: {{ grid: {{ color: 'rgba(255,255,255,0.02)' }}, ticks: {{ color: '#64748b', font: {{ size: 10, family: 'JetBrains Mono' }} }} }}
+        }}
+      }}
+    }});
+
+    // Configuración del Gráfico de Torta / Donut
+    const labelsDonut = Object.keys(razonesData);
+    const dataDonut = Object.values(razonesData);
+    const coloresDonut = ['#10b981', '#ef4444', '#f59e0b', '#3b82f6', '#8b5cf6'];
+
+    const ctxDonut = document.getElementById('chartDonut').getContext('2d');
+    chartDonutInstance = new Chart(ctxDonut, {{
+      type: 'doughnut',
+      data: {{
+        labels: labelsDonut,
+        datasets: [{{
+          data: dataDonut,
+          backgroundColor: coloresDonut,
+          borderWidth: 0
+        }}]
+      }},
+      options: {{
+        responsive: true, maintainAspectRatio: false,
+        plugins: {{
+          legend: {{
+            position: 'right',
+            labels: {{ color: '#f1f5f9', font: {{ size: 11, family: 'Plus Jakarta Sans' }}, boxWidth: 12 }}
+          }}
+        }}
+      }}
+    }});
   }}
-}});
+
+  // Inicialización inmediata al cargar el archivo HTML
+  window.onload = function() {{
+    calcularMétricas(TRADES_CERRADOS);
+    renderizarAbiertas();
+    renderizarTabla(TRADES_CERRADOS);
+  }};
 </script>
 </body>
-</html>"""
+</html>
+"""
 
+    # ── 4. ESCRITURA INTACTA SOBRE EL VOLUMEN DE DATOS ─────────────
+    os.makedirs(os.path.dirname(ARCHIVO_OUTPUT), exist_ok=True)
     with open(ARCHIVO_OUTPUT, "w", encoding="utf-8") as f:
-        f.write(html)
-    print(f"✅ Dashboard generado: {ARCHIVO_OUTPUT}")
+        f.write(html_content)
+    
+    print(f"📊 Dashboard Reactivo e Interactivo v3 generado con éxito en: {ARCHIVO_OUTPUT}")
 
 if __name__ == "__main__":
     generar_dashboard()
