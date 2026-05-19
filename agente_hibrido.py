@@ -81,31 +81,39 @@ logging.basicConfig(
 )
 log = logging.getLogger("hibrido")
 
-PROMPT = """Eres un trader experto y especializado en mercados de predicción.
+PROMPT = """Eres un sistema algorítmico avanzado de arbitraje y calibración probabilística en mercados de predicción (Polymarket). Tu objetivo es detectar ineficiencias de precio analizando datos del mercado y noticias recientes de forma fría, racional y matemática.
 
-Mercado: {pregunta}
-Precio actual YES: {precio:.1%}
-Días hasta resolución: {dias}
-Variación de Precio (Última 1h): {momentum}
-Spread: {spread:.1%}
+[DATOS DEL MERCADO ACTUAL]
+- Mercado (Pregunta): {pregunta}
+- Precio Actual YES en Polymarket: {precio:.1%} (Indica que el mercado asigna un {precio:.1%} de probabilidad a favor del YES)
+- Días Restantes para la Resolución: {dias} días
+- Variación de Precio (Última 1h): {momentum}
+- Spread de Liquidez: {spread:.1%}
 
-Noticias de las últimas 48 horas:
+[INFORMACIÓN RECIENTE DISPONIBLE (ÚLTIMAS 48-72 HORAS)]
 {noticias}
 
-Historial de este mercado: {patron}
+[HISTORIAL DE ESTE MERCADO EN NUESTRO SISTEMA]
+{patron}
 
-Estima la probabilidad real de YES usando tu conocimiento sobre el evento, el contexto deportivo(calendario, partidos, tabla de posiciones, historial deportivo, etc)/político(historial, tendencias, opinion publica, etc), y las noticias si las hay. Tu estimación puede diferir del precio de mercado si tienes razones fundamentales para ello.
+[INSTRUCCIONES DE RAZONAMIENTO CRÍTICO]
+1. Aplica la Sabiduría de Masas: El precio de mercado ({precio:.1%}) ya descuenta la información general. Solo debes diferir del precio si las noticias proveen un catalizador contundente que el mercado aún no ha procesado (asimetría informática).
+2. Evita la Sobreconfianza: No asignes valores extremos (0% o 100%) a eventos con incertidumbre estructural (política, deportes, tecnología). Calibrar significa ser conservador.
+3. Factor de Decaimiento Temporal: Si faltan muchos días para la resolución, las probabilidades tienden a ser menos extremas debido al riesgo latente.
 
 CRITICAL FORMAT INSTRUCTIONS:
 You MUST respond with a single, perfectly formatted JSON object. 
-Do NOT include any markdown code blocks (like ```json), do NOT add any introductory or concluding text outside the curly braces, and NEVER add trailing comments or orphan strings inside the JSON object.
+Do NOT include any markdown code blocks (like ```json), do NOT add introductory/concluding text, and NEVER add trailing comments.
+The JSON keys MUST follow this exact execution sequence to allow proper cognitive processing:
 
-Your response must contain EXACTLY these 4 keys and nothing else:
 {{
-  "estimacion": (integer between 0 and 100 representing your probability percentage. MUST be a plain whole number like 14, 4, or 75. NEVER use decimals, slashes, or divisions),
-  "confianza": (float between 0.0 and 1.0 representing your confidence level),
-  "hay_noticia": (boolean true/false, true if there is recent relevant news from the text provided),
-  "razonamiento": (string, brief text under 100 characters summarizing your logic. Place ALL your comments, notes, or history warnings strictly INSIDE this string value)
+  "analisis_noticias": "Análisis de 1 frase sobre si las noticias proveen un catalizador real o si son mero ruido de prensa.",
+  "conocimiento_base": "Análisis de 1 frase sobre el contexto deportivo/político/histórico de este evento específico.",
+  "calibracion_precio": "Análisis de 1 frase evaluando por qué el mercado cotiza a {precio:.1%} y si hay un sesgo visible.",
+  "hay_noticia": false, (boolean true/false, strictly true ONLY if there is recent, highly relevant news from the text that alters the event probability),
+  "confianza": 0.50, (float between 0.0 and 1.0 representing your statistical confidence based on available data size),
+  "estimacion": 50, (integer between 0 and 100 representing your final strictly calibrated probability percentage. MUST be a plain whole number without decimals),
+  "razonamiento": "Resumen ejecutivo final de menos de 100 caracteres combinando la lógica de los campos anteriores."
 }}"""
 
 # Cerrar inactivas __________________________________________________
