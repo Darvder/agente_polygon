@@ -70,7 +70,19 @@ def get_precio_bucket(precio):
     if p < 0.35: return "bajo"
     if p < 0.65: return "medio"
     if p < 0.85: return "alto"
-    return "extremo_alto"
+    return "extremo_alto
+
+def get_mercado_clave(pregunta):
+    q = str(pregunta).lower()
+    if "nvidia" in q: return "nvidia"
+    if "microstrategy" in q: return "microstrategy"
+    if "starmer" in q: return "starmer"
+    if "anthropic" in q: return "anthropic"
+    if "openai" in q: return "openai"
+    if "discord" in q: return "discord"
+    if "rihanna" in q: return "rihanna"
+    if "carti" in q: return "carti"
+    return "otro"
 
 def extraer_features(row):
     señal = str(row.get("señal", "")).upper()
@@ -83,6 +95,7 @@ def extraer_features(row):
         "confianza":  get_confianza_bucket(row.get("llm_confianza", 0.5)),
         "precio":     get_precio_bucket(row.get("precio_token_entrada", 0.5)),
         "noticia":    "si" if hay_noticia else "no",
+        "mercado": get_mercado_clave(row.get("pregunta", "")),
     }
 
 def es_señal_valida(row):
@@ -173,6 +186,7 @@ class BayesianEngine:
             "confianza": get_confianza_bucket(confianza),
             "precio":    get_precio_bucket(precio_entrada),
             "noticia":   "si" if hay_noticia else "no",
+            "mercado": get_mercado_clave(pregunta),
         }
         score, detalle = self.score(features)
 
