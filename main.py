@@ -20,7 +20,7 @@ if os.path.exists(lock_file):
     exit(0)
 open(lock_file, "w").close()
 
-INTERVALO_CICLO = 4 * 60  # 4 minutos de espera DESPUÉS de cada ciclo
+INTERVALO_CICLO = 25 * 60  # 4 minutos de espera DESPUÉS de cada ciclo
 
 
 async def push_github():
