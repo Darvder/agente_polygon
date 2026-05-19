@@ -35,7 +35,7 @@ os.environ['TZ'] = 'America/Guayaquil'
 
 
 # Definimos un semáforo para permitir máximo 3 peticiones simultáneas a Groq y evitar el Error 429
-groq_semaphore = asyncio.Semaphore(1)
+groq_semaphore = asyncio.Semaphore(3)
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
@@ -228,9 +228,13 @@ def verificar_salidas(df, estado, mercados_actuales):
             h   = abs((ahora-dt).total_seconds()/3600)
             mid = pl.get(str(pos.get("market_id",""))) or ql.get(str(pos["pregunta"])[:70])
 
-            if mid is None:
-                if h >= float(pos.get("horas_max", 6)): mid = float(pos["precio_actual"])
-                else: continue
+            if mid is not None:
+                # Determinar el precio real del token que poseemos
+                precio_token_actual = mid if pos["señal"] == "COMPRAR YES" else round(1 - mid, 4)
+                df.loc[idx, "precio_actual"] = precio_token_actual
+                
+                pte = float(pos["precio_token_entrada"])
+                pct = (precio_token_actual - pte) / pte
 
             # TP/SL/HORAS específicos guardados en la posición
             tp_pos = float(pos.get("tp_dinamico", 0.09))
@@ -317,7 +321,6 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             momentum=m.get("cambio_1h", 0.0)
         )
         try:
-            await asyncio.sleep(2)
             msg = await cliente_llm.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 temperature=0.0,
@@ -400,26 +403,6 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             "vol_1d":               met.get("vol_1d", 0.0) if met else 0.0,
         }
 
-# ══════════════════════════════════════════════════════════════════
-# CICLO PRINCIPAL
-# ══════════════════════════════════════════════════════════════════
-import re
-
-def extraer_json_puro(texto):
-    """Extrae el bloque JSON {} incluso si la IA añade texto extra o comete errores de formato."""
-    try:
-        match = re.search(r'\{.*\}', texto, re.DOTALL)
-        return match.group(0) if match else texto
-    except:
-        return texto
-async def ciclo():
-    log.info("="*55)
-    log.info("🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3")
-    log.info("="*55)
-    
-    estado = cargar_estado()
-    df = cargar_libro()
-  
 def actualizar_precios_abiertos(df):
     abiertas = df[df['estado'] == 'ABIERTA']
     if abiertas.empty: return df
@@ -439,16 +422,37 @@ def actualizar_precios_abiertos(df):
                     df.loc[idx, 'precio_actual'] = precio_token
         except: pass
     return df
-  
+
+import re
+
+def extraer_json_puro(texto):
+    """Extrae el bloque JSON {} incluso si la IA añade texto extra o comete errores de formato."""
+    try:
+        match = re.search(r'\{.*\}', texto, re.DOTALL)
+        return match.group(0) if match else texto
+    except:
+        return texto
+
+# ══════════════════════════════════════════════════════════════════
+# CICLO PRINCIPAL
+# ══════════════════════════════════════════════════════════════════
+
 async def ciclo():
     global estado
+    log.info("="*55)
+    log.info("🚀 INICIANDO CICLO HÍBRIDO ASÍNCRONO v3")
+    log.info("="*55)
+  
     df = cargar_libro()
     estado = cargar_estado()
   
-    df, n_inactivas = cerrar_inactivas(df, estado)
-    if n_inactivas: guardar_estado(estado)
+    # 1. ACTUALIZAR PRECIOS ANTES DE EVALUAR APUESTAS
     df = actualizar_precios_abiertos(df)
     guardar_libro(df)
+
+    # 2. EVALUAR AGRESIVIDAD DE CIERRES
+    df, n_inactivas = cerrar_inactivas(df, estado)
+    if n_inactivas: guardar_estado(estado)
 
     # Filtro de cupo disponible
     n_ab = len(df[df["estado"]=="ABIERTA"]) if not df.empty else 0
