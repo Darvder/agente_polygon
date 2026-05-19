@@ -1,6 +1,9 @@
 name: Agente Hibrido
 
 on:
+  schedule:
+    # Ejecución automática cada 10 minutos
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -33,10 +36,27 @@ jobs:
           TZ: America/Guayaquil
         run: python generar_dashboard_momentum.py
 
-      - name: Guardar resultados
+      - name: Guardar resultados en la rama de datos
         run: |
           git config user.email "bot@agente"
           git config user.name "Agente Bot"
+          
+          # 1. Respaldar los archivos generados en el directorio temporal del Runner (Fuera de Git)
+          mkdir -p ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading
+          cp datos_polymarket/paper_trading/libro_hibrido.csv ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
+          cp datos_polymarket/paper_trading/estado_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
+          cp datos_polymarket/dashboard_hibrido.html ${{ runner.temp }}/respaldo/datos_polymarket/ 2>/dev/null || true
+          cp index.html ${{ runner.temp }}/respaldo/ 2>/dev/null || true
+          
+          # 2. Traer y cambiar estrictamente a la rama de almacenamiento 'datos'
+          git fetch origin datos
+          git checkout datos
+          
+          # 3. Restaurar los archivos del ciclo encima de la rama 'datos'
+          mkdir -p datos_polymarket/paper_trading
+          cp -r ${{ runner.temp }}/respaldo/* .
+          
+          # 4. Confirmar cambios y empujar exclusivamente a la rama 'datos'
           git add -A
-          git diff --staged --quiet || git commit -m "ciclo $(date +'%Y-%m-%d %H:%M')"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git diff --staged --quiet || git commit -m "ciclo GHA $(date +'%Y-%m-%d %H:%M')"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git datos
