@@ -51,13 +51,13 @@ jobs:
         env:
           TZ: America/Guayaquil
         run: python generar_dashboard_momentum.py
-
+        
       - name: Guardar resultados en la rama de datos
         run: |
           git config user.email "bot@agente"
           git config user.name "Agente Bot"
           
-          # Respaldar los archivos vivos del ciclo en el directorio temporal del Runner
+          # 1. Respaldar los archivos generados en el directorio temporal del Runner (Fuera de Git)
           mkdir -p ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading
           cp datos_polymarket/paper_trading/libro_hibrido.csv ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/paper_trading/estado_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
@@ -65,14 +65,20 @@ jobs:
           cp datos_polymarket/dashboard_hibrido.html ${{ runner.temp }}/respaldo/datos_polymarket/ 2>/dev/null || true
           cp index.html ${{ runner.temp }}/respaldo/ 2>/dev/null || true
           
-          # Cambiar a la rama de datos pura
+          # 2. ⚡ ESCUDO DE LIMPIEZA CRÍTICO: Purgar el árbol de Git para permitir el checkout
+          git reset --hard HEAD
+          git clean -fd
+          
+          # 3. Traer la rama de datos e intercambiar sin bloqueos
+          git fetch origin datos || true
           git checkout datos
           
-          # Restaurar e impactar los cambios del ciclo encima de la rama
+          # 4. Restaurar los archivos del ciclo encima de la rama 'datos'
           mkdir -p datos_polymarket/paper_trading
           cp -r ${{ runner.temp }}/respaldo/* .
           
-          # Hacer commit y empujar la actualización
+          # 5. Confirmar cambios y empujar la actualización exclusivamente a la rama 'datos'
           git add -A
           git diff --staged --quiet || git commit -m "ciclo GHA $(date +'%Y-%m-%d %H:%M')"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git datos
+      
