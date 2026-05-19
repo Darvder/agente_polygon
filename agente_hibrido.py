@@ -417,22 +417,25 @@ async def ciclo():
     estado = cargar_estado()
     df = cargar_libro()
   
-    def actualizar_precios_abiertos(df):
-        """Refresca precio_actual para todas las posiciones ABIERTA."""
-        abiertas = df[df['estado'] == 'ABIERTA']
-        if abiertas.empty: return df
-        for idx, pos in abiertas.iterrows():
-            try:
-                r = requests.get("https://gamma-api.polymarket.com/markets",
-                                 params={"id": pos['market_id']}, timeout=8)
-                if r.status_code == 200 and r.json():
-                    m = r.json()[0]
-                    bid = float(m.get("bestBid", 0))
-                    ask = float(m.get("bestAsk", 0))
-                    if bid > 0 and ask > 0:
-                        df.loc[idx, 'precio_actual'] = round((bid + ask) / 2, 4)
-            except: pass
-        return df
+def actualizar_precios_abiertos(df):
+    abiertas = df[df['estado'] == 'ABIERTA']
+    if abiertas.empty: return df
+    for idx, pos in abiertas.iterrows():
+        try:
+            r = requests.get("https://gamma-api.polymarket.com/markets",
+                             params={"id": pos['market_id']}, timeout=8)
+            if r.status_code == 200 and r.json():
+                m = r.json()[0]
+                bid = float(m.get("bestBid", 0))
+                ask = float(m.get("bestAsk", 0))
+                if bid > 0 and ask > 0:
+                    precio_yes = round((bid + ask) / 2, 4)
+                    señal = str(pos.get('señal', 'COMPRAR YES')).upper()
+                    # Para NO, el precio del token es el complemento
+                    precio_token = precio_yes if "YES" in señal else round(1 - precio_yes, 4)
+                    df.loc[idx, 'precio_actual'] = precio_token
+        except: pass
+    return df
   
     df, n_inactivas = cerrar_inactivas(df, estado)
     if n_inactivas: guardar_estado(estado)
