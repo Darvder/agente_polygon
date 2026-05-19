@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Descarga todo el historial de ramas para poder alternar entre ellas
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -23,6 +26,19 @@ jobs:
 
       - name: Instalar dependencias
         run: pip install -r requirements.txt
+
+      - name: Sincronizar memoria histórica y purgar archivos corruptos
+        run: |
+          # 1. Traer la rama remota de almacenamiento
+          git fetch origin datos || true
+          
+          # 2. Intentar extraer los archivos reales de operaciones previas hacia el espacio de trabajo actual
+          git checkout origin/datos -- datos_polymarket/paper_trading/libro_hibrido.csv datos_polymarket/paper_trading/estado_hibrido.json datos_polymarket/paper_trading/bayesian_hibrido.json 2>/dev/null || echo "No se encontró historial en la rama 'datos'. El bot iniciará un registro limpio."
+          
+          # 3. BLINDAJE CONTRA EMPTYDATAERROR: Si algún archivo quedó en 0 bytes localmente, se elimina por completo.
+          # Al ser eliminado, los módulos de Python inicializarán DataFrames nuevos y válidos de forma nativa.
+          find . -name "*.csv" -empty -delete 2>/dev/null || true
+          find . -name "*.json" -empty -delete 2>/dev/null || true
 
       - name: Ejecutar agente híbrido
         env:
@@ -41,22 +57,22 @@ jobs:
           git config user.email "bot@agente"
           git config user.name "Agente Bot"
           
-          # 1. Respaldar los archivos generados en el directorio temporal del Runner (Fuera de Git)
+          # Respaldar los archivos vivos del ciclo en el directorio temporal del Runner
           mkdir -p ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading
           cp datos_polymarket/paper_trading/libro_hibrido.csv ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/paper_trading/estado_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
+          cp datos_polymarket/paper_trading/bayesian_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/dashboard_hibrido.html ${{ runner.temp }}/respaldo/datos_polymarket/ 2>/dev/null || true
           cp index.html ${{ runner.temp }}/respaldo/ 2>/dev/null || true
           
-          # 2. Traer y cambiar estrictamente a la rama de almacenamiento 'datos'
-          git fetch origin datos
+          # Cambiar a la rama de datos pura
           git checkout datos
           
-          # 3. Restaurar los archivos del ciclo encima de la rama 'datos'
+          # Restaurar e impactar los cambios del ciclo encima de la rama
           mkdir -p datos_polymarket/paper_trading
           cp -r ${{ runner.temp }}/respaldo/* .
           
-          # 4. Confirmar cambios y empujar exclusivamente a la rama 'datos'
+          # Hacer commit y empujar la actualización
           git add -A
           git diff --staged --quiet || git commit -m "ciclo GHA $(date +'%Y-%m-%d %H:%M')"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git datos
