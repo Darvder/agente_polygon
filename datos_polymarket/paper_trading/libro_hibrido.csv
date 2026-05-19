@@ -1,0 +1,1 @@
+fecha_entrada,fecha_entrada_dt,market_id,pregunta,señal,precio_entrada,precio_token_entrada,precio_actual,precio_cierre,pct_cambio,llm_estimacion,llm_confianza,llm_edge,hay_noticia,n_noticias,monto_usdc,dias_mercado,fecha_cierre_mercado,fecha_cierre_real,pnl_realizado,estado,razon_cierre,razonamiento,tp_dinamico,sl_dinamico,horas_max,vol_1d
