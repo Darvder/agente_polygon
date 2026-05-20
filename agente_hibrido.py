@@ -357,7 +357,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             momentum=m.get("cambio_1h", 0.0)
         )
         try:
-            async with GROQ_SEM:
+            async with groq_semaphore:
                 msg = await cliente_llm.chat.completions.create(
                     model="llama-3.1-8b-instant",
                     temperature=0.0,
