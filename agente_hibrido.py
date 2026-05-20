@@ -35,7 +35,7 @@ os.environ['TZ'] = 'America/Guayaquil'
 
 
 # Definimos un semáforo para permitir máximo 3 peticiones simultáneas a Groq y evitar el Error 429
-groq_semaphore = asyncio.Semaphore(3)
+groq_semaphore = asyncio.Semaphore(2)
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
@@ -357,13 +357,17 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             momentum=m.get("cambio_1h", 0.0)
         )
         try:
+        async with GROQ_SEM:
             msg = await cliente_llm.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 temperature=0.0,
                 messages=[{"role":"user","content":prompt}],
-                max_tokens=150,
+                max_tokens=800,  # ✅ Saneado: Da espacio para el análisis completo
                 response_format={"type": "json_object"}
             )
+            # Micro-letargo defensivo para espaciar las tareas y respetar los 6,000 TPM
+            await asyncio.sleep(1.5)
+      
             an = json.loads(msg.choices[0].message.content.strip())
         except Exception as e:
             log.warning(f"⚠️ {nombre_m} | Groq error: {e}")
