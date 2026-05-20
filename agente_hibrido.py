@@ -583,5 +583,19 @@ async def ciclo():
     log.info("="*55)
   
 if __name__ == "__main__":
-    # Este es el nuevo "botón de encendido" asíncrono para el script
-    asyncio.run(ciclo())
+    import sys
+    
+    # ══════════════════════════════════════════════════════════════════
+    # INTERRUPTOR ESTRICTO DE SALIDA PARA GITHUB ACTIONS
+    # ══════════════════════════════════════════════════════════════════
+    try:
+        # Ejecuta un ÚNICO ciclo operativo completo por invocación del cron
+        asyncio.run(ciclo())
+        
+        print("🏁 [ÉXITO] Ciclo completado. Forzando liberación de sockets y salida limpia para GitHub Actions.")
+        # Corta de raíz cualquier socket Keep-Alive o hilo persistente de la API de Groq
+        sys.exit(0)
+        
+    except Exception as e:
+        print(f"❌ Error crítico en la ejecución del contenedor: {e}")
+        sys.exit(1)
