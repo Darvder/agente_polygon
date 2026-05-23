@@ -1,580 +1,1291 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Suite de Trading Cuantitativo - Agente Híbrido</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  
-  <style>
-    :root {
-      --bg-main: #060b13;
-      --bg-card: #0b1320;
-      --border: rgba(255, 255, 255, 0.04);
-      --text-main: #f1f5f9;
-      --text-muted: #64748b;
-      --primary: #8b5cf6;
-      --primary-glow: rgba(139, 92, 246, 0.15);
-      --green: #10b981;
-      --red: #ef4444;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agente Híbrido — Panel de Control</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+:root {
+  --bg: #080c12; --surface: #0f1724; --border: #1a2640;
+  --purple: #7c3aed; --purple-light: #a78bfa;
+  --green: #10b981; --red: #ef4444; --amber: #f59e0b; --gray: #6b7280;
+  --text: #e2e8f0; --muted: #64748b;
+  --font-head: 'Syne', sans-serif; --font-mono: 'JetBrains Mono', monospace;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:var(--font-head); padding:2rem; min-height:100vh; }
+body::before { content:''; position:fixed; inset:0; background:radial-gradient(ellipse 80% 50% at 20% 0%, rgba(124,58,237,0.07) 0%, transparent 60%); pointer-events:none; }
 
-    * {
-      margin: 0; padding: 0; box-sizing: border-box;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-    }
+/* Header */
+header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:2.5rem; padding-bottom:1.5rem; border-bottom:1px solid var(--border); }
+.brand h1 { font-size:1.6rem; font-weight:800; letter-spacing:-0.03em; }
+.brand h1 span { color:var(--purple-light); }
+.brand p { color:var(--muted); font-size:0.8rem; margin-top:0.3rem; font-family:var(--font-mono); }
+.meta-header { text-align:right; font-family:var(--font-mono); font-size:0.78rem; color:var(--muted); line-height:1.8; }
+.meta-header strong { color:var(--purple-light); }
 
-    body {
-      background-color: var(--bg-main);
-      background-image: radial-gradient(circle at 50% 0%, #0d1b2e 0%, var(--bg-main) 75%);
-      color: var(--text-main);
-      padding: 2rem;
-      min-height: 100vh;
-    }
+/* Metric cards */
+.grid-metricas { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin-bottom:2rem; }
+.card-m { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:1.25rem 1.5rem; position:relative; overflow:hidden; }
+.card-m::after { content:''; position:absolute; bottom:0; left:0; right:0; height:2px; background:var(--accent,var(--border)); }
+.card-m h4 { font-size:0.7rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); font-family:var(--font-mono); }
+.card-m .val { font-size:1.7rem; font-weight:700; margin-top:0.4rem; font-family:var(--font-mono); }
+.card-m .sub { font-size:0.72rem; color:var(--muted); margin-top:0.25rem; font-family:var(--font-mono); }
+.positive { color:var(--green); } .negative { color:var(--red); }
 
-    .container {
-      max-width: 1400px;
-      margin: 0 auto;
-    }
+/* Layout */
+.row-2 { display:grid; grid-template-columns:1.6fr 1fr; gap:1.5rem; margin-bottom:1.5rem; }
+.row-3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:1.5rem; margin-bottom:1.5rem; }
+@media(max-width:1100px) { .row-2,.row-3 { grid-template-columns:1fr; } }
 
-    /* HEADER STYLING */
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1.5rem;
-    }
+/* Panels */
+.panel { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:1.5rem; }
+.panel h3 { font-size:0.8rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); font-family:var(--font-mono); margin-bottom:1.25rem; display:flex; align-items:center; gap:0.5rem; }
+.panel h3::before { content:''; display:inline-block; width:3px; height:12px; background:var(--purple); border-radius:2px; }
 
-    h1 {
-      font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em;
-      display: flex; align-items: center; gap: 0.5rem;
-    }
-    
-    h1 span { color: var(--primary); }
+/* Open positions */
+.abiertas-wrapper { display:flex; flex-direction:column; gap:1rem; max-height:600px; overflow-y:auto; }
+.card-orden { background:#0d1929; border:1px solid var(--border); border-radius:10px; padding:1.1rem; transition:border-color 0.2s; }
+.card-orden:hover { border-color:#2d4a6e; }
+.card-orden-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem; }
+.badge-senal { font-size:0.68rem; font-weight:700; padding:0.2rem 0.55rem; border-radius:5px; text-transform:uppercase; font-family:var(--font-mono); }
+.badge-senal.comprar-yes { background:rgba(16,185,129,0.15); color:var(--green); }
+.badge-senal.comprar-no  { background:rgba(239,68,68,0.15);  color:var(--red); }
+.monto-orden { font-size:0.85rem; font-weight:600; font-family:var(--font-mono); }
+.pregunta-titulo { font-size:0.88rem; font-weight:600; margin-bottom:0.75rem; line-height:1.4; }
+.metadatos-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:0.6rem; background:rgba(8,12,18,0.5); padding:0.65rem; border-radius:7px; margin-bottom:0.9rem; }
+.meta-item { display:flex; flex-direction:column; }
+.meta-label { font-size:0.65rem; color:var(--muted); font-family:var(--font-mono); }
+.meta-value { font-size:0.82rem; font-weight:600; margin-top:0.1rem; font-family:var(--font-mono); }
+.riesgo-labels { display:flex; justify-content:space-between; font-size:0.68rem; margin-bottom:0.35rem; font-family:var(--font-mono); }
+.label-sl { color:var(--red); } .label-tp { color:var(--green); }
+.riesgo-barra-bg { height:6px; background:linear-gradient(to right,var(--red) 0%,#1a2640 30%,#1a2640 70%,var(--green) 100%); border-radius:3px; position:relative; margin-bottom:0.35rem; }
+.riesgo-burbuja { width:12px; height:12px; background:#fff; border:2px solid var(--purple-light); border-radius:50%; position:absolute; top:50%; transform:translate(-50%,-50%); box-shadow:0 0 6px rgba(167,139,250,0.7); }
+.riesgo-precios { display:flex; justify-content:space-between; font-size:0.65rem; color:var(--muted); font-family:var(--font-mono); }
 
-    .meta-runtime {
-      font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted);
-      background: rgba(255,255,255,0.02); padding: 0.5rem 0.75rem; border-radius: 6px; border: 1px solid var(--border);
-    }
+/* Table */
+.tabla-contenedor { width:100%; overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:0.83rem; font-family:var(--font-mono); }
+th { background:rgba(8,12,18,0.7); color:var(--muted); font-weight:600; padding:0.65rem 0.9rem; border-bottom:1px solid var(--border); text-transform:uppercase; font-size:0.65rem; letter-spacing:0.08em; }
+td { padding:0.7rem 0.9rem; border-bottom:1px solid var(--border); color:#94a3b8; }
+tr:hover td { background:rgba(26,38,64,0.3); }
+.row-ganancia .bold-pnl { color:var(--green); font-weight:700; }
+.row-perdida  .bold-pnl { color:var(--red); font-weight:700; }
+.badge-tabla { background:#1a2640; padding:0.15rem 0.4rem; border-radius:4px; font-size:0.68rem; font-weight:600; }
+.badge-razon { font-size:0.65rem; font-weight:700; padding:0.15rem 0.45rem; border-radius:4px; }
+.badge-razon.take_profit,.badge-razon.early_exit { background:rgba(16,185,129,0.15); color:var(--green); }
+.badge-razon.stop_loss   { background:rgba(239,68,68,0.15);  color:var(--red); }
+.badge-razon.time_exit   { background:rgba(245,158,11,0.15); color:var(--amber); }
+.badge-razon.inactiva    { background:rgba(107,114,128,0.15);color:var(--gray); }
+.txt-truncate { max-width:260px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.no-data { text-align:center; color:var(--muted); padding:2rem; font-size:0.85rem; font-style:italic; }
 
-    /* INTERACTIVE TIME TABS */
-    .tabs-container {
-      display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;
-    }
-
-    .tabs {
-      display: flex; gap: 0.35rem; background: rgba(255,255,255,0.02); padding: 0.3rem; border-radius: 8px; border: 1px solid var(--border);
-    }
-
-    .tab-btn {
-      background: transparent; border: none; color: var(--text-muted);
-      padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; cursor: pointer; border-radius: 6px;
-      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .tab-btn:hover { color: var(--text-main); }
-    
-    .tab-btn.active {
-      background: var(--primary); color: white; box-shadow: 0 4px 12px var(--primary-glow);
-    }
-
-    /* FINANCIAL METRICS CARDS */
-    .metrics-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-bottom: 2rem;
-    }
-
-    .card {
-      background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem;
-      position: relative; overflow: hidden;
-    }
-
-    .card::before {
-      content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: transparent;
-    }
-    .card.accent::before { background: var(--primary); }
-
-    .card-label { font-size: 0.8rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-    .card-value { font-family: 'JetBrains Mono', monospace; font-size: 1.75rem; font-weight: 600; letter-spacing: -0.03em; }
-    
-    .mono-num { font-family: 'JetBrains Mono', monospace; }
-    .text-green { color: var(--green); }
-    .text-red { color: var(--red); }
-
-    /* CHARTS LAYOUT */
-    .charts-grid {
-      display: grid; grid-template-columns: 2fr 1fr; gap: 1.25rem; margin-bottom: 2rem;
-    }
-    .chart-box { min-height: 320px; display: flex; flex-direction: column; }
-    .chart-wrapper { position: relative; flex-grow: 1; width: 100%; height: 100%; }
-
-    /* OPEN POSITIONS STYLING (MONETIZED RISK BAR) */
-    .section-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem; }
-    .section-title badge { background: var(--primary-glow); color: var(--primary); font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
-
-    .positions-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(430px, 1fr)); gap: 1.25rem; margin-bottom: 2rem;
-    }
-
-    .pos-card {
-      background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem;
-      display: flex; flex-direction: column; justify-content: space-between;
-    }
-
-    .pos-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; gap: 0.5rem; }
-    .pos-title { font-size: 0.9rem; font-weight: 600; line-height: 1.4; flex-grow: 1; }
-    
-    .badge {
-      font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace; text-transform: uppercase; white-space: nowrap;
-    }
-    .badge-yes { background: rgba(16, 185, 129, 0.1); color: var(--green); border: 1px solid rgba(16, 185, 129, 0.2); }
-    .badge-no { background: rgba(239, 68, 68, 0.1); color: var(--red); border: 1px solid rgba(239, 68, 68, 0.2); }
-
-    .pos-meta { display: flex; gap: 1rem; margin-bottom: 1.25rem; font-size: 0.8rem; color: var(--text-muted); }
-    .pos-meta span strong { color: var(--text-main); font-family: 'JetBrains Mono', monospace; }
-
-    /* RISK BAR MONETIZED */
-    .risk-bar-container { margin-top: auto; padding-top: 0.5rem; }
-    .risk-bar-labels { display: flex; justify-content: space-between; font-size: 0.75rem; font-family: 'JetBrains Mono', monospace; margin-bottom: 0.35rem; }
-    .risk-bar-bg { height: 6px; background: rgba(255,255,255,0.05); border-radius: 3px; position: relative; }
-    .risk-bar-fill { height: 100%; width: 4px; background: var(--primary); border-radius: 2px; position: absolute; top: 0; box-shadow: 0 0 8px var(--primary); transition: left 0.3s ease; }
-
-    /* HISTORICAL TABLE STYLING */
-    .table-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 2rem; }
-    .table-wrapper { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.85rem; }
-    th { background: rgba(255,255,255,0.01); color: var(--text-muted); font-weight: 600; padding: 1rem; border-bottom: 1px solid var(--border); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
-    td { padding: 1rem; border-bottom: 1px solid var(--border); color: var(--text-main); vertical-align: middle; }
-    tr:last-child td { border-bottom: none; }
-    tr:hover td { background: rgba(255,255,255,0.005); }
-
-    .td-pregunta { max-width: 320px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .td-reason { max-width: 280px; color: var(--text-muted); font-size: 0.8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-    /* TOOLTIP CSS NATIVO PARA RAZONAMIENTO IA */
-    .tooltip-ia { position: relative; cursor: help; display: inline-flex; align-items: center; gap: 0.25rem; }
-    .tooltip-ia:hover .tooltip-box { opacity: 1; visibility: visible; transform: translateY(0); }
-    .tooltip-box {
-      position: absolute; bottom: 125%; left: 50%; transform: translateX(-50%) translateY(4px);
-      width: 280px; background: #0f1c30; border: 1px solid var(--primary); padding: 0.75rem;
-      border-radius: 8px; font-size: 0.8rem; color: var(--text-main); line-height: 1.4;
-      opacity: 0; visibility: hidden; z-index: 50; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.5); pointer-events: none; white-space: normal;
-    }
-  </style>
+/* Breakdown */
+.breakdown-grid { display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; }
+.bk-item { background:rgba(8,12,18,0.5); border-radius:8px; padding:0.85rem; display:flex; align-items:center; gap:0.75rem; }
+.bk-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+.bk-label { font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); }
+.bk-count { font-family:var(--font-mono); font-size:1.2rem; font-weight:700; }
+</style>
 </head>
 <body>
 
-<div class="container">
-  <header>
-    <div>
-      <h1>A.I. HÍBRIDO <span>POLYMARKET v3</span></h1>
-    </div>
-    <div class="meta-runtime">
-      🤖 CICLOS: 150 | ÚLTIMA CORRIDA: 2026-05-23 12:20 ECT
-    </div>
-  </header>
+<header>
+  <div class="brand">
+    <h1>🤖 Agente Híbrido <span>v3</span></h1>
+    <p>CLOB · Bayesian · Volatility · LLM News Signal</p>
+  </div>
+  <div class="meta-header">
+    <div>Ciclos: <strong>#126</strong></div>
+    <div>Última corrida: <strong>2026-05-17 23:46</strong></div>
+    <div>Posiciones abiertas: <strong>3</strong></div>
+  </div>
+</header>
 
-  <div class="tabs-container">
-    <div class="tabs">
-      <button class="tab-btn" onclick="cambiarFiltro('today')">Hoy</button>
-      <button class="tab-btn" onclick="cambiarFiltro('week')">Esta Semana</button>
-      <button class="tab-btn" onclick="cambiarFiltro('month')">Este Mes</button>
-      <button class="tab-btn active" onclick="cambiarFiltro('all')">Todo el Registro</button>
-    </div>
-    <div class="meta-runtime" id="lbl-ventana" style="border-color: var(--primary-glow); color: var(--text-main);">
-      Mostrando: Todo el Registro
+<!-- Métricas principales -->
+<div class="grid-metricas">
+  <div class="card-m" style="--accent:var(--purple)">
+    <h4>Capital Disponible</h4>
+    <div class="val">$955.29</div>
+    <div class="sub">USDC · inicial $1,000</div>
+  </div>
+  <div class="card-m" style="--accent:#a78bfa">
+    <h4>En Riesgo</h4>
+    <div class="val" style="color:var(--purple-light)">$45.33</div>
+    <div class="sub">USDC · 3 posiciones</div>
+  </div>
+  <div class="card-m" style="--accent:var(--green)">
+    <h4>P&L Realizado</h4>
+    <div class="val positive">+$0.62</div>
+    <div class="sub">122 ops cerradas</div>
+  </div>
+  <div class="card-m" style="--accent:#38bdf8">
+    <h4>Win Rate</h4>
+    <div class="val" style="color:#38bdf8">55.2%</div>
+    <div class="sub">16W · 13L</div>
+  </div>
+  <div class="card-m" style="--accent:var(--green)">
+    <h4>Avg Win</h4>
+    <div class="val positive">+$0.84</div>
+    <div class="sub">por operación ganadora</div>
+  </div>
+  <div class="card-m" style="--accent:var(--red)">
+    <h4>Avg Loss</h4>
+    <div class="val negative">$-0.99</div>
+    <div class="sub">por operación perdedora</div>
+  </div>
+</div>
+
+<!-- Curva + Posiciones abiertas -->
+<div class="row-2">
+  <div class="panel">
+    <h3>Curva P&L Acumulado</h3>
+    <div style="height:300px;position:relative">
+      <canvas id="chartPnl"></canvas>
     </div>
   </div>
-
-  <div class="metrics-grid">
-    <div class="card accent">
-      <div class="card-label">Patrimonio Neto (NAV)</div>
-      <div class="card-value mono-num" id="metric-nav">$0.00</div>
+  <div class="panel">
+    <h3>Distribución de Salidas</h3>
+    <div style="height:200px;position:relative;margin-bottom:1rem">
+      <canvas id="chartDonut"></canvas>
     </div>
-    <div class="card">
-      <div class="card-label">Disponible / Riesgo</div>
-      <div class="card-value mono-num" id="metric-balances" style="font-size: 1.35rem; margin-top: 0.4rem; color: var(--text-muted);">
-        <span class="text-green" id="metric-disp">$0.00</span> / <span style="color: #a78bfa;" id="metric-riesgo">$0.00</span>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-label">PnL Realizado Window</div>
-      <div class="card-value mono-num" id="metric-pnl">$0.00</div>
-    </div>
-    <div class="card">
-      <div class="card-label">Win Rate Window</div>
-      <div class="card-value mono-num" id="metric-wr">0.0%</div>
-    </div>
-    <div class="card">
-      <div class="card-label">Profit Factor Window</div>
-      <div class="card-value mono-num" id="metric-pf">0.00</div>
-    </div>
-  </div>
-
-  <div class="charts-grid">
-    <div class="card chart-box">
-      <div class="card-label">Curva Cronológica de Rendimiento Acumulado (USDC)</div>
-      <div class="chart-wrapper">
-        <canvas id="chartPnl"></canvas>
-      </div>
-    </div>
-    <div class="card chart-box">
-      <div class="card-label">Distribución de Cierres de Mercado</div>
-      <div class="chart-wrapper">
-        <canvas id="chartDonut"></canvas>
-      </div>
-    </div>
-  </div>
-
-  <div class="section-title">
-    🚀 POSICIONES ACTUALMENTE ABIERTAS <badge id="count-abiertas">0</badge>
-  </div>
-  
-  <div class="positions-grid" id="contenedor-abiertas">
-    </div>
-
-  <div class="section-title">
-    📜 HISTORIAL DE TRADES CERRADOS <badge id="count-cerradas">0</badge>
-  </div>
-  
-  <div class="table-card">
-    <div class="table-wrapper">
-      <table>
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Mercado / Pregunta</th>
-            <th>Señal</th>
-            <th>Monto</th>
-            <th>🧠 Análisis IA</th>
-            <th>Razón</th>
-            <th>Resultado</th>
-          </tr>
-        </thead>
-        <tbody id="tabla-historial">
-          </tbody>
-      </table>
+    <div class="breakdown-grid">
+      <div class="bk-item"><div class="bk-dot" style="background:var(--green)"></div><div><div class="bk-label">TP / Early</div><div class="bk-count" style="color:var(--green)">10</div></div></div>
+      <div class="bk-item"><div class="bk-dot" style="background:var(--red)"></div><div><div class="bk-label">Stop Loss</div><div class="bk-count" style="color:var(--red)">10</div></div></div>
+      <div class="bk-item"><div class="bk-dot" style="background:var(--amber)"></div><div><div class="bk-label">Time Exit</div><div class="bk-count" style="color:var(--amber)">25</div></div></div>
+      <div class="bk-item"><div class="bk-dot" style="background:var(--gray)"></div><div><div class="bk-label">Inactiva</div><div class="bk-count" style="color:var(--gray)">77</div></div></div>
     </div>
   </div>
 </div>
 
-<script>
-  // ── 4. DATOS CRUDOS INYECTADOS DIRECTAMENTE DESDE PANDAS ──────
-  const ESTRATEGIA_CAPITAL_ACTUAL = 998.75;
-  const ESTRATEGIA_CAPITAL_RIESGO = 0.0;
-  
-  const TRADES_ABIERTOS = [];
-  const TRADES_CERRADOS = [{"fecha_entrada": "2026-05-23", "fecha_entrada_dt": "2026-05-23 00:23", "market_id": 629111, "pregunta": "Will the Colorado Avalanche win the Western Conference?", "se\u00f1al": "COMPRAR YES", "precio_entrada": 0.325, "precio_token_entrada": 0.325, "precio_actual": 0.31, "tp_dinamico": 0.069, "sl_dinamico": -0.046, "horas_max": 6, "monto_usdc": 14.62, "estado": "CERRADA", "razonamiento": "Calibraci\u00f3n conservadora debido a la falta de noticias y la incertidumbre estructural.", "llm_confianza": 0.75, "llm_edge": 0.065, "vol_1d": 0.02295, "precio_cierre": 0.31, "pct_cambio": -0.0462, "pnl_realizado": -0.67, "razon_cierre": "STOP_LOSS", "fecha_cierre_real": "2026-05-23 05:55"}, {"fecha_entrada": "2026-05-22", "fecha_entrada_dt": "2026-05-22 13:12", "market_id": 564195, "pregunta": "Will the New York Knicks win the NBA Eastern Conference Finals?", "se\u00f1al": "COMPRAR NO", "precio_entrada": 0.875, "precio_token_entrada": 0.125, "precio_actual": 0.125, "tp_dinamico": 0.045, "sl_dinamico": -0.03, "horas_max": 10, "monto_usdc": 14.62, "estado": "CERRADA", "razonamiento": "Calibraci\u00f3n conservadora del mercado, considerando la informaci\u00f3n general y la falta de noticias rel", "llm_confianza": 0.75, "llm_edge": 0.065, "vol_1d": 0.00331, "precio_cierre": 0.125, "pct_cambio": 0.0, "pnl_realizado": 0.0, "razon_cierre": "INACTIVA", "fecha_cierre_real": "2026-05-22 13:38"}, {"fecha_entrada": "2026-05-22", "fecha_entrada_dt": "2026-05-22 10:09", "market_id": 572133, "pregunta": "No one announced as next James Bond?", "se\u00f1al": "COMPRAR NO", "precio_entrada": 0.845, "precio_token_entrada": 0.155, "precio_actual": 0.155, "tp_dinamico": 0.045, "sl_dinamico": -0.03, "horas_max": 10, "monto_usdc": 7.87, "estado": "CERRADA", "razonamiento": "Calibraci\u00f3n conservadora debido a la falta de noticias y el contexto incierto.", "llm_confianza": 0.75, "llm_edge": 0.035, "vol_1d": 0.00453, "precio_cierre": 0.155, "pct_cambio": 0.0, "pnl_realizado": 0.0, "razon_cierre": "INACTIVA", "fecha_cierre_real": "2026-05-22 10:35"}, {"fecha_entrada": "2026-05-21", "fecha_entrada_dt": "2026-05-21 15:30", "market_id": 628941, "pregunta": "Will Xavier Becerra win the California Governor Election in 2026?", "se\u00f1al": "COMPRAR NO", "precio_entrada": 0.6645, "precio_token_entrada": 0.3355, "precio_actual": 0.322, "tp_dinamico": 0.045, "sl_dinamico": -0.03, "horas_max": 10, "monto_usdc": 14.29, "estado": "CERRADA", "razonamiento": "Calibraci\u00f3n conservadora debido a la falta de noticias y el contexto pol\u00edtico complejo.", "llm_confianza": 0.75, "llm_edge": 0.0635, "vol_1d": 0.00421, "precio_cierre": 0.322, "pct_cambio": -0.0402, "pnl_realizado": -0.58, "razon_cierre": "STOP_LOSS", "fecha_cierre_real": "2026-05-21 23:20"}, {"fecha_entrada": "2026-05-21", "fecha_entrada_dt": "2026-05-21 06:19", "market_id": 564210, "pregunta": "Will the Oklahoma City Thunder win the NBA Western Conference Finals?", "se\u00f1al": "COMPRAR NO", "precio_entrada": 0.605, "precio_token_entrada": 0.395, "precio_actual": 0.395, "tp_dinamico": 0.045, "sl_dinamico": -0.03, "horas_max": 10, "monto_usdc": 10.12, "estado": "CERRADA", "razonamiento": "La informaci\u00f3n reciente no altera significativamente la probabilidad, por lo que se mantiene una cal", "llm_confianza": 0.75, "llm_edge": 0.045, "vol_1d": 0.00928, "precio_cierre": 0.395, "pct_cambio": 0.0, "pnl_realizado": 0.0, "razon_cierre": "INACTIVA", "fecha_cierre_real": "2026-05-21 06:44"}, {"fecha_entrada": "2026-05-20", "fecha_entrada_dt": "2026-05-20 23:19", "market_id": 573647, "pregunta": "Will GPT-6 be released before GTA VI?", "se\u00f1al": "COMPRAR NO", "precio_entrada": 0.655, "precio_token_entrada": 0.345, "precio_actual": 0.345, "tp_dinamico": 0.045, "sl_dinamico": -0.03, "horas_max": 10, "monto_usdc": 10.12, "estado": "CERRADA", "razonamiento": "Calibraci\u00f3n conservadora debido a incertidumbre estructural y falta de noticias relevantes.", "llm_confianza": 0.75, "llm_edge": 0.045, "vol_1d": 0.00376, "precio_cierre": 0.345, "pct_cambio": 0.0, "pnl_realizado": 0.0, "razon_cierre": "INACTIVA", "fecha_cierre_real": "2026-05-20 23:44"}];
-
-  // Instancias globales de gráficos para permitir re-dibujado dinámico
-  let chartPnlInstance = null;
-  let chartDonutInstance = null;
-
-  // ── 5. MOTOR FILTRADOR DE TIEMPO JAVASCRIPT ────────────────────
-  function cambiarFiltro(ventana) {
-    // Actualizar estados visuales de los botones
-    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-
-    const ahora = new Date();
-    let filtroFecha = new Date();
-    let textoVentana = "Todo el Registro";
-
-    if (ventana === 'today') {
-      filtroFecha.setHours(0,0,0,0);
-      textoVentana = "Operaciones de Hoy";
-    } else if (ventana === 'week') {
-      filtroFecha.setDate(ahora.getDate() - 7);
-      textoVentana = "Últimos 7 Días";
-    } else if (ventana === 'month') {
-      filtroFecha.setDate(ahora.getDate() - 30);
-      textoVentana = "Últimos 30 Días";
-    }
-
-    document.getElementById('lbl-ventana').innerText = "Mostrando: " + textoVentana;
-
-    // Filtrar los trades cerrados según la ventana temporal
-    const cerradosFiltrados = TRADES_CERRADOS.filter(t => {
-      if (ventana === 'all') return true;
-      const f_trade = new Date(t.fecha_entrada_dt.replace(' ', 'T'));
-      return f_trade >= filtroFecha;
-    });
-
-    calcularMétricas(cerradosFiltrados);
-    renderizarAbiertas();
-    renderizarTabla(cerradosFiltrados);
-  }
-
-  // ── 6. CÓMPUTO DE MÉTRICAS FINANCIERAS (Fondo Cobertura) ──────
-  function calcularMétricas(cerrados) {
-    let pnlRealizadoWindow = 0;
-    let gananciasBrutas = 0;
-    let perdidasBrutas = 0;
-    let wins = 0;
-    let totalConImpacto = 0;
-
-    let contadorRazones = { 'TAKE_PROFIT': 0, 'STOP_LOSS': 0, 'TIME_EXIT': 0, 'INACTIVA': 0, 'EARLY_EXIT': 0 };
-
-    // Procesar curvas cronológicas acumulativas para Chart.js
-    let curvasCronologicas = [];
-    let pnlAcumuladoSuma = 0;
-
-    // Recorremos al revés cronológico (del más viejo al más nuevo) para armar la curva Chart.js de forma ascendente
-    const copiaCronologica = [...cerrados].reverse();
-
-    copiaCronologica.forEach((t, index) => {
-      const pnl = parseFloat(t.pnl_realizado) || 0.0;
-      pnlRealizadoWindow += pnl;
-      pnlAcumuladoSuma += pnl;
-      
-      curvasCronologicas.push({
-        label: `Trade #${index + 1}`,
-        valor: pnlAcumuladoSuma
-      });
-
-      if (pnl > 0) {
-        gananciasBrutas += pnl;
-        wins++;
-        totalConImpacto++;
-      } else if (pnl < 0) {
-        perdidasBrutas += Math.abs(pnl);
-        totalConImpacto++;
-      } else if (pnl === 0 && strContiene(t.razon_cierre, 'INACTIVA') === false) {
-        // Si cerró en 0 pero no fue por inactividad limpia, cuenta como exposición neutral
-        totalConImpacto++;
-      }
-
-      // Contabilizar razones para el gráfico Donut
-      const r = String(t.razon_cierre).toUpperCase();
-      if (r in contadorRazones) contadorRazones[r]++;
-    });
-
-    // Cómputo del P&L Flotante actual de operaciones vivas
-    let pnlFlotanteTotal = 0;
-    TRADES_ABIERTOS.forEach(t => {
-      const pte = parseFloat(t.precio_token_entrada) || 1.0;
-      const p_act = parseFloat(t.precio_actual) || pte;
-      const pct = (p_act - pte) / pte;
-      pnlFlotanteTotal += (parseFloat(t.monto_usdc) || 0.0) * pct;
-    });
-
-    // Actualización de los Cards Principales
-    const navCalculado = ESTRATEGIA_CAPITAL_ACTUAL + ESTRATEGIA_CAPITAL_RIESGO + pnlFlotanteTotal;
-    document.getElementById('metric-nav').innerText = `$${navCalculado.toFixed(2)} USDC`;
-    document.getElementById('metric-disp').innerText = `$${ESTRATEGIA_CAPITAL_ACTUAL.toFixed(2)}`;
-    document.getElementById('metric-riesgo').innerText = `$${ESTRATEGIA_CAPITAL_RIESGO.toFixed(2)}`;
+<!-- Posiciones abiertas -->
+<div class="panel" style="margin-bottom:1.5rem">
+  <h3>Posiciones Activas (3)</h3>
+  <div class="abiertas-wrapper" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem">
     
-    document.getElementById('metric-pnl').innerText = `$${pnlRealizadoWindow.toPrecision(4)} USDC`;
-    document.getElementById('metric-pnl').className = "card-value mono-num " + (pnlRealizadoWindow >= 0 ? "text-green" : "text-red");
+                <div class="card-orden">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-no">COMPRAR NO</span>
+                        <span class="monto-orden">$7.45 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will Steve Hilton win the California Governor Election in 2026?</div>
+                    <div class="metadatos-grid">
+                        <div class="meta-item"><span class="meta-label">🤖 Confianza</span><span class="meta-value">70%</span></div>
+                        <div class="meta-item"><span class="meta-label">📈 Edge</span><span class="meta-value">+4.2%</span></div>
+                        <div class="meta-item"><span class="meta-label">⏱️ Límite</span><span class="meta-value">10.0h</span></div>
+                        <div class="meta-item"><span class="meta-label">📊 P&L</span><span class="meta-value negative">$-0.04</span></div>
+                        <div class="meta-item"><span class="meta-label">📉 Vol 1d</span><span class="meta-value">0.0064</span></div>
+                        <div class="meta-item" style="grid-column: span 3"><span class="meta-label">🧠 IA</span><span class="meta-value" style="font-size:0.78rem;font-weight:400;color:#9ca3af">La falta de noticias positivas sobre Steve Hilton y la creciente oposición a Bec</span></div>
+                    </div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL -3.0%</span>
+                            <span>Entrada 0.907</span>
+                            <span class="label-tp">TP 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left:33.38842975206626%;"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.880</span>
+                            <span style="color:#a78bfa;font-weight:600">Actual $0.097</span>
+                            <span>$0.948</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-orden">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-no">COMPRAR NO</span>
+                        <span class="monto-orden">$20.00 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will Derek Dooley be the Republican nominee for Senate in Georgia?</div>
+                    <div class="metadatos-grid">
+                        <div class="meta-item"><span class="meta-label">🤖 Confianza</span><span class="meta-value">70%</span></div>
+                        <div class="meta-item"><span class="meta-label">📈 Edge</span><span class="meta-value">+9.8%</span></div>
+                        <div class="meta-item"><span class="meta-label">⏱️ Límite</span><span class="meta-value">3.0h</span></div>
+                        <div class="meta-item"><span class="meta-label">📊 P&L</span><span class="meta-value positive">+$0.33</span></div>
+                        <div class="meta-item"><span class="meta-label">📉 Vol 1d</span><span class="meta-value">0.0172</span></div>
+                        <div class="meta-item" style="grid-column: span 3"><span class="meta-label">🧠 IA</span><span class="meta-value" style="font-size:0.78rem;font-weight:400;color:#9ca3af">Dificultades para Derek Dooley en la carrera, sin noticias relevantes, y mercado</span></div>
+                    </div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL -3.4%</span>
+                            <span>Entrada 0.574</span>
+                            <span class="label-tp">TP 5.1%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left:59.471203115392726%;"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.554</span>
+                            <span style="color:#a78bfa;font-weight:600">Actual $0.416</span>
+                            <span>$0.603</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-orden">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-no">COMPRAR NO</span>
+                        <span class="monto-orden">$17.88 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">MicroStrategy sells any Bitcoin by June 30, 2026?</div>
+                    <div class="metadatos-grid">
+                        <div class="meta-item"><span class="meta-label">🤖 Confianza</span><span class="meta-value">70%</span></div>
+                        <div class="meta-item"><span class="meta-label">📈 Edge</span><span class="meta-value">+8.8%</span></div>
+                        <div class="meta-item"><span class="meta-label">⏱️ Límite</span><span class="meta-value">10.0h</span></div>
+                        <div class="meta-item"><span class="meta-label">📊 P&L</span><span class="meta-value positive">+$0.00</span></div>
+                        <div class="meta-item"><span class="meta-label">📉 Vol 1d</span><span class="meta-value">0.0022</span></div>
+                        <div class="meta-item" style="grid-column: span 3"><span class="meta-label">🧠 IA</span><span class="meta-value" style="font-size:0.78rem;font-weight:400;color:#9ca3af">La falta de noticias recientes y el historial de 2 trades sugiere un mercado poc</span></div>
+                    </div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL -3.0%</span>
+                            <span>Entrada 0.311</span>
+                            <span class="label-tp">TP 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left:40.00000000000005%;"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.302</span>
+                            <span style="color:#a78bfa;font-weight:600">Actual $0.689</span>
+                            <span>$0.326</span>
+                        </div>
+                    </div>
+                </div>
+  </div>
+</div>
 
-    const winRate = totalConImpacto > 0 ? (wins / totalConImpacto) * 100 : 0;
-    document.getElementById('metric-wr').innerText = `${winRate.toFixed(1)}%`;
+<!-- Historial -->
+<div class="panel">
+  <h3>Historial de Operaciones</h3>
+  <div class="tabla-contenedor">
+    <table>
+      <thead><tr>
+        <th>Fecha Cierre</th><th>Mercado</th><th>Señal</th>
+        <th>Monto</th><th>P&L</th><th>Salida</th>
+      </tr></thead>
+      <tbody>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 09:19</td>
+                    <td class="txt-truncate" title="Will France win the 2026 FIFA World Cup?">Will France win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 09:19</td>
+                    <td class="txt-truncate" title="Will Brazil win the 2026 FIFA World Cup?">Will Brazil win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 09:19</td>
+                    <td class="txt-truncate" title="Will England win the 2026 FIFA World Cup?">Will England win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 09:19</td>
+                    <td class="txt-truncate" title="Will Germany win the 2026 FIFA World Cup?">Will Germany win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 09:19</td>
+                    <td class="txt-truncate" title="Will Argentina win the 2026 FIFA World Cup?">Will Argentina win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 20:56</td>
+                    <td class="txt-truncate" title="Trump out as President before GTA VI?">Trump out as President before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$17.95</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 20:56</td>
+                    <td class="txt-truncate" title="Will Japan win the 2026 FIFA World Cup?">Will Japan win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 20:56</td>
+                    <td class="txt-truncate" title="Will Germany win the 2026 FIFA World Cup?">Will Germany win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 20:56</td>
+                    <td class="txt-truncate" title="Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?">Will the Vegas Golden Knights win the 2026 NHL S…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 20:56</td>
+                    <td class="txt-truncate" title="Will Netherlands win the 2026 FIFA World Cup?">Will Netherlands win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 20:56</td>
+                    <td class="txt-truncate" title="Will Argentina win the 2026 FIFA World Cup?">Will Argentina win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 20:56</td>
+                    <td class="txt-truncate" title="Will Norway win the 2026 FIFA World Cup?">Will Norway win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:06</td>
+                    <td class="txt-truncate" title="Will France win the 2026 FIFA World Cup?">Will France win the 2026 FIFA World Cup?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:06</td>
+                    <td class="txt-truncate" title="Will the Buffalo Sabres win the 2026 NHL Stanley Cup?">Will the Buffalo Sabres win the 2026 NHL Stanley…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$11.56</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:06</td>
+                    <td class="txt-truncate" title="Will the Montreal Canadiens win the 2026 NHL Stanley Cup?">Will the Montreal Canadiens win the 2026 NHL Sta…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:44</td>
+                    <td class="txt-truncate" title="Will Katie Porter win the California Governor Election in 2026?">Will Katie Porter win the California Governor El…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:44</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by June 30?">Will MetaMask launch a token by June 30?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:44</td>
+                    <td class="txt-truncate" title="Will the Republican Party control the Senate after the 2026 Midterm el">Will the Republican Party control the Senate aft…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.95</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:44</td>
+                    <td class="txt-truncate" title="Will the San Antonio Spurs win the NBA Western Conference Finals?">Will the San Antonio Spurs win the NBA Western C…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:44</td>
+                    <td class="txt-truncate" title="Israel and Indonesia normalize relations by June 30, 2026?">Israel and Indonesia normalize relations by June…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:44</td>
+                    <td class="txt-truncate" title="Will Alphabet be the largest company in the world by market cap on Jun">Will Alphabet be the largest company in the worl…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-16 21:54</td>
+                    <td class="txt-truncate" title="Will Chad Bianco win the California Governor Election in 2026?">Will Chad Bianco win the California Governor Ele…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 00:59</td>
+                    <td class="txt-truncate" title="Will Romeu Zema win the 2026 Brazilian presidential election?">Will Romeu Zema win the 2026 Brazilian president…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 00:59</td>
+                    <td class="txt-truncate" title="Will NVIDIA be the largest company in the world by market cap on June ">Will NVIDIA be the largest company in the world …</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$2.61</td>
+                    <td><span class="badge-razon take_profit">TAKE_PROFIT</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 00:59</td>
+                    <td class="txt-truncate" title="Will the Detroit Pistons win the NBA Eastern Conference Finals?">Will the Detroit Pistons win the NBA Eastern Con…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$7.60</td>
+                    <td class="bold-pnl">$-0.28</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 00:59</td>
+                    <td class="txt-truncate" title="New Playboi Carti Album before GTA VI?">New Playboi Carti Album before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$15.71</td>
+                    <td class="bold-pnl">$-0.65</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 03:23</td>
+                    <td class="txt-truncate" title="Will NVIDIA be the largest company in the world by market cap on June ">Will NVIDIA be the largest company in the world …</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">$-1.54</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 05:05</td>
+                    <td class="txt-truncate" title="Will Katie Porter win the California Governor Election in 2026?">Will Katie Porter win the California Governor El…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$12.24</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 05:05</td>
+                    <td class="txt-truncate" title="Will Chad Bianco win the California Governor Election in 2026?">Will Chad Bianco win the California Governor Ele…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 05:05</td>
+                    <td class="txt-truncate" title="Will Alphabet be the largest company in the world by market cap on Jun">Will Alphabet be the largest company in the worl…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 05:05</td>
+                    <td class="txt-truncate" title="Starmer out by June 30, 2026?">Starmer out by June 30, 2026?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">$-2.25</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 06:36</td>
+                    <td class="txt-truncate" title="Will Oh Se-hoon win the 2026 Seoul Mayoral Election">Will Oh Se-hoon win the 2026 Seoul Mayoral Elect…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$15.12</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 06:36</td>
+                    <td class="txt-truncate" title="Will Chong Won-oh win the 2026 Seoul Mayoral Election">Will Chong Won-oh win the 2026 Seoul Mayoral Ele…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$7.43</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 06:37</td>
+                    <td class="txt-truncate" title="New Rihanna Album before GTA VI?">New Rihanna Album before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">$-2.37</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 06:37</td>
+                    <td class="txt-truncate" title="MicroStrategy sells any Bitcoin by June 30, 2026?">MicroStrategy sells any Bitcoin by June 30, 2026…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$1.06</td>
+                    <td><span class="badge-razon take_profit">TAKE_PROFIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 06:37</td>
+                    <td class="txt-truncate" title="Starmer out by June 30, 2026?">Starmer out by June 30, 2026?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$15.91</td>
+                    <td class="bold-pnl">+$1.52</td>
+                    <td><span class="badge-razon early_exit">EARLY_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 06:37</td>
+                    <td class="txt-truncate" title="Will China invades Taiwan before GTA VI?">Will China invades Taiwan before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 07:57</td>
+                    <td class="txt-truncate" title="Will Steve Hilton win the California Governor Election in 2026?">Will Steve Hilton win the California Governor El…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$5.09</td>
+                    <td class="bold-pnl">+$0.04</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 07:57</td>
+                    <td class="txt-truncate" title="Will the Colorado Avalanche win the 2026 NHL Stanley Cup?">Will the Colorado Avalanche win the 2026 NHL Sta…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">$-0.38</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 07:57</td>
+                    <td class="txt-truncate" title="Will Flávio Bolsonaro win the 2026 Brazilian presidential election?">Will Flávio Bolsonaro win the 2026 Brazilian pre…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$8.64</td>
+                    <td class="bold-pnl">+$0.01</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 07:57</td>
+                    <td class="txt-truncate" title="Will the Oklahoma City Thunder win the 2026 NBA Finals?">Will the Oklahoma City Thunder win the 2026 NBA …</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 07:57</td>
+                    <td class="txt-truncate" title="Will Romeu Zema win the 2026 Brazilian presidential election?">Will Romeu Zema win the 2026 Brazilian president…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 07:57</td>
+                    <td class="txt-truncate" title="MicroStrategy sells any Bitcoin by June 30, 2026?">MicroStrategy sells any Bitcoin by June 30, 2026…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$15.29</td>
+                    <td class="bold-pnl">+$0.64</td>
+                    <td><span class="badge-razon early_exit">EARLY_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 10:35</td>
+                    <td class="txt-truncate" title="Will NVIDIA be the largest company in the world by market cap on June ">Will NVIDIA be the largest company in the world …</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$14.55</td>
+                    <td class="bold-pnl">+$1.75</td>
+                    <td><span class="badge-razon early_exit">EARLY_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 10:35</td>
+                    <td class="txt-truncate" title="Will Abelardo de la Espriella win the 1st round of the 2026 Colombian ">Will Abelardo de la Espriella win the 1st round …</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 10:35</td>
+                    <td class="txt-truncate" title="Will Chad Bianco win the California Governor Election in 2026?">Will Chad Bianco win the California Governor Ele…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 10:35</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by June 30?">Will MetaMask launch a token by June 30?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 10:35</td>
+                    <td class="txt-truncate" title="Israel and Indonesia normalize relations by June 30, 2026?">Israel and Indonesia normalize relations by June…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 10:35</td>
+                    <td class="txt-truncate" title="Will Katie Porter win the California Governor Election in 2026?">Will Katie Porter win the California Governor El…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$10.77</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 10:35</td>
+                    <td class="txt-truncate" title="Will Alphabet be the largest company in the world by market cap on Jun">Will Alphabet be the largest company in the worl…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 11:18</td>
+                    <td class="txt-truncate" title="Will Oh Se-hoon win the 2026 Seoul Mayoral Election">Will Oh Se-hoon win the 2026 Seoul Mayoral Elect…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$16.45</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 11:18</td>
+                    <td class="txt-truncate" title="Will NVIDIA be the largest company in the world by market cap on June ">Will NVIDIA be the largest company in the world …</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">$-2.14</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 11:27</td>
+                    <td class="txt-truncate" title="Will the Republican Party control the House after the 2026 Midterm ele">Will the Republican Party control the House afte…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.43</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 12:00</td>
+                    <td class="txt-truncate" title="Starmer out by June 30, 2026?">Starmer out by June 30, 2026?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$11.77</td>
+                    <td class="bold-pnl">+$0.83</td>
+                    <td><span class="badge-razon early_exit">EARLY_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 12:00</td>
+                    <td class="txt-truncate" title="2026 Balance of Power: D Senate, D House">2026 Balance of Power: D Senate, D House…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 12:43</td>
+                    <td class="txt-truncate" title="Will the Democratic Party control the House after the 2026 Midterm ele">Will the Democratic Party control the House afte…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.93</td>
+                    <td><span class="badge-razon take_profit">TAKE_PROFIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 13:14</td>
+                    <td class="txt-truncate" title="Will Discord’s market cap be less than $15B at market close on IPO day">Will Discord’s market cap be less than $15B at m…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 13:14</td>
+                    <td class="txt-truncate" title="New Playboi Carti Album before GTA VI?">New Playboi Carti Album before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.46</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 13:14</td>
+                    <td class="txt-truncate" title="Will JB Bickerstaff win the 2025–2026 NBA Coach of the Year?">Will JB Bickerstaff win the 2025–2026 NBA Coach …</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 13:35</td>
+                    <td class="txt-truncate" title="New Rihanna Album before GTA VI?">New Rihanna Album before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.25</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 13:35</td>
+                    <td class="txt-truncate" title="Will Volodymyr Zelenskyy win the Nobel Peace Prize in 2026?">Will Volodymyr Zelenskyy win the Nobel Peace Pri…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 13:54</td>
+                    <td class="txt-truncate" title="Will Derek Dooley be the Republican nominee for Senate in Georgia?">Will Derek Dooley be the Republican nominee for …</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$8.61</td>
+                    <td class="bold-pnl">$-0.35</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 13:54</td>
+                    <td class="txt-truncate" title="Will OpenAI have the best AI model at the end of June 2026?">Will OpenAI have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 13:54</td>
+                    <td class="txt-truncate" title="Will Romeu Zema win the 2026 Brazilian presidential election?">Will Romeu Zema win the 2026 Brazilian president…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$6.64</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 14:19</td>
+                    <td class="txt-truncate" title="Will Joe Mazzulla win the 2025–2026 NBA Coach of the Year?">Will Joe Mazzulla win the 2025–2026 NBA Coach of…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$7.94</td>
+                    <td class="bold-pnl">+$0.82</td>
+                    <td><span class="badge-razon early_exit">EARLY_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 14:19</td>
+                    <td class="txt-truncate" title="U.S. Embassy in Damascus reopened by June 30, 2026?">U.S. Embassy in Damascus reopened by June 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$16.56</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 14:19</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$10.08</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 14:19</td>
+                    <td class="txt-truncate" title="Will OpenAI’s market cap be between $1.25T and $1.5T at market close o">Will OpenAI’s market cap be between $1.25T and $…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 15:31</td>
+                    <td class="txt-truncate" title="Will Paloma Valencia win the 2026 Colombian presidential election?">Will Paloma Valencia win the 2026 Colombian pres…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.68</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 16:12</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$10.73</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 17:12</td>
+                    <td class="txt-truncate" title="Will Tottenham be relegated from the English Premier League after the ">Will Tottenham be relegated from the English Pre…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 17:12</td>
+                    <td class="txt-truncate" title="Will Alphabet be the largest company in the world by market cap on Jun">Will Alphabet be the largest company in the worl…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 17:12</td>
+                    <td class="txt-truncate" title="Will Katie Porter win the California Governor Election in 2026?">Will Katie Porter win the California Governor El…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$16.03</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 18:27</td>
+                    <td class="txt-truncate" title="Will Iván Cepeda Castro win the 1st round of the 2026 Colombian presid">Will Iván Cepeda Castro win the 1st round of the…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$8.80</td>
+                    <td class="bold-pnl">$-0.91</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 18:27</td>
+                    <td class="txt-truncate" title="Will Abelardo de la Espriella  win the 2026 Colombian presidential ele">Will Abelardo de la Espriella  win the 2026 Colo…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$17.97</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 18:27</td>
+                    <td class="txt-truncate" title="Will the Republican Party control the Senate after the 2026 Midterm el">Will the Republican Party control the Senate aft…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$8.05</td>
+                    <td class="bold-pnl">+$0.18</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 18:27</td>
+                    <td class="txt-truncate" title="Will Earl Carter be the Republican nominee for Senate in Georgia?">Will Earl Carter be the Republican nominee for S…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 20:26</td>
+                    <td class="txt-truncate" title="U.S. Embassy in Damascus reopened by June 30, 2026?">U.S. Embassy in Damascus reopened by June 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$18.65</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 20:26</td>
+                    <td class="txt-truncate" title="Will Volodymyr Zelenskyy win the Nobel Peace Prize in 2026?">Will Volodymyr Zelenskyy win the Nobel Peace Pri…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 20:26</td>
+                    <td class="txt-truncate" title="Will Discord’s market cap be less than $15B at market close on IPO day">Will Discord’s market cap be less than $15B at m…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 20:26</td>
+                    <td class="txt-truncate" title="Will the Republican Party control the House after the 2026 Midterm ele">Will the Republican Party control the House afte…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$10.04</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 20:27</td>
+                    <td class="txt-truncate" title="Will Arsenal win the 2025–26 English Premier League?">Will Arsenal win the 2025–26 English Premier Lea…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-17 20:27</td>
+                    <td class="txt-truncate" title="Will Chong Won-oh win the 2026 Seoul Mayoral Election">Will Chong Won-oh win the 2026 Seoul Mayoral Ele…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">$-0.93</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 20:27</td>
+                    <td class="txt-truncate" title="Will Anthropic have the best AI model at the end of June 2026?">Will Anthropic have the best AI model at the end…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$18.12</td>
+                    <td class="bold-pnl">+$1.02</td>
+                    <td><span class="badge-razon take_profit">TAKE_PROFIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:31</td>
+                    <td class="txt-truncate" title="New Playboi Carti Album before GTA VI?">New Playboi Carti Album before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.34</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:31</td>
+                    <td class="txt-truncate" title="Will Trump and Putin meet next in Russia?">Will Trump and Putin meet next in Russia?…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:31</td>
+                    <td class="txt-truncate" title="Will Earl Carter be the Republican nominee for Senate in Georgia?">Will Earl Carter be the Republican nominee for S…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:31</td>
+                    <td class="txt-truncate" title="Will Alphabet be the largest company in the world by market cap on Jun">Will Alphabet be the largest company in the worl…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:31</td>
+                    <td class="txt-truncate" title="2026 Balance of Power: R Senate, R House">2026 Balance of Power: R Senate, R House…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:34</td>
+                    <td class="txt-truncate" title="Will OpenAI have the best AI model at the end of June 2026?">Will OpenAI have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:34</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:34</td>
+                    <td class="txt-truncate" title="Will the Cleveland Cavaliers win the NBA Eastern Conference Finals?">Will the Cleveland Cavaliers win the NBA Eastern…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$19.81</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:34</td>
+                    <td class="txt-truncate" title="Will Oh Se-hoon win the 2026 Seoul Mayoral Election">Will Oh Se-hoon win the 2026 Seoul Mayoral Elect…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$17.73</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:40</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:43</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:43</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$11.03</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:45</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$11.03</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:50</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:57</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 22:57</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$11.03</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:00</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:00</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.02</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:04</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.02</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:11</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$11.03</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:11</td>
+                    <td class="txt-truncate" title="Will OpenAI’s market cap be between $1.25T and $1.5T at market close o">Will OpenAI’s market cap be between $1.25T and $…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:17</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$8.38</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:20</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-17 23:27</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will the New York Knicks win the NBA Eastern Conference Finals?">Will the New York Knicks win the NBA Eastern Con…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$13.34</td>
+                    <td class="bold-pnl">$-0.82</td>
+                    <td><span class="badge-razon stop_loss">STOP_LOSS</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will OpenAI not IPO by December 31, 2026?">Will OpenAI not IPO by December 31, 2026?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$14.37</td>
+                    <td class="bold-pnl">+$0.70</td>
+                    <td><span class="badge-razon take_profit">TAKE_PROFIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will MetaMask launch a token by September 30, 2026?">Will MetaMask launch a token by September 30, 20…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$10.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will Arsenal win the 2025–26 Champions League?">Will Arsenal win the 2025–26 Champions League?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$14.55</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Starmer out by June 30, 2026?">Starmer out by June 30, 2026?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$-0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will Harry Kane win the 2026 Ballon d'Or?">Will Harry Kane win the 2026 Ballon d'Or?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$8.81</td>
+                    <td class="bold-pnl">$-0.15</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-perdida">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will Flávio Bolsonaro win the 2026 Brazilian presidential election?">Will Flávio Bolsonaro win the 2026 Brazilian pre…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$10.37</td>
+                    <td class="bold-pnl">$-0.06</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will the Democratic Party control the Senate after the 2026 Midterm el">Will the Democratic Party control the Senate aft…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$5.94</td>
+                    <td class="bold-pnl">+$-0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will Ivan Cepeda Castro win the 2026 Colombian presidential election?">Will Ivan Cepeda Castro win the 2026 Colombian p…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$19.59</td>
+                    <td class="bold-pnl">+$0.34</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will GPT-6 be released before GTA VI?">Will GPT-6 be released before GTA VI?…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will the Oklahoma City Thunder win the NBA Western Conference Finals?">Will the Oklahoma City Thunder win the NBA Weste…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$13.89</td>
+                    <td class="bold-pnl">+$-0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will John Cornyn win the 2026 Texas Republican Primary?">Will John Cornyn win the 2026 Texas Republican P…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.32</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will Google have the best AI model at the end of June 2026?">Will Google have the best AI model at the end of…</td>
+                    <td><span class="badge-tabla">COMPRAR YES</span></td>
+                    <td>$20.00</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon inactiva">INACTIVA</span></td>
+                </tr>
+                <tr class="row-ganancia">
+                    <td>2026-05-18 03:29</td>
+                    <td class="txt-truncate" title="Will Ken Paxton win the 2026 Texas Republican Primary?">Will Ken Paxton win the 2026 Texas Republican Pr…</td>
+                    <td><span class="badge-tabla">COMPRAR NO</span></td>
+                    <td>$12.02</td>
+                    <td class="bold-pnl">+$0.00</td>
+                    <td><span class="badge-razon time_exit">TIME_EXIT</span></td>
+                </tr></tbody>
+    </table>
+  </div>
+</div>
 
-    const profitFactor = perdidasBrutas > 0 ? (gananciasBrutas / perdidasBrutas) : gananciasBrutas;
-    document.getElementById('metric-pf').innerText = profitFactor === gananciasBrutas && gananciasBrutas > 0 ? "∞" : profitFactor.toFixed(2);
-
-    // Inyectar contadores en los subtítulos
-    document.getElementById('count-abiertas').innerText = TRADES_ABIERTOS.length;
-    document.getElementById('count-cerradas').innerText = cerrados.length;
-
-    // Pintar los gráficos con la data calculada
-    renderizarGraficos(curvasCronologicas, contadorRazones);
-  }
-
-  // Helper de búsqueda de strings seguro
-  function strContiene(base, busqueda) {
-    return String(base).toUpperCase().includes(String(busqueda).toUpperCase());
-  }
-
-  // ── 7. RENDERIZADO DE OPERACIONES VIVAS (BARRAS EN DÓLARES) ───
-  function renderizarAbiertas() {
-    const contenedor = document.getElementById('contenedor-abiertas');
-    contenedor.innerHTML = "";
-
-    if (TRADES_ABIERTOS.length === 0) {
-      contenedor.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 2rem; border: 1px dashed var(--border); border-radius: 12px; background: rgba(255,255,255,0.005)">Ninguna operación abierta en este momento. El bot está escaneando ineficiencias...</div>`;
-      return;
+<script>
+// P&L Chart
+new Chart(document.getElementById('chartPnl').getContext('2d'), {
+  type:'line',
+  data:{
+    labels:["2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-16", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-17", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18", "2026-05-18"],
+    datasets:[{
+      data:[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.61, 2.33, 1.68, 0.14, 0.14, 0.14, 0.14, -2.11, -2.11, -2.11, -4.48, -3.42, -1.9, -1.9, -1.86, -2.24, -2.23, -2.23, -2.23, -1.59, 0.16, 0.16, 0.16, 0.16, 0.16, 0.16, 0.16, 0.16, -1.98, -1.98, -1.15, -1.15, -0.22, -0.22, -0.22, -0.22, -0.22, -0.22, -0.57, -0.57, -0.57, 0.25, 0.25, 0.25, 0.25, 0.93, 0.93, 0.93, 0.93, 0.93, 0.02, 0.02, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, -0.73, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, -0.53, 0.17, 0.17, 0.17, 0.17, 0.02, -0.04, -0.04, 0.3, 0.3, 0.3, 0.62, 0.62, 0.62],
+      borderColor:'#7c3aed', backgroundColor:'rgba(124,58,237,0.07)',
+      borderWidth:2, fill:true, tension:0.3,
+      pointBackgroundColor:'#a78bfa', pointRadius:3
+    }]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{
+      x:{grid:{color:'#1a2640'}, ticks:{color:'#64748b',font:{size:9,family:'JetBrains Mono'}}},
+      y:{grid:{color:'#1a2640'}, ticks:{color:'#64748b',font:{size:10,family:'JetBrains Mono'}}}
     }
-
-    TRADES_ABIERTOS.forEach(t => {
-      const pe = parseFloat(t.precio_entrada) || 0.0;
-      const pte = parseFloat(t.precio_token_entrada) || 0.0;
-      const pa = parseFloat(t.precio_actual) || pte;
-      const monto = parseFloat(t.monto_usdc) || 0.0;
-      const sl = parseFloat(t.sl_dinamico) || -0.03;
-      const tp = parseFloat(t.tp_dinamico) || 0.045;
-
-      const pct = (pa - pte) / pte;
-      const pnlMonetario = monto * pct;
-
-      // Límites absolutos monetizados en USD
-      const usdSL = monto * sl;
-      const usdTP = monto * tp;
-
-      // Calcular posición porcentual de la burbuja en la barra (0% al 100%)
-      const rangoUsd = usdTP - usdSL;
-      let posBurbuja = 50.0;
-      if (rangoUsd > 0) {
-        posBurbuja = ((pnlMonetario - usdSL) / rangoUsd) * 100.0;
-        posBurbuja = Math.max(0, Math.min(100, posBurbuja));
-      }
-
-      const claseBadge = strContiene(t.señal, 'YES') ? 'badge-yes' : 'badge-no';
-
-      const htmlCard = `
-        <div class="pos-card">
-          <div>
-            <div class="pos-header">
-              <div class="pos-title">${t.pregunta}</div>
-              <div class="badge ${claseBadge}">${t.señal}</div>
-            </div>
-            <div class="pos-meta">
-              <span>Monto: <strong>$${monto.toFixed(2)}</strong></span>
-              <span>Entrada Token: <strong>${pte.toFixed(3)}</strong></span>
-              <span>Actual: <strong>${pa.toFixed(3)}</strong></span>
-            </div>
-          </div>
-          
-          <div class="risk-bar-container">
-            <div class="risk-bar-labels">
-              <span class="text-red">${usdSL.toFixed(2)}$</span>
-              <span class="${pnlMonetario >= 0 ? 'text-green' : 'text-red'}" style="font-weight:600;">
-                ${pnlMonetario >= 0 ? '+' : ''}${pnlMonetario.toFixed(2)}$ (${(pct*100).toFixed(1)}%)
-              </span>
-              <span class="text-green">+${usdTP.toFixed(2)}$</span>
-            </div>
-            <div class="risk-bar-bg">
-              <div class="risk-bar-fill" style="left: ${posBurbuja}%;"></div>
-            </div>
-          </div>
-        </div>
-      `;
-      contenedor.innerHTML += htmlCard;
-    });
   }
-
-  // ── 8. RENDERIZADO DE TABLA HISTÓRICA LIMITADA A 25 ───────────
-  function renderizarTabla(cerrados) {
-    const tbody = document.getElementById('tabla-historial');
-    tbody.innerHTML = "";
-
-    if (cerrados.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; color:var(--text-muted); padding:3rem;">No se encontraron registros de operaciones para el filtro seleccionado.</td></tr>`;
-      return;
-    }
-
-    // Truncado dinámico: Renderizar un máximo de 25 registros en la interfaz visual
-    const registrosVisibles = cerrados.slice(0, 25);
-
-    registrosVisibles.forEach(t => {
-      const pnl = parseFloat(t.pnl_realizado) || 0.0;
-      const pct = parseFloat(t.pct_cambio) || 0.0;
-      const clasePnL = pnl > 0 ? "text-green" : (pnl < 0 ? "text-red" : "");
-      const claseBadge = strContiene(t.señal, 'YES') ? 'badge-yes' : 'badge-no';
-
-      const razonMapeada = strContiene(t.razon_cierre, 'INACTIVA') ? '🔒 INACTIVA' : t.razon_cierre;
-
-      const fila = `
-        <tr>
-          <td class="mono-num" style="color:var(--text-muted); font-size:0.8rem;">${t.fecha_entrada}</td>
-          <td>
-            <div class="td-pregunta" title="${t.pregunta}">${t.pregunta}</div>
-          </td>
-          <td><span class="badge ${claseBadge}">${t.señal}</span></td>
-          <td class="mono-num">$${parseFloat(t.monto_usdc || 0).toFixed(2)}</td>
-          <td>
-            <div class="tooltip-ia">
-              <span class="badge" style="background:rgba(139,92,246,0.08); color:var(--primary); border:1px solid rgba(139,92,246,0.15)">🤖 VER RAZÓN</span>
-              <div class="tooltip-box">
-                <strong>Análisis fundamental del LLM:</strong><br>${t.razonamiento || 'Sin desglose detallado en el registro.'}
-              </div>
-            </div>
-          </td>
-          <td style="font-weight:600; font-size:0.8rem; color:var(--text-muted);">${razonMapeada}</td>
-          <td class="mono-num ${clasePnL}" style="font-weight:600;">
-            ${pnl >= 0 ? '+' : ''}${pnl.toFixed(2)}$ (${(pct*100).toFixed(1)}%)
-          </td>
-        </tr>
-      `;
-      tbody.innerHTML += fila;
-    });
-
-    if (cerrados.length > 25) {
-      tbody.innerHTML += `<tr><td colspan="7" style="text-align:center; color:var(--text-muted); font-size:0.8rem; background:rgba(255,255,255,0.002)">💡 Omitiendo ${cerrados.length - 25} operaciones más antiguas en la vista para optimizar la velocidad del panel.</td></tr>`;
-    }
+});
+// Donut
+new Chart(document.getElementById('chartDonut').getContext('2d'), {
+  type:'doughnut',
+  data:{
+    labels:["TP / Early", "Stop Loss", "Time Exit", "Inactiva"],
+    datasets:[{
+      data:[10, 10, 25, 77],
+      backgroundColor:["#10b981", "#ef4444", "#f59e0b", "#6b7280"],
+      borderWidth:0, hoverOffset:4
+    }]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false, cutout:'70%',
+    plugins:{legend:{display:false}}
   }
-
-  // ── 9. DIBUJADO DE GRÁFICOS (CHART.JS MASIVO INTERACTIVO) ─────
-  function renderizarGraficos(curvaData, razonesData) {
-    // Destruir gráficos anteriores para evitar superposiciones visuales al cambiar de pestañas
-    if (chartPnlInstance) chartPnlInstance.destroy();
-    if (chartDonutInstance) chartDonutInstance.destroy();
-
-    // Configuración del Gráfico de Línea Cronológica
-    const ctxLine = document.getElementById('chartPnl').getContext('2d');
-    chartPnlInstance = new Chart(ctxLine, {
-      type: 'line',
-      data: {
-        labels: curvaData.map(c => c.label),
-        datasets: [{
-          data: curvaData.map(c => c.valor),
-          borderColor: '#8b5cf6',
-          backgroundColor: 'rgba(139, 92, 246, 0.04)',
-          borderWidth: 2,
-          fill: true,
-          tension: 0.25,
-          pointBackgroundColor: '#a78bfa',
-          pointRadius: curvaData.length > 50 ? 0 : 2
-        }]
-      },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { color: '#64748b', font: { size: 9, family: 'JetBrains Mono' } } },
-          y: { grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { color: '#64748b', font: { size: 10, family: 'JetBrains Mono' } } }
-        }
-      }
-    });
-
-    // Configuración del Gráfico de Torta / Donut
-    const labelsDonut = Object.keys(razonesData);
-    const dataDonut = Object.values(razonesData);
-    const coloresDonut = ['#10b981', '#ef4444', '#f59e0b', '#3b82f6', '#8b5cf6'];
-
-    const ctxDonut = document.getElementById('chartDonut').getContext('2d');
-    chartDonutInstance = new Chart(ctxDonut, {
-      type: 'doughnut',
-      data: {
-        labels: labelsDonut,
-        datasets: [{
-          data: dataDonut,
-          backgroundColor: coloresDonut,
-          borderWidth: 0
-        }]
-      },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            position: 'right',
-            labels: { color: '#f1f5f9', font: { size: 11, family: 'Plus Jakarta Sans' }, boxWidth: 12 }
-          }
-        }
-      }
-    });
-  }
-
-  // Inicialización inmediata al cargar el archivo HTML
-  window.onload = function() {
-    calcularMétricas(TRADES_CERRADOS);
-    renderizarAbiertas();
-    renderizarTabla(TRADES_CERRADOS);
-  };
+});
 </script>
 </body>
 </html>
