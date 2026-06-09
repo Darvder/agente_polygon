@@ -43,9 +43,9 @@ BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 10
 
 # ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
-MIN_EDGE        = 0.025   # Bajado a 2.5% para capturar más micro-ineficiencias
-MIN_CONFIANZA   = 0.65    # Mantenido (umbral equilibrado para Llama-3)
-MIN_VOLUMEN     = 4_000   # Bajado para escanear mercados medianos con más fallos de precio
+MIN_EDGE        = 0.015   # Bajado a 1.5% para capturar más micro-ineficiencias
+MIN_CONFIANZA   = 0.55    # Bajado para permitir más operaciones en fase de aprendizaje activo
+MIN_VOLUMEN     = 1_500   # Bajado para escanear mercados pequeños y medianos
 MAX_SPREAD      = 0.10    # Subido al 10% para tolerar libros de órdenes más jóvenes
 MIN_PRECIO      = 0.02    # Permite buscar oportunidades en "long-shots" baratos
 MAX_PRECIO      = 0.98    # Permite operar contratos casi resueltos con ventajas seguras
@@ -337,7 +337,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 3. Volatilidad ANTES de Groq
     tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
-    MIN_VOL_1D = 0.003; MIN_RANGO = 0.025
+    MIN_VOL_1D = 0.0005; MIN_RANGO = 0.005
     if met and (met.get("vol_1d", 0) < MIN_VOL_1D or met.get("rango", 0) < MIN_RANGO):
         log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
         return None
@@ -347,10 +347,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 4. Noticias (Ejecución asíncrona fluida)
     nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
-    if not nots:
-        log.info(f"❌ {nombre_m} | Saltado: Sin noticias recientes.")
-        return None
-    nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots])
+    nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias recientes en prensa."
 
     # 5. Configuración del Prompt CoT Optimizado
     patron = ev_detector.patron_mercado(m["id"])
@@ -393,7 +390,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     diferencia  = estimacion - m["mid_price"]
     edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
-    umbral = 0.015 if hay_noticia else 0.03
+    umbral = 0.01 if hay_noticia else 0.02
     if edge_neto < umbral:
         log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
         return None
@@ -553,7 +550,7 @@ async def ciclo():
     # Ordenar por volumen (más líquidos primero) y tomar top 60
     import random
     top100 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:100]
-    mercados_a_revisar = random.sample(top100, min(15, len(top100)))
+    mercados_a_revisar = random.sample(top100, min(10, len(top100)))
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
