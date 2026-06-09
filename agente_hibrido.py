@@ -48,10 +48,10 @@ BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 10
 
 # ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
-MIN_EDGE        = 0.015   # Bajado a 1.5% para capturar más micro-ineficiencias
-MIN_CONFIANZA   = 0.55    # Bajado para permitir más operaciones en fase de aprendizaje activo
+MIN_EDGE        = 0.010   # Bajado a 1.0% para capturar más micro-ineficiencias en aprendizaje activo
+MIN_CONFIANZA   = 0.50    # Bajado para permitir más operaciones en fase de aprendizaje activo
 MIN_VOLUMEN     = 1_500   # Bajado para escanear mercados pequeños y medianos
-MAX_SPREAD      = 0.10    # Subido al 10% para tolerar libros de órdenes más jóvenes
+MAX_SPREAD      = 0.04    # Bajado al 4% para evitar que el spread anule nuestro edge neto
 MIN_PRECIO      = 0.02    # Permite buscar oportunidades en "long-shots" baratos
 MAX_PRECIO      = 0.98    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
@@ -343,7 +343,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     # 3. Volatilidad ANTES de Groq
     tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
     MIN_VOL_1D = 0.0005; MIN_RANGO = 0.005
-    if met and (met.get("vol_1d", 0) < MIN_VOL_1D or met.get("rango", 0) < MIN_RANGO):
+    if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
         log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
         return None
 
@@ -411,7 +411,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     diferencia  = estimacion - m["mid_price"]
     edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
-    umbral = 0.01 if hay_noticia else 0.02
+    umbral = 0.01 if hay_noticia else 0.012
     if edge_neto < umbral:
         log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
         return None
