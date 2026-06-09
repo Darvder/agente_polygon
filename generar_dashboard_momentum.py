@@ -70,6 +70,7 @@ def generar_dashboard():
                 precio_ent = float(p.get('precio_token_entrada', p.get('precio_entrada', 0.5)))
                 precio_act = float(p.get('precio_actual', precio_ent))
                 vol_1d    = float(p.get('vol_1d', 0.0))
+                momentum_1h = float(p.get('momentum_1h', 0.0))
                 horas_max = p.get('horas_max', 10)
                 razon_ia  = str(p.get('razonamiento', '—'))[:80]
 
@@ -82,6 +83,7 @@ def generar_dashboard():
                 precio_act_token = precio_act if "YES" in senal.upper() else round(1 - precio_act, 4)
                 pct_burbuja = calcular_posicion_barra(precio_ent, precio_act_token, tp_real, sl_real)
 
+                mom_color = "#10b981" if momentum_1h >= 0 else "#ef4444"
                 ops_abiertas_html += f"""
                 <div class="card-orden">
                     <div class="card-orden-header">
@@ -95,6 +97,7 @@ def generar_dashboard():
                         <div class="meta-item"><span class="meta-label">⏱️ Límite</span><span class="meta-value">{horas_max}h</span></div>
                         <div class="meta-item"><span class="meta-label">📊 P&L</span><span class="meta-value {pnl_clase}">{"+" if pnl_flotante>=0 else ""}${pnl_flotante:.2f}</span></div>
                         <div class="meta-item"><span class="meta-label">📉 Vol 1d</span><span class="meta-value">{vol_1d:.4f}</span></div>
+                        <div class="meta-item"><span class="meta-label">⚡ Mom 1h</span><span class="meta-value" style="color:{mom_color}">{momentum_1h:+.1%}</span></div>
                         <div class="meta-item" style="grid-column: span 3"><span class="meta-label">🧠 IA</span><span class="meta-value" style="font-size:0.78rem;font-weight:400;color:#9ca3af">{razon_ia}</span></div>
                     </div>
                     <div class="riesgo-container">

@@ -78,15 +78,15 @@ def _token_yes(market_id):
     return None
 
 def _precios_historicos(token_yes):
-    """Obtiene serie histórica via CLOB. Retorna lista de floats."""
+    """Obtiene serie histórica via CLOB. Retorna lista de dicts."""
     try:
         r = requests.get(f"{CLOB_URL}/prices-history",
                          params={"market": token_yes, "interval": "max"},
                          timeout=TIMEOUT)
         if r.status_code != 200: return []
         historia = r.json().get("history", [])
-        return [float(h["p"]) for h in
-                sorted(historia, key=lambda x: x.get("t", 0)) if "p" in h]
+        return [{"p": float(h["p"]), "t": int(h["t"])} for h in
+                sorted(historia, key=lambda x: x.get("t", 0)) if "p" in h and "t" in h]
     except: return []
 
 
@@ -95,7 +95,8 @@ def _precios_historicos(token_yes):
 def _metricas(precios):
     """Calcula volatilidad y estadísticas de la serie de precios."""
     if len(precios) < 5: return None
-    arr = np.array(precios)
+    # precios es una lista de dicts [{"p": float, "t": int}]
+    arr = np.array([x["p"] for x in precios])
     ret = np.diff(np.log(arr + 0.001))
 
     n1d = min(24, len(ret)); n7d = min(168, len(ret))
@@ -123,6 +124,24 @@ def _metricas(precios):
         d = arr[-1] - arr[-5]
         tend = 1 if d > 0.005 else (-1 if d < -0.005 else 0)
 
+    # Cálculo de momentum real (1h y 24h)
+    precio_actual = precios[-1]["p"]
+    t_actual = precios[-1]["t"]
+    
+    precio_1h = precios[0]["p"]
+    precio_24h = precios[0]["p"]
+    
+    for item in reversed(precios):
+        t_diff = t_actual - item["t"]
+        if t_diff >= 3600 and precio_1h == precios[0]["p"]:
+            precio_1h = item["p"]
+        if t_diff >= 86400:
+            precio_24h = item["p"]
+            break
+            
+    cambio_1h = round(precio_actual - precio_1h, 4)
+    cambio_24h = round(precio_actual - precio_24h, 4)
+
     return {
         "vol_1d":        round(vol_1d, 5),
         "vol_7d":        round(vol_7d, 5),
@@ -134,6 +153,8 @@ def _metricas(precios):
         "precio_min":    round(float(np.min(arr)), 4),
         "precio_max":    round(float(np.max(arr)), 4),
         "n":             len(precios),
+        "cambio_1h":     cambio_1h,
+        "cambio_24h":    cambio_24h,
     }
 
 

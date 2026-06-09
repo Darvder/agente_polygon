@@ -166,7 +166,7 @@ COLUMNAS_LIBRO = [
     'pct_cambio', 'llm_estimacion', 'llm_confianza', 'llm_edge', 'hay_noticia', 
     'n_noticias', 'monto_usdc', 'dias_mercado', 'fecha_cierre_mercado', 
     'fecha_cierre_real', 'pnl_realizado', 'estado', 'razon_cierre', 
-    'razonamiento', 'tp_dinamico', 'sl_dinamico', 'horas_max', 'vol_1d'
+    'razonamiento', 'tp_dinamico', 'sl_dinamico', 'horas_max', 'vol_1d', 'momentum_1h'
 ]
 
 def cargar_libro():
@@ -347,6 +347,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
         return None
 
+    # Inyectar momentum real al mercado para el prompt del LLM
+    m["cambio_1h"] = met.get("cambio_1h", 0.0) if met else 0.0
+
     # Si llegó aquí, el mercado es apto para análisis. Imprimimos el trigger
     log.info(f"Vol [{m['id']}]: tp={int(tp*100)}% sl={int(sl*100)}% h={int(max_h)}h vol={met.get('vol_1d',0):.3f} pulsos=sí")
 
@@ -357,11 +360,12 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     # 5. Configuración del Prompt CoT Optimizado
     patron = ev_detector.patron_mercado(m["id"])
     patron_txt = f"n={patron.get('n',0)} trades" if patron else "sin historial"
+    momentum_str = f"{m['cambio_1h']:+.1%}"
     prompt = PROMPT.format(
         pregunta=m["pregunta"], precio=m["mid_price"],
         dias=m["dias"], spread=m["spread"],
         noticias=nots_txt, patron=patron_txt,
-        momentum=m.get("cambio_1h", 0.0)
+        momentum=momentum_str
     )
 
     # 6. Groq con Control de Flujo y Sistema de Respaldo (Fallback)
@@ -430,6 +434,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         vol_1d=met.get("vol_1d", 0) if met else 0,
         edge=edge_neto, confianza=confianza,
         hay_noticia=hay_noticia,
+        momentum_1h=met.get("cambio_1h", 0.0) if met else 0.0,
         fecha_dt=datetime.now().strftime("%Y-%m-%d %H:%M")
     )
     if not ok and score < 0.5:
@@ -463,6 +468,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         "llm_confianza":        confianza,
         "llm_edge":             edge_neto,
         "vol_1d":               met.get("vol_1d", 0.0) if met else 0.0,
+        "momentum_1h":          met.get("cambio_1h", 0.0) if met else 0.0,
     }
 
 def actualizar_precios_abiertos(df):

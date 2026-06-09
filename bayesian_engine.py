@@ -72,6 +72,15 @@ def get_precio_bucket(precio):
     if p < 0.85: return "alto"
     return "extremo_alto"
 
+def get_momentum_bucket(momentum):
+    try: m = float(momentum)
+    except: m = 0.0
+    if m < -0.05: return "caida_fuerte"
+    if m < -0.01: return "caida_suave"
+    if m < 0.01:  return "estable"
+    if m < 0.05:  return "alza_suave"
+    return "alza_fuerte"
+
 def extraer_features(row):
     señal = str(row.get("señal", "")).upper()
     hay_noticia = str(row.get("hay_noticia", "False")).lower() in ("true","1","yes")
@@ -83,6 +92,7 @@ def extraer_features(row):
         "confianza":  get_confianza_bucket(row.get("llm_confianza", 0.5)),
         "precio":     get_precio_bucket(row.get("precio_token_entrada", 0.5)),
         "noticia":    "si" if hay_noticia else "no",
+        "momentum":   get_momentum_bucket(row.get("momentum_1h", 0)),
     }
 
 def es_señal_valida(row):
@@ -164,7 +174,7 @@ class BayesianEngine:
 
     def should_trade(self, pregunta, precio_entrada, señal,
                      vol_1d=0, edge=0, confianza=0.5,
-                     hay_noticia=False, fecha_dt=""):
+                     hay_noticia=False, momentum_1h=0.0, fecha_dt=""):
         features = {
             "señal":     "yes" if "YES" in str(señal).upper() else "no",
             "categoria": get_categoria(pregunta),
@@ -173,6 +183,7 @@ class BayesianEngine:
             "confianza": get_confianza_bucket(confianza),
             "precio":    get_precio_bucket(precio_entrada),
             "noticia":   "si" if hay_noticia else "no",
+            "momentum":  get_momentum_bucket(momentum_1h),
         }
         score, detalle = self.score(features)
 
