@@ -347,7 +347,10 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 4. Noticias (Ejecución asíncrona fluida)
     nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
-    nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias."
+    if not nots:
+        log.info(f"❌ {nombre_m} | Saltado: Sin noticias recientes.")
+        return None
+    nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots])
 
     # 5. Configuración del Prompt CoT Optimizado
     patron = ev_detector.patron_mercado(m["id"])
@@ -366,7 +369,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
                 model="llama-3.1-8b-instant",
                 temperature=0.0,
                 messages=[{"role":"user","content":prompt}],
-                max_tokens=800,  # Espacio holgado para el análisis CoT sin truncados
+                max_tokens=450,  # Espacio holgado para el análisis CoT sin truncados
                 response_format={"type": "json_object"}
             )
             # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM)
@@ -550,7 +553,7 @@ async def ciclo():
     # Ordenar por volumen (más líquidos primero) y tomar top 60
     import random
     top100 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:100]
-    mercados_a_revisar = random.sample(top100, min(40, len(top100)))
+    mercados_a_revisar = random.sample(top100, min(15, len(top100)))
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)

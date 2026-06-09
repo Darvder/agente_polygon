@@ -2,8 +2,8 @@ name: Agente Hibrido
 
 on:
   schedule:
-    # Ejecución automática cada 10 minutos
-    - cron: '*/10 * * * *'
+    # Ejecución automática cada 20 minutos
+    - cron: '*/20 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -32,10 +32,22 @@ jobs:
           # 1. Traer la rama remota de almacenamiento
           git fetch origin datos || true
           
-          # 2. Intentar extraer los archivos reales de operaciones previas hacia el espacio de trabajo actual
-          git checkout origin/datos -- datos_polymarket/paper_trading/libro_hibrido.csv datos_polymarket/paper_trading/estado_hibrido.json datos_polymarket/paper_trading/bayesian_hibrido.json 2>/dev/null || echo "No se encontró historial en la rama 'datos'. El bot iniciará un registro limpio."
+          # 2. Intentar extraer los archivos reales de operaciones previas de forma independiente
+          # Esto evita que si falta un archivo, falle la extracción de los demás.
+          git checkout origin/datos -- datos_polymarket/paper_trading/libro_hibrido.csv 2>/dev/null || echo "Libro hibrido no encontrado en la rama datos."
+          git checkout origin/datos -- datos_polymarket/paper_trading/estado_hibrido.json 2>/dev/null || echo "Estado hibrido no encontrado en la rama datos."
           
-          # 3. BLINDAJE CONTRA EMPTYDATAERROR: Si algún archivo quedó en 0 bytes localmente, se elimina por completo.
+          # 3. Extraer el modelo bayesiano (gestionando renombrado si es el modelo antiguo)
+          if git checkout origin/datos -- datos_polymarket/paper_trading/bayesian_hibrido.json 2>/dev/null; then
+            echo "Modelo bayesiano hibrido cargado."
+          elif git checkout origin/datos -- datos_polymarket/paper_trading/bayesian_model.json 2>/dev/null; then
+            echo "Migrando bayesian_model.json a bayesian_hibrido.json"
+            mv datos_polymarket/paper_trading/bayesian_model.json datos_polymarket/paper_trading/bayesian_hibrido.json
+          else
+            echo "Modelo bayesiano no encontrado en la rama datos."
+          fi
+          
+          # 4. BLINDAJE CONTRA EMPTYDATAERROR: Si algún archivo quedó en 0 bytes localmente, se elimina por completo.
           # Al ser eliminado, los módulos de Python inicializarán DataFrames nuevos y válidos de forma nativa.
           find . -name "*.csv" -empty -delete 2>/dev/null || true
           find . -name "*.json" -empty -delete 2>/dev/null || true
