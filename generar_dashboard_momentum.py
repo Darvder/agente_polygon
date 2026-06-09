@@ -254,7 +254,7 @@ def generar_dashboard():
     donut_data   = [n_tp, n_sl, n_time, n_inactiva]
     donut_colors = ['#10b981', '#ef4444', '#f59e0b', '#6b7280']
 
-    html = f"""<!DOCTYPE html>
+    html_content = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -1098,7 +1098,7 @@ new Chart(document.getElementById('chartDonut').getContext('2d'), {{
 
     os.makedirs(os.path.dirname(ARCHIVO_OUTPUT), exist_ok=True)
     with open(ARCHIVO_OUTPUT, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(html_content)
     print(f"✅ Dashboard generado con éxito en: {ARCHIVO_OUTPUT}")
 
 if __name__ == "__main__":
