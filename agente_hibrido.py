@@ -27,7 +27,7 @@ def extraer_json_puro(texto):
     except:
         return texto
 
-from bayesian_engine   import BayesianEngine
+from bayesian_engine   import BayesianEngine, get_categoria
 from volatility_engine import VolatilityEngine
 from event_detector    import EventDetector
 
@@ -428,6 +428,47 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         log.info(f"❌ {nombre_m} | Edge muy alto ({edge_neto:.2%}) → señal dudosa")
         return None
 
+    # 7.5 Bifurcación de Estrategias (Trend-Following vs Mean-Reversion) (Fase 9)
+    momentum_1h = met.get("cambio_1h", 0.0) if met else 0.0
+    if hay_noticia:
+        # Modo Trend-Following (Seguidor de Tendencia): no operar contra momentum fuerte
+        if diferencia > 0 and momentum_1h < -0.005:
+            log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR YES pero momentum es bajista ({momentum_1h:+.1%}) → bloqueado")
+            return None
+        if diferencia < 0 and momentum_1h > 0.005:
+            log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR NO pero momentum es alcista ({momentum_1h:+.1%}) → bloqueado")
+            return None
+    else:
+        # Modo Mean-Reversion (Retorno a la Media): sólo operar extremos
+        en_extremo = met.get("en_extremo", False) if met else False
+        if not en_extremo:
+            log.info(f"❌ {nombre_m} | Mean-Reversion: Sin noticias y fuera de zona extrema → bloqueado")
+            return None
+            
+        media = met.get("media", m["mid_price"]) if met else m["mid_price"]
+        # Si el precio actual está arriba de la media histórica, sólo permitimos vender (COMPRAR NO)
+        if m["mid_price"] > media and diferencia > 0:
+            log.info(f"❌ {nombre_m} | Mean-Reversion: Precio alto ({m['mid_price']:.3f} > {media:.3f}) pero la señal es COMPRAR YES → bloqueado")
+            return None
+        # Si el precio actual está abajo de la media histórica, sólo permitimos comprar (COMPRAR YES)
+        if m["mid_price"] < media and diferencia < 0:
+            log.info(f"❌ {nombre_m} | Mean-Reversion: Precio bajo ({m['mid_price']:.3f} < {media:.3f}) pero la señal es COMPRAR NO → bloqueado")
+            return None
+
+    # 7.6 Filtro de Diversificación por Categoría (Fase 10)
+    categoria_actual = get_categoria(nombre_m)
+    exposicion_cat = 0.0
+    if not df.empty and "pregunta" in df.columns and "monto_usdc" in df.columns:
+        abiertas = df[df["estado"] == "ABIERTA"]
+        for _, pos in abiertas.iterrows():
+            if get_categoria(pos["pregunta"]) == categoria_actual:
+                exposicion_cat += float(pos["monto_usdc"])
+                
+    max_exposicion_cat = estado["capital_actual"] * 0.3
+    if exposicion_cat >= max_exposicion_cat:
+        log.info(f"❌ {nombre_m} | Diversificación: Exposición en '{categoria_actual}' (${exposicion_cat:.2f}) supera el límite de 30% (${max_exposicion_cat:.2f}) → bloqueado")
+        return None
+
     # 8. Motor Bayesiano
     señal     = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
     precio_tok = m["mid_price"] if señal == "COMPRAR YES" else round(1 - m["mid_price"], 4)
@@ -444,8 +485,13 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         log.info(f"❌ {nombre_m} | Bayesiano bloquea (score={score:.2f})")
         return None
 
-    # 9. Dimensionamiento de Posición (Kelly)
-    kelly = edge_neto * confianza * 0.3
+    # 9. Dimensionamiento de Posición (Kelly Dinámico) (Fase 10)
+    ratio_capital = estado.get("capital_actual", CAPITAL_INICIAL) / CAPITAL_INICIAL
+    factor_kelly = 0.3
+    if ratio_capital < 1.0:
+        factor_kelly = max(0.1, round(0.3 * ratio_capital, 3))
+        
+    kelly = edge_neto * confianza * factor_kelly
     monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
     log.info(f"💰 {nombre_m} | monto=${monto:.2f} vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%}")
     if monto < 5:

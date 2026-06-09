@@ -148,6 +148,7 @@ def _metricas(precios):
         "rango":         round(float(np.percentile(arr,75) - np.percentile(arr,25)), 4),
         "tendencia":     tend,
         "en_extremo":    en_extremo,
+        "media":         round(media, 4),
         "hay_pulsos":    hay_pulsos,
         "intervalo_h":   intervalo_pulso,
         "precio_min":    round(float(np.min(arr)), 4),
