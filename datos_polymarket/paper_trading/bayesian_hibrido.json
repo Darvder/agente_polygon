@@ -34,6 +34,11 @@
     "wins": 1,
     "wr": 0.25
   },
+  "momentum:estable": {
+    "n": 4,
+    "wins": 1,
+    "wr": 0.25
+  },
   "categoria:politica": {
     "n": 1,
     "wins": 0,
