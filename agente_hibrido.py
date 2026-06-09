@@ -39,6 +39,11 @@ groq_semaphore = asyncio.Semaphore(2)
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
+MODELOS_LLM = [
+    "llama-3.3-70b-versatile",
+    "gemma2-9b-it",
+    "llama-3.1-8b-instant"
+]
 BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 10
 
@@ -359,22 +364,34 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         momentum=m.get("cambio_1h", 0.0)
     )
 
-    # 6. Groq con Control de Flujo Integrado (Aquí sí actúa el semáforo de 2 cupos)
-    try:
-        async with groq_semaphore:
-            msg = await cliente_llm.chat.completions.create(
-                model="llama-3.1-8b-instant",
-                temperature=0.0,
-                messages=[{"role":"user","content":prompt}],
-                max_tokens=450,  # Espacio holgado para el análisis CoT sin truncados
-                response_format={"type": "json_object"}
-            )
-            # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM)
-            await asyncio.sleep(1.5)
+    # 6. Groq con Control de Flujo y Sistema de Respaldo (Fallback)
+    an = None
+    for model_name in MODELOS_LLM:
+        try:
+            async with groq_semaphore:
+                msg = await cliente_llm.chat.completions.create(
+                    model=model_name,
+                    temperature=0.0,
+                    messages=[{"role":"user","content":prompt}],
+                    max_tokens=450,  # Espacio holgado para el análisis CoT sin truncados
+                    response_format={"type": "json_object"}
+                )
+                # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM)
+                await asyncio.sleep(1.5)
 
-        an = json.loads(msg.choices[0].message.content.strip())
-    except Exception as e:
-        log.warning(f"⚠️ {nombre_m} | Groq error: {e}")
+            an = json.loads(msg.choices[0].message.content.strip())
+            log.info(f"✅ [{nombre_m}] Analisis exitoso con el modelo {model_name}")
+            break  # Éxito, salir del bucle de modelos
+        except Exception as e:
+            if "rate_limit_exceeded" in str(e) or "429" in str(e):
+                log.warning(f"⚠️ [{nombre_m}] Modelo {model_name} con limite excedido (429). Intentando respaldo...")
+                continue
+            else:
+                log.warning(f"⚠️ [{nombre_m}] Error general con el modelo {model_name}: {e}. Intentando respaldo...")
+                continue
+
+    if an is None:
+        log.error(f"❌ [{nombre_m}] Todos los modelos de LLM fallaron o agotaron su cuota.")
         return None
 
     # 7. Filtros matemáticos post-IA
