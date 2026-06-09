@@ -105,6 +105,7 @@ PROMPT = """Eres un sistema algorítmico avanzado de arbitraje y calibración pr
 1. Aplica la Sabiduría de Masas: El precio de mercado ({precio:.1%}) ya descuenta la información general. Solo debes diferir del precio si las noticias proveen un catalizador contundente que el mercado aún no ha procesado (asimetría informática).
 2. Evita la Sobreconfianza: No asignes valores extremos (0% o 100%) a eventos con incertidumbre estructural (política, deportes, tecnología). Calibrar significa ser conservador.
 3. Factor de Decaimiento Temporal: Si faltan muchos días para la resolución, las probabilidades tienden a ser menos extremas debido al riesgo latente.
+4. Anclaje de Precios por Falta de Información: Si la sección de noticias dice 'Sin noticias...' o si las noticias no aportan información nueva que altere la probabilidad del evento, tu estimación de probabilidad ("estimacion") DEBE ser exactamente la probabilidad de mercado actual (es decir, {precio:.1%}, que equivale al número entero {precio_entero}). No uses estimaciones genéricas como 50 si el mercado cotiza a un precio extremo.
 
 CRITICAL FORMAT INSTRUCTIONS:
 You MUST respond with a single, perfectly formatted JSON object. 
@@ -361,11 +362,13 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     patron = ev_detector.patron_mercado(m["id"])
     patron_txt = f"n={patron.get('n',0)} trades" if patron else "sin historial"
     momentum_str = f"{m['cambio_1h']:+.1%}"
+    precio_entero = int(m["mid_price"] * 100)
     prompt = PROMPT.format(
         pregunta=m["pregunta"], precio=m["mid_price"],
         dias=m["dias"], spread=m["spread"],
         noticias=nots_txt, patron=patron_txt,
-        momentum=momentum_str
+        momentum=momentum_str,
+        precio_entero=precio_entero
     )
 
     # 6. Groq con Control de Flujo y Sistema de Respaldo (Fallback)
@@ -421,7 +424,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     if confianza < MIN_CONFIANZA:
         log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {MIN_CONFIANZA:.2f})")
         return None
-    if edge_neto > 0.15:
+    if edge_neto > 0.25:
         log.info(f"❌ {nombre_m} | Edge muy alto ({edge_neto:.2%}) → señal dudosa")
         return None
 
