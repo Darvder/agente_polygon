@@ -1100,6 +1100,10 @@ new Chart(document.getElementById('chartDonut').getContext('2d'), {{
     with open(ARCHIVO_OUTPUT, "w", encoding="utf-8") as f:
         f.write(html_content)
     print(f"✅ Dashboard generado con éxito en: {ARCHIVO_OUTPUT}")
+    
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html_content)
+    print("✅ Copia de Dashboard guardada en: index.html")
 
 if __name__ == "__main__":
     generar_dashboard()
