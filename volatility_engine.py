@@ -10,7 +10,7 @@ Lógica económica:
   comportamiento histórico real de cada activo.
 """
 
-import requests, json, os, logging
+import requests, json, os, logging, time
 import numpy as np
 from datetime import datetime
 
