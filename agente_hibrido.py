@@ -41,7 +41,6 @@ NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
 MODELOS_LLM = [
     "llama-3.3-70b-versatile",
-    "gemma2-9b-it",
     "llama-3.1-8b-instant"
 ]
 BASE_URL = "https://gamma-api.polymarket.com"
