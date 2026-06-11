@@ -15,14 +15,14 @@ from datetime import datetime
 CACHE_EVENTOS = "datos_polymarket/paper_trading/event_cache.json"
 
 # Bloqueos post-cierre
-BLOQUEO_TP   = 48   # ganamos → esperar próximo evento real
-BLOQUEO_SL   = 6    # perdimos → breve espera
-BLOQUEO_TIME = 4    # ruido → espera corta
+BLOQUEO_TP   = 12   # ganamos → breve espera
+BLOQUEO_SL   = 3    # perdimos → breve espera
+BLOQUEO_TIME = 2    # ruido → espera corta
 
 # Intervalos típicos entre eventos recurrentes (horas)
 INTERVALOS = {
-    "nba": 52, "nhl": 52, "nfl": 168,
-    "epl": 168, "election": 0, "otro": 0,
+    "nba": 12, "nhl": 12, "nfl": 24,
+    "epl": 24, "election": 0, "otro": 0,
 }
 
 log = logging.getLogger("event_detector")

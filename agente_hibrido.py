@@ -51,7 +51,7 @@ TIMEOUT  = 10
 MIN_EDGE        = 0.010   # Bajado a 1.0% para capturar más micro-ineficiencias en aprendizaje activo
 MIN_CONFIANZA   = 0.50    # Bajado para permitir más operaciones en fase de aprendizaje activo
 MIN_VOLUMEN     = 1_500   # Bajado para escanear mercados pequeños y medianos
-MAX_SPREAD      = 0.04    # Bajado al 4% para evitar que el spread anule nuestro edge neto
+MAX_SPREAD      = 0.06    # Subido al 6% para permitir más oportunidades en mercados volátiles
 MIN_PRECIO      = 0.02    # Permite buscar oportunidades en "long-shots" baratos
 MAX_PRECIO      = 0.98    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
@@ -622,7 +622,7 @@ async def ciclo():
     # Ordenar por volumen (más líquidos primero) y tomar top 60
     import random
     top100 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:100]
-    mercados_a_revisar = random.sample(top100, min(10, len(top100)))
+    mercados_a_revisar = random.sample(top100, min(20, len(top100)))
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
