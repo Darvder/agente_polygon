@@ -15,7 +15,7 @@ import numpy as np
 from datetime import datetime
 
 CLOB_URL = "https://clob.polymarket.com"
-TIMEOUT  = 10
+TIMEOUT  = 15
 
 # Valores por defecto (si no hay datos históricos)
 DEFAULT_TP    = 0.09
@@ -68,26 +68,39 @@ def _valid(entry):
 # ── CLOB API ───────────────────────────────────────────────────────
 
 def _token_yes(market_id):
-    try:
-        r = requests.get("https://gamma-api.polymarket.com/markets",
-                         params={"id": market_id}, timeout=TIMEOUT)
-        if r.status_code == 200 and r.json():
-            ids = json.loads(r.json()[0].get("clobTokenIds", "[]"))
-            return str(ids[0]) if ids else None
-    except: pass
+    max_intentos = 2
+    for intento in range(max_intentos):
+        try:
+            r = requests.get("https://gamma-api.polymarket.com/markets",
+                             params={"id": market_id}, timeout=TIMEOUT)
+            if r.status_code == 200 and r.json():
+                ids = json.loads(r.json()[0].get("clobTokenIds", "[]"))
+                return str(ids[0]) if ids else None
+        except Exception as e:
+            if intento < max_intentos - 1:
+                time.sleep(1)
     return None
 
 def _precios_historicos(token_yes):
     """Obtiene serie histórica via CLOB. Retorna lista de dicts."""
-    try:
-        r = requests.get(f"{CLOB_URL}/prices-history",
-                         params={"market": token_yes, "interval": "max"},
-                         timeout=TIMEOUT)
-        if r.status_code != 200: return []
-        historia = r.json().get("history", [])
-        return [{"p": float(h["p"]), "t": int(h["t"])} for h in
-                sorted(historia, key=lambda x: x.get("t", 0)) if "p" in h and "t" in h]
-    except: return []
+    max_intentos = 2
+    for intento in range(max_intentos):
+        try:
+            r = requests.get(f"{CLOB_URL}/prices-history",
+                             params={"market": token_yes, "interval": "max"},
+                             timeout=TIMEOUT)
+            if r.status_code != 200:
+                if intento < max_intentos - 1:
+                    time.sleep(1)
+                    continue
+                return []
+            historia = r.json().get("history", [])
+            return [{"p": float(h["p"]), "t": int(h["t"])} for h in
+                    sorted(historia, key=lambda x: x.get("t", 0)) if "p" in h and "t" in h]
+        except Exception as e:
+            if intento < max_intentos - 1:
+                time.sleep(1)
+    return []
 
 
 # ── Métricas ───────────────────────────────────────────────────────

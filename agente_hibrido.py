@@ -45,7 +45,7 @@ MODELOS_LLM = [
     "llama-3.1-8b-instant"
 ]
 BASE_URL = "https://gamma-api.polymarket.com"
-TIMEOUT  = 10
+TIMEOUT  = 15
 
 # ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
 MIN_EDGE        = 0.010   # Bajado a 1.0% para capturar más micro-ineficiencias en aprendizaje activo
@@ -192,20 +192,33 @@ def escanear():
     offset = 0
     BATCH = 100
     MAX_PAGINAS = 20  # hasta 3000 mercados
-    try:
-        while len(raw) < MAX_PAGINAS * BATCH:
-            r = requests.get(f"{BASE_URL}/markets",
-                            params={"active":True,"closed":False,
-                                    "limit":BATCH,"offset":offset},
-                            timeout=TIMEOUT)
-            r.raise_for_status()
-            batch = r.json()
-            if not batch: break
-            raw.extend(batch)
-            if len(batch) < BATCH: break  # última página
-            offset += BATCH
-    except Exception as e:
-        log.error(f"Error API: {e}"); return []
+    
+    while len(raw) < MAX_PAGINAS * BATCH:
+        url = f"{BASE_URL}/markets"
+        params = {"active": True, "closed": False, "limit": BATCH, "offset": offset}
+        
+        max_intentos = 3
+        backoff = 2
+        batch = None
+        
+        for intento in range(max_intentos):
+            try:
+                r = requests.get(url, params=params, timeout=TIMEOUT)
+                r.raise_for_status()
+                batch = r.json()
+                break
+            except Exception as e:
+                log.warning(f"⚠️ Intento {intento+1}/{max_intentos} falló en {url} (offset={offset}): {e}")
+                if intento < max_intentos - 1:
+                    time.sleep(backoff * (intento + 1))
+                else:
+                    log.error(f"❌ Error API definitivo tras {max_intentos} intentos: {e}")
+                    return []
+        
+        if not batch: break
+        raw.extend(batch)
+        if len(batch) < BATCH: break  # última página
+        offset += BATCH
 
     mercados = []
     for m in raw:
@@ -520,26 +533,46 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         "momentum_1h":          met.get("cambio_1h", 0.0) if met else 0.0,
     }
 
-def actualizar_precios_abiertos(df):
+def actualizar_precios_abiertos(df, mercados_actuales=None):
     if df.empty or 'estado' not in df.columns:
         return df
     abiertas = df[df['estado'] == 'ABIERTA']
     if abiertas.empty: return df
+    
+    m_dict = {}
+    if mercados_actuales:
+        m_dict = {str(m["id"]): m for m in mercados_actuales}
+        
     for idx, pos in abiertas.iterrows():
-        try:
-            r = requests.get("https://gamma-api.polymarket.com/markets",
-                             params={"id": pos['market_id']}, timeout=8)
-            if r.status_code == 200 and r.json():
-                m = r.json()[0]
-                bid = float(m.get("bestBid", 0))
-                ask = float(m.get("bestAsk", 0))
-                if bid > 0 and ask > 0:
-                    precio_yes = round((bid + ask) / 2, 4)
-                    señal = str(pos.get('señal', 'COMPRAR YES')).upper()
-                    # Para NO, el precio del token es el complemento
-                    precio_token = precio_yes if "YES" in señal else round(1 - precio_yes, 4)
-                    df.loc[idx, 'precio_actual'] = precio_token
-        except: pass
+        m_id = str(pos['market_id'])
+        if m_id in m_dict:
+            m = m_dict[m_id]
+            precio_yes = m["mid_price"]
+            señal = str(pos.get('señal', 'COMPRAR YES')).upper()
+            precio_token = precio_yes if "YES" in señal else round(1.0 - precio_yes, 4)
+            df.loc[idx, 'precio_actual'] = precio_token
+        else:
+            try:
+                max_retries = 2
+                for attempt in range(max_retries):
+                    try:
+                        r = requests.get("https://gamma-api.polymarket.com/markets",
+                                         params={"id": m_id}, timeout=12)
+                        if r.status_code == 200 and r.json():
+                            m = r.json()[0]
+                            bid = float(m.get("bestBid", 0))
+                            ask = float(m.get("bestAsk", 0))
+                            if bid > 0 and ask > 0:
+                                precio_yes = round((bid + ask) / 2, 4)
+                                señal = str(pos.get('señal', 'COMPRAR YES')).upper()
+                                precio_token = precio_yes if "YES" in señal else round(1.0 - precio_yes, 4)
+                                df.loc[idx, 'precio_actual'] = precio_token
+                            break
+                    except Exception as e:
+                        if attempt == max_retries - 1:
+                            log.warning(f"⚠️ Fallo al actualizar posición {m_id} tras {max_retries} intentos: {e}")
+                        time.sleep(1)
+            except: pass
     return df
 
 import re
@@ -585,11 +618,17 @@ async def ciclo():
         log.warning(f"⚠️ Error al ejecutar la auditoría contable: {patch_err}")
     # ══════════════════════════════════════════════════════════════════
   
-    # 1. ACTUALIZAR PRECIOS ANTES DE EVALUAR APUESTAS
-    df = actualizar_precios_abiertos(df)
+    # 1. ESCANEAR MERCADOS DEL CLOB AL PRINCIPIO (Evita múltiples llamadas redundantes)
+    mercados = escanear()
+    if not mercados:
+        log.warning("⚠️ No se pudieron obtener mercados del CLOB. Omitiendo este ciclo.")
+        return
+
+    # 2. ACTUALIZAR PRECIOS ANTES DE EVALUAR APUESTAS
+    df = actualizar_precios_abiertos(df, mercados)
     guardar_libro(df)
 
-    # 2. EVALUAR AGRESIVIDAD DE CIERRES
+    # 3. EVALUAR AGRESIVIDAD DE CIERRES
     df, n_inactivas = cerrar_inactivas(df, estado)
     if n_inactivas: guardar_estado(estado)
 
@@ -607,13 +646,9 @@ async def ciclo():
     ev_detector = EventDetector(archivo_libro=ARCHIVO_LIBRO)
     cliente_news = NewsApiClient(api_key=NEWS_API_KEY)
 
-    # 1. Verificar salidas (Incluye la nueva lógica de Early Exit)
-    df, n_cerradas = verificar_salidas(df, estado, escanear())
+    # 4. Verificar salidas (Incluye la nueva lógica de Early Exit)
+    df, n_cerradas = verificar_salidas(df, estado, mercados)
     if n_cerradas: guardar_estado(estado)
-
-    # Escanear mercados del CLOB
-    mercados = escanear()
-    if not mercados: return
 
 
 
