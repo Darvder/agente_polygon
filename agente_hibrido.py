@@ -34,8 +34,8 @@ from event_detector    import EventDetector
 os.environ['TZ'] = 'America/Guayaquil'
 
 
-# Definimos un semáforo para permitir máximo 3 peticiones simultáneas a Groq y evitar el Error 429
-groq_semaphore = asyncio.Semaphore(2)
+# Definimos un semáforo para permitir máximo 1 petición simultánea a Groq y evitar el Error 429
+groq_semaphore = asyncio.Semaphore(1)
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
@@ -363,8 +363,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     # Inyectar momentum real al mercado para el prompt del LLM
     m["cambio_1h"] = met.get("cambio_1h", 0.0) if met else 0.0
 
-    # Si llegó aquí, el mercado es apto para análisis. Imprimimos el trigger
-    log.info(f"Vol [{m['id']}]: tp={int(tp*100)}% sl={int(sl*100)}% h={int(max_h)}h vol={met.get('vol_1d',0):.3f} pulsos=sí")
+    vol_val = met.get("vol_1d", 0.0) if met else 0.0
+    pulsos_val = "sí" if met and met.get("hay_pulsos") else "no"
+    log.info(f"Vol [{m['id']}]: tp={int(tp*100)}% sl={int(sl*100)}% h={int(max_h)}h vol={vol_val:.3f} pulsos={pulsos_val}")
 
     # 4. Noticias (Ejecución asíncrona fluida)
     nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
@@ -396,14 +397,15 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
                     response_format={"type": "json_object"}
                 )
                 # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM)
-                await asyncio.sleep(1.5)
+                await asyncio.sleep(4.5)
 
             an = json.loads(msg.choices[0].message.content.strip())
             log.info(f"✅ [{nombre_m}] Analisis exitoso con el modelo {model_name}")
             break  # Éxito, salir del bucle de modelos
         except Exception as e:
             if "rate_limit_exceeded" in str(e) or "429" in str(e):
-                log.warning(f"⚠️ [{nombre_m}] Modelo {model_name} con limite excedido (429). Intentando respaldo...")
+                log.warning(f"⚠️ [{nombre_m}] Modelo {model_name} con limite excedido (429). Esperando 6s antes del respaldo...")
+                await asyncio.sleep(6)
                 continue
             else:
                 log.warning(f"⚠️ [{nombre_m}] Error general con el modelo {model_name}: {e}. Intentando respaldo...")
