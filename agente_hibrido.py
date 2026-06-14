@@ -34,8 +34,8 @@ from event_detector    import EventDetector
 os.environ['TZ'] = 'America/Guayaquil'
 
 
-# Definimos un semáforo para permitir máximo 1 petición simultánea a Groq y evitar el Error 429
-groq_semaphore = asyncio.Semaphore(1)
+# Definimos un semáforo dinámico (inicializado en ciclo() con la referencia del event loop correcto)
+groq_semaphore = None
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
@@ -46,13 +46,13 @@ MODELOS_LLM = [
 BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 15
 
-# ── Parámetros globales (los de mercado los calcula VolatilityEngine) ──
-MIN_EDGE        = 0.010   # Bajado a 1.0% para capturar más micro-ineficiencias en aprendizaje activo
-MIN_CONFIANZA   = 0.50    # Bajado para permitir más operaciones en fase de aprendizaje activo
-MIN_VOLUMEN     = 1_500   # Bajado para escanear mercados pequeños y medianos
-MAX_SPREAD      = 0.06    # Subido al 6% para permitir más oportunidades en mercados volátiles
-MIN_PRECIO      = 0.02    # Permite buscar oportunidades en "long-shots" baratos
-MAX_PRECIO      = 0.98    # Permite operar contratos casi resueltos con ventajas seguras
+# ── Parámetros globales relajados para maximizar la actividad en paper-trading ──
+MIN_EDGE        = 0.002   # Bajado a 0.2% para permitir más operaciones en fase de aprendizaje activo
+MIN_CONFIANZA   = 0.30    # Bajado a 30% para máxima actividad operativa
+MIN_VOLUMEN     = 200     # Bajado a 200 USD para considerar casi cualquier mercado
+MAX_SPREAD      = 0.10    # Subido al 10% para permitir más oportunidades en mercados volátiles
+MIN_PRECIO      = 0.01    # Permite buscar oportunidades en "long-shots" muy baratos
+MAX_PRECIO      = 0.99    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
 MIN_DIAS        = 1       
 MAX_POSICIONES  = 20     
@@ -353,9 +353,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         log.info(f"❌ {nombre_m} | EventDetector: {motivo}")
         return None
 
-    # 3. Volatilidad ANTES de Groq
+    # 3. Volatilidad ANTES de Groq (relajado para aprendizaje activo)
     tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
-    MIN_VOL_1D = 0.0005; MIN_RANGO = 0.005
+    MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
     if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
         log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
         return None
@@ -396,8 +396,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
                     max_tokens=450,  # Espacio holgado para el análisis CoT sin truncados
                     response_format={"type": "json_object"}
                 )
-                # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM)
-                await asyncio.sleep(4.5)
+                # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM) (relajado a 3.0s)
+                await asyncio.sleep(3.0)
 
             an = json.loads(msg.choices[0].message.content.strip())
             log.info(f"✅ [{nombre_m}] Analisis exitoso con el modelo {model_name}")
@@ -428,7 +428,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     diferencia  = estimacion - m["mid_price"]
     edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
-    umbral = 0.01 if hay_noticia else 0.012
+    umbral = 0.002 if hay_noticia else 0.003
     if edge_neto < umbral:
         log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
         return None
@@ -438,18 +438,18 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     if confianza < MIN_CONFIANZA:
         log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {MIN_CONFIANZA:.2f})")
         return None
-    if edge_neto > 0.25:
+    if edge_neto > 0.80:
         log.info(f"❌ {nombre_m} | Edge muy alto ({edge_neto:.2%}) → señal dudosa")
         return None
 
-    # 7.5 Bifurcación de Estrategias (Trend-Following vs Mean-Reversion) (Fase 9)
+    # 7.5 Bifurcación de Estrategias (Trend-Following vs Mean-Reversion) (Fase 9) (relajado)
     momentum_1h = met.get("cambio_1h", 0.0) if met else 0.0
     if hay_noticia:
-        # Modo Trend-Following (Seguidor de Tendencia): no operar contra momentum fuerte
-        if diferencia > 0 and momentum_1h < -0.005:
+        # Modo Trend-Following (Seguidor de Tendencia): no operar contra momentum muy fuerte
+        if diferencia > 0 and momentum_1h < -0.02:
             log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR YES pero momentum es bajista ({momentum_1h:+.1%}) → bloqueado")
             return None
-        if diferencia < 0 and momentum_1h > 0.005:
+        if diferencia < 0 and momentum_1h > 0.02:
             log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR NO pero momentum es alcista ({momentum_1h:+.1%}) → bloqueado")
             return None
     else:
@@ -478,9 +478,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             if get_categoria(pos["pregunta"]) == categoria_actual:
                 exposicion_cat += float(pos["monto_usdc"])
                 
-    max_exposicion_cat = estado["capital_actual"] * 0.3
+    max_exposicion_cat = estado["capital_actual"] * 0.8
     if exposicion_cat >= max_exposicion_cat:
-        log.info(f"❌ {nombre_m} | Diversificación: Exposición en '{categoria_actual}' (${exposicion_cat:.2f}) supera el límite de 30% (${max_exposicion_cat:.2f}) → bloqueado")
+        log.info(f"❌ {nombre_m} | Diversificación: Exposición en '{categoria_actual}' (${exposicion_cat:.2f}) supera el límite de 80% (${max_exposicion_cat:.2f}) → bloqueado")
         return None
 
     # 8. Motor Bayesiano
@@ -508,8 +508,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     kelly = edge_neto * confianza * factor_kelly
     monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
     log.info(f"💰 {nombre_m} | monto=${monto:.2f} vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%}")
-    if monto < 5:
-        log.info(f"❌ {nombre_m} | Monto ${monto:.2f} < $5")
+    if monto < 1:
+        log.info(f"❌ {nombre_m} | Monto ${monto:.2f} < $1")
         return None
 
     ev_detector.registrar_evento(m["id"], m["pregunta"])
@@ -599,6 +599,11 @@ async def ciclo():
     df = cargar_libro()
     estado = cargar_estado()
 
+    # Inicialización del semáforo con el event loop activo
+    global groq_semaphore
+    if groq_semaphore is None:
+        groq_semaphore = asyncio.Semaphore(1)
+
 # ══════════════════════════════════════════════════════════════════
     # HARD PATCH DE AUTO-SANACIÓN (Intercepta y corrige el volumen)
     # ══════════════════════════════════════════════════════════════════
@@ -657,8 +662,8 @@ async def ciclo():
     # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
     # Ordenar por volumen (más líquidos primero) y tomar top 60
     import random
-    top100 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:100]
-    mercados_a_revisar = random.sample(top100, min(20, len(top100)))
+    top200 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:200]
+    mercados_a_revisar = random.sample(top200, min(40, len(top200)))
     
     tareas = [
         procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
