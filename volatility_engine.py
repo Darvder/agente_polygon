@@ -129,7 +129,7 @@ def _metricas(precios):
         hay_pulsos = False; intervalo_pulso = 0
 
     media = float(np.mean(arr)); std = float(np.std(arr))
-    en_extremo = abs(arr[-1] - media) > 1.2 * std if std > 0 else False
+    en_extremo = abs(arr[-1] - media) > 0.2 * std if std > 0 else False
 
     # Tendencia reciente
     tend = 0
