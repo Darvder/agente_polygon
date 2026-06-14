@@ -3,7 +3,7 @@ bayesian_engine.py  v2
 Aprende de trades reales. Excluye INACTIVA/TIME_EXIT sin movimiento.
 Features accionables: señal, categoría, vol, edge, confianza, noticia.
 """
-import json, os, logging
+import json, os, logging, math
 import pandas as pd
 from datetime import datetime
 
@@ -72,18 +72,47 @@ def get_precio_bucket(precio):
     if p < 0.85: return "alto"
     return "extremo_alto"
 
-def extraer_features(row):
-    señal = str(row.get("señal", "")).upper()
-    hay_noticia = str(row.get("hay_noticia", "False")).lower() in ("true","1","yes")
-    return {
-        "señal":      "yes" if "YES" in señal else "no",
-        "categoria":  get_categoria(row.get("pregunta", "")),
-        "vol":        get_vol_bucket(row.get("vol_1d", 0)),
-        "edge":       get_edge_bucket(row.get("llm_edge", 0)),
-        "confianza":  get_confianza_bucket(row.get("llm_confianza", 0.5)),
-        "precio":     get_precio_bucket(row.get("precio_token_entrada", 0.5)),
-        "noticia":    "si" if hay_noticia else "no",
+def get_momentum_bucket(momentum):
+    try: m = float(momentum)
+    except: m = 0.0
+    if m < -0.05: return "caida_fuerte"
+    if m < -0.01: return "caida_suave"
+    if m < 0.01:  return "estable"
+    if m < 0.05:  return "alza_suave"
+    return "alza_fuerte"
+
+def construir_features(pregunta, precio_entrada, señal, vol_1d, edge, confianza, hay_noticia, momentum_1h):
+    s_upper = str(señal).upper()
+    is_noticia = str(hay_noticia).lower() in ("true","1","yes","si")
+    base = {
+        "señal":      "yes" if "YES" in s_upper else "no",
+        "categoria":  get_categoria(pregunta),
+        "vol":        get_vol_bucket(vol_1d),
+        "edge":       get_edge_bucket(edge),
+        "confianza":  get_confianza_bucket(confianza),
+        "precio":     get_precio_bucket(precio_entrada),
+        "noticia":    "si" if is_noticia else "no",
+        "momentum":   get_momentum_bucket(momentum_1h),
     }
+    interacciones = {
+        "int_noticia_vol":      f"{base['noticia']}_{base['vol']}",
+        "int_confianza_edge":   f"{base['confianza']}_{base['edge']}",
+        "int_precio_senal":     f"{base['precio']}_{base['señal']}",
+        "int_noticia_momentum": f"{base['noticia']}_{base['momentum']}",
+    }
+    return {**base, **interacciones}
+
+def extraer_features(row):
+    return construir_features(
+        pregunta=row.get("pregunta", ""),
+        precio_entrada=row.get("precio_token_entrada", 0.5),
+        señal=row.get("señal", ""),
+        vol_1d=row.get("vol_1d", 0),
+        edge=row.get("llm_edge", 0),
+        confianza=row.get("llm_confianza", 0.5),
+        hay_noticia=row.get("hay_noticia", False),
+        momentum_1h=row.get("momentum_1h", 0)
+    )
 
 def es_señal_valida(row):
     """
@@ -142,7 +171,10 @@ class BayesianEngine:
                     modelo[k] = {"n": 0, "wins": 0, "wr": 0.5}
                 modelo[k]["n"]    += 1
                 modelo[k]["wins"] += int(ganadora)
-                modelo[k]["wr"]    = round(modelo[k]["wins"] / modelo[k]["n"], 3)
+                
+                # Suavizado de Laplace: wr = (wins + alpha) / (n + 2 * alpha)
+                alpha = 1.0
+                modelo[k]["wr"]    = round((modelo[k]["wins"] + alpha) / (modelo[k]["n"] + 2 * alpha), 3)
 
         self.modelo = modelo
         self._guardar()
@@ -151,29 +183,36 @@ class BayesianEngine:
                  f"({len(cerradas)-n_validas} INACTIVA/TIME_EXIT excluidos)")
 
     def score(self, features_dict):
-        scores = []; detalle = {}
+        weighted_sum = 0.0
+        total_weight = 0.0
+        detalle = {}
+        
         for fn, fv in features_dict.items():
             k = f"{fn}:{fv}"
             if k in self.modelo and self.modelo[k]["n"] >= MIN_SAMPLES:
+                n = self.modelo[k]["n"]
                 wr = self.modelo[k]["wr"]
-                scores.append(wr)
-                detalle[k] = f"{wr:.0%} ({self.modelo[k]['n']} trades)"
-        if not scores:
-            return None, {}  # None = sin datos, no bloquear pero tampoco forzar
-        return round(sum(scores) / len(scores), 3), detalle
+                # Ponderación logarítmica de confianza por número de muestras
+                w = math.log(n + 1)
+                
+                weighted_sum += wr * w
+                total_weight += w
+                detalle[k] = f"{wr:.0%} (n={n}, w={w:.1f})"
+                
+        if total_weight == 0:
+            return None, {}  # None = sin datos, no bloquear
+            
+        score_final = round(weighted_sum / total_weight, 3)
+        return score_final, detalle
 
     def should_trade(self, pregunta, precio_entrada, señal,
                      vol_1d=0, edge=0, confianza=0.5,
-                     hay_noticia=False, fecha_dt=""):
-        features = {
-            "señal":     "yes" if "YES" in str(señal).upper() else "no",
-            "categoria": get_categoria(pregunta),
-            "vol":       get_vol_bucket(vol_1d),
-            "edge":      get_edge_bucket(edge),
-            "confianza": get_confianza_bucket(confianza),
-            "precio":    get_precio_bucket(precio_entrada),
-            "noticia":   "si" if hay_noticia else "no",
-        }
+                     hay_noticia=False, momentum_1h=0.0, fecha_dt=""):
+        features = construir_features(
+            pregunta=pregunta, precio_entrada=precio_entrada, señal=señal,
+            vol_1d=vol_1d, edge=edge, confianza=confianza,
+            hay_noticia=hay_noticia, momentum_1h=momentum_1h
+        )
         score, detalle = self.score(features)
 
         if score is None:
