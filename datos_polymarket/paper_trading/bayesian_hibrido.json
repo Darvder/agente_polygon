@@ -34,7 +34,7 @@
     "wins": 1,
     "wr": 0.333
   },
-  "momentum:estable": {
+  "momentum:alza_fuerte": {
     "n": 4,
     "wins": 1,
     "wr": 0.333
@@ -54,7 +54,7 @@
     "wins": 1,
     "wr": 0.5
   },
-  "int_noticia_momentum:no_estable": {
+  "int_noticia_momentum:no_alza_fuerte": {
     "n": 4,
     "wins": 1,
     "wr": 0.333
