@@ -51,7 +51,7 @@ MIN_EDGE        = 0.002   # Bajado a 0.2% para permitir más operaciones en fase
 MIN_CONFIANZA   = 0.30    # Bajado a 30% para máxima actividad operativa
 MIN_VOLUMEN     = 200     # Bajado a 200 USD para considerar casi cualquier mercado
 MAX_SPREAD      = 0.10    # Subido al 10% para permitir más oportunidades en mercados volátiles
-MIN_PRECIO      = 0.01    # Permite buscar oportunidades en "long-shots" muy baratos
+MIN_PRECIO      = 0.05    # Aumentado a 5% para evitar contratos hiper-baratos ineficientes
 MAX_PRECIO      = 0.99    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
 MIN_DIAS        = 1       
@@ -324,12 +324,16 @@ def verificar_salidas(df, estado, mercados_actuales):
                 sl_pos = float(pos.get("sl_dinamico", -0.07))
                 h_max = float(pos.get("horas_max", 6))
                 
+                # Para contratos baratos (entrada < $0.12), flexibilizamos el Stop Loss a un mínimo de -40%
+                pte = float(pos.get("precio_token_entrada", 0.5))
+                sl_efectivo = max(sl_pos, -0.40) if pte < 0.12 else sl_pos
+                
                 if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
                     razon = "EARLY_EXIT"
                 elif pct >= tp_pos: 
                     razon = "TAKE_PROFIT"
                     estado["n_tp"] = estado.get("n_tp", 0) + 1
-                elif pct <= sl_pos: 
+                elif pct <= sl_efectivo: 
                     razon = "STOP_LOSS"
                     estado["n_sl"] = estado.get("n_sl", 0) + 1
                 elif h >= h_max:    
@@ -504,7 +508,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 8. Motor Bayesiano
     señal     = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
-    precio_tok = m["mid_price"] if señal == "COMPRAR YES" else round(1 - m["mid_price"], 4)
+    # Corrección de spread: comprar al ask real para YES, y 1.0 - bid para NO
+    precio_tok = m["best_ask"] if señal == "COMPRAR YES" else round(1.0 - m["best_bid"], 4)
 
     ok, score, feats = bayesian.should_trade(
         pregunta=nombre_m, precio_entrada=precio_tok, señal=señal,
