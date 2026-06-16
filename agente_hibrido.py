@@ -235,6 +235,7 @@ def escanear():
             if dias<MIN_DIAS or dias>MAX_DIAS: continue
             mercados.append({"id":m.get("id",q[:30]),"pregunta":q,
                             "mid_price":mid,"spread":sp,
+                            "best_bid":bid,"best_ask":ask,
                             "volumen_usd":float(m.get("volume",0)),
                             "dias":dias,"fecha_cierre":fs})
         except: continue
@@ -259,11 +260,13 @@ def noticias(pregunta, cn):
     except: return []
 
 
-# ── Verificar salidas (usa TP/SL/HORAS dinámicos guardados) ───────
 def verificar_salidas(df, estado, mercados_actuales):
     if df.empty: return df, 0
-    pl = {m["id"]: m["mid_price"] for m in mercados_actuales}
-    ql = {m["pregunta"][:70]: m["mid_price"] for m in mercados_actuales}
+    active_ids = {str(m["id"]) for m in mercados_actuales}
+    
+    bid_dict = {str(m["id"]): m["best_bid"] for m in mercados_actuales if "best_bid" in m}
+    ask_dict = {str(m["id"]): m["best_ask"] for m in mercados_actuales if "best_ask" in m}
+    
     ahora = datetime.now()
     cerradas = 0
 
@@ -271,25 +274,41 @@ def verificar_salidas(df, estado, mercados_actuales):
         try:
             dt = datetime.strptime(pos["fecha_entrada_dt"], "%Y-%m-%d %H:%M")
             h = abs((ahora - dt).total_seconds() / 3600.0)
-            mid = pl.get(str(pos.get("market_id", ""))) or ql.get(str(pos["pregunta"])[:70])
+            m_id = str(pos.get("market_id", ""))
+            
+            is_active = m_id in active_ids
+            
+            if not is_active:
+                try:
+                    r = requests.get("https://gamma-api.polymarket.com/markets",
+                                     params={"id": m_id}, timeout=12)
+                    if r.status_code == 200 and r.json():
+                        m = r.json()[0]
+                        if m.get("active") and not m.get("closed"):
+                            bid_dict[m_id] = float(m.get("bestBid", 0))
+                            ask_dict[m_id] = float(m.get("bestAsk", 0))
+                            is_active = True
+                except:
+                    pass
 
-            # Manejo estricto si el mercado expiró en Polymarket (Caso Dooley)
-            if mid is None:
+            if not is_active:
                 if h >= float(pos.get("horas_max", 6)):
                     val_actual = pos.get("precio_actual")
-                    # Si la celda es NaN o None, usamos el precio del token de entrada como resguardo de salida
                     if pd.isna(val_actual) or val_actual is None:
                         precio_token_actual = float(pos["precio_token_entrada"])
                     else:
                         precio_token_actual = float(val_actual)
-                    razon = "TIME_EXIT"  # Forzamos la salida por tiempo vencido
+                    razon = "TIME_EXIT"
                 else:
                     continue
             else:
-                # Si el mercado está activo, calculamos el precio real de nuestro token (YES o NO)
-                precio_token_actual = mid if pos["señal"] == "COMPRAR YES" else round(1.0 - mid, 4)
+                bid = bid_dict.get(m_id, 0)
+                ask = ask_dict.get(m_id, 0)
+                if bid > 0 and ask > 0:
+                    precio_token_actual = bid if pos["señal"] == "COMPRAR YES" else round(1.0 - ask, 4)
+                else:
+                    precio_token_actual = float(pos.get("precio_actual", pos["precio_token_entrada"]))
 
-            # Actualizamos el libro con el precio real del token que poseemos
             df.loc[idx, "precio_actual"] = precio_token_actual
             pte = float(pos["precio_token_entrada"])
             pct = (precio_token_actual - pte) / pte
@@ -297,8 +316,9 @@ def verificar_salidas(df, estado, mercados_actuales):
             df["razon_cierre"] = df["razon_cierre"].astype(object)
             df["fecha_cierre_real"] = df["fecha_cierre_real"].astype(object)
 
-            # Si mid era None, ya forzamos la razón a TIME_EXIT, de lo contrario evaluamos TP/SL
-            if mid is not None:
+            if not is_active:
+                pass
+            else:
                 razon = None
                 tp_pos = float(pos.get("tp_dinamico", 0.09))
                 sl_pos = float(pos.get("sl_dinamico", -0.07))
@@ -325,7 +345,6 @@ def verificar_salidas(df, estado, mercados_actuales):
                 df.loc[idx, "razon_cierre"] = razon
                 df.loc[idx, "fecha_cierre_real"] = ahora.strftime("%Y-%m-%d %H:%M")
                 
-                # Forzado a tipos nativos para evitar fallos del JSON en Railway
                 estado["capital_actual"] = float(estado.get("capital_actual", 1000.0) + float(pos["monto_usdc"]) + pnl)
                 estado["capital_en_riesgo"] = float(max(0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"])))
                 cerradas += 1
@@ -546,12 +565,11 @@ def actualizar_precios_abiertos(df, mercados_actuales=None):
         
     for idx, pos in abiertas.iterrows():
         m_id = str(pos['market_id'])
+        bid, ask = None, None
         if m_id in m_dict:
             m = m_dict[m_id]
-            precio_yes = m["mid_price"]
-            señal = str(pos.get('señal', 'COMPRAR YES')).upper()
-            precio_token = precio_yes if "YES" in señal else round(1.0 - precio_yes, 4)
-            df.loc[idx, 'precio_actual'] = precio_token
+            bid = m.get("best_bid")
+            ask = m.get("best_ask")
         else:
             try:
                 max_retries = 2
@@ -563,17 +581,17 @@ def actualizar_precios_abiertos(df, mercados_actuales=None):
                             m = r.json()[0]
                             bid = float(m.get("bestBid", 0))
                             ask = float(m.get("bestAsk", 0))
-                            if bid > 0 and ask > 0:
-                                precio_yes = round((bid + ask) / 2, 4)
-                                señal = str(pos.get('señal', 'COMPRAR YES')).upper()
-                                precio_token = precio_yes if "YES" in señal else round(1.0 - precio_yes, 4)
-                                df.loc[idx, 'precio_actual'] = precio_token
                             break
                     except Exception as e:
                         if attempt == max_retries - 1:
                             log.warning(f"⚠️ Fallo al actualizar posición {m_id} tras {max_retries} intentos: {e}")
                         time.sleep(1)
             except: pass
+            
+        if bid is not None and ask is not None and bid > 0 and ask > 0:
+            señal = str(pos.get('señal', 'COMPRAR YES')).upper()
+            precio_token = bid if "YES" in señal else round(1.0 - ask, 4)
+            df.loc[idx, 'precio_actual'] = precio_token
     return df
 
 import re
