@@ -1,13 +1,13 @@
 {
   "se\u00f1al:yes": {
-    "n": 13,
-    "wins": 8,
-    "wr": 0.6
+    "n": 18,
+    "wins": 7,
+    "wr": 0.4
   },
   "categoria:otro": {
-    "n": 10,
+    "n": 14,
     "wins": 6,
-    "wr": 0.583
+    "wr": 0.438
   },
   "vol:bajo": {
     "n": 4,
@@ -30,9 +30,9 @@
     "wr": 0.4
   },
   "noticia:no": {
-    "n": 16,
-    "wins": 9,
-    "wr": 0.556
+    "n": 21,
+    "wins": 8,
+    "wr": 0.391
   },
   "momentum:alza_fuerte": {
     "n": 4,
@@ -61,8 +61,8 @@
   },
   "categoria:politica": {
     "n": 3,
-    "wins": 2,
-    "wr": 0.6
+    "wins": 1,
+    "wr": 0.4
   },
   "vol:alto": {
     "n": 5,
@@ -80,9 +80,9 @@
     "wr": 0.4
   },
   "categoria:crypto_tech": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "wr": 0.4
+    "wr": 0.333
   },
   "int_precio_senal:bajo_no": {
     "n": 1,
@@ -90,9 +90,9 @@
     "wr": 0.333
   },
   "precio:extremo_bajo": {
-    "n": 13,
-    "wins": 8,
-    "wr": 0.6
+    "n": 18,
+    "wins": 7,
+    "wr": 0.4
   },
   "int_precio_senal:extremo_bajo_no": {
     "n": 2,
@@ -100,9 +100,9 @@
     "wr": 0.5
   },
   "vol:muy_alto": {
-    "n": 3,
+    "n": 5,
     "wins": 2,
-    "wr": 0.6
+    "wr": 0.429
   },
   "edge:bajo": {
     "n": 2,
@@ -115,14 +115,14 @@
     "wr": 0.667
   },
   "momentum:estable": {
-    "n": 12,
-    "wins": 8,
-    "wr": 0.643
+    "n": 17,
+    "wins": 7,
+    "wr": 0.421
   },
   "int_noticia_vol:no_muy_alto": {
-    "n": 3,
+    "n": 5,
     "wins": 2,
-    "wr": 0.6
+    "wr": 0.429
   },
   "int_confianza_edge:media_bajo": {
     "n": 1,
@@ -130,53 +130,63 @@
     "wr": 0.667
   },
   "int_precio_senal:extremo_bajo_yes": {
-    "n": 11,
-    "wins": 7,
-    "wr": 0.615
+    "n": 16,
+    "wins": 6,
+    "wr": 0.389
   },
   "int_noticia_momentum:no_estable": {
-    "n": 12,
-    "wins": 8,
-    "wr": 0.643
+    "n": 17,
+    "wins": 7,
+    "wr": 0.421
   },
   "vol:plano": {
-    "n": 4,
-    "wins": 4,
-    "wr": 0.833
+    "n": 6,
+    "wins": 3,
+    "wr": 0.5
   },
   "edge:muy_alto": {
-    "n": 9,
+    "n": 14,
     "wins": 5,
-    "wr": 0.545
+    "wr": 0.375
   },
   "confianza:baja": {
-    "n": 11,
-    "wins": 7,
-    "wr": 0.615
+    "n": 16,
+    "wins": 6,
+    "wr": 0.389
   },
   "int_noticia_vol:no_plano": {
-    "n": 4,
-    "wins": 4,
-    "wr": 0.833
+    "n": 6,
+    "wins": 3,
+    "wr": 0.5
   },
   "int_confianza_edge:baja_muy_alto": {
-    "n": 9,
+    "n": 14,
     "wins": 5,
-    "wr": 0.545
+    "wr": 0.375
   },
   "edge:alto": {
     "n": 1,
-    "wins": 1,
-    "wr": 0.667
+    "wins": 0,
+    "wr": 0.333
   },
   "int_confianza_edge:baja_alto": {
     "n": 1,
-    "wins": 1,
-    "wr": 0.667
+    "wins": 0,
+    "wr": 0.333
   },
   "int_confianza_edge:baja_bajo": {
     "n": 1,
     "wins": 1,
     "wr": 0.667
+  },
+  "vol:medio": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_noticia_vol:no_medio": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
   }
 }
