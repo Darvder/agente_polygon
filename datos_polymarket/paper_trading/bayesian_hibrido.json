@@ -1,18 +1,18 @@
 {
   "se\u00f1al:yes": {
-    "n": 9,
-    "wins": 6,
-    "wr": 0.636
+    "n": 12,
+    "wins": 8,
+    "wr": 0.643
   },
   "categoria:otro": {
-    "n": 6,
-    "wins": 4,
-    "wr": 0.625
+    "n": 8,
+    "wins": 5,
+    "wr": 0.6
   },
   "vol:bajo": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "wr": 0.4
+    "wr": 0.333
   },
   "edge:medio": {
     "n": 4,
@@ -30,9 +30,9 @@
     "wr": 0.4
   },
   "noticia:no": {
-    "n": 11,
-    "wins": 6,
-    "wr": 0.538
+    "n": 14,
+    "wins": 8,
+    "wr": 0.562
   },
   "momentum:alza_fuerte": {
     "n": 4,
@@ -40,9 +40,9 @@
     "wr": 0.333
   },
   "int_noticia_vol:no_bajo": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "wr": 0.4
+    "wr": 0.333
   },
   "int_confianza_edge:alta_medio": {
     "n": 4,
@@ -60,9 +60,9 @@
     "wr": 0.333
   },
   "categoria:politica": {
-    "n": 2,
-    "wins": 1,
-    "wr": 0.5
+    "n": 3,
+    "wins": 2,
+    "wr": 0.6
   },
   "vol:alto": {
     "n": 5,
@@ -90,9 +90,9 @@
     "wr": 0.333
   },
   "precio:extremo_bajo": {
-    "n": 8,
-    "wins": 5,
-    "wr": 0.6
+    "n": 11,
+    "wins": 7,
+    "wr": 0.615
   },
   "int_precio_senal:extremo_bajo_no": {
     "n": 1,
@@ -115,8 +115,8 @@
     "wr": 0.667
   },
   "momentum:estable": {
-    "n": 7,
-    "wins": 5,
+    "n": 10,
+    "wins": 7,
     "wr": 0.667
   },
   "int_noticia_vol:no_muy_alto": {
@@ -130,38 +130,48 @@
     "wr": 0.667
   },
   "int_precio_senal:extremo_bajo_yes": {
-    "n": 7,
-    "wins": 5,
+    "n": 10,
+    "wins": 7,
     "wr": 0.667
   },
   "int_noticia_momentum:no_estable": {
-    "n": 7,
-    "wins": 5,
+    "n": 10,
+    "wins": 7,
     "wr": 0.667
   },
   "vol:plano": {
-    "n": 1,
-    "wins": 1,
-    "wr": 0.667
+    "n": 3,
+    "wins": 3,
+    "wr": 0.8
   },
   "edge:muy_alto": {
-    "n": 6,
-    "wins": 4,
-    "wr": 0.625
+    "n": 8,
+    "wins": 5,
+    "wr": 0.6
   },
   "confianza:baja": {
-    "n": 6,
-    "wins": 4,
-    "wr": 0.625
+    "n": 9,
+    "wins": 6,
+    "wr": 0.636
   },
   "int_noticia_vol:no_plano": {
+    "n": 3,
+    "wins": 3,
+    "wr": 0.8
+  },
+  "int_confianza_edge:baja_muy_alto": {
+    "n": 8,
+    "wins": 5,
+    "wr": 0.6
+  },
+  "edge:alto": {
     "n": 1,
     "wins": 1,
     "wr": 0.667
   },
-  "int_confianza_edge:baja_muy_alto": {
-    "n": 6,
-    "wins": 4,
-    "wr": 0.625
+  "int_confianza_edge:baja_alto": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
   }
 }
