@@ -356,8 +356,8 @@ tr:hover td {
     <p>Comparación en vivo de estrategias algorítmicas | Polymarket</p>
   </div>
   <div class="meta-header">
-    Actualizado: <strong>2026-06-17 12:30</strong><br>
-    Ciclos: Híbrido: <strong>1069</strong> | Copy-Trader: <strong>6</strong>
+    Actualizado: <strong>2026-06-17 13:04</strong><br>
+    Ciclos: Híbrido: <strong>1070</strong> | Copy-Trader: <strong>7</strong>
   </div>
 </header>
 
@@ -398,41 +398,26 @@ tr:hover td {
     <div class="grid-kpis">
       <div class="kpi-card">
         <div class="kpi-label">Capital Total</div>
-        <div class="kpi-val">$971.12</div>
-        <div class="kpi-sub negative">-2.89%</div>
+        <div class="kpi-val">$1,001.04</div>
+        <div class="kpi-sub positive">+0.10%</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Win Rate Op.</div>
-        <div class="kpi-val">0.0%</div>
+        <div class="kpi-val">100.0%</div>
         <div class="kpi-sub">excl. inactivos</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Cierres (Ganados/Perdidos)</div>
-        <div class="kpi-val">0/0</div>
-        <div class="kpi-sub">Total: 0</div>
+        <div class="kpi-val">1/0</div>
+        <div class="kpi-sub">Total: 1</div>
       </div>
     </div>
     <div class="section-title">
       <span>Posiciones Abiertas</span>
-      <span>2 Activas</span>
+      <span>1 Activas</span>
     </div>
     <div class="positions-container">
       
-            <div class="position-row">
-                <div class="pos-info">
-                    <span class="badge badge-copy">Yes</span>
-                    <span class="pos-title">Will Argentina win on 2026-06-16?</span>
-                </div>
-                <div class="pos-meta">
-                    <div><span class="meta-label">Entrada</span><span class="meta-val">$0.635</span></div>
-                    <div><span class="meta-label">Actual</span><span class="meta-val">$0.825</span></div>
-                    <div><span class="meta-label">Monto</span><span class="meta-val">$20.00</span></div>
-                    <div><span class="meta-label">P&L</span><span class="meta-val positive">+$5.98</span></div>
-                </div>
-                <div style="font-size:0.7rem; color:var(--muted); margin-top:0.4rem; font-family:var(--font-mono)">
-                    Copiando a: 0x26437896ed9df...
-                </div>
-            </div>
             <div class="position-row">
                 <div class="pos-info">
                     <span class="badge badge-copy">Over</span>
@@ -440,9 +425,9 @@ tr:hover td {
                 </div>
                 <div class="pos-meta">
                     <div><span class="meta-label">Entrada</span><span class="meta-val">$0.545</span></div>
-                    <div><span class="meta-label">Actual</span><span class="meta-val">$0.685</span></div>
+                    <div><span class="meta-label">Actual</span><span class="meta-val">$0.805</span></div>
                     <div><span class="meta-label">Monto</span><span class="meta-val">$20.00</span></div>
-                    <div><span class="meta-label">P&L</span><span class="meta-val positive">+$5.14</span></div>
+                    <div><span class="meta-label">P&L</span><span class="meta-val positive">+$9.54</span></div>
                 </div>
                 <div style="font-size:0.7rem; color:var(--muted); margin-top:0.4rem; font-family:var(--font-mono)">
                     Copiando a: 0x26437896ed9df...
@@ -837,7 +822,15 @@ tr:hover td {
           </tr>
         </thead>
         <tbody>
-          <tr><td colspan="6" class="no-data">Sin historial de operaciones.</td></tr>
+          
+                <tr>
+                    <td>2026-06-17 13:04</td>
+                    <td class="txt-truncate">Will Argentina win on 2026-06-16?</td>
+                    <td>Yes</td>
+                    <td>$20.00</td>
+                    <td class="positive bold">$+11.50</td>
+                    <td><span class="badge-reason resolved_exit">RESOLVED_EXIT</span></td>
+                </tr>
         </tbody>
       </table>
     </div>
@@ -865,11 +858,11 @@ const ctx = document.getElementById('pnlChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-15", "2026-06-16"],
+    labels: ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-15", "2026-06-16", "2026-06-17"],
     datasets: [
       {
         label: 'Agente Híbrido',
-        data: [0.94, 0.48, 0.48, 0.48, 0.48, 0.14, -1.34, -82.66],
+        data: [0.94, 0.48, 0.48, 0.48, 0.48, 0.14, -1.34, -82.66, -82.66],
         borderColor: '#8b5cf6',
         backgroundColor: 'rgba(139, 92, 246, 0.05)',
         fill: true,
@@ -880,7 +873,7 @@ new Chart(ctx, {
       },
       {
         label: 'Agente Copy-Trader',
-        data: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+        data: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.5],
         borderColor: '#0284c7',
         backgroundColor: 'rgba(2, 132, 199, 0.05)',
         fill: true,
