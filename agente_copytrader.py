@@ -218,6 +218,8 @@ async def procesar_copy_trading():
                 ya_abierta = False
                 if not df.empty:
                     ya_abierta = not df[(df["estado"] == "ABIERTA") & (df["token_id"] == asset_id)].empty
+                if not ya_abierta and nuevas_posiciones:
+                    ya_abierta = any(np["token_id"] == asset_id for np in nuevas_posiciones)
                 if ya_abierta:
                     cache.add(tx_hash)
                     continue
@@ -243,7 +245,10 @@ async def procesar_copy_trading():
                     continue
 
                 # Obtener precios en vivo
-                outcome_prices = market.get("outcomePrices")
+                try:
+                    outcome_prices = json.loads(market.get("outcomePrices", "[]"))
+                except Exception:
+                    outcome_prices = []
                 if not outcome_prices or outcome_idx >= len(outcome_prices):
                     cache.add(tx_hash)
                     continue
@@ -302,8 +307,8 @@ async def procesar_copy_trading():
                         market = obtener_datos_mercado(condition_id)
                         if market:
                             token_ids = json.loads(market.get("clobTokenIds", "[]"))
-                            outcome_prices = market.get("outcomePrices")
                             try:
+                                outcome_prices = json.loads(market.get("outcomePrices", "[]"))
                                 outcome_idx = token_ids.index(asset_id)
                                 precio_cierre = float(outcome_prices[outcome_idx])
                             except:
@@ -353,8 +358,8 @@ async def procesar_copy_trading():
                 continue
 
             token_ids = json.loads(market.get("clobTokenIds", "[]"))
-            outcome_prices = market.get("outcomePrices")
             try:
+                outcome_prices = json.loads(market.get("outcomePrices", "[]"))
                 outcome_idx = token_ids.index(asset_id)
                 precio_actual = float(outcome_prices[outcome_idx])
             except:
