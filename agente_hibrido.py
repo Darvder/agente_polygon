@@ -688,16 +688,15 @@ async def ciclo():
     top200 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:200]
     mercados_a_revisar = random.sample(top200, min(40, len(top200)))
     
-    tareas = [
-        procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
-        for m in mercados_a_revisar
-    ]
-
+    # 2. EJECUCIÓN SECUENCIAL CON RETARDO DE TIEMPO PARA EVITAR ERRORES 429 (RATE LIMIT)
+    resultados = []
+    for m in mercados_a_revisar:
+        res = await procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
+        resultados.append(res)
+        # Micro-letargo defensivo entre peticiones para proteger la cuota de TPM/RPM
+        await asyncio.sleep(1.0)
     
-    # Ejecución paralela masiva
-    resultados = await asyncio.gather(*tareas)
-    
-    # 3. PROCESAR RESULTADOS DE MANERA SECUENCIAL
+    # 3. PROCESAR RESULTADOS
     nuevas_posiciones = [r for r in resultados if r is not None]
     
     nuevas_guardadas = []
