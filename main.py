@@ -30,10 +30,15 @@ async def bootstrap_datos():
         
         # Crear directorios si no existen
         os.makedirs("datos_polymarket/paper_trading", exist_ok=True)
+        os.makedirs("datos_polymarket/copy_trading", exist_ok=True)
         
         archivos = [
             ("datos_polymarket/paper_trading/libro_hibrido.csv",   "datos_polymarket/paper_trading/libro_hibrido.csv"),
-            ("datos_polymarket/paper_trading/estado_hibrido.json", "datos_polymarket/paper_trading/estado_hibrido.json")
+            ("datos_polymarket/paper_trading/estado_hibrido.json", "datos_polymarket/paper_trading/estado_hibrido.json"),
+            ("datos_polymarket/copy_trading/libro_copy.csv",        "datos_polymarket/copy_trading/libro_copy.csv"),
+            ("datos_polymarket/copy_trading/estado_copy.json",      "datos_polymarket/copy_trading/estado_copy.json"),
+            ("datos_polymarket/copy_trading/config_copy.json",      "datos_polymarket/copy_trading/config_copy.json"),
+            ("datos_polymarket/copy_trading/trades_cache.json",     "datos_polymarket/copy_trading/trades_cache.json")
         ]
         
         for filepath, github_path in archivos:
@@ -56,10 +61,14 @@ async def push_github():
         ts    = datetime.now().strftime("%Y-%m-%d %H:%M")
 
         archivos = [
-            ("datos_polymarket/paper_trading/libro_hibrido.csv",    "datos_polymarket/paper_trading/libro_hibrido.csv"),
-            ("datos_polymarket/paper_trading/estado_hibrido.json",  "datos_polymarket/paper_trading/estado_hibrido.json"),
-            ("datos_polymarket/dashboard_hibrido.html",             "datos_polymarket/dashboard_hibrido.html"),
-            ("datos_polymarket/dashboard_hibrido.html",             "index.html"),
+            ("datos_polymarket/paper_trading/libro_hibrido.csv",      "datos_polymarket/paper_trading/libro_hibrido.csv"),
+            ("datos_polymarket/paper_trading/estado_hibrido.json",    "datos_polymarket/paper_trading/estado_hibrido.json"),
+            ("datos_polymarket/copy_trading/libro_copy.csv",          "datos_polymarket/copy_trading/libro_copy.csv"),
+            ("datos_polymarket/copy_trading/estado_copy.json",        "datos_polymarket/copy_trading/estado_copy.json"),
+            ("datos_polymarket/copy_trading/config_copy.json",        "datos_polymarket/copy_trading/config_copy.json"),
+            ("datos_polymarket/copy_trading/trades_cache.json",       "datos_polymarket/copy_trading/trades_cache.json"),
+            ("datos_polymarket/dashboard_comparativo.html",           "datos_polymarket/dashboard_comparativo.html"),
+            ("datos_polymarket/dashboard_comparativo.html",           "index.html"),
         ]
 
         for filepath, github_path in archivos:
@@ -113,7 +122,11 @@ async def main():
     while True:
         try:
             await ciclo()
+            # Ejecutar el copy-trading secuencialmente
+            subprocess.run("python agente_copytrader.py", shell=True)
+            # Generar ambos dashboards
             subprocess.run("python generar_dashboard_momentum.py", shell=True)
+            subprocess.run("python generar_dashboard_comparativo.py", shell=True)
             await push_github()
         except Exception as e:
             log.error(f"❌ Error en ciclo: {e}")

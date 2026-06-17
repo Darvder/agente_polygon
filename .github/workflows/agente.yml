@@ -36,6 +36,10 @@ jobs:
           # Esto evita que si falta un archivo, falle la extracción de los demás.
           git checkout origin/datos -- datos_polymarket/paper_trading/libro_hibrido.csv 2>/dev/null || echo "Libro hibrido no encontrado en la rama datos."
           git checkout origin/datos -- datos_polymarket/paper_trading/estado_hibrido.json 2>/dev/null || echo "Estado hibrido no encontrado en la rama datos."
+          git checkout origin/datos -- datos_polymarket/copy_trading/libro_copy.csv 2>/dev/null || echo "Libro copy no encontrado."
+          git checkout origin/datos -- datos_polymarket/copy_trading/estado_copy.json 2>/dev/null || echo "Estado copy no encontrado."
+          git checkout origin/datos -- datos_polymarket/copy_trading/config_copy.json 2>/dev/null || echo "Config copy no encontrado."
+          git checkout origin/datos -- datos_polymarket/copy_trading/trades_cache.json 2>/dev/null || echo "Cache copy no encontrado."
           
           # 3. Extraer el modelo bayesiano (gestionando renombrado si es el modelo antiguo)
           if git checkout origin/datos -- datos_polymarket/paper_trading/bayesian_hibrido.json 2>/dev/null; then
@@ -59,10 +63,19 @@ jobs:
           TZ: America/Guayaquil
         run: python agente_hibrido.py
 
-      - name: Generar dashboard
+      - name: Ejecutar agente copy-trader
         env:
           TZ: America/Guayaquil
-        run: python generar_dashboard_momentum.py
+        run: |
+          sleep 1
+          python agente_copytrader.py
+
+      - name: Generar dashboards
+        env:
+          TZ: America/Guayaquil
+        run: |
+          python generar_dashboard_momentum.py
+          python generar_dashboard_comparativo.py
         
       - name: Guardar resultados en la rama de datos
         run: |
@@ -71,10 +84,16 @@ jobs:
           
           # 1. Respaldar los archivos generados en el directorio temporal del Runner
           mkdir -p ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading
+          mkdir -p ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading
           cp datos_polymarket/paper_trading/libro_hibrido.csv ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/paper_trading/estado_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/paper_trading/bayesian_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
+          cp datos_polymarket/copy_trading/libro_copy.csv ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading/ 2>/dev/null || true
+          cp datos_polymarket/copy_trading/estado_copy.json ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading/ 2>/dev/null || true
+          cp datos_polymarket/copy_trading/config_copy.json ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading/ 2>/dev/null || true
+          cp datos_polymarket/copy_trading/trades_cache.json ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading/ 2>/dev/null || true
           cp datos_polymarket/dashboard_hibrido.html ${{ runner.temp }}/respaldo/datos_polymarket/ 2>/dev/null || true
+          cp datos_polymarket/dashboard_comparativo.html ${{ runner.temp }}/respaldo/datos_polymarket/ 2>/dev/null || true
           cp index.html ${{ runner.temp }}/respaldo/ 2>/dev/null || true
           
           # 2. Purgar el árbol de Git para permitir el checkout
@@ -92,6 +111,8 @@ jobs:
           # 5. ⚡ MÁXIMO BLINDAJE: Forzar la indexación pasando por encima del .gitignore
           git add -f datos_polymarket/paper_trading/*.csv 2>/dev/null || true
           git add -f datos_polymarket/paper_trading/*.json 2>/dev/null || true
+          git add -f datos_polymarket/copy_trading/*.csv 2>/dev/null || true
+          git add -f datos_polymarket/copy_trading/*.json 2>/dev/null || true
           git add -f datos_polymarket/*.html 2>/dev/null || true
           git add -f index.html 2>/dev/null || true
           
