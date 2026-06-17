@@ -94,7 +94,14 @@ def guardar_estado(e):
 def cargar_libro():
     if os.path.exists(FILE_LIBRO):
         try:
-            return pd.read_csv(FILE_LIBRO)
+            df = pd.read_csv(FILE_LIBRO)
+            str_cols = ['fecha_entrada', 'fecha_entrada_dt', 'target_wallet', 'market_id', 
+                        'condition_id', 'token_id', 'pregunta', 'outcome', 'estado', 
+                        'fecha_cierre_real', 'razon_cierre', 'tx_hash']
+            for c in str_cols:
+                if c in df.columns:
+                    df[c] = df[c].astype(object)
+            return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=COLUMNAS_LIBRO)
     return pd.DataFrame(columns=COLUMNAS_LIBRO)
@@ -122,8 +129,35 @@ def obtener_datos_mercado(condition_id):
         r = requests.get(url, params={"condition_ids": condition_id}, timeout=12)
         if r.status_code == 200 and r.json():
             return r.json()[0]
+        
+        # Intento 2: Buscar en mercados cerrados
+        time.sleep(1.0)
+        r = requests.get(url, params={"condition_ids": condition_id, "closed": "true"}, timeout=12)
+        if r.status_code == 200 and r.json():
+            return r.json()[0]
     except Exception as e:
         log.warning(f"Error consultando Gamma API para condition_id {condition_id[:10]}: {e}")
+    return None
+
+def obtener_datos_mercado_por_id(market_id):
+    """Consulta la Gamma API para obtener metadatos de un mercado por su ID."""
+    if not market_id or pd.isna(market_id):
+        return None
+    try:
+        mid_str = str(int(float(market_id)))
+    except:
+        mid_str = str(market_id).strip()
+    if not mid_str or mid_str == "" or mid_str == "nan":
+        return None
+        
+    time.sleep(1.0)
+    url = f"https://gamma-api.polymarket.com/markets/{mid_str}"
+    try:
+        r = requests.get(url, timeout=12)
+        if r.status_code == 200:
+            return r.json()
+    except Exception as e:
+        log.warning(f"Error consultando Gamma API para market_id {mid_str}: {e}")
     return None
 
 def obtener_transacciones_usuario(wallet):
@@ -304,7 +338,9 @@ async def procesar_copy_trading():
                 if not df.empty:
                     posiciones_a_cerrar = df[(df["estado"] == "ABIERTA") & (df["token_id"] == asset_id)]
                     for idx, pos in posiciones_a_cerrar.iterrows():
-                        market = obtener_datos_mercado(condition_id)
+                        market = obtener_datos_mercado_por_id(pos.get("market_id"))
+                        if not market:
+                            market = obtener_datos_mercado(condition_id)
                         if market:
                             token_ids = json.loads(market.get("clobTokenIds", "[]"))
                             try:
@@ -353,7 +389,9 @@ async def procesar_copy_trading():
             m_id = str(pos["market_id"])
 
             # A. Obtener precio actual del mercado
-            market = obtener_datos_mercado(cond_id)
+            market = obtener_datos_mercado_por_id(m_id)
+            if not market:
+                market = obtener_datos_mercado(cond_id)
             if not market:
                 continue
 
