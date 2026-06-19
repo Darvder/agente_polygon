@@ -840,9 +840,9 @@ tr:hover td {
       <span class="status-text">OPERATIVO</span>
     </div>
     <div class="meta-header">
-      <div>Ciclos de Operación: <strong>#1086</strong></div>
-      <div>Última corrida local: <strong>2026-06-19 07:34</strong></div>
-      <div>Posiciones abiertas: <strong>0</strong></div>
+      <div>Ciclos de Operación: <strong>#1087</strong></div>
+      <div>Última corrida local: <strong>2026-06-19 10:58</strong></div>
+      <div>Posiciones abiertas: <strong>1</strong></div>
     </div>
   </div>
 </header>
@@ -851,18 +851,18 @@ tr:hover td {
 <div class="grid-metricas">
   <div class="card-m" style="--accent: var(--primary); --accent-hover: #c084fc; --accent-glow: rgba(139, 92, 246, 0.25)">
     <h4>Capital Disponible</h4>
-    <div class="val">$917.34</div>
+    <div class="val">$914.31</div>
     <div class="sub">USDC · inicial 1,000</div>
   </div>
   <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
     <h4>Valor Neto Flotante</h4>
-    <div class="val negative">$917.34</div>
+    <div class="val negative">$914.31</div>
     <div class="sub">Capital + P&L temporal</div>
   </div>
   <div class="card-m" style="--accent: #6366f1; --accent-hover: #818cf8; --accent-glow: rgba(99, 102, 241, 0.25)">
     <h4>USDC En Riesgo</h4>
-    <div class="val" style="color:#818cf8">$0.00</div>
-    <div class="sub">En 0 posiciones</div>
+    <div class="val" style="color:#818cf8">$3.03</div>
+    <div class="sub">En 1 posiciones</div>
   </div>
   <div class="card-m" style="--accent: var(--red); --accent-hover: #f87171; --accent-glow: rgba(239, 68, 68, 0.25)">
     <h4>P&L Realizado</h4>
@@ -919,11 +919,11 @@ tr:hover td {
     <div class="panel-distribucion">
       <h3>Distribución de Señales</h3>
       <div class="yes-no-bar-container">
-        <div class="yes-no-bar-yes" style="width: 88.09523809523809%;"></div>
+        <div class="yes-no-bar-yes" style="width: 86.04651162790698%;"></div>
       </div>
       <div class="yes-no-labels">
-        <span class="positive">YES: 37 (8810%)</span>
-        <span class="negative">NO: 5 (1190%)</span>
+        <span class="positive">YES: 37 (8605%)</span>
+        <span class="negative">NO: 6 (1395%)</span>
       </div>
     </div>
   </div>
@@ -931,9 +931,45 @@ tr:hover td {
 
 <!-- Posiciones abiertas -->
 <div class="panel" style="margin-bottom:2.5rem">
-  <h3>Posiciones Activas (0)</h3>
+  <h3>Posiciones Activas (1)</h3>
   <div class="abiertas-wrapper">
-    <div class="no-data" style="grid-column: span 3;">Sin posiciones abiertas. Buscando oportunidades...</div>
+    
+                <div class="card-orden">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-no">COMPRAR NO</span>
+                        <span class="monto-orden">$3.03 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Billionaire one-time wealth tax on California ballot?</div>
+                    <div class="metadatos-grid">
+                        <div class="meta-item"><span class="meta-label">🤖 Confianza</span><span class="meta-value">60%</span></div>
+                        <div class="meta-item"><span class="meta-label">📈 Edge</span><span class="meta-value">+2.0%</span></div>
+                        <div class="meta-item"><span class="meta-label">⏱️ Límite</span><span class="meta-value">10h</span></div>
+                        <div class="meta-item"><span class="meta-label">📊 P&L</span><span class="meta-value positive">+$0.00</span></div>
+                        <div class="meta-item"><span class="meta-label">📉 Vol 1d</span><span class="meta-value">0.0088</span></div>
+                        <div class="meta-item"><span class="meta-label">⚡ Mom 1h</span><span class="meta-value" style="color:#ef4444">-1.0%</span></div>
+                    </div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL -3.0%</span>
+                            <span>Entrada 0.420</span>
+                            <span class="label-tp">TP 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left:40.000000000000036%;"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.407</span>
+                            <span style="color:#a78bfa;font-weight:600">Actual $0.420</span>
+                            <span>$0.439</span>
+                        </div>
+                    </div>
+                    <div class="card-orden-footer">
+                        <div class="ia-summary-box">
+                            <span class="meta-label">🧠 IA:</span> <span class="ia-summary-text">Calibración conservadora del mercado, ajustada ligeramente hacia arriba por las ...</span>
+                        </div>
+                        <button class="btn-ver-cot" onclick="abrirModalDesdeBtn(this)" data-info="{&quot;pregunta&quot;: &quot;Billionaire one-time wealth tax on California ballot?&quot;, &quot;senal&quot;: &quot;COMPRAR NO&quot;, &quot;monto&quot;: &quot;$3.03 USDC&quot;, &quot;confianza&quot;: &quot;60%&quot;, &quot;edge&quot;: &quot;+2.0%&quot;, &quot;precio_entrada&quot;: &quot;0.420&quot;, &quot;precio_actual&quot;: &quot;0.420&quot;, &quot;pnl&quot;: &quot;+$0.00&quot;, &quot;pnl_raw&quot;: 0.0, &quot;salida&quot;: &quot;ACTIVA&quot;, &quot;razonamiento&quot;: &quot;Calibraci\u00f3n conservadora del mercado, ajustada ligeramente hacia arriba por las noticias recientes, pero sin alterar significativamente la probabilidad.&quot;}">Ver Análisis</button>
+                    </div>
+                </div>
   </div>
 </div>
 
