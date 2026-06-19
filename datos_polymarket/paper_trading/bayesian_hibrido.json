@@ -5,9 +5,9 @@
     "wr": 0.32
   },
   "categoria:otro": {
-    "n": 16,
+    "n": 17,
     "wins": 6,
-    "wr": 0.389
+    "wr": 0.368
   },
   "vol:bajo": {
     "n": 4,
@@ -30,9 +30,9 @@
     "wr": 0.4
   },
   "noticia:no": {
-    "n": 26,
+    "n": 27,
     "wins": 8,
-    "wr": 0.321
+    "wr": 0.31
   },
   "momentum:alza_fuerte": {
     "n": 4,
@@ -75,9 +75,9 @@
     "wr": 0.3
   },
   "se\u00f1al:no": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "wr": 0.4
+    "wr": 0.333
   },
   "categoria:crypto_tech": {
     "n": 6,
@@ -105,19 +105,19 @@
     "wr": 0.375
   },
   "edge:bajo": {
-    "n": 2,
+    "n": 3,
     "wins": 2,
-    "wr": 0.75
+    "wr": 0.6
   },
   "confianza:media": {
-    "n": 1,
+    "n": 2,
     "wins": 1,
-    "wr": 0.667
+    "wr": 0.5
   },
   "momentum:estable": {
-    "n": 22,
+    "n": 23,
     "wins": 7,
-    "wr": 0.333
+    "wr": 0.32
   },
   "int_noticia_vol:no_muy_alto": {
     "n": 6,
@@ -125,9 +125,9 @@
     "wr": 0.375
   },
   "int_confianza_edge:media_bajo": {
-    "n": 1,
+    "n": 2,
     "wins": 1,
-    "wr": 0.667
+    "wr": 0.5
   },
   "int_precio_senal:extremo_bajo_yes": {
     "n": 21,
@@ -135,9 +135,9 @@
     "wr": 0.304
   },
   "int_noticia_momentum:no_estable": {
-    "n": 22,
+    "n": 23,
     "wins": 7,
-    "wr": 0.333
+    "wr": 0.32
   },
   "vol:plano": {
     "n": 7,
@@ -180,11 +180,21 @@
     "wr": 0.667
   },
   "vol:medio": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "int_noticia_vol:no_medio": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "precio:medio": {
     "n": 1,
     "wins": 0,
     "wr": 0.333
   },
-  "int_noticia_vol:no_medio": {
+  "int_precio_senal:medio_no": {
     "n": 1,
     "wins": 0,
     "wr": 0.333
