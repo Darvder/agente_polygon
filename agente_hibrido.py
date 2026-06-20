@@ -326,7 +326,7 @@ def verificar_salidas(df, estado, mercados_actuales):
                 
                 # Para contratos baratos (entrada < $0.12), flexibilizamos el Stop Loss a un mínimo de -40%
                 pte = float(pos.get("precio_token_entrada", 0.5))
-                sl_efectivo = max(sl_pos, -0.40) if pte < 0.12 else sl_pos
+                sl_efectivo = min(sl_pos, -0.40) if pte < 0.12 else sl_pos
                 
                 if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
                     razon = "EARLY_EXIT"

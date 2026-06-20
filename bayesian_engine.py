@@ -154,14 +154,20 @@ class BayesianEngine:
         df = pd.read_csv(self.archivo_libro)
         cerradas = df[df["estado"].str.upper() == "CERRADA"].copy()
 
+        # Solo entrenamos con trades cerrados después de aplicar el fix de Stop Loss (20 de junio de 2026)
+        # Esto evita que el sesgo de pérdidas del bug del Stop Loss bloquee operativas baratas
+        if not cerradas.empty and "fecha_cierre_real" in cerradas.columns:
+            cerradas = cerradas[cerradas["fecha_cierre_real"] >= "2026-06-20 18:00"]
+
         # Solo trades con señal real (excluye INACTIVA y TIME_EXIT nulos)
         validas = cerradas[cerradas.apply(es_señal_valida, axis=1)]
 
-        if validas.empty:
-            log.info("Bayesiano: sin trades válidos para aprender aún.")
-            return
-
         modelo = {}
+        if validas.empty:
+            log.info("Bayesiano: sin trades válidos para aprender aún. Modelo inicializado vacío.")
+            self.modelo = modelo
+            self._guardar()
+            return
         for _, row in validas.iterrows():
             features = extraer_features(row)
             ganadora = es_ganadora(row)
