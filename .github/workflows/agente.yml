@@ -1,9 +1,6 @@
 name: Agente Hibrido
 
 on:
-  schedule:
-    # Ejecución automática cada 20 minutos
-    - cron: '*/20 * * * *'
   workflow_dispatch:
 
 permissions:
