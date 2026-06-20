@@ -840,9 +840,9 @@ tr:hover td {
       <span class="status-text">OPERATIVO</span>
     </div>
     <div class="meta-header">
-      <div>Ciclos de Operación: <strong>#1099</strong></div>
-      <div>Última corrida local: <strong>2026-06-20 12:45</strong></div>
-      <div>Posiciones abiertas: <strong>0</strong></div>
+      <div>Ciclos de Operación: <strong>#1100</strong></div>
+      <div>Última corrida local: <strong>2026-06-20 14:06</strong></div>
+      <div>Posiciones abiertas: <strong>1</strong></div>
     </div>
   </div>
 </header>
@@ -851,18 +851,18 @@ tr:hover td {
 <div class="grid-metricas">
   <div class="card-m" style="--accent: var(--primary); --accent-hover: #c084fc; --accent-glow: rgba(139, 92, 246, 0.25)">
     <h4>Capital Disponible</h4>
-    <div class="val">$917.20</div>
+    <div class="val">$915.61</div>
     <div class="sub">USDC · inicial 1,000</div>
   </div>
   <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
     <h4>Valor Neto Flotante</h4>
-    <div class="val negative">$917.20</div>
+    <div class="val negative">$915.61</div>
     <div class="sub">Capital + P&L temporal</div>
   </div>
   <div class="card-m" style="--accent: #6366f1; --accent-hover: #818cf8; --accent-glow: rgba(99, 102, 241, 0.25)">
     <h4>USDC En Riesgo</h4>
-    <div class="val" style="color:#818cf8">$0.00</div>
-    <div class="sub">En 0 posiciones</div>
+    <div class="val" style="color:#818cf8">$1.59</div>
+    <div class="sub">En 1 posiciones</div>
   </div>
   <div class="card-m" style="--accent: var(--red); --accent-hover: #f87171; --accent-glow: rgba(239, 68, 68, 0.25)">
     <h4>P&L Realizado</h4>
@@ -919,11 +919,11 @@ tr:hover td {
     <div class="panel-distribucion">
       <h3>Distribución de Señales</h3>
       <div class="yes-no-bar-container">
-        <div class="yes-no-bar-yes" style="width: 86.04651162790698%;"></div>
+        <div class="yes-no-bar-yes" style="width: 86.36363636363636%;"></div>
       </div>
       <div class="yes-no-labels">
-        <span class="positive">YES: 37 (8605%)</span>
-        <span class="negative">NO: 6 (1395%)</span>
+        <span class="positive">YES: 38 (8636%)</span>
+        <span class="negative">NO: 6 (1364%)</span>
       </div>
     </div>
   </div>
@@ -931,9 +931,45 @@ tr:hover td {
 
 <!-- Posiciones abiertas -->
 <div class="panel" style="margin-bottom:2.5rem">
-  <h3>Posiciones Activas (0)</h3>
+  <h3>Posiciones Activas (1)</h3>
   <div class="abiertas-wrapper">
-    <div class="no-data" style="grid-column: span 3;">Sin posiciones abiertas. Buscando oportunidades...</div>
+    
+                <div class="card-orden">
+                    <div class="card-orden-header">
+                        <span class="badge-senal comprar-yes">COMPRAR YES</span>
+                        <span class="monto-orden">$1.59 USDC</span>
+                    </div>
+                    <div class="pregunta-titulo">Will Harry Kane win the 2026 Ballon d'Or?</div>
+                    <div class="metadatos-grid">
+                        <div class="meta-item"><span class="meta-label">🤖 Confianza</span><span class="meta-value">60%</span></div>
+                        <div class="meta-item"><span class="meta-label">📈 Edge</span><span class="meta-value">+1.1%</span></div>
+                        <div class="meta-item"><span class="meta-label">⏱️ Límite</span><span class="meta-value">10h</span></div>
+                        <div class="meta-item"><span class="meta-label">📊 P&L</span><span class="meta-value positive">+$0.00</span></div>
+                        <div class="meta-item"><span class="meta-label">📉 Vol 1d</span><span class="meta-value">0.0009</span></div>
+                        <div class="meta-item"><span class="meta-label">⚡ Mom 1h</span><span class="meta-value" style="color:#10b981">+0.0%</span></div>
+                    </div>
+                    <div class="riesgo-container">
+                        <div class="riesgo-labels">
+                            <span class="label-sl">SL -3.0%</span>
+                            <span>Entrada 0.329</span>
+                            <span class="label-tp">TP 4.5%</span>
+                        </div>
+                        <div class="riesgo-barra-bg">
+                            <div class="riesgo-burbuja" style="left:40.00000000000005%;"></div>
+                        </div>
+                        <div class="riesgo-precios">
+                            <span>$0.319</span>
+                            <span style="color:#a78bfa;font-weight:600">Actual $0.329</span>
+                            <span>$0.344</span>
+                        </div>
+                    </div>
+                    <div class="card-orden-footer">
+                        <div class="ia-summary-box">
+                            <span class="meta-label">🧠 IA:</span> <span class="ia-summary-text">La calibración del precio de mercado se ajusta a la baja debido a la falta de in...</span>
+                        </div>
+                        <button class="btn-ver-cot" onclick="abrirModalDesdeBtn(this)" data-info="{&quot;pregunta&quot;: &quot;Will Harry Kane win the 2026 Ballon d&#x27;Or?&quot;, &quot;senal&quot;: &quot;COMPRAR YES&quot;, &quot;monto&quot;: &quot;$1.59 USDC&quot;, &quot;confianza&quot;: &quot;60%&quot;, &quot;edge&quot;: &quot;+1.1%&quot;, &quot;precio_entrada&quot;: &quot;0.329&quot;, &quot;precio_actual&quot;: &quot;0.329&quot;, &quot;pnl&quot;: &quot;+$0.00&quot;, &quot;pnl_raw&quot;: 0.0, &quot;salida&quot;: &quot;ACTIVA&quot;, &quot;razonamiento&quot;: &quot;La calibraci\u00f3n del precio de mercado se ajusta a la baja debido a la falta de informaci\u00f3n sobre la competencia y el historial de otros jugadores.&quot;}">Ver Análisis</button>
+                    </div>
+                </div>
   </div>
 </div>
 
