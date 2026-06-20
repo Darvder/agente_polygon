@@ -100,7 +100,7 @@ def cargar_libro():
                         'fecha_cierre_real', 'razon_cierre', 'tx_hash']
             for c in str_cols:
                 if c in df.columns:
-                    df[c] = df[c].astype(object)
+                    df[c] = df[c].fillna('').astype(str).str.strip()
             return df
         except pd.errors.EmptyDataError:
             return pd.DataFrame(columns=COLUMNAS_LIBRO)
