@@ -1,5 +1,60 @@
 {
   "se\u00f1al:yes": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "categoria:deportes": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "vol:bajo": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "edge:muy_alto": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "confianza:baja": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "precio:extremo_bajo": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "noticia:no": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "momentum:estable": {
+    "n": 3,
+    "wins": 0,
+    "wr": 0.2
+  },
+  "int_noticia_vol:no_bajo": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_confianza_edge:baja_muy_alto": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "int_precio_senal:extremo_bajo_yes": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "int_noticia_momentum:no_estable": {
     "n": 3,
     "wins": 0,
     "wr": 0.2
@@ -14,50 +69,10 @@
     "wins": 0,
     "wr": 0.2
   },
-  "edge:muy_alto": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.2
-  },
-  "confianza:baja": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.2
-  },
-  "precio:extremo_bajo": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.2
-  },
-  "noticia:no": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.2
-  },
-  "momentum:estable": {
-    "n": 2,
-    "wins": 0,
-    "wr": 0.25
-  },
   "int_noticia_vol:no_muy_alto": {
     "n": 3,
     "wins": 0,
     "wr": 0.2
-  },
-  "int_confianza_edge:baja_muy_alto": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.2
-  },
-  "int_precio_senal:extremo_bajo_yes": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.2
-  },
-  "int_noticia_momentum:no_estable": {
-    "n": 2,
-    "wins": 0,
-    "wr": 0.25
   },
   "categoria:otro": {
     "n": 2,
