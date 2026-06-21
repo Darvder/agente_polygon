@@ -1,1 +1,77 @@
-{}
+{
+  "se\u00f1al:yes": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "categoria:politica": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "vol:muy_alto": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "edge:muy_alto": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "confianza:baja": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "precio:extremo_bajo": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "noticia:no": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "momentum:estable": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_noticia_vol:no_muy_alto": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "int_confianza_edge:baja_muy_alto": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "int_precio_senal:extremo_bajo_yes": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "int_noticia_momentum:no_estable": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "categoria:otro": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "momentum:alza_suave": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_noticia_momentum:no_alza_suave": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  }
+}
