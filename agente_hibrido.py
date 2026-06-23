@@ -183,6 +183,50 @@ def cargar_libro():
 def guardar_libro(df): df.to_csv(ARCHIVO_LIBRO,index=False)
 
 
+def _procesar_mercado_crudo(m, hoy):
+    """Procesa y valida los metadatos de un mercado individual contra los filtros globales del Híbrido."""
+    q = m.get("question", "")
+    if any(p in q.lower() for p in PATRONES_EXCLUIR):
+        return None
+    try:
+        bid = float(m.get("bestBid", 0))
+        ask = float(m.get("bestAsk", 0))
+    except:
+        return None
+    if bid <= 0 or ask <= 0:
+        return None
+    sp = round(ask - bid, 4)
+    mid = round((bid + ask) / 2, 4)
+    if sp > MAX_SPREAD or mid < MIN_PRECIO or mid > MAX_PRECIO:
+        return None
+    try:
+        vol = float(m.get("volume", 0))
+    except:
+        vol = 0.0
+    if vol < MIN_VOLUMEN:
+        return None
+    fs = m.get("endDate", "")[:10]
+    if not fs:
+        return None
+    try:
+        dias = (datetime.strptime(fs, "%Y-%m-%d").date() - hoy).days
+    except:
+        return None
+    if dias < MIN_DIAS or dias > MAX_DIAS:
+        return None
+    return {
+        "id": m.get("id", q[:30]),
+        "pregunta": q,
+        "mid_price": mid,
+        "spread": sp,
+        "best_bid": bid,
+        "best_ask": ask,
+        "volumen_usd": vol,
+        "dias": dias,
+        "fecha_cierre": fs
+    }
+
+
 def cargar_prioritarios(mercados):
     """Carga los ID de mercados prioritarios desde el queue, los filtra y vacía la cola."""
     archivo_queue = "datos_polymarket/paper_trading/priority_queue.json"
@@ -202,6 +246,7 @@ def cargar_prioritarios(mercados):
     # Obtener los IDs de mercado únicos que están en la cola para preservar orden e id
     ids_vistos = set()
     seleccionados = []
+    hoy = datetime.now().date()
     
     for item in queue:
         mid = str(item.get("id"))
@@ -210,8 +255,28 @@ def cargar_prioritarios(mercados):
         if mid in ids_vistos:
             continue
         ids_vistos.add(mid)
-        # Buscar en mercados escaneados
+        
+        # 1. Buscar en mercados escaneados
         mercado_clob = next((m for m in mercados if str(m.get("id")) == mid), None)
+        
+        # 2. Si no está en el lote de escaneo general, consultar individualmente a la Gamma API
+        if not mercado_clob:
+            log.info(f"🔍 Mercado prioritario {mid} no encontrado en el escaneo general. Consultando Gamma API directamente...")
+            try:
+                time.sleep(1.0)
+                url = f"https://gamma-api.polymarket.com/markets/{mid}"
+                r = requests.get(url, timeout=TIMEOUT)
+                if r.status_code == 200 and r.json():
+                    m_data = r.json()
+                    res = _procesar_mercado_crudo(m_data, hoy)
+                    if res:
+                        mercado_clob = res
+                        log.info(f"✅ Mercado prioritario {mid} recuperado y validado con éxito.")
+                    else:
+                        log.info(f"⚠️ Mercado prioritario {mid} no superó los filtros de elegibilidad del Híbrido.")
+            except Exception as e:
+                log.warning(f"Error consultando Gamma API para mercado prioritario {mid}: {e}")
+                
         if mercado_clob:
             seleccionados.append(mercado_clob)
             
@@ -264,24 +329,9 @@ def escanear():
 
     mercados = []
     for m in raw:
-        try:
-            q = m.get("question","")
-            if any(p in q.lower() for p in PATRONES_EXCLUIR): continue
-            bid=float(m.get("bestBid",0)); ask=float(m.get("bestAsk",0))
-            if bid<=0 or ask<=0: continue
-            sp=round(ask-bid,4); mid=round((bid+ask)/2,4)
-            if sp>MAX_SPREAD or mid<MIN_PRECIO or mid>MAX_PRECIO: continue
-            if float(m.get("volume",0))<MIN_VOLUMEN: continue
-            fs=m.get("endDate","")[:10]
-            if not fs: continue
-            dias=(datetime.strptime(fs,"%Y-%m-%d").date()-hoy).days
-            if dias<MIN_DIAS or dias>MAX_DIAS: continue
-            mercados.append({"id":m.get("id",q[:30]),"pregunta":q,
-                            "mid_price":mid,"spread":sp,
-                            "best_bid":bid,"best_ask":ask,
-                            "volumen_usd":float(m.get("volume",0)),
-                            "dias":dias,"fecha_cierre":fs})
-        except: continue
+        res = _procesar_mercado_crudo(m, hoy)
+        if res:
+            mercados.append(res)
     log.info(f"Mercados escaneados: {len(raw)} | Elegibles: {len(mercados)}")
     return mercados
 
