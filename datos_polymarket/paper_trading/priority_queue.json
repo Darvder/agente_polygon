@@ -1,32 +1,62 @@
 [
   {
-    "id": "2581637",
-    "pregunta": "Texas Rangers vs. Miami Marlins",
-    "ts": "2026-06-23T17:43:08.162699",
+    "id": "2645815",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 9.5",
+    "ts": "2026-06-23T18:13:25.889268",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2645796",
-    "pregunta": "Spread: Houston Astros (-2.5)",
-    "ts": "2026-06-23T17:43:10.380855",
+    "id": "2645807",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 10.5",
+    "ts": "2026-06-23T18:13:31.244166",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645808",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 11.5",
+    "ts": "2026-06-23T18:13:32.349716",
     "origen": "whale_copytrader"
   },
   {
     "id": "2581623",
     "pregunta": "Houston Astros vs. Toronto Blue Jays",
-    "ts": "2026-06-23T17:43:11.424001",
+    "ts": "2026-06-23T18:13:48.420867",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2645794",
-    "pregunta": "Spread: Houston Astros (-1.5)",
-    "ts": "2026-06-23T17:43:12.470086",
+    "id": "2648994",
+    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 7.5",
+    "ts": "2026-06-23T18:13:51.695618",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323982",
-    "pregunta": "Colombia vs. DR Congo: Both Teams to Score",
-    "ts": "2026-06-23T17:43:18.849427",
+    "id": "2647639",
+    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 8.5",
+    "ts": "2026-06-23T18:13:52.760875",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2581643",
+    "pregunta": "Philadelphia Phillies vs. Washington Nationals",
+    "ts": "2026-06-23T18:14:09.970088",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2642938",
+    "pregunta": "Spread: New York Yankees (-1.5)",
+    "ts": "2026-06-23T18:14:13.190929",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2581635",
+    "pregunta": "New York Yankees vs. Detroit Tigers",
+    "ts": "2026-06-23T18:14:22.080484",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2581637",
+    "pregunta": "Texas Rangers vs. Miami Marlins",
+    "ts": "2026-06-23T18:14:26.373647",
     "origen": "whale_copytrader"
   }
 ]
