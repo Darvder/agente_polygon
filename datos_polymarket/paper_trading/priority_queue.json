@@ -1,50 +1,62 @@
 [
   {
-    "id": "2645798",
-    "pregunta": "Spread: Houston Astros (-3.5)",
-    "ts": "2026-06-23T16:42:24.410080",
+    "id": "2323984",
+    "pregunta": "Spread: Croatia (-1.5)",
+    "ts": "2026-06-23T17:11:25.483647",
     "origen": "whale_copytrader"
   },
   {
     "id": "2323998",
     "pregunta": "England vs. Ghana: O/U 0.5",
-    "ts": "2026-06-23T16:42:27.525338",
+    "ts": "2026-06-23T17:11:26.554691",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323999",
-    "pregunta": "England vs. Ghana: O/U 1.5",
-    "ts": "2026-06-23T16:42:28.564883",
+    "id": "2645815",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 9.5",
+    "ts": "2026-06-23T17:11:29.722535",
     "origen": "whale_copytrader"
   },
   {
     "id": "2581623",
     "pregunta": "Houston Astros vs. Toronto Blue Jays",
-    "ts": "2026-06-23T16:43:00.678165",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2645807",
-    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 10.5",
-    "ts": "2026-06-23T16:43:14.162539",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2645808",
-    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 11.5",
-    "ts": "2026-06-23T16:43:15.367741",
+    "ts": "2026-06-23T17:11:30.765165",
     "origen": "whale_copytrader"
   },
   {
     "id": "2645794",
     "pregunta": "Spread: Houston Astros (-1.5)",
-    "ts": "2026-06-23T16:43:18.484324",
+    "ts": "2026-06-23T17:11:32.894436",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2645796",
-    "pregunta": "Spread: Houston Astros (-2.5)",
-    "ts": "2026-06-23T16:43:19.519823",
+    "id": "2645807",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 10.5",
+    "ts": "2026-06-23T17:11:34.979819",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2644159",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 8.5",
+    "ts": "2026-06-23T17:11:44.389399",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "1897236",
+    "pregunta": "Will England win on 2026-06-23?",
+    "ts": "2026-06-23T17:11:48.706512",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "1897240",
+    "pregunta": "Will Ghana win on 2026-06-23?",
+    "ts": "2026-06-23T17:11:50.790861",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "1897254",
+    "pregunta": "Will Colombia win on 2026-06-23?",
+    "ts": "2026-06-23T17:11:51.855071",
     "origen": "whale_copytrader"
   }
 ]
