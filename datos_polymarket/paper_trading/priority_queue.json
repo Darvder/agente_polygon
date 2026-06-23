@@ -1,62 +1,122 @@
 [
   {
-    "id": "2645815",
-    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 9.5",
-    "ts": "2026-06-23T18:13:25.889268",
+    "id": "2581635",
+    "pregunta": "New York Yankees vs. Detroit Tigers",
+    "ts": "2026-06-23T18:45:30.393078",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2645807",
-    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 10.5",
-    "ts": "2026-06-23T18:13:31.244166",
+    "id": "2581645",
+    "pregunta": "Milwaukee Brewers vs. Cincinnati Reds",
+    "ts": "2026-06-23T18:45:52.274799",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2645808",
-    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 11.5",
-    "ts": "2026-06-23T18:13:32.349716",
+    "id": "2645840",
+    "pregunta": "Milwaukee Brewers vs. Cincinnati Reds: O/U 8.5",
+    "ts": "2026-06-23T18:45:53.313131",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2581623",
-    "pregunta": "Houston Astros vs. Toronto Blue Jays",
-    "ts": "2026-06-23T18:13:48.420867",
+    "id": "1897249",
+    "pregunta": "Will Croatia win on 2026-06-23?",
+    "ts": "2026-06-23T18:45:54.350935",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2648994",
-    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 7.5",
-    "ts": "2026-06-23T18:13:51.695618",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2647639",
-    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 8.5",
-    "ts": "2026-06-23T18:13:52.760875",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2581643",
-    "pregunta": "Philadelphia Phillies vs. Washington Nationals",
-    "ts": "2026-06-23T18:14:09.970088",
+    "id": "2642998",
+    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
+    "ts": "2026-06-23T18:46:18.313816",
     "origen": "whale_copytrader"
   },
   {
     "id": "2642938",
     "pregunta": "Spread: New York Yankees (-1.5)",
-    "ts": "2026-06-23T18:14:13.190929",
+    "ts": "2026-06-23T18:46:19.353234",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2581635",
-    "pregunta": "New York Yankees vs. Detroit Tigers",
-    "ts": "2026-06-23T18:14:22.080484",
+    "id": "2645839",
+    "pregunta": "Milwaukee Brewers vs. Cincinnati Reds: O/U 7.5",
+    "ts": "2026-06-23T18:46:20.398457",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645838",
+    "pregunta": "Milwaukee Brewers vs. Cincinnati Reds: O/U 6.5",
+    "ts": "2026-06-23T18:46:21.437248",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2648995",
+    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 9.5",
+    "ts": "2026-06-23T18:46:23.514052",
     "origen": "whale_copytrader"
   },
   {
     "id": "2581637",
     "pregunta": "Texas Rangers vs. Miami Marlins",
-    "ts": "2026-06-23T18:14:26.373647",
+    "ts": "2026-06-23T18:46:24.557563",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645287",
+    "pregunta": "Spread: Detroit Tigers (-2.5)",
+    "ts": "2026-06-23T18:46:49.523453",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323984",
+    "pregunta": "Spread: Croatia (-1.5)",
+    "ts": "2026-06-23T18:46:50.561041",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2647639",
+    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 8.5",
+    "ts": "2026-06-23T18:46:52.644332",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2648993",
+    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 6.5",
+    "ts": "2026-06-23T18:46:53.688135",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645832",
+    "pregunta": "Spread: Cincinnati Reds (-1.5)",
+    "ts": "2026-06-23T18:46:54.734857",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2648994",
+    "pregunta": "Texas Rangers vs. Miami Marlins: O/U 7.5",
+    "ts": "2026-06-23T18:46:55.945897",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645843",
+    "pregunta": "Chicago Cubs vs. New York Mets: O/U 8.5",
+    "ts": "2026-06-23T18:47:06.351160",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2643014",
+    "pregunta": "Chicago Cubs vs. New York Mets: O/U 7.5",
+    "ts": "2026-06-23T18:47:07.397307",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645853",
+    "pregunta": "Chicago Cubs vs. New York Mets: O/U 9.5",
+    "ts": "2026-06-23T18:47:12.595546",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2581647",
+    "pregunta": "Chicago Cubs vs. New York Mets",
+    "ts": "2026-06-23T18:47:13.641652",
     "origen": "whale_copytrader"
   }
 ]
