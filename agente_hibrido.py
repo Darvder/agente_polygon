@@ -448,6 +448,14 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     confianza   = float(an.get("confianza", 0.5))
     hay_noticia = bool(an.get("hay_noticia", False))
+    
+    # ⚡ SALVAGUARDA CONTRA FALSO EDGE SIN NOTICIAS:
+    # Si la IA indica que no hay noticia relevante (hay_noticia es False), forzamos que la estimación sea 
+    # exactamente el precio del mercado. Esto previene que el sesgo de la IA de dar probabilidades centrales (30-50%)
+    # genere un "edge" artificial en contratos baratos inactivos, provocando pérdidas masivas.
+    if not hay_noticia:
+        estimacion = m["mid_price"]
+        
     diferencia  = estimacion - m["mid_price"]
     edge_neto   = round(abs(diferencia) - m["spread"], 4)
 

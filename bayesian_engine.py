@@ -157,7 +157,7 @@ class BayesianEngine:
         # Solo entrenamos con trades cerrados después de aplicar el fix de Stop Loss (20 de junio de 2026)
         # Esto evita que el sesgo de pérdidas del bug del Stop Loss bloquee operativas baratas
         if not cerradas.empty and "fecha_cierre_real" in cerradas.columns:
-            cerradas = cerradas[cerradas["fecha_cierre_real"] >= "2026-06-20 18:00"]
+            cerradas = cerradas[cerradas["fecha_cierre_real"] >= "2026-06-22 22:00"]
 
         # Solo trades con señal real (excluye INACTIVA y TIME_EXIT nulos)
         validas = cerradas[cerradas.apply(es_señal_valida, axis=1)]
