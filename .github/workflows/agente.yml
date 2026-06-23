@@ -33,6 +33,7 @@ jobs:
           # Esto evita que si falta un archivo, falle la extracción de los demás.
           git checkout origin/datos -- datos_polymarket/paper_trading/libro_hibrido.csv 2>/dev/null || echo "Libro hibrido no encontrado en la rama datos."
           git checkout origin/datos -- datos_polymarket/paper_trading/estado_hibrido.json 2>/dev/null || echo "Estado hibrido no encontrado en la rama datos."
+          git checkout origin/datos -- datos_polymarket/paper_trading/priority_queue.json 2>/dev/null || echo "Cola de prioridad no encontrada en la rama datos."
           git checkout origin/datos -- datos_polymarket/copy_trading/libro_copy.csv 2>/dev/null || echo "Libro copy no encontrado."
           git checkout origin/datos -- datos_polymarket/copy_trading/estado_copy.json 2>/dev/null || echo "Estado copy no encontrado."
           git checkout origin/datos -- datos_polymarket/copy_trading/config_copy.json 2>/dev/null || echo "Config copy no encontrado."
@@ -85,6 +86,7 @@ jobs:
           cp datos_polymarket/paper_trading/libro_hibrido.csv ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/paper_trading/estado_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/paper_trading/bayesian_hibrido.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
+          cp datos_polymarket/paper_trading/priority_queue.json ${{ runner.temp }}/respaldo/datos_polymarket/paper_trading/ 2>/dev/null || true
           cp datos_polymarket/copy_trading/libro_copy.csv ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading/ 2>/dev/null || true
           cp datos_polymarket/copy_trading/estado_copy.json ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading/ 2>/dev/null || true
           cp datos_polymarket/copy_trading/config_copy.json ${{ runner.temp }}/respaldo/datos_polymarket/copy_trading/ 2>/dev/null || true

@@ -20,12 +20,12 @@ TIMEOUT  = 15
 # Valores por defecto (si no hay datos históricos)
 DEFAULT_TP    = 0.09
 DEFAULT_SL    = -0.07
-DEFAULT_HORAS = 6
+DEFAULT_HORAS = 4
 
 # Límites absolutos
 MIN_TP = 0.04; MAX_TP = 0.25
 MIN_SL = -0.15; MAX_SL = -0.03
-MIN_H  = 2;    MAX_H  = 12
+MIN_H  = 2;    MAX_H  = 6
 
 CACHE_FILE  = "datos_polymarket/paper_trading/volatility_cache.json"
 CACHE_TTL_H = 6
@@ -192,8 +192,8 @@ def _calcular_params(m, dias):
 
     # Velocidad: mercados volátiles se resuelven rápido
     if vol > 0.05:    h = 3
-    elif vol > 0.02:  h = 6
-    else:             h = 10
+    elif vol > 0.02:  h = 4
+    else:             h = 6
 
     # Si hay pulsos regulares (NBA, NHL) reducir tiempo entre pulsos
     if m["hay_pulsos"] and m["intervalo_h"] > 0:

@@ -183,6 +183,49 @@ def cargar_libro():
 def guardar_libro(df): df.to_csv(ARCHIVO_LIBRO,index=False)
 
 
+def cargar_prioritarios(mercados):
+    """Carga los ID de mercados prioritarios desde el queue, los filtra y vacía la cola."""
+    archivo_queue = "datos_polymarket/paper_trading/priority_queue.json"
+    if not os.path.exists(archivo_queue):
+        return []
+        
+    try:
+        with open(archivo_queue, "r") as f:
+            queue = json.load(f)
+    except Exception as e:
+        log.warning(f"Error al leer la cola de prioridad: {e}")
+        return []
+        
+    if not queue:
+        return []
+        
+    # Obtener los IDs de mercado únicos que están en la cola para preservar orden e id
+    ids_vistos = set()
+    seleccionados = []
+    
+    for item in queue:
+        mid = str(item.get("id"))
+        if not mid or mid == "None":
+            continue
+        if mid in ids_vistos:
+            continue
+        ids_vistos.add(mid)
+        # Buscar en mercados escaneados
+        mercado_clob = next((m for m in mercados if str(m.get("id")) == mid), None)
+        if mercado_clob:
+            seleccionados.append(mercado_clob)
+            
+    # Limpiar el archivo de cola
+    try:
+        with open(archivo_queue, "w") as f:
+            json.dump([], f, indent=2)
+        log.info(f"🧹 Cola de prioridad vaciada. Mercados prioritarios cargados y activos: {len(seleccionados)}")
+    except Exception as e:
+        log.warning(f"Error al limpiar la cola de prioridad: {e}")
+        
+    return seleccionados
+
+
 # ── Scanner ────────────────────────────────────────────────────────
 
 def escanear():
@@ -689,12 +732,27 @@ async def ciclo():
 
 
 
-    # 2. CREAR TAREAS ASÍNCRONAS EN PARALELO
-    # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
-    # Ordenar por volumen (más líquidos primero) y tomar top 60
+    # 2. SELECCIÓN DE MERCADOS A REVISAR (PRIORIZANDO WHALES)
     import random
+    
+    # Cargar mercados prioritarios desde la cola
+    mercados_prioritarios = cargar_prioritarios(mercados)
+    if len(mercados_prioritarios) > 40:
+        mercados_prioritarios = mercados_prioritarios[:40]
+        
+    # Filtrar top 200 por volumen
     top200 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:200]
-    mercados_a_revisar = random.sample(top200, min(40, len(top200)))
+    
+    # Excluir de la selección aleatoria los mercados que ya vienen priorizados
+    ids_prioritarios = {str(mp["id"]) for mp in mercados_prioritarios}
+    top200_filtrado = [m for m in top200 if str(m["id"]) not in ids_prioritarios]
+    
+    # Completar cupo de 40 mercados con selección aleatoria
+    cupo_restante = max(0, 40 - len(mercados_prioritarios))
+    seleccion_aleatoria = random.sample(top200_filtrado, min(cupo_restante, len(top200_filtrado)))
+    
+    mercados_a_revisar = mercados_prioritarios + seleccion_aleatoria
+    log.info(f"📊 Mercado(s) a evaluar: {len(mercados_prioritarios)} prioritarios (Whales) + {len(seleccion_aleatoria)} aleatorios del Top 200 = {len(mercados_a_revisar)} total.")
     
     # 2. EJECUCIÓN SECUENCIAL CON RETARDO DE TIEMPO PARA EVITAR ERRORES 429 (RATE LIMIT)
     resultados = []

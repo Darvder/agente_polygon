@@ -119,6 +119,30 @@ def guardar_cache(c):
     with open(FILE_CACHE, "w") as f:
         json.dump(list(c), f)
 
+def registrar_prioridad_hibrido(market_id, pregunta):
+    archivo_queue = "datos_polymarket/paper_trading/priority_queue.json"
+    queue = []
+    if os.path.exists(archivo_queue):
+        try:
+            with open(archivo_queue, "r") as f:
+                queue = json.load(f)
+        except:
+            pass
+    # Evitar duplicados en la cola
+    if not any(str(item["id"]) == str(market_id) for item in queue):
+        queue.append({
+            "id": market_id,
+            "pregunta": pregunta,
+            "ts": datetime.now().isoformat(),
+            "origen": "whale_copytrader"
+        })
+        try:
+            with open(archivo_queue, "w") as f:
+                json.dump(queue, f, indent=2)
+            log.info(f"📌 [PRIORIDAD] Mercado de Whale registrado para el Híbrido: {pregunta[:35]}...")
+        except Exception as e:
+            log.warning(f"Error escribiendo priority_queue.json: {e}")
+
 # ── Conectores de API ──────────────────────────────────────────────
 
 def obtener_datos_mercado(condition_id):
@@ -243,6 +267,11 @@ async def procesar_copy_trading():
 
             # A. COMPRAR (BUY)
             if side == "BUY":
+                # Consultar metadatos en Gamma API primero para registrar en la cola de prioridad
+                market = obtener_datos_mercado(condition_id)
+                if market and market.get("active") and not market.get("closed"):
+                    registrar_prioridad_hibrido(market.get("id"), pregunta)
+
                 if cupo <= 0:
                     # Cartera llena, pero registramos la tx en caché para no evaluarla de nuevo
                     cache.add(tx_hash)
@@ -258,13 +287,11 @@ async def procesar_copy_trading():
                     cache.add(tx_hash)
                     continue
 
-                # Consultar metadatos en Gamma API
-                market = obtener_datos_mercado(condition_id)
                 if not market:
                     cache.add(tx_hash)
                     continue
 
-                # Verificar estado del mercado
+                # Verificar estado del mercado (ya verificado arriba, pero se mantiene por seguridad)
                 if not market.get("active") or market.get("closed"):
                     cache.add(tx_hash)
                     continue
