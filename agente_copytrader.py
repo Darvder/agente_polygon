@@ -245,6 +245,16 @@ async def procesar_copy_trading():
     nuevas_posiciones = []
     
     for wallet in wallets:
+        # Límite de frecuencia de copia por whale (Propuesta 4 - máx 5 trades al día)
+        today_str = datetime.now().strftime("%Y-%m-%d")
+        trades_hoy = 0
+        if not df.empty:
+            trades_hoy = len(df[(df["target_wallet"].astype(str).str.strip().str.lower() == wallet.lower()) & (df["fecha_entrada"] == today_str)])
+        
+        if trades_hoy >= 5:
+            log.info(f"⏭️ Límite diario de copia alcanzado para {wallet[:12]}... ({trades_hoy}/5 hoy). Omitiendo scouting.")
+            continue
+
         log.info(f"Scouting wallet: {wallet[:15]}...")
         trades = obtener_transacciones_usuario(wallet)
         if not trades:
@@ -315,6 +325,12 @@ async def procesar_copy_trading():
                     continue
 
                 precio_token_actual = float(outcome_prices[outcome_idx])
+
+                # Filtro de precio mínimo de entrada (Propuesta 1 - >= 0.50 USDC)
+                if precio_token_actual < 0.50:
+                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de precio mínimo: Entrada a {precio_token_actual:.3f} es menor a 0.50 USDC. Omitiendo.")
+                    cache.add(tx_hash)
+                    continue
 
                 # Comprobar el slippage
                 desfase_precio = abs(precio_token_actual - target_price)
@@ -432,7 +448,36 @@ async def procesar_copy_trading():
 
             df.loc[idx, "precio_actual"] = precio_actual
 
-            # B. VALIDACIÓN FAILSAFE: Comprobar si el trader aún mantiene la posición
+            # B. CONTROL DE STOP-LOSS (SL) DE SEGURIDAD (Propuesta 3 - SL del 10%)
+            # Si el precio actual del token cae más del 10% respecto a nuestro precio de entrada,
+            # ejecutamos una salida por Stop-Loss de forma inmediata.
+            pte = float(pos["precio_token_entrada"])
+            pct_retorno = (precio_actual - pte) / pte if pte > 0 else 0.0
+            limite_sl = -0.10  # Stop-Loss del 10%
+
+            if pct_retorno <= limite_sl:
+                log.info(f"🚨 [STOP_LOSS] Posición {pos['pregunta'][:35]} alcanzó Stop-Loss: retorno={pct_retorno:+.1%} <= {limite_sl:+.1%}")
+                precio_cierre = precio_actual
+                razon = "STOP_LOSS"
+
+                pct = (precio_cierre - pte) / pte
+                pnl = round(float(pos["monto_usdc"]) * pct, 2)
+
+                df.loc[idx, "estado"] = "CERRADA"
+                df.loc[idx, "precio_cierre"] = precio_cierre
+                df.loc[idx, "pct_cambio"] = round(pct, 4)
+                df.loc[idx, "pnl_realizado"] = pnl
+                df.loc[idx, "razon_cierre"] = razon
+                df.loc[idx, "fecha_cierre_real"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+                estado["capital_actual"] = round(estado["capital_actual"] + float(pos["monto_usdc"]) + pnl, 2)
+                estado["capital_en_riesgo"] = round(max(0.0, estado["capital_en_riesgo"] - float(pos["monto_usdc"])), 2)
+                estado["n_sl"] += 1
+                
+                log.info(f"🔒 [STOP_LOSS] Salida ejecutada: {pos['pregunta'][:40]} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
+                continue
+
+            # C. VALIDACIÓN FAILSAFE: Comprobar si el trader aún mantiene la posición
             positions_trader = obtener_posiciones_usuario(wallet_objetivo)
             mantiene_posicion = False
             for p_obj in positions_trader:
