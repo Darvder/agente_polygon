@@ -1,20 +1,44 @@
 [
   {
-    "id": "2656866",
-    "pregunta": "Baltimore Orioles vs. Los Angeles Angels: O/U 9.5",
-    "ts": "2026-06-24T17:49:53.222059",
+    "id": "2323948",
+    "pregunta": "Morocco vs. Haiti: O/U 5.5",
+    "ts": "2026-06-24T18:05:27.664337",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323947",
-    "pregunta": "Morocco vs. Haiti: O/U 4.5",
-    "ts": "2026-06-24T17:49:54.293391",
+    "id": "2323931",
+    "pregunta": "Spread: Brazil (-2.5)",
+    "ts": "2026-06-24T18:05:29.754887",
     "origen": "whale_copytrader"
   },
   {
-    "id": "1897279",
-    "pregunta": "Will Morocco win on 2026-06-24?",
-    "ts": "2026-06-24T17:49:55.400320",
+    "id": "2595586",
+    "pregunta": "Baltimore Orioles vs. Los Angeles Angels",
+    "ts": "2026-06-24T18:05:30.807950",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595588",
+    "pregunta": "New York Yankees vs. Detroit Tigers",
+    "ts": "2026-06-24T18:05:34.993291",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656881",
+    "pregunta": "New York Yankees vs. Detroit Tigers: O/U 7.5",
+    "ts": "2026-06-24T18:05:36.031846",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595582",
+    "pregunta": "Cleveland Guardians vs. Chicago White Sox",
+    "ts": "2026-06-24T18:05:39.161904",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656835",
+    "pregunta": "Spread: Cleveland Guardians (-1.5)",
+    "ts": "2026-06-24T18:05:40.222121",
     "origen": "whale_copytrader"
   }
 ]
