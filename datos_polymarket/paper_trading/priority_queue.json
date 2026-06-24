@@ -1,14 +1,32 @@
 [
   {
-    "id": "2595586",
-    "pregunta": "Baltimore Orioles vs. Los Angeles Angels",
-    "ts": "2026-06-24T17:05:32.048203",
+    "id": "2323939",
+    "pregunta": "Spread: Morocco (-1.5)",
+    "ts": "2026-06-24T17:19:28.850982",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323945",
-    "pregunta": "Morocco vs. Haiti: O/U 2.5",
-    "ts": "2026-06-24T17:05:37.308423",
+    "id": "2595586",
+    "pregunta": "Baltimore Orioles vs. Los Angeles Angels",
+    "ts": "2026-06-24T17:19:29.921925",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323929",
+    "pregunta": "Spread: Brazil (-1.5)",
+    "ts": "2026-06-24T17:19:30.998524",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323935",
+    "pregunta": "Scotland vs. Brazil: O/U 3.5",
+    "ts": "2026-06-24T17:20:15.157028",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "1897289",
+    "pregunta": "Will Scotland vs. Brazil end in a draw?",
+    "ts": "2026-06-24T17:20:18.682227",
     "origen": "whale_copytrader"
   }
 ]
