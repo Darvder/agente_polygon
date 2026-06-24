@@ -50,7 +50,8 @@ DEFAULT_CONFIG = {
     "wallets_to_copy": [
         "0x96cfcb0c30942cfcd1cdf76c7d408794d66b1acb", # mintblade
         "0x5e4c3b5b81171e2ca4ab776ac0d6bba787f9dba2", # endlessFate
-        "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae"  # Latina
+        "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae", # Latina
+        "0x59151ed846c13dc0f004b856a8be325ad571db2b"  # Selective Sports Whale
     ],
     "max_positions": 15,
     "capital_per_trade": 20.0,
