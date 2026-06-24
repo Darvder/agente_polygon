@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "id": "2323945",
+    "pregunta": "Morocco vs. Haiti: O/U 2.5",
+    "ts": "2026-06-24T16:19:59.534346",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595586",
+    "pregunta": "Baltimore Orioles vs. Los Angeles Angels",
+    "ts": "2026-06-24T16:20:06.231579",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2657906",
+    "pregunta": "Spread: Los Angeles Angels (-1.5)",
+    "ts": "2026-06-24T16:20:07.320806",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656850",
+    "pregunta": "Spread: Boston Red Sox (-1.5)",
+    "ts": "2026-06-24T16:20:11.626913",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323931",
+    "pregunta": "Spread: Brazil (-2.5)",
+    "ts": "2026-06-24T16:20:20.506279",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595584",
+    "pregunta": "Boston Red Sox vs. Colorado Rockies",
+    "ts": "2026-06-24T16:20:25.854355",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323939",
+    "pregunta": "Spread: Morocco (-1.5)",
+    "ts": "2026-06-24T16:20:34.476617",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656835",
+    "pregunta": "Spread: Cleveland Guardians (-1.5)",
+    "ts": "2026-06-24T16:21:08.636424",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595582",
+    "pregunta": "Cleveland Guardians vs. Chicago White Sox",
+    "ts": "2026-06-24T16:21:09.707191",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656865",
+    "pregunta": "Spread: Baltimore Orioles (-1.5)",
+    "ts": "2026-06-24T16:21:22.596911",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2657905",
+    "pregunta": "Boston Red Sox vs. Colorado Rockies: O/U 11.5",
+    "ts": "2026-06-24T16:21:24.755697",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323941",
+    "pregunta": "Spread: Morocco (-2.5)",
+    "ts": "2026-06-24T16:21:28.064072",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656851",
+    "pregunta": "Boston Red Sox vs. Colorado Rockies: O/U 10.5",
+    "ts": "2026-06-24T16:21:32.394822",
+    "origen": "whale_copytrader"
+  }
+]
