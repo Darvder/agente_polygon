@@ -1,14 +1,20 @@
 [
   {
-    "id": "2595596",
-    "pregunta": "Houston Astros vs. Toronto Blue Jays",
-    "ts": "2026-06-24T11:13:26.599072",
+    "id": "2656851",
+    "pregunta": "Boston Red Sox vs. Colorado Rockies: O/U 10.5",
+    "ts": "2026-06-24T11:44:54.487925",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595580",
+    "pregunta": "Texas Rangers vs. Miami Marlins",
+    "ts": "2026-06-24T11:44:55.616090",
     "origen": "whale_copytrader"
   },
   {
     "id": "2658347",
     "pregunta": "Texas Rangers vs. Miami Marlins: O/U 7.5",
-    "ts": "2026-06-24T11:13:27.668437",
+    "ts": "2026-06-24T11:45:08.743000",
     "origen": "whale_copytrader"
   }
 ]
