@@ -458,23 +458,30 @@ def verificar_salidas(df, estado, mercados_actuales):
 async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news):
     nombre_m = m["pregunta"][:35]
 
-    # 1. Ya Abierta (Filtro ultrarrápido sin semáforos)
-    if m["pregunta"][:70] in set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set():
-        log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
-        return None
+    # Reutilizar parámetros de volatilidad si ya fueron pre-calculados
+    if "_vol_tp" in m:
+        tp = m["_vol_tp"]
+        sl = m["_vol_sl"]
+        max_h = m["_vol_max_h"]
+        met = m["_vol_met"]
+    else:
+        # 1. Ya Abierta (Filtro ultrarrápido sin semáforos)
+        if m["pregunta"][:70] in set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set():
+            log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
+            return None
 
-    # 2. Event Detector
-    puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
-    if not puede:
-        log.info(f"❌ {nombre_m} | EventDetector: {motivo}")
-        return None
+        # 2. Event Detector
+        puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
+        if not puede:
+            log.info(f"❌ {nombre_m} | EventDetector: {motivo}")
+            return None
 
-    # 3. Volatilidad ANTES de Groq (relajado para aprendizaje activo)
-    tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
-    MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
-    if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
-        log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
-        return None
+        # 3. Volatilidad ANTES de Groq (relajado para aprendizaje activo)
+        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
+        if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
+            log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
+            return None
 
     # Inyectar momentum real al mercado para el prompt del LLM
     m["cambio_1h"] = met.get("cambio_1h", 0.0) if met else 0.0
@@ -484,7 +491,10 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     log.info(f"Vol [{m['id']}]: tp={int(tp*100)}% sl={int(sl*100)}% h={int(max_h)}h vol={vol_val:.3f} pulsos={pulsos_val}")
 
     # 4. Noticias (Ejecución asíncrona fluida)
-    nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
+    if "_noticias" in m:
+        nots = m["_noticias"]
+    else:
+        nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
     nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias recientes en prensa."
 
     # 5. Configuración del Prompt CoT Optimizado
@@ -787,8 +797,8 @@ async def ciclo():
     
     # Cargar mercados prioritarios desde la cola
     mercados_prioritarios = cargar_prioritarios(mercados)
-    if len(mercados_prioritarios) > 40:
-        mercados_prioritarios = mercados_prioritarios[:40]
+    if len(mercados_prioritarios) > 15:
+        mercados_prioritarios = mercados_prioritarios[:15]
         
     # Filtrar top 200 por volumen
     top200 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:200]
@@ -797,16 +807,58 @@ async def ciclo():
     ids_prioritarios = {str(mp["id"]) for mp in mercados_prioritarios}
     top200_filtrado = [m for m in top200 if str(m["id"]) not in ids_prioritarios]
     
-    # Completar cupo de 40 mercados con selección aleatoria
-    cupo_restante = max(0, 40 - len(mercados_prioritarios))
+    # Completar cupo de 15 mercados con selección aleatoria
+    cupo_restante = max(0, 15 - len(mercados_prioritarios))
     seleccion_aleatoria = random.sample(top200_filtrado, min(cupo_restante, len(top200_filtrado)))
     
     mercados_a_revisar = mercados_prioritarios + seleccion_aleatoria
     log.info(f"📊 Mercado(s) a evaluar: {len(mercados_prioritarios)} prioritarios (Whales) + {len(seleccion_aleatoria)} aleatorios del Top 200 = {len(mercados_a_revisar)} total.")
     
-    # 2. EJECUCIÓN SECUENCIAL CON RETARDO DE TIEMPO PARA EVITAR ERRORES 429 (RATE LIMIT)
-    resultados = []
+    # 2.5 PRE-FILTRADO RÁPIDO DE MERCADOS (SIN LLAMADAS LENTAS DE API)
+    mercados_filtrados = []
+    preguntas_abiertas = set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set()
+    
     for m in mercados_a_revisar:
+        nombre_m = m["pregunta"][:35]
+        
+        # A. Ya Abierta (Filtro ultrarrápido)
+        if m["pregunta"][:70] in preguntas_abiertas:
+            log.info(f"⏭️ {nombre_m} | Pre-Filtrado: Ya existe posición ABIERTA.")
+            continue
+            
+        # B. Event Detector
+        puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
+        if not puede:
+            log.info(f"❌ {nombre_m} | Pre-Filtrado - EventDetector: {motivo}")
+            continue
+            
+        # C. Volatilidad (relajado para aprendizaje activo)
+        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
+        if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
+            log.info(f"❌ {nombre_m} | Pre-Filtrado - Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
+            continue
+            
+        # Almacenar en el diccionario del mercado para reuso instantáneo
+        m["_vol_tp"] = tp
+        m["_vol_sl"] = sl
+        m["_vol_max_h"] = max_h
+        m["_vol_met"] = met
+        mercados_filtrados.append(m)
+        
+    log.info(f"📋 Pre-filtrado completo: {len(mercados_a_revisar)} candidatos iniciales -> {len(mercados_filtrados)} candidatos para evaluación LLM.")
+    
+    # 2.6 CARGA CONCURRENTE DE NOTICIAS PARA MERCADOS FILTRADOS
+    if mercados_filtrados:
+        log.info(f"📰 Cargando noticias en paralelo para {len(mercados_filtrados)} mercados...")
+        tasks = [asyncio.to_thread(noticias, m["pregunta"], cliente_news) for m in mercados_filtrados]
+        noticias_resultados = await asyncio.gather(*tasks)
+        for m, nots in zip(mercados_filtrados, noticias_resultados):
+            m["_noticias"] = nots
+            
+    # 2.7 EJECUCIÓN SECUENCIAL CON RETARDO DE TIEMPO SÓLO PARA MERCADOS FILTRADOS
+    resultados = []
+    for m in mercados_filtrados:
         res = await procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
         resultados.append(res)
         # Micro-letargo defensivo entre peticiones para proteger la cuota de TPM/RPM

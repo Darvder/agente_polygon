@@ -246,15 +246,6 @@ async def procesar_copy_trading():
     nuevas_posiciones = []
     
     for wallet in wallets:
-        # Límite de frecuencia de copia por whale (Propuesta 4 - máx 5 trades al día)
-        today_str = datetime.now().strftime("%Y-%m-%d")
-        trades_hoy = 0
-        if not df.empty:
-            trades_hoy = len(df[(df["target_wallet"].astype(str).str.strip().str.lower() == wallet.lower()) & (df["fecha_entrada"] == today_str)])
-        
-        if trades_hoy >= 5:
-            log.info(f"⏭️ Límite diario de copia alcanzado para {wallet[:12]}... ({trades_hoy}/5 hoy). Omitiendo scouting.")
-            continue
 
         log.info(f"Scouting wallet: {wallet[:15]}...")
         trades = obtener_transacciones_usuario(wallet)
