@@ -1,56 +1,110 @@
 [
   {
-    "id": "2581659",
-    "pregunta": "Atlanta Braves vs. San Diego Padres",
-    "ts": "2026-06-23T20:42:11.009016",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2645881",
-    "pregunta": "Spread: St. Louis Cardinals (-1.5)",
-    "ts": "2026-06-23T20:42:15.382160",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2645880",
-    "pregunta": "Spread: St. Louis Cardinals (-2.5)",
-    "ts": "2026-06-23T20:42:16.457346",
+    "id": "2581655",
+    "pregunta": "Boston Red Sox vs. Colorado Rockies",
+    "ts": "2026-06-23T21:14:25.454413",
     "origen": "whale_copytrader"
   },
   {
     "id": "2581651",
     "pregunta": "Los Angeles Dodgers vs. Minnesota Twins",
-    "ts": "2026-06-23T20:42:18.560314",
+    "ts": "2026-06-23T21:14:28.592069",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2642939",
-    "pregunta": "New York Yankees vs. Detroit Tigers: O/U 7.5",
-    "ts": "2026-06-23T20:42:19.625749",
+    "id": "2581653",
+    "pregunta": "Arizona Diamondbacks vs. St. Louis Cardinals",
+    "ts": "2026-06-23T21:14:30.677774",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2581659",
+    "pregunta": "Atlanta Braves vs. San Diego Padres",
+    "ts": "2026-06-23T21:14:32.757667",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2649014",
+    "pregunta": "Spread: San Diego Padres (-1.5)",
+    "ts": "2026-06-23T21:14:33.804099",
     "origen": "whale_copytrader"
   },
   {
     "id": "2643283",
     "pregunta": "Spread: Boston Red Sox (-1.5)",
-    "ts": "2026-06-23T20:42:38.336734",
+    "ts": "2026-06-23T21:14:45.320783",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2645855",
-    "pregunta": "Spread: Chicago White Sox (-1.5)",
-    "ts": "2026-06-23T20:42:39.375135",
+    "id": "2645854",
+    "pregunta": "Chicago Cubs vs. New York Mets: O/U 10.5",
+    "ts": "2026-06-23T21:14:46.375338",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2645869",
-    "pregunta": "Spread: Los Angeles Dodgers (-2.5)",
-    "ts": "2026-06-23T20:42:40.438485",
+    "id": "2648998",
+    "pregunta": "Spread: Atlanta Braves (-1.5)",
+    "ts": "2026-06-23T21:14:47.442904",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2581655",
-    "pregunta": "Boston Red Sox vs. Colorado Rockies",
-    "ts": "2026-06-23T20:42:45.651205",
+    "id": "2649022",
+    "pregunta": "Atlanta Braves vs. San Diego Padres: O/U 6.5",
+    "ts": "2026-06-23T21:15:06.207637",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2649023",
+    "pregunta": "Atlanta Braves vs. San Diego Padres: O/U 7.5",
+    "ts": "2026-06-23T21:15:08.326918",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2648999",
+    "pregunta": "Atlanta Braves vs. San Diego Padres: O/U 8.5",
+    "ts": "2026-06-23T21:15:09.371448",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645848",
+    "pregunta": "Spread: Chicago Cubs (-3.5)",
+    "ts": "2026-06-23T21:15:12.494162",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645847",
+    "pregunta": "Spread: Chicago Cubs (-2.5)",
+    "ts": "2026-06-23T21:15:13.622712",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2581661",
+    "pregunta": "Athletics vs. San Francisco Giants",
+    "ts": "2026-06-23T21:15:35.607085",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2649016",
+    "pregunta": "Spread: Atlanta Braves (-2.5)",
+    "ts": "2026-06-23T21:15:41.988356",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2645871",
+    "pregunta": "Spread: Los Angeles Dodgers (-3.5)",
+    "ts": "2026-06-23T21:15:43.054800",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2649017",
+    "pregunta": "Spread: Atlanta Braves (-3.5)",
+    "ts": "2026-06-23T21:15:57.629281",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2643058",
+    "pregunta": "Spread: Arizona Diamondbacks (-1.5)",
+    "ts": "2026-06-23T21:16:00.795238",
     "origen": "whale_copytrader"
   }
 ]
