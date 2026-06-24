@@ -1,32 +1,50 @@
 [
   {
-    "id": "2581661",
-    "pregunta": "Athletics vs. San Francisco Giants",
-    "ts": "2026-06-23T22:15:36.307567",
+    "id": "1897254",
+    "pregunta": "Will Colombia win on 2026-06-23?",
+    "ts": "2026-06-23T22:43:52.026630",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2646786",
-    "pregunta": "Athletics vs. San Francisco Giants: O/U 9.5",
-    "ts": "2026-06-23T22:15:38.710111",
+    "id": "2646783",
+    "pregunta": "Athletics vs. San Francisco Giants: O/U 5.5",
+    "ts": "2026-06-23T22:43:55.182875",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2646779",
-    "pregunta": "Spread: San Francisco Giants (-2.5)",
-    "ts": "2026-06-23T22:15:39.868284",
+    "id": "2487967",
+    "pregunta": "New York Liberty vs. Las Vegas Aces",
+    "ts": "2026-06-23T22:43:56.228495",
     "origen": "whale_copytrader"
   },
   {
     "id": "2581659",
     "pregunta": "Atlanta Braves vs. San Diego Padres",
-    "ts": "2026-06-23T22:15:43.191452",
+    "ts": "2026-06-23T22:44:02.491119",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2646784",
-    "pregunta": "Athletics vs. San Francisco Giants: O/U 6.5",
-    "ts": "2026-06-23T22:15:44.288398",
+    "id": "2581661",
+    "pregunta": "Athletics vs. San Francisco Giants",
+    "ts": "2026-06-23T22:44:19.189834",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2646779",
+    "pregunta": "Spread: San Francisco Giants (-2.5)",
+    "ts": "2026-06-23T22:44:27.627863",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2644188",
+    "pregunta": "Spread: San Francisco Giants (-1.5)",
+    "ts": "2026-06-23T22:44:29.744854",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2649017",
+    "pregunta": "Spread: Atlanta Braves (-3.5)",
+    "ts": "2026-06-23T22:44:38.117725",
     "origen": "whale_copytrader"
   }
 ]
