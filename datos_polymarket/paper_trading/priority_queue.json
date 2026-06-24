@@ -1,20 +1,20 @@
 [
   {
+    "id": "2595586",
+    "pregunta": "Baltimore Orioles vs. Los Angeles Angels",
+    "ts": "2026-06-24T16:50:26.446616",
+    "origen": "whale_copytrader"
+  },
+  {
     "id": "2595582",
     "pregunta": "Cleveland Guardians vs. Chicago White Sox",
-    "ts": "2026-06-24T16:35:33.915215",
+    "ts": "2026-06-24T16:50:27.490035",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323941",
-    "pregunta": "Spread: Morocco (-2.5)",
-    "ts": "2026-06-24T16:35:36.157125",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2595584",
-    "pregunta": "Boston Red Sox vs. Colorado Rockies",
-    "ts": "2026-06-24T16:36:10.205200",
+    "id": "2656865",
+    "pregunta": "Spread: Baltimore Orioles (-1.5)",
+    "ts": "2026-06-24T16:50:28.537110",
     "origen": "whale_copytrader"
   }
 ]
