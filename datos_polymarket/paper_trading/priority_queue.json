@@ -1,56 +1,74 @@
 [
   {
-    "id": "2656940",
-    "pregunta": "Spread: Toronto Blue Jays (-1.5)",
-    "ts": "2026-06-24T18:35:43.125822",
-    "origen": "whale_copytrader"
-  },
-  {
     "id": "2595596",
     "pregunta": "Houston Astros vs. Toronto Blue Jays",
-    "ts": "2026-06-24T18:35:44.196285",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2323935",
-    "pregunta": "Scotland vs. Brazil: O/U 3.5",
-    "ts": "2026-06-24T18:35:45.264726",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2595588",
-    "pregunta": "New York Yankees vs. Detroit Tigers",
-    "ts": "2026-06-24T18:35:46.388620",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2595600",
-    "pregunta": "Chicago Cubs vs. New York Mets",
-    "ts": "2026-06-24T18:35:50.733824",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2595598",
-    "pregunta": "Milwaukee Brewers vs. Cincinnati Reds",
-    "ts": "2026-06-24T18:35:57.267837",
+    "ts": "2026-06-24T18:51:00.759143",
     "origen": "whale_copytrader"
   },
   {
     "id": "2656955",
     "pregunta": "Spread: Milwaukee Brewers (-1.5)",
-    "ts": "2026-06-24T18:36:09.165376",
+    "ts": "2026-06-24T18:51:01.804881",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323907",
-    "pregunta": "Spread: Korea Republic (-1.5)",
-    "ts": "2026-06-24T18:36:10.368636",
+    "id": "2656880",
+    "pregunta": "Spread: Detroit Tigers (-1.5)",
+    "ts": "2026-06-24T18:51:02.853179",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595600",
+    "pregunta": "Chicago Cubs vs. New York Mets",
+    "ts": "2026-06-24T18:51:03.900806",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595588",
+    "pregunta": "New York Yankees vs. Detroit Tigers",
+    "ts": "2026-06-24T18:51:04.944421",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656881",
+    "pregunta": "New York Yankees vs. Detroit Tigers: O/U 7.5",
+    "ts": "2026-06-24T18:51:05.986847",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656941",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 8.5",
+    "ts": "2026-06-24T18:51:10.181416",
     "origen": "whale_copytrader"
   },
   {
     "id": "1897306",
     "pregunta": "Will Korea Republic win on 2026-06-24?",
-    "ts": "2026-06-24T18:36:16.823602",
+    "ts": "2026-06-24T18:51:16.451687",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595602",
+    "pregunta": "Los Angeles Dodgers vs. Minnesota Twins",
+    "ts": "2026-06-24T18:51:18.533802",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2659168",
+    "pregunta": "Spread: Los Angeles Dodgers (-1.5)",
+    "ts": "2026-06-24T18:51:19.576083",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2659169",
+    "pregunta": "Los Angeles Dodgers vs. Minnesota Twins: O/U 7.5",
+    "ts": "2026-06-24T18:51:25.929965",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656940",
+    "pregunta": "Spread: Toronto Blue Jays (-1.5)",
+    "ts": "2026-06-24T18:51:37.420640",
     "origen": "whale_copytrader"
   }
 ]
