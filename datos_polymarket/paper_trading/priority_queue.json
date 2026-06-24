@@ -1,44 +1,56 @@
 [
   {
-    "id": "2323948",
-    "pregunta": "Morocco vs. Haiti: O/U 5.5",
-    "ts": "2026-06-24T18:05:27.664337",
+    "id": "1897279",
+    "pregunta": "Will Morocco win on 2026-06-24?",
+    "ts": "2026-06-24T18:20:47.112675",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323931",
-    "pregunta": "Spread: Brazil (-2.5)",
-    "ts": "2026-06-24T18:05:29.754887",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2595586",
-    "pregunta": "Baltimore Orioles vs. Los Angeles Angels",
-    "ts": "2026-06-24T18:05:30.807950",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2595588",
-    "pregunta": "New York Yankees vs. Detroit Tigers",
-    "ts": "2026-06-24T18:05:34.993291",
+    "id": "2656880",
+    "pregunta": "Spread: Detroit Tigers (-1.5)",
+    "ts": "2026-06-24T18:20:50.596615",
     "origen": "whale_copytrader"
   },
   {
     "id": "2656881",
     "pregunta": "New York Yankees vs. Detroit Tigers: O/U 7.5",
-    "ts": "2026-06-24T18:05:36.031846",
+    "ts": "2026-06-24T18:20:51.638204",
     "origen": "whale_copytrader"
   },
   {
     "id": "2595582",
     "pregunta": "Cleveland Guardians vs. Chicago White Sox",
-    "ts": "2026-06-24T18:05:39.161904",
+    "ts": "2026-06-24T18:20:52.680717",
     "origen": "whale_copytrader"
   },
   {
     "id": "2656835",
     "pregunta": "Spread: Cleveland Guardians (-1.5)",
-    "ts": "2026-06-24T18:05:40.222121",
+    "ts": "2026-06-24T18:20:54.763029",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595596",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays",
+    "ts": "2026-06-24T18:21:15.628426",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2656941",
+    "pregunta": "Houston Astros vs. Toronto Blue Jays: O/U 8.5",
+    "ts": "2026-06-24T18:21:18.758861",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323935",
+    "pregunta": "Scotland vs. Brazil: O/U 3.5",
+    "ts": "2026-06-24T18:21:19.802046",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2667954",
+    "pregunta": "Chicago Cubs vs. New York Mets: O/U 8.5",
+    "ts": "2026-06-24T18:21:28.137517",
     "origen": "whale_copytrader"
   }
 ]
