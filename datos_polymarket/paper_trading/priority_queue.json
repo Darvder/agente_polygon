@@ -1,26 +1,38 @@
 [
   {
-    "id": "2676018",
-    "pregunta": "Houston Astros vs. Detroit Tigers: O/U 9.5",
-    "ts": "2026-06-25T18:04:33.949944",
+    "id": "2323879",
+    "pregunta": "Japan vs. Sweden: O/U 2.5",
+    "ts": "2026-06-25T18:20:24.363182",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2606835",
-    "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-25T18:04:49.632832",
+    "id": "2676017",
+    "pregunta": "Spread: Houston Astros (-1.5)",
+    "ts": "2026-06-25T18:20:25.419583",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2606837",
-    "pregunta": "Philadelphia Phillies vs. Washington Nationals",
-    "ts": "2026-06-25T18:04:51.720602",
+    "id": "2513783",
+    "pregunta": "Los Angeles Sparks vs. Toronto Tempo",
+    "ts": "2026-06-25T18:20:26.592050",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2671024",
-    "pregunta": "Philadelphia Phillies vs. Washington Nationals: O/U 8.5",
-    "ts": "2026-06-25T18:04:52.796094",
+    "id": "2668783",
+    "pregunta": "Spread: Los Angeles Sparks (-1.5)",
+    "ts": "2026-06-25T18:20:28.846796",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2585180",
+    "pregunta": "Spread: Netherlands (-3.5)",
+    "ts": "2026-06-25T18:20:29.899975",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2606841",
+    "pregunta": "New York Yankees vs. Boston Red Sox",
+    "ts": "2026-06-25T18:20:33.066325",
     "origen": "whale_copytrader"
   }
 ]
