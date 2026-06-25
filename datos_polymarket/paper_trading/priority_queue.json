@@ -1,8 +1,20 @@
 [
   {
-    "id": "2606839",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays",
-    "ts": "2026-06-25T14:35:48.186237",
+    "id": "2323890",
+    "pregunta": "Cura\u00e7ao vs. C\u00f4te d'Ivoire: O/U 2.5",
+    "ts": "2026-06-25T14:50:34.446444",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2323891",
+    "pregunta": "Cura\u00e7ao vs. C\u00f4te d'Ivoire: O/U 3.5",
+    "ts": "2026-06-25T14:50:36.546736",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2664445",
+    "pregunta": "Spread: Las Vegas Aces (-5.5)",
+    "ts": "2026-06-25T14:50:38.779340",
     "origen": "whale_copytrader"
   }
 ]
