@@ -1,20 +1,14 @@
 [
   {
+    "id": "2323873",
+    "pregunta": "Spread: Japan (-1.5)",
+    "ts": "2026-06-25T16:05:51.998859",
+    "origen": "whale_copytrader"
+  },
+  {
     "id": "2606833",
     "pregunta": "Athletics vs. San Francisco Giants",
-    "ts": "2026-06-25T15:49:31.520353",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2323903",
-    "pregunta": "Ecuador vs. Germany: O/U 4.5",
-    "ts": "2026-06-25T15:49:32.573888",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2323902",
-    "pregunta": "Ecuador vs. Germany: O/U 3.5",
-    "ts": "2026-06-25T15:49:34.711270",
+    "ts": "2026-06-25T16:05:54.085040",
     "origen": "whale_copytrader"
   }
 ]
