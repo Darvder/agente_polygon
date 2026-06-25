@@ -1,20 +1,32 @@
 [
   {
-    "id": "2323911",
-    "pregunta": "South Africa vs. Korea Republic: O/U 1.5",
-    "ts": "2026-06-24T20:21:14.179110",
+    "id": "2502306",
+    "pregunta": "Phoenix Mercury vs. Indiana Fever",
+    "ts": "2026-06-24T20:35:57.056137",
     "origen": "whale_copytrader"
   },
   {
-    "id": "2323912",
-    "pregunta": "South Africa vs. Korea Republic: O/U 2.5",
-    "ts": "2026-06-24T20:21:15.232113",
+    "id": "2595600",
+    "pregunta": "Chicago Cubs vs. New York Mets",
+    "ts": "2026-06-24T20:36:00.166548",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2667953",
+    "pregunta": "Spread: Chicago Cubs (-1.5)",
+    "ts": "2026-06-24T20:36:03.278130",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2595604",
+    "pregunta": "Arizona Diamondbacks vs. St. Louis Cardinals",
+    "ts": "2026-06-24T20:36:06.394939",
     "origen": "whale_copytrader"
   },
   {
     "id": "1897299",
     "pregunta": "Will Mexico win on 2026-06-24?",
-    "ts": "2026-06-24T20:21:23.607261",
+    "ts": "2026-06-24T20:36:12.618111",
     "origen": "whale_copytrader"
   }
 ]
