@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "1897383",
+    "pregunta": "Will Saudi Arabia win on 2026-06-26?",
+    "ts": "2026-06-26T16:48:44.041281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2685760",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers: O/U 7.5",
+    "ts": "2026-06-26T16:49:11.153282",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  }
+]
