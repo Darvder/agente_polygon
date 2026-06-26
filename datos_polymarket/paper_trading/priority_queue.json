@@ -1,15 +1,43 @@
 [
   {
-    "id": "1897383",
-    "pregunta": "Will Saudi Arabia win on 2026-06-26?",
-    "ts": "2026-06-26T16:48:44.041281",
+    "id": "2323802",
+    "pregunta": "Uruguay vs. Spain: O/U 2.5",
+    "ts": "2026-06-26T17:04:35.172259",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2685760",
-    "pregunta": "Chicago Cubs vs. Milwaukee Brewers: O/U 7.5",
-    "ts": "2026-06-26T16:49:11.153282",
+    "id": "2323801",
+    "pregunta": "Uruguay vs. Spain: O/U 1.5",
+    "ts": "2026-06-26T17:04:36.212648",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323781",
+    "pregunta": "New Zealand vs. Belgium: O/U 3.5",
+    "ts": "2026-06-26T17:04:41.556629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323782",
+    "pregunta": "New Zealand vs. Belgium: O/U 4.5",
+    "ts": "2026-06-26T17:04:42.600572",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2677292",
+    "pregunta": "Spread: Chicago Sky (-4.5)",
+    "ts": "2026-06-26T17:05:21.152218",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2686737",
+    "pregunta": "Spread: Chicago Sky (-5.5)",
+    "ts": "2026-06-26T17:05:22.190087",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
