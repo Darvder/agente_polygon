@@ -1,22 +1,15 @@
 [
   {
-    "id": "2585143",
-    "pregunta": "Spread: Senegal (-3.5)",
-    "ts": "2026-06-26T14:48:31.738922",
+    "id": "2323825",
+    "pregunta": "Senegal vs. Iraq: O/U 3.5",
+    "ts": "2026-06-26T15:04:17.770534",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2323832",
     "pregunta": "Spread: France (-2.5)",
-    "ts": "2026-06-26T14:48:32.789515",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2585153",
-    "pregunta": "Spread: France (-3.5)",
-    "ts": "2026-06-26T14:48:42.284852",
+    "ts": "2026-06-26T15:04:21.055248",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
