@@ -46,12 +46,12 @@ MODELOS_LLM = [
 BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 15
 
-# ── Parámetros globales relajados para maximizar la actividad en paper-trading ──
-MIN_EDGE        = 0.002   # Bajado a 0.2% para permitir más operaciones en fase de aprendizaje activo
-MIN_CONFIANZA   = 0.30    # Bajado a 30% para máxima actividad operativa
-MIN_VOLUMEN     = 200     # Bajado a 200 USD para considerar casi cualquier mercado
-MAX_SPREAD      = 0.10    # Subido al 10% para permitir más oportunidades en mercados volátiles
-MIN_PRECIO      = 0.05    # Aumentado a 5% para evitar contratos hiper-baratos ineficientes
+# ── Parámetros globales estrictos y defensivos para evitar pérdidas ──
+MIN_EDGE        = 0.02    # Exige una ventaja real y significativa (2.0%)
+MIN_CONFIANZA   = 0.50    # Operar solo con confianza moderada/alta (50.0%)
+MIN_VOLUMEN     = 5000    # Entrar solo en mercados con liquidez sólida ($5,000+)
+MAX_SPREAD      = 0.05    # Limitar el spread máximo al 5.0%
+MIN_PRECIO      = 0.40    # Evitar contratos especulativos baratos (< 0.40 USDC)
 MAX_PRECIO      = 0.99    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
 MIN_DIAS        = 1       
@@ -278,6 +278,8 @@ def cargar_prioritarios(mercados):
                 log.warning(f"Error consultando Gamma API para mercado prioritario {mid}: {e}")
                 
         if mercado_clob:
+            mercado_clob = mercado_clob.copy()
+            mercado_clob["_whale_wallet"] = item.get("whale_wallet")
             seleccionados.append(mercado_clob)
             
     # Limpiar el archivo de cola
@@ -421,6 +423,12 @@ def verificar_salidas(df, estado, mercados_actuales):
                 pte = float(pos.get("precio_token_entrada", 0.5))
                 sl_efectivo = min(sl_pos, -0.40) if pte < 0.12 else sl_pos
                 
+                # Trailing SL: si el retorno supera +4.0% y el SL actual es negativo, subimos el SL a Break-Even (0.0%)
+                if pct >= 0.04 and sl_pos < 0.0:
+                    log.info(f"📈 [TRAILING SL] {pos['pregunta'][:40]} | Retorno {pct:+.1%} >= +4.0% | Subiendo SL a Break-Even (0.0%)")
+                    df.loc[idx, "sl_dinamico"] = 0.0
+                    sl_efectivo = 0.0
+                
                 if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
                     razon = "EARLY_EXIT"
                 elif pct >= tp_pos: 
@@ -552,25 +560,34 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     confianza   = float(an.get("confianza", 0.5))
     hay_noticia = bool(an.get("hay_noticia", False))
     
-    # ⚡ SALVAGUARDA CONTRA FALSO EDGE SIN NOTICIAS:
-    # Si la IA indica que no hay noticia relevante (hay_noticia es False), forzamos que la estimación sea 
-    # exactamente el precio del mercado. Esto previene que el sesgo de la IA de dar probabilidades centrales (30-50%)
-    # genere un "edge" artificial en contratos baratos inactivos, provocando pérdidas masivas.
+    # ⚡ STRICT NEWS FILTER:
+    # Bloqueo total de transacciones si la IA no detecta una noticia relevante (hay_noticia es False).
     if not hay_noticia:
-        estimacion = m["mid_price"]
+        log.info(f"❌ {nombre_m} | Bloqueado: No hay noticias relevantes encontradas por la IA (Strict News Filter)")
+        return None
         
     diferencia  = estimacion - m["mid_price"]
     edge_neto   = round(abs(diferencia) - m["spread"], 4)
+
+    # ── Sinergia Whale-IA (Whale-AI Synergy) ──
+    es_sports_whale = (m.get("_whale_wallet") == "0x59151ed846c13dc0f004b856a8be325ad571db2b")
+    if es_sports_whale:
+        min_confianza_efectivo = 0.40
+        min_edge_efectivo = 0.01
+        log.info(f"🐳 [WHALE-AI SYNERGY] Analizando mercado de Selective Sports Whale. Límites ajustados (confianza >= 40%, edge >= 1.0%).")
+    else:
+        min_confianza_efectivo = MIN_CONFIANZA
+        min_edge_efectivo = MIN_EDGE
 
     umbral = 0.002 if hay_noticia else 0.003
     if edge_neto < umbral:
         log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
         return None
-    if edge_neto < MIN_EDGE:
-        log.info(f"❌ {nombre_m} | Edge mínimo ({edge_neto:.2%} < {MIN_EDGE:.2%})")
+    if edge_neto < min_edge_efectivo:
+        log.info(f"❌ {nombre_m} | Edge mínimo ({edge_neto:.2%} < {min_edge_efectivo:.2%})")
         return None
-    if confianza < MIN_CONFIANZA:
-        log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {MIN_CONFIANZA:.2f})")
+    if confianza < min_confianza_efectivo:
+        log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {min_confianza_efectivo:.2f})")
         return None
     if edge_neto > 0.80:
         log.info(f"❌ {nombre_m} | Edge muy alto ({edge_neto:.2%}) → señal dudosa")
@@ -636,9 +653,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 9. Dimensionamiento de Posición (Kelly Dinámico) (Fase 10)
     ratio_capital = estado.get("capital_actual", CAPITAL_INICIAL) / CAPITAL_INICIAL
-    factor_kelly = 0.3
+    factor_kelly = 0.15
     if ratio_capital < 1.0:
-        factor_kelly = max(0.1, round(0.3 * ratio_capital, 3))
+        factor_kelly = max(0.05, round(0.15 * ratio_capital, 3))
         
     kelly = edge_neto * confianza * factor_kelly
     monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)

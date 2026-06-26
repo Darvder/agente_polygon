@@ -217,6 +217,7 @@ def generar_dashboard():
             total_cerradas_hib = len(cerradas_hib)
             
             pnl_acum = 0.0
+            rows_hib = []
             for _, p in cerradas_hib.iterrows():
                 pnl_op = float(p.get('pnl_realizado', 0.0))
                 pnl_acum += pnl_op
@@ -253,7 +254,7 @@ def generar_dashboard():
                     "razonamiento": razonamiento_completo
                 }
 
-                ops_cerradas_hib_html += f"""
+                row_html = f"""
                 <tr class="{clase_row}">
                     <td>{fecha}</td>
                     <td class="txt-truncate" title="{p['pregunta']}">{p['pregunta']}</td>
@@ -265,7 +266,9 @@ def generar_dashboard():
                         <button class="btn-ver-cot-tabla" onclick="abrirModalDesdeBtn(this)" data-info="{html.escape(json.dumps(datos_js_closed))}">🔍</button>
                     </td>
                 </tr>"""
+                rows_hib.append(row_html)
             
+            ops_cerradas_hib_html = "".join(reversed(rows_hib))
             pnl_total_hib = pnl_acum
             trades_reales_hib = total_ganadas_hib + total_perdidas_hib
             win_rate_hib = (total_ganadas_hib / trades_reales_hib) if trades_reales_hib > 0 else 0.0
@@ -432,6 +435,7 @@ def generar_dashboard():
             total_cerradas_copy = len(cerradas_copy)
 
             pnl_acum = 0.0
+            rows_copy = []
             for _, p in cerradas_copy.iterrows():
                 pnl_op = float(p.get('pnl_realizado', 0.0))
                 pnl_acum += pnl_op
@@ -493,7 +497,7 @@ def generar_dashboard():
                     "razonamiento": f"Operación cerrada. Copiado del Whale <strong>{whale_name}</strong> ({p.get('target_wallet')}).<br><br>Razón de salida: <strong>{razon}</strong>.<br>P&L Realizado: ${pnl_op:+.2f} USDC.<br><br>Transacción en Polygonscan: <a href='{tx_link}' target='_blank' style='color:#38bdf8'>{tx_h}</a>"
                 }
 
-                ops_cerradas_copy_html += f"""
+                row_html = f"""
                 <tr class="{clase_row}">
                     <td>{fecha}</td>
                     <td class="txt-truncate" title="{p['pregunta']}">{p['pregunta']}</td>
@@ -505,7 +509,9 @@ def generar_dashboard():
                         <button class="btn-ver-cot-tabla" onclick="abrirModalDesdeBtn(this)" data-info="{html.escape(json.dumps(datos_js_closed))}">🔍</button>
                     </td>
                 </tr>"""
+                rows_copy.append(row_html)
 
+            ops_cerradas_copy_html = "".join(reversed(rows_copy))
             pnl_total_copy = pnl_acum
             trades_reales_copy = total_ganadas_copy + total_perdidas_copy
             win_rate_copy = (total_ganadas_copy / trades_reales_copy) if trades_reales_copy > 0 else 0.0
