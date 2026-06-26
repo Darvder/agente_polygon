@@ -1,26 +1,38 @@
 [
   {
-    "id": "2679387",
-    "pregunta": "New York Yankees vs. Boston Red Sox: O/U 7.5",
-    "ts": "2026-06-25T19:06:46.050601",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2672048",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays: O/U 8.5",
-    "ts": "2026-06-25T19:06:47.127536",
-    "origen": "whale_copytrader"
-  },
-  {
-    "id": "2323797",
-    "pregunta": "Spread: Spain (-1.5)",
-    "ts": "2026-06-25T19:06:48.237564",
-    "origen": "whale_copytrader"
-  },
-  {
     "id": "2606837",
     "pregunta": "Philadelphia Phillies vs. Washington Nationals",
-    "ts": "2026-06-25T19:07:58.384847",
+    "ts": "2026-06-25T19:20:38.955933",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2606841",
+    "pregunta": "New York Yankees vs. Boston Red Sox",
+    "ts": "2026-06-25T19:20:42.085435",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2676017",
+    "pregunta": "Spread: Houston Astros (-1.5)",
+    "ts": "2026-06-25T19:20:50.440820",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2671008",
+    "pregunta": "Spread: Detroit Tigers (-1.5)",
+    "ts": "2026-06-25T19:20:51.489935",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "2606835",
+    "pregunta": "Houston Astros vs. Detroit Tigers",
+    "ts": "2026-06-25T19:21:29.004918",
+    "origen": "whale_copytrader"
+  },
+  {
+    "id": "1897329",
+    "pregunta": "Will Japan win on 2026-06-25?",
+    "ts": "2026-06-25T19:21:44.646231",
     "origen": "whale_copytrader"
   }
 ]
