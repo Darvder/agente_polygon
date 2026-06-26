@@ -1,8 +1,43 @@
 [
   {
+    "id": "2323826",
+    "pregunta": "Senegal vs. Iraq: O/U 4.5",
+    "ts": "2026-06-26T14:34:57.924283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2684860",
+    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays: O/U 8.5",
+    "ts": "2026-06-26T14:34:59.009245",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2585143",
+    "pregunta": "Spread: Senegal (-3.5)",
+    "ts": "2026-06-26T14:35:01.193729",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323838",
+    "pregunta": "Norway vs. France: O/U 5.5",
+    "ts": "2026-06-26T14:35:05.510065",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323832",
+    "pregunta": "Spread: France (-2.5)",
+    "ts": "2026-06-26T14:35:06.592358",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
     "id": "2323830",
     "pregunta": "Spread: France (-1.5)",
-    "ts": "2026-06-26T14:20:39.042156",
+    "ts": "2026-06-26T14:35:55.164751",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
