@@ -1,36 +1,29 @@
 [
   {
-    "id": "2618023",
-    "pregunta": "Cincinnati Reds vs. Pittsburgh Pirates",
-    "ts": "2026-06-26T18:20:06.295067",
+    "id": "2685756",
+    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
+    "ts": "2026-06-26T18:35:55.398002",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2618027",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays",
-    "ts": "2026-06-26T18:20:07.450159",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2684853",
-    "pregunta": "Spread: Texas Rangers (-1.5)",
-    "ts": "2026-06-26T18:20:16.882351",
+    "id": "2618021",
+    "pregunta": "Houston Astros vs. Detroit Tigers",
+    "ts": "2026-06-26T18:35:56.438546",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2618033",
     "pregunta": "Philadelphia Phillies vs. New York Mets",
-    "ts": "2026-06-26T18:20:35.803803",
+    "ts": "2026-06-26T18:35:57.478773",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2685756",
-    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
-    "ts": "2026-06-26T18:20:40.098611",
+    "id": "2618023",
+    "pregunta": "Cincinnati Reds vs. Pittsburgh Pirates",
+    "ts": "2026-06-26T18:35:58.518803",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
