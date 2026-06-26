@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "2687281",
+    "pregunta": "Cincinnati Reds vs. Pittsburgh Pirates: O/U 7.5",
+    "ts": "2026-06-26T18:04:56.009995",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2618023",
+    "pregunta": "Cincinnati Reds vs. Pittsburgh Pirates",
+    "ts": "2026-06-26T18:04:57.057360",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2618021",
+    "pregunta": "Houston Astros vs. Detroit Tigers",
+    "ts": "2026-06-26T18:04:58.100548",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2685305",
+    "pregunta": "Spread: Pittsburgh Pirates (-1.5)",
+    "ts": "2026-06-26T18:05:03.316099",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  }
+]
