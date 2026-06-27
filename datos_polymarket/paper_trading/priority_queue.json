@@ -1,8 +1,15 @@
 [
   {
-    "id": "2710519",
-    "pregunta": "Spread: Kansas City Royals (-1.5)",
-    "ts": "2026-06-27T15:35:18.885504",
+    "id": "2711891",
+    "pregunta": "Texas Rangers vs. Toronto Blue Jays: O/U 6.5",
+    "ts": "2026-06-27T15:49:11.834131",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "1897437",
+    "pregunta": "Will DR Congo win on 2026-06-27?",
+    "ts": "2026-06-27T15:49:12.893052",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
