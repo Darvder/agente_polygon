@@ -1,36 +1,8 @@
 [
   {
-    "id": "2323758",
-    "pregunta": "Croatia vs. Ghana: O/U 2.5",
-    "ts": "2026-06-27T17:49:44.734052",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2713220",
-    "pregunta": "Spread: Philadelphia Phillies (-2.5)",
-    "ts": "2026-06-27T17:49:48.020860",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2697045",
-    "pregunta": "Spread: Tampa Bay Rays (-1.5)",
-    "ts": "2026-06-27T17:49:49.058651",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2697046",
-    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays: O/U 8.5",
-    "ts": "2026-06-27T17:49:50.092647",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2628729",
-    "pregunta": "Philadelphia Phillies vs. New York Mets",
-    "ts": "2026-06-27T17:49:54.236870",
+    "id": "2628731",
+    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays",
+    "ts": "2026-06-27T18:06:48.159069",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
