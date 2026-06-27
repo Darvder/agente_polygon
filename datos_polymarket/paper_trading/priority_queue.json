@@ -1,8 +1,15 @@
 [
   {
+    "id": "2628723",
+    "pregunta": "Texas Rangers vs. Toronto Blue Jays",
+    "ts": "2026-06-27T14:20:21.007742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
     "id": "2538833",
     "pregunta": "Phoenix Mercury vs. Toronto Tempo",
-    "ts": "2026-06-27T14:05:27.905350",
+    "ts": "2026-06-27T14:20:29.543440",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
