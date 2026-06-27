@@ -1,15 +1,36 @@
 [
   {
-    "id": "2701291",
-    "pregunta": "Athletics vs. Los Angeles Angels: O/U 7.5",
-    "ts": "2026-06-26T21:20:29.180486",
+    "id": "2528083",
+    "pregunta": "Atlanta Dream vs. Golden State Valkyries",
+    "ts": "2026-06-26T21:35:12.501253",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2701321",
-    "pregunta": "Athletics vs. Los Angeles Angels: O/U 6.5",
-    "ts": "2026-06-26T21:20:30.342469",
+    "id": "2683589",
+    "pregunta": "Atlanta Dream vs. Golden State Valkyries: O/U 162.5",
+    "ts": "2026-06-26T21:35:15.779642",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2618045",
+    "pregunta": "Athletics vs. Los Angeles Angels",
+    "ts": "2026-06-26T21:35:16.921650",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2678142",
+    "pregunta": "Atlanta Dream vs. Golden State Valkyries: O/U 161.5",
+    "ts": "2026-06-26T21:35:20.245651",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2686958",
+    "pregunta": "Atlanta Dream vs. Golden State Valkyries: O/U 164.5",
+    "ts": "2026-06-26T21:35:21.342218",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
