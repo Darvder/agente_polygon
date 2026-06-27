@@ -1,29 +1,29 @@
 [
   {
-    "id": "2528083",
-    "pregunta": "Atlanta Dream vs. Golden State Valkyries",
-    "ts": "2026-06-26T22:36:12.933433",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
     "id": "2323792",
     "pregunta": "Egypt vs. IR Iran: O/U 3.5",
-    "ts": "2026-06-26T22:36:15.099952",
+    "ts": "2026-06-26T22:50:00.345102",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2701593",
-    "pregunta": "Spread: Athletics (-3.5)",
-    "ts": "2026-06-26T22:36:16.205771",
+    "id": "2323777",
+    "pregunta": "Spread: Belgium (-2.5)",
+    "ts": "2026-06-26T22:50:01.402515",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2701516",
-    "pregunta": "Spread: Athletics (-4.5)",
-    "ts": "2026-06-26T22:36:18.550695",
+    "id": "2535528",
+    "pregunta": "O/U 1.5 Rounds",
+    "ts": "2026-06-26T22:50:03.507724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2528083",
+    "pregunta": "Atlanta Dream vs. Golden State Valkyries",
+    "ts": "2026-06-26T22:50:07.747888",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
