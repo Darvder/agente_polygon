@@ -1,36 +1,57 @@
 [
   {
-    "id": "2323802",
-    "pregunta": "Uruguay vs. Spain: O/U 2.5",
-    "ts": "2026-06-26T20:05:54.586164",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
     "id": "2618041",
     "pregunta": "Colorado Rockies vs. Minnesota Twins",
-    "ts": "2026-06-26T20:05:58.870662",
+    "ts": "2026-06-26T20:19:56.440176",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2700555",
-    "pregunta": "Spread: Texas Rangers (-3.5)",
-    "ts": "2026-06-26T20:06:01.062492",
+    "id": "2700706",
+    "pregunta": "Spread: Texas Rangers (-4.5)",
+    "ts": "2026-06-26T20:19:57.504466",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2700800",
-    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 10.5",
-    "ts": "2026-06-26T20:06:02.161097",
+    "id": "2700827",
+    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 4.5",
+    "ts": "2026-06-26T20:19:58.716599",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2618039",
     "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
-    "ts": "2026-06-26T20:06:03.249304",
+    "ts": "2026-06-26T20:19:59.767737",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2685309",
+    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
+    "ts": "2026-06-26T20:20:01.841544",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2684862",
+    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 9.5",
+    "ts": "2026-06-26T20:20:04.085548",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323811",
+    "pregunta": "Cabo Verde vs. Saudi Arabia: O/U 0.5",
+    "ts": "2026-06-26T20:20:05.126273",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323797",
+    "pregunta": "Spread: Spain (-1.5)",
+    "ts": "2026-06-26T20:20:13.446012",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
