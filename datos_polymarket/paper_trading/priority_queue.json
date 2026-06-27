@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "2628721",
+    "pregunta": "Houston Astros vs. Detroit Tigers",
+    "ts": "2026-06-27T12:34:55.864014",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323752",
+    "pregunta": "Spread: Croatia (-1.5)",
+    "ts": "2026-06-27T12:34:56.919318",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2697012",
+    "pregunta": "Spread: Detroit Tigers (-1.5)",
+    "ts": "2026-06-27T12:34:57.981609",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323764",
+    "pregunta": "Spread: England (-1.5)",
+    "ts": "2026-06-27T12:34:59.033126",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2690979",
+    "pregunta": "Will Brazil win on 2026-06-29?",
+    "ts": "2026-06-27T12:35:01.240851",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  }
+]
