@@ -1,57 +1,29 @@
 [
   {
-    "id": "2323781",
-    "pregunta": "New Zealand vs. Belgium: O/U 3.5",
-    "ts": "2026-06-26T22:21:53.265899",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2323791",
-    "pregunta": "Egypt vs. IR Iran: O/U 2.5",
-    "ts": "2026-06-26T22:22:09.944685",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2323785",
-    "pregunta": "Spread: Egypt (-1.5)",
-    "ts": "2026-06-26T22:22:10.984321",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2701535",
-    "pregunta": "Athletics vs. Los Angeles Angels: O/U 12.5",
-    "ts": "2026-06-26T22:22:12.026657",
+    "id": "2528083",
+    "pregunta": "Atlanta Dream vs. Golden State Valkyries",
+    "ts": "2026-06-26T22:36:12.933433",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2323792",
     "pregunta": "Egypt vs. IR Iran: O/U 3.5",
-    "ts": "2026-06-26T22:22:14.108098",
+    "ts": "2026-06-26T22:36:15.099952",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "1897397",
-    "pregunta": "Will Egypt win on 2026-06-26?",
-    "ts": "2026-06-26T22:22:18.288107",
+    "id": "2701593",
+    "pregunta": "Spread: Athletics (-3.5)",
+    "ts": "2026-06-26T22:36:16.205771",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2528083",
-    "pregunta": "Atlanta Dream vs. Golden State Valkyries",
-    "ts": "2026-06-26T22:22:33.908278",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "1897399",
-    "pregunta": "Will IR Iran win on 2026-06-26?",
-    "ts": "2026-06-26T22:22:34.952787",
+    "id": "2701516",
+    "pregunta": "Spread: Athletics (-4.5)",
+    "ts": "2026-06-26T22:36:18.550695",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
