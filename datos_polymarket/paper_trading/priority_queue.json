@@ -1,29 +1,22 @@
 [
   {
-    "id": "2323766",
-    "pregunta": "Spread: England (-2.5)",
-    "ts": "2026-06-27T16:33:58.425792",
+    "id": "2323752",
+    "pregunta": "Spread: Croatia (-1.5)",
+    "ts": "2026-06-27T16:49:03.140646",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323758",
+    "pregunta": "Croatia vs. Ghana: O/U 2.5",
+    "ts": "2026-06-27T16:49:06.276795",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2323764",
     "pregunta": "Spread: England (-1.5)",
-    "ts": "2026-06-27T16:34:00.624519",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2628727",
-    "pregunta": "Kansas City Royals vs. Chicago White Sox",
-    "ts": "2026-06-27T16:34:02.783563",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2697031",
-    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 8.5",
-    "ts": "2026-06-27T16:34:06.021316",
+    "ts": "2026-06-27T16:49:09.434783",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
