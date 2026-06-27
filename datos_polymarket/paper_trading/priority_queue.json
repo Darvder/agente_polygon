@@ -1,8 +1,22 @@
 [
   {
-    "id": "2628727",
-    "pregunta": "Kansas City Royals vs. Chicago White Sox",
-    "ts": "2026-06-27T16:06:23.832580",
+    "id": "2323766",
+    "pregunta": "Spread: England (-2.5)",
+    "ts": "2026-06-27T16:19:01.680472",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2696636",
+    "pregunta": "Spread: Chicago White Sox (-1.5)",
+    "ts": "2026-06-27T16:19:04.877771",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323770",
+    "pregunta": "Panama vs. England: O/U 3.5",
+    "ts": "2026-06-27T16:19:05.946805",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
