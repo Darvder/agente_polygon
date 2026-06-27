@@ -1,8 +1,22 @@
 [
   {
+    "id": "2538833",
+    "pregunta": "Phoenix Mercury vs. Toronto Tempo",
+    "ts": "2026-06-27T13:19:43.150417",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
     "id": "2628721",
     "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-27T13:04:19.599743",
+    "ts": "2026-06-27T13:19:45.384398",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2699816",
+    "pregunta": "Phoenix Mercury vs. Toronto Tempo: O/U 178.5",
+    "ts": "2026-06-27T13:19:47.559302",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
