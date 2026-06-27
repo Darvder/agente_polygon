@@ -1,57 +1,36 @@
 [
   {
-    "id": "2700799",
-    "pregunta": "Spread: Minnesota Twins (-3.5)",
-    "ts": "2026-06-26T19:49:39.578681",
+    "id": "2323802",
+    "pregunta": "Uruguay vs. Spain: O/U 2.5",
+    "ts": "2026-06-26T20:05:54.586164",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2618041",
     "pregunta": "Colorado Rockies vs. Minnesota Twins",
-    "ts": "2026-06-26T19:49:40.617430",
+    "ts": "2026-06-26T20:05:58.870662",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2684862",
-    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 9.5",
-    "ts": "2026-06-26T19:49:42.706096",
+    "id": "2700555",
+    "pregunta": "Spread: Texas Rangers (-3.5)",
+    "ts": "2026-06-26T20:06:01.062492",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2700800",
+    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 10.5",
+    "ts": "2026-06-26T20:06:02.161097",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2618039",
     "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
-    "ts": "2026-06-26T19:49:43.752192",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2700521",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays: O/U 9.5",
-    "ts": "2026-06-26T19:49:44.822603",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2528080",
-    "pregunta": "PortlandFire vs. Chicago Sky",
-    "ts": "2026-06-26T19:49:45.861093",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2700707",
-    "pregunta": "Spread: Texas Rangers (-5.5)",
-    "ts": "2026-06-26T19:49:46.909381",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2618033",
-    "pregunta": "Philadelphia Phillies vs. New York Mets",
-    "ts": "2026-06-26T19:49:47.948008",
+    "ts": "2026-06-26T20:06:03.249304",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
