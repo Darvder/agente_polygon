@@ -2,7 +2,28 @@
   {
     "id": "2538833",
     "pregunta": "Phoenix Mercury vs. Toronto Tempo",
-    "ts": "2026-06-27T13:34:11.176601",
+    "ts": "2026-06-27T13:50:01.758637",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2699771",
+    "pregunta": "Spread: Houston Astros (-1.5)",
+    "ts": "2026-06-27T13:50:02.822209",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628721",
+    "pregunta": "Houston Astros vs. Detroit Tigers",
+    "ts": "2026-06-27T13:50:03.865054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2697012",
+    "pregunta": "Spread: Detroit Tigers (-1.5)",
+    "ts": "2026-06-27T13:50:05.945543",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
