@@ -1,8 +1,43 @@
 [
   {
-    "id": "2628731",
-    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays",
-    "ts": "2026-06-27T18:06:48.159069",
+    "id": "2697031",
+    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 8.5",
+    "ts": "2026-06-27T18:20:36.812144",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2712766",
+    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 7.5",
+    "ts": "2026-06-27T18:20:49.000616",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628729",
+    "pregunta": "Philadelphia Phillies vs. New York Mets",
+    "ts": "2026-06-27T18:21:05.366461",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2697030",
+    "pregunta": "Spread: New York Mets (-1.5)",
+    "ts": "2026-06-27T18:21:07.586572",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628737",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
+    "ts": "2026-06-27T18:21:19.637911",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628739",
+    "pregunta": "Colorado Rockies vs. Minnesota Twins",
+    "ts": "2026-06-27T18:21:38.175475",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
