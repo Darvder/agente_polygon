@@ -1,50 +1,78 @@
 [
   {
-    "id": "2697030",
-    "pregunta": "Spread: New York Mets (-1.5)",
-    "ts": "2026-06-27T18:35:07.316976",
+    "id": "2713765",
+    "pregunta": "Spread: Colorado Rockies (-1.5)",
+    "ts": "2026-06-27T18:50:37.944853",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2697046",
     "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays: O/U 8.5",
-    "ts": "2026-06-27T18:35:08.406044",
+    "ts": "2026-06-27T18:50:38.988955",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2713309",
+    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays: O/U 7.5",
+    "ts": "2026-06-27T18:50:40.029928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628731",
+    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays",
+    "ts": "2026-06-27T18:50:41.075780",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2713767",
+    "pregunta": "Spread: Miami Marlins (-1.5)",
+    "ts": "2026-06-27T18:50:42.123307",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "1897435",
+    "pregunta": "Will Portugal win on 2026-06-27?",
+    "ts": "2026-06-27T18:50:44.209296",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "1897439",
+    "pregunta": "Will Uzbekistan win on 2026-06-27?",
+    "ts": "2026-06-27T18:50:45.341945",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628737",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
+    "ts": "2026-06-27T18:51:20.808858",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323737",
+    "pregunta": "DR Congo vs. Uzbekistan: O/U 3.5",
+    "ts": "2026-06-27T18:51:21.872256",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2713182",
+    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays: O/U 9.5",
+    "ts": "2026-06-27T18:51:32.289493",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2628739",
     "pregunta": "Colorado Rockies vs. Minnesota Twins",
-    "ts": "2026-06-27T18:35:11.688624",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2696681",
-    "pregunta": "Spread: Minnesota Twins (-1.5)",
-    "ts": "2026-06-27T18:35:15.000305",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2700489",
-    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
-    "ts": "2026-06-27T18:35:16.093998",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2709309",
-    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 9.5",
-    "ts": "2026-06-27T18:35:17.245907",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2628741",
-    "pregunta": "Miami Marlins vs. St. Louis Cardinals",
-    "ts": "2026-06-27T18:35:19.482448",
+    "ts": "2026-06-27T18:51:48.973953",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
