@@ -1,71 +1,43 @@
 [
   {
-    "id": "2700943",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays: O/U 6.5",
-    "ts": "2026-06-26T20:35:38.535890",
+    "id": "2685309",
+    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
+    "ts": "2026-06-26T20:49:36.377598",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2618039",
-    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
-    "ts": "2026-06-26T20:35:40.617092",
+    "id": "2323801",
+    "pregunta": "Uruguay vs. Spain: O/U 1.5",
+    "ts": "2026-06-26T20:49:41.640522",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2323775",
-    "pregunta": "Spread: Belgium (-1.5)",
-    "ts": "2026-06-26T20:35:41.659595",
+    "id": "2700891",
+    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 11.5",
+    "ts": "2026-06-26T20:49:43.827788",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2323777",
     "pregunta": "Spread: Belgium (-2.5)",
-    "ts": "2026-06-26T20:35:42.718917",
+    "ts": "2026-06-26T20:49:44.886162",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2700890",
-    "pregunta": "Spread: Minnesota Twins (-4.5)",
-    "ts": "2026-06-26T20:35:58.580810",
+    "id": "2686908",
+    "pregunta": "Spread: St. Louis Cardinals (-1.5)",
+    "ts": "2026-06-26T20:49:52.307906",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2700784",
-    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 8.5",
-    "ts": "2026-06-26T20:36:36.149230",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2700825",
-    "pregunta": "Chicago Cubs vs. Milwaukee Brewers: O/U 4.5",
-    "ts": "2026-06-26T20:36:44.589740",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2323797",
-    "pregunta": "Spread: Spain (-1.5)",
-    "ts": "2026-06-26T20:36:46.680735",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2684862",
-    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 9.5",
-    "ts": "2026-06-26T20:37:02.356695",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2685309",
-    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
-    "ts": "2026-06-26T20:37:06.522364",
+    "id": "2685109",
+    "pregunta": "Athletics vs. Los Angeles Angels: O/U 8.5",
+    "ts": "2026-06-26T20:49:53.366972",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
