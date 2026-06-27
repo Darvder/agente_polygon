@@ -1,15 +1,29 @@
 [
   {
-    "id": "2628721",
-    "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-27T14:34:38.449207",
+    "id": "2628723",
+    "pregunta": "Texas Rangers vs. Toronto Blue Jays",
+    "ts": "2026-06-27T14:50:12.991438",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2697012",
-    "pregunta": "Spread: Detroit Tigers (-1.5)",
-    "ts": "2026-06-27T14:34:39.490114",
+    "id": "2538833",
+    "pregunta": "Phoenix Mercury vs. Toronto Tempo",
+    "ts": "2026-06-27T14:50:14.030438",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2289164",
+    "pregunta": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+    "ts": "2026-06-27T14:50:20.273336",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2696607",
+    "pregunta": "Texas Rangers vs. Toronto Blue Jays: O/U 7.5",
+    "ts": "2026-06-27T14:50:22.356001",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
