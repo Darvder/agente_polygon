@@ -2,28 +2,42 @@
   {
     "id": "2714733",
     "pregunta": "Spread: Milwaukee Brewers (-1.5)",
-    "ts": "2026-06-28T14:34:45.604646",
+    "ts": "2026-06-28T14:50:22.748865",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2639019",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays",
-    "ts": "2026-06-28T14:34:46.683917",
+    "id": "2722277",
+    "pregunta": "Spread: Texas Rangers (-1.5)",
+    "ts": "2026-06-28T14:50:26.916397",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2722347",
     "pregunta": "Spread: Texas Rangers (-2.5)",
-    "ts": "2026-06-28T14:35:11.467382",
+    "ts": "2026-06-28T14:50:36.297797",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2639029",
-    "pregunta": "Kansas City Royals vs. Chicago White Sox",
-    "ts": "2026-06-28T14:35:42.839146",
+    "id": "2639031",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
+    "ts": "2026-06-28T14:50:44.631086",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722748",
+    "pregunta": "Spread: Milwaukee Brewers (-2.5)",
+    "ts": "2026-06-28T14:51:09.830789",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722863",
+    "pregunta": "Texas Rangers vs. Toronto Blue Jays: O/U 4.5",
+    "ts": "2026-06-28T14:51:10.870838",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
