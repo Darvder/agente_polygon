@@ -1,43 +1,22 @@
 [
   {
+    "id": "2711341",
+    "pregunta": "Spread: Atlanta Braves (-1.5)",
+    "ts": "2026-06-28T16:05:07.348550",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
     "id": "2723532",
     "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 7.5",
-    "ts": "2026-06-28T15:50:28.376071",
+    "ts": "2026-06-28T16:05:08.571774",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2639041",
-    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
-    "ts": "2026-06-28T15:50:30.510049",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639029",
-    "pregunta": "Kansas City Royals vs. Chicago White Sox",
-    "ts": "2026-06-28T15:50:33.664442",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639031",
-    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
-    "ts": "2026-06-28T15:50:38.958474",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639023",
-    "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-28T15:50:40.017944",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2711688",
-    "pregunta": "Houston Astros vs. Detroit Tigers: O/U 8.5",
-    "ts": "2026-06-28T15:50:43.178499",
+    "id": "2723701",
+    "pregunta": "Atlanta Braves vs. San Francisco Giants: O/U 4.5",
+    "ts": "2026-06-28T16:05:09.799711",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
