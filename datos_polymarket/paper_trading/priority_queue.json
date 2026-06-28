@@ -1,22 +1,15 @@
 [
   {
-    "id": "2711341",
-    "pregunta": "Spread: Atlanta Braves (-1.5)",
-    "ts": "2026-06-28T16:05:07.348550",
+    "id": "2639041",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
+    "ts": "2026-06-28T16:20:10.325758",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2723532",
-    "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 7.5",
-    "ts": "2026-06-28T16:05:08.571774",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2723701",
-    "pregunta": "Atlanta Braves vs. San Francisco Giants: O/U 4.5",
-    "ts": "2026-06-28T16:05:09.799711",
+    "id": "2639039",
+    "pregunta": "Atlanta Braves vs. San Francisco Giants",
+    "ts": "2026-06-28T16:20:16.851805",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
