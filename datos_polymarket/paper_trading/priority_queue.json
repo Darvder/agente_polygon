@@ -1,50 +1,50 @@
 [
   {
-    "id": "2639025",
-    "pregunta": "Philadelphia Phillies vs. New York Mets",
-    "ts": "2026-06-28T13:21:13.323534",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639023",
-    "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-28T13:21:14.375957",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2722322",
-    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 7.5",
-    "ts": "2026-06-28T13:21:15.417702",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639019",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays",
-    "ts": "2026-06-28T13:21:18.562708",
+    "id": "2639031",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
+    "ts": "2026-06-28T13:36:15.059813",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639029",
     "pregunta": "Kansas City Royals vs. Chicago White Sox",
-    "ts": "2026-06-28T13:21:26.900539",
+    "ts": "2026-06-28T13:36:17.274748",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2714545",
-    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
-    "ts": "2026-06-28T13:21:38.358345",
+    "id": "2722344",
+    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays: O/U 8.5",
+    "ts": "2026-06-28T13:36:18.550612",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2680291",
+    "pregunta": "Canada leading at halftime?",
+    "ts": "2026-06-28T13:36:19.677497",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639033",
     "pregunta": "Colorado Rockies vs. Minnesota Twins",
-    "ts": "2026-06-28T13:21:39.401967",
+    "ts": "2026-06-28T13:36:22.094085",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722345",
+    "pregunta": "Spread: Detroit Tigers (-1.5)",
+    "ts": "2026-06-28T13:36:23.373550",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2639019",
+    "pregunta": "Texas Rangers vs. Toronto Blue Jays",
+    "ts": "2026-06-28T13:36:24.647047",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
