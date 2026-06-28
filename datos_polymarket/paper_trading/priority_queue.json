@@ -1,15 +1,36 @@
 [
   {
-    "id": "2714006",
-    "pregunta": "Spread: Colorado Rockies (-2.5)",
-    "ts": "2026-06-27T20:06:36.683056",
+    "id": "2628745",
+    "pregunta": "Atlanta Braves vs. San Francisco Giants",
+    "ts": "2026-06-27T20:21:44.273612",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2628741",
-    "pregunta": "Miami Marlins vs. St. Louis Cardinals",
-    "ts": "2026-06-27T20:06:37.822828",
+    "id": "2628743",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
+    "ts": "2026-06-27T20:21:55.184451",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2698249",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 7.5",
+    "ts": "2026-06-27T20:22:00.666886",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2714124",
+    "pregunta": "Spread: Los Angeles Dodgers (-2.5)",
+    "ts": "2026-06-27T20:22:05.013859",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2697060",
+    "pregunta": "Spread: Los Angeles Dodgers (-1.5)",
+    "ts": "2026-06-27T20:22:07.404979",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
