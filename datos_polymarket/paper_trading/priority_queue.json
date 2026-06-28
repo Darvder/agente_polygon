@@ -1,22 +1,8 @@
 [
   {
-    "id": "2711356",
-    "pregunta": "Spread: Los Angeles Dodgers (-1.5)",
-    "ts": "2026-06-28T18:04:47.050811",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639041",
-    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
-    "ts": "2026-06-28T18:04:48.187099",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2711357",
-    "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 8.5",
-    "ts": "2026-06-28T18:04:50.371127",
+    "id": "2549326",
+    "pregunta": "New York Liberty vs. Golden State Valkyries",
+    "ts": "2026-06-28T18:21:26.546816",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
