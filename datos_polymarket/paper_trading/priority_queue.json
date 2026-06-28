@@ -1,50 +1,22 @@
 [
   {
-    "id": "2722855",
-    "pregunta": "Chicago Cubs vs. Milwaukee Brewers: O/U 5.5",
-    "ts": "2026-06-28T15:19:45.331061",
+    "id": "2639023",
+    "pregunta": "Houston Astros vs. Detroit Tigers",
+    "ts": "2026-06-28T15:34:48.501794",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639031",
     "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
-    "ts": "2026-06-28T15:19:52.636472",
+    "ts": "2026-06-28T15:34:54.762643",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2639023",
-    "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-28T15:19:54.731605",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2722521",
-    "pregunta": "Houston Astros vs. Detroit Tigers: O/U 9.5",
-    "ts": "2026-06-28T15:20:30.202132",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2680257",
-    "pregunta": "Will Canada win on 2026-06-28?",
-    "ts": "2026-06-28T15:20:43.737038",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2680426",
-    "pregunta": "South Africa vs. Canada: O/U 1.5",
-    "ts": "2026-06-28T15:20:44.788445",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639039",
-    "pregunta": "Atlanta Braves vs. San Francisco Giants",
-    "ts": "2026-06-28T15:20:47.902433",
+    "id": "2549318",
+    "pregunta": "Las Vegas Aces vs. Chicago Sky",
+    "ts": "2026-06-28T15:34:57.888852",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
