@@ -1,15 +1,36 @@
 [
   {
-    "id": "2639041",
-    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
-    "ts": "2026-06-28T16:20:10.325758",
+    "id": "2639039",
+    "pregunta": "Atlanta Braves vs. San Francisco Giants",
+    "ts": "2026-06-28T16:34:09.910173",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2639039",
-    "pregunta": "Atlanta Braves vs. San Francisco Giants",
-    "ts": "2026-06-28T16:20:16.851805",
+    "id": "2723578",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 5.5",
+    "ts": "2026-06-28T16:34:12.006338",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2723532",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 7.5",
+    "ts": "2026-06-28T16:34:13.059724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2723556",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 6.5",
+    "ts": "2026-06-28T16:34:14.110241",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2639041",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
+    "ts": "2026-06-28T16:34:15.236048",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
