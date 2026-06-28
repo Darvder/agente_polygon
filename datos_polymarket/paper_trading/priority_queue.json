@@ -1,36 +1,15 @@
 [
   {
-    "id": "2708068",
-    "pregunta": "Spread: United States (-1.5)",
-    "ts": "2026-06-27T21:49:42.706634",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
     "id": "2714456",
     "pregunta": "Spread: Los Angeles Angels (-1.5)",
-    "ts": "2026-06-27T21:49:43.746295",
+    "ts": "2026-06-27T22:06:32.507785",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2628747",
     "pregunta": "Athletics vs. Los Angeles Angels",
-    "ts": "2026-06-27T21:49:44.788903",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2697091",
-    "pregunta": "Athletics vs. Los Angeles Angels: O/U 8.5",
-    "ts": "2026-06-27T21:49:49.095481",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2714489",
-    "pregunta": "Athletics vs. Los Angeles Angels: O/U 7.5",
-    "ts": "2026-06-27T21:49:50.137269",
+    "ts": "2026-06-27T22:06:33.597532",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
