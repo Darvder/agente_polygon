@@ -1,43 +1,43 @@
 [
   {
-    "id": "2323713",
-    "pregunta": "Algeria vs. Austria: O/U 1.5",
-    "ts": "2026-06-27T21:21:11.315040",
+    "id": "2323722",
+    "pregunta": "Spread: Argentina (-2.5)",
+    "ts": "2026-06-27T21:35:01.818018",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2714519",
-    "pregunta": "Spread: San Francisco Giants (-5.5)",
-    "ts": "2026-06-27T21:21:41.645955",
+    "id": "2628747",
+    "pregunta": "Athletics vs. Los Angeles Angels",
+    "ts": "2026-06-27T21:35:02.859045",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2628745",
-    "pregunta": "Atlanta Braves vs. San Francisco Giants",
-    "ts": "2026-06-27T21:22:05.585032",
+    "id": "2714489",
+    "pregunta": "Athletics vs. Los Angeles Angels: O/U 7.5",
+    "ts": "2026-06-27T21:35:11.203911",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2628743",
-    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
-    "ts": "2026-06-27T21:22:06.712024",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2323720",
-    "pregunta": "Spread: Argentina (-1.5)",
-    "ts": "2026-06-27T21:22:07.752053",
+    "id": "2714593",
+    "pregunta": "Athletics vs. Los Angeles Angels: O/U 6.5",
+    "ts": "2026-06-27T21:35:12.245224",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2697091",
     "pregunta": "Athletics vs. Los Angeles Angels: O/U 8.5",
-    "ts": "2026-06-27T21:22:10.873713",
+    "ts": "2026-06-27T21:35:14.329952",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2697090",
+    "pregunta": "Spread: Athletics (-1.5)",
+    "ts": "2026-06-27T21:35:16.426695",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
