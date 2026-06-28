@@ -1,15 +1,22 @@
 [
   {
-    "id": "2538840",
-    "pregunta": "Los Angeles Sparks vs. Indiana Fever",
-    "ts": "2026-06-27T19:35:10.661843",
+    "id": "2690195",
+    "pregunta": "Spread: Indiana Fever (-9.5)",
+    "ts": "2026-06-27T19:49:32.406939",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2628737",
-    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
-    "ts": "2026-06-27T19:35:11.814890",
+    "id": "2323746",
+    "pregunta": "Colombia vs. Portugal: O/U 1.5",
+    "ts": "2026-06-27T19:49:33.501362",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2713968",
+    "pregunta": "Spread: Miami Marlins (-3.5)",
+    "ts": "2026-06-27T19:49:50.887002",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
