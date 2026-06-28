@@ -1,43 +1,36 @@
 [
   {
-    "id": "2323722",
-    "pregunta": "Spread: Argentina (-2.5)",
-    "ts": "2026-06-27T21:35:01.818018",
+    "id": "2708068",
+    "pregunta": "Spread: United States (-1.5)",
+    "ts": "2026-06-27T21:49:42.706634",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2714456",
+    "pregunta": "Spread: Los Angeles Angels (-1.5)",
+    "ts": "2026-06-27T21:49:43.746295",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2628747",
     "pregunta": "Athletics vs. Los Angeles Angels",
-    "ts": "2026-06-27T21:35:02.859045",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2714489",
-    "pregunta": "Athletics vs. Los Angeles Angels: O/U 7.5",
-    "ts": "2026-06-27T21:35:11.203911",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2714593",
-    "pregunta": "Athletics vs. Los Angeles Angels: O/U 6.5",
-    "ts": "2026-06-27T21:35:12.245224",
+    "ts": "2026-06-27T21:49:44.788903",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2697091",
     "pregunta": "Athletics vs. Los Angeles Angels: O/U 8.5",
-    "ts": "2026-06-27T21:35:14.329952",
+    "ts": "2026-06-27T21:49:49.095481",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2697090",
-    "pregunta": "Spread: Athletics (-1.5)",
-    "ts": "2026-06-27T21:35:16.426695",
+    "id": "2714489",
+    "pregunta": "Athletics vs. Los Angeles Angels: O/U 7.5",
+    "ts": "2026-06-27T21:49:50.137269",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
