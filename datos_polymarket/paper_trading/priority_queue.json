@@ -1,22 +1,43 @@
 [
   {
-    "id": "2639023",
-    "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-28T15:34:48.501794",
+    "id": "2723532",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres: O/U 7.5",
+    "ts": "2026-06-28T15:50:28.376071",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2639041",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
+    "ts": "2026-06-28T15:50:30.510049",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2639029",
+    "pregunta": "Kansas City Royals vs. Chicago White Sox",
+    "ts": "2026-06-28T15:50:33.664442",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639031",
     "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
-    "ts": "2026-06-28T15:34:54.762643",
+    "ts": "2026-06-28T15:50:38.958474",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2549318",
-    "pregunta": "Las Vegas Aces vs. Chicago Sky",
-    "ts": "2026-06-28T15:34:57.888852",
+    "id": "2639023",
+    "pregunta": "Houston Astros vs. Detroit Tigers",
+    "ts": "2026-06-28T15:50:40.017944",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2711688",
+    "pregunta": "Houston Astros vs. Detroit Tigers: O/U 8.5",
+    "ts": "2026-06-28T15:50:43.178499",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
