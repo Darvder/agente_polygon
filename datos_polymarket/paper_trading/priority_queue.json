@@ -1,29 +1,36 @@
 [
   {
-    "id": "2697075",
-    "pregunta": "Spread: San Francisco Giants (-1.5)",
-    "ts": "2026-06-27T20:49:25.790120",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
     "id": "2714124",
     "pregunta": "Spread: Los Angeles Dodgers (-2.5)",
-    "ts": "2026-06-27T20:49:26.830527",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2628743",
-    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
-    "ts": "2026-06-27T20:49:27.871216",
+    "ts": "2026-06-27T21:05:43.042864",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2628745",
     "pregunta": "Atlanta Braves vs. San Francisco Giants",
-    "ts": "2026-06-27T20:49:29.054451",
+    "ts": "2026-06-27T21:05:44.135203",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628747",
+    "pregunta": "Athletics vs. Los Angeles Angels",
+    "ts": "2026-06-27T21:05:45.203288",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628743",
+    "pregunta": "Los Angeles Dodgers vs. San Diego Padres",
+    "ts": "2026-06-27T21:05:46.291740",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "1897445",
+    "pregunta": "Will Austria win on 2026-06-27?",
+    "ts": "2026-06-27T21:05:54.802421",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
