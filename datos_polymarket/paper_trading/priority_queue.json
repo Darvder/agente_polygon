@@ -1,22 +1,71 @@
 [
   {
-    "id": "2628739",
-    "pregunta": "Colorado Rockies vs. Minnesota Twins",
-    "ts": "2026-06-27T19:05:08.863421",
+    "id": "1897435",
+    "pregunta": "Will Portugal win on 2026-06-27?",
+    "ts": "2026-06-27T19:20:46.265180",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "1897439",
-    "pregunta": "Will Uzbekistan win on 2026-06-27?",
-    "ts": "2026-06-27T19:05:11.037273",
+    "id": "2713744",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers: O/U 7.5",
+    "ts": "2026-06-27T19:20:54.637093",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2713786",
-    "pregunta": "Colorado Rockies vs. Minnesota Twins: O/U 11.5",
-    "ts": "2026-06-27T19:05:15.320243",
+    "id": "2700490",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers: O/U 8.5",
+    "ts": "2026-06-27T19:20:55.704269",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2323746",
+    "pregunta": "Colombia vs. Portugal: O/U 1.5",
+    "ts": "2026-06-27T19:20:56.778732",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2713360",
+    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays: O/U 6.5",
+    "ts": "2026-06-27T19:21:07.344693",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2628737",
+    "pregunta": "Chicago Cubs vs. Milwaukee Brewers",
+    "ts": "2026-06-27T19:21:08.412260",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2713765",
+    "pregunta": "Spread: Colorado Rockies (-1.5)",
+    "ts": "2026-06-27T19:21:09.454662",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2713767",
+    "pregunta": "Spread: Miami Marlins (-1.5)",
+    "ts": "2026-06-27T19:21:10.523199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2705594",
+    "pregunta": "Miami Marlins vs. St. Louis Cardinals: O/U 8.5",
+    "ts": "2026-06-27T19:21:11.575628",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2705593",
+    "pregunta": "Spread: St. Louis Cardinals (-1.5)",
+    "ts": "2026-06-27T19:21:12.618638",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
