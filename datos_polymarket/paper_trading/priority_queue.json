@@ -2,42 +2,49 @@
   {
     "id": "2639025",
     "pregunta": "Philadelphia Phillies vs. New York Mets",
-    "ts": "2026-06-28T13:05:40.449226",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2714546",
-    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 8.5",
-    "ts": "2026-06-28T13:05:41.503758",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2680257",
-    "pregunta": "Will Canada win on 2026-06-28?",
-    "ts": "2026-06-28T13:05:42.554471",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2722277",
-    "pregunta": "Spread: Texas Rangers (-1.5)",
-    "ts": "2026-06-28T13:06:02.376413",
+    "ts": "2026-06-28T13:21:13.323534",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639023",
     "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-28T13:06:21.268053",
+    "ts": "2026-06-28T13:21:14.375957",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722322",
+    "pregunta": "Philadelphia Phillies vs. New York Mets: O/U 7.5",
+    "ts": "2026-06-28T13:21:15.417702",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639019",
     "pregunta": "Texas Rangers vs. Toronto Blue Jays",
-    "ts": "2026-06-28T13:06:22.336751",
+    "ts": "2026-06-28T13:21:18.562708",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2639029",
+    "pregunta": "Kansas City Royals vs. Chicago White Sox",
+    "ts": "2026-06-28T13:21:26.900539",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2714545",
+    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
+    "ts": "2026-06-28T13:21:38.358345",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2639033",
+    "pregunta": "Colorado Rockies vs. Minnesota Twins",
+    "ts": "2026-06-28T13:21:39.401967",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
