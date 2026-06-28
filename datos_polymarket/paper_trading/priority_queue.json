@@ -1,22 +1,15 @@
 [
   {
-    "id": "2690195",
-    "pregunta": "Spread: Indiana Fever (-9.5)",
-    "ts": "2026-06-27T19:49:32.406939",
+    "id": "2714006",
+    "pregunta": "Spread: Colorado Rockies (-2.5)",
+    "ts": "2026-06-27T20:06:36.683056",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2323746",
-    "pregunta": "Colombia vs. Portugal: O/U 1.5",
-    "ts": "2026-06-27T19:49:33.501362",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2713968",
-    "pregunta": "Spread: Miami Marlins (-3.5)",
-    "ts": "2026-06-27T19:49:50.887002",
+    "id": "2628741",
+    "pregunta": "Miami Marlins vs. St. Louis Cardinals",
+    "ts": "2026-06-27T20:06:37.822828",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
