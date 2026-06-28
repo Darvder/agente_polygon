@@ -1,64 +1,29 @@
 [
   {
-    "id": "2639027",
-    "pregunta": "Arizona Diamondbacks vs. Tampa Bay Rays",
-    "ts": "2026-06-28T14:21:56.459939",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639023",
-    "pregunta": "Houston Astros vs. Detroit Tigers",
-    "ts": "2026-06-28T14:21:57.650455",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2722723",
-    "pregunta": "Texas Rangers vs. Toronto Blue Jays: O/U 5.5",
-    "ts": "2026-06-28T14:22:02.923406",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2639025",
-    "pregunta": "Philadelphia Phillies vs. New York Mets",
-    "ts": "2026-06-28T14:22:03.967870",
+    "id": "2714733",
+    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
+    "ts": "2026-06-28T14:34:45.604646",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639019",
     "pregunta": "Texas Rangers vs. Toronto Blue Jays",
-    "ts": "2026-06-28T14:22:14.403960",
+    "ts": "2026-06-28T14:34:46.683917",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2639033",
-    "pregunta": "Colorado Rockies vs. Minnesota Twins",
-    "ts": "2026-06-28T14:22:20.652314",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2711326",
-    "pregunta": "Spread: Minnesota Twins (-1.5)",
-    "ts": "2026-06-28T14:22:21.692698",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2690996",
-    "pregunta": "Will Morocco win on 2026-06-29?",
-    "ts": "2026-06-28T14:22:23.776893",
+    "id": "2722347",
+    "pregunta": "Spread: Texas Rangers (-2.5)",
+    "ts": "2026-06-28T14:35:11.467382",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2639029",
     "pregunta": "Kansas City Royals vs. Chicago White Sox",
-    "ts": "2026-06-28T14:22:24.819986",
+    "ts": "2026-06-28T14:35:42.839146",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
