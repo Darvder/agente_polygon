@@ -2,14 +2,28 @@
   {
     "id": "2707623",
     "pregunta": "Will Germany win on 2026-06-29?",
-    "ts": "2026-06-29T16:19:15.225317",
+    "ts": "2026-06-29T16:35:17.001144",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2707627",
     "pregunta": "Will Paraguay win on 2026-06-29?",
-    "ts": "2026-06-29T16:19:35.095452",
+    "ts": "2026-06-29T16:35:34.163951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2707944",
+    "pregunta": "Spread: France (-2.5)",
+    "ts": "2026-06-29T16:35:39.570279",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2707942",
+    "pregunta": "Spread: France (-1.5)",
+    "ts": "2026-06-29T16:35:42.833587",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
