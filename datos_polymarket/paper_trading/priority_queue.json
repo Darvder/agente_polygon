@@ -1,9 +1,23 @@
 [
   {
-    "id": "2730335",
-    "pregunta": "Brazil vs. Japan: Brazil O/U 1.5",
-    "ts": "2026-06-29T11:49:52.098611",
+    "id": "2666727",
+    "pregunta": "Pittsburgh Pirates vs. Philadelphia Phillies",
+    "ts": "2026-06-29T12:04:51.117540",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae"
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2696171",
+    "pregunta": "Spread: Brazil (-1.5)",
+    "ts": "2026-06-29T12:04:53.198303",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2696188",
+    "pregunta": "Brazil vs. Japan: O/U 2.5",
+    "ts": "2026-06-29T12:04:54.242086",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
 ]
