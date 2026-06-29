@@ -2,7 +2,14 @@
   {
     "id": "2707623",
     "pregunta": "Will Germany win on 2026-06-29?",
-    "ts": "2026-06-29T15:34:40.549812",
+    "ts": "2026-06-29T15:49:59.285154",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651746",
+    "pregunta": "Minnesota Twins vs. Houston Astros",
+    "ts": "2026-06-29T15:50:31.967438",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
