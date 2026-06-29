@@ -1,8 +1,78 @@
 [
   {
+    "id": "2722400",
+    "pregunta": "Chicago White Sox vs. Baltimore Orioles: O/U 8.5",
+    "ts": "2026-06-29T18:20:20.308869",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651730",
+    "pregunta": "Chicago White Sox vs. Baltimore Orioles",
+    "ts": "2026-06-29T18:20:21.351180",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722399",
+    "pregunta": "Spread: Chicago White Sox (-1.5)",
+    "ts": "2026-06-29T18:20:23.474253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
     "id": "2721769",
     "pregunta": "Germany vs. Paraguay: Team to Advance",
-    "ts": "2026-06-29T18:05:04.902056",
+    "ts": "2026-06-29T18:20:25.563211",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722867",
+    "pregunta": "Chicago White Sox vs. Baltimore Orioles: O/U 9.5",
+    "ts": "2026-06-29T18:20:31.848902",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651740",
+    "pregunta": "Texas Rangers vs. Cleveland Guardians",
+    "ts": "2026-06-29T18:20:34.988239",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722869",
+    "pregunta": "Spread: New York Mets (-1.5)",
+    "ts": "2026-06-29T18:20:37.171656",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722444",
+    "pregunta": "Spread: Toronto Blue Jays (-1.5)",
+    "ts": "2026-06-29T18:20:38.214423",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651734",
+    "pregunta": "Detroit Tigers vs. New York Yankees",
+    "ts": "2026-06-29T18:20:41.351809",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722445",
+    "pregunta": "New York Mets vs. Toronto Blue Jays: O/U 8.5",
+    "ts": "2026-06-29T18:20:43.440137",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651736",
+    "pregunta": "New York Mets vs. Toronto Blue Jays",
+    "ts": "2026-06-29T18:20:45.523826",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
