@@ -1,43 +1,36 @@
 [
   {
-    "id": "2706386",
-    "pregunta": "Netherlands vs. Morocco: O/U 2.5",
-    "ts": "2026-06-29T20:50:41.999676",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2706385",
-    "pregunta": "Netherlands vs. Morocco: O/U 1.5",
-    "ts": "2026-06-29T20:51:24.898041",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2690992",
-    "pregunta": "Will Netherlands win on 2026-06-29?",
-    "ts": "2026-06-29T20:51:25.963253",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2737436",
-    "pregunta": "Cincinnati Reds vs. Milwaukee Brewers: O/U 7.5",
-    "ts": "2026-06-29T20:51:27.040051",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651752",
-    "pregunta": "Los Angeles Dodgers vs. Athletics",
-    "ts": "2026-06-29T20:51:28.113112",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
     "id": "2651742",
     "pregunta": "Cincinnati Reds vs. Milwaukee Brewers",
-    "ts": "2026-06-29T20:51:29.252479",
+    "ts": "2026-06-29T21:04:42.273237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737526",
+    "pregunta": "Spread: San Diego Padres (-1.5)",
+    "ts": "2026-06-29T21:04:44.485900",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651744",
+    "pregunta": "San Diego Padres vs. Chicago Cubs",
+    "ts": "2026-06-29T21:04:45.526009",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722886",
+    "pregunta": "San Francisco Giants vs. Arizona Diamondbacks: O/U 9.5",
+    "ts": "2026-06-29T21:04:50.739374",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722915",
+    "pregunta": "Spread: Seattle Mariners (-1.5)",
+    "ts": "2026-06-29T21:04:51.780614",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
