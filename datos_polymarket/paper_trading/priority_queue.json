@@ -1,71 +1,43 @@
 [
   {
-    "id": "2737412",
-    "pregunta": "New York Mets vs. Toronto Blue Jays: O/U 4.5",
-    "ts": "2026-06-29T20:35:23.516184",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2724610",
-    "pregunta": "Spread: Miami Marlins (-1.5)",
-    "ts": "2026-06-29T20:35:24.562274",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2737579",
-    "pregunta": "Spread: Cincinnati Reds (-2.5)",
-    "ts": "2026-06-29T20:35:25.771930",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651748",
-    "pregunta": "Miami Marlins vs. Colorado Rockies",
-    "ts": "2026-06-29T20:35:41.339201",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651740",
-    "pregunta": "Texas Rangers vs. Cleveland Guardians",
-    "ts": "2026-06-29T20:35:42.384723",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2724820",
-    "pregunta": "Texas Rangers vs. Cleveland Guardians: O/U 8.5",
-    "ts": "2026-06-29T20:35:43.424330",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2737435",
-    "pregunta": "San Diego Padres vs. Chicago Cubs: O/U 9.5",
-    "ts": "2026-06-29T20:35:45.508009",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651744",
-    "pregunta": "San Diego Padres vs. Chicago Cubs",
-    "ts": "2026-06-29T20:35:46.550188",
+    "id": "2706386",
+    "pregunta": "Netherlands vs. Morocco: O/U 2.5",
+    "ts": "2026-06-29T20:50:41.999676",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2706385",
     "pregunta": "Netherlands vs. Morocco: O/U 1.5",
-    "ts": "2026-06-29T20:35:53.810839",
+    "ts": "2026-06-29T20:51:24.898041",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2706386",
-    "pregunta": "Netherlands vs. Morocco: O/U 2.5",
-    "ts": "2026-06-29T20:35:54.848298",
+    "id": "2690992",
+    "pregunta": "Will Netherlands win on 2026-06-29?",
+    "ts": "2026-06-29T20:51:25.963253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737436",
+    "pregunta": "Cincinnati Reds vs. Milwaukee Brewers: O/U 7.5",
+    "ts": "2026-06-29T20:51:27.040051",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651752",
+    "pregunta": "Los Angeles Dodgers vs. Athletics",
+    "ts": "2026-06-29T20:51:28.113112",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651742",
+    "pregunta": "Cincinnati Reds vs. Milwaukee Brewers",
+    "ts": "2026-06-29T20:51:29.252479",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
