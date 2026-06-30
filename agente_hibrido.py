@@ -227,6 +227,53 @@ def _procesar_mercado_crudo(m, hoy):
     }
 
 
+def _procesar_mercado_prioritario(m, hoy):
+    """Procesa y valida los metadatos de un mercado prioritario (Whale trade) con filtros muy relajados."""
+    q = m.get("question", "")
+    if any(p in q.lower() for p in PATRONES_EXCLUIR):
+        return None
+    try:
+        bid = float(m.get("bestBid", 0))
+        ask = float(m.get("bestAsk", 0))
+    except:
+        return None
+    if bid <= 0 or ask <= 0:
+        return None
+    sp = round(ask - bid, 4)
+    mid = round((bid + ask) / 2, 4)
+    # Para prioritarios, permitimos un spread mayor (hasta 10%) y precios entre 2% y 98%
+    if sp > 0.10 or mid < 0.02 or mid > 0.98:
+        return None
+    try:
+        vol = float(m.get("volume", 0))
+    except:
+        vol = 0.0
+    # Permitimos cualquier volumen mayor o igual a $100 ya que la Whale operó ahí
+    if vol < 100:
+        return None
+    fs = m.get("endDate", "")[:10]
+    if not fs:
+        return None
+    try:
+        dias = (datetime.strptime(fs, "%Y-%m-%d").date() - hoy).days
+    except:
+        return None
+    # Permitimos mercados que cierren hoy mismo o en el futuro (dias >= 0)
+    if dias < 0 or dias > MAX_DIAS:
+        return None
+    return {
+        "id": m.get("id", q[:30]),
+        "pregunta": q,
+        "mid_price": mid,
+        "spread": sp,
+        "best_bid": bid,
+        "best_ask": ask,
+        "volumen_usd": vol,
+        "dias": dias,
+        "fecha_cierre": fs
+    }
+
+
 def cargar_prioritarios(mercados):
     """Carga los ID de mercados prioritarios desde el queue, los filtra y vacía la cola."""
     archivo_queue = "datos_polymarket/paper_trading/priority_queue.json"
@@ -268,7 +315,7 @@ def cargar_prioritarios(mercados):
                 r = requests.get(url, timeout=TIMEOUT)
                 if r.status_code == 200 and r.json():
                     m_data = r.json()
-                    res = _procesar_mercado_crudo(m_data, hoy)
+                    res = _procesar_mercado_prioritario(m_data, hoy)
                     if res:
                         mercado_clob = res
                         log.info(f"✅ Mercado prioritario {mid} recuperado y validado con éxito.")
@@ -466,6 +513,8 @@ def verificar_salidas(df, estado, mercados_actuales):
 async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news):
     nombre_m = m["pregunta"][:35]
 
+    is_prioritario = "_whale_wallet" in m
+
     # Reutilizar parámetros de volatilidad si ya fueron pre-calculados
     if "_vol_tp" in m:
         tp = m["_vol_tp"]
@@ -490,6 +539,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
             log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
             return None
+
+    if is_prioritario:
+        max_h = 24
 
     # Inyectar momentum real al mercado para el prompt del LLM
     m["cambio_1h"] = met.get("cambio_1h", 0.0) if met else 0.0
@@ -562,7 +614,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     
     # ⚡ STRICT NEWS FILTER:
     # Bloqueo total de transacciones si la IA no detecta una noticia relevante (hay_noticia es False).
-    if not hay_noticia:
+    if not hay_noticia and not is_prioritario:
         log.info(f"❌ {nombre_m} | Bloqueado: No hay noticias relevantes encontradas por la IA (Strict News Filter)")
         return None
         
@@ -570,16 +622,15 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     edge_neto   = round(abs(diferencia) - m["spread"], 4)
 
     # ── Sinergia Whale-IA (Whale-AI Synergy) ──
-    es_sports_whale = (m.get("_whale_wallet") == "0x59151ed846c13dc0f004b856a8be325ad571db2b")
-    if es_sports_whale:
+    if is_prioritario:
         min_confianza_efectivo = 0.40
         min_edge_efectivo = 0.01
-        log.info(f"🐳 [WHALE-AI SYNERGY] Analizando mercado de Selective Sports Whale. Límites ajustados (confianza >= 40%, edge >= 1.0%).")
+        log.info(f"🐳 [WHALE-AI SYNERGY] Analizando mercado prioritario de Whale ({m.get('_whale_wallet')[:10]}...). Límites ajustados (confianza >= 40%, edge >= 1.0%).")
     else:
         min_confianza_efectivo = MIN_CONFIANZA
         min_edge_efectivo = MIN_EDGE
 
-    umbral = 0.002 if hay_noticia else 0.003
+    umbral = 0.002 if (hay_noticia or is_prioritario) else 0.003
     if edge_neto < umbral:
         log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
         return None
@@ -595,7 +646,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 7.5 Bifurcación de Estrategias (Trend-Following vs Mean-Reversion) (Fase 9) (relajado)
     momentum_1h = met.get("cambio_1h", 0.0) if met else 0.0
-    if hay_noticia:
+    if hay_noticia or is_prioritario:
         # Modo Trend-Following (Seguidor de Tendencia): no operar contra momentum muy fuerte
         if diferencia > 0 and momentum_1h < -0.02:
             log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR YES pero momentum es bajista ({momentum_1h:+.1%}) → bloqueado")
@@ -659,6 +710,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         
     kelly = edge_neto * confianza * factor_kelly
     monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
+    if is_prioritario:
+        monto = max(monto, 10.0)
     log.info(f"💰 {nombre_m} | monto=${monto:.2f} vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%}")
     if monto < 1:
         log.info(f"❌ {nombre_m} | Monto ${monto:.2f} < $1")
