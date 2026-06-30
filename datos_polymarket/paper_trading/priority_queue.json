@@ -1,71 +1,57 @@
 [
   {
-    "id": "2722444",
-    "pregunta": "Spread: Toronto Blue Jays (-1.5)",
-    "ts": "2026-06-29T19:20:41.632554",
+    "id": "2737291",
+    "pregunta": "New York Mets vs. Toronto Blue Jays: O/U 5.5",
+    "ts": "2026-06-29T19:35:00.720132",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2651736",
     "pregunta": "New York Mets vs. Toronto Blue Jays",
-    "ts": "2026-06-29T19:20:42.672882",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651744",
-    "pregunta": "San Diego Padres vs. Chicago Cubs",
-    "ts": "2026-06-29T19:20:45.816858",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2724806",
-    "pregunta": "Texas Rangers vs. Cleveland Guardians: O/U 7.5",
-    "ts": "2026-06-29T19:20:48.942216",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2737225",
-    "pregunta": "Detroit Tigers vs. New York Yankees: O/U 10.5",
-    "ts": "2026-06-29T19:20:49.983479",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2722460",
-    "pregunta": "Cincinnati Reds vs. Milwaukee Brewers: O/U 8.5",
-    "ts": "2026-06-29T19:20:52.075372",
+    "ts": "2026-06-29T19:35:01.774893",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2722866",
     "pregunta": "Spread: Baltimore Orioles (-1.5)",
-    "ts": "2026-06-29T19:21:00.414029",
+    "ts": "2026-06-29T19:35:02.822196",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651740",
+    "pregunta": "Texas Rangers vs. Cleveland Guardians",
+    "ts": "2026-06-29T19:35:04.909846",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737126",
+    "pregunta": "Texas Rangers vs. Cleveland Guardians: O/U 6.5",
+    "ts": "2026-06-29T19:35:06.061523",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2651742",
     "pregunta": "Cincinnati Reds vs. Milwaukee Brewers",
-    "ts": "2026-06-29T19:21:01.455133",
+    "ts": "2026-06-29T19:35:07.195746",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2724596",
-    "pregunta": "San Diego Padres vs. Chicago Cubs: O/U 12.5",
-    "ts": "2026-06-29T19:21:12.917245",
+    "id": "2724805",
+    "pregunta": "Spread: Cleveland Guardians (-1.5)",
+    "ts": "2026-06-29T19:35:10.433151",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2726111",
-    "pregunta": "San Diego Padres vs. Chicago Cubs: O/U 11.5",
-    "ts": "2026-06-29T19:21:15.001482",
+    "id": "2651744",
+    "pregunta": "San Diego Padres vs. Chicago Cubs",
+    "ts": "2026-06-29T19:35:12.520691",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
