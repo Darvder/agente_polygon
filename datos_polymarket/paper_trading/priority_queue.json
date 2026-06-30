@@ -1,36 +1,64 @@
 [
   {
-    "id": "2706384",
-    "pregunta": "Netherlands vs. Morocco: O/U 0.5",
-    "ts": "2026-06-29T21:36:29.812149",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2706385",
-    "pregunta": "Netherlands vs. Morocco: O/U 1.5",
-    "ts": "2026-06-29T21:36:31.900811",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
     "id": "2651754",
     "pregunta": "Los Angeles Angels vs. Seattle Mariners",
-    "ts": "2026-06-29T21:36:43.382107",
+    "ts": "2026-06-29T21:49:49.460884",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651750",
+    "pregunta": "San Francisco Giants vs. Arizona Diamondbacks",
+    "ts": "2026-06-29T21:49:51.570590",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2651748",
     "pregunta": "Miami Marlins vs. Colorado Rockies",
-    "ts": "2026-06-29T21:36:47.550742",
+    "ts": "2026-06-29T21:49:53.652548",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2737991",
-    "pregunta": "Miami Marlins vs. Colorado Rockies: O/U 16.5",
-    "ts": "2026-06-29T21:36:48.597917",
+    "id": "2651752",
+    "pregunta": "Los Angeles Dodgers vs. Athletics",
+    "ts": "2026-06-29T21:49:56.792407",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2738022",
+    "pregunta": "San Francisco Giants vs. Arizona Diamondbacks: O/U 6.5",
+    "ts": "2026-06-29T21:50:05.141051",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737975",
+    "pregunta": "Los Angeles Dodgers vs. Athletics: O/U 12.5",
+    "ts": "2026-06-29T21:50:06.181009",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737965",
+    "pregunta": "Los Angeles Dodgers vs. Athletics: O/U 11.5",
+    "ts": "2026-06-29T21:50:14.506491",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2722885",
+    "pregunta": "Spread: Arizona Diamondbacks (-1.5)",
+    "ts": "2026-06-29T21:50:17.628171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737930",
+    "pregunta": "Spread: Athletics (-1.5)",
+    "ts": "2026-06-29T21:50:19.849509",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
