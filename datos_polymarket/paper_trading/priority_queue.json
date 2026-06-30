@@ -1,36 +1,57 @@
 [
   {
+    "id": "2719305",
+    "pregunta": "Spread: Spain (-2.5)",
+    "ts": "2026-06-29T21:19:41.447755",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
     "id": "2651742",
     "pregunta": "Cincinnati Reds vs. Milwaukee Brewers",
-    "ts": "2026-06-29T21:04:42.273237",
+    "ts": "2026-06-29T21:19:52.907385",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2737526",
-    "pregunta": "Spread: San Diego Padres (-1.5)",
-    "ts": "2026-06-29T21:04:44.485900",
+    "id": "2651752",
+    "pregunta": "Los Angeles Dodgers vs. Athletics",
+    "ts": "2026-06-29T21:20:00.151539",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2651744",
-    "pregunta": "San Diego Padres vs. Chicago Cubs",
-    "ts": "2026-06-29T21:04:45.526009",
+    "id": "2724625",
+    "pregunta": "Los Angeles Angels vs. Seattle Mariners: O/U 7.5",
+    "ts": "2026-06-29T21:20:01.188082",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2722886",
-    "pregunta": "San Francisco Giants vs. Arizona Diamondbacks: O/U 9.5",
-    "ts": "2026-06-29T21:04:50.739374",
+    "id": "2651748",
+    "pregunta": "Miami Marlins vs. Colorado Rockies",
+    "ts": "2026-06-29T21:20:02.223687",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2722915",
-    "pregunta": "Spread: Seattle Mariners (-1.5)",
-    "ts": "2026-06-29T21:04:51.780614",
+    "id": "2722900",
+    "pregunta": "Spread: Los Angeles Dodgers (-1.5)",
+    "ts": "2026-06-29T21:20:04.289922",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2651754",
+    "pregunta": "Los Angeles Angels vs. Seattle Mariners",
+    "ts": "2026-06-29T21:20:05.334311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737436",
+    "pregunta": "Cincinnati Reds vs. Milwaukee Brewers: O/U 7.5",
+    "ts": "2026-06-29T21:20:07.565169",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
