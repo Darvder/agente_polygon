@@ -1,50 +1,22 @@
 [
   {
-    "id": "2651754",
-    "pregunta": "Los Angeles Angels vs. Seattle Mariners",
-    "ts": "2026-06-29T22:05:09.901693",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2738006",
-    "pregunta": "Los Angeles Dodgers vs. Athletics: O/U 13.5",
-    "ts": "2026-06-29T22:05:10.972076",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651750",
-    "pregunta": "San Francisco Giants vs. Arizona Diamondbacks",
-    "ts": "2026-06-29T22:05:12.022750",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2722885",
-    "pregunta": "Spread: Arizona Diamondbacks (-1.5)",
-    "ts": "2026-06-29T22:05:15.164849",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
     "id": "2651744",
     "pregunta": "San Diego Padres vs. Chicago Cubs",
-    "ts": "2026-06-29T22:05:21.466758",
+    "ts": "2026-06-29T22:19:30.831917",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2738022",
-    "pregunta": "San Francisco Giants vs. Arizona Diamondbacks: O/U 6.5",
-    "ts": "2026-06-29T22:05:31.905776",
+    "id": "2724625",
+    "pregunta": "Los Angeles Angels vs. Seattle Mariners: O/U 7.5",
+    "ts": "2026-06-29T22:19:33.984714",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2737976",
-    "pregunta": "San Francisco Giants vs. Arizona Diamondbacks: O/U 7.5",
-    "ts": "2026-06-29T22:05:32.950711",
+    "id": "2738039",
+    "pregunta": "Los Angeles Angels vs. Seattle Mariners: O/U 9.5",
+    "ts": "2026-06-29T22:19:44.504697",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
