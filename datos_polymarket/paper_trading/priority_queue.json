@@ -1,57 +1,36 @@
 [
   {
-    "id": "2719305",
-    "pregunta": "Spread: Spain (-2.5)",
-    "ts": "2026-06-29T21:19:41.447755",
+    "id": "2706384",
+    "pregunta": "Netherlands vs. Morocco: O/U 0.5",
+    "ts": "2026-06-29T21:36:29.812149",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2651742",
-    "pregunta": "Cincinnati Reds vs. Milwaukee Brewers",
-    "ts": "2026-06-29T21:19:52.907385",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651752",
-    "pregunta": "Los Angeles Dodgers vs. Athletics",
-    "ts": "2026-06-29T21:20:00.151539",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2724625",
-    "pregunta": "Los Angeles Angels vs. Seattle Mariners: O/U 7.5",
-    "ts": "2026-06-29T21:20:01.188082",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2651748",
-    "pregunta": "Miami Marlins vs. Colorado Rockies",
-    "ts": "2026-06-29T21:20:02.223687",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-  },
-  {
-    "id": "2722900",
-    "pregunta": "Spread: Los Angeles Dodgers (-1.5)",
-    "ts": "2026-06-29T21:20:04.289922",
+    "id": "2706385",
+    "pregunta": "Netherlands vs. Morocco: O/U 1.5",
+    "ts": "2026-06-29T21:36:31.900811",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
     "id": "2651754",
     "pregunta": "Los Angeles Angels vs. Seattle Mariners",
-    "ts": "2026-06-29T21:20:05.334311",
+    "ts": "2026-06-29T21:36:43.382107",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   },
   {
-    "id": "2737436",
-    "pregunta": "Cincinnati Reds vs. Milwaukee Brewers: O/U 7.5",
-    "ts": "2026-06-29T21:20:07.565169",
+    "id": "2651748",
+    "pregunta": "Miami Marlins vs. Colorado Rockies",
+    "ts": "2026-06-29T21:36:47.550742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+  },
+  {
+    "id": "2737991",
+    "pregunta": "Miami Marlins vs. Colorado Rockies: O/U 16.5",
+    "ts": "2026-06-29T21:36:48.597917",
     "origen": "whale_copytrader",
     "whale_wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
   }
