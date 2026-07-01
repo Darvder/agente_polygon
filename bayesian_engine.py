@@ -103,16 +103,69 @@ def construir_features(pregunta, precio_entrada, señal, vol_1d, edge, confianza
     return {**base, **interacciones}
 
 def extraer_features(row):
-    return construir_features(
-        pregunta=row.get("pregunta", ""),
-        precio_entrada=row.get("precio_token_entrada", 0.5),
-        señal=row.get("señal", ""),
-        vol_1d=row.get("vol_1d", 0),
-        edge=row.get("llm_edge", 0),
-        confianza=row.get("llm_confianza", 0.5),
-        hay_noticia=row.get("hay_noticia", False),
-        momentum_1h=row.get("momentum_1h", 0)
-    )
+    features = {}
+    
+    # 1. Categoria
+    pregunta = row.get("pregunta")
+    if pd.notna(pregunta) and pregunta != "":
+        features["categoria"] = get_categoria(pregunta)
+        
+    # 2. Precio
+    precio = row.get("precio_token_entrada")
+    if pd.notna(precio):
+        features["precio"] = get_precio_bucket(precio)
+        
+    # 3. Señal
+    señal = row.get("señal")
+    if pd.notna(señal) and señal != "":
+        s_upper = str(señal).upper()
+        features["señal"] = "yes" if "YES" in s_upper else "no"
+    elif "outcome" in row:
+        out = row.get("outcome")
+        if pd.notna(out):
+            out_str = str(out).upper()
+            if out_str in ("YES", "Y"):
+                features["señal"] = "yes"
+            elif out_str in ("NO", "N"):
+                features["señal"] = "no"
+                
+    # 4. Vol_1d
+    vol = row.get("vol_1d")
+    if pd.notna(vol):
+        features["vol"] = get_vol_bucket(vol)
+        
+    # 5. Edge
+    edge = row.get("llm_edge")
+    if pd.notna(edge):
+        features["edge"] = get_edge_bucket(edge)
+        
+    # 6. Confianza
+    conf = row.get("llm_confianza")
+    if pd.notna(conf):
+        features["confianza"] = get_confianza_bucket(conf)
+        
+    # 7. Noticia
+    noticia = row.get("hay_noticia")
+    if pd.notna(noticia):
+        is_noticia = str(noticia).lower() in ("true","1","yes","si")
+        features["noticia"] = "si" if is_noticia else "no"
+        
+    # 8. Momentum
+    mom = row.get("momentum_1h")
+    if pd.notna(mom):
+        features["momentum"] = get_momentum_bucket(mom)
+        
+    # Interacciones condicionales (sólo si ambos elementos de base existen)
+    if "noticia" in features and "vol" in features:
+        features["int_noticia_vol"] = f"{features['noticia']}_{features['vol']}"
+    if "confianza" in features and "edge" in features:
+        features["int_confianza_edge"] = f"{features['confianza']}_{features['edge']}"
+    if "precio" in features and "señal" in features:
+        features["int_precio_senal"] = f"{features['precio']}_{features['señal']}"
+    if "noticia" in features and "momentum" in features:
+        features["int_noticia_momentum"] = f"{features['noticia']}_{features['momentum']}"
+        
+    return features
 
 def es_señal_valida(row):
     """
@@ -150,12 +203,26 @@ class BayesianEngine:
             json.dump(self.modelo, f, indent=2)
 
     def entrenar(self):
-        if not os.path.exists(self.archivo_libro): return
-        df = pd.read_csv(self.archivo_libro)
+        df_hibrido = pd.read_csv(self.archivo_libro) if os.path.exists(self.archivo_libro) else pd.DataFrame()
+        archivo_copy = "datos_polymarket/copy_trading/libro_copy.csv"
+        df_copy = pd.read_csv(archivo_copy) if os.path.exists(archivo_copy) else pd.DataFrame()
+        
+        if df_hibrido.empty and df_copy.empty:
+            log.info("Bayesiano: sin datos de historial para entrenar.")
+            return
+
+        # Combinar ambos dataframes
+        df = pd.concat([df_hibrido, df_copy], ignore_index=True)
+        if df.empty:
+            return
+
+        # Eliminar duplicados por market_id (conservando la fila con menos nulos, es decir, la del híbrido que tiene datos LLM)
+        df["n_nulos"] = df.isnull().sum(axis=1)
+        df = df.sort_values("n_nulos").drop_duplicates(subset=["market_id"], keep="first")
+
         cerradas = df[df["estado"].str.upper() == "CERRADA"].copy()
 
-        # Solo entrenamos con trades cerrados después de aplicar el fix de Stop Loss (20 de junio de 2026)
-        # Esto evita que el sesgo de pérdidas del bug del Stop Loss bloquee operativas baratas
+        # Solo entrenamos con trades cerrados después de aplicar el fix de Stop Loss (22 de junio de 2026)
         if not cerradas.empty and "fecha_cierre_real" in cerradas.columns:
             cerradas = cerradas[cerradas["fecha_cierre_real"] >= "2026-06-22 22:00"]
 
@@ -185,7 +252,7 @@ class BayesianEngine:
         self.modelo = modelo
         self._guardar()
         n_validas = len(validas)
-        log.info(f"Bayesiano: {len(modelo)} condiciones | {n_validas} trades válidos "
+        log.info(f"Bayesiano: {len(modelo)} condiciones | {n_validas} trades válidos unificados entrenados "
                  f"({len(cerradas)-n_validas} INACTIVA/TIME_EXIT excluidos)")
 
     def score(self, features_dict):

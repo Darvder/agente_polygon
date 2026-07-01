@@ -104,7 +104,7 @@ PROMPT = """Eres un sistema algorítmico avanzado de arbitraje y calibración pr
 1. Aplica la Sabiduría de Masas: El precio de mercado ({precio:.1%}) ya descuenta la información general. Solo debes diferir del precio si las noticias proveen un catalizador contundente que el mercado aún no ha procesado (asimetría informática).
 2. Evita la Sobreconfianza: No asignes valores extremos (0% o 100%) a eventos con incertidumbre estructural (política, deportes, tecnología). Calibrar significa ser conservador.
 3. Factor de Decaimiento Temporal: Si faltan muchos días para la resolución, las probabilidades tienden a ser menos extremas debido al riesgo latente.
-4. Anclaje de Precios por Falta de Información: Si la sección de noticias dice 'Sin noticias...' o si las noticias no aportan información nueva que altere la probabilidad del evento, tu estimación de probabilidad ("estimacion") DEBE ser exactamente la probabilidad de mercado actual (es decir, {precio:.1%}, que equivale al número entero {precio_entero}). No uses estimaciones genéricas como 50 si el mercado cotiza a un precio extremo.
+4. Anclaje de Precios por Falta de Información: Si la sección de noticias dice 'Sin noticias...' o si las noticias no aportan información nueva, tu estimación de probabilidad ("estimacion") debe ser cercana a la probabilidad de mercado actual, a menos que se trate de eventos deportivos o poseas conocimiento estadístico/histórico contundente que justifique diferir del precio de mercado. No uses estimaciones genéricas como 50 si el mercado cotiza a un precio extremo.
 
 CRITICAL FORMAT INSTRUCTIONS:
 You MUST respond with a single, perfectly formatted JSON object. 
@@ -327,6 +327,7 @@ def cargar_prioritarios(mercados):
         if mercado_clob:
             mercado_clob = mercado_clob.copy()
             mercado_clob["_whale_wallet"] = item.get("whale_wallet")
+            mercado_clob["_whale_signal"] = item.get("whale_signal")
             seleccionados.append(mercado_clob)
             
     # Limpiar el archivo de cola
@@ -618,8 +619,18 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         log.info(f"❌ {nombre_m} | Bloqueado: No hay noticias relevantes encontradas por la IA (Strict News Filter)")
         return None
         
-    diferencia  = estimacion - m["mid_price"]
-    edge_neto   = round(abs(diferencia) - m["spread"], 4)
+    whale_signal = m.get("_whale_signal")
+    if is_prioritario and whale_signal:
+        señal = whale_signal
+        if señal == "COMPRAR YES":
+            diferencia = estimacion - m["mid_price"]
+        else:
+            diferencia = m["mid_price"] - estimacion
+        edge_neto = round(diferencia - m["spread"], 4)
+    else:
+        diferencia  = estimacion - m["mid_price"]
+        edge_neto   = round(abs(diferencia) - m["spread"], 4)
+        señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
 
     # ── Sinergia Whale-IA (Whale-AI Synergy) ──
     if is_prioritario:
@@ -686,7 +697,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         return None
 
     # 8. Motor Bayesiano
-    señal     = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
+    # señal ya calculada anteriormente para evitar sobreescribir la señal forzada de la Whale
     # Corrección de spread: comprar al ask real para YES, y 1.0 - bid para NO
     precio_tok = m["best_ask"] if señal == "COMPRAR YES" else round(1.0 - m["best_bid"], 4)
 
@@ -862,27 +873,14 @@ async def ciclo():
 
 
 
-    # 2. SELECCIÓN DE MERCADOS A REVISAR (PRIORIZANDO WHALES)
-    import random
+    # 2. SELECCIÓN DE MERCADOS A REVISAR (EXCLUSIVAMENTE WHALES)
     
     # Cargar mercados prioritarios desde la cola
     mercados_prioritarios = cargar_prioritarios(mercados)
-    if len(mercados_prioritarios) > 15:
-        mercados_prioritarios = mercados_prioritarios[:15]
-        
-    # Filtrar top 200 por volumen
-    top200 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:200]
     
-    # Excluir de la selección aleatoria los mercados que ya vienen priorizados
-    ids_prioritarios = {str(mp["id"]) for mp in mercados_prioritarios}
-    top200_filtrado = [m for m in top200 if str(m["id"]) not in ids_prioritarios]
-    
-    # Completar cupo de 15 mercados con selección aleatoria
-    cupo_restante = max(0, 15 - len(mercados_prioritarios))
-    seleccion_aleatoria = random.sample(top200_filtrado, min(cupo_restante, len(top200_filtrado)))
-    
-    mercados_a_revisar = mercados_prioritarios + seleccion_aleatoria
-    log.info(f"📊 Mercado(s) a evaluar: {len(mercados_prioritarios)} prioritarios (Whales) + {len(seleccion_aleatoria)} aleatorios del Top 200 = {len(mercados_a_revisar)} total.")
+    # Evaluar únicamente Whales
+    mercados_a_revisar = mercados_prioritarios
+    log.info(f"📊 Mercado(s) a evaluar: {len(mercados_prioritarios)} prioritarios (Whales) | 0 aleatorios.")
     
     # 2.5 PRE-FILTRADO RÁPIDO DE MERCADOS (SIN LLAMADAS LENTAS DE API)
     mercados_filtrados = []

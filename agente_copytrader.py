@@ -120,7 +120,7 @@ def guardar_cache(c):
     with open(FILE_CACHE, "w") as f:
         json.dump(list(c), f)
 
-def registrar_prioridad_hibrido(market_id, pregunta, wallet):
+def registrar_prioridad_hibrido(market_id, pregunta, wallet, whale_signal):
     archivo_queue = "datos_polymarket/paper_trading/priority_queue.json"
     queue = []
     if os.path.exists(archivo_queue):
@@ -136,12 +136,13 @@ def registrar_prioridad_hibrido(market_id, pregunta, wallet):
             "pregunta": pregunta,
             "ts": datetime.now().isoformat(),
             "origen": "whale_copytrader",
-            "whale_wallet": wallet
+            "whale_wallet": wallet,
+            "whale_signal": whale_signal
         })
         try:
             with open(archivo_queue, "w") as f:
                 json.dump(queue, f, indent=2)
-            log.info(f"📌 [PRIORIDAD] Mercado de Whale ({wallet[:10]}...) registrado para el Híbrido: {pregunta[:35]}...")
+            log.info(f"📌 [PRIORIDAD] Mercado de Whale ({wallet[:10]}...) registrado para el Híbrido: {pregunta[:35]}... ({whale_signal})")
         except Exception as e:
             log.warning(f"Error escribiendo priority_queue.json: {e}")
 
@@ -273,7 +274,12 @@ async def procesar_copy_trading():
                 # Consultar metadatos en Gamma API primero para registrar en la cola de prioridad
                 market = obtener_datos_mercado(condition_id)
                 if market and market.get("active") and not market.get("closed"):
-                    registrar_prioridad_hibrido(market.get("id"), pregunta, wallet)
+                    # Identificar qué token comprar (YES o NO)
+                    whale_signal = "COMPRAR YES"
+                    outcomes = market.get("outcomes", [])
+                    if len(outcomes) >= 2 and outcome_trader != outcomes[0]:
+                        whale_signal = "COMPRAR NO"
+                    registrar_prioridad_hibrido(market.get("id"), pregunta, wallet, whale_signal)
 
                 if cupo <= 0:
                     # Cartera llena, pero registramos la tx en caché para no evaluarla de nuevo
