@@ -1,18 +1,18 @@
 {
   "categoria:otro": {
     "n": 201,
-    "wins": 62,
-    "wr": 0.31
+    "wins": 59,
+    "wr": 0.296
   },
   "precio:medio": {
     "n": 124,
-    "wins": 33,
-    "wr": 0.27
+    "wins": 31,
+    "wr": 0.254
   },
   "precio:alto": {
-    "n": 64,
-    "wins": 27,
-    "wr": 0.424
+    "n": 63,
+    "wins": 26,
+    "wr": 0.415
   },
   "se\u00f1al:no": {
     "n": 21,
@@ -65,9 +65,9 @@
     "wr": 0.333
   },
   "precio:bajo": {
-    "n": 7,
+    "n": 8,
     "wins": 3,
-    "wr": 0.444
+    "wr": 0.4
   },
   "int_precio_senal:bajo_yes": {
     "n": 2,
