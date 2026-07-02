@@ -1,18 +1,18 @@
 {
   "categoria:otro": {
     "n": 201,
-    "wins": 59,
-    "wr": 0.296
+    "wins": 62,
+    "wr": 0.31
   },
   "precio:medio": {
-    "n": 124,
-    "wins": 31,
-    "wr": 0.254
+    "n": 125,
+    "wins": 34,
+    "wr": 0.276
   },
   "precio:alto": {
-    "n": 63,
-    "wins": 26,
-    "wr": 0.415
+    "n": 62,
+    "wins": 25,
+    "wr": 0.406
   },
   "se\u00f1al:no": {
     "n": 21,
@@ -40,9 +40,9 @@
     "wr": 0.286
   },
   "precio:extremo_alto": {
-    "n": 12,
-    "wins": 2,
-    "wr": 0.214
+    "n": 13,
+    "wins": 3,
+    "wr": 0.267
   },
   "int_precio_senal:alto_no": {
     "n": 9,
@@ -54,25 +54,25 @@
     "wins": 3,
     "wr": 0.444
   },
+  "precio:bajo": {
+    "n": 7,
+    "wins": 3,
+    "wr": 0.444
+  },
   "precio:extremo_bajo": {
     "n": 2,
     "wins": 0,
     "wr": 0.25
   },
-  "int_precio_senal:extremo_bajo_yes": {
-    "n": 1,
-    "wins": 0,
-    "wr": 0.333
-  },
-  "precio:bajo": {
-    "n": 8,
-    "wins": 3,
-    "wr": 0.4
-  },
   "int_precio_senal:bajo_yes": {
     "n": 2,
     "wins": 2,
     "wr": 0.75
+  },
+  "int_precio_senal:extremo_bajo_yes": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
   },
   "categoria:deportes": {
     "n": 1,
