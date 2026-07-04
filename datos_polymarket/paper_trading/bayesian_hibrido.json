@@ -1,13 +1,13 @@
 {
   "categoria:otro": {
     "n": 203,
-    "wins": 62,
-    "wr": 0.307
+    "wins": 63,
+    "wr": 0.312
   },
   "precio:alto": {
     "n": 61,
-    "wins": 24,
-    "wr": 0.397
+    "wins": 25,
+    "wr": 0.413
   },
   "se\u00f1al:yes": {
     "n": 14,
@@ -20,9 +20,9 @@
     "wr": 0.143
   },
   "precio:medio": {
-    "n": 127,
-    "wins": 34,
-    "wr": 0.271
+    "n": 126,
+    "wins": 33,
+    "wr": 0.266
   },
   "se\u00f1al:no": {
     "n": 22,
@@ -41,8 +41,8 @@
   },
   "precio:extremo_alto": {
     "n": 14,
-    "wins": 4,
-    "wr": 0.312
+    "wins": 5,
+    "wr": 0.375
   },
   "int_precio_senal:alto_no": {
     "n": 9,
@@ -59,10 +59,15 @@
     "wins": 0,
     "wr": 0.25
   },
+  "int_precio_senal:extremo_bajo_yes": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
   "precio:bajo": {
-    "n": 7,
+    "n": 8,
     "wins": 3,
-    "wr": 0.444
+    "wr": 0.4
   },
   "int_precio_senal:extremo_alto_no": {
     "n": 1,
@@ -73,11 +78,6 @@
     "n": 2,
     "wins": 2,
     "wr": 0.75
-  },
-  "int_precio_senal:extremo_bajo_yes": {
-    "n": 1,
-    "wins": 0,
-    "wr": 0.333
   },
   "categoria:deportes": {
     "n": 1,
