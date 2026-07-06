@@ -5,14 +5,14 @@
     "wr": 0.314
   },
   "precio:alto": {
-    "n": 63,
+    "n": 64,
     "wins": 25,
-    "wr": 0.4
+    "wr": 0.394
   },
   "precio:medio": {
-    "n": 126,
-    "wins": 34,
-    "wr": 0.273
+    "n": 127,
+    "wins": 35,
+    "wr": 0.279
   },
   "se\u00f1al:no": {
     "n": 22,
@@ -25,9 +25,9 @@
     "wr": 0.5
   },
   "precio:extremo_alto": {
-    "n": 14,
-    "wins": 5,
-    "wr": 0.375
+    "n": 13,
+    "wins": 4,
+    "wr": 0.333
   },
   "se\u00f1al:yes": {
     "n": 14,
@@ -45,9 +45,9 @@
     "wr": 0.25
   },
   "categoria:futbol": {
-    "n": 7,
+    "n": 8,
     "wins": 3,
-    "wr": 0.444
+    "wr": 0.4
   },
   "int_precio_senal:alto_no": {
     "n": 9,
