@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2783451",
+    "pregunta": "Seattle Mariners vs. Miami Marlins",
+    "ts": "2026-07-09T17:51:05.974119",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2850574",
+    "pregunta": "Spread: Seattle Mariners (-1.5)",
+    "ts": "2026-07-09T17:51:07.021312",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+    "whale_signal": "COMPRAR NO"
+  }
+]
