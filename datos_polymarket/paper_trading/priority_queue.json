@@ -1,18 +1,1 @@
-[
-  {
-    "id": "2853611",
-    "pregunta": "Bitcoin Up or Down - July 9, 9:35PM-9:40PM ET",
-    "ts": "2026-07-09T20:41:08.741134",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59151ed846c13dc0f004b856a8be325ad571db2b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2853621",
-    "pregunta": "Bitcoin Up or Down - July 9, 9:40PM-9:45PM ET",
-    "ts": "2026-07-09T20:41:13.060760",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59151ed846c13dc0f004b856a8be325ad571db2b",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
