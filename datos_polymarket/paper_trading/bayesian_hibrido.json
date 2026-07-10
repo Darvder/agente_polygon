@@ -1,18 +1,18 @@
 {
   "categoria:otro": {
     "n": 207,
-    "wins": 61,
-    "wr": 0.297
+    "wins": 63,
+    "wr": 0.306
   },
   "precio:medio": {
-    "n": 130,
-    "wins": 33,
-    "wr": 0.258
+    "n": 128,
+    "wins": 34,
+    "wr": 0.269
   },
   "precio:alto": {
-    "n": 62,
-    "wins": 23,
-    "wr": 0.375
+    "n": 64,
+    "wins": 24,
+    "wr": 0.379
   },
   "precio:extremo_alto": {
     "n": 14,
@@ -69,15 +69,15 @@
     "wins": 0,
     "wr": 0.333
   },
-  "int_precio_senal:extremo_alto_no": {
-    "n": 1,
-    "wins": 1,
-    "wr": 0.667
-  },
   "categoria:crypto_tech": {
     "n": 1,
     "wins": 0,
     "wr": 0.333
+  },
+  "int_precio_senal:extremo_alto_no": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
   },
   "int_precio_senal:bajo_yes": {
     "n": 2,
