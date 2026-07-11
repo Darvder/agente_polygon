@@ -460,34 +460,7 @@ async def procesar_copy_trading():
 
             df.loc[idx, "precio_actual"] = precio_actual
 
-            # B. CONTROL DE STOP-LOSS (SL) DE SEGURIDAD (Failsafe catastrófico del 50%)
-            # Si el precio actual del token cae más del 50% respecto a nuestro precio de entrada,
-            # ejecutamos una salida por Stop-Loss de forma inmediata.
-            pte = float(pos["precio_token_entrada"])
-            pct_retorno = (precio_actual - pte) / pte if pte > 0 else 0.0
-            limite_sl = -0.50  # Stop-Loss del 50% (Failsafe)
 
-            if pct_retorno <= limite_sl:
-                log.info(f"🚨 [STOP_LOSS] Posición {pos['pregunta'][:35]} alcanzó Stop-Loss: retorno={pct_retorno:+.1%} <= {limite_sl:+.1%}")
-                precio_cierre = precio_actual
-                razon = "STOP_LOSS"
-
-                pct = (precio_cierre - pte) / pte
-                pnl = round(float(pos["monto_usdc"]) * pct, 2)
-
-                df.loc[idx, "estado"] = "CERRADA"
-                df.loc[idx, "precio_cierre"] = precio_cierre
-                df.loc[idx, "pct_cambio"] = round(pct, 4)
-                df.loc[idx, "pnl_realizado"] = pnl
-                df.loc[idx, "razon_cierre"] = razon
-                df.loc[idx, "fecha_cierre_real"] = datetime.now().strftime("%Y-%m-%d %H:%M")
-
-                estado["capital_actual"] = round(estado["capital_actual"] + float(pos["monto_usdc"]) + pnl, 2)
-                estado["capital_en_riesgo"] = round(max(0.0, estado["capital_en_riesgo"] - float(pos["monto_usdc"])), 2)
-                estado["n_sl"] += 1
-                
-                log.info(f"🔒 [STOP_LOSS] Salida ejecutada: {pos['pregunta'][:40]} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
-                continue
 
             # C. VALIDACIÓN FAILSAFE: Comprobar si el trader aún mantiene la posición
             positions_trader = obtener_posiciones_usuario(wallet_objetivo)
