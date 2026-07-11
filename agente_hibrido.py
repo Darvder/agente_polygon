@@ -407,6 +407,15 @@ def verificar_salidas(df, estado, mercados_actuales):
     if df.empty: return df, 0
     active_ids = {str(m["id"]) for m in mercados_actuales}
     
+    copy_market_ids = set()
+    archivo_copy = "datos_polymarket/copy_trading/libro_copy.csv"
+    if os.path.exists(archivo_copy):
+        try:
+            df_copy = pd.read_csv(archivo_copy)
+            copy_market_ids = {str(mid) for mid in df_copy["market_id"].tolist()}
+        except Exception as e:
+            log.warning(f"Error cargando copy_market_ids: {e}")
+    
     bid_dict = {str(m["id"]): m["best_bid"] for m in mercados_actuales if "best_bid" in m}
     ask_dict = {str(m["id"]): m["best_ask"] for m in mercados_actuales if "best_ask" in m}
     
@@ -467,27 +476,36 @@ def verificar_salidas(df, estado, mercados_actuales):
                 sl_pos = float(pos.get("sl_dinamico", -0.07))
                 h_max = float(pos.get("horas_max", 6))
                 
+                is_pri_trade = m_id in copy_market_ids
+                
                 # Para contratos baratos (entrada < $0.12), flexibilizamos el Stop Loss a un mínimo de -40%
                 pte = float(pos.get("precio_token_entrada", 0.5))
                 sl_efectivo = min(sl_pos, -0.40) if pte < 0.12 else sl_pos
                 
-                # Trailing SL: si el retorno supera +4.0% y el SL actual es negativo, subimos el SL a Break-Even (0.0%)
-                if pct >= 0.04 and sl_pos < 0.0:
-                    log.info(f"📈 [TRAILING SL] {pos['pregunta'][:40]} | Retorno {pct:+.1%} >= +4.0% | Subiendo SL a Break-Even (0.0%)")
-                    df.loc[idx, "sl_dinamico"] = 0.0
-                    sl_efectivo = 0.0
-                
-                if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
-                    razon = "EARLY_EXIT"
-                elif pct >= tp_pos: 
-                    razon = "TAKE_PROFIT"
-                    estado["n_tp"] = estado.get("n_tp", 0) + 1
-                elif pct <= sl_efectivo: 
-                    razon = "STOP_LOSS"
-                    estado["n_sl"] = estado.get("n_sl", 0) + 1
-                elif h >= h_max:    
-                    razon = "TIME_EXIT"
-                    estado["n_time"] = estado.get("n_time", 0) + 1
+                if is_pri_trade:
+                    # Para prioritarios (Whales), no aplicamos TP, SL ni Early Exit dinámicos para evitar salir en pérdidas por micro-ruido.
+                    # Dejamos que corra hasta la resolución natural (is_active = False) o vencimiento.
+                    if h >= h_max:
+                        razon = "TIME_EXIT"
+                        estado["n_time"] = estado.get("n_time", 0) + 1
+                else:
+                    # Trailing SL: si el retorno supera +4.0% y el SL actual es negativo, subimos el SL a Break-Even (0.0%)
+                    if pct >= 0.04 and sl_pos < 0.0:
+                        log.info(f"📈 [TRAILING SL] {pos['pregunta'][:40]} | Retorno {pct:+.1%} >= +4.0% | Subiendo SL a Break-Even (0.0%)")
+                        df.loc[idx, "sl_dinamico"] = 0.0
+                        sl_efectivo = 0.0
+                    
+                    if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
+                        razon = "EARLY_EXIT"
+                    elif pct >= tp_pos: 
+                        razon = "TAKE_PROFIT"
+                        estado["n_tp"] = estado.get("n_tp", 0) + 1
+                    elif pct <= sl_efectivo: 
+                        razon = "STOP_LOSS"
+                        estado["n_sl"] = estado.get("n_sl", 0) + 1
+                    elif h >= h_max:    
+                        razon = "TIME_EXIT"
+                        estado["n_time"] = estado.get("n_time", 0) + 1
 
             if razon:
                 pnl = round(float(pos["monto_usdc"]) * pct, 2)

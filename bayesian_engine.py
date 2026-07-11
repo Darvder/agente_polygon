@@ -216,6 +216,11 @@ class BayesianEngine:
         if df.empty:
             return
 
+        # Excluir la billetera perdedora de béisbol para no envenenar el modelo bayesiano
+        bad_whale = "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        if "target_wallet" in df.columns:
+            df = df[df["target_wallet"] != bad_whale]
+
         # Eliminar duplicados por market_id (conservando la fila con menos nulos, es decir, la del híbrido que tiene datos LLM)
         df["n_nulos"] = df.isnull().sum(axis=1)
         df = df.sort_values("n_nulos").drop_duplicates(subset=["market_id"], keep="first")

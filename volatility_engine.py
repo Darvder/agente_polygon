@@ -18,13 +18,13 @@ CLOB_URL = "https://clob.polymarket.com"
 TIMEOUT  = 15
 
 # Valores por defecto (si no hay datos históricos)
-DEFAULT_TP    = 0.09
-DEFAULT_SL    = -0.07
+DEFAULT_TP    = 0.30
+DEFAULT_SL    = -0.20
 DEFAULT_HORAS = 4
 
-# Límites absolutos
-MIN_TP = 0.04; MAX_TP = 0.25
-MIN_SL = -0.15; MAX_SL = -0.03
+# Límites absolutos para evitar stops ultra-sensibles
+MIN_TP = 0.15; MAX_TP = 0.75
+MIN_SL = -0.50; MAX_SL = -0.10
 MIN_H  = 2;    MAX_H  = 6
 
 CACHE_FILE  = "datos_polymarket/paper_trading/volatility_cache.json"

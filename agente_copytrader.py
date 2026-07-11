@@ -447,12 +447,12 @@ async def procesar_copy_trading():
 
             df.loc[idx, "precio_actual"] = precio_actual
 
-            # B. CONTROL DE STOP-LOSS (SL) DE SEGURIDAD (Propuesta 3 - SL del 10%)
-            # Si el precio actual del token cae más del 10% respecto a nuestro precio de entrada,
+            # B. CONTROL DE STOP-LOSS (SL) DE SEGURIDAD (Failsafe catastrófico del 50%)
+            # Si el precio actual del token cae más del 50% respecto a nuestro precio de entrada,
             # ejecutamos una salida por Stop-Loss de forma inmediata.
             pte = float(pos["precio_token_entrada"])
             pct_retorno = (precio_actual - pte) / pte if pte > 0 else 0.0
-            limite_sl = -0.10  # Stop-Loss del 10%
+            limite_sl = -0.50  # Stop-Loss del 50% (Failsafe)
 
             if pct_retorno <= limite_sl:
                 log.info(f"🚨 [STOP_LOSS] Posición {pos['pregunta'][:35]} alcanzó Stop-Loss: retorno={pct_retorno:+.1%} <= {limite_sl:+.1%}")
