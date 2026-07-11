@@ -529,6 +529,101 @@ def verificar_salidas(df, estado, mercados_actuales):
     guardar_libro(df)
     return df, cerradas
 
+async def auditar_posiciones_activas_llm(df, estado, cliente_news):
+    """
+    Realiza una auditoría activa de riesgo sobre las posiciones abiertas.
+    Si una posición está en pérdida y las noticias/datos indican que el resultado es irreversible,
+    recomienda un EARLY_EXIT_FAILSAFE para salvar parte del capital.
+    """
+    abiertas = df[df["estado"] == "ABIERTA"].copy()
+    if abiertas.empty:
+        return df
+
+    ahora = datetime.now()
+    log.info(f"🔍 [AUDITORÍA LLM] Analizando {len(abiertas)} posiciones abiertas...")
+
+    for idx, pos in abiertas.iterrows():
+        try:
+            m_id = str(pos["market_id"])
+            pregunta = pos["pregunta"]
+            pte = float(pos["precio_token_entrada"])
+            precio_actual = float(pos.get("precio_actual", pte))
+            pct = (precio_actual - pte) / pte if pte > 0 else 0.0
+
+            # Solo auditamos pérdidas significativas (menores a -15%) para optimizar llamadas al LLM
+            if pct > -0.15:
+                continue
+
+            log.info(f"⚠️ [AUDITORÍA LLM] {pregunta[:40]} en pérdida ({pct:+.1%}). Evaluando con IA...")
+
+            # 1. Obtener noticias en tiempo real
+            nots = await asyncio.to_thread(noticias, pregunta, cliente_news)
+            noticias_str = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias recientes."
+
+            # 2. Consultar al modelo de IA
+            prompt = f"""Eres un auditor de riesgo experto para mercados de Polymarket.
+Tenemos una posición ABIERTA en el siguiente mercado:
+Mercado: {pregunta}
+Nuestra opción elegida: {pos.get('outcome', pos.get('señal', ''))}
+Precio de entrada: {pte} USDC
+Precio actual: {precio_actual} USDC (Pérdida: {pct:+.1%})
+
+Últimas noticias / Resultados recientes del evento:
+{noticias_str}
+
+Tu tarea es evaluar si esta pérdida es ruido normal del mercado (ej. fluctuaciones normales en vivo durante un partido, volatilidad de encuestas) o si realmente el evento ya tiene un desenlace inevitable en nuestra contra (ej. el equipo va perdiendo por goleada a falta de pocos minutos, se confirmó una lesión/evento clave irreversible, o el mercado ya se definió en contra).
+
+Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (sin markdown ni explicaciones externas):
+{{
+  "decision": "HOLD" o "EXIT",
+  "confianza": número entre 0.0 y 1.0,
+  "razonamiento": "Explicación detallada de por qué decidimos mantener (HOLD) o salir (EXIT)."
+}}
+
+Solo recomienda "EXIT" si estás extremadamente seguro (confianza >= 0.85) de que es imposible ganar. En caso contrario o si tienes dudas sobre el resultado en vivo, responde "HOLD".
+"""
+            respuesta_json = None
+            try:
+                chat_completion = await cliente_llm.chat.completions.create(
+                    messages=[
+                        {"role": "system", "content": "Eres un analista de mercados de precisión. Responde estrictamente en formato JSON."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    model="llama-3.1-70b-versatile",
+                    response_format={"type": "json_object"},
+                    temperature=0.1
+                )
+                res_text = chat_completion.choices[0].message.content
+                respuesta_json = json.loads(res_text)
+            except Exception as e:
+                log.warning(f"Error en llamada Groq para auditoría idx={idx}: {e}")
+
+            if respuesta_json:
+                decision = respuesta_json.get("decision", "HOLD")
+                confianza = float(respuesta_json.get("confianza", 0.0))
+                razonamiento = respuesta_json.get("razonamiento", "")
+
+                log.info(f"🧠 [AUDITORÍA LLM] {pregunta[:35]} | Decisión: {decision} ({confianza:.0%}) | Razón: {razonamiento[:75]}...")
+
+                if decision == "EXIT" and confianza >= 0.80:
+                    log.info(f"🚨 [FAILSAFE LLM] Exponiendo salida de emergencia para salvar capital en {pregunta[:40]}")
+                    
+                    df.loc[idx, "estado"] = "CERRADA"
+                    df.loc[idx, "precio_cierre"] = precio_actual
+                    df.loc[idx, "pct_cambio"] = round(pct, 4)
+                    df.loc[idx, "pnl_realizado"] = round(float(pos["monto_usdc"]) * pct, 2)
+                    df.loc[idx, "razon_cierre"] = "EARLY_EXIT_FAILSAFE"
+                    df.loc[idx, "fecha_cierre_real"] = ahora.strftime("%Y-%m-%d %H:%M")
+
+                    pnl = round(float(pos["monto_usdc"]) * pct, 2)
+                    estado["capital_actual"] = round(estado.get("capital_actual", 1000.0) + float(pos["monto_usdc"]) + pnl, 2)
+                    estado["capital_en_riesgo"] = round(max(0.0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"])), 2)
+
+        except Exception as e:
+            log.warning(f"Error procesando auditoría pos idx={idx}: {e}")
+
+    return df
+
 async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news):
     nombre_m = m["pregunta"][:35]
 
@@ -888,6 +983,31 @@ async def ciclo():
     # 4. Verificar salidas (Incluye la nueva lógica de Early Exit)
     df, n_cerradas = verificar_salidas(df, estado, mercados)
     if n_cerradas: guardar_estado(estado)
+
+    # 4.5 Auditoría Activa de Riesgo mediante LLM para Posiciones Abiertas (Híbrido)
+    df = await auditar_posiciones_activas_llm(df, estado, cliente_news)
+    guardar_libro(df)
+    guardar_estado(estado)
+
+    # 4.6 Auditoría Activa de Riesgo mediante LLM para el Copy Trader
+    archivo_copy = "datos_polymarket/copy_trading/libro_copy.csv"
+    archivo_estado_copy = "datos_polymarket/copy_trading/estado_copy.json"
+    if os.path.exists(archivo_copy) and os.path.exists(archivo_estado_copy):
+        try:
+            df_copy = pd.read_csv(archivo_copy)
+            with open(archivo_estado_copy, "r") as f:
+                estado_copy = json.load(f)
+            
+            df_copy_orig = df_copy.copy()
+            df_copy = await auditar_posiciones_activas_llm(df_copy, estado_copy, cliente_news)
+            
+            if not df_copy.equals(df_copy_orig):
+                df_copy.to_csv(archivo_copy, index=False)
+                with open(archivo_estado_copy, "w") as f:
+                    json.dump(estado_copy, f, indent=2)
+                log.info("💾 [AUDITORÍA LLM] Libro y estado del Copy-Trader actualizados con salidas de emergencia.")
+        except Exception as e:
+            log.warning(f"Error en la auditoría del Copy-Trader: {e}")
 
 
 
