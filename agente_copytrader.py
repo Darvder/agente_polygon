@@ -331,6 +331,19 @@ async def procesar_copy_trading():
                     cache.add(tx_hash)
                     continue
 
+                # NUEVO BLINDAJE 1: Filtro de precio máximo de entrada (Evitar contratos con pésima relación riesgo/beneficio)
+                if precio_token_actual > 0.85:
+                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de precio máximo: Entrada a {precio_token_actual:.3f} es mayor a 0.85 USDC (Riesgo/Beneficio desfavorable). Omitiendo.")
+                    cache.add(tx_hash)
+                    continue
+
+                # NUEVO BLINDAJE 2: Filtro de liquidez mínima (Evitar mercados ilíquidos con spreads abusivos)
+                volumen_m = float(market.get("volumeNum", 0))
+                if volumen_m < 10000:
+                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de volumen mínimo: Volumen del mercado (${volumen_m:,.2f} USD) es menor a $10,000 USD. Omitiendo.")
+                    cache.add(tx_hash)
+                    continue
+
                 # Comprobar el slippage
                 desfase_precio = abs(precio_token_actual - target_price)
                 if desfase_precio > max_slippage:
