@@ -1,1 +1,1 @@
-fecha_entrada,fecha_entrada_dt,market_id,pregunta,señal,precio_entrada,precio_token_entrada,precio_actual,tp_dinamico,sl_dinamico,horas_max,monto_usdc,estado,razonamiento,llm_confianza,llm_edge,vol_1d,precio_cierre,pct_cambio,pnl_realizado,razon_cierre,fecha_cierre_real,momentum_1h
+fecha_entrada,fecha_entrada_dt,market_id,pregunta,señal,precio_entrada,precio_token_entrada,precio_actual,precio_cierre,pct_cambio,tp_dinamico,sl_dinamico,horas_max,monto_usdc,estado,fecha_cierre_real,pnl_realizado,razonamiento,razon_cierre,llm_confianza,llm_edge,vol_1d,momentum_1h
