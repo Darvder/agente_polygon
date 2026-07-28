@@ -46,12 +46,12 @@ MODELOS_LLM = [
 BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 15
 
-# ── Parámetros globales relajados para maximizar la actividad en paper-trading ──
-MIN_EDGE        = 0.002   # Bajado a 0.2% para permitir más operaciones en fase de aprendizaje activo
-MIN_CONFIANZA   = 0.30    # Bajado a 30% para máxima actividad operativa
-MIN_VOLUMEN     = 200     # Bajado a 200 USD para considerar casi cualquier mercado
-MAX_SPREAD      = 0.10    # Subido al 10% para permitir más oportunidades en mercados volátiles
-MIN_PRECIO      = 0.01    # Permite buscar oportunidades en "long-shots" muy baratos
+# ── Parámetros globales estrictos y defensivos para evitar pérdidas ──
+MIN_EDGE        = 0.02    # Exige una ventaja real y significativa (2.0%)
+MIN_CONFIANZA   = 0.50    # Operar solo con confianza moderada/alta (50.0%)
+MIN_VOLUMEN     = 5000    # Entrar solo en mercados con liquidez sólida ($5,000+)
+MAX_SPREAD      = 0.05    # Limitar el spread máximo al 5.0%
+MIN_PRECIO      = 0.35    # Evitar contratos especulativos baratos (< 0.35 USDC)
 MAX_PRECIO      = 0.99    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
 MIN_DIAS        = 1       
@@ -104,7 +104,7 @@ PROMPT = """Eres un sistema algorítmico avanzado de arbitraje y calibración pr
 1. Aplica la Sabiduría de Masas: El precio de mercado ({precio:.1%}) ya descuenta la información general. Solo debes diferir del precio si las noticias proveen un catalizador contundente que el mercado aún no ha procesado (asimetría informática).
 2. Evita la Sobreconfianza: No asignes valores extremos (0% o 100%) a eventos con incertidumbre estructural (política, deportes, tecnología). Calibrar significa ser conservador.
 3. Factor de Decaimiento Temporal: Si faltan muchos días para la resolución, las probabilidades tienden a ser menos extremas debido al riesgo latente.
-4. Anclaje de Precios por Falta de Información: Si la sección de noticias dice 'Sin noticias...' o si las noticias no aportan información nueva que altere la probabilidad del evento, tu estimación de probabilidad ("estimacion") DEBE ser exactamente la probabilidad de mercado actual (es decir, {precio:.1%}, que equivale al número entero {precio_entero}). No uses estimaciones genéricas como 50 si el mercado cotiza a un precio extremo.
+4. Anclaje de Precios por Falta de Información: Si la sección de noticias dice 'Sin noticias...' o si las noticias no aportan información nueva, tu estimación de probabilidad ("estimacion") debe ser cercana a la probabilidad de mercado actual, a menos que se trate de eventos deportivos o poseas conocimiento estadístico/histórico contundente que justifique diferir del precio de mercado. No uses estimaciones genéricas como 50 si el mercado cotiza a un precio extremo.
 
 CRITICAL FORMAT INSTRUCTIONS:
 You MUST respond with a single, perfectly formatted JSON object. 
@@ -183,6 +183,164 @@ def cargar_libro():
 def guardar_libro(df): df.to_csv(ARCHIVO_LIBRO,index=False)
 
 
+def _procesar_mercado_crudo(m, hoy):
+    """Procesa y valida los metadatos de un mercado individual contra los filtros globales del Híbrido."""
+    q = m.get("question", "")
+    if any(p in q.lower() for p in PATRONES_EXCLUIR):
+        return None
+    try:
+        bid = float(m.get("bestBid", 0))
+        ask = float(m.get("bestAsk", 0))
+    except:
+        return None
+    if bid <= 0 or ask <= 0:
+        return None
+    sp = round(ask - bid, 4)
+    mid = round((bid + ask) / 2, 4)
+    if sp > MAX_SPREAD or mid < MIN_PRECIO or mid > MAX_PRECIO:
+        return None
+    try:
+        vol = float(m.get("volume", 0))
+    except:
+        vol = 0.0
+    if vol < MIN_VOLUMEN:
+        return None
+    fs = m.get("endDate", "")[:10]
+    if not fs:
+        return None
+    try:
+        dias = (datetime.strptime(fs, "%Y-%m-%d").date() - hoy).days
+    except:
+        return None
+    if dias < MIN_DIAS or dias > MAX_DIAS:
+        return None
+    return {
+        "id": m.get("id", q[:30]),
+        "pregunta": q,
+        "mid_price": mid,
+        "spread": sp,
+        "best_bid": bid,
+        "best_ask": ask,
+        "volumen_usd": vol,
+        "dias": dias,
+        "fecha_cierre": fs
+    }
+
+
+def _procesar_mercado_prioritario(m, hoy):
+    """Procesa y valida los metadatos de un mercado prioritario (Whale trade) con filtros muy relajados."""
+    q = m.get("question", "")
+    if any(p in q.lower() for p in PATRONES_EXCLUIR):
+        return None
+    try:
+        bid = float(m.get("bestBid", 0))
+        ask = float(m.get("bestAsk", 0))
+    except:
+        return None
+    if bid <= 0 or ask <= 0:
+        return None
+    sp = round(ask - bid, 4)
+    mid = round((bid + ask) / 2, 4)
+    # Para prioritarios, permitimos un spread mayor (hasta 10%) y precios entre 2% y 98%
+    if sp > 0.10 or mid < 0.02 or mid > 0.98:
+        return None
+    try:
+        vol = float(m.get("volume", 0))
+    except:
+        vol = 0.0
+    # Permitimos cualquier volumen mayor o igual a $100 ya que la Whale operó ahí
+    if vol < 100:
+        return None
+    fs = m.get("endDate", "")[:10]
+    if not fs:
+        return None
+    try:
+        dias = (datetime.strptime(fs, "%Y-%m-%d").date() - hoy).days
+    except:
+        return None
+    # Permitimos mercados que cierren hoy mismo o en el futuro (dias >= 0)
+    if dias < 0 or dias > MAX_DIAS:
+        return None
+    return {
+        "id": m.get("id", q[:30]),
+        "pregunta": q,
+        "mid_price": mid,
+        "spread": sp,
+        "best_bid": bid,
+        "best_ask": ask,
+        "volumen_usd": vol,
+        "dias": dias,
+        "fecha_cierre": fs
+    }
+
+
+def cargar_prioritarios(mercados):
+    """Carga los ID de mercados prioritarios desde el queue, los filtra y vacía la cola."""
+    archivo_queue = "datos_polymarket/paper_trading/priority_queue.json"
+    if not os.path.exists(archivo_queue):
+        return []
+        
+    try:
+        with open(archivo_queue, "r") as f:
+            queue = json.load(f)
+    except Exception as e:
+        log.warning(f"Error al leer la cola de prioridad: {e}")
+        return []
+        
+    if not queue:
+        return []
+        
+    # Obtener los IDs de mercado únicos que están en la cola para preservar orden e id
+    ids_vistos = set()
+    seleccionados = []
+    hoy = datetime.now().date()
+    
+    for item in queue:
+        mid = str(item.get("id"))
+        if not mid or mid == "None":
+            continue
+        if mid in ids_vistos:
+            continue
+        ids_vistos.add(mid)
+        
+        # 1. Buscar en mercados escaneados
+        mercado_clob = next((m for m in mercados if str(m.get("id")) == mid), None)
+        
+        # 2. Si no está en el lote de escaneo general, consultar individualmente a la Gamma API
+        if not mercado_clob:
+            log.info(f"🔍 Mercado prioritario {mid} no encontrado en el escaneo general. Consultando Gamma API directamente...")
+            try:
+                time.sleep(1.0)
+                url = f"https://gamma-api.polymarket.com/markets/{mid}"
+                r = requests.get(url, timeout=TIMEOUT)
+                if r.status_code == 200 and r.json():
+                    m_data = r.json()
+                    res = _procesar_mercado_prioritario(m_data, hoy)
+                    if res:
+                        mercado_clob = res
+                        log.info(f"✅ Mercado prioritario {mid} recuperado y validado con éxito.")
+                    else:
+                        log.info(f"⚠️ Mercado prioritario {mid} no superó los filtros de elegibilidad del Híbrido.")
+            except Exception as e:
+                log.warning(f"Error consultando Gamma API para mercado prioritario {mid}: {e}")
+                
+        if mercado_clob:
+            mercado_clob = mercado_clob.copy()
+            mercado_clob["_whale_wallet"] = item.get("whale_wallet")
+            mercado_clob["_whale_signal"] = item.get("whale_signal")
+            seleccionados.append(mercado_clob)
+            
+    # Limpiar el archivo de cola
+    try:
+        with open(archivo_queue, "w") as f:
+            json.dump([], f, indent=2)
+        log.info(f"🧹 Cola de prioridad vaciada. Mercados prioritarios cargados y activos: {len(seleccionados)}")
+    except Exception as e:
+        log.warning(f"Error al limpiar la cola de prioridad: {e}")
+        
+    return seleccionados
+
+
 # ── Scanner ────────────────────────────────────────────────────────
 
 def escanear():
@@ -221,24 +379,9 @@ def escanear():
 
     mercados = []
     for m in raw:
-        try:
-            q = m.get("question","")
-            if any(p in q.lower() for p in PATRONES_EXCLUIR): continue
-            bid=float(m.get("bestBid",0)); ask=float(m.get("bestAsk",0))
-            if bid<=0 or ask<=0: continue
-            sp=round(ask-bid,4); mid=round((bid+ask)/2,4)
-            if sp>MAX_SPREAD or mid<MIN_PRECIO or mid>MAX_PRECIO: continue
-            if float(m.get("volume",0))<MIN_VOLUMEN: continue
-            fs=m.get("endDate","")[:10]
-            if not fs: continue
-            dias=(datetime.strptime(fs,"%Y-%m-%d").date()-hoy).days
-            if dias<MIN_DIAS or dias>MAX_DIAS: continue
-            mercados.append({"id":m.get("id",q[:30]),"pregunta":q,
-                            "mid_price":mid,"spread":sp,
-                            "best_bid":bid,"best_ask":ask,
-                            "volumen_usd":float(m.get("volume",0)),
-                            "dias":dias,"fecha_cierre":fs})
-        except: continue
+        res = _procesar_mercado_crudo(m, hoy)
+        if res:
+            mercados.append(res)
     log.info(f"Mercados escaneados: {len(raw)} | Elegibles: {len(mercados)}")
     return mercados
 
@@ -263,6 +406,15 @@ def noticias(pregunta, cn):
 def verificar_salidas(df, estado, mercados_actuales):
     if df.empty: return df, 0
     active_ids = {str(m["id"]) for m in mercados_actuales}
+    
+    copy_market_ids = set()
+    archivo_copy = "datos_polymarket/copy_trading/libro_copy.csv"
+    if os.path.exists(archivo_copy):
+        try:
+            df_copy = pd.read_csv(archivo_copy)
+            copy_market_ids = {str(mid) for mid in df_copy["market_id"].tolist()}
+        except Exception as e:
+            log.warning(f"Error cargando copy_market_ids: {e}")
     
     bid_dict = {str(m["id"]): m["best_bid"] for m in mercados_actuales if "best_bid" in m}
     ask_dict = {str(m["id"]): m["best_ask"] for m in mercados_actuales if "best_ask" in m}
@@ -324,17 +476,36 @@ def verificar_salidas(df, estado, mercados_actuales):
                 sl_pos = float(pos.get("sl_dinamico", -0.07))
                 h_max = float(pos.get("horas_max", 6))
                 
-                if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
-                    razon = "EARLY_EXIT"
-                elif pct >= tp_pos: 
-                    razon = "TAKE_PROFIT"
-                    estado["n_tp"] = estado.get("n_tp", 0) + 1
-                elif pct <= sl_pos: 
-                    razon = "STOP_LOSS"
-                    estado["n_sl"] = estado.get("n_sl", 0) + 1
-                elif h >= h_max:    
-                    razon = "TIME_EXIT"
-                    estado["n_time"] = estado.get("n_time", 0) + 1
+                is_pri_trade = m_id in copy_market_ids
+                
+                # Para contratos baratos (entrada < $0.12), flexibilizamos el Stop Loss a un mínimo de -40%
+                pte = float(pos.get("precio_token_entrada", 0.5))
+                sl_efectivo = min(sl_pos, -0.40) if pte < 0.12 else sl_pos
+                
+                if is_pri_trade:
+                    # Para prioritarios (Whales), no aplicamos TP, SL ni Early Exit dinámicos para evitar salir en pérdidas por micro-ruido.
+                    # Dejamos que corra hasta la resolución natural (is_active = False) o vencimiento.
+                    if h >= h_max:
+                        razon = "TIME_EXIT"
+                        estado["n_time"] = estado.get("n_time", 0) + 1
+                else:
+                    # Trailing SL: si el retorno supera +4.0% y el SL actual es negativo, subimos el SL a Break-Even (0.0%)
+                    if pct >= 0.04 and sl_pos < 0.0:
+                        log.info(f"📈 [TRAILING SL] {pos['pregunta'][:40]} | Retorno {pct:+.1%} >= +4.0% | Subiendo SL a Break-Even (0.0%)")
+                        df.loc[idx, "sl_dinamico"] = 0.0
+                        sl_efectivo = 0.0
+                    
+                    if pct >= (tp_pos * 0.80) and h < (h_max * 0.20):
+                        razon = "EARLY_EXIT"
+                    elif pct >= tp_pos: 
+                        razon = "TAKE_PROFIT"
+                        estado["n_tp"] = estado.get("n_tp", 0) + 1
+                    elif pct <= sl_efectivo: 
+                        razon = "STOP_LOSS"
+                        estado["n_sl"] = estado.get("n_sl", 0) + 1
+                    elif h >= h_max:    
+                        razon = "TIME_EXIT"
+                        estado["n_time"] = estado.get("n_time", 0) + 1
 
             if razon:
                 pnl = round(float(pos["monto_usdc"]) * pct, 2)
@@ -358,26 +529,133 @@ def verificar_salidas(df, estado, mercados_actuales):
     guardar_libro(df)
     return df, cerradas
 
+async def auditar_posiciones_activas_llm(df, estado, cliente_news):
+    """
+    Realiza una auditoría activa de riesgo sobre las posiciones abiertas.
+    Si una posición está en pérdida y las noticias/datos indican que el resultado es irreversible,
+    recomienda un EARLY_EXIT_FAILSAFE para salvar parte del capital.
+    """
+    abiertas = df[df["estado"] == "ABIERTA"].copy()
+    if abiertas.empty:
+        return df
+
+    ahora = datetime.now()
+    log.info(f"🔍 [AUDITORÍA LLM] Analizando {len(abiertas)} posiciones abiertas...")
+
+    for idx, pos in abiertas.iterrows():
+        try:
+            m_id = str(pos["market_id"])
+            pregunta = pos["pregunta"]
+            pte = float(pos["precio_token_entrada"])
+            precio_actual = float(pos.get("precio_actual", pte))
+            pct = (precio_actual - pte) / pte if pte > 0 else 0.0
+
+            # Solo auditamos pérdidas significativas (menores a -15%) para optimizar llamadas al LLM
+            if pct > -0.15:
+                continue
+
+            log.info(f"⚠️ [AUDITORÍA LLM] {pregunta[:40]} en pérdida ({pct:+.1%}). Evaluando con IA...")
+
+            # 1. Obtener noticias en tiempo real
+            nots = await asyncio.to_thread(noticias, pregunta, cliente_news)
+            noticias_str = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias recientes."
+
+            # 2. Consultar al modelo de IA
+            prompt = f"""Eres un auditor de riesgo experto para mercados de Polymarket.
+Tenemos una posición ABIERTA en el siguiente mercado:
+Mercado: {pregunta}
+Nuestra opción elegida: {pos.get('outcome', pos.get('señal', ''))}
+Precio de entrada: {pte} USDC
+Precio actual: {precio_actual} USDC (Pérdida: {pct:+.1%})
+
+Últimas noticias / Resultados recientes del evento:
+{noticias_str}
+
+Tu tarea es evaluar si esta pérdida es ruido normal del mercado (ej. fluctuaciones normales en vivo durante un partido, volatilidad de encuestas) o si realmente el evento ya tiene un desenlace inevitable en nuestra contra (ej. el equipo va perdiendo por goleada a falta de pocos minutos, se confirmó una lesión/evento clave irreversible, o el mercado ya se definió en contra).
+
+Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (sin markdown ni explicaciones externas):
+{{
+  "decision": "HOLD" o "EXIT",
+  "confianza": número entre 0.0 y 1.0,
+  "razonamiento": "Explicación detallada de por qué decidimos mantener (HOLD) o salir (EXIT)."
+}}
+
+Solo recomienda "EXIT" si estás extremadamente seguro (confianza >= 0.85) de que es imposible ganar. En caso contrario o si tienes dudas sobre el resultado en vivo, responde "HOLD".
+"""
+            respuesta_json = None
+            try:
+                chat_completion = await cliente_llm.chat.completions.create(
+                    messages=[
+                        {"role": "system", "content": "Eres un analista de mercados de precisión. Responde estrictamente en formato JSON."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    model="llama-3.1-70b-versatile",
+                    response_format={"type": "json_object"},
+                    temperature=0.1
+                )
+                res_text = chat_completion.choices[0].message.content
+                respuesta_json = json.loads(res_text)
+            except Exception as e:
+                log.warning(f"Error en llamada Groq para auditoría idx={idx}: {e}")
+
+            if respuesta_json:
+                decision = respuesta_json.get("decision", "HOLD")
+                confianza = float(respuesta_json.get("confianza", 0.0))
+                razonamiento = respuesta_json.get("razonamiento", "")
+
+                log.info(f"🧠 [AUDITORÍA LLM] {pregunta[:35]} | Decisión: {decision} ({confianza:.0%}) | Razón: {razonamiento[:75]}...")
+
+                if decision == "EXIT" and confianza >= 0.80:
+                    log.info(f"🚨 [FAILSAFE LLM] Exponiendo salida de emergencia para salvar capital en {pregunta[:40]}")
+                    
+                    df.loc[idx, "estado"] = "CERRADA"
+                    df.loc[idx, "precio_cierre"] = precio_actual
+                    df.loc[idx, "pct_cambio"] = round(pct, 4)
+                    df.loc[idx, "pnl_realizado"] = round(float(pos["monto_usdc"]) * pct, 2)
+                    df.loc[idx, "razon_cierre"] = "EARLY_EXIT_FAILSAFE"
+                    df.loc[idx, "fecha_cierre_real"] = ahora.strftime("%Y-%m-%d %H:%M")
+
+                    pnl = round(float(pos["monto_usdc"]) * pct, 2)
+                    estado["capital_actual"] = round(estado.get("capital_actual", 1000.0) + float(pos["monto_usdc"]) + pnl, 2)
+                    estado["capital_en_riesgo"] = round(max(0.0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"])), 2)
+
+        except Exception as e:
+            log.warning(f"Error procesando auditoría pos idx={idx}: {e}")
+
+    return df
+
 async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news):
     nombre_m = m["pregunta"][:35]
 
-    # 1. Ya Abierta (Filtro ultrarrápido sin semáforos)
-    if m["pregunta"][:70] in set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set():
-        log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
-        return None
+    is_prioritario = "_whale_wallet" in m
 
-    # 2. Event Detector
-    puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
-    if not puede:
-        log.info(f"❌ {nombre_m} | EventDetector: {motivo}")
-        return None
+    # Reutilizar parámetros de volatilidad si ya fueron pre-calculados
+    if "_vol_tp" in m:
+        tp = m["_vol_tp"]
+        sl = m["_vol_sl"]
+        max_h = m["_vol_max_h"]
+        met = m["_vol_met"]
+    else:
+        # 1. Ya Abierta (Filtro ultrarrápido sin semáforos)
+        if m["pregunta"][:70] in set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set():
+            log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
+            return None
 
-    # 3. Volatilidad ANTES de Groq (relajado para aprendizaje activo)
-    tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
-    MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
-    if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
-        log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
-        return None
+        # 2. Event Detector
+        puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
+        if not puede:
+            log.info(f"❌ {nombre_m} | EventDetector: {motivo}")
+            return None
+
+        # 3. Volatilidad ANTES de Groq (relajado para aprendizaje activo)
+        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
+        if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
+            log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
+            return None
+
+    if is_prioritario:
+        max_h = 24
 
     # Inyectar momentum real al mercado para el prompt del LLM
     m["cambio_1h"] = met.get("cambio_1h", 0.0) if met else 0.0
@@ -387,7 +665,10 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     log.info(f"Vol [{m['id']}]: tp={int(tp*100)}% sl={int(sl*100)}% h={int(max_h)}h vol={vol_val:.3f} pulsos={pulsos_val}")
 
     # 4. Noticias (Ejecución asíncrona fluida)
-    nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
+    if "_noticias" in m:
+        nots = m["_noticias"]
+    else:
+        nots = await asyncio.to_thread(noticias, m["pregunta"], cliente_news)
     nots_txt = "\n".join([f"- [{n['f']}] {n['s']}: {n['t']}" for n in nots]) if nots else "Sin noticias recientes en prensa."
 
     # 5. Configuración del Prompt CoT Optimizado
@@ -444,18 +725,44 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     confianza   = float(an.get("confianza", 0.5))
     hay_noticia = bool(an.get("hay_noticia", False))
-    diferencia  = estimacion - m["mid_price"]
-    edge_neto   = round(abs(diferencia) - m["spread"], 4)
+    
+    # ⚡ STRICT NEWS FILTER:
+    # Bloqueo total de transacciones si la IA no detecta una noticia relevante (hay_noticia es False).
+    if not hay_noticia and not is_prioritario:
+        log.info(f"❌ {nombre_m} | Bloqueado: No hay noticias relevantes encontradas por la IA (Strict News Filter)")
+        return None
+        
+    whale_signal = m.get("_whale_signal")
+    if is_prioritario and whale_signal:
+        señal = whale_signal
+        if señal == "COMPRAR YES":
+            diferencia = estimacion - m["mid_price"]
+        else:
+            diferencia = m["mid_price"] - estimacion
+        edge_neto = round(diferencia - m["spread"], 4)
+    else:
+        diferencia  = estimacion - m["mid_price"]
+        edge_neto   = round(abs(diferencia) - m["spread"], 4)
+        señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
 
-    umbral = 0.002 if hay_noticia else 0.003
+    # ── Sinergia Whale-IA (Whale-AI Synergy) ──
+    if is_prioritario:
+        min_confianza_efectivo = 0.40
+        min_edge_efectivo = 0.01
+        log.info(f"🐳 [WHALE-AI SYNERGY] Analizando mercado prioritario de Whale ({m.get('_whale_wallet')[:10]}...). Límites ajustados (confianza >= 40%, edge >= 1.0%).")
+    else:
+        min_confianza_efectivo = MIN_CONFIANZA
+        min_edge_efectivo = MIN_EDGE
+
+    umbral = 0.002 if (hay_noticia or is_prioritario) else 0.003
     if edge_neto < umbral:
         log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
         return None
-    if edge_neto < MIN_EDGE:
-        log.info(f"❌ {nombre_m} | Edge mínimo ({edge_neto:.2%} < {MIN_EDGE:.2%})")
+    if edge_neto < min_edge_efectivo:
+        log.info(f"❌ {nombre_m} | Edge mínimo ({edge_neto:.2%} < {min_edge_efectivo:.2%})")
         return None
-    if confianza < MIN_CONFIANZA:
-        log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {MIN_CONFIANZA:.2f})")
+    if confianza < min_confianza_efectivo:
+        log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {min_confianza_efectivo:.2f})")
         return None
     if edge_neto > 0.80:
         log.info(f"❌ {nombre_m} | Edge muy alto ({edge_neto:.2%}) → señal dudosa")
@@ -463,7 +770,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 7.5 Bifurcación de Estrategias (Trend-Following vs Mean-Reversion) (Fase 9) (relajado)
     momentum_1h = met.get("cambio_1h", 0.0) if met else 0.0
-    if hay_noticia:
+    if hay_noticia or is_prioritario:
         # Modo Trend-Following (Seguidor de Tendencia): no operar contra momentum muy fuerte
         if diferencia > 0 and momentum_1h < -0.02:
             log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR YES pero momentum es bajista ({momentum_1h:+.1%}) → bloqueado")
@@ -503,8 +810,14 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         return None
 
     # 8. Motor Bayesiano
-    señal     = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
-    precio_tok = m["mid_price"] if señal == "COMPRAR YES" else round(1 - m["mid_price"], 4)
+    # señal ya calculada anteriormente para evitar sobreescribir la señal forzada de la Whale
+    # Corrección de spread: comprar al ask real para YES, y 1.0 - bid para NO
+    precio_tok = m["best_ask"] if señal == "COMPRAR YES" else round(1.0 - m["best_bid"], 4)
+
+    # Filtro estricto de precio del token para evitar contratos basura y asimetrías de cola
+    if precio_tok < 0.35 or precio_tok > 0.85:
+        log.info(f"❌ {nombre_m} | Precio del token de entrada ({precio_tok:.3f}) fuera de rango [0.35 - 0.85] → Bloqueado para evitar penny contracts.")
+        return None
 
     ok, score, feats = bayesian.should_trade(
         pregunta=nombre_m, precio_entrada=precio_tok, señal=señal,
@@ -520,12 +833,14 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # 9. Dimensionamiento de Posición (Kelly Dinámico) (Fase 10)
     ratio_capital = estado.get("capital_actual", CAPITAL_INICIAL) / CAPITAL_INICIAL
-    factor_kelly = 0.3
+    factor_kelly = 0.15
     if ratio_capital < 1.0:
-        factor_kelly = max(0.1, round(0.3 * ratio_capital, 3))
+        factor_kelly = max(0.05, round(0.15 * ratio_capital, 3))
         
     kelly = edge_neto * confianza * factor_kelly
     monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
+    if is_prioritario:
+        monto = max(monto, 10.0)
     log.info(f"💰 {nombre_m} | monto=${monto:.2f} vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%}")
     if monto < 1:
         log.info(f"❌ {nombre_m} | Monto ${monto:.2f} < $1")
@@ -674,25 +989,93 @@ async def ciclo():
     df, n_cerradas = verificar_salidas(df, estado, mercados)
     if n_cerradas: guardar_estado(estado)
 
+    # 4.5 Auditoría Activa de Riesgo mediante LLM para Posiciones Abiertas (Híbrido)
+    df = await auditar_posiciones_activas_llm(df, estado, cliente_news)
+    guardar_libro(df)
+    guardar_estado(estado)
+
+    # 4.6 Auditoría Activa de Riesgo mediante LLM para el Copy Trader
+    archivo_copy = "datos_polymarket/copy_trading/libro_copy.csv"
+    archivo_estado_copy = "datos_polymarket/copy_trading/estado_copy.json"
+    if os.path.exists(archivo_copy) and os.path.exists(archivo_estado_copy):
+        try:
+            df_copy = pd.read_csv(archivo_copy)
+            with open(archivo_estado_copy, "r") as f:
+                estado_copy = json.load(f)
+            
+            df_copy_orig = df_copy.copy()
+            df_copy = await auditar_posiciones_activas_llm(df_copy, estado_copy, cliente_news)
+            
+            if not df_copy.equals(df_copy_orig):
+                df_copy.to_csv(archivo_copy, index=False)
+                with open(archivo_estado_copy, "w") as f:
+                    json.dump(estado_copy, f, indent=2)
+                log.info("💾 [AUDITORÍA LLM] Libro y estado del Copy-Trader actualizados con salidas de emergencia.")
+        except Exception as e:
+            log.warning(f"Error en la auditoría del Copy-Trader: {e}")
 
 
-    # 2. CREAR TAREAS ASÍNCRONAS EN PARALELO
-    # Filtramos los top 40 mercados con mayor volumen para optimizar la cuota de tokens
-    # Ordenar por volumen (más líquidos primero) y tomar top 60
-    import random
-    top200 = sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)[:200]
-    mercados_a_revisar = random.sample(top200, min(40, len(top200)))
-    
-    tareas = [
-        procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
-        for m in mercados_a_revisar
-    ]
 
+    # 2. SELECCIÓN DE MERCADOS A REVISAR (EXCLUSIVAMENTE WHALES)
     
-    # Ejecución paralela masiva
-    resultados = await asyncio.gather(*tareas)
+    # Cargar mercados prioritarios desde la cola
+    mercados_prioritarios = cargar_prioritarios(mercados)
     
-    # 3. PROCESAR RESULTADOS DE MANERA SECUENCIAL
+    # Evaluar únicamente Whales
+    mercados_a_revisar = mercados_prioritarios
+    log.info(f"📊 Mercado(s) a evaluar: {len(mercados_prioritarios)} prioritarios (Whales) | 0 aleatorios.")
+    
+    # 2.5 PRE-FILTRADO RÁPIDO DE MERCADOS (SIN LLAMADAS LENTAS DE API)
+    mercados_filtrados = []
+    preguntas_abiertas = set(df[df["estado"]=="ABIERTA"]["pregunta"].tolist()) if not df.empty else set()
+    
+    for m in mercados_a_revisar:
+        nombre_m = m["pregunta"][:35]
+        
+        # A. Ya Abierta (Filtro ultrarrápido)
+        if m["pregunta"][:70] in preguntas_abiertas:
+            log.info(f"⏭️ {nombre_m} | Pre-Filtrado: Ya existe posición ABIERTA.")
+            continue
+            
+        # B. Event Detector
+        puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
+        if not puede:
+            log.info(f"❌ {nombre_m} | Pre-Filtrado - EventDetector: {motivo}")
+            continue
+            
+        # C. Volatilidad (relajado para aprendizaje activo)
+        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
+        if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
+            log.info(f"❌ {nombre_m} | Pre-Filtrado - Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
+            continue
+            
+        # Almacenar en el diccionario del mercado para reuso instantáneo
+        m["_vol_tp"] = tp
+        m["_vol_sl"] = sl
+        m["_vol_max_h"] = max_h
+        m["_vol_met"] = met
+        mercados_filtrados.append(m)
+        
+    log.info(f"📋 Pre-filtrado completo: {len(mercados_a_revisar)} candidatos iniciales -> {len(mercados_filtrados)} candidatos para evaluación LLM.")
+    
+    # 2.6 CARGA CONCURRENTE DE NOTICIAS PARA MERCADOS FILTRADOS
+    if mercados_filtrados:
+        log.info(f"📰 Cargando noticias en paralelo para {len(mercados_filtrados)} mercados...")
+        tasks = [asyncio.to_thread(noticias, m["pregunta"], cliente_news) for m in mercados_filtrados]
+        noticias_resultados = await asyncio.gather(*tasks)
+        for m, nots in zip(mercados_filtrados, noticias_resultados):
+            m["_noticias"] = nots
+            
+    # 2.7 EJECUCIÓN SECUENCIAL CON RETARDO DE TIEMPO SÓLO PARA MERCADOS FILTRADOS
+    resultados = []
+    for m in mercados_filtrados:
+        res = await procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cliente_news)
+        resultados.append(res)
+        # Micro-letargo defensivo entre peticiones para proteger la cuota de TPM/RPM
+        await asyncio.sleep(1.0)
+    
+    # 3. PROCESAR RESULTADOS
     nuevas_posiciones = [r for r in resultados if r is not None]
     
     nuevas_guardadas = []
