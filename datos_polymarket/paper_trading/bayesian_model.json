@@ -1,0 +1,82 @@
+{
+  "categoria:cultura": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "precio:extremo_bajo": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "se\u00f1al:yes": {
+    "n": 5,
+    "wins": 3,
+    "wr": 0.571
+  },
+  "vol:alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "edge:muy_alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "confianza:media": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "momentum:estable": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_confianza_edge:media_muy_alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_precio_senal:extremo_bajo_yes": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.25
+  },
+  "categoria:otro": {
+    "n": 9,
+    "wins": 6,
+    "wr": 0.636
+  },
+  "precio:bajo": {
+    "n": 2,
+    "wins": 2,
+    "wr": 0.75
+  },
+  "int_precio_senal:bajo_yes": {
+    "n": 2,
+    "wins": 2,
+    "wr": 0.75
+  },
+  "precio:medio": {
+    "n": 6,
+    "wins": 4,
+    "wr": 0.625
+  },
+  "int_precio_senal:medio_yes": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
+  },
+  "se\u00f1al:no": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
+  },
+  "int_precio_senal:medio_no": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
+  }
+}
