@@ -53,9 +53,13 @@ DEFAULT_CONFIG = {
         "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae", # Latina
         "0x59151ed846c13dc0f004b856a8be325ad571db2b"  # Selective Sports Whale
     ],
-    "max_positions": 15,
-    "capital_per_trade": 20.0,
-    "max_slippage": 0.03
+    "max_positions": 20,
+    "max_positions_per_wallet": 5,
+    "capital_per_trade": 25.0,
+    "max_slippage": 0.06,
+    "min_price": 0.15,
+    "max_price": 0.85,
+    "min_volume": 2000
 }
 
 DEFAULT_ESTADO = {
@@ -224,9 +228,13 @@ async def procesar_copy_trading():
     cache = cargar_cache()
 
     wallets = config.get("wallets_to_copy", [])
-    capital_por_op = config.get("capital_per_trade", 20.0)
-    max_slippage = config.get("max_slippage", 0.03)
-    max_posiciones = config.get("max_positions", 15)
+    capital_por_op = config.get("capital_per_trade", 25.0)
+    max_slippage = config.get("max_slippage", 0.06)
+    max_posiciones = config.get("max_positions", 20)
+    max_posiciones_por_wallet = config.get("max_positions_per_wallet", 5)
+    min_precio_config = config.get("min_price", 0.15)
+    max_precio_config = config.get("max_price", 0.85)
+    min_volumen_config = config.get("min_volume", 2000)
 
     # 1. Auditoría contable defensiva
     if not df.empty:
@@ -286,6 +294,14 @@ async def procesar_copy_trading():
                     cache.add(tx_hash)
                     continue
 
+                # Control de cupo por wallet
+                n_abiertas_wallet = len(df[(df["estado"] == "ABIERTA") & (df["target_wallet"] == wallet)]) if not df.empty else 0
+                n_abiertas_wallet += sum(1 for np in nuevas_posiciones if np.get("target_wallet") == wallet)
+                if n_abiertas_wallet >= max_posiciones_por_wallet:
+                    log.info(f"⏭️ [{wallet[:10]}] Cupo por wallet alcanzado ({n_abiertas_wallet}/{max_posiciones_por_wallet}). Omitiendo.")
+                    cache.add(tx_hash)
+                    continue
+
                 # Comprobar si ya tenemos esta posición abierta para evitar duplicar
                 ya_abierta = False
                 if not df.empty:
@@ -325,29 +341,30 @@ async def procesar_copy_trading():
 
                 precio_token_actual = float(outcome_prices[outcome_idx])
 
-                # Filtro de precio mínimo de entrada (Propuesta 1 - >= 0.50 USDC)
-                if precio_token_actual < 0.50:
-                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de precio mínimo: Entrada a {precio_token_actual:.3f} es menor a 0.50 USDC. Omitiendo.")
+                # Filtro de precio mínimo de entrada (Permitir cuotas desde 0.15 USDC)
+                if precio_token_actual < min_precio_config:
+                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de precio mínimo: Entrada a {precio_token_actual:.3f} es menor a {min_precio_config} USDC. Omitiendo.")
                     cache.add(tx_hash)
                     continue
 
-                # NUEVO BLINDAJE 1: Filtro de precio máximo de entrada (Evitar contratos con pésima relación riesgo/beneficio)
-                if precio_token_actual > 0.85:
-                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de precio máximo: Entrada a {precio_token_actual:.3f} es mayor a 0.85 USDC (Riesgo/Beneficio desfavorable). Omitiendo.")
+                # Filtro de precio máximo de entrada (Evitar contratos con pésima relación riesgo/beneficio)
+                if precio_token_actual > max_precio_config:
+                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de precio máximo: Entrada a {precio_token_actual:.3f} es mayor a {max_precio_config} USDC. Omitiendo.")
                     cache.add(tx_hash)
                     continue
 
-                # NUEVO BLINDAJE 2: Filtro de liquidez mínima (Evitar mercados ilíquidos con spreads abusivos)
+                # Filtro de liquidez mínima (Evitar mercados ilíquidos)
                 volumen_m = float(market.get("volumeNum", 0))
-                if volumen_m < 10000:
-                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de volumen mínimo: Volumen del mercado (${volumen_m:,.2f} USD) es menor a $10,000 USD. Omitiendo.")
+                if volumen_m < min_volumen_config:
+                    log.info(f"⏭️ [{pregunta[:30]}] Filtro de volumen mínimo: Volumen del mercado (${volumen_m:,.2f} USD) es menor a ${min_volumen_config:,.2f} USD. Omitiendo.")
                     cache.add(tx_hash)
                     continue
 
-                # Comprobar el slippage
+                # Comprobar el slippage dinámico proporcional
                 desfase_precio = abs(precio_token_actual - target_price)
-                if desfase_precio > max_slippage:
-                    log.info(f"⏭️ [{pregunta[:30]}] Slippage excedido: trader={target_price:.3f} | actual={precio_token_actual:.3f} (diff={desfase_precio:.3f} > {max_slippage})")
+                pct_slippage = desfase_precio / max(0.01, target_price)
+                if pct_slippage > max_slippage:
+                    log.info(f"⏭️ [{pregunta[:30]}] Slippage excedido: trader={target_price:.3f} | actual={precio_token_actual:.3f} (desfase={pct_slippage:.1%} > {max_slippage:.1%})")
                     cache.add(tx_hash)
                     continue
 

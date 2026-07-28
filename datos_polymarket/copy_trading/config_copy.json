@@ -5,7 +5,11 @@
     "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
     "0x59151ed846c13dc0f004b856a8be325ad571db2b"
   ],
-  "max_positions": 15,
-  "capital_per_trade": 20.0,
-  "max_slippage": 0.03
+  "max_positions": 20,
+  "max_positions_per_wallet": 5,
+  "capital_per_trade": 25.0,
+  "max_slippage": 0.06,
+  "min_price": 0.15,
+  "max_price": 0.85,
+  "min_volume": 2000
 }

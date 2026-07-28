@@ -51,7 +51,7 @@ MIN_EDGE        = 0.02    # Exige una ventaja real y significativa (2.0%)
 MIN_CONFIANZA   = 0.50    # Operar solo con confianza moderada/alta (50.0%)
 MIN_VOLUMEN     = 5000    # Entrar solo en mercados con liquidez sólida ($5,000+)
 MAX_SPREAD      = 0.05    # Limitar el spread máximo al 5.0%
-MIN_PRECIO      = 0.40    # Evitar contratos especulativos baratos (< 0.40 USDC)
+MIN_PRECIO      = 0.35    # Evitar contratos especulativos baratos (< 0.35 USDC)
 MAX_PRECIO      = 0.99    # Permite operar contratos casi resueltos con ventajas seguras
 MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
 MIN_DIAS        = 1       
@@ -813,6 +813,11 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     # señal ya calculada anteriormente para evitar sobreescribir la señal forzada de la Whale
     # Corrección de spread: comprar al ask real para YES, y 1.0 - bid para NO
     precio_tok = m["best_ask"] if señal == "COMPRAR YES" else round(1.0 - m["best_bid"], 4)
+
+    # Filtro estricto de precio del token para evitar contratos basura y asimetrías de cola
+    if precio_tok < 0.35 or precio_tok > 0.85:
+        log.info(f"❌ {nombre_m} | Precio del token de entrada ({precio_tok:.3f}) fuera de rango [0.35 - 0.85] → Bloqueado para evitar penny contracts.")
+        return None
 
     ok, score, feats = bayesian.should_trade(
         pregunta=nombre_m, precio_entrada=precio_tok, señal=señal,
