@@ -1,8 +1,8 @@
 {
   "categoria:otro": {
-    "n": 26,
-    "wins": 9,
-    "wr": 0.357
+    "n": 9,
+    "wins": 6,
+    "wr": 0.636
   },
   "precio:bajo": {
     "n": 2,
@@ -10,9 +10,9 @@
     "wr": 0.75
   },
   "se\u00f1al:yes": {
-    "n": 10,
+    "n": 4,
     "wins": 3,
-    "wr": 0.333
+    "wr": 0.667
   },
   "int_precio_senal:bajo_yes": {
     "n": 2,
@@ -30,53 +30,23 @@
     "wr": 0.333
   },
   "precio:medio": {
-    "n": 21,
-    "wins": 6,
-    "wr": 0.304
+    "n": 6,
+    "wins": 4,
+    "wr": 0.625
   },
   "int_precio_senal:medio_yes": {
-    "n": 5,
+    "n": 1,
     "wins": 1,
-    "wr": 0.286
+    "wr": 0.667
   },
   "se\u00f1al:no": {
-    "n": 3,
-    "wins": 2,
-    "wr": 0.6
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
   },
   "int_precio_senal:medio_no": {
-    "n": 2,
-    "wins": 1,
-    "wr": 0.5
-  },
-  "precio:alto": {
-    "n": 3,
-    "wins": 0,
-    "wr": 0.2
-  },
-  "int_precio_senal:alto_yes": {
-    "n": 2,
-    "wins": 0,
-    "wr": 0.25
-  },
-  "precio:extremo_alto": {
     "n": 1,
     "wins": 1,
     "wr": 0.667
-  },
-  "int_precio_senal:extremo_alto_no": {
-    "n": 1,
-    "wins": 1,
-    "wr": 0.667
-  },
-  "categoria:futbol": {
-    "n": 1,
-    "wins": 0,
-    "wr": 0.333
-  },
-  "categoria:crypto_tech": {
-    "n": 1,
-    "wins": 0,
-    "wr": 0.333
   }
 }
