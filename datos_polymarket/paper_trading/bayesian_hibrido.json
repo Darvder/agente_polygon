@@ -1,1 +1,12 @@
-{}
+{
+  "categoria:otro": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
+  },
+  "precio:medio": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
+  }
+}
