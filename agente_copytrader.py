@@ -191,12 +191,36 @@ def obtener_datos_mercado_por_id(market_id):
         log.warning(f"Error consultando Gamma API para market_id {mid_str}: {e}")
     return None
 
+def _get_proxies():
+    proxy = os.environ.get("PROXY_URL", "").strip()
+    return {"http": proxy, "https": proxy} if proxy else None
+
+def obtener_ballenas_dinamicas(limite=5):
+    """Descubre dinámicamente billeteras activas analizando los trades recientes del mercado."""
+    url = "https://data-api.polymarket.com/trades"
+    p = _get_proxies()
+    try:
+        r = requests.get(url, params={"limit": 60}, timeout=12, **({"proxies": p} if p else {}))
+        if r.status_code == 200 and isinstance(r.json(), list):
+            trades = r.json()
+            conteo = {}
+            for t in trades:
+                w = t.get("user")
+                if w and isinstance(w, str) and w.startswith("0x"):
+                    conteo[w] = conteo.get(w, 0) + 1
+            top_wallets = [w for w, _ in sorted(conteo.items(), key=lambda x: x[1], reverse=True)]
+            return top_wallets[:limite]
+    except Exception as e:
+        log.warning(f"Error en descubrimiento dinámico de Whales: {e}")
+    return []
+
 def obtener_transacciones_usuario(wallet):
     """Consulta las transacciones de un usuario en la data-api."""
     time.sleep(1.0)
     url = f"https://data-api.polymarket.com/trades"
+    p = _get_proxies()
     try:
-        r = requests.get(url, params={"user": wallet}, timeout=12)
+        r = requests.get(url, params={"user": wallet}, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200:
             return r.json()
     except Exception as e:
@@ -207,8 +231,9 @@ def obtener_posiciones_usuario(wallet):
     """Consulta la cartera abierta de posiciones del usuario."""
     time.sleep(1.0)
     url = f"https://data-api.polymarket.com/positions"
+    p = _get_proxies()
     try:
-        r = requests.get(url, params={"user": wallet}, timeout=12)
+        r = requests.get(url, params={"user": wallet}, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200:
             return r.json()
     except Exception as e:
@@ -219,7 +244,7 @@ def obtener_posiciones_usuario(wallet):
 
 async def procesar_copy_trading():
     log.info("="*55)
-    log.info("🚀 INICIANDO CICLO DE COPY-TRADING v1")
+    log.info("🚀 INICIANDO CICLO DE COPY-TRADING v2 (Con Descubrimiento Dinámico)")
     log.info("="*55)
 
     config = cargar_config()
@@ -227,7 +252,19 @@ async def procesar_copy_trading():
     df = cargar_libro()
     cache = cargar_cache()
 
-    wallets = config.get("wallets_to_copy", [])
+    wallets = list(config.get("wallets_to_copy", []))
+    
+    # Descubrimiento dinámico de Whales activas
+    if config.get("enable_dynamic_whales", True):
+        limite_dinamico = config.get("dynamic_whale_limit", 5)
+        ballenas_dinamicas = obtener_ballenas_dinamicas(limite=limite_dinamico)
+        if ballenas_dinamicas:
+            nuevas_agregadas = 0
+            for bw in ballenas_dinamicas:
+                if bw not in wallets:
+                    wallets.append(bw)
+                    nuevas_agregadas += 1
+            log.info(f"🐋 [WHALE DISCOVERY] {len(ballenas_dinamicas)} ballenas activas en vivo ({nuevas_agregadas} nuevas para este ciclo). Total wallets a explorar: {len(wallets)}")
     capital_por_op = config.get("capital_per_trade", 25.0)
     max_slippage = config.get("max_slippage", 0.06)
     max_posiciones = config.get("max_positions", 20)

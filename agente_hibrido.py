@@ -46,6 +46,15 @@ MODELOS_LLM = [
 BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 15
 
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*"
+}
+
+def _get_proxies():
+    proxy = os.environ.get("PROXY_URL", "").strip()
+    return {"http": proxy, "https": proxy} if proxy else None
+
 # ── Parámetros globales estrictos y defensivos para evitar pérdidas ──
 MIN_EDGE        = 0.02    # Exige una ventaja real y significativa (2.0%)
 MIN_CONFIANZA   = 0.50    # Operar solo con confianza moderada/alta (50.0%)
@@ -186,6 +195,10 @@ def guardar_libro(df): df.to_csv(ARCHIVO_LIBRO,index=False)
 def _procesar_mercado_crudo(m, hoy):
     """Procesa y valida los metadatos de un mercado individual contra los filtros globales del Híbrido."""
     q = m.get("question", "")
+    group_title = m.get("groupItemTitle", "")
+    if group_title and group_title.strip().lower() not in q.lower():
+        q = f"{q} [{group_title}]"
+        
     if any(p in q.lower() for p in PATRONES_EXCLUIR):
         return None
     try:
@@ -230,6 +243,9 @@ def _procesar_mercado_crudo(m, hoy):
 def _procesar_mercado_prioritario(m, hoy):
     """Procesa y valida los metadatos de un mercado prioritario (Whale trade) con filtros muy relajados."""
     q = m.get("question", "")
+    group_title = m.get("groupItemTitle", "")
+    if group_title and group_title.strip().lower() not in q.lower():
+        q = f"{q} [{group_title}]"
     if any(p in q.lower() for p in PATRONES_EXCLUIR):
         return None
     try:
@@ -360,7 +376,8 @@ def escanear():
         
         for intento in range(max_intentos):
             try:
-                r = requests.get(url, params=params, timeout=TIMEOUT)
+                p = _get_proxies()
+                r = requests.get(url, params=params, headers=DEFAULT_HEADERS, timeout=TIMEOUT, **({"proxies": p} if p else {}))
                 r.raise_for_status()
                 batch = r.json()
                 break
@@ -725,13 +742,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     confianza   = float(an.get("confianza", 0.5))
     hay_noticia = bool(an.get("hay_noticia", False))
-    
-    # ⚡ STRICT NEWS FILTER:
-    # Bloqueo total de transacciones si la IA no detecta una noticia relevante (hay_noticia es False).
-    if not hay_noticia and not is_prioritario:
-        log.info(f"❌ {nombre_m} | Bloqueado: No hay noticias relevantes encontradas por la IA (Strict News Filter)")
-        return None
-        
+
+    # ── Señal y edge ──────────────────────────────────────────────────
     whale_signal = m.get("_whale_signal")
     if is_prioritario and whale_signal:
         señal = whale_signal
@@ -745,55 +757,43 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         edge_neto   = round(abs(diferencia) - m["spread"], 4)
         señal = "COMPRAR YES" if diferencia > 0 else "COMPRAR NO"
 
-    # ── Sinergia Whale-IA (Whale-AI Synergy) ──
+    # ── Thresholds según tipo de mercado ─────────────────────────────
     if is_prioritario:
         min_confianza_efectivo = 0.40
-        min_edge_efectivo = 0.01
-        log.info(f"🐳 [WHALE-AI SYNERGY] Analizando mercado prioritario de Whale ({m.get('_whale_wallet')[:10]}...). Límites ajustados (confianza >= 40%, edge >= 1.0%).")
+        min_edge_efectivo      = 0.01
+        log.info(f"🐳 [WHALE-AI SYNERGY] Mercado prioritario. Límites: confianza>=40%, edge>=1%.")
+    elif hay_noticia:
+        # Modo con noticia: el LLM detectó un catalizador real → exigencia media
+        min_confianza_efectivo = 0.45
+        min_edge_efectivo      = 0.015
     else:
-        min_confianza_efectivo = MIN_CONFIANZA
-        min_edge_efectivo = MIN_EDGE
+        # Modo autónomo sin noticia: el LLM estima una mala calibración del precio → exigencia estándar
+        min_confianza_efectivo = 0.50
+        min_edge_efectivo      = 0.02
 
-    umbral = 0.002 if (hay_noticia or is_prioritario) else 0.003
-    if edge_neto < umbral:
-        log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < umbral ({umbral:.2%})")
+    # Edge mínimo absoluto (cualquier modo)
+    if edge_neto < 0.005:
+        log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) demasiado bajo (<0.5%)")
         return None
     if edge_neto < min_edge_efectivo:
-        log.info(f"❌ {nombre_m} | Edge mínimo ({edge_neto:.2%} < {min_edge_efectivo:.2%})")
+        log.info(f"❌ {nombre_m} | Edge ({edge_neto:.2%}) < mínimo ({min_edge_efectivo:.2%})")
         return None
     if confianza < min_confianza_efectivo:
-        log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f} < {min_confianza_efectivo:.2f})")
+        log.info(f"❌ {nombre_m} | Confianza ({confianza:.2f}) < mínimo ({min_confianza_efectivo:.2f})")
         return None
     if edge_neto > 0.80:
         log.info(f"❌ {nombre_m} | Edge muy alto ({edge_neto:.2%}) → señal dudosa")
         return None
 
-    # 7.5 Bifurcación de Estrategias (Trend-Following vs Mean-Reversion) (Fase 9) (relajado)
+    # ── 7.5 Filtro de momentum (solo bloqueo fuerte, sin requerir extremos) ──
     momentum_1h = met.get("cambio_1h", 0.0) if met else 0.0
-    if hay_noticia or is_prioritario:
-        # Modo Trend-Following (Seguidor de Tendencia): no operar contra momentum muy fuerte
-        if diferencia > 0 and momentum_1h < -0.02:
-            log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR YES pero momentum es bajista ({momentum_1h:+.1%}) → bloqueado")
-            return None
-        if diferencia < 0 and momentum_1h > 0.02:
-            log.info(f"❌ {nombre_m} | Trend-Following: Señal COMPRAR NO pero momentum es alcista ({momentum_1h:+.1%}) → bloqueado")
-            return None
-    else:
-        # Modo Mean-Reversion (Retorno a la Media): sólo operar extremos
-        en_extremo = met.get("en_extremo", False) if met else False
-        if not en_extremo:
-            log.info(f"❌ {nombre_m} | Mean-Reversion: Sin noticias y fuera de zona extrema → bloqueado")
-            return None
-            
-        media = met.get("media", m["mid_price"]) if met else m["mid_price"]
-        # Si el precio actual está arriba de la media histórica, sólo permitimos vender (COMPRAR NO)
-        if m["mid_price"] > media and diferencia > 0:
-            log.info(f"❌ {nombre_m} | Mean-Reversion: Precio alto ({m['mid_price']:.3f} > {media:.3f}) pero la señal es COMPRAR YES → bloqueado")
-            return None
-        # Si el precio actual está abajo de la media histórica, sólo permitimos comprar (COMPRAR YES)
-        if m["mid_price"] < media and diferencia < 0:
-            log.info(f"❌ {nombre_m} | Mean-Reversion: Precio bajo ({m['mid_price']:.3f} < {media:.3f}) pero la señal es COMPRAR NO → bloqueado")
-            return None
+    # No operar contra momentum muy fuerte (>5%) en cualquier modo
+    if diferencia > 0 and momentum_1h < -0.05:
+        log.info(f"❌ {nombre_m} | Momentum bajista fuerte ({momentum_1h:+.1%}) contra señal YES → bloqueado")
+        return None
+    if diferencia < 0 and momentum_1h > 0.05:
+        log.info(f"❌ {nombre_m} | Momentum alcista fuerte ({momentum_1h:+.1%}) contra señal NO → bloqueado")
+        return None
 
     # 7.6 Filtro de Diversificación por Categoría (Fase 10)
     categoria_actual = get_categoria(nombre_m)
@@ -831,19 +831,24 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
         log.info(f"❌ {nombre_m} | Bayesiano bloquea (score={score:.2f})")
         return None
 
-    # 9. Dimensionamiento de Posición (Kelly Dinámico) (Fase 10)
+    # 9. Dimensionamiento de Posición (Kelly Dinámico)
     ratio_capital = estado.get("capital_actual", CAPITAL_INICIAL) / CAPITAL_INICIAL
-    factor_kelly = 0.15
+    factor_kelly = 0.20  # Aumentado de 0.15 a 0.20 para mayor participación
     if ratio_capital < 1.0:
-        factor_kelly = max(0.05, round(0.15 * ratio_capital, 3))
-        
+        factor_kelly = max(0.10, round(0.20 * ratio_capital, 3))
+
     kelly = edge_neto * confianza * factor_kelly
     monto = round(min(estado["capital_actual"] * kelly, CAPITAL_POR_OP), 2)
+
+    # Pisos mínimos garantizados por tipo de operación
     if is_prioritario:
         monto = max(monto, 10.0)
-    log.info(f"💰 {nombre_m} | monto=${monto:.2f} vol={met['vol_1d']:.4f} TP={tp:.1%} SL={sl:.1%}")
-    if monto < 1:
-        log.info(f"❌ {nombre_m} | Monto ${monto:.2f} < $1")
+    else:
+        monto = max(monto, 5.0)  # Mínimo $5 para cualquier trade autónomo válido
+
+    log.info(f"💰 {nombre_m} | kelly={kelly:.4f} monto=${monto:.2f} TP={tp:.1%} SL={sl:.1%} noticia={'sí' if hay_noticia else 'no'}")
+    if monto < 3:
+        log.info(f"❌ {nombre_m} | Monto ${monto:.2f} < $3 (capital insuficiente)")
         return None
 
     ev_detector.registrar_evento(m["id"], m["pregunta"])
@@ -1016,14 +1021,21 @@ async def ciclo():
 
 
 
-    # 2. SELECCIÓN DE MERCADOS A REVISAR (EXCLUSIVAMENTE WHALES)
+    # 2. SELECCIÓN DE MERCADOS A REVISAR (WHALES + AUTÓNOMOS)
     
     # Cargar mercados prioritarios desde la cola
     mercados_prioritarios = cargar_prioritarios(mercados)
+    ids_prioritarios = {str(m.get("id")) for m in mercados_prioritarios}
     
-    # Evaluar únicamente Whales
-    mercados_a_revisar = mercados_prioritarios
-    log.info(f"📊 Mercado(s) a evaluar: {len(mercados_prioritarios)} prioritarios (Whales) | 0 aleatorios.")
+    # Seleccionar candidatos autónomos del escaneo general (hasta 30 mercados con mejor liquidez)
+    MAX_AUTONOMOS = 30
+    mercados_autonomos = [
+        m for m in mercados 
+        if str(m.get("id")) not in ids_prioritarios
+    ][:MAX_AUTONOMOS]
+    
+    mercados_a_revisar = mercados_prioritarios + mercados_autonomos
+    log.info(f"📊 Mercado(s) a evaluar: {len(mercados_prioritarios)} prioritarios (Whales) | {len(mercados_autonomos)} autónomos.")
     
     # 2.5 PRE-FILTRADO RÁPIDO DE MERCADOS (SIN LLAMADAS LENTAS DE API)
     mercados_filtrados = []
