@@ -94,40 +94,36 @@ logging.basicConfig(
 )
 log = logging.getLogger("hibrido")
 
-PROMPT = """Eres un sistema algorítmico avanzado de arbitraje y calibración probabilística en mercados de predicción (Polymarket). Tu objetivo es detectar ineficiencias de precio analizando datos del mercado y noticias recientes de forma fría, racional y matemática.
+PROMPT = """Eres un analista cuantitativo experto en mercados de predicción (Polymarket). Tu misión es estimar la probabilidad REAL de un evento usando tu conocimiento estadístico, histórico y la información disponible — e identificar si el mercado está mal calibrado.
 
-[DATOS DEL MERCADO ACTUAL]
-- Mercado (Pregunta): {pregunta}
-- Precio Actual YES en Polymarket: {precio:.1%} (Indica que el mercado asigna un {precio:.1%} de probabilidad a favor del YES)
-- Días Restantes para la Resolución: {dias} días
-- Variación de Precio (Última 1h): {momentum}
-- Spread de Liquidez: {spread:.1%}
+[DATOS DEL MERCADO]
+- Pregunta: {pregunta}
+- Precio actual en Polymarket (probabilidad implícita): {precio:.1%}
+- Días restantes: {dias}
+- Variación última 1h: {momentum}
+- Spread de liquidez: {spread:.1%}
 
-[INFORMACIÓN RECIENTE DISPONIBLE (ÚLTIMAS 48-72 HORAS)]
+[NOTICIAS RECIENTES (últimas 48-72h)]
 {noticias}
 
-[HISTORIAL DE ESTE MERCADO EN NUESTRO SISTEMA]
+[HISTORIAL INTERNO]
 {patron}
 
-[INSTRUCCIONES DE RAZONAMIENTO CRÍTICO]
-1. Aplica la Sabiduría de Masas: El precio de mercado ({precio:.1%}) ya descuenta la información general. Solo debes diferir del precio si las noticias proveen un catalizador contundente que el mercado aún no ha procesado (asimetría informática).
-2. Evita la Sobreconfianza: No asignes valores extremos (0% o 100%) a eventos con incertidumbre estructural (política, deportes, tecnología). Calibrar significa ser conservador.
-3. Factor de Decaimiento Temporal: Si faltan muchos días para la resolución, las probabilidades tienden a ser menos extremas debido al riesgo latente.
-4. Anclaje de Precios por Falta de Información: Si la sección de noticias dice 'Sin noticias...' o si las noticias no aportan información nueva, tu estimación de probabilidad ("estimacion") debe ser cercana a la probabilidad de mercado actual, a menos que se trate de eventos deportivos o poseas conocimiento estadístico/histórico contundente que justifique diferir del precio de mercado. No uses estimaciones genéricas como 50 si el mercado cotiza a un precio extremo.
+[TU TAREA]
+1. Usa tu conocimiento de BASE RATES (estadísticas históricas, frecuencias reales) para estimar la probabilidad real del evento. Por ejemplo: tasa histórica de victoria de equipos favoritos, frecuencia de que un candidato gane con cierta ventaja en encuestas, etc.
+2. Compara tu estimación con el precio del mercado ({precio:.1%}). Si hay diferencia significativa (>3%), hay una oportunidad de arbitraje.
+3. Las noticias recientes son un factor adicional pero NO el único factor. Puedes divergir del precio del mercado SOLO con tu razonamiento estadístico, sin necesidad de noticias.
+4. Sé honesto con tu confianza. Si realmente no puedes distinguir mejor que el mercado, pon confianza baja (0.45-0.50). Si tu base rate o razonamiento es sólido, pon confianza alta (0.60-0.80).
+5. NO pongas estimacion = {precio_entero} automáticamente por falta de noticias. Razona el valor intrínseco del evento.
 
-CRITICAL FORMAT INSTRUCTIONS:
-You MUST respond with a single, perfectly formatted JSON object. 
-Do NOT include any markdown code blocks (like ```json), do NOT add introductory/concluding text, and NEVER add trailing comments.
-The JSON keys MUST follow this exact execution sequence to allow proper cognitive processing:
-
+RESPONDE SOLO con este JSON (sin markdown, sin texto adicional):
 {{
-  "analisis_noticias": "Análisis de 1 frase sobre si las noticias proveen un catalizador real o si son mero ruido de prensa.",
-  "conocimiento_base": "Análisis de 1 frase sobre el contexto deportivo/político/histórico de este evento específico.",
-  "calibracion_precio": "Análisis de 1 frase evaluando por qué el mercado cotiza a {precio:.1%} y si hay un sesgo visible.",
-  "hay_noticia": false, (boolean true/false, strictly true ONLY if there is recent, highly relevant news from the text that alters the event probability),
-  "confianza": 0.50, (float between 0.0 and 1.0 representing your statistical confidence based on available data size),
-  "estimacion": 50, (integer between 0 and 100 representing your final strictly calibrated probability percentage. MUST be a plain whole number without decimals),
-  "razonamiento": "Resumen ejecutivo final de menos de 100 caracteres combinando la lógica de los campos anteriores."
+  "analisis_contexto": "1 frase: qué dice tu conocimiento estadístico/histórico sobre este tipo de evento",
+  "analisis_noticias": "1 frase: si las noticias cambian la probabilidad o son ruido",
+  "hay_noticia": false,
+  "estimacion": 50,
+  "confianza": 0.50,
+  "razonamiento": "resumen ejecutivo de menos de 120 caracteres"
 }}"""
 
 # Cerrar inactivas __________________________________________________
