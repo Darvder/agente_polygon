@@ -55,20 +55,20 @@ def _get_proxies():
     proxy = os.environ.get("PROXY_URL", "").strip()
     return {"http": proxy, "https": proxy} if proxy else None
 
-# ── Parámetros globales estrictos y defensivos para evitar pérdidas ──
-MIN_EDGE        = 0.02    # Exige una ventaja real y significativa (2.0%)
-MIN_CONFIANZA   = 0.50    # Operar solo con confianza moderada/alta (50.0%)
-MIN_VOLUMEN     = 5000    # Entrar solo en mercados con liquidez sólida ($5,000+)
-MAX_SPREAD      = 0.05    # Limitar el spread máximo al 5.0%
-MIN_PRECIO      = 0.35    # Evitar contratos especulativos baratos (< 0.35 USDC)
-MAX_PRECIO      = 0.99    # Permite operar contratos casi resueltos con ventajas seguras
-MAX_DIAS        = 180     # Mantenido (6 meses máximo de retención)
-MIN_DIAS        = 1       
-MAX_POSICIONES  = 20     
-CAPITAL_INICIAL = 1_000   
-CAPITAL_POR_OP  = 20      
-MAX_EXPOSICION  = 40      
-MAX_PERDIDA_DIA = 30      
+# ── Parámetros globales ──────────────────────────────────────────────
+MIN_EDGE        = 0.02    # Ventaja mínima real (2%)
+MIN_CONFIANZA   = 0.50    # Confianza mínima del LLM (50%)
+MIN_VOLUMEN     = 1000    # Liquidez mínima ($1,000 — relajado desde $5,000)
+MAX_SPREAD      = 0.08    # Spread máximo 8% (relajado desde 5%)
+MIN_PRECIO      = 0.10    # Precio mínimo del token (relajado desde 0.35)
+MAX_PRECIO      = 0.99    # Precio máximo del token
+MAX_DIAS        = 180     # Vencimiento máximo: 6 meses
+MIN_DIAS        = 1
+MAX_POSICIONES  = 20
+CAPITAL_INICIAL = 1_000
+CAPITAL_POR_OP  = 20
+MAX_EXPOSICION  = 40
+MAX_PERDIDA_DIA = 30
 NEWS_WINDOW_H   = 72
 
 PATRONES_EXCLUIR = [
@@ -395,12 +395,57 @@ def escanear():
         offset += BATCH
 
     mercados = []
+    n_sin_bid = n_precio = n_vol = n_spread = n_dias = n_patron = 0
     for m in raw:
-        res = _procesar_mercado_crudo(m, hoy)
-        if res:
-            mercados.append(res)
-    log.info(f"Mercados escaneados: {len(raw)} | Elegibles: {len(mercados)}")
-    return mercados
+        q = m.get("question", "")
+        if any(p in q.lower() for p in PATRONES_EXCLUIR):
+            n_patron += 1; continue
+        bid = float(m.get("bestBid", 0) or 0)
+        ask = float(m.get("bestAsk", 0) or 0)
+        if bid <= 0 or ask <= 0:
+            n_sin_bid += 1; continue
+        sp  = round(ask - bid, 4)
+        mid = round((bid + ask) / 2, 4)
+        if sp > MAX_SPREAD:
+            n_spread += 1; continue
+        if mid < MIN_PRECIO or mid > MAX_PRECIO:
+            n_precio += 1; continue
+        vol = float(m.get("volume", 0) or 0)
+        if vol < MIN_VOLUMEN:
+            n_vol += 1; continue
+        fs = m.get("endDate", "")[:10]
+        try:
+            dias = (datetime.strptime(fs, "%Y-%m-%d").date() - hoy).days
+        except:
+            n_dias += 1; continue
+        if dias < MIN_DIAS or dias > MAX_DIAS:
+            n_dias += 1; continue
+        group_title = m.get("groupItemTitle", "")
+        if group_title and group_title.strip().lower() not in q.lower():
+            q = f"{q} [{group_title}]"
+        mercados.append({
+            "id": m.get("id", q[:30]),
+            "pregunta": q,
+            "mid_price": mid,
+            "spread": sp,
+            "best_bid": bid,
+            "best_ask": ask,
+            "volumen_usd": vol,
+            "dias": dias,
+            "fecha_cierre": fs
+        })
+
+    log.info(
+        f"📊 Escaneo: {len(raw)} totales | "
+        f"✅ Elegibles: {len(mercados)} | "
+        f"❌ Bid/Ask cero: {n_sin_bid} | "
+        f"Precio fuera rango: {n_precio} | "
+        f"Volumen bajo: {n_vol} | "
+        f"Spread alto: {n_spread} | "
+        f"Días fuera: {n_dias} | "
+        f"Patrón excluido: {n_patron}"
+    )
+    return sorted(mercados, key=lambda x: x["volumen_usd"], reverse=True)
 
 
 # ── Noticias ───────────────────────────────────────────────────────
@@ -814,9 +859,9 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
     # Corrección de spread: comprar al ask real para YES, y 1.0 - bid para NO
     precio_tok = m["best_ask"] if señal == "COMPRAR YES" else round(1.0 - m["best_bid"], 4)
 
-    # Filtro estricto de precio del token para evitar contratos basura y asimetrías de cola
-    if precio_tok < 0.35 or precio_tok > 0.85:
-        log.info(f"❌ {nombre_m} | Precio del token de entrada ({precio_tok:.3f}) fuera de rango [0.35 - 0.85] → Bloqueado para evitar penny contracts.")
+    # Filtro de precio del token: evitar contratos basura (<10%) o casi seguros (>92%)
+    if precio_tok < 0.10 or precio_tok > 0.92:
+        log.info(f"❌ {nombre_m} | Precio del token ({precio_tok:.3f}) fuera de rango [0.10-0.92] → descartado.")
         return None
 
     ok, score, feats = bayesian.should_trade(
