@@ -1149,9 +1149,24 @@ async def ciclo():
         
     estado["n_ciclos"] += 1
     estado["ultima_corrida"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    # ── DIAGNÓSTICO DEL CICLO (visible en estado_hibrido.json desde rama datos) ──
+    estado["ultimo_ciclo_diagnostico"] = {
+        "fecha": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "mercados_escaneados_total": len(mercados),
+        "mercados_prioritarios": len(mercados_prioritarios),
+        "mercados_autonomos_candidatos": len(mercados_autonomos),
+        "mercados_pre_filtrados": len(mercados_filtrados),
+        "mercados_evaluados_llm": len(resultados),
+        "posiciones_aprobadas_llm": len(nuevas_posiciones),
+        "posiciones_guardadas": len(nuevas_guardadas),
+        "capital_actual": estado.get("capital_actual", 1000.0),
+    }
+
     guardar_estado(estado)
     
     log.info(f"🏁 FIN DEL CICLO ASÍNCRONO #{estado['n_ciclos']} | Nuevas Abiertas: {len(nuevas_guardadas)}")
+    log.info(f"📋 DIAGNÓSTICO: escaneados={len(mercados)} | pre-filtrados={len(mercados_filtrados)} | LLM evaluados={len(resultados)} | aprobados={len(nuevas_posiciones)}")
     log.info("="*55)
   
 if __name__ == "__main__":
