@@ -32,6 +32,11 @@ CACHE_TTL_H = 6
 
 log = logging.getLogger("volatility")
 
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*"
+}
+
 
 # ── Cache ──────────────────────────────────────────────────────────
 
@@ -72,7 +77,7 @@ def _token_yes(market_id):
     for intento in range(max_intentos):
         try:
             r = requests.get("https://gamma-api.polymarket.com/markets",
-                             params={"id": market_id}, timeout=TIMEOUT)
+                             params={"id": market_id}, headers=DEFAULT_HEADERS, timeout=TIMEOUT)
             if r.status_code == 200 and r.json():
                 ids = json.loads(r.json()[0].get("clobTokenIds", "[]"))
                 return str(ids[0]) if ids else None
@@ -88,7 +93,7 @@ def _precios_historicos(token_yes):
         try:
             r = requests.get(f"{CLOB_URL}/prices-history",
                              params={"market": token_yes, "interval": "max"},
-                             timeout=TIMEOUT)
+                             headers=DEFAULT_HEADERS, timeout=TIMEOUT)
             if r.status_code != 200:
                 if intento < max_intentos - 1:
                     time.sleep(1)

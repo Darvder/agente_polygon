@@ -30,6 +30,11 @@ logging.basicConfig(
 )
 log = logging.getLogger("copytrader")
 
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*"
+}
+
 # Rutas de archivos
 DIR_COPY = "datos_polymarket/copy_trading"
 FILE_CONFIG = os.path.join(DIR_COPY, "config_copy.json")
@@ -157,13 +162,13 @@ def obtener_datos_mercado(condition_id):
     time.sleep(1.0)
     url = "https://gamma-api.polymarket.com/markets"
     try:
-        r = requests.get(url, params={"condition_ids": condition_id}, timeout=12)
+        r = requests.get(url, params={"condition_ids": condition_id}, headers=DEFAULT_HEADERS, timeout=12)
         if r.status_code == 200 and r.json():
             return r.json()[0]
         
         # Intento 2: Buscar en mercados cerrados
         time.sleep(1.0)
-        r = requests.get(url, params={"condition_ids": condition_id, "closed": "true"}, timeout=12)
+        r = requests.get(url, params={"condition_ids": condition_id, "closed": "true"}, headers=DEFAULT_HEADERS, timeout=12)
         if r.status_code == 200 and r.json():
             return r.json()[0]
     except Exception as e:
@@ -184,7 +189,7 @@ def obtener_datos_mercado_por_id(market_id):
     time.sleep(1.0)
     url = f"https://gamma-api.polymarket.com/markets/{mid_str}"
     try:
-        r = requests.get(url, timeout=12)
+        r = requests.get(url, headers=DEFAULT_HEADERS, timeout=12)
         if r.status_code == 200:
             return r.json()
     except Exception as e:
@@ -200,7 +205,7 @@ def obtener_ballenas_dinamicas(limite=5):
     url = "https://data-api.polymarket.com/trades"
     p = _get_proxies()
     try:
-        r = requests.get(url, params={"limit": 60}, timeout=12, **({"proxies": p} if p else {}))
+        r = requests.get(url, params={"limit": 60}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200 and isinstance(r.json(), list):
             trades = r.json()
             conteo = {}
@@ -220,7 +225,7 @@ def obtener_transacciones_usuario(wallet):
     url = f"https://data-api.polymarket.com/trades"
     p = _get_proxies()
     try:
-        r = requests.get(url, params={"user": wallet}, timeout=12, **({"proxies": p} if p else {}))
+        r = requests.get(url, params={"user": wallet}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200:
             return r.json()
     except Exception as e:
@@ -233,7 +238,7 @@ def obtener_posiciones_usuario(wallet):
     url = f"https://data-api.polymarket.com/positions"
     p = _get_proxies()
     try:
-        r = requests.get(url, params={"user": wallet}, timeout=12, **({"proxies": p} if p else {}))
+        r = requests.get(url, params={"user": wallet}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200:
             return r.json()
     except Exception as e:

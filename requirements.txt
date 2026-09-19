@@ -1,6 +1,7 @@
 groq
 requests
 pandas
+numpy
 apscheduler
 newsapi-python
 plotly

@@ -168,10 +168,10 @@ def guardar_estado(e):
 COLUMNAS_LIBRO = [
     'fecha_entrada', 'fecha_entrada_dt', 'market_id', 'pregunta', 'señal', 
     'precio_entrada', 'precio_token_entrada', 'precio_actual', 'precio_cierre', 
-    'pct_cambio', 'llm_estimacion', 'llm_confianza', 'llm_edge', 'hay_noticia', 
-    'n_noticias', 'monto_usdc', 'dias_mercado', 'fecha_cierre_mercado', 
-    'fecha_cierre_real', 'pnl_realizado', 'estado', 'razon_cierre', 
-    'razonamiento', 'tp_dinamico', 'sl_dinamico', 'horas_max', 'vol_1d', 'momentum_1h'
+    'pct_cambio', 'llm_confianza', 'llm_edge',
+    'monto_usdc', 'tp_dinamico', 'sl_dinamico', 'horas_max',
+    'estado', 'fecha_cierre_real', 'pnl_realizado', 'razon_cierre', 
+    'razonamiento', 'vol_1d', 'momentum_1h'
 ]
 
 def cargar_libro():
@@ -324,7 +324,7 @@ def cargar_prioritarios(mercados):
             try:
                 time.sleep(1.0)
                 url = f"https://gamma-api.polymarket.com/markets/{mid}"
-                r = requests.get(url, timeout=TIMEOUT)
+                r = requests.get(url, headers=DEFAULT_HEADERS, timeout=TIMEOUT)
                 if r.status_code == 200 and r.json():
                     m_data = r.json()
                     res = _procesar_mercado_prioritario(m_data, hoy)
@@ -491,7 +491,7 @@ def verificar_salidas(df, estado, mercados_actuales):
             if not is_active:
                 try:
                     r = requests.get("https://gamma-api.polymarket.com/markets",
-                                     params={"id": m_id}, timeout=12)
+                                     params={"id": m_id}, headers=DEFAULT_HEADERS, timeout=12)
                     if r.status_code == 200 and r.json():
                         m = r.json()[0]
                         if m.get("active") and not m.get("closed"):
@@ -937,7 +937,7 @@ def actualizar_precios_abiertos(df, mercados_actuales=None):
                 for attempt in range(max_retries):
                     try:
                         r = requests.get("https://gamma-api.polymarket.com/markets",
-                                         params={"id": m_id}, timeout=12)
+                                         params={"id": m_id}, headers=DEFAULT_HEADERS, timeout=12)
                         if r.status_code == 200 and r.json():
                             m = r.json()[0]
                             bid = float(m.get("bestBid", 0))
