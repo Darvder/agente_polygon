@@ -1,1 +1,530 @@
-[]
+[
+  {
+    "id": "4696106",
+    "pregunta": "Spread: Alabama (-2.5)",
+    "ts": "2026-09-19T12:19:41.857137",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d300b022693462bd2ae4e1f63d23da3bc481192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4696122",
+    "pregunta": "Spread: Alabama (-9.5)",
+    "ts": "2026-09-19T12:19:43.100506",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d300b022693462bd2ae4e1f63d23da3bc481192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4696114",
+    "pregunta": "Spread: Alabama (-5.5)",
+    "ts": "2026-09-19T12:19:44.365834",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d300b022693462bd2ae4e1f63d23da3bc481192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4696126",
+    "pregunta": "Spread: Alabama (-11.5)",
+    "ts": "2026-09-19T12:19:45.645562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d300b022693462bd2ae4e1f63d23da3bc481192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4696150",
+    "pregunta": "Spread: Alabama (-18.5)",
+    "ts": "2026-09-19T12:19:46.722752",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d300b022693462bd2ae4e1f63d23da3bc481192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4268446",
+    "pregunta": "Will AS Roma win on 2026-09-19?",
+    "ts": "2026-09-19T12:20:13.665749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4276044",
+    "pregunta": "VfB Stuttgart vs. BV Borussia 09 Dortmund: 1st Half O/U 0.5",
+    "ts": "2026-09-19T12:20:14.753340",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4294085",
+    "pregunta": "Will Galatasaray SK win on 2026-09-19?",
+    "ts": "2026-09-19T12:20:18.126037",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4277519",
+    "pregunta": "Will RC Celta de Vigo vs. Real Racing Club end in a draw?",
+    "ts": "2026-09-19T12:20:19.207535",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4334308",
+    "pregunta": "Rams Ba\u015fak\u015fehir FK vs. Gen\u00e7lerbirli\u011fi SK: O/U 2.5",
+    "ts": "2026-09-19T12:20:20.305701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4277791",
+    "pregunta": "Real Racing Club leading at halftime?",
+    "ts": "2026-09-19T12:20:22.468642",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4273051",
+    "pregunta": "Will Paris FC vs. RC Strasbourg Alsace end in a draw?",
+    "ts": "2026-09-19T12:20:24.661816",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4298130",
+    "pregunta": "Will Sporting CP win on 2026-09-19?",
+    "ts": "2026-09-19T12:20:26.847716",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4273106",
+    "pregunta": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "ts": "2026-09-19T12:20:27.915797",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4294082",
+    "pregunta": "Will Gen\u00e7lerbirli\u011fi SK win on 2026-09-19?",
+    "ts": "2026-09-19T12:20:30.057317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4276049",
+    "pregunta": "VfB Stuttgart vs. BV Borussia 09 Dortmund: 1st Half O/U 1.5",
+    "ts": "2026-09-19T12:20:34.369022",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4323761",
+    "pregunta": "Spread: AFC Ajax (-1.5)",
+    "ts": "2026-09-19T12:20:35.588629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4273119",
+    "pregunta": "Will Coventry City FC win on 2026-09-19?",
+    "ts": "2026-09-19T12:20:36.802041",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4273111",
+    "pregunta": "Will Nottingham Forest FC win on 2026-09-19?",
+    "ts": "2026-09-19T12:20:37.863015",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4645534",
+    "pregunta": "FK Crvena Zvezda Belgrade vs. FK Radnicki Nis: FK Radnicki Nis O/U 5.5",
+    "ts": "2026-09-19T12:20:40.144872",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4713006",
+    "pregunta": "Antalyaspor vs. Van Spor FK: Van Spor FK O/U 5.5",
+    "ts": "2026-09-19T12:20:42.697179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4712978",
+    "pregunta": "Antalyaspor vs. Van Spor FK: O/U 7.5",
+    "ts": "2026-09-19T12:20:43.959380",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4712995",
+    "pregunta": "Antalyaspor vs. Van Spor FK: Antalyaspor O/U 5.5",
+    "ts": "2026-09-19T12:20:45.196546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4514777",
+    "pregunta": "Debreceni VSC vs. Vasas FC: O/U 3.5",
+    "ts": "2026-09-19T12:20:46.431843",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4712962",
+    "pregunta": "Spread: Antalyaspor (-5.5)",
+    "ts": "2026-09-19T12:20:47.669147",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4712957",
+    "pregunta": "Spread: Van Spor FK (-3.5)",
+    "ts": "2026-09-19T12:20:48.933367",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4713001",
+    "pregunta": "Antalyaspor vs. Van Spor FK: Van Spor FK O/U 4.5",
+    "ts": "2026-09-19T12:20:51.250574",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4712963",
+    "pregunta": "Spread: Van Spor FK (-5.5)",
+    "ts": "2026-09-19T12:20:53.624621",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4712960",
+    "pregunta": "Spread: Van Spor FK (-4.5)",
+    "ts": "2026-09-19T12:20:54.882058",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677335",
+    "pregunta": "Estoril Praia vs. Casa Pia AC: Casa Pia AC 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:20:57.169003",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677334",
+    "pregunta": "Estoril Praia vs. Casa Pia AC: Casa Pia AC 1st Half O/U 2.5",
+    "ts": "2026-09-19T12:20:58.395155",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677333",
+    "pregunta": "Estoril Praia vs. Casa Pia AC: Estoril Praia 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:20:59.654624",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677325",
+    "pregunta": "Estoril Praia vs. Casa Pia AC: 1st Half O/U 4.5",
+    "ts": "2026-09-19T12:21:01.966904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4514477",
+    "pregunta": "Will Debreceni VSC win on 2026-09-19?",
+    "ts": "2026-09-19T12:21:03.071762",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4514479",
+    "pregunta": "Will Vasas FC win on 2026-09-19?",
+    "ts": "2026-09-19T12:21:04.143511",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4686136",
+    "pregunta": "Amed Sportif vs. Be\u015fikta\u015f JK: Amed Sportif O/U 5.5",
+    "ts": "2026-09-19T12:21:06.465252",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4686142",
+    "pregunta": "Amed Sportif vs. Be\u015fikta\u015f JK: Amed Sportif 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:21:07.701725",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4686129",
+    "pregunta": "Amed Sportif vs. Be\u015fikta\u015f JK: O/U 7.5",
+    "ts": "2026-09-19T12:21:10.056895",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4686140",
+    "pregunta": "Amed Sportif vs. Be\u015fikta\u015f JK: Amed Sportif 1st Half O/U 2.5",
+    "ts": "2026-09-19T12:21:11.311240",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4686139",
+    "pregunta": "Amed Sportif vs. Be\u015fikta\u015f JK: Be\u015fikta\u015f JK O/U 5.5",
+    "ts": "2026-09-19T12:21:12.562884",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4686135",
+    "pregunta": "Amed Sportif vs. Be\u015fikta\u015f JK: Amed Sportif O/U 4.5",
+    "ts": "2026-09-19T12:21:13.798434",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4686144",
+    "pregunta": "Amed Sportif vs. Be\u015fikta\u015f JK: Be\u015fikta\u015f JK 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:21:20.538989",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677304",
+    "pregunta": "CD Santa Clara vs. SC Braga: SC Braga O/U 5.5",
+    "ts": "2026-09-19T12:21:21.829288",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677294",
+    "pregunta": "CD Santa Clara vs. SC Braga: O/U 6.5",
+    "ts": "2026-09-19T12:21:23.077264",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4312761",
+    "pregunta": "Kilmarnock FC vs. Heart of Midlothian FC: O/U 5.5",
+    "ts": "2026-09-19T12:21:26.316503",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4277806",
+    "pregunta": "Exact Score: CD Eldense 2 - 1 SD Eibar?",
+    "ts": "2026-09-19T12:21:29.894152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4277512",
+    "pregunta": "Will CD Eldense win on 2026-09-19?",
+    "ts": "2026-09-19T12:21:30.952420",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677306",
+    "pregunta": "CD Santa Clara vs. SC Braga: CD Santa Clara 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:21:32.195053",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677305",
+    "pregunta": "CD Santa Clara vs. SC Braga: CD Santa Clara 1st Half O/U 2.5",
+    "ts": "2026-09-19T12:21:34.504748",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4711850",
+    "pregunta": "Sao Paulo Open: Kaitlin Quevedo vs Anna Blinkova",
+    "ts": "2026-09-19T12:21:35.999056",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4323806",
+    "pregunta": "Sparta Rotterdam vs. SC Heerenveen: 1st Half O/U 0.5",
+    "ts": "2026-09-19T12:21:37.223948",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677308",
+    "pregunta": "CD Santa Clara vs. SC Braga: SC Braga 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:21:38.524918",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677307",
+    "pregunta": "CD Santa Clara vs. SC Braga: SC Braga 1st Half O/U 2.5",
+    "ts": "2026-09-19T12:21:41.930968",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677297",
+    "pregunta": "CD Santa Clara vs. SC Braga: 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:21:43.184393",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684429",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: FC DAC 1904 Dunajsk\u00e1 Streda 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:21:44.391515",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684421",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: 1st Half O/U 4.5",
+    "ts": "2026-09-19T12:21:45.630989",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4645533",
+    "pregunta": "FK Crvena Zvezda Belgrade vs. FK Radnicki Nis: FK Radnicki Nis O/U 4.5",
+    "ts": "2026-09-19T12:21:46.865825",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684426",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: FC Spartak Trnava O/U 4.5",
+    "ts": "2026-09-19T12:21:48.170723",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684431",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: FC Spartak Trnava 1st Half O/U 3.5",
+    "ts": "2026-09-19T12:21:49.387775",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684430",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: FC Spartak Trnava 1st Half O/U 2.5",
+    "ts": "2026-09-19T12:21:54.877153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684427",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: FC Spartak Trnava O/U 5.5",
+    "ts": "2026-09-19T12:21:57.200661",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684418",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: O/U 7.5",
+    "ts": "2026-09-19T12:21:58.451656",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4684424",
+    "pregunta": "FC DAC 1904 Dunajsk\u00e1 Streda vs. FC Spartak Trnava: FC DAC 1904 Dunajsk\u00e1 Streda O/U 5.5",
+    "ts": "2026-09-19T12:22:00.766171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4645532",
+    "pregunta": "FK Crvena Zvezda Belgrade vs. FK Radnicki Nis: FK Radnicki Nis O/U 3.5",
+    "ts": "2026-09-19T12:22:03.046840",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4541888",
+    "pregunta": "APO Levadiakos FC vs. Olympiacos Piraeus: APO Levadiakos FC 1st Half O/U 0.5",
+    "ts": "2026-09-19T12:22:06.409595",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4277532",
+    "pregunta": "Will CD Tenerife win on 2026-09-19?",
+    "ts": "2026-09-19T12:22:07.475566",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
