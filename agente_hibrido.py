@@ -40,8 +40,9 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 NEWS_API_KEY  = os.environ.get("NEWS_API_KEY", "")
 cliente_llm = AsyncGroq(api_key=GROQ_API_KEY)
 MODELOS_LLM = [
-    "llama-3.3-70b-versatile",
-    "llama-3.1-8b-instant"
+    "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+    "qwen/qwen3.8-27b"
 ]
 BASE_URL = "https://gamma-api.polymarket.com"
 TIMEOUT  = 15
@@ -647,7 +648,7 @@ Solo recomienda "EXIT" si estás extremadamente seguro (confianza >= 0.85) de qu
                         {"role": "system", "content": "Eres un analista de mercados de precisión. Responde estrictamente en formato JSON."},
                         {"role": "user", "content": prompt}
                     ],
-                    model="llama-3.1-70b-versatile",
+                    model="openai/gpt-oss-120b",
                     response_format={"type": "json_object"},
                     temperature=0.1
                 )
