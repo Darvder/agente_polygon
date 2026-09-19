@@ -157,22 +157,30 @@ def registrar_prioridad_hibrido(market_id, pregunta, wallet, whale_signal):
 
 # ── Conectores de API ──────────────────────────────────────────────
 
-def obtener_datos_mercado(condition_id):
+def obtener_datos_mercado(condition_id, token_id=None):
     """Consulta la Gamma API para obtener metadatos y precios del mercado."""
     time.sleep(1.0)
     url = "https://gamma-api.polymarket.com/markets"
     try:
-        r = requests.get(url, params={"condition_ids": condition_id}, headers=DEFAULT_HEADERS, timeout=12)
-        if r.status_code == 200 and r.json():
-            return r.json()[0]
+        if condition_id:
+            r = requests.get(url, params={"condition_ids": condition_id}, headers=DEFAULT_HEADERS, timeout=12)
+            if r.status_code == 200 and r.json():
+                return r.json()[0]
+            
+            # Intento 2: Buscar en mercados cerrados
+            time.sleep(1.0)
+            r = requests.get(url, params={"condition_ids": condition_id, "closed": "true"}, headers=DEFAULT_HEADERS, timeout=12)
+            if r.status_code == 200 and r.json():
+                return r.json()[0]
         
-        # Intento 2: Buscar en mercados cerrados
-        time.sleep(1.0)
-        r = requests.get(url, params={"condition_ids": condition_id, "closed": "true"}, headers=DEFAULT_HEADERS, timeout=12)
-        if r.status_code == 200 and r.json():
-            return r.json()[0]
+        # Intento 3: Fallback por CLOB token ID si condition_ids no arrojó resultados
+        if token_id:
+            time.sleep(1.0)
+            r = requests.get(url, params={"clob_token_ids": token_id}, headers=DEFAULT_HEADERS, timeout=12)
+            if r.status_code == 200 and r.json():
+                return r.json()[0]
     except Exception as e:
-        log.warning(f"Error consultando Gamma API para condition_id {condition_id[:10]}: {e}")
+        log.warning(f"Error consultando Gamma API para condition_id {str(condition_id)[:10]}: {e}")
     return None
 
 def obtener_datos_mercado_por_id(market_id):
@@ -205,12 +213,12 @@ def obtener_ballenas_dinamicas(limite=5):
     url = "https://data-api.polymarket.com/trades"
     p = _get_proxies()
     try:
-        r = requests.get(url, params={"limit": 60}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
+        r = requests.get(url, params={"limit": 100}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200 and isinstance(r.json(), list):
             trades = r.json()
             conteo = {}
             for t in trades:
-                w = t.get("user")
+                w = t.get("proxyWallet") or t.get("user")
                 if w and isinstance(w, str) and w.startswith("0x"):
                     conteo[w] = conteo.get(w, 0) + 1
             top_wallets = [w for w, _ in sorted(conteo.items(), key=lambda x: x[1], reverse=True)]
@@ -322,7 +330,7 @@ async def procesar_copy_trading():
             # A. COMPRAR (BUY)
             if side == "BUY":
                 # Consultar metadatos en Gamma API primero para registrar en la cola de prioridad
-                market = obtener_datos_mercado(condition_id)
+                market = obtener_datos_mercado(condition_id, token_id=asset_id)
                 if market and market.get("active") and not market.get("closed"):
                     # Identificar qué token comprar (YES o NO)
                     whale_signal = "COMPRAR YES"
