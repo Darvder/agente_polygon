@@ -45,9 +45,9 @@
     "wr": 0.167
   },
   "categoria:politica": {
-    "n": 6,
+    "n": 7,
     "wins": 0,
-    "wr": 0.125
+    "wr": 0.111
   },
   "precio:medio": {
     "n": 26,
@@ -100,9 +100,9 @@
     "wr": 0.111
   },
   "se\u00f1al:yes": {
-    "n": 15,
+    "n": 16,
     "wins": 8,
-    "wr": 0.529
+    "wr": 0.5
   },
   "int_precio_senal:extremo_bajo_yes": {
     "n": 1,
@@ -110,14 +110,14 @@
     "wr": 0.333
   },
   "precio:bajo": {
-    "n": 12,
+    "n": 13,
     "wins": 4,
-    "wr": 0.357
+    "wr": 0.333
   },
   "int_precio_senal:bajo_yes": {
-    "n": 5,
+    "n": 6,
     "wins": 2,
-    "wr": 0.429
+    "wr": 0.375
   },
   "vol:medio": {
     "n": 2,

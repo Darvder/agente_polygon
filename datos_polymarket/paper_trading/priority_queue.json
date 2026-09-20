@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4674339",
+    "pregunta": "Will the highest temperature in Atlanta be between 90-91\u00b0F on September 20?",
+    "ts": "2026-09-20T04:03:51.330554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x94e12577e4fc292af87d28fe13f6d9b6dce15eb4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4685114",
+    "pregunta": "Will the highest temperature in Panama City be 30\u00b0C on September 20?",
+    "ts": "2026-09-20T04:03:52.413700",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x94e12577e4fc292af87d28fe13f6d9b6dce15eb4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4674349",
+    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on September 20?",
+    "ts": "2026-09-20T04:03:53.479517",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x94e12577e4fc292af87d28fe13f6d9b6dce15eb4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
