@@ -481,6 +481,12 @@ def verificar_salidas(df, estado, mercados_actuales):
     ahora = datetime.now()
     cerradas = 0
 
+    for col in ["razon_cierre", "fecha_cierre_real", "precio_cierre", "pct_cambio", "pnl_realizado"]:
+        if col not in df.columns:
+            df[col] = None
+    df["razon_cierre"] = df["razon_cierre"].astype(object)
+    df["fecha_cierre_real"] = df["fecha_cierre_real"].astype(object)
+
     for idx, pos in df[df["estado"] == "ABIERTA"].iterrows():
         try:
             dt = datetime.strptime(pos["fecha_entrada_dt"], "%Y-%m-%d %H:%M")
@@ -523,9 +529,6 @@ def verificar_salidas(df, estado, mercados_actuales):
             df.loc[idx, "precio_actual"] = precio_token_actual
             pte = float(pos["precio_token_entrada"])
             pct = (precio_token_actual - pte) / pte
-
-            df["razon_cierre"] = df["razon_cierre"].astype(object)
-            df["fecha_cierre_real"] = df["fecha_cierre_real"].astype(object)
 
             if not is_active:
                 pass
@@ -755,8 +758,8 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
                     max_tokens=450,  # Espacio holgado para el análisis CoT sin truncados
                     response_format={"type": "json_object"}
                 )
-                # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM) (relajado a 3.0s)
-                await asyncio.sleep(3.0)
+                # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM)
+                await asyncio.sleep(1.5)
 
             an = json.loads(msg.choices[0].message.content.strip())
             log.info(f"✅ [{nombre_m}] Analisis exitoso con el modelo {model_name}")
@@ -1018,23 +1021,13 @@ async def ciclo():
     df, n_inactivas = cerrar_inactivas(df, estado)
     if n_inactivas: guardar_estado(estado)
 
-    # Filtro de cupo disponible
-    n_ab = len(df[df["estado"]=="ABIERTA"]) if not df.empty else 0
-    cupo = MAX_POSICIONES - n_ab
-    if cupo <= 0:
-        log.info("Cartera llena")
-        return
-    
-    # Inicialización de Módulos
-    bayesian = BayesianEngine(archivo_libro=ARCHIVO_LIBRO, archivo_modelo="datos_polymarket/paper_trading/bayesian_hibrido.json")
-    bayesian.entrenar()
-    vol_engine = VolatilityEngine()
-    ev_detector = EventDetector(archivo_libro=ARCHIVO_LIBRO)
+    # 4. Verificar salidas (TP, SL, Early Exit, Trailing SL, Time Exit)
+    # ¡CRÍTICO: Se evalúa SIEMPRE para actualizar y cerrar posiciones ganadoras o perdedoras!
     cliente_news = NewsApiClient(api_key=NEWS_API_KEY)
-
-    # 4. Verificar salidas (Incluye la nueva lógica de Early Exit)
     df, n_cerradas = verificar_salidas(df, estado, mercados)
-    if n_cerradas: guardar_estado(estado)
+    if n_cerradas:
+        guardar_libro(df)
+        guardar_estado(estado)
 
     # 4.5 Auditoría Activa de Riesgo mediante LLM para Posiciones Abiertas (Híbrido)
     df = await auditar_posiciones_activas_llm(df, estado, cliente_news)
@@ -1061,16 +1054,26 @@ async def ciclo():
         except Exception as e:
             log.warning(f"Error en la auditoría del Copy-Trader: {e}")
 
-
-
-    # 2. SELECCIÓN DE MERCADOS A REVISAR (WHALES + AUTÓNOMOS)
+    # 5. Filtro de cupo disponible para NUEVAS operaciones
+    n_ab = len(df[df["estado"]=="ABIERTA"]) if not df.empty else 0
+    cupo = MAX_POSICIONES - n_ab
+    if cupo <= 0:
+        log.info(f"🔒 Cartera completa ({n_ab}/{MAX_POSICIONES} posiciones abiertas). Monitoreo de salidas finalizado con éxito. No se buscan nuevas entradas.")
+        return
     
+    # Inicialización de Módulos para nuevas entradas
+    bayesian = BayesianEngine(archivo_libro=ARCHIVO_LIBRO, archivo_modelo="datos_polymarket/paper_trading/bayesian_hibrido.json")
+    bayesian.entrenar()
+    vol_engine = VolatilityEngine()
+    ev_detector = EventDetector(archivo_libro=ARCHIVO_LIBRO)
+
+    # 6. SELECCIÓN DE MERCADOS A REVISAR (WHALES + AUTÓNOMOS)
     # Cargar mercados prioritarios desde la cola
     mercados_prioritarios = cargar_prioritarios(mercados)
     ids_prioritarios = {str(m.get("id")) for m in mercados_prioritarios}
     
-    # Seleccionar candidatos autónomos del escaneo general (hasta 30 mercados con mejor liquidez)
-    MAX_AUTONOMOS = 30
+    # Seleccionar candidatos autónomos proporcionales al cupo disponible (máximo 4 a 8, no 30)
+    MAX_AUTONOMOS = min(8, max(4, cupo * 2))
     mercados_autonomos = [
         m for m in mercados 
         if str(m.get("id")) not in ids_prioritarios

@@ -209,7 +209,7 @@ def _get_proxies():
     return {"http": proxy, "https": proxy} if proxy else None
 
 def obtener_ballenas_dinamicas(limite=5):
-    """Descubre dinámicamente billeteras activas analizando los trades recientes del mercado."""
+    """Descubre dinámicamente billeteras activas analizando los trades recientes del mercado (excluyendo bots de 5m)."""
     url = "https://data-api.polymarket.com/trades"
     p = _get_proxies()
     try:
@@ -218,6 +218,10 @@ def obtener_ballenas_dinamicas(limite=5):
             trades = r.json()
             conteo = {}
             for t in trades:
+                title_lower = (t.get("title") or "").lower()
+                slug_lower = (t.get("slug") or "").lower()
+                if "updown" in slug_lower or "up or down" in title_lower:
+                    continue
                 w = t.get("proxyWallet") or t.get("user")
                 if w and isinstance(w, str) and w.startswith("0x"):
                     conteo[w] = conteo.get(w, 0) + 1
@@ -228,12 +232,12 @@ def obtener_ballenas_dinamicas(limite=5):
     return []
 
 def obtener_transacciones_usuario(wallet):
-    """Consulta las transacciones de un usuario en la data-api."""
-    time.sleep(1.0)
+    """Consulta las transacciones de un usuario en la data-api (limitado a las 20 más recientes)."""
+    time.sleep(0.2)
     url = f"https://data-api.polymarket.com/trades"
     p = _get_proxies()
     try:
-        r = requests.get(url, params={"user": wallet}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
+        r = requests.get(url, params={"user": wallet, "limit": 20}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200:
             return r.json()
     except Exception as e:
@@ -242,7 +246,7 @@ def obtener_transacciones_usuario(wallet):
 
 def obtener_posiciones_usuario(wallet):
     """Consulta la cartera abierta de posiciones del usuario."""
-    time.sleep(1.0)
+    time.sleep(0.2)
     url = f"https://data-api.polymarket.com/positions"
     p = _get_proxies()
     try:
@@ -304,10 +308,18 @@ async def procesar_copy_trading():
 
     # 2. Procesar transacciones recientes de cada billetera objetivo
     nuevas_posiciones = []
+    market_cache = {}
+    wallet_positions_cache = {}
+    now_ts = time.time()
+    max_age_sec = config.get("max_trade_age_hours", 2) * 3600  # Máximo 2 horas de antigüedad
     
     for wallet in wallets:
 
         log.info(f"Scouting wallet: {wallet[:15]}...")
+        positions_trader = obtener_posiciones_usuario(wallet)
+        active_assets = {str(p.get("asset")): float(p.get("size", 0)) for p in positions_trader if float(p.get("size", 0)) > 0}
+        wallet_positions_cache[wallet] = active_assets
+
         trades = obtener_transacciones_usuario(wallet)
         if not trades:
             continue
@@ -320,27 +332,41 @@ async def procesar_copy_trading():
             if not tx_hash or tx_hash in cache:
                 continue
 
+            # Filtro 0: Descartar micro-mercados de 5 minutos de BTC/ETH (HFT bots)
+            title_lower = (t.get("title") or "").lower()
+            slug_lower = (t.get("slug") or "").lower()
+            if "updown" in slug_lower or "up or down" in title_lower:
+                cache.add(tx_hash)
+                continue
+
+            # Filtro 1: Descartar transacciones de más de 2 horas (evitar copiar apuestas desactualizadas)
+            ts = float(t.get("timestamp", 0))
+            if ts > 0 and (now_ts - ts) > max_age_sec:
+                cache.add(tx_hash)
+                continue
+
+            target_price = float(t.get("price", 0))
+            # Filtro 2: Descartar en memoria si el precio de la ballena está fuera de rango (0 ms, sin llamadas API)
+            if target_price < min_precio_config or target_price > max_precio_config:
+                cache.add(tx_hash)
+                continue
+
             side = str(t.get("side")).upper()
             condition_id = t.get("conditionId")
             asset_id = str(t.get("asset"))
-            target_price = float(t.get("price", 0))
             pregunta = t.get("title", "")
             outcome_trader = t.get("outcome", "")
 
             # A. COMPRAR (BUY)
             if side == "BUY":
-                # Consultar metadatos en Gamma API primero para registrar en la cola de prioridad
-                market = obtener_datos_mercado(condition_id, token_id=asset_id)
-                if market and market.get("active") and not market.get("closed"):
-                    # Identificar qué token comprar (YES o NO)
-                    whale_signal = "COMPRAR YES"
-                    outcomes = market.get("outcomes", [])
-                    if len(outcomes) >= 2 and outcome_trader != outcomes[0]:
-                        whale_signal = "COMPRAR NO"
-                    registrar_prioridad_hibrido(market.get("id"), pregunta, wallet, whale_signal)
+                # Filtro crítico: Si la ballena ya vendió o ya no mantiene esta posición abierta, NO COMPRAR
+                if asset_id not in active_assets:
+                    log.info(f"⏭️ [{pregunta[:30]}] Ballena ya no tiene esta posición abierta en su cartera. Omitiendo.")
+                    cache.add(tx_hash)
+                    continue
 
                 if cupo <= 0:
-                    # Cartera llena, pero registramos la tx en caché para no evaluarla de nuevo
+                    # Cartera llena
                     cache.add(tx_hash)
                     continue
 
@@ -348,7 +374,6 @@ async def procesar_copy_trading():
                 n_abiertas_wallet = len(df[(df["estado"] == "ABIERTA") & (df["target_wallet"] == wallet)]) if not df.empty else 0
                 n_abiertas_wallet += sum(1 for np in nuevas_posiciones if np.get("target_wallet") == wallet)
                 if n_abiertas_wallet >= max_posiciones_por_wallet:
-                    log.info(f"⏭️ [{wallet[:10]}] Cupo por wallet alcanzado ({n_abiertas_wallet}/{max_posiciones_por_wallet}). Omitiendo.")
                     cache.add(tx_hash)
                     continue
 
@@ -362,12 +387,20 @@ async def procesar_copy_trading():
                     cache.add(tx_hash)
                     continue
 
-                if not market:
-                    cache.add(tx_hash)
-                    continue
+                # Consultar metadatos en Gamma API usando caché local por condition_id
+                cache_key = condition_id if condition_id else asset_id
+                if cache_key not in market_cache:
+                    market_cache[cache_key] = obtener_datos_mercado(condition_id, token_id=asset_id)
+                market = market_cache.get(cache_key)
 
-                # Verificar estado del mercado (ya verificado arriba, pero se mantiene por seguridad)
-                if not market.get("active") or market.get("closed"):
+                if market and market.get("active") and not market.get("closed"):
+                    # Identificar qué token comprar (YES o NO)
+                    whale_signal = "COMPRAR YES"
+                    outcomes = market.get("outcomes", [])
+                    if len(outcomes) >= 2 and outcome_trader != outcomes[0]:
+                        whale_signal = "COMPRAR NO"
+                    registrar_prioridad_hibrido(market.get("id"), pregunta, wallet, whale_signal)
+                else:
                     cache.add(tx_hash)
                     continue
 
@@ -529,32 +562,38 @@ async def procesar_copy_trading():
 
 
 
-            # C. VALIDACIÓN FAILSAFE: Comprobar si el trader aún mantiene la posición
-            positions_trader = obtener_posiciones_usuario(wallet_objetivo)
-            mantiene_posicion = False
-            for p_obj in positions_trader:
-                if str(p_obj.get("asset")) == asset_id and float(p_obj.get("size", 0)) > 0:
-                    mantiene_posicion = True
-                    break
+            pte = float(pos["precio_token_entrada"])
+            pct = (precio_actual - pte) / pte if pte > 0 else 0.0
 
-            # Si el mercado está cerrado o resuelto
-            mercado_resuelto = market.get("closed") or not market.get("active")
+            # B. Control de riesgo y salidas automáticas (Stop Loss / Take Profit)
+            COPY_TP = float(config.get("take_profit_pct", 0.25))  # +25% Take Profit
+            COPY_SL = float(config.get("stop_loss_pct", -0.15))   # -15% Stop Loss
+            razon = None
 
-            if mercado_resuelto or not mantiene_posicion:
-                # El trader ya no tiene la posición o el mercado resolvió -> Salida forzada
-                pte = float(pos["precio_token_entrada"])
-                
-                if mercado_resuelto:
-                    # Comprobar precio de resolución final (1.0 si ganó, 0.0 si perdió)
-                    # En paper trading, si el mercado cerró, vemos cuál es el precio actual
-                    # Si Gamma API lo tiene cerrado, el precio reflejará 1 o 0.
-                    precio_cierre = precio_actual
-                    razon = "RESOLVED_EXIT"
+            if pct >= COPY_TP:
+                razon = "TAKE_PROFIT"
+            elif pct <= COPY_SL:
+                razon = "STOP_LOSS"
+            else:
+                # C. VALIDACIÓN FAILSAFE: Comprobar si el trader aún mantiene la posición (con caché)
+                if wallet_objetivo in wallet_positions_cache:
+                    active_assets_target = wallet_positions_cache[wallet_objetivo]
                 else:
-                    precio_cierre = precio_actual
+                    positions_trader = obtener_posiciones_usuario(wallet_objetivo)
+                    active_assets_target = {str(p.get("asset")): float(p.get("size", 0)) for p in positions_trader if float(p.get("size", 0)) > 0}
+                    wallet_positions_cache[wallet_objetivo] = active_assets_target
+
+                mantiene_posicion = asset_id in active_assets_target
+
+                # Si el mercado está cerrado o resuelto
+                mercado_resuelto = market.get("closed") or not market.get("active")
+                if mercado_resuelto:
+                    razon = "RESOLVED_EXIT"
+                elif not mantiene_posicion:
                     razon = "FAILSAFE_SYNC_EXIT"
 
-                pct = (precio_cierre - pte) / pte
+            if razon:
+                precio_cierre = precio_actual
                 pnl = round(float(pos["monto_usdc"]) * pct, 2)
 
                 df.loc[idx, "estado"] = "CERRADA"
@@ -570,7 +609,7 @@ async def procesar_copy_trading():
                 if pnl >= 0: estado["n_tp"] += 1
                 else: estado["n_sl"] += 1
 
-                log.info(f"🔒 [FAILSAFE] Salida sincronizada: {pos['pregunta'][:40]} | Motivo: {razon} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
+                log.info(f"🔒 [{razon}] Salida: {pos['pregunta'][:40]} | Retorno: {pct:+.1%} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
 
     # 5. Guardar estado general
     estado["n_ciclos"] += 1
