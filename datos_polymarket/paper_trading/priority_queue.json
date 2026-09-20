@@ -1,10 +1,18 @@
 [
   {
-    "id": "4741092",
-    "pregunta": "Dota 2:  Pipsqueak+4 vs Yakult Brothers (BO3) - PGL Wallachia Group Stage",
-    "ts": "2026-09-20T11:43:57.376564",
+    "id": "4322167",
+    "pregunta": "Fulham FC vs. Manchester United FC: O/U 2.5",
+    "ts": "2026-09-20T11:53:39.353071",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x21c7001ff2f9c4fbb002258688f1629cc24842e7",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3482626",
+    "pregunta": "Bengals vs. Texans",
+    "ts": "2026-09-20T11:53:41.301335",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
