@@ -1,50 +1,42 @@
 [
   {
-    "id": "3482626",
-    "pregunta": "Bengals vs. Texans",
-    "ts": "2026-09-20T01:22:06.592729",
+    "id": "4746209",
+    "pregunta": "Will the highest temperature in Shanghai be 28\u00b0C on September 22?",
+    "ts": "2026-09-20T01:32:19.530294",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xad0fb7ce3b9666e5bbd2d4def464ec6f51b97e57",
+    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3482612",
-    "pregunta": "Vikings vs. Bears",
-    "ts": "2026-09-20T01:22:07.636195",
+    "id": "4746274",
+    "pregunta": "Will the highest temperature in Taipei be 31\u00b0C on September 22?",
+    "ts": "2026-09-20T01:32:20.706009",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xad0fb7ce3b9666e5bbd2d4def464ec6f51b97e57",
+    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3482590",
-    "pregunta": "Saints vs. Ravens",
-    "ts": "2026-09-20T01:22:08.681375",
+    "id": "4746229",
+    "pregunta": "Will the highest temperature in Singapore be 33\u00b0C on September 22?",
+    "ts": "2026-09-20T01:32:22.073491",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xad0fb7ce3b9666e5bbd2d4def464ec6f51b97e57",
+    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4667998",
-    "pregunta": "Will the highest temperature in Busan be 28\u00b0C on September 20?",
-    "ts": "2026-09-20T01:22:11.386830",
+    "id": "4746210",
+    "pregunta": "Will the highest temperature in Shanghai be 29\u00b0C on September 22?",
+    "ts": "2026-09-20T01:32:23.207306",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x13d435e54547b963b4cc10666e2af5e536639705",
+    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4668078",
-    "pregunta": "Will the highest temperature in Qingdao be 30\u00b0C on September 20?",
-    "ts": "2026-09-20T01:22:12.433007",
+    "id": "4746439",
+    "pregunta": "Will the highest temperature in Qingdao be 30\u00b0C on September 22?",
+    "ts": "2026-09-20T01:32:24.263104",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x13d435e54547b963b4cc10666e2af5e536639705",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4667964",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 20?",
-    "ts": "2026-09-20T01:22:13.473909",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x13d435e54547b963b4cc10666e2af5e536639705",
+    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
     "whale_signal": "COMPRAR NO"
   }
 ]
