@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4448073",
+    "pregunta": "Spread: Panthers (-6.5)",
+    "ts": "2026-09-20T12:34:20.997591",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4448264",
+    "pregunta": "Spread: Texans (-7.5)",
+    "ts": "2026-09-20T12:34:22.156439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4448247",
+    "pregunta": "Spread: Bengals (-3.5)",
+    "ts": "2026-09-20T12:34:23.228788",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4448263",
+    "pregunta": "Spread: Texans (-6.5)",
+    "ts": "2026-09-20T12:34:24.303550",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3517144",
+    "pregunta": "Spread: Texans (-1.5)",
+    "ts": "2026-09-20T12:34:25.496409",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
