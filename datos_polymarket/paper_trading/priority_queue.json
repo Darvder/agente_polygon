@@ -1,10 +1,58 @@
 [
   {
-    "id": "4721005",
-    "pregunta": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
-    "ts": "2026-09-20T02:01:41.999005",
+    "id": "4722960",
+    "pregunta": "Will the highest temperature in San Francisco be between 68-69\u00b0F on September 21?",
+    "ts": "2026-09-20T02:13:08.688095",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0x966c31fb10f9fa46ae97ef8b0dc01c188c39087f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746418",
+    "pregunta": "Will the highest temperature in Cape Town be 33\u00b0C on September 22?",
+    "ts": "2026-09-20T02:13:09.853746",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x966c31fb10f9fa46ae97ef8b0dc01c188c39087f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4748523",
+    "pregunta": "Will the highest temperature in Atlanta be between 90-91\u00b0F on September 22?",
+    "ts": "2026-09-20T02:13:10.926723",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x966c31fb10f9fa46ae97ef8b0dc01c188c39087f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4717918",
+    "pregunta": "Will the highest temperature in London be 23\u00b0C on September 21?",
+    "ts": "2026-09-20T02:13:12.094874",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x966c31fb10f9fa46ae97ef8b0dc01c188c39087f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4324494",
+    "pregunta": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: Both Teams to Score",
+    "ts": "2026-09-20T02:13:13.762841",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4323343",
+    "pregunta": "Will Club Atl\u00e9tico de Madrid win on 2026-09-20?",
+    "ts": "2026-09-20T02:13:14.854107",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4319514",
+    "pregunta": "Will Paris Saint-Germain FC win on 2026-09-20?",
+    "ts": "2026-09-20T02:13:15.947644",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
