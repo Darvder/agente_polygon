@@ -1,10 +1,34 @@
 [
   {
-    "id": "4733898",
-    "pregunta": "LoL: paiN Gaming vs RED Canids - Game 3 Winner",
-    "ts": "2026-09-20T13:24:33.358890",
+    "id": "4713923",
+    "pregunta": "Counter-Strike: INOX Division vs SPARTA (BO3) - NODWIN Clutch Series Group Stage",
+    "ts": "2026-09-20T13:34:07.983231",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4757904",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 4 Winner",
+    "ts": "2026-09-20T13:34:09.026603",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4741879",
+    "pregunta": "Counter-Strike: BET-M 33 vs KAMUI - Map 2 Winner",
+    "ts": "2026-09-20T13:34:10.075838",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4709689",
+    "pregunta": "Counter-Strike: BakS eSports vs Black Phoenix - Map 1 Winner",
+    "ts": "2026-09-20T13:34:11.131519",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
     "whale_signal": "COMPRAR NO"
   }
 ]
