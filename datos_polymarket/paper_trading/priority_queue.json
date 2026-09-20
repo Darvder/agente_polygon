@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4322183",
+    "pregunta": "Fulham FC vs. Manchester United FC: Both Teams to Score",
+    "ts": "2026-09-20T11:23:13.475529",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4323359",
+    "pregunta": "Will Real Betis Balompi\u00e9 win on 2026-09-20?",
+    "ts": "2026-09-20T11:23:14.787515",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4322152",
+    "pregunta": "Spread: Manchester United FC (-1.5)",
+    "ts": "2026-09-20T11:23:16.152105",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  }
+]
