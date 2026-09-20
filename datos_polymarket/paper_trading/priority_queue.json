@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "4295926",
+    "pregunta": "Will CD Guadalajara win on 2026-09-19?",
+    "ts": "2026-09-19T22:51:03.315693",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4295925",
+    "pregunta": "Will CF Am\u00e9rica vs. CD Guadalajara end in a draw?",
+    "ts": "2026-09-19T22:51:04.362022",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4350162",
+    "pregunta": "Fresno State vs. San Jose State",
+    "ts": "2026-09-19T22:51:06.462346",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4266712",
+    "pregunta": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card)",
+    "ts": "2026-09-19T22:51:08.215432",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4667911",
+    "pregunta": "Will the highest temperature in Taipei be 32\u00b0C on September 20?",
+    "ts": "2026-09-19T22:51:10.088573",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfe8a44919d6ea7e80e861e18e2b9e490adc779a9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4667759",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 26\u00b0C on September 20?",
+    "ts": "2026-09-19T22:51:11.139589",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfe8a44919d6ea7e80e861e18e2b9e490adc779a9",
+    "whale_signal": "COMPRAR NO"
+  }
+]

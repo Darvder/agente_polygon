@@ -1,8 +1,8 @@
 {
   "categoria:otro": {
-    "n": 26,
+    "n": 27,
     "wins": 7,
-    "wr": 0.286
+    "wr": 0.276
   },
   "precio:extremo_alto": {
     "n": 4,
@@ -50,9 +50,9 @@
     "wr": 0.125
   },
   "precio:medio": {
-    "n": 15,
+    "n": 16,
     "wins": 3,
-    "wr": 0.235
+    "wr": 0.222
   },
   "int_precio_senal:medio_no": {
     "n": 4,
