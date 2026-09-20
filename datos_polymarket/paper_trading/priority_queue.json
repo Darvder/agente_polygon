@@ -1,106 +1,66 @@
 [
   {
-    "id": "4758898",
-    "pregunta": "Counter-Strike: WBT vs Eternal Fire - Map 2 Winner",
-    "ts": "2026-09-20T14:36:28.814032",
+    "id": "4637737",
+    "pregunta": "Will FK Cukaricki Belgrade win on 2026-09-20?",
+    "ts": "2026-09-20T14:44:58.351596",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3920213",
-    "pregunta": "Bengals vs. Texans: O/U 35.5",
-    "ts": "2026-09-20T14:36:30.031591",
+    "id": "4341925",
+    "pregunta": "Will Sport Lisboa e Benfica win on 2026-09-20?",
+    "ts": "2026-09-20T14:44:59.392610",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3517098",
-    "pregunta": "Eagles vs. Titans: O/U 40.5",
-    "ts": "2026-09-20T14:36:31.093456",
+    "id": "3482696",
+    "pregunta": "Eagles vs. Titans",
+    "ts": "2026-09-20T14:45:02.384182",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3517099",
-    "pregunta": "Eagles vs. Titans: O/U 41.5",
-    "ts": "2026-09-20T14:36:32.139281",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3517097",
-    "pregunta": "Eagles vs. Titans: O/U 38.5",
-    "ts": "2026-09-20T14:36:33.181889",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3920138",
-    "pregunta": "Eagles vs. Titans: O/U 37.5",
-    "ts": "2026-09-20T14:36:34.226596",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3920254",
-    "pregunta": "Saints vs. Ravens: O/U 39.5",
-    "ts": "2026-09-20T14:36:35.325277",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3482612",
-    "pregunta": "Vikings vs. Bears",
-    "ts": "2026-09-20T14:36:36.369456",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3482590",
     "pregunta": "Saints vs. Ravens",
-    "ts": "2026-09-20T14:36:37.410509",
+    "ts": "2026-09-20T14:45:03.424904",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4449499",
-    "pregunta": "Spread: Patriots (-17.5)",
-    "ts": "2026-09-20T14:36:39.343569",
+    "id": "4551854",
+    "pregunta": "Philadelphia Phillies vs. New York Mets",
+    "ts": "2026-09-20T14:45:04.469887",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4448599",
-    "pregunta": "Spread: Jets (-2.5)",
-    "ts": "2026-09-20T14:36:40.391599",
+    "id": "4551931",
+    "pregunta": "Toronto Blue Jays vs. Texas Rangers",
+    "ts": "2026-09-20T14:45:05.515364",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3920277",
-    "pregunta": "Panthers vs. Falcons: O/U 46.5",
-    "ts": "2026-09-20T14:36:41.436061",
+    "id": "3482612",
+    "pregunta": "Vikings vs. Bears",
+    "ts": "2026-09-20T14:45:06.563313",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4359767",
-    "pregunta": "FC Porto vs. Sport Lisboa e Benfica: O/U 2.5",
-    "ts": "2026-09-20T14:36:42.481931",
+    "id": "3482681",
+    "pregunta": "Browns vs. Buccaneers",
+    "ts": "2026-09-20T14:45:07.601993",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
