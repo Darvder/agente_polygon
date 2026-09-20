@@ -58,9 +58,15 @@ DEFAULT_CONFIG = {
         "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae", # Latina
         "0x59151ed846c13dc0f004b856a8be325ad571db2b"  # Selective Sports Whale
     ],
+    "enable_dynamic_whales": True,
+    "dynamic_whale_limit": 5,
     "max_positions": 20,
     "max_positions_per_wallet": 5,
-    "capital_per_trade": 25.0,
+    "min_capital_per_trade": 8.0,
+    "max_capital_per_trade": 25.0,
+    "risk_pct_per_trade": 0.018,
+    "stop_loss_pct": -0.35,
+    "take_profit_pct": 0.35,
     "max_slippage": 0.06,
     "min_price": 0.15,
     "max_price": 0.85,
@@ -77,6 +83,57 @@ DEFAULT_ESTADO = {
     "n_sl": 0,
     "n_time": 0
 }
+
+def calcular_tamano_posicion_copy(estado, precio_token, slippage, max_slippage, trade_whale, config):
+    """
+    Calcula el tamaño de posición óptimo dinámico ajustado por retorno / unidad de riesgo.
+    - Base de riesgo sobre el capital total (equity = efectivo + riesgo).
+    - Asimetría de pago (Risk/Reward): beneficia cuotas asimétricas, penaliza cuotas caras con poco upside.
+    - Fricción de slippage: reduce el monto si el slippage es alto.
+    - Convicción de la ballena: pondera según el volumen real invertido por la ballena.
+    """
+    capital_actual = float(estado.get("capital_actual", 1000.0))
+    capital_riesgo = float(estado.get("capital_en_riesgo", 0.0))
+    equity_total = max(100.0, capital_actual + capital_riesgo)
+
+    min_cap = float(config.get("min_capital_per_trade", 8.0))
+    max_cap = float(config.get("max_capital_per_trade", 25.0))
+    risk_pct = float(config.get("risk_pct_per_trade", 0.018))  # ~1.8% del balance total
+
+    # 1. Base proporcional de capital
+    tamano_base = equity_total * risk_pct
+
+    # 2. Factor de asimetría retorno/riesgo (Payout ratio R = (1 - p) / p)
+    # Token a 0.50 -> neutral (1.0). Token a 0.30 -> alto upside (1.25). Token a 0.80 -> bajo upside (0.65)
+    p = max(0.05, min(0.95, float(precio_token)))
+    factor_asimetria = max(0.60, min(1.25, (1.0 - p) / 0.50))
+
+    # 3. Factor de fricción por slippage
+    # A mayor slippage, menor tamaño para mitigar degradación de retorno
+    slip_ratio = min(1.0, max(0.0, float(slippage) / max(0.001, float(max_slippage))))
+    factor_slippage = max(0.70, 1.0 - (slip_ratio * 0.35))
+
+    # 4. Factor de convicción de la Ballena (volumen de la orden de la ballena)
+    whale_shares = float(trade_whale.get("size", 0.0) or 0.0)
+    whale_target_p = float(trade_whale.get("price", p) or p)
+    volumen_ballena_usdc = whale_shares * whale_target_p
+
+    if volumen_ballena_usdc >= 2000.0:
+        factor_ballena = 1.15
+    elif volumen_ballena_usdc >= 500.0:
+        factor_ballena = 1.05
+    elif volumen_ballena_usdc <= 150.0:
+        factor_ballena = 0.85
+    else:
+        factor_ballena = 1.00
+
+    # 5. Cálculo consolidado
+    tamano_calc = tamano_base * factor_asimetria * factor_slippage * factor_ballena
+    tamano_final = round(max(min_cap, min(max_cap, tamano_calc)), 2)
+
+    # Asegurar no exceder el efectivo disponible
+    tamano_final = min(tamano_final, capital_actual)
+    return tamano_final
 
 # ── Inicializadores de archivos ────────────────────────────────────
 
@@ -451,14 +508,24 @@ async def procesar_copy_trading():
                     cache.add(tx_hash)
                     continue
 
-                # Validar saldo disponible
-                if estado["capital_actual"] < capital_por_op:
-                    log.warning("❌ Saldo insuficiente en la cuenta de Copy-Trading para abrir posiciones.")
+                # Validar y calcular dimensionamiento dinámico por unidad de riesgo
+                monto_op = calcular_tamano_posicion_copy(
+                    estado=estado,
+                    precio_token=precio_token_actual,
+                    slippage=pct_slippage,
+                    max_slippage=max_slippage,
+                    trade_whale=t,
+                    config=config
+                )
+
+                min_requerido = float(config.get("min_capital_per_trade", 8.0))
+                if monto_op < min_requerido or estado["capital_actual"] < monto_op:
+                    log.warning(f"❌ Saldo insuficiente (${estado['capital_actual']:.2f} < ${monto_op:.2f}) para abrir posición.")
                     cache.add(tx_hash)
                     continue
 
                 # Abrir posición
-                log.info(f"🎯 COPIANDO COMPRA: {pregunta[:40]} | Outcome: {outcome_trader} | Precio: {precio_token_actual:.3f} | Wallet: {wallet[:10]}")
+                log.info(f"🎯 COPIANDO COMPRA: {pregunta[:40]} | Outcome: {outcome_trader} | Precio: {precio_token_actual:.3f} | Monto: ${monto_op:.2f} | Wallet: {wallet[:10]}")
                 
                 nueva_op = {
                     "fecha_entrada": datetime.now().strftime("%Y-%m-%d"),
@@ -473,7 +540,7 @@ async def procesar_copy_trading():
                     "precio_actual": precio_token_actual,
                     "precio_cierre": "",
                     "pct_cambio": 0.0,
-                    "monto_usdc": capital_por_op,
+                    "monto_usdc": monto_op,
                     "estado": "ABIERTA",
                     "fecha_cierre_real": "",
                     "pnl_realizado": 0.0,
@@ -482,8 +549,8 @@ async def procesar_copy_trading():
                 }
                 
                 nuevas_posiciones.append(nueva_op)
-                estado["capital_actual"] = round(estado["capital_actual"] - capital_por_op, 2)
-                estado["capital_en_riesgo"] = round(estado["capital_en_riesgo"] + capital_por_op, 2)
+                estado["capital_actual"] = round(estado["capital_actual"] - monto_op, 2)
+                estado["capital_en_riesgo"] = round(estado["capital_en_riesgo"] + monto_op, 2)
                 cupo -= 1
                 cache.add(tx_hash)
 
@@ -566,8 +633,8 @@ async def procesar_copy_trading():
             pct = (precio_actual - pte) / pte if pte > 0 else 0.0
 
             # B. Control de riesgo y salidas automáticas (Stop Loss / Take Profit)
-            COPY_TP = float(config.get("take_profit_pct", 0.25))  # +25% Take Profit
-            COPY_SL = float(config.get("stop_loss_pct", -0.15))   # -15% Stop Loss
+            COPY_TP = float(config.get("take_profit_pct", 0.35))  # +35% Take Profit
+            COPY_SL = float(config.get("stop_loss_pct", -0.35))   # -35% Stop Loss (evita liquidaciones por spread normal en deportes)
             razon = None
 
             if pct >= COPY_TP:

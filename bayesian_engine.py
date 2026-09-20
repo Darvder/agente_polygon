@@ -169,13 +169,14 @@ def extraer_features(row):
 
 def es_señal_valida(row):
     """
-    Solo aprende de operaciones donde el precio se movió.
-    INACTIVA y TIME_EXIT con PnL=0 son ruido, no señal.
+    Solo aprende de operaciones donde el precio se movió con significancia direccional.
+    INACTIVA y TIME_EXIT con PnL plano o micro-ruido (< 2.5% o < $0.25) son ruido, no señal.
     """
     razon = str(row.get("razon_cierre", "")).upper()
     pnl   = float(row.get("pnl_realizado", 0) or 0)
+    pct   = float(row.get("pct_cambio", 0) or 0)
     if razon == "INACTIVA": return False
-    if razon == "TIME_EXIT" and abs(pnl) < 0.05: return False
+    if razon == "TIME_EXIT" and (abs(pct) < 0.025 or abs(pnl) < 0.25): return False
     return True
 
 def es_ganadora(row):
@@ -203,35 +204,18 @@ class BayesianEngine:
             json.dump(self.modelo, f, indent=2)
 
     def entrenar(self):
+        # El modelo bayesiano del Híbrido debe aprender de las decisiones cualitativas y cuantitativas
+        # del propio Híbrido (libro_hibrido.csv), sin contaminación de stops por ruido en deportes del Copy Trader.
         df_hibrido = pd.read_csv(self.archivo_libro) if os.path.exists(self.archivo_libro) else pd.DataFrame()
-        archivo_copy = "datos_polymarket/copy_trading/libro_copy.csv"
-        df_copy = pd.read_csv(archivo_copy) if os.path.exists(archivo_copy) else pd.DataFrame()
         
-        if df_hibrido.empty and df_copy.empty:
+        if df_hibrido.empty:
             log.info("Bayesiano: sin datos de historial para entrenar.")
             return
 
-        # Combinar ambos dataframes
-        df = pd.concat([df_hibrido, df_copy], ignore_index=True)
-        if df.empty:
-            return
-
-        # Excluir la billetera perdedora de béisbol para no envenenar el modelo bayesiano
-        bad_whale = "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-        if "target_wallet" in df.columns:
-            df = df[df["target_wallet"] != bad_whale]
-
-        # Eliminar duplicados por market_id (conservando la fila con menos nulos, es decir, la del híbrido que tiene datos LLM)
-        df["n_nulos"] = df.isnull().sum(axis=1)
-        df = df.sort_values("n_nulos").drop_duplicates(subset=["market_id"], keep="first")
-
+        df = df_hibrido.copy()
         cerradas = df[df["estado"].str.upper() == "CERRADA"].copy()
 
-        # Solo entrenamos con trades cerrados después de aplicar el fix de Stop Loss (22 de junio de 2026)
-        if not cerradas.empty and "fecha_cierre_real" in cerradas.columns:
-            cerradas = cerradas[cerradas["fecha_cierre_real"] >= "2026-06-22 22:00"]
-
-        # Solo trades con señal real (excluye INACTIVA y TIME_EXIT nulos)
+        # Solo trades con señal real (excluye INACTIVA y TIME_EXIT planos)
         validas = cerradas[cerradas.apply(es_señal_valida, axis=1)]
 
         modelo = {}

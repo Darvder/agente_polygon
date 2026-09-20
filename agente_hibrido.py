@@ -308,7 +308,11 @@ def cargar_prioritarios(mercados):
     seleccionados = []
     hoy = datetime.now().date()
     
-    for item in queue:
+    # Procesar máximo 3 mercados de ballenas por ciclo para no saturar los slots autónomos
+    MAX_PRIORITARIOS = 3
+    queue_a_evaluar = queue[:MAX_PRIORITARIOS]
+    
+    for item in queue_a_evaluar:
         mid = str(item.get("id"))
         if not mid or mid == "None":
             continue
@@ -755,7 +759,7 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
                     model=model_name,
                     temperature=0.0,
                     messages=[{"role":"user","content":prompt}],
-                    max_tokens=450,  # Espacio holgado para el análisis CoT sin truncados
+                    max_tokens=900,  # Espacio holgado para el análisis CoT sin truncados de JSON
                     response_format={"type": "json_object"}
                 )
                 # Micro-letargo defensivo para proteger la ventana de Tokens Per Minute (TPM)
