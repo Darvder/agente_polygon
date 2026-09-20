@@ -1,26 +1,10 @@
 [
   {
-    "id": "4323611",
-    "pregunta": "Exact Score: Any Other Score?",
-    "ts": "2026-09-20T07:15:19.804056",
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-09-20T07:25:22.593221",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb0d9468a0178f412ce6cec1f0e441b480b120868",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4323442",
-    "pregunta": "Exact Score: Getafe CF 1 - 0 M\u00e1laga CF?",
-    "ts": "2026-09-20T07:15:21.101895",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb0d9468a0178f412ce6cec1f0e441b480b120868",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3670499",
-    "pregunta": "US x Iran diplomatic meeting by March 31, 2027?",
-    "ts": "2026-09-20T07:15:24.523848",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd324e20e3462d859a2913c5bfd162ed7f9aeb23c",
+    "whale_wallet": "0xca08d6c4f044ff2d751d30abe51479c50026c267",
     "whale_signal": "COMPRAR NO"
   }
 ]
