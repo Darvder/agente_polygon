@@ -1,42 +1,10 @@
 [
   {
-    "id": "4323359",
-    "pregunta": "Will Real Betis Balompi\u00e9 win on 2026-09-20?",
-    "ts": "2026-09-20T13:13:59.502613",
+    "id": "4733898",
+    "pregunta": "LoL: paiN Gaming vs RED Canids - Game 3 Winner",
+    "ts": "2026-09-20T13:24:33.358890",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4319505",
-    "pregunta": "Will SC Paderborn 07 win on 2026-09-20?",
-    "ts": "2026-09-20T13:14:00.557797",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4322145",
-    "pregunta": "Spread: SC Paderborn 07 (-1.5)",
-    "ts": "2026-09-20T13:14:01.606736",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3482662",
-    "pregunta": "Packers vs. Jets",
-    "ts": "2026-09-20T13:14:04.460083",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3482681",
-    "pregunta": "Browns vs. Buccaneers",
-    "ts": "2026-09-20T13:14:05.504008",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
