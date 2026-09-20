@@ -1,66 +1,18 @@
 [
   {
-    "id": "4720006",
-    "pregunta": "Will the highest temperature in Atlanta be between 92-93\u00b0F on September 21?",
-    "ts": "2026-09-20T17:05:03.418450",
+    "id": "4453882",
+    "pregunta": "Jaguars vs. Broncos: O/U 34.5",
+    "ts": "2026-09-20T17:16:09.037993",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4748523",
-    "pregunta": "Will the highest temperature in Atlanta be between 90-91\u00b0F on September 22?",
-    "ts": "2026-09-20T17:05:04.658136",
+    "id": "3920118",
+    "pregunta": "Jaguars vs. Broncos: O/U 37.5",
+    "ts": "2026-09-20T17:16:10.098984",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746362",
-    "pregunta": "Will the highest temperature in Busan be 28\u00b0C on September 22?",
-    "ts": "2026-09-20T17:05:05.939196",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4718119",
-    "pregunta": "Will the highest temperature in Wuhan be 24\u00b0C or below on September 21?",
-    "ts": "2026-09-20T17:05:07.036360",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746164",
-    "pregunta": "Will the highest temperature in Munich be 16\u00b0C on September 22?",
-    "ts": "2026-09-20T17:05:08.344661",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746133",
-    "pregunta": "Will the highest temperature in Ankara be 25\u00b0C on September 22?",
-    "ts": "2026-09-20T17:05:09.633778",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746155",
-    "pregunta": "Will the highest temperature in Lucknow be 33\u00b0C on September 22?",
-    "ts": "2026-09-20T17:05:10.728687",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746111",
-    "pregunta": "Will the highest temperature in Paris be 24\u00b0C on September 22?",
-    "ts": "2026-09-20T17:05:11.824277",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b0cfea5606f2c44fa1b83f274914b3e48d66515",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   }
 ]
