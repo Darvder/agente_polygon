@@ -1,18 +1,106 @@
 [
   {
-    "id": "4713472",
-    "pregunta": "Davis Cup: Liam Draxl vs. Quentin Halys",
-    "ts": "2026-09-20T14:26:54.247538",
+    "id": "4758898",
+    "pregunta": "Counter-Strike: WBT vs Eternal Fire - Map 2 Winner",
+    "ts": "2026-09-20T14:36:28.814032",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6702ea5bb92527f5e4cd9d0362a7ee5a197fff45",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4713477",
-    "pregunta": "Davis Cup: Daniel Altmaier vs. Matej Dodig",
-    "ts": "2026-09-20T14:26:55.360035",
+    "id": "3920213",
+    "pregunta": "Bengals vs. Texans: O/U 35.5",
+    "ts": "2026-09-20T14:36:30.031591",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6702ea5bb92527f5e4cd9d0362a7ee5a197fff45",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3517098",
+    "pregunta": "Eagles vs. Titans: O/U 40.5",
+    "ts": "2026-09-20T14:36:31.093456",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3517099",
+    "pregunta": "Eagles vs. Titans: O/U 41.5",
+    "ts": "2026-09-20T14:36:32.139281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3517097",
+    "pregunta": "Eagles vs. Titans: O/U 38.5",
+    "ts": "2026-09-20T14:36:33.181889",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3920138",
+    "pregunta": "Eagles vs. Titans: O/U 37.5",
+    "ts": "2026-09-20T14:36:34.226596",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3920254",
+    "pregunta": "Saints vs. Ravens: O/U 39.5",
+    "ts": "2026-09-20T14:36:35.325277",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3482612",
+    "pregunta": "Vikings vs. Bears",
+    "ts": "2026-09-20T14:36:36.369456",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3482590",
+    "pregunta": "Saints vs. Ravens",
+    "ts": "2026-09-20T14:36:37.410509",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4449499",
+    "pregunta": "Spread: Patriots (-17.5)",
+    "ts": "2026-09-20T14:36:39.343569",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4448599",
+    "pregunta": "Spread: Jets (-2.5)",
+    "ts": "2026-09-20T14:36:40.391599",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3920277",
+    "pregunta": "Panthers vs. Falcons: O/U 46.5",
+    "ts": "2026-09-20T14:36:41.436061",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4359767",
+    "pregunta": "FC Porto vs. Sport Lisboa e Benfica: O/U 2.5",
+    "ts": "2026-09-20T14:36:42.481931",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
     "whale_signal": "COMPRAR NO"
   }
 ]
