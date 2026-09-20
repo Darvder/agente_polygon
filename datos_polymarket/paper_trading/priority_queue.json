@@ -1,50 +1,34 @@
 [
   {
-    "id": "4295926",
-    "pregunta": "Will CD Guadalajara win on 2026-09-19?",
-    "ts": "2026-09-19T22:51:03.315693",
+    "id": "4295923",
+    "pregunta": "Will CF Am\u00e9rica win on 2026-09-19?",
+    "ts": "2026-09-19T23:01:36.747512",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4295925",
-    "pregunta": "Will CF Am\u00e9rica vs. CD Guadalajara end in a draw?",
-    "ts": "2026-09-19T22:51:04.362022",
+    "id": "4296365",
+    "pregunta": "Portland Timbers vs. Atlanta United FC: O/U 2.5",
+    "ts": "2026-09-19T23:01:37.842464",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4350162",
-    "pregunta": "Fresno State vs. San Jose State",
-    "ts": "2026-09-19T22:51:06.462346",
+    "id": "4293526",
+    "pregunta": "Will Atlanta United FC win on 2026-09-19?",
+    "ts": "2026-09-19T23:01:38.897539",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4266712",
     "pregunta": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card)",
-    "ts": "2026-09-19T22:51:08.215432",
+    "ts": "2026-09-19T23:01:42.323748",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4667911",
-    "pregunta": "Will the highest temperature in Taipei be 32\u00b0C on September 20?",
-    "ts": "2026-09-19T22:51:10.088573",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfe8a44919d6ea7e80e861e18e2b9e490adc779a9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4667759",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 26\u00b0C on September 20?",
-    "ts": "2026-09-19T22:51:11.139589",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfe8a44919d6ea7e80e861e18e2b9e490adc779a9",
+    "whale_wallet": "0x7d93bcb1bad9d0fb2f7cb774715a3f005523fdef",
     "whale_signal": "COMPRAR NO"
   }
 ]
