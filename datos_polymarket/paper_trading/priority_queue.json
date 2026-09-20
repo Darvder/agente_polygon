@@ -1,18 +1,42 @@
 [
   {
-    "id": "4319462",
-    "pregunta": "Will Manchester City FC win on 2026-09-20?",
-    "ts": "2026-09-20T00:41:49.467906",
+    "id": "4667953",
+    "pregunta": "Will the highest temperature in Chengdu be 26\u00b0C on September 20?",
+    "ts": "2026-09-20T00:51:58.714128",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4721005",
-    "pregunta": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
-    "ts": "2026-09-20T00:41:52.188610",
+    "id": "4667940",
+    "pregunta": "Will the highest temperature in Wuhan be 27\u00b0C on September 20?",
+    "ts": "2026-09-20T00:51:59.862135",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x30058fc0f66cfb6c8a351a792361324ea9af458d",
+    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4668078",
+    "pregunta": "Will the highest temperature in Qingdao be 30\u00b0C on September 20?",
+    "ts": "2026-09-20T00:52:00.954085",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4668066",
+    "pregunta": "Will the highest temperature in Guangzhou be 36\u00b0C on September 20?",
+    "ts": "2026-09-20T00:52:02.104042",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4668079",
+    "pregunta": "Will the highest temperature in Qingdao be 31\u00b0C on September 20?",
+    "ts": "2026-09-20T00:52:03.195724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
     "whale_signal": "COMPRAR NO"
   }
 ]
