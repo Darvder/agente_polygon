@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4325468",
+    "pregunta": "CF Am\u00e9rica vs. CD Guadalajara: CD Guadalajara O/U 2.5",
+    "ts": "2026-09-19T23:51:31.944334",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4323345",
+    "pregunta": "Will Real Madrid CF win on 2026-09-20?",
+    "ts": "2026-09-19T23:51:33.823002",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4319470",
+    "pregunta": "Will Wolverhampton Wanderers FC win on 2026-09-20?",
+    "ts": "2026-09-19T23:51:34.995244",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4384970",
+    "pregunta": "Spread: SF (-12.5)",
+    "ts": "2026-09-19T23:51:36.071313",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1364103",
+    "pregunta": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+    "ts": "2026-09-19T23:51:38.007595",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xadb966a92e352c9a33061789e3b00cecb51c9e58",
+    "whale_signal": "COMPRAR NO"
+  }
+]
