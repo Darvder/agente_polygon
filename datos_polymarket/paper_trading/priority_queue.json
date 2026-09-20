@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "4675563",
+    "pregunta": "Will the highest temperature in Houston be between 92-93\u00b0F on September 20?",
+    "ts": "2026-09-20T03:03:33.191657",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3738f01bbdbc0b8dba83b1512bc1c9f89338ed32",
+    "whale_signal": "COMPRAR NO"
+  }
+]
