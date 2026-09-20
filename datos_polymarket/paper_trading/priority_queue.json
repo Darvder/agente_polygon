@@ -1,50 +1,50 @@
 [
   {
-    "id": "3517033",
-    "pregunta": "Spread: Seahawks (-8.5)",
-    "ts": "2026-09-20T15:13:59.318844",
+    "id": "3517020",
+    "pregunta": "Commanders vs. Cowboys: O/U 51.5",
+    "ts": "2026-09-20T15:23:43.207523",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3517016",
-    "pregunta": "Spread: Cowboys (-4.5)",
-    "ts": "2026-09-20T15:14:00.389593",
+    "id": "3920042",
+    "pregunta": "Commanders vs. Cowboys: O/U 50.5",
+    "ts": "2026-09-20T15:23:44.308143",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4453646",
-    "pregunta": "Cowboys Team Total: O/U 27.5",
-    "ts": "2026-09-20T15:14:01.458073",
+    "id": "3516974",
+    "pregunta": "Spread: Chiefs (-7.5)",
+    "ts": "2026-09-20T15:23:45.502059",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4322141",
-    "pregunta": "Olympique de Marseille vs. Paris Saint-Germain FC: O/U 0.5",
-    "ts": "2026-09-20T15:14:03.166080",
+    "id": "4323363",
+    "pregunta": "Will Valencia CF win on 2026-09-20?",
+    "ts": "2026-09-20T15:23:47.793400",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4322142",
-    "pregunta": "Olympique de Marseille vs. Paris Saint-Germain FC: O/U 1.5",
-    "ts": "2026-09-20T15:14:04.240009",
+    "id": "4301182",
+    "pregunta": "Will Fluminense FC win on 2026-09-20?",
+    "ts": "2026-09-20T15:23:48.882527",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4449717",
-    "pregunta": "Spread: Jaguars (-1.5)",
-    "ts": "2026-09-20T15:14:06.058898",
+    "id": "4359767",
+    "pregunta": "FC Porto vs. Sport Lisboa e Benfica: O/U 2.5",
+    "ts": "2026-09-20T15:23:49.991872",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
