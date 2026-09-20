@@ -1,18 +1,82 @@
 [
   {
-    "id": "4340815",
-    "pregunta": "Will CA Newell's Old Boys win on 2026-09-20?",
-    "ts": "2026-09-20T16:15:15.778883",
+    "id": "4301155",
+    "pregunta": "Will Ava\u00ed FC win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:17.645736",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4338183",
-    "pregunta": "Will Inter Miami CF win on 2026-09-20?",
-    "ts": "2026-09-20T16:15:17.543033",
+    "id": "4542609",
+    "pregunta": "Will Club Almirante Brown win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:18.816417",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4344202",
+    "pregunta": "Will EC Bahia win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:19.868963",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4338189",
+    "pregunta": "Will San Diego FC win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:20.913422",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4667316",
+    "pregunta": "Will AA Internacional Limeira SP win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:22.082111",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4667313",
+    "pregunta": "Will Brusque FC SC win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:23.136113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4328360",
+    "pregunta": "Will CSD Xelaj\u00fa MC win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:24.332648",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4333961",
+    "pregunta": "Will Racing Louisville FC win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:25.458521",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4324613",
+    "pregunta": "Will Inter San Carlos win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:26.504017",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x187c9a9b671d348388defae5d4ad1d49ebb38708",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4344184",
+    "pregunta": "Will CR Flamengo win on 2026-09-20?",
+    "ts": "2026-09-20T16:24:28.216671",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
