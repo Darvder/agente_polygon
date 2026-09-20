@@ -1,50 +1,34 @@
 [
   {
-    "id": "1447977",
-    "pregunta": "Will Green Bay Packers win the 2026 NFC North?",
-    "ts": "2026-09-20T15:46:25.150995",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x852eaa709e9e502489b3c3f6c967493342a9ca77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2155362",
-    "pregunta": "Will the New York Giants make the 2027 NFL Playoffs?",
-    "ts": "2026-09-20T15:46:26.328214",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x852eaa709e9e502489b3c3f6c967493342a9ca77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4301182",
-    "pregunta": "Will Fluminense FC win on 2026-09-20?",
-    "ts": "2026-09-20T15:46:27.889900",
+    "id": "4328955",
+    "pregunta": "Deportivo San Pedro vs. CSD Cob\u00e1n Imperial: O/U 2.5",
+    "ts": "2026-09-20T15:55:24.538431",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4323365",
-    "pregunta": "Will Real Sociedad de F\u00fatbol win on 2026-09-20?",
-    "ts": "2026-09-20T15:46:28.930627",
+    "id": "4359768",
+    "pregunta": "FC Porto vs. Sport Lisboa e Benfica: O/U 3.5",
+    "ts": "2026-09-20T15:55:25.594359",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4341925",
-    "pregunta": "Will Sport Lisboa e Benfica win on 2026-09-20?",
-    "ts": "2026-09-20T15:46:31.365631",
+    "id": "3482783",
+    "pregunta": "Colts vs. Chiefs",
+    "ts": "2026-09-20T15:55:28.058271",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6fd8b51924453648903723887c808aef39453df",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3482734",
-    "pregunta": "Raiders vs. Chargers",
-    "ts": "2026-09-20T15:46:32.407237",
+    "id": "3482718",
+    "pregunta": "Jaguars vs. Broncos",
+    "ts": "2026-09-20T15:55:29.939680",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6fd8b51924453648903723887c808aef39453df",
+    "whale_wallet": "0x0c4d080bd6820d208d058e1850a0a6440391a427",
     "whale_signal": "COMPRAR NO"
   }
 ]
