@@ -1,8 +1,8 @@
 {
   "categoria:otro": {
-    "n": 43,
+    "n": 45,
     "wins": 16,
-    "wr": 0.378
+    "wr": 0.362
   },
   "precio:extremo_alto": {
     "n": 4,
@@ -10,9 +10,9 @@
     "wr": 0.167
   },
   "se\u00f1al:no": {
-    "n": 22,
+    "n": 23,
     "wins": 4,
-    "wr": 0.208
+    "wr": 0.2
   },
   "vol:plano": {
     "n": 9,
@@ -50,9 +50,9 @@
     "wr": 0.111
   },
   "precio:medio": {
-    "n": 26,
+    "n": 27,
     "wins": 9,
-    "wr": 0.357
+    "wr": 0.345
   },
   "int_precio_senal:medio_no": {
     "n": 7,
@@ -100,9 +100,9 @@
     "wr": 0.111
   },
   "se\u00f1al:yes": {
-    "n": 16,
+    "n": 17,
     "wins": 8,
-    "wr": 0.5
+    "wr": 0.474
   },
   "int_precio_senal:extremo_bajo_yes": {
     "n": 1,
@@ -140,19 +140,19 @@
     "wr": 0.4
   },
   "int_precio_senal:medio_yes": {
-    "n": 8,
-    "wins": 5,
-    "wr": 0.6
-  },
-  "precio:alto": {
     "n": 9,
     "wins": 5,
     "wr": 0.545
   },
+  "precio:alto": {
+    "n": 10,
+    "wins": 5,
+    "wr": 0.5
+  },
   "int_precio_senal:alto_no": {
-    "n": 7,
+    "n": 8,
     "wins": 3,
-    "wr": 0.444
+    "wr": 0.4
   },
   "edge:alto": {
     "n": 2,
