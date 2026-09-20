@@ -1,42 +1,50 @@
 [
   {
-    "id": "4729549",
-    "pregunta": "Athletics vs. Cleveland Guardians: O/U 7.5",
-    "ts": "2026-09-20T15:07:14.588201",
+    "id": "3517033",
+    "pregunta": "Spread: Seahawks (-8.5)",
+    "ts": "2026-09-20T15:13:59.318844",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3517016",
+    "pregunta": "Spread: Cowboys (-4.5)",
+    "ts": "2026-09-20T15:14:00.389593",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4453646",
+    "pregunta": "Cowboys Team Total: O/U 27.5",
+    "ts": "2026-09-20T15:14:01.458073",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4322141",
+    "pregunta": "Olympique de Marseille vs. Paris Saint-Germain FC: O/U 0.5",
+    "ts": "2026-09-20T15:14:03.166080",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4323365",
-    "pregunta": "Will Real Sociedad de F\u00fatbol win on 2026-09-20?",
-    "ts": "2026-09-20T15:07:15.669827",
+    "id": "4322142",
+    "pregunta": "Olympique de Marseille vs. Paris Saint-Germain FC: O/U 1.5",
+    "ts": "2026-09-20T15:14:04.240009",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4359778",
-    "pregunta": "FC Porto vs. Sport Lisboa e Benfica: FC Porto O/U 1.5",
-    "ts": "2026-09-20T15:07:16.743481",
+    "id": "4449717",
+    "pregunta": "Spread: Jaguars (-1.5)",
+    "ts": "2026-09-20T15:14:06.058898",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4340816",
-    "pregunta": "Will CA Rosario Central win on 2026-09-20?",
-    "ts": "2026-09-20T15:07:17.996353",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4551947",
-    "pregunta": "Will there be a run scored in the first inning?: Minnesota Twins vs. Los Angeles Angels",
-    "ts": "2026-09-20T15:07:19.970221",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   }
 ]
