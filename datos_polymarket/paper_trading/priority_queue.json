@@ -1,50 +1,50 @@
 [
   {
-    "id": "3482734",
-    "pregunta": "Raiders vs. Chargers",
-    "ts": "2026-09-20T16:44:32.167838",
+    "id": "4558860",
+    "pregunta": "Will the price of Bitcoin be above $80,000 on September 21?",
+    "ts": "2026-09-20T16:54:12.899616",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x60062ecbce1b143ed4955129377d2ff3632ac7e4",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4450532",
-    "pregunta": "Spread: Cowboys (-9.5)",
-    "ts": "2026-09-20T16:44:33.225970",
+    "id": "4558837",
+    "pregunta": "Will the price of Ethereum be above $2,600 on September 21?",
+    "ts": "2026-09-20T16:54:14.030479",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x60062ecbce1b143ed4955129377d2ff3632ac7e4",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4450133",
-    "pregunta": "Spread: 49ers (-17.5)",
-    "ts": "2026-09-20T16:44:34.325596",
+    "id": "3482763",
+    "pregunta": "Commanders vs. Cowboys",
+    "ts": "2026-09-20T16:54:15.817192",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4453382",
-    "pregunta": "Dolphins vs. 49ers: O/U 40.5",
-    "ts": "2026-09-20T16:44:35.411572",
+    "id": "3866498",
+    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $72 in September?",
+    "ts": "2026-09-20T16:54:17.931853",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x799435e6f356fe77446a783093db4560bf16c512",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3920015",
-    "pregunta": "Dolphins vs. 49ers: O/U 43.5",
-    "ts": "2026-09-20T16:44:36.491698",
+    "id": "4442271",
+    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $68 in September?",
+    "ts": "2026-09-20T16:54:19.185093",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x799435e6f356fe77446a783093db4560bf16c512",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4551886",
-    "pregunta": "Athletics vs. Cleveland Guardians",
-    "ts": "2026-09-20T16:44:37.545457",
+    "id": "4690431",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in September?",
+    "ts": "2026-09-20T16:54:20.467007",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x799435e6f356fe77446a783093db4560bf16c512",
     "whale_signal": "COMPRAR NO"
   }
 ]
