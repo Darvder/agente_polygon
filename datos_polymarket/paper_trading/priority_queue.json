@@ -1,90 +1,50 @@
 [
   {
-    "id": "4295913",
-    "pregunta": "Will CF Monterrey win on 2026-09-19?",
-    "ts": "2026-09-19T21:32:42.989060",
+    "id": "3808562",
+    "pregunta": "Blackhawks vs. Wild",
+    "ts": "2026-09-19T21:51:53.293746",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a62c9a567c3eab9c9066bcde6de9ca977c5a2a8",
+    "whale_wallet": "0xb6d2d81518cda8f9025697f942b2533ad4efd67b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4295917",
-    "pregunta": "Will CF Cruz Azul win on 2026-09-19?",
-    "ts": "2026-09-19T21:32:44.025081",
+    "id": "4296597",
+    "pregunta": "St. Louis City SC vs. Toronto FC: O/U 3.5",
+    "ts": "2026-09-19T21:51:54.407655",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a62c9a567c3eab9c9066bcde6de9ca977c5a2a8",
+    "whale_wallet": "0xb6d2d81518cda8f9025697f942b2533ad4efd67b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4293488",
-    "pregunta": "Will Philadelphia Union win on 2026-09-19?",
-    "ts": "2026-09-19T21:32:45.062831",
+    "id": "4296636",
+    "pregunta": "Houston Dynamo vs. FC Cincinnati: O/U 3.5",
+    "ts": "2026-09-19T21:51:55.671351",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a62c9a567c3eab9c9066bcde6de9ca977c5a2a8",
+    "whale_wallet": "0xb6d2d81518cda8f9025697f942b2533ad4efd67b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4293486",
-    "pregunta": "Will Sporting Kansas City win on 2026-09-19?",
-    "ts": "2026-09-19T21:32:46.097360",
+    "id": "4294922",
+    "pregunta": "Real Salt Lake vs. Vancouver Whitecaps FC: O/U 9.5 Total Corners",
+    "ts": "2026-09-19T21:51:56.924596",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a62c9a567c3eab9c9066bcde6de9ca977c5a2a8",
+    "whale_wallet": "0xb6d2d81518cda8f9025697f942b2533ad4efd67b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4293487",
-    "pregunta": "Will Sporting Kansas City vs. Philadelphia Union end in a draw?",
-    "ts": "2026-09-19T21:32:47.136725",
+    "id": "4350135",
+    "pregunta": "LSU vs. Ole Miss",
+    "ts": "2026-09-19T21:51:57.998052",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a62c9a567c3eab9c9066bcde6de9ca977c5a2a8",
+    "whale_wallet": "0xb6d2d81518cda8f9025697f942b2533ad4efd67b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4293455",
-    "pregunta": "Will Los Angeles Galaxy win on 2026-09-19?",
-    "ts": "2026-09-19T21:32:48.175264",
+    "id": "4266712",
+    "pregunta": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card)",
+    "ts": "2026-09-19T21:52:01.010871",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a62c9a567c3eab9c9066bcde6de9ca977c5a2a8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4293450",
-    "pregunta": "Will Minnesota United FC vs. Los Angeles Galaxy end in a draw?",
-    "ts": "2026-09-19T21:32:49.217458",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9a62c9a567c3eab9c9066bcde6de9ca977c5a2a8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4525102",
-    "pregunta": "Miami Marlins vs. San Diego Padres",
-    "ts": "2026-09-19T21:32:51.122921",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe0267da5b63ee7cd13ab286fe3b70bf388a3f409",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4525098",
-    "pregunta": "New York Yankees vs. Arizona Diamondbacks",
-    "ts": "2026-09-19T21:32:52.161828",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe0267da5b63ee7cd13ab286fe3b70bf388a3f409",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4525096",
-    "pregunta": "Washington Nationals vs. St. Louis Cardinals",
-    "ts": "2026-09-19T21:32:53.201173",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe0267da5b63ee7cd13ab286fe3b70bf388a3f409",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4525100",
-    "pregunta": "Seattle Mariners vs. Colorado Rockies",
-    "ts": "2026-09-19T21:32:54.236059",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe0267da5b63ee7cd13ab286fe3b70bf388a3f409",
+    "whale_wallet": "0xa98a9f80bcb4bf630452e944fcc529c13910474a",
     "whale_signal": "COMPRAR NO"
   }
 ]
