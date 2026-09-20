@@ -1,10 +1,90 @@
 [
   {
-    "id": "682705",
-    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-09-20T07:25:22.593221",
+    "id": "4668054",
+    "pregunta": "Will the highest temperature in Cape Town be 25\u00b0C on September 20?",
+    "ts": "2026-09-20T07:34:22.922395",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xca08d6c4f044ff2d751d30abe51479c50026c267",
+    "whale_wallet": "0xb89bfe9b9813607adf83489e0dca6ab25c4d1a22",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4667747",
+    "pregunta": "Will the highest temperature in Paris be 24\u00b0C on September 20?",
+    "ts": "2026-09-20T07:34:23.999597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89bfe9b9813607adf83489e0dca6ab25c4d1a22",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4546373",
+    "pregunta": "AIK to score first vs. Halmstads BK?",
+    "ts": "2026-09-20T07:34:26.017672",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c8cd8a4b3d5e4b531d19b312cd65cb7b92f42d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4312370",
+    "pregunta": "Parma Calcio 1913 vs. Genoa CFC: Draw at halftime?",
+    "ts": "2026-09-20T07:34:27.099920",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c8cd8a4b3d5e4b531d19b312cd65cb7b92f42d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4312397",
+    "pregunta": "Como 1907 leading at halftime?",
+    "ts": "2026-09-20T07:34:28.269943",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c8cd8a4b3d5e4b531d19b312cd65cb7b92f42d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4325497",
+    "pregunta": "Hellas Verona FC vs. L.R. Vicenza: Draw at halftime?",
+    "ts": "2026-09-20T07:34:29.431687",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c8cd8a4b3d5e4b531d19b312cd65cb7b92f42d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4319962",
+    "pregunta": "Liverpool FC to score first vs. AFC Bournemouth?",
+    "ts": "2026-09-20T07:34:30.615963",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c8cd8a4b3d5e4b531d19b312cd65cb7b92f42d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4325549",
+    "pregunta": "SS Arezzo vs. FC S\u00fcdtirol: Draw at halftime?",
+    "ts": "2026-09-20T07:34:31.794891",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c8cd8a4b3d5e4b531d19b312cd65cb7b92f42d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4547520",
+    "pregunta": "Degerfors IF vs. Hammarby IF: Both Teams to Score",
+    "ts": "2026-09-20T07:34:32.972968",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c8cd8a4b3d5e4b531d19b312cd65cb7b92f42d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4330099",
+    "pregunta": "Will USC Paredes win on 2026-09-20?",
+    "ts": "2026-09-20T07:34:34.997473",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4319465",
+    "pregunta": "Will RB Leipzig win on 2026-09-20?",
+    "ts": "2026-09-20T07:34:36.070789",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
     "whale_signal": "COMPRAR NO"
   }
 ]
