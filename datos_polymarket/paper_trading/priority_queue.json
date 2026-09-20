@@ -1,50 +1,18 @@
 [
   {
-    "id": "3517020",
-    "pregunta": "Commanders vs. Cowboys: O/U 51.5",
-    "ts": "2026-09-20T15:23:43.207523",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3920042",
-    "pregunta": "Commanders vs. Cowboys: O/U 50.5",
-    "ts": "2026-09-20T15:23:44.308143",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3516974",
-    "pregunta": "Spread: Chiefs (-7.5)",
-    "ts": "2026-09-20T15:23:45.502059",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4323363",
-    "pregunta": "Will Valencia CF win on 2026-09-20?",
-    "ts": "2026-09-20T15:23:47.793400",
+    "id": "4322196",
+    "pregunta": "AC Milan vs. US Lecce: O/U 3.5",
+    "ts": "2026-09-20T15:35:14.511692",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4301182",
-    "pregunta": "Will Fluminense FC win on 2026-09-20?",
-    "ts": "2026-09-20T15:23:48.882527",
+    "id": "4717488",
+    "pregunta": "Will the lowest temperature in Hong Kong be 27\u00b0C on September 21?",
+    "ts": "2026-09-20T15:35:16.361192",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4359767",
-    "pregunta": "FC Porto vs. Sport Lisboa e Benfica: O/U 2.5",
-    "ts": "2026-09-20T15:23:49.991872",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x2326c49994aa98c65a53e82fc5c8b632fc0a24e2",
     "whale_signal": "COMPRAR NO"
   }
 ]
