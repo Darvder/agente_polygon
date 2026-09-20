@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "4524966",
+    "pregunta": "Yomiuri Giants vs. Tokyo Yakult Swallows",
+    "ts": "2026-09-20T01:11:31.664059",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x200298f83227a9665d142f64264ce812d05da75e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4350162",
+    "pregunta": "Fresno State vs. San Jose State",
+    "ts": "2026-09-20T01:11:32.720181",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x200298f83227a9665d142f64264ce812d05da75e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4667941",
+    "pregunta": "Will the highest temperature in Wuhan be 28\u00b0C on September 20?",
+    "ts": "2026-09-20T01:11:34.569788",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7948ad36caa20ebd8d4b3cc2bd6f4c2836dd1514",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746123",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 28\u00b0C on September 22?",
+    "ts": "2026-09-20T01:11:36.512322",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bcfd34e00df94ac97b5c51b408a436df3380aa2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723609",
+    "pregunta": "Will the highest temperature in Panama City be 30\u00b0C on September 21?",
+    "ts": "2026-09-20T01:11:37.582368",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bcfd34e00df94ac97b5c51b408a436df3380aa2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4675563",
+    "pregunta": "Will the highest temperature in Houston be between 92-93\u00b0F on September 20?",
+    "ts": "2026-09-20T01:11:38.646571",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bcfd34e00df94ac97b5c51b408a436df3380aa2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
