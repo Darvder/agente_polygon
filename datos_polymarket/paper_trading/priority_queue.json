@@ -1,74 +1,34 @@
 [
   {
-    "id": "1366007",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
-    "ts": "2026-09-20T00:02:04.193899",
+    "id": "4674338",
+    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on September 20?",
+    "ts": "2026-09-20T00:13:18.597787",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
+    "whale_wallet": "0x5bc9a1d1ca6ed6d5d6a831a184b58a8e2078b2ee",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4641223",
-    "pregunta": "Will Elon Musk post <40 tweets from September 19 to September 21, 2026?",
-    "ts": "2026-09-20T00:02:05.384997",
+    "id": "4685079",
+    "pregunta": "Will the highest temperature in Buenos Aires be 23\u00b0C on September 20?",
+    "ts": "2026-09-20T00:13:19.720284",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
+    "whale_wallet": "0x5bc9a1d1ca6ed6d5d6a831a184b58a8e2078b2ee",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1130012",
-    "pregunta": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-    "ts": "2026-09-20T00:02:06.457227",
+    "id": "4295925",
+    "pregunta": "Will CF Am\u00e9rica vs. CD Guadalajara end in a draw?",
+    "ts": "2026-09-20T00:13:21.706749",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4723560",
-    "pregunta": "Will the highest temperature in Sao Paulo be 30\u00b0C on September 21?",
-    "ts": "2026-09-20T00:02:07.559989",
+    "id": "4350157",
+    "pregunta": "South Dakota vs. Boise State",
+    "ts": "2026-09-20T00:13:22.774980",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4723562",
-    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 21?",
-    "ts": "2026-09-20T00:02:08.668411",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4667865",
-    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on September 20?",
-    "ts": "2026-09-20T00:02:09.734711",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4718037",
-    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on September 21?",
-    "ts": "2026-09-20T00:02:10.906351",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4718038",
-    "pregunta": "Will the highest temperature in Singapore be 33\u00b0C on September 21?",
-    "ts": "2026-09-20T00:02:11.993299",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4325441",
-    "pregunta": "Spread: CD Guadalajara (-1.5)",
-    "ts": "2026-09-20T00:02:13.824287",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   }
 ]
