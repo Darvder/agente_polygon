@@ -1,62 +1,7 @@
 {
-  "categoria:otro": {
-    "n": 59,
-    "wins": 23,
-    "wr": 0.393
-  },
-  "precio:extremo_alto": {
-    "n": 4,
-    "wins": 0,
-    "wr": 0.167
-  },
-  "se\u00f1al:no": {
-    "n": 29,
-    "wins": 8,
-    "wr": 0.29
-  },
-  "vol:plano": {
-    "n": 9,
-    "wins": 0,
-    "wr": 0.091
-  },
-  "edge:bajo": {
-    "n": 7,
-    "wins": 1,
-    "wr": 0.222
-  },
-  "confianza:media": {
-    "n": 15,
-    "wins": 1,
-    "wr": 0.118
-  },
-  "momentum:estable": {
-    "n": 17,
-    "wins": 2,
-    "wr": 0.158
-  },
-  "int_confianza_edge:media_bajo": {
-    "n": 6,
-    "wins": 1,
-    "wr": 0.25
-  },
-  "int_precio_senal:extremo_alto_no": {
-    "n": 4,
-    "wins": 0,
-    "wr": 0.167
-  },
   "categoria:politica": {
-    "n": 8,
-    "wins": 1,
-    "wr": 0.2
-  },
-  "precio:medio": {
-    "n": 35,
-    "wins": 13,
-    "wr": 0.378
-  },
-  "int_precio_senal:medio_no": {
-    "n": 8,
-    "wins": 1,
+    "n": 3,
+    "wins": 0,
     "wr": 0.2
   },
   "precio:extremo_bajo": {
@@ -64,10 +9,30 @@
     "wins": 0,
     "wr": 0.25
   },
+  "se\u00f1al:no": {
+    "n": 3,
+    "wins": 1,
+    "wr": 0.4
+  },
+  "vol:plano": {
+    "n": 4,
+    "wins": 0,
+    "wr": 0.167
+  },
+  "edge:bajo": {
+    "n": 2,
+    "wins": 1,
+    "wr": 0.5
+  },
   "confianza:alta": {
     "n": 2,
     "wins": 1,
     "wr": 0.5
+  },
+  "momentum:estable": {
+    "n": 8,
+    "wins": 2,
+    "wr": 0.3
   },
   "int_confianza_edge:alta_bajo": {
     "n": 1,
@@ -79,55 +44,60 @@
     "wins": 0,
     "wr": 0.333
   },
-  "categoria:crypto_tech": {
-    "n": 2,
-    "wins": 0,
-    "wr": 0.25
-  },
-  "vol:alto": {
-    "n": 3,
+  "se\u00f1al:yes": {
+    "n": 5,
     "wins": 1,
-    "wr": 0.4
+    "wr": 0.286
   },
   "edge:medio": {
-    "n": 8,
+    "n": 4,
     "wins": 1,
-    "wr": 0.2
+    "wr": 0.333
+  },
+  "confianza:media": {
+    "n": 6,
+    "wins": 1,
+    "wr": 0.25
   },
   "int_confianza_edge:media_medio": {
-    "n": 7,
+    "n": 3,
     "wins": 0,
-    "wr": 0.111
-  },
-  "se\u00f1al:yes": {
-    "n": 26,
-    "wins": 10,
-    "wr": 0.393
+    "wr": 0.2
   },
   "int_precio_senal:extremo_bajo_yes": {
     "n": 1,
     "wins": 0,
     "wr": 0.333
   },
+  "categoria:otro": {
+    "n": 4,
+    "wins": 2,
+    "wr": 0.5
+  },
   "precio:bajo": {
-    "n": 17,
-    "wins": 6,
-    "wr": 0.368
+    "n": 4,
+    "wins": 2,
+    "wr": 0.5
   },
   "int_precio_senal:bajo_yes": {
-    "n": 8,
-    "wins": 3,
-    "wr": 0.4
-  },
-  "vol:medio": {
-    "n": 2,
-    "wins": 0,
-    "wr": 0.25
-  },
-  "vol:bajo": {
     "n": 3,
     "wins": 1,
     "wr": 0.4
+  },
+  "categoria:crypto_tech": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "vol:medio": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "vol:bajo": {
+    "n": 2,
+    "wins": 1,
+    "wr": 0.5
   },
   "int_confianza_edge:alta_medio": {
     "n": 1,
@@ -135,24 +105,14 @@
     "wr": 0.667
   },
   "int_precio_senal:bajo_no": {
-    "n": 5,
-    "wins": 2,
-    "wr": 0.429
-  },
-  "int_precio_senal:medio_yes": {
-    "n": 13,
-    "wins": 6,
-    "wr": 0.467
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
   },
   "precio:alto": {
-    "n": 17,
-    "wins": 7,
-    "wr": 0.421
-  },
-  "int_precio_senal:alto_no": {
-    "n": 11,
-    "wins": 5,
-    "wr": 0.462
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
   },
   "edge:alto": {
     "n": 2,
@@ -164,14 +124,29 @@
     "wins": 0,
     "wr": 0.25
   },
-  "categoria:futbol": {
-    "n": 6,
-    "wins": 2,
-    "wr": 0.375
-  },
-  "int_precio_senal:alto_yes": {
-    "n": 4,
-    "wins": 1,
+  "int_precio_senal:alto_no": {
+    "n": 1,
+    "wins": 0,
     "wr": 0.333
+  },
+  "precio:medio": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_precio_senal:medio_yes": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "vol:alto": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
+  },
+  "int_confianza_edge:media_bajo": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.667
   }
 }
