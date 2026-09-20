@@ -1,10 +1,18 @@
 [
   {
-    "id": "4570384",
-    "pregunta": "Dota 2: Kalmychata vs Two Move - Game 1 Winner",
-    "ts": "2026-09-20T14:04:13.042206",
+    "id": "4709690",
+    "pregunta": "Counter-Strike: BakS eSports vs Black Phoenix - Map 2 Winner",
+    "ts": "2026-09-20T14:13:07.183253",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_wallet": "0xbb8ef6381e4a35b4124584cfce1c73137e2508c1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4733900",
+    "pregunta": "LoL: paiN Gaming vs RED Canids - Game 4 Winner",
+    "ts": "2026-09-20T14:13:09.761808",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf1ee4842fa0c7283632185e42577027452d4519c",
     "whale_signal": "COMPRAR NO"
   }
 ]
