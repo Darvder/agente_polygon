@@ -1,10 +1,50 @@
 [
   {
-    "id": "4340816",
-    "pregunta": "Will CA Rosario Central win on 2026-09-20?",
-    "ts": "2026-09-20T16:34:44.053237",
+    "id": "3482734",
+    "pregunta": "Raiders vs. Chargers",
+    "ts": "2026-09-20T16:44:32.167838",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4450532",
+    "pregunta": "Spread: Cowboys (-9.5)",
+    "ts": "2026-09-20T16:44:33.225970",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4450133",
+    "pregunta": "Spread: 49ers (-17.5)",
+    "ts": "2026-09-20T16:44:34.325596",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4453382",
+    "pregunta": "Dolphins vs. 49ers: O/U 40.5",
+    "ts": "2026-09-20T16:44:35.411572",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3920015",
+    "pregunta": "Dolphins vs. 49ers: O/U 43.5",
+    "ts": "2026-09-20T16:44:36.491698",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4551886",
+    "pregunta": "Athletics vs. Cleveland Guardians",
+    "ts": "2026-09-20T16:44:37.545457",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
     "whale_signal": "COMPRAR NO"
   }
 ]
