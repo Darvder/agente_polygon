@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4303350",
+    "pregunta": "Will Gamba \u014csaka win on 2026-09-20?",
+    "ts": "2026-09-20T04:42:48.636775",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4303352",
+    "pregunta": "Will Vissel K\u014dbe win on 2026-09-20?",
+    "ts": "2026-09-20T04:42:49.728603",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
