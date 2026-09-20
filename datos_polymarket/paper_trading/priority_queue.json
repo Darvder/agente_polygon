@@ -1,18 +1,50 @@
 [
   {
-    "id": "4322196",
-    "pregunta": "AC Milan vs. US Lecce: O/U 3.5",
-    "ts": "2026-09-20T15:35:14.511692",
+    "id": "1447977",
+    "pregunta": "Will Green Bay Packers win the 2026 NFC North?",
+    "ts": "2026-09-20T15:46:25.150995",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x852eaa709e9e502489b3c3f6c967493342a9ca77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2155362",
+    "pregunta": "Will the New York Giants make the 2027 NFL Playoffs?",
+    "ts": "2026-09-20T15:46:26.328214",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x852eaa709e9e502489b3c3f6c967493342a9ca77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4301182",
+    "pregunta": "Will Fluminense FC win on 2026-09-20?",
+    "ts": "2026-09-20T15:46:27.889900",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4717488",
-    "pregunta": "Will the lowest temperature in Hong Kong be 27\u00b0C on September 21?",
-    "ts": "2026-09-20T15:35:16.361192",
+    "id": "4323365",
+    "pregunta": "Will Real Sociedad de F\u00fatbol win on 2026-09-20?",
+    "ts": "2026-09-20T15:46:28.930627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2326c49994aa98c65a53e82fc5c8b632fc0a24e2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4341925",
+    "pregunta": "Will Sport Lisboa e Benfica win on 2026-09-20?",
+    "ts": "2026-09-20T15:46:31.365631",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6fd8b51924453648903723887c808aef39453df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3482734",
+    "pregunta": "Raiders vs. Chargers",
+    "ts": "2026-09-20T15:46:32.407237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6fd8b51924453648903723887c808aef39453df",
     "whale_signal": "COMPRAR NO"
   }
 ]
