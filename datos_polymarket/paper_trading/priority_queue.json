@@ -1,42 +1,74 @@
 [
   {
-    "id": "4325468",
-    "pregunta": "CF Am\u00e9rica vs. CD Guadalajara: CD Guadalajara O/U 2.5",
-    "ts": "2026-09-19T23:51:31.944334",
+    "id": "1366007",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
+    "ts": "2026-09-20T00:02:04.193899",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4323345",
-    "pregunta": "Will Real Madrid CF win on 2026-09-20?",
-    "ts": "2026-09-19T23:51:33.823002",
+    "id": "4641223",
+    "pregunta": "Will Elon Musk post <40 tweets from September 19 to September 21, 2026?",
+    "ts": "2026-09-20T00:02:05.384997",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4319470",
-    "pregunta": "Will Wolverhampton Wanderers FC win on 2026-09-20?",
-    "ts": "2026-09-19T23:51:34.995244",
+    "id": "1130012",
+    "pregunta": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+    "ts": "2026-09-20T00:02:06.457227",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4384970",
-    "pregunta": "Spread: SF (-12.5)",
-    "ts": "2026-09-19T23:51:36.071313",
+    "id": "4723560",
+    "pregunta": "Will the highest temperature in Sao Paulo be 30\u00b0C on September 21?",
+    "ts": "2026-09-20T00:02:07.559989",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1364103",
-    "pregunta": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
-    "ts": "2026-09-19T23:51:38.007595",
+    "id": "4723562",
+    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 21?",
+    "ts": "2026-09-20T00:02:08.668411",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xadb966a92e352c9a33061789e3b00cecb51c9e58",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4667865",
+    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on September 20?",
+    "ts": "2026-09-20T00:02:09.734711",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4718037",
+    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on September 21?",
+    "ts": "2026-09-20T00:02:10.906351",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4718038",
+    "pregunta": "Will the highest temperature in Singapore be 33\u00b0C on September 21?",
+    "ts": "2026-09-20T00:02:11.993299",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e17ecb720c8d6def7248c69eb923347173944ec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4325441",
+    "pregunta": "Spread: CD Guadalajara (-1.5)",
+    "ts": "2026-09-20T00:02:13.824287",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   }
 ]
