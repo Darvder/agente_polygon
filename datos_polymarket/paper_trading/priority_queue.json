@@ -1,82 +1,34 @@
 [
   {
-    "id": "4312326",
-    "pregunta": "Will Parma Calcio 1913 win on 2026-09-20?",
-    "ts": "2026-09-20T09:33:32.779069",
+    "id": "4324491",
+    "pregunta": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: O/U 3.5",
+    "ts": "2026-09-20T09:49:07.626072",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4319453",
-    "pregunta": "Will AJ Auxerre win on 2026-09-20?",
-    "ts": "2026-09-20T09:33:34.690189",
+    "id": "4322306",
+    "pregunta": "AFC Bournemouth vs. Liverpool FC: O/U 1.5",
+    "ts": "2026-09-20T09:49:08.772799",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4319465",
-    "pregunta": "Will RB Leipzig win on 2026-09-20?",
-    "ts": "2026-09-20T09:33:35.739553",
+    "id": "4324494",
+    "pregunta": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: Both Teams to Score",
+    "ts": "2026-09-20T09:49:09.813399",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4319454",
-    "pregunta": "Will Bayer 04 Leverkusen win on 2026-09-20?",
-    "ts": "2026-09-20T09:33:36.791063",
+    "id": "4641064",
+    "pregunta": "US x Iran ceasefire continues through September 30?",
+    "ts": "2026-09-20T09:49:12.418424",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4322449",
-    "pregunta": "Bayer 04 Leverkusen vs. RB Leipzig: O/U 2.5",
-    "ts": "2026-09-20T09:33:37.846992",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4322453",
-    "pregunta": "Bayer 04 Leverkusen vs. RB Leipzig: O/U 3.5",
-    "ts": "2026-09-20T09:33:38.889481",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4319493",
-    "pregunta": "Will Leeds United FC win on 2026-09-20?",
-    "ts": "2026-09-20T09:33:39.949703",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4322290",
-    "pregunta": "Spread: Liverpool FC (-1.5)",
-    "ts": "2026-09-20T09:33:40.995224",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4324491",
-    "pregunta": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: O/U 3.5",
-    "ts": "2026-09-20T09:33:42.040560",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4319501",
-    "pregunta": "Will Crystal Palace FC win on 2026-09-20?",
-    "ts": "2026-09-20T09:33:43.083452",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
+    "whale_wallet": "0x67699027aa50eb5f05a180fb924c79688775440c",
     "whale_signal": "COMPRAR NO"
   }
 ]
