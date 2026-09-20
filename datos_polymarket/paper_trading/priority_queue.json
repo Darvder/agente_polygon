@@ -1,34 +1,10 @@
 [
   {
-    "id": "4544706",
-    "pregunta": "LoL: Team Liquid vs FlyQuest - Game 3 Winner",
-    "ts": "2026-09-20T17:33:52.098811",
+    "id": "3482718",
+    "pregunta": "Jaguars vs. Broncos",
+    "ts": "2026-09-20T17:44:42.549291",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3482734",
-    "pregunta": "Raiders vs. Chargers",
-    "ts": "2026-09-20T17:33:53.207763",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4339989",
-    "pregunta": "Inter Miami CF vs. San Diego FC: 1st Half O/U 1.5",
-    "ts": "2026-09-20T17:33:56.744040",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4328923",
-    "pregunta": "CSD Suchitep\u00e9quez vs. CSD Xelaj\u00fa MC: O/U 3.5",
-    "ts": "2026-09-20T17:33:57.835895",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
     "whale_signal": "COMPRAR NO"
   }
 ]
