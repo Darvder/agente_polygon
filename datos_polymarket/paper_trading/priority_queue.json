@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4740798",
+    "pregunta": "St. Tropez: David Goffin vs Mark Lajal",
+    "ts": "2026-09-21T13:03:30.186290",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4340826",
+    "pregunta": "Will CA Aldosivi vs. CA Tucum\u00e1n end in a draw?",
+    "ts": "2026-09-21T13:03:32.206378",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a899fe4ffb1d8514e87a7157b58cb186e42d695",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4360060",
+    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 1.5",
+    "ts": "2026-09-21T13:03:34.384932",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a899fe4ffb1d8514e87a7157b58cb186e42d695",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4574396",
+    "pregunta": "Will Elon Musk post 180-199 tweets from September 18 to September 25, 2026?",
+    "ts": "2026-09-21T13:03:37.262896",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29e17e0da7794efd89403ccff9b958f5084b29f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4574403",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 18 to September 25, 2026?",
+    "ts": "2026-09-21T13:03:38.506712",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29e17e0da7794efd89403ccff9b958f5084b29f8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
