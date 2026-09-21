@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "3512682",
+    "pregunta": "Giants vs. Rams",
+    "ts": "2026-09-20T23:53:20.879325",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa278b41b5afda5d18da683eb7f851a7b2dc13369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4718004",
+    "pregunta": "Will the highest temperature in Tokyo be 23\u00b0C on September 21?",
+    "ts": "2026-09-20T23:53:22.902374",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x119c146aa99b85d9aaddf2340903e8c72a115d94",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4718101",
+    "pregunta": "Will the highest temperature in Chongqing be 22\u00b0C on September 21?",
+    "ts": "2026-09-20T23:53:23.966080",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x119c146aa99b85d9aaddf2340903e8c72a115d94",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4718180",
+    "pregunta": "Will the highest temperature in Busan be 29\u00b0C on September 21?",
+    "ts": "2026-09-20T23:53:26.022683",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0172d9aea5b523c33955c0e9841d9a6af82d4e84",
+    "whale_signal": "COMPRAR NO"
+  }
+]
