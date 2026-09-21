@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4718102",
+    "pregunta": "Will the highest temperature in Chongqing be 23\u00b0C on September 21?",
+    "ts": "2026-09-21T04:05:23.647527",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71776a8d4fddeb3c150c4607b3f8bec31213b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4776103",
+    "pregunta": "Dota 2: Team Yandex vs Natus Vincere (BO3) - PGL Wallachia Group Stage",
+    "ts": "2026-09-21T04:05:25.483333",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xea9402cd562521a1244567e6ce0e862f7ccb793b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677744",
+    "pregunta": "LoL: Solary vs ZSK (BO1) - World Star Challengers Invitational Group D",
+    "ts": "2026-09-21T04:05:26.525205",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xea9402cd562521a1244567e6ce0e862f7ccb793b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
