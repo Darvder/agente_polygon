@@ -1,90 +1,18 @@
 [
   {
-    "id": "4587013",
-    "pregunta": "Will the price of Bitcoin be above $86,000 on September 22?",
-    "ts": "2026-09-21T07:13:01.609677",
+    "id": "4718054",
+    "pregunta": "Will the highest temperature in Milan be 30\u00b0C on September 21?",
+    "ts": "2026-09-21T07:26:15.936338",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x2b5920274740ca61745eeb077587bf5bb4ff9db6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4052418",
-    "pregunta": "Will Bitcoin reach $87,500 in September?",
-    "ts": "2026-09-21T07:13:02.652839",
+    "id": "3938031",
+    "pregunta": "Will Core PCE YoY be 3.3% in August?",
+    "ts": "2026-09-21T07:26:18.951478",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4558864",
-    "pregunta": "Will the price of Bitcoin be above $84,000 on September 21?",
-    "ts": "2026-09-21T07:13:03.695895",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746331",
-    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on September 22?",
-    "ts": "2026-09-21T07:13:06.532693",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee2a679db53c99da4834b9a0d5193fa4de43729b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746330",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 22?",
-    "ts": "2026-09-21T07:13:07.579886",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee2a679db53c99da4834b9a0d5193fa4de43729b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4782093",
-    "pregunta": "Will the highest temperature in Paris be 26\u00b0C on September 23?",
-    "ts": "2026-09-21T07:13:08.620537",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee2a679db53c99da4834b9a0d5193fa4de43729b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4717981",
-    "pregunta": "Will the highest temperature in Munich be 16\u00b0C on September 21?",
-    "ts": "2026-09-21T07:13:09.663065",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee2a679db53c99da4834b9a0d5193fa4de43729b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4748523",
-    "pregunta": "Will the highest temperature in Atlanta be between 90-91\u00b0F on September 22?",
-    "ts": "2026-09-21T07:13:10.704944",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee2a679db53c99da4834b9a0d5193fa4de43729b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746145",
-    "pregunta": "Will the highest temperature in Wellington be 15\u00b0C on September 22?",
-    "ts": "2026-09-21T07:13:11.747616",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee2a679db53c99da4834b9a0d5193fa4de43729b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4749378",
-    "pregunta": "Will the highest temperature in Miami be between 88-89\u00b0F on September 22?",
-    "ts": "2026-09-21T07:13:12.788767",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee2a679db53c99da4834b9a0d5193fa4de43729b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4775765",
-    "pregunta": "Dota 2: Team Nemesis vs MOUZ - Game 2 Winner",
-    "ts": "2026-09-21T07:13:14.622524",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+    "whale_wallet": "0xed347c348f03d58409978c4ebf04c31cdb458780",
     "whale_signal": "COMPRAR NO"
   }
 ]
