@@ -1,42 +1,34 @@
 [
   {
-    "id": "4677744",
-    "pregunta": "LoL: Solary vs ZSK (BO1) - World Star Challengers Invitational Group D",
-    "ts": "2026-09-21T04:24:24.009798",
+    "id": "4052450",
+    "pregunta": "Will Ethereum reach $2,800 in September?",
+    "ts": "2026-09-21T04:33:40.559214",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf1ee4842fa0c7283632185e42577027452d4519c",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4558839",
-    "pregunta": "Will the price of Ethereum be above $2,700 on September 21?",
-    "ts": "2026-09-21T04:24:25.861682",
+    "id": "4760565",
+    "pregunta": "Counter-Strike: Leo Team vs UNiTY esports (BO3) - Exort Fiesta Playoffs",
+    "ts": "2026-09-21T04:33:43.463116",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
+    "whale_wallet": "0xbef31fdfdc74763a604d1d6b7d9bada25884d303",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4777311",
-    "pregunta": "Counter-Strike: Brute vs SPARTA (BO3) - NODWIN Clutch Series Group Stage",
-    "ts": "2026-09-21T04:24:26.926432",
+    "id": "4760563",
+    "pregunta": "Counter-Strike: Leo Team vs UNiTY esports - Map 1 Winner",
+    "ts": "2026-09-21T04:33:44.519341",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
+    "whale_wallet": "0xbef31fdfdc74763a604d1d6b7d9bada25884d303",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4558864",
-    "pregunta": "Will the price of Bitcoin be above $84,000 on September 21?",
-    "ts": "2026-09-21T04:24:27.981636",
+    "id": "4777327",
+    "pregunta": "Counter-Strike: Leo Team vs G2 Ares (BO3) - NODWIN Clutch Series Group Stage",
+    "ts": "2026-09-21T04:33:45.639587",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4586958",
-    "pregunta": "Will the price of Bitcoin be greater than $86,000 on September 22?",
-    "ts": "2026-09-21T04:24:29.063182",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
+    "whale_wallet": "0xbef31fdfdc74763a604d1d6b7d9bada25884d303",
     "whale_signal": "COMPRAR NO"
   }
 ]
