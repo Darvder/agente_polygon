@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "4339504",
+    "pregunta": "Will Club Santos Laguna win on 2026-09-20?",
+    "ts": "2026-09-20T22:34:16.864123",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x551c8f09fffa54889974a101e2af2b92c13dfe91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4339502",
+    "pregunta": "Will Deportivo Toluca FC win on 2026-09-20?",
+    "ts": "2026-09-20T22:34:19.010316",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd04e56d13b8cf3c18602170512fc3b884f0e122e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128935",
+    "pregunta": "Will Magomed Ankalaev fight Carlos Ulberg next?",
+    "ts": "2026-09-20T22:34:22.339150",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd04e56d13b8cf3c18602170512fc3b884f0e122e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4339508",
+    "pregunta": "Will Quer\u00e9taro FC win on 2026-09-20?",
+    "ts": "2026-09-20T22:34:23.491756",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd04e56d13b8cf3c18602170512fc3b884f0e122e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3516965",
+    "pregunta": "Spread: Chiefs (-3.5)",
+    "ts": "2026-09-20T22:34:26.795073",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3482783",
+    "pregunta": "Colts vs. Chiefs",
+    "ts": "2026-09-20T22:34:27.888028",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4339509",
+    "pregunta": "Will Quer\u00e9taro FC vs. Club Le\u00f3n FC end in a draw?",
+    "ts": "2026-09-20T22:34:29.126065",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4359191",
+    "pregunta": "Spread: Club Le\u00f3n FC (-1.5)",
+    "ts": "2026-09-20T22:34:30.231653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
