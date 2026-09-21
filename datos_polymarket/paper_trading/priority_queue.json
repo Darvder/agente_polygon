@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4782148",
+    "pregunta": "Will the highest temperature in Munich be 18\u00b0C on September 23?",
+    "ts": "2026-09-21T16:15:12.050651",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749378",
+    "pregunta": "Will the highest temperature in Miami be between 88-89\u00b0F on September 22?",
+    "ts": "2026-09-21T16:15:13.116415",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4756401",
+    "pregunta": "Will the highest temperature in Seattle be between 64-65\u00b0F on September 22?",
+    "ts": "2026-09-21T16:15:14.352594",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
+    "whale_signal": "COMPRAR NO"
+  }
+]
