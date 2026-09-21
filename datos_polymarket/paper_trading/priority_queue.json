@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4776100",
+    "pregunta": "Dota 2: Team Yandex vs Natus Vincere - Game 1 Winner",
+    "ts": "2026-09-21T11:24:23.353697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x048fa5e3afdf4e3724bbe36862c06a75505acf1a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4775805",
+    "pregunta": "Dota 2: LGD Gaming vs Xtreme Gaming - Game 2 Winner",
+    "ts": "2026-09-21T11:24:25.428289",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc44f25852e89777b31f0432ae9aa8460739caf90",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4761795",
+    "pregunta": "Porto: Susan Bandecchi vs Oceane Dodin",
+    "ts": "2026-09-21T11:24:28.282535",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb719c8b76f6167a4776fbd8a236f362ec7e5eccd",
+    "whale_signal": "COMPRAR NO"
+  }
+]
