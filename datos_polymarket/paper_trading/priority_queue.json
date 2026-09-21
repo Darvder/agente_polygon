@@ -1,10 +1,34 @@
 [
   {
-    "id": "1469737",
-    "pregunta": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
-    "ts": "2026-09-21T14:13:16.864884",
+    "id": "4360061",
+    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 2.5",
+    "ts": "2026-09-21T14:23:41.376291",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x37daaec5e1def0fde61f5ff21673be1ff047d2db",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4360060",
+    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 1.5",
+    "ts": "2026-09-21T14:23:42.449230",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4360054",
+    "pregunta": "Spread: CA Aldosivi (-1.5)",
+    "ts": "2026-09-21T14:23:43.526821",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4794080",
+    "pregunta": "W15 Constanta: Alexia-Shara Iancu vs Aleksandra Djokic",
+    "ts": "2026-09-21T14:23:44.654926",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   }
 ]
