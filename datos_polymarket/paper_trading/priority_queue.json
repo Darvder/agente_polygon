@@ -1,10 +1,66 @@
 [
   {
-    "id": "4677744",
-    "pregunta": "LoL: Solary vs ZSK (BO1) - World Star Challengers Invitational Group D",
-    "ts": "2026-09-21T05:35:13.564697",
+    "id": "4784737",
+    "pregunta": "Will Orsomarso SC win on 2026-09-22?",
+    "ts": "2026-09-21T05:43:45.327371",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa3a8bbcc0c5da98b364d679e7d792d7556bc5762",
+    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784735",
+    "pregunta": "Will CD Real Santander win on 2026-09-22?",
+    "ts": "2026-09-21T05:43:46.537389",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4786681",
+    "pregunta": "Will Tigres FC win on 2026-09-22?",
+    "ts": "2026-09-21T05:43:47.784780",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4786679",
+    "pregunta": "Will Atletico FC Cali win on 2026-09-22?",
+    "ts": "2026-09-21T05:43:49.019448",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753346",
+    "pregunta": "Korea Open: Darya Astakhova vs Magda Linette",
+    "ts": "2026-09-21T05:43:52.043045",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4775706",
+    "pregunta": "Dota 2: GamerLegion vs  Pipsqueak+4 (BO3) - PGL Wallachia Group Stage",
+    "ts": "2026-09-21T05:43:53.077439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4777705",
+    "pregunta": "Dota 2: Nemiga Gaming vs Kalmychata - Game 2 Winner",
+    "ts": "2026-09-21T05:43:54.114075",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4775764",
+    "pregunta": "Dota 2: Team Nemesis vs MOUZ - Game 1 Winner",
+    "ts": "2026-09-21T05:43:55.153933",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
     "whale_signal": "COMPRAR NO"
   }
 ]
