@@ -1,26 +1,58 @@
 [
   {
-    "id": "4718102",
-    "pregunta": "Will the highest temperature in Chongqing be 23\u00b0C on September 21?",
-    "ts": "2026-09-21T04:05:23.647527",
+    "id": "4782106",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 27\u00b0C on September 23?",
+    "ts": "2026-09-21T04:14:12.925081",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd71776a8d4fddeb3c150c4607b3f8bec31213b85",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4776103",
-    "pregunta": "Dota 2: Team Yandex vs Natus Vincere (BO3) - PGL Wallachia Group Stage",
-    "ts": "2026-09-21T04:05:25.483333",
+    "id": "4782105",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 26\u00b0C on September 23?",
+    "ts": "2026-09-21T04:14:13.969344",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea9402cd562521a1244567e6ce0e862f7ccb793b",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4677744",
-    "pregunta": "LoL: Solary vs ZSK (BO1) - World Star Challengers Invitational Group D",
-    "ts": "2026-09-21T04:05:26.525205",
+    "id": "4782093",
+    "pregunta": "Will the highest temperature in Paris be 26\u00b0C on September 23?",
+    "ts": "2026-09-21T04:14:15.072730",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea9402cd562521a1244567e6ce0e862f7ccb793b",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746431",
+    "pregunta": "Will the highest temperature in Guangzhou be 36\u00b0C on September 22?",
+    "ts": "2026-09-21T04:14:16.277886",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746297",
+    "pregunta": "Will the highest temperature in Beijing be 32\u00b0C on September 22?",
+    "ts": "2026-09-21T04:14:17.332211",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749377",
+    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on September 22?",
+    "ts": "2026-09-21T04:14:18.373047",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782312",
+    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 23?",
+    "ts": "2026-09-21T04:14:19.424281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
