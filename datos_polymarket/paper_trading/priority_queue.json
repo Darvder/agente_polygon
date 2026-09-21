@@ -2,9 +2,25 @@
   {
     "id": "4753348",
     "pregunta": "Korea Open: Xinxin Yao vs Maya Joint",
-    "ts": "2026-09-20T22:54:17.103959",
+    "ts": "2026-09-20T23:04:13.164787",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x37f50c1646c5161d97edcb6d33e0dd6281a4613b",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721013",
+    "pregunta": "Korea Open: Lanlana Tararudee vs Moyuka Uchijima",
+    "ts": "2026-09-20T23:04:14.236356",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727242",
+    "pregunta": "Singapore Open: Daria Kasatkina vs Aliaksandra Sasnovich",
+    "ts": "2026-09-20T23:04:15.312380",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   }
 ]
