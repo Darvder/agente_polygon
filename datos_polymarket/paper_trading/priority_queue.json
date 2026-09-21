@@ -1,18 +1,10 @@
 [
   {
-    "id": "4762610",
-    "pregunta": "Will Qizilqum Zarafshon win on 2026-09-21?",
-    "ts": "2026-09-21T11:53:16.280612",
+    "id": "4745249",
+    "pregunta": "Will the lowest temperature in Shanghai be 23\u00b0C on September 22?",
+    "ts": "2026-09-21T12:03:46.054914",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde7b4b7980d0587269fda389989c0cf41af07848",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4761795",
-    "pregunta": "Porto: Susan Bandecchi vs Oceane Dodin",
-    "ts": "2026-09-21T11:53:20.469905",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9",
+    "whale_wallet": "0xd0af33604e60b42d16f800e859f96f72289e3887",
     "whale_signal": "COMPRAR NO"
   }
 ]
