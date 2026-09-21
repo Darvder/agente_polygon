@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4378080",
+    "pregunta": "Oper\u00e1rio Ferrovi\u00e1rio EC leading at halftime?",
+    "ts": "2026-09-20T20:23:12.568195",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4384968",
+    "pregunta": "Spread: LA (-9.5)",
+    "ts": "2026-09-20T20:23:13.653020",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
