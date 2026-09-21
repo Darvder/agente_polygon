@@ -1,34 +1,26 @@
 [
   {
-    "id": "4360061",
-    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 2.5",
-    "ts": "2026-09-21T14:23:41.376291",
+    "id": "4763518",
+    "pregunta": "Spread: Bogota FC (-1.5)",
+    "ts": "2026-09-21T14:34:22.825147",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4360060",
-    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 1.5",
-    "ts": "2026-09-21T14:23:42.449230",
+    "id": "4661945",
+    "pregunta": "Manta FC leading at halftime?",
+    "ts": "2026-09-21T14:34:23.914065",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4360054",
-    "pregunta": "Spread: CA Aldosivi (-1.5)",
-    "ts": "2026-09-21T14:23:43.526821",
+    "id": "4627418",
+    "pregunta": "CSD Tristan Suarez vs. CA Atlanta: O/U 0.5",
+    "ts": "2026-09-21T14:34:25.005503",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4794080",
-    "pregunta": "W15 Constanta: Alexia-Shara Iancu vs Aleksandra Djokic",
-    "ts": "2026-09-21T14:23:44.654926",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
