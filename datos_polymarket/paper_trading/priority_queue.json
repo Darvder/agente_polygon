@@ -1,34 +1,10 @@
 [
   {
-    "id": "4782092",
-    "pregunta": "Will the highest temperature in Paris be 25\u00b0C on September 23?",
-    "ts": "2026-09-21T15:04:20.630326",
+    "id": "4762176",
+    "pregunta": "Will Bogota FC win on 2026-09-21?",
+    "ts": "2026-09-21T15:14:58.955768",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xac37ed3353a284b15d37bb14e6e55b2a1b732a50",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4561809",
-    "pregunta": "Will Nueva Chicago vs. CA Patronato Parana end in a draw?",
-    "ts": "2026-09-21T15:04:22.699918",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcd1f8a2437dd126adceead59c7534070076dcf19",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4758844",
-    "pregunta": "Will Real Cundinamarca vs. Deportes Quindio end in a draw?",
-    "ts": "2026-09-21T15:04:23.803206",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcd1f8a2437dd126adceead59c7534070076dcf19",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4037599",
-    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-09-21T15:04:25.790015",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x581c18d6df2a8694395ed0b8e195cf2b74d57f94",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
