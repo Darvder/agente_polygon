@@ -1,34 +1,50 @@
 [
   {
-    "id": "4775705",
-    "pregunta": "Dota 2: GamerLegion vs  Pipsqueak+4 - Game 2 Winner",
-    "ts": "2026-09-21T03:33:34.175817",
+    "id": "4617547",
+    "pregunta": "Will the price of Bitcoin be above $86,000 on September 23?",
+    "ts": "2026-09-21T03:43:43.330698",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4254911",
-    "pregunta": "Will Independiente Medell\u00edn win on 2026-09-18?",
-    "ts": "2026-09-21T03:33:36.807123",
+    "id": "4586958",
+    "pregunta": "Will the price of Bitcoin be greater than $86,000 on September 22?",
+    "ts": "2026-09-21T03:43:44.374289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4775706",
-    "pregunta": "Dota 2: GamerLegion vs  Pipsqueak+4 (BO3) - PGL Wallachia Group Stage",
-    "ts": "2026-09-21T03:33:37.841530",
+    "id": "4558864",
+    "pregunta": "Will the price of Bitcoin be above $84,000 on September 21?",
+    "ts": "2026-09-21T03:43:45.418288",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4777311",
-    "pregunta": "Counter-Strike: Brute vs SPARTA (BO3) - NODWIN Clutch Series Group Stage",
-    "ts": "2026-09-21T03:33:38.878052",
+    "id": "4587009",
+    "pregunta": "Will the price of Bitcoin be above $84,000 on September 22?",
+    "ts": "2026-09-21T03:43:46.497768",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4587013",
+    "pregunta": "Will the price of Bitcoin be above $86,000 on September 22?",
+    "ts": "2026-09-21T03:43:47.576070",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4641126",
+    "pregunta": "Will the price of Bitcoin be above $84,000 on September 24?",
+    "ts": "2026-09-21T03:43:48.713734",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   }
 ]
