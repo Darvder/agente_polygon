@@ -1,66 +1,114 @@
 [
   {
-    "id": "4784737",
-    "pregunta": "Will Orsomarso SC win on 2026-09-22?",
-    "ts": "2026-09-21T05:43:45.327371",
+    "id": "4775745",
+    "pregunta": "Dota 2: Conventus Stellarum vs 1win - Game 2 Winner",
+    "ts": "2026-09-21T05:53:18.338019",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
+    "whale_wallet": "0xa62bc4ef63f2912c43cb910765960a06284058aa",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4784735",
-    "pregunta": "Will CD Real Santander win on 2026-09-22?",
-    "ts": "2026-09-21T05:43:46.537389",
+    "id": "4405197",
+    "pregunta": "Will EVV Echt win on 2026-09-22?",
+    "ts": "2026-09-21T05:53:20.274395",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
+    "whale_wallet": "0x3835957ad7188313391213e8647baaf4a2ed3493",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4786681",
-    "pregunta": "Will Tigres FC win on 2026-09-22?",
-    "ts": "2026-09-21T05:43:47.784780",
+    "id": "4760566",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-09-21T05:53:22.410508",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4786679",
-    "pregunta": "Will Atletico FC Cali win on 2026-09-22?",
-    "ts": "2026-09-21T05:43:49.019448",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbb6bfa0b2837316753bb23c6688750327dc91794",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753346",
-    "pregunta": "Korea Open: Darya Astakhova vs Magda Linette",
-    "ts": "2026-09-21T05:43:52.043045",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4775706",
-    "pregunta": "Dota 2: GamerLegion vs  Pipsqueak+4 (BO3) - PGL Wallachia Group Stage",
-    "ts": "2026-09-21T05:43:53.077439",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
+    "whale_wallet": "0x77c97ad508a929cc4962e6452b66cd64cf779bab",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4777705",
     "pregunta": "Dota 2: Nemiga Gaming vs Kalmychata - Game 2 Winner",
-    "ts": "2026-09-21T05:43:54.114075",
+    "ts": "2026-09-21T05:53:23.499887",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
+    "whale_wallet": "0x77c97ad508a929cc4962e6452b66cd64cf779bab",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4775764",
-    "pregunta": "Dota 2: Team Nemesis vs MOUZ - Game 1 Winner",
-    "ts": "2026-09-21T05:43:55.153933",
+    "id": "4466836",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-09-21T05:53:24.696226",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x116c198574df65340291fed3b43cfbcc92e04fbd",
+    "whale_wallet": "0x77c97ad508a929cc4962e6452b66cd64cf779bab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466837",
+    "pregunta": "Map Handicap: AST (-1.5) vs Sangal (+1.5)",
+    "ts": "2026-09-21T05:53:25.801506",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77c97ad508a929cc4962e6452b66cd64cf779bab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4764032",
+    "pregunta": "Plovdiv 4: Luca Wiedenmann vs Yanaki Milev",
+    "ts": "2026-09-21T05:53:27.746110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466835",
+    "pregunta": "Counter-Strike: Astralis vs Sangal (BO3) - Stake Pulse Beat II Group A",
+    "ts": "2026-09-21T05:53:28.839888",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466843",
+    "pregunta": "Counter-Strike: Sashi Esport vs FOKUS (BO3) - Stake Pulse Beat II Group A",
+    "ts": "2026-09-21T05:53:29.925475",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466833",
+    "pregunta": "Counter-Strike: Astralis vs Sangal - Map 1 Winner",
+    "ts": "2026-09-21T05:53:31.016603",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4770340",
+    "pregunta": "M15 Forbach: Pierre Ngijol Carre vs Attila Hueller-Varga",
+    "ts": "2026-09-21T05:53:32.096703",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753346",
+    "pregunta": "Korea Open: Darya Astakhova vs Magda Linette",
+    "ts": "2026-09-21T05:53:33.181130",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4771500",
+    "pregunta": "W50 Plovdiv: Sarah Van Emst vs Ilinca Dalina Amariei",
+    "ts": "2026-09-21T05:53:34.295048",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4770405",
+    "pregunta": "M25 Falun: Lawrence Bataljin vs Sizya Ernest Kivanda",
+    "ts": "2026-09-21T05:53:35.401606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
     "whale_signal": "COMPRAR NO"
   }
 ]
