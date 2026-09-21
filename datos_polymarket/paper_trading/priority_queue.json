@@ -1,26 +1,66 @@
 [
   {
-    "id": "4344199",
-    "pregunta": "Will CA Paranaense win on 2026-09-20?",
-    "ts": "2026-09-20T19:35:50.868756",
+    "id": "4718286",
+    "pregunta": "Caribbean Premier League: Antigua And Barbuda Falcons vs Jamaica Kingsmen",
+    "ts": "2026-09-20T19:43:50.909470",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe43235629c5f4581d039cec28014dc74631b934a",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4344200",
-    "pregunta": "Will CA Paranaense vs. EC Bahia end in a draw?",
-    "ts": "2026-09-20T19:35:51.911682",
+    "id": "4339505",
+    "pregunta": "Will CF Pachuca win on 2026-09-20?",
+    "ts": "2026-09-20T19:43:52.002547",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe43235629c5f4581d039cec28014dc74631b934a",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4729924",
-    "pregunta": "Milwaukee Brewers vs. Baltimore Orioles: O/U 6.5",
-    "ts": "2026-09-20T19:35:54.559678",
+    "id": "4384969",
+    "pregunta": "Spread: KC (-5.5)",
+    "ts": "2026-09-20T19:43:53.074995",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4569219",
+    "pregunta": "Colts vs. Chiefs: 1H Moneyline",
+    "ts": "2026-09-20T19:43:54.183950",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4338185",
+    "pregunta": "Will Inter Miami CF vs. San Diego FC end in a draw?",
+    "ts": "2026-09-20T19:43:55.375814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4339984",
+    "pregunta": "Inter Miami CF vs. San Diego FC: O/U 4.5",
+    "ts": "2026-09-20T19:43:56.455460",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4561174",
+    "pregunta": "Will Sacramento Republic FC vs. San Antonio FC end in a draw?",
+    "ts": "2026-09-20T19:43:57.563113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4338183",
+    "pregunta": "Will Inter Miami CF win on 2026-09-20?",
+    "ts": "2026-09-20T19:43:59.267489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
     "whale_signal": "COMPRAR NO"
   }
 ]
