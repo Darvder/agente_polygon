@@ -1,18 +1,34 @@
 [
   {
-    "id": "4413079",
-    "pregunta": "Will Airbnb, Inc. (ABNB) hit (HIGH) $176 in September?",
-    "ts": "2026-09-20T20:54:01.423203",
+    "id": "4344210",
+    "pregunta": "Will Llaneros FC win on 2026-09-20?",
+    "ts": "2026-09-20T21:05:50.868602",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x403f2471f8aaa1e8a224f1338b073bfa3fdb94f1",
+    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4052420",
-    "pregunta": "Will Bitcoin reach $82,500 in September?",
-    "ts": "2026-09-20T20:54:03.354309",
+    "id": "4344215",
+    "pregunta": "Will Atl\u00e9tico Nacional win on 2026-09-20?",
+    "ts": "2026-09-20T21:05:52.020579",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4359195",
+    "pregunta": "Quer\u00e9taro FC vs. Club Le\u00f3n FC: O/U 1.5",
+    "ts": "2026-09-20T21:05:53.115593",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466835",
+    "pregunta": "Counter-Strike: Astralis vs Sangal (BO3) - Stake Pulse Beat II Group A",
+    "ts": "2026-09-20T21:05:57.447946",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd289eb6843833a2aa1dfbab2f82a01195a05d5f7",
     "whale_signal": "COMPRAR NO"
   }
 ]
