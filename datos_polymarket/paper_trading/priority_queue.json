@@ -1,26 +1,18 @@
 [
   {
-    "id": "2646914",
-    "pregunta": "Will no qualifying diplomatic US-Iran meeting occur by September 30, 2026?",
-    "ts": "2026-09-21T14:43:45.936203",
+    "id": "4761807",
+    "pregunta": "Tolentino: Laura Samson vs Noemi Basiletti",
+    "ts": "2026-09-21T14:55:35.748727",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e824a605eefb785fd091aefc4fc1fc581415fad",
+    "whale_wallet": "0x36223d8d3540f862c6a2210218c9383349bd3fac",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4778171",
-    "pregunta": "San Diego 2: Ozan Baris vs Alex Rybakov",
-    "ts": "2026-09-21T14:43:47.820689",
+    "id": "4720018",
+    "pregunta": "Will the highest temperature in Miami be between 88-89\u00b0F on September 21?",
+    "ts": "2026-09-21T14:55:39.084608",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4782467",
-    "pregunta": "San Diego 2: Timo Legout vs Daniil Ostapenkov",
-    "ts": "2026-09-21T14:43:48.892742",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_wallet": "0x1c9824df1a7740fede1d4707c1d59f63be1cf6a0",
     "whale_signal": "COMPRAR NO"
   }
 ]
