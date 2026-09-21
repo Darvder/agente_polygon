@@ -1,34 +1,34 @@
 [
   {
+    "id": "701495",
+    "pregunta": "Will Bitcoin reach $110,000 by December 31, 2026?",
+    "ts": "2026-09-21T06:45:15.984421",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4754797",
     "pregunta": "Genoa 2: Ryan Nijboer vs Alejandro Juan Mano",
-    "ts": "2026-09-21T06:35:01.549520",
+    "ts": "2026-09-21T06:45:17.880216",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4464911",
-    "pregunta": "Will Lithuania win on 2026-09-24?",
-    "ts": "2026-09-21T06:35:02.732596",
+    "id": "4775746",
+    "pregunta": "Dota 2: Conventus Stellarum vs 1win (BO3) - PGL Wallachia Group Stage",
+    "ts": "2026-09-21T06:45:19.703298",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xb877962274938a85e9d08b83062badd330b64601",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4384852",
-    "pregunta": "Will Sport Lisboa e Benfica win on 2026-09-22?",
-    "ts": "2026-09-21T06:35:03.921341",
+    "id": "4400968",
+    "pregunta": "Juventus FC vs. Sport Lisboa e Benfica: Juventus FC O/U 1.5",
+    "ts": "2026-09-21T06:45:21.730404",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4775745",
-    "pregunta": "Dota 2: Conventus Stellarum vs 1win - Game 2 Winner",
-    "ts": "2026-09-21T06:35:06.534518",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4a7708ba98bddc8be759c5d8a6bef54450d2e59d",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
