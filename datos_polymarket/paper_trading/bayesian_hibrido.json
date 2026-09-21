@@ -10,9 +10,9 @@
     "wr": 0.25
   },
   "se\u00f1al:no": {
-    "n": 5,
+    "n": 6,
     "wins": 1,
-    "wr": 0.286
+    "wr": 0.25
   },
   "vol:plano": {
     "n": 4,
@@ -25,9 +25,9 @@
     "wr": 0.333
   },
   "confianza:alta": {
-    "n": 2,
+    "n": 3,
     "wins": 1,
-    "wr": 0.5
+    "wr": 0.4
   },
   "momentum:estable": {
     "n": 8,
@@ -75,9 +75,9 @@
     "wr": 0.375
   },
   "precio:bajo": {
-    "n": 5,
+    "n": 6,
     "wins": 2,
-    "wr": 0.429
+    "wr": 0.375
   },
   "int_precio_senal:bajo_yes": {
     "n": 3,
@@ -85,14 +85,14 @@
     "wr": 0.4
   },
   "categoria:crypto_tech": {
-    "n": 1,
+    "n": 2,
     "wins": 0,
-    "wr": 0.333
+    "wr": 0.25
   },
   "vol:medio": {
-    "n": 1,
+    "n": 2,
     "wins": 0,
-    "wr": 0.333
+    "wr": 0.25
   },
   "vol:bajo": {
     "n": 2,
@@ -105,9 +105,9 @@
     "wr": 0.667
   },
   "int_precio_senal:bajo_no": {
-    "n": 2,
+    "n": 3,
     "wins": 1,
-    "wr": 0.5
+    "wr": 0.4
   },
   "precio:alto": {
     "n": 1,
@@ -170,6 +170,21 @@
     "wr": 0.333
   },
   "int_precio_senal:medio_no": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "edge:muy_alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "momentum:caida_suave": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "int_confianza_edge:alta_muy_alto": {
     "n": 1,
     "wins": 0,
     "wr": 0.333

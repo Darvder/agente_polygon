@@ -1,50 +1,34 @@
 [
   {
-    "id": "4718247",
-    "pregunta": "Will the highest temperature in Guangzhou be 34\u00b0C on September 21?",
-    "ts": "2026-09-20T19:14:40.969557",
+    "id": "2853074",
+    "pregunta": "Bab el-Mandeb Strait effectively closed by December 31?",
+    "ts": "2026-09-20T19:25:17.463601",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4746295",
-    "pregunta": "Will the highest temperature in Beijing be 30\u00b0C on September 22?",
-    "ts": "2026-09-20T19:14:42.138203",
+    "id": "3902573",
+    "pregunta": "Will \"The Debut\" be nominated for Best Picture at the 99th Academy Awards?",
+    "ts": "2026-09-20T19:25:18.641175",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4746363",
-    "pregunta": "Will the highest temperature in Busan be 29\u00b0C on September 22?",
-    "ts": "2026-09-20T19:14:43.302862",
+    "id": "2929179",
+    "pregunta": "Will \"End of Beginning \u2013 Djo\" be the top song for 2026?",
+    "ts": "2026-09-20T19:25:19.766177",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4746408",
-    "pregunta": "Will the highest temperature in Jeddah be 37\u00b0C on September 22?",
-    "ts": "2026-09-20T19:14:44.432778",
+    "id": "4718286",
+    "pregunta": "Caribbean Premier League: Antigua And Barbuda Falcons vs Jamaica Kingsmen",
+    "ts": "2026-09-20T19:25:22.247396",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4718255",
-    "pregunta": "Will the highest temperature in Qingdao be 29\u00b0C on September 21?",
-    "ts": "2026-09-20T19:14:46.256362",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4718004",
-    "pregunta": "Will the highest temperature in Tokyo be 23\u00b0C on September 21?",
-    "ts": "2026-09-20T19:14:47.327143",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_wallet": "0xe8e086f7ef06af27889edfb5026e1453c61d7eec",
     "whale_signal": "COMPRAR NO"
   }
 ]
