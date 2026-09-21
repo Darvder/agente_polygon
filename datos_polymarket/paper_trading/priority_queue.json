@@ -1,66 +1,26 @@
 [
   {
-    "id": "4558867",
-    "pregunta": "Will the price of Bitcoin be above $86,000 on September 21?",
-    "ts": "2026-09-21T08:53:03.519506",
+    "id": "3874528",
+    "pregunta": "Avalanche vs. Jets",
+    "ts": "2026-09-21T09:06:41.980150",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xf46c2c5e9909d433c18c1bb30b84dd7b3fc9b255",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4052418",
-    "pregunta": "Will Bitcoin reach $87,500 in September?",
-    "ts": "2026-09-21T08:53:04.639706",
+    "id": "4778275",
+    "pregunta": "Washington Nationals vs. Detroit Tigers: O/U 8.5",
+    "ts": "2026-09-21T09:06:43.034302",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xf46c2c5e9909d433c18c1bb30b84dd7b3fc9b255",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4677772",
-    "pregunta": "LoL: Solary vs Galions (BO1) - World Star Challengers Invitational Group D",
-    "ts": "2026-09-21T08:53:06.643149",
+    "id": "4489698",
+    "pregunta": "Will Elon Musk post 180-199 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-21T09:06:45.068380",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4793431",
-    "pregunta": "Counter-Strike: Sashi Esport vs Sangal (BO3) - Stake Pulse Beat II Group A",
-    "ts": "2026-09-21T08:53:07.714029",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4777724",
-    "pregunta": "Dota 2: Two Move vs Zero Tenacity - Game 2 Winner",
-    "ts": "2026-09-21T08:53:08.824162",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4793421",
-    "pregunta": "Counter-Strike: FOKUS vs Astralis - Map 1 Winner",
-    "ts": "2026-09-21T08:53:09.922255",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4052417",
-    "pregunta": "Will Bitcoin reach $90,000 in September?",
-    "ts": "2026-09-21T08:53:13.401992",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4781350",
-    "pregunta": "Will Bitcoin reach $88,000 September 21-27?",
-    "ts": "2026-09-21T08:53:14.484401",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_wallet": "0x365a89792c29dd8599620f3cb65cb396b6ed6120",
     "whale_signal": "COMPRAR NO"
   }
 ]
