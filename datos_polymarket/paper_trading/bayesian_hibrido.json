@@ -5,14 +5,14 @@
     "wr": 0.667
   },
   "precio:bajo": {
-    "n": 5,
+    "n": 6,
     "wins": 2,
-    "wr": 0.444
+    "wr": 0.4
   },
   "se\u00f1al:no": {
-    "n": 5,
+    "n": 6,
     "wins": 1,
-    "wr": 0.333
+    "wr": 0.3
   },
   "vol:bajo": {
     "n": 2,
@@ -40,9 +40,9 @@
     "wr": 0.6
   },
   "int_precio_senal:bajo_no": {
-    "n": 4,
+    "n": 5,
     "wins": 1,
-    "wr": 0.375
+    "wr": 0.333
   },
   "se\u00f1al:yes": {
     "n": 1,
@@ -60,9 +60,9 @@
     "wr": 0.429
   },
   "confianza:media": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "wr": 0.429
+    "wr": 0.375
   },
   "int_confianza_edge:media_bajo": {
     "n": 2,
@@ -80,14 +80,14 @@
     "wr": 0.333
   },
   "vol:muy_alto": {
-    "n": 2,
+    "n": 3,
     "wins": 0,
-    "wr": 0.333
+    "wr": 0.286
   },
   "momentum:alza_fuerte": {
-    "n": 2,
+    "n": 3,
     "wins": 0,
-    "wr": 0.333
+    "wr": 0.286
   },
   "precio:medio": {
     "n": 1,
@@ -135,6 +135,16 @@
     "wr": 0.4
   },
   "categoria:otro": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "edge:alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "int_confianza_edge:media_alto": {
     "n": 1,
     "wins": 0,
     "wr": 0.4
