@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4646012",
+    "pregunta": "Cam Skattebo: Anytime Touchdown",
+    "ts": "2026-09-21T01:33:13.512655",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x50bcfee68ab27bf1c5b3f1021238461702314167",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4583543",
+    "pregunta": "Rams Total Touchdowns: O/U 3.5",
+    "ts": "2026-09-21T01:33:14.597434",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x50bcfee68ab27bf1c5b3f1021238461702314167",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2110576",
+    "pregunta": "Will Likud win fewer than 20 seats in the 2026 Israeli legislative election?",
+    "ts": "2026-09-21T01:33:16.450428",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4718248",
+    "pregunta": "Will the highest temperature in Guangzhou be 35\u00b0C on September 21?",
+    "ts": "2026-09-21T01:33:18.312632",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749387",
+    "pregunta": "Will the highest temperature in Chicago be between 62-63\u00b0F on September 22?",
+    "ts": "2026-09-21T01:33:19.361607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
+    "whale_signal": "COMPRAR NO"
+  }
+]
