@@ -1,10 +1,26 @@
 [
   {
-    "id": "4745249",
-    "pregunta": "Will the lowest temperature in Shanghai be 23\u00b0C on September 22?",
-    "ts": "2026-09-21T12:03:46.054914",
+    "id": "4489698",
+    "pregunta": "Will Elon Musk post 180-199 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-21T12:13:58.067088",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd0af33604e60b42d16f800e859f96f72289e3887",
+    "whale_wallet": "0x811ee012b9e23651bb02f7841919e912fab1265c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4489700",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-21T12:13:59.911306",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb0ccfba29aaf3c20ce28cf97349c951ba589f09b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4489702",
+    "pregunta": "Will Elon Musk post 220-239 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-21T12:14:02.668560",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc1972a9a27e6c5d66818cf2e5411ee60e60a06",
     "whale_signal": "COMPRAR NO"
   }
 ]
