@@ -1,10 +1,26 @@
 [
   {
-    "id": "4753348",
-    "pregunta": "Korea Open: Xinxin Yao vs Maya Joint",
-    "ts": "2026-09-21T00:43:24.657238",
+    "id": "4466856",
+    "pregunta": "Counter-Strike: Virtus.pro vs BBL (BO3) - Stake Pulse Beat II Group B",
+    "ts": "2026-09-21T00:52:59.918805",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x858315bdb93de5d42c4410298563568b40bed0e1",
+    "whale_wallet": "0x4be178cd1b097e8525c6b09c6b717fb6eb04eb76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4726852",
+    "pregunta": "Counter-Strike: B8 vs Luminosity (BO3) - Logitech G Play Connect Playoffs",
+    "ts": "2026-09-21T00:53:00.974409",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4be178cd1b097e8525c6b09c6b717fb6eb04eb76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4717939",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 27\u00b0C on September 21?",
+    "ts": "2026-09-21T00:53:02.923697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x948f67a0d66c1c196491b149923bcd4fa2510b98",
     "whale_signal": "COMPRAR NO"
   }
 ]
