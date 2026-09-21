@@ -1,58 +1,18 @@
 [
   {
-    "id": "4721025",
-    "pregunta": "Korea Open: Kamilla Rakhimova vs Polina Kudermetova",
-    "ts": "2026-09-21T01:43:29.708203",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4727256",
-    "pregunta": "Singapore Open: Talia Gibson vs Fiona Ferro",
-    "ts": "2026-09-21T01:43:30.750729",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4721017",
-    "pregunta": "Korea Open: Yue Yuan vs Da-Yeon Back",
-    "ts": "2026-09-21T01:43:31.791842",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4753344",
     "pregunta": "Singapore Open: Kristina Mladenovic vs Nao Hibino",
-    "ts": "2026-09-21T01:43:32.833979",
+    "ts": "2026-09-21T01:55:28.780686",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4758321",
-    "pregunta": "M15 Baku: Emirhan Bulut vs Kaya Arinc",
-    "ts": "2026-09-21T01:43:33.878463",
+    "id": "4746303",
+    "pregunta": "Will the highest temperature in Wuhan be 23\u00b0C on September 22?",
+    "ts": "2026-09-21T01:55:32.485895",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4758324",
-    "pregunta": "M15 Baku: Alexey Aleshchev vs Pavel Skvortcov",
-    "ts": "2026-09-21T01:43:34.920617",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4758486",
-    "pregunta": "W50 Nanao: Moeka Miyata vs Remika Ohashi",
-    "ts": "2026-09-21T01:43:36.091171",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
     "whale_signal": "COMPRAR NO"
   }
 ]
