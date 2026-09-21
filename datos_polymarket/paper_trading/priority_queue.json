@@ -1,10 +1,34 @@
 [
   {
-    "id": "4776338",
-    "pregunta": "LoL: Skillcamp Esport vs Arctic Pandas (BO3) - EMEA Masters Group A",
-    "ts": "2026-09-21T12:34:03.188979",
+    "id": "4360061",
+    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 2.5",
+    "ts": "2026-09-21T12:44:24.663237",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4761824",
+    "pregunta": "Tolentino: Federica Urgesi vs Oksana Selekhmeteva",
+    "ts": "2026-09-21T12:44:25.745122",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4360060",
+    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 1.5",
+    "ts": "2026-09-21T12:44:26.837825",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4360065",
+    "pregunta": "CA Aldosivi vs. CA Tucum\u00e1n: Both Teams to Score",
+    "ts": "2026-09-21T12:44:27.936485",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
