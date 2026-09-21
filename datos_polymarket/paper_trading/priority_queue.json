@@ -2,17 +2,25 @@
   {
     "id": "4753344",
     "pregunta": "Singapore Open: Kristina Mladenovic vs Nao Hibino",
-    "ts": "2026-09-21T01:55:28.780686",
+    "ts": "2026-09-21T02:05:15.263117",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4746303",
-    "pregunta": "Will the highest temperature in Wuhan be 23\u00b0C on September 22?",
-    "ts": "2026-09-21T01:55:32.485895",
+    "id": "4748444",
+    "pregunta": "Birmingham Legion FC vs. Brooklyn FC: O/U 1.5",
+    "ts": "2026-09-21T02:05:16.596901",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4627071",
+    "pregunta": "Will CSD Tristan Suarez win on 2026-09-21?",
+    "ts": "2026-09-21T02:05:17.730837",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
