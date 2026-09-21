@@ -1,34 +1,82 @@
 [
   {
-    "id": "4344210",
-    "pregunta": "Will Llaneros FC win on 2026-09-20?",
-    "ts": "2026-09-20T21:05:50.868602",
+    "id": "3920003",
+    "pregunta": "Colts vs. Chiefs: O/U 63.5",
+    "ts": "2026-09-20T21:14:20.848069",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4344215",
-    "pregunta": "Will Atl\u00e9tico Nacional win on 2026-09-20?",
-    "ts": "2026-09-20T21:05:52.020579",
+    "id": "3516974",
+    "pregunta": "Spread: Chiefs (-7.5)",
+    "ts": "2026-09-20T21:14:21.944051",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4359195",
-    "pregunta": "Quer\u00e9taro FC vs. Club Le\u00f3n FC: O/U 1.5",
-    "ts": "2026-09-20T21:05:53.115593",
+    "id": "3516968",
+    "pregunta": "Spread: Chiefs (-4.5)",
+    "ts": "2026-09-20T21:14:23.048010",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf545bd981d2b6bdbbd32a7a4b2b072726255305b",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4466835",
-    "pregunta": "Counter-Strike: Astralis vs Sangal (BO3) - Stake Pulse Beat II Group A",
-    "ts": "2026-09-20T21:05:57.447946",
+    "id": "3482783",
+    "pregunta": "Colts vs. Chiefs",
+    "ts": "2026-09-20T21:14:24.160882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd289eb6843833a2aa1dfbab2f82a01195a05d5f7",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4729923",
+    "pregunta": "Spread: Milwaukee Brewers (-2.5)",
+    "ts": "2026-09-20T21:14:25.303094",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3920001",
+    "pregunta": "Colts vs. Chiefs: O/U 59.5",
+    "ts": "2026-09-20T21:14:26.517745",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3920000",
+    "pregunta": "Colts vs. Chiefs: O/U 57.5",
+    "ts": "2026-09-20T21:14:27.621395",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4384969",
+    "pregunta": "Spread: KC (-5.5)",
+    "ts": "2026-09-20T21:14:30.076429",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4052420",
+    "pregunta": "Will Bitcoin reach $82,500 in September?",
+    "ts": "2026-09-20T21:14:32.077363",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721013",
+    "pregunta": "Korea Open: Lanlana Tararudee vs Moyuka Uchijima",
+    "ts": "2026-09-20T21:14:34.224191",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1646a64b423bc388d3905050ed0d96e09cb92f81",
     "whale_signal": "COMPRAR NO"
   }
 ]
