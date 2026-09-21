@@ -1,34 +1,26 @@
 [
   {
-    "id": "2853074",
-    "pregunta": "Bab el-Mandeb Strait effectively closed by December 31?",
-    "ts": "2026-09-20T19:25:17.463601",
+    "id": "4344199",
+    "pregunta": "Will CA Paranaense win on 2026-09-20?",
+    "ts": "2026-09-20T19:35:50.868756",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
+    "whale_wallet": "0xe43235629c5f4581d039cec28014dc74631b934a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3902573",
-    "pregunta": "Will \"The Debut\" be nominated for Best Picture at the 99th Academy Awards?",
-    "ts": "2026-09-20T19:25:18.641175",
+    "id": "4344200",
+    "pregunta": "Will CA Paranaense vs. EC Bahia end in a draw?",
+    "ts": "2026-09-20T19:35:51.911682",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
+    "whale_wallet": "0xe43235629c5f4581d039cec28014dc74631b934a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2929179",
-    "pregunta": "Will \"End of Beginning \u2013 Djo\" be the top song for 2026?",
-    "ts": "2026-09-20T19:25:19.766177",
+    "id": "4729924",
+    "pregunta": "Milwaukee Brewers vs. Baltimore Orioles: O/U 6.5",
+    "ts": "2026-09-20T19:35:54.559678",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4718286",
-    "pregunta": "Caribbean Premier League: Antigua And Barbuda Falcons vs Jamaica Kingsmen",
-    "ts": "2026-09-20T19:25:22.247396",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe8e086f7ef06af27889edfb5026e1453c61d7eec",
+    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
     "whale_signal": "COMPRAR NO"
   }
 ]
