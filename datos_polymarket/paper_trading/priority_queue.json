@@ -1,26 +1,34 @@
 [
   {
-    "id": "4466856",
-    "pregunta": "Counter-Strike: Virtus.pro vs BBL (BO3) - Stake Pulse Beat II Group B",
-    "ts": "2026-09-21T00:52:59.918805",
+    "id": "4718081",
+    "pregunta": "Will the highest temperature in Warsaw be 16\u00b0C on September 21?",
+    "ts": "2026-09-21T01:03:48.425492",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4be178cd1b097e8525c6b09c6b717fb6eb04eb76",
+    "whale_wallet": "0xac7bed009c6c3840a054d8537198488197cc8c06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4726852",
-    "pregunta": "Counter-Strike: B8 vs Luminosity (BO3) - Logitech G Play Connect Playoffs",
-    "ts": "2026-09-21T00:53:00.974409",
+    "id": "4756401",
+    "pregunta": "Will the highest temperature in Seattle be between 64-65\u00b0F on September 22?",
+    "ts": "2026-09-21T01:03:49.502516",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4be178cd1b097e8525c6b09c6b717fb6eb04eb76",
+    "whale_wallet": "0xac7bed009c6c3840a054d8537198488197cc8c06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4717939",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 27\u00b0C on September 21?",
-    "ts": "2026-09-21T00:53:02.923697",
+    "id": "4756403",
+    "pregunta": "Will the highest temperature in Seattle be between 68-69\u00b0F on September 22?",
+    "ts": "2026-09-21T01:03:50.587631",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x948f67a0d66c1c196491b149923bcd4fa2510b98",
+    "whale_wallet": "0xac7bed009c6c3840a054d8537198488197cc8c06",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746373",
+    "pregunta": "Will the highest temperature in Amsterdam be 21\u00b0C on September 22?",
+    "ts": "2026-09-21T01:03:51.680053",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac7bed009c6c3840a054d8537198488197cc8c06",
     "whale_signal": "COMPRAR NO"
   }
 ]
