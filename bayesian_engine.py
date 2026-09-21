@@ -10,7 +10,7 @@ from datetime import datetime
 ARCHIVO_LIBRO  = "datos_polymarket/paper_trading/libro_hibrido.csv"
 ARCHIVO_MODELO = "datos_polymarket/paper_trading/bayesian_model.json"
 
-MIN_SAMPLES  = 2    # mínimo trades para activar un feature
+MIN_SAMPLES  = 4    # mínimo trades para activar un feature (evita sobre-reacción a muestras pequeñas)
 MIN_WIN_RATE = 0.40 # umbral para operar
 
 log = logging.getLogger("bayesian")
@@ -20,17 +20,20 @@ log = logging.getLogger("bayesian")
 
 def get_categoria(pregunta):
     q = str(pregunta).lower()
+    if any(k in q for k in ["dota", "lol", "esports", "league of legends", "cs:go", "counter-strike",
+                              "valorant", "pgl", "blast", "major", "bo3", "bo5", "iem", "esl"]):
+        return "esports"
     if any(k in q for k in ["nba","nfl","nhl","stanley","lakers","knicks","spurs",
                               "cavaliers","pistons","celtics","warriors","heat",
                               "buffalo","montreal","vegas","carolina","sabres",
                               "avalanche","thunder","pistons"]):
         return "deportes"
     if any(k in q for k in ["premier","arsenal","chelsea","city","united","liverpool",
-                              "tottenham","manchester","world cup","fifa","la liga"]):
+                              "tottenham","manchester","world cup","fifa","la liga", "inter miami"]):
         return "futbol"
     if any(k in q for k in ["president","senate","republican","democrat","election",
                               "vote","congress","trump","paxton","cornyn","bolsonaro",
-                              "lula","haddad","balance of power","starmer","mayoral"]):
+                              "lula","haddad","balance of power","starmer","mayoral", "maduro", "delcy", "venezuela"]):
         return "politica"
     if any(k in q for k in ["bitcoin","crypto","microstrategy","nvidia","alphabet",
                               "metamask","largest company","market cap"]):
@@ -169,14 +172,14 @@ def extraer_features(row):
 
 def es_señal_valida(row):
     """
-    Solo aprende de operaciones donde el precio se movió con significancia direccional.
-    INACTIVA y TIME_EXIT con PnL plano o micro-ruido (< 2.5% o < $0.25) son ruido, no señal.
+    Solo aprende de operaciones donde el resultado es un desenlace real de la estrategia
+    (TAKE_PROFIT, STOP_LOSS, RESOLVED_EXIT, EARLY_EXIT_FAILSAFE).
+    INACTIVA y TIME_EXIT son salidas por gestión de liquidez o límite de tiempo del bot,
+    NO representan errores predictivos de la tesis fundamental en mercados de larga duración.
     """
     razon = str(row.get("razon_cierre", "")).upper()
-    pnl   = float(row.get("pnl_realizado", 0) or 0)
-    pct   = float(row.get("pct_cambio", 0) or 0)
-    if razon == "INACTIVA": return False
-    if razon == "TIME_EXIT" and (abs(pct) < 0.025 or abs(pnl) < 0.25): return False
+    if razon in ("INACTIVA", "TIME_EXIT"):
+        return False
     return True
 
 def es_ganadora(row):
@@ -215,7 +218,7 @@ class BayesianEngine:
         df = df_hibrido.copy()
         cerradas = df[df["estado"].str.upper() == "CERRADA"].copy()
 
-        # Solo trades con señal real (excluye INACTIVA y TIME_EXIT planos)
+        # Solo trades con señal real (excluye INACTIVA y TIME_EXIT)
         validas = cerradas[cerradas.apply(es_señal_valida, axis=1)]
 
         modelo = {}
@@ -234,8 +237,8 @@ class BayesianEngine:
                 modelo[k]["n"]    += 1
                 modelo[k]["wins"] += int(ganadora)
                 
-                # Suavizado de Laplace: wr = (wins + alpha) / (n + 2 * alpha)
-                alpha = 1.0
+                # Suavizado de Laplace robusto (alpha = 2.0 ancla hacia el prior neutral 50% con pocas muestras)
+                alpha = 2.0
                 modelo[k]["wr"]    = round((modelo[k]["wins"] + alpha) / (modelo[k]["n"] + 2 * alpha), 3)
 
         self.modelo = modelo

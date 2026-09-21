@@ -1,1 +1,137 @@
-{}
+{
+  "categoria:politica": {
+    "n": 2,
+    "wins": 2,
+    "wr": 0.667
+  },
+  "precio:bajo": {
+    "n": 4,
+    "wins": 2,
+    "wr": 0.5
+  },
+  "se\u00f1al:no": {
+    "n": 4,
+    "wins": 1,
+    "wr": 0.375
+  },
+  "vol:bajo": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.6
+  },
+  "edge:medio": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.6
+  },
+  "confianza:alta": {
+    "n": 2,
+    "wins": 1,
+    "wr": 0.5
+  },
+  "momentum:estable": {
+    "n": 2,
+    "wins": 2,
+    "wr": 0.667
+  },
+  "int_confianza_edge:alta_medio": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.6
+  },
+  "int_precio_senal:bajo_no": {
+    "n": 3,
+    "wins": 1,
+    "wr": 0.429
+  },
+  "se\u00f1al:yes": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.6
+  },
+  "vol:alto": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.6
+  },
+  "edge:bajo": {
+    "n": 3,
+    "wins": 1,
+    "wr": 0.429
+  },
+  "confianza:media": {
+    "n": 2,
+    "wins": 1,
+    "wr": 0.5
+  },
+  "int_confianza_edge:media_bajo": {
+    "n": 2,
+    "wins": 1,
+    "wr": 0.5
+  },
+  "int_precio_senal:bajo_yes": {
+    "n": 1,
+    "wins": 1,
+    "wr": 0.6
+  },
+  "categoria:esports": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "vol:muy_alto": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "momentum:alza_fuerte": {
+    "n": 2,
+    "wins": 0,
+    "wr": 0.333
+  },
+  "precio:medio": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "confianza:baja": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "int_confianza_edge:baja_bajo": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "int_precio_senal:medio_no": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "categoria:crypto_tech": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "vol:medio": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "edge:muy_alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "momentum:caida_suave": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  },
+  "int_confianza_edge:alta_muy_alto": {
+    "n": 1,
+    "wins": 0,
+    "wr": 0.4
+  }
+}

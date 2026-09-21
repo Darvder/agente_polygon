@@ -707,6 +707,11 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
             return None
 
+        # 1.5 Filtro de Categoría: Descartar esports en el Híbrido (reservado exclusivamente para Copy-Trader)
+        if get_categoria(m["pregunta"]) == "esports":
+            log.info(f"⏭️ {nombre_m} | Categoría 'esports' descartada en el Híbrido (operado por Copy-Trader).")
+            return None
+
         # 2. Event Detector
         puede, motivo = ev_detector.puede_entrar(m["id"], m["pregunta"])
         if not puede:
@@ -808,9 +813,10 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
 
     # ── Thresholds según tipo de mercado ─────────────────────────────
     if is_prioritario:
-        min_confianza_efectivo = 0.40
-        min_edge_efectivo      = 0.01
-        log.info(f"🐳 [WHALE-AI SYNERGY] Mercado prioritario. Límites: confianza>=40%, edge>=1%.")
+        # Validación rigurosa para ballenas: la IA debe confirmar la tesis con alta convicción
+        min_confianza_efectivo = 0.60
+        min_edge_efectivo      = 0.035
+        log.info(f"🐳 [WHALE-AI VALIDATION] Mercado prioritario. Validación requerida: confianza>=60%, edge>=3.5%.")
     elif hay_noticia:
         # Modo con noticia: el LLM detectó un catalizador real → exigencia media
         min_confianza_efectivo = 0.45
@@ -1096,6 +1102,11 @@ async def ciclo():
         # A. Ya Abierta (Filtro ultrarrápido)
         if m["pregunta"][:70] in preguntas_abiertas:
             log.info(f"⏭️ {nombre_m} | Pre-Filtrado: Ya existe posición ABIERTA.")
+            continue
+
+        # A2. Categoría: Descartar esports en el Híbrido (operado exclusivamente por Copy-Trader)
+        if get_categoria(m["pregunta"]) == "esports":
+            log.info(f"⏭️ {nombre_m} | Pre-Filtrado: Categoría 'esports' descartada del Híbrido.")
             continue
             
         # B. Event Detector
