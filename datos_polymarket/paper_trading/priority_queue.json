@@ -1,66 +1,82 @@
 [
   {
-    "id": "4339504",
-    "pregunta": "Will Club Santos Laguna win on 2026-09-20?",
-    "ts": "2026-09-20T22:34:16.864123",
+    "id": "4485386",
+    "pregunta": "Will fewer than 170 ships transit the Bab el-Mandeb Strait between September 14-September 20?",
+    "ts": "2026-09-20T22:45:02.115871",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x551c8f09fffa54889974a101e2af2b92c13dfe91",
+    "whale_wallet": "0x577a46580b44e414057816575f12247cb8766c80",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4339502",
-    "pregunta": "Will Deportivo Toluca FC win on 2026-09-20?",
-    "ts": "2026-09-20T22:34:19.010316",
+    "id": "3516983",
+    "pregunta": "Colts vs. Chiefs: O/U 50.5",
+    "ts": "2026-09-20T22:45:04.072837",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd04e56d13b8cf3c18602170512fc3b884f0e122e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3128935",
-    "pregunta": "Will Magomed Ankalaev fight Carlos Ulberg next?",
-    "ts": "2026-09-20T22:34:22.339150",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd04e56d13b8cf3c18602170512fc3b884f0e122e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4339508",
-    "pregunta": "Will Quer\u00e9taro FC win on 2026-09-20?",
-    "ts": "2026-09-20T22:34:23.491756",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd04e56d13b8cf3c18602170512fc3b884f0e122e",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3516965",
     "pregunta": "Spread: Chiefs (-3.5)",
-    "ts": "2026-09-20T22:34:26.795073",
+    "ts": "2026-09-20T22:45:05.176742",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3516972",
+    "pregunta": "Spread: Chiefs (-6.5)",
+    "ts": "2026-09-20T22:45:06.277799",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3516968",
+    "pregunta": "Spread: Chiefs (-4.5)",
+    "ts": "2026-09-20T22:45:07.331400",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3920000",
+    "pregunta": "Colts vs. Chiefs: O/U 57.5",
+    "ts": "2026-09-20T22:45:08.429664",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727242",
+    "pregunta": "Singapore Open: Daria Kasatkina vs Aliaksandra Sasnovich",
+    "ts": "2026-09-20T22:45:09.503915",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4359196",
+    "pregunta": "Quer\u00e9taro FC vs. Club Le\u00f3n FC: O/U 2.5",
+    "ts": "2026-09-20T22:45:10.580931",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4304107fa56ff1d89d3be7b00adbd326cb016138",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4384969",
+    "pregunta": "Spread: KC (-5.5)",
+    "ts": "2026-09-20T22:45:12.307017",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3482783",
     "pregunta": "Colts vs. Chiefs",
-    "ts": "2026-09-20T22:34:27.888028",
+    "ts": "2026-09-20T22:45:13.368154",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4339509",
-    "pregunta": "Will Quer\u00e9taro FC vs. Club Le\u00f3n FC end in a draw?",
-    "ts": "2026-09-20T22:34:29.126065",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4359191",
-    "pregunta": "Spread: Club Le\u00f3n FC (-1.5)",
-    "ts": "2026-09-20T22:34:30.231653",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "whale_signal": "COMPRAR NO"
   }
 ]
