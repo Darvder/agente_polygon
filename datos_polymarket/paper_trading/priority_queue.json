@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4746440",
+    "pregunta": "Will the highest temperature in Qingdao be 31\u00b0C on September 22?",
+    "ts": "2026-09-21T05:14:39.938755",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a1a32ec6c0b2896a4e9e3d7a48098ec88e92983",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746295",
+    "pregunta": "Will the highest temperature in Beijing be 30\u00b0C on September 22?",
+    "ts": "2026-09-21T05:14:41.179560",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a1a32ec6c0b2896a4e9e3d7a48098ec88e92983",
+    "whale_signal": "COMPRAR NO"
+  }
+]
