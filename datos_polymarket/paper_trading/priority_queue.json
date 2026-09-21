@@ -1,10 +1,146 @@
 [
   {
-    "id": "4740784",
-    "pregunta": "Plovdiv 4: Diego Dedura-Palomero vs Oriol Roca Batalla",
-    "ts": "2026-09-21T08:03:49.859496",
+    "id": "4746274",
+    "pregunta": "Will the highest temperature in Taipei be 31\u00b0C on September 22?",
+    "ts": "2026-09-21T08:15:42.176867",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x99ce55eb04816a85cc79d4fb37b0468454b87098",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782106",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 27\u00b0C on September 23?",
+    "ts": "2026-09-21T08:15:43.321641",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4008533",
+    "pregunta": "Will CS Cienciano win on 2026-09-13?",
+    "ts": "2026-09-21T08:15:44.566991",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746331",
+    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on September 22?",
+    "ts": "2026-09-21T08:15:45.639552",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4779060",
+    "pregunta": "Oakland Roots SC vs. Phoenix Rising FC: Oakland Roots SC O/U 1.5",
+    "ts": "2026-09-21T08:15:46.832713",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782313",
+    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on September 23?",
+    "ts": "2026-09-21T08:15:47.899685",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746188",
+    "pregunta": "Will the highest temperature in Tokyo be 30\u00b0C on September 22?",
+    "ts": "2026-09-21T08:15:48.958492",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4748521",
+    "pregunta": "Will the highest temperature in Atlanta be between 86-87\u00b0F on September 22?",
+    "ts": "2026-09-21T08:15:51.639658",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4745139",
+    "pregunta": "Will the lowest temperature in London be 15\u00b0C on September 22?",
+    "ts": "2026-09-21T08:15:52.711285",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788801",
+    "pregunta": "Will the highest temperature in San Francisco be between 82-83\u00b0F on September 23?",
+    "ts": "2026-09-21T08:15:53.767023",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788800",
+    "pregunta": "Will the highest temperature in San Francisco be between 80-81\u00b0F on September 23?",
+    "ts": "2026-09-21T08:15:54.818201",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782168",
+    "pregunta": "Will the highest temperature in Tokyo be 23\u00b0C on September 23?",
+    "ts": "2026-09-21T08:15:56.712265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4719538",
+    "pregunta": "Will the highest temperature in Houston be between 94-95\u00b0F on September 21?",
+    "ts": "2026-09-21T08:15:57.881427",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782442",
+    "pregunta": "Will the highest temperature in Manila be 33\u00b0C on September 23?",
+    "ts": "2026-09-21T08:15:59.049535",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4745479",
+    "pregunta": "Will the lowest temperature in Karachi be 27\u00b0C on September 22?",
+    "ts": "2026-09-21T08:16:00.261402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4745238",
+    "pregunta": "Will the lowest temperature in Hong Kong be 27\u00b0C on September 22?",
+    "ts": "2026-09-21T08:16:01.465539",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746440",
+    "pregunta": "Will the highest temperature in Qingdao be 31\u00b0C on September 22?",
+    "ts": "2026-09-21T08:16:02.614354",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784503",
+    "pregunta": "Will the highest temperature in Miami be between 88-89\u00b0F on September 23?",
+    "ts": "2026-09-21T08:16:03.708245",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
     "whale_signal": "COMPRAR NO"
   }
 ]
