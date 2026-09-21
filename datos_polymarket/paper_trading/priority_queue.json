@@ -1,18 +1,34 @@
 [
   {
-    "id": "4718054",
-    "pregunta": "Will the highest temperature in Milan be 30\u00b0C on September 21?",
-    "ts": "2026-09-21T07:26:15.936338",
+    "id": "4466835",
+    "pregunta": "Counter-Strike: Astralis vs Sangal (BO3) - Stake Pulse Beat II Group A",
+    "ts": "2026-09-21T07:34:29.553152",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b5920274740ca61745eeb077587bf5bb4ff9db6",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3938031",
-    "pregunta": "Will Core PCE YoY be 3.3% in August?",
-    "ts": "2026-09-21T07:26:18.951478",
+    "id": "4770400",
+    "pregunta": "M25 Sharm ElSheikh: Edoardo Zanada vs Daniil Ovcharenko",
+    "ts": "2026-09-21T07:34:30.592643",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xed347c348f03d58409978c4ebf04c31cdb458780",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4770396",
+    "pregunta": "M25 Sharm ElSheikh: Darsh Sachin Patel vs Finn Reilly",
+    "ts": "2026-09-21T07:34:31.653929",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4677765",
+    "pregunta": "LoL: ZSK vs Saigon Warriors (BO1) - World Star Challengers Invitational Group D",
+    "ts": "2026-09-21T07:34:33.484995",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c9df727f6076e7278e28ae2c8922c3270af0bff",
     "whale_signal": "COMPRAR NO"
   }
 ]
