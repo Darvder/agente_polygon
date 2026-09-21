@@ -1,42 +1,58 @@
 [
   {
-    "id": "4646012",
-    "pregunta": "Cam Skattebo: Anytime Touchdown",
-    "ts": "2026-09-21T01:33:13.512655",
+    "id": "4721025",
+    "pregunta": "Korea Open: Kamilla Rakhimova vs Polina Kudermetova",
+    "ts": "2026-09-21T01:43:29.708203",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x50bcfee68ab27bf1c5b3f1021238461702314167",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4583543",
-    "pregunta": "Rams Total Touchdowns: O/U 3.5",
-    "ts": "2026-09-21T01:33:14.597434",
+    "id": "4727256",
+    "pregunta": "Singapore Open: Talia Gibson vs Fiona Ferro",
+    "ts": "2026-09-21T01:43:30.750729",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x50bcfee68ab27bf1c5b3f1021238461702314167",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2110576",
-    "pregunta": "Will Likud win fewer than 20 seats in the 2026 Israeli legislative election?",
-    "ts": "2026-09-21T01:33:16.450428",
+    "id": "4721017",
+    "pregunta": "Korea Open: Yue Yuan vs Da-Yeon Back",
+    "ts": "2026-09-21T01:43:31.791842",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4718248",
-    "pregunta": "Will the highest temperature in Guangzhou be 35\u00b0C on September 21?",
-    "ts": "2026-09-21T01:33:18.312632",
+    "id": "4753344",
+    "pregunta": "Singapore Open: Kristina Mladenovic vs Nao Hibino",
+    "ts": "2026-09-21T01:43:32.833979",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4749387",
-    "pregunta": "Will the highest temperature in Chicago be between 62-63\u00b0F on September 22?",
-    "ts": "2026-09-21T01:33:19.361607",
+    "id": "4758321",
+    "pregunta": "M15 Baku: Emirhan Bulut vs Kaya Arinc",
+    "ts": "2026-09-21T01:43:33.878463",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc4f925fe2799df3c53f552545ee1fb0a8d328d24",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4758324",
+    "pregunta": "M15 Baku: Alexey Aleshchev vs Pavel Skvortcov",
+    "ts": "2026-09-21T01:43:34.920617",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4758486",
+    "pregunta": "W50 Nanao: Moeka Miyata vs Remika Ohashi",
+    "ts": "2026-09-21T01:43:36.091171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77e2ade53aec760f80c2eb6601380294a568334f",
     "whale_signal": "COMPRAR NO"
   }
 ]
