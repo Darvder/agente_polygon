@@ -1,58 +1,42 @@
 [
   {
-    "id": "4782106",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 27\u00b0C on September 23?",
-    "ts": "2026-09-21T04:14:12.925081",
+    "id": "4677744",
+    "pregunta": "LoL: Solary vs ZSK (BO1) - World Star Challengers Invitational Group D",
+    "ts": "2026-09-21T04:24:24.009798",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_wallet": "0xf1ee4842fa0c7283632185e42577027452d4519c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782105",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 26\u00b0C on September 23?",
-    "ts": "2026-09-21T04:14:13.969344",
+    "id": "4558839",
+    "pregunta": "Will the price of Ethereum be above $2,700 on September 21?",
+    "ts": "2026-09-21T04:24:25.861682",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782093",
-    "pregunta": "Will the highest temperature in Paris be 26\u00b0C on September 23?",
-    "ts": "2026-09-21T04:14:15.072730",
+    "id": "4777311",
+    "pregunta": "Counter-Strike: Brute vs SPARTA (BO3) - NODWIN Clutch Series Group Stage",
+    "ts": "2026-09-21T04:24:26.926432",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4746431",
-    "pregunta": "Will the highest temperature in Guangzhou be 36\u00b0C on September 22?",
-    "ts": "2026-09-21T04:14:16.277886",
+    "id": "4558864",
+    "pregunta": "Will the price of Bitcoin be above $84,000 on September 21?",
+    "ts": "2026-09-21T04:24:27.981636",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4746297",
-    "pregunta": "Will the highest temperature in Beijing be 32\u00b0C on September 22?",
-    "ts": "2026-09-21T04:14:17.332211",
+    "id": "4586958",
+    "pregunta": "Will the price of Bitcoin be greater than $86,000 on September 22?",
+    "ts": "2026-09-21T04:24:29.063182",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4749377",
-    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on September 22?",
-    "ts": "2026-09-21T04:14:18.373047",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4782312",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 23?",
-    "ts": "2026-09-21T04:14:19.424281",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_wallet": "0x0feb3acab4cdfad52e602c4fa08547434256efed",
     "whale_signal": "COMPRAR NO"
   }
 ]
