@@ -1,42 +1,18 @@
 [
   {
-    "id": "4746494",
-    "pregunta": "Buenos Aires 2: Lucio Ratti vs Federico Coria",
-    "ts": "2026-09-22T17:33:07.111777",
+    "id": "4800955",
+    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
+    "ts": "2026-09-22T17:43:35.075021",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5fd2d9c60781d711721145ff2b906aa63a18afce",
+    "whale_wallet": "0x126266f57f9812c42daaf69767f622ad36ce056f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4400846",
-    "pregunta": "Minnesota Lynx vs. Indiana Fever",
-    "ts": "2026-09-22T17:33:10.503439",
+    "id": "4801030",
+    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
+    "ts": "2026-09-22T17:43:36.133333",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613529",
-    "pregunta": "Tampa Bay Rays vs. New York Yankees",
-    "ts": "2026-09-22T17:33:11.586108",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4826823",
-    "pregunta": "Miami Marlins vs. Chicago Cubs: O/U 6.5",
-    "ts": "2026-09-22T17:33:12.760830",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3664830",
-    "pregunta": "Raiders vs. Saints",
-    "ts": "2026-09-22T17:33:13.947377",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x126266f57f9812c42daaf69767f622ad36ce056f",
     "whale_signal": "COMPRAR NO"
   }
 ]
