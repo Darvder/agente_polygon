@@ -1,26 +1,82 @@
 [
   {
-    "id": "4841565",
-    "pregunta": "Counter-Strike: Fortress vs Revise (BO3) - ESL Challenger League Europe Cup #7 Group C",
-    "ts": "2026-09-22T12:14:52.845959",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4384846",
     "pregunta": "Will FC Internazionale Milano win on 2026-09-22?",
-    "ts": "2026-09-22T12:14:54.612509",
+    "ts": "2026-09-22T12:24:14.482804",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824197",
-    "pregunta": "Dota 2: Two Move vs Yellow Submarine - Game 2 Winner",
-    "ts": "2026-09-22T12:14:57.890616",
+    "id": "4798938",
+    "pregunta": "Plovdiv 4: Iliyan Radulov vs Pavel Lagutin",
+    "ts": "2026-09-22T12:24:15.620046",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4798998",
+    "pregunta": "St. Tropez: Matteo Martineau vs Tristan Schoolkate",
+    "ts": "2026-09-22T12:24:16.804004",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400985",
+    "pregunta": "Spread: FC Internazionale Milano (-1.5)",
+    "ts": "2026-09-22T12:24:17.941923",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4384858",
+    "pregunta": "Will Real Madrid CF Femenino win on 2026-09-22?",
+    "ts": "2026-09-22T12:24:20.195716",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400847",
+    "pregunta": "Toronto Tempo vs. Chicago Sky",
+    "ts": "2026-09-22T12:24:21.322691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801318",
+    "pregunta": "Chicago White Sox vs. Kansas City Royals: O/U 7.5",
+    "ts": "2026-09-22T12:24:22.646783",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400846",
+    "pregunta": "Minnesota Lynx vs. Indiana Fever",
+    "ts": "2026-09-22T12:24:23.775072",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521506",
+    "pregunta": "Will Spain win on 2026-09-26?",
+    "ts": "2026-09-22T12:24:24.949416",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "665369",
+    "pregunta": "Will Trump's approval rating hit 35% in 2026?",
+    "ts": "2026-09-22T12:24:28.229494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb93e593149b39a99018f0bd12d41dbb7f827195e",
     "whale_signal": "COMPRAR NO"
   }
 ]
