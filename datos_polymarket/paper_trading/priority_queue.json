@@ -1,18 +1,26 @@
 [
   {
-    "id": "4627752",
-    "pregunta": "Will the next Claude Opus model be released on September 22, 2026?",
-    "ts": "2026-09-22T11:55:40.698690",
+    "id": "4799027",
+    "pregunta": "Genoa 2: Alejandro Juan vs Francesco Passaro",
+    "ts": "2026-09-22T12:04:37.398306",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf9897fcfda43aaa48040f86d9b9829668204aca2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4797724",
-    "pregunta": "Will Bitcoin dip to $82,500 in September?",
-    "ts": "2026-09-22T11:55:41.951025",
+    "id": "4824395",
+    "pregunta": "LoL: Skillcamp Esport vs Lodis (BO3) - EMEA Masters Group A",
+    "ts": "2026-09-22T12:04:40.966917",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf9897fcfda43aaa48040f86d9b9829668204aca2",
+    "whale_wallet": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824503",
+    "pregunta": "LoL: The Otter Side vs Team Aqua ASD - Game 1 Winner",
+    "ts": "2026-09-22T12:04:42.060410",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
     "whale_signal": "COMPRAR NO"
   }
 ]
