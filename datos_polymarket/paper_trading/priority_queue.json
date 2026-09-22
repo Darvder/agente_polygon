@@ -1,10 +1,42 @@
 [
   {
-    "id": "4749172",
-    "pregunta": "Will the lowest temperature in Miami be between 78-79\u00b0F on September 22?",
-    "ts": "2026-09-22T17:24:57.374785",
+    "id": "4746494",
+    "pregunta": "Buenos Aires 2: Lucio Ratti vs Federico Coria",
+    "ts": "2026-09-22T17:33:07.111777",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfdb8067f4483c5641bcf3251710fefa177888c23",
+    "whale_wallet": "0x5fd2d9c60781d711721145ff2b906aa63a18afce",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400846",
+    "pregunta": "Minnesota Lynx vs. Indiana Fever",
+    "ts": "2026-09-22T17:33:10.503439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613529",
+    "pregunta": "Tampa Bay Rays vs. New York Yankees",
+    "ts": "2026-09-22T17:33:11.586108",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4826823",
+    "pregunta": "Miami Marlins vs. Chicago Cubs: O/U 6.5",
+    "ts": "2026-09-22T17:33:12.760830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664830",
+    "pregunta": "Raiders vs. Saints",
+    "ts": "2026-09-22T17:33:13.947377",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
