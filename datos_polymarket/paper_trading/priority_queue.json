@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "4711201",
+    "pregunta": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $130 Week of September 21 2026?",
+    "ts": "2026-09-22T01:53:57.547396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7cd3797c5327455e0999d1e8ced1633f300596c8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
