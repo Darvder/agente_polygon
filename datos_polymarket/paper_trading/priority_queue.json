@@ -1,18 +1,1 @@
-[
-  {
-    "id": "4800955",
-    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
-    "ts": "2026-09-22T17:43:35.075021",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x126266f57f9812c42daaf69767f622ad36ce056f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4801030",
-    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
-    "ts": "2026-09-22T17:43:36.133333",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x126266f57f9812c42daaf69767f622ad36ce056f",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
