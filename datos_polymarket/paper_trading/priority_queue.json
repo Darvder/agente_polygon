@@ -1,98 +1,34 @@
 [
   {
-    "id": "4761834",
-    "pregunta": "Ankara: Martyna Kubka vs Berfu Cengiz",
-    "ts": "2026-09-22T07:34:22.489161",
+    "id": "4798969",
+    "pregunta": "St. Tropez: Moez Echargui vs Daniel Masur",
+    "ts": "2026-09-22T07:43:49.938098",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4753350",
     "pregunta": "Singapore Open: Barbora Krejcikova vs Anna-Lena Friedsam",
-    "ts": "2026-09-22T07:34:23.569552",
+    "ts": "2026-09-22T07:43:50.981562",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4797695",
-    "pregunta": "Tolentino: Veronika Erjavec vs Katerina Tsygourova",
-    "ts": "2026-09-22T07:34:24.659634",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4761820",
     "pregunta": "Tolentino: Barbora Palicova vs Alicia Herrero Linana",
-    "ts": "2026-09-22T07:34:25.758477",
+    "ts": "2026-09-22T07:43:52.030919",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4761830",
-    "pregunta": "Ankara: Fiona Crawley vs Carole Monnet",
-    "ts": "2026-09-22T07:34:26.848079",
+    "id": "4766374",
+    "pregunta": "Will Worksop Town FC vs. AFC Telford United end in a draw?",
+    "ts": "2026-09-22T07:43:53.975450",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4761799",
-    "pregunta": "Porto: Matilde Jorge vs Celia Cervino Ruiz",
-    "ts": "2026-09-22T07:34:27.948410",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4794125",
-    "pregunta": "Counter-Strike: Rune Eaters vs Bushido Wildcats (BO3) - European Pro League Series 9 Playoffs",
-    "ts": "2026-09-22T07:34:29.979380",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x02db2eee0b06db57057dc153fd03327b7db35a8d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4794080",
-    "pregunta": "W15 Constanta: Alexia-Shara Iancu vs Aleksandra Djokic",
-    "ts": "2026-09-22T07:34:31.956038",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5974813b27cde970e736ae3b55ec9afc64635c32",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4793960",
-    "pregunta": "M25 Santa Margherita di Pula: Matteo Sciahbasi vs Nikodije Trivunac",
-    "ts": "2026-09-22T07:34:33.050924",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5974813b27cde970e736ae3b55ec9afc64635c32",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4809536",
-    "pregunta": "M15 Monastir: Youssef Kadiri Hassani vs William Nolan",
-    "ts": "2026-09-22T07:34:34.148075",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5974813b27cde970e736ae3b55ec9afc64635c32",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4762793",
-    "pregunta": "Set 1 Winner: Barbora Palicova vs Alicia Herrero Linana",
-    "ts": "2026-09-22T07:34:35.257286",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5974813b27cde970e736ae3b55ec9afc64635c32",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4809578",
-    "pregunta": "M25 Pardubice: Jiri Cizek vs Dominik Dujka",
-    "ts": "2026-09-22T07:34:36.353887",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5974813b27cde970e736ae3b55ec9afc64635c32",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   }
 ]

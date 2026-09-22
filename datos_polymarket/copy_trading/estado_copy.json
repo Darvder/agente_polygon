@@ -1,10 +1,10 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 931.47,
-  "capital_en_riesgo": 141.49,
-  "n_ciclos": 37638,
-  "ultima_corrida": "2026-09-22 07:34",
-  "n_tp": 228,
-  "n_sl": 149,
+  "capital_actual": 933.64,
+  "capital_en_riesgo": 123.73,
+  "n_ciclos": 37639,
+  "ultima_corrida": "2026-09-22 07:44",
+  "n_tp": 229,
+  "n_sl": 152,
   "n_time": 0
 }
