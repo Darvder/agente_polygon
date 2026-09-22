@@ -1,34 +1,154 @@
 [
   {
-    "id": "4811464",
-    "pregunta": "Dota 2: Natus Vincere vs 1win (BO3) - PGL Wallachia Group Stage",
-    "ts": "2026-09-22T06:23:45.138953",
+    "id": "4469184",
+    "pregunta": "Netherlands vs. Germany: Both Teams to Score",
+    "ts": "2026-09-22T06:32:39.257103",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4776904",
-    "pregunta": "LoL: EDward Gaming Youth Team vs T1 Academy (BO1) - World Star Challengers Invitational Group A",
-    "ts": "2026-09-22T06:23:46.197585",
+    "id": "4464930",
+    "pregunta": "Will Republic of Ireland win on 2026-09-24?",
+    "ts": "2026-09-22T06:32:40.545488",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4811462",
-    "pregunta": "Dota 2: Natus Vincere vs 1win - Game 1 Winner",
-    "ts": "2026-09-22T06:23:48.217397",
+    "id": "4464926",
+    "pregunta": "Will Greece win on 2026-09-24?",
+    "ts": "2026-09-22T06:32:41.695696",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x154ca10dfee317dcfb9337788db7da858cba658e",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824178",
-    "pregunta": "Dota 2: Zero Tenacity vs Team Lynx - Game 2 Winner",
-    "ts": "2026-09-22T06:23:49.275481",
+    "id": "4492837",
+    "pregunta": "Will France win on 2026-09-25?",
+    "ts": "2026-09-22T06:32:42.823899",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x154ca10dfee317dcfb9337788db7da858cba658e",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4492840",
+    "pregunta": "Will Italy vs. Belgium end in a draw?",
+    "ts": "2026-09-22T06:32:44.045267",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4492852",
+    "pregunta": "Will Bosnia and Herzegovina win on 2026-09-25?",
+    "ts": "2026-09-22T06:32:45.176912",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4492843",
+    "pregunta": "Will Montenegro win on 2026-09-25?",
+    "ts": "2026-09-22T06:32:46.466828",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4492847",
+    "pregunta": "Will Hungary win on 2026-09-25?",
+    "ts": "2026-09-22T06:32:47.761263",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4492831",
+    "pregunta": "Will Sweden win on 2026-09-25?",
+    "ts": "2026-09-22T06:32:48.892725",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521477",
+    "pregunta": "Will Scotland win on 2026-09-26?",
+    "ts": "2026-09-22T06:32:49.982412",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521492",
+    "pregunta": "Will Luxembourg win on 2026-09-26?",
+    "ts": "2026-09-22T06:32:51.261688",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521478",
+    "pregunta": "Will Iceland win on 2026-09-26?",
+    "ts": "2026-09-22T06:32:52.399542",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521506",
+    "pregunta": "Will Spain win on 2026-09-26?",
+    "ts": "2026-09-22T06:32:53.530607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521497",
+    "pregunta": "Will Albania win on 2026-09-26?",
+    "ts": "2026-09-22T06:32:54.661769",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4549725",
+    "pregunta": "Will Denmark win on 2026-09-27?",
+    "ts": "2026-09-22T06:32:55.942486",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4549729",
+    "pregunta": "Will Austria win on 2026-09-27?",
+    "ts": "2026-09-22T06:32:57.037996",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4549724",
+    "pregunta": "Will Netherlands win on 2026-09-27?",
+    "ts": "2026-09-22T06:32:58.133805",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4550098",
+    "pregunta": "Germany vs. Greece: Both Teams to Score",
+    "ts": "2026-09-22T06:32:59.226987",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4549733",
+    "pregunta": "Will Norway win on 2026-09-27?",
+    "ts": "2026-09-22T06:33:00.319250",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d22e24de34ed323ed513f415e2e68cb1a66a9d",
     "whale_signal": "COMPRAR NO"
   }
 ]
