@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4417276",
+    "pregunta": "Independiente Santa Fe leading at halftime?",
+    "ts": "2026-09-22T18:23:32.550041",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcba9371dcbbd7a48b477f04274376e1feea9f812",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867382",
+    "pregunta": "Bitcoin above 86,600 on September 22, 8PM ET?",
+    "ts": "2026-09-22T18:23:35.322879",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5fe8c8e794be4a5d37fe628f5fc113b16e835135",
+    "whale_signal": "COMPRAR NO"
+  }
+]
