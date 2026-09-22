@@ -1,18 +1,34 @@
 [
   {
-    "id": "4764011",
-    "pregunta": "San Diego 2: Jack Kennedy vs Liam Draxl",
-    "ts": "2026-09-22T15:47:58.696860",
+    "id": "4400923",
+    "pregunta": "Arsenal WFC vs. HB K\u00f8ge: O/U 0.5",
+    "ts": "2026-09-22T15:56:29.029100",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf4e6277645c2a01ba89779f531cc2dc72e163451",
+    "whale_wallet": "0x3a2504a97f28666b7cdf512536b6360aa14f8bc8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824483",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports (BO3) - EMEA Masters Group A",
-    "ts": "2026-09-22T15:48:01.285392",
+    "id": "4400959",
+    "pregunta": "Juventus FC vs. Sport Lisboa e Benfica: O/U 3.5",
+    "ts": "2026-09-22T15:56:31.021876",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824762",
+    "pregunta": "Rainbow Six Siege: Fnatic vs Geekay Esports (BO1) - Europe MENA League Stage 2 Group Stage",
+    "ts": "2026-09-22T15:56:32.135412",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4823862",
+    "pregunta": "Dota 2: Team Synapse vs Kalmychata (BO3) - European Pro League Playoffs",
+    "ts": "2026-09-22T15:56:33.462429",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
     "whale_signal": "COMPRAR NO"
   }
 ]
