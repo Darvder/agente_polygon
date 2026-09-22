@@ -1,26 +1,42 @@
 [
   {
-    "id": "4798932",
-    "pregunta": "Hangzhou Open, Qualification: Arthur Weber vs Hayato Matsuoka",
-    "ts": "2026-09-22T01:14:13.309288",
+    "id": "4746304",
+    "pregunta": "Will the highest temperature in Wuhan be 24\u00b0C on September 22?",
+    "ts": "2026-09-22T01:25:16.204767",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0x164cb85e1718d0a8f95d588b08fbb52b34233e39",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4788117",
-    "pregunta": "Chengdu Open, Qualification: Petr Bar Biryukov vs Andre Ilagan",
-    "ts": "2026-09-22T01:14:14.353223",
+    "id": "4746329",
+    "pregunta": "Will the highest temperature in Shenzhen be 31\u00b0C on September 22?",
+    "ts": "2026-09-22T01:25:18.446672",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0x11b71f2c8fef27a3e7174cd9b89a6a59fcb34b0f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753354",
-    "pregunta": "Korea Open: Emerson Jones vs Yexin Ma",
-    "ts": "2026-09-22T01:14:15.392794",
+    "id": "4746439",
+    "pregunta": "Will the highest temperature in Qingdao be 30\u00b0C on September 22?",
+    "ts": "2026-09-22T01:25:19.660443",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0x11b71f2c8fef27a3e7174cd9b89a6a59fcb34b0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746295",
+    "pregunta": "Will the highest temperature in Beijing be 30\u00b0C on September 22?",
+    "ts": "2026-09-22T01:25:20.760666",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11b71f2c8fef27a3e7174cd9b89a6a59fcb34b0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4603112",
+    "pregunta": "Will \"Primetime\" Opening Weekend Box Office be at least 22m?",
+    "ts": "2026-09-22T01:25:21.889787",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11b71f2c8fef27a3e7174cd9b89a6a59fcb34b0f",
     "whale_signal": "COMPRAR NO"
   }
 ]
