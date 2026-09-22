@@ -1,42 +1,106 @@
 [
   {
-    "id": "4727252",
-    "pregunta": "Singapore Open: Tatiana Prozorova vs Sofia Costoulas",
-    "ts": "2026-09-22T03:22:59.096100",
+    "id": "4824235",
+    "pregunta": "Map Handicap: ARC (-1.5) vs Fruju (+1.5)",
+    "ts": "2026-09-22T03:35:19.856757",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xe2dcc25c3ee0127b7f0f6501d2950f2f47a9282c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4721029",
-    "pregunta": "Korea Open: Tamara Zidansek vs Kimberly Birrell",
-    "ts": "2026-09-22T03:23:00.865877",
+    "id": "4809473",
+    "pregunta": "M25 Pardubice: Matyas Cerny vs Filip Jeff Planinsek",
+    "ts": "2026-09-22T03:35:20.942891",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0xe2dcc25c3ee0127b7f0f6501d2950f2f47a9282c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4788095",
-    "pregunta": "Chengdu Open, Qualification: Shintaro Mochizuki vs Linang Xiao",
-    "ts": "2026-09-22T03:23:01.907224",
+    "id": "4740790",
+    "pregunta": "Plovdiv 4: Carlos Taberner vs Petr Nesterov",
+    "ts": "2026-09-22T03:35:21.997317",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0xe2dcc25c3ee0127b7f0f6501d2950f2f47a9282c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4797685",
-    "pregunta": "Ankara: Elena Pridankina vs Daria Egorova",
-    "ts": "2026-09-22T03:23:02.945089",
+    "id": "4811513",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-09-22T03:35:23.057065",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0xe2dcc25c3ee0127b7f0f6501d2950f2f47a9282c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4811374",
-    "pregunta": "Dota 2: Conventus Stellarum vs Yakult Brothers - Game 2 Winner",
-    "ts": "2026-09-22T03:23:04.724637",
+    "id": "4731586",
+    "pregunta": "Counter-Strike: Saint Sinners vs KUUSAMO.gg - Map 2 Winner",
+    "ts": "2026-09-22T03:35:24.112233",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf9021f4aa0cec3059a6b1da1083a68c9dc5fa267",
+    "whale_wallet": "0xe2dcc25c3ee0127b7f0f6501d2950f2f47a9282c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4793289",
+    "pregunta": "Will the highest temperature in Mexico City be 24\u00b0C on September 23?",
+    "ts": "2026-09-22T03:35:26.097230",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784503",
+    "pregunta": "Will the highest temperature in Miami be between 88-89\u00b0F on September 23?",
+    "ts": "2026-09-22T03:35:27.177114",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4830027",
+    "pregunta": "Will the highest temperature in Singapore be 33\u00b0C on September 24?",
+    "ts": "2026-09-22T03:35:28.380272",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784468",
+    "pregunta": "Will the highest temperature in New York City be between 66-67\u00b0F on September 23?",
+    "ts": "2026-09-22T03:35:29.452203",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4809547",
+    "pregunta": "M25 Setubal: Alec Deckers vs Alberto Barroso Campos",
+    "ts": "2026-09-22T03:35:31.347873",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8e32d575b8d360f90bcc95596e9a0bee444aaf2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4809591",
+    "pregunta": "M25 Falun: Michael Minasyan vs Melvin Kumar",
+    "ts": "2026-09-22T03:35:32.539152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8e32d575b8d360f90bcc95596e9a0bee444aaf2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4812783",
+    "pregunta": "W15 Monastir: Eliz Maloney vs Ada Kumru",
+    "ts": "2026-09-22T03:35:33.718452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8e32d575b8d360f90bcc95596e9a0bee444aaf2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4809606",
+    "pregunta": "M25 Falun: Noah Karma vs Jack Karlsson Wistrand",
+    "ts": "2026-09-22T03:35:34.862940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8e32d575b8d360f90bcc95596e9a0bee444aaf2",
     "whale_signal": "COMPRAR NO"
   }
 ]
