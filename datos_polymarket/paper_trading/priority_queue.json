@@ -1,10 +1,106 @@
 [
   {
-    "id": "4727682",
-    "pregunta": "Set 1 Winner: Maria Sakkari vs Linda Fruhvirtova",
-    "ts": "2026-09-22T09:44:48.496687",
+    "id": "4798940",
+    "pregunta": "Plovdiv 4: Sebastian Gima vs Jonas Forejtek",
+    "ts": "2026-09-22T09:53:32.127164",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf63bc80e17233ae79144561e74bb31a0fc8c222c",
+    "whale_wallet": "0x0972d2bebbf1bfbd1df13a7446cabeda45c9dfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4761805",
+    "pregunta": "Tolentino: Aurora Zantedeschi vs Marta Lombardini",
+    "ts": "2026-09-22T09:53:33.328636",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0972d2bebbf1bfbd1df13a7446cabeda45c9dfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824697",
+    "pregunta": "Buenos Aires 2: Tomas Farjat vs Juan Pablo Varillas",
+    "ts": "2026-09-22T09:53:34.400385",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0972d2bebbf1bfbd1df13a7446cabeda45c9dfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746502",
+    "pregunta": "Buenos Aires 2: Matheus Pucinelli de Almeida vs Hugo Dellien",
+    "ts": "2026-09-22T09:53:35.507781",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0972d2bebbf1bfbd1df13a7446cabeda45c9dfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4761793",
+    "pregunta": "Porto: Harmony Tan vs Carol Young Suh Lee",
+    "ts": "2026-09-22T09:53:36.575839",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0972d2bebbf1bfbd1df13a7446cabeda45c9dfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4797683",
+    "pregunta": "Ankara: Marie Vogt vs Elena Ruxandra Bertea",
+    "ts": "2026-09-22T09:53:37.670576",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0972d2bebbf1bfbd1df13a7446cabeda45c9dfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4798936",
+    "pregunta": "Plovdiv 4: Adrian Andreev vs Oleg Prihodko",
+    "ts": "2026-09-22T09:53:38.747170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0972d2bebbf1bfbd1df13a7446cabeda45c9dfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4837970",
+    "pregunta": "Counter-Strike: Heroic vs BBL (BO3) - Stake Pulse Beat II Group B",
+    "ts": "2026-09-22T09:53:40.835175",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6628d459a1ba4f231513f27232415af529a005ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4811558",
+    "pregunta": "Dota 2: LGD Gaming vs Aurora (BO3) - PGL Wallachia Group Stage",
+    "ts": "2026-09-22T09:53:41.957114",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6628d459a1ba4f231513f27232415af529a005ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4811554",
+    "pregunta": "Dota 2: LGD Gaming vs Aurora - Game 1 Winner",
+    "ts": "2026-09-22T09:53:43.033426",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6628d459a1ba4f231513f27232415af529a005ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824439",
+    "pregunta": "LoL: SU Esports vs UCAM Esports Club (BO3) - EMEA Masters Group C",
+    "ts": "2026-09-22T09:53:44.147904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6628d459a1ba4f231513f27232415af529a005ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824395",
+    "pregunta": "LoL: Skillcamp Esport vs Lodis (BO3) - EMEA Masters Group A",
+    "ts": "2026-09-22T09:53:45.258066",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6628d459a1ba4f231513f27232415af529a005ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824393",
+    "pregunta": "LoL: Skillcamp Esport vs Lodis - Game 1 Winner",
+    "ts": "2026-09-22T09:53:46.478920",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6628d459a1ba4f231513f27232415af529a005ae",
     "whale_signal": "COMPRAR NO"
   }
 ]
