@@ -1,42 +1,66 @@
 [
   {
-    "id": "1005344",
-    "pregunta": "Puffpaw FDV above $100M one day after launch?",
-    "ts": "2026-09-22T04:03:43.649844",
+    "id": "4798928",
+    "pregunta": "Hangzhou Open, Qualification: Fajing Sun vs Matthew Dellavedova",
+    "ts": "2026-09-22T04:15:18.215060",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe53c335b0de473132c06b4fa6463b721fbdbe569",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1005343",
-    "pregunta": "Puffpaw FDV above $50M one day after launch?",
-    "ts": "2026-09-22T04:03:44.791848",
+    "id": "4809456",
+    "pregunta": "M25 Sabadell: Leonid Sheyngezikht vs David Naharro",
+    "ts": "2026-09-22T04:15:19.344819",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe53c335b0de473132c06b4fa6463b721fbdbe569",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4776883",
-    "pregunta": "LoL: DN SOOPers Challengers vs EDward Gaming Youth Team (BO1) - World Star Challengers Invitational Group A",
-    "ts": "2026-09-22T04:03:47.657906",
+    "id": "4809502",
+    "pregunta": "M15 Monastir: Sven Corbinais vs Vito Dell'elba",
+    "ts": "2026-09-22T04:15:20.492634",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4584877",
-    "pregunta": "Hiroshima Carp vs. Yomiuri Giants",
-    "ts": "2026-09-22T04:03:48.699668",
+    "id": "4793952",
+    "pregunta": "M15 Baku: Karol Filar vs Andrea Bacaloni",
+    "ts": "2026-09-22T04:15:21.628409",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4811464",
-    "pregunta": "Dota 2: Natus Vincere vs 1win (BO3) - PGL Wallachia Group Stage",
-    "ts": "2026-09-22T04:03:50.494469",
+    "id": "4797691",
+    "pregunta": "Tolentino: Lisa Zaar vs Rebeka Masarova",
+    "ts": "2026-09-22T04:15:22.846939",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4812750",
+    "pregunta": "W15 Monastir: Louanne Djafari vs Yuka Matsumoto",
+    "ts": "2026-09-22T04:15:24.138459",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4812751",
+    "pregunta": "W15 Monastir: Barakat Oyinlomo Quadre vs Sarina Schnyder",
+    "ts": "2026-09-22T04:15:25.229940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4809457",
+    "pregunta": "M25 Sabadell: Alejandro Garcia Carbajal vs Alexander Petrov",
+    "ts": "2026-09-22T04:15:26.510948",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   }
 ]
