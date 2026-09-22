@@ -1,42 +1,26 @@
 [
   {
-    "id": "4587013",
-    "pregunta": "Will the price of Bitcoin be above $86,000 on September 22?",
-    "ts": "2026-09-22T03:43:41.808537",
+    "id": "4731585",
+    "pregunta": "Counter-Strike: Saint Sinners vs KUUSAMO.gg - Map 1 Winner",
+    "ts": "2026-09-22T03:53:45.136124",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4781356",
-    "pregunta": "Will Bitcoin dip to $80,000 September 21-27?",
-    "ts": "2026-09-22T03:43:42.849862",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4781348",
-    "pregunta": "Will Bitcoin reach $90,000 September 21-27?",
-    "ts": "2026-09-22T03:43:43.896276",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4811374",
     "pregunta": "Dota 2: Conventus Stellarum vs Yakult Brothers - Game 2 Winner",
-    "ts": "2026-09-22T03:43:45.741384",
+    "ts": "2026-09-22T03:53:46.813114",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782425",
-    "pregunta": "Will the highest temperature in Qingdao be 31\u00b0C or higher on September 23?",
-    "ts": "2026-09-22T03:43:46.875164",
+    "id": "4608830",
+    "pregunta": "Brisbane Bullets vs. New Zealand Breakers",
+    "ts": "2026-09-22T03:53:47.866198",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
