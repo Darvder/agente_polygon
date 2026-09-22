@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "4839294",
+    "pregunta": "M25 Setubal: Joao Dinis Silva vs Philip Henning",
+    "ts": "2026-09-22T17:04:12.632513",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788109",
+    "pregunta": "Counter-Strike: Procyon Gaming vs ALKA - Map 1 Winner",
+    "ts": "2026-09-22T17:04:13.715835",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466470",
+    "pregunta": "Will Azerbaijan win on 2026-09-23?",
+    "ts": "2026-09-22T17:04:14.917691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4852995",
+    "pregunta": "M15 Monastir: Mert Naci Turker vs Paul Colin",
+    "ts": "2026-09-22T17:04:16.120418",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824706",
+    "pregunta": "Counter-Strike: Low Cortisol vs Yawara Esports - Map 1 Winner",
+    "ts": "2026-09-22T17:04:17.288923",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4854029",
+    "pregunta": "W50 Plovdiv: Miriam Bianca Bulgaru vs Loes Ebeling Koning",
+    "ts": "2026-09-22T17:04:18.475043",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788119",
+    "pregunta": "Counter-Strike: Turma do Pagode vs MEIA NOITE - Map 1 Winner",
+    "ts": "2026-09-22T17:04:20.404489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
