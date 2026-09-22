@@ -1,10 +1,50 @@
 [
   {
-    "id": "4711201",
-    "pregunta": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $130 Week of September 21 2026?",
-    "ts": "2026-09-22T01:53:57.547396",
+    "id": "4753354",
+    "pregunta": "Korea Open: Emerson Jones vs Yexin Ma",
+    "ts": "2026-09-22T02:03:44.642440",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7cd3797c5327455e0999d1e8ced1633f300596c8",
+    "whale_wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784693",
+    "pregunta": "W15 Maanshan: Wanbing Wang vs Sitong Chen",
+    "ts": "2026-09-22T02:03:47.613678",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x870a742f10c5d80433825e8e90fe4e00ae9b6c6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788107",
+    "pregunta": "Chengdu Open, Qualification: Alexandre Muller vs Luka Pavlovic",
+    "ts": "2026-09-22T02:03:48.690895",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x870a742f10c5d80433825e8e90fe4e00ae9b6c6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788117",
+    "pregunta": "Chengdu Open, Qualification: Petr Bar Biryukov vs Andre Ilagan",
+    "ts": "2026-09-22T02:03:49.755941",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x870a742f10c5d80433825e8e90fe4e00ae9b6c6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4826104",
+    "pregunta": "Game Spread: Bernard Tomic (-4.5) vs Rigele Te (+4.5)",
+    "ts": "2026-09-22T02:03:50.847903",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x870a742f10c5d80433825e8e90fe4e00ae9b6c6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4794045",
+    "pregunta": "W50 Nanao: Nana Onozawa vs Sae Noguchi",
+    "ts": "2026-09-22T02:03:51.912183",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x870a742f10c5d80433825e8e90fe4e00ae9b6c6e",
     "whale_signal": "COMPRAR NO"
   }
 ]
