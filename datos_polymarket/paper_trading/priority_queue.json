@@ -1,10 +1,18 @@
 [
   {
-    "id": "4824481",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports - Game 1 Winner",
-    "ts": "2026-09-22T13:35:29.596930",
+    "id": "4400880",
+    "pregunta": "Spread: Real Madrid CF Femenino (-1.5)",
+    "ts": "2026-09-22T13:44:08.552649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3f05fb6a1b184ce0f20a2843f6dac1fd2e45a9b9",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400891",
+    "pregunta": "Real Madrid CF Femenino vs. Paris Saint-Germain FC: Both Teams to Score",
+    "ts": "2026-09-22T13:44:09.655726",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
