@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4384846",
+    "pregunta": "Will FC Internazionale Milano win on 2026-09-22?",
+    "ts": "2026-09-22T13:14:46.946542",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4564961",
+    "pregunta": "Will FC Bayern M\u00fcnchen win on 2026-09-22?",
+    "ts": "2026-09-22T13:14:48.002109",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400991",
+    "pregunta": "FC Internazionale Milano vs. BK H\u00e4cken FF: O/U 2.5",
+    "ts": "2026-09-22T13:14:49.159629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
