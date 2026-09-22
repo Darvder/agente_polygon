@@ -1,18 +1,34 @@
 [
   {
-    "id": "4756414",
-    "pregunta": "Will the highest temperature in Los Angeles be between 74-75\u00b0F on September 22?",
-    "ts": "2026-09-22T08:02:51.271246",
+    "id": "4777335",
+    "pregunta": "Counter-Strike: INOX Division vs BakS eSports (BO3) - NODWIN Clutch Series Group Stage",
+    "ts": "2026-09-22T08:13:26.684385",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4748522",
-    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on September 22?",
-    "ts": "2026-09-22T08:02:52.406302",
+    "id": "4788224",
+    "pregunta": "Counter-Strike: Just Players vs ENCE (BO3) - CCT Europe Series #9 Group Stage",
+    "ts": "2026-09-22T08:13:27.726670",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788223",
+    "pregunta": "Counter-Strike: Just Players vs ENCE - Map 2 Winner",
+    "ts": "2026-09-22T08:13:28.945705",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824373",
+    "pregunta": "Counter-Strike: Rare Atom vs Legion - Map 1 Winner",
+    "ts": "2026-09-22T08:13:30.023364",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   }
 ]
