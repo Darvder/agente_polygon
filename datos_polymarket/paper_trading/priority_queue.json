@@ -1,10 +1,26 @@
 [
   {
-    "id": "2243897",
-    "pregunta": "Russia x Ukraine ceasefire agreement by December 31, 2026?",
-    "ts": "2026-09-22T01:03:35.486604",
+    "id": "4798932",
+    "pregunta": "Hangzhou Open, Qualification: Arthur Weber vs Hayato Matsuoka",
+    "ts": "2026-09-22T01:14:13.309288",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d8821cdfddb202b352649ab0eb339660e42eab3",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788117",
+    "pregunta": "Chengdu Open, Qualification: Petr Bar Biryukov vs Andre Ilagan",
+    "ts": "2026-09-22T01:14:14.353223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753354",
+    "pregunta": "Korea Open: Emerson Jones vs Yexin Ma",
+    "ts": "2026-09-22T01:14:15.392794",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   }
 ]
