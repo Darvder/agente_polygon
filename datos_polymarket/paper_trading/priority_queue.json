@@ -1,42 +1,34 @@
 [
   {
-    "id": "4824118",
-    "pregunta": "Counter-Strike: EAC Extra vs OldMix (BO3) - United21 Playoffs",
-    "ts": "2026-09-22T06:13:24.574597",
+    "id": "4811464",
+    "pregunta": "Dota 2: Natus Vincere vs 1win (BO3) - PGL Wallachia Group Stage",
+    "ts": "2026-09-22T06:23:45.138953",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4788222",
-    "pregunta": "Counter-Strike: Just Players vs ENCE - Map 1 Winner",
-    "ts": "2026-09-22T06:13:25.649660",
+    "id": "4776904",
+    "pregunta": "LoL: EDward Gaming Youth Team vs T1 Academy (BO1) - World Star Challengers Invitational Group A",
+    "ts": "2026-09-22T06:23:46.197585",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4794121",
-    "pregunta": "Counter-Strike: Rune Eaters vs Bushido Wildcats - Map 1 Winner",
-    "ts": "2026-09-22T06:13:26.693933",
+    "id": "4811462",
+    "pregunta": "Dota 2: Natus Vincere vs 1win - Game 1 Winner",
+    "ts": "2026-09-22T06:23:48.217397",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x154ca10dfee317dcfb9337788db7da858cba658e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4794125",
-    "pregunta": "Counter-Strike: Rune Eaters vs Bushido Wildcats (BO3) - European Pro League Series 9 Playoffs",
-    "ts": "2026-09-22T06:13:29.287541",
+    "id": "4824178",
+    "pregunta": "Dota 2: Zero Tenacity vs Team Lynx - Game 2 Winner",
+    "ts": "2026-09-22T06:23:49.275481",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4788224",
-    "pregunta": "Counter-Strike: Just Players vs ENCE (BO3) - CCT Europe Series #9 Group Stage",
-    "ts": "2026-09-22T06:13:30.341986",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_wallet": "0x154ca10dfee317dcfb9337788db7da858cba658e",
     "whale_signal": "COMPRAR NO"
   }
 ]
