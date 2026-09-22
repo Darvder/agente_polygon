@@ -1,82 +1,26 @@
 [
   {
-    "id": "4748522",
-    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on September 22?",
-    "ts": "2026-09-22T10:23:53.476054",
+    "id": "4788910",
+    "pregunta": "WTI Crude Oil (WTI) closes above $92 on September 22?",
+    "ts": "2026-09-22T10:36:25.368668",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4749409",
-    "pregunta": "Will the highest temperature in Houston be between 96-97\u00b0F on September 22?",
-    "ts": "2026-09-22T10:23:54.546786",
+    "id": "4740812",
+    "pregunta": "St. Tropez: Nicolai Budkov Kjaer vs Billy Harris",
+    "ts": "2026-09-22T10:36:27.954434",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4788788",
-    "pregunta": "Will the highest temperature in Los Angeles be between 78-79\u00b0F on September 23?",
-    "ts": "2026-09-22T10:23:56.451750",
+    "id": "4746502",
+    "pregunta": "Buenos Aires 2: Matheus Pucinelli de Almeida vs Hugo Dellien",
+    "ts": "2026-09-22T10:36:29.019165",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4784470",
-    "pregunta": "Will the highest temperature in New York City be between 70-71\u00b0F on September 23?",
-    "ts": "2026-09-22T10:23:57.536445",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4756424",
-    "pregunta": "Will the highest temperature in San Francisco be between 68-69\u00b0F on September 22?",
-    "ts": "2026-09-22T10:23:58.685106",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4749397",
-    "pregunta": "Will the highest temperature in Austin be between 94-95\u00b0F on September 22?",
-    "ts": "2026-09-22T10:23:59.749027",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3664775",
-    "pregunta": "Patriots vs. Jaguars",
-    "ts": "2026-09-22T10:24:01.722806",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3664793",
-    "pregunta": "Bengals vs. Steelers",
-    "ts": "2026-09-22T10:24:02.939277",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4802860",
-    "pregunta": "Texas vs. Tennessee: O/U 55.5",
-    "ts": "2026-09-22T10:24:04.100181",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2335296",
-    "pregunta": "Tampa Bay Rays vs. New York Yankees: O/U 8.5",
-    "ts": "2026-09-22T10:24:05.157980",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
     "whale_signal": "COMPRAR NO"
   }
 ]
