@@ -1,10 +1,26 @@
 [
   {
-    "id": "4577996",
-    "pregunta": "FC Bayern M\u00fcnchen vs. Manchester City WFC: O/U 3.5",
-    "ts": "2026-09-22T10:46:14.398077",
+    "id": "4766373",
+    "pregunta": "Will Worksop Town FC win on 2026-09-22?",
+    "ts": "2026-09-22T10:54:07.357952",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4837301",
+    "pregunta": "St. Tropez: Harold Mayot vs Justin Boulais",
+    "ts": "2026-09-22T10:54:08.404410",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4799031",
+    "pregunta": "Genoa 2: Giuseppe La Vela vs Giovanni Oradini",
+    "ts": "2026-09-22T10:54:09.468693",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
