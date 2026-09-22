@@ -1,50 +1,42 @@
 [
   {
-    "id": "4405241",
-    "pregunta": "Exact Score: HHC Hardenberg 1 - 1 BVV Barendrecht?",
-    "ts": "2026-09-22T14:33:56.494042",
+    "id": "4761815",
+    "pregunta": "Tolentino: Jennifer Ruggeri vs Julia Grabher",
+    "ts": "2026-09-22T14:45:40.784641",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4405279",
-    "pregunta": "Exact Score: Sportlust '46 1 - 2 Excelsior Maassluis?",
-    "ts": "2026-09-22T14:33:57.589402",
+    "id": "4830285",
+    "pregunta": "San Diego 2: Evan Zhu vs Henry Searle",
+    "ts": "2026-09-22T14:45:41.902155",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824483",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports (BO3) - EMEA Masters Group A",
-    "ts": "2026-09-22T14:34:00.511809",
+    "id": "4400891",
+    "pregunta": "Real Madrid CF Femenino vs. Paris Saint-Germain FC: Both Teams to Score",
+    "ts": "2026-09-22T14:45:43.001652",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4841561",
-    "pregunta": "Counter-Strike: LPH Gaming vs WBT Academy (BO3) - ESL Challenger League Europe Cup #7 Group C",
-    "ts": "2026-09-22T14:34:01.593360",
+    "id": "4384852",
+    "pregunta": "Will Sport Lisboa e Benfica win on 2026-09-22?",
+    "ts": "2026-09-22T14:45:44.075767",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4823862",
-    "pregunta": "Dota 2: Team Synapse vs Kalmychata (BO3) - European Pro League Playoffs",
-    "ts": "2026-09-22T14:34:02.977612",
+    "id": "4384854",
+    "pregunta": "Will Arsenal WFC win on 2026-09-22?",
+    "ts": "2026-09-22T14:45:46.030658",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4777350",
-    "pregunta": "Counter-Strike: UPGRADE vs Just Players - Map 2 Winner",
-    "ts": "2026-09-22T14:34:04.078377",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
