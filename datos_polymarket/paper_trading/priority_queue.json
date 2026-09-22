@@ -1,26 +1,10 @@
 [
   {
-    "id": "4801063",
-    "pregunta": "Will the next Claude Opus model be released by September 22, 2026?",
-    "ts": "2026-09-21T19:44:40.638937",
+    "id": "4746199",
+    "pregunta": "Will the highest temperature in Hong Kong be 30\u00b0C on September 22?",
+    "ts": "2026-09-21T19:54:21.533325",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfc1f2cdad82b15b8191b9985dd1ac70441bca246",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4801476",
-    "pregunta": "Will the next Claude Opus model be released by September 23, 2026?",
-    "ts": "2026-09-21T19:44:41.744081",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfc1f2cdad82b15b8191b9985dd1ac70441bca246",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4658720",
-    "pregunta": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his remarks at the United Nations General Assembly?",
-    "ts": "2026-09-21T19:44:43.661406",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0b0fca03617cf1b1d442c45852e34db991fc8cd9",
+    "whale_wallet": "0x8a25f9c7d093089c808f514b161a1e40be44ba81",
     "whale_signal": "COMPRAR NO"
   }
 ]
