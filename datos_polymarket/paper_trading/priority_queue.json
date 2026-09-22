@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4824232",
+    "pregunta": "Counter-Strike: Fruju vs Arcade Esports - Map 2 Winner",
+    "ts": "2026-09-22T06:04:11.047649",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1df3f772700b970aab865c893cf07e4e0b899ac3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4794121",
+    "pregunta": "Counter-Strike: Rune Eaters vs Bushido Wildcats - Map 1 Winner",
+    "ts": "2026-09-22T06:04:12.088534",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1df3f772700b970aab865c893cf07e4e0b899ac3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4811515",
+    "pregunta": "Game Handicap: MOUZ (-1.5) vs Hokori (+1.5)",
+    "ts": "2026-09-22T06:04:13.930275",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa750f5b7dafe7ffc9107ecf345b792a1c6c30d0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466856",
+    "pregunta": "Counter-Strike: Virtus.pro vs BBL (BO3) - Stake Pulse Beat II Group B",
+    "ts": "2026-09-22T06:04:15.847063",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26dc061ed85d9cb6e6285502a7fca03f2405d6a1",
+    "whale_signal": "COMPRAR NO"
+  }
+]
