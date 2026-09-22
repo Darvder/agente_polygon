@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "4797685",
+    "pregunta": "Ankara: Elena Pridankina vs Daria Egorova",
+    "ts": "2026-09-22T06:52:59.845126",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4740796",
+    "pregunta": "Plovdiv 4: Maxime Chazal vs Joel Schwaerzler",
+    "ts": "2026-09-22T06:53:00.920824",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721021",
+    "pregunta": "Korea Open: Alina Charaeva vs Sofia Kenin",
+    "ts": "2026-09-22T06:53:02.023674",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4811423",
+    "pregunta": "Dota 2:  Pipsqueak+4 vs Team Cobra (BO3) - PGL Wallachia Group Stage",
+    "ts": "2026-09-22T06:53:03.883947",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4811463",
+    "pregunta": "Dota 2: Natus Vincere vs 1win - Game 2 Winner",
+    "ts": "2026-09-22T06:53:04.937932",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749354",
+    "pregunta": "Will the highest temperature in New York City be between 64-65\u00b0F on September 22?",
+    "ts": "2026-09-22T06:53:07.086119",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x962eb33ed55b3fc35bf8b55d0e38658c6a3f1d75",
+    "whale_signal": "COMPRAR NO"
+  }
+]
