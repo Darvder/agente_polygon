@@ -1,10 +1,42 @@
 [
   {
-    "id": "4782127",
-    "pregunta": "Will the highest temperature in Wellington be 11\u00b0C on September 23?",
-    "ts": "2026-09-22T03:15:46.851304",
+    "id": "4727252",
+    "pregunta": "Singapore Open: Tatiana Prozorova vs Sofia Costoulas",
+    "ts": "2026-09-22T03:22:59.096100",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0877bf99e66975af1e0555012286fc7204791f7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721029",
+    "pregunta": "Korea Open: Tamara Zidansek vs Kimberly Birrell",
+    "ts": "2026-09-22T03:23:00.865877",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788095",
+    "pregunta": "Chengdu Open, Qualification: Shintaro Mochizuki vs Linang Xiao",
+    "ts": "2026-09-22T03:23:01.907224",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4797685",
+    "pregunta": "Ankara: Elena Pridankina vs Daria Egorova",
+    "ts": "2026-09-22T03:23:02.945089",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4811374",
+    "pregunta": "Dota 2: Conventus Stellarum vs Yakult Brothers - Game 2 Winner",
+    "ts": "2026-09-22T03:23:04.724637",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9021f4aa0cec3059a6b1da1083a68c9dc5fa267",
     "whale_signal": "COMPRAR NO"
   }
 ]
