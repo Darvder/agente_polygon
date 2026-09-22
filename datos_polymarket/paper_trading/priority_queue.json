@@ -1,58 +1,50 @@
 [
   {
+    "id": "4830199",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on September 24?",
+    "ts": "2026-09-22T08:34:54.577038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782277",
+    "pregunta": "Will the highest temperature in Beijing be 31\u00b0C on September 23?",
+    "ts": "2026-09-22T08:34:55.632625",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784478",
+    "pregunta": "Will the highest temperature in Dallas be between 92-93\u00b0F on September 23?",
+    "ts": "2026-09-22T08:34:56.712031",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4830111",
+    "pregunta": "Will the highest temperature in Wuhan be 31\u00b0C on September 24?",
+    "ts": "2026-09-22T08:34:57.758570",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782256",
+    "pregunta": "Will the highest temperature in Taipei be 32\u00b0C on September 23?",
+    "ts": "2026-09-22T08:34:58.805469",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4753350",
     "pregunta": "Singapore Open: Barbora Krejcikova vs Anna-Lena Friedsam",
-    "ts": "2026-09-22T08:23:09.629300",
+    "ts": "2026-09-22T08:35:02.409629",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740816",
-    "pregunta": "Genoa 2: Stefano Travaglia vs Marvin Moeller",
-    "ts": "2026-09-22T08:23:11.859473",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4798946",
-    "pregunta": "St. Tropez: Titouan Droguet vs Karl Poling",
-    "ts": "2026-09-22T08:23:12.922286",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4798969",
-    "pregunta": "St. Tropez: Moez Echargui vs Daniel Masur",
-    "ts": "2026-09-22T08:23:15.265750",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740796",
-    "pregunta": "Plovdiv 4: Maxime Chazal vs Joel Schwaerzler",
-    "ts": "2026-09-22T08:23:16.362111",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4797695",
-    "pregunta": "Tolentino: Veronika Erjavec vs Katerina Tsygourova",
-    "ts": "2026-09-22T08:23:17.463721",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4761830",
-    "pregunta": "Ankara: Fiona Crawley vs Carole Monnet",
-    "ts": "2026-09-22T08:23:18.586955",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0x592c9f0374ed01fb6ea2acc00ef58ccec71b47d8",
     "whale_signal": "COMPRAR NO"
   }
 ]
