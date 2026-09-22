@@ -1,18 +1,82 @@
 [
   {
-    "id": "4824122",
-    "pregunta": "Counter-Strike: STATE vs KAMUI (BO3) - Exort Fiesta Playoffs",
-    "ts": "2026-09-22T10:13:20.937345",
+    "id": "4748522",
+    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on September 22?",
+    "ts": "2026-09-22T10:23:53.476054",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd5440ea668f64ecf282224ece1f04a7e27bc4994",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824503",
-    "pregunta": "LoL: The Otter Side vs Team Aqua ASD - Game 1 Winner",
-    "ts": "2026-09-22T10:13:22.021638",
+    "id": "4749409",
+    "pregunta": "Will the highest temperature in Houston be between 96-97\u00b0F on September 22?",
+    "ts": "2026-09-22T10:23:54.546786",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd5440ea668f64ecf282224ece1f04a7e27bc4994",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788788",
+    "pregunta": "Will the highest temperature in Los Angeles be between 78-79\u00b0F on September 23?",
+    "ts": "2026-09-22T10:23:56.451750",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784470",
+    "pregunta": "Will the highest temperature in New York City be between 70-71\u00b0F on September 23?",
+    "ts": "2026-09-22T10:23:57.536445",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4756424",
+    "pregunta": "Will the highest temperature in San Francisco be between 68-69\u00b0F on September 22?",
+    "ts": "2026-09-22T10:23:58.685106",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749397",
+    "pregunta": "Will the highest temperature in Austin be between 94-95\u00b0F on September 22?",
+    "ts": "2026-09-22T10:23:59.749027",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664775",
+    "pregunta": "Patriots vs. Jaguars",
+    "ts": "2026-09-22T10:24:01.722806",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664793",
+    "pregunta": "Bengals vs. Steelers",
+    "ts": "2026-09-22T10:24:02.939277",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4802860",
+    "pregunta": "Texas vs. Tennessee: O/U 55.5",
+    "ts": "2026-09-22T10:24:04.100181",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2335296",
+    "pregunta": "Tampa Bay Rays vs. New York Yankees: O/U 8.5",
+    "ts": "2026-09-22T10:24:05.157980",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
     "whale_signal": "COMPRAR NO"
   }
 ]
