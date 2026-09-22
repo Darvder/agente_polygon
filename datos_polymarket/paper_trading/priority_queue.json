@@ -1,26 +1,42 @@
 [
   {
-    "id": "4794334",
-    "pregunta": "LoL: ZSK vs Galions (BO1) - World Star Challengers Invitational Group D",
-    "ts": "2026-09-22T14:54:50.506324",
+    "id": "4823861",
+    "pregunta": "Dota 2: Team Synapse vs Kalmychata - Game 2 Winner",
+    "ts": "2026-09-22T15:03:07.095378",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f9b8fbe124e701adacda697ca40bc048ca0bc2f",
+    "whale_wallet": "0xca75c722a4ec0e43d6b831807ae1e83d1e0705a6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824481",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports - Game 1 Winner",
-    "ts": "2026-09-22T14:54:51.584308",
+    "id": "4824483",
+    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports (BO3) - EMEA Masters Group A",
+    "ts": "2026-09-22T15:03:10.314158",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f9b8fbe124e701adacda697ca40bc048ca0bc2f",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824482",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports - Game 2 Winner",
-    "ts": "2026-09-22T14:54:52.653042",
+    "id": "4830285",
+    "pregunta": "San Diego 2: Evan Zhu vs Henry Searle",
+    "ts": "2026-09-22T15:03:11.374932",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f9b8fbe124e701adacda697ca40bc048ca0bc2f",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400920",
+    "pregunta": "Spread: Arsenal WFC (-2.5)",
+    "ts": "2026-09-22T15:03:13.022450",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746494",
+    "pregunta": "Buenos Aires 2: Lucio Ratti vs Federico Coria",
+    "ts": "2026-09-22T15:03:14.173771",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
