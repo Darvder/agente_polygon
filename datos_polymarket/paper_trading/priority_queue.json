@@ -1,26 +1,42 @@
 [
   {
-    "id": "4731585",
-    "pregunta": "Counter-Strike: Saint Sinners vs KUUSAMO.gg - Map 1 Winner",
-    "ts": "2026-09-22T03:53:45.136124",
+    "id": "1005344",
+    "pregunta": "Puffpaw FDV above $100M one day after launch?",
+    "ts": "2026-09-22T04:03:43.649844",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0xe53c335b0de473132c06b4fa6463b721fbdbe569",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4811374",
-    "pregunta": "Dota 2: Conventus Stellarum vs Yakult Brothers - Game 2 Winner",
-    "ts": "2026-09-22T03:53:46.813114",
+    "id": "1005343",
+    "pregunta": "Puffpaw FDV above $50M one day after launch?",
+    "ts": "2026-09-22T04:03:44.791848",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xe53c335b0de473132c06b4fa6463b721fbdbe569",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4608830",
-    "pregunta": "Brisbane Bullets vs. New Zealand Breakers",
-    "ts": "2026-09-22T03:53:47.866198",
+    "id": "4776883",
+    "pregunta": "LoL: DN SOOPers Challengers vs EDward Gaming Youth Team (BO1) - World Star Challengers Invitational Group A",
+    "ts": "2026-09-22T04:03:47.657906",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4584877",
+    "pregunta": "Hiroshima Carp vs. Yomiuri Giants",
+    "ts": "2026-09-22T04:03:48.699668",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4811464",
+    "pregunta": "Dota 2: Natus Vincere vs 1win (BO3) - PGL Wallachia Group Stage",
+    "ts": "2026-09-22T04:03:50.494469",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
