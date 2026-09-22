@@ -1,26 +1,58 @@
 [
   {
-    "id": "4384846",
-    "pregunta": "Will FC Internazionale Milano win on 2026-09-22?",
-    "ts": "2026-09-22T13:14:46.946542",
+    "id": "3247642",
+    "pregunta": "US x Iran diplomatic meeting by September 30, 2026?",
+    "ts": "2026-09-22T13:27:33.034707",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x4aba0523aa3a023d18dc6eebcdb483e79e0b9e7c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4564961",
-    "pregunta": "Will FC Bayern M\u00fcnchen win on 2026-09-22?",
-    "ts": "2026-09-22T13:14:48.002109",
+    "id": "2646914",
+    "pregunta": "Will no qualifying diplomatic US-Iran meeting occur by September 30, 2026?",
+    "ts": "2026-09-22T13:27:34.114551",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x4aba0523aa3a023d18dc6eebcdb483e79e0b9e7c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4400991",
-    "pregunta": "FC Internazionale Milano vs. BK H\u00e4cken FF: O/U 2.5",
-    "ts": "2026-09-22T13:14:49.159629",
+    "id": "4749172",
+    "pregunta": "Will the lowest temperature in Miami be between 78-79\u00b0F on September 22?",
+    "ts": "2026-09-22T13:27:36.710209",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x5904fcc9e9294260e1403d57b2b8dd248308940f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749378",
+    "pregunta": "Will the highest temperature in Miami be between 88-89\u00b0F on September 22?",
+    "ts": "2026-09-22T13:27:38.563690",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4748522",
+    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on September 22?",
+    "ts": "2026-09-22T13:27:39.613205",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4748521",
+    "pregunta": "Will the highest temperature in Atlanta be between 86-87\u00b0F on September 22?",
+    "ts": "2026-09-22T13:27:40.670868",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749409",
+    "pregunta": "Will the highest temperature in Houston be between 96-97\u00b0F on September 22?",
+    "ts": "2026-09-22T13:27:41.765108",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
