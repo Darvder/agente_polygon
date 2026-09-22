@@ -1,34 +1,10 @@
 [
   {
-    "id": "4721007",
-    "pregunta": "Korea Open: Jelena Ostapenko vs Anastasia Zakharova",
-    "ts": "2026-09-22T03:04:00.465227",
+    "id": "4782127",
+    "pregunta": "Will the highest temperature in Wellington be 11\u00b0C on September 23?",
+    "ts": "2026-09-22T03:15:46.851304",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09a7987daa6b37e117f2cfef385f51789667ba39",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4798926",
-    "pregunta": "Hangzhou Open, Qualification: Bernard Tomic vs Rigele Te",
-    "ts": "2026-09-22T03:04:01.614930",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x09a7987daa6b37e117f2cfef385f51789667ba39",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4749409",
-    "pregunta": "Will the highest temperature in Houston be between 96-97\u00b0F on September 22?",
-    "ts": "2026-09-22T03:04:03.726436",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4749354",
-    "pregunta": "Will the highest temperature in New York City be between 64-65\u00b0F on September 22?",
-    "ts": "2026-09-22T03:04:04.863407",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_wallet": "0xa0877bf99e66975af1e0555012286fc7204791f7",
     "whale_signal": "COMPRAR NO"
   }
 ]
