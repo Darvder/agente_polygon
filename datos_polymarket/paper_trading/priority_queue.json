@@ -1,34 +1,10 @@
 [
   {
-    "id": "4838037",
-    "pregunta": "Will the highest temperature in Los Angeles be between 78-79\u00b0F on September 24?",
-    "ts": "2026-09-22T17:14:25.122067",
+    "id": "4749172",
+    "pregunta": "Will the lowest temperature in Miami be between 78-79\u00b0F on September 22?",
+    "ts": "2026-09-22T17:24:57.374785",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4830133",
-    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on September 24?",
-    "ts": "2026-09-22T17:14:26.223157",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4838656",
-    "pregunta": "Will the highest temperature in Toronto be 19\u00b0C on September 24?",
-    "ts": "2026-09-22T17:14:27.403194",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4825872",
-    "pregunta": "Dota 2: YBN Team vs Stray Team (BO3) - BetBoom Streamers Battle Group B",
-    "ts": "2026-09-22T17:14:30.253571",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x93ef3fca8816946cb9a43b49fcfd66d7668d6dda",
+    "whale_wallet": "0xfdb8067f4483c5641bcf3251710fefa177888c23",
     "whale_signal": "COMPRAR NO"
   }
 ]
