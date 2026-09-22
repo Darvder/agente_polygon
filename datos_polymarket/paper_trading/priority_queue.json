@@ -1,10 +1,42 @@
 [
   {
-    "id": "4784570",
-    "pregunta": "M25 Yinchuan: Zijiang Yang vs Jilong Huang",
-    "ts": "2026-09-21T23:45:32.936796",
+    "id": "4182985",
+    "pregunta": "Will Levante UD win on 2026-09-16?",
+    "ts": "2026-09-21T23:53:43.949696",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0xe92a6ee4879ef26b528724ed4dc33967298ea51c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721019",
+    "pregunta": "Korea Open: Anna Bondar vs Renata Zarazua",
+    "ts": "2026-09-21T23:53:44.993254",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe92a6ee4879ef26b528724ed4dc33967298ea51c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788117",
+    "pregunta": "Chengdu Open, Qualification: Petr Bar Biryukov vs Andre Ilagan",
+    "ts": "2026-09-21T23:53:46.036709",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe92a6ee4879ef26b528724ed4dc33967298ea51c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721009",
+    "pregunta": "Korea Open: Taylah Preston vs Himeno Sakatsume",
+    "ts": "2026-09-21T23:53:47.080517",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe92a6ee4879ef26b528724ed4dc33967298ea51c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4489700",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-21T23:53:48.980160",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfbcbd30ee172d6750364c117d989c4c049eebb5d",
     "whale_signal": "COMPRAR NO"
   }
 ]
