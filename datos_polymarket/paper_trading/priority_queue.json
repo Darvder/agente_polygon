@@ -1,10 +1,18 @@
 [
   {
-    "id": "4489700",
-    "pregunta": "Will Elon Musk post 200-219 tweets from September 15 to September 22, 2026?",
-    "ts": "2026-09-22T11:35:08.985582",
+    "id": "4384858",
+    "pregunta": "Will Real Madrid CF Femenino win on 2026-09-22?",
+    "ts": "2026-09-22T11:43:38.432449",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6864204009ba1e137989983eafee8644cb3f294b",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4578008",
+    "pregunta": "FC Bayern M\u00fcnchen vs. Manchester City WFC: Both Teams to Score",
+    "ts": "2026-09-22T11:43:39.520475",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
