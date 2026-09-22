@@ -1,18 +1,26 @@
 [
   {
-    "id": "4776897",
-    "pregunta": "LoL: \u2060Movistar KOI F\u00e9nix vs CTBC Flying Oyster Academy (BO1) - World Star Challengers Invitational Group B",
-    "ts": "2026-09-22T02:45:49.990266",
+    "id": "4809439",
+    "pregunta": "M25 Sharm ElSheikh: Gabriele Thomas Brancatelli vs Darsh Sachin Patel",
+    "ts": "2026-09-22T02:53:02.626726",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3f05fb6a1b184ce0f20a2843f6dac1fd2e45a9b9",
+    "whale_wallet": "0x5bfe9469c7c4035325024c846bc530c9d29e3258",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4776883",
-    "pregunta": "LoL: DN SOOPers Challengers vs EDward Gaming Youth Team (BO1) - World Star Challengers Invitational Group A",
-    "ts": "2026-09-22T02:45:51.239010",
+    "id": "4826628",
+    "pregunta": "India Tour of Japan T20s: Japan vs India",
+    "ts": "2026-09-22T02:53:04.340959",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3f05fb6a1b184ce0f20a2843f6dac1fd2e45a9b9",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727252",
+    "pregunta": "Singapore Open: Tatiana Prozorova vs Sofia Costoulas",
+    "ts": "2026-09-22T02:53:05.390439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
