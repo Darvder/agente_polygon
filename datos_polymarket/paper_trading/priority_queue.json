@@ -1,10 +1,26 @@
 [
   {
-    "id": "4358152",
-    "pregunta": "Dallas Wings vs. Phoenix Mercury",
-    "ts": "2026-09-21T23:26:42.132175",
+    "id": "4798922",
+    "pregunta": "Hangzhou Open, Qualification: Alex Bolt vs Omar Jasika",
+    "ts": "2026-09-21T23:34:21.970071",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4784563",
+    "pregunta": "M25 Yinchuan: Seonyong Han vs Zhe Jiang",
+    "ts": "2026-09-21T23:34:23.017666",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4806540",
+    "pregunta": "Spread: Florida (-3.5)",
+    "ts": "2026-09-21T23:34:24.952358",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
