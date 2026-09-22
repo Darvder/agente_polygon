@@ -1,26 +1,10 @@
 [
   {
-    "id": "4788910",
-    "pregunta": "WTI Crude Oil (WTI) closes above $92 on September 22?",
-    "ts": "2026-09-22T10:36:25.368668",
+    "id": "4577996",
+    "pregunta": "FC Bayern M\u00fcnchen vs. Manchester City WFC: O/U 3.5",
+    "ts": "2026-09-22T10:46:14.398077",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740812",
-    "pregunta": "St. Tropez: Nicolai Budkov Kjaer vs Billy Harris",
-    "ts": "2026-09-22T10:36:27.954434",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4746502",
-    "pregunta": "Buenos Aires 2: Matheus Pucinelli de Almeida vs Hugo Dellien",
-    "ts": "2026-09-22T10:36:29.019165",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
