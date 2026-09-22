@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "4746122",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 27\u00b0C on September 22?",
+    "ts": "2026-09-21T19:23:06.956446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83248be0437cd64f066280e1fe92430a2e5a64f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782366",
+    "pregunta": "Will the highest temperature in Helsinki be 13\u00b0C on September 23?",
+    "ts": "2026-09-21T19:23:08.044064",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83248be0437cd64f066280e1fe92430a2e5a64f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4788780",
+    "pregunta": "Will the highest temperature in Seattle be between 68-69\u00b0F on September 23?",
+    "ts": "2026-09-21T19:23:09.316582",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83248be0437cd64f066280e1fe92430a2e5a64f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746304",
+    "pregunta": "Will the highest temperature in Wuhan be 24\u00b0C on September 22?",
+    "ts": "2026-09-21T19:23:10.427986",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83248be0437cd64f066280e1fe92430a2e5a64f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782367",
+    "pregunta": "Will the highest temperature in Helsinki be 14\u00b0C on September 23?",
+    "ts": "2026-09-21T19:23:11.524633",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83248be0437cd64f066280e1fe92430a2e5a64f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4489700",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-21T19:23:13.545564",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfbcbd30ee172d6750364c117d989c4c049eebb5d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
