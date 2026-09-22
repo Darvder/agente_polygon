@@ -1,32 +1,8 @@
 [
   {
-    "id": "4823861",
-    "pregunta": "Dota 2: Team Synapse vs Kalmychata - Game 2 Winner",
-    "ts": "2026-09-22T15:03:07.095378",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xca75c722a4ec0e43d6b831807ae1e83d1e0705a6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4824483",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports (BO3) - EMEA Masters Group A",
-    "ts": "2026-09-22T15:03:10.314158",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4830285",
-    "pregunta": "San Diego 2: Evan Zhu vs Henry Searle",
-    "ts": "2026-09-22T15:03:11.374932",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4400920",
-    "pregunta": "Spread: Arsenal WFC (-2.5)",
-    "ts": "2026-09-22T15:03:13.022450",
+    "id": "4400959",
+    "pregunta": "Juventus FC vs. Sport Lisboa e Benfica: O/U 3.5",
+    "ts": "2026-09-22T15:13:37.400417",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
@@ -34,9 +10,49 @@
   {
     "id": "4746494",
     "pregunta": "Buenos Aires 2: Lucio Ratti vs Federico Coria",
-    "ts": "2026-09-22T15:03:14.173771",
+    "ts": "2026-09-22T15:13:38.488000",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824481",
+    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports - Game 1 Winner",
+    "ts": "2026-09-22T15:13:41.873502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4783749",
+    "pregunta": "Counter-Strike: MIBR fe vs QUINTESS\u00caNCIA - Map 1 Winner",
+    "ts": "2026-09-22T15:13:42.951283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824482",
+    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports - Game 2 Winner",
+    "ts": "2026-09-22T15:13:44.045709",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824483",
+    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports (BO3) - EMEA Masters Group A",
+    "ts": "2026-09-22T15:13:45.137770",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4783750",
+    "pregunta": "Counter-Strike: MIBR fe vs QUINTESS\u00caNCIA - Map 2 Winner",
+    "ts": "2026-09-22T15:13:46.233639",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
     "whale_signal": "COMPRAR NO"
   }
 ]
