@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "4384850",
+    "pregunta": "Will Juventus FC win on 2026-09-22?",
+    "ts": "2026-09-22T14:15:27.098094",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4400880",
+    "pregunta": "Spread: Real Madrid CF Femenino (-1.5)",
+    "ts": "2026-09-22T14:15:28.212727",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4433320",
+    "pregunta": "ACV vs. VV Hoogeveen: O/U 3.5",
+    "ts": "2026-09-22T14:15:29.285288",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4740823",
+    "pregunta": "Genoa 2: Matthew William Donald vs Gianluca Cadenasso",
+    "ts": "2026-09-22T14:15:30.398825",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4433352",
+    "pregunta": "Koninklijke HFC vs. VV DOVO: O/U 2.5",
+    "ts": "2026-09-22T14:15:31.496599",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4384858",
+    "pregunta": "Will Real Madrid CF Femenino win on 2026-09-22?",
+    "ts": "2026-09-22T14:15:35.256391",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0777e097e5da8474d42c688dccbf104578892d5b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
