@@ -1,58 +1,26 @@
 [
   {
-    "id": "4400959",
-    "pregunta": "Juventus FC vs. Sport Lisboa e Benfica: O/U 3.5",
-    "ts": "2026-09-22T15:13:37.400417",
+    "id": "2365031",
+    "pregunta": "Trump meets with Putin by December 31?",
+    "ts": "2026-09-22T15:25:11.755121",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x1946e97c0fbcbf687144f626513df2dee39a6367",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4746494",
-    "pregunta": "Buenos Aires 2: Lucio Ratti vs Federico Coria",
-    "ts": "2026-09-22T15:13:38.488000",
+    "id": "2849424",
+    "pregunta": "Will Strait of Hormuz traffic not return to normal in 2026?",
+    "ts": "2026-09-22T15:25:12.831289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x1946e97c0fbcbf687144f626513df2dee39a6367",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824481",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports - Game 1 Winner",
-    "ts": "2026-09-22T15:13:41.873502",
+    "id": "665513",
+    "pregunta": "Friedrich Merz out as Chancellor of Germany before December 31, 2026?",
+    "ts": "2026-09-22T15:25:15.482737",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4783749",
-    "pregunta": "Counter-Strike: MIBR fe vs QUINTESS\u00caNCIA - Map 1 Winner",
-    "ts": "2026-09-22T15:13:42.951283",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4824482",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports - Game 2 Winner",
-    "ts": "2026-09-22T15:13:44.045709",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4824483",
-    "pregunta": "LoL: Arctic Pandas vs Pyramid IV Esports (BO3) - EMEA Masters Group A",
-    "ts": "2026-09-22T15:13:45.137770",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4783750",
-    "pregunta": "Counter-Strike: MIBR fe vs QUINTESS\u00caNCIA - Map 2 Winner",
-    "ts": "2026-09-22T15:13:46.233639",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
+    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
