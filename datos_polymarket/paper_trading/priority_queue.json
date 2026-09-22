@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2412749",
+    "pregunta": "Will Anthropic's market cap be between $2.25T and $2.5T at market close on IPO day?",
+    "ts": "2026-09-21T20:25:02.099732",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8fd0e409b8a0492433b7fe871e873b0b6f7d3c39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2657589",
+    "pregunta": "Will 1 Fed rate hike happen in 2026?",
+    "ts": "2026-09-21T20:25:03.154732",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8fd0e409b8a0492433b7fe871e873b0b6f7d3c39",
+    "whale_signal": "COMPRAR NO"
+  }
+]
