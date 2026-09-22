@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "4052417",
+    "pregunta": "Will Bitcoin reach $90,000 in September?",
+    "ts": "2026-09-22T16:24:22.984323",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6de1c92aabbbaa34e2c0e0ae3b2bf3af4ffb22c3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4052418",
+    "pregunta": "Will Bitcoin reach $87,500 in September?",
+    "ts": "2026-09-22T16:24:24.058591",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6de1c92aabbbaa34e2c0e0ae3b2bf3af4ffb22c3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3247825",
+    "pregunta": "No change in Bank of England\u2019s interest rates after November 2026 meeting?",
+    "ts": "2026-09-22T16:24:26.446059",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x50733d0627e4763d7d7e81a69abc345edf6416a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4469844",
+    "pregunta": "Will Argentina's monthly inflation in September 2026 be between 1.6% and 1.8%?",
+    "ts": "2026-09-22T16:24:27.694987",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x50733d0627e4763d7d7e81a69abc345edf6416a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824012",
+    "pregunta": "Will the US announce a diesel export ban by September 30?",
+    "ts": "2026-09-22T16:24:29.846199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x50733d0627e4763d7d7e81a69abc345edf6416a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4798765",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in September?",
+    "ts": "2026-09-22T16:24:31.172587",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x50733d0627e4763d7d7e81a69abc345edf6416a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613525",
+    "pregunta": "St. Louis Cardinals vs. Pittsburgh Pirates",
+    "ts": "2026-09-22T16:24:33.540446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4378026",
+    "pregunta": "Will Oper\u00e1rio Ferrovi\u00e1rio EC win on 2026-09-21?",
+    "ts": "2026-09-22T16:24:34.621855",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  }
+]
