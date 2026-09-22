@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4489702",
+    "pregunta": "Will Elon Musk post 220-239 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-22T00:33:48.465911",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfbcbd30ee172d6750364c117d989c4c049eebb5d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4489700",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 15 to September 22, 2026?",
+    "ts": "2026-09-22T00:33:49.526290",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfbcbd30ee172d6750364c117d989c4c049eebb5d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727190",
+    "pregunta": "Will Elon Musk post 65-89 tweets from September 21 to September 23, 2026?",
+    "ts": "2026-09-22T00:33:51.495773",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5d2c7a78ce01fe6111a67bddea43bc0b9bf0baf2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721019",
+    "pregunta": "Korea Open: Anna Bondar vs Renata Zarazua",
+    "ts": "2026-09-22T00:33:54.062042",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
