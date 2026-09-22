@@ -1,66 +1,58 @@
 [
   {
-    "id": "4782082",
-    "pregunta": "Will the highest temperature in London be 23\u00b0C on September 23?",
-    "ts": "2026-09-22T07:04:01.091279",
+    "id": "4766373",
+    "pregunta": "Will Worksop Town FC win on 2026-09-22?",
+    "ts": "2026-09-22T07:14:47.221889",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc0655bab005ee280aa8332f309b4c90f01fbc87",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4749386",
-    "pregunta": "Will the highest temperature in Chicago be between 60-61\u00b0F on September 22?",
-    "ts": "2026-09-22T07:04:02.167344",
+    "id": "4766376",
+    "pregunta": "Will AFC Telford United win on 2026-09-22?",
+    "ts": "2026-09-22T07:14:48.320982",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc0655bab005ee280aa8332f309b4c90f01fbc87",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782342",
-    "pregunta": "Will the highest temperature in Busan be 27\u00b0C on September 23?",
-    "ts": "2026-09-22T07:04:03.259384",
+    "id": "4766374",
+    "pregunta": "Will Worksop Town FC vs. AFC Telford United end in a draw?",
+    "ts": "2026-09-22T07:14:50.245035",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc0655bab005ee280aa8332f309b4c90f01fbc87",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782277",
-    "pregunta": "Will the highest temperature in Beijing be 31\u00b0C on September 23?",
-    "ts": "2026-09-22T07:04:04.695916",
+    "id": "4761797",
+    "pregunta": "Porto: Mina Hodzic vs Elena Malygina",
+    "ts": "2026-09-22T07:14:53.104854",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc0655bab005ee280aa8332f309b4c90f01fbc87",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782265",
-    "pregunta": "Will the highest temperature in Chongqing be 24\u00b0C on September 23?",
-    "ts": "2026-09-22T07:04:05.791031",
+    "id": "4740792",
+    "pregunta": "Plovdiv 4: Filip Jianu vs Ivan Ivanov",
+    "ts": "2026-09-22T07:14:54.206723",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc0655bab005ee280aa8332f309b4c90f01fbc87",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782285",
-    "pregunta": "Will the highest temperature in Wuhan be 25\u00b0C on September 23?",
-    "ts": "2026-09-22T07:04:06.989232",
+    "id": "4798946",
+    "pregunta": "St. Tropez: Titouan Droguet vs Karl Poling",
+    "ts": "2026-09-22T07:14:55.303358",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc0655bab005ee280aa8332f309b4c90f01fbc87",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4782202",
-    "pregunta": "Will the highest temperature in Singapore be 31\u00b0C on September 23?",
-    "ts": "2026-09-22T07:04:08.238136",
+    "id": "4798944",
+    "pregunta": "Plovdiv 4: Nikita Mashtakov vs Maxim Mrva",
+    "ts": "2026-09-22T07:14:56.387332",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc0655bab005ee280aa8332f309b4c90f01fbc87",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4828178",
-    "pregunta": "Will Bitcoin dip to $84,000 on September 22?",
-    "ts": "2026-09-22T07:04:12.106321",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6a7e5c201cf486fe970c558a346d952304f1cfe5",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   }
 ]
