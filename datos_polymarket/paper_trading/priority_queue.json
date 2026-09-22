@@ -1,26 +1,18 @@
 [
   {
-    "id": "4828152",
-    "pregunta": "Will Bitcoin reach $87,000 on September 22?",
-    "ts": "2026-09-22T10:03:42.968435",
+    "id": "4824122",
+    "pregunta": "Counter-Strike: STATE vs KAMUI (BO3) - Exort Fiesta Playoffs",
+    "ts": "2026-09-22T10:13:20.937345",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xd5440ea668f64ecf282224ece1f04a7e27bc4994",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4587013",
-    "pregunta": "Will the price of Bitcoin be above $86,000 on September 22?",
-    "ts": "2026-09-22T10:03:44.047990",
+    "id": "4824503",
+    "pregunta": "LoL: The Otter Side vs Team Aqua ASD - Game 1 Winner",
+    "ts": "2026-09-22T10:13:22.021638",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4811558",
-    "pregunta": "Dota 2: LGD Gaming vs Aurora (BO3) - PGL Wallachia Group Stage",
-    "ts": "2026-09-22T10:03:46.546752",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xd5440ea668f64ecf282224ece1f04a7e27bc4994",
     "whale_signal": "COMPRAR NO"
   }
 ]
