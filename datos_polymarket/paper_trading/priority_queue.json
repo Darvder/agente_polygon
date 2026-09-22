@@ -1,34 +1,58 @@
 [
   {
-    "id": "4777335",
-    "pregunta": "Counter-Strike: INOX Division vs BakS eSports (BO3) - NODWIN Clutch Series Group Stage",
-    "ts": "2026-09-22T08:13:26.684385",
+    "id": "4753350",
+    "pregunta": "Singapore Open: Barbora Krejcikova vs Anna-Lena Friedsam",
+    "ts": "2026-09-22T08:23:09.629300",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4788224",
-    "pregunta": "Counter-Strike: Just Players vs ENCE (BO3) - CCT Europe Series #9 Group Stage",
-    "ts": "2026-09-22T08:13:27.726670",
+    "id": "4740816",
+    "pregunta": "Genoa 2: Stefano Travaglia vs Marvin Moeller",
+    "ts": "2026-09-22T08:23:11.859473",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4788223",
-    "pregunta": "Counter-Strike: Just Players vs ENCE - Map 2 Winner",
-    "ts": "2026-09-22T08:13:28.945705",
+    "id": "4798946",
+    "pregunta": "St. Tropez: Titouan Droguet vs Karl Poling",
+    "ts": "2026-09-22T08:23:12.922286",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4824373",
-    "pregunta": "Counter-Strike: Rare Atom vs Legion - Map 1 Winner",
-    "ts": "2026-09-22T08:13:30.023364",
+    "id": "4798969",
+    "pregunta": "St. Tropez: Moez Echargui vs Daniel Masur",
+    "ts": "2026-09-22T08:23:15.265750",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4740796",
+    "pregunta": "Plovdiv 4: Maxime Chazal vs Joel Schwaerzler",
+    "ts": "2026-09-22T08:23:16.362111",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4797695",
+    "pregunta": "Tolentino: Veronika Erjavec vs Katerina Tsygourova",
+    "ts": "2026-09-22T08:23:17.463721",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4761830",
+    "pregunta": "Ankara: Fiona Crawley vs Carole Monnet",
+    "ts": "2026-09-22T08:23:18.586955",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
