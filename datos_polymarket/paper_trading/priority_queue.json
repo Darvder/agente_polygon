@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4746251",
+    "pregunta": "Will the highest temperature in Madrid be 33\u00b0C on September 22?",
+    "ts": "2026-09-21T21:05:04.861973",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a206752e2d336147ef1ba885455b78e2162df5b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746262",
+    "pregunta": "Will the highest temperature in Warsaw be 16\u00b0C on September 22?",
+    "ts": "2026-09-21T21:05:05.909148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a206752e2d336147ef1ba885455b78e2162df5b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4746103",
+    "pregunta": "Will the highest temperature in London be 24\u00b0C on September 22?",
+    "ts": "2026-09-21T21:05:07.004203",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a206752e2d336147ef1ba885455b78e2162df5b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
