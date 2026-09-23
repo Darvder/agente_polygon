@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4613533",
+    "pregunta": "Miami Marlins vs. Chicago Cubs",
+    "ts": "2026-09-22T20:33:20.178102",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40e9808592e9458f7a26a3f272960290f3b8494f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613537",
+    "pregunta": "New York Mets vs. Texas Rangers",
+    "ts": "2026-09-22T20:33:21.230999",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40e9808592e9458f7a26a3f272960290f3b8494f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4830291",
+    "pregunta": "San Diego 2: Timo Legout vs Daniel Milavsky",
+    "ts": "2026-09-22T20:33:22.896579",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4417268",
+    "pregunta": "Will Independiente Santa Fe win on 2026-09-22?",
+    "ts": "2026-09-22T20:33:23.954725",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
