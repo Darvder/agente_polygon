@@ -1,18 +1,34 @@
 [
   {
-    "id": "1170844",
-    "pregunta": "Blue tsunami in 2026?",
-    "ts": "2026-09-22T19:25:50.524020",
+    "id": "4822928",
+    "pregunta": "Toronto Tempo vs. Chicago Sky: O/U 178.5",
+    "ts": "2026-09-22T19:35:46.905078",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x460a20d648c4601abfcd0c71ec37eb6dfd26d738",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2371761",
-    "pregunta": "Will Ryan Gosling be nominated for Best Actor at the 99th Academy Awards?",
-    "ts": "2026-09-22T19:25:52.869762",
+    "id": "4400847",
+    "pregunta": "Toronto Tempo vs. Chicago Sky",
+    "ts": "2026-09-22T19:35:47.986196",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x460a20d648c4601abfcd0c71ec37eb6dfd26d738",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4492837",
+    "pregunta": "Will France win on 2026-09-25?",
+    "ts": "2026-09-22T19:35:49.963928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4826140",
+    "pregunta": "Spread: Golden State Valkyries (-14.5)",
+    "ts": "2026-09-22T19:35:51.062267",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
