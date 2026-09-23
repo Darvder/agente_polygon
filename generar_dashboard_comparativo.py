@@ -222,7 +222,9 @@ def generar_dashboard():
                 pnl_op = float(p.get('pnl_realizado', 0.0))
                 pnl_acum += pnl_op
                 fecha = str(p.get('fecha_cierre_real', '—'))[:16]
-                historia_pnl_hib.append({"fecha": fecha, "pnl": round(pnl_acum, 2)})
+                dt_h = p.get('fecha_dt')
+                fecha_fmt_h = dt_h.strftime("%d %b %H:%M") if pd.notna(dt_h) else fecha
+                historia_pnl_hib.append({"fecha": fecha, "fecha_fmt": fecha_fmt_h, "pnl": round(pnl_acum, 2)})
                 
                 razon = str(p.get('razon_cierre', 'EXIT')).upper()
                 if razon == 'TAKE_PROFIT' or razon == 'EARLY_EXIT': n_tp_calc += 1
@@ -436,11 +438,29 @@ def generar_dashboard():
 
             pnl_acum = 0.0
             rows_copy = []
+            peak_copy = capital_inicial_copy
+            drawdown_series_copy = []
+            rolling_wr_window = []
+            rolling_wr_series_copy = []
+
             for _, p in cerradas_copy.iterrows():
                 pnl_op = float(p.get('pnl_realizado', 0.0))
                 pnl_acum += pnl_op
                 fecha = str(p.get('fecha_cierre_real', '—'))[:16]
-                historia_pnl_copy.append({"fecha": fecha, "pnl": round(pnl_acum, 2)})
+                dt_c = p.get('fecha_dt')
+                fecha_fmt_c = dt_c.strftime("%d %b %H:%M") if pd.notna(dt_c) else fecha
+                historia_pnl_copy.append({"fecha": fecha, "fecha_fmt": fecha_fmt_c, "pnl": round(pnl_acum, 2)})
+
+                # Tracking Drawdown
+                eq_curr = capital_inicial_copy + pnl_acum
+                if eq_curr > peak_copy: peak_copy = eq_curr
+                dd_val = ((eq_curr - peak_copy) / peak_copy) * 100.0
+                drawdown_series_copy.append(round(dd_val, 2))
+
+                # Tracking Rolling Win Rate (20 ops)
+                rolling_wr_window.append(1 if pnl_op > 0 else 0)
+                if len(rolling_wr_window) > 20: rolling_wr_window.pop(0)
+                rolling_wr_series_copy.append(round(sum(rolling_wr_window) / len(rolling_wr_window) * 100.0, 1))
 
                 # Whale tracking
                 w_addr = p.get('target_wallet_lower')
@@ -537,6 +557,184 @@ def generar_dashboard():
     equity_copy = capital_actual_copy + pnl_flotante_copy
     pnl_net_pct_copy = ((equity_copy - capital_inicial_copy) / capital_inicial_copy) * 100
 
+    # Drawdown global
+    max_drawdown_copy = min(drawdown_series_copy) if 'drawdown_series_copy' in locals() and drawdown_series_copy else 0.0
+    current_drawdown_copy = drawdown_series_copy[-1] if 'drawdown_series_copy' in locals() and drawdown_series_copy else 0.0
+
+    # Win Rate Estratégico (TP vs SL)
+    total_tp_sl_copy = n_tp_copy + n_sl_copy
+    win_rate_estrat_copy = (n_tp_copy / total_tp_sl_copy * 100.0) if total_tp_sl_copy > 0 else 0.0
+
+    # Agrupación y Retorno Diario Copy
+    daily_labels_copy = []
+    daily_pnl_copy = []
+    daily_colors_copy = []
+    pnl_hoy_copy = 0.0
+    ops_hoy_copy = 0
+    wins_hoy_copy = 0
+    wr_hoy_copy = 0.0
+    dia_nombre_hoy = "Hoy"
+    roi_hoy_pct_copy = 0.0
+
+    if not cerradas_copy.empty and 'fecha_dt' in cerradas_copy.columns:
+        cerradas_copy['dia_str'] = cerradas_copy['fecha_dt'].dt.strftime('%d %b')
+        daily_grouped = cerradas_copy.groupby('dia_str', sort=False).agg(
+            pnl_dia=('pnl_realizado', 'sum'),
+            ops=('pnl_realizado', 'count'),
+            wins=('pnl_realizado', lambda x: (x > 0).sum())
+        ).reset_index()
+
+        daily_labels_copy = daily_grouped['dia_str'].tolist()
+        daily_pnl_copy = [round(float(v), 2) for v in daily_grouped['pnl_dia'].tolist()]
+        daily_colors_copy = ['#10b981' if v >= 0 else '#ef4444' for v in daily_pnl_copy]
+
+        if not daily_grouped.empty:
+            ultimo_dia = daily_grouped.iloc[-1]
+            pnl_hoy_copy = float(ultimo_dia['pnl_dia'])
+            ops_hoy_copy = int(ultimo_dia['ops'])
+            wins_hoy_copy = int(ultimo_dia['wins'])
+            wr_hoy_copy = (wins_hoy_copy / ops_hoy_copy * 100.0) if ops_hoy_copy > 0 else 0.0
+            dia_nombre_hoy = str(ultimo_dia['dia_str'])
+            roi_hoy_pct_copy = (pnl_hoy_copy / capital_inicial_copy) * 100.0
+
+    # Dynamic Sizing Distribution
+    montos_copy = df_copy['monto_usdc'].dropna().astype(float) if not df_copy.empty and 'monto_usdc' in df_copy.columns else pd.Series()
+    min_sizing_copy = float(montos_copy.min()) if not montos_copy.empty else 0.0
+    max_sizing_copy = float(montos_copy.max()) if not montos_copy.empty else 0.0
+    avg_sizing_copy = float(montos_copy.mean()) if not montos_copy.empty else 0.0
+    median_sizing_copy = float(montos_copy.median()) if not montos_copy.empty else 0.0
+
+    total_m = len(montos_copy) if len(montos_copy) > 0 else 1
+    cnt_def = int((montos_copy <= 12.0).sum())
+    cnt_bal = int(((montos_copy > 12.0) & (montos_copy <= 18.0)).sum())
+    cnt_asym = int((montos_copy > 18.0).sum())
+    pct_def = (cnt_def / total_m) * 100.0
+    pct_bal = (cnt_bal / total_m) * 100.0
+    pct_asym = (cnt_asym / total_m) * 100.0
+
+    # Time in trade (duraciones)
+    avg_dur_win_h = 0.0; avg_dur_loss_h = 0.0; avg_dur_global_h = 0.0
+    if not cerradas_copy.empty and 'fecha_entrada' in cerradas_copy.columns:
+        cerradas_copy['dt_in'] = pd.to_datetime(cerradas_copy['fecha_entrada'], errors='coerce')
+        cerradas_copy['dur_h'] = (cerradas_copy['fecha_dt'] - cerradas_copy['dt_in']).dt.total_seconds() / 3600.0
+        valid_dur = cerradas_copy[cerradas_copy['dur_h'] >= 0]
+        if not valid_dur.empty:
+            avg_dur_win_h = float(valid_dur[valid_dur['pnl_realizado'] > 0]['dur_h'].mean())
+            avg_dur_loss_h = float(valid_dur[valid_dur['pnl_realizado'] < 0]['dur_h'].mean())
+            avg_dur_global_h = float(valid_dur['dur_h'].mean())
+
+    # Rendimiento por Categoría de Mercado
+    def clasificar_categoria(pregunta):
+        p = str(pregunta).lower()
+        if any(k in p for k in ['bitcoin', 'btc', 'eth', 'solana', 'sol', 'crypto', 'token', 'price of', 'hit $', 'all-time high', 'ath', 'market cap']):
+            return 'Cripto / Web3'
+        if any(k in p for k in ['counter-strike', 'cs:go', 'csgo', 'dota', 'league of legends', 'lol', 'valorant', 'major', 'iem', 'blast', 'esports', 'map 1', 'map 2']):
+            return 'Esports / Gaming'
+        if any(k in p for k in ['premier league', 'la liga', 'champions league', 'fc ', 'arsenal', 'madrid', 'barcelona', 'manchester', 'liverpool', 'bayern', 'serie a', 'liga mx', 'soccer', 'inter ', 'chelsea', 'ac milan', 'juventus', 'dortmund', 'atletico']):
+            return 'Fútbol'
+        if any(k in p for k in ['nba', 'nfl', 'mlb', 'nhl', 'ufc', 'boxing', 'tennis', 'grand slam', 'formula 1', 'f1', 'us open', 'wimbledon']):
+            return 'Otros Deportes'
+        if any(k in p for k in ['election', 'president', 'trump', 'kamala', 'harris', 'biden', 'senate', 'governor', 'democrat', 'republican', 'vote', 'cabinet', 'nominee', 'poll']):
+            return 'Política'
+        if any(k in p for k in ['fed', 'interest rate', 'cpi', 'inflation', 'gdp', 'recession', 'temperature', 'weather', 'hurricane', 'spacex', 'starship', 'ai ', 'openai', 'gpt']):
+            return 'Macro / Clima'
+        return 'General'
+
+    categorias_html = ""
+    if not cerradas_copy.empty and 'pregunta' in cerradas_copy.columns:
+        cerradas_copy['categoria'] = cerradas_copy['pregunta'].apply(clasificar_categoria)
+        cat_grouped = cerradas_copy.groupby('categoria').agg(
+            ops=('pnl_realizado', 'count'),
+            pnl=('pnl_realizado', 'sum'),
+            wins=('pnl_realizado', lambda x: (x > 0).sum())
+        ).reset_index()
+        cat_grouped['wr'] = (cat_grouped['wins'] / cat_grouped['ops'] * 100).round(1)
+        cat_grouped['pnl'] = cat_grouped['pnl'].round(2)
+        cat_grouped = cat_grouped.sort_values('pnl', ascending=False)
+
+        cat_icons = {
+            'Cripto / Web3': '🚀',
+            'Esports / Gaming': '🎮',
+            'Fútbol': '⚽',
+            'Otros Deportes': '🏆',
+            'Política': '🗳️',
+            'Macro / Clima': '🌦️',
+            'General': '🌐'
+        }
+
+        for _, cat in cat_grouped.iterrows():
+            c_name = cat['categoria']
+            icon = cat_icons.get(c_name, '📊')
+            c_pnl = cat['pnl']
+            c_ops = int(cat['ops'])
+            c_wr = cat['wr']
+            c_sign = "+" if c_pnl > 0 else ""
+            c_clase = "positive" if c_pnl >= 0 else "negative"
+            
+            categorias_html += f'''
+            <div class="cat-card">
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+                <span style="font-family:var(--font-head); font-weight:700; font-size:0.92rem; color:#fff; display:flex; align-items:center; gap:0.35rem;">
+                  {icon} {c_name}
+                </span>
+                <span class="badge {c_clase} bold" style="font-size:0.85rem; font-family:var(--font-mono);">
+                  {c_sign}${c_pnl:.2f}
+                </span>
+              </div>
+              <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.72rem; color:var(--muted); font-family:var(--font-mono);">
+                <span>Ops: <strong style="color:#fff;">{c_ops}</strong></span>
+                <span>Win Rate: <strong style="color:{'#10b981' if c_wr>=50 else '#ef4444'}">{c_wr:.1f}%</strong></span>
+              </div>
+              <div style="width:100%; height:4px; background:rgba(255,255,255,0.05); border-radius:2px; margin-top:0.5rem; overflow:hidden;">
+                <div style="height:100%; width:{min(100.0, max(5.0, c_wr))}%; background:{'#10b981' if c_wr>=50 else '#ef4444'}; border-radius:2px;"></div>
+              </div>
+            </div>'''
+
+    # Construir Tabla Interactiva de Whales
+    whales_list = list(whales_stats.values())
+    whales_list.sort(key=lambda w: (w["closed_pnl"] + w["floating_pnl"]), reverse=True)
+    whales_table_html = ""
+    for w in whales_list:
+        total_pnl = w["closed_pnl"] + w["floating_pnl"]
+        p_clase = "positive" if total_pnl >= 0 else "negative"
+        p_sign = "+" if total_pnl > 0 else ""
+        t_closed = w["wins"] + w["losses"]
+        w_wr = (w["wins"] / t_closed * 100) if t_closed > 0 else 0.0
+        w_wr_str = f"{w_wr:.1f}%" if t_closed > 0 else "—"
+        wr_color = "#10b981" if w_wr >= 50 else ("#ef4444" if t_closed > 0 else "var(--muted)")
+        avg_pnl = (w["closed_pnl"] / t_closed) if t_closed > 0 else 0.0
+        avg_clase = "positive" if avg_pnl >= 0 else "negative"
+        
+        is_active = w["active_count"] > 0
+        dot_color = "var(--green)" if is_active else "var(--gray)"
+        dot_glow = "0 0 6px var(--green)" if is_active else "none"
+        addr_short = w["address"][:8] + "..." + w["address"][-6:] if len(w["address"]) > 14 else w["address"]
+        tx_link = f'https://polygonscan.com/address/{w["address"]}'
+        
+        whales_table_html += f'''
+        <tr class="whale-row" data-search="{w['name'].lower()} {w['address'].lower()}">
+          <td>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <span class="status-dot" style="width:7px; height:7px; background-color:{dot_color}; box-shadow:{dot_glow}; flex-shrink:0;"></span>
+              <div>
+                <strong style="color:#fff; font-family:var(--font-head); font-size:0.9rem;">{w['name']}</strong>
+                <div style="font-size:0.68rem; font-family:var(--font-mono); color:var(--muted);">
+                  <a href="{tx_link}" target="_blank" style="color:var(--muted); text-decoration:none;">{addr_short} ↗</a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td style="text-align:center; font-family:var(--font-mono); font-weight:700; color:{'var(--primary-copy)' if is_active else 'var(--muted)'};">{w['active_count']}</td>
+          <td style="text-align:center; font-family:var(--font-mono); color:var(--muted);">{t_closed}</td>
+          <td style="text-align:center; font-family:var(--font-mono);">{w['total_count']}</td>
+          <td style="text-align:center; font-family:var(--font-mono); font-weight:600; color:{wr_color};">{w_wr_str} <span style="font-size:0.68rem; color:var(--muted); font-weight:400;">({w['wins']}W/{w['losses']}L)</span></td>
+          <td style="text-align:right; font-family:var(--font-mono); font-weight:700;" class="{'positive' if w['closed_pnl'] >= 0 else 'negative'}">{'+' if w['closed_pnl'] > 0 else ''}${w['closed_pnl']:.2f}</td>
+          <td style="text-align:right; font-family:var(--font-mono);" class="{'positive' if w['floating_pnl'] >= 0 else 'negative'}">{'+' if w['floating_pnl'] > 0 else ''}${w['floating_pnl']:.2f}</td>
+          <td style="text-align:right; font-family:var(--font-mono); font-weight:700;" class="{p_clase}">{p_sign}${total_pnl:.2f}</td>
+          <td style="text-align:center; font-family:var(--font-mono);"><span class="badge {'positive' if avg_pnl >= 0 else 'negative'}" style="font-size:0.75rem;">{'+' if avg_pnl > 0 else ''}${avg_pnl:.2f}</span></td>
+        </tr>'''
+
+
     # Construir HTML de las estadísticas de Whales
     whales_html = ""
     for w_addr, w_info in whales_stats.items():
@@ -621,10 +819,10 @@ def generar_dashboard():
         chart_data_copy_comp = [0.0]
 
     # Individual charts
-    fechas_hib = [h["fecha"][:10] for h in historia_pnl_hib] if historia_pnl_hib else [datetime.now().strftime("%Y-%m-%d")]
+    fechas_hib = [h.get("fecha_fmt", h["fecha"]) for h in historia_pnl_hib] if historia_pnl_hib else [datetime.now().strftime("%d %b %H:%M")]
     valores_hib = [h["pnl"] for h in historia_pnl_hib] if historia_pnl_hib else [0.0]
 
-    fechas_copy = [c["fecha"][:10] for c in historia_pnl_copy] if historia_pnl_copy else [datetime.now().strftime("%Y-%m-%d")]
+    fechas_copy = [c.get("fecha_fmt", c["fecha"]) for c in historia_pnl_copy] if historia_pnl_copy else [datetime.now().strftime("%d %b %H:%M")]
     valores_copy = [c["pnl"] for c in historia_pnl_copy] if historia_pnl_copy else [0.0]
 
     # Donut Charts Data
@@ -1678,6 +1876,73 @@ tr:hover td {
 .neutral { color: var(--text); }
 .bold { font-weight: 700; }
 
+/* Institutional Terminal Additions */
+.whale-table th {
+  padding: 0.75rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+}
+.whale-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  font-size: 0.82rem;
+}
+.whale-table tr:hover td {
+  background: rgba(2, 132, 199, 0.08);
+}
+.cat-card {
+  background: rgba(15, 23, 42, 0.45);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+.cat-card:hover {
+  border-color: rgba(2, 132, 199, 0.35);
+  transform: translateY(-2px);
+}
+.custom-select {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border);
+  color: #fff;
+  padding: 0.35rem 0.65rem;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  outline: none;
+  cursor: pointer;
+}
+.custom-select:focus {
+  border-color: var(--primary-copy);
+}
+.btn-csv-export {
+  background: rgba(2, 132, 199, 0.12);
+  border: 1px solid rgba(2, 132, 199, 0.3);
+  color: #38bdf8;
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.btn-csv-export:hover {
+  background: rgba(2, 132, 199, 0.25);
+  border-color: #38bdf8;
+  color: #fff;
+}
+.hidden-by-limit {
+  display: none !important;
+}
+
 </style>
 </head>
 <body>
@@ -2025,20 +2290,30 @@ tr:hover td {
         <div class="val __PNL_CLASE_COPY__">__PNL_REALIZADO_COPY__</div>
         <div class="sub">__TOTAL_CERRADAS_COPY__ ops cerradas</div>
       </div>
-      <div class="card-m" style="--accent: __FLOT_COLOR_COPY__; --accent-hover: __FLOT_COLOR_HOVER_COPY__; --accent-glow: __FLOT_GLOW_COPY__">
-        <h4>P&L Temp Flotante</h4>
-        <div class="val __FLOT_CLASE_COPY__">__PNL_FLOTANTE_COPY__</div>
-        <div class="sub">De posiciones activas</div>
+      <div class="card-m" style="--accent: #10b981; --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.25)">
+        <h4>Retorno Hoy (__DIA_NOMBRE_HOY__)</h4>
+        <div class="val positive">__PNL_HOY_COPY__</div>
+        <div class="sub">__ROI_HOY_COPY__% · __OPS_HOY_COPY__ ops (__WR_HOY_COPY__% WR)</div>
       </div>
       <div class="card-m" style="--accent: #fbbf24; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
-        <h4>Win Rate</h4>
+        <h4>Win Rate Global</h4>
         <div class="val" style="color:#fbbf24">__WIN_RATE_COPY__%</div>
         <div class="sub">__TOTAL_GANADAS_COPY__W · __TOTAL_PERDIDAS_COPY__L</div>
+      </div>
+      <div class="card-m" style="--accent: #10b981; --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.2)">
+        <h4>Win Rate Estratégico (TP/SL)</h4>
+        <div class="val" style="color:#10b981">__WR_ESTRAT_COPY__%</div>
+        <div class="sub">__N_TP_COPY__ TP vs __N_SL_COPY__ SL (Ratio __TP_SL_RATIO_COPY__)</div>
       </div>
       <div class="card-m" style="--accent: #fbbf24; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
         <h4>Profit Factor</h4>
         <div class="val __PF_CLASE_COPY__">__PROFIT_FACTOR_COPY__</div>
-        <div class="sub">Retorno ganancias/pérdidas</div>
+        <div class="sub">Ratio Ganancias / Pérdidas</div>
+      </div>
+      <div class="card-m" style="--accent: #ef4444; --accent-hover: #f87171; --accent-glow: rgba(239, 68, 68, 0.2)">
+        <h4>Drawdown Máximo</h4>
+        <div class="val negative">__MAX_DRAWDOWN_COPY__%</div>
+        <div class="sub">ATH Actual: __CURRENT_DRAWDOWN_COPY__% (0.0% ATH)</div>
       </div>
       <div class="card-m" style="--accent: var(--green); --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.2)">
         <h4>Avg Win / Loss</h4>
@@ -2049,44 +2324,174 @@ tr:hover td {
         </div>
         <div class="sub">Promedio ganadores/perdedores</div>
       </div>
+      <div class="card-m" style="--accent: #8b5cf6; --accent-hover: #c084fc; --accent-glow: rgba(139, 92, 246, 0.2)">
+        <h4>Duración Promedio</h4>
+        <div class="val" style="color:#c084fc">__DUR_GLOBAL_COPY__h</div>
+        <div class="sub">__DUR_WIN_COPY__h Ganadoras / __DUR_LOSS_COPY__h Perdedoras</div>
+      </div>
+      <div class="card-m" style="--accent: __FLOT_COLOR_COPY__; --accent-hover: __FLOT_COLOR_HOVER_COPY__; --accent-glow: __FLOT_GLOW_COPY__">
+        <h4>P&L Temp Flotante</h4>
+        <div class="val __FLOT_CLASE_COPY__">__PNL_FLOTANTE_COPY__</div>
+        <div class="sub">De posiciones activas</div>
+      </div>
     </div>
 
-    <!-- Whales monitored section -->
-    <h3 style="font-family:var(--font-mono); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--muted); margin-bottom:1rem; display:flex; align-items:center; gap:0.5rem;">
-      🐳 Traders Líderes Seguidos
-    </h3>
-    <div class="grid-whales">
-      __WHALES_GRID_HTML__
+    <!-- Tabla Interactiva de Whales Seguidos -->
+    <div class="panel" style="margin-bottom:2rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+        <h3 style="margin-bottom:0; display:flex; align-items:center; gap:0.5rem;">
+          🐳 Monitoreo y Rendimiento por Whale Seguido
+        </h3>
+        <div class="search-box" style="min-width:280px;">
+          <input type="text" id="searchWhales" placeholder="🔍 Buscar whale, nombre o wallet..." onkeyup="filterWhalesTable()">
+        </div>
+      </div>
+      <div class="whale-table-container" style="max-height:420px; overflow-y:auto; border:1px solid var(--border); border-radius:12px;">
+        <table class="whale-table" style="width:100%; border-collapse:collapse;">
+          <thead style="position:sticky; top:0; background:rgba(8, 12, 28, 0.95); backdrop-filter:blur(8px); z-index:10;">
+            <tr>
+              <th style="text-align:left;">Whale / Wallet</th>
+              <th style="text-align:center;">Activas</th>
+              <th style="text-align:center;">Cerradas</th>
+              <th style="text-align:center;">Total</th>
+              <th style="text-align:center;">Win Rate</th>
+              <th style="text-align:right;">P&L Realizado</th>
+              <th style="text-align:right;">P&L Flotante</th>
+              <th style="text-align:right;">P&L Total</th>
+              <th style="text-align:center;">Avg / Op</th>
+            </tr>
+          </thead>
+          <tbody id="tablaWhalesBody">
+            __WHALES_TABLE_HTML__
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <!-- Gráficos Row Copy -->
+    <!-- Gráficos Row 1: PnL Acumulado (Día + Hora) y Evolución Diaria de Retornos -->
     <div class="row-2">
       <div class="panel">
-        <h3>🎯 Curva P&L Acumulado Copy-Trader</h3>
+        <h3>🎯 Curva P&L Acumulado Copy-Trader (Eje Continuo Día/Hora)</h3>
         <div style="height:320px; position:relative">
           <canvas id="chartCopyPnl"></canvas>
         </div>
       </div>
       <div class="panel">
-        <h3>🎯 Distribución de Salidas Copy</h3>
-        <div style="height:190px; position:relative; margin-bottom:1.25rem">
-          <canvas id="chartCopyDonut"></canvas>
+        <h3>📅 Evolución del Retorno Diario (P&L Realizado por Día)</h3>
+        <div style="height:320px; position:relative">
+          <canvas id="chartCopyDaily"></canvas>
         </div>
-        <div class="breakdown-grid" style="margin-bottom: 1.25rem;">
-          <div class="bk-item"><div class="bk-dot" style="background:#06b6d4"></div><div><div class="bk-label">Whale Sell</div><div class="bk-count" style="color:#06b6d4">__N_TARGET_SELL_COPY__</div></div></div>
-          <div class="bk-item"><div class="bk-dot" style="background:#10b981"></div><div><div class="bk-label">Resolved</div><div class="bk-count" style="color:#10b981">__N_RESOLVED_COPY__</div></div></div>
-          <div class="bk-item"><div class="bk-dot" style="background:#f59e0b"></div><div><div class="bk-label">Failsafe Exit</div><div class="bk-count" style="color:#f59e0b">__N_FAILSAFE_COPY__</div></div></div>
+      </div>
+    </div>
+
+    <!-- Gráficos Row 2: Drawdown Histórico y Rolling Win Rate -->
+    <div class="row-2" style="margin-top:1.5rem;">
+      <div class="panel">
+        <h3>📉 Curva de Drawdown Histórico (% Caída desde ATH)</h3>
+        <div style="height:260px; position:relative">
+          <canvas id="chartCopyDrawdown"></canvas>
         </div>
-        <div class="panel-distribucion">
-          <h3>Distribución de Señales</h3>
-          <div class="yes-no-bar-container">
-            <div class="yes-no-bar-yes" style="width: __PCT_YES_COPY__%;"></div>
+      </div>
+      <div class="panel">
+        <h3>🎯 Evolución Dinámica del Win Rate (Ventana Móvil 20 Ops)</h3>
+        <div style="height:260px; position:relative">
+          <canvas id="chartCopyRollingWr"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gráficos Row 3: Distribución de Salidas y Señales -->
+    <div class="panel" style="margin-top:1.5rem; margin-bottom:2rem;">
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1.5rem;">
+        <div>
+          <h3>🎯 Distribución de Salidas Copy</h3>
+          <div style="height:190px; position:relative; margin-bottom:1rem">
+            <canvas id="chartCopyDonut"></canvas>
           </div>
-          <div class="yes-no-labels">
-            <span class="positive" style="color:#38bdf8">YES: __YES_COUNT_COPY__ (__PCT_YES_COPY_STR__%)</span>
-            <span class="negative">NO: __NO_COUNT_COPY__ (__PCT_NO_COPY_STR__%)</span>
+          <div class="breakdown-grid">
+            <div class="bk-item"><div class="bk-dot" style="background:#06b6d4"></div><div><div class="bk-label">Whale Sell</div><div class="bk-count" style="color:#06b6d4">__N_TARGET_SELL_COPY__</div></div></div>
+            <div class="bk-item"><div class="bk-dot" style="background:#10b981"></div><div><div class="bk-label">Resolved</div><div class="bk-count" style="color:#10b981">__N_RESOLVED_COPY__</div></div></div>
+            <div class="bk-item"><div class="bk-dot" style="background:#f59e0b"></div><div><div class="bk-label">Failsafe Exit</div><div class="bk-count" style="color:#f59e0b">__N_FAILSAFE_COPY__</div></div></div>
           </div>
         </div>
+        <div>
+          <h3>⚖️ Distribución de Señales</h3>
+          <div style="margin-top:2rem;">
+            <div class="yes-no-bar-container">
+              <div class="yes-no-bar-yes" style="width: __PCT_YES_COPY__%;"></div>
+            </div>
+            <div class="yes-no-labels" style="margin-top:0.75rem;">
+              <span class="positive" style="color:#38bdf8">YES: __YES_COUNT_COPY__ (__PCT_YES_COPY_STR__%)</span>
+              <span class="negative">NO: __NO_COUNT_COPY__ (__PCT_NO_COPY_STR__%)</span>
+            </div>
+            <div style="margin-top:2rem; padding:1rem; background:rgba(8, 12, 20, 0.45); border-radius:10px; border:1px solid var(--border);">
+              <div style="font-size:0.75rem; color:var(--muted); font-family:var(--font-mono);">
+                💡 <strong>Ratio de Convicción:</strong> Mayoría en <strong>__SEÑAL_DOMINANTE_COPY__</strong> con gestión asimétrica de riesgo.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel de Distribución de Sizing Dinámico -->
+    <div class="panel" style="margin-bottom:2rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:0.5rem;">
+        <h3 style="margin-bottom:0; display:flex; align-items:center; gap:0.5rem;">
+          ⚖️ Distribución de Sizing Dinámico (Gestión de Riesgo)
+        </h3>
+        <div style="display:flex; gap:0.8rem; font-family:var(--font-mono); font-size:0.75rem;">
+          <span style="color:var(--muted)">Mín: <strong style="color:#fff">${min_sizing_copy:.2f}</strong></span>
+          <span style="color:var(--muted)">Mediana: <strong style="color:#fff">${median_sizing_copy:.2f}</strong></span>
+          <span style="color:var(--muted)">Promedio: <strong style="color:#38bdf8">${avg_sizing_copy:.2f}</strong></span>
+          <span style="color:var(--muted)">Máx: <strong style="color:#fff">${max_sizing_copy:.2f}</strong></span>
+        </div>
+      </div>
+      
+      <div style="height:16px; width:100%; background:rgba(255,255,255,0.04); border-radius:8px; overflow:hidden; display:flex; margin-bottom:1rem; border:1px solid rgba(255,255,255,0.06);">
+        <div style="width:__PCT_DEF__%; background:#38bdf8; transition:width 0.5s;" title="Defensivo ($8-$12): __CNT_DEF__ ops (__PCT_DEF__%)"></div>
+        <div style="width:__PCT_BAL__%; background:#818cf8; transition:width 0.5s;" title="Equilibrado ($12-$18): __CNT_BAL__ ops (__PCT_BAL__%)"></div>
+        <div style="width:__PCT_ASYM__%; background:#c084fc; transition:width 0.5s;" title="Asimétrico ($18-$25): __CNT_ASYM__ ops (__PCT_ASYM__%)"></div>
+      </div>
+      
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:1rem;">
+        <div style="background:rgba(56, 189, 248, 0.05); border:1px solid rgba(56, 189, 248, 0.15); border-radius:10px; padding:0.85rem;">
+          <div style="display:flex; align-items:center; gap:0.4rem; font-size:0.75rem; color:#38bdf8; font-weight:600; font-family:var(--font-mono);">
+            <span style="width:8px; height:8px; border-radius:50%; background:#38bdf8; display:inline-block;"></span> DEFENSIVO ($8 – $12)
+          </div>
+          <div style="font-size:1.35rem; font-weight:700; font-family:var(--font-mono); color:#fff; margin-top:0.3rem;">
+            __PCT_DEF__% <span style="font-size:0.75rem; color:var(--muted); font-weight:400;">(__CNT_DEF__ ops)</span>
+          </div>
+          <div style="font-size:0.7rem; color:var(--muted); margin-top:0.2rem;">Protección de capital en mercados volátiles</div>
+        </div>
+        <div style="background:rgba(129, 140, 248, 0.05); border:1px solid rgba(129, 140, 248, 0.15); border-radius:10px; padding:0.85rem;">
+          <div style="display:flex; align-items:center; gap:0.4rem; font-size:0.75rem; color:#818cf8; font-weight:600; font-family:var(--font-mono);">
+            <span style="width:8px; height:8px; border-radius:50%; background:#818cf8; display:inline-block;"></span> EQUILIBRADO ($12 – $18)
+          </div>
+          <div style="font-size:1.35rem; font-weight:700; font-family:var(--font-mono); color:#fff; margin-top:0.3rem;">
+            __PCT_BAL__% <span style="font-size:0.75rem; color:var(--muted); font-weight:400;">(__CNT_BAL__ ops)</span>
+          </div>
+          <div style="font-size:0.7rem; color:var(--muted); margin-top:0.2rem;">Tamaño estándar para operaciones con edge confirmado</div>
+        </div>
+        <div style="background:rgba(192, 132, 252, 0.05); border:1px solid rgba(192, 132, 252, 0.15); border-radius:10px; padding:0.85rem;">
+          <div style="display:flex; align-items:center; gap:0.4rem; font-size:0.75rem; color:#c084fc; font-weight:600; font-family:var(--font-mono);">
+            <span style="width:8px; height:8px; border-radius:50%; background:#c084fc; display:inline-block;"></span> ASIMÉTRICO ($18 – $25)
+          </div>
+          <div style="font-size:1.35rem; font-weight:700; font-family:var(--font-mono); color:#fff; margin-top:0.3rem;">
+            __PCT_ASYM__% <span style="font-size:0.75rem; color:var(--muted); font-weight:400;">(__CNT_ASYM__ ops)</span>
+          </div>
+          <div style="font-size:0.7rem; color:var(--muted); margin-top:0.2rem;">Alta convicción / Máxima recompensa por unidad de riesgo</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rendimiento por Categoría de Mercado -->
+    <div class="panel" style="margin-bottom:2rem;">
+      <h3 style="margin-bottom:1rem; display:flex; align-items:center; gap:0.5rem;">
+        🌐 Rendimiento por Categoría de Mercado
+      </h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem;">
+        __CATEGORIAS_HTML__
       </div>
     </div>
 
@@ -2101,9 +2506,9 @@ tr:hover td {
     <!-- Historial Copy detailed -->
     <div class="panel">
       <h3>🎯 Historial Detallado de Operaciones Copy-Trader</h3>
-      <div class="filter-bar">
-        <div class="search-box">
-          <input type="text" id="buscarTablaCopy" placeholder="Buscar mercado..." onkeyup="filtrarTabla('Copy')">
+      <div class="filter-bar" style="flex-wrap:wrap; gap:0.75rem;">
+        <div class="search-box" style="flex:1; min-width:240px;">
+          <input type="text" id="buscarTablaCopy" placeholder="🔍 Buscar mercado, wallet o resultado..." onkeyup="filtrarTabla('Copy')">
         </div>
         <div class="filter-tabs">
           <button class="filter-tab filter-tab-copy active" onclick="setFiltro('todos', 'Copy')">Todos</button>
@@ -2112,6 +2517,15 @@ tr:hover td {
           <button class="filter-tab filter-tab-copy" onclick="setFiltro('target_sell', 'Copy')">Whale Sell</button>
           <button class="filter-tab filter-tab-copy" onclick="setFiltro('resolved', 'Copy')">Resolved</button>
           <button class="filter-tab filter-tab-copy" onclick="setFiltro('failsafe', 'Copy')">Failsafe Sync</button>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem;">
+          <select id="limitCopySelect" onchange="cambiarLimiteCopy(this.value)" class="custom-select" title="Límite de filas">
+            <option value="25">Ver 25 ops</option>
+            <option value="50">Ver 50 ops</option>
+            <option value="100">Ver 100 ops</option>
+            <option value="all" selected>Ver Todas</option>
+          </select>
+          <button class="btn-csv-export" onclick="exportarCsvCopy()">📥 Exportar CSV</button>
         </div>
       </div>
       <div class="tabla-contenedor">
@@ -2247,6 +2661,58 @@ document.getElementById('modalDetalle').addEventListener('click', function(e) {
 // Filtering and Search Functions (Independent per Tab)
 const filtros = { Hib: 'todos', Copy: 'todos' };
 
+function filterWhalesTable() {
+  const query = document.getElementById('searchWhales').value.toLowerCase();
+  const rows = document.querySelectorAll('#tablaWhalesBody tr');
+  rows.forEach(row => {
+    const searchData = row.getAttribute('data-search') || '';
+    row.style.display = searchData.includes(query) ? '' : 'none';
+  });
+}
+
+function cambiarLimiteCopy(val) {
+  const rows = document.querySelectorAll('#tablaCopyBody tr');
+  const limit = val === 'all' ? rows.length : parseInt(val);
+  let visibleCount = 0;
+  rows.forEach((row) => {
+    // Si ya está filtrada por búsqueda o pestaña, respetarla
+    if (row.getAttribute('data-hidden-by-filter') === 'true') {
+      row.style.display = 'none';
+      return;
+    }
+    if (visibleCount < limit) {
+      row.style.display = '';
+      visibleCount++;
+    } else {
+      row.style.display = 'none';
+    }
+  });
+}
+
+function exportarCsvCopy() {
+  const rows = document.querySelectorAll('#tablaCopyBody tr');
+  let csvContent = "data:text/csv;charset=utf-8,Fecha,Mercado,Resultado,Monto_USDC,PnL_USDC,Salida\n";
+  rows.forEach(r => {
+    const cols = r.querySelectorAll('td');
+    if (cols.length >= 6) {
+      const fecha = cols[0].textContent.trim();
+      const mercado = '"' + cols[1].textContent.trim().replace(/"/g, '""') + '"';
+      const res = cols[2].textContent.trim();
+      const monto = cols[3].textContent.trim().replace('$', '').replace(/,/g, '');
+      const pnl = cols[4].textContent.trim().replace('$', '').replace('+', '').replace(/,/g, '');
+      const salida = cols[5].textContent.trim();
+      csvContent += `${fecha},${mercado},${res},${monto},${pnl},${salida}\n`;
+    }
+  });
+  const encodedUri = encodeURI(csvContent);
+  const link = document.createElement("a");
+  link.setAttribute("href", encodedUri);
+  link.setAttribute("download", `polymarket_copy_trades_${new Date().toISOString().slice(0,10)}.csv`);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 function setFiltro(tipo, agent) {
   filtros[agent] = tipo;
   document.querySelectorAll('.filter-tab-' + agent.toLowerCase()).forEach(tab => tab.classList.remove('active'));
@@ -2290,8 +2756,16 @@ function filtrarTabla(agent) {
       else if (filtro === 'failsafe') matchesFiltro = razon === 'FAILSAFE_SYNC_EXIT';
     }
     
-    row.style.display = (matchesQuery && matchesFiltro) ? '' : 'none';
+    const show = (matchesQuery && matchesFiltro);
+    row.setAttribute('data-hidden-by-filter', show ? 'false' : 'true');
+    row.style.display = show ? '' : 'none';
   });
+  if (agent === 'Copy') {
+    const lim = document.getElementById('limitCopySelect');
+    if (lim && lim.value !== 'all') {
+      cambiarLimiteCopy(lim.value);
+    }
+  }
 }
 
 // Restore active main tab on load
@@ -2472,6 +2946,134 @@ new Chart(document.getElementById('chartCopyDonut').getContext('2d'), {
   }
 });
 
+// Chart 6: Copy Daily P&L (Bar Chart)
+new Chart(document.getElementById('chartCopyDaily').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: __DAILY_LABELS_COPY__,
+    datasets: [{
+      label: 'P&L Diario (USD)',
+      data: __DAILY_PNL_COPY__,
+      backgroundColor: __DAILY_COLORS_COPY__,
+      borderRadius: 6,
+      borderWidth: 0
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) { return ' P&L: ' + (ctx.raw >= 0 ? '+' : '') + '$' + ctx.raw.toFixed(2) + ' USD'; }
+        }
+      }
+    },
+    scales: {
+      x: { grid: { color: 'rgba(255, 255, 255, 0.03)' }, ticks: { color: '#94a3b8', font: { size: 10, family: 'JetBrains Mono' } } },
+      y: {
+        grid: { color: 'rgba(255, 255, 255, 0.03)' },
+        ticks: {
+          color: '#94a3b8',
+          font: { size: 10, family: 'JetBrains Mono' },
+          callback: function(v) { return '$' + v; }
+        }
+      }
+    }
+  }
+});
+
+// Chart 7: Copy Drawdown (% from Peak)
+const ctxDd = document.getElementById('chartCopyDrawdown').getContext('2d');
+const gradDd = ctxDd.createLinearGradient(0, 0, 0, 260);
+gradDd.addColorStop(0, 'rgba(239, 68, 68, 0.0)');
+gradDd.addColorStop(1, 'rgba(239, 68, 68, 0.35)');
+new Chart(ctxDd, {
+  type: 'line',
+  data: {
+    labels: __FECHAS_RENDIMIENTO_COPY__,
+    datasets: [{
+      data: __DRAWDOWN_SERIES_COPY__,
+      borderColor: '#ef4444',
+      backgroundColor: gradDd,
+      borderWidth: 2,
+      fill: true,
+      tension: 0.25,
+      pointRadius: 0,
+      pointHoverRadius: 5,
+      pointBackgroundColor: '#ef4444'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) { return ' Drawdown: ' + ctx.raw.toFixed(2) + '%'; }
+        }
+      }
+    },
+    scales: {
+      x: { display: false },
+      y: {
+        grid: { color: 'rgba(255, 255, 255, 0.03)' },
+        ticks: {
+          color: '#94a3b8',
+          font: { size: 10, family: 'JetBrains Mono' },
+          callback: function(v) { return v + '%'; }
+        }
+      }
+    }
+  }
+});
+
+// Chart 8: Copy Rolling Win Rate (20 ops moving avg)
+new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
+  type: 'line',
+  data: {
+    labels: __FECHAS_RENDIMIENTO_COPY__,
+    datasets: [{
+      data: __ROLLING_WR_SERIES_COPY__,
+      borderColor: '#10b981',
+      backgroundColor: 'rgba(16, 185, 129, 0.08)',
+      borderWidth: 2.5,
+      fill: true,
+      tension: 0.3,
+      pointRadius: 0,
+      pointHoverRadius: 5,
+      pointBackgroundColor: '#10b981'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) { return ' Win Rate (últimas 20): ' + ctx.raw.toFixed(1) + '%'; }
+        }
+      }
+    },
+    scales: {
+      x: { display: false },
+      y: {
+        min: 0,
+        max: 100,
+        grid: { color: 'rgba(255, 255, 255, 0.03)' },
+        ticks: {
+          color: '#94a3b8',
+          font: { size: 10, family: 'JetBrains Mono' },
+          callback: function(v) { return v + '%'; }
+        }
+      }
+    }
+  }
+});
+
 </script>
 </body>
 </html>"""
@@ -2568,7 +3170,44 @@ new Chart(document.getElementById('chartCopyDonut').getContext('2d'), {
     html_content = html_content.replace("__FLOT_COLOR_HOVER_COPY__", "#34d399" if pnl_flotante_copy>=0 else "#f87171")
     html_content = html_content.replace("__FLOT_GLOW_COPY__", "rgba(16, 185, 129, 0.25)" if pnl_flotante_copy>=0 else "rgba(239, 68, 68, 0.25)")
 
+    # Nuevas variables de terminal institucional
+    tp_sl_ratio_copy = f"{(n_tp_copy / n_sl_copy):.2f}" if n_sl_copy > 0 else "∞"
+    senal_dom = "YES" if pct_yes_copy >= 50 else "NO"
+    html_content = html_content.replace("__DIA_NOMBRE_HOY__", dia_nombre_hoy)
+    html_content = html_content.replace("__PNL_HOY_COPY__", f"{'+' if pnl_hoy_copy>=0 else ''}${pnl_hoy_copy:,.2f}")
+    html_content = html_content.replace("__ROI_HOY_COPY__", f"{roi_hoy_pct_copy:+.1f}")
+    html_content = html_content.replace("__OPS_HOY_COPY__", str(ops_hoy_copy))
+    html_content = html_content.replace("__WR_HOY_COPY__", f"{wr_hoy_copy:.1f}")
+    html_content = html_content.replace("__WR_ESTRAT_COPY__", f"{win_rate_estrat_copy:.1f}")
+    html_content = html_content.replace("__N_TP_COPY__", str(n_tp_copy))
+    html_content = html_content.replace("__N_SL_COPY__", str(n_sl_copy))
+    html_content = html_content.replace("__TP_SL_RATIO_COPY__", tp_sl_ratio_copy)
+    html_content = html_content.replace("__MAX_DRAWDOWN_COPY__", f"{max_drawdown_copy:.1f}")
+    html_content = html_content.replace("__CURRENT_DRAWDOWN_COPY__", f"{current_drawdown_copy:.1f}")
+    html_content = html_content.replace("__DUR_GLOBAL_COPY__", f"{avg_dur_global_h:.1f}")
+    html_content = html_content.replace("__DUR_WIN_COPY__", f"{avg_dur_win_h:.1f}")
+    html_content = html_content.replace("__DUR_LOSS_COPY__", f"{avg_dur_loss_h:.1f}")
+    html_content = html_content.replace("__SEÑAL_DOMINANTE_COPY__", senal_dom)
+
+    # Dynamic sizing replacements
+    html_content = html_content.replace("__PCT_DEF__", f"{pct_def:.1f}")
+    html_content = html_content.replace("__PCT_BAL__", f"{pct_bal:.1f}")
+    html_content = html_content.replace("__PCT_ASYM__", f"{pct_asym:.1f}")
+    html_content = html_content.replace("__CNT_DEF__", str(cnt_def))
+    html_content = html_content.replace("__CNT_BAL__", str(cnt_bal))
+    html_content = html_content.replace("__CNT_ASYM__", str(cnt_asym))
+
+    # Tablas y Categorías
+    html_content = html_content.replace("__WHALES_TABLE_HTML__", whales_table_html)
+    html_content = html_content.replace("__CATEGORIAS_HTML__", categorias_html)
     html_content = html_content.replace("__WHALES_GRID_HTML__", whales_html)
+
+    # Gráficos adicionales
+    html_content = html_content.replace("__DAILY_LABELS_COPY__", json.dumps(daily_labels_copy))
+    html_content = html_content.replace("__DAILY_PNL_COPY__", json.dumps(daily_pnl_copy))
+    html_content = html_content.replace("__DAILY_COLORS_COPY__", json.dumps(daily_colors_copy))
+    html_content = html_content.replace("__DRAWDOWN_SERIES_COPY__", json.dumps(drawdown_series_copy if 'drawdown_series_copy' in locals() else []))
+    html_content = html_content.replace("__ROLLING_WR_SERIES_COPY__", json.dumps(rolling_wr_series_copy if 'rolling_wr_series_copy' in locals() else []))
     html_content = html_content.replace("__OPS_ABIERTAS_COPY_HTML__", ops_abiertas_copy_html)
     html_content = html_content.replace("__OPS_CERRADAS_COPY_HTML__", ops_cerradas_copy_html)
 

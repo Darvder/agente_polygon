@@ -79,6 +79,33 @@ PATRONES_EXCLUIR = [
     "finish in 2nd place","finish in 1st place","finish in 3rd place",
 ]
 
+# ── Blindaje contra Deportes y Esports (Reservados para Copy-Trader) ──────
+PATRONES_DEPORTES_EXACTOS = [
+    # Esports
+    r'\besports\b', r'\bdota\b', r'\bleague of legends\b', r'\blol\b', r'\bcs:go\b', r'\bcs2\b',
+    r'\bcounter-strike\b', r'\bvalorant\b', r'\boverwatch\b', r'\bpgl\b', r'\bblast\b', r'\biem\b',
+    r'\besl\b', r'\blec\b', r'\blck\b', r'\blpl\b', r'\bvct\b', r'\bbo[135]\b',
+    # Mercados típicos de apuestas deportivas en vivo
+    r'\bvs\.?\b', r'\bo/u\b', r'\bover/under\b', r'\bspread:\b', r'\bhandicap\b', r'\b1st half\b',
+    r'\b2nd half\b', r'\bhalftime\b', r'\bmap [12345]\b', r'\bmatch winner\b',
+    # Ligas y deportes tradicionales
+    r'\bnba\b', r'\bnfl\b', r'\bnhl\b', r'\bmlb\b', r'\bmls\b', r'\bfifa\b', r'\buefa\b',
+    r'\bpremier league\b', r'\bla liga\b', r'\bserie a\b', r'\bbundesliga\b', r'\bligue 1\b',
+    r'\bliga mx\b', r'\blibertadores\b', r'\bsuper bowl\b', r'\bchampions league\b',
+    r'\bballon d\'?or\b', r'\bufc\b', r'\bformula 1\b', r'\bf1\b', r'\bgrand prix\b',
+    r'\batp\b', r'\bwta\b',
+    # Marcadores de clubes de fútbol
+    r'\bfc\b', r'\bcf\b', r'\binter miami\b',
+]
+
+def es_deporte_o_esport(pregunta):
+    """Detecta si un mercado corresponde a deportes o esports para proteger el LLM."""
+    q = str(pregunta).lower()
+    for pat in PATRONES_DEPORTES_EXACTOS:
+        if re.search(pat, q):
+            return True, pat
+    return False, None
+
 ARCHIVO_LIBRO  = "datos_polymarket/paper_trading/libro_hibrido.csv"
 ARCHIVO_ESTADO = "datos_polymarket/paper_trading/estado_hibrido.json"
 
@@ -129,15 +156,29 @@ RESPONDE SOLO con este JSON (sin markdown, sin texto adicional):
 
 # Cerrar inactivas __________________________________________________
 def cerrar_inactivas(df, estado):
-    """Cierra posiciones donde el mercado no se ha movido (vol implícita = 0)."""
+    """Cierra posiciones donde el mercado no se ha movido tras un periodo prolongado (>= 48h)."""
     if df.empty: return df, 0
     cerradas = 0
+    ahora = datetime.now()
     for idx, pos in df[df["estado"] == "ABIERTA"].iterrows():
+        # Blindaje: dar al menos 48h de maduración a la tesis antes de evaluar inactividad
+        f_in = pos.get("fecha_entrada_dt", "")
+        if f_in and str(f_in) != "nan":
+            try:
+                dt_in = datetime.strptime(str(f_in)[:16], "%Y-%m-%d %H:%M")
+                horas_abierta = (ahora - dt_in).total_seconds() / 3600
+                if horas_abierta < 48.0:
+                    continue
+            except:
+                continue
+        else:
+            continue
+
         pte = float(pos["precio_token_entrada"])
         pta = float(pos["precio_actual"])
         if pte == 0: continue
         pct = (pta - pte) / pte
-        # Si precio no se movió nada desde entrada → cerrar
+        # Si precio no se movió nada tras 48h → cerrar
         if abs(pct) < 0.001:
             pnl = round(float(pos["monto_usdc"]) * pct, 2)
             df.loc[idx, "estado"]            = "CERRADA"
@@ -145,11 +186,11 @@ def cerrar_inactivas(df, estado):
             df.loc[idx, "pct_cambio"]        = round(pct, 4)
             df.loc[idx, "pnl_realizado"]     = pnl
             df.loc[idx, "razon_cierre"]      = "INACTIVA"
-            df.loc[idx, "fecha_cierre_real"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+            df.loc[idx, "fecha_cierre_real"] = ahora.strftime("%Y-%m-%d %H:%M")
             estado["capital_actual"]    = estado.get("capital_actual", 1000.0) + float(pos["monto_usdc"]) + pnl
             estado["capital_en_riesgo"] = max(0, estado.get("capital_en_riesgo", 0) - float(pos["monto_usdc"]))
             cerradas += 1
-            log.info(f"🔒 [INACTIVA] {pos['pregunta'][:45]} | Precio sin movimiento → capital liberado")
+            log.info(f"🔒 [INACTIVA] {pos['pregunta'][:45]} | Sin movimiento tras {horas_abierta:.1f}h → capital liberado")
     guardar_libro(df)
     return df, cerradas
 
@@ -198,6 +239,9 @@ def _procesar_mercado_crudo(m, hoy):
         
     if any(p in q.lower() for p in PATRONES_EXCLUIR):
         return None
+    es_dep, _ = es_deporte_o_esport(q)
+    if es_dep:
+        return None
     try:
         bid = float(m.get("bestBid", 0))
         ask = float(m.get("bestAsk", 0))
@@ -244,6 +288,9 @@ def _procesar_mercado_prioritario(m, hoy):
     if group_title and group_title.strip().lower() not in q.lower():
         q = f"{q} [{group_title}]"
     if any(p in q.lower() for p in PATRONES_EXCLUIR):
+        return None
+    es_dep, _ = es_deporte_o_esport(q)
+    if es_dep:
         return None
     try:
         bid = float(m.get("bestBid", 0))
@@ -315,6 +362,11 @@ def cargar_prioritarios(mercados):
     for item in queue_a_evaluar:
         mid = str(item.get("id"))
         if not mid or mid == "None":
+            continue
+        preg = str(item.get("pregunta", ""))
+        es_dep, motivo = es_deporte_o_esport(preg)
+        if es_dep:
+            log.info(f"🚫 [PRIORIDAD] Omitiendo mercado de deporte/esport del queue: {preg[:40]} ({motivo})")
             continue
         if mid in ids_vistos:
             continue
@@ -513,7 +565,8 @@ def verificar_salidas(df, estado, mercados_actuales):
                     pass
 
             if not is_active:
-                if h >= float(pos.get("horas_max", 6)):
+                h_inactivo_max = max(48.0, float(pos.get("horas_max", 48.0)))
+                if h >= h_inactivo_max:
                     val_actual = pos.get("precio_actual")
                     if pd.isna(val_actual) or val_actual is None:
                         precio_token_actual = float(pos["precio_token_entrada"])
@@ -540,7 +593,7 @@ def verificar_salidas(df, estado, mercados_actuales):
                 razon = None
                 tp_pos = float(pos.get("tp_dinamico", 0.09))
                 sl_pos = float(pos.get("sl_dinamico", -0.07))
-                h_max = float(pos.get("horas_max", 6))
+                h_max = max(48.0, float(pos.get("horas_max", 48.0)))
                 
                 is_pri_trade = m_id in copy_market_ids
                 
@@ -569,9 +622,13 @@ def verificar_salidas(df, estado, mercados_actuales):
                     elif pct <= sl_efectivo: 
                         razon = "STOP_LOSS"
                         estado["n_sl"] = estado.get("n_sl", 0) + 1
-                    elif h >= h_max:    
-                        razon = "TIME_EXIT"
-                        estado["n_time"] = estado.get("n_time", 0) + 1
+                    elif h >= h_max:
+                        # Si el precio se mantiene neutral (|pct| < 2%), evitar regalar el spread cerrando por tiempo
+                        if abs(pct) < 0.02 and h < (h_max * 1.5):
+                            pass
+                        else:
+                            razon = "TIME_EXIT"
+                            estado["n_time"] = estado.get("n_time", 0) + 1
 
             if razon:
                 pnl = round(float(pos["monto_usdc"]) * pct, 2)
@@ -707,9 +764,10 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             log.info(f"⏭️ {nombre_m} | Saltado: Ya existe posición ABIERTA.")
             return None
 
-        # 1.5 Filtro de Categoría: Descartar esports en el Híbrido (reservado exclusivamente para Copy-Trader)
-        if get_categoria(m["pregunta"]) == "esports":
-            log.info(f"⏭️ {nombre_m} | Categoría 'esports' descartada en el Híbrido (operado por Copy-Trader).")
+        # 1.5 Filtro de Categoría: Descartar deportes y esports en el Híbrido (reservados para Copy-Trader)
+        es_dep, motivo_dep = es_deporte_o_esport(m["pregunta"])
+        if es_dep or get_categoria(m["pregunta"]) in ("esports", "deportes", "futbol"):
+            log.info(f"⏭️ {nombre_m} | Deporte/Esport descartado en el Híbrido ({motivo_dep or 'categoria'}).")
             return None
 
         # 2. Event Detector
@@ -719,14 +777,25 @@ async def procesar_mercado(m, df, estado, vol_engine, bayesian, ev_detector, cli
             return None
 
         # 3. Volatilidad ANTES de Groq (relajado para aprendizaje activo)
-        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        tp, sl, max_h_vol, met = vol_engine.get_params(m["id"], m["dias"])
         MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
         if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
             log.info(f"❌ {nombre_m} | Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
             return None
 
+        # Horizonte de mantención extendido adaptado a la duración del evento
+        dias_mkt = float(m.get("dias", 30))
+        if dias_mkt >= 30:
+            max_h = 240.0   # 10 días para elecciones / macro / finanzas
+        elif dias_mkt >= 7:
+            max_h = 120.0   # 5 días para eventos semanales
+        elif dias_mkt >= 2:
+            max_h = 48.0    # 2 días para mercados de varios días
+        else:
+            max_h = max(16.0, dias_mkt * 24.0)
+
     if is_prioritario:
-        max_h = 24
+        max_h = max(max_h, 72.0)
 
     # Inyectar momentum real al mercado para el prompt del LLM
     m["cambio_1h"] = met.get("cambio_1h", 0.0) if met else 0.0
@@ -1104,9 +1173,10 @@ async def ciclo():
             log.info(f"⏭️ {nombre_m} | Pre-Filtrado: Ya existe posición ABIERTA.")
             continue
 
-        # A2. Categoría: Descartar esports en el Híbrido (operado exclusivamente por Copy-Trader)
-        if get_categoria(m["pregunta"]) == "esports":
-            log.info(f"⏭️ {nombre_m} | Pre-Filtrado: Categoría 'esports' descartada del Híbrido.")
+        # A2. Categoría: Descartar deportes y esports en el Híbrido (operado por Copy-Trader)
+        es_dep, motivo_dep = es_deporte_o_esport(m["pregunta"])
+        if es_dep or get_categoria(m["pregunta"]) in ("esports", "deportes", "futbol"):
+            log.info(f"⏭️ {nombre_m} | Pre-Filtrado: Deporte/Esport descartado ({motivo_dep or 'categoria'}).")
             continue
             
         # B. Event Detector
@@ -1116,12 +1186,23 @@ async def ciclo():
             continue
             
         # C. Volatilidad (relajado para aprendizaje activo)
-        tp, sl, max_h, met = vol_engine.get_params(m["id"], m["dias"])
+        tp, sl, max_h_vol, met = vol_engine.get_params(m["id"], m["dias"])
         MIN_VOL_1D = 0.0001; MIN_RANGO = 0.001
         if met and (met.get("vol_1d", 0) < MIN_VOL_1D and met.get("rango", 0) < MIN_RANGO):
             log.info(f"❌ {nombre_m} | Pre-Filtrado - Inactivo (vol={met['vol_1d']:.4f}, rango={met['rango']:.3f})")
             continue
             
+        # Horizonte extendido según días de vencimiento
+        dias_mkt = float(m.get("dias", 30))
+        if dias_mkt >= 30:
+            max_h = 240.0   # 10 días para elecciones / macro / finanzas
+        elif dias_mkt >= 7:
+            max_h = 120.0   # 5 días para eventos semanales
+        elif dias_mkt >= 2:
+            max_h = 48.0    # 2 días para mercados de varios días
+        else:
+            max_h = max(16.0, dias_mkt * 24.0)
+
         # Almacenar en el diccionario del mercado para reuso instantáneo
         m["_vol_tp"] = tp
         m["_vol_sl"] = sl
