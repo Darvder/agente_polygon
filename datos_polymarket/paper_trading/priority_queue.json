@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4782105",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 26\u00b0C on September 23?",
+    "ts": "2026-09-22T20:13:49.890769",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x980b778659bb90ea06d1019eb2883786f8cb4f24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782106",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 27\u00b0C on September 23?",
+    "ts": "2026-09-22T20:13:50.966730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x980b778659bb90ea06d1019eb2883786f8cb4f24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4464920",
+    "pregunta": "Will Norway win on 2026-09-24?",
+    "ts": "2026-09-22T20:13:52.744364",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  }
+]
