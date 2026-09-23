@@ -1,58 +1,50 @@
 [
   {
-    "id": "4838671",
-    "pregunta": "Will the highest temperature in Mexico City be 26\u00b0C on September 24?",
-    "ts": "2026-09-23T03:12:22.048862",
+    "id": "4852909",
+    "pregunta": "M25 Sharm ElSheikh: Marwan Ehab vs Nicola Senn",
+    "ts": "2026-09-23T03:23:05.734549",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4217156",
-    "pregunta": "Will the September 2026 unemployment rate be 4.1%?",
-    "ts": "2026-09-23T03:12:23.978587",
+    "id": "4834165",
+    "pregunta": "M25 Yinchuan: Nick Beamish vs Kazuki Nakajima",
+    "ts": "2026-09-23T03:23:06.907570",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3008012",
-    "pregunta": "Will Anthropic have the best Code Arena | WebDev AI at the end of September 2026?",
-    "ts": "2026-09-23T03:12:25.151126",
+    "id": "4852912",
+    "pregunta": "M25 Sharm ElSheikh: Karim Ibrahim vs Anton Arzhankin",
+    "ts": "2026-09-23T03:23:08.088852",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3008013",
-    "pregunta": "Will OpenAI have the best Code Arena | WebDev AI at the end of September 2026?",
-    "ts": "2026-09-23T03:12:26.221931",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4847390",
-    "pregunta": "Dota 2: 1win vs  Pipsqueak+4 - Game 1 Winner",
-    "ts": "2026-09-23T03:12:28.053937",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc8ce613812090420010e8193507160fd8dc678",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4845555",
     "pregunta": "Hangzhou Open, Qualification: Bernard Tomic vs Fajing Sun",
-    "ts": "2026-09-23T03:12:29.107984",
+    "ts": "2026-09-23T03:23:09.171487",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc8ce613812090420010e8193507160fd8dc678",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4837319",
-    "pregunta": "Chengdu Open, Qualification: Shintaro Mochizuki vs Pavel Kotov",
-    "ts": "2026-09-23T03:12:30.172708",
+    "id": "4852922",
+    "pregunta": "M25 Pardubice: Borys Zgola vs David Petrofsky",
+    "ts": "2026-09-23T03:23:10.340241",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc8ce613812090420010e8193507160fd8dc678",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4852926",
+    "pregunta": "M25 Sabadell: TIM Handel vs Pedro Vives Marcos",
+    "ts": "2026-09-23T03:23:11.523096",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
     "whale_signal": "COMPRAR NO"
   }
 ]
