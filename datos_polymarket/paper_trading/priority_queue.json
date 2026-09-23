@@ -1,10 +1,26 @@
 [
   {
-    "id": "4806736",
-    "pregunta": "Spread: Texas Rangers (-1.5)",
-    "ts": "2026-09-22T19:03:25.895304",
+    "id": "4823908",
+    "pregunta": "Minnesota Lynx vs. Indiana Fever: O/U 187.5",
+    "ts": "2026-09-22T19:14:26.965530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613517",
+    "pregunta": "Washington Nationals vs. Detroit Tigers",
+    "ts": "2026-09-22T19:14:28.014244",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4378025",
+    "pregunta": "Will Crici\u00fama EC vs. Oper\u00e1rio Ferrovi\u00e1rio EC end in a draw?",
+    "ts": "2026-09-22T19:14:29.085473",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
