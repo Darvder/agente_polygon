@@ -1,42 +1,10 @@
 [
   {
-    "id": "4613549",
-    "pregunta": "San Diego Padres vs. Los Angeles Dodgers",
-    "ts": "2026-09-22T23:03:03.188586",
+    "id": "4613542",
+    "pregunta": "Los Angeles Angels vs. Athletics",
+    "ts": "2026-09-22T23:14:25.036643",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4400849",
-    "pregunta": "Golden State Valkyries vs. Portland Fire",
-    "ts": "2026-09-22T23:03:04.240310",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4764001",
-    "pregunta": "San Diego 2: Keaton Hance vs Andres Martin",
-    "ts": "2026-09-22T23:03:05.325614",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4836295",
-    "pregunta": "Korea Open: Lanlana Tararudee vs So-Hyun Park",
-    "ts": "2026-09-22T23:03:06.368681",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4786549",
-    "pregunta": "Korea Open: Kamilla Rakhimova vs Katie Volynets",
-    "ts": "2026-09-22T23:03:07.422430",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
+    "whale_wallet": "0x40e9808592e9458f7a26a3f272960290f3b8494f",
     "whale_signal": "COMPRAR NO"
   }
 ]
