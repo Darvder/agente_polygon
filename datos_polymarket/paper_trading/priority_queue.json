@@ -1,34 +1,10 @@
 [
   {
-    "id": "4764003",
-    "pregunta": "San Diego 2: Darwin Blanch vs J.J. Wolf",
-    "ts": "2026-09-22T21:03:21.392622",
+    "id": "4417271",
+    "pregunta": "Will AD Cali win on 2026-09-22?",
+    "ts": "2026-09-22T21:12:36.969960",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x413d1ff09fa67c08d9bf295ea4804a26cc02d704",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4830291",
-    "pregunta": "San Diego 2: Timo Legout vs Daniel Milavsky",
-    "ts": "2026-09-22T21:03:22.438828",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x413d1ff09fa67c08d9bf295ea4804a26cc02d704",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613533",
-    "pregunta": "Miami Marlins vs. Chicago Cubs",
-    "ts": "2026-09-22T21:03:23.488521",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x413d1ff09fa67c08d9bf295ea4804a26cc02d704",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613542",
-    "pregunta": "Los Angeles Angels vs. Athletics",
-    "ts": "2026-09-22T21:03:24.539552",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x413d1ff09fa67c08d9bf295ea4804a26cc02d704",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
