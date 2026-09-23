@@ -1,34 +1,18 @@
 [
   {
-    "id": "4822928",
-    "pregunta": "Toronto Tempo vs. Chicago Sky: O/U 178.5",
-    "ts": "2026-09-22T19:35:46.905078",
+    "id": "4613531",
+    "pregunta": "Cincinnati Reds vs. Atlanta Braves",
+    "ts": "2026-09-22T19:45:28.381064",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4400847",
-    "pregunta": "Toronto Tempo vs. Chicago Sky",
-    "ts": "2026-09-22T19:35:47.986196",
+    "id": "4613527",
+    "pregunta": "Cleveland Guardians vs. Boston Red Sox",
+    "ts": "2026-09-22T19:45:29.528677",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4492837",
-    "pregunta": "Will France win on 2026-09-25?",
-    "ts": "2026-09-22T19:35:49.963928",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4826140",
-    "pregunta": "Spread: Golden State Valkyries (-14.5)",
-    "ts": "2026-09-22T19:35:51.062267",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
