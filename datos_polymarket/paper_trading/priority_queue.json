@@ -1,10 +1,26 @@
 [
   {
-    "id": "4794156",
-    "pregunta": "Counter-Strike: QUAZAR vs Misa Esports (BO3) - European Pro League Series 9 Playoffs",
-    "ts": "2026-09-23T02:52:38.074002",
+    "id": "4847391",
+    "pregunta": "Dota 2: 1win vs  Pipsqueak+4 - Game 2 Winner",
+    "ts": "2026-09-23T03:02:55.406539",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xad093959e7bcddc466fc0e7920ad405d3c603c3f",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4847390",
+    "pregunta": "Dota 2: 1win vs  Pipsqueak+4 - Game 1 Winner",
+    "ts": "2026-09-23T03:02:58.069673",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ba3a7a502103c9ef676f74db134d39d28f924b4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4794334",
+    "pregunta": "LoL: ZSK vs Galions (BO1) - World Star Challengers Invitational Group D",
+    "ts": "2026-09-23T03:02:59.927362",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d83cf0df9e698eddbcdc199378980b1f837272c",
     "whale_signal": "COMPRAR NO"
   }
 ]
