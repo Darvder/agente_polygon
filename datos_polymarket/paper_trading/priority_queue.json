@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4400849",
+    "pregunta": "Golden State Valkyries vs. Portland Fire",
+    "ts": "2026-09-22T23:32:36.961019",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x532f334c56d35bd9122aaf296983faf6e2b6e626",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2244109",
+    "pregunta": "Will Hyperliquid perform an airdrop by June 30, 2027?",
+    "ts": "2026-09-22T23:32:38.867544",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8a5189f973df5e33ada6aefea1dca23ce5a451a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "622738",
+    "pregunta": "Will Hyperliquid perform an airdrop by December 31, 2026? ",
+    "ts": "2026-09-22T23:32:40.022367",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8a5189f973df5e33ada6aefea1dca23ce5a451a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613542",
+    "pregunta": "Los Angeles Angels vs. Athletics",
+    "ts": "2026-09-22T23:32:42.541213",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
