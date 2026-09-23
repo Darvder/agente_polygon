@@ -1,26 +1,58 @@
 [
   {
-    "id": "4847391",
-    "pregunta": "Dota 2: 1win vs  Pipsqueak+4 - Game 2 Winner",
-    "ts": "2026-09-23T03:02:55.406539",
+    "id": "4838671",
+    "pregunta": "Will the highest temperature in Mexico City be 26\u00b0C on September 24?",
+    "ts": "2026-09-23T03:12:22.048862",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_wallet": "0xc82459a8b18522a8a9df056fb8ded5faf52a5e0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4217156",
+    "pregunta": "Will the September 2026 unemployment rate be 4.1%?",
+    "ts": "2026-09-23T03:12:23.978587",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3008012",
+    "pregunta": "Will Anthropic have the best Code Arena | WebDev AI at the end of September 2026?",
+    "ts": "2026-09-23T03:12:25.151126",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3008013",
+    "pregunta": "Will OpenAI have the best Code Arena | WebDev AI at the end of September 2026?",
+    "ts": "2026-09-23T03:12:26.221931",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4847390",
     "pregunta": "Dota 2: 1win vs  Pipsqueak+4 - Game 1 Winner",
-    "ts": "2026-09-23T03:02:58.069673",
+    "ts": "2026-09-23T03:12:28.053937",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5ba3a7a502103c9ef676f74db134d39d28f924b4",
+    "whale_wallet": "0xfdc8ce613812090420010e8193507160fd8dc678",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4794334",
-    "pregunta": "LoL: ZSK vs Galions (BO1) - World Star Challengers Invitational Group D",
-    "ts": "2026-09-23T03:02:59.927362",
+    "id": "4845555",
+    "pregunta": "Hangzhou Open, Qualification: Bernard Tomic vs Fajing Sun",
+    "ts": "2026-09-23T03:12:29.107984",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0d83cf0df9e698eddbcdc199378980b1f837272c",
+    "whale_wallet": "0xfdc8ce613812090420010e8193507160fd8dc678",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4837319",
+    "pregunta": "Chengdu Open, Qualification: Shintaro Mochizuki vs Pavel Kotov",
+    "ts": "2026-09-23T03:12:30.172708",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc8ce613812090420010e8193507160fd8dc678",
     "whale_signal": "COMPRAR NO"
   }
 ]
