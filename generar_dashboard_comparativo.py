@@ -2691,23 +2691,24 @@ function cambiarLimiteCopy(val) {
 
 function exportarCsvCopy() {
   const rows = document.querySelectorAll('#tablaCopyBody tr');
-  let csvContent = "data:text/csv;charset=utf-8,Fecha,Mercado,Resultado,Monto_USDC,PnL_USDC,Salida\n";
-  rows.forEach(r => {
-    const cols = r.querySelectorAll('td');
+  let csv = 'Fecha,Mercado,Resultado,Monto_USDC,PnL_USDC,Salida\\n';
+  for (let i = 0; i < rows.length; i++) {
+    const cols = rows[i].querySelectorAll('td');
     if (cols.length >= 6) {
       const fecha = cols[0].textContent.trim();
-      const mercado = '"' + cols[1].textContent.trim().replace(/"/g, '""') + '"';
+      const mercado = cols[1].textContent.trim().replace(/"/g, '');
       const res = cols[2].textContent.trim();
       const monto = cols[3].textContent.trim().replace('$', '').replace(/,/g, '');
       const pnl = cols[4].textContent.trim().replace('$', '').replace('+', '').replace(/,/g, '');
       const salida = cols[5].textContent.trim();
-      csvContent += `${fecha},${mercado},${res},${monto},${pnl},${salida}\n`;
+      csv += [fecha, '"' + mercado + '"', res, monto, pnl, salida].join(',') + '\\n';
     }
-  });
-  const encodedUri = encodeURI(csvContent);
-  const link = document.createElement("a");
-  link.setAttribute("href", encodedUri);
-  link.setAttribute("download", `polymarket_copy_trades_${new Date().toISOString().slice(0,10)}.csv`);
+  }
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'polymarket_copy_trades.csv';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
