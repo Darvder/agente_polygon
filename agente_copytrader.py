@@ -60,7 +60,7 @@ DEFAULT_CONFIG = {
     ],
     "enable_dynamic_whales": True,
     "dynamic_whale_limit": 5,
-    "max_positions": 20,
+    "max_positions": 35,
     "max_positions_per_wallet": 5,
     "min_capital_per_trade": 8.0,
     "max_capital_per_trade": 25.0,
@@ -341,7 +341,7 @@ async def procesar_copy_trading():
             log.info(f"🐋 [WHALE DISCOVERY] {len(ballenas_dinamicas)} ballenas activas en vivo ({nuevas_agregadas} nuevas para este ciclo). Total wallets a explorar: {len(wallets)}")
     capital_por_op = config.get("capital_per_trade", 25.0)
     max_slippage = config.get("max_slippage", 0.06)
-    max_posiciones = config.get("max_positions", 20)
+    max_posiciones = config.get("max_positions", 35)
     max_posiciones_por_wallet = config.get("max_positions_per_wallet", 5)
     min_precio_config = config.get("min_price", 0.15)
     max_precio_config = config.get("max_price", 0.85)
