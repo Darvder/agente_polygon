@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "id": "4824133",
+    "pregunta": "San Diego Padres vs. Los Angeles Dodgers: O/U 8.5",
+    "ts": "2026-09-22T22:02:17.603646",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbac4ab50a9059b89131cf7bad38bb12c031586db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613545",
+    "pregunta": "Houston Astros vs. Seattle Mariners",
+    "ts": "2026-09-22T22:02:18.655296",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbac4ab50a9059b89131cf7bad38bb12c031586db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801431",
+    "pregunta": "Spread: Seattle Mariners (-1.5)",
+    "ts": "2026-09-22T22:02:19.701294",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbac4ab50a9059b89131cf7bad38bb12c031586db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4853984",
+    "pregunta": "W50 Yecla: Valentina Ivanov vs Tiphanie Lemaitre",
+    "ts": "2026-09-22T22:02:20.761743",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbac4ab50a9059b89131cf7bad38bb12c031586db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4869829",
+    "pregunta": "New York Mets vs. Texas Rangers: O/U 9.5",
+    "ts": "2026-09-22T22:02:21.815909",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbac4ab50a9059b89131cf7bad38bb12c031586db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4839367",
+    "pregunta": "W50 Nanao: Jia-Jing Lu vs Cheuk Ying Shek",
+    "ts": "2026-09-22T22:02:22.859637",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbac4ab50a9059b89131cf7bad38bb12c031586db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4806800",
+    "pregunta": "Spread: Texas Rangers (-2.5)",
+    "ts": "2026-09-22T22:02:24.675607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed38d810b127567c6f63021ac2ef9224b12274c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801432",
+    "pregunta": "Houston Astros vs. Seattle Mariners: O/U 7.5",
+    "ts": "2026-09-22T22:02:25.719538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed38d810b127567c6f63021ac2ef9224b12274c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4870257",
+    "pregunta": "Los Angeles Angels vs. Athletics: O/U 12.5",
+    "ts": "2026-09-22T22:02:26.777556",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed38d810b127567c6f63021ac2ef9224b12274c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782193",
+    "pregunta": "Will the highest temperature in Shanghai be 29\u00b0C on September 23?",
+    "ts": "2026-09-22T22:02:29.281457",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4e09376dd01697fc4e2e7d298652422772f77e2a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4782192",
+    "pregunta": "Will the highest temperature in Shanghai be 28\u00b0C on September 23?",
+    "ts": "2026-09-22T22:02:30.326070",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4e09376dd01697fc4e2e7d298652422772f77e2a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
