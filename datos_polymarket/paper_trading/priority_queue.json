@@ -1,26 +1,42 @@
 [
   {
-    "id": "4847847",
-    "pregunta": "Map Handicap: FNC (-1.5) vs Just Players (+1.5)",
-    "ts": "2026-09-24T07:13:09.705293",
+    "id": "4466882",
+    "pregunta": "Counter-Strike: Betclic Apogee Esports vs ASTRAL - Map 2 Winner",
+    "ts": "2026-09-24T07:22:56.353653",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x986be7dad5e37d603d7eb335da46fc89a89e56ef",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4883267",
-    "pregunta": "Game Handicap: AUR (-1.5) vs GamerLegion (+1.5)",
-    "ts": "2026-09-24T07:13:10.781584",
+    "id": "4883119",
+    "pregunta": "St. Tropez (Doubles): Arneodo/Kittay vs Grevelius/Heinonen",
+    "ts": "2026-09-24T07:22:57.546404",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x986be7dad5e37d603d7eb335da46fc89a89e56ef",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4883245",
+    "pregunta": "Dota 2: Natus Vincere vs LGD Gaming (BO3) - PGL Wallachia Playoffs",
+    "ts": "2026-09-24T07:22:58.646257",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889876",
+    "pregunta": "M25 Pardubice: Stepan Baum vs Jakub Vrtilka",
+    "ts": "2026-09-24T07:22:59.837652",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4466480",
     "pregunta": "Will Korea Republic win on 2026-09-24?",
-    "ts": "2026-09-24T07:13:13.334994",
+    "ts": "2026-09-24T07:23:02.018387",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   }
 ]
