@@ -1,8 +1,16 @@
 [
   {
-    "id": "4469177",
-    "pregunta": "Netherlands vs. Germany: O/U 1.5",
-    "ts": "2026-09-24T15:24:31.006679",
+    "id": "4464915",
+    "pregunta": "Will Germany win on 2026-09-24?",
+    "ts": "2026-09-24T15:31:58.139262",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4464914",
+    "pregunta": "Will Netherlands vs. Germany end in a draw?",
+    "ts": "2026-09-24T15:31:59.244428",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
