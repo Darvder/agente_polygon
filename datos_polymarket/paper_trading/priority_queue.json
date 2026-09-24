@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2047245",
+    "pregunta": "Will Angel Reese win the 2026 WNBA Defensive Player of the Year award?",
+    "ts": "2026-09-24T10:52:13.822077",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3950654",
+    "pregunta": "Will Lando Norris win the 2026 F1 Azerbaijan Grand Prix?",
+    "ts": "2026-09-24T10:52:14.897607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
