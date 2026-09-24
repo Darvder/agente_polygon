@@ -1,26 +1,42 @@
 [
   {
-    "id": "4883264",
-    "pregunta": "Dota 2: Aurora vs GamerLegion - Game 2 Winner",
-    "ts": "2026-09-24T10:12:27.968064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x54ac698b73ded7cba348bec6a8a9af0299ee47e6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4906794",
     "pregunta": "Counter-Strike: Eternal Fire vs ASTRAL - Map 2 Winner",
-    "ts": "2026-09-24T10:12:29.025246",
+    "ts": "2026-09-24T10:22:18.851683",
     "origen": "whale_copytrader",
     "whale_wallet": "0x54ac698b73ded7cba348bec6a8a9af0299ee47e6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4617702",
-    "pregunta": "Counter-Strike: INFURITY Gaming vs Diamant Esports - Map 2 Winner",
-    "ts": "2026-09-24T10:12:30.244767",
+    "id": "4847866",
+    "pregunta": "Counter-Strike: CYBERSHOKE Esports vs K27 - Map 1 Winner",
+    "ts": "2026-09-24T10:22:19.902143",
     "origen": "whale_copytrader",
     "whale_wallet": "0x54ac698b73ded7cba348bec6a8a9af0299ee47e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4847870",
+    "pregunta": "Counter-Strike: CYBERSHOKE Esports vs K27 (BO3) - Stake Ranked Episode 5: Closed Qualifier Playoffs",
+    "ts": "2026-09-24T10:22:20.946637",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54ac698b73ded7cba348bec6a8a9af0299ee47e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906786",
+    "pregunta": "Counter-Strike: JiJieHao vs Betclic Apogee Esports - Map 2 Winner",
+    "ts": "2026-09-24T10:22:21.999669",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54ac698b73ded7cba348bec6a8a9af0299ee47e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4894654",
+    "pregunta": "Counter-Strike: MIBR fe vs Damajuana (BO3) - CCT South America Series 6 Group Stage",
+    "ts": "2026-09-24T10:22:23.999375",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83795f098b98e487f483503f2493a53c50793c91",
     "whale_signal": "COMPRAR NO"
   }
 ]
