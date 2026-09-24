@@ -1,10 +1,42 @@
 [
   {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-09-24T16:21:55.384148",
+    "id": "4897539",
+    "pregunta": "W50 Berkeley, CA: Hanna Chang vs Alina Shcherbinina",
+    "ts": "2026-09-24T16:33:48.246500",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3a4246441a482622bb2006536b31f0f56e54b3b8",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867894",
+    "pregunta": "Buenos Aires 2: Juan Carlos Prado vs Valerio Aboian",
+    "ts": "2026-09-24T16:33:49.292922",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4897552",
+    "pregunta": "W50 Berkeley, CA: Yara Bartashevich vs Anna Rogers",
+    "ts": "2026-09-24T16:33:50.342579",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4897550",
+    "pregunta": "W50 Berkeley, CA: Emma Kamper vs Carson Branstine",
+    "ts": "2026-09-24T16:33:51.472968",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4894837",
+    "pregunta": "San Diego 2: Darwin Blanch vs Andres Andrade",
+    "ts": "2026-09-24T16:33:52.529799",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   }
 ]
