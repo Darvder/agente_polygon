@@ -1,10 +1,26 @@
 [
   {
-    "id": "4883245",
-    "pregunta": "Dota 2: Natus Vincere vs LGD Gaming (BO3) - PGL Wallachia Playoffs",
-    "ts": "2026-09-24T07:02:29.500664",
+    "id": "4847847",
+    "pregunta": "Map Handicap: FNC (-1.5) vs Just Players (+1.5)",
+    "ts": "2026-09-24T07:13:09.705293",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0x986be7dad5e37d603d7eb335da46fc89a89e56ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4883267",
+    "pregunta": "Game Handicap: AUR (-1.5) vs GamerLegion (+1.5)",
+    "ts": "2026-09-24T07:13:10.781584",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x986be7dad5e37d603d7eb335da46fc89a89e56ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4466480",
+    "pregunta": "Will Korea Republic win on 2026-09-24?",
+    "ts": "2026-09-24T07:13:13.334994",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
