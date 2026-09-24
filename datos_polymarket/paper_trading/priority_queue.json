@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "4852183",
+    "pregunta": "1H Spread: Commanders (-2.5)",
+    "ts": "2026-09-24T15:52:35.459229",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723692",
+    "pregunta": "Los Angeles Dodgers vs. San Francisco Giants",
+    "ts": "2026-09-24T15:52:36.522563",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889024",
+    "pregunta": "Tampa Bay Rays vs. New York Yankees: 1st 5 Innings O/U 3.5",
+    "ts": "2026-09-24T15:52:37.763846",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4524945",
+    "pregunta": "Will United States win on 2026-09-26?",
+    "ts": "2026-09-24T15:52:38.831479",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4475563",
+    "pregunta": "Australia vs. Brazil: O/U 1.5",
+    "ts": "2026-09-24T15:52:39.935360",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4884203",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $90 in September?",
+    "ts": "2026-09-24T15:52:41.130452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3748377",
+    "pregunta": "Will Ethereum hit $3k by December 31, 2026?",
+    "ts": "2026-09-24T15:52:42.204327",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  }
+]
