@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4469246",
+    "pregunta": "Andorra vs. Malta: O/U 2.5",
+    "ts": "2026-09-24T11:52:06.749067",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4464907",
+    "pregunta": "Will Malta win on 2026-09-24?",
+    "ts": "2026-09-24T11:52:07.815100",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4464921",
+    "pregunta": "Will Norway vs. Denmark end in a draw?",
+    "ts": "2026-09-24T11:52:08.871953",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
