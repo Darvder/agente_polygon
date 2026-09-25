@@ -1,26 +1,18 @@
 [
   {
-    "id": "4757370",
-    "pregunta": "Baltimore Orioles vs. New York Yankees",
-    "ts": "2026-09-25T15:52:33.617932",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc9e3208526a3554342652c26bec1ba2c230993f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4800490",
-    "pregunta": "Army vs. Temple",
-    "ts": "2026-09-25T15:52:35.511634",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4723670",
     "pregunta": "Baltimore Orioles vs. New York Yankees",
-    "ts": "2026-09-25T15:52:36.572203",
+    "ts": "2026-09-25T16:03:37.888561",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0x3e9f9ef866c4f864a1e8e4cc386b948e7eb63988",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4909169",
+    "pregunta": "Laver Cup (Doubles): Alcaraz/Mensik vs Bublik/Fritz",
+    "ts": "2026-09-25T16:03:39.781515",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d93bcb1bad9d0fb2f7cb774715a3f005523fdef",
     "whale_signal": "COMPRAR NO"
   }
 ]
