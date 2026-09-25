@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "4873135",
+    "pregunta": "Will the highest temperature in Hong Kong be 33\u00b0C on September 25?",
+    "ts": "2026-09-25T00:42:49.543872",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaff9effcbebb93f065f8df88e6072e8345e98e3c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
