@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4879747",
+    "pregunta": "LoL: Solary vs Galions (BO1) - World Star Challengers Invitational Group D",
+    "ts": "2026-09-25T03:12:18.938467",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4915516",
+    "pregunta": "Counter-Strike: Heroic vs fnatic - Map 1 Winner",
+    "ts": "2026-09-25T03:12:20.095878",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4731639",
+    "pregunta": "Rainbow Six Siege: CAG by VARREL vs Dplus (BO1) - Asia Pacific League APAC North - Stage 2 Group Stage",
+    "ts": "2026-09-25T03:12:21.243494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  }
+]
