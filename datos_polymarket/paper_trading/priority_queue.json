@@ -1,10 +1,26 @@
 [
   {
-    "id": "4801541",
-    "pregunta": "Clemson vs. California",
-    "ts": "2026-09-25T00:12:16.414808",
+    "id": "4926399",
+    "pregunta": "Counter-Strike: BIG Academy vs Noir Verse (BO3) - CCT Europe Closed Qualifier: Series #10 Group D",
+    "ts": "2026-09-25T00:22:59.593161",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x238b208810031f7bc51cb9f420bc0703572244eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4915680",
+    "pregunta": "Counter-Strike: Astralis vs Betclic Apogee Esports (BO3) - Stake Pulse Beat II Playoffs",
+    "ts": "2026-09-25T00:23:00.715647",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x238b208810031f7bc51cb9f420bc0703572244eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4638424",
+    "pregunta": "Counter-Strike: NRG vs Wildcard (BO3) - iBUYPOWER Masters fl0m's Mythical LAN Group A",
+    "ts": "2026-09-25T00:23:01.752937",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x238b208810031f7bc51cb9f420bc0703572244eb",
     "whale_signal": "COMPRAR NO"
   }
 ]
