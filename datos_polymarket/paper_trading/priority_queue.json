@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3235969",
+    "pregunta": "Will Germany win the 46th FIDE Chess Olympiad Open Tournament?",
+    "ts": "2026-09-25T08:52:24.749879",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8921da11356696c088f6d2dfcfdd71a4cf2e442f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3235950",
+    "pregunta": "Will Uzbekistan win the 46th FIDE Chess Olympiad Open Tournament?",
+    "ts": "2026-09-25T08:52:25.813039",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8921da11356696c088f6d2dfcfdd71a4cf2e442f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
