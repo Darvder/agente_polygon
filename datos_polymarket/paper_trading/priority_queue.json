@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4933520",
+    "pregunta": "Houston Astros vs. Athletics: O/U 12.5",
+    "ts": "2026-09-24T23:12:10.901333",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4685259",
+    "pregunta": "Houston Astros vs. Athletics",
+    "ts": "2026-09-24T23:12:11.993283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4685263",
+    "pregunta": "San Diego Padres vs. Los Angeles Dodgers",
+    "ts": "2026-09-24T23:12:13.141912",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
