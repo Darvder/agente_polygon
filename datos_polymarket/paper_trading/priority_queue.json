@@ -1,10 +1,26 @@
 [
   {
-    "id": "4727111",
-    "pregunta": "Will the price of Bitcoin be above $84,000 on September 26?",
-    "ts": "2026-09-25T15:42:25.961986",
+    "id": "4757370",
+    "pregunta": "Baltimore Orioles vs. New York Yankees",
+    "ts": "2026-09-25T15:52:33.617932",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
+    "whale_wallet": "0xc9e3208526a3554342652c26bec1ba2c230993f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4800490",
+    "pregunta": "Army vs. Temple",
+    "ts": "2026-09-25T15:52:35.511634",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723670",
+    "pregunta": "Baltimore Orioles vs. New York Yankees",
+    "ts": "2026-09-25T15:52:36.572203",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
