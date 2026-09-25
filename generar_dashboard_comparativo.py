@@ -296,6 +296,19 @@ def generar_dashboard():
     equity_hib = capital_actual_hib + pnl_flotante_hib
     pnl_net_pct_hib = ((equity_hib - capital_inicial_hib) / capital_inicial_hib) * 100
 
+    # Rendimiento Semanal Híbrido
+    pnl_7d_hib = 0.0; roi_7d_hib = 0.0; ops_7d_hib = 0; wr_7d_hib = 0.0
+    if not cerradas_hib.empty and 'fecha_dt' in cerradas_hib.columns:
+        now_dt_hib = cerradas_hib['fecha_dt'].max()
+        if pd.notna(now_dt_hib):
+            t_7d_hib = now_dt_hib - pd.Timedelta(days=7)
+            c_7d_hib = cerradas_hib[cerradas_hib['fecha_dt'] >= t_7d_hib]
+            if not c_7d_hib.empty:
+                pnl_7d_hib = float(pd.to_numeric(c_7d_hib['pnl_realizado'], errors='coerce').fillna(0.0).sum())
+                roi_7d_hib = (pnl_7d_hib / capital_inicial_hib) * 100.0
+                ops_7d_hib = len(c_7d_hib)
+                wr_7d_hib = ((pd.to_numeric(c_7d_hib['pnl_realizado'], errors='coerce') > 0).sum() / ops_7d_hib * 100.0) if ops_7d_hib > 0 else 0.0
+
     # ──────────────────────────────────────────────────────────────
     # 4. PROCESAR HISTORIAL - COPY-TRADER
     # ──────────────────────────────────────────────────────────────
@@ -568,6 +581,7 @@ def generar_dashboard():
     # Agrupación y Retorno Diario Copy
     daily_labels_copy = []
     daily_pnl_copy = []
+    daily_roi_copy = []
     daily_colors_copy = []
     pnl_hoy_copy = 0.0
     ops_hoy_copy = 0
@@ -575,6 +589,13 @@ def generar_dashboard():
     wr_hoy_copy = 0.0
     dia_nombre_hoy = "Hoy"
     roi_hoy_pct_copy = 0.0
+
+    # Métricas temporales y cuantitativas Copy
+    pnl_7d_copy = 0.0; roi_7d_copy = 0.0; ops_7d_copy = 0; wr_7d_copy = 0.0
+    pnl_30d_copy = 0.0; roi_30d_copy = 0.0; ops_30d_copy = 0; wr_30d_copy = 0.0
+    avg_daily_pnl_copy = 0.0; avg_daily_roi_copy = 0.0
+    volatilidad_copy = 0.0; sharpe_copy = 0.0
+    expectancy_copy = 0.0; expectancy_pct_copy = 0.0
 
     if not cerradas_copy.empty and 'fecha_dt' in cerradas_copy.columns:
         cerradas_copy['dia_str'] = cerradas_copy['fecha_dt'].dt.strftime('%d %b')
@@ -586,6 +607,7 @@ def generar_dashboard():
 
         daily_labels_copy = daily_grouped['dia_str'].tolist()
         daily_pnl_copy = [round(float(v), 2) for v in daily_grouped['pnl_dia'].tolist()]
+        daily_roi_copy = [round((float(v) / capital_inicial_copy) * 100.0, 2) for v in daily_pnl_copy]
         daily_colors_copy = ['#10b981' if v >= 0 else '#ef4444' for v in daily_pnl_copy]
 
         if not daily_grouped.empty:
@@ -597,12 +619,48 @@ def generar_dashboard():
             dia_nombre_hoy = str(ultimo_dia['dia_str'])
             roi_hoy_pct_copy = (pnl_hoy_copy / capital_inicial_copy) * 100.0
 
+        # Rendimiento Semanal y Mensual Copy
+        now_dt = cerradas_copy['fecha_dt'].max()
+        if pd.notna(now_dt):
+            t_7d = now_dt - pd.Timedelta(days=7)
+            t_30d = now_dt - pd.Timedelta(days=30)
+            
+            c_7d = cerradas_copy[cerradas_copy['fecha_dt'] >= t_7d]
+            if not c_7d.empty:
+                pnl_7d_copy = float(pd.to_numeric(c_7d['pnl_realizado'], errors='coerce').fillna(0.0).sum())
+                roi_7d_copy = (pnl_7d_copy / capital_inicial_copy) * 100.0
+                ops_7d_copy = len(c_7d)
+                wr_7d_copy = ((pd.to_numeric(c_7d['pnl_realizado'], errors='coerce') > 0).sum() / ops_7d_copy * 100.0) if ops_7d_copy > 0 else 0.0
+            
+            c_30d = cerradas_copy[cerradas_copy['fecha_dt'] >= t_30d]
+            if not c_30d.empty:
+                pnl_30d_copy = float(pd.to_numeric(c_30d['pnl_realizado'], errors='coerce').fillna(0.0).sum())
+                roi_30d_copy = (pnl_30d_copy / capital_inicial_copy) * 100.0
+                ops_30d_copy = len(c_30d)
+                wr_30d_copy = ((pd.to_numeric(c_30d['pnl_realizado'], errors='coerce') > 0).sum() / ops_30d_copy * 100.0) if ops_30d_copy > 0 else 0.0
+
+        # Rendimiento Promedio Diario, Volatilidad y Sharpe (periodo continuo activo >= 2026-09-18)
+        cerradas_active = cerradas_copy[cerradas_copy['fecha_dt'] >= '2026-09-18']
+        if not cerradas_active.empty:
+            daily_active = cerradas_active.groupby(cerradas_active['fecha_dt'].dt.date)['pnl_realizado'].sum()
+            avg_daily_pnl_copy = float(daily_active.mean())
+            avg_daily_roi_copy = (avg_daily_pnl_copy / capital_inicial_copy) * 100.0
+            
+            daily_rets_pct = (daily_active / capital_inicial_copy) * 100.0
+            volatilidad_copy = float(daily_rets_pct.std()) if len(daily_rets_pct) > 1 else 0.0
+            sharpe_copy = (daily_rets_pct.mean() / (volatilidad_copy if volatilidad_copy > 0 else 1.0)) * (365 ** 0.5) if volatilidad_copy > 0 else 0.0
+
+        total_ops_closed = len(cerradas_copy)
+        expectancy_copy = (pnl_total_copy / total_ops_closed) if total_ops_closed > 0 else 0.0
+
     # Dynamic Sizing Distribution
     montos_copy = df_copy['monto_usdc'].dropna().astype(float) if not df_copy.empty and 'monto_usdc' in df_copy.columns else pd.Series()
     min_sizing_copy = float(montos_copy.min()) if not montos_copy.empty else 0.0
     max_sizing_copy = float(montos_copy.max()) if not montos_copy.empty else 0.0
     avg_sizing_copy = float(montos_copy.mean()) if not montos_copy.empty else 0.0
     median_sizing_copy = float(montos_copy.median()) if not montos_copy.empty else 0.0
+    avg_sz = avg_sizing_copy if avg_sizing_copy > 0 else 20.0
+    expectancy_pct_copy = (expectancy_copy / avg_sz) * 100.0
 
     total_m = len(montos_copy) if len(montos_copy) > 0 else 1
     cnt_def = int((montos_copy <= 12.0).sum())
@@ -788,42 +846,83 @@ def generar_dashboard():
         pct_no_copy = (no_count_copy / total_signals_copy) * 100
 
     # ──────────────────────────────────────────────────────────────
-    # 5. PREPARAR DATOS DEL GRÁFICO COMBINADO (VS)
+    # 5. PREPARAR DATOS DEL GRÁFICO COMBINADO (VS) Y SERIES HORARIAS
     # ──────────────────────────────────────────────────────────────
-    datas_dict = {}
-    for h in historia_pnl_hib:
-        f = h["fecha"][:10]
-        datas_dict.setdefault(f, {})["hib"] = h["pnl"]
-    for c in historia_pnl_copy:
-        f = c["fecha"][:10]
-        datas_dict.setdefault(f, {})["copy"] = c["pnl"]
+    start_chart_dt = pd.to_datetime('2026-09-19 00:00:00')
 
-    fechas_ordenadas = sorted(datas_dict.keys())
-    chart_labels_comp = []
-    chart_data_hib_comp = []
-    chart_data_copy_comp = []
-    p_last_hib = 0.0
-    p_last_copy = 0.0
-    
-    for f in fechas_ordenadas:
-        val = datas_dict[f]
-        if "hib" in val: p_last_hib = val["hib"]
-        if "copy" in val: p_last_copy = val["copy"]
-        chart_labels_comp.append(f)
-        chart_data_hib_comp.append(p_last_hib)
-        chart_data_copy_comp.append(p_last_copy)
+    max_dts = []
+    if not cerradas_copy.empty and 'fecha_dt' in cerradas_copy.columns:
+        valid_copy_dts = cerradas_copy['fecha_dt'].dropna()
+        if not valid_copy_dts.empty: max_dts.append(valid_copy_dts.max())
+    if not cerradas_hib.empty and 'fecha_dt' in cerradas_hib.columns:
+        valid_hib_dts = cerradas_hib['fecha_dt'].dropna()
+        if not valid_hib_dts.empty: max_dts.append(valid_hib_dts.max())
 
-    if not chart_labels_comp:
-        chart_labels_comp = [datetime.now().strftime("%Y-%m-%d")]
-        chart_data_hib_comp = [0.0]
-        chart_data_copy_comp = [0.0]
+    end_chart_dt = max(max_dts) if max_dts else (start_chart_dt + pd.Timedelta(hours=24))
+    if end_chart_dt < start_chart_dt + pd.Timedelta(hours=24):
+        end_chart_dt = start_chart_dt + pd.Timedelta(hours=24)
+
+    hourly_idx = pd.date_range(start=start_chart_dt, end=end_chart_dt, freq='1h')
+    df_grid = pd.DataFrame(index=hourly_idx)
+
+    # Copy-Trader Serie Horaria Regular
+    if not cerradas_copy.empty and 'fecha_dt' in cerradas_copy.columns:
+        c_sorted = cerradas_copy.dropna(subset=['fecha_dt']).sort_values('fecha_dt').copy()
+        c_sorted['pnl_realizado'] = pd.to_numeric(c_sorted['pnl_realizado'], errors='coerce').fillna(0.0)
+        pnl_prev_copy = float(c_sorted[c_sorted['fecha_dt'] < start_chart_dt]['pnl_realizado'].sum())
+
+        c_active = c_sorted[c_sorted['fecha_dt'] >= start_chart_dt].copy()
+        c_active['pnl_acum'] = pnl_prev_copy + c_active['pnl_realizado'].cumsum()
+
+        c_sorted['is_win'] = (c_sorted['pnl_realizado'] > 0).astype(int)
+        c_sorted['rolling_wr'] = c_sorted['is_win'].rolling(window=20, min_periods=1).mean() * 100.0
+
+        c_hourly_pnl = c_active.set_index('fecha_dt')[['pnl_acum']].resample('1h').last()
+        c_hourly_wr = c_sorted.set_index('fecha_dt')[['rolling_wr']].resample('1h').last()
+
+        df_grid['copy_pnl'] = c_hourly_pnl['pnl_acum']
+        df_grid['copy_wr'] = c_hourly_wr['rolling_wr']
+        df_grid['copy_pnl'] = df_grid['copy_pnl'].ffill().fillna(pnl_prev_copy)
+
+        init_wr = float(c_sorted['rolling_wr'].iloc[0]) if not c_sorted.empty else 50.0
+        df_grid['copy_wr'] = df_grid['copy_wr'].ffill().fillna(init_wr)
+
+        eq_curve_copy = capital_inicial_copy + df_grid['copy_pnl']
+        peak_curve_copy = eq_curve_copy.cummax()
+        df_grid['copy_drawdown'] = ((eq_curve_copy - peak_curve_copy) / peak_curve_copy) * 100.0
+    else:
+        df_grid['copy_pnl'] = 0.0
+        df_grid['copy_wr'] = 50.0
+        df_grid['copy_drawdown'] = 0.0
+
+    # Híbrido Serie Horaria Regular
+    if not cerradas_hib.empty and 'fecha_dt' in cerradas_hib.columns:
+        h_sorted = cerradas_hib.dropna(subset=['fecha_dt']).sort_values('fecha_dt').copy()
+        h_sorted['pnl_realizado'] = pd.to_numeric(h_sorted['pnl_realizado'], errors='coerce').fillna(0.0)
+        pnl_prev_hib = float(h_sorted[h_sorted['fecha_dt'] < start_chart_dt]['pnl_realizado'].sum())
+
+        h_active = h_sorted[h_sorted['fecha_dt'] >= start_chart_dt].copy()
+        h_active['pnl_acum'] = pnl_prev_hib + h_active['pnl_realizado'].cumsum()
+
+        h_hourly_pnl = h_active.set_index('fecha_dt')[['pnl_acum']].resample('1h').last()
+        df_grid['hib_pnl'] = h_hourly_pnl['pnl_acum']
+        df_grid['hib_pnl'] = df_grid['hib_pnl'].ffill().fillna(pnl_prev_hib)
+    else:
+        df_grid['hib_pnl'] = 0.0
+
+    # Series para Chart.js
+    chart_labels_comp = [dt.strftime("%d %b %H:%M") for dt in df_grid.index]
+    chart_data_hib_comp = [round(float(v), 2) for v in df_grid['hib_pnl']]
+    chart_data_copy_comp = [round(float(v), 2) for v in df_grid['copy_pnl']]
+
+    fechas_copy = chart_labels_comp
+    valores_copy = chart_data_copy_comp
+    drawdown_series_copy = [round(float(v), 2) for v in df_grid['copy_drawdown']]
+    rolling_wr_series_copy = [round(float(v), 1) for v in df_grid['copy_wr']]
 
     # Individual charts
-    fechas_hib = [h.get("fecha_fmt", h["fecha"]) for h in historia_pnl_hib] if historia_pnl_hib else [datetime.now().strftime("%d %b %H:%M")]
-    valores_hib = [h["pnl"] for h in historia_pnl_hib] if historia_pnl_hib else [0.0]
-
-    fechas_copy = [c.get("fecha_fmt", c["fecha"]) for c in historia_pnl_copy] if historia_pnl_copy else [datetime.now().strftime("%d %b %H:%M")]
-    valores_copy = [c["pnl"] for c in historia_pnl_copy] if historia_pnl_copy else [0.0]
+    fechas_hib = chart_labels_comp
+    valores_hib = chart_data_hib_comp
 
     # Donut Charts Data
     donut_labels_hib = ['TP / Early', 'Stop Loss', 'Time Exit', 'Inactiva']
@@ -1517,10 +1616,64 @@ header {
 
 .tabla-contenedor { 
   width: 100%; 
+  max-height: 520px;
+  overflow-y: auto;
   overflow-x: auto; 
   margin-top: 0.5rem; 
   border-radius: 12px;
   border: 1px solid var(--border);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.tabla-contenedor::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.tabla-contenedor::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tabla-contenedor::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.tabla-contenedor::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.metric-toggle-group {
+  display: inline-flex;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2px;
+  gap: 2px;
+}
+
+.metric-toggle-btn {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.metric-toggle-btn:hover {
+  color: #fff;
+}
+
+.metric-toggle-btn.active {
+  background: var(--primary-copy);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(2, 132, 199, 0.3);
 }
 
 table { 
@@ -1531,7 +1684,10 @@ table {
 }
 
 th { 
-  background: rgba(8, 12, 20, 0.7); 
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #090e17; 
   color: var(--muted); 
   font-weight: 600; 
   padding: 0.85rem 1.2rem; 
@@ -1997,11 +2153,16 @@ tr:hover td {
       <!-- Hybrid Comp Card -->
       <div class="panel-comp-agent hib">
         <h2>🤖 Agente Híbrido (IA + Vol)</h2>
-        <div class="grid-metricas" style="margin-bottom:0;">
+        <div class="grid-metricas" style="margin-bottom:0; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));">
           <div class="card-m" style="--accent: var(--primary-hib); --accent-hover: #c084fc; --accent-glow: var(--primary-hib-glow)">
             <h4>Capital Total</h4>
             <div class="val">__NET_EQUITY_HIB_VAL__</div>
             <div class="sub __EQUITY_CLASE_HIB__">__PNL_NET_PCT_HIB__%</div>
+          </div>
+          <div class="card-m" style="--accent: #a78bfa; --accent-hover: #c084fc; --accent-glow: rgba(167, 139, 250, 0.2)">
+            <h4>Retorno 7D</h4>
+            <div class="val __PNL_7D_CLASE_HIB__">__PNL_7D_HIB__</div>
+            <div class="sub">__ROI_7D_HIB__% · __OPS_7D_HIB__ ops</div>
           </div>
           <div class="card-m" style="--accent: var(--green); --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.2)">
             <h4>Win Rate</h4>
@@ -2019,11 +2180,16 @@ tr:hover td {
       <!-- Copy Comp Card -->
       <div class="panel-comp-agent copy">
         <h2>🎯 Agente Copy-Trader (Whales)</h2>
-        <div class="grid-metricas" style="margin-bottom:0;">
+        <div class="grid-metricas" style="margin-bottom:0; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));">
           <div class="card-m" style="--accent: var(--primary-copy); --accent-hover: #7dd3fc; --accent-glow: var(--primary-copy-glow)">
             <h4>Capital Total</h4>
             <div class="val">__NET_EQUITY_COPY_VAL__</div>
             <div class="sub __EQUITY_CLASE_COPY__">__PNL_NET_PCT_COPY__%</div>
+          </div>
+          <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.2)">
+            <h4>Retorno 7D</h4>
+            <div class="val positive">__PNL_7D_COPY__</div>
+            <div class="sub">__ROI_7D_COPY__% · __OPS_7D_COPY__ ops</div>
           </div>
           <div class="card-m" style="--accent: var(--green); --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.2)">
             <h4>Win Rate</h4>
@@ -2286,14 +2452,43 @@ tr:hover td {
         <div class="sub">En __ACTIVE_COUNT_COPY__ posiciones</div>
       </div>
       <div class="card-m" style="--accent: __PNL_COLOR_COPY__; --accent-hover: __PNL_COLOR_HOVER_COPY__; --accent-glow: __PNL_GLOW_COPY__">
-        <h4>P&L Realizado</h4>
+        <h4>P&L Realizado Total</h4>
         <div class="val __PNL_CLASE_COPY__">__PNL_REALIZADO_COPY__</div>
         <div class="sub">__TOTAL_CERRADAS_COPY__ ops cerradas</div>
       </div>
       <div class="card-m" style="--accent: #10b981; --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.25)">
         <h4>Retorno Hoy (__DIA_NOMBRE_HOY__)</h4>
         <div class="val positive">__PNL_HOY_COPY__</div>
-        <div class="sub">__ROI_HOY_COPY__% · __OPS_HOY_COPY__ ops (__WR_HOY_COPY__% WR)</div>
+        <div class="sub">__ROI_HOY_COPY__% ROI · __OPS_HOY_COPY__ ops (__WR_HOY_COPY__% WR)</div>
+      </div>
+      <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
+        <h4>Retorno Semanal (7D)</h4>
+        <div class="val positive">__PNL_7D_COPY__</div>
+        <div class="sub">__ROI_7D_COPY__% ROI · __OPS_7D_COPY__ ops (__WR_7D_COPY__% WR)</div>
+      </div>
+      <div class="card-m" style="--accent: #0284c7; --accent-hover: #38bdf8; --accent-glow: rgba(2, 132, 199, 0.25)">
+        <h4>Retorno Mensual (30D)</h4>
+        <div class="val positive">__PNL_30D_COPY__</div>
+        <div class="sub">__ROI_30D_COPY__% ROI · __OPS_30D_COPY__ ops (__WR_30D_COPY__% WR)</div>
+      </div>
+      <div class="card-m" style="--accent: #a78bfa; --accent-hover: #c084fc; --accent-glow: rgba(167, 139, 250, 0.2)">
+        <h4>Promedio Diario Activo</h4>
+        <div class="val" style="color:#c084fc">__AVG_DAILY_PNL_COPY__</div>
+        <div class="sub">__AVG_DAILY_ROI_COPY__% / día en periodo activo</div>
+      </div>
+      <div class="card-m" style="--accent: #34d399; --accent-hover: #6ee7b7; --accent-glow: rgba(52, 211, 153, 0.2)">
+        <h4>Expectativa / Trade</h4>
+        <div class="val" style="color:#34d399">__EXPECTANCY_COPY__</div>
+        <div class="sub">__EXPECTANCY_PCT_COPY__% sobre tamaño medio</div>
+      </div>
+      <div class="card-m" style="--accent: #f59e0b; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
+        <h4>Volatilidad & Sharpe</h4>
+        <div class="val" style="font-size:1.15rem; display:flex; align-items:center; gap:0.4rem; height:2.7rem; color:#fbbf24">
+          <span>__VOLATILIDAD_COPY__%</span>
+          <span style="color:var(--muted); font-weight:400; font-size:0.85rem">/ SR</span>
+          <span style="color:#10b981">__SHARPE_COPY__</span>
+        </div>
+        <div class="sub">Vol diaria / Sharpe anualizado</div>
       </div>
       <div class="card-m" style="--accent: #fbbf24; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
         <h4>Win Rate Global</h4>
@@ -2313,7 +2508,7 @@ tr:hover td {
       <div class="card-m" style="--accent: #ef4444; --accent-hover: #f87171; --accent-glow: rgba(239, 68, 68, 0.2)">
         <h4>Drawdown Máximo</h4>
         <div class="val negative">__MAX_DRAWDOWN_COPY__%</div>
-        <div class="sub">ATH Actual: __CURRENT_DRAWDOWN_COPY__% (0.0% ATH)</div>
+        <div class="sub">Actual: __CURRENT_DRAWDOWN_COPY__% (0.0% ATH)</div>
       </div>
       <div class="card-m" style="--accent: var(--green); --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.2)">
         <h4>Avg Win / Loss</h4>
@@ -2327,12 +2522,7 @@ tr:hover td {
       <div class="card-m" style="--accent: #8b5cf6; --accent-hover: #c084fc; --accent-glow: rgba(139, 92, 246, 0.2)">
         <h4>Duración Promedio</h4>
         <div class="val" style="color:#c084fc">__DUR_GLOBAL_COPY__h</div>
-        <div class="sub">__DUR_WIN_COPY__h Ganadoras / __DUR_LOSS_COPY__h Perdedoras</div>
-      </div>
-      <div class="card-m" style="--accent: __FLOT_COLOR_COPY__; --accent-hover: __FLOT_COLOR_HOVER_COPY__; --accent-glow: __FLOT_GLOW_COPY__">
-        <h4>P&L Temp Flotante</h4>
-        <div class="val __FLOT_CLASE_COPY__">__PNL_FLOTANTE_COPY__</div>
-        <div class="sub">De posiciones activas</div>
+        <div class="sub">__DUR_WIN_COPY__h Win / __DUR_LOSS_COPY__h Loss</div>
       </div>
     </div>
 
@@ -2371,13 +2561,22 @@ tr:hover td {
     <!-- Gráficos Row 1: PnL Acumulado (Día + Hora) y Evolución Diaria de Retornos -->
     <div class="row-2">
       <div class="panel">
-        <h3>🎯 Curva P&L Acumulado Copy-Trader (Eje Continuo Día/Hora)</h3>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="margin-bottom:0;">🎯 Curva P&L Acumulado Copy-Trader</h3>
+          <span style="font-size:0.72rem; color:var(--muted); font-family:var(--font-mono);"><span style="color:#38bdf8;">●</span> Paso regular 1h (Escala Lineal)</span>
+        </div>
         <div style="height:320px; position:relative">
           <canvas id="chartCopyPnl"></canvas>
         </div>
       </div>
       <div class="panel">
-        <h3>📅 Evolución del Retorno Diario (P&L Realizado por Día)</h3>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="margin-bottom:0;">📅 Evolución del Retorno Diario</h3>
+          <div class="metric-toggle-group">
+            <button class="metric-toggle-btn active" id="btnToggleUsd" onclick="setDailyView('usd')">$ USD</button>
+            <button class="metric-toggle-btn" id="btnToggleRoi" onclick="setDailyView('roi')">% ROI</button>
+          </div>
+        </div>
         <div style="height:320px; position:relative">
           <canvas id="chartCopyDaily"></canvas>
         </div>
@@ -2393,7 +2592,10 @@ tr:hover td {
         </div>
       </div>
       <div class="panel">
-        <h3>🎯 Evolución Dinámica del Win Rate (Ventana Móvil 20 Ops)</h3>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="margin-bottom:0;">🎯 Evolución Dinámica del Win Rate (Ventana Móvil 20 Ops)</h3>
+          <span style="font-size:0.72rem; color:var(--muted); font-family:var(--font-mono);"><span style="color:rgba(239, 68, 68, 0.9); font-weight:700;">---</span> Umbral 50%</span>
+        </div>
         <div style="height:260px; position:relative">
           <canvas id="chartCopyRollingWr"></canvas>
         </div>
@@ -2947,15 +3149,21 @@ new Chart(document.getElementById('chartCopyDonut').getContext('2d'), {
   }
 });
 
-// Chart 6: Copy Daily P&L (Bar Chart)
-new Chart(document.getElementById('chartCopyDaily').getContext('2d'), {
+// Chart 6: Copy Daily P&L (Bar Chart with USD / ROI toggle)
+let currentDailyMetric = 'usd';
+const dailyLabelsCopy = __DAILY_LABELS_COPY__;
+const dailyPnlDataCopy = __DAILY_PNL_COPY__;
+const dailyRoiDataCopy = __DAILY_ROI_COPY__;
+const dailyColorsCopy = __DAILY_COLORS_COPY__;
+
+const chartCopyDailyInst = new Chart(document.getElementById('chartCopyDaily').getContext('2d'), {
   type: 'bar',
   data: {
-    labels: __DAILY_LABELS_COPY__,
+    labels: dailyLabelsCopy,
     datasets: [{
       label: 'P&L Diario (USD)',
-      data: __DAILY_PNL_COPY__,
-      backgroundColor: __DAILY_COLORS_COPY__,
+      data: dailyPnlDataCopy,
+      backgroundColor: dailyColorsCopy,
       borderRadius: 6,
       borderWidth: 0
     }]
@@ -2967,7 +3175,15 @@ new Chart(document.getElementById('chartCopyDaily').getContext('2d'), {
       legend: { display: false },
       tooltip: {
         callbacks: {
-          label: function(ctx) { return ' P&L: ' + (ctx.raw >= 0 ? '+' : '') + '$' + ctx.raw.toFixed(2) + ' USD'; }
+          label: function(ctx) {
+            const idx = ctx.dataIndex;
+            const pnl = dailyPnlDataCopy[idx];
+            const roi = dailyRoiDataCopy[idx];
+            return [
+              ' P&L: ' + (pnl >= 0 ? '+' : '') + '$' + pnl.toFixed(2) + ' USD',
+              ' Retorno: ' + (roi >= 0 ? '+' : '') + roi.toFixed(2) + '% ROI'
+            ];
+          }
         }
       }
     },
@@ -2978,12 +3194,29 @@ new Chart(document.getElementById('chartCopyDaily').getContext('2d'), {
         ticks: {
           color: '#94a3b8',
           font: { size: 10, family: 'JetBrains Mono' },
-          callback: function(v) { return '$' + v; }
+          callback: function(v) { return (currentDailyMetric === 'usd' ? '$' : '') + v + (currentDailyMetric === 'roi' ? '%' : ''); }
         }
       }
     }
   }
 });
+
+function setDailyView(metric) {
+  currentDailyMetric = metric;
+  const btnUsd = document.getElementById('btnToggleUsd');
+  const btnRoi = document.getElementById('btnToggleRoi');
+  if (btnUsd) btnUsd.classList.toggle('active', metric === 'usd');
+  if (btnRoi) btnRoi.classList.toggle('active', metric === 'roi');
+
+  if (metric === 'usd') {
+    chartCopyDailyInst.data.datasets[0].label = 'P&L Diario (USD)';
+    chartCopyDailyInst.data.datasets[0].data = dailyPnlDataCopy;
+  } else {
+    chartCopyDailyInst.data.datasets[0].label = 'Retorno Diario (% ROI)';
+    chartCopyDailyInst.data.datasets[0].data = dailyRoiDataCopy;
+  }
+  chartCopyDailyInst.update();
+}
 
 // Chart 7: Copy Drawdown (% from Peak)
 const ctxDd = document.getElementById('chartCopyDrawdown').getContext('2d');
@@ -3031,22 +3264,36 @@ new Chart(ctxDd, {
   }
 });
 
-// Chart 8: Copy Rolling Win Rate (20 ops moving avg)
+// Chart 8: Copy Rolling Win Rate (20 ops moving avg with 50% Benchmark)
+const rollingWrDataCopy = __ROLLING_WR_SERIES_COPY__;
 new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
   type: 'line',
   data: {
     labels: __FECHAS_RENDIMIENTO_COPY__,
-    datasets: [{
-      data: __ROLLING_WR_SERIES_COPY__,
-      borderColor: '#10b981',
-      backgroundColor: 'rgba(16, 185, 129, 0.08)',
-      borderWidth: 2.5,
-      fill: true,
-      tension: 0.3,
-      pointRadius: 0,
-      pointHoverRadius: 5,
-      pointBackgroundColor: '#10b981'
-    }]
+    datasets: [
+      {
+        label: 'Win Rate Móvil (20 ops)',
+        data: rollingWrDataCopy,
+        borderColor: '#10b981',
+        backgroundColor: 'rgba(16, 185, 129, 0.08)',
+        borderWidth: 2.5,
+        fill: true,
+        tension: 0.3,
+        pointRadius: 0,
+        pointHoverRadius: 5,
+        pointBackgroundColor: '#10b981'
+      },
+      {
+        label: 'Umbral 50%',
+        data: Array(rollingWrDataCopy.length).fill(50),
+        borderColor: 'rgba(239, 68, 68, 0.75)',
+        borderWidth: 1.5,
+        borderDash: [5, 5],
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        fill: false
+      }
+    ]
   },
   options: {
     responsive: true,
@@ -3055,7 +3302,10 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
       legend: { display: false },
       tooltip: {
         callbacks: {
-          label: function(ctx) { return ' Win Rate (últimas 20): ' + ctx.raw.toFixed(1) + '%'; }
+          label: function(ctx) {
+            if (ctx.datasetIndex === 1) return ' Umbral Base: 50.0%';
+            return ' Win Rate (últimas 20): ' + ctx.raw.toFixed(1) + '%';
+          }
         }
       }
     },
@@ -3120,6 +3370,10 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
     html_content = html_content.replace("__PF_CLASE_HIB__", profit_factor_clase_hib)
     html_content = html_content.replace("__EQUITY_CLASE_HIB__", "positive" if equity_hib >= capital_inicial_hib else "negative")
     html_content = html_content.replace("__PNL_NET_PCT_HIB__", f"{pnl_net_pct_hib:+.2f}")
+    html_content = html_content.replace("__PNL_7D_HIB__", f"{'+' if pnl_7d_hib>=0 else ''}${pnl_7d_hib:,.2f}")
+    html_content = html_content.replace("__ROI_7D_HIB__", f"{roi_7d_hib:+.1f}")
+    html_content = html_content.replace("__OPS_7D_HIB__", str(ops_7d_hib))
+    html_content = html_content.replace("__PNL_7D_CLASE_HIB__", "positive" if pnl_7d_hib >= 0 else "negative")
 
     html_content = html_content.replace("__PNL_COLOR_HIB__", "var(--green)" if pnl_total_hib>=0 else "var(--red)")
     html_content = html_content.replace("__PNL_COLOR_HOVER_HIB__", "#34d399" if pnl_total_hib>=0 else "#f87171")
@@ -3179,6 +3433,26 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
     html_content = html_content.replace("__ROI_HOY_COPY__", f"{roi_hoy_pct_copy:+.1f}")
     html_content = html_content.replace("__OPS_HOY_COPY__", str(ops_hoy_copy))
     html_content = html_content.replace("__WR_HOY_COPY__", f"{wr_hoy_copy:.1f}")
+
+    # Semanal y Mensual Copy
+    html_content = html_content.replace("__PNL_7D_COPY__", f"{'+' if pnl_7d_copy>=0 else ''}${pnl_7d_copy:,.2f}")
+    html_content = html_content.replace("__ROI_7D_COPY__", f"{roi_7d_copy:+.1f}")
+    html_content = html_content.replace("__OPS_7D_COPY__", str(ops_7d_copy))
+    html_content = html_content.replace("__WR_7D_COPY__", f"{wr_7d_copy:.1f}")
+
+    html_content = html_content.replace("__PNL_30D_COPY__", f"{'+' if pnl_30d_copy>=0 else ''}${pnl_30d_copy:,.2f}")
+    html_content = html_content.replace("__ROI_30D_COPY__", f"{roi_30d_copy:+.1f}")
+    html_content = html_content.replace("__OPS_30D_COPY__", str(ops_30d_copy))
+    html_content = html_content.replace("__WR_30D_COPY__", f"{wr_30d_copy:.1f}")
+
+    # Promedio Diario, Expectativa, Volatilidad y Sharpe
+    html_content = html_content.replace("__AVG_DAILY_PNL_COPY__", f"{'+' if avg_daily_pnl_copy>=0 else ''}${avg_daily_pnl_copy:,.2f}")
+    html_content = html_content.replace("__AVG_DAILY_ROI_COPY__", f"{avg_daily_roi_copy:+.2f}")
+    html_content = html_content.replace("__EXPECTANCY_COPY__", f"{'+' if expectancy_copy>=0 else ''}${expectancy_copy:,.2f}")
+    html_content = html_content.replace("__EXPECTANCY_PCT_COPY__", f"{expectancy_pct_copy:+.1f}")
+    html_content = html_content.replace("__VOLATILIDAD_COPY__", f"{volatilidad_copy:.1f}")
+    html_content = html_content.replace("__SHARPE_COPY__", f"{sharpe_copy:.2f}")
+
     html_content = html_content.replace("__WR_ESTRAT_COPY__", f"{win_rate_estrat_copy:.1f}")
     html_content = html_content.replace("__N_TP_COPY__", str(n_tp_copy))
     html_content = html_content.replace("__N_SL_COPY__", str(n_sl_copy))
@@ -3206,6 +3480,7 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
     # Gráficos adicionales
     html_content = html_content.replace("__DAILY_LABELS_COPY__", json.dumps(daily_labels_copy))
     html_content = html_content.replace("__DAILY_PNL_COPY__", json.dumps(daily_pnl_copy))
+    html_content = html_content.replace("__DAILY_ROI_COPY__", json.dumps(daily_roi_copy))
     html_content = html_content.replace("__DAILY_COLORS_COPY__", json.dumps(daily_colors_copy))
     html_content = html_content.replace("__DRAWDOWN_SERIES_COPY__", json.dumps(drawdown_series_copy if 'drawdown_series_copy' in locals() else []))
     html_content = html_content.replace("__ROLLING_WR_SERIES_COPY__", json.dumps(rolling_wr_series_copy if 'rolling_wr_series_copy' in locals() else []))
