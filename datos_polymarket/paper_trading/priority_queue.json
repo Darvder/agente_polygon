@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4889129",
+    "pregunta": "Spread: Los Angeles Dodgers (-1.5)",
+    "ts": "2026-09-24T21:52:13.696541",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4685259",
+    "pregunta": "Houston Astros vs. Athletics",
+    "ts": "2026-09-24T21:52:14.759901",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889130",
+    "pregunta": "San Diego Padres vs. Los Angeles Dodgers: O/U 7.5",
+    "ts": "2026-09-24T21:52:15.876319",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4902681",
+    "pregunta": "Houston Astros vs. Athletics: O/U 11.5",
+    "ts": "2026-09-24T21:52:16.962283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4685263",
+    "pregunta": "San Diego Padres vs. Los Angeles Dodgers",
+    "ts": "2026-09-24T21:52:18.022196",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
