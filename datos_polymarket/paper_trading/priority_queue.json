@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1818707",
+    "pregunta": "Halle Berry as Storm?",
+    "ts": "2026-09-26T16:43:34.613146",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a97e8ecb37b04709417c3df75f1691146e77cad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4710397",
+    "pregunta": "Will \u201cConfessions II \u2013 The Film\u201d by Madonna win Best Dance at the 2026 MTV Video Music Awards?",
+    "ts": "2026-09-26T16:43:35.773764",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a97e8ecb37b04709417c3df75f1691146e77cad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4710074",
+    "pregunta": "Will \u201cBring Your Love\u201d by Madonna and Sabrina Carpenter win Song of the Year at the 2026 MTV Video Music Awards?",
+    "ts": "2026-09-26T16:43:36.953437",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a97e8ecb37b04709417c3df75f1691146e77cad",
+    "whale_signal": "COMPRAR NO"
+  }
+]
