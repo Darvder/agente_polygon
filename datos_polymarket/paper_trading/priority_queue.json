@@ -1,10 +1,18 @@
 [
   {
-    "id": "3520746",
-    "pregunta": "Will the Republican Party candidate win the 2026 SC-04 House election by 10%-15%?",
-    "ts": "2026-09-25T21:44:12.546727",
+    "id": "4521506",
+    "pregunta": "Will Spain win on 2026-09-26?",
+    "ts": "2026-09-25T21:52:43.887126",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x69d1983b8a327b2eb2897c7fc85ac6f637047c8b",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4499180",
+    "pregunta": "Will El Salvador win on 2026-09-25?",
+    "ts": "2026-09-25T21:52:44.940465",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
