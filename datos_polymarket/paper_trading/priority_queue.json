@@ -1,18 +1,1 @@
-[
-  {
-    "id": "4806548",
-    "pregunta": "Spread: Florida (-11.5)",
-    "ts": "2026-09-26T15:44:42.864153",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3701367",
-    "pregunta": "Spread: Chiefs (-10.5)",
-    "ts": "2026-09-26T15:44:45.208174",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
