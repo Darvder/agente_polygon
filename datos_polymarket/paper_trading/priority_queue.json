@@ -1,18 +1,90 @@
 [
   {
-    "id": "4904907",
-    "pregunta": "Korea Open: Anna Bondar vs Gabriela Ruse",
-    "ts": "2026-09-25T22:44:58.493663",
+    "id": "4800931",
+    "pregunta": "Spread: Indiana (-11.5)",
+    "ts": "2026-09-25T22:52:33.280877",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8d32b6c89b3efdb581de4f0f7451955862a825a8",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4877706",
-    "pregunta": "Korea Open: Lanlana Tararudee vs Maya Joint",
-    "ts": "2026-09-25T22:44:59.552187",
+    "id": "4517977",
+    "pregunta": "Club Tijuana vs. Atlas FC: O/U 2.5",
+    "ts": "2026-09-25T22:52:34.568057",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8d32b6c89b3efdb581de4f0f7451955862a825a8",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723690",
+    "pregunta": "Los Angeles Angels vs. Seattle Mariners",
+    "ts": "2026-09-25T22:52:35.652602",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4800928",
+    "pregunta": "Spread: Indiana (-5.5)",
+    "ts": "2026-09-25T22:52:36.929655",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801551",
+    "pregunta": "Spread: Clemson (-3.5)",
+    "ts": "2026-09-25T22:52:38.064866",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801541",
+    "pregunta": "Clemson vs. California",
+    "ts": "2026-09-25T22:52:39.149538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801561",
+    "pregunta": "Spread: California (-6.5)",
+    "ts": "2026-09-25T22:52:40.465201",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801581",
+    "pregunta": "Clemson vs. California: O/U 48.5",
+    "ts": "2026-09-25T22:52:41.552902",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4964025",
+    "pregunta": "Counter-Strike: M80 vs DENDELE CS - Map 2 Winner",
+    "ts": "2026-09-25T22:52:42.646232",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801558",
+    "pregunta": "Spread: California (-3.5)",
+    "ts": "2026-09-25T22:52:43.924369",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4801553",
+    "pregunta": "Spread: Clemson (-1.5)",
+    "ts": "2026-09-25T22:52:45.006839",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
     "whale_signal": "COMPRAR NO"
   }
 ]
