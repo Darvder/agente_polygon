@@ -1,50 +1,26 @@
 [
   {
-    "id": "4522232",
-    "pregunta": "Faroe Islands vs. Kazakhstan: O/U 1.5",
-    "ts": "2026-09-26T00:22:59.412634",
+    "id": "4857117",
+    "pregunta": "Spread: Eagles (-4.5)",
+    "ts": "2026-09-26T00:32:33.006253",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_wallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4522233",
-    "pregunta": "Faroe Islands vs. Kazakhstan: O/U 2.5",
-    "ts": "2026-09-26T00:23:00.543007",
+    "id": "4903538",
+    "pregunta": "Will the highest temperature in New York City be between 60-61\u00b0F on September 26?",
+    "ts": "2026-09-26T00:32:34.882804",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_wallet": "0x6d2f65ea3cdf88f32fcd0eb5941c3aa8cf908d49",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4522200",
-    "pregunta": "Bulgaria vs. Luxembourg: O/U 2.5",
-    "ts": "2026-09-26T00:23:01.693382",
+    "id": "4900543",
+    "pregunta": "Will the highest temperature in London be 21\u00b0C on September 26?",
+    "ts": "2026-09-26T00:32:36.065821",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4522199",
-    "pregunta": "Bulgaria vs. Luxembourg: O/U 1.5",
-    "ts": "2026-09-26T00:23:02.785086",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4533538",
-    "pregunta": "CD Tenerife vs. C\u00e1diz CF: O/U 2.5",
-    "ts": "2026-09-26T00:23:04.079446",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4533537",
-    "pregunta": "CD Tenerife vs. C\u00e1diz CF: O/U 1.5",
-    "ts": "2026-09-26T00:23:05.171881",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_wallet": "0x6d2f65ea3cdf88f32fcd0eb5941c3aa8cf908d49",
     "whale_signal": "COMPRAR NO"
   }
 ]
