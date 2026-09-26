@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4910062",
+    "pregunta": "Hangzhou Open: Quentin Halys vs Roman Safiullin",
+    "ts": "2026-09-26T02:22:41.126762",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ab166e5973bfd1af62f13ff985da8b210ccbb62",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4954757",
+    "pregunta": "Dota 2: Xtreme Gaming vs GamerLegion - Game 1 Winner",
+    "ts": "2026-09-26T02:22:42.272564",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ab166e5973bfd1af62f13ff985da8b210ccbb62",
+    "whale_signal": "COMPRAR NO"
+  }
+]
