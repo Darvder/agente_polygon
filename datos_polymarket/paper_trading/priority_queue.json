@@ -1,8 +1,16 @@
 [
   {
-    "id": "4801541",
-    "pregunta": "Clemson vs. California",
-    "ts": "2026-09-25T22:24:45.622859",
+    "id": "4525863",
+    "pregunta": "Spread: El Salvador (-2.5)",
+    "ts": "2026-09-25T22:32:27.633042",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4499763",
+    "pregunta": "Will Club Tijuana win on 2026-09-25?",
+    "ts": "2026-09-25T22:32:28.703354",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
