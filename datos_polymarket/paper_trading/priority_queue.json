@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4913641",
+    "pregunta": "Los Angeles Angels vs. Seattle Mariners: O/U 7.5",
+    "ts": "2026-09-25T23:42:49.064588",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4945488",
+    "pregunta": "Spread: Athletics (-1.5)",
+    "ts": "2026-09-25T23:42:50.241680",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904907",
+    "pregunta": "Korea Open: Anna Bondar vs Gabriela Ruse",
+    "ts": "2026-09-25T23:42:51.283979",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4913639",
+    "pregunta": "Spread: Los Angeles Angels (-2.5)",
+    "ts": "2026-09-25T23:42:52.324862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723686",
+    "pregunta": "Houston Astros vs. Athletics",
+    "ts": "2026-09-25T23:42:53.366569",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "whale_signal": "COMPRAR NO"
+  }
+]
