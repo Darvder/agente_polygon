@@ -1,10 +1,26 @@
 [
   {
-    "id": "4521504",
-    "pregunta": "Will England win on 2026-09-26?",
-    "ts": "2026-09-26T15:02:38.180991",
+    "id": "4810818",
+    "pregunta": "Rainbow Six Siege: FaZe Clan vs FURIA Esports (BO1) - South America League Stage 2 Group Stage",
+    "ts": "2026-09-26T15:12:59.084925",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4790443",
+    "pregunta": "LoL: FURIA Esports vs RED Canids (BO5) - CBLOL Playoffs",
+    "ts": "2026-09-26T15:13:00.165420",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4968061",
+    "pregunta": "LoL: LYON vs Shopify Rebellion - Game 1 Winner",
+    "ts": "2026-09-26T15:13:01.237037",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
     "whale_signal": "COMPRAR NO"
   }
 ]
