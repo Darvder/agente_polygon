@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "4522232",
+    "pregunta": "Faroe Islands vs. Kazakhstan: O/U 1.5",
+    "ts": "2026-09-26T00:22:59.412634",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4522233",
+    "pregunta": "Faroe Islands vs. Kazakhstan: O/U 2.5",
+    "ts": "2026-09-26T00:23:00.543007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4522200",
+    "pregunta": "Bulgaria vs. Luxembourg: O/U 2.5",
+    "ts": "2026-09-26T00:23:01.693382",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4522199",
+    "pregunta": "Bulgaria vs. Luxembourg: O/U 1.5",
+    "ts": "2026-09-26T00:23:02.785086",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4533538",
+    "pregunta": "CD Tenerife vs. C\u00e1diz CF: O/U 2.5",
+    "ts": "2026-09-26T00:23:04.079446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4533537",
+    "pregunta": "CD Tenerife vs. C\u00e1diz CF: O/U 1.5",
+    "ts": "2026-09-26T00:23:05.171881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1e292a578d07497363048d9ec69e2be36b00d29",
+    "whale_signal": "COMPRAR NO"
+  }
+]
