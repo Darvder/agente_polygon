@@ -1,10 +1,58 @@
 [
   {
-    "id": "4806516",
-    "pregunta": "Ole Miss vs. Florida",
-    "ts": "2026-09-26T16:03:23.057274",
+    "id": "4948153",
+    "pregunta": "Pallacanestro Reggiana vs. Aquila Basket Trento: O/U 163.5",
+    "ts": "2026-09-26T16:12:54.237390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xb595d09ce5bbc4d39e3b3d04e80c402d2c8d5922",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4522070",
+    "pregunta": "England vs. Spain: O/U 4.5",
+    "ts": "2026-09-26T16:12:56.470689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x15ac9d4fb9c30fca4fec2fdecde3fdace721f3ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521502",
+    "pregunta": "Will Czechia vs. Croatia end in a draw?",
+    "ts": "2026-09-26T16:12:57.622034",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x15ac9d4fb9c30fca4fec2fdecde3fdace721f3ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4521503",
+    "pregunta": "Will Croatia win on 2026-09-26?",
+    "ts": "2026-09-26T16:12:58.827616",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x15ac9d4fb9c30fca4fec2fdecde3fdace721f3ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4778723",
+    "pregunta": "Will CA All Boys win on 2026-09-26?",
+    "ts": "2026-09-26T16:12:59.985853",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x15ac9d4fb9c30fca4fec2fdecde3fdace721f3ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4778724",
+    "pregunta": "Will CA All Boys vs. Colon de Santa Fe end in a draw?",
+    "ts": "2026-09-26T16:13:01.282513",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x15ac9d4fb9c30fca4fec2fdecde3fdace721f3ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4968062",
+    "pregunta": "LoL: LYON vs Shopify Rebellion - Game 2 Winner",
+    "ts": "2026-09-26T16:13:03.589344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x454d94f018e7e07e5bb1ba3ed9efe2316abc7497",
     "whale_signal": "COMPRAR NO"
   }
 ]
