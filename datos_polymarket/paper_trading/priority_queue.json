@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4522134",
+    "pregunta": "Albania vs. Belarus: O/U 2.5",
+    "ts": "2026-09-26T14:12:20.614246",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4522163",
+    "pregunta": "Spread: Slovakia (-2.5)",
+    "ts": "2026-09-26T14:12:21.676215",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4965328",
+    "pregunta": "Buenos Aires 2: Pedro Boscardin Dias vs Facundo Mena",
+    "ts": "2026-09-26T14:12:23.510890",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4790442",
+    "pregunta": "LoL: FURIA Esports vs RED Canids - Game 4 Winner",
+    "ts": "2026-09-26T14:12:24.563442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
