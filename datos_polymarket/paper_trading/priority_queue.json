@@ -1,10 +1,18 @@
 [
   {
-    "id": "4723668",
-    "pregunta": "New York Mets vs. Washington Nationals",
-    "ts": "2026-09-25T19:32:45.820448",
+    "id": "4723672",
+    "pregunta": "Cincinnati Reds vs. Toronto Blue Jays",
+    "ts": "2026-09-25T19:43:31.724859",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723686",
+    "pregunta": "Houston Astros vs. Athletics",
+    "ts": "2026-09-25T19:43:32.781161",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
