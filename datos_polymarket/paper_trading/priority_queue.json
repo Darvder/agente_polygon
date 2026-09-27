@@ -1,26 +1,18 @@
 [
   {
-    "id": "4529090",
-    "pregunta": "Will Club Santos Laguna win on 2026-09-26?",
-    "ts": "2026-09-27T00:03:00.166891",
+    "id": "4550195",
+    "pregunta": "Denmark vs. Wales: O/U 4.5",
+    "ts": "2026-09-27T00:14:02.025678",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4548724",
-    "pregunta": "Tigres de la UANL vs. Club Puebla: O/U 1.5",
-    "ts": "2026-09-27T00:03:01.277969",
+    "id": "4548691",
+    "pregunta": "Club Santos Laguna vs. CF Pachuca: O/U 1.5",
+    "ts": "2026-09-27T00:14:06.355371",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4942734",
-    "pregunta": "Will the highest temperature in Hong Kong be 33\u00b0C on September 27?",
-    "ts": "2026-09-27T00:03:04.291202",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x505b8c652faf383995920ae7478b2d4bf48babee",
+    "whale_wallet": "0x3b15e874a8b870fb402b9a2293c44390e360910f",
     "whale_signal": "COMPRAR NO"
   }
 ]
