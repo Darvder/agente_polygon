@@ -1,50 +1,10 @@
 [
   {
-    "id": "3664775",
-    "pregunta": "Patriots vs. Jaguars",
-    "ts": "2026-09-27T13:22:25.909312",
+    "id": "4550094",
+    "pregunta": "Germany vs. Greece: O/U 2.5",
+    "ts": "2026-09-27T13:33:04.224939",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3664793",
-    "pregunta": "Bengals vs. Steelers",
-    "ts": "2026-09-27T13:22:26.975388",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3664764",
-    "pregunta": "Jets vs. Lions",
-    "ts": "2026-09-27T13:22:28.071255",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3664790",
-    "pregunta": "Titans vs. Giants",
-    "ts": "2026-09-27T13:22:29.149631",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5003677",
-    "pregunta": "LoL: Forsaken vs The Otter Side (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-27T13:22:31.163954",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4549296",
-    "pregunta": "LoL: LOS vs LOUD - Game 3 Winner",
-    "ts": "2026-09-27T13:22:32.269138",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
