@@ -1,42 +1,18 @@
 [
   {
-    "id": "3519308",
-    "pregunta": "Will the Democratic Party candidate win the 2026 NH-01 House election by 15%-20%?",
-    "ts": "2026-09-27T01:13:06.930678",
+    "id": "4541071",
+    "pregunta": "Will Gangwon FC win on 2026-09-27?",
+    "ts": "2026-09-27T01:24:00.620060",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0d7d68d1f738088da381c734d14a62963a727d74",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3490851",
-    "pregunta": "Will the Democratic Party candidate win the 2026 MD-07 House election by 70%-75%?",
-    "ts": "2026-09-27T01:13:08.099172",
+    "id": "4549714",
+    "pregunta": "Will Lithuania win on 2026-09-27?",
+    "ts": "2026-09-27T01:24:01.783464",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0d7d68d1f738088da381c734d14a62963a727d74",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813457",
-    "pregunta": "Air Force vs. Nevada",
-    "ts": "2026-09-27T01:13:09.914068",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813401",
-    "pregunta": "Georgia Tech vs. Stanford",
-    "ts": "2026-09-27T01:13:10.962611",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "629040",
-    "pregunta": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-    "ts": "2026-09-27T01:13:12.774545",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4f05c0604d0baae70b03e3eefdbb1cfb6b60140f",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
