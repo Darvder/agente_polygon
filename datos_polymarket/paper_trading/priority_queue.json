@@ -1,42 +1,90 @@
 [
   {
-    "id": "4527652",
-    "pregunta": "Will Portland Timbers win on 2026-09-26?",
-    "ts": "2026-09-26T22:03:28.151195",
+    "id": "4812241",
+    "pregunta": "Missouri vs. Mississippi State",
+    "ts": "2026-09-26T22:14:43.867063",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4527655",
-    "pregunta": "Will Colorado Rapids SC win on 2026-09-26?",
-    "ts": "2026-09-26T22:03:29.226292",
+    "id": "4527647",
+    "pregunta": "Will Real Salt Lake win on 2026-09-26?",
+    "ts": "2026-09-26T22:14:45.611388",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4527654",
-    "pregunta": "Will Los Angeles Galaxy vs. Colorado Rapids SC end in a draw?",
-    "ts": "2026-09-26T22:03:30.391220",
+    "id": "4527656",
+    "pregunta": "Will Vancouver Whitecaps FC win on 2026-09-26?",
+    "ts": "2026-09-26T22:14:46.689759",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4527653",
-    "pregunta": "Will Los Angeles Galaxy win on 2026-09-26?",
-    "ts": "2026-09-26T22:03:31.461209",
+    "id": "4527997",
+    "pregunta": "Vancouver Whitecaps FC leading at halftime?",
+    "ts": "2026-09-26T22:14:47.736045",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4529092",
-    "pregunta": "Will Club Santos Laguna vs. CF Pachuca end in a draw?",
-    "ts": "2026-09-26T22:03:32.517272",
+    "id": "4527999",
+    "pregunta": "D.C. United SC leading at halftime?",
+    "ts": "2026-09-26T22:14:48.895259",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4530339",
+    "pregunta": "San Jose Earthquakes vs. Portland Timbers: O/U 4.5",
+    "ts": "2026-09-26T22:14:49.962249",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4003648",
+    "pregunta": "Sharks vs. Golden Knights",
+    "ts": "2026-09-26T22:14:51.030316",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4980975",
+    "pregunta": "M25 Yinchuan: Alibek Kachmazov vs Kuan-Shou Chen",
+    "ts": "2026-09-26T22:14:52.076278",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4548697",
+    "pregunta": "Club Santos Laguna vs. CF Pachuca: Both Teams to Score in First Half",
+    "ts": "2026-09-26T22:14:53.141650",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4757400",
+    "pregunta": "Los Angeles Angels vs. Seattle Mariners",
+    "ts": "2026-09-26T22:14:55.082134",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4813457",
+    "pregunta": "Air Force vs. Nevada",
+    "ts": "2026-09-26T22:14:56.133929",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
