@@ -1,18 +1,34 @@
 [
   {
-    "id": "4550195",
-    "pregunta": "Denmark vs. Wales: O/U 4.5",
-    "ts": "2026-09-27T00:14:02.025678",
+    "id": "4977014",
+    "pregunta": "Will it rain in Dallas, TX on September 27?",
+    "ts": "2026-09-27T00:22:33.698305",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xe1f30809d70c3adc120f8bae9187f306b118cf1c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4548691",
-    "pregunta": "Club Santos Laguna vs. CF Pachuca: O/U 1.5",
-    "ts": "2026-09-27T00:14:06.355371",
+    "id": "4813518",
+    "pregunta": "Georgia Tech vs. Stanford: O/U 52.5",
+    "ts": "2026-09-27T00:22:37.255227",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3b15e874a8b870fb402b9a2293c44390e360910f",
+    "whale_wallet": "0x05c5b2e8b478a7292798e12c841c198558e86a69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4813457",
+    "pregunta": "Air Force vs. Nevada",
+    "ts": "2026-09-27T00:22:38.348290",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05c5b2e8b478a7292798e12c841c198558e86a69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4813401",
+    "pregunta": "Georgia Tech vs. Stanford",
+    "ts": "2026-09-27T00:22:39.448887",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05c5b2e8b478a7292798e12c841c198558e86a69",
     "whale_signal": "COMPRAR NO"
   }
 ]
