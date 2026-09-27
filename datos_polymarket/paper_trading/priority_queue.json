@@ -1,10 +1,50 @@
 [
   {
-    "id": "4793380",
-    "pregunta": "Arizona Diamondbacks vs. San Diego Padres",
-    "ts": "2026-09-27T15:22:54.263911",
+    "id": "4549739",
+    "pregunta": "Will Greece win on 2026-09-27?",
+    "ts": "2026-09-27T15:32:54.427144",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5000769",
+    "pregunta": "Spread: Washington Nationals (-2.5)",
+    "ts": "2026-09-27T15:32:57.355280",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4793374",
+    "pregunta": "Atlanta Braves vs. Miami Marlins",
+    "ts": "2026-09-27T15:32:58.453638",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5045981",
+    "pregunta": "New York Mets vs. Washington Nationals: O/U 11.5",
+    "ts": "2026-09-27T15:32:59.540479",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4793362",
+    "pregunta": "Los Angeles Dodgers vs. San Francisco Giants",
+    "ts": "2026-09-27T15:33:00.620708",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4757356",
+    "pregunta": "Chicago Cubs vs. Boston Red Sox",
+    "ts": "2026-09-27T15:33:01.750685",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   }
 ]
