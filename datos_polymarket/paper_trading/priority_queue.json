@@ -1,50 +1,34 @@
 [
   {
-    "id": "4549739",
-    "pregunta": "Will Greece win on 2026-09-27?",
-    "ts": "2026-09-27T15:32:54.427144",
+    "id": "3919793",
+    "pregunta": "Bengals vs. Steelers: O/U 61.5",
+    "ts": "2026-09-27T15:43:08.122773",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_wallet": "0xc976cbfea6636488fabce2b29ed7d5c1d12ac147",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5000769",
-    "pregunta": "Spread: Washington Nationals (-2.5)",
-    "ts": "2026-09-27T15:32:57.355280",
+    "id": "3664769",
+    "pregunta": "Texans vs. Colts",
+    "ts": "2026-09-27T15:43:09.178848",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_wallet": "0xc976cbfea6636488fabce2b29ed7d5c1d12ac147",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4793374",
-    "pregunta": "Atlanta Braves vs. Miami Marlins",
-    "ts": "2026-09-27T15:32:58.453638",
+    "id": "3919770",
+    "pregunta": "Seahawks vs. Commanders: O/U 55.5",
+    "ts": "2026-09-27T15:43:10.227362",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_wallet": "0xc976cbfea6636488fabce2b29ed7d5c1d12ac147",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5045981",
-    "pregunta": "New York Mets vs. Washington Nationals: O/U 11.5",
-    "ts": "2026-09-27T15:32:59.540479",
+    "id": "3701308",
+    "pregunta": "Raiders vs. Saints: O/U 38.5",
+    "ts": "2026-09-27T15:43:11.271594",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4793362",
-    "pregunta": "Los Angeles Dodgers vs. San Francisco Giants",
-    "ts": "2026-09-27T15:33:00.620708",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4757356",
-    "pregunta": "Chicago Cubs vs. Boston Red Sox",
-    "ts": "2026-09-27T15:33:01.750685",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_wallet": "0xc976cbfea6636488fabce2b29ed7d5c1d12ac147",
     "whale_signal": "COMPRAR NO"
   }
 ]
