@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5003635",
+    "pregunta": "LoL: Colossal Gaming vs The Ruddy Sack (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-27T11:12:28.071954",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc378464640ca1fa493a757428facecb0aab92cc2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5003621",
+    "pregunta": "LoL: TLN Pirates vs BOMBA Team (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-27T11:12:29.117183",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc378464640ca1fa493a757428facecb0aab92cc2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5003642",
+    "pregunta": "LoL: G2 NORD vs NightBirds (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-27T11:12:30.163076",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc378464640ca1fa493a757428facecb0aab92cc2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4549294",
+    "pregunta": "LoL: LOS vs LOUD - Game 1 Winner",
+    "ts": "2026-09-27T11:12:31.334026",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc378464640ca1fa493a757428facecb0aab92cc2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4549298",
+    "pregunta": "LoL: LOS vs LOUD (BO5) - CBLOL Playoffs",
+    "ts": "2026-09-27T11:12:32.388064",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc378464640ca1fa493a757428facecb0aab92cc2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
