@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4510394",
+    "pregunta": "UFC Fight Night: Norma Dumont vs. Ailin Perez (Women's Bantamweight, Prelims)",
+    "ts": "2026-09-26T21:04:01.553693",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4527646",
+    "pregunta": "Will San Diego FC win on 2026-09-26?",
+    "ts": "2026-09-26T21:04:02.647749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4530596",
+    "pregunta": "FC Dallas vs. Los Angeles FC: O/U 2.5",
+    "ts": "2026-09-26T21:04:03.741082",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4810191",
+    "pregunta": "Kansas State vs. Cincinnati",
+    "ts": "2026-09-26T21:04:04.839285",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4810234",
+    "pregunta": "Spread: Kansas State (-1.5)",
+    "ts": "2026-09-26T21:04:05.913697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  }
+]
