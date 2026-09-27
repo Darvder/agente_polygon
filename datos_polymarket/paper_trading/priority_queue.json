@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4527652",
+    "pregunta": "Will Portland Timbers win on 2026-09-26?",
+    "ts": "2026-09-26T22:03:28.151195",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4527655",
+    "pregunta": "Will Colorado Rapids SC win on 2026-09-26?",
+    "ts": "2026-09-26T22:03:29.226292",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4527654",
+    "pregunta": "Will Los Angeles Galaxy vs. Colorado Rapids SC end in a draw?",
+    "ts": "2026-09-26T22:03:30.391220",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4527653",
+    "pregunta": "Will Los Angeles Galaxy win on 2026-09-26?",
+    "ts": "2026-09-26T22:03:31.461209",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4529092",
+    "pregunta": "Will Club Santos Laguna vs. CF Pachuca end in a draw?",
+    "ts": "2026-09-26T22:03:32.517272",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
