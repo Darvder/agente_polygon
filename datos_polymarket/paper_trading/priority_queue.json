@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4793364",
+    "pregunta": "New York Mets vs. Washington Nationals",
+    "ts": "2026-09-27T11:34:00.183489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4424963",
+    "pregunta": "Jets vs. Lions: O/U 48.5",
+    "ts": "2026-09-27T11:34:01.247370",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3701375",
+    "pregunta": "Spread: Jaguars (-2.5)",
+    "ts": "2026-09-27T11:34:02.304066",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  }
+]
