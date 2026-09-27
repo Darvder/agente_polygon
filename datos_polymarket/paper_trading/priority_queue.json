@@ -1,42 +1,18 @@
 [
   {
-    "id": "3701304",
-    "pregunta": "Spread: Saints (-3.5)",
-    "ts": "2026-09-27T17:54:17.709031",
+    "id": "4558871",
+    "pregunta": "Will Columbus Crew win on 2026-09-27?",
+    "ts": "2026-09-27T18:03:33.856035",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3701306",
-    "pregunta": "Spread: Saints (-6.5)",
-    "ts": "2026-09-27T17:54:18.756097",
+    "id": "4558872",
+    "pregunta": "Will Columbus Crew vs. Inter Miami CF end in a draw?",
+    "ts": "2026-09-27T18:03:37.672186",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3701313",
-    "pregunta": "Spread: Buccaneers (-1.5)",
-    "ts": "2026-09-27T17:54:19.801093",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4856406",
-    "pregunta": "Spread: Ravens (-7.5)",
-    "ts": "2026-09-27T17:54:20.846113",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4559200",
-    "pregunta": "Will Cura\u00e7ao win on 2026-09-27?",
-    "ts": "2026-09-27T17:54:22.462220",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
