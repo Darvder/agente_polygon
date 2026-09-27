@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "3664737",
+    "pregunta": "Ravens vs. Cowboys",
+    "ts": "2026-09-27T17:02:40.091442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4793362",
+    "pregunta": "Los Angeles Dodgers vs. San Francisco Giants",
+    "ts": "2026-09-27T17:02:41.164161",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664830",
+    "pregunta": "Raiders vs. Saints",
+    "ts": "2026-09-27T17:02:42.228651",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664825",
+    "pregunta": "Vikings vs. Buccaneers",
+    "ts": "2026-09-27T17:02:43.297246",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5031454",
+    "pregunta": "Dota 2: YBN Team vs Cake Team - Game 2 Winner",
+    "ts": "2026-09-27T17:02:46.452245",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b591a6950e7ca569a7c7ffc92fad2176da90ba0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5033225",
+    "pregunta": "Counter-Strike: GamerLegion vs Sinners - Map 2 Winner",
+    "ts": "2026-09-27T17:02:47.512148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b591a6950e7ca569a7c7ffc92fad2176da90ba0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5031455",
+    "pregunta": "Dota 2: YBN Team vs Cake Team (BO3) - BetBoom Streamers Battle Playoffs",
+    "ts": "2026-09-27T17:02:48.571026",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b591a6950e7ca569a7c7ffc92fad2176da90ba0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
