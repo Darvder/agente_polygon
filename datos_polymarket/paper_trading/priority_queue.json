@@ -1,18 +1,90 @@
 [
   {
-    "id": "4558871",
-    "pregunta": "Will Columbus Crew win on 2026-09-27?",
-    "ts": "2026-09-27T18:03:33.856035",
+    "id": "3919751",
+    "pregunta": "Cardinals vs. 49ers: O/U 57.5",
+    "ts": "2026-09-27T18:13:03.653357",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4558872",
-    "pregunta": "Will Columbus Crew vs. Inter Miami CF end in a draw?",
-    "ts": "2026-09-27T18:03:37.672186",
+    "id": "4856025",
+    "pregunta": "Cardinals vs. 49ers: O/U 56.5",
+    "ts": "2026-09-27T18:13:04.722118",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3701318",
+    "pregunta": "Vikings vs. Buccaneers: O/U 41.5",
+    "ts": "2026-09-27T18:13:05.849389",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919726",
+    "pregunta": "Vikings vs. Buccaneers: O/U 40.5",
+    "ts": "2026-09-27T18:13:06.915684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4855585",
+    "pregunta": "Spread: Vikings (-2.5)",
+    "ts": "2026-09-27T18:13:07.981859",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4855586",
+    "pregunta": "Spread: Vikings (-3.5)",
+    "ts": "2026-09-27T18:13:09.050125",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919755",
+    "pregunta": "Cardinals vs. 49ers: O/U 65.5",
+    "ts": "2026-09-27T18:13:10.120400",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4856029",
+    "pregunta": "Cardinals vs. 49ers: O/U 64.5",
+    "ts": "2026-09-27T18:13:11.194427",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919754",
+    "pregunta": "Cardinals vs. 49ers: O/U 63.5",
+    "ts": "2026-09-27T18:13:12.269175",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664737",
+    "pregunta": "Ravens vs. Cowboys",
+    "ts": "2026-09-27T18:13:14.428682",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x09a7987daa6b37e117f2cfef385f51789667ba39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664830",
+    "pregunta": "Raiders vs. Saints",
+    "ts": "2026-09-27T18:13:15.508281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x09a7987daa6b37e117f2cfef385f51789667ba39",
     "whale_signal": "COMPRAR NO"
   }
 ]
