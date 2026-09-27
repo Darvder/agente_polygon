@@ -1,10 +1,26 @@
 [
   {
-    "id": "4580532",
-    "pregunta": "Club Le\u00f3n FC vs. FC Ju\u00e1rez: O/U 2.5",
-    "ts": "2026-09-27T02:02:11.170699",
+    "id": "4856972",
+    "pregunta": "Rams vs. Broncos: 4Q O/U 7.5",
+    "ts": "2026-09-27T02:12:44.470402",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf4bced92a20c373ad8b6135e988331585895a22a",
+    "whale_wallet": "0xcde452ef0189dd5f927e144ab86872d6834baa62",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4639171",
+    "pregunta": "Saudi Arabia military action against Yemen on September 28?",
+    "ts": "2026-09-27T02:12:46.278186",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf7bc06e5c6517be3df7c227ad32ddb1581f96060",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4487273",
+    "pregunta": "Saudi Oil Pipeline (East-West) restarts by September 30?",
+    "ts": "2026-09-27T02:12:47.412262",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf7bc06e5c6517be3df7c227ad32ddb1581f96060",
     "whale_signal": "COMPRAR NO"
   }
 ]
