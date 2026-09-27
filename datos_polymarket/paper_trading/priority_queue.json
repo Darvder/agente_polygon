@@ -1,34 +1,10 @@
 [
   {
-    "id": "4609832",
-    "pregunta": "Will Finland win on 2026-09-29?",
-    "ts": "2026-09-27T15:13:19.517105",
+    "id": "4793380",
+    "pregunta": "Arizona Diamondbacks vs. San Diego Padres",
+    "ts": "2026-09-27T15:22:54.263911",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4550065",
-    "pregunta": "Israel vs. Republic of Ireland: Both Teams to Score",
-    "ts": "2026-09-27T15:13:20.597960",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4549734",
-    "pregunta": "Will Norway vs. Portugal end in a draw?",
-    "ts": "2026-09-27T15:13:21.653346",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4757356",
-    "pregunta": "Chicago Cubs vs. Boston Red Sox",
-    "ts": "2026-09-27T15:13:22.702668",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   }
 ]
