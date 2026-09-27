@@ -1,90 +1,10 @@
 [
   {
-    "id": "4971853",
-    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 28?",
-    "ts": "2026-09-27T00:33:07.727542",
+    "id": "4549735",
+    "pregunta": "Will Portugal win on 2026-09-27?",
+    "ts": "2026-09-27T00:45:42.398320",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdfb65e9f972e6b0a1de9cad523941f0395391fd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4942962",
-    "pregunta": "Will the highest temperature in Guangzhou be 36\u00b0C on September 27?",
-    "ts": "2026-09-27T00:33:08.779047",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdfb65e9f972e6b0a1de9cad523941f0395391fd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4975094",
-    "pregunta": "Will the highest temperature in Houston be between 92-93\u00b0F on September 28?",
-    "ts": "2026-09-27T00:33:13.289181",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012358",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 24\u00b0C on September 29?",
-    "ts": "2026-09-27T00:33:14.517242",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012576",
-    "pregunta": "Will the highest temperature in Moscow be 16\u00b0C on September 29?",
-    "ts": "2026-09-27T00:33:15.741535",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012675",
-    "pregunta": "Will the highest temperature in Qingdao be 27\u00b0C on September 29?",
-    "ts": "2026-09-27T00:33:16.970410",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012436",
-    "pregunta": "Will the highest temperature in Hong Kong be 33\u00b0C on September 29?",
-    "ts": "2026-09-27T00:33:18.176200",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4948564",
-    "pregunta": "Will the highest temperature in Sao Paulo be 28\u00b0C on September 27?",
-    "ts": "2026-09-27T00:33:19.373124",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4947198",
-    "pregunta": "Will the highest temperature in Seattle be between 64-65\u00b0F on September 27?",
-    "ts": "2026-09-27T00:33:20.416256",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012410",
-    "pregunta": "Will the highest temperature in Tel Aviv be 28\u00b0C on September 29?",
-    "ts": "2026-09-27T00:33:21.636340",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012458",
-    "pregunta": "Will the highest temperature in Singapore be 33\u00b0C on September 29?",
-    "ts": "2026-09-27T00:33:22.842551",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72da12d9e58123844505c82448a172018386a89e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
