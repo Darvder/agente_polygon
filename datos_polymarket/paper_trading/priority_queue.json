@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "1235568",
+    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
+    "ts": "2026-09-27T17:42:28.005080",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4786497",
+    "pregunta": "LoL: Cloud9 vs Team Liquid - Game 4 Winner",
+    "ts": "2026-09-27T17:42:30.046327",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf10d84647b1a250bdeb91ab48e8bc1baf9e67b4b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
