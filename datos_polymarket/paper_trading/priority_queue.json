@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4813637",
+    "pregunta": "Minnesota vs. Washington",
+    "ts": "2026-09-26T23:12:35.312459",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4813401",
+    "pregunta": "Georgia Tech vs. Stanford",
+    "ts": "2026-09-26T23:12:36.404436",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  }
+]
