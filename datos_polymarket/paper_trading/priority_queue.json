@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4424958",
+    "pregunta": "Texans vs. Colts: O/U 45.5",
+    "ts": "2026-09-27T13:53:40.106597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919825",
+    "pregunta": "Chiefs vs. Dolphins: O/U 42.5",
+    "ts": "2026-09-27T13:53:41.195579",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3664769",
+    "pregunta": "Texans vs. Colts",
+    "ts": "2026-09-27T13:53:42.287487",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4550127",
+    "pregunta": "Norway vs. Portugal: O/U 2.5",
+    "ts": "2026-09-27T13:53:44.078323",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919744",
+    "pregunta": "Cardinals vs. 49ers: O/U 41.5",
+    "ts": "2026-09-27T13:53:45.177038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
