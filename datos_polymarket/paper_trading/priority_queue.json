@@ -1,10 +1,50 @@
 [
   {
-    "id": "4957635",
-    "pregunta": "Los Angeles Angels vs. Seattle Mariners: O/U 7.5",
-    "ts": "2026-09-26T22:33:17.277306",
+    "id": "4548698",
+    "pregunta": "Club Santos Laguna vs. CF Pachuca: 1st Half O/U 0.5",
+    "ts": "2026-09-26T22:42:31.316547",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x7192dce2fb3ed9617225e67e67542b5b7729de7a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4813401",
+    "pregunta": "Georgia Tech vs. Stanford",
+    "ts": "2026-09-26T22:42:32.394860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7192dce2fb3ed9617225e67e67542b5b7729de7a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4529093",
+    "pregunta": "Will CF Pachuca win on 2026-09-26?",
+    "ts": "2026-09-26T22:42:33.462823",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7192dce2fb3ed9617225e67e67542b5b7729de7a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4548726",
+    "pregunta": "Tigres de la UANL vs. Club Puebla: O/U 3.5",
+    "ts": "2026-09-26T22:42:34.553439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7192dce2fb3ed9617225e67e67542b5b7729de7a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4529090",
+    "pregunta": "Will Club Santos Laguna win on 2026-09-26?",
+    "ts": "2026-09-26T22:42:35.643171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7192dce2fb3ed9617225e67e67542b5b7729de7a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4813523",
+    "pregunta": "Georgia Tech vs. Stanford: O/U 56.5",
+    "ts": "2026-09-26T22:42:36.734017",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7192dce2fb3ed9617225e67e67542b5b7729de7a",
     "whale_signal": "COMPRAR NO"
   }
 ]
