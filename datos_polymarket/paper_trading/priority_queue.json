@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "3365664",
+    "pregunta": "Will exactly 8 tropical cyclones make landfall in China during 2026?",
+    "ts": "2026-09-27T12:23:13.895251",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfca82164a87b8ba38e887bd594483d29a23c5795",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4549295",
+    "pregunta": "LoL: LOS vs LOUD - Game 2 Winner",
+    "ts": "2026-09-27T12:23:17.598101",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5003656",
+    "pregunta": "LoL: Kaufland Hangry Knights vs Skillcamp Esport (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-27T12:23:18.643077",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  }
+]
