@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5013926",
+    "pregunta": "Curitiba: Gustavo Heide vs Hernan Casanova",
+    "ts": "2026-09-27T05:03:14.457440",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcd06d8a6d5cbd5da5408145474ddd883bc887b11",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4990807",
+    "pregunta": "Dota 2: LGD Gaming vs Natus Vincere - Game 2 Winner",
+    "ts": "2026-09-27T05:03:15.524307",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcd06d8a6d5cbd5da5408145474ddd883bc887b11",
+    "whale_signal": "COMPRAR NO"
+  }
+]
