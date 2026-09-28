@@ -1,18 +1,26 @@
 [
   {
-    "id": "4582687",
-    "pregunta": "Georgia vs. Ukraine: Both Teams to Score",
-    "ts": "2026-09-28T12:53:45.157334",
+    "id": "4963992",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $85 Week of September 28 2026?",
+    "ts": "2026-09-28T13:02:29.306016",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5e4566d557be04191f9b98aee701d5d94628b092",
+    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582462",
-    "pregunta": "Belgium vs. France: Belgium O/U 1.5",
-    "ts": "2026-09-28T12:53:46.292504",
+    "id": "4581765",
+    "pregunta": "Will Belgium win on 2026-09-28?",
+    "ts": "2026-09-28T13:02:31.330918",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5e4566d557be04191f9b98aee701d5d94628b092",
+    "whale_wallet": "0x1d9d9049b19abaf2f91afc4c5fb4bb8551281e7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582485",
+    "pregunta": "T\u00fcrkiye vs. Italy: O/U 2.5",
+    "ts": "2026-09-28T13:02:32.392069",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d9d9049b19abaf2f91afc4c5fb4bb8551281e7e",
     "whale_signal": "COMPRAR NO"
   }
 ]

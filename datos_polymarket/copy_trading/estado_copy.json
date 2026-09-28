@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1522.89,
-  "capital_en_riesgo": 368.05,
-  "n_ciclos": 38532,
-  "ultima_corrida": "2026-09-28 12:54",
-  "n_tp": 487,
+  "capital_actual": 1494.06,
+  "capital_en_riesgo": 399.43,
+  "n_ciclos": 38533,
+  "ultima_corrida": "2026-09-28 13:03",
+  "n_tp": 488,
   "n_sl": 312,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 28.82,
-    "capital_en_riesgo": 30.96,
+    "capital_actual": 32.23,
+    "capital_en_riesgo": 27.96,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.055,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 20,
+    "n_tp": 21,
     "n_sl": 19,
     "posiciones_abiertas": [
       {
@@ -111,7 +111,7 @@
         "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 29?",
         "outcome": "Yes",
         "precio_token_entrada": 0.665,
-        "precio_actual": 0.82,
+        "precio_actual": 0.84,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -160,26 +160,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xe97cc2e42af7f670f19177f4b8c270bac8e2ebb8b96c7938e2d38dcb63702206"
-      },
-      {
-        "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 11:32",
-        "target_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-        "market_id": "5062269",
-        "condition_id": "0xa5b060008e3ae298e3c7fde2f7c4da18d906662145e8cf5ab2088153936c18be",
-        "token_id": "29426848372684880639845632649818532676780533265075553339528179770575485422087",
-        "pregunta": "Will Bitcoin reach $85,000 on September 28?",
-        "outcome": "No",
-        "precio_token_entrada": 0.73,
-        "precio_actual": 0.83,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xb1c6ca53239eafbf2a48fc5d0d2a51a3e9a1c2f4c8e17a5e84a17ba6419acd7b"
       },
       {
         "fecha_entrada": "2026-09-28",
@@ -1002,6 +982,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "TARGET_SELL",
         "tx_hash": "0xb36fc6fa71ed549ccedf7b809d682f90eb18f691b2fc8372c31cbf35a464858b"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 11:32",
+        "target_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+        "market_id": "5062269",
+        "condition_id": "0xa5b060008e3ae298e3c7fde2f7c4da18d906662145e8cf5ab2088153936c18be",
+        "token_id": "29426848372684880639845632649818532676780533265075553339528179770575485422087",
+        "pregunta": "Will Bitcoin reach $85,000 on September 28?",
+        "outcome": "No",
+        "precio_token_entrada": 0.73,
+        "precio_actual": 0.83,
+        "precio_cierre": 0.83,
+        "pct_cambio": 0.137,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 13:03",
+        "pnl_realizado": 0.41,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xb1c6ca53239eafbf2a48fc5d0d2a51a3e9a1c2f4c8e17a5e84a17ba6419acd7b"
       }
     ]
   }
