@@ -1,50 +1,10 @@
 [
   {
-    "id": "4589768",
-    "pregunta": "Will El Salvador win on 2026-09-28?",
-    "ts": "2026-09-28T16:02:28.283681",
+    "id": "4615007",
+    "pregunta": "Cuba vs. Bonaire: O/U 4.5",
+    "ts": "2026-09-28T16:15:07.149640",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4609859",
-    "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-28T16:02:29.342685",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589731",
-    "pregunta": "Will Jamaica win on 2026-09-28?",
-    "ts": "2026-09-28T16:02:30.428208",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1235572",
-    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
-    "ts": "2026-09-28T16:02:32.141964",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064023",
-    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on September 30?",
-    "ts": "2026-09-28T16:02:34.158384",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x36cb26c12e27f6f9ed021c8982d92ab1bbea3803",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063999",
-    "pregunta": "Will the highest temperature in Tokyo be 21\u00b0C on September 30?",
-    "ts": "2026-09-28T16:02:35.203701",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x36cb26c12e27f6f9ed021c8982d92ab1bbea3803",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
