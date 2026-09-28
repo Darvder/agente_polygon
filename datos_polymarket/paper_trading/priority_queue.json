@@ -1,82 +1,18 @@
 [
   {
-    "id": "5012551",
-    "pregunta": "Will the highest temperature in Chengdu be 28\u00b0C on September 29?",
-    "ts": "2026-09-28T06:13:57.903949",
+    "id": "4551813",
+    "pregunta": "Will Japan win on 2026-09-28?",
+    "ts": "2026-09-28T06:25:02.172091",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012553",
-    "pregunta": "Will the highest temperature in Chengdu be 30\u00b0C on September 29?",
-    "ts": "2026-09-28T06:13:59.181552",
+    "id": "4564433",
+    "pregunta": "Japan vs. Venezuela: O/U 1.5",
+    "ts": "2026-09-28T06:25:03.212519",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064231",
-    "pregunta": "Will the highest temperature in Cape Town be 33\u00b0C on September 30?",
-    "ts": "2026-09-28T06:14:00.471171",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064232",
-    "pregunta": "Will the highest temperature in Cape Town be 34\u00b0C on September 30?",
-    "ts": "2026-09-28T06:14:01.556452",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011247",
-    "pregunta": "Will the lowest temperature in Tokyo be 18\u00b0C on September 29?",
-    "ts": "2026-09-28T06:14:02.833054",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011174",
-    "pregunta": "Will the lowest temperature in London be 17\u00b0C on September 29?",
-    "ts": "2026-09-28T06:14:03.927723",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011270",
-    "pregunta": "Will the lowest temperature in Shanghai be 22\u00b0C on September 29?",
-    "ts": "2026-09-28T06:14:05.145454",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063281",
-    "pregunta": "Will the lowest temperature in Hong Kong be 29\u00b0C on September 30?",
-    "ts": "2026-09-28T06:14:06.230478",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011172",
-    "pregunta": "Will the lowest temperature in London be 15\u00b0C on September 29?",
-    "ts": "2026-09-28T06:14:07.434316",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011260",
-    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 29?",
-    "ts": "2026-09-28T06:14:08.694673",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
