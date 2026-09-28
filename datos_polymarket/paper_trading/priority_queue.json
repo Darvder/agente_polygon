@@ -1,26 +1,74 @@
 [
   {
-    "id": "4642062",
-    "pregunta": "Counter-Strike: FaZe vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
-    "ts": "2026-09-28T05:36:01.827287",
+    "id": "4564434",
+    "pregunta": "Japan vs. Venezuela: O/U 2.5",
+    "ts": "2026-09-28T05:43:55.782476",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3923dc0ee95ef241047f6fb5b75d7a08d90f6833",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4962521",
-    "pregunta": "LoL: KT Rolster Challengers vs Galions - Game 2 Winner",
-    "ts": "2026-09-28T05:36:02.893417",
+    "id": "5024997",
+    "pregunta": "Chengdu Open: Nikoloz Basilashvili vs Alejandro Davidovich Fokina",
+    "ts": "2026-09-28T05:43:56.820493",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3923dc0ee95ef241047f6fb5b75d7a08d90f6833",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4797508",
-    "pregunta": "Will the price of Bitcoin be above $82,000 on September 28?",
-    "ts": "2026-09-28T05:36:04.691559",
+    "id": "4564438",
+    "pregunta": "Japan vs. Venezuela: Both Teams to Score",
+    "ts": "2026-09-28T05:43:57.859542",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-09-28T05:43:59.524270",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38cf9743eb70188664d388d84d4aa4c6f40fd885",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5069342",
+    "pregunta": "LoL: Solary vs DN SOOPers Challengers (BO5) - World Star Challengers Invitational Playoffs",
+    "ts": "2026-09-28T05:44:01.380133",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2c9baedef0ccad17b7a2b08705da17b7d85bfb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055672",
+    "pregunta": "LoL: Anubis Gaming vs Skillcamp Esport (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-28T05:44:02.419222",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2c9baedef0ccad17b7a2b08705da17b7d85bfb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055683",
+    "pregunta": "LoL: G2 NORD vs Frites Esports Club (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-28T05:44:03.455168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2c9baedef0ccad17b7a2b08705da17b7d85bfb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055694",
+    "pregunta": "LoL: TLN Pirates vs JSK Esports (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-28T05:44:04.577786",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2c9baedef0ccad17b7a2b08705da17b7d85bfb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055748",
+    "pregunta": "LoL: Karmine Corp Blue vs NightBirds (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-28T05:44:05.706695",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2c9baedef0ccad17b7a2b08705da17b7d85bfb6",
     "whale_signal": "COMPRAR NO"
   }
 ]
