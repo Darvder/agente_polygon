@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4559773",
+    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
+    "ts": "2026-09-27T23:02:23.870298",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4972587",
+    "pregunta": "Will the highest temperature in Taipei be 35\u00b0C on September 28?",
+    "ts": "2026-09-27T23:02:26.898481",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc878c6a7ba8ad896a897fe82e48b93fb66dfa6f3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
