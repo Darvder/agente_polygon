@@ -1,50 +1,58 @@
 [
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T11:44:33.311225",
+    "id": "5055650",
+    "pregunta": "LoL: PCIFIC  vs UCAM Esports Club (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-28T11:54:25.771955",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xb4cd4d6fe596f360137e5a0441fecc4e1ec9c041",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582456",
-    "pregunta": "Belgium vs. France: Both Teams to Score",
-    "ts": "2026-09-28T11:44:34.368811",
+    "id": "4582690",
+    "pregunta": "Georgia vs. Ukraine: 1st Half O/U 1.5",
+    "ts": "2026-09-28T11:54:27.694905",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x26cddc59ed25b4d80b408d730c49af6469b42c85",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581719",
-    "pregunta": "Will Bosnia and Herzegovina win on 2026-09-28?",
-    "ts": "2026-09-28T11:44:35.505756",
+    "id": "4582657",
+    "pregunta": "Latvia vs. Cyprus: 1st Half O/U 1.5",
+    "ts": "2026-09-28T11:54:28.857232",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x26cddc59ed25b4d80b408d730c49af6469b42c85",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581752",
-    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
-    "ts": "2026-09-28T11:44:36.586929",
+    "id": "4581769",
+    "pregunta": "Georgia leading at halftime?",
+    "ts": "2026-09-28T11:54:29.965900",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x26cddc59ed25b4d80b408d730c49af6469b42c85",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-28T11:44:37.660331",
+    "id": "4581704",
+    "pregunta": "Will Montenegro win on 2026-09-28?",
+    "ts": "2026-09-28T11:54:31.049715",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x26cddc59ed25b4d80b408d730c49af6469b42c85",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581757",
-    "pregunta": "Will Italy win on 2026-09-28?",
-    "ts": "2026-09-28T11:44:38.717960",
+    "id": "4581688",
+    "pregunta": "Will Cyprus win on 2026-09-28?",
+    "ts": "2026-09-28T11:54:32.121937",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x26cddc59ed25b4d80b408d730c49af6469b42c85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581665",
+    "pregunta": "Will Georgia win on 2026-09-28?",
+    "ts": "2026-09-28T11:54:33.206315",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26cddc59ed25b4d80b408d730c49af6469b42c85",
     "whale_signal": "COMPRAR NO"
   }
 ]
