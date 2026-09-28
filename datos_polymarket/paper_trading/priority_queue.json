@@ -1,34 +1,42 @@
 [
   {
-    "id": "4580532",
-    "pregunta": "Club Le\u00f3n FC vs. FC Ju\u00e1rez: O/U 2.5",
-    "ts": "2026-09-27T22:05:02.576874",
+    "id": "5029216",
+    "pregunta": "Will the highest temperature in Mexico City be 26\u00b0C on September 29?",
+    "ts": "2026-09-27T22:12:58.803228",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x882c2e9d90d28e02a15be0d7f8d3636994305d07",
+    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4580490",
-    "pregunta": "Spread: CF Am\u00e9rica (-1.5)",
-    "ts": "2026-09-27T22:05:04.295671",
+    "id": "4978413",
+    "pregunta": "Will the highest temperature in Mexico City be 26\u00b0C on September 28?",
+    "ts": "2026-09-27T22:12:59.876094",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-27T22:05:05.347913",
+    "id": "5012509",
+    "pregunta": "Will the highest temperature in Taipei be 36\u00b0C on September 29?",
+    "ts": "2026-09-27T22:13:00.965517",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4559773",
-    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
-    "ts": "2026-09-27T22:05:06.394221",
+    "id": "5012401",
+    "pregunta": "Will the highest temperature in Munich be 24\u00b0C on September 29?",
+    "ts": "2026-09-27T22:13:02.143477",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029189",
+    "pregunta": "Will the highest temperature in Buenos Aires be 20\u00b0C on September 29?",
+    "ts": "2026-09-27T22:13:03.309446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
     "whale_signal": "COMPRAR NO"
   }
 ]
