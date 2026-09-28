@@ -1,42 +1,58 @@
 [
   {
-    "id": "5064077",
-    "pregunta": "Will the highest temperature in Warsaw be 21\u00b0C on September 30?",
-    "ts": "2026-09-28T18:14:02.386557",
+    "id": "4589731",
+    "pregunta": "Will Jamaica win on 2026-09-28?",
+    "ts": "2026-09-28T18:24:45.251825",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5066877",
-    "pregunta": "Will the highest temperature in Chicago be between 70-71\u00b0F on September 30?",
-    "ts": "2026-09-28T18:14:03.503740",
+    "id": "3919668",
+    "pregunta": "Eagles vs. Bears: O/U 43.5",
+    "ts": "2026-09-28T18:24:46.349174",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012664",
-    "pregunta": "Will the highest temperature in Guangzhou be 37\u00b0C on September 29?",
-    "ts": "2026-09-28T18:14:04.754371",
+    "id": "4857119",
+    "pregunta": "Spread: Eagles (-6.5)",
+    "ts": "2026-09-28T18:24:47.449687",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5063281",
-    "pregunta": "Will the lowest temperature in Hong Kong be 29\u00b0C on September 30?",
-    "ts": "2026-09-28T18:14:06.270866",
+    "id": "4857367",
+    "pregunta": "1H Spread: Eagles (-3.5)",
+    "ts": "2026-09-28T18:24:48.595840",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012612",
-    "pregunta": "Will the highest temperature in Amsterdam be 26\u00b0C or higher on September 29?",
-    "ts": "2026-09-28T18:14:10.429741",
+    "id": "4857338",
+    "pregunta": "1H Spread: Eagles (-1.5)",
+    "ts": "2026-09-28T18:24:49.688612",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2d6285018577f431f8ce340f4cc9f5991ce8144d",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-09-28T18:24:51.747875",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4589719",
+    "pregunta": "Will Suriname win on 2026-09-28?",
+    "ts": "2026-09-28T18:24:54.873552",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x76f951fc1d88cd50e374bbfea0aeb06e409a8ea0",
     "whale_signal": "COMPRAR NO"
   }
 ]
