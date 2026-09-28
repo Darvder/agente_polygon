@@ -1,24 +1,24 @@
 [
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T13:33:37.417589",
+    "id": "4582452",
+    "pregunta": "Belgium vs. France: O/U 2.5",
+    "ts": "2026-09-28T13:42:47.761208",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582458",
-    "pregunta": "Belgium vs. France: 1st Half O/U 0.5",
-    "ts": "2026-09-28T13:33:38.469616",
+    "id": "4581752",
+    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
+    "ts": "2026-09-28T13:42:48.803302",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582551",
-    "pregunta": "Sweden vs. Poland: O/U 2.5",
-    "ts": "2026-09-28T13:33:39.547453",
+    "id": "4589731",
+    "pregunta": "Will Jamaica win on 2026-09-28?",
+    "ts": "2026-09-28T13:42:49.862128",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -26,25 +26,25 @@
   {
     "id": "4582456",
     "pregunta": "Belgium vs. France: Both Teams to Score",
-    "ts": "2026-09-28T13:33:40.604563",
+    "ts": "2026-09-28T13:42:50.904438",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581722",
-    "pregunta": "Will Sweden win on 2026-09-28?",
-    "ts": "2026-09-28T13:33:41.658956",
+    "id": "4582489",
+    "pregunta": "T\u00fcrkiye vs. Italy: Both Teams to Score",
+    "ts": "2026-09-28T13:42:51.967860",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5004147",
-    "pregunta": "Mouilleron-Le-Captif: Pierre-Hugues Herbert vs Sascha Gueymard-Wayenburg",
-    "ts": "2026-09-28T13:33:51.391095",
+    "id": "4582453",
+    "pregunta": "Belgium vs. France: O/U 3.5",
+    "ts": "2026-09-28T13:42:53.013767",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfd02334d567a1e90f1d30849439b8d39253f889f",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
