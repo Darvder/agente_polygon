@@ -1,42 +1,42 @@
 [
   {
-    "id": "4581702",
-    "pregunta": "Will Armenia vs. Montenegro end in a draw?",
-    "ts": "2026-09-28T14:33:44.985057",
+    "id": "4582452",
+    "pregunta": "Belgium vs. France: O/U 2.5",
+    "ts": "2026-09-28T14:44:46.312030",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2ec5ac52dcb5537f1fe8b47ee3cfd34bd666fd53",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T14:33:46.949624",
+    "id": "5013967",
+    "pregunta": "Columbus: Tyler Zink vs Mitchell Krueger",
+    "ts": "2026-09-28T14:44:47.370181",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581739",
-    "pregunta": "Will Northern Ireland win on 2026-09-28?",
-    "ts": "2026-09-28T14:33:48.046921",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582458",
-    "pregunta": "Belgium vs. France: 1st Half O/U 0.5",
-    "ts": "2026-09-28T14:33:49.144122",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4581765",
     "pregunta": "Will Belgium win on 2026-09-28?",
-    "ts": "2026-09-28T14:33:50.298460",
+    "ts": "2026-09-28T14:44:48.428585",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T14:44:49.483567",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582486",
+    "pregunta": "T\u00fcrkiye vs. Italy: O/U 3.5",
+    "ts": "2026-09-28T14:44:50.550815",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
     "whale_signal": "COMPRAR NO"
   }
 ]
