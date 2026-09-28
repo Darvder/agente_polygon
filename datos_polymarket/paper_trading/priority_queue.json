@@ -1,114 +1,26 @@
 [
   {
-    "id": "4581752",
-    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
-    "ts": "2026-09-28T05:25:31.344054",
+    "id": "4642062",
+    "pregunta": "Counter-Strike: FaZe vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-09-28T05:36:01.827287",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3923dc0ee95ef241047f6fb5b75d7a08d90f6833",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4551820",
-    "pregunta": "Will Uruguay win on 2026-09-28?",
-    "ts": "2026-09-28T05:25:32.437436",
+    "id": "4962521",
+    "pregunta": "LoL: KT Rolster Challengers vs Galions - Game 2 Winner",
+    "ts": "2026-09-28T05:36:02.893417",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3923dc0ee95ef241047f6fb5b75d7a08d90f6833",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T05:25:33.531789",
+    "id": "4797508",
+    "pregunta": "Will the price of Bitcoin be above $82,000 on September 28?",
+    "ts": "2026-09-28T05:36:04.691559",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4564434",
-    "pregunta": "Japan vs. Venezuela: O/U 2.5",
-    "ts": "2026-09-28T05:25:34.626817",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581722",
-    "pregunta": "Will Sweden win on 2026-09-28?",
-    "ts": "2026-09-28T05:25:35.690265",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589768",
-    "pregunta": "Will El Salvador win on 2026-09-28?",
-    "ts": "2026-09-28T05:25:36.784567",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4952599",
-    "pregunta": "Las Vegas Aces vs. Indiana Fever",
-    "ts": "2026-09-28T05:25:37.949211",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4551813",
-    "pregunta": "Will Japan win on 2026-09-28?",
-    "ts": "2026-09-28T05:25:39.039234",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041249",
-    "pregunta": "China Open, Qualification: Miomir Kecmanovic vs Adrian Mannarino",
-    "ts": "2026-09-28T05:25:41.073203",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041329",
-    "pregunta": "Bari: Oleksandr Ovcharenko vs Pierluigi Basile",
-    "ts": "2026-09-28T05:25:42.154198",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5057523",
-    "pregunta": "Porto 2: Goncalo Marques vs Christian Langmo",
-    "ts": "2026-09-28T05:25:43.245446",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041331",
-    "pregunta": "Bari: Franco Agamenone vs John Sperle",
-    "ts": "2026-09-28T05:25:44.328653",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5024997",
-    "pregunta": "Chengdu Open: Nikoloz Basilashvili vs Alejandro Davidovich Fokina",
-    "ts": "2026-09-28T05:25:45.399153",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5025024",
-    "pregunta": "Hangzhou Open: Kyrian Jacquet vs Andrey Rublev",
-    "ts": "2026-09-28T05:25:46.465198",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
