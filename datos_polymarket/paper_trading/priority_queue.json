@@ -1,58 +1,18 @@
 [
   {
-    "id": "4987130",
-    "pregunta": "Will US Dollar Index (DXY) hit (LOW) 101.00 in September?",
-    "ts": "2026-09-28T04:22:26.322958",
+    "id": "4612100",
+    "pregunta": "Forest Green Rovers FC vs. Wealdstone FC: Wealdstone FC O/U 2.5",
+    "ts": "2026-09-28T04:34:47.881041",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f3ee9c40be255d1c18ca38bf4ab94b564c75337",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4960971",
-    "pregunta": "Will Trump say \"Bitcoin\" or \"Crypto\" or \"Cryptocurrency\" this week?",
-    "ts": "2026-09-28T04:22:27.369445",
+    "id": "5055890",
+    "pregunta": "LoL: Saudi Arabia vs Malaysia (BO1) - Asian Games Group A",
+    "ts": "2026-09-28T04:34:49.033736",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f3ee9c40be255d1c18ca38bf4ab94b564c75337",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3866468",
-    "pregunta": "Will US Dollar Index (DXY) hit (HIGH) 101.50 in September?",
-    "ts": "2026-09-28T04:22:28.499208",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f3ee9c40be255d1c18ca38bf4ab94b564c75337",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011247",
-    "pregunta": "Will the lowest temperature in Tokyo be 18\u00b0C on September 29?",
-    "ts": "2026-09-28T04:22:29.567141",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f3ee9c40be255d1c18ca38bf4ab94b564c75337",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5062282",
-    "pregunta": "Will Bitcoin dip to $81,000 on September 28?",
-    "ts": "2026-09-28T04:22:31.179066",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012425",
-    "pregunta": "Will the highest temperature in Tokyo be 24\u00b0C on September 29?",
-    "ts": "2026-09-28T04:22:33.156612",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6c808ecb1d4e2ff217596af2f9159412a5aac3dd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041230",
-    "pregunta": "Japan Open Tennis Championships, Qualification: Adolfo Vallejo vs Taro Daniel",
-    "ts": "2026-09-28T04:22:34.967964",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc3a3da667acfd316207a817d618e240dd261b441",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
     "whale_signal": "COMPRAR NO"
   }
 ]
