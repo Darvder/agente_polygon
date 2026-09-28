@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
   "capital_actual": 1472.91,
-  "capital_en_riesgo": 395.39,
-  "n_ciclos": 38503,
-  "ultima_corrida": "2026-09-28 08:03",
+  "capital_en_riesgo": 395.3900000000001,
+  "n_ciclos": 38504,
+  "ultima_corrida": "2026-09-28 08:16",
   "n_tp": 477,
   "n_sl": 305,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 29.51,
-    "capital_en_riesgo": 30.9,
+    "capital_actual": 31.02,
+    "capital_en_riesgo": 27.9,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 16,
-    "n_sl": 16,
+    "n_sl": 17,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-27",
@@ -91,7 +91,7 @@
         "pregunta": "Will the highest temperature in Atlanta be between 80-81\u00b0F on Septembe",
         "outcome": "No",
         "precio_token_entrada": 0.63,
-        "precio_actual": 0.63,
+        "precio_actual": 0.615,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -111,7 +111,7 @@
         "pregunta": "Will the highest temperature in Dallas be between 92-93\u00b0F on September",
         "outcome": "Yes",
         "precio_token_entrada": 0.49,
-        "precio_actual": 0.475,
+        "precio_actual": 0.45,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -180,26 +180,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x19f6f97e9cf5beef12924600247e88413e20d73c42689f5bf764b624ca20f494"
-      },
-      {
-        "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 07:32",
-        "target_wallet": "0x7a85652f35c4a1b8a1b0393e6e2fa8db82f0ff94",
-        "market_id": "5041239",
-        "condition_id": "0x0752adc6bd9c9255203ec76e64aa768f56b0e6655435023f921a24aa3f30cc9c",
-        "token_id": "57039699129148020320878545780320273221830485826159761900688706993955635216739",
-        "pregunta": "Chengdu Open: Hubert Hurkacz vs Denis Shapovalov",
-        "outcome": "Denis Shapovalov",
-        "precio_token_entrada": 0.725,
-        "precio_actual": 0.495,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x10f16bcebe71febbee563ab623e06229a9a699cfea241bd00ac12a4a9a91ebb4"
       },
       {
         "fecha_entrada": "2026-09-28",
@@ -862,6 +842,26 @@
         "pnl_realizado": 1.45,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x8242272ef951cb3821089efaaacc069d96d79823e14813fb2b94249d35a40f45"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 07:32",
+        "target_wallet": "0x7a85652f35c4a1b8a1b0393e6e2fa8db82f0ff94",
+        "market_id": "5041239",
+        "condition_id": "0x0752adc6bd9c9255203ec76e64aa768f56b0e6655435023f921a24aa3f30cc9c",
+        "token_id": "57039699129148020320878545780320273221830485826159761900688706993955635216739",
+        "pregunta": "Chengdu Open: Hubert Hurkacz vs Denis Shapovalov",
+        "outcome": "Denis Shapovalov",
+        "precio_token_entrada": 0.725,
+        "precio_actual": 0.365,
+        "precio_cierre": 0.365,
+        "pct_cambio": -0.4966,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 08:16",
+        "pnl_realizado": -1.49,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x10f16bcebe71febbee563ab623e06229a9a699cfea241bd00ac12a4a9a91ebb4"
       }
     ]
   }
