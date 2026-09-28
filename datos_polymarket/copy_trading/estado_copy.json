@@ -1,9 +1,9 @@
 {
   "capital_inicial": 1000.0,
   "capital_actual": 1547.24,
-  "capital_en_riesgo": 411.19,
-  "n_ciclos": 38451,
-  "ultima_corrida": "2026-09-27 23:25",
+  "capital_en_riesgo": 411.19000000000005,
+  "n_ciclos": 38452,
+  "ultima_corrida": "2026-09-27 23:33",
   "n_tp": 469,
   "n_sl": 294,
   "n_time": 0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.055,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 2,
+    "n_tp": 3,
     "n_sl": 1,
     "posiciones_abiertas": [
       {
@@ -111,7 +111,7 @@
         "pregunta": "Will Club Necaxa vs. CF Am\u00e9rica end in a draw?",
         "outcome": "Yes",
         "precio_token_entrada": 0.305,
-        "precio_actual": 0.305,
+        "precio_actual": 0.315,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.8,
@@ -131,7 +131,7 @@
         "pregunta": "Will Club Necaxa win on 2026-09-27?",
         "outcome": "No",
         "precio_token_entrada": 0.795,
-        "precio_actual": 0.795,
+        "precio_actual": 0.805,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -171,7 +171,7 @@
         "pregunta": "China Open, Qualification: Yannick Hanfmann vs Tomas Machac",
         "outcome": "Tomas Machac",
         "precio_token_entrada": 0.62,
-        "precio_actual": 0.62,
+        "precio_actual": 0.74,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -242,6 +242,26 @@
         "pnl_realizado": 1.91,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0xede75e8117db3525a0fe1bb99e38494344f5f3d43b6b01aa0c79b8adba491b34"
+      },
+      {
+        "fecha_entrada": "2026-09-27",
+        "fecha_entrada_dt": "2026-09-27 23:32",
+        "target_wallet": "0x1f5f9fa318fbda8350ac143b4df657287df850fa",
+        "market_id": "4868022",
+        "condition_id": "0x4d0b90fb40e4e4e06e37ff63b1a00e4d22c2347c9eead42b8aaeb71ab8f631b9",
+        "token_id": "49428607459348493150341298719445809640443664507342500842117803982961645588752",
+        "pregunta": "Will MrBeast Gaming's next video get between 35 and 40 million views i",
+        "outcome": "No",
+        "precio_token_entrada": 0.485,
+        "precio_actual": 0.485,
+        "precio_cierre": 0.485,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.34,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-27 23:32",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "TARGET_SELL",
+        "tx_hash": "0xb4df84aedb2cc1b617ef68b61e43ed7612d22dba678cd39e42d2bd9be4a3dcab"
       }
     ]
   }
