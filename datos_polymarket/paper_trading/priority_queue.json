@@ -1,90 +1,18 @@
 [
   {
-    "id": "4551818",
-    "pregunta": "Will Korea Republic win on 2026-09-28?",
-    "ts": "2026-09-28T00:54:47.929438",
+    "id": "4975060",
+    "pregunta": "Will the highest temperature in Atlanta be between 80-81\u00b0F on September 28?",
+    "ts": "2026-09-28T01:05:24.636431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x73e0ccf58caf8a62eeb2970645dce32d0978e538",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857116",
-    "pregunta": "Spread: Eagles (-3.5)",
-    "ts": "2026-09-28T00:54:48.990655",
+    "id": "5012530",
+    "pregunta": "Will the highest temperature in Beijing be 26\u00b0C on September 29?",
+    "ts": "2026-09-28T01:05:25.877088",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581752",
-    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
-    "ts": "2026-09-28T00:54:50.059871",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581765",
-    "pregunta": "Will Belgium win on 2026-09-28?",
-    "ts": "2026-09-28T00:54:51.100612",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3701264",
-    "pregunta": "Spread: Bears (-3.5)",
-    "ts": "2026-09-28T00:54:54.247684",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4424972",
-    "pregunta": "Eagles vs. Bears: O/U 48.5",
-    "ts": "2026-09-28T00:54:55.301721",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740124",
-    "pregunta": "UFC 332: Alden Coria vs. Imanol Rodriguez (Flyweight, Prelims)",
-    "ts": "2026-09-28T00:54:57.419403",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581700",
-    "pregunta": "Will Armenia win on 2026-09-28?",
-    "ts": "2026-09-28T00:55:02.133516",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041235",
-    "pregunta": "Japan Open Tennis Championships, Qualification: Jaume Munar vs Marcos Giron",
-    "ts": "2026-09-28T00:55:04.431290",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041241",
-    "pregunta": "China Open, Qualification: Botic van de Zandschulp vs Valentin Royer",
-    "ts": "2026-09-28T00:55:05.475434",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582555",
-    "pregunta": "Sweden vs. Poland: Both Teams to Score",
-    "ts": "2026-09-28T00:55:06.551411",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb3498d4667506ffc20a9915c3eeb87a15e4b39d8",
+    "whale_wallet": "0x73e0ccf58caf8a62eeb2970645dce32d0978e538",
     "whale_signal": "COMPRAR NO"
   }
 ]
