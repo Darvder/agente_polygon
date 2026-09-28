@@ -2,81 +2,65 @@
   {
     "id": "4581768",
     "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T15:03:28.720806",
+    "ts": "2026-09-28T15:13:25.646130",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581743",
-    "pregunta": "Will Hungary win on 2026-09-28?",
-    "ts": "2026-09-28T15:03:29.875654",
+    "id": "4582450",
+    "pregunta": "Belgium vs. France: O/U 0.5",
+    "ts": "2026-09-28T15:13:26.714353",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581724",
-    "pregunta": "Will Sweden vs. Poland end in a draw?",
-    "ts": "2026-09-28T15:03:30.963301",
+    "id": "4582516",
+    "pregunta": "Northern Ireland vs. Hungary: O/U 0.5",
+    "ts": "2026-09-28T15:13:27.827033",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4680129",
-    "pregunta": "T\u00fcrkiye vs. Italy: O/U 6.5",
-    "ts": "2026-09-28T15:03:32.056547",
+    "id": "4680124",
+    "pregunta": "Spread: Italy (-3.5)",
+    "ts": "2026-09-28T15:13:28.907286",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581726",
-    "pregunta": "Will Poland win on 2026-09-28?",
-    "ts": "2026-09-28T15:03:33.154856",
+    "id": "4582482",
+    "pregunta": "Spread: Italy (-2.5)",
+    "ts": "2026-09-28T15:13:29.979548",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582488",
-    "pregunta": "T\u00fcrkiye vs. Italy: O/U 5.5",
-    "ts": "2026-09-28T15:03:34.224516",
+    "id": "4581722",
+    "pregunta": "Will Sweden win on 2026-09-28?",
+    "ts": "2026-09-28T15:13:31.043761",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4975060",
-    "pregunta": "Will the highest temperature in Atlanta be between 80-81\u00b0F on September 28?",
-    "ts": "2026-09-28T15:03:36.308370",
+    "id": "4582552",
+    "pregunta": "Sweden vs. Poland: O/U 3.5",
+    "ts": "2026-09-28T15:13:32.114755",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x00b23eece60e8cb8992208af7b056d47ec853ef1",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4975059",
-    "pregunta": "Will the highest temperature in Atlanta be between 78-79\u00b0F on September 28?",
-    "ts": "2026-09-28T15:03:37.391504",
+    "id": "4592770",
+    "pregunta": "CD Legan\u00e9s vs. CD Castell\u00f3n: O/U 2.5",
+    "ts": "2026-09-28T15:13:35.219618",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x00b23eece60e8cb8992208af7b056d47ec853ef1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3660850",
-    "pregunta": "Will Rui Costa win the most votes in the 2026 Bahia Senate election?",
-    "ts": "2026-09-28T15:03:40.031509",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x82bd44e1ab121f4ae56a411419e8041dbb28335e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3660813",
-    "pregunta": "Will Rui Costa win the second-most votes in the 2026 Bahia Senate election?",
-    "ts": "2026-09-28T15:03:41.143070",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x82bd44e1ab121f4ae56a411419e8041dbb28335e",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
