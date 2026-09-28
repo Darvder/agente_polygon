@@ -1,18 +1,50 @@
 [
   {
-    "id": "5041275",
-    "pregunta": "Jingshan: Alex Bolt vs Semen Pankin",
-    "ts": "2026-09-28T13:23:43.049958",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T13:33:37.417589",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5cdc4e820fe30f22f3cf2581796d6e5abedc1f6b",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5083451",
-    "pregunta": "Bari: Imanol Lopez Morillo vs Martin Krumich",
-    "ts": "2026-09-28T13:23:44.247366",
+    "id": "4582458",
+    "pregunta": "Belgium vs. France: 1st Half O/U 0.5",
+    "ts": "2026-09-28T13:33:38.469616",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5cdc4e820fe30f22f3cf2581796d6e5abedc1f6b",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582551",
+    "pregunta": "Sweden vs. Poland: O/U 2.5",
+    "ts": "2026-09-28T13:33:39.547453",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582456",
+    "pregunta": "Belgium vs. France: Both Teams to Score",
+    "ts": "2026-09-28T13:33:40.604563",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581722",
+    "pregunta": "Will Sweden win on 2026-09-28?",
+    "ts": "2026-09-28T13:33:41.658956",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5004147",
+    "pregunta": "Mouilleron-Le-Captif: Pierre-Hugues Herbert vs Sascha Gueymard-Wayenburg",
+    "ts": "2026-09-28T13:33:51.391095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd02334d567a1e90f1d30849439b8d39253f889f",
     "whale_signal": "COMPRAR NO"
   }
 ]
