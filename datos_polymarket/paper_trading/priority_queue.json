@@ -1,50 +1,82 @@
 [
   {
-    "id": "4218289",
-    "pregunta": "Will South Korea ETF (EWY) hit (HIGH) $196 in September?",
-    "ts": "2026-09-28T18:43:07.192178",
+    "id": "4614971",
+    "pregunta": "Suriname vs. Martinique: O/U 1.5",
+    "ts": "2026-09-28T18:54:20.378889",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8a5189f973df5e33ada6aefea1dca23ce5a451a2",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857117",
-    "pregunta": "Spread: Eagles (-4.5)",
-    "ts": "2026-09-28T18:43:25.677070",
+    "id": "5074203",
+    "pregunta": "Counter-Strike: underw0rld vs MIBR fe (BO3) - Gamers Club Liga S\u00e9rie A Group C",
+    "ts": "2026-09-28T18:54:21.445200",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857160",
-    "pregunta": "Spread: Eagles (-10.5)",
-    "ts": "2026-09-28T18:43:26.775716",
+    "id": "5068155",
+    "pregunta": "W100 Templeton, CA: Carolina Kuhl vs Anne Christine Lutkemeyer",
+    "ts": "2026-09-28T18:54:23.590963",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4589735",
-    "pregunta": "Will Honduras win on 2026-09-28?",
-    "ts": "2026-09-28T18:43:27.835195",
+    "id": "4614973",
+    "pregunta": "Suriname vs. Martinique: O/U 3.5",
+    "ts": "2026-09-28T18:54:24.695114",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4589731",
-    "pregunta": "Will Jamaica win on 2026-09-28?",
-    "ts": "2026-09-28T18:43:28.892685",
+    "id": "4614966",
+    "pregunta": "Spread: Suriname (-1.5)",
+    "ts": "2026-09-28T18:54:25.932751",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919668",
-    "pregunta": "Eagles vs. Bears: O/U 43.5",
-    "ts": "2026-09-28T18:43:30.030728",
+    "id": "4857357",
+    "pregunta": "1H Spread: Eagles (-2.5)",
+    "ts": "2026-09-28T18:54:28.035404",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857118",
+    "pregunta": "Spread: Eagles (-5.5)",
+    "ts": "2026-09-28T18:54:31.314406",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4614943",
+    "pregunta": "Jamaica vs. Honduras: Both Teams to Score",
+    "ts": "2026-09-28T18:54:32.747336",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4839323",
+    "pregunta": "Eagles vs. Bears: 1H Moneyline",
+    "ts": "2026-09-28T18:54:33.974133",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857223",
+    "pregunta": "Spread: Bears (-6.5)",
+    "ts": "2026-09-28T18:54:35.082040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
