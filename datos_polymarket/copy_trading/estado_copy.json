@@ -2,14 +2,14 @@
   "capital_inicial": 1000.0,
   "capital_actual": 1523.25,
   "capital_en_riesgo": 397.34,
-  "n_ciclos": 38462,
-  "ultima_corrida": "2026-09-28 01:14",
+  "n_ciclos": 38463,
+  "ultima_corrida": "2026-09-28 01:23",
   "n_tp": 472,
   "n_sl": 297,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 40.18,
+    "capital_actual": 40.04,
     "capital_en_riesgo": 31.85,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 8,
-    "n_sl": 4,
+    "n_sl": 5,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-27",
@@ -151,7 +151,7 @@
         "pregunta": "Will the highest temperature in Atlanta be between 80-81\u00b0F on Septembe",
         "outcome": "Yes",
         "precio_token_entrada": 0.355,
-        "precio_actual": 0.355,
+        "precio_actual": 0.375,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.13,
@@ -171,7 +171,7 @@
         "pregunta": "Will the highest temperature in Beijing be 26\u00b0C on September 28?",
         "outcome": "Yes",
         "precio_token_entrada": 0.32,
-        "precio_actual": 0.32,
+        "precio_actual": 0.41,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.11,
@@ -191,7 +191,7 @@
         "pregunta": "Will the highest temperature in Beijing be 25\u00b0C on September 28?",
         "outcome": "Yes",
         "precio_token_entrada": 0.65,
-        "precio_actual": 0.65,
+        "precio_actual": 0.57,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -203,13 +203,13 @@
       },
       {
         "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 01:14",
-        "target_wallet": "0xc39117e50deb88a34c1b7a381ee5bb29d3ddcdee",
-        "market_id": "5041235",
-        "condition_id": "0xff90f8763616ba7639cc7133b3d9f29046768bb70caa150c34feb22415f59c99",
-        "token_id": "107668714795616567494501469722259877024322479745567552429205766873268684240173",
-        "pregunta": "Japan Open Tennis Championships, Qualification: Jaume Munar vs Marcos ",
-        "outcome": "Jaume Munar",
+        "fecha_entrada_dt": "2026-09-28 01:22",
+        "target_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+        "market_id": "5041253",
+        "condition_id": "0x460745a2d3239e91c49b75ef8f92abc773639a8f2a52fdf370672cb1ef5e1b6d",
+        "token_id": "16152838026930074179311479755391252394439473109208504105415175760016136240845",
+        "pregunta": "China Open, Qualification: Martin Landaluce vs Marco Trungelliti",
+        "outcome": "Marco Trungelliti",
         "precio_token_entrada": 0.635,
         "precio_actual": 0.635,
         "precio_cierre": "",
@@ -219,7 +219,7 @@
         "fecha_cierre_real": "",
         "pnl_realizado": 0.0,
         "razon_cierre": "",
-        "tx_hash": "0x89eb5f5abe9b94b0c0c0bdf575b05515e2648754efcc6ae35b7e7cbab1b19a39"
+        "tx_hash": "0x956974be1b92ba0cf5eade1eec39bee1b87c753789c638a725ba41d8d65b3e01"
       }
     ],
     "historial_cerradas": [
@@ -462,6 +462,26 @@
         "pnl_realizado": -2.9,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x1dea462bf9f58cf3199346543312d06aad6362fe849537e90fb5795d00db7dd9"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 01:14",
+        "target_wallet": "0xc39117e50deb88a34c1b7a381ee5bb29d3ddcdee",
+        "market_id": "5041235",
+        "condition_id": "0xff90f8763616ba7639cc7133b3d9f29046768bb70caa150c34feb22415f59c99",
+        "token_id": "107668714795616567494501469722259877024322479745567552429205766873268684240173",
+        "pregunta": "Japan Open Tennis Championships, Qualification: Jaume Munar vs Marcos ",
+        "outcome": "Jaume Munar",
+        "precio_token_entrada": 0.635,
+        "precio_actual": 0.635,
+        "precio_cierre": 0.605,
+        "pct_cambio": -0.0472,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 01:22",
+        "pnl_realizado": -0.14,
+        "razon_cierre": "TARGET_SELL",
+        "tx_hash": "0x89eb5f5abe9b94b0c0c0bdf575b05515e2648754efcc6ae35b7e7cbab1b19a39"
       }
     ]
   }
