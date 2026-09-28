@@ -1,34 +1,18 @@
 [
   {
-    "id": "4856769",
-    "pregunta": "Spread: Broncos (-6.5)",
-    "ts": "2026-09-27T22:24:51.494809",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-27T22:34:13.274106",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4856768",
-    "pregunta": "Spread: Broncos (-5.5)",
-    "ts": "2026-09-27T22:24:52.538896",
+    "id": "4609854",
+    "pregunta": "Will Spain win on 2026-09-29?",
+    "ts": "2026-09-27T22:34:14.319242",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4856764",
-    "pregunta": "Spread: Broncos (-1.5)",
-    "ts": "2026-09-27T22:24:53.580114",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4972514",
-    "pregunta": "Will the highest temperature in Hong Kong be 33\u00b0C on September 28?",
-    "ts": "2026-09-27T22:24:56.233976",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c0ea89c0ca33da570859fe2daa86423c217a5cc",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
