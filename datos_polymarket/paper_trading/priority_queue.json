@@ -1,82 +1,50 @@
 [
   {
-    "id": "4960870",
-    "pregunta": "Kyle Monangai: Rushing Yards O/U 29.5",
-    "ts": "2026-09-28T18:34:18.303078",
+    "id": "4218289",
+    "pregunta": "Will South Korea ETF (EWY) hit (HIGH) $196 in September?",
+    "ts": "2026-09-28T18:43:07.192178",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x20458998cd99f7ed1096d74d39fe2c8ddf46c77c",
+    "whale_wallet": "0x8a5189f973df5e33ada6aefea1dca23ce5a451a2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4839323",
-    "pregunta": "Eagles vs. Bears: 1H Moneyline",
-    "ts": "2026-09-28T18:34:20.059723",
+    "id": "4857117",
+    "pregunta": "Spread: Eagles (-4.5)",
+    "ts": "2026-09-28T18:43:25.677070",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857357",
-    "pregunta": "1H Spread: Eagles (-2.5)",
-    "ts": "2026-09-28T18:34:21.289437",
+    "id": "4857160",
+    "pregunta": "Spread: Eagles (-10.5)",
+    "ts": "2026-09-28T18:43:26.775716",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857338",
-    "pregunta": "1H Spread: Eagles (-1.5)",
-    "ts": "2026-09-28T18:34:22.326875",
+    "id": "4589735",
+    "pregunta": "Will Honduras win on 2026-09-28?",
+    "ts": "2026-09-28T18:43:27.835195",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857367",
-    "pregunta": "1H Spread: Eagles (-3.5)",
-    "ts": "2026-09-28T18:34:23.377824",
+    "id": "4589731",
+    "pregunta": "Will Jamaica win on 2026-09-28?",
+    "ts": "2026-09-28T18:43:28.892685",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143565",
-    "pregunta": "Panthers vs. Hurricanes",
-    "ts": "2026-09-28T18:34:24.415623",
+    "id": "3919668",
+    "pregunta": "Eagles vs. Bears: O/U 43.5",
+    "ts": "2026-09-28T18:43:30.030728",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589944",
-    "pregunta": "Exact Score: Suriname 1 - 0 Martinique?",
-    "ts": "2026-09-28T18:34:26.509457",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4592787",
-    "pregunta": "Exact Score: Am\u00e9rica FC 0 - 0 EC Juventude?",
-    "ts": "2026-09-28T18:34:27.573375",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4592788",
-    "pregunta": "Exact Score: Am\u00e9rica FC 0 - 1 EC Juventude?",
-    "ts": "2026-09-28T18:34:28.622113",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589948",
-    "pregunta": "Exact Score: Suriname 2 - 0 Martinique?",
-    "ts": "2026-09-28T18:34:30.905830",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
