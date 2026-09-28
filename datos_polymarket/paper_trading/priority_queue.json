@@ -1,42 +1,58 @@
 [
   {
-    "id": "4582452",
-    "pregunta": "Belgium vs. France: O/U 2.5",
-    "ts": "2026-09-28T14:44:46.312030",
+    "id": "5012563",
+    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 29?",
+    "ts": "2026-09-28T14:53:52.170856",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5013967",
-    "pregunta": "Columbus: Tyler Zink vs Mitchell Krueger",
-    "ts": "2026-09-28T14:44:47.370181",
+    "id": "5063902",
+    "pregunta": "Will the highest temperature in Zhengzhou be 26\u00b0C on September 29?",
+    "ts": "2026-09-28T14:53:53.349055",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581765",
-    "pregunta": "Will Belgium win on 2026-09-28?",
-    "ts": "2026-09-28T14:44:48.428585",
+    "id": "5012357",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 23\u00b0C on September 29?",
+    "ts": "2026-09-28T14:53:54.404830",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T14:44:49.483567",
+    "id": "5012694",
+    "pregunta": "Will the highest temperature in Manila be 32\u00b0C on September 29?",
+    "ts": "2026-09-28T14:53:55.469780",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582486",
-    "pregunta": "T\u00fcrkiye vs. Italy: O/U 3.5",
-    "ts": "2026-09-28T14:44:50.550815",
+    "id": "5012695",
+    "pregunta": "Will the highest temperature in Manila be 33\u00b0C on September 29?",
+    "ts": "2026-09-28T14:53:56.661865",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5012541",
+    "pregunta": "Will the highest temperature in Wuhan be 24\u00b0C on September 29?",
+    "ts": "2026-09-28T14:53:57.760116",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063904",
+    "pregunta": "Will the highest temperature in Zhengzhou be 28\u00b0C on September 29?",
+    "ts": "2026-09-28T14:53:58.905558",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   }
 ]
