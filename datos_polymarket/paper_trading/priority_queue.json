@@ -1,82 +1,26 @@
 [
   {
-    "id": "5068139",
-    "pregunta": "W100 Templeton, CA: Irina Balus vs Krisha Mahendran",
-    "ts": "2026-09-28T13:54:06.737594",
+    "id": "5012551",
+    "pregunta": "Will the highest temperature in Chengdu be 28\u00b0C on September 29?",
+    "ts": "2026-09-28T14:02:44.739841",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4885237",
-    "pregunta": "KCC T20 Summer League: Super XI vs Cochin Hurricanes",
-    "ts": "2026-09-28T13:54:07.788470",
+    "id": "5012517",
+    "pregunta": "Will the highest temperature in Chongqing be 25\u00b0C on September 29?",
+    "ts": "2026-09-28T14:02:46.002390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5056688",
-    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs megoshort (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-09-28T13:54:08.847594",
+    "id": "4581757",
+    "pregunta": "Will Italy win on 2026-09-28?",
+    "ts": "2026-09-28T14:02:48.938407",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5057546",
-    "pregunta": "Curitiba: Pedro Sakamoto vs Santiago De la Fuente",
-    "ts": "2026-09-28T13:54:09.888830",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5055762",
-    "pregunta": "LoL: HMBLE vs Unicorns Of Love Sexy Edition (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-28T13:54:10.934152",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581739",
-    "pregunta": "Will Northern Ireland win on 2026-09-28?",
-    "ts": "2026-09-28T13:54:12.714945",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582517",
-    "pregunta": "Northern Ireland vs. Hungary: O/U 1.5",
-    "ts": "2026-09-28T13:54:13.755795",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582486",
-    "pregunta": "T\u00fcrkiye vs. Italy: O/U 3.5",
-    "ts": "2026-09-28T13:54:14.806698",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581766",
-    "pregunta": "Will Belgium vs. France end in a draw?",
-    "ts": "2026-09-28T13:54:15.850978",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T13:54:16.893385",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
     "whale_signal": "COMPRAR NO"
   }
 ]
