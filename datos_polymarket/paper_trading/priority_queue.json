@@ -1,58 +1,82 @@
 [
   {
-    "id": "5012563",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 29?",
-    "ts": "2026-09-28T14:53:52.170856",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T15:03:28.720806",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5063902",
-    "pregunta": "Will the highest temperature in Zhengzhou be 26\u00b0C on September 29?",
-    "ts": "2026-09-28T14:53:53.349055",
+    "id": "4581743",
+    "pregunta": "Will Hungary win on 2026-09-28?",
+    "ts": "2026-09-28T15:03:29.875654",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012357",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 23\u00b0C on September 29?",
-    "ts": "2026-09-28T14:53:54.404830",
+    "id": "4581724",
+    "pregunta": "Will Sweden vs. Poland end in a draw?",
+    "ts": "2026-09-28T15:03:30.963301",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012694",
-    "pregunta": "Will the highest temperature in Manila be 32\u00b0C on September 29?",
-    "ts": "2026-09-28T14:53:55.469780",
+    "id": "4680129",
+    "pregunta": "T\u00fcrkiye vs. Italy: O/U 6.5",
+    "ts": "2026-09-28T15:03:32.056547",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012695",
-    "pregunta": "Will the highest temperature in Manila be 33\u00b0C on September 29?",
-    "ts": "2026-09-28T14:53:56.661865",
+    "id": "4581726",
+    "pregunta": "Will Poland win on 2026-09-28?",
+    "ts": "2026-09-28T15:03:33.154856",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012541",
-    "pregunta": "Will the highest temperature in Wuhan be 24\u00b0C on September 29?",
-    "ts": "2026-09-28T14:53:57.760116",
+    "id": "4582488",
+    "pregunta": "T\u00fcrkiye vs. Italy: O/U 5.5",
+    "ts": "2026-09-28T15:03:34.224516",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5063904",
-    "pregunta": "Will the highest temperature in Zhengzhou be 28\u00b0C on September 29?",
-    "ts": "2026-09-28T14:53:58.905558",
+    "id": "4975060",
+    "pregunta": "Will the highest temperature in Atlanta be between 80-81\u00b0F on September 28?",
+    "ts": "2026-09-28T15:03:36.308370",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x00b23eece60e8cb8992208af7b056d47ec853ef1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4975059",
+    "pregunta": "Will the highest temperature in Atlanta be between 78-79\u00b0F on September 28?",
+    "ts": "2026-09-28T15:03:37.391504",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00b23eece60e8cb8992208af7b056d47ec853ef1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3660850",
+    "pregunta": "Will Rui Costa win the most votes in the 2026 Bahia Senate election?",
+    "ts": "2026-09-28T15:03:40.031509",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x82bd44e1ab121f4ae56a411419e8041dbb28335e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3660813",
+    "pregunta": "Will Rui Costa win the second-most votes in the 2026 Bahia Senate election?",
+    "ts": "2026-09-28T15:03:41.143070",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x82bd44e1ab121f4ae56a411419e8041dbb28335e",
     "whale_signal": "COMPRAR NO"
   }
 ]
