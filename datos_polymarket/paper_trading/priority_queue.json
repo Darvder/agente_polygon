@@ -1,58 +1,50 @@
 [
   {
-    "id": "4841896",
-    "pregunta": "Will the price of Bitcoin be between $80,000 and $82,000 on September 29?",
-    "ts": "2026-09-27T23:44:32.707916",
+    "id": "4559773",
+    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
+    "ts": "2026-09-27T23:55:51.866232",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb59b03b90bdbfb76fd6fbefdfcf388ff0b72139",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012627",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on September 29?",
-    "ts": "2026-09-27T23:44:35.544411",
+    "id": "4857116",
+    "pregunta": "Spread: Eagles (-3.5)",
+    "ts": "2026-09-27T23:55:55.855056",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5029176",
-    "pregunta": "Will the highest temperature in Sao Paulo be 33\u00b0C on September 29?",
-    "ts": "2026-09-27T23:44:36.609229",
+    "id": "4551818",
+    "pregunta": "Will Korea Republic win on 2026-09-28?",
+    "ts": "2026-09-27T23:55:56.942030",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5029177",
-    "pregunta": "Will the highest temperature in Sao Paulo be 34\u00b0C on September 29?",
-    "ts": "2026-09-27T23:44:37.708674",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-27T23:55:58.012568",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4978376",
-    "pregunta": "Will the highest temperature in Sao Paulo be 32\u00b0C on September 28?",
-    "ts": "2026-09-27T23:44:38.917050",
+    "id": "4551820",
+    "pregunta": "Will Uruguay win on 2026-09-28?",
+    "ts": "2026-09-27T23:55:59.118856",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4978375",
-    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 28?",
-    "ts": "2026-09-27T23:44:39.994900",
+    "id": "4551813",
+    "pregunta": "Will Japan win on 2026-09-28?",
+    "ts": "2026-09-27T23:56:00.345534",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5029175",
-    "pregunta": "Will the highest temperature in Sao Paulo be 32\u00b0C on September 29?",
-    "ts": "2026-09-27T23:44:41.102218",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
