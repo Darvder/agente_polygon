@@ -1,8 +1,16 @@
 [
   {
-    "id": "4559773",
-    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
-    "ts": "2026-09-27T21:52:10.733302",
+    "id": "4580532",
+    "pregunta": "Club Le\u00f3n FC vs. FC Ju\u00e1rez: O/U 2.5",
+    "ts": "2026-09-27T22:05:02.576874",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x882c2e9d90d28e02a15be0d7f8d3636994305d07",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4580490",
+    "pregunta": "Spread: CF Am\u00e9rica (-1.5)",
+    "ts": "2026-09-27T22:05:04.295671",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -10,25 +18,17 @@
   {
     "id": "4581768",
     "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-27T21:52:11.840735",
+    "ts": "2026-09-27T22:05:05.347913",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609854",
-    "pregunta": "Will Spain win on 2026-09-29?",
-    "ts": "2026-09-27T21:52:12.906669",
+    "id": "4559773",
+    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
+    "ts": "2026-09-27T22:05:06.394221",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4580495",
-    "pregunta": "Club Necaxa vs. CF Am\u00e9rica: O/U 1.5",
-    "ts": "2026-09-27T21:52:15.806146",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf418140eff56c5c100146c9f006fcfabac66ab79",
     "whale_signal": "COMPRAR NO"
   }
 ]
