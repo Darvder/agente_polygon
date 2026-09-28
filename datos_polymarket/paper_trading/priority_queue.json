@@ -1,18 +1,26 @@
 [
   {
-    "id": "3664837",
-    "pregunta": "Rams vs. Broncos",
-    "ts": "2026-09-27T20:02:31.617120",
+    "id": "4952596",
+    "pregunta": "Dallas Wings vs. Golden State Valkyries",
+    "ts": "2026-09-27T20:13:32.267024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x51ef7026dc8799707465e7ec5dfa5faa7ec1fe1e",
+    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4906127",
-    "pregunta": "US announces end of Iranian blockade by October 15, 2026?",
-    "ts": "2026-09-27T20:02:33.511931",
+    "id": "4559959",
+    "pregunta": "Columbus Crew vs. Inter Miami CF: O/U 2.5",
+    "ts": "2026-09-27T20:13:33.331908",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1241399ee9788ab69ed0f60dfc76b72334876ec9",
+    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5041228",
+    "pregunta": "Japan Open Tennis Championships, Qualification: Rinky Hijikata vs Camilo Ugo Carabelli",
+    "ts": "2026-09-27T20:13:36.058830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x23b4b60ecfbc14fce086ad7410c5297d5ae048da",
     "whale_signal": "COMPRAR NO"
   }
 ]
