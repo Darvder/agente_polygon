@@ -135,6 +135,92 @@ def calcular_tamano_posicion_copy(estado, precio_token, slippage, max_slippage, 
     tamano_final = min(tamano_final, capital_actual)
     return tamano_final
 
+# ── Funciones Agente Copy-Trader Micro ($70) ─────────────────────────
+
+def obtener_o_iniciar_micro(estado):
+    """
+    Inicializa o retorna el estado de la simulación del Agente Espejo Micro ($70).
+    Se almacena directamente dentro de estado['simulacion_micro'] para persistir
+    automáticamente en GitHub Actions sin necesidad de modificar los workflows.
+    """
+    if "simulacion_micro" not in estado or not isinstance(estado["simulacion_micro"], dict):
+        estado["simulacion_micro"] = {
+            "capital_inicial": 70.0,
+            "capital_actual": 70.0,
+            "capital_en_riesgo": 0.0,
+            "max_positions": 10,
+            "max_positions_per_wallet": 2,
+            "min_capital_per_trade": 3.0,
+            "max_capital_per_trade": 5.0,
+            "risk_pct_per_trade": 0.055,  # ~5.5% (~$3.85 base)
+            "take_profit_pct": 0.35,
+            "stop_loss_pct": -0.35,
+            "n_tp": 0,
+            "n_sl": 0,
+            "posiciones_abiertas": [],
+            "historial_cerradas": []
+        }
+    micro = estado["simulacion_micro"]
+    micro.setdefault("capital_inicial", 70.0)
+    micro.setdefault("capital_actual", 70.0)
+    micro.setdefault("capital_en_riesgo", 0.0)
+    micro.setdefault("max_positions", 10)
+    micro.setdefault("max_positions_per_wallet", 2)
+    micro.setdefault("min_capital_per_trade", 3.0)
+    micro.setdefault("max_capital_per_trade", 5.0)
+    micro.setdefault("risk_pct_per_trade", 0.055)
+    micro.setdefault("take_profit_pct", 0.35)
+    micro.setdefault("stop_loss_pct", -0.35)
+    micro.setdefault("n_tp", 0)
+    micro.setdefault("n_sl", 0)
+    micro.setdefault("posiciones_abiertas", [])
+    micro.setdefault("historial_cerradas", [])
+    return micro
+
+def calcular_tamano_posicion_micro(micro, precio_token, slippage, max_slippage, trade_whale):
+    """
+    Calcula el tamaño de posición óptimo dinámico para el Agente Micro ($70).
+    Ajustado entre 3.00 y 5.00 USDC (base ~$4.00), aplicando los mismos factores
+    cuantitativos de asimetría de pago, fricción de slippage y convicción de ballena.
+    """
+    capital_actual = float(micro.get("capital_actual", 70.0))
+    capital_riesgo = float(micro.get("capital_en_riesgo", 0.0))
+    equity_total = max(30.0, capital_actual + capital_riesgo)
+
+    min_cap = float(micro.get("min_capital_per_trade", 3.0))
+    max_cap = float(micro.get("max_capital_per_trade", 5.0))
+    risk_pct = float(micro.get("risk_pct_per_trade", 0.055))
+
+    # 1. Base proporcional
+    tamano_base = equity_total * risk_pct
+
+    # 2. Factor de asimetría retorno/riesgo
+    p = max(0.05, min(0.95, float(precio_token)))
+    factor_asimetria = max(0.60, min(1.25, (1.0 - p) / 0.50))
+
+    # 3. Factor de fricción por slippage
+    slip_ratio = min(1.0, max(0.0, float(slippage) / max(0.001, float(max_slippage))))
+    factor_slippage = max(0.70, 1.0 - (slip_ratio * 0.35))
+
+    # 4. Factor de convicción de la Ballena
+    whale_shares = float(trade_whale.get("size", 0.0) or 0.0)
+    whale_target_p = float(trade_whale.get("price", p) or p)
+    volumen_ballena_usdc = whale_shares * whale_target_p
+
+    if volumen_ballena_usdc >= 2000.0:
+        factor_ballena = 1.15
+    elif volumen_ballena_usdc >= 500.0:
+        factor_ballena = 1.05
+    elif volumen_ballena_usdc <= 150.0:
+        factor_ballena = 0.85
+    else:
+        factor_ballena = 1.00
+
+    tamano_calc = tamano_base * factor_asimetria * factor_slippage * factor_ballena
+    tamano_final = round(max(min_cap, min(max_cap, tamano_calc)), 2)
+    tamano_final = min(tamano_final, capital_actual)
+    return tamano_final
+
 # ── Inicializadores de archivos ────────────────────────────────────
 
 def cargar_config():
@@ -347,7 +433,7 @@ async def procesar_copy_trading():
     max_precio_config = config.get("max_price", 0.85)
     min_volumen_config = config.get("min_volume", 2000)
 
-    # 1. Auditoría contable defensiva
+    # 1. Auditoría contable defensiva (Macro y Micro)
     if not df.empty:
         df['estado'] = df['estado'].astype(str).str.strip().str.upper()
         monto_riesgo_real = float(df[df['estado'] == 'ABIERTA']['monto_usdc'].sum())
@@ -355,13 +441,27 @@ async def procesar_copy_trading():
             desfase = float(estado.get("capital_en_riesgo", 0)) - monto_riesgo_real
             estado["capital_en_riesgo"] = monto_riesgo_real
             estado["capital_actual"] = round(float(estado.get("capital_actual", 1000.0) + desfase), 2)
-            log.info(f"⚖️ [AUDITORÍA] Contabilidad unificada: Riesgo ajustado a ${monto_riesgo_real} USDC.")
+            log.info(f"⚖️ [AUDITORÍA MACRO] Contabilidad unificada: Riesgo ajustado a ${monto_riesgo_real} USDC.")
             guardar_estado(estado)
+
+    # Inicializar y auditar simulación paralela Micro ($70)
+    micro = obtener_o_iniciar_micro(estado)
+    monto_riesgo_micro_real = round(sum(float(p.get("monto_usdc", 0.0)) for p in micro["posiciones_abiertas"]), 2)
+    if round(float(micro.get("capital_en_riesgo", 0.0)), 2) != monto_riesgo_micro_real:
+        desfase_micro = float(micro.get("capital_en_riesgo", 0.0)) - monto_riesgo_micro_real
+        micro["capital_en_riesgo"] = monto_riesgo_micro_real
+        micro["capital_actual"] = round(float(micro.get("capital_actual", 70.0)) + desfase_micro, 2)
+        log.info(f"⚖️ [AUDITORÍA MICRO $70] Riesgo ajustado a ${monto_riesgo_micro_real} USDC. Efectivo: ${micro['capital_actual']} USDC.")
+        guardar_estado(estado)
+
+    max_posiciones_micro = int(micro.get("max_positions", 10))
+    max_pos_wallet_micro = int(micro.get("max_positions_per_wallet", 2))
 
     # Contar cupo
     n_abiertas = len(df[df["estado"] == "ABIERTA"]) if not df.empty else 0
     cupo = max_posiciones - n_abiertas
-    log.info(f"Cartera Copy-Trading: {n_abiertas}/{max_posiciones} posiciones ocupadas. Cupo restante: {cupo}")
+    n_abiertas_micro = len(micro["posiciones_abiertas"])
+    log.info(f"Cartera Macro ($1000): {n_abiertas}/{max_posiciones} ocupadas. Cupo: {cupo} | Micro ($70): {n_abiertas_micro}/{max_posiciones_micro} ocupadas.")
 
     # 2. Procesar transacciones recientes de cada billetera objetivo
     nuevas_posiciones = []
@@ -419,28 +519,6 @@ async def procesar_copy_trading():
                 # Filtro crítico: Si la ballena ya vendió o ya no mantiene esta posición abierta, NO COMPRAR
                 if asset_id not in active_assets:
                     log.info(f"⏭️ [{pregunta[:30]}] Ballena ya no tiene esta posición abierta en su cartera. Omitiendo.")
-                    cache.add(tx_hash)
-                    continue
-
-                if cupo <= 0:
-                    # Cartera llena
-                    cache.add(tx_hash)
-                    continue
-
-                # Control de cupo por wallet
-                n_abiertas_wallet = len(df[(df["estado"] == "ABIERTA") & (df["target_wallet"] == wallet)]) if not df.empty else 0
-                n_abiertas_wallet += sum(1 for np in nuevas_posiciones if np.get("target_wallet") == wallet)
-                if n_abiertas_wallet >= max_posiciones_por_wallet:
-                    cache.add(tx_hash)
-                    continue
-
-                # Comprobar si ya tenemos esta posición abierta para evitar duplicar
-                ya_abierta = False
-                if not df.empty:
-                    ya_abierta = not df[(df["estado"] == "ABIERTA") & (df["token_id"] == asset_id)].empty
-                if not ya_abierta and nuevas_posiciones:
-                    ya_abierta = any(np["token_id"] == asset_id for np in nuevas_posiciones)
-                if ya_abierta:
                     cache.add(tx_hash)
                     continue
 
@@ -508,75 +586,122 @@ async def procesar_copy_trading():
                     cache.add(tx_hash)
                     continue
 
-                # Validar y calcular dimensionamiento dinámico por unidad de riesgo
-                monto_op = calcular_tamano_posicion_copy(
-                    estado=estado,
-                    precio_token=precio_token_actual,
-                    slippage=pct_slippage,
-                    max_slippage=max_slippage,
-                    trade_whale=t,
-                    config=config
-                )
+                # ── EVALUACIÓN APERTURA 1: CARTERA PRINCIPAL MACRO ($1,000) ──
+                if cupo > 0:
+                    n_abiertas_wallet = len(df[(df["estado"] == "ABIERTA") & (df["target_wallet"] == wallet)]) if not df.empty else 0
+                    n_abiertas_wallet += sum(1 for np in nuevas_posiciones if np.get("target_wallet") == wallet)
+                    if n_abiertas_wallet < max_posiciones_por_wallet:
+                        ya_abierta_macro = False
+                        if not df.empty:
+                            ya_abierta_macro = not df[(df["estado"] == "ABIERTA") & (df["token_id"] == asset_id)].empty
+                        if not ya_abierta_macro and nuevas_posiciones:
+                            ya_abierta_macro = any(np["token_id"] == asset_id for np in nuevas_posiciones)
+                        
+                        if not ya_abierta_macro:
+                            monto_op = calcular_tamano_posicion_copy(
+                                estado=estado,
+                                precio_token=precio_token_actual,
+                                slippage=pct_slippage,
+                                max_slippage=max_slippage,
+                                trade_whale=t,
+                                config=config
+                            )
+                            min_requerido = float(config.get("min_capital_per_trade", 8.0))
+                            if monto_op >= min_requerido and estado["capital_actual"] >= monto_op:
+                                log.info(f"🎯 [MACRO $1000] COPIANDO COMPRA: {pregunta[:35]} | Outcome: {outcome_trader} | Precio: {precio_token_actual:.3f} | Monto: ${monto_op:.2f} | Wallet: {wallet[:10]}")
+                                nueva_op = {
+                                    "fecha_entrada": datetime.now().strftime("%Y-%m-%d"),
+                                    "fecha_entrada_dt": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                                    "target_wallet": wallet,
+                                    "market_id": market.get("id"),
+                                    "condition_id": condition_id,
+                                    "token_id": asset_id,
+                                    "pregunta": pregunta[:70],
+                                    "outcome": outcome_trader,
+                                    "precio_token_entrada": precio_token_actual,
+                                    "precio_actual": precio_token_actual,
+                                    "precio_cierre": "",
+                                    "pct_cambio": 0.0,
+                                    "monto_usdc": monto_op,
+                                    "estado": "ABIERTA",
+                                    "fecha_cierre_real": "",
+                                    "pnl_realizado": 0.0,
+                                    "razon_cierre": "",
+                                    "tx_hash": tx_hash
+                                }
+                                nuevas_posiciones.append(nueva_op)
+                                estado["capital_actual"] = round(estado["capital_actual"] - monto_op, 2)
+                                estado["capital_en_riesgo"] = round(estado["capital_en_riesgo"] + monto_op, 2)
+                                cupo -= 1
+                            else:
+                                log.warning(f"❌ [MACRO $1000] Saldo insuficiente (${estado['capital_actual']:.2f} < ${monto_op:.2f}) para abrir posición.")
 
-                min_requerido = float(config.get("min_capital_per_trade", 8.0))
-                if monto_op < min_requerido or estado["capital_actual"] < monto_op:
-                    log.warning(f"❌ Saldo insuficiente (${estado['capital_actual']:.2f} < ${monto_op:.2f}) para abrir posición.")
-                    cache.add(tx_hash)
-                    continue
+                # ── EVALUACIÓN APERTURA 2: CARTERA ESPEJO MICRO ($70) ──
+                n_abiertas_micro = len(micro["posiciones_abiertas"])
+                if n_abiertas_micro < max_posiciones_micro:
+                    n_wallet_micro = sum(1 for p in micro["posiciones_abiertas"] if p.get("target_wallet") == wallet)
+                    if n_wallet_micro < max_pos_wallet_micro:
+                        ya_abierta_micro = any(p.get("token_id") == asset_id for p in micro["posiciones_abiertas"])
+                        if not ya_abierta_micro:
+                            monto_micro = calcular_tamano_posicion_micro(
+                                micro=micro,
+                                precio_token=precio_token_actual,
+                                slippage=pct_slippage,
+                                max_slippage=max_slippage,
+                                trade_whale=t
+                            )
+                            min_req_micro = float(micro.get("min_capital_per_trade", 3.0))
+                            if monto_micro >= min_req_micro and micro["capital_actual"] >= monto_micro:
+                                log.info(f"💎 [MICRO $70] COPIANDO COMPRA: {pregunta[:35]} | Outcome: {outcome_trader} | Precio: {precio_token_actual:.3f} | Monto: ${monto_micro:.2f} | Cupo: {len(micro['posiciones_abiertas'])+1}/{max_posiciones_micro}")
+                                nueva_op_micro = {
+                                    "fecha_entrada": datetime.now().strftime("%Y-%m-%d"),
+                                    "fecha_entrada_dt": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                                    "target_wallet": wallet,
+                                    "market_id": market.get("id"),
+                                    "condition_id": condition_id,
+                                    "token_id": asset_id,
+                                    "pregunta": pregunta[:70],
+                                    "outcome": outcome_trader,
+                                    "precio_token_entrada": precio_token_actual,
+                                    "precio_actual": precio_token_actual,
+                                    "precio_cierre": "",
+                                    "pct_cambio": 0.0,
+                                    "monto_usdc": monto_micro,
+                                    "estado": "ABIERTA",
+                                    "fecha_cierre_real": "",
+                                    "pnl_realizado": 0.0,
+                                    "razon_cierre": "",
+                                    "tx_hash": tx_hash
+                                }
+                                micro["posiciones_abiertas"].append(nueva_op_micro)
+                                micro["capital_actual"] = round(micro["capital_actual"] - monto_micro, 2)
+                                micro["capital_en_riesgo"] = round(micro["capital_en_riesgo"] + monto_micro, 2)
+                            else:
+                                log.warning(f"❌ [MICRO $70] Saldo insuficiente (${micro['capital_actual']:.2f} < ${monto_micro:.2f}) para abrir posición.")
 
-                # Abrir posición
-                log.info(f"🎯 COPIANDO COMPRA: {pregunta[:40]} | Outcome: {outcome_trader} | Precio: {precio_token_actual:.3f} | Monto: ${monto_op:.2f} | Wallet: {wallet[:10]}")
-                
-                nueva_op = {
-                    "fecha_entrada": datetime.now().strftime("%Y-%m-%d"),
-                    "fecha_entrada_dt": datetime.now().strftime("%Y-%m-%d %H:%M"),
-                    "target_wallet": wallet,
-                    "market_id": market.get("id"),
-                    "condition_id": condition_id,
-                    "token_id": asset_id,
-                    "pregunta": pregunta[:70],
-                    "outcome": outcome_trader,
-                    "precio_token_entrada": precio_token_actual,
-                    "precio_actual": precio_token_actual,
-                    "precio_cierre": "",
-                    "pct_cambio": 0.0,
-                    "monto_usdc": monto_op,
-                    "estado": "ABIERTA",
-                    "fecha_cierre_real": "",
-                    "pnl_realizado": 0.0,
-                    "razon_cierre": "",
-                    "tx_hash": tx_hash
-                }
-                
-                nuevas_posiciones.append(nueva_op)
-                estado["capital_actual"] = round(estado["capital_actual"] - monto_op, 2)
-                estado["capital_en_riesgo"] = round(estado["capital_en_riesgo"] + monto_op, 2)
-                cupo -= 1
                 cache.add(tx_hash)
 
             # B. VENDER (SELL)
             elif side == "SELL":
-                # Buscar si tenemos esta posición abierta
+                precio_cierre = target_price
+                market = market_cache.get(condition_id) or market_cache.get(asset_id)
+                if not market:
+                    market = obtener_datos_mercado(condition_id, token_id=asset_id)
+                if market:
+                    token_ids = json.loads(market.get("clobTokenIds", "[]"))
+                    try:
+                        outcome_prices = json.loads(market.get("outcomePrices", "[]"))
+                        outcome_idx = token_ids.index(asset_id)
+                        precio_cierre = float(outcome_prices[outcome_idx])
+                    except:
+                        precio_cierre = target_price
+
+                # 1. Cerrar en Macro ($1,000) si la tiene abierta
                 if not df.empty:
                     posiciones_a_cerrar = df[(df["estado"] == "ABIERTA") & (df["token_id"] == asset_id)]
                     for idx, pos in posiciones_a_cerrar.iterrows():
-                        market = obtener_datos_mercado_por_id(pos.get("market_id"))
-                        if not market:
-                            market = obtener_datos_mercado(condition_id)
-                        if market:
-                            token_ids = json.loads(market.get("clobTokenIds", "[]"))
-                            try:
-                                outcome_prices = json.loads(market.get("outcomePrices", "[]"))
-                                outcome_idx = token_ids.index(asset_id)
-                                precio_cierre = float(outcome_prices[outcome_idx])
-                            except:
-                                precio_cierre = target_price # Fallback al precio del target
-                        else:
-                            precio_cierre = target_price
-
-                        # Cerrar posición
                         pte = float(pos["precio_token_entrada"])
-                        pct = (precio_cierre - pte) / pte
+                        pct = (precio_cierre - pte) / pte if pte > 0 else 0.0
                         pnl = round(float(pos["monto_usdc"]) * pct, 2)
 
                         df.loc[idx, "estado"] = "CERRADA"
@@ -592,8 +717,34 @@ async def procesar_copy_trading():
                         if pnl >= 0: estado["n_tp"] += 1
                         else: estado["n_sl"] += 1
 
-                        log.info(f"🔒 COPIANDO VENTA: {pos['pregunta'][:40]} | Outcome: {pos['outcome']} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
-                
+                        log.info(f"🔒 [MACRO $1000] COPIANDO VENTA: {pos['pregunta'][:40]} | Outcome: {pos['outcome']} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
+
+                # 2. Cerrar en Micro ($70) si la tiene abierta
+                pos_micro_a_cerrar = [p for p in micro["posiciones_abiertas"] if p.get("token_id") == asset_id]
+                for pm in pos_micro_a_cerrar:
+                    pte_m = float(pm["precio_token_entrada"])
+                    pct_m = (precio_cierre - pte_m) / pte_m if pte_m > 0 else 0.0
+                    pnl_m = round(float(pm["monto_usdc"]) * pct_m, 2)
+
+                    pm["estado"] = "CERRADA"
+                    pm["precio_cierre"] = precio_cierre
+                    pm["pct_cambio"] = round(pct_m, 4)
+                    pm["pnl_realizado"] = pnl_m
+                    pm["razon_cierre"] = "TARGET_SELL"
+                    pm["fecha_cierre_real"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+                    micro["capital_actual"] = round(micro["capital_actual"] + float(pm["monto_usdc"]) + pnl_m, 2)
+                    micro["capital_en_riesgo"] = round(max(0.0, micro["capital_en_riesgo"] - float(pm["monto_usdc"])), 2)
+
+                    if pnl_m >= 0: micro["n_tp"] += 1
+                    else: micro["n_sl"] += 1
+
+                    micro["historial_cerradas"].append(pm)
+                    log.info(f"💎 [MICRO $70] TARGET_SELL: {pm['pregunta'][:35]} | Outcome: {pm['outcome']} | Cierre: {precio_cierre:.3f} (PnL: ${pnl_m:+.2f})")
+
+                if pos_micro_a_cerrar:
+                    micro["posiciones_abiertas"] = [p for p in micro["posiciones_abiertas"] if p.get("token_id") != asset_id]
+
                 cache.add(tx_hash)
 
     # 3. Guardar las nuevas posiciones abiertas
@@ -677,6 +828,82 @@ async def procesar_copy_trading():
                 else: estado["n_sl"] += 1
 
                 log.info(f"🔒 [{razon}] Salida: {pos['pregunta'][:40]} | Retorno: {pct:+.1%} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
+
+    # 4b. Actualizar precios de posiciones abiertas y sincronización Failsafe para Micro ($70)
+    if micro.get("posiciones_abiertas"):
+        pos_abiertas_micro_restantes = []
+        for pm in micro["posiciones_abiertas"]:
+            asset_id_m = str(pm["token_id"])
+            wallet_obj_m = str(pm["target_wallet"])
+            cond_id_m = str(pm["condition_id"])
+            m_id_m = str(pm.get("market_id", ""))
+
+            market_m = market_cache.get(cond_id_m) or market_cache.get(asset_id_m)
+            if not market_m:
+                market_m = obtener_datos_mercado_por_id(m_id_m)
+                if not market_m:
+                    market_m = obtener_datos_mercado(cond_id_m)
+
+            precio_actual_m = float(pm.get("precio_actual", pm["precio_token_entrada"]))
+            if market_m:
+                try:
+                    token_ids_m = json.loads(market_m.get("clobTokenIds", "[]"))
+                    outcome_prices_m = json.loads(market_m.get("outcomePrices", "[]"))
+                    outcome_idx_m = token_ids_m.index(asset_id_m)
+                    precio_actual_m = float(outcome_prices_m[outcome_idx_m])
+                except Exception:
+                    pass
+
+            pm["precio_actual"] = precio_actual_m
+            pte_m = float(pm["precio_token_entrada"])
+            pct_m = (precio_actual_m - pte_m) / pte_m if pte_m > 0 else 0.0
+
+            MICRO_TP = float(micro.get("take_profit_pct", 0.35))
+            MICRO_SL = float(micro.get("stop_loss_pct", -0.35))
+            razon_m = None
+
+            if pct_m >= MICRO_TP:
+                razon_m = "TAKE_PROFIT"
+            elif pct_m <= MICRO_SL:
+                razon_m = "STOP_LOSS"
+            else:
+                if wallet_obj_m in wallet_positions_cache:
+                    active_assets_target_m = wallet_positions_cache[wallet_obj_m]
+                else:
+                    positions_trader_m = obtener_posiciones_usuario(wallet_obj_m)
+                    active_assets_target_m = {str(p.get("asset")): float(p.get("size", 0)) for p in positions_trader_m if float(p.get("size", 0)) > 0}
+                    wallet_positions_cache[wallet_obj_m] = active_assets_target_m
+
+                mantiene_m = asset_id_m in active_assets_target_m
+                mercado_resuelto_m = (market_m.get("closed") or not market_m.get("active")) if market_m else False
+
+                if mercado_resuelto_m:
+                    razon_m = "RESOLVED_EXIT"
+                elif not mantiene_m:
+                    razon_m = "FAILSAFE_SYNC_EXIT"
+
+            if razon_m:
+                precio_cierre_m = precio_actual_m
+                pnl_m = round(float(pm["monto_usdc"]) * pct_m, 2)
+                pm["estado"] = "CERRADA"
+                pm["precio_cierre"] = precio_cierre_m
+                pm["pct_cambio"] = round(pct_m, 4)
+                pm["pnl_realizado"] = pnl_m
+                pm["razon_cierre"] = razon_m
+                pm["fecha_cierre_real"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+                micro["capital_actual"] = round(micro["capital_actual"] + float(pm["monto_usdc"]) + pnl_m, 2)
+                micro["capital_en_riesgo"] = round(max(0.0, micro["capital_en_riesgo"] - float(pm["monto_usdc"])), 2)
+
+                if pnl_m >= 0: micro["n_tp"] += 1
+                else: micro["n_sl"] += 1
+
+                micro["historial_cerradas"].append(pm)
+                log.info(f"💎 [MICRO $70] [{razon_m}] Salida: {pm['pregunta'][:35]} | Retorno: {pct_m:+.1%} | Cierre: {precio_cierre_m:.3f} (PnL: ${pnl_m:+.2f})")
+            else:
+                pos_abiertas_micro_restantes.append(pm)
+
+        micro["posiciones_abiertas"] = pos_abiertas_micro_restantes
 
     # 5. Guardar estado general
     estado["n_ciclos"] += 1
