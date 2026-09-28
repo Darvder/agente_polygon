@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4582687",
+    "pregunta": "Georgia vs. Ukraine: Both Teams to Score",
+    "ts": "2026-09-28T12:53:45.157334",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5e4566d557be04191f9b98aee701d5d94628b092",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582462",
+    "pregunta": "Belgium vs. France: Belgium O/U 1.5",
+    "ts": "2026-09-28T12:53:46.292504",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5e4566d557be04191f9b98aee701d5d94628b092",
+    "whale_signal": "COMPRAR NO"
+  }
+]
