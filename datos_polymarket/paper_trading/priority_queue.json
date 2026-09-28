@@ -1,26 +1,34 @@
 [
   {
-    "id": "5027063",
-    "pregunta": "Will the highest temperature in Seattle be between 64-65\u00b0F on September 29?",
-    "ts": "2026-09-28T08:15:46.948074",
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-09-28T08:24:22.611636",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5017617",
-    "pregunta": "Will the highest temperature in Atlanta be between 82-83\u00b0F on September 29?",
-    "ts": "2026-09-28T08:15:48.135553",
+    "id": "5041239",
+    "pregunta": "Chengdu Open: Hubert Hurkacz vs Denis Shapovalov",
+    "ts": "2026-09-28T08:24:24.217495",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5011247",
-    "pregunta": "Will the lowest temperature in Tokyo be 18\u00b0C on September 29?",
-    "ts": "2026-09-28T08:15:49.205268",
+    "id": "5057521",
+    "pregunta": "Bari: Filippo Moroni vs Fabrizio Andaloro",
+    "ts": "2026-09-28T08:24:25.264721",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5037305",
+    "pregunta": "Adana: Leolia Jeanjean vs Suzan Lamens",
+    "ts": "2026-09-28T08:24:26.315376",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
