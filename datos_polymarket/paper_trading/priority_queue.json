@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T16:32:34.601723",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5091438",
+    "pregunta": "Will SpaceX Starship Flight Test 15 launch by November 30, 2026?",
+    "ts": "2026-09-28T16:32:35.796926",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5078314",
+    "pregunta": "Will the longest game of the 2026 MLB Postseason last 11+ innings?",
+    "ts": "2026-09-28T16:32:36.998384",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5078309",
+    "pregunta": "Will the longest game of the 2026 MLB Postseason last 10+ innings?",
+    "ts": "2026-09-28T16:32:38.171328",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5079995",
+    "pregunta": "Will Connor McDavid record 100+ points?",
+    "ts": "2026-09-28T16:32:39.238183",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  }
+]
