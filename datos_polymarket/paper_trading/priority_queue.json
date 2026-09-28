@@ -1,18 +1,10 @@
 [
   {
-    "id": "4582450",
-    "pregunta": "Belgium vs. France: O/U 0.5",
-    "ts": "2026-09-28T15:33:14.347363",
+    "id": "5046207",
+    "pregunta": "Will Tunisia win on 2026-09-28?",
+    "ts": "2026-09-28T15:45:00.037566",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3c5764aace454c16b35b972b6f1302345c550901",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T15:33:16.012803",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
