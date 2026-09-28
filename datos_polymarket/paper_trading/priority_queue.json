@@ -1,18 +1,66 @@
 [
   {
-    "id": "4847329",
-    "pregunta": "Will 190-209 ships transit the Bab el-Mandeb Strait between September 21-September 27?",
-    "ts": "2026-09-28T05:54:30.023668",
+    "id": "5041327",
+    "pregunta": "Bari: Federico Arnaboldi vs Svyatoslav Gulin",
+    "ts": "2026-09-28T06:02:40.927592",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd064251efc30a38c3323e42113656144d4b8c4d1",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4847315",
-    "pregunta": "Will 25-29 ships transit the Strait of Hormuz between September 21-September 27?",
-    "ts": "2026-09-28T05:54:31.064863",
+    "id": "4551814",
+    "pregunta": "Will Japan vs. Venezuela end in a draw?",
+    "ts": "2026-09-28T06:02:41.996671",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd064251efc30a38c3323e42113656144d4b8c4d1",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4551813",
+    "pregunta": "Will Japan win on 2026-09-28?",
+    "ts": "2026-09-28T06:02:43.050748",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055801",
+    "pregunta": "Adana: Noma Noha Akugue vs Fiona Crawley",
+    "ts": "2026-09-28T06:02:44.105107",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4564440",
+    "pregunta": "Japan vs. Venezuela: 1st Half O/U 0.5",
+    "ts": "2026-09-28T06:02:45.170711",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4564433",
+    "pregunta": "Japan vs. Venezuela: O/U 1.5",
+    "ts": "2026-09-28T06:02:46.335791",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4962524",
+    "pregunta": "LoL: KT Rolster Challengers vs Galions (BO5) - World Star Challengers Invitational Playoffs",
+    "ts": "2026-09-28T06:02:49.465661",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6b23c73159b753c96d3c1ed94413f113300c04a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4962521",
+    "pregunta": "LoL: KT Rolster Challengers vs Galions - Game 2 Winner",
+    "ts": "2026-09-28T06:02:50.523410",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6b23c73159b753c96d3c1ed94413f113300c04a3",
     "whale_signal": "COMPRAR NO"
   }
 ]
