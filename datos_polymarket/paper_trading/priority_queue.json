@@ -2,81 +2,33 @@
   {
     "id": "5004143",
     "pregunta": "Mouilleron-Le-Captif: Clement Tabur vs Matteo Martineau",
-    "ts": "2026-09-28T17:02:39.859607",
+    "ts": "2026-09-28T17:12:31.337420",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4615007",
-    "pregunta": "Cuba vs. Bonaire: O/U 4.5",
-    "ts": "2026-09-28T17:02:40.911971",
+    "id": "5055390",
+    "pregunta": "Counter-Strike: ALKA vs Semente do Mal (BO3) - Gamers Club Liga S\u00e9rie A Group A",
+    "ts": "2026-09-28T17:12:33.492096",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4615006",
-    "pregunta": "Cuba vs. Bonaire: O/U 3.5",
-    "ts": "2026-09-28T17:02:41.970403",
+    "id": "5034991",
+    "pregunta": "Will Independiente Valle Del Cauca win on 2026-09-28?",
+    "ts": "2026-09-28T17:12:34.542405",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857119",
-    "pregunta": "Spread: Eagles (-6.5)",
-    "ts": "2026-09-28T17:02:43.631322",
+    "id": "5013957",
+    "pregunta": "Columbus: Braden Shick vs Ozan Baris",
+    "ts": "2026-09-28T17:12:36.593625",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4952600",
-    "pregunta": "Minnesota Lynx vs. New York Liberty",
-    "ts": "2026-09-28T17:02:44.674561",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589719",
-    "pregunta": "Will Suriname win on 2026-09-28?",
-    "ts": "2026-09-28T17:02:45.728857",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4584874",
-    "pregunta": "Will Brazil win on 2026-09-29?",
-    "ts": "2026-09-28T17:02:46.772445",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919668",
-    "pregunta": "Eagles vs. Bears: O/U 43.5",
-    "ts": "2026-09-28T17:02:47.828111",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5046227",
-    "pregunta": "Will Senegal win on 2026-09-29?",
-    "ts": "2026-09-28T17:02:48.874438",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-09-28T17:02:50.001022",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
