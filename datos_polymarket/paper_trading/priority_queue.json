@@ -1,48 +1,16 @@
 [
   {
-    "id": "5055769",
-    "pregunta": "LoL: Forsaken vs Bar\u00e7a eSports (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-28T15:53:12.791713",
+    "id": "4589768",
+    "pregunta": "Will El Salvador win on 2026-09-28?",
+    "ts": "2026-09-28T16:02:28.283681",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8c6e821f0da71e14f9db3156b0d2e2a7b7201ebf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5037067",
-    "pregunta": "Game Handicap: KBM (-2.5) vs Golden Lions (+2.5)",
-    "ts": "2026-09-28T15:53:13.867923",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8c6e821f0da71e14f9db3156b0d2e2a7b7201ebf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5068147",
-    "pregunta": "W100 Templeton, CA: Carmen Andreea Herea vs Allura Zamarripa",
-    "ts": "2026-09-28T15:53:17.058693",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc04cb9838e64771be9d2ae12cf11c41abd72cebf",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4609859",
     "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-28T15:53:19.567173",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589768",
-    "pregunta": "Will El Salvador win on 2026-09-28?",
-    "ts": "2026-09-28T15:53:20.670258",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4584874",
-    "pregunta": "Will Brazil win on 2026-09-29?",
-    "ts": "2026-09-28T15:53:21.770559",
+    "ts": "2026-09-28T16:02:29.342685",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -50,9 +18,33 @@
   {
     "id": "4589731",
     "pregunta": "Will Jamaica win on 2026-09-28?",
-    "ts": "2026-09-28T15:53:22.986843",
+    "ts": "2026-09-28T16:02:30.428208",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-09-28T16:02:32.141964",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064023",
+    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on September 30?",
+    "ts": "2026-09-28T16:02:34.158384",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x36cb26c12e27f6f9ed021c8982d92ab1bbea3803",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063999",
+    "pregunta": "Will the highest temperature in Tokyo be 21\u00b0C on September 30?",
+    "ts": "2026-09-28T16:02:35.203701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x36cb26c12e27f6f9ed021c8982d92ab1bbea3803",
     "whale_signal": "COMPRAR NO"
   }
 ]
