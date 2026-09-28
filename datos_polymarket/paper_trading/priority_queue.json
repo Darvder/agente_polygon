@@ -1,18 +1,58 @@
 [
   {
-    "id": "4582630",
-    "pregunta": "Armenia vs. Montenegro: Montenegro O/U 1.5",
-    "ts": "2026-09-28T09:55:21.169969",
+    "id": "5046203",
+    "pregunta": "Will DR Congo win on 2026-09-28?",
+    "ts": "2026-09-28T10:03:06.865839",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5066465",
-    "pregunta": "LoL: Cloud9 vs LYON (BO5) - LCS Playoffs",
-    "ts": "2026-09-28T09:55:23.506662",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T10:03:07.934480",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x136c6cc15222b6129701c8949fdc490e695b79bc",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581743",
+    "pregunta": "Will Hungary win on 2026-09-28?",
+    "ts": "2026-09-28T10:03:08.998776",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581665",
+    "pregunta": "Will Georgia win on 2026-09-28?",
+    "ts": "2026-09-28T10:03:10.058021",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582456",
+    "pregunta": "Belgium vs. France: Both Teams to Score",
+    "ts": "2026-09-28T10:03:11.120983",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581752",
+    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
+    "ts": "2026-09-28T10:03:12.217993",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581700",
+    "pregunta": "Will Armenia win on 2026-09-28?",
+    "ts": "2026-09-28T10:03:13.281042",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
