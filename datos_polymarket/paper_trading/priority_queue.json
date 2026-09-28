@@ -1,74 +1,10 @@
 [
   {
-    "id": "5063291",
-    "pregunta": "Will the lowest temperature in Shanghai be 23\u00b0C on September 30?",
-    "ts": "2026-09-28T07:13:25.083765",
+    "id": "4551813",
+    "pregunta": "Will Japan win on 2026-09-28?",
+    "ts": "2026-09-28T07:25:21.990847",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064165",
-    "pregunta": "Will the highest temperature in Istanbul be 20\u00b0C on September 30?",
-    "ts": "2026-09-28T07:13:26.276102",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4972663",
-    "pregunta": "Will the highest temperature in Istanbul be 19\u00b0C on September 28?",
-    "ts": "2026-09-28T07:13:27.399061",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063180",
-    "pregunta": "Will the lowest temperature in London be 17\u00b0C on September 30?",
-    "ts": "2026-09-28T07:13:28.633732",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063989",
-    "pregunta": "Will the highest temperature in Tel Aviv be 28\u00b0C on September 30?",
-    "ts": "2026-09-28T07:13:29.827345",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011260",
-    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 29?",
-    "ts": "2026-09-28T07:13:30.921075",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012411",
-    "pregunta": "Will the highest temperature in Tel Aviv be 29\u00b0C on September 29?",
-    "ts": "2026-09-28T07:13:32.006581",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012675",
-    "pregunta": "Will the highest temperature in Qingdao be 27\u00b0C on September 29?",
-    "ts": "2026-09-28T07:13:33.056697",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26f89d1e9ead687db7387d5274db85191d353770",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4551814",
-    "pregunta": "Will Japan vs. Venezuela end in a draw?",
-    "ts": "2026-09-28T07:13:36.295788",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb90e9a6f1f0788930cb32fd6d7fcdd0598dd4e8f",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   }
 ]
