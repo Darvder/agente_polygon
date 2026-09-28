@@ -1,18 +1,66 @@
 [
   {
-    "id": "4889476",
-    "pregunta": "Spread: Kyrgyz Republic (-2.5)",
-    "ts": "2026-09-28T09:35:39.660013",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T09:43:05.958509",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe34eafd1ead07c866eaa2eea870864b397d4cd99",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5046203",
+    "pregunta": "Will DR Congo win on 2026-09-28?",
+    "ts": "2026-09-28T09:43:07.059176",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581665",
+    "pregunta": "Will Georgia win on 2026-09-28?",
+    "ts": "2026-09-28T09:43:08.234593",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582456",
+    "pregunta": "Belgium vs. France: Both Teams to Score",
+    "ts": "2026-09-28T09:43:09.333562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582447",
+    "pregunta": "Spread: France (-1.5)",
+    "ts": "2026-09-28T09:43:10.395112",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609854",
+    "pregunta": "Will Spain win on 2026-09-29?",
+    "ts": "2026-09-28T09:43:11.462630",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4581704",
     "pregunta": "Will Montenegro win on 2026-09-28?",
-    "ts": "2026-09-28T09:35:40.700783",
+    "ts": "2026-09-28T09:43:12.545008",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe34eafd1ead07c866eaa2eea870864b397d4cd99",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4170754",
+    "pregunta": "Will the Fed Hike\u2013Hike\u2013Hike in the next three decisions (Sep\u2013Oct\u2013Dec)?",
+    "ts": "2026-09-28T09:43:19.805881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe6940b14e6652d9f2c6b774e3eb4b35ceeee7e7c",
     "whale_signal": "COMPRAR NO"
   }
 ]
