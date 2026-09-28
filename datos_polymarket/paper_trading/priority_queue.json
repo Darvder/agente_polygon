@@ -1,26 +1,26 @@
 [
   {
-    "id": "4963992",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $85 Week of September 28 2026?",
-    "ts": "2026-09-28T13:02:29.306016",
+    "id": "4582682",
+    "pregunta": "Georgia vs. Ukraine: O/U 1.5",
+    "ts": "2026-09-28T13:13:52.188390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_wallet": "0x04c69f170d8a204d01946485f41605245d6a32b6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581765",
-    "pregunta": "Will Belgium win on 2026-09-28?",
-    "ts": "2026-09-28T13:02:31.330918",
+    "id": "4581686",
+    "pregunta": "Will Latvia vs. Cyprus end in a draw?",
+    "ts": "2026-09-28T13:13:54.284190",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d9d9049b19abaf2f91afc4c5fb4bb8551281e7e",
+    "whale_wallet": "0x04c69f170d8a204d01946485f41605245d6a32b6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582485",
-    "pregunta": "T\u00fcrkiye vs. Italy: O/U 2.5",
-    "ts": "2026-09-28T13:02:32.392069",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T13:13:56.825598",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d9d9049b19abaf2f91afc4c5fb4bb8551281e7e",
+    "whale_wallet": "0x59beecf7d392d049c64da0a9599aeaa4ad6adc3e",
     "whale_signal": "COMPRAR NO"
   }
 ]
