@@ -1,66 +1,82 @@
 [
   {
-    "id": "4143591",
-    "pregunta": "Rangers vs. Bruins",
-    "ts": "2026-09-28T10:45:21.560974",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5056683",
-    "pregunta": "Counter-Strike: Leo Team vs Noir Verse - Map 2 Winner",
-    "ts": "2026-09-28T10:45:22.715015",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5065079",
     "pregunta": "Columbus: James Kent Trotter vs Li Tu",
-    "ts": "2026-09-28T10:45:23.759235",
+    "ts": "2026-09-28T10:52:32.900249",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5055783",
-    "pregunta": "LoL: Bushido Wildcats vs The Ruddy Sack (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-28T10:45:24.911344",
+    "id": "5004145",
+    "pregunta": "Mouilleron-Le-Captif: Jack Pinnington Jones vs Thomas Faurel",
+    "ts": "2026-09-28T10:52:33.949647",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581700",
-    "pregunta": "Will Armenia win on 2026-09-28?",
-    "ts": "2026-09-28T10:45:25.955914",
+    "id": "5004149",
+    "pregunta": "Mouilleron-Le-Captif: Dan Added vs Gauthier Onclin",
+    "ts": "2026-09-28T10:52:35.004329",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012391",
-    "pregunta": "Will the highest temperature in Lucknow be 31\u00b0C on September 29?",
-    "ts": "2026-09-28T10:45:27.186625",
+    "id": "5057546",
+    "pregunta": "Curitiba: Pedro Sakamoto vs Santiago De la Fuente",
+    "ts": "2026-09-28T10:52:36.050403",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5066857",
-    "pregunta": "Will the highest temperature in Atlanta be between 86-87\u00b0F on September 30?",
-    "ts": "2026-09-28T10:45:28.388633",
+    "id": "5041343",
+    "pregunta": "Curitiba: Samuel Heredia vs Juan Sebastian Osorio",
+    "ts": "2026-09-28T10:52:37.109332",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1235572",
-    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
-    "ts": "2026-09-28T10:45:31.386458",
+    "id": "5004176",
+    "pregunta": "Porto 2: Michael Mmoh vs Laslo Djere",
+    "ts": "2026-09-28T10:52:38.203466",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581665",
+    "pregunta": "Will Georgia win on 2026-09-28?",
+    "ts": "2026-09-28T10:52:41.217468",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857223",
+    "pregunta": "Spread: Bears (-6.5)",
+    "ts": "2026-09-28T10:52:42.275220",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5060515",
+    "pregunta": "Counter-Strike: MIBR fe vs Zetta Games (BO3) - CCT South America Series 6 Group Stage",
+    "ts": "2026-09-28T10:52:43.478678",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875304",
+    "pregunta": "Spread: Bills (-6.5)",
+    "ts": "2026-09-28T10:52:44.527710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
