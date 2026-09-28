@@ -1,18 +1,58 @@
 [
   {
-    "id": "4551813",
-    "pregunta": "Will Japan win on 2026-09-28?",
-    "ts": "2026-09-28T06:25:02.172091",
+    "id": "4947310",
+    "pregunta": "S&P 500 (SPY) closes above $770 on September 28?",
+    "ts": "2026-09-28T06:33:58.751661",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4564433",
-    "pregunta": "Japan vs. Venezuela: O/U 1.5",
-    "ts": "2026-09-28T06:25:03.212519",
+    "id": "4963840",
+    "pregunta": "Will Coinbase Global, Inc. (COIN) hit (LOW) $185 Week of September 28 2026?",
+    "ts": "2026-09-28T06:33:59.786765",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963841",
+    "pregunta": "Will Coinbase Global, Inc. (COIN) hit (LOW) $182.50 Week of September 28 2026?",
+    "ts": "2026-09-28T06:34:00.985237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4909706",
+    "pregunta": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $200 in September?",
+    "ts": "2026-09-28T06:34:02.023284",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055306",
+    "pregunta": "Counter-Strike: Bushido Wildcats vs Leo Team - Map 2 Winner",
+    "ts": "2026-09-28T06:34:09.071984",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49fc6b35070ef6730149e3f85a38aab79f88c5e1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4976848",
+    "pregunta": "Counter-Strike: XI Esport vs OldMix - Map 1 Winner",
+    "ts": "2026-09-28T06:34:10.117472",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49fc6b35070ef6730149e3f85a38aab79f88c5e1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4909128",
+    "pregunta": "Will Elon Musk post 40-64 tweets from September 26 to September 28, 2026?",
+    "ts": "2026-09-28T06:34:26.764022",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfbcbd30ee172d6750364c117d989c4c049eebb5d",
     "whale_signal": "COMPRAR NO"
   }
 ]
