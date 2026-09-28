@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4610451",
+    "pregunta": "San Marino vs. Albania: Both Teams to Score",
+    "ts": "2026-09-28T03:12:27.805763",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3488627",
+    "pregunta": "Will the Democratic Party candidate win the 2026 IL-17 House election by 20%-25%?",
+    "ts": "2026-09-28T03:12:32.097117",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08b01f7479c7fd7fc22e354470b5a9318b6c3f7c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
