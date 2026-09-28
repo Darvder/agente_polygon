@@ -1,56 +1,8 @@
 [
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T15:13:25.646130",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582450",
-    "pregunta": "Belgium vs. France: O/U 0.5",
-    "ts": "2026-09-28T15:13:26.714353",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582516",
-    "pregunta": "Northern Ireland vs. Hungary: O/U 0.5",
-    "ts": "2026-09-28T15:13:27.827033",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4680124",
-    "pregunta": "Spread: Italy (-3.5)",
-    "ts": "2026-09-28T15:13:28.907286",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4582482",
     "pregunta": "Spread: Italy (-2.5)",
-    "ts": "2026-09-28T15:13:29.979548",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581722",
-    "pregunta": "Will Sweden win on 2026-09-28?",
-    "ts": "2026-09-28T15:13:31.043761",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582552",
-    "pregunta": "Sweden vs. Poland: O/U 3.5",
-    "ts": "2026-09-28T15:13:32.114755",
+    "ts": "2026-09-28T15:22:49.423033",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
@@ -58,9 +10,33 @@
   {
     "id": "4592770",
     "pregunta": "CD Legan\u00e9s vs. CD Castell\u00f3n: O/U 2.5",
-    "ts": "2026-09-28T15:13:35.219618",
+    "ts": "2026-09-28T15:22:50.481986",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581766",
+    "pregunta": "Will Belgium vs. France end in a draw?",
+    "ts": "2026-09-28T15:22:51.546147",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581741",
+    "pregunta": "Will Northern Ireland vs. Hungary end in a draw?",
+    "ts": "2026-09-28T15:22:52.597697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581743",
+    "pregunta": "Will Hungary win on 2026-09-28?",
+    "ts": "2026-09-28T15:22:53.648820",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
