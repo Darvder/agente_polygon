@@ -1,26 +1,66 @@
 [
   {
-    "id": "4977611",
-    "pregunta": "Will the highest temperature in Los Angeles be between 76-77\u00b0F on September 28?",
-    "ts": "2026-09-28T10:36:15.262788",
+    "id": "4143591",
+    "pregunta": "Rangers vs. Bruins",
+    "ts": "2026-09-28T10:45:21.560974",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4975094",
-    "pregunta": "Will the highest temperature in Houston be between 92-93\u00b0F on September 28?",
-    "ts": "2026-09-28T10:36:16.339597",
+    "id": "5056683",
+    "pregunta": "Counter-Strike: Leo Team vs Noir Verse - Map 2 Winner",
+    "ts": "2026-09-28T10:45:22.715015",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4973999",
-    "pregunta": "Will the highest temperature in New York City be between 60-61\u00b0F on September 28?",
-    "ts": "2026-09-28T10:36:19.131468",
+    "id": "5065079",
+    "pregunta": "Columbus: James Kent Trotter vs Li Tu",
+    "ts": "2026-09-28T10:45:23.759235",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3904e686bffade807ac746cd462c6f44724c539b",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055783",
+    "pregunta": "LoL: Bushido Wildcats vs The Ruddy Sack (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-28T10:45:24.911344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581700",
+    "pregunta": "Will Armenia win on 2026-09-28?",
+    "ts": "2026-09-28T10:45:25.955914",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5012391",
+    "pregunta": "Will the highest temperature in Lucknow be 31\u00b0C on September 29?",
+    "ts": "2026-09-28T10:45:27.186625",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5066857",
+    "pregunta": "Will the highest temperature in Atlanta be between 86-87\u00b0F on September 30?",
+    "ts": "2026-09-28T10:45:28.388633",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-09-28T10:45:31.386458",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   }
 ]
