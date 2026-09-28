@@ -1,26 +1,154 @@
 [
   {
-    "id": "5012551",
-    "pregunta": "Will the highest temperature in Chengdu be 28\u00b0C on September 29?",
-    "ts": "2026-09-28T14:02:44.739841",
+    "id": "4582487",
+    "pregunta": "T\u00fcrkiye vs. Italy: O/U 4.5",
+    "ts": "2026-09-28T14:14:03.945811",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012517",
-    "pregunta": "Will the highest temperature in Chongqing be 25\u00b0C on September 29?",
-    "ts": "2026-09-28T14:02:46.002390",
+    "id": "4582480",
+    "pregunta": "Spread: Italy (-1.5)",
+    "ts": "2026-09-28T14:14:05.047754",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581757",
-    "pregunta": "Will Italy win on 2026-09-28?",
-    "ts": "2026-09-28T14:02:48.938407",
+    "id": "4582551",
+    "pregunta": "Sweden vs. Poland: O/U 2.5",
+    "ts": "2026-09-28T14:14:06.105998",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582555",
+    "pregunta": "Sweden vs. Poland: Both Teams to Score",
+    "ts": "2026-09-28T14:14:07.151606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582552",
+    "pregunta": "Sweden vs. Poland: O/U 3.5",
+    "ts": "2026-09-28T14:14:08.222095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581765",
+    "pregunta": "Will Belgium win on 2026-09-28?",
+    "ts": "2026-09-28T14:14:09.269200",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582456",
+    "pregunta": "Belgium vs. France: Both Teams to Score",
+    "ts": "2026-09-28T14:14:10.308285",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T14:14:11.348181",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581722",
+    "pregunta": "Will Sweden win on 2026-09-28?",
+    "ts": "2026-09-28T14:14:13.468986",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb317c492ce36c9cc5a2c0b4857ad50d3b67fe71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063916",
+    "pregunta": "Will the highest temperature in London be 23\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:16.866910",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064110",
+    "pregunta": "Will the highest temperature in Beijing be 21\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:18.088138",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063989",
+    "pregunta": "Will the highest temperature in Tel Aviv be 28\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:19.132920",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064036",
+    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:20.189936",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029175",
+    "pregunta": "Will the highest temperature in Sao Paulo be 32\u00b0C on September 29?",
+    "ts": "2026-09-28T14:14:21.231912",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063936",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 24\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:22.272864",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4974015",
+    "pregunta": "Will the highest temperature in Chicago be between 74-75\u00b0F on September 28?",
+    "ts": "2026-09-28T14:14:23.482152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064077",
+    "pregunta": "Will the highest temperature in Warsaw be 21\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:24.674182",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064165",
+    "pregunta": "Will the highest temperature in Istanbul be 20\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:25.877219",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064199",
+    "pregunta": "Will the highest temperature in Helsinki be 16\u00b0C on September 30?",
+    "ts": "2026-09-28T14:14:27.064766",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa568d21bc6e9ad11c073c358b8919e07b0d1bd84",
     "whale_signal": "COMPRAR NO"
   }
 ]
