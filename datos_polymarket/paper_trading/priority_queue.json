@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1733893",
+    "pregunta": "Tori FDV above $50M one day after launch?",
+    "ts": "2026-09-27T19:52:30.452872",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xebf05cf362054a20dd523cf06eea144cae0530e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1720185",
+    "pregunta": "QFEX FDV above $200M one day after launch?",
+    "ts": "2026-09-27T19:52:31.493452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xebf05cf362054a20dd523cf06eea144cae0530e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1720183",
+    "pregunta": "QFEX FDV above $100M one day after launch?",
+    "ts": "2026-09-27T19:52:32.627306",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xebf05cf362054a20dd523cf06eea144cae0530e6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
