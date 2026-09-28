@@ -2,23 +2,31 @@
   {
     "id": "4857117",
     "pregunta": "Spread: Eagles (-4.5)",
-    "ts": "2026-09-28T17:42:39.728261",
+    "ts": "2026-09-28T17:53:39.515230",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4589731",
-    "pregunta": "Will Jamaica win on 2026-09-28?",
-    "ts": "2026-09-28T17:42:40.826371",
+    "id": "4857338",
+    "pregunta": "1H Spread: Eagles (-1.5)",
+    "ts": "2026-09-28T17:53:40.704770",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857118",
-    "pregunta": "Spread: Eagles (-5.5)",
-    "ts": "2026-09-28T17:42:41.935474",
+    "id": "4857123",
+    "pregunta": "Spread: Eagles (-7.5)",
+    "ts": "2026-09-28T17:53:41.797389",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4589768",
+    "pregunta": "Will El Salvador win on 2026-09-28?",
+    "ts": "2026-09-28T17:53:42.889617",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -26,49 +34,33 @@
   {
     "id": "4857108",
     "pregunta": "Spread: Eagles (-1.5)",
-    "ts": "2026-09-28T17:42:43.032213",
+    "ts": "2026-09-28T17:53:43.953947",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4952600",
-    "pregunta": "Minnesota Lynx vs. New York Liberty",
-    "ts": "2026-09-28T17:42:44.122672",
+    "id": "4857119",
+    "pregunta": "Spread: Eagles (-6.5)",
+    "ts": "2026-09-28T17:53:45.037828",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4817070",
-    "pregunta": "Florida vs. Missouri",
-    "ts": "2026-09-28T17:42:45.246732",
+    "id": "4589731",
+    "pregunta": "Will Jamaica win on 2026-09-28?",
+    "ts": "2026-09-28T17:53:46.128133",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4592755",
-    "pregunta": "Will EC Juventude win on 2026-09-28?",
-    "ts": "2026-09-28T17:42:47.133274",
+    "id": "4857118",
+    "pregunta": "Spread: Eagles (-5.5)",
+    "ts": "2026-09-28T17:53:47.215341",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f8a151c31bb8443d8a7001a9b69fedcd80fb631",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5004143",
-    "pregunta": "Mouilleron-Le-Captif: Clement Tabur vs Matteo Martineau",
-    "ts": "2026-09-28T17:42:49.003471",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5013957",
-    "pregunta": "Columbus: Braden Shick vs Ozan Baris",
-    "ts": "2026-09-28T17:42:50.061821",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
