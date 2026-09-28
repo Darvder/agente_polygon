@@ -1,122 +1,26 @@
 [
   {
-    "id": "5023452",
-    "pregunta": "Jingshan: Sijia Wei vs Yujia Huang",
-    "ts": "2026-09-28T01:53:04.757457",
+    "id": "4978386",
+    "pregunta": "Will the highest temperature in Buenos Aires be 21\u00b0C on September 28?",
+    "ts": "2026-09-28T02:03:02.342449",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582551",
-    "pregunta": "Sweden vs. Poland: O/U 2.5",
-    "ts": "2026-09-28T01:53:05.849866",
+    "id": "4975060",
+    "pregunta": "Will the highest temperature in Atlanta be between 80-81\u00b0F on September 28?",
+    "ts": "2026-09-28T02:03:03.384111",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4584874",
-    "pregunta": "Will Brazil win on 2026-09-29?",
-    "ts": "2026-09-28T01:53:06.928859",
+    "id": "4978375",
+    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 28?",
+    "ts": "2026-09-28T02:03:06.142605",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5043620",
-    "pregunta": "Martin Landaluce vs. Marco Trungelliti: Total Sets O/U 2.5",
-    "ts": "2026-09-28T01:53:08.968629",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc97f5c2b3a80fa6ba1e77c7aa4ff08985a7eb5e5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5037208",
-    "pregunta": "China Open, Qualification: Katarzyna Kawa vs Rinko Matsuda",
-    "ts": "2026-09-28T01:53:10.966016",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27abc7b9286940bd158d866d1e842c28a28b7ca1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4615009",
-    "pregunta": "Cuba vs. Bonaire: Both Teams to Score",
-    "ts": "2026-09-28T01:53:13.000307",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4610627",
-    "pregunta": "Moldova vs. Faroe Islands: Moldova 1st Half O/U 0.5",
-    "ts": "2026-09-28T01:53:14.074051",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582588",
-    "pregunta": "Romania vs. Bosnia and Herzegovina: Both Teams to Score",
-    "ts": "2026-09-28T01:53:15.314243",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041255",
-    "pregunta": "China Open, Qualification: Alex Molcan vs Vit Kopriva",
-    "ts": "2026-09-28T01:53:16.412725",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4564428",
-    "pregunta": "Spread: Japan (-1.5)",
-    "ts": "2026-09-28T01:53:17.475667",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4595018",
-    "pregunta": "Australia vs. Brazil: O/U 3.5",
-    "ts": "2026-09-28T01:53:18.665948",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4564402",
-    "pregunta": "Korea Republic vs. Uruguay: O/U 3.5",
-    "ts": "2026-09-28T01:53:19.753017",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581822",
-    "pregunta": "Armenia vs. Montenegro: Draw at halftime?",
-    "ts": "2026-09-28T01:53:20.924800",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582590",
-    "pregunta": "Romania vs. Bosnia and Herzegovina: 1st Half O/U 0.5",
-    "ts": "2026-09-28T01:53:21.996125",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582626",
-    "pregunta": "Armenia vs. Montenegro: Armenia O/U 0.5",
-    "ts": "2026-09-28T01:53:23.179530",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3e1ac4bede0a559fc47e78e8a74adeeb6f704d5c",
+    "whale_wallet": "0x73e0ccf58caf8a62eeb2970645dce32d0978e538",
     "whale_signal": "COMPRAR NO"
   }
 ]
