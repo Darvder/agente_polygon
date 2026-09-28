@@ -1,26 +1,50 @@
 [
   {
-    "id": "5062269",
-    "pregunta": "Will Bitcoin reach $85,000 on September 28?",
-    "ts": "2026-09-28T11:32:34.039502",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-28T11:44:33.311225",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582555",
-    "pregunta": "Sweden vs. Poland: Both Teams to Score",
-    "ts": "2026-09-28T11:32:37.245912",
+    "id": "4582456",
+    "pregunta": "Belgium vs. France: Both Teams to Score",
+    "ts": "2026-09-28T11:44:34.368811",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb4f909f4979dc0206bcf976216c837cdf214ea6",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2589813",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-    "ts": "2026-09-28T11:32:39.448322",
+    "id": "4581719",
+    "pregunta": "Will Bosnia and Herzegovina win on 2026-09-28?",
+    "ts": "2026-09-28T11:44:35.505756",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb4f909f4979dc0206bcf976216c837cdf214ea6",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581752",
+    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
+    "ts": "2026-09-28T11:44:36.586929",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-28T11:44:37.660331",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581757",
+    "pregunta": "Will Italy win on 2026-09-28?",
+    "ts": "2026-09-28T11:44:38.717960",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
