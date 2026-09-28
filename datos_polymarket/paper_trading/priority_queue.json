@@ -1,26 +1,10 @@
 [
   {
-    "id": "4909129",
-    "pregunta": "Will Elon Musk post 65-89 tweets from September 26 to September 28, 2026?",
-    "ts": "2026-09-27T21:22:47.419913",
+    "id": "4551813",
+    "pregunta": "Will Japan win on 2026-09-28?",
+    "ts": "2026-09-27T21:33:16.193077",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe6cfe0ec89427a4fc6bf8544d0e326a7775f2c9e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4909128",
-    "pregunta": "Will Elon Musk post 40-64 tweets from September 26 to September 28, 2026?",
-    "ts": "2026-09-27T21:22:48.540054",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe6cfe0ec89427a4fc6bf8544d0e326a7775f2c9e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4716409",
-    "pregunta": "Will Elon Musk post 200-219 tweets from September 22 to September 29, 2026?",
-    "ts": "2026-09-27T21:22:50.592074",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
