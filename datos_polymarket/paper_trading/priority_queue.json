@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5062269",
+    "pregunta": "Will Bitcoin reach $85,000 on September 28?",
+    "ts": "2026-09-28T11:32:34.039502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582555",
+    "pregunta": "Sweden vs. Poland: Both Teams to Score",
+    "ts": "2026-09-28T11:32:37.245912",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb4f909f4979dc0206bcf976216c837cdf214ea6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2589813",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+    "ts": "2026-09-28T11:32:39.448322",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb4f909f4979dc0206bcf976216c837cdf214ea6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
