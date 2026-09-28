@@ -1,66 +1,42 @@
 [
   {
-    "id": "4857117",
-    "pregunta": "Spread: Eagles (-4.5)",
-    "ts": "2026-09-28T17:53:39.515230",
+    "id": "2413330",
+    "pregunta": "Will Anthropic IPO by December 31, 2026?",
+    "ts": "2026-09-28T18:03:53.963150",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x9e24bd0ebc6a423c43cf600e7bf1170a867b7e71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857338",
-    "pregunta": "1H Spread: Eagles (-1.5)",
-    "ts": "2026-09-28T17:53:40.704770",
+    "id": "676792",
+    "pregunta": "Anthropic IPO before 2027?",
+    "ts": "2026-09-28T18:03:55.034623",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x9e24bd0ebc6a423c43cf600e7bf1170a867b7e71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857123",
-    "pregunta": "Spread: Eagles (-7.5)",
-    "ts": "2026-09-28T17:53:41.797389",
+    "id": "3187537",
+    "pregunta": "Will Mar\u00eda Corina Machado enter Venezuela by December 31?",
+    "ts": "2026-09-28T18:03:56.953449",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x9e24bd0ebc6a423c43cf600e7bf1170a867b7e71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4589768",
-    "pregunta": "Will El Salvador win on 2026-09-28?",
-    "ts": "2026-09-28T17:53:42.889617",
+    "id": "5057544",
+    "pregunta": "Curitiba: Ryan Dickerson vs Jose Pereira",
+    "ts": "2026-09-28T18:04:07.708415",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857108",
-    "pregunta": "Spread: Eagles (-1.5)",
-    "ts": "2026-09-28T17:53:43.953947",
+    "id": "4589719",
+    "pregunta": "Will Suriname win on 2026-09-28?",
+    "ts": "2026-09-28T18:04:08.780942",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4857119",
-    "pregunta": "Spread: Eagles (-6.5)",
-    "ts": "2026-09-28T17:53:45.037828",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589731",
-    "pregunta": "Will Jamaica win on 2026-09-28?",
-    "ts": "2026-09-28T17:53:46.128133",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4857118",
-    "pregunta": "Spread: Eagles (-5.5)",
-    "ts": "2026-09-28T17:53:47.215341",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
