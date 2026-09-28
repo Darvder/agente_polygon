@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1572.48,
+  "capital_actual": 1553.32,
   "capital_en_riesgo": 409.35,
-  "n_ciclos": 38558,
-  "ultima_corrida": "2026-09-28 17:13",
+  "n_ciclos": 38559,
+  "ultima_corrida": "2026-09-28 17:24",
   "n_tp": 508,
-  "n_sl": 325,
+  "n_sl": 326,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 33.03,
-    "capital_en_riesgo": 30.97,
+    "capital_actual": 33.75,
+    "capital_en_riesgo": 27.88,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 39,
-    "n_sl": 25,
+    "n_sl": 26,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-28",
@@ -51,7 +51,7 @@
         "pregunta": "Will the highest temperature in Chengdu be 30\u00b0C on September 29?",
         "outcome": "No",
         "precio_token_entrada": 0.8,
-        "precio_actual": 0.705,
+        "precio_actual": 0.695,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -200,26 +200,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xc0140de6d17185795033c1f8043dde51c06e3ea77414c7a97f0d130256356a5c"
-      },
-      {
-        "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 17:12",
-        "target_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
-        "market_id": "5004143",
-        "condition_id": "0xcbd3abac4253430f04338ce80337f67a5390f47c92b3ef7ac7f1949a10e4b539",
-        "token_id": "5815982074613399207274221224104424957560338724573762012317133171762007896906",
-        "pregunta": "Mouilleron-Le-Captif: Clement Tabur vs Matteo Martineau",
-        "outcome": "Matteo Martineau",
-        "precio_token_entrada": 0.535,
-        "precio_actual": 0.535,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.09,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x37ca8d3ca3fba14177f48371fd26c7e351eead2b33b983944494a4411a03bb9a"
       }
     ],
     "historial_cerradas": [
@@ -1502,6 +1482,26 @@
         "pnl_realizado": -1.38,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x22f17c9d28597c6f24cae14ee3626102be2f677f38062ee93e202c893d1678d7"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 17:12",
+        "target_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+        "market_id": "5004143",
+        "condition_id": "0xcbd3abac4253430f04338ce80337f67a5390f47c92b3ef7ac7f1949a10e4b539",
+        "token_id": "5815982074613399207274221224104424957560338724573762012317133171762007896906",
+        "pregunta": "Mouilleron-Le-Captif: Clement Tabur vs Matteo Martineau",
+        "outcome": "Matteo Martineau",
+        "precio_token_entrada": 0.535,
+        "precio_actual": 0.125,
+        "precio_cierre": 0.125,
+        "pct_cambio": -0.7664,
+        "monto_usdc": 3.09,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 17:24",
+        "pnl_realizado": -2.37,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x37ca8d3ca3fba14177f48371fd26c7e351eead2b33b983944494a4411a03bb9a"
       }
     ]
   }
