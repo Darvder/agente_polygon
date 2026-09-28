@@ -1,50 +1,10 @@
 [
   {
-    "id": "5012401",
-    "pregunta": "Will the highest temperature in Munich be 24\u00b0C on September 29?",
-    "ts": "2026-09-28T17:23:48.250850",
+    "id": "5075054",
+    "pregunta": "W15 Maanshan: Yuzuha Negishi vs Meng Yi Chen",
+    "ts": "2026-09-28T17:34:22.118260",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x180e62e6f035dbf69118a2306df25d28762129df",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012336",
-    "pregunta": "Will the highest temperature in London be 24\u00b0C on September 29?",
-    "ts": "2026-09-28T17:23:49.515223",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x180e62e6f035dbf69118a2306df25d28762129df",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064199",
-    "pregunta": "Will the highest temperature in Helsinki be 16\u00b0C on September 30?",
-    "ts": "2026-09-28T17:23:50.601313",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x180e62e6f035dbf69118a2306df25d28762129df",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5027074",
-    "pregunta": "Will the highest temperature in Los Angeles be between 84-85\u00b0F on September 29?",
-    "ts": "2026-09-28T17:23:53.727671",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7199d484607f926ecd8dd9c360e5b5f064cf9395",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012563",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 29?",
-    "ts": "2026-09-28T17:23:54.817314",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7199d484607f926ecd8dd9c360e5b5f064cf9395",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064232",
-    "pregunta": "Will the highest temperature in Cape Town be 34\u00b0C on September 30?",
-    "ts": "2026-09-28T17:23:56.064189",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7199d484607f926ecd8dd9c360e5b5f064cf9395",
+    "whale_wallet": "0xa70a523c726929d4566c636e5dacbd4b72ec5772",
     "whale_signal": "COMPRAR NO"
   }
 ]
