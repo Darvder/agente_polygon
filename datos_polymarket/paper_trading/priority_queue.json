@@ -1,56 +1,40 @@
 [
   {
-    "id": "5012411",
-    "pregunta": "Will the highest temperature in Tel Aviv be 29\u00b0C on September 29?",
-    "ts": "2026-09-28T10:13:52.644613",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e445d8d08bc305f55f0ef8de11d75b752b42c35",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063989",
-    "pregunta": "Will the highest temperature in Tel Aviv be 28\u00b0C on September 30?",
-    "ts": "2026-09-28T10:13:53.742722",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e445d8d08bc305f55f0ef8de11d75b752b42c35",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012410",
-    "pregunta": "Will the highest temperature in Tel Aviv be 28\u00b0C on September 29?",
-    "ts": "2026-09-28T10:13:54.847874",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e445d8d08bc305f55f0ef8de11d75b752b42c35",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011260",
-    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 29?",
-    "ts": "2026-09-28T10:13:55.916482",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e445d8d08bc305f55f0ef8de11d75b752b42c35",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582456",
-    "pregunta": "Belgium vs. France: Both Teams to Score",
-    "ts": "2026-09-28T10:13:57.662414",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4581768",
     "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T10:13:58.724441",
+    "ts": "2026-09-28T10:23:38.427080",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1235568",
+    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
+    "ts": "2026-09-28T10:23:39.482827",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581665",
+    "pregunta": "Will Georgia win on 2026-09-28?",
+    "ts": "2026-09-28T10:23:42.218320",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582687",
-    "pregunta": "Georgia vs. Ukraine: Both Teams to Score",
-    "ts": "2026-09-28T10:13:59.827517",
+    "id": "4581700",
+    "pregunta": "Will Armenia win on 2026-09-28?",
+    "ts": "2026-09-28T10:23:43.275024",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581722",
+    "pregunta": "Will Sweden win on 2026-09-28?",
+    "ts": "2026-09-28T10:23:44.331442",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -58,31 +42,31 @@
   {
     "id": "4880586",
     "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-28T10:14:01.007098",
+    "ts": "2026-09-28T10:23:45.412229",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4589768",
-    "pregunta": "Will El Salvador win on 2026-09-28?",
-    "ts": "2026-09-28T10:14:02.108222",
+    "id": "4857116",
+    "pregunta": "Spread: Eagles (-3.5)",
+    "ts": "2026-09-28T10:23:46.472330",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581702",
-    "pregunta": "Will Armenia vs. Montenegro end in a draw?",
-    "ts": "2026-09-28T10:14:03.185106",
+    "id": "4581752",
+    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
+    "ts": "2026-09-28T10:23:47.527449",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582447",
-    "pregunta": "Spread: France (-1.5)",
-    "ts": "2026-09-28T10:14:04.289061",
+    "id": "4581765",
+    "pregunta": "Will Belgium win on 2026-09-28?",
+    "ts": "2026-09-28T10:23:48.598879",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
