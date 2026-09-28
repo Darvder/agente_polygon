@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "4797508",
+    "pregunta": "Will the price of Bitcoin be above $82,000 on September 28?",
+    "ts": "2026-09-28T00:43:28.226612",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ea0aefd909311d9e6a1f5bfeb231be92c3cae77",
+    "whale_signal": "COMPRAR NO"
+  }
+]
