@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4970462",
+    "pregunta": "Will Elon Musk post 180-199 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-09-28T08:02:28.854241",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd928207088add26309d4d3e50fbef6a6edd623ca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4970459",
+    "pregunta": "Will Elon Musk post 160-179 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-09-28T08:02:30.024383",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd928207088add26309d4d3e50fbef6a6edd623ca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4970464",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-09-28T08:02:31.177630",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd928207088add26309d4d3e50fbef6a6edd623ca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4970467",
+    "pregunta": "Will Elon Musk post 220-239 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-09-28T08:02:32.327501",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd928207088add26309d4d3e50fbef6a6edd623ca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5051978",
+    "pregunta": "Counter-Strike: FOKUS vs Nemiga - Map 2 Winner",
+    "ts": "2026-09-28T08:02:40.746740",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
