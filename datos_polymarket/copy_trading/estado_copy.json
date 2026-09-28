@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1471.68,
-  "capital_en_riesgo": 388.07,
-  "n_ciclos": 38501,
-  "ultima_corrida": "2026-09-28 07:44",
-  "n_tp": 476,
+  "capital_actual": 1497.91,
+  "capital_en_riesgo": 370.39,
+  "n_ciclos": 38502,
+  "ultima_corrida": "2026-09-28 07:53",
+  "n_tp": 477,
   "n_sl": 305,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 28.06,
-    "capital_en_riesgo": 30.9,
+    "capital_actual": 32.51,
+    "capital_en_riesgo": 27.9,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.055,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 15,
+    "n_tp": 16,
     "n_sl": 16,
     "posiciones_abiertas": [
       {
@@ -151,7 +151,7 @@
         "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 29?",
         "outcome": "Yes",
         "precio_token_entrada": 0.665,
-        "precio_actual": 0.64,
+        "precio_actual": 0.62,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -191,7 +191,7 @@
         "pregunta": "Chengdu Open: Hubert Hurkacz vs Denis Shapovalov",
         "outcome": "Denis Shapovalov",
         "precio_token_entrada": 0.725,
-        "precio_actual": 0.745,
+        "precio_actual": 0.505,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -200,26 +200,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x10f16bcebe71febbee563ab623e06229a9a699cfea241bd00ac12a4a9a91ebb4"
-      },
-      {
-        "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 07:44",
-        "target_wallet": "0xf1ee4842fa0c7283632185e42577027452d4519c",
-        "market_id": "4976850",
-        "condition_id": "0x5a7ce49a0a89e63af1e364519f14f6a5e9560762baccfaf887f1f0a6231781b9",
-        "token_id": "25963687762076561140432664062887463043840436767276255849071600279388075401575",
-        "pregunta": "Counter-Strike: XI Esport vs OldMix (BO3) - United21 Group C",
-        "outcome": "XI Esport",
-        "precio_token_entrada": 0.62,
-        "precio_actual": 0.62,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x8242272ef951cb3821089efaaacc069d96d79823e14813fb2b94249d35a40f45"
       }
     ],
     "historial_cerradas": [
@@ -842,6 +822,26 @@
         "pnl_realizado": -3.0,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x35d521c8f9f8d2df4bee7382c8a3d9a4d38124b196d289f9733852476591c710"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 07:44",
+        "target_wallet": "0xf1ee4842fa0c7283632185e42577027452d4519c",
+        "market_id": "4976850",
+        "condition_id": "0x5a7ce49a0a89e63af1e364519f14f6a5e9560762baccfaf887f1f0a6231781b9",
+        "token_id": "25963687762076561140432664062887463043840436767276255849071600279388075401575",
+        "pregunta": "Counter-Strike: XI Esport vs OldMix (BO3) - United21 Group C",
+        "outcome": "XI Esport",
+        "precio_token_entrada": 0.62,
+        "precio_actual": 0.92,
+        "precio_cierre": 0.92,
+        "pct_cambio": 0.4839,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 07:53",
+        "pnl_realizado": 1.45,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x8242272ef951cb3821089efaaacc069d96d79823e14813fb2b94249d35a40f45"
       }
     ]
   }
