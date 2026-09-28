@@ -1,8 +1,32 @@
 [
   {
-    "id": "4580490",
-    "pregunta": "Spread: CF Am\u00e9rica (-1.5)",
-    "ts": "2026-09-28T00:04:05.908766",
+    "id": "4857116",
+    "pregunta": "Spread: Eagles (-3.5)",
+    "ts": "2026-09-28T00:13:53.428553",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4551820",
+    "pregunta": "Will Uruguay win on 2026-09-28?",
+    "ts": "2026-09-28T00:13:54.509562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4551813",
+    "pregunta": "Will Japan win on 2026-09-28?",
+    "ts": "2026-09-28T00:13:55.565935",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4551818",
+    "pregunta": "Will Korea Republic win on 2026-09-28?",
+    "ts": "2026-09-28T00:13:57.393173",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
@@ -10,7 +34,7 @@
   {
     "id": "4675716",
     "pregunta": "Club Necaxa vs. CF Am\u00e9rica: O/U 6.5",
-    "ts": "2026-09-28T00:04:07.018439",
+    "ts": "2026-09-28T00:13:58.465505",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
