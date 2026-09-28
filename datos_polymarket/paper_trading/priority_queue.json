@@ -1,82 +1,10 @@
 [
   {
-    "id": "5065079",
-    "pregunta": "Columbus: James Kent Trotter vs Li Tu",
-    "ts": "2026-09-28T10:52:32.900249",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5004145",
-    "pregunta": "Mouilleron-Le-Captif: Jack Pinnington Jones vs Thomas Faurel",
-    "ts": "2026-09-28T10:52:33.949647",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5004149",
-    "pregunta": "Mouilleron-Le-Captif: Dan Added vs Gauthier Onclin",
-    "ts": "2026-09-28T10:52:35.004329",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5057546",
-    "pregunta": "Curitiba: Pedro Sakamoto vs Santiago De la Fuente",
-    "ts": "2026-09-28T10:52:36.050403",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5041343",
-    "pregunta": "Curitiba: Samuel Heredia vs Juan Sebastian Osorio",
-    "ts": "2026-09-28T10:52:37.109332",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5004176",
     "pregunta": "Porto 2: Michael Mmoh vs Laslo Djere",
-    "ts": "2026-09-28T10:52:38.203466",
+    "ts": "2026-09-28T11:02:40.779968",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581665",
-    "pregunta": "Will Georgia win on 2026-09-28?",
-    "ts": "2026-09-28T10:52:41.217468",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4857223",
-    "pregunta": "Spread: Bears (-6.5)",
-    "ts": "2026-09-28T10:52:42.275220",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5060515",
-    "pregunta": "Counter-Strike: MIBR fe vs Zetta Games (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-28T10:52:43.478678",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875304",
-    "pregunta": "Spread: Bills (-6.5)",
-    "ts": "2026-09-28T10:52:44.527710",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
     "whale_signal": "COMPRAR NO"
   }
 ]
