@@ -1,66 +1,82 @@
 [
   {
-    "id": "5060265",
-    "pregunta": "Counter-Strike: Galorys vs Turma do Pagode - Map 1 Winner",
-    "ts": "2026-09-28T16:54:02.832698",
+    "id": "5004143",
+    "pregunta": "Mouilleron-Le-Captif: Clement Tabur vs Matteo Martineau",
+    "ts": "2026-09-28T17:02:39.859607",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5060519",
-    "pregunta": "Counter-Strike: Semente do Mal vs Damajuana (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-28T16:54:03.911177",
+    "id": "4615007",
+    "pregunta": "Cuba vs. Bonaire: O/U 4.5",
+    "ts": "2026-09-28T17:02:40.911971",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5074203",
-    "pregunta": "Counter-Strike: underw0rld vs MIBR fe (BO3) - Gamers Club Liga S\u00e9rie A Group C",
-    "ts": "2026-09-28T16:54:06.455584",
+    "id": "4615006",
+    "pregunta": "Cuba vs. Bonaire: O/U 3.5",
+    "ts": "2026-09-28T17:02:41.970403",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5058758",
-    "pregunta": "MODUS Super Series: Nico Plovier vs Jamie Atkins",
-    "ts": "2026-09-28T16:54:07.751155",
+    "id": "4857119",
+    "pregunta": "Spread: Eagles (-6.5)",
+    "ts": "2026-09-28T17:02:43.631322",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4825434",
-    "pregunta": "D'Andre Swift: Rushing Yards O/U 39.5",
-    "ts": "2026-09-28T16:54:08.990993",
+    "id": "4952600",
+    "pregunta": "Minnesota Lynx vs. New York Liberty",
+    "ts": "2026-09-28T17:02:44.674561",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5058756",
-    "pregunta": "MODUS Super Series: Jamie Atkins vs Jeff Smith",
-    "ts": "2026-09-28T16:54:10.237194",
+    "id": "4589719",
+    "pregunta": "Will Suriname win on 2026-09-28?",
+    "ts": "2026-09-28T17:02:45.728857",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5060769",
-    "pregunta": "Counter-Strike: BORRACHEIROS vs METANOIA WOLVES (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-28T16:54:11.338252",
+    "id": "4584874",
+    "pregunta": "Will Brazil win on 2026-09-29?",
+    "ts": "2026-09-28T17:02:46.772445",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5055890",
-    "pregunta": "LoL: Saudi Arabia vs Malaysia (BO1) - Asian Games Group A",
-    "ts": "2026-09-28T16:54:12.402860",
+    "id": "3919668",
+    "pregunta": "Eagles vs. Bears: O/U 43.5",
+    "ts": "2026-09-28T17:02:47.828111",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5046227",
+    "pregunta": "Will Senegal win on 2026-09-29?",
+    "ts": "2026-09-28T17:02:48.874438",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-09-28T17:02:50.001022",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]

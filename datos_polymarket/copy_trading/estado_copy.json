@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1569.67,
+  "capital_actual": 1560.62,
   "capital_en_riesgo": 409.35,
-  "n_ciclos": 38556,
-  "ultima_corrida": "2026-09-28 16:55",
+  "n_ciclos": 38557,
+  "ultima_corrida": "2026-09-28 17:03",
   "n_tp": 507,
-  "n_sl": 324,
+  "n_sl": 325,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 33.68,
-    "capital_en_riesgo": 31.7,
+    "capital_actual": 36.12,
+    "capital_en_riesgo": 27.88,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 39,
-    "n_sl": 24,
+    "n_sl": 25,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-28",
@@ -131,7 +131,7 @@
         "pregunta": "Will El Salvador win on 2026-09-28?",
         "outcome": "Yes",
         "precio_token_entrada": 0.255,
-        "precio_actual": 0.255,
+        "precio_actual": 0.265,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.02,
@@ -160,26 +160,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x7f567b406945356e0a179f7621e40ed55d93a04ad7f17dcc1bb4c9150c55d073"
-      },
-      {
-        "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 16:42",
-        "target_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-        "market_id": "4615007",
-        "condition_id": "0xb44e376c4f8d98046d36e6ab5c46fdb742da3722b91679be4cb68e753bc26400",
-        "token_id": "55141291149978466631430020925406736517702226315159598795186144176837743943545",
-        "pregunta": "Cuba vs. Bonaire: O/U 4.5",
-        "outcome": "Over",
-        "precio_token_entrada": 0.29,
-        "precio_actual": 0.195,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.82,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x22f17c9d28597c6f24cae14ee3626102be2f677f38062ee93e202c893d1678d7"
       },
       {
         "fecha_entrada": "2026-09-28",
@@ -1482,6 +1462,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "TARGET_SELL",
         "tx_hash": "0x090a3f5da98ea40070ac3490b2d14fa1257eaee577513a234cf85bac9a53f685"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 16:42",
+        "target_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+        "market_id": "4615007",
+        "condition_id": "0xb44e376c4f8d98046d36e6ab5c46fdb742da3722b91679be4cb68e753bc26400",
+        "token_id": "55141291149978466631430020925406736517702226315159598795186144176837743943545",
+        "pregunta": "Cuba vs. Bonaire: O/U 4.5",
+        "outcome": "Over",
+        "precio_token_entrada": 0.29,
+        "precio_actual": 0.185,
+        "precio_cierre": 0.185,
+        "pct_cambio": -0.3621,
+        "monto_usdc": 3.82,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 17:03",
+        "pnl_realizado": -1.38,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x22f17c9d28597c6f24cae14ee3626102be2f677f38062ee93e202c893d1678d7"
       }
     ]
   }
