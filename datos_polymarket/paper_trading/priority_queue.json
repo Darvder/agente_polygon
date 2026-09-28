@@ -1,74 +1,26 @@
 [
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T10:23:38.427080",
+    "id": "4977611",
+    "pregunta": "Will the highest temperature in Los Angeles be between 76-77\u00b0F on September 28?",
+    "ts": "2026-09-28T10:36:15.262788",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1235568",
-    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
-    "ts": "2026-09-28T10:23:39.482827",
+    "id": "4975094",
+    "pregunta": "Will the highest temperature in Houston be between 92-93\u00b0F on September 28?",
+    "ts": "2026-09-28T10:36:16.339597",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581665",
-    "pregunta": "Will Georgia win on 2026-09-28?",
-    "ts": "2026-09-28T10:23:42.218320",
+    "id": "4973999",
+    "pregunta": "Will the highest temperature in New York City be between 60-61\u00b0F on September 28?",
+    "ts": "2026-09-28T10:36:19.131468",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581700",
-    "pregunta": "Will Armenia win on 2026-09-28?",
-    "ts": "2026-09-28T10:23:43.275024",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581722",
-    "pregunta": "Will Sweden win on 2026-09-28?",
-    "ts": "2026-09-28T10:23:44.331442",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-28T10:23:45.412229",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4857116",
-    "pregunta": "Spread: Eagles (-3.5)",
-    "ts": "2026-09-28T10:23:46.472330",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581752",
-    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
-    "ts": "2026-09-28T10:23:47.527449",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581765",
-    "pregunta": "Will Belgium win on 2026-09-28?",
-    "ts": "2026-09-28T10:23:48.598879",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3904e686bffade807ac746cd462c6f44724c539b",
     "whale_signal": "COMPRAR NO"
   }
 ]
