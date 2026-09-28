@@ -1,18 +1,50 @@
 [
   {
-    "id": "4612100",
-    "pregunta": "Forest Green Rovers FC vs. Wealdstone FC: Wealdstone FC O/U 2.5",
-    "ts": "2026-09-28T04:34:47.881041",
+    "id": "4962527",
+    "pregunta": "Game Handicap: KT.C (-1.5) vs Galions (+1.5)",
+    "ts": "2026-09-28T04:42:35.373324",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5055890",
-    "pregunta": "LoL: Saudi Arabia vs Malaysia (BO1) - Asian Games Group A",
-    "ts": "2026-09-28T04:34:49.033736",
+    "id": "4962520",
+    "pregunta": "LoL: KT Rolster Challengers vs Galions - Game 1 Winner",
+    "ts": "2026-09-28T04:42:36.414233",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4564428",
+    "pregunta": "Spread: Japan (-1.5)",
+    "ts": "2026-09-28T04:42:38.243271",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x023371635a925bb68f6b6ea3d30ec3dd0a347b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4551819",
+    "pregunta": "Will Korea Republic vs. Uruguay end in a draw?",
+    "ts": "2026-09-28T04:42:39.311140",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x023371635a925bb68f6b6ea3d30ec3dd0a347b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4962524",
+    "pregunta": "LoL: KT Rolster Challengers vs Galions (BO5) - World Star Challengers Invitational Playoffs",
+    "ts": "2026-09-28T04:42:42.486402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4551813",
+    "pregunta": "Will Japan win on 2026-09-28?",
+    "ts": "2026-09-28T04:42:43.527268",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
