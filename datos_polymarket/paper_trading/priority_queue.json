@@ -1,18 +1,82 @@
 [
   {
-    "id": "4559773",
-    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
-    "ts": "2026-09-27T23:02:23.870298",
+    "id": "4551818",
+    "pregunta": "Will Korea Republic win on 2026-09-28?",
+    "ts": "2026-09-27T23:13:20.342619",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4972587",
-    "pregunta": "Will the highest temperature in Taipei be 35\u00b0C on September 28?",
-    "ts": "2026-09-27T23:02:26.898481",
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-27T23:13:21.394028",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc878c6a7ba8ad896a897fe82e48b93fb66dfa6f3",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581722",
+    "pregunta": "Will Sweden win on 2026-09-28?",
+    "ts": "2026-09-27T23:13:22.442212",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609854",
+    "pregunta": "Will Spain win on 2026-09-29?",
+    "ts": "2026-09-27T23:13:23.605219",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609859",
+    "pregunta": "Will England win on 2026-09-29?",
+    "ts": "2026-09-27T23:13:24.645663",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4559771",
+    "pregunta": "Will Club Necaxa vs. CF Am\u00e9rica end in a draw?",
+    "ts": "2026-09-27T23:13:26.297620",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4559769",
+    "pregunta": "Will Club Necaxa win on 2026-09-27?",
+    "ts": "2026-09-27T23:13:27.344201",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4559773",
+    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
+    "ts": "2026-09-27T23:13:28.387839",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581752",
+    "pregunta": "Will T\u00fcrkiye win on 2026-09-28?",
+    "ts": "2026-09-27T23:13:30.324843",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x840a4c77580673c900553476bb28001da899600c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581743",
+    "pregunta": "Will Hungary win on 2026-09-28?",
+    "ts": "2026-09-27T23:13:31.396529",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x840a4c77580673c900553476bb28001da899600c",
     "whale_signal": "COMPRAR NO"
   }
 ]
