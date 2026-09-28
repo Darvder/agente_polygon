@@ -1,16 +1,48 @@
 [
   {
-    "id": "4581686",
-    "pregunta": "Will Latvia vs. Cyprus end in a draw?",
-    "ts": "2026-09-28T12:24:58.391202",
+    "id": "4581688",
+    "pregunta": "Will Cyprus win on 2026-09-28?",
+    "ts": "2026-09-28T12:32:29.455857",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4582682",
-    "pregunta": "Georgia vs. Ukraine: O/U 1.5",
-    "ts": "2026-09-28T12:24:59.499529",
+    "id": "4581667",
+    "pregunta": "Will Georgia vs. Ukraine end in a draw?",
+    "ts": "2026-09-28T12:32:30.514345",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581665",
+    "pregunta": "Will Georgia win on 2026-09-28?",
+    "ts": "2026-09-28T12:32:31.596340",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581686",
+    "pregunta": "Will Latvia vs. Cyprus end in a draw?",
+    "ts": "2026-09-28T12:32:32.653325",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581668",
+    "pregunta": "Will Ukraine win on 2026-09-28?",
+    "ts": "2026-09-28T12:32:33.712455",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4582648",
+    "pregunta": "Latvia vs. Cyprus: O/U 0.5",
+    "ts": "2026-09-28T12:32:34.790651",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
@@ -18,81 +50,33 @@
   {
     "id": "4582681",
     "pregunta": "Georgia vs. Ukraine: O/U 0.5",
-    "ts": "2026-09-28T12:25:00.541315",
+    "ts": "2026-09-28T12:32:35.846181",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5041343",
-    "pregunta": "Curitiba: Samuel Heredia vs Juan Sebastian Osorio",
-    "ts": "2026-09-28T12:25:01.585592",
+    "id": "5073735",
+    "pregunta": "Counter-Strike: NIP vs GamerLegion - Map 3 Winner",
+    "ts": "2026-09-28T12:32:45.168649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xf67948563be54a8a6aa0ab7b976d80e8f7e92d3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581688",
-    "pregunta": "Will Cyprus win on 2026-09-28?",
-    "ts": "2026-09-28T12:25:02.641572",
+    "id": "4581722",
+    "pregunta": "Will Sweden win on 2026-09-28?",
+    "ts": "2026-09-28T12:32:52.387117",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5057536",
-    "pregunta": "Porto 2: Michael Geerts vs Joao Domingues",
-    "ts": "2026-09-28T12:25:04.434099",
+    "id": "4581704",
+    "pregunta": "Will Montenegro win on 2026-09-28?",
+    "ts": "2026-09-28T12:32:53.453129",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5057548",
-    "pregunta": "Columbus: Duncan Chan vs Keaton Hance",
-    "ts": "2026-09-28T12:25:05.508615",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5004170",
-    "pregunta": "Porto 2: Jerome Kym vs Tiago Torres",
-    "ts": "2026-09-28T12:25:06.549680",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5057546",
-    "pregunta": "Curitiba: Pedro Sakamoto vs Santiago De la Fuente",
-    "ts": "2026-09-28T12:25:07.615874",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581665",
-    "pregunta": "Will Georgia win on 2026-09-28?",
-    "ts": "2026-09-28T12:25:09.377740",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4582484",
-    "pregunta": "T\u00fcrkiye vs. Italy: O/U 1.5",
-    "ts": "2026-09-28T12:25:10.418619",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4841940",
-    "pregunta": "Will the price of Bitcoin be above $84,000 on September 29?",
-    "ts": "2026-09-28T12:25:12.423482",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd4546eae9de29b025922207b283ce216b09dd749",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
