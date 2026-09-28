@@ -1,34 +1,58 @@
 [
   {
-    "id": "4857116",
-    "pregunta": "Spread: Eagles (-3.5)",
-    "ts": "2026-09-27T23:32:47.983369",
+    "id": "4841896",
+    "pregunta": "Will the price of Bitcoin be between $80,000 and $82,000 on September 29?",
+    "ts": "2026-09-27T23:44:32.707916",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xcb59b03b90bdbfb76fd6fbefdfcf388ff0b72139",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-27T23:32:49.047747",
+    "id": "5012627",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on September 29?",
+    "ts": "2026-09-27T23:44:35.544411",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609859",
-    "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-27T23:32:50.116523",
+    "id": "5029176",
+    "pregunta": "Will the highest temperature in Sao Paulo be 33\u00b0C on September 29?",
+    "ts": "2026-09-27T23:44:36.609229",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4868022",
-    "pregunta": "Will MrBeast Gaming's next video get between 35 and 40 million views in week 1?",
-    "ts": "2026-09-27T23:32:52.103545",
+    "id": "5029177",
+    "pregunta": "Will the highest temperature in Sao Paulo be 34\u00b0C on September 29?",
+    "ts": "2026-09-27T23:44:37.708674",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f5f9fa318fbda8350ac143b4df657287df850fa",
+    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4978376",
+    "pregunta": "Will the highest temperature in Sao Paulo be 32\u00b0C on September 28?",
+    "ts": "2026-09-27T23:44:38.917050",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4978375",
+    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 28?",
+    "ts": "2026-09-27T23:44:39.994900",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029175",
+    "pregunta": "Will the highest temperature in Sao Paulo be 32\u00b0C on September 29?",
+    "ts": "2026-09-27T23:44:41.102218",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
     "whale_signal": "COMPRAR NO"
   }
 ]
