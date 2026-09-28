@@ -1,58 +1,82 @@
 [
   {
-    "id": "4589731",
-    "pregunta": "Will Jamaica win on 2026-09-28?",
-    "ts": "2026-09-28T18:24:45.251825",
+    "id": "4960870",
+    "pregunta": "Kyle Monangai: Rushing Yards O/U 29.5",
+    "ts": "2026-09-28T18:34:18.303078",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x20458998cd99f7ed1096d74d39fe2c8ddf46c77c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919668",
-    "pregunta": "Eagles vs. Bears: O/U 43.5",
-    "ts": "2026-09-28T18:24:46.349174",
+    "id": "4839323",
+    "pregunta": "Eagles vs. Bears: 1H Moneyline",
+    "ts": "2026-09-28T18:34:20.059723",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857119",
-    "pregunta": "Spread: Eagles (-6.5)",
-    "ts": "2026-09-28T18:24:47.449687",
+    "id": "4857357",
+    "pregunta": "1H Spread: Eagles (-2.5)",
+    "ts": "2026-09-28T18:34:21.289437",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4857367",
-    "pregunta": "1H Spread: Eagles (-3.5)",
-    "ts": "2026-09-28T18:24:48.595840",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4857338",
     "pregunta": "1H Spread: Eagles (-1.5)",
-    "ts": "2026-09-28T18:24:49.688612",
+    "ts": "2026-09-28T18:34:22.326875",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1235572",
-    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
-    "ts": "2026-09-28T18:24:51.747875",
+    "id": "4857367",
+    "pregunta": "1H Spread: Eagles (-3.5)",
+    "ts": "2026-09-28T18:34:23.377824",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4589719",
-    "pregunta": "Will Suriname win on 2026-09-28?",
-    "ts": "2026-09-28T18:24:54.873552",
+    "id": "4143565",
+    "pregunta": "Panthers vs. Hurricanes",
+    "ts": "2026-09-28T18:34:24.415623",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x76f951fc1d88cd50e374bbfea0aeb06e409a8ea0",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4589944",
+    "pregunta": "Exact Score: Suriname 1 - 0 Martinique?",
+    "ts": "2026-09-28T18:34:26.509457",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4592787",
+    "pregunta": "Exact Score: Am\u00e9rica FC 0 - 0 EC Juventude?",
+    "ts": "2026-09-28T18:34:27.573375",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4592788",
+    "pregunta": "Exact Score: Am\u00e9rica FC 0 - 1 EC Juventude?",
+    "ts": "2026-09-28T18:34:28.622113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4589948",
+    "pregunta": "Exact Score: Suriname 2 - 0 Martinique?",
+    "ts": "2026-09-28T18:34:30.905830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd87571d3e2ec14990bab2f49b538a7467ee219cf",
     "whale_signal": "COMPRAR NO"
   }
 ]
