@@ -1,90 +1,34 @@
 [
   {
-    "id": "5027062",
-    "pregunta": "Will the highest temperature in Seattle be between 62-63\u00b0F on September 29?",
-    "ts": "2026-09-28T02:43:13.218602",
+    "id": "4962481",
+    "pregunta": "LoL: T1 Academy vs Cupid Esports - Game 3 Winner",
+    "ts": "2026-09-28T02:53:22.544778",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5017619",
-    "pregunta": "Will the highest temperature in Atlanta be between 86-87\u00b0F on September 29?",
-    "ts": "2026-09-28T02:43:14.260686",
+    "id": "4962482",
+    "pregunta": "LoL: T1 Academy vs Cupid Esports - Game 4 Winner",
+    "ts": "2026-09-28T02:53:23.600129",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012564",
-    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on September 29?",
-    "ts": "2026-09-28T02:43:15.325458",
+    "id": "4962479",
+    "pregunta": "LoL: T1 Academy vs Cupid Esports - Game 1 Winner",
+    "ts": "2026-09-28T02:53:25.666503",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5016195",
-    "pregunta": "Will the highest temperature in Denver be between 66-67\u00b0F on September 29?",
-    "ts": "2026-09-28T02:43:16.382140",
+    "id": "4962480",
+    "pregunta": "LoL: T1 Academy vs Cupid Esports - Game 2 Winner",
+    "ts": "2026-09-28T02:53:26.747889",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4977598",
-    "pregunta": "Will the highest temperature in Seattle be between 64-65\u00b0F on September 28?",
-    "ts": "2026-09-28T02:43:17.423398",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5025875",
-    "pregunta": "Will the lowest temperature in San Francisco be between 54-55\u00b0F on September 29?",
-    "ts": "2026-09-28T02:43:20.761233",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064164",
-    "pregunta": "Will the highest temperature in Istanbul be 19\u00b0C on September 30?",
-    "ts": "2026-09-28T02:43:22.649253",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5029189",
-    "pregunta": "Will the highest temperature in Buenos Aires be 20\u00b0C on September 29?",
-    "ts": "2026-09-28T02:43:23.785396",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4978385",
-    "pregunta": "Will the highest temperature in Buenos Aires be 20\u00b0C on September 28?",
-    "ts": "2026-09-28T02:43:24.825537",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4972480",
-    "pregunta": "Will the highest temperature in Munich be 26\u00b0C on September 28?",
-    "ts": "2026-09-28T02:43:25.892320",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012509",
-    "pregunta": "Will the highest temperature in Taipei be 36\u00b0C on September 29?",
-    "ts": "2026-09-28T02:43:27.024101",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6546ac09271889f1aaaca804b33a2e7914f804e1",
+    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
     "whale_signal": "COMPRAR NO"
   }
 ]
