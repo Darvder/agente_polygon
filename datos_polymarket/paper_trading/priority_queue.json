@@ -1,26 +1,18 @@
 [
   {
-    "id": "4582682",
-    "pregunta": "Georgia vs. Ukraine: O/U 1.5",
-    "ts": "2026-09-28T13:13:52.188390",
+    "id": "5041275",
+    "pregunta": "Jingshan: Alex Bolt vs Semen Pankin",
+    "ts": "2026-09-28T13:23:43.049958",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x04c69f170d8a204d01946485f41605245d6a32b6",
+    "whale_wallet": "0x5cdc4e820fe30f22f3cf2581796d6e5abedc1f6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4581686",
-    "pregunta": "Will Latvia vs. Cyprus end in a draw?",
-    "ts": "2026-09-28T13:13:54.284190",
+    "id": "5083451",
+    "pregunta": "Bari: Imanol Lopez Morillo vs Martin Krumich",
+    "ts": "2026-09-28T13:23:44.247366",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x04c69f170d8a204d01946485f41605245d6a32b6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4581768",
-    "pregunta": "Will France win on 2026-09-28?",
-    "ts": "2026-09-28T13:13:56.825598",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59beecf7d392d049c64da0a9599aeaa4ad6adc3e",
+    "whale_wallet": "0x5cdc4e820fe30f22f3cf2581796d6e5abedc1f6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
