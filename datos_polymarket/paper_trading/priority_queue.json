@@ -1,58 +1,66 @@
 [
   {
-    "id": "4615006",
-    "pregunta": "Cuba vs. Bonaire: O/U 3.5",
-    "ts": "2026-09-28T16:42:35.220912",
+    "id": "5060265",
+    "pregunta": "Counter-Strike: Galorys vs Turma do Pagode - Map 1 Winner",
+    "ts": "2026-09-28T16:54:02.832698",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4615007",
-    "pregunta": "Cuba vs. Bonaire: O/U 4.5",
-    "ts": "2026-09-28T16:42:36.339292",
+    "id": "5060519",
+    "pregunta": "Counter-Strike: Semente do Mal vs Damajuana (BO3) - CCT South America Series 6 Group Stage",
+    "ts": "2026-09-28T16:54:03.911177",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3701266",
-    "pregunta": "Eagles vs. Bears: O/U 44.5",
-    "ts": "2026-09-28T16:42:38.617109",
+    "id": "5074203",
+    "pregunta": "Counter-Strike: underw0rld vs MIBR fe (BO3) - Gamers Club Liga S\u00e9rie A Group C",
+    "ts": "2026-09-28T16:54:06.455584",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919667",
-    "pregunta": "Eagles vs. Bears: O/U 41.5",
-    "ts": "2026-09-28T16:42:39.697888",
+    "id": "5058758",
+    "pregunta": "MODUS Super Series: Nico Plovier vs Jamie Atkins",
+    "ts": "2026-09-28T16:54:07.751155",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5013957",
-    "pregunta": "Columbus: Braden Shick vs Ozan Baris",
-    "ts": "2026-09-28T16:42:40.756371",
+    "id": "4825434",
+    "pregunta": "D'Andre Swift: Rushing Yards O/U 39.5",
+    "ts": "2026-09-28T16:54:08.990993",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857116",
-    "pregunta": "Spread: Eagles (-3.5)",
-    "ts": "2026-09-28T16:42:41.834762",
+    "id": "5058756",
+    "pregunta": "MODUS Super Series: Jamie Atkins vs Jeff Smith",
+    "ts": "2026-09-28T16:54:10.237194",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5004143",
-    "pregunta": "Mouilleron-Le-Captif: Clement Tabur vs Matteo Martineau",
-    "ts": "2026-09-28T16:42:42.928436",
+    "id": "5060769",
+    "pregunta": "Counter-Strike: BORRACHEIROS vs METANOIA WOLVES (BO3) - CCT South America Series 6 Group Stage",
+    "ts": "2026-09-28T16:54:11.338252",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x494e6eec37f3d1350854987360a5ae3bd8326f79",
+    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055890",
+    "pregunta": "LoL: Saudi Arabia vs Malaysia (BO1) - Asian Games Group A",
+    "ts": "2026-09-28T16:54:12.402860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ffa4f9c3ba1b7e9a13fd6bd202904990a52864c",
     "whale_signal": "COMPRAR NO"
   }
 ]
