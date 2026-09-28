@@ -1,10 +1,98 @@
 [
   {
-    "id": "4962480",
-    "pregunta": "LoL: T1 Academy vs Cupid Esports - Game 2 Winner",
-    "ts": "2026-09-28T02:23:48.614723",
+    "id": "5055432",
+    "pregunta": "Dota 2: Yangon Galacticos vs Xipto Esports - Game 1 Winner",
+    "ts": "2026-09-28T02:32:49.135239",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_wallet": "0x6bea184d24deac1e6ce9bc5d89facb6274585d50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963976",
+    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $65 Week of September 28 2026?",
+    "ts": "2026-09-28T02:32:52.124396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963965",
+    "pregunta": "Will Gold (XAUUSD) hit (LOW) $4,150 Week of September 28 2026?",
+    "ts": "2026-09-28T02:32:53.371198",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963991",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $90 Week of September 28 2026?",
+    "ts": "2026-09-28T02:32:54.572141",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963981",
+    "pregunta": "Will Silver (XAGUSD) hit (LOW) $60 Week of September 28 2026?",
+    "ts": "2026-09-28T02:32:55.669230",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963922",
+    "pregunta": "Will S&P 500 (SPY) hit (LOW) $765 Week of September 28 2026?",
+    "ts": "2026-09-28T02:32:56.903356",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4947311",
+    "pregunta": "S&P 500 (SPY) closes above $765 on September 28?",
+    "ts": "2026-09-28T02:32:58.166886",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963925",
+    "pregunta": "Will S&P 500 (SPY) hit (LOW) $750 Week of September 28 2026?",
+    "ts": "2026-09-28T02:32:59.397305",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963968",
+    "pregunta": "Will Gold (XAUUSD) hit (LOW) $4,000 Week of September 28 2026?",
+    "ts": "2026-09-28T02:33:00.676874",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963966",
+    "pregunta": "Will Gold (XAUUSD) hit (LOW) $4,100 Week of September 28 2026?",
+    "ts": "2026-09-28T02:33:01.906407",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4947322",
+    "pregunta": "WTI Crude Oil (WTI) closes above $95 on September 28?",
+    "ts": "2026-09-28T02:33:03.143858",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70f8bb3b044e8f1391624cbdb98067ceac3e7fb5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055307",
+    "pregunta": "Counter-Strike: Bushido Wildcats vs Leo Team (BO3) - European Pro League Series 9 Playoffs",
+    "ts": "2026-09-28T02:33:05.208273",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa9cb936a04e77cf4b83af3288bcc66e1462fb5fd",
     "whale_signal": "COMPRAR NO"
   }
 ]
