@@ -1,10 +1,42 @@
 [
   {
-    "id": "5023444",
-    "pregunta": "Jingshan: Mei Yamaguchi vs Wushuang Zheng",
-    "ts": "2026-09-27T21:04:39.131646",
+    "id": "4585703",
+    "pregunta": "Trinidad and Tobago vs. Dominican Republic: O/U 4.5",
+    "ts": "2026-09-27T21:12:32.634745",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x23b4b60ecfbc14fce086ad7410c5297d5ae048da",
+    "whale_wallet": "0xea54aa79516cbdbb5f758bccd0da69edbba4524a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5041228",
+    "pregunta": "Japan Open Tennis Championships, Qualification: Rinky Hijikata vs Camilo Ugo Carabelli",
+    "ts": "2026-09-27T21:12:33.704522",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xea54aa79516cbdbb5f758bccd0da69edbba4524a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4559771",
+    "pregunta": "Will Club Necaxa vs. CF Am\u00e9rica end in a draw?",
+    "ts": "2026-09-27T21:12:34.780207",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xea54aa79516cbdbb5f758bccd0da69edbba4524a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4559773",
+    "pregunta": "Will CF Am\u00e9rica win on 2026-09-27?",
+    "ts": "2026-09-27T21:12:36.845062",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4581768",
+    "pregunta": "Will France win on 2026-09-28?",
+    "ts": "2026-09-27T21:12:37.950665",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
