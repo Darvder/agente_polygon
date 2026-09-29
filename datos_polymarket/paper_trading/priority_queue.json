@@ -1,18 +1,58 @@
 [
   {
-    "id": "4610611",
-    "pregunta": "Moldova vs. Faroe Islands: O/U 1.5",
-    "ts": "2026-09-29T08:23:14.058963",
+    "id": "5009005",
+    "pregunta": "Will Arsenal FC win on 2026-10-10?",
+    "ts": "2026-09-29T08:33:27.833010",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xb0f5337a103928c2a1fbda8ede0bffb23bb5af21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1235568",
-    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
-    "ts": "2026-09-29T08:23:15.817273",
+    "id": "5009117",
+    "pregunta": "Will Manchester United FC win on 2026-10-10?",
+    "ts": "2026-09-29T08:33:29.049148",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0xb0f5337a103928c2a1fbda8ede0bffb23bb5af21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5012348",
+    "pregunta": "Will the highest temperature in Paris be 28\u00b0C on September 29?",
+    "ts": "2026-09-29T08:33:34.872731",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac24262b234297403bbc09fc559cdf8f03ff576e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5012488",
+    "pregunta": "Will the highest temperature in Madrid be 27\u00b0C on September 29?",
+    "ts": "2026-09-29T08:33:35.970735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac24262b234297403bbc09fc559cdf8f03ff576e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5012335",
+    "pregunta": "Will the highest temperature in London be 23\u00b0C on September 29?",
+    "ts": "2026-09-29T08:33:37.053007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac24262b234297403bbc09fc559cdf8f03ff576e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5012337",
+    "pregunta": "Will the highest temperature in London be 25\u00b0C on September 29?",
+    "ts": "2026-09-29T08:33:38.158878",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac24262b234297403bbc09fc559cdf8f03ff576e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029174",
+    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 29?",
+    "ts": "2026-09-29T08:33:39.377898",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac24262b234297403bbc09fc559cdf8f03ff576e",
     "whale_signal": "COMPRAR NO"
   }
 ]
