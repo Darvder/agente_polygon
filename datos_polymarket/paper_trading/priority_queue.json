@@ -1,42 +1,42 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-09-29T09:43:41.034640",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2771492",
-    "pregunta": "Will Barcelona win the 2026-27 LALIGA Championship?",
-    "ts": "2026-09-29T09:43:42.110172",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1235568",
-    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
-    "ts": "2026-09-29T09:43:43.832709",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5082746",
-    "pregunta": "Will Microsoft Corporation (MSFT) hit (LOW) $502.50 Week of September 28 2026?",
-    "ts": "2026-09-29T09:43:48.049732",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4949306",
     "pregunta": "Valorant: Karmine Corp vs NRG (BO3) - VCT Champions Group D",
-    "ts": "2026-09-29T09:43:49.771085",
+    "ts": "2026-09-29T10:02:42.580131",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5013945",
+    "pregunta": "Curitiba: Miguel Tobon vs Juan Bautista Torres",
+    "ts": "2026-09-29T10:02:43.683153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5108458",
+    "pregunta": "Burundi vs. Algeria: O/U 4.5",
+    "ts": "2026-09-29T10:02:44.874537",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5060283",
+    "pregunta": "Counter-Strike: MASONIC vs ENJOY (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-09-29T10:02:45.974663",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904730",
+    "pregunta": "Dota 2: 1win vs Natus Vincere - Game 2 Winner",
+    "ts": "2026-09-29T10:02:47.078567",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
     "whale_signal": "COMPRAR NO"
   }
 ]
