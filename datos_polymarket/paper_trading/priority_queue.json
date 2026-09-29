@@ -1,34 +1,218 @@
 [
   {
-    "id": "5063980",
-    "pregunta": "Will the highest temperature in Munich be 24\u00b0C on September 30?",
-    "ts": "2026-09-28T23:13:07.111251",
+    "id": "5023466",
+    "pregunta": "Jingshan: Kristiana Sidorova vs Daria Egorova",
+    "ts": "2026-09-28T23:23:30.014475",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5bc9a1d1ca6ed6d5d6a831a184b58a8e2078b2ee",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023468",
+    "pregunta": "Jingshan: Viktoria Morvayova vs Sara Sorribes Tormo",
+    "ts": "2026-09-28T23:23:31.091382",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070109",
+    "pregunta": "China Open, Qualification: Andrea Lazaro Garcia vs Linda Fruhvirtova",
+    "ts": "2026-09-28T23:23:32.160542",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5082393",
+    "pregunta": "China Open, Qualification: Aliaksandra Sasnovich vs Varvara Lepchenko",
+    "ts": "2026-09-28T23:23:33.290445",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5082399",
+    "pregunta": "China Open, Qualification: Maddison Inglis vs Darya Astakhova",
+    "ts": "2026-09-28T23:23:34.364807",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070115",
+    "pregunta": "China Open, Qualification: Ksenia Zaytseva vs Storm Hunter",
+    "ts": "2026-09-28T23:23:35.444958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023472",
+    "pregunta": "Jingshan: Alevtina Ibragimova vs Daria Khomutsianskaya",
+    "ts": "2026-09-28T23:23:36.531019",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5082395",
+    "pregunta": "China Open, Qualification: Jodie Burrage vs Mai Hontama",
+    "ts": "2026-09-28T23:23:37.611320",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5082397",
+    "pregunta": "China Open, Qualification: Robin Montgomery vs Anna-Lena Friedsam",
+    "ts": "2026-09-28T23:23:38.685808",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023458",
+    "pregunta": "Jingshan: Amelia Rajecki vs Yuhan Wang",
+    "ts": "2026-09-28T23:23:39.965012",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023460",
+    "pregunta": "Jingshan: Katarina Zavatska vs Sofya Lansere",
+    "ts": "2026-09-28T23:23:41.030709",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023456",
+    "pregunta": "Jingshan: Jessica Bouzas Maneiro vs Fangran Tian",
+    "ts": "2026-09-28T23:23:42.103361",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055805",
+    "pregunta": "Adana: Anastasia Tikhonova vs Simona Waltert",
+    "ts": "2026-09-28T23:23:43.180203",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5037407",
+    "pregunta": "Adana: Elena Pridankina vs Ayla Aksu",
+    "ts": "2026-09-28T23:23:44.270624",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055807",
+    "pregunta": "Adana: Lucia Bronzetti vs Lois Boisson",
+    "ts": "2026-09-28T23:23:45.413228",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5037400",
+    "pregunta": "Adana: Lola Radivojevic vs Melisa Ercan",
+    "ts": "2026-09-28T23:23:46.549017",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070111",
+    "pregunta": "Adana: Polina Iatcenko vs Erika Andreeva",
+    "ts": "2026-09-28T23:23:47.689040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5037324",
+    "pregunta": "Adana: Ksenia Efremova vs Martyna Kubka",
+    "ts": "2026-09-28T23:23:48.755204",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5037405",
+    "pregunta": "Adana: Carole Monnet vs Cagla Buyukakcay",
+    "ts": "2026-09-28T23:23:49.963117",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5037359",
+    "pregunta": "Adana: Teodora Kostovic vs Berfu Cengiz",
+    "ts": "2026-09-28T23:23:51.033646",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5017639",
+    "pregunta": "Will the highest temperature in Chicago be between 74-75\u00b0F on September 29?",
+    "ts": "2026-09-28T23:23:53.268899",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf41d5c9b14254f98a1da48fcf1e8370f6efbbe3f",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5017641",
     "pregunta": "Will the highest temperature in Chicago be between 78-79\u00b0F on September 29?",
-    "ts": "2026-09-28T23:13:14.153974",
+    "ts": "2026-09-28T23:23:54.349941",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_wallet": "0xf41d5c9b14254f98a1da48fcf1e8370f6efbbe3f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5067341",
-    "pregunta": "Will the lowest temperature in New York City be between 62-63\u00b0F on September 30?",
-    "ts": "2026-09-28T23:13:15.244359",
+    "id": "5071528",
+    "pregunta": "China Open, Qualification: Marco Trungelliti vs Alex Molcan",
+    "ts": "2026-09-28T23:23:56.440459",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_wallet": "0x7ecfbf6ba50d89d144b4683447e72704e2bad143",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5027073",
-    "pregunta": "Will the highest temperature in Los Angeles be between 82-83\u00b0F on September 29?",
-    "ts": "2026-09-28T23:13:17.613189",
+    "id": "5070107",
+    "pregunta": "China Open, Qualification: Katarzyna Kawa vs Valeria Savinykh",
+    "ts": "2026-09-28T23:23:57.516221",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
+    "whale_wallet": "0x7ecfbf6ba50d89d144b4683447e72704e2bad143",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070101",
+    "pregunta": "China Open, Qualification: Harriet Dart vs Yexin Ma",
+    "ts": "2026-09-28T23:23:58.594344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ecfbf6ba50d89d144b4683447e72704e2bad143",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023464",
+    "pregunta": "Jingshan: Tyra Caterina Grant vs Aliona Falei",
+    "ts": "2026-09-28T23:23:59.729357",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ecfbf6ba50d89d144b4683447e72704e2bad143",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071585",
+    "pregunta": "Jingshan: Omar Jasika vs Hiroki Moriya",
+    "ts": "2026-09-28T23:24:00.807358",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ecfbf6ba50d89d144b4683447e72704e2bad143",
     "whale_signal": "COMPRAR NO"
   }
 ]
