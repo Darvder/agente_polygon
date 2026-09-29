@@ -1,26 +1,74 @@
 [
   {
-    "id": "4610315",
-    "pregunta": "Scotland vs. Switzerland: O/U 2.5",
-    "ts": "2026-09-28T23:44:38.858883",
+    "id": "4609859",
+    "pregunta": "Will England win on 2026-09-29?",
+    "ts": "2026-09-28T23:53:23.674655",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6bcdd71b5fe4762435635caf14dac7b5ecc9c7",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073753",
-    "pregunta": "Game Handicap: Na`Vi (-1.5) vs 1win (+1.5)",
-    "ts": "2026-09-28T23:44:40.078484",
+    "id": "4609862",
+    "pregunta": "Will Switzerland win on 2026-09-29?",
+    "ts": "2026-09-28T23:53:24.801371",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6bcdd71b5fe4762435635caf14dac7b5ecc9c7",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610352",
-    "pregunta": "Czechia vs. England: Both Teams to Score",
-    "ts": "2026-09-28T23:44:41.142475",
+    "id": "4584874",
+    "pregunta": "Will Brazil win on 2026-09-29?",
+    "ts": "2026-09-28T23:53:25.839973",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6bcdd71b5fe4762435635caf14dac7b5ecc9c7",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4817984",
+    "pregunta": "Ohio State vs. Iowa",
+    "ts": "2026-09-28T23:53:26.963064",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029258",
+    "pregunta": "Chicago Cubs vs. San Diego Padres",
+    "ts": "2026-09-28T23:53:28.002225",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-28T23:53:29.057213",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4595015",
+    "pregunta": "Australia vs. Brazil: O/U 1.5",
+    "ts": "2026-09-28T23:53:30.104362",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609854",
+    "pregunta": "Will Spain win on 2026-09-29?",
+    "ts": "2026-09-28T23:53:31.174285",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4595007",
+    "pregunta": "Spread: Brazil (-1.5)",
+    "ts": "2026-09-28T23:53:32.294984",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
