@@ -1,10 +1,34 @@
 [
   {
-    "id": "5029176",
-    "pregunta": "Will the highest temperature in Sao Paulo be 33\u00b0C on September 29?",
-    "ts": "2026-09-28T22:04:01.717841",
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-28T22:13:38.689393",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2298c203d9921555a008d85770d7710871989f33",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029258",
+    "pregunta": "Chicago Cubs vs. San Diego Padres",
+    "ts": "2026-09-28T22:13:39.789700",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-09-28T22:13:40.906043",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-09-28T22:13:42.004661",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
