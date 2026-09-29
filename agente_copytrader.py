@@ -148,11 +148,11 @@ def obtener_o_iniciar_micro(estado):
             "capital_inicial": 70.0,
             "capital_actual": 70.0,
             "capital_en_riesgo": 0.0,
-            "max_positions": 10,
-            "max_positions_per_wallet": 2,
+            "max_positions": 18,
+            "max_positions_per_wallet": 3,
             "min_capital_per_trade": 3.0,
-            "max_capital_per_trade": 5.0,
-            "risk_pct_per_trade": 0.055,  # ~5.5% (~$3.85 base)
+            "max_capital_per_trade": 4.0,
+            "risk_pct_per_trade": 0.050,  # ~5.0% ($3.50 base)
             "take_profit_pct": 0.35,
             "stop_loss_pct": -0.35,
             "n_tp": 0,
@@ -164,11 +164,12 @@ def obtener_o_iniciar_micro(estado):
     micro.setdefault("capital_inicial", 70.0)
     micro.setdefault("capital_actual", 70.0)
     micro.setdefault("capital_en_riesgo", 0.0)
-    micro.setdefault("max_positions", 10)
-    micro.setdefault("max_positions_per_wallet", 2)
-    micro.setdefault("min_capital_per_trade", 3.0)
-    micro.setdefault("max_capital_per_trade", 5.0)
-    micro.setdefault("risk_pct_per_trade", 0.055)
+    # Parámetros actualizados para cartera de 18 posiciones concurrentes
+    micro["max_positions"] = 18
+    micro["max_positions_per_wallet"] = 3
+    micro["min_capital_per_trade"] = 3.0
+    micro["max_capital_per_trade"] = 4.0
+    micro["risk_pct_per_trade"] = 0.050
     micro.setdefault("take_profit_pct", 0.35)
     micro.setdefault("stop_loss_pct", -0.35)
     micro.setdefault("n_tp", 0)
@@ -180,7 +181,7 @@ def obtener_o_iniciar_micro(estado):
 def calcular_tamano_posicion_micro(micro, precio_token, slippage, max_slippage, trade_whale):
     """
     Calcula el tamaño de posición óptimo dinámico para el Agente Micro ($70).
-    Ajustado entre 3.00 y 5.00 USDC (base ~$4.00), aplicando los mismos factores
+    Ajustado entre 3.00 y 4.00 USDC (base ~$3.50), aplicando los mismos factores
     cuantitativos de asimetría de pago, fricción de slippage y convicción de ballena.
     """
     capital_actual = float(micro.get("capital_actual", 70.0))
@@ -188,10 +189,10 @@ def calcular_tamano_posicion_micro(micro, precio_token, slippage, max_slippage, 
     equity_total = max(30.0, capital_actual + capital_riesgo)
 
     min_cap = float(micro.get("min_capital_per_trade", 3.0))
-    max_cap = float(micro.get("max_capital_per_trade", 5.0))
-    risk_pct = float(micro.get("risk_pct_per_trade", 0.055))
+    max_cap = float(micro.get("max_capital_per_trade", 4.0))
+    risk_pct = float(micro.get("risk_pct_per_trade", 0.050))
 
-    # 1. Base proporcional
+    # 1. Base proporcional (~$3.50 sobre $70)
     tamano_base = equity_total * risk_pct
 
     # 2. Factor de asimetría retorno/riesgo
@@ -465,6 +466,7 @@ async def procesar_copy_trading():
 
     # 2. Procesar transacciones recientes de cada billetera objetivo
     nuevas_posiciones = []
+    nuevas_posiciones_micro = []
     market_cache = {}
     wallet_positions_cache = {}
     now_ts = time.time()
@@ -637,11 +639,11 @@ async def procesar_copy_trading():
                                 log.warning(f"❌ [MACRO $1000] Saldo insuficiente (${estado['capital_actual']:.2f} < ${monto_op:.2f}) para abrir posición.")
 
                 # ── EVALUACIÓN APERTURA 2: CARTERA ESPEJO MICRO ($70) ──
-                n_abiertas_micro = len(micro["posiciones_abiertas"])
+                n_abiertas_micro = len(micro["posiciones_abiertas"]) + len(nuevas_posiciones_micro)
                 if n_abiertas_micro < max_posiciones_micro:
-                    n_wallet_micro = sum(1 for p in micro["posiciones_abiertas"] if p.get("target_wallet") == wallet)
+                    n_wallet_micro = sum(1 for p in micro["posiciones_abiertas"] if p.get("target_wallet") == wallet) + sum(1 for p in nuevas_posiciones_micro if p.get("target_wallet") == wallet)
                     if n_wallet_micro < max_pos_wallet_micro:
-                        ya_abierta_micro = any(p.get("token_id") == asset_id for p in micro["posiciones_abiertas"])
+                        ya_abierta_micro = any(p.get("token_id") == asset_id for p in micro["posiciones_abiertas"]) or any(p.get("token_id") == asset_id for p in nuevas_posiciones_micro)
                         if not ya_abierta_micro:
                             monto_micro = calcular_tamano_posicion_micro(
                                 micro=micro,
@@ -652,7 +654,7 @@ async def procesar_copy_trading():
                             )
                             min_req_micro = float(micro.get("min_capital_per_trade", 3.0))
                             if monto_micro >= min_req_micro and micro["capital_actual"] >= monto_micro:
-                                log.info(f"💎 [MICRO $70] COPIANDO COMPRA: {pregunta[:35]} | Outcome: {outcome_trader} | Precio: {precio_token_actual:.3f} | Monto: ${monto_micro:.2f} | Cupo: {len(micro['posiciones_abiertas'])+1}/{max_posiciones_micro}")
+                                log.info(f"💎 [MICRO $70] COPIANDO COMPRA: {pregunta[:35]} | Outcome: {outcome_trader} | Precio: {precio_token_actual:.3f} | Monto: ${monto_micro:.2f} | Cupo: {n_abiertas_micro+1}/{max_posiciones_micro}")
                                 nueva_op_micro = {
                                     "fecha_entrada": datetime.now().strftime("%Y-%m-%d"),
                                     "fecha_entrada_dt": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -673,7 +675,7 @@ async def procesar_copy_trading():
                                     "razon_cierre": "",
                                     "tx_hash": tx_hash
                                 }
-                                micro["posiciones_abiertas"].append(nueva_op_micro)
+                                nuevas_posiciones_micro.append(nueva_op_micro)
                                 micro["capital_actual"] = round(micro["capital_actual"] - monto_micro, 2)
                                 micro["capital_en_riesgo"] = round(micro["capital_en_riesgo"] + monto_micro, 2)
                             else:
@@ -696,9 +698,9 @@ async def procesar_copy_trading():
                     except:
                         precio_cierre = target_price
 
-                # 1. Cerrar en Macro ($1,000) si la tiene abierta
+                # 1. Cerrar en Macro ($1,000) si la tiene abierta y pertenece a la MISMA ballena
                 if not df.empty:
-                    posiciones_a_cerrar = df[(df["estado"] == "ABIERTA") & (df["token_id"] == asset_id)]
+                    posiciones_a_cerrar = df[(df["estado"] == "ABIERTA") & (df["token_id"] == asset_id) & (df["target_wallet"] == wallet)]
                     for idx, pos in posiciones_a_cerrar.iterrows():
                         pte = float(pos["precio_token_entrada"])
                         pct = (precio_cierre - pte) / pte if pte > 0 else 0.0
@@ -719,8 +721,8 @@ async def procesar_copy_trading():
 
                         log.info(f"🔒 [MACRO $1000] COPIANDO VENTA: {pos['pregunta'][:40]} | Outcome: {pos['outcome']} | Cierre: {precio_cierre:.3f} (PnL: ${pnl:+.2f})")
 
-                # 2. Cerrar en Micro ($70) si la tiene abierta
-                pos_micro_a_cerrar = [p for p in micro["posiciones_abiertas"] if p.get("token_id") == asset_id]
+                # 2. Cerrar en Micro ($70) si la tiene abierta y pertenece a la MISMA ballena
+                pos_micro_a_cerrar = [p for p in micro["posiciones_abiertas"] if p.get("token_id") == asset_id and p.get("target_wallet") == wallet]
                 for pm in pos_micro_a_cerrar:
                     pte_m = float(pm["precio_token_entrada"])
                     pct_m = (precio_cierre - pte_m) / pte_m if pte_m > 0 else 0.0
@@ -743,14 +745,16 @@ async def procesar_copy_trading():
                     log.info(f"💎 [MICRO $70] TARGET_SELL: {pm['pregunta'][:35]} | Outcome: {pm['outcome']} | Cierre: {precio_cierre:.3f} (PnL: ${pnl_m:+.2f})")
 
                 if pos_micro_a_cerrar:
-                    micro["posiciones_abiertas"] = [p for p in micro["posiciones_abiertas"] if p.get("token_id") != asset_id]
+                    micro["posiciones_abiertas"] = [p for p in micro["posiciones_abiertas"] if not (p.get("token_id") == asset_id and p.get("target_wallet") == wallet)]
 
                 cache.add(tx_hash)
 
-    # 3. Guardar las nuevas posiciones abiertas
+    # 3. Guardar las nuevas posiciones abiertas (Macro y Micro)
     if nuevas_posiciones:
         df_n = pd.DataFrame(nuevas_posiciones)
         df = pd.concat([df, df_n], ignore_index=True) if not df.empty else df_n
+    if nuevas_posiciones_micro:
+        micro["posiciones_abiertas"].extend(nuevas_posiciones_micro)
         
     # 4. Actualizar precios de posiciones abiertas y sincronización Failsafe
     if not df.empty:

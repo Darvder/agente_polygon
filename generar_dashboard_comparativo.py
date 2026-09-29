@@ -853,7 +853,7 @@ def generar_dashboard():
     micro_cap_ini = float(simulacion_micro.get("capital_inicial", 70.0))
     micro_cap_act = float(simulacion_micro.get("capital_actual", 70.0))
     micro_cap_riesgo = float(simulacion_micro.get("capital_en_riesgo", 0.0))
-    micro_max_pos = int(simulacion_micro.get("max_positions", 10))
+    micro_max_pos = int(simulacion_micro.get("max_positions", 18))
     micro_pos_abiertas = simulacion_micro.get("posiciones_abiertas", [])
     micro_hist_cerradas = simulacion_micro.get("historial_cerradas", [])
 
@@ -2723,7 +2723,7 @@ tr:hover td {
               <td style="text-align:left; font-weight:600;">Operaciones Cerradas</td>
               <td style="font-weight:600;">__TOTAL_CERRADAS_MACRO_SYNC__ ops</td>
               <td style="color:#38bdf8; font-weight:600;">__TOTAL_CERRADAS_MICRO_SYNC__ ops</td>
-              <td>Micro filtró por cupo de 10</td>
+              <td>Micro filtró por cupo de __MAX_POSICIONES_MICRO__</td>
             </tr>
             <tr>
               <td style="text-align:left; font-weight:600;">Win Rate en el Periodo</td>
@@ -2752,7 +2752,7 @@ tr:hover td {
             <tr>
               <td style="text-align:left; font-weight:600;">Posiciones Abiertas en Vivo</td>
               <td>__ACTIVE_COUNT_COPY__ / 35 max</td>
-              <td style="color:#38bdf8; font-weight:600;">__ACTIVE_COUNT_MICRO__ / 10 max</td>
+              <td style="color:#38bdf8; font-weight:600;">__ACTIVE_COUNT_MICRO__ / __MAX_POSICIONES_MICRO__ max</td>
               <td>Ocupación de cupo actual</td>
             </tr>
             <tr>
@@ -2776,13 +2776,13 @@ tr:hover td {
             <tr>
               <td style="text-align:left; font-weight:600;">Rango de Inversión / Trade</td>
               <td>$8.00 - $25.00 USDC</td>
-              <td style="color:#38bdf8; font-weight:600;">$3.00 - $5.00 USDC (base $4.00)</td>
+              <td style="color:#38bdf8; font-weight:600;">$3.00 - $4.00 USDC (base $3.50)</td>
               <td>Kelly / Payout escalado</td>
             </tr>
             <tr>
               <td style="text-align:left; font-weight:600;">Límite por Ballena</td>
               <td>Máximo 5 posiciones</td>
-              <td style="color:#38bdf8; font-weight:600;">Máximo 2 posiciones</td>
+              <td style="color:#38bdf8; font-weight:600;">Máximo 3 posiciones</td>
               <td>Diversificación estricta</td>
             </tr>
           </tbody>
@@ -2804,7 +2804,7 @@ tr:hover td {
         <div class="card-m" style="--accent: #818cf8; --accent-hover: #a5b4fc; --accent-glow: rgba(129, 140, 248, 0.2)">
           <h4>En Riesgo Micro</h4>
           <div class="val" style="color:#818cf8;">__CAPITAL_EN_RIESGO_MICRO__</div>
-          <div class="sub">En __ACTIVE_COUNT_MICRO__/10 posiciones</div>
+          <div class="sub">En __ACTIVE_COUNT_MICRO__/__MAX_POSICIONES_MICRO__ posiciones</div>
         </div>
         <div class="card-m" style="--accent: #10b981; --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.25)">
           <h4>P&L Realizado Micro</h4>
@@ -2825,7 +2825,7 @@ tr:hover td {
 
       <!-- Posiciones Abiertas Micro -->
       <h4 style="margin-bottom:0.75rem; color:#38bdf8; display:flex; align-items:center; gap:0.5rem; font-size:1rem;">
-        <span>🎯</span> Posiciones Abiertas Micro ($70) — (__ACTIVE_COUNT_MICRO__/10 ocupadas)
+        <span>🎯</span> Posiciones Abiertas Micro ($70) — (__ACTIVE_COUNT_MICRO__/__MAX_POSICIONES_MICRO__ ocupadas)
       </h4>
       <div class="abiertas-wrapper" style="margin-bottom:1.5rem;">
         __OPS_ABIERTAS_MICRO_HTML__
@@ -3816,6 +3816,7 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
     html_content = html_content.replace("__NET_EQUITY_MICRO_VAL__", f"${micro_equity:,.2f}")
     html_content = html_content.replace("__CAPITAL_EN_RIESGO_MICRO__", f"${micro_cap_riesgo:,.2f}")
     html_content = html_content.replace("__ACTIVE_COUNT_MICRO__", str(micro_n_abiertas))
+    html_content = html_content.replace("__MAX_POSICIONES_MICRO__", str(micro_max_pos))
     html_content = html_content.replace("__PNL_REALIZADO_MICRO__", f"{'+' if micro_pnl_realizado>=0 else ''}${micro_pnl_realizado:,.2f}")
     html_content = html_content.replace("__PNL_CLASE_MICRO__", micro_pnl_clase)
     html_content = html_content.replace("__EQUITY_CLASE_MICRO__", micro_equity_clase)
