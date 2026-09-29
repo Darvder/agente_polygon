@@ -1,26 +1,18 @@
 [
   {
-    "id": "4838703",
-    "pregunta": "Saitama Seibu Lions vs. Orix Buffaloes",
-    "ts": "2026-09-28T19:33:41.169483",
+    "id": "5057544",
+    "pregunta": "Curitiba: Ryan Dickerson vs Jose Pereira",
+    "ts": "2026-09-28T19:44:44.993157",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4589735",
-    "pregunta": "Will Honduras win on 2026-09-28?",
-    "ts": "2026-09-28T19:33:43.630463",
+    "id": "3695205",
+    "pregunta": "Eagles vs. Bears",
+    "ts": "2026-09-28T19:44:46.066940",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4589731",
-    "pregunta": "Will Jamaica win on 2026-09-28?",
-    "ts": "2026-09-28T19:33:44.690441",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
