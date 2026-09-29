@@ -1,34 +1,18 @@
 [
   {
+    "id": "4858714",
+    "pregunta": "Eagles vs. Bears: O/U 38.5",
+    "ts": "2026-09-28T21:42:26.977405",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfc52936b4c8a990c37611b1174b9b5756af1d693",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "3695205",
     "pregunta": "Eagles vs. Bears",
-    "ts": "2026-09-28T21:33:21.456768",
+    "ts": "2026-09-28T21:42:28.011583",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3a72cd78a3aee51c2d31c3dc2a733103f189fc7a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4858704",
-    "pregunta": "Eagles vs. Bears: O/U 34.5",
-    "ts": "2026-09-28T21:33:22.503611",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3a72cd78a3aee51c2d31c3dc2a733103f189fc7a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919667",
-    "pregunta": "Eagles vs. Bears: O/U 41.5",
-    "ts": "2026-09-28T21:33:23.543618",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3a72cd78a3aee51c2d31c3dc2a733103f189fc7a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071618",
-    "pregunta": "Will it rain in Denver, CO on September 29?",
-    "ts": "2026-09-28T21:33:30.243550",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe1f30809d70c3adc120f8bae9187f306b118cf1c",
+    "whale_wallet": "0xfc52936b4c8a990c37611b1174b9b5756af1d693",
     "whale_signal": "COMPRAR NO"
   }
 ]
