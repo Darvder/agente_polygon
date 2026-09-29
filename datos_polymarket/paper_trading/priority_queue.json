@@ -1,74 +1,26 @@
 [
   {
-    "id": "5025013",
-    "pregunta": "Bari: Geoffrey Blancaneaux vs Dimitar Kuzmanov",
-    "ts": "2026-09-29T03:32:48.759390",
+    "id": "5074503",
+    "pregunta": "M15 Sharm ElSheikh: Niklas Waldner vs Yahor Slizevich",
+    "ts": "2026-09-29T03:42:24.291725",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc07d5961e7a361992983c1a3a865d00dc28cb1df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4610005",
+    "pregunta": "Exact Score: San Marino 0 - 3 Albania?",
+    "ts": "2026-09-29T03:42:27.450530",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610456",
-    "pregunta": "San Marino vs. Albania: San Marino O/U 0.5",
-    "ts": "2026-09-29T03:32:49.840939",
+    "id": "4610444",
+    "pregunta": "Spread: Albania (-2.5)",
+    "ts": "2026-09-29T03:42:28.521663",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4610451",
-    "pregunta": "San Marino vs. Albania: Both Teams to Score",
-    "ts": "2026-09-29T03:32:50.919042",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5082395",
-    "pregunta": "China Open, Qualification: Jodie Burrage vs Mai Hontama",
-    "ts": "2026-09-29T03:32:51.985810",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5082399",
-    "pregunta": "China Open, Qualification: Maddison Inglis vs Darya Astakhova",
-    "ts": "2026-09-29T03:32:53.941957",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5023472",
-    "pregunta": "Jingshan: Alevtina Ibragimova vs Daria Khomutsianskaya",
-    "ts": "2026-09-29T03:32:55.880620",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071530",
-    "pregunta": "Japan Open Tennis Championships, Qualification: Adolfo Vallejo vs Jaime Faria",
-    "ts": "2026-09-29T03:32:56.964449",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5083447",
-    "pregunta": "Bari: Olle Wallin vs Matthew William Donald",
-    "ts": "2026-09-29T03:32:58.052882",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5025007",
-    "pregunta": "Bari: Gianluca Cadenasso vs Benito Sanchez Martinez",
-    "ts": "2026-09-29T03:32:59.117565",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   }
 ]
