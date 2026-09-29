@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "4769494",
+    "pregunta": "Trump renames AI by September 30?",
+    "ts": "2026-09-29T11:03:33.061055",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128a26ad86e95f1393d103093177211ddfe387b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5062271",
+    "pregunta": "Will Bitcoin reach $86,000 September 28-October 4?",
+    "ts": "2026-09-29T11:03:35.293810",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128a26ad86e95f1393d103093177211ddfe387b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904711",
+    "pregunta": "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - BLAST Slam Group A",
+    "ts": "2026-09-29T11:03:38.460912",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4cd4d6fe596f360137e5a0441fecc4e1ec9c041",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4882612",
+    "pregunta": "ELH: T\u0159inec vs. HC Kladno",
+    "ts": "2026-09-29T11:03:41.871121",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b56a6045b003385ae9f972f851d0ccfd53ef510",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4882625",
+    "pregunta": "ELH: Mountfield HK vs. Sparta Prague",
+    "ts": "2026-09-29T11:03:43.136509",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b56a6045b003385ae9f972f851d0ccfd53ef510",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4881732",
+    "pregunta": "BC Dubai vs. Barcelona",
+    "ts": "2026-09-29T11:03:44.207719",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b56a6045b003385ae9f972f851d0ccfd53ef510",
+    "whale_signal": "COMPRAR NO"
+  }
+]
