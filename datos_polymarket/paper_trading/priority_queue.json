@@ -1,34 +1,58 @@
 [
   {
-    "id": "5060777",
-    "pregunta": "Counter-Strike: Gr\u00eamio Esports vs Procyon Gaming (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-29T15:04:22.039311",
+    "id": "4610382",
+    "pregunta": "Spain vs. Croatia: O/U 3.5",
+    "ts": "2026-09-29T15:13:30.743081",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_wallet": "0x7645fb4b27f4924cb4c5f27baca2b81e84cdd029",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094450",
-    "pregunta": "LoL: Team Heretics Academy vs Karmine Corp Blue (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T15:04:25.306449",
+    "id": "4610513",
+    "pregunta": "Slovakia vs. Kazakhstan: O/U 2.5",
+    "ts": "2026-09-29T15:13:32.308286",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4904751",
-    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers (BO3) - BLAST Slam Group D",
-    "ts": "2026-09-29T15:04:29.792306",
+    "id": "4610375",
+    "pregunta": "Spread: Spain (-1.5)",
+    "ts": "2026-09-29T15:13:33.343308",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073567",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
-    "ts": "2026-09-29T15:04:30.839622",
+    "id": "4610348",
+    "pregunta": "Czechia vs. England: O/U 2.5",
+    "ts": "2026-09-29T15:13:34.383676",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4610315",
+    "pregunta": "Scotland vs. Switzerland: O/U 2.5",
+    "ts": "2026-09-29T15:13:35.442335",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609840",
+    "pregunta": "Will Slovakia win on 2026-09-29?",
+    "ts": "2026-09-29T15:13:36.483646",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4610377",
+    "pregunta": "Spread: Spain (-2.5)",
+    "ts": "2026-09-29T15:13:37.523747",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
