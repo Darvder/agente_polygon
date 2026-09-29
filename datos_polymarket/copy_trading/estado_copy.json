@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1595.8,
-  "capital_en_riesgo": 402.3,
-  "n_ciclos": 38578,
-  "ultima_corrida": "2026-09-28 20:33",
-  "n_tp": 517,
+  "capital_actual": 1615.21,
+  "capital_en_riesgo": 396.89,
+  "n_ciclos": 38579,
+  "ultima_corrida": "2026-09-28 20:43",
+  "n_tp": 518,
   "n_sl": 331,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 32.78,
-    "capital_en_riesgo": 31.94,
+    "capital_actual": 39.18,
+    "capital_en_riesgo": 27.84,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.055,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 43,
+    "n_tp": 44,
     "n_sl": 27,
     "posiciones_abiertas": [
       {
@@ -191,7 +191,7 @@
         "pregunta": "Will the price of Ethereum be above $2,700 on September 29?",
         "outcome": "No",
         "precio_token_entrada": 0.69,
-        "precio_actual": 0.795,
+        "precio_actual": 0.81,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -200,26 +200,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x241db96c3a09526e97fb94ed1c38644edcfde78ba04fd7757db7f20c93dd0d74"
-      },
-      {
-        "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 20:23",
-        "target_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
-        "market_id": "3695205",
-        "condition_id": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575",
-        "token_id": "29652429512130463118665284075870201747739909237084592893331546208800561253258",
-        "pregunta": "Eagles vs. Bears",
-        "outcome": "Eagles",
-        "precio_token_entrada": 0.375,
-        "precio_actual": 0.435,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.1,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xa84c5acff3672766ab178a85635e492910649649def882b140217eae8be35f6c"
       }
     ],
     "historial_cerradas": [
@@ -1622,6 +1602,26 @@
         "pnl_realizado": 1.63,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0xd6f4b324b2ebc2ab5844ac7021ea35006f991ac414a084714336927d437e4479"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 20:23",
+        "target_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+        "market_id": "3695205",
+        "condition_id": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575",
+        "token_id": "29652429512130463118665284075870201747739909237084592893331546208800561253258",
+        "pregunta": "Eagles vs. Bears",
+        "outcome": "Eagles",
+        "precio_token_entrada": 0.375,
+        "precio_actual": 0.585,
+        "precio_cierre": 0.585,
+        "pct_cambio": 0.56,
+        "monto_usdc": 4.1,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 20:43",
+        "pnl_realizado": 2.3,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0xa84c5acff3672766ab178a85635e492910649649def882b140217eae8be35f6c"
       }
     ]
   }
