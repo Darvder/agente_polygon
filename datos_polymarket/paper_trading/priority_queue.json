@@ -1,42 +1,26 @@
 [
   {
-    "id": "2589813",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-    "ts": "2026-09-29T15:33:55.662883",
+    "id": "5073569",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 6.5",
+    "ts": "2026-09-29T15:43:31.009351",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "whale_wallet": "0xa4b13fdbe5e7acdf08d9551b23fd060dab97d0a7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073567",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
-    "ts": "2026-09-29T15:33:57.729199",
+    "id": "5073568",
+    "pregunta": "Spread: Atlanta Braves (-1.5)",
+    "ts": "2026-09-29T15:43:32.091590",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
+    "whale_wallet": "0xa4b13fdbe5e7acdf08d9551b23fd060dab97d0a7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5113483",
-    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne (BO3) - ESL Challenger League North America Cup #2 Playoffs",
-    "ts": "2026-09-29T15:34:03.100678",
+    "id": "4610316",
+    "pregunta": "Scotland vs. Switzerland: O/U 3.5",
+    "ts": "2026-09-29T15:43:33.947416",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5108197",
-    "pregunta": "W100 Templeton, CA: Ekaterina Maklakova vs Carolina Kuhl",
-    "ts": "2026-09-29T15:34:04.162196",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5069343",
-    "pregunta": "Games Total: O/U 3.5",
-    "ts": "2026-09-29T15:34:05.205812",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   }
 ]
