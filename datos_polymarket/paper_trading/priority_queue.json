@@ -1,26 +1,58 @@
 [
   {
-    "id": "5094419",
-    "pregunta": "LoL: TLN Pirates vs Anubis Gaming (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T13:12:58.183743",
+    "id": "4904750",
+    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers - Game 2 Winner",
+    "ts": "2026-09-29T13:22:40.811804",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x537771a3cfea15fad10b7fb537117ad053bced16",
+    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094404",
-    "pregunta": "LoL: Team Phantasma vs Lodis (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T13:13:04.689929",
+    "id": "5094419",
+    "pregunta": "LoL: TLN Pirates vs Anubis Gaming (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T13:22:47.312429",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe45510390826ee70eab969e713559fb6b0bbb3b",
+    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904770",
+    "pregunta": "Dota 2: Aurora vs GamerLegion - Game 2 Winner",
+    "ts": "2026-09-29T13:22:48.362467",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094417",
+    "pregunta": "LoL: TLN Pirates vs Anubis Gaming - Game 1 Winner",
+    "ts": "2026-09-29T13:22:49.407536",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5095613",
+    "pregunta": "LoL: eSuba vs White Dragons (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T13:22:51.366597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc546071d20d315966fa50bb7469127d32edf058e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5095611",
+    "pregunta": "LoL: eSuba vs White Dragons - Game 1 Winner",
+    "ts": "2026-09-29T13:22:53.292272",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5095589",
     "pregunta": "LoL: Forsaken vs The Secret Club Esport - Game 1 Winner",
-    "ts": "2026-09-29T13:13:05.732792",
+    "ts": "2026-09-29T13:22:54.359214",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe45510390826ee70eab969e713559fb6b0bbb3b",
+    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
     "whale_signal": "COMPRAR NO"
   }
 ]
