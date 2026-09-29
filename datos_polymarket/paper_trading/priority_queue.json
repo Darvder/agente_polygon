@@ -1,10 +1,34 @@
 [
   {
-    "id": "1235572",
-    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
-    "ts": "2026-09-28T23:05:17.599689",
+    "id": "5063980",
+    "pregunta": "Will the highest temperature in Munich be 24\u00b0C on September 30?",
+    "ts": "2026-09-28T23:13:07.111251",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0x5bc9a1d1ca6ed6d5d6a831a184b58a8e2078b2ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5017641",
+    "pregunta": "Will the highest temperature in Chicago be between 78-79\u00b0F on September 29?",
+    "ts": "2026-09-28T23:13:14.153974",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067341",
+    "pregunta": "Will the lowest temperature in New York City be between 62-63\u00b0F on September 30?",
+    "ts": "2026-09-28T23:13:15.244359",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5027073",
+    "pregunta": "Will the highest temperature in Los Angeles be between 82-83\u00b0F on September 29?",
+    "ts": "2026-09-28T23:13:17.613189",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d95f45970e2318f2cda9601a6cc11ec7eb7eca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
