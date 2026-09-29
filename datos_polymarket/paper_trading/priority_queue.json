@@ -1,42 +1,34 @@
 [
   {
+    "id": "4904711",
+    "pregunta": "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - BLAST Slam Group A",
+    "ts": "2026-09-29T10:12:21.868450",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904710",
+    "pregunta": "Dota 2: LGD Gaming vs Xtreme Gaming - Game 2 Winner",
+    "ts": "2026-09-29T10:12:25.642697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4cd4d6fe596f360137e5a0441fecc4e1ec9c041",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4143622",
+    "pregunta": "Spread: Golden Knights (-1.5)",
+    "ts": "2026-09-29T10:12:30.821616",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3241489d890d7a095c0934c325ec6cc5aa6c7b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4949306",
     "pregunta": "Valorant: Karmine Corp vs NRG (BO3) - VCT Champions Group D",
-    "ts": "2026-09-29T10:02:42.580131",
+    "ts": "2026-09-29T10:12:51.895324",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5013945",
-    "pregunta": "Curitiba: Miguel Tobon vs Juan Bautista Torres",
-    "ts": "2026-09-29T10:02:43.683153",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5108458",
-    "pregunta": "Burundi vs. Algeria: O/U 4.5",
-    "ts": "2026-09-29T10:02:44.874537",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5060283",
-    "pregunta": "Counter-Strike: MASONIC vs ENJOY (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-09-29T10:02:45.974663",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4904730",
-    "pregunta": "Dota 2: 1win vs Natus Vincere - Game 2 Winner",
-    "ts": "2026-09-29T10:02:47.078567",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   }
 ]
