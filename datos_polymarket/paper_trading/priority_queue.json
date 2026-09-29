@@ -1,34 +1,90 @@
 [
   {
+    "id": "5106297",
+    "pregunta": "Comoros vs. Namibia: 1st Half O/U 0.5",
+    "ts": "2026-09-29T08:03:27.328764",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5091248",
+    "pregunta": "W15 Monastir: Ophelie Boullay vs Lois Newberry",
+    "ts": "2026-09-29T08:03:28.491214",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4880602",
+    "pregunta": "KBO: KT Wiz vs. Kia Tigers",
+    "ts": "2026-09-29T08:03:29.537824",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5106287",
+    "pregunta": "Comoros vs. Namibia: O/U 1.5",
+    "ts": "2026-09-29T08:03:30.615654",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4904731",
     "pregunta": "Dota 2: 1win vs Natus Vincere (BO3) - BLAST Slam Group B",
-    "ts": "2026-09-29T07:52:21.944516",
+    "ts": "2026-09-29T08:03:31.684177",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4ece0bd472df38c33e75c9d857c9c70fe0656a5a",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5060282",
-    "pregunta": "Counter-Strike: MASONIC vs ENJOY - Map 2 Winner",
-    "ts": "2026-09-29T07:52:22.996017",
+    "id": "4875828",
+    "pregunta": "Will the match end in a draw?",
+    "ts": "2026-09-29T08:03:32.856063",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4ece0bd472df38c33e75c9d857c9c70fe0656a5a",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5069342",
-    "pregunta": "LoL: Solary vs DN SOOPers Challengers (BO5) - World Star Challengers Invitational Playoffs",
-    "ts": "2026-09-29T07:52:24.042738",
+    "id": "5108165",
+    "pregunta": "W15 Nashville, TN: Amanda Carolina Nava Elkin vs Raquel Caballero Chica",
+    "ts": "2026-09-29T08:03:34.012026",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4ece0bd472df38c33e75c9d857c9c70fe0656a5a",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4904691",
-    "pregunta": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
-    "ts": "2026-09-29T07:52:28.467114",
+    "id": "4976859",
+    "pregunta": "Counter-Strike: Vitality Academy vs Elite Klan - Map 2 Winner",
+    "ts": "2026-09-29T08:03:35.064161",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfbc2fcfc2929a2701d11a87b0797a96d0c3f514c",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5074553",
+    "pregunta": "M15 Sibenik: Noah Lopez vs Bozo Barun",
+    "ts": "2026-09-29T08:03:36.137519",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063925",
+    "pregunta": "Will the highest temperature in Paris be 23\u00b0C on September 30?",
+    "ts": "2026-09-29T08:03:38.315935",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x367f03396f2bf776a4d4087c77b7f14e295cee28",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5083444",
+    "pregunta": "Bari: Lorenzo Giustino vs John Sperle",
+    "ts": "2026-09-29T08:03:42.313642",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   }
 ]
