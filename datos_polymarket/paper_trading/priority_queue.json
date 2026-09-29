@@ -1,16 +1,16 @@
 [
   {
-    "id": "4978475",
-    "pregunta": "Boston Red Sox vs. New York Yankees",
-    "ts": "2026-09-29T18:43:13.883488",
+    "id": "4613424",
+    "pregunta": "Will United States win on 2026-09-29?",
+    "ts": "2026-09-29T18:54:36.255256",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T18:43:14.927207",
+    "id": "4978501",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-29T18:54:37.328052",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -18,25 +18,65 @@
   {
     "id": "4952600",
     "pregunta": "Minnesota Lynx vs. New York Liberty",
-    "ts": "2026-09-29T18:43:15.967560",
+    "ts": "2026-09-29T18:54:38.394818",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-29T18:43:17.026328",
+    "id": "4622519",
+    "pregunta": "Spread: United States (-1.5)",
+    "ts": "2026-09-29T18:54:39.437622",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5098575",
-    "pregunta": "Columbus: Kaylan Bigun vs Keegan Smith",
-    "ts": "2026-09-29T18:43:21.505731",
+    "id": "4622526",
+    "pregunta": "United States vs. Chile: O/U 3.5",
+    "ts": "2026-09-29T18:54:40.494240",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2c752b17c61a34da5c2ee876939da7101318fd50",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4622525",
+    "pregunta": "United States vs. Chile: O/U 2.5",
+    "ts": "2026-09-29T18:54:41.536317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5142744",
+    "pregunta": "Spread: Chicago White Sox (-3.5)",
+    "ts": "2026-09-29T18:54:43.243442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5142640",
+    "pregunta": "Chicago White Sox vs. Houston Astros: O/U 10.5",
+    "ts": "2026-09-29T18:54:44.286074",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4143576",
+    "pregunta": "Canadiens vs. Maple Leafs",
+    "ts": "2026-09-29T18:54:45.327910",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4952599",
+    "pregunta": "Las Vegas Aces vs. Indiana Fever",
+    "ts": "2026-09-29T18:54:46.375291",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
