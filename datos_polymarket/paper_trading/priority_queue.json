@@ -1,10 +1,26 @@
 [
   {
-    "id": "5012435",
-    "pregunta": "Will the highest temperature in Hong Kong be 32\u00b0C on September 29?",
-    "ts": "2026-09-29T00:33:27.232727",
+    "id": "4910102",
+    "pregunta": "National Cricket League, Women: Victoria vs South Australian Scorpions",
+    "ts": "2026-09-29T00:43:21.854592",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5068186",
+    "pregunta": "W35 Wagga Wagga: I Wen Wan vs Yuno Kitahara",
+    "ts": "2026-09-29T00:43:24.385554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070105",
+    "pregunta": "China Open, Qualification: Marina Bassols Ribera vs Xiaodi You",
+    "ts": "2026-09-29T00:43:25.423120",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   }
 ]
