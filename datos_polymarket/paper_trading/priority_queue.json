@@ -1,82 +1,58 @@
 [
   {
-    "id": "5012488",
-    "pregunta": "Will the highest temperature in Madrid be 27\u00b0C on September 29?",
-    "ts": "2026-09-29T08:43:24.789733",
+    "id": "5037324",
+    "pregunta": "Adana: Ksenia Efremova vs Martyna Kubka",
+    "ts": "2026-09-29T08:53:57.760468",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86bdd03679bf4d43211ffaea5c58c59800162c98",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609862",
-    "pregunta": "Will Switzerland win on 2026-09-29?",
-    "ts": "2026-09-29T08:43:26.445658",
+    "id": "5091248",
+    "pregunta": "W15 Monastir: Ophelie Boullay vs Lois Newberry",
+    "ts": "2026-09-29T08:53:59.776405",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xf9ada96770af3cc24cd4ef0de2a1f26202be5097",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5006375",
-    "pregunta": "Boston Red Sox vs. New York Yankees: O/U 6.5",
-    "ts": "2026-09-29T08:43:27.499097",
+    "id": "5090898",
+    "pregunta": "M25 Slobozia: Gheorghe Claudiu Schinteie vs Matei Todoran",
+    "ts": "2026-09-29T08:54:04.553256",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xf9ada96770af3cc24cd4ef0de2a1f26202be5097",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610579",
-    "pregunta": "Finland vs. Belarus: O/U 2.5",
-    "ts": "2026-09-29T08:43:28.638988",
+    "id": "5074551",
+    "pregunta": "M15 Sibenik: Gabriele Pennaforti vs Martin VAN DER MEERSCHEN",
+    "ts": "2026-09-29T08:54:05.745420",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xf9ada96770af3cc24cd4ef0de2a1f26202be5097",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610375",
-    "pregunta": "Spread: Spain (-1.5)",
-    "ts": "2026-09-29T08:43:29.680463",
+    "id": "5074520",
+    "pregunta": "M25 Darwin: Moerani Bouzige vs Casey Hoole",
+    "ts": "2026-09-29T08:54:06.804905",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xf9ada96770af3cc24cd4ef0de2a1f26202be5097",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143591",
-    "pregunta": "Rangers vs. Bruins",
-    "ts": "2026-09-29T08:43:30.730729",
+    "id": "5091271",
+    "pregunta": "W35 Baza: Laura Hietaranta vs Alexandra Vagramov",
+    "ts": "2026-09-29T08:54:07.905838",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xf9ada96770af3cc24cd4ef0de2a1f26202be5097",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4817070",
-    "pregunta": "Florida vs. Missouri",
-    "ts": "2026-09-29T08:43:31.902785",
+    "id": "3365550",
+    "pregunta": "Will the Democratic Party candidate win the 2026 Colorado gubernatorial election by 30%-35%?",
+    "ts": "2026-09-29T08:54:09.982581",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073569",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 6.5",
-    "ts": "2026-09-29T08:43:32.958628",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-29T08:43:34.027338",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5046245",
-    "pregunta": "Will Nigeria win on 2026-09-29?",
-    "ts": "2026-09-29T08:43:35.067574",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x09fe78c8b9f10fb9c7c0a584bfab4205c76876ee",
     "whale_signal": "COMPRAR NO"
   }
 ]
