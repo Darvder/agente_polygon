@@ -1,18 +1,42 @@
 [
   {
-    "id": "4580365",
-    "pregunta": "LoL: KaBuM! Ilha das Lendas vs Golden Lions - Game 3 Winner",
-    "ts": "2026-09-28T21:03:22.997844",
+    "id": "5063180",
+    "pregunta": "Will the lowest temperature in London be 17\u00b0C on September 30?",
+    "ts": "2026-09-28T21:14:13.187282",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbcc321b6336117432f4e9d2d28b20d8b6795ac9c",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5012612",
-    "pregunta": "Will the highest temperature in Amsterdam be 26\u00b0C or higher on September 29?",
-    "ts": "2026-09-28T21:03:24.958871",
+    "id": "5071767",
+    "pregunta": "Will the lowest temperature in San Francisco be between 56-57\u00b0F on September 30?",
+    "ts": "2026-09-28T21:14:14.395983",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x43bd51535d5af64988bd63393ee52a49d563beda",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5072375",
+    "pregunta": "Will the highest temperature in San Francisco be between 76-77\u00b0F on September 30?",
+    "ts": "2026-09-28T21:14:19.665624",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029216",
+    "pregunta": "Will the highest temperature in Mexico City be 26\u00b0C on September 29?",
+    "ts": "2026-09-28T21:14:20.899301",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029215",
+    "pregunta": "Will the highest temperature in Mexico City be 25\u00b0C on September 29?",
+    "ts": "2026-09-28T21:14:22.111546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
     "whale_signal": "COMPRAR NO"
   }
 ]
