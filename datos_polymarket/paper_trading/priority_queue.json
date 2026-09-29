@@ -1,90 +1,18 @@
 [
   {
-    "id": "5067662",
-    "pregunta": "Will the highest temperature in Dallas be between 92-93\u00b0F on September 30?",
-    "ts": "2026-09-29T17:43:25.579317",
+    "id": "4618228",
+    "pregunta": "Will French Guiana win on 2026-09-29?",
+    "ts": "2026-09-29T17:53:55.733571",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5066890",
-    "pregunta": "Will the highest temperature in Denver be between 62-63\u00b0F on September 30?",
-    "ts": "2026-09-29T17:43:26.620925",
+    "id": "4143565",
+    "pregunta": "Panthers vs. Hurricanes",
+    "ts": "2026-09-29T17:53:56.821233",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5072366",
-    "pregunta": "Will the highest temperature in Los Angeles be between 78-79\u00b0F on September 30?",
-    "ts": "2026-09-29T17:43:27.865117",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119535",
-    "pregunta": "Will the highest temperature in Atlanta be between 84-85\u00b0F on October 1?",
-    "ts": "2026-09-29T17:43:28.911816",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119556",
-    "pregunta": "Will the highest temperature in Chicago be between 68-69\u00b0F on October 1?",
-    "ts": "2026-09-29T17:43:29.955293",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119523",
-    "pregunta": "Will the highest temperature in Dallas be between 78-79\u00b0F on October 1?",
-    "ts": "2026-09-29T17:43:30.996325",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122305",
-    "pregunta": "Will the highest temperature in Seattle be between 66-67\u00b0F on October 1?",
-    "ts": "2026-09-29T17:43:32.043191",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119525",
-    "pregunta": "Will the highest temperature in Dallas be between 82-83\u00b0F on October 1?",
-    "ts": "2026-09-29T17:43:33.104231",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122323",
-    "pregunta": "Will the highest temperature in San Francisco be 71\u00b0F or below on October 1?",
-    "ts": "2026-09-29T17:43:34.145355",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122317",
-    "pregunta": "Will the highest temperature in Los Angeles be between 78-79\u00b0F on October 1?",
-    "ts": "2026-09-29T17:43:35.330564",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122306",
-    "pregunta": "Will the highest temperature in Seattle be between 68-69\u00b0F on October 1?",
-    "ts": "2026-09-29T17:43:36.370924",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf15b5046ebec60613bf8d94535823ec53c878c10",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   }
 ]
