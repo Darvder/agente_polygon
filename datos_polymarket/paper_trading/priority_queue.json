@@ -1,58 +1,66 @@
 [
   {
-    "id": "4904750",
-    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers - Game 2 Winner",
-    "ts": "2026-09-29T13:22:40.811804",
+    "id": "4610448",
+    "pregunta": "San Marino vs. Albania: O/U 3.5",
+    "ts": "2026-09-29T13:33:38.256590",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094419",
-    "pregunta": "LoL: TLN Pirates vs Anubis Gaming (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T13:22:47.312429",
+    "id": "4610319",
+    "pregunta": "Scotland vs. Switzerland: Both Teams to Score",
+    "ts": "2026-09-29T13:33:39.322445",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4904770",
-    "pregunta": "Dota 2: Aurora vs GamerLegion - Game 2 Winner",
-    "ts": "2026-09-29T13:22:48.362467",
+    "id": "4610392",
+    "pregunta": "Spain vs. Croatia: Spain O/U 2.5",
+    "ts": "2026-09-29T13:33:40.506040",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094417",
-    "pregunta": "LoL: TLN Pirates vs Anubis Gaming - Game 1 Winner",
-    "ts": "2026-09-29T13:22:49.407536",
+    "id": "4143608",
+    "pregunta": "Spread: Oilers (-1.5)",
+    "ts": "2026-09-29T13:33:41.563663",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5095613",
-    "pregunta": "LoL: eSuba vs White Dragons (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T13:22:51.366597",
+    "id": "2589813",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+    "ts": "2026-09-29T13:33:42.618293",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc546071d20d315966fa50bb7469127d32edf058e",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5095611",
-    "pregunta": "LoL: eSuba vs White Dragons - Game 1 Winner",
-    "ts": "2026-09-29T13:22:53.292272",
+    "id": "5056742",
+    "pregunta": "Las Vegas Aces vs. Indiana Fever: O/U 182.5",
+    "ts": "2026-09-29T13:33:43.677450",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5095589",
-    "pregunta": "LoL: Forsaken vs The Secret Club Esport - Game 1 Winner",
-    "ts": "2026-09-29T13:22:54.359214",
+    "id": "4609975",
+    "pregunta": "Exact Score: Slovenia 1 - 0 North Macedonia?",
+    "ts": "2026-09-29T13:33:45.379965",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609851",
+    "pregunta": "Will Luxembourg win on 2026-09-29?",
+    "ts": "2026-09-29T13:33:46.434035",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
