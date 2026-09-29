@@ -1,50 +1,58 @@
 [
   {
-    "id": "4904749",
-    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers - Game 1 Winner",
-    "ts": "2026-09-29T12:23:04.787194",
+    "id": "4609834",
+    "pregunta": "Will Finland vs. Belarus end in a draw?",
+    "ts": "2026-09-29T12:32:44.186122",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094387",
-    "pregunta": "LoL: Bushido Wildcats vs UCAM Esports Club (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T12:23:05.844848",
+    "id": "4609832",
+    "pregunta": "Will Finland win on 2026-09-29?",
+    "ts": "2026-09-29T12:32:47.333387",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4904751",
-    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers (BO3) - BLAST Slam Group D",
-    "ts": "2026-09-29T12:23:06.899232",
+    "id": "4609835",
+    "pregunta": "Will Belarus win on 2026-09-29?",
+    "ts": "2026-09-29T12:32:48.376752",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094394",
-    "pregunta": "LoL: HMBLE vs Senshi Esports Club (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T12:23:07.965082",
+    "id": "4609828",
+    "pregunta": "Will Moldova win on 2026-09-29?",
+    "ts": "2026-09-29T12:32:50.462534",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094357",
-    "pregunta": "LoL: JSK Esports vs Unicorns Of Love Sexy Edition (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T12:23:10.862442",
+    "id": "4610577",
+    "pregunta": "Finland vs. Belarus: O/U 0.5",
+    "ts": "2026-09-29T12:32:53.598600",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d24e4fa945e12d08dd34178223f55f4e46c20b3",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094337",
-    "pregunta": "LoL: BIG vs BOMBA Team (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T12:23:12.043342",
+    "id": "5046242",
+    "pregunta": "Will Rwanda win on 2026-09-29?",
+    "ts": "2026-09-29T12:32:54.649960",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d24e4fa945e12d08dd34178223f55f4e46c20b3",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094404",
+    "pregunta": "LoL: Team Phantasma vs Lodis (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T12:32:56.912228",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xca75c722a4ec0e43d6b831807ae1e83d1e0705a6",
     "whale_signal": "COMPRAR NO"
   }
 ]
