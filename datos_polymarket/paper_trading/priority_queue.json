@@ -1,26 +1,74 @@
 [
   {
-    "id": "5073569",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 6.5",
-    "ts": "2026-09-29T15:43:31.009351",
+    "id": "5046253",
+    "pregunta": "Will Somalia vs. Ivory Coast end in a draw?",
+    "ts": "2026-09-29T15:53:43.145729",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4b13fdbe5e7acdf08d9551b23fd060dab97d0a7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073568",
-    "pregunta": "Spread: Atlanta Braves (-1.5)",
-    "ts": "2026-09-29T15:43:32.091590",
+    "id": "4143580",
+    "pregunta": "Canadiens vs. Maple Leafs: O/U 6.5",
+    "ts": "2026-09-29T15:53:44.827315",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4b13fdbe5e7acdf08d9551b23fd060dab97d0a7",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610316",
-    "pregunta": "Scotland vs. Switzerland: O/U 3.5",
-    "ts": "2026-09-29T15:43:33.947416",
+    "id": "4978475",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-29T15:53:45.866814",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4881744",
+    "pregunta": "Australia Tour of South Africa ODIs: South Africa vs Australia",
+    "ts": "2026-09-29T15:53:47.035563",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-09-29T15:53:48.089187",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-09-29T15:53:49.248349",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070146",
+    "pregunta": "China Open: Janice Tjen vs Anhelina Kalinina",
+    "ts": "2026-09-29T15:53:50.412007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073579",
+    "pregunta": "Chicago White Sox vs. Houston Astros",
+    "ts": "2026-09-29T15:53:51.485717",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4216078",
+    "pregunta": "Panthers vs. Sharks",
+    "ts": "2026-09-29T15:53:52.661226",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
