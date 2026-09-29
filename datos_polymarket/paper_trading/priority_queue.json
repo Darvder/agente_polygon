@@ -1,18 +1,10 @@
 [
   {
-    "id": "5060418",
-    "pregunta": "Deportes Quindio vs. Bogota FC: O/U 1.5",
-    "ts": "2026-09-28T19:52:30.560196",
+    "id": "4841903",
+    "pregunta": "Will the price of Ethereum be above $2,700 on September 29?",
+    "ts": "2026-09-28T20:03:19.356280",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdfa4abe1171596e69355e0479a0457a04adb50ac",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4792581",
-    "pregunta": "Am\u00e9rica FC vs. EC Juventude: O/U 1.5",
-    "ts": "2026-09-28T19:52:56.773284",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9ddc07c6b9407b3d1d741ec930cc4858f0d8c86d",
+    "whale_wallet": "0x60062ecbce1b143ed4955129377d2ff3632ac7e4",
     "whale_signal": "COMPRAR NO"
   }
 ]
