@@ -1,34 +1,26 @@
 [
   {
-    "id": "3875324",
-    "pregunta": "Spread: Colts (-3.5)",
-    "ts": "2026-09-29T13:03:49.919986",
+    "id": "5094419",
+    "pregunta": "LoL: TLN Pirates vs Anubis Gaming (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T13:12:58.183743",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68df8708aadb901618f11abf2471805a66a24815",
+    "whale_wallet": "0x537771a3cfea15fad10b7fb537117ad053bced16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871405",
-    "pregunta": "Colts vs. Commanders",
-    "ts": "2026-09-29T13:03:50.969797",
+    "id": "5094404",
+    "pregunta": "LoL: Team Phantasma vs Lodis (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T13:13:04.689929",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68df8708aadb901618f11abf2471805a66a24815",
+    "whale_wallet": "0xbe45510390826ee70eab969e713559fb6b0bbb3b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610045",
-    "pregunta": "Spain leading at halftime?",
-    "ts": "2026-09-29T13:03:58.975844",
+    "id": "5095589",
+    "pregunta": "LoL: Forsaken vs The Secret Club Esport - Game 1 Winner",
+    "ts": "2026-09-29T13:13:05.732792",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa6318c7d452ccbccca7abc547477897dad7eb53e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4610397",
-    "pregunta": "Spain vs. Croatia: Spain 1st Half O/U 1.5",
-    "ts": "2026-09-29T13:04:00.026948",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa6318c7d452ccbccca7abc547477897dad7eb53e",
+    "whale_wallet": "0xbe45510390826ee70eab969e713559fb6b0bbb3b",
     "whale_signal": "COMPRAR NO"
   }
 ]
