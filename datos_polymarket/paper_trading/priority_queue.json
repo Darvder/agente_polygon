@@ -1,66 +1,74 @@
 [
   {
-    "id": "4797724",
-    "pregunta": "Will Bitcoin dip to $82,500 in September?",
-    "ts": "2026-09-28T22:23:02.726889",
+    "id": "1397281",
+    "pregunta": "Will Russia capture all of Kostyantynivka by December 31, 2026?",
+    "ts": "2026-09-28T22:35:29.690580",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xdd9275d3b1d2c423e19724fcd09c19abb20aa167",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871411",
-    "pregunta": "Patriots vs. Bills",
-    "ts": "2026-09-28T22:23:04.507581",
+    "id": "1811265",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
+    "ts": "2026-09-28T22:35:30.731244",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xdd9275d3b1d2c423e19724fcd09c19abb20aa167",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871431",
-    "pregunta": "Chiefs vs. Raiders",
-    "ts": "2026-09-28T22:23:05.576753",
+    "id": "3760412",
+    "pregunta": "Steelers vs. Browns",
+    "ts": "2026-09-28T22:35:34.692195",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xd2655a6685532f307475a7387cb7324514905521",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-09-28T22:23:06.629195",
+    "id": "3871414",
+    "pregunta": "Jaguars vs. Bengals",
+    "ts": "2026-09-28T22:35:35.730370",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xd2655a6685532f307475a7387cb7324514905521",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4860887",
-    "pregunta": "Spread: Bears (-3.5)",
-    "ts": "2026-09-28T22:23:07.682675",
+    "id": "3871424",
+    "pregunta": "Packers vs. Buccaneers",
+    "ts": "2026-09-28T22:35:36.777865",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xd2655a6685532f307475a7387cb7324514905521",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-28T22:23:08.733734",
+    "id": "3871418",
+    "pregunta": "Cowboys vs. Texans",
+    "ts": "2026-09-28T22:35:37.818979",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xd2655a6685532f307475a7387cb7324514905521",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4828213",
-    "pregunta": "Will Elon Musk post 220-239 tweets from September 25 to October 2, 2026?",
-    "ts": "2026-09-28T22:23:11.573691",
+    "id": "3871435",
+    "pregunta": "Broncos vs. 49ers",
+    "ts": "2026-09-28T22:35:38.978566",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9534625c1a08d4d8a5bf3db682885c37665a4f9",
+    "whale_wallet": "0xd2655a6685532f307475a7387cb7324514905521",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4828208",
-    "pregunta": "Will Elon Musk post 200-219 tweets from September 25 to October 2, 2026?",
-    "ts": "2026-09-28T22:23:12.654594",
+    "id": "4687135",
+    "pregunta": "Spread: Guatemala (-4.5)",
+    "ts": "2026-09-28T22:35:40.762878",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9534625c1a08d4d8a5bf3db682885c37665a4f9",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4610442",
+    "pregunta": "Spread: Albania (-1.5)",
+    "ts": "2026-09-28T22:35:41.805019",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
