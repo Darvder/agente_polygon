@@ -1,90 +1,34 @@
 [
   {
-    "id": "5073567",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
-    "ts": "2026-09-29T12:53:29.896285",
+    "id": "3875324",
+    "pregunta": "Spread: Colts (-3.5)",
+    "ts": "2026-09-29T13:03:49.919986",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x68df8708aadb901618f11abf2471805a66a24815",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609859",
-    "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-29T12:53:30.991957",
+    "id": "3871405",
+    "pregunta": "Colts vs. Commanders",
+    "ts": "2026-09-29T13:03:50.969797",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x68df8708aadb901618f11abf2471805a66a24815",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610375",
-    "pregunta": "Spread: Spain (-1.5)",
-    "ts": "2026-09-29T12:53:32.093751",
+    "id": "4610045",
+    "pregunta": "Spain leading at halftime?",
+    "ts": "2026-09-29T13:03:58.975844",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xa6318c7d452ccbccca7abc547477897dad7eb53e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143608",
-    "pregunta": "Spread: Oilers (-1.5)",
-    "ts": "2026-09-29T12:53:33.187417",
+    "id": "4610397",
+    "pregunta": "Spain vs. Croatia: Spain 1st Half O/U 1.5",
+    "ts": "2026-09-29T13:04:00.026948",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4609854",
-    "pregunta": "Will Spain win on 2026-09-29?",
-    "ts": "2026-09-29T12:53:34.289539",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T12:53:35.390566",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4609844",
-    "pregunta": "Will Slovenia win on 2026-09-29?",
-    "ts": "2026-09-29T12:53:38.031434",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5046233",
-    "pregunta": "Will Gambia win on 2026-09-29?",
-    "ts": "2026-09-29T12:53:39.150638",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4610577",
-    "pregunta": "Finland vs. Belarus: O/U 0.5",
-    "ts": "2026-09-29T12:53:40.286311",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-09-29T12:53:42.847190",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3ea8b0f38eac1beb7169f3b2d875bff48c426256",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-09-29T12:53:43.945613",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3ea8b0f38eac1beb7169f3b2d875bff48c426256",
+    "whale_wallet": "0xa6318c7d452ccbccca7abc547477897dad7eb53e",
     "whale_signal": "COMPRAR NO"
   }
 ]
