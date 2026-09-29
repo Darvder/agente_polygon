@@ -1,10 +1,58 @@
 [
   {
-    "id": "4904751",
-    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers (BO3) - BLAST Slam Group D",
-    "ts": "2026-09-29T14:44:54.433940",
+    "id": "4610348",
+    "pregunta": "Czechia vs. England: O/U 2.5",
+    "ts": "2026-09-29T14:53:30.194910",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4952600",
+    "pregunta": "Minnesota Lynx vs. New York Liberty",
+    "ts": "2026-09-29T14:53:35.158975",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-29T14:53:36.235982",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-09-29T14:53:37.296237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073963",
+    "pregunta": "Chicago White Sox vs. Houston Astros: O/U 7.5",
+    "ts": "2026-09-29T14:53:38.378993",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613424",
+    "pregunta": "Will United States win on 2026-09-29?",
+    "ts": "2026-09-29T14:53:39.456132",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4817094",
+    "pregunta": "Spread: Florida (-5.5)",
+    "ts": "2026-09-29T14:53:40.603098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
