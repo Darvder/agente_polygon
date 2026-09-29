@@ -1,74 +1,18 @@
 [
   {
-    "id": "4609859",
-    "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-28T23:53:23.674655",
+    "id": "5029226",
+    "pregunta": "Will the highest temperature in Panama City be 32\u00b0C on September 29?",
+    "ts": "2026-09-29T00:04:02.172433",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x2298c203d9921555a008d85770d7710871989f33",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609862",
-    "pregunta": "Will Switzerland win on 2026-09-29?",
-    "ts": "2026-09-28T23:53:24.801371",
+    "id": "5017661",
+    "pregunta": "Will the highest temperature in Houston be between 90-91\u00b0F on September 29?",
+    "ts": "2026-09-29T00:04:03.215185",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4584874",
-    "pregunta": "Will Brazil win on 2026-09-29?",
-    "ts": "2026-09-28T23:53:25.839973",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817984",
-    "pregunta": "Ohio State vs. Iowa",
-    "ts": "2026-09-28T23:53:26.963064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5029258",
-    "pregunta": "Chicago Cubs vs. San Diego Padres",
-    "ts": "2026-09-28T23:53:28.002225",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-28T23:53:29.057213",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4595015",
-    "pregunta": "Australia vs. Brazil: O/U 1.5",
-    "ts": "2026-09-28T23:53:30.104362",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4609854",
-    "pregunta": "Will Spain win on 2026-09-29?",
-    "ts": "2026-09-28T23:53:31.174285",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4595007",
-    "pregunta": "Spread: Brazil (-1.5)",
-    "ts": "2026-09-28T23:53:32.294984",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x2298c203d9921555a008d85770d7710871989f33",
     "whale_signal": "COMPRAR NO"
   }
 ]
