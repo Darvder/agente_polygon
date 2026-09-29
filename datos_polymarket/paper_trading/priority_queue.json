@@ -1,18 +1,26 @@
 [
   {
-    "id": "5025018",
-    "pregunta": "Bari: Pol Martin Tiffon vs Laurent Lokoli",
-    "ts": "2026-09-29T10:33:10.985800",
+    "id": "5094329",
+    "pregunta": "LoL: MAGAZA vs Bar\u00e7a eSports (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T10:42:41.440114",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5098557",
-    "pregunta": "Columbus: Abedallah Shelbayh vs Li Tu",
-    "ts": "2026-09-29T10:33:12.045370",
+    "id": "5094315",
+    "pregunta": "LoL: G2 NORD vs The Ruddy Sack (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T10:42:42.504091",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904731",
+    "pregunta": "Dota 2: 1win vs Natus Vincere (BO3) - BLAST Slam Group B",
+    "ts": "2026-09-29T10:42:43.567709",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb284cabf4ab41ba04e51f9da6baca4bfdbb6b1fb",
     "whale_signal": "COMPRAR NO"
   }
 ]
