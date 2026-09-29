@@ -1,34 +1,42 @@
 [
   {
-    "id": "4609859",
-    "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-29T14:24:10.329876",
+    "id": "4610073",
+    "pregunta": "England leading at halftime?",
+    "ts": "2026-09-29T14:34:08.253404",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094450",
-    "pregunta": "LoL: Team Heretics Academy vs Karmine Corp Blue (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T14:24:13.276574",
+    "id": "4609840",
+    "pregunta": "Will Slovakia win on 2026-09-29?",
+    "ts": "2026-09-29T14:34:09.329820",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc546071d20d315966fa50bb7469127d32edf058e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610447",
-    "pregunta": "San Marino vs. Albania: O/U 2.5",
-    "ts": "2026-09-29T14:24:18.221021",
+    "id": "5094417",
+    "pregunta": "LoL: TLN Pirates vs Anubis Gaming - Game 1 Winner",
+    "ts": "2026-09-29T14:34:15.397895",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe337f5a28e9c530a676c959a1888ba5368664ad6",
+    "whale_wallet": "0xb9d5d5f5dc60ed83a5173c0ecb6daf7b9cfb180a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610454",
-    "pregunta": "San Marino vs. Albania: 1st Half O/U 1.5",
-    "ts": "2026-09-29T14:24:19.438349",
+    "id": "5095612",
+    "pregunta": "LoL: eSuba vs White Dragons - Game 2 Winner",
+    "ts": "2026-09-29T14:34:16.503254",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe337f5a28e9c530a676c959a1888ba5368664ad6",
+    "whale_wallet": "0xb9d5d5f5dc60ed83a5173c0ecb6daf7b9cfb180a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094448",
+    "pregunta": "LoL: Team Heretics Academy vs Karmine Corp Blue - Game 2 Winner",
+    "ts": "2026-09-29T14:34:17.584237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb9d5d5f5dc60ed83a5173c0ecb6daf7b9cfb180a",
     "whale_signal": "COMPRAR NO"
   }
 ]
