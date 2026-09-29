@@ -1,18 +1,130 @@
 [
   {
-    "id": "5090913",
-    "pregunta": "M15 Monastir: Mohamed Ali Abibsi vs Pablo Aunion",
-    "ts": "2026-09-29T05:02:27.381940",
+    "id": "5012587",
+    "pregunta": "Will the highest temperature in Istanbul be 20\u00b0C on September 29?",
+    "ts": "2026-09-29T05:12:44.741874",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12b8fcec843374012f96fee8a60e599fc92f63cb",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5090914",
-    "pregunta": "M15 Monastir: Arjun Rathi vs Juan Bautista Otegui",
-    "ts": "2026-09-29T05:02:28.446515",
+    "id": "5063280",
+    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 30?",
+    "ts": "2026-09-29T05:12:45.784495",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12b8fcec843374012f96fee8a60e599fc92f63cb",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063281",
+    "pregunta": "Will the lowest temperature in Hong Kong be 29\u00b0C on September 30?",
+    "ts": "2026-09-29T05:12:46.852842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116494",
+    "pregunta": "Will the highest temperature in Qingdao be 23\u00b0C on October 1?",
+    "ts": "2026-09-29T05:12:47.996857",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064250",
+    "pregunta": "Will the highest temperature in Qingdao be 24\u00b0C on September 30?",
+    "ts": "2026-09-29T05:12:49.041212",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116319",
+    "pregunta": "Will the highest temperature in Warsaw be 21\u00b0C on October 1?",
+    "ts": "2026-09-29T05:12:51.993092",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116308",
+    "pregunta": "Will the highest temperature in Madrid be 29\u00b0C on October 1?",
+    "ts": "2026-09-29T05:12:53.140210",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5066876",
+    "pregunta": "Will the highest temperature in Chicago be between 68-69\u00b0F on September 30?",
+    "ts": "2026-09-29T05:12:54.297182",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116515",
+    "pregunta": "Will the highest temperature in Manila be 33\u00b0C on October 1?",
+    "ts": "2026-09-29T05:12:55.446169",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029200",
+    "pregunta": "Will the highest temperature in Toronto be 22\u00b0C on September 29?",
+    "ts": "2026-09-29T05:12:56.589089",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063437",
+    "pregunta": "Will the lowest temperature in Amsterdam be 17\u00b0C on September 30?",
+    "ts": "2026-09-29T05:12:57.724967",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064252",
+    "pregunta": "Will the highest temperature in Qingdao be 26\u00b0C on September 30?",
+    "ts": "2026-09-29T05:12:58.768686",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116270",
+    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on October 1?",
+    "ts": "2026-09-29T05:12:59.811151",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5115690",
+    "pregunta": "Will the lowest temperature in Shanghai be 22\u00b0C on October 1?",
+    "ts": "2026-09-29T05:13:00.955613",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5072375",
+    "pregunta": "Will the highest temperature in San Francisco be between 76-77\u00b0F on September 30?",
+    "ts": "2026-09-29T05:13:03.697808",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ed13c197f82592e52e95b9d9630e900372ad0ec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064176",
+    "pregunta": "Will the highest temperature in Busan be 28\u00b0C on September 30?",
+    "ts": "2026-09-29T05:13:04.849044",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ed13c197f82592e52e95b9d9630e900372ad0ec",
     "whale_signal": "COMPRAR NO"
   }
 ]
