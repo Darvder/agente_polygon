@@ -1,10 +1,114 @@
 [
   {
-    "id": "5063924",
-    "pregunta": "Will the highest temperature in Paris be 22\u00b0C on September 30?",
-    "ts": "2026-09-29T04:42:56.664805",
+    "id": "5074493",
+    "pregunta": "M25 Darwin: Jack Bruce-Smith vs Haruto Ishikawa",
+    "ts": "2026-09-29T04:52:44.872102",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x671558412687de6dac0558f320ba9f9599c89365",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023472",
+    "pregunta": "Jingshan: Alevtina Ibragimova vs Daria Khomutsianskaya",
+    "ts": "2026-09-29T04:52:45.910572",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5074503",
+    "pregunta": "M15 Sharm ElSheikh: Niklas Waldner vs Yahor Slizevich",
+    "ts": "2026-09-29T04:52:47.039937",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5091214",
+    "pregunta": "W35 Reims: Klara Veldman vs Alexandra Biot",
+    "ts": "2026-09-29T04:52:48.164696",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5083447",
+    "pregunta": "Bari: Olle Wallin vs Matthew William Donald",
+    "ts": "2026-09-29T04:52:49.203327",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4875827",
+    "pregunta": "Will India A win?",
+    "ts": "2026-09-29T04:52:50.368753",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5090914",
+    "pregunta": "M15 Monastir: Arjun Rathi vs Juan Bautista Otegui",
+    "ts": "2026-09-29T04:52:51.408246",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5090913",
+    "pregunta": "M15 Monastir: Mohamed Ali Abibsi vs Pablo Aunion",
+    "ts": "2026-09-29T04:52:52.447648",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5075076",
+    "pregunta": "W15 Varna: Adriana Tkachenko vs Greta Fenyves",
+    "ts": "2026-09-29T04:52:53.601730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58e8375623d848b1c154a073d084d1e1951bff0f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4976854",
+    "pregunta": "Counter-Strike: WRAITH PCIFIC vs STATE - Map 1 Winner",
+    "ts": "2026-09-29T04:52:55.651113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5093842",
+    "pregunta": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - EPL World Series Southeast Asia Group Stage",
+    "ts": "2026-09-29T04:52:56.694153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4976856",
+    "pregunta": "Counter-Strike: WRAITH PCIFIC vs STATE (BO3) - United21 Group D",
+    "ts": "2026-09-29T04:52:57.744884",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5060274",
+    "pregunta": "Counter-Strike: Lavked vs Azuolas - Map 2 Winner",
+    "ts": "2026-09-29T04:52:58.886375",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4908361",
+    "pregunta": "Valorant: G2 Esports vs Paper Rex - Map 1 Winner",
+    "ts": "2026-09-29T04:53:01.591706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xad5f40bf24a77318e7398be3e5061e7ff6261bae",
     "whale_signal": "COMPRAR NO"
   }
 ]
