@@ -1,10 +1,58 @@
 [
   {
-    "id": "4841903",
-    "pregunta": "Will the price of Ethereum be above $2,700 on September 29?",
-    "ts": "2026-09-28T20:03:19.356280",
+    "id": "3695205",
+    "pregunta": "Eagles vs. Bears",
+    "ts": "2026-09-28T20:12:48.432559",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60062ecbce1b143ed4955129377d2ff3632ac7e4",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857236",
+    "pregunta": "Spread: Bears (-7.5)",
+    "ts": "2026-09-28T20:12:49.498975",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857118",
+    "pregunta": "Spread: Eagles (-5.5)",
+    "ts": "2026-09-28T20:12:50.541546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3701267",
+    "pregunta": "Eagles vs. Bears: O/U 46.5",
+    "ts": "2026-09-28T20:12:51.588396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857117",
+    "pregunta": "Spread: Eagles (-4.5)",
+    "ts": "2026-09-28T20:12:52.633875",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857115",
+    "pregunta": "Spread: Eagles (-2.5)",
+    "ts": "2026-09-28T20:12:53.801711",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857108",
+    "pregunta": "Spread: Eagles (-1.5)",
+    "ts": "2026-09-28T20:12:54.851774",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
     "whale_signal": "COMPRAR NO"
   }
 ]
