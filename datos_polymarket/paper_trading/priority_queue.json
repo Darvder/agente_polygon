@@ -1,42 +1,98 @@
 [
   {
-    "id": "5037324",
-    "pregunta": "Adana: Ksenia Efremova vs Martyna Kubka",
-    "ts": "2026-09-29T09:14:21.064251",
+    "id": "5123092",
+    "pregunta": "Las Vegas Aces vs. Indiana Fever: O/U 184.5",
+    "ts": "2026-09-29T09:23:08.296896",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_wallet": "0x54b5090fbd847c47d1336d68e2bf8863cf5b1117",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5123467",
-    "pregunta": "Bitcoin above 84,000 on September 29, 11AM ET?",
-    "ts": "2026-09-29T09:14:23.302540",
+    "id": "5076669",
+    "pregunta": "Las Vegas Aces vs. Indiana Fever: O/U 183.5",
+    "ts": "2026-09-29T09:23:09.345193",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6bea40761c073177ccb5512a72d2adccb49e63bc",
+    "whale_wallet": "0x54b5090fbd847c47d1336d68e2bf8863cf5b1117",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143621",
-    "pregunta": "Blackhawks vs. Golden Knights",
-    "ts": "2026-09-29T09:14:25.379452",
+    "id": "5057519",
+    "pregunta": "Porto 2: Hugo Grenier vs Carl Overbeck",
+    "ts": "2026-09-29T09:23:10.389009",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb59c2017f993e9a8d134af901f981c8d260e4e1b",
+    "whale_wallet": "0x54b5090fbd847c47d1336d68e2bf8863cf5b1117",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5014555",
-    "pregunta": "Set 1 Winner: Stefan Kozlov vs Aidan Kim",
-    "ts": "2026-09-29T09:14:26.543477",
+    "id": "5073907",
+    "pregunta": "Spread: Atlanta Braves (-2.5)",
+    "ts": "2026-09-29T09:23:11.525960",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb59c2017f993e9a8d134af901f981c8d260e4e1b",
+    "whale_wallet": "0x54b5090fbd847c47d1336d68e2bf8863cf5b1117",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5014616",
-    "pregunta": "Kozlov vs. Kim: Match O/U 22.5",
-    "ts": "2026-09-29T09:14:27.725035",
+    "id": "4816747",
+    "pregunta": "Spread: Louisville (-4.5)",
+    "ts": "2026-09-29T09:23:12.603434",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb59c2017f993e9a8d134af901f981c8d260e4e1b",
+    "whale_wallet": "0x54b5090fbd847c47d1336d68e2bf8863cf5b1117",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4816744",
+    "pregunta": "Spread: Louisville (-5.5)",
+    "ts": "2026-09-29T09:23:13.677940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54b5090fbd847c47d1336d68e2bf8863cf5b1117",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5108333",
+    "pregunta": "Ethiopia vs. Senegal: O/U 1.5",
+    "ts": "2026-09-29T09:23:33.695279",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5108334",
+    "pregunta": "Ethiopia vs. Senegal: O/U 2.5",
+    "ts": "2026-09-29T09:23:34.736845",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5025020",
+    "pregunta": "Bari: Samuele Pieri vs Andrej Martin",
+    "ts": "2026-09-29T09:23:36.528163",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5013945",
+    "pregunta": "Curitiba: Miguel Tobon vs Juan Bautista Torres",
+    "ts": "2026-09-29T09:23:37.573122",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5013930",
+    "pregunta": "Curitiba: Matias Soto vs Lautaro Midon",
+    "ts": "2026-09-29T09:23:38.659598",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5098564",
+    "pregunta": "Columbus: Raphael Perot vs Daniil Ostapenkov",
+    "ts": "2026-09-29T09:23:39.702851",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   }
 ]
