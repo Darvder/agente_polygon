@@ -1,58 +1,90 @@
 [
   {
+    "id": "5102863",
+    "pregunta": "Will John Cornyn not endorse anyone in the Texas Senate Election?",
+    "ts": "2026-09-28T20:23:23.396398",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5104763",
+    "pregunta": "Will Putin and Zelenskyy not meet by December 31, 2027?",
+    "ts": "2026-09-28T20:23:24.721054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "3695205",
     "pregunta": "Eagles vs. Bears",
-    "ts": "2026-09-28T20:12:48.432559",
+    "ts": "2026-09-28T20:23:25.815057",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857236",
-    "pregunta": "Spread: Bears (-7.5)",
-    "ts": "2026-09-28T20:12:49.498975",
+    "id": "5084575",
+    "pregunta": "Will Carnival say \"Evolution\" during earnings call?",
+    "ts": "2026-09-28T20:23:27.067289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857118",
-    "pregunta": "Spread: Eagles (-5.5)",
-    "ts": "2026-09-28T20:12:50.541546",
+    "id": "5105351",
+    "pregunta": "Will Nike say \"Jordan\" during earnings call?",
+    "ts": "2026-09-28T20:23:28.371296",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3701267",
-    "pregunta": "Eagles vs. Bears: O/U 46.5",
-    "ts": "2026-09-28T20:12:51.588396",
+    "id": "5105317",
+    "pregunta": "Will claude-opus-5.5-high be the best AI model on October 12, 2026?",
+    "ts": "2026-09-28T20:23:29.687936",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857117",
-    "pregunta": "Spread: Eagles (-4.5)",
-    "ts": "2026-09-28T20:12:52.633875",
+    "id": "5105617",
+    "pregunta": "Will Trump say \"Through the Roof\" in October?",
+    "ts": "2026-09-28T20:23:31.003478",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857115",
-    "pregunta": "Spread: Eagles (-2.5)",
-    "ts": "2026-09-28T20:12:53.801711",
+    "id": "5105618",
+    "pregunta": "Will Trump say \"Six Seven\" in October?",
+    "ts": "2026-09-28T20:23:32.312907",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857108",
-    "pregunta": "Spread: Eagles (-1.5)",
-    "ts": "2026-09-28T20:12:54.851774",
+    "id": "5105638",
+    "pregunta": "Will Trump say \"Google\" or \"Alphabet\" in October?",
+    "ts": "2026-09-28T20:23:33.626338",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5105647",
+    "pregunta": "Will Trump say \"TikTok\" or \"ByteDance\" in October?",
+    "ts": "2026-09-28T20:23:34.995216",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2773662",
+    "pregunta": "Will Republicans win 2 Senate and Governor elections in states won by Kamala?",
+    "ts": "2026-09-28T20:23:36.299375",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c14bdd7d62b9a7824c220ee39a9b58773f05783",
     "whale_signal": "COMPRAR NO"
   }
 ]
