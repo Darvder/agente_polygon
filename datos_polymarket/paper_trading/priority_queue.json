@@ -1,98 +1,74 @@
 [
   {
-    "id": "3701268",
-    "pregunta": "Eagles vs. Bears: O/U 47.5",
-    "ts": "2026-09-28T19:12:43.726693",
+    "id": "4589735",
+    "pregunta": "Will Honduras win on 2026-09-28?",
+    "ts": "2026-09-28T19:23:43.982595",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xe16f112b529ff5ee751276998b2242d760aca33f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3695205",
+    "pregunta": "Eagles vs. Bears",
+    "ts": "2026-09-28T19:23:45.944288",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3919667",
     "pregunta": "Eagles vs. Bears: O/U 41.5",
-    "ts": "2026-09-28T19:12:44.802904",
+    "ts": "2026-09-28T19:23:47.036927",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857357",
-    "pregunta": "1H Spread: Eagles (-2.5)",
-    "ts": "2026-09-28T19:12:45.873958",
+    "id": "5012380",
+    "pregunta": "Will the highest temperature in Wellington be 17\u00b0C on September 29?",
+    "ts": "2026-09-28T19:23:49.152946",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919668",
-    "pregunta": "Eagles vs. Bears: O/U 43.5",
-    "ts": "2026-09-28T19:12:46.981192",
+    "id": "5012620",
+    "pregunta": "Will the highest temperature in Helsinki be 16\u00b0C on September 29?",
+    "ts": "2026-09-28T19:23:50.255490",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857118",
-    "pregunta": "Spread: Eagles (-5.5)",
-    "ts": "2026-09-28T19:12:48.047286",
+    "id": "5012498",
+    "pregunta": "Will the highest temperature in Warsaw be 21\u00b0C on September 29?",
+    "ts": "2026-09-28T19:23:51.394600",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857338",
-    "pregunta": "1H Spread: Eagles (-1.5)",
-    "ts": "2026-09-28T19:12:49.113697",
+    "id": "5029174",
+    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 29?",
+    "ts": "2026-09-28T19:23:52.552389",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4857367",
-    "pregunta": "1H Spread: Eagles (-3.5)",
-    "ts": "2026-09-28T19:12:51.274223",
+    "id": "5012411",
+    "pregunta": "Will the highest temperature in Tel Aviv be 29\u00b0C on September 29?",
+    "ts": "2026-09-28T19:23:53.688193",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5055453",
-    "pregunta": "Dota 2: Team Kinetix vs Xipto Esports (BO3) - EPL World Series Southeast Asia Group Stage",
-    "ts": "2026-09-28T19:12:52.514229",
+    "id": "5012336",
+    "pregunta": "Will the highest temperature in London be 24\u00b0C on September 29?",
+    "ts": "2026-09-28T19:23:54.792032",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5062173",
-    "pregunta": "Counter-Strike: regain vs Marsborne - Map 1 Winner",
-    "ts": "2026-09-28T19:12:53.735681",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4857384",
-    "pregunta": "1H Spread: Eagles (-4.5)",
-    "ts": "2026-09-28T19:12:54.847747",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5055890",
-    "pregunta": "LoL: Saudi Arabia vs Malaysia (BO1) - Asian Games Group A",
-    "ts": "2026-09-28T19:12:55.908198",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4857147",
-    "pregunta": "Spread: Eagles (-9.5)",
-    "ts": "2026-09-28T19:12:56.979156",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
     "whale_signal": "COMPRAR NO"
   }
 ]
