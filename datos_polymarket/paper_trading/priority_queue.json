@@ -1,42 +1,34 @@
 [
   {
-    "id": "4952600",
-    "pregunta": "Minnesota Lynx vs. New York Liberty",
-    "ts": "2026-09-28T21:24:57.607593",
+    "id": "3695205",
+    "pregunta": "Eagles vs. Bears",
+    "ts": "2026-09-28T21:33:21.456768",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3a72cd78a3aee51c2d31c3dc2a733103f189fc7a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609859",
-    "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-28T21:24:58.659591",
+    "id": "4858704",
+    "pregunta": "Eagles vs. Bears: O/U 34.5",
+    "ts": "2026-09-28T21:33:22.503611",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3a72cd78a3aee51c2d31c3dc2a733103f189fc7a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-28T21:24:59.728414",
+    "id": "3919667",
+    "pregunta": "Eagles vs. Bears: O/U 41.5",
+    "ts": "2026-09-28T21:33:23.543618",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3a72cd78a3aee51c2d31c3dc2a733103f189fc7a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609862",
-    "pregunta": "Will Switzerland win on 2026-09-29?",
-    "ts": "2026-09-28T21:25:00.874364",
+    "id": "5071618",
+    "pregunta": "Will it rain in Denver, CO on September 29?",
+    "ts": "2026-09-28T21:33:30.243550",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-28T21:25:01.934578",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xe1f30809d70c3adc120f8bae9187f306b118cf1c",
     "whale_signal": "COMPRAR NO"
   }
 ]
