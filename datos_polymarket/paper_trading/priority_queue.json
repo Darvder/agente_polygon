@@ -2,9 +2,25 @@
   {
     "id": "5071530",
     "pregunta": "Japan Open Tennis Championships, Qualification: Adolfo Vallejo vs Jaime Faria",
-    "ts": "2026-09-29T01:23:31.652620",
+    "ts": "2026-09-29T01:33:16.638045",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9d699c315b662a161e763a3c4c954408a048ab3a",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4595010",
+    "pregunta": "Spread: Brazil (-2.5)",
+    "ts": "2026-09-29T01:33:17.730693",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116487",
+    "pregunta": "Will the highest temperature in Guangzhou be 37\u00b0C on October 1?",
+    "ts": "2026-09-29T01:33:19.801127",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa16c780dca2812c966afb81ad06232b781be7936",
     "whale_signal": "COMPRAR NO"
   }
 ]
