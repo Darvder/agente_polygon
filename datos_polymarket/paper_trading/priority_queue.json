@@ -1,66 +1,42 @@
 [
   {
-    "id": "5108584",
-    "pregunta": "Lesotho vs. Morocco: O/U 2.5",
-    "ts": "2026-09-29T09:32:27.633715",
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-09-29T09:43:41.034640",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610590",
-    "pregunta": "Finland vs. Belarus: Finland O/U 2.5",
-    "ts": "2026-09-29T09:32:28.765089",
+    "id": "2771492",
+    "pregunta": "Will Barcelona win the 2026-27 LALIGA Championship?",
+    "ts": "2026-09-29T09:43:42.110172",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5108323",
-    "pregunta": "Spread: Senegal (-1.5)",
-    "ts": "2026-09-29T09:32:29.830041",
+    "id": "1235568",
+    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
+    "ts": "2026-09-29T09:43:43.832709",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4904749",
-    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers - Game 1 Winner",
-    "ts": "2026-09-29T09:32:41.750718",
+    "id": "5082746",
+    "pregunta": "Will Microsoft Corporation (MSFT) hit (LOW) $502.50 Week of September 28 2026?",
+    "ts": "2026-09-29T09:43:48.049732",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfce862243c0612e0bac32a3897e002fa91fe2686",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4904750",
-    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers - Game 2 Winner",
-    "ts": "2026-09-29T09:32:42.883895",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfce862243c0612e0bac32a3897e002fa91fe2686",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4904769",
-    "pregunta": "Dota 2: Aurora vs GamerLegion - Game 1 Winner",
-    "ts": "2026-09-29T09:32:44.054931",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfce862243c0612e0bac32a3897e002fa91fe2686",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4904770",
-    "pregunta": "Dota 2: Aurora vs GamerLegion - Game 2 Winner",
-    "ts": "2026-09-29T09:32:45.208574",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfce862243c0612e0bac32a3897e002fa91fe2686",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4949306",
     "pregunta": "Valorant: Karmine Corp vs NRG (BO3) - VCT Champions Group D",
-    "ts": "2026-09-29T09:32:46.255456",
+    "ts": "2026-09-29T09:43:49.771085",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfce862243c0612e0bac32a3897e002fa91fe2686",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
