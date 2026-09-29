@@ -1,10 +1,42 @@
 [
   {
-    "id": "5100091",
-    "pregunta": "Counter-Strike: Procyon Gaming vs Turma do Pagode (BO3) - ESL Challenger League South America Cup #2 Playoffs",
-    "ts": "2026-09-29T16:44:51.986920",
+    "id": "5073579",
+    "pregunta": "Chicago White Sox vs. Houston Astros",
+    "ts": "2026-09-29T16:53:38.873617",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdcce3218c3e899196e1defc110e3c30532a1c920",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3069083",
+    "pregunta": "Will Independiente Santa Fe win on 2026-08-05?",
+    "ts": "2026-09-29T16:53:39.946673",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3069082",
+    "pregunta": "Will Deportivo Pereira vs. Independiente Santa Fe end in a draw?",
+    "ts": "2026-09-29T16:53:41.042455",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073581",
+    "pregunta": "Chicago White Sox vs. Houston Astros: O/U 8.5",
+    "ts": "2026-09-29T16:53:42.119924",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073962",
+    "pregunta": "Spread: Chicago White Sox (-2.5)",
+    "ts": "2026-09-29T16:53:43.230460",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   }
 ]
