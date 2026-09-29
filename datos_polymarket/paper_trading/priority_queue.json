@@ -1,34 +1,42 @@
 [
   {
-    "id": "4609862",
-    "pregunta": "Will Switzerland win on 2026-09-29?",
-    "ts": "2026-09-29T13:54:03.442150",
+    "id": "4609844",
+    "pregunta": "Will Slovenia win on 2026-09-29?",
+    "ts": "2026-09-29T14:04:40.063735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6f394e129df43b23e213b4f9b6f8f7711253e279",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4610577",
+    "pregunta": "Finland vs. Belarus: O/U 0.5",
+    "ts": "2026-09-29T14:04:42.276600",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3bcd095a4f5fb6fef36961e03f0f9318f3bdabb2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609859",
+    "pregunta": "Will England win on 2026-09-29?",
+    "ts": "2026-09-29T14:04:49.409824",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609851",
+    "pregunta": "Will Luxembourg win on 2026-09-29?",
+    "ts": "2026-09-29T14:04:51.188009",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609861",
-    "pregunta": "Will Scotland vs. Switzerland end in a draw?",
-    "ts": "2026-09-29T13:54:04.487206",
+    "id": "4610375",
+    "pregunta": "Spread: Spain (-1.5)",
+    "ts": "2026-09-29T14:04:52.271265",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4610377",
-    "pregunta": "Spread: Spain (-2.5)",
-    "ts": "2026-09-29T13:54:05.539168",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2589812",
-    "pregunta": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-    "ts": "2026-09-29T13:54:09.730108",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbb8e35c58195397ee29beee3f2bd3bb326e82bee",
     "whale_signal": "COMPRAR NO"
   }
 ]
