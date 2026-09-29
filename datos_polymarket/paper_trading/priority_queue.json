@@ -1,74 +1,74 @@
 [
   {
-    "id": "4595007",
-    "pregunta": "Spread: Brazil (-1.5)",
-    "ts": "2026-09-29T03:23:02.999554",
+    "id": "5025013",
+    "pregunta": "Bari: Geoffrey Blancaneaux vs Dimitar Kuzmanov",
+    "ts": "2026-09-29T03:32:48.759390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073569",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 6.5",
-    "ts": "2026-09-29T03:23:04.092165",
+    "id": "4610456",
+    "pregunta": "San Marino vs. Albania: San Marino O/U 0.5",
+    "ts": "2026-09-29T03:32:49.840939",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609862",
-    "pregunta": "Will Switzerland win on 2026-09-29?",
-    "ts": "2026-09-29T03:23:05.185298",
+    "id": "4610451",
+    "pregunta": "San Marino vs. Albania: Both Teams to Score",
+    "ts": "2026-09-29T03:32:50.919042",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5046227",
-    "pregunta": "Will Senegal win on 2026-09-29?",
-    "ts": "2026-09-29T03:23:06.355607",
+    "id": "5082395",
+    "pregunta": "China Open, Qualification: Jodie Burrage vs Mai Hontama",
+    "ts": "2026-09-29T03:32:51.985810",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T03:23:07.446171",
+    "id": "5082399",
+    "pregunta": "China Open, Qualification: Maddison Inglis vs Darya Astakhova",
+    "ts": "2026-09-29T03:32:53.941957",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4584874",
-    "pregunta": "Will Brazil win on 2026-09-29?",
-    "ts": "2026-09-29T03:23:08.511971",
+    "id": "5023472",
+    "pregunta": "Jingshan: Alevtina Ibragimova vs Daria Khomutsianskaya",
+    "ts": "2026-09-29T03:32:55.880620",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4963932",
-    "pregunta": "Will South Korea ETF (EWY) hit (HIGH) $190 Week of September 28 2026?",
-    "ts": "2026-09-29T03:23:11.490103",
+    "id": "5071530",
+    "pregunta": "Japan Open Tennis Championships, Qualification: Adolfo Vallejo vs Jaime Faria",
+    "ts": "2026-09-29T03:32:56.964449",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34012e946d793f1d0e6a16d917d13dd4ea332851",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5060275",
-    "pregunta": "Counter-Strike: Lavked vs Azuolas (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-09-29T03:23:13.418742",
+    "id": "5083447",
+    "pregunta": "Bari: Olle Wallin vs Matthew William Donald",
+    "ts": "2026-09-29T03:32:58.052882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4976854",
-    "pregunta": "Counter-Strike: WRAITH PCIFIC vs STATE - Map 1 Winner",
-    "ts": "2026-09-29T03:23:14.485741",
+    "id": "5025007",
+    "pregunta": "Bari: Gianluca Cadenasso vs Benito Sanchez Martinez",
+    "ts": "2026-09-29T03:32:59.117565",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
     "whale_signal": "COMPRAR NO"
   }
 ]
