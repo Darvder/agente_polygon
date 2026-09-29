@@ -1,18 +1,90 @@
 [
   {
-    "id": "5029226",
-    "pregunta": "Will the highest temperature in Panama City be 32\u00b0C on September 29?",
-    "ts": "2026-09-29T00:04:02.172433",
+    "id": "5063936",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 24\u00b0C on September 30?",
+    "ts": "2026-09-29T00:13:54.714823",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2298c203d9921555a008d85770d7710871989f33",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5017661",
-    "pregunta": "Will the highest temperature in Houston be between 90-91\u00b0F on September 29?",
-    "ts": "2026-09-29T00:04:03.215185",
+    "id": "5012401",
+    "pregunta": "Will the highest temperature in Munich be 24\u00b0C on September 29?",
+    "ts": "2026-09-29T00:13:56.868356",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2298c203d9921555a008d85770d7710871989f33",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5017639",
+    "pregunta": "Will the highest temperature in Chicago be between 74-75\u00b0F on September 29?",
+    "ts": "2026-09-29T00:13:57.933890",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5017641",
+    "pregunta": "Will the highest temperature in Chicago be between 78-79\u00b0F on September 29?",
+    "ts": "2026-09-29T00:13:59.020899",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063181",
+    "pregunta": "Will the lowest temperature in London be 18\u00b0C on September 30?",
+    "ts": "2026-09-29T00:14:00.099248",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063280",
+    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 30?",
+    "ts": "2026-09-29T00:14:01.983429",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddddc9ee299d54a5b5f6e26ae30725523d9110ea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063281",
+    "pregunta": "Will the lowest temperature in Hong Kong be 29\u00b0C on September 30?",
+    "ts": "2026-09-29T00:14:03.085024",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddddc9ee299d54a5b5f6e26ae30725523d9110ea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073551",
+    "pregunta": "Will the highest temperature in Panama City be 32\u00b0C on September 30?",
+    "ts": "2026-09-29T00:14:15.374334",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073552",
+    "pregunta": "Will the highest temperature in Panama City be 33\u00b0C on September 30?",
+    "ts": "2026-09-29T00:14:16.542124",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064176",
+    "pregunta": "Will the highest temperature in Busan be 28\u00b0C on September 30?",
+    "ts": "2026-09-29T00:14:17.606427",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063258",
+    "pregunta": "Will the lowest temperature in Tel Aviv be 23\u00b0C on September 30?",
+    "ts": "2026-09-29T00:14:18.769102",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x83118cb129cd7c573c98c1fb687b02d87059793b",
     "whale_signal": "COMPRAR NO"
   }
 ]
