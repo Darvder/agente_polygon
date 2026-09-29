@@ -1,18 +1,26 @@
 [
   {
-    "id": "4618228",
-    "pregunta": "Will French Guiana win on 2026-09-29?",
-    "ts": "2026-09-29T17:53:55.733571",
+    "id": "4978475",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-29T18:02:58.965821",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143565",
-    "pregunta": "Panthers vs. Hurricanes",
-    "ts": "2026-09-29T17:53:56.821233",
+    "id": "4622519",
+    "pregunta": "Spread: United States (-1.5)",
+    "ts": "2026-09-29T18:03:00.027934",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-09-29T18:03:01.079023",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
