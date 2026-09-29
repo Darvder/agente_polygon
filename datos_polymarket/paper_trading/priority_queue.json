@@ -1,18 +1,98 @@
 [
   {
-    "id": "3871427",
-    "pregunta": "Dolphins vs. Vikings",
-    "ts": "2026-09-28T19:04:38.776589",
+    "id": "3701268",
+    "pregunta": "Eagles vs. Bears: O/U 47.5",
+    "ts": "2026-09-28T19:12:43.726693",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x060341726ef9d1604dabc679a7597bd43de6c6ab",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871424",
-    "pregunta": "Packers vs. Buccaneers",
-    "ts": "2026-09-28T19:04:40.073534",
+    "id": "3919667",
+    "pregunta": "Eagles vs. Bears: O/U 41.5",
+    "ts": "2026-09-28T19:12:44.802904",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x060341726ef9d1604dabc679a7597bd43de6c6ab",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857357",
+    "pregunta": "1H Spread: Eagles (-2.5)",
+    "ts": "2026-09-28T19:12:45.873958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919668",
+    "pregunta": "Eagles vs. Bears: O/U 43.5",
+    "ts": "2026-09-28T19:12:46.981192",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857118",
+    "pregunta": "Spread: Eagles (-5.5)",
+    "ts": "2026-09-28T19:12:48.047286",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857338",
+    "pregunta": "1H Spread: Eagles (-1.5)",
+    "ts": "2026-09-28T19:12:49.113697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857367",
+    "pregunta": "1H Spread: Eagles (-3.5)",
+    "ts": "2026-09-28T19:12:51.274223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055453",
+    "pregunta": "Dota 2: Team Kinetix vs Xipto Esports (BO3) - EPL World Series Southeast Asia Group Stage",
+    "ts": "2026-09-28T19:12:52.514229",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5062173",
+    "pregunta": "Counter-Strike: regain vs Marsborne - Map 1 Winner",
+    "ts": "2026-09-28T19:12:53.735681",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857384",
+    "pregunta": "1H Spread: Eagles (-4.5)",
+    "ts": "2026-09-28T19:12:54.847747",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055890",
+    "pregunta": "LoL: Saudi Arabia vs Malaysia (BO1) - Asian Games Group A",
+    "ts": "2026-09-28T19:12:55.908198",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4857147",
+    "pregunta": "Spread: Eagles (-9.5)",
+    "ts": "2026-09-28T19:12:56.979156",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
     "whale_signal": "COMPRAR NO"
   }
 ]
