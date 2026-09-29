@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1558.36,
-  "capital_en_riesgo": 439.22,
-  "n_ciclos": 38697,
-  "ultima_corrida": "2026-09-29 16:35",
-  "n_tp": 553,
+  "capital_actual": 1563.28,
+  "capital_en_riesgo": 443.03,
+  "n_ciclos": 38698,
+  "ultima_corrida": "2026-09-29 16:45",
+  "n_tp": 554,
   "n_sl": 367,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 26.63,
-    "capital_en_riesgo": 49.32,
+    "capital_actual": 27.84,
+    "capital_en_riesgo": 49.35,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 72,
+    "n_tp": 73,
     "n_sl": 50,
     "posiciones_abiertas": [
       {
@@ -151,7 +151,7 @@
         "pregunta": "Counter-Strike: LAG Gaming vs Marsborne (BO3) - ESL Challenger League ",
         "outcome": "LAG Gaming",
         "precio_token_entrada": 0.31,
-        "precio_actual": 0.295,
+        "precio_actual": 0.29,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.04,
@@ -271,7 +271,7 @@
         "pregunta": "China Open: Karen Khachanov vs Felix Auger-Aliassime",
         "outcome": "Karen Khachanov",
         "precio_token_entrada": 0.405,
-        "precio_actual": 0.405,
+        "precio_actual": 0.415,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.56,
@@ -280,26 +280,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x2ce0828ee98f6ef9805db075b41bbc3c34a6f737d39f3d5d781d489bc816c54f"
-      },
-      {
-        "fecha_entrada": "2026-09-29",
-        "fecha_entrada_dt": "2026-09-29 16:24",
-        "target_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
-        "market_id": "5139267",
-        "condition_id": "0x233997431685741ed8a36d0d95fa8fcd37f8517882b0e8a9ef8d5eea9c98ad8b",
-        "token_id": "77454302970402418314934935213843431036503572555876187375607879015449145460173",
-        "pregunta": "Counter-Strike: Krytiepacani vs Omega (BO3) - CIS LAN Championship Gro",
-        "outcome": "Krytiepacani",
-        "precio_token_entrada": 0.595,
-        "precio_actual": 0.74,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xd404ce0de3bcca285c8d90ac4a7ef14c051f337ef593bad6f2dfbf826e0ef149"
       },
       {
         "fecha_entrada": "2026-09-29",
@@ -340,6 +320,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x5085f0d161bbeb2c18a7cc2cb2a606454e19d354cdef550d5495d63cc8f391ed"
+      },
+      {
+        "fecha_entrada": "2026-09-29",
+        "fecha_entrada_dt": "2026-09-29 16:44",
+        "target_wallet": "0xdcce3218c3e899196e1defc110e3c30532a1c920",
+        "market_id": "5100091",
+        "condition_id": "0x26eda055f03fa980ed027dcc33a0e6734d3324fb6a811c2bdc8c004e9bd982d2",
+        "token_id": "107470401082094294796412340005676827963022023853859565751088563894301971537597",
+        "pregunta": "Counter-Strike: Procyon Gaming vs Turma do Pagode (BO3) - ESL Challeng",
+        "outcome": "Procyon Gaming",
+        "precio_token_entrada": 0.465,
+        "precio_actual": 0.465,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.03,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0x9ae8598d79330be01c36473ecc7215e43939775beceee3bccc55692485bb0296"
       }
     ],
     "historial_cerradas": [
@@ -2782,6 +2782,26 @@
         "pnl_realizado": 0.17,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x6b20d8948f20b86c998d213b7f08872e54a2372daa609360cd8ddd6b6eacb6aa"
+      },
+      {
+        "fecha_entrada": "2026-09-29",
+        "fecha_entrada_dt": "2026-09-29 16:24",
+        "target_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+        "market_id": "5139267",
+        "condition_id": "0x233997431685741ed8a36d0d95fa8fcd37f8517882b0e8a9ef8d5eea9c98ad8b",
+        "token_id": "77454302970402418314934935213843431036503572555876187375607879015449145460173",
+        "pregunta": "Counter-Strike: Krytiepacani vs Omega (BO3) - CIS LAN Championship Gro",
+        "outcome": "Krytiepacani",
+        "precio_token_entrada": 0.595,
+        "precio_actual": 0.84,
+        "precio_cierre": 0.84,
+        "pct_cambio": 0.4118,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-29 16:45",
+        "pnl_realizado": 1.24,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0xd404ce0de3bcca285c8d90ac4a7ef14c051f337ef593bad6f2dfbf826e0ef149"
       }
     ]
   }
