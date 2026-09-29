@@ -1,42 +1,58 @@
 [
   {
-    "id": "4609844",
-    "pregunta": "Will Slovenia win on 2026-09-29?",
-    "ts": "2026-09-29T14:04:40.063735",
+    "id": "5013955",
+    "pregunta": "Columbus: Dylan Dietrich vs J.J. Wolf",
+    "ts": "2026-09-29T14:14:37.746411",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6f394e129df43b23e213b4f9b6f8f7711253e279",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4610577",
-    "pregunta": "Finland vs. Belarus: O/U 0.5",
-    "ts": "2026-09-29T14:04:42.276600",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3bcd095a4f5fb6fef36961e03f0f9318f3bdabb2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4609859",
     "pregunta": "Will England win on 2026-09-29?",
-    "ts": "2026-09-29T14:04:49.409824",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4609851",
-    "pregunta": "Will Luxembourg win on 2026-09-29?",
-    "ts": "2026-09-29T14:04:51.188009",
+    "ts": "2026-09-29T14:14:38.826824",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610375",
-    "pregunta": "Spread: Spain (-1.5)",
-    "ts": "2026-09-29T14:04:52.271265",
+    "id": "5070170",
+    "pregunta": "China Open: Caty McNally vs Dayana Yastremska",
+    "ts": "2026-09-29T14:14:47.566176",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073568",
+    "pregunta": "Spread: Atlanta Braves (-1.5)",
+    "ts": "2026-09-29T14:14:48.637836",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073907",
+    "pregunta": "Spread: Atlanta Braves (-2.5)",
+    "ts": "2026-09-29T14:14:49.713187",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073909",
+    "pregunta": "Spread: Philadelphia Phillies (-2.5)",
+    "ts": "2026-09-29T14:14:51.829137",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073567",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-09-29T14:14:52.877754",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   }
 ]
