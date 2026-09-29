@@ -1,26 +1,50 @@
 [
   {
-    "id": "5017606",
-    "pregunta": "Will the highest temperature in New York City be between 72-73\u00b0F on September 29?",
-    "ts": "2026-09-29T12:14:32.308396",
+    "id": "4904749",
+    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers - Game 1 Winner",
+    "ts": "2026-09-29T12:23:04.787194",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea254ef8158fd84507fc25491cc4e1fc316c0447",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5017605",
-    "pregunta": "Will the highest temperature in New York City be between 70-71\u00b0F on September 29?",
-    "ts": "2026-09-29T12:14:33.380573",
+    "id": "5094387",
+    "pregunta": "LoL: Bushido Wildcats vs UCAM Esports Club (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T12:23:05.844848",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea254ef8158fd84507fc25491cc4e1fc316c0447",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5017627",
-    "pregunta": "Will the highest temperature in Miami be between 82-83\u00b0F on September 29?",
-    "ts": "2026-09-29T12:14:34.454288",
+    "id": "4904751",
+    "pregunta": "Dota 2: Team Liquid vs Yakult Brothers (BO3) - BLAST Slam Group D",
+    "ts": "2026-09-29T12:23:06.899232",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea254ef8158fd84507fc25491cc4e1fc316c0447",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094394",
+    "pregunta": "LoL: HMBLE vs Senshi Esports Club (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T12:23:07.965082",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094357",
+    "pregunta": "LoL: JSK Esports vs Unicorns Of Love Sexy Edition (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T12:23:10.862442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d24e4fa945e12d08dd34178223f55f4e46c20b3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094337",
+    "pregunta": "LoL: BIG vs BOMBA Team (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-29T12:23:12.043342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d24e4fa945e12d08dd34178223f55f4e46c20b3",
     "whale_signal": "COMPRAR NO"
   }
 ]
