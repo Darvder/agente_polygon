@@ -1,10 +1,98 @@
 [
   {
-    "id": "4584874",
-    "pregunta": "Will Brazil win on 2026-09-29?",
-    "ts": "2026-09-29T06:02:30.021174",
+    "id": "5072356",
+    "pregunta": "Will the highest temperature in Seattle be between 64-65\u00b0F on September 30?",
+    "ts": "2026-09-29T06:14:34.606420",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064176",
+    "pregunta": "Will the highest temperature in Busan be 28\u00b0C on September 30?",
+    "ts": "2026-09-29T06:14:35.709440",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5027061",
+    "pregunta": "Will the highest temperature in Seattle be between 60-61\u00b0F on September 29?",
+    "ts": "2026-09-29T06:14:40.165208",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064252",
+    "pregunta": "Will the highest temperature in Qingdao be 26\u00b0C on September 30?",
+    "ts": "2026-09-29T06:14:41.393725",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063393",
+    "pregunta": "Will the lowest temperature in Shenzhen be 29\u00b0C on September 30?",
+    "ts": "2026-09-29T06:14:42.615257",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5023458",
+    "pregunta": "Jingshan: Amelia Rajecki vs Yuhan Wang",
+    "ts": "2026-09-29T06:14:45.529475",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5083449",
+    "pregunta": "Bari: Max Wiskandt vs Pierluigi Basile",
+    "ts": "2026-09-29T06:14:46.633485",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067312",
+    "pregunta": "Counter-Strike: maybe vs ILLYRIANS (BO3) - CCT Europe Challengers Series Playoffs",
+    "ts": "2026-09-29T06:14:47.697791",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067310",
+    "pregunta": "Counter-Strike: maybe vs ILLYRIANS - Map 1 Winner",
+    "ts": "2026-09-29T06:14:48.774942",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4976856",
+    "pregunta": "Counter-Strike: WRAITH PCIFIC vs STATE (BO3) - United21 Group D",
+    "ts": "2026-09-29T06:14:49.996536",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5072374",
+    "pregunta": "Will the highest temperature in San Francisco be between 74-75\u00b0F on September 30?",
+    "ts": "2026-09-29T06:14:51.897582",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bc9a1d1ca6ed6d5d6a831a184b58a8e2078b2ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064078",
+    "pregunta": "Will the highest temperature in Warsaw be 22\u00b0C on September 30?",
+    "ts": "2026-09-29T06:14:53.117752",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bc9a1d1ca6ed6d5d6a831a184b58a8e2078b2ee",
     "whale_signal": "COMPRAR NO"
   }
 ]
