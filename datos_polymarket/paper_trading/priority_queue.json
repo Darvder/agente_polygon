@@ -1,10 +1,26 @@
 [
   {
-    "id": "3069083",
-    "pregunta": "Will Independiente Santa Fe win on 2026-08-05?",
-    "ts": "2026-09-29T17:22:34.222706",
+    "id": "4622519",
+    "pregunta": "Spread: United States (-1.5)",
+    "ts": "2026-09-29T17:34:10.900966",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3f348100519813dd4ba2a9aff346de5a0f42ed6a",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-29T17:34:12.003823",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5029261",
+    "pregunta": "Chicago Cubs vs. San Diego Padres",
+    "ts": "2026-09-29T17:34:13.114985",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
