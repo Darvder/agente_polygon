@@ -1,16 +1,72 @@
 [
   {
+    "id": "4952599",
+    "pregunta": "Las Vegas Aces vs. Indiana Fever",
+    "ts": "2026-09-29T18:12:48.392951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b4f4846260134acb94dd568eccbb4978440e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792532",
+    "pregunta": "Botafogo FC vs. AA Ponte Preta: 1st Half O/U 1.5",
+    "ts": "2026-09-29T18:12:49.437570",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b4f4846260134acb94dd568eccbb4978440e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792522",
+    "pregunta": "Botafogo FC vs. AA Ponte Preta: O/U 2.5",
+    "ts": "2026-09-29T18:12:50.503076",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b4f4846260134acb94dd568eccbb4978440e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792529",
+    "pregunta": "Botafogo FC vs. AA Ponte Preta: Both Teams to Score",
+    "ts": "2026-09-29T18:12:51.561775",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b4f4846260134acb94dd568eccbb4978440e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5056742",
+    "pregunta": "Las Vegas Aces vs. Indiana Fever: O/U 182.5",
+    "ts": "2026-09-29T18:12:52.638588",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b4f4846260134acb94dd568eccbb4978440e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792523",
+    "pregunta": "Botafogo FC vs. AA Ponte Preta: O/U 3.5",
+    "ts": "2026-09-29T18:12:53.687214",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b4f4846260134acb94dd568eccbb4978440e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5013969",
+    "pregunta": "Columbus: Bryce Nakashima vs Jack Kennedy",
+    "ts": "2026-09-29T18:12:54.758985",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b4f4846260134acb94dd568eccbb4978440e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4978475",
     "pregunta": "Boston Red Sox vs. New York Yankees",
-    "ts": "2026-09-29T18:02:58.965821",
+    "ts": "2026-09-29T18:12:56.502412",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4622519",
-    "pregunta": "Spread: United States (-1.5)",
-    "ts": "2026-09-29T18:03:00.027934",
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-29T18:12:57.577520",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -18,7 +74,7 @@
   {
     "id": "4678642",
     "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-09-29T18:03:01.079023",
+    "ts": "2026-09-29T18:12:58.659522",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
