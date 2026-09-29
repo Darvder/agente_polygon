@@ -1,34 +1,10 @@
 [
   {
-    "id": "5012574",
-    "pregunta": "Will the highest temperature in Moscow be 14\u00b0C on September 29?",
-    "ts": "2026-09-28T22:52:33.983569",
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-09-28T23:05:17.599689",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012498",
-    "pregunta": "Will the highest temperature in Warsaw be 21\u00b0C on September 29?",
-    "ts": "2026-09-28T22:52:35.051373",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012620",
-    "pregunta": "Will the highest temperature in Helsinki be 16\u00b0C on September 29?",
-    "ts": "2026-09-28T22:52:36.112043",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5070101",
-    "pregunta": "China Open, Qualification: Harriet Dart vs Yexin Ma",
-    "ts": "2026-09-28T22:52:38.119760",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   }
 ]
