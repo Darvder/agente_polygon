@@ -1,10 +1,162 @@
 [
   {
-    "id": "3372745",
-    "pregunta": "Will Russia enter Mykolaivka by September 30, 2026?",
-    "ts": "2026-09-29T01:03:08.434676",
+    "id": "5063281",
+    "pregunta": "Will the lowest temperature in Hong Kong be 29\u00b0C on September 30?",
+    "ts": "2026-09-29T01:12:38.127101",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5bb6de445cdd88d912ba3905fd072affdc519d57",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063280",
+    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on September 30?",
+    "ts": "2026-09-29T01:12:39.186675",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf13934a1fec7d3211fc15c138d84ac2a691b91a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073552",
+    "pregunta": "Will the highest temperature in Panama City be 33\u00b0C on September 30?",
+    "ts": "2026-09-29T01:12:41.973629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5072374",
+    "pregunta": "Will the highest temperature in San Francisco be between 74-75\u00b0F on September 30?",
+    "ts": "2026-09-29T01:12:43.136557",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5072375",
+    "pregunta": "Will the highest temperature in San Francisco be between 76-77\u00b0F on September 30?",
+    "ts": "2026-09-29T01:12:44.192864",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5066888",
+    "pregunta": "Will the highest temperature in Denver be between 58-59\u00b0F on September 30?",
+    "ts": "2026-09-29T01:12:45.257915",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116156",
+    "pregunta": "Will the highest temperature in London be 21\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:46.422915",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116505",
+    "pregunta": "Will the highest temperature in Karachi be 32\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:47.578623",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5115901",
+    "pregunta": "Will the lowest temperature in Karachi be 26\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:48.768630",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5115635",
+    "pregunta": "Will the lowest temperature in Lucknow be 23\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:49.927860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116494",
+    "pregunta": "Will the highest temperature in Qingdao be 23\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:51.088271",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5115735",
+    "pregunta": "Will the lowest temperature in Taipei be 26\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:52.269819",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063258",
+    "pregunta": "Will the lowest temperature in Tel Aviv be 23\u00b0C on September 30?",
+    "ts": "2026-09-29T01:12:53.423179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5017076",
+    "pregunta": "Will the lowest temperature in Dallas be between 78-79\u00b0F on September 29?",
+    "ts": "2026-09-29T01:12:54.589739",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5115579",
+    "pregunta": "Will the lowest temperature in London be 14\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:55.761980",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063180",
+    "pregunta": "Will the lowest temperature in London be 17\u00b0C on September 30?",
+    "ts": "2026-09-29T01:12:56.833556",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067353",
+    "pregunta": "Will the lowest temperature in Dallas be between 80-81\u00b0F on September 30?",
+    "ts": "2026-09-29T01:12:58.030851",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5115656",
+    "pregunta": "Will the lowest temperature in Tel Aviv be 21\u00b0C on October 1?",
+    "ts": "2026-09-29T01:12:59.213701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5083428",
+    "pregunta": "Hangzhou Open: Daniil Medvedev vs Andrey Rublev",
+    "ts": "2026-09-29T01:13:00.280726",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5025020",
+    "pregunta": "Bari: Samuele Pieri vs Andrej Martin",
+    "ts": "2026-09-29T01:13:01.440774",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe814752a8d3eff98ba4f8de03fc2a2e5eee58ffa",
     "whale_signal": "COMPRAR NO"
   }
 ]
