@@ -1,26 +1,74 @@
 [
   {
-    "id": "5093842",
-    "pregunta": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - EPL World Series Southeast Asia Group Stage",
-    "ts": "2026-09-29T03:12:33.905962",
+    "id": "4595007",
+    "pregunta": "Spread: Brazil (-1.5)",
+    "ts": "2026-09-29T03:23:02.999554",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4976856",
-    "pregunta": "Counter-Strike: WRAITH PCIFIC vs STATE (BO3) - United21 Group D",
-    "ts": "2026-09-29T03:12:34.997551",
+    "id": "5073569",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 6.5",
+    "ts": "2026-09-29T03:23:04.092165",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5060273",
-    "pregunta": "Counter-Strike: Lavked vs Azuolas - Map 1 Winner",
-    "ts": "2026-09-29T03:12:36.088906",
+    "id": "4609862",
+    "pregunta": "Will Switzerland win on 2026-09-29?",
+    "ts": "2026-09-29T03:23:05.185298",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7232479a5a14d5017ea0759270d36b889f9fa106",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5046227",
+    "pregunta": "Will Senegal win on 2026-09-29?",
+    "ts": "2026-09-29T03:23:06.355607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-29T03:23:07.446171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4584874",
+    "pregunta": "Will Brazil win on 2026-09-29?",
+    "ts": "2026-09-29T03:23:08.511971",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963932",
+    "pregunta": "Will South Korea ETF (EWY) hit (HIGH) $190 Week of September 28 2026?",
+    "ts": "2026-09-29T03:23:11.490103",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x34012e946d793f1d0e6a16d917d13dd4ea332851",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5060275",
+    "pregunta": "Counter-Strike: Lavked vs Azuolas (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-09-29T03:23:13.418742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4976854",
+    "pregunta": "Counter-Strike: WRAITH PCIFIC vs STATE - Map 1 Winner",
+    "ts": "2026-09-29T03:23:14.485741",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
     "whale_signal": "COMPRAR NO"
   }
 ]
