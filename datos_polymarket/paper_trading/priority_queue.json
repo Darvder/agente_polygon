@@ -1,34 +1,66 @@
 [
   {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-28T22:13:38.689393",
+    "id": "4797724",
+    "pregunta": "Will Bitcoin dip to $82,500 in September?",
+    "ts": "2026-09-28T22:23:02.726889",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5029258",
-    "pregunta": "Chicago Cubs vs. San Diego Padres",
-    "ts": "2026-09-28T22:13:39.789700",
+    "id": "3871411",
+    "pregunta": "Patriots vs. Bills",
+    "ts": "2026-09-28T22:23:04.507581",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-28T22:13:40.906043",
+    "id": "3871431",
+    "pregunta": "Chiefs vs. Raiders",
+    "ts": "2026-09-28T22:23:05.576753",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4678642",
     "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-09-28T22:13:42.004661",
+    "ts": "2026-09-28T22:23:06.629195",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4860887",
+    "pregunta": "Spread: Bears (-3.5)",
+    "ts": "2026-09-28T22:23:07.682675",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-09-28T22:23:08.733734",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4828213",
+    "pregunta": "Will Elon Musk post 220-239 tweets from September 25 to October 2, 2026?",
+    "ts": "2026-09-28T22:23:11.573691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe9534625c1a08d4d8a5bf3db682885c37665a4f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4828208",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 25 to October 2, 2026?",
+    "ts": "2026-09-28T22:23:12.654594",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe9534625c1a08d4d8a5bf3db682885c37665a4f9",
     "whale_signal": "COMPRAR NO"
   }
 ]
