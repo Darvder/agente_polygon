@@ -1,42 +1,42 @@
 [
   {
-    "id": "5063180",
-    "pregunta": "Will the lowest temperature in London be 17\u00b0C on September 30?",
-    "ts": "2026-09-28T21:14:13.187282",
+    "id": "4952600",
+    "pregunta": "Minnesota Lynx vs. New York Liberty",
+    "ts": "2026-09-28T21:24:57.607593",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5071767",
-    "pregunta": "Will the lowest temperature in San Francisco be between 56-57\u00b0F on September 30?",
-    "ts": "2026-09-28T21:14:14.395983",
+    "id": "4609859",
+    "pregunta": "Will England win on 2026-09-29?",
+    "ts": "2026-09-28T21:24:58.659591",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5072375",
-    "pregunta": "Will the highest temperature in San Francisco be between 76-77\u00b0F on September 30?",
-    "ts": "2026-09-28T21:14:19.665624",
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-28T21:24:59.728414",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5029216",
-    "pregunta": "Will the highest temperature in Mexico City be 26\u00b0C on September 29?",
-    "ts": "2026-09-28T21:14:20.899301",
+    "id": "4609862",
+    "pregunta": "Will Switzerland win on 2026-09-29?",
+    "ts": "2026-09-28T21:25:00.874364",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5029215",
-    "pregunta": "Will the highest temperature in Mexico City be 25\u00b0C on September 29?",
-    "ts": "2026-09-28T21:14:22.111546",
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-09-28T21:25:01.934578",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e382a9a7aa711acb1ba93503b0190c1a28d77a0",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]

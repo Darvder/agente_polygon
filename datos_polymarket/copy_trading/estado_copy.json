@@ -1,15 +1,15 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1602.46,
-  "capital_en_riesgo": 396.89,
-  "n_ciclos": 38582,
-  "ultima_corrida": "2026-09-28 21:15",
+  "capital_actual": 1578.33,
+  "capital_en_riesgo": 421.02,
+  "n_ciclos": 38583,
+  "ultima_corrida": "2026-09-28 21:25",
   "n_tp": 518,
   "n_sl": 332,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 37.66,
+    "capital_actual": 35.92,
     "capital_en_riesgo": 27.82,
     "max_positions": 10,
     "max_positions_per_wallet": 2,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 44,
-    "n_sl": 28,
+    "n_sl": 29,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-28",
@@ -131,7 +131,7 @@
         "pregunta": "Will Anthropic IPO by December 31, 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.25,
-        "precio_actual": 0.205,
+        "precio_actual": 0.17,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -171,7 +171,7 @@
         "pregunta": "Will the price of Ethereum be above $2,700 on September 29?",
         "outcome": "No",
         "precio_token_entrada": 0.69,
-        "precio_actual": 0.805,
+        "precio_actual": 0.825,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -183,15 +183,15 @@
       },
       {
         "fecha_entrada": "2026-09-28",
-        "fecha_entrada_dt": "2026-09-28 20:53",
-        "target_wallet": "0x12631ebbc4e2f14a8c62a6a704631c9f6730f241",
-        "market_id": "3695205",
-        "condition_id": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575",
-        "token_id": "29652429512130463118665284075870201747739909237084592893331546208800561253258",
-        "pregunta": "Eagles vs. Bears",
-        "outcome": "Eagles",
+        "fecha_entrada_dt": "2026-09-28 21:24",
+        "target_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+        "market_id": "4952600",
+        "condition_id": "0xa44ba2e74440864d02f88cacc4efb58306a67c52901388d7ee5d21c747de4731",
+        "token_id": "107545660679858777544880432988695428707393347907080875256164017540117114804568",
+        "pregunta": "Minnesota Lynx vs. New York Liberty",
+        "outcome": "Minnesota Lynx",
         "precio_token_entrada": 0.585,
-        "precio_actual": 0.405,
+        "precio_actual": 0.585,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -199,7 +199,7 @@
         "fecha_cierre_real": "",
         "pnl_realizado": 0.0,
         "razon_cierre": "",
-        "tx_hash": "0x1bc8a550f12ed32b91f05c970fe6cc419b4283a61099650bd166a2f4ef77a9a1"
+        "tx_hash": "0xfa752bbc754efdd445076057996bb64f3242e9746c33d0b100a09e9535bacbd5"
       }
     ],
     "historial_cerradas": [
@@ -1642,6 +1642,26 @@
         "pnl_realizado": -1.54,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x5f8aec3e07fb3dcaf08ba66c8fdf3ff6cdf5fe6d02dadacdad26ec6124ac9eee"
+      },
+      {
+        "fecha_entrada": "2026-09-28",
+        "fecha_entrada_dt": "2026-09-28 20:53",
+        "target_wallet": "0x12631ebbc4e2f14a8c62a6a704631c9f6730f241",
+        "market_id": "3695205",
+        "condition_id": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575",
+        "token_id": "29652429512130463118665284075870201747739909237084592893331546208800561253258",
+        "pregunta": "Eagles vs. Bears",
+        "outcome": "Eagles",
+        "precio_token_entrada": 0.585,
+        "precio_actual": 0.245,
+        "precio_cierre": 0.245,
+        "pct_cambio": -0.5812,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-28 21:25",
+        "pnl_realizado": -1.74,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x1bc8a550f12ed32b91f05c970fe6cc419b4283a61099650bd166a2f4ef77a9a1"
       }
     ]
   }
