@@ -1,26 +1,42 @@
 [
   {
-    "id": "4881723",
-    "pregunta": "Olimpia Milano vs. Virtus Bologna",
-    "ts": "2026-09-29T15:23:38.214570",
+    "id": "2589813",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+    "ts": "2026-09-29T15:33:55.662883",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609836",
-    "pregunta": "Will Bulgaria win on 2026-09-29?",
-    "ts": "2026-09-29T15:23:39.259759",
+    "id": "5073567",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-09-29T15:33:57.729199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4610348",
-    "pregunta": "Czechia vs. England: O/U 2.5",
-    "ts": "2026-09-29T15:23:40.309182",
+    "id": "5113483",
+    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne (BO3) - ESL Challenger League North America Cup #2 Playoffs",
+    "ts": "2026-09-29T15:34:03.100678",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5108197",
+    "pregunta": "W100 Templeton, CA: Ekaterina Maklakova vs Carolina Kuhl",
+    "ts": "2026-09-29T15:34:04.162196",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5069343",
+    "pregunta": "Games Total: O/U 3.5",
+    "ts": "2026-09-29T15:34:05.205812",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8386e358d8d81d02c598b08921e34dd0154cbc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
