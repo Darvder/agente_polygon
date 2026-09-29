@@ -1,58 +1,26 @@
 [
   {
-    "id": "4609834",
-    "pregunta": "Will Finland vs. Belarus end in a draw?",
-    "ts": "2026-09-29T12:32:44.186122",
+    "id": "5098552",
+    "pregunta": "Columbus: Oliver Okonkwo vs Luca Staeheli",
+    "ts": "2026-09-29T12:43:37.947061",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0xa24e51e917d3f844b972e9bccfa6bc2e04621be8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609832",
-    "pregunta": "Will Finland win on 2026-09-29?",
-    "ts": "2026-09-29T12:32:47.333387",
+    "id": "5128198",
+    "pregunta": "Map Handicap: NXS (-1.5) vs ex-RUSTEC (+1.5)",
+    "ts": "2026-09-29T12:43:40.193049",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4609835",
-    "pregunta": "Will Belarus win on 2026-09-29?",
-    "ts": "2026-09-29T12:32:48.376752",
+    "id": "5060291",
+    "pregunta": "Counter-Strike: ex-RUSTEC vs Nexus (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-09-29T12:43:41.256374",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4609828",
-    "pregunta": "Will Moldova win on 2026-09-29?",
-    "ts": "2026-09-29T12:32:50.462534",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4610577",
-    "pregunta": "Finland vs. Belarus: O/U 0.5",
-    "ts": "2026-09-29T12:32:53.598600",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5046242",
-    "pregunta": "Will Rwanda win on 2026-09-29?",
-    "ts": "2026-09-29T12:32:54.649960",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5094404",
-    "pregunta": "LoL: Team Phantasma vs Lodis (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-29T12:32:56.912228",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xca75c722a4ec0e43d6b831807ae1e83d1e0705a6",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
     "whale_signal": "COMPRAR NO"
   }
 ]
