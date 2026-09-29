@@ -950,6 +950,53 @@ def generar_dashboard():
     roi_copy = (pnl_total_copy / capital_inicial_copy) * 100.0 if capital_inicial_copy > 0 else 0.0
 
     # ──────────────────────────────────────────────────────────────
+    # 4c. MÉTRICAS SINCRONIZADAS: MACRO ($1,000) EN EL MISMO PERIODO DE MICRO
+    # ──────────────────────────────────────────────────────────────
+    # Determinamos la fecha/hora de inicio del experimento Micro
+    ts_inicio_exp = "2026-09-27 21:52"
+    if micro_hist_cerradas:
+        fechas_micro = [str(p.get("fecha_entrada_dt", "")) for p in micro_hist_cerradas if p.get("fecha_entrada_dt")]
+        if fechas_micro:
+            ts_inicio_exp = min(fechas_micro)
+    elif micro_pos_abiertas:
+        fechas_micro = [str(p.get("fecha_entrada_dt", "")) for p in micro_pos_abiertas if p.get("fecha_entrada_dt")]
+        if fechas_micro:
+            ts_inicio_exp = min(fechas_micro)
+
+    try:
+        dt_inicio_exp = pd.to_datetime(ts_inicio_exp)
+        fecha_inicio_exp_str = dt_inicio_exp.strftime("%d %b %H:%M")
+    except Exception:
+        fecha_inicio_exp_str = ts_inicio_exp
+
+    pnl_macro_sync = 0.0
+    wins_macro_sync = 0
+    losses_macro_sync = 0
+    total_eval_macro_sync = 0
+    wr_macro_sync = 0.0
+    total_cerradas_macro_sync = 0
+    roi_macro_sync = 0.0
+    pf_macro_sync_str = "0.00"
+
+    if not cerradas_copy.empty and 'fecha_entrada_dt' in cerradas_copy.columns:
+        c_sync = cerradas_copy[cerradas_copy['fecha_entrada_dt'] >= ts_inicio_exp].copy()
+        total_cerradas_macro_sync = len(c_sync)
+        if not c_sync.empty:
+            pnl_s = pd.to_numeric(c_sync['pnl_realizado'], errors='coerce').fillna(0.0)
+            pnl_macro_sync = float(pnl_s.sum())
+            wins_macro_sync = int((pnl_s > 0).sum())
+            losses_macro_sync = int((pnl_s < 0).sum())
+            total_eval_macro_sync = wins_macro_sync + losses_macro_sync
+            wr_macro_sync = (wins_macro_sync / total_eval_macro_sync * 100.0) if total_eval_macro_sync > 0 else 0.0
+            sum_w = float(pnl_s[pnl_s > 0].sum())
+            sum_l = float(abs(pnl_s[pnl_s < 0].sum()))
+            pf_macro_sync_str = f"{(sum_w / sum_l):.2f}" if sum_l > 0 else ("∞" if sum_w > 0 else "0.00")
+
+    roi_macro_sync = (pnl_macro_sync / capital_inicial_copy) * 100.0 if capital_inicial_copy > 0 else 0.0
+    pnl_clase_macro_sync = "positive" if pnl_macro_sync >= 0 else "negative"
+    pnl_sign_macro_sync = "+" if pnl_macro_sync >= 0 else ""
+
+    # ──────────────────────────────────────────────────────────────
     # 5. PREPARAR DATOS DEL GRÁFICO COMBINADO (VS) Y SERIES HORARIAS
     # ──────────────────────────────────────────────────────────────
     start_chart_dt = pd.to_datetime('2026-09-19 00:00:00')
@@ -2649,59 +2696,82 @@ tr:hover td {
         </div>
       </div>
 
-      <!-- Tabla Comparativa Macro vs Micro -->
+      <!-- Tabla Comparativa Macro vs Micro (Periodo Sincronizado) -->
       <div class="tabla-contenedor" style="margin-bottom:1.5rem;">
         <table style="text-align:center;">
           <thead>
             <tr>
-              <th style="text-align:left;">Parámetro / Métrica</th>
-              <th style="color:#a78bfa;">🎯 Cartera Macro ($1,000)</th>
-              <th style="color:#38bdf8;">💎 Cartera Espejo Micro ($70)</th>
-              <th>Ratio / Equivalencia</th>
+              <th style="text-align:left;">Métrica de Rendimiento</th>
+              <th style="color:#a78bfa;">🎯 Cartera Macro ($1,000)<br><span style="font-size:0.7rem; font-weight:400; color:var(--muted)">Ventana desde __FECHA_INICIO_EXP_STR__</span></th>
+              <th style="color:#38bdf8;">💎 Cartera Espejo Micro ($70)<br><span style="font-size:0.7rem; font-weight:400; color:var(--muted)">Ventana desde __FECHA_INICIO_EXP_STR__</span></th>
+              <th>Comparación Sincronizada</th>
             </tr>
           </thead>
           <tbody>
+            <tr style="background: rgba(56, 189, 248, 0.05);">
+              <td style="text-align:left; font-weight:600; color:#38bdf8;">⏱️ Ventana de Evaluación</td>
+              <td colspan="2" style="font-weight:600; color:#38bdf8;">Desde __FECHA_INICIO_EXP_STR__ (Mismo inicio y condiciones)</td>
+              <td style="font-size:0.75rem; color:var(--muted);">Mismo horario, ballenas y mercado</td>
+            </tr>
             <tr>
-              <td style="text-align:left; font-weight:600;">Capital Inicial</td>
+              <td style="text-align:left; font-weight:600;">Capital de Referencia</td>
               <td>$1,000.00 USDC</td>
               <td style="color:#38bdf8; font-weight:600;">$70.00 USDC</td>
-              <td>14.3x reducción</td>
+              <td>Escala de cuenta 14.3x</td>
             </tr>
             <tr>
-              <td style="text-align:left; font-weight:600;">Capital Actual (Efectivo)</td>
+              <td style="text-align:left; font-weight:600;">Operaciones Cerradas</td>
+              <td style="font-weight:600;">__TOTAL_CERRADAS_MACRO_SYNC__ ops</td>
+              <td style="color:#38bdf8; font-weight:600;">__TOTAL_CERRADAS_MICRO_SYNC__ ops</td>
+              <td>Micro filtró por cupo de 10</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Win Rate en el Periodo</td>
+              <td style="color:#fbbf24; font-weight:600;">__WR_MACRO_SYNC__% (__WINS_MACRO_SYNC__W - __LOSSES_MACRO_SYNC__L)</td>
+              <td style="color:#fbbf24; font-weight:600;">__WIN_RATE_MICRO__% (__TOTAL_GANADAS_MICRO__W - __TOTAL_PERDIDAS_MICRO__L)</td>
+              <td>Efectividad en el mismo periodo</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">P&L Realizado en el Periodo</td>
+              <td class="__PNL_CLASE_MACRO_SYNC__" style="font-weight:700;">__PNL_MACRO_SYNC__</td>
+              <td class="__PNL_CLASE_MICRO__" style="font-weight:700;">__PNL_REALIZADO_MICRO__</td>
+              <td>Ganancia/pérdida neta del periodo</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">ROI % en el Periodo</td>
+              <td class="__PNL_CLASE_MACRO_SYNC__" style="font-weight:700;">__ROI_MACRO_SYNC__%</td>
+              <td class="__PNL_CLASE_MICRO__" style="font-weight:700;">__ROI_MICRO__%</td>
+              <td>Retorno relativo sobre capital base</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Profit Factor en el Periodo</td>
+              <td style="color:#fbbf24; font-weight:600;">__PF_MACRO_SYNC__</td>
+              <td style="color:#fbbf24; font-weight:600;">__PROFIT_FACTOR_MICRO__</td>
+              <td>Ratio Ganancias / Pérdidas</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Posiciones Abiertas en Vivo</td>
+              <td>__ACTIVE_COUNT_COPY__ / 35 max</td>
+              <td style="color:#38bdf8; font-weight:600;">__ACTIVE_COUNT_MICRO__ / 10 max</td>
+              <td>Ocupación de cupo actual</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Capital en Riesgo Activo</td>
+              <td>__CAPITAL_EN_RIESGO_COPY__</td>
+              <td style="color:#38bdf8; font-weight:600;">__CAPITAL_EN_RIESGO_MICRO__</td>
+              <td>USDC invertido en posiciones vivas</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Capital Disponible (Efectivo)</td>
               <td style="font-weight:600;">__CAPITAL_ACTUAL_COPY__</td>
               <td style="color:#38bdf8; font-weight:600;">__CAPITAL_ACTUAL_MICRO__</td>
-              <td>Disponible para nuevas ops</td>
+              <td>Saldo libre para nuevas ops</td>
             </tr>
             <tr>
-              <td style="text-align:left; font-weight:600;">Valor Neto / Equity</td>
+              <td style="text-align:left; font-weight:600;">Valor Neto / Equity Actual</td>
               <td style="font-weight:600;">__NET_EQUITY_COPY_VAL__</td>
               <td style="color:#38bdf8; font-weight:600;">__NET_EQUITY_MICRO_VAL__</td>
               <td>Efectivo + P&L flotante</td>
-            </tr>
-            <tr>
-              <td style="text-align:left; font-weight:600;">USDC en Riesgo Activo</td>
-              <td>__CAPITAL_EN_RIESGO_COPY__ (__ACTIVE_COUNT_COPY__/35 ops)</td>
-              <td style="color:#38bdf8; font-weight:600;">__CAPITAL_EN_RIESGO_MICRO__ (__ACTIVE_COUNT_MICRO__/10 ops)</td>
-              <td>35 max vs 10 max</td>
-            </tr>
-            <tr>
-              <td style="text-align:left; font-weight:600;">P&L Realizado Acumulado</td>
-              <td class="__PNL_CLASE_COPY__" style="font-weight:700;">__PNL_REALIZADO_COPY__</td>
-              <td class="__PNL_CLASE_MICRO__" style="font-weight:700;">__PNL_REALIZADO_MICRO__</td>
-              <td>Ganancia/pérdida neta</td>
-            </tr>
-            <tr>
-              <td style="text-align:left; font-weight:600;">ROI % Realizado</td>
-              <td class="__PNL_CLASE_COPY__" style="font-weight:700;">__ROI_COPY__%</td>
-              <td class="__PNL_CLASE_MICRO__" style="font-weight:700;">__ROI_MICRO__%</td>
-              <td>Retorno sobre capital</td>
-            </tr>
-            <tr>
-              <td style="text-align:left; font-weight:600;">Win Rate Global</td>
-              <td style="color:#fbbf24; font-weight:600;">__WIN_RATE_COPY__% (__TOTAL_GANADAS_COPY__W - __TOTAL_PERDIDAS_COPY__L)</td>
-              <td style="color:#fbbf24; font-weight:600;">__WIN_RATE_MICRO__% (__TOTAL_GANADAS_MICRO__W - __TOTAL_PERDIDAS_MICRO__L)</td>
-              <td>Tasa de efectividad</td>
             </tr>
             <tr>
               <td style="text-align:left; font-weight:600;">Rango de Inversión / Trade</td>
@@ -2719,7 +2789,7 @@ tr:hover td {
         </table>
       </div>
 
-      <!-- Métricas Micro Grid -->
+      <!-- Métricas Micro Grid con Comparación Sincronizada -->
       <div class="grid-metricas" style="margin-bottom:1.5rem; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));">
         <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
           <h4>Capital Micro</h4>
@@ -2737,19 +2807,19 @@ tr:hover td {
           <div class="sub">En __ACTIVE_COUNT_MICRO__/10 posiciones</div>
         </div>
         <div class="card-m" style="--accent: #10b981; --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.25)">
-          <h4>P&L Realizado</h4>
+          <h4>P&L Realizado Micro</h4>
           <div class="val __PNL_CLASE_MICRO__">__PNL_REALIZADO_MICRO__</div>
-          <div class="sub">ROI: __ROI_MICRO__%</div>
+          <div class="sub">ROI: __ROI_MICRO__% (Macro: __ROI_MACRO_SYNC__%)</div>
         </div>
         <div class="card-m" style="--accent: #fbbf24; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
           <h4>Win Rate Micro</h4>
           <div class="val" style="color:#fbbf24;">__WIN_RATE_MICRO__%</div>
-          <div class="sub">__TOTAL_GANADAS_MICRO__W · __TOTAL_PERDIDAS_MICRO__L</div>
+          <div class="sub">__TOTAL_GANADAS_MICRO__W · __TOTAL_PERDIDAS_MICRO__L (Macro: __WR_MACRO_SYNC__%)</div>
         </div>
         <div class="card-m" style="--accent: #fbbf24; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
           <h4>Profit Factor Micro</h4>
           <div class="val __PF_CLASE_MICRO__">__PROFIT_FACTOR_MICRO__</div>
-          <div class="sub">Ganancias / Pérdidas</div>
+          <div class="sub">Macro sync: __PF_MACRO_SYNC__</div>
         </div>
       </div>
 
@@ -3758,6 +3828,18 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
     html_content = html_content.replace("__PF_CLASE_MICRO__", micro_pf_clase)
     html_content = html_content.replace("__OPS_ABIERTAS_MICRO_HTML__", ops_abiertas_micro_html)
     html_content = html_content.replace("__OPS_CERRADAS_MICRO_HTML__", ops_cerradas_micro_html)
+
+    # Comparación Sincronizada Macro ($1,000) vs Micro ($70)
+    html_content = html_content.replace("__FECHA_INICIO_EXP_STR__", fecha_inicio_exp_str)
+    html_content = html_content.replace("__TOTAL_CERRADAS_MACRO_SYNC__", str(total_cerradas_macro_sync))
+    html_content = html_content.replace("__TOTAL_CERRADAS_MICRO_SYNC__", str(len(micro_hist_cerradas)))
+    html_content = html_content.replace("__PNL_MACRO_SYNC__", f"{pnl_sign_macro_sync}${pnl_macro_sync:,.2f}")
+    html_content = html_content.replace("__PNL_CLASE_MACRO_SYNC__", pnl_clase_macro_sync)
+    html_content = html_content.replace("__ROI_MACRO_SYNC__", f"{roi_macro_sync:+.1f}")
+    html_content = html_content.replace("__WR_MACRO_SYNC__", f"{wr_macro_sync:.1f}")
+    html_content = html_content.replace("__WINS_MACRO_SYNC__", str(wins_macro_sync))
+    html_content = html_content.replace("__LOSSES_MACRO_SYNC__", str(losses_macro_sync))
+    html_content = html_content.replace("__PF_MACRO_SYNC__", pf_macro_sync_str)
 
     # Reemplazos Gráficos y JS Arrays
     html_content = html_content.replace("__FECHAS_RENDIMIENTO_COMP__", json.dumps(chart_labels_comp))
