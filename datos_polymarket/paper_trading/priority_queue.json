@@ -1,106 +1,34 @@
 [
   {
-    "id": "4904690",
-    "pregunta": "Dota 2: Team Spirit vs Team Nemesis - Game 2 Winner",
-    "ts": "2026-09-29T07:33:00.783546",
+    "id": "4949304",
+    "pregunta": "Valorant: Karmine Corp vs NRG - Map 1 Winner",
+    "ts": "2026-09-29T07:42:51.137972",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc3fcad6dd903e59c211c24e54520143f50b5e0d",
+    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4904729",
     "pregunta": "Dota 2: 1win vs Natus Vincere - Game 1 Winner",
-    "ts": "2026-09-29T07:33:01.843705",
+    "ts": "2026-09-29T07:42:55.524626",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc3fcad6dd903e59c211c24e54520143f50b5e0d",
+    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5063925",
-    "pregunta": "Will the highest temperature in Paris be 23\u00b0C on September 30?",
-    "ts": "2026-09-29T07:33:03.769278",
+    "id": "4904691",
+    "pregunta": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
+    "ts": "2026-09-29T07:43:07.893009",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
+    "whale_wallet": "0xe039017cb29eaa426838e2b7f7fdc47cc3918b8f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5063917",
-    "pregunta": "Will the highest temperature in London be 24\u00b0C on September 30?",
-    "ts": "2026-09-29T07:33:04.867016",
+    "id": "4949306",
+    "pregunta": "Valorant: Karmine Corp vs NRG (BO3) - VCT Champions Group D",
+    "ts": "2026-09-29T07:43:10.168670",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064055",
-    "pregunta": "Will the highest temperature in Madrid be 27\u00b0C on September 30?",
-    "ts": "2026-09-29T07:33:05.921108",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116384",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on October 1?",
-    "ts": "2026-09-29T07:33:07.061222",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5066858",
-    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on September 30?",
-    "ts": "2026-09-29T07:33:08.114674",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073514",
-    "pregunta": "Will the highest temperature in Buenos Aires be 18\u00b0C on September 30?",
-    "ts": "2026-09-29T07:33:09.272539",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5066888",
-    "pregunta": "Will the highest temperature in Denver be between 58-59\u00b0F on September 30?",
-    "ts": "2026-09-29T07:33:10.365274",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064141",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on September 30?",
-    "ts": "2026-09-29T07:33:11.435068",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5066847",
-    "pregunta": "Will the highest temperature in New York City be between 76-77\u00b0F on September 30?",
-    "ts": "2026-09-29T07:33:12.515742",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x302648b3a3d7434ac62a6e77eb5fbeb507000aec",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5083428",
-    "pregunta": "Hangzhou Open: Daniil Medvedev vs Andrey Rublev",
-    "ts": "2026-09-29T07:33:14.238965",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5083430",
-    "pregunta": "Chengdu Open: Hubert Hurkacz vs Alejandro Davidovich Fokina",
-    "ts": "2026-09-29T07:33:15.295910",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
+    "whale_wallet": "0x6dd9b2a9559fafebc3fa0bf860b56ca3a56fbfe8",
     "whale_signal": "COMPRAR NO"
   }
 ]
