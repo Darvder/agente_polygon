@@ -1,74 +1,26 @@
 [
   {
+    "id": "4838703",
+    "pregunta": "Saitama Seibu Lions vs. Orix Buffaloes",
+    "ts": "2026-09-28T19:33:41.169483",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4589735",
     "pregunta": "Will Honduras win on 2026-09-28?",
-    "ts": "2026-09-28T19:23:43.982595",
+    "ts": "2026-09-28T19:33:43.630463",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe16f112b529ff5ee751276998b2242d760aca33f",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3695205",
-    "pregunta": "Eagles vs. Bears",
-    "ts": "2026-09-28T19:23:45.944288",
+    "id": "4589731",
+    "pregunta": "Will Jamaica win on 2026-09-28?",
+    "ts": "2026-09-28T19:33:44.690441",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919667",
-    "pregunta": "Eagles vs. Bears: O/U 41.5",
-    "ts": "2026-09-28T19:23:47.036927",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012380",
-    "pregunta": "Will the highest temperature in Wellington be 17\u00b0C on September 29?",
-    "ts": "2026-09-28T19:23:49.152946",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012620",
-    "pregunta": "Will the highest temperature in Helsinki be 16\u00b0C on September 29?",
-    "ts": "2026-09-28T19:23:50.255490",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012498",
-    "pregunta": "Will the highest temperature in Warsaw be 21\u00b0C on September 29?",
-    "ts": "2026-09-28T19:23:51.394600",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5029174",
-    "pregunta": "Will the highest temperature in Sao Paulo be 31\u00b0C on September 29?",
-    "ts": "2026-09-28T19:23:52.552389",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012411",
-    "pregunta": "Will the highest temperature in Tel Aviv be 29\u00b0C on September 29?",
-    "ts": "2026-09-28T19:23:53.688193",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5012336",
-    "pregunta": "Will the highest temperature in London be 24\u00b0C on September 29?",
-    "ts": "2026-09-28T19:23:54.792032",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0490410d659e0a27e33ce5a0c50c4591acf74526",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
