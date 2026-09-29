@@ -1,42 +1,58 @@
 [
   {
-    "id": "4984139",
-    "pregunta": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Group B",
-    "ts": "2026-09-29T16:24:39.760322",
+    "id": "5063291",
+    "pregunta": "Will the lowest temperature in Shanghai be 23\u00b0C on September 30?",
+    "ts": "2026-09-29T16:34:18.790774",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4f05c0604d0baae70b03e3eefdbb1cfb6b60140f",
+    "whale_wallet": "0x14ea883bd3d672bbf5e349a4feac068b9a006867",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5071581",
-    "pregunta": "China Open: Karen Khachanov vs Felix Auger-Aliassime",
-    "ts": "2026-09-29T16:24:40.832439",
+    "id": "5063290",
+    "pregunta": "Will the lowest temperature in Shanghai be 22\u00b0C on September 30?",
+    "ts": "2026-09-29T16:34:19.912887",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4f05c0604d0baae70b03e3eefdbb1cfb6b60140f",
+    "whale_wallet": "0x14ea883bd3d672bbf5e349a4feac068b9a006867",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073579",
-    "pregunta": "Chicago White Sox vs. Houston Astros",
-    "ts": "2026-09-29T16:24:41.882069",
+    "id": "5063191",
+    "pregunta": "Will the lowest temperature in Paris be 19\u00b0C on September 30?",
+    "ts": "2026-09-29T16:34:21.159699",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4f05c0604d0baae70b03e3eefdbb1cfb6b60140f",
+    "whale_wallet": "0x14ea883bd3d672bbf5e349a4feac068b9a006867",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5139267",
-    "pregunta": "Counter-Strike: Krytiepacani vs Omega (BO3) - CIS LAN Championship Group D",
-    "ts": "2026-09-29T16:24:43.740679",
+    "id": "5063181",
+    "pregunta": "Will the lowest temperature in London be 18\u00b0C on September 30?",
+    "ts": "2026-09-29T16:34:22.237350",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_wallet": "0x14ea883bd3d672bbf5e349a4feac068b9a006867",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5069342",
-    "pregunta": "LoL: Solary vs DN SOOPers Challengers (BO5) - World Star Challengers Invitational Playoffs",
-    "ts": "2026-09-29T16:24:45.672718",
+    "id": "5115679",
+    "pregunta": "Will the lowest temperature in Hong Kong be 28\u00b0C on October 1?",
+    "ts": "2026-09-29T16:34:23.499859",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8388dcf25f308fbfce21fefe9961f40fc880e38a",
+    "whale_wallet": "0x14ea883bd3d672bbf5e349a4feac068b9a006867",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5115604",
+    "pregunta": "Will the lowest temperature in Seoul (Incheon) be 16\u00b0C on October 1?",
+    "ts": "2026-09-29T16:34:24.724103",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x14ea883bd3d672bbf5e349a4feac068b9a006867",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5100088",
+    "pregunta": "Counter-Strike: Procyon Gaming vs Turma do Pagode - Map 1 Winner",
+    "ts": "2026-09-29T16:34:29.238446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x55d7139e5373d6dd1546366256ef9c443b55e3ee",
     "whale_signal": "COMPRAR NO"
   }
 ]
