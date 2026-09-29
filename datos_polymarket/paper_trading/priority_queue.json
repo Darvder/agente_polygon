@@ -1,10 +1,42 @@
 [
   {
+    "id": "4904690",
+    "pregunta": "Dota 2: Team Spirit vs Team Nemesis - Game 2 Winner",
+    "ts": "2026-09-29T06:52:20.229767",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4908363",
     "pregunta": "Valorant: G2 Esports vs Paper Rex (BO3) - VCT Champions Group C",
-    "ts": "2026-09-29T06:42:35.406702",
+    "ts": "2026-09-29T06:52:22.030625",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4609859",
+    "pregunta": "Will England win on 2026-09-29?",
+    "ts": "2026-09-29T06:52:23.078934",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4584874",
+    "pregunta": "Will Brazil win on 2026-09-29?",
+    "ts": "2026-09-29T06:52:24.126241",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5090897",
+    "pregunta": "M25 Slobozia: Ryo Tabata vs Gabriel Ghetu",
+    "ts": "2026-09-29T06:52:26.998409",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
     "whale_signal": "COMPRAR NO"
   }
 ]
