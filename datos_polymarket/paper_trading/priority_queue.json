@@ -1,10 +1,34 @@
 [
   {
-    "id": "3369459",
-    "pregunta": "Will the Democratic Party candidate win the 2026 Rhode Island gubernatorial election by 15%-20%?",
-    "ts": "2026-09-29T21:04:45.666438",
+    "id": "4880588",
+    "pregunta": "Will Peru win on 2026-09-29?",
+    "ts": "2026-09-29T21:12:36.838502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa24d776fbbbd868fb3e6d9832bf59ceca77c7857",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5119852",
+    "pregunta": "W35 Wagga Wagga: Riko Kikawada vs Yuka Hosoki",
+    "ts": "2026-09-29T21:12:37.934986",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889426",
+    "pregunta": "Mexico vs. Peru: O/U 2.5",
+    "ts": "2026-09-29T21:12:39.004526",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889427",
+    "pregunta": "Mexico vs. Peru: O/U 3.5",
+    "ts": "2026-09-29T21:12:40.098221",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
