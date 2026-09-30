@@ -1,8 +1,40 @@
 [
   {
-    "id": "4633796",
-    "pregunta": "Sport Lisboa e Benfica vs. FC Bayern M\u00fcnchen: O/U 3.5",
-    "ts": "2026-09-30T14:24:36.154212",
+    "id": "608545",
+    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+    "ts": "2026-09-30T14:33:19.384563",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4633799",
+    "pregunta": "Sport Lisboa e Benfica vs. FC Bayern M\u00fcnchen: Both Teams to Score",
+    "ts": "2026-09-30T14:33:21.077074",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4907157",
+    "pregunta": "Maccabi Tel Aviv vs. Besiktas",
+    "ts": "2026-09-30T14:33:22.123384",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4633830",
+    "pregunta": "OL Lyonnes vs. Chelsea FC: O/U 3.5",
+    "ts": "2026-09-30T14:33:23.168333",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4633835",
+    "pregunta": "OL Lyonnes vs. Chelsea FC: 1st Half O/U 0.5",
+    "ts": "2026-09-30T14:33:24.211955",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
@@ -10,57 +42,25 @@
   {
     "id": "4637371",
     "pregunta": "Eastleigh FC vs. Southend United FC: O/U 2.5",
-    "ts": "2026-09-30T14:24:37.201011",
+    "ts": "2026-09-30T14:33:25.255334",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4633789",
-    "pregunta": "Spread: FC Bayern M\u00fcnchen (-1.5)",
-    "ts": "2026-09-30T14:24:38.248836",
+    "id": "4623080",
+    "pregunta": "Will FC Bayern M\u00fcnchen win on 2026-09-30?",
+    "ts": "2026-09-30T14:33:26.299820",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678632",
-    "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-09-30T14:24:39.290803",
+    "id": "5073584",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-09-30T14:33:27.347305",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679537",
-    "pregunta": "Greece vs. Netherlands: Both Teams to Score",
-    "ts": "2026-09-30T14:24:41.971934",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe506523f108fa294bcfeb85ef47966eee914f702",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678652",
-    "pregunta": "Will Kosovo win on 2026-10-01?",
-    "ts": "2026-09-30T14:24:43.106219",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe506523f108fa294bcfeb85ef47966eee914f702",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678611",
-    "pregunta": "Will Austria win on 2026-10-01?",
-    "ts": "2026-09-30T14:24:44.246082",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe506523f108fa294bcfeb85ef47966eee914f702",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "561229",
-    "pregunta": "Will JD Vance win the 2028 US Presidential Election?",
-    "ts": "2026-09-30T14:24:46.066683",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b53b93cb2d8bfa02064e980fb7ad7272886615d",
     "whale_signal": "COMPRAR NO"
   }
 ]
