@@ -1,34 +1,10 @@
 [
   {
-    "id": "4790499",
-    "pregunta": "CS Cienciano vs. CD Los Chankas: O/U 2.5",
-    "ts": "2026-09-30T16:53:02.582671",
+    "id": "4648864",
+    "pregunta": "Will CS Cienciano vs. CD Los Chankas end in a draw?",
+    "ts": "2026-09-30T17:04:50.932140",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4648862",
-    "pregunta": "Will CS Cienciano win on 2026-09-30?",
-    "ts": "2026-09-30T16:53:03.646270",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119537",
-    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on October 1?",
-    "ts": "2026-09-30T16:53:07.582843",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x92524a0366d680c5309a50b9b5d84e386d8ed235",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119547",
-    "pregunta": "Will the highest temperature in Miami be between 84-85\u00b0F on October 1?",
-    "ts": "2026-09-30T16:53:08.731141",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x92524a0366d680c5309a50b9b5d84e386d8ed235",
+    "whale_wallet": "0xb4cd4d6fe596f360137e5a0441fecc4e1ec9c041",
     "whale_signal": "COMPRAR NO"
   }
 ]
