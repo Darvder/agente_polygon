@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "5090350",
+    "pregunta": "Counter-Strike: K27 vs BakS eSports - Map 2 Winner",
+    "ts": "2026-09-30T12:03:01.488358",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5143371",
+    "pregunta": "LoL: G2 NORD vs BOMBA Team - Game 1 Winner",
+    "ts": "2026-09-30T12:03:02.731930",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134071",
+    "pregunta": "Dota 2: Level UP vs Xtreme Gaming (BO3) - BLAST Slam Group A",
+    "ts": "2026-09-30T12:03:03.802491",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134068",
+    "pregunta": "Dota 2: Level UP vs Xtreme Gaming - Game 2 Winner",
+    "ts": "2026-09-30T12:03:05.046635",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134065",
+    "pregunta": "Dota 2: Level UP vs Xtreme Gaming - Game 1 Winner",
+    "ts": "2026-09-30T12:03:06.125531",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134142",
+    "pregunta": "Dota 2: Team Nemesis vs Natus Vincere (BO3) - BLAST Slam Group B",
+    "ts": "2026-09-30T12:03:07.191410",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  }
+]
