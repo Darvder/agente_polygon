@@ -1,34 +1,26 @@
 [
   {
-    "id": "4880588",
-    "pregunta": "Will Peru win on 2026-09-29?",
-    "ts": "2026-09-29T21:12:36.838502",
+    "id": "4880587",
+    "pregunta": "Will Mexico vs. Peru end in a draw?",
+    "ts": "2026-09-29T21:22:51.167578",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119852",
-    "pregunta": "W35 Wagga Wagga: Riko Kikawada vs Yuka Hosoki",
-    "ts": "2026-09-29T21:12:37.934986",
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-29T21:22:52.227386",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4889426",
-    "pregunta": "Mexico vs. Peru: O/U 2.5",
-    "ts": "2026-09-29T21:12:39.004526",
+    "id": "4952600",
+    "pregunta": "Minnesota Lynx vs. New York Liberty",
+    "ts": "2026-09-29T21:22:56.084446",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4889427",
-    "pregunta": "Mexico vs. Peru: O/U 3.5",
-    "ts": "2026-09-29T21:12:40.098221",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x2f4df86a47a90d201cdf85b2e779be3bc0d3448f",
     "whale_signal": "COMPRAR NO"
   }
 ]
