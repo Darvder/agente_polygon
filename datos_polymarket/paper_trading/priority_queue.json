@@ -1,58 +1,34 @@
 [
   {
+    "id": "4903407",
+    "pregunta": "Sydney Kings vs. Brisbane Bullets",
+    "ts": "2026-09-30T05:03:10.524160",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5121073",
     "pregunta": "Jingshan: Wushuang Zheng vs Sara Sorribes Tormo",
-    "ts": "2026-09-30T04:54:20.462651",
+    "ts": "2026-09-30T05:03:11.612676",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4993126",
-    "pregunta": "Spread: Argentina (-2.5)",
-    "ts": "2026-09-30T04:54:21.643722",
+    "id": "5123773",
+    "pregunta": "W75 Quinta do Lago: Naiktha Bains vs Maria Martinez Vaquero",
+    "ts": "2026-09-30T05:03:12.682428",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073514",
-    "pregunta": "Will the highest temperature in Buenos Aires be 18\u00b0C on September 30?",
-    "ts": "2026-09-30T04:54:23.595639",
+    "id": "630964",
+    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
+    "ts": "2026-09-30T05:03:14.644087",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073528",
-    "pregunta": "Will the highest temperature in Toronto be 24\u00b0C on September 30?",
-    "ts": "2026-09-30T04:54:24.727621",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116451",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 32\u00b0C on October 1?",
-    "ts": "2026-09-30T04:54:25.810537",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116270",
-    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on October 1?",
-    "ts": "2026-09-30T04:54:26.893349",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116232",
-    "pregunta": "Will the highest temperature in Tel Aviv be 27\u00b0C on October 1?",
-    "ts": "2026-09-30T04:54:28.059168",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_wallet": "0xfe2d0b7350141c8413da4ab3eb72b5d71026da35",
     "whale_signal": "COMPRAR NO"
   }
 ]
