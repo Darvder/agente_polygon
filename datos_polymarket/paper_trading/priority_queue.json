@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4613430",
+    "pregunta": "Will Sri Lanka win on 2026-09-30?",
+    "ts": "2026-09-30T10:52:44.406977",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe368544ba7ea1c6edfb949c5b2b44c765460e9ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070174",
+    "pregunta": "China Open: Anna Bondar vs Renata Zarazua",
+    "ts": "2026-09-30T10:52:45.449911",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe368544ba7ea1c6edfb949c5b2b44c765460e9ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4656132",
+    "pregunta": "Lithuania vs. Andorra: Lithuania 1st Half O/U 1.5",
+    "ts": "2026-09-30T10:52:46.635271",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe368544ba7ea1c6edfb949c5b2b44c765460e9ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4638557",
+    "pregunta": "Lithuania leading at halftime?",
+    "ts": "2026-09-30T10:52:47.765176",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe368544ba7ea1c6edfb949c5b2b44c765460e9ed",
+    "whale_signal": "COMPRAR NO"
+  }
+]
