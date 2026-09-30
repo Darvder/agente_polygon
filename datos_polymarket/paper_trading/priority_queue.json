@@ -1,10 +1,34 @@
 [
   {
-    "id": "4648864",
-    "pregunta": "Will CS Cienciano vs. CD Los Chankas end in a draw?",
-    "ts": "2026-09-30T17:04:50.932140",
+    "id": "5067672",
+    "pregunta": "Will the highest temperature in Austin be between 94-95\u00b0F on September 30?",
+    "ts": "2026-09-30T17:13:10.633319",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb4cd4d6fe596f360137e5a0441fecc4e1ec9c041",
+    "whale_wallet": "0x0380c7e3badb822ea73a6b9cbc220c182313fefc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2431413",
+    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
+    "ts": "2026-09-30T17:13:14.095873",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xed8b0c9b88efb12391f7f2aa8f6060772cfb7954",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "608547",
+    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "ts": "2026-09-30T17:13:15.172532",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xed8b0c9b88efb12391f7f2aa8f6060772cfb7954",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1450214",
+    "pregunta": "Trump declares election interference national emergency by December 31?",
+    "ts": "2026-09-30T17:13:16.264587",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xed8b0c9b88efb12391f7f2aa8f6060772cfb7954",
     "whale_signal": "COMPRAR NO"
   }
 ]
