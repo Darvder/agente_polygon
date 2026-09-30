@@ -1,42 +1,26 @@
 [
   {
-    "id": "5145307",
-    "pregunta": "W100 Templeton, CA: Victoria Bosio vs Kate Fakih",
-    "ts": "2026-09-30T18:22:36.501107",
+    "id": "4527589",
+    "pregunta": "Will New York Red Bulls win on 2026-09-26?",
+    "ts": "2026-09-30T18:33:11.649982",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5008832",
-    "pregunta": "Sacramento Republic FC vs. Las Vegas Lights: O/U 3.5",
-    "ts": "2026-09-30T18:22:38.625188",
+    "id": "4895424",
+    "pregunta": "Montevideo City Torque vs. CA Penarol Montevideo: O/U 4.5",
+    "ts": "2026-09-30T18:33:12.695292",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8065905876f1746f4d7321c3d7eee503080d49d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5146204",
-    "pregunta": "Spread: Maple Leafs (-1.5)",
-    "ts": "2026-09-30T18:22:39.668963",
+    "id": "4527592",
+    "pregunta": "Will New York Red Bulls vs. St. Louis City SC end in a draw?",
+    "ts": "2026-09-30T18:33:13.746463",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8065905876f1746f4d7321c3d7eee503080d49d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5164995",
-    "pregunta": "Atlanta Dream vs. Washington Mystics: O/U 166.5",
-    "ts": "2026-09-30T18:22:40.725266",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa8065905876f1746f4d7321c3d7eee503080d49d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4895431",
-    "pregunta": "Montevideo City Torque vs. CA Penarol Montevideo: 1st Half O/U 0.5",
-    "ts": "2026-09-30T18:22:41.832428",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa8065905876f1746f4d7321c3d7eee503080d49d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
