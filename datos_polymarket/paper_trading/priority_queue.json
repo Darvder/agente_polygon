@@ -1,18 +1,10 @@
 [
   {
-    "id": "4978501",
-    "pregunta": "Boston Red Sox vs. New York Yankees",
-    "ts": "2026-09-30T00:03:35.372001",
+    "id": "5130728",
+    "pregunta": "China Open: Viktorija Golubic vs Elvina Kalieva",
+    "ts": "2026-09-30T00:13:19.616912",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe08708ff38006cc3193decf5bbefbc087821ad15",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5146426",
-    "pregunta": "Boston Red Sox vs. New York Yankees: 1st 5 Innings O/U 3.5",
-    "ts": "2026-09-30T00:03:36.543270",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe08708ff38006cc3193decf5bbefbc087821ad15",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
