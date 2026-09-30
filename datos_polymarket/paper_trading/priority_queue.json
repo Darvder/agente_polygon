@@ -1,178 +1,82 @@
 [
   {
-    "id": "5116169",
-    "pregunta": "Will the highest temperature in Paris be 22\u00b0C on October 1?",
-    "ts": "2026-09-30T02:02:58.519803",
+    "id": "5063436",
+    "pregunta": "Will the lowest temperature in Amsterdam be 16\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:50.366530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119548",
-    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on October 1?",
-    "ts": "2026-09-30T02:02:59.590745",
+    "id": "5064188",
+    "pregunta": "Will the highest temperature in Amsterdam be 24\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:51.412329",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119569",
-    "pregunta": "Will the highest temperature in Austin be between 86-87\u00b0F on October 1?",
-    "ts": "2026-09-30T02:03:00.819646",
+    "id": "5064047",
+    "pregunta": "Will the highest temperature in Milan be 24\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:52.474097",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119523",
-    "pregunta": "Will the highest temperature in Dallas be between 78-79\u00b0F on October 1?",
-    "ts": "2026-09-30T02:03:01.884083",
+    "id": "5064109",
+    "pregunta": "Will the highest temperature in Beijing be 20\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:53.526398",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5116318",
-    "pregunta": "Will the highest temperature in Warsaw be 20\u00b0C on October 1?",
-    "ts": "2026-09-30T02:03:02.948010",
+    "id": "5064099",
+    "pregunta": "Will the highest temperature in Chongqing be 25\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:54.595405",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119537",
-    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on October 1?",
-    "ts": "2026-09-30T02:03:04.050210",
+    "id": "5064142",
+    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:55.644775",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119582",
-    "pregunta": "Will the highest temperature in Denver be between 66-67\u00b0F on October 1?",
-    "ts": "2026-09-30T02:03:05.156557",
+    "id": "5073516",
+    "pregunta": "Will the highest temperature in Buenos Aires be 20\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:56.693033",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5122323",
-    "pregunta": "Will the highest temperature in San Francisco be 71\u00b0F or below on October 1?",
-    "ts": "2026-09-30T02:03:06.393685",
+    "id": "5071563",
+    "pregunta": "China Open: Juan Manuel Cerundolo vs Yunchaokete Bu",
+    "ts": "2026-09-30T02:13:57.758246",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119584",
-    "pregunta": "Will the highest temperature in Denver be between 70-71\u00b0F on October 1?",
-    "ts": "2026-09-30T02:03:07.476108",
+    "id": "5064119",
+    "pregunta": "Will the highest temperature in Wuhan be 23\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:58.802951",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5122317",
-    "pregunta": "Will the highest temperature in Los Angeles be between 78-79\u00b0F on October 1?",
-    "ts": "2026-09-30T02:03:08.568418",
+    "id": "5064056",
+    "pregunta": "Will the highest temperature in Madrid be 28\u00b0C on September 30?",
+    "ts": "2026-09-30T02:13:59.850310",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5067672",
-    "pregunta": "Will the highest temperature in Austin be between 94-95\u00b0F on September 30?",
-    "ts": "2026-09-30T02:03:09.635558",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5067662",
-    "pregunta": "Will the highest temperature in Dallas be between 92-93\u00b0F on September 30?",
-    "ts": "2026-09-30T02:03:10.736670",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5066888",
-    "pregunta": "Will the highest temperature in Denver be between 58-59\u00b0F on September 30?",
-    "ts": "2026-09-30T02:03:11.834083",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb650b856bd795479164e377ce0e40144d8e2dfc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5130726",
-    "pregunta": "China Open: Aliaksandra Sasnovich vs Talia Gibson",
-    "ts": "2026-09-30T02:03:16.076892",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5123589",
-    "pregunta": "M15 Baku: Rohan Mehra vs Kaya Arinc",
-    "ts": "2026-09-30T02:03:17.155673",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119874",
-    "pregunta": "W35 Wagga Wagga: Nana Onozawa vs Alana Subasic",
-    "ts": "2026-09-30T02:03:18.243216",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071567",
-    "pregunta": "China Open: Jan-Lennard Struff vs Thiago Agustin Tirante",
-    "ts": "2026-09-30T02:03:21.450856",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121606",
-    "pregunta": "Jingshan: Omar Jasika vs Dane Sweeny",
-    "ts": "2026-09-30T02:03:22.517434",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5123590",
-    "pregunta": "M15 Baku: Snir Morag vs Raghav Jaisinghani",
-    "ts": "2026-09-30T02:03:23.586213",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5130732",
-    "pregunta": "China Open: Daria Snigur vs Katarzyna Kawa",
-    "ts": "2026-09-30T02:03:25.713924",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5130718",
-    "pregunta": "China Open: Maddison Inglis vs Zeynep Sonmez",
-    "ts": "2026-09-30T02:03:28.042691",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5123587",
-    "pregunta": "M25 Darwin: Joshua Charlton vs Derek Pham",
-    "ts": "2026-09-30T02:03:29.315444",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
     "whale_signal": "COMPRAR NO"
   }
 ]
