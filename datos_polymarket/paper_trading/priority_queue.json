@@ -1,98 +1,26 @@
 [
   {
-    "id": "5148408",
-    "pregunta": "Will the highest temperature in Jeddah be 35\u00b0C on October 2?",
-    "ts": "2026-09-30T04:13:15.905639",
+    "id": "3205508",
+    "pregunta": "Gemini 4.0 released by September 30, 2026?",
+    "ts": "2026-09-30T04:22:51.888375",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5de17f431aa9f485e3a75f13150868091ec2c8ed",
+    "whale_wallet": "0x1355844b66e9f1438f657f592962c50cce5360ff",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4984138",
-    "pregunta": "Valorant: Team Vitality vs LOUD - Map 2 Winner",
-    "ts": "2026-09-30T04:13:18.065715",
+    "id": "5073775",
+    "pregunta": "LoL: T1 Academy vs Galions (BO5) - World Star Challengers Invitational Playoffs",
+    "ts": "2026-09-30T04:22:56.023934",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4984139",
     "pregunta": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Group B",
-    "ts": "2026-09-30T04:13:19.154846",
+    "ts": "2026-09-30T04:22:58.146189",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4904810",
-    "pregunta": "Dota 2: BetBoom Team vs OG - Game 2 Winner",
-    "ts": "2026-09-30T04:13:20.398877",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4984137",
-    "pregunta": "Valorant: Team Vitality vs LOUD - Map 1 Winner",
-    "ts": "2026-09-30T04:13:21.481069",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5133929",
-    "pregunta": "Dota 2: PARIVISION vs LGD Gaming - Game 1 Winner",
-    "ts": "2026-09-30T04:13:22.664119",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5139958",
-    "pregunta": "W35 Reims: Seda Baslilar vs Heerae Im",
-    "ts": "2026-09-30T04:13:24.659218",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xaa08417743ca4ed010ce0d27899b530e50fad98a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4819278",
-    "pregunta": "Spread: UTSA (-13.5)",
-    "ts": "2026-09-30T04:13:26.572553",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5144203",
-    "pregunta": "Will Trump say \"Truck\" or \"Trucker\" 20+ times during his remarks at Peterbilt Motors Company?",
-    "ts": "2026-09-30T04:13:27.750751",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5007996",
-    "pregunta": "Counter-Strike: EAC Extra vs ENCE Prospects - Map 1 Winner",
-    "ts": "2026-09-30T04:13:28.932823",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5143243",
-    "pregunta": "LoL: TLN Pirates vs Valerion (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T04:13:30.023043",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5143371",
-    "pregunta": "LoL: G2 NORD vs BOMBA Team - Game 1 Winner",
-    "ts": "2026-09-30T04:13:31.107970",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
