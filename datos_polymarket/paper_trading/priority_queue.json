@@ -1,26 +1,18 @@
 [
   {
-    "id": "4143606",
-    "pregunta": "Canucks vs. Oilers",
-    "ts": "2026-09-29T23:54:50.311489",
+    "id": "4978501",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-30T00:03:35.372001",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0xe08708ff38006cc3193decf5bbefbc087821ad15",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2371742",
-    "pregunta": "Will \"Digger\" be nominated for Best Picture at the 99th Academy Awards?",
-    "ts": "2026-09-29T23:54:53.207347",
+    "id": "5146426",
+    "pregunta": "Boston Red Sox vs. New York Yankees: 1st 5 Innings O/U 3.5",
+    "ts": "2026-09-30T00:03:36.543270",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x460a20d648c4601abfcd0c71ec37eb6dfd26d738",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3515299",
-    "pregunta": "Will Democrats win exactly 19 House seats in New York in the 2026 midterm elections?",
-    "ts": "2026-09-29T23:54:54.405677",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x460a20d648c4601abfcd0c71ec37eb6dfd26d738",
+    "whale_wallet": "0xe08708ff38006cc3193decf5bbefbc087821ad15",
     "whale_signal": "COMPRAR NO"
   }
 ]
