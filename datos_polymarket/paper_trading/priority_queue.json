@@ -1,50 +1,82 @@
 [
   {
-    "id": "4656105",
-    "pregunta": "Lithuania vs. Andorra: O/U 2.5",
-    "ts": "2026-09-30T11:22:38.784138",
+    "id": "4970464",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-09-30T11:33:07.878359",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4656119",
-    "pregunta": "Lithuania vs. Andorra: Lithuania O/U 0.5",
-    "ts": "2026-09-30T11:22:39.947440",
+    "id": "562793",
+    "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "ts": "2026-09-30T11:33:08.983977",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5046263",
-    "pregunta": "Will South Africa win on 2026-09-30?",
-    "ts": "2026-09-30T11:22:41.032229",
+    "id": "4641065",
+    "pregunta": "US x Iran ceasefire continues through October 31?",
+    "ts": "2026-09-30T11:33:10.103150",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5143243",
-    "pregunta": "LoL: TLN Pirates vs Valerion (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T11:22:43.261683",
+    "id": "2771492",
+    "pregunta": "Will Barcelona win the 2026-27 LALIGA Championship?",
+    "ts": "2026-09-30T11:33:11.315777",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc546071d20d315966fa50bb7469127d32edf058e",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5143242",
-    "pregunta": "LoL: TLN Pirates vs Valerion - Game 2 Winner",
-    "ts": "2026-09-30T11:22:44.391815",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-09-30T11:33:12.415088",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc546071d20d315966fa50bb7469127d32edf058e",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5143221",
-    "pregunta": "LoL: eSuba vs UCAM Esports Club (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T11:22:49.020225",
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-09-30T11:33:13.507386",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x10ef48324b3ebc06d9137794c70285e8e37a7d7b",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5143402",
+    "pregunta": "LoL: The Secret Club Esport vs SU Esports (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T11:33:14.630402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5114468",
+    "pregunta": "Will Elon Musk post 220-239 tweets from October 2 to October 9, 2026?",
+    "ts": "2026-09-30T11:33:15.827939",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5114357",
+    "pregunta": "Will CZ post 20-39 posts from October 2 to October 9, 2026?",
+    "ts": "2026-09-30T11:33:17.016235",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5114349",
+    "pregunta": "Will CZ post 0-19 posts from October 2 to October 9, 2026?",
+    "ts": "2026-09-30T11:33:18.201493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x700f7d3891b4458b091de3ef2a214db5f649ba06",
     "whale_signal": "COMPRAR NO"
   }
 ]
