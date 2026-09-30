@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "id": "5064232",
+    "pregunta": "Will the highest temperature in Cape Town be 34\u00b0C on September 30?",
+    "ts": "2026-09-30T02:42:52.155598",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148134",
+    "pregunta": "Will the highest temperature in Ankara be 18\u00b0C on October 2?",
+    "ts": "2026-09-30T02:42:53.297778",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148124",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 22\u00b0C on October 2?",
+    "ts": "2026-09-30T02:42:54.434869",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063945",
+    "pregunta": "Will the highest temperature in Ankara be 16\u00b0C on September 30?",
+    "ts": "2026-09-30T02:42:55.487310",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148113",
+    "pregunta": "Will the highest temperature in Paris be 21\u00b0C on October 2?",
+    "ts": "2026-09-30T02:42:56.653904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064099",
+    "pregunta": "Will the highest temperature in Chongqing be 25\u00b0C on September 30?",
+    "ts": "2026-09-30T02:42:57.691694",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064119",
+    "pregunta": "Will the highest temperature in Wuhan be 23\u00b0C on September 30?",
+    "ts": "2026-09-30T02:42:58.726769",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148189",
+    "pregunta": "Will the highest temperature in Tokyo be 22\u00b0C on October 2?",
+    "ts": "2026-09-30T02:42:59.892696",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064244",
+    "pregunta": "Will the highest temperature in Guangzhou be 38\u00b0C on September 30?",
+    "ts": "2026-09-30T02:43:01.013872",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064110",
+    "pregunta": "Will the highest temperature in Beijing be 21\u00b0C on September 30?",
+    "ts": "2026-09-30T02:43:02.073015",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5130726",
+    "pregunta": "China Open: Aliaksandra Sasnovich vs Talia Gibson",
+    "ts": "2026-09-30T02:43:03.109674",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073504",
+    "pregunta": "Will the highest temperature in Sao Paulo be 33\u00b0C on September 30?",
+    "ts": "2026-09-30T02:43:04.145788",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116428",
+    "pregunta": "Will the highest temperature in Amsterdam be 20\u00b0C on October 1?",
+    "ts": "2026-09-30T02:43:05.185571",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116384",
+    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on October 1?",
+    "ts": "2026-09-30T02:43:06.322183",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116385",
+    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on October 1?",
+    "ts": "2026-09-30T02:43:07.381099",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaf59289145789242a4af6b975997344229841ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5123589",
+    "pregunta": "M15 Baku: Rohan Mehra vs Kaya Arinc",
+    "ts": "2026-09-30T02:43:09.239342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x172fd932f161c1b1cf517f853d1c6194fba07cb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5119887",
+    "pregunta": "W15 Maanshan: Ha Yoon Son vs Darja Suvirdjonkova",
+    "ts": "2026-09-30T02:43:10.306700",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x172fd932f161c1b1cf517f853d1c6194fba07cb6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
