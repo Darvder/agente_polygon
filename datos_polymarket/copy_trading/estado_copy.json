@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1591.45,
-  "capital_en_riesgo": 315.97,
-  "n_ciclos": 38840,
-  "ultima_corrida": "2026-09-30 16:23",
+  "capital_actual": 1597.98,
+  "capital_en_riesgo": 307.8,
+  "n_ciclos": 38841,
+  "ultima_corrida": "2026-09-30 16:33",
   "n_tp": 609,
-  "n_sl": 406,
+  "n_sl": 407,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 34.44,
-    "capital_en_riesgo": 40.12,
+    "capital_actual": 34.39,
+    "capital_en_riesgo": 39.96,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 119,
-    "n_sl": 82,
+    "n_sl": 83,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-28",
@@ -171,7 +171,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.4245,
-        "precio_actual": 0.453,
+        "precio_actual": 0.452,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.37,
@@ -200,26 +200,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x9e517e29073ee7789dd875c6e1b3dc59b43773e18ea52b3bf0a4985f2c575634"
-      },
-      {
-        "fecha_entrada": "2026-09-30",
-        "fecha_entrada_dt": "2026-09-30 11:04",
-        "target_wallet": "0xb84510a7968bfe807842e026a3318e37b3937ade",
-        "market_id": "5150271",
-        "condition_id": "0xfc6b107d032c0c0f48dd1ad8e7e74108d5afd793e379956b4ab147e6079f3f75",
-        "token_id": "112808403106741104295458935398025529921284964558359774316788234056164539943045",
-        "pregunta": "Game Handicap: SU (-1.5) vs The Secret Club Esport (+1.5)",
-        "outcome": "The Secret Club Esport",
-        "precio_token_entrada": 0.535,
-        "precio_actual": 0.495,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.16,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x2b11fae99aa24140a2c3ab2b56b784e442f1b062fe90dec4698681b457fd8c4c"
       },
       {
         "fecha_entrada": "2026-09-30",
@@ -280,6 +260,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x5f05f1887f1bd6abf6dc7b9e92404bb03e57ffd4011ef9f02744f970d799fe76"
+      },
+      {
+        "fecha_entrada": "2026-09-30",
+        "fecha_entrada_dt": "2026-09-30 16:32",
+        "target_wallet": "0xa807ed91ff28cb4c66ce50ef97e26e0273401021",
+        "market_id": "4970462",
+        "condition_id": "0x3406da719d655d3c834bd0951e9f73fbee06f20b630f928a8de3639d1d3b7e4d",
+        "token_id": "110890675250118960475573891140472250343056279392590402476901590247986731631086",
+        "pregunta": "Will Elon Musk post 180-199 tweets from September 29 to October 6, 202",
+        "outcome": "No",
+        "precio_token_entrada": 0.745,
+        "precio_actual": 0.745,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0x2a9f7e7768dc2d5f8c3b464baa3b4e7cf053b3afe064647c0240046f1b8bae89"
       }
     ],
     "historial_cerradas": [
@@ -4302,6 +4302,26 @@
         "pnl_realizado": 2.79,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x32d6fd44a7845ccc14785abebd6dddcf70448ae3b1a50672332e088ab6ef90c8"
+      },
+      {
+        "fecha_entrada": "2026-09-30",
+        "fecha_entrada_dt": "2026-09-30 11:04",
+        "target_wallet": "0xb84510a7968bfe807842e026a3318e37b3937ade",
+        "market_id": "5150271",
+        "condition_id": "0xfc6b107d032c0c0f48dd1ad8e7e74108d5afd793e379956b4ab147e6079f3f75",
+        "token_id": "112808403106741104295458935398025529921284964558359774316788234056164539943045",
+        "pregunta": "Game Handicap: SU (-1.5) vs The Secret Club Esport (+1.5)",
+        "outcome": "The Secret Club Esport",
+        "precio_token_entrada": 0.535,
+        "precio_actual": 0.5,
+        "precio_cierre": 0.5,
+        "pct_cambio": -0.0654,
+        "monto_usdc": 3.16,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-30 16:33",
+        "pnl_realizado": -0.21,
+        "razon_cierre": "RESOLVED_EXIT",
+        "tx_hash": "0x2b11fae99aa24140a2c3ab2b56b784e442f1b062fe90dec4698681b457fd8c4c"
       }
     ]
   }
