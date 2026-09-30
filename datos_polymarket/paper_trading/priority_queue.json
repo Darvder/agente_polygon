@@ -1,18 +1,66 @@
 [
   {
-    "id": "4623065",
-    "pregunta": "Will Arsenal WFC win on 2026-09-30?",
-    "ts": "2026-09-30T13:34:22.876531",
+    "id": "5073551",
+    "pregunta": "Will the highest temperature in Panama City be 32\u00b0C on September 30?",
+    "ts": "2026-09-30T13:43:29.268521",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4623064",
-    "pregunta": "Will Paris FC vs. Arsenal WFC end in a draw?",
-    "ts": "2026-09-30T13:34:23.932574",
+    "id": "5073550",
+    "pregunta": "Will the highest temperature in Panama City be 31\u00b0C on September 30?",
+    "ts": "2026-09-30T13:43:30.311807",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073526",
+    "pregunta": "Will the highest temperature in Toronto be 22\u00b0C on September 30?",
+    "ts": "2026-09-30T13:43:31.363067",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116420",
+    "pregunta": "Will the highest temperature in Busan be 27\u00b0C on October 1?",
+    "ts": "2026-09-30T13:43:32.471229",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116418",
+    "pregunta": "Will the highest temperature in Busan be 25\u00b0C on October 1?",
+    "ts": "2026-09-30T13:43:33.698314",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116179",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 22\u00b0C on October 1?",
+    "ts": "2026-09-30T13:43:34.743187",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4633844",
+    "pregunta": "OL Lyonnes vs. Chelsea FC: OL Lyonnes 1st Half O/U 0.5",
+    "ts": "2026-09-30T13:43:37.648291",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4633840",
+    "pregunta": "OL Lyonnes vs. Chelsea FC: OL Lyonnes O/U 2.5",
+    "ts": "2026-09-30T13:43:38.714328",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa48525692d9c0fc2ece45fad35eff50799fc7b85",
     "whale_signal": "COMPRAR NO"
   }
 ]
