@@ -1,18 +1,26 @@
 [
   {
-    "id": "4984138",
-    "pregunta": "Valorant: Team Vitality vs LOUD - Map 2 Winner",
-    "ts": "2026-09-30T05:23:50.868162",
+    "id": "4613430",
+    "pregunta": "Will Sri Lanka win on 2026-09-30?",
+    "ts": "2026-09-30T05:33:04.132818",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4904809",
-    "pregunta": "Dota 2: BetBoom Team vs OG - Game 1 Winner",
-    "ts": "2026-09-30T05:23:55.040033",
+    "id": "4623069",
+    "pregunta": "Will Juventus FC win on 2026-09-30?",
+    "ts": "2026-09-30T05:33:05.959676",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5146421",
+    "pregunta": "Spread: New York Yankees (-1.5)",
+    "ts": "2026-09-30T05:33:07.025664",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
