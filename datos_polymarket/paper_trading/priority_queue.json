@@ -1,50 +1,10 @@
 [
   {
-    "id": "5073587",
-    "pregunta": "Chicago White Sox vs. Houston Astros",
-    "ts": "2026-09-30T18:02:15.993710",
+    "id": "5062314",
+    "pregunta": "Will Manchester City FC win on 2026-10-11?",
+    "ts": "2026-09-30T18:12:53.810615",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4648864",
-    "pregunta": "Will CS Cienciano vs. CD Los Chankas end in a draw?",
-    "ts": "2026-09-30T18:02:18.015200",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5146310",
-    "pregunta": "Counter-Strike: Gr\u00eamio Esports vs QUINTESS\u00caNCIA (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-30T18:02:19.083056",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5144486",
-    "pregunta": "Spread: Houston Astros (-1.5)",
-    "ts": "2026-09-30T18:02:20.152617",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4037599",
-    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-09-30T18:02:23.009975",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5132125",
-    "pregunta": "Curitiba: Joao Lucas Da Silva vs Matheus Pucinelli de Almeida",
-    "ts": "2026-09-30T18:02:24.072029",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
