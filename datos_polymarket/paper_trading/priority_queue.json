@@ -1,50 +1,58 @@
 [
   {
-    "id": "5143140",
-    "pregunta": "LoL: Bushido Wildcats vs MAGAZA (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T08:42:49.494903",
+    "id": "4679578",
+    "pregunta": "Spread: Germany (-1.5)",
+    "ts": "2026-09-30T08:52:30.963099",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5143132",
-    "pregunta": "LoL: Frites Esports Club vs The Otter Side (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T08:42:50.567566",
+    "id": "5046263",
+    "pregunta": "Will South Africa win on 2026-09-30?",
+    "ts": "2026-09-30T08:52:32.068691",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5007996",
-    "pregunta": "Counter-Strike: EAC Extra vs ENCE Prospects - Map 1 Winner",
-    "ts": "2026-09-30T08:42:51.828223",
+    "id": "4815377",
+    "pregunta": "West Virginia vs. Iowa State",
+    "ts": "2026-09-30T08:52:33.152047",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4904811",
-    "pregunta": "Dota 2: BetBoom Team vs OG (BO3) - BLAST Slam Group C",
-    "ts": "2026-09-30T08:42:52.891966",
+    "id": "5142532",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 7.5",
+    "ts": "2026-09-30T08:52:34.258498",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5007998",
-    "pregunta": "Counter-Strike: EAC Extra vs ENCE Prospects (BO3) - United21 Group A",
-    "ts": "2026-09-30T08:42:53.960158",
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-09-30T08:52:35.438909",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5030086",
-    "pregunta": "Valorant: 100 Thieves vs FUT Esports - Map 2 Winner",
-    "ts": "2026-09-30T08:42:55.028760",
+    "id": "4638508",
+    "pregunta": "Will Lithuania win on 2026-09-30?",
+    "ts": "2026-09-30T08:52:36.534844",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4965997",
+    "pregunta": "Will Tesla deliver between 475000 and 500000 vehicles in Q3 2026",
+    "ts": "2026-09-30T08:52:38.487088",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6086abd699b663c783c46a86524135a2ebd6a688",
     "whale_signal": "COMPRAR NO"
   }
 ]
