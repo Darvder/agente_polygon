@@ -1,18 +1,34 @@
 [
   {
-    "id": "3680999",
-    "pregunta": "Will the peak RONI for the 2026\u201327 El Ni\u00f1o be 2.5 or above?",
-    "ts": "2026-09-30T03:04:15.188477",
+    "id": "5069340",
+    "pregunta": "LoL: Solary vs DN SOOPers Challengers - Game 3 Winner",
+    "ts": "2026-09-30T03:12:51.319038",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
+    "whale_wallet": "0xca5f15ee1795b7d3df5ce1767ac5570badae41f5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2428745",
-    "pregunta": "Will the next Google Gemini Pro model added to the Arena Leaderboard debut at a score of at least 1495?",
-    "ts": "2026-09-30T03:04:18.858982",
+    "id": "2589813",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+    "ts": "2026-09-30T03:12:53.307964",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
+    "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5069338",
+    "pregunta": "LoL: Solary vs DN SOOPers Challengers - Game 1 Winner",
+    "ts": "2026-09-30T03:12:55.220047",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b8d7527a9489aa65b490d54ea2cc02c1f940e61",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5069339",
+    "pregunta": "LoL: Solary vs DN SOOPers Challengers - Game 2 Winner",
+    "ts": "2026-09-30T03:12:58.348634",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b8d7527a9489aa65b490d54ea2cc02c1f940e61",
     "whale_signal": "COMPRAR NO"
   }
 ]
