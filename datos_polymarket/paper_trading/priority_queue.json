@@ -1,34 +1,82 @@
 [
   {
-    "id": "4586462",
-    "pregunta": "Frontier AI lab pulls a model over safety concerns in 2026?",
-    "ts": "2026-09-29T22:13:59.939615",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2787890",
-    "pregunta": "US Government removes public access to a major Chinese AI model in 2026?",
-    "ts": "2026-09-29T22:14:09.703885",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2787889",
-    "pregunta": "US Government removes public access to another major AI model in 2026?",
-    "ts": "2026-09-29T22:14:10.746015",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4894936",
     "pregunta": "Will CA Penarol Montevideo win on 2026-09-30?",
-    "ts": "2026-09-29T22:14:12.583813",
+    "ts": "2026-09-29T22:24:13.319599",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5d468a92c921cf07de03335455636a399f40ae34",
+    "whale_wallet": "0xc68a8a00d4fcc389ec9a3baf828fbbee19e265a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5016493",
+    "pregunta": "Deportivo Alav\u00e9s vs. Club Atl\u00e9tico de Madrid: O/U 1.5",
+    "ts": "2026-09-29T22:24:15.464308",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070146",
+    "pregunta": "China Open: Janice Tjen vs Anhelina Kalinina",
+    "ts": "2026-09-29T22:24:16.532504",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071554",
+    "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Alexander Blockx",
+    "ts": "2026-09-29T22:24:17.593972",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4143622",
+    "pregunta": "Spread: Golden Knights (-1.5)",
+    "ts": "2026-09-29T22:24:18.666442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055956",
+    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 8.5",
+    "ts": "2026-09-29T22:24:19.723674",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4143616",
+    "pregunta": "Canucks vs. Oilers: O/U 7.5",
+    "ts": "2026-09-29T22:24:20.828888",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5041277",
+    "pregunta": "Jingshan: Masamichi Imamura vs Petr Bar Biryukov",
+    "ts": "2026-09-29T22:24:22.084319",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055951",
+    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 7.5",
+    "ts": "2026-09-29T22:24:23.143110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4143608",
+    "pregunta": "Spread: Oilers (-1.5)",
+    "ts": "2026-09-29T22:24:24.216789",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
     "whale_signal": "COMPRAR NO"
   }
 ]
