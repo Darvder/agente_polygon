@@ -1,26 +1,34 @@
 [
   {
-    "id": "5070118",
-    "pregunta": "Jingshan: Sijia Wei vs Fiona Ferro",
-    "ts": "2026-09-30T06:02:47.097661",
+    "id": "5066868",
+    "pregunta": "Will the highest temperature in Miami be between 84-85\u00b0F on September 30?",
+    "ts": "2026-09-30T06:12:43.222870",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4984139",
-    "pregunta": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Group B",
-    "ts": "2026-09-30T06:02:50.781995",
+    "id": "5116273",
+    "pregunta": "Will the highest temperature in Shanghai be 25\u00b0C on October 1?",
+    "ts": "2026-09-30T06:12:44.316161",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5121590",
-    "pregunta": "China Open: Zhizhen Zhang vs Arthur Gea",
-    "ts": "2026-09-30T06:02:55.656453",
+    "id": "5116270",
+    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on October 1?",
+    "ts": "2026-09-30T06:12:45.373450",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc6d31274f26801474805e71f1480a5a29cb36e",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116275",
+    "pregunta": "Will the highest temperature in Shanghai be 26\u00b0C on October 1?",
+    "ts": "2026-09-30T06:12:46.456113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
     "whale_signal": "COMPRAR NO"
   }
 ]
