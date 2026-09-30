@@ -1,18 +1,50 @@
 [
   {
-    "id": "4904811",
-    "pregunta": "Dota 2: BetBoom Team vs OG (BO3) - BLAST Slam Group C",
-    "ts": "2026-09-30T08:32:57.768966",
+    "id": "5143140",
+    "pregunta": "LoL: Bushido Wildcats vs MAGAZA (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T08:42:49.494903",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "608547",
-    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
-    "ts": "2026-09-30T08:32:59.741897",
+    "id": "5143132",
+    "pregunta": "LoL: Frites Esports Club vs The Otter Side (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T08:42:50.567566",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb016f2b417f98c88fc91fffe7e69d4a6b1c7dfb",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5007996",
+    "pregunta": "Counter-Strike: EAC Extra vs ENCE Prospects - Map 1 Winner",
+    "ts": "2026-09-30T08:42:51.828223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904811",
+    "pregunta": "Dota 2: BetBoom Team vs OG (BO3) - BLAST Slam Group C",
+    "ts": "2026-09-30T08:42:52.891966",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5007998",
+    "pregunta": "Counter-Strike: EAC Extra vs ENCE Prospects (BO3) - United21 Group A",
+    "ts": "2026-09-30T08:42:53.960158",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5030086",
+    "pregunta": "Valorant: 100 Thieves vs FUT Esports - Map 2 Winner",
+    "ts": "2026-09-30T08:42:55.028760",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   }
 ]
