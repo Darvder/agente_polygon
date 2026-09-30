@@ -1,18 +1,58 @@
 [
   {
-    "id": "4889426",
-    "pregunta": "Mexico vs. Peru: O/U 2.5",
-    "ts": "2026-09-29T21:55:35.145935",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-09-29T22:03:38.426517",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871431",
+    "pregunta": "Chiefs vs. Raiders",
+    "ts": "2026-09-29T22:03:39.479718",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063937",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 25\u00b0C on September 30?",
+    "ts": "2026-09-29T22:03:41.942255",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5066846",
+    "pregunta": "Will the highest temperature in New York City be between 74-75\u00b0F on September 30?",
+    "ts": "2026-09-29T22:03:43.001277",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067673",
+    "pregunta": "Will the highest temperature in Austin be between 96-97\u00b0F on September 30?",
+    "ts": "2026-09-29T22:03:44.072000",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5113482",
+    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne - Map 2 Winner",
+    "ts": "2026-09-29T22:03:45.786453",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5113483",
     "pregunta": "Counter-Strike: LAG Gaming vs Marsborne (BO3) - ESL Challenger League North America Cup #2 Playoffs",
-    "ts": "2026-09-29T21:55:36.253201",
+    "ts": "2026-09-29T22:03:46.829151",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   }
 ]
