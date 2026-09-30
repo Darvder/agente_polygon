@@ -1,26 +1,18 @@
 [
   {
-    "id": "5070170",
-    "pregunta": "China Open: Caty McNally vs Dayana Yastremska",
-    "ts": "2026-09-29T23:22:29.269319",
+    "id": "4679461",
+    "pregunta": "Spread: Norway (-2.5)",
+    "ts": "2026-09-29T23:33:38.212626",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
+    "whale_wallet": "0xb9e3ed9bd2da0e142610e336e6df90339dd08cf2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4633830",
-    "pregunta": "OL Lyonnes vs. Chelsea FC: O/U 3.5",
-    "ts": "2026-09-29T23:22:30.353195",
+    "id": "4679580",
+    "pregunta": "Spread: Germany (-2.5)",
+    "ts": "2026-09-29T23:33:39.312549",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25595e38cdcf1598550a7bf8a0f71ee9593a6dd9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2785447",
-    "pregunta": "Chicago Fire FC vs. Vancouver Whitecaps FC: O/U 3.5",
-    "ts": "2026-09-29T23:22:32.468124",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x033f0346c007323030eb420305ffede19a95618e",
+    "whale_wallet": "0xb9e3ed9bd2da0e142610e336e6df90339dd08cf2",
     "whale_signal": "COMPRAR NO"
   }
 ]
