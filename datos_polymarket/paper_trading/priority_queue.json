@@ -1,58 +1,18 @@
 [
   {
-    "id": "4613430",
-    "pregunta": "Will Sri Lanka win on 2026-09-30?",
-    "ts": "2026-09-30T01:03:52.563661",
+    "id": "4678638",
+    "pregunta": "Will Denmark win on 2026-10-01?",
+    "ts": "2026-09-30T01:14:21.274271",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4952602",
-    "pregunta": "Golden State Valkyries vs. Dallas Wings",
-    "ts": "2026-09-30T01:03:53.645275",
+    "id": "5130732",
+    "pregunta": "China Open: Daria Snigur vs Katarzyna Kawa",
+    "ts": "2026-09-30T01:14:23.157738",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4622487",
-    "pregunta": "Spread: Sri Lanka (-1.5)",
-    "ts": "2026-09-30T01:03:55.520133",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4875557",
-    "pregunta": "New Zealand Breakers vs. Cairns Taipans",
-    "ts": "2026-09-30T01:03:56.582947",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4903407",
-    "pregunta": "Sydney Kings vs. Brisbane Bullets",
-    "ts": "2026-09-30T01:03:57.746863",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063998",
-    "pregunta": "Will the highest temperature in Tokyo be 20\u00b0C on September 30?",
-    "ts": "2026-09-30T01:03:59.749349",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa8d922dfb9d1fdb5ad9d821e7c06e01d5e530f50",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063999",
-    "pregunta": "Will the highest temperature in Tokyo be 21\u00b0C on September 30?",
-    "ts": "2026-09-30T01:04:00.832302",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa8d922dfb9d1fdb5ad9d821e7c06e01d5e530f50",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
