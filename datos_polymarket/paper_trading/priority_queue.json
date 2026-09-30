@@ -1,66 +1,122 @@
 [
   {
+    "id": "5119546",
+    "pregunta": "Will the highest temperature in Miami be between 82-83\u00b0F on October 1?",
+    "ts": "2026-09-29T19:22:55.959773",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5119582",
+    "pregunta": "Will the highest temperature in Denver be between 66-67\u00b0F on October 1?",
+    "ts": "2026-09-29T19:22:57.008933",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116384",
+    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on October 1?",
+    "ts": "2026-09-29T19:22:58.052876",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5122306",
+    "pregunta": "Will the highest temperature in Seattle be between 68-69\u00b0F on October 1?",
+    "ts": "2026-09-29T19:22:59.098891",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067663",
+    "pregunta": "Will the highest temperature in Dallas be between 94-95\u00b0F on September 30?",
+    "ts": "2026-09-29T19:23:00.143641",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5122326",
+    "pregunta": "Will the highest temperature in San Francisco be between 76-77\u00b0F on October 1?",
+    "ts": "2026-09-29T19:23:01.329170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5119590",
+    "pregunta": "Will the highest temperature in Houston be between 88-89\u00b0F on October 1?",
+    "ts": "2026-09-29T19:23:02.549779",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064110",
+    "pregunta": "Will the highest temperature in Beijing be 21\u00b0C on September 30?",
+    "ts": "2026-09-29T19:23:05.839199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064166",
+    "pregunta": "Will the highest temperature in Istanbul be 21\u00b0C on September 30?",
+    "ts": "2026-09-29T19:23:06.880230",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064155",
+    "pregunta": "Will the highest temperature in Moscow be 17\u00b0C on September 30?",
+    "ts": "2026-09-29T19:23:07.921954",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064154",
+    "pregunta": "Will the highest temperature in Moscow be 16\u00b0C on September 30?",
+    "ts": "2026-09-29T19:23:08.967974",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063969",
+    "pregunta": "Will the highest temperature in Lucknow be 31\u00b0C on September 30?",
+    "ts": "2026-09-29T19:23:10.012602",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063926",
+    "pregunta": "Will the highest temperature in Paris be 24\u00b0C on September 30?",
+    "ts": "2026-09-29T19:23:11.053388",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5073964",
     "pregunta": "Chicago White Sox vs. Houston Astros: O/U 9.5",
-    "ts": "2026-09-29T19:15:57.952152",
+    "ts": "2026-09-29T19:23:15.350538",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4792512",
-    "pregunta": "Spread: Botafogo FC (-2.5)",
-    "ts": "2026-09-29T19:15:59.020125",
+    "id": "5073962",
+    "pregunta": "Spread: Chicago White Sox (-2.5)",
+    "ts": "2026-09-29T19:23:16.435320",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4792522",
-    "pregunta": "Botafogo FC vs. AA Ponte Preta: O/U 2.5",
-    "ts": "2026-09-29T19:16:00.099956",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-29T19:16:03.277505",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-09-29T19:16:04.341918",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4978501",
-    "pregunta": "Boston Red Sox vs. New York Yankees",
-    "ts": "2026-09-29T19:16:05.624209",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T19:16:06.693974",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4893561",
-    "pregunta": "Dana White's Contender Series: Zaurbek Sabanov vs. Adama Diop (Heavyweight, Main Card)",
-    "ts": "2026-09-29T19:16:09.069615",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb8ee94bd599a92d4747dda5f3bc6d2b243349e81",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   }
 ]
