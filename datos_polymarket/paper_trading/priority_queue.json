@@ -1,42 +1,10 @@
 [
   {
-    "id": "4637371",
-    "pregunta": "Eastleigh FC vs. Southend United FC: O/U 2.5",
-    "ts": "2026-09-30T10:14:07.403169",
+    "id": "5013940",
+    "pregunta": "Curitiba: Gonzalo Villanueva vs Juan Carlos Prado",
+    "ts": "2026-09-30T10:23:05.693140",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5013938",
-    "pregunta": "Curitiba: Guido Justo vs Franco Roncadelli",
-    "ts": "2026-09-30T10:14:08.500315",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5123826",
-    "pregunta": "W75 Quinta do Lago: Caroline Werner vs Eva Vedder",
-    "ts": "2026-09-30T10:14:09.596546",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5070174",
-    "pregunta": "China Open: Anna Bondar vs Renata Zarazua",
-    "ts": "2026-09-30T10:14:10.697459",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4882983",
-    "pregunta": "Will the price of Bitcoin be above $84,000 on September 30?",
-    "ts": "2026-09-30T10:14:12.847453",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xc04cb9838e64771be9d2ae12cf11c41abd72cebf",
     "whale_signal": "COMPRAR NO"
   }
 ]
