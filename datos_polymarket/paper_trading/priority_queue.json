@@ -1,122 +1,66 @@
 [
   {
-    "id": "5119546",
-    "pregunta": "Will the highest temperature in Miami be between 82-83\u00b0F on October 1?",
-    "ts": "2026-09-29T19:22:55.959773",
+    "id": "3207270",
+    "pregunta": "Will Millonarios FC win on 2026-08-11?",
+    "ts": "2026-09-29T19:34:06.989962",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119582",
-    "pregunta": "Will the highest temperature in Denver be between 66-67\u00b0F on October 1?",
-    "ts": "2026-09-29T19:22:57.008933",
+    "id": "3875337",
+    "pregunta": "Spread: Steelers (-2.5)",
+    "ts": "2026-09-29T19:34:08.042516",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5116384",
-    "pregunta": "Will the highest temperature in Shenzhen be 32\u00b0C on October 1?",
-    "ts": "2026-09-29T19:22:58.052876",
+    "id": "5029261",
+    "pregunta": "Chicago Cubs vs. San Diego Padres",
+    "ts": "2026-09-29T19:34:09.175942",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5122306",
-    "pregunta": "Will the highest temperature in Seattle be between 68-69\u00b0F on October 1?",
-    "ts": "2026-09-29T19:22:59.098891",
+    "id": "4143621",
+    "pregunta": "Blackhawks vs. Golden Knights",
+    "ts": "2026-09-29T19:34:10.235729",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5067663",
-    "pregunta": "Will the highest temperature in Dallas be between 94-95\u00b0F on September 30?",
-    "ts": "2026-09-29T19:23:00.143641",
+    "id": "4889427",
+    "pregunta": "Mexico vs. Peru: O/U 3.5",
+    "ts": "2026-09-29T19:34:11.309882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5122326",
-    "pregunta": "Will the highest temperature in San Francisco be between 76-77\u00b0F on October 1?",
-    "ts": "2026-09-29T19:23:01.329170",
+    "id": "4986603",
+    "pregunta": "Will \"Patient Zero\" hit 45m first week streams?",
+    "ts": "2026-09-29T19:34:13.387702",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_wallet": "0x225b7c9aaf6108ded29b9fda9939aa671ef6422a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119590",
-    "pregunta": "Will the highest temperature in Houston be between 88-89\u00b0F on October 1?",
-    "ts": "2026-09-29T19:23:02.549779",
+    "id": "4893371",
+    "pregunta": "Will \"Patient Zero\" hit 50m first week streams?",
+    "ts": "2026-09-29T19:34:14.550910",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc965b39a17dd12e2d42918db57cae017296dfd",
+    "whale_wallet": "0x225b7c9aaf6108ded29b9fda9939aa671ef6422a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5064110",
-    "pregunta": "Will the highest temperature in Beijing be 21\u00b0C on September 30?",
-    "ts": "2026-09-29T19:23:05.839199",
+    "id": "5028985",
+    "pregunta": "Rhode Island FC vs. Indy Eleven: O/U 3.5",
+    "ts": "2026-09-29T19:34:17.529852",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064166",
-    "pregunta": "Will the highest temperature in Istanbul be 21\u00b0C on September 30?",
-    "ts": "2026-09-29T19:23:06.880230",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064155",
-    "pregunta": "Will the highest temperature in Moscow be 17\u00b0C on September 30?",
-    "ts": "2026-09-29T19:23:07.921954",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064154",
-    "pregunta": "Will the highest temperature in Moscow be 16\u00b0C on September 30?",
-    "ts": "2026-09-29T19:23:08.967974",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063969",
-    "pregunta": "Will the highest temperature in Lucknow be 31\u00b0C on September 30?",
-    "ts": "2026-09-29T19:23:10.012602",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063926",
-    "pregunta": "Will the highest temperature in Paris be 24\u00b0C on September 30?",
-    "ts": "2026-09-29T19:23:11.053388",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x49cbca398b6abf3fb26d2ef06ce9300b16cffd4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073964",
-    "pregunta": "Chicago White Sox vs. Houston Astros: O/U 9.5",
-    "ts": "2026-09-29T19:23:15.350538",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073962",
-    "pregunta": "Spread: Chicago White Sox (-2.5)",
-    "ts": "2026-09-29T19:23:16.435320",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_wallet": "0x97b98443fe1f085d50d2fb1f6b27b7e9c24c3a45",
     "whale_signal": "COMPRAR NO"
   }
 ]
