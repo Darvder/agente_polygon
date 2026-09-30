@@ -1,50 +1,82 @@
 [
   {
-    "id": "4639459",
-    "pregunta": "Belize vs. St. Vincent and the Grenadines: O/U 3.5",
-    "ts": "2026-09-29T22:54:07.722108",
+    "id": "4889426",
+    "pregunta": "Mexico vs. Peru: O/U 2.5",
+    "ts": "2026-09-29T23:02:48.411996",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4618236",
-    "pregunta": "Will St. Vincent and the Grenadines win on 2026-09-29?",
-    "ts": "2026-09-29T22:54:08.814641",
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-29T23:02:49.454641",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5113483",
-    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne (BO3) - ESL Challenger League North America Cup #2 Playoffs",
-    "ts": "2026-09-29T22:54:09.921304",
+    "id": "4880587",
+    "pregunta": "Will Mexico vs. Peru end in a draw?",
+    "ts": "2026-09-29T23:02:50.497805",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4639457",
-    "pregunta": "Belize vs. St. Vincent and the Grenadines: O/U 1.5",
-    "ts": "2026-09-29T22:54:11.088352",
+    "id": "5071554",
+    "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Alexander Blockx",
+    "ts": "2026-09-29T23:02:51.545669",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143606",
-    "pregunta": "Canucks vs. Oilers",
-    "ts": "2026-09-29T22:54:14.408167",
+    "id": "5071540",
+    "pregunta": "Japan Open Tennis Championships: Alejandro Tabilo vs Tommy Paul",
+    "ts": "2026-09-29T23:02:52.586699",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4639458",
-    "pregunta": "Belize vs. St. Vincent and the Grenadines: O/U 2.5",
-    "ts": "2026-09-29T22:54:15.472476",
+    "id": "5071581",
+    "pregunta": "China Open: Karen Khachanov vs Felix Auger-Aliassime",
+    "ts": "2026-09-29T23:02:53.631687",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070160",
+    "pregunta": "China Open: Darja Vidmanova vs Maria Timofeeva",
+    "ts": "2026-09-29T23:02:54.673629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070170",
+    "pregunta": "China Open: Caty McNally vs Dayana Yastremska",
+    "ts": "2026-09-29T23:02:55.717856",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08fbce1c8eef258e81562880d89631c453b96dbb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055951",
+    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 7.5",
+    "ts": "2026-09-29T23:02:57.508682",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed38d810b127567c6f63021ac2ef9224b12274c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070142",
+    "pregunta": "China Open: Gabriela Ruse vs Lilli Tagger",
+    "ts": "2026-09-29T23:02:58.551688",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed38d810b127567c6f63021ac2ef9224b12274c",
     "whale_signal": "COMPRAR NO"
   }
 ]
