@@ -1,82 +1,10 @@
 [
   {
-    "id": "5063436",
-    "pregunta": "Will the lowest temperature in Amsterdam be 16\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:50.366530",
+    "id": "5130726",
+    "pregunta": "China Open: Aliaksandra Sasnovich vs Talia Gibson",
+    "ts": "2026-09-30T02:24:47.468370",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064188",
-    "pregunta": "Will the highest temperature in Amsterdam be 24\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:51.412329",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064047",
-    "pregunta": "Will the highest temperature in Milan be 24\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:52.474097",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064109",
-    "pregunta": "Will the highest temperature in Beijing be 20\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:53.526398",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064099",
-    "pregunta": "Will the highest temperature in Chongqing be 25\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:54.595405",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064142",
-    "pregunta": "Will the highest temperature in Shenzhen be 33\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:55.644775",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073516",
-    "pregunta": "Will the highest temperature in Buenos Aires be 20\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:56.693033",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071563",
-    "pregunta": "China Open: Juan Manuel Cerundolo vs Yunchaokete Bu",
-    "ts": "2026-09-30T02:13:57.758246",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064119",
-    "pregunta": "Will the highest temperature in Wuhan be 23\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:58.802951",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064056",
-    "pregunta": "Will the highest temperature in Madrid be 28\u00b0C on September 30?",
-    "ts": "2026-09-30T02:13:59.850310",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcee6a215f2de749afd3a6a74721cc0c4fbb80a45",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
