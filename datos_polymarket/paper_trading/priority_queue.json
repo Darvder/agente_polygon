@@ -1,34 +1,146 @@
 [
   {
-    "id": "4889414",
-    "pregunta": "Spread: Mexico (-1.5)",
-    "ts": "2026-09-29T19:53:29.623746",
+    "id": "5116427",
+    "pregunta": "Will the highest temperature in Amsterdam be 19\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:08.976213",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116188",
+    "pregunta": "Will the highest temperature in Ankara be 16\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:10.176078",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064109",
+    "pregunta": "Will the highest temperature in Beijing be 20\u00b0C on September 30?",
+    "ts": "2026-09-29T20:04:11.237007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116417",
+    "pregunta": "Will the highest temperature in Busan be 24\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:12.388556",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064230",
+    "pregunta": "Will the highest temperature in Cape Town be 32\u00b0C on September 30?",
+    "ts": "2026-09-29T20:04:13.445290",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064242",
+    "pregunta": "Will the highest temperature in Guangzhou be 36\u00b0C on September 30?",
+    "ts": "2026-09-29T20:04:14.500100",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116485",
+    "pregunta": "Will the highest temperature in Guangzhou be 35\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:15.557151",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116440",
+    "pregunta": "Will the highest temperature in Helsinki be 15\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:16.748436",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116406",
+    "pregunta": "Will the highest temperature in Istanbul be 19\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:17.811202",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063915",
+    "pregunta": "Will the highest temperature in London be 22\u00b0C on September 30?",
+    "ts": "2026-09-29T20:04:19.003138",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116155",
+    "pregunta": "Will the highest temperature in London be 20\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:20.051493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116168",
+    "pregunta": "Will the highest temperature in Paris be 21\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:21.101123",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063936",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 24\u00b0C on September 30?",
+    "ts": "2026-09-29T20:04:22.150888",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064143",
+    "pregunta": "Will the highest temperature in Shenzhen be 34\u00b0C on September 30?",
+    "ts": "2026-09-29T20:04:23.208250",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116284",
+    "pregunta": "Will the highest temperature in Singapore be 30\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:24.251862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073528",
+    "pregunta": "Will the highest temperature in Toronto be 24\u00b0C on September 30?",
+    "ts": "2026-09-29T20:04:25.315176",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116317",
+    "pregunta": "Will the highest temperature in Warsaw be 19\u00b0C on October 1?",
+    "ts": "2026-09-29T20:04:26.373033",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889426",
+    "pregunta": "Mexico vs. Peru: O/U 2.5",
+    "ts": "2026-09-29T20:04:29.823639",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4889425",
-    "pregunta": "Mexico vs. Peru: O/U 1.5",
-    "ts": "2026-09-29T19:53:30.672678",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4143576",
-    "pregunta": "Canadiens vs. Maple Leafs",
-    "ts": "2026-09-29T19:53:32.859138",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613424",
-    "pregunta": "Will United States win on 2026-09-29?",
-    "ts": "2026-09-29T19:53:34.920644",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b49aab8934c441ee58edc9382e3d4222c64a",
     "whale_signal": "COMPRAR NO"
   }
 ]
