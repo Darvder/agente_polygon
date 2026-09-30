@@ -1,26 +1,74 @@
 [
   {
-    "id": "5073773",
-    "pregunta": "LoL: T1 Academy vs Galions - Game 3 Winner",
-    "ts": "2026-09-30T06:52:42.252494",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xac93767444a4fc0b5fc120fae76b54d2d090a0ac",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073774",
-    "pregunta": "LoL: T1 Academy vs Galions - Game 4 Winner",
-    "ts": "2026-09-30T06:52:43.313668",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xac93767444a4fc0b5fc120fae76b54d2d090a0ac",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4904810",
     "pregunta": "Dota 2: BetBoom Team vs OG - Game 2 Winner",
-    "ts": "2026-09-30T06:52:59.129193",
+    "ts": "2026-09-30T07:02:39.520004",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x21c7001ff2f9c4fbb002258688f1629cc24842e7",
+    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5030085",
+    "pregunta": "Valorant: 100 Thieves vs FUT Esports - Map 1 Winner",
+    "ts": "2026-09-30T07:02:41.604127",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3369180",
+    "pregunta": "Will the Democratic Party candidate win the 2026 New Mexico gubernatorial election by 15%-20%?",
+    "ts": "2026-09-30T07:02:45.260458",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128a26ad86e95f1393d103093177211ddfe387b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116275",
+    "pregunta": "Will the highest temperature in Shanghai be 26\u00b0C on October 1?",
+    "ts": "2026-09-30T07:02:46.298819",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128a26ad86e95f1393d103093177211ddfe387b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1395720",
+    "pregunta": "Will Atlanta Braves win the 2026 National League Championship Series?",
+    "ts": "2026-09-30T07:02:47.509924",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128a26ad86e95f1393d103093177211ddfe387b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116317",
+    "pregunta": "Will the highest temperature in Warsaw be 19\u00b0C on October 1?",
+    "ts": "2026-09-30T07:02:50.697599",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128a26ad86e95f1393d103093177211ddfe387b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5066858",
+    "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on September 30?",
+    "ts": "2026-09-30T07:02:51.926088",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128a26ad86e95f1393d103093177211ddfe387b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150744",
+    "pregunta": "W35 Wagga Wagga: Riko Kikawada vs Hikaru Sato",
+    "ts": "2026-09-30T07:02:54.917317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc0762b4c35b4cfc16b68e68b06440c4e365b328",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116772",
+    "pregunta": "National Cricket League, Women: Western Australia vs Tasmania",
+    "ts": "2026-09-30T07:02:55.958113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc0762b4c35b4cfc16b68e68b06440c4e365b328",
     "whale_signal": "COMPRAR NO"
   }
 ]
