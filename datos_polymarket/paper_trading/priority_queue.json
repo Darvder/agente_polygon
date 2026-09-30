@@ -1,74 +1,58 @@
 [
   {
-    "id": "5064189",
-    "pregunta": "Will the highest temperature in Amsterdam be 25\u00b0C on September 30?",
-    "ts": "2026-09-30T00:54:22.477147",
+    "id": "4613430",
+    "pregunta": "Will Sri Lanka win on 2026-09-30?",
+    "ts": "2026-09-30T01:03:52.563661",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5070146",
-    "pregunta": "China Open: Janice Tjen vs Anhelina Kalinina",
-    "ts": "2026-09-30T00:54:24.402899",
+    "id": "4952602",
+    "pregunta": "Golden State Valkyries vs. Dallas Wings",
+    "ts": "2026-09-30T01:03:53.645275",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5070165",
-    "pregunta": "China Open: Maya Joint vs Sinja Kraus",
-    "ts": "2026-09-30T00:54:25.496999",
+    "id": "4622487",
+    "pregunta": "Spread: Sri Lanka (-1.5)",
+    "ts": "2026-09-30T01:03:55.520133",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
+    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5041269",
-    "pregunta": "Jingshan: Lloyd Harris vs Alexis Galarneau",
-    "ts": "2026-09-30T00:54:26.567641",
+    "id": "4875557",
+    "pregunta": "New Zealand Breakers vs. Cairns Taipans",
+    "ts": "2026-09-30T01:03:56.582947",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
+    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5130732",
-    "pregunta": "China Open: Daria Snigur vs Katarzyna Kawa",
-    "ts": "2026-09-30T00:54:27.632373",
+    "id": "4903407",
+    "pregunta": "Sydney Kings vs. Brisbane Bullets",
+    "ts": "2026-09-30T01:03:57.746863",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
+    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5121602",
-    "pregunta": "Jingshan: Marat Sharipov vs Dalibor Svrcina",
-    "ts": "2026-09-30T00:54:28.710481",
+    "id": "5063998",
+    "pregunta": "Will the highest temperature in Tokyo be 20\u00b0C on September 30?",
+    "ts": "2026-09-30T01:03:59.749349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
+    "whale_wallet": "0xa8d922dfb9d1fdb5ad9d821e7c06e01d5e530f50",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5071540",
-    "pregunta": "Japan Open Tennis Championships: Alejandro Tabilo vs Tommy Paul",
-    "ts": "2026-09-30T00:54:29.807512",
+    "id": "5063999",
+    "pregunta": "Will the highest temperature in Tokyo be 21\u00b0C on September 30?",
+    "ts": "2026-09-30T01:04:00.832302",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5130728",
-    "pregunta": "China Open: Viktorija Golubic vs Elvina Kalieva",
-    "ts": "2026-09-30T00:54:30.974724",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121606",
-    "pregunta": "Jingshan: Omar Jasika vs Dane Sweeny",
-    "ts": "2026-09-30T00:54:32.039092",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x34facd6b9382b427072e0c5dfc8546ed0eb10a20",
+    "whale_wallet": "0xa8d922dfb9d1fdb5ad9d821e7c06e01d5e530f50",
     "whale_signal": "COMPRAR NO"
   }
 ]
