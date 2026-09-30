@@ -1,26 +1,50 @@
 [
   {
-    "id": "3205508",
-    "pregunta": "Gemini 4.0 released by September 30, 2026?",
-    "ts": "2026-09-30T04:22:51.888375",
+    "id": "5121592",
+    "pregunta": "Bari: Gianluca Cadenasso vs Lorenzo Angelini",
+    "ts": "2026-09-30T04:33:31.650649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1355844b66e9f1438f657f592962c50cce5360ff",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073775",
-    "pregunta": "LoL: T1 Academy vs Galions (BO5) - World Star Challengers Invitational Playoffs",
-    "ts": "2026-09-30T04:22:56.023934",
+    "id": "5081323",
+    "pregunta": "Spread: Sydney Kings (-7.5)",
+    "ts": "2026-09-30T04:33:32.692950",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4984139",
-    "pregunta": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Group B",
-    "ts": "2026-09-30T04:22:58.146189",
+    "id": "5071563",
+    "pregunta": "China Open: Juan Manuel Cerundolo vs Yunchaokete Bu",
+    "ts": "2026-09-30T04:33:33.745825",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5146614",
+    "pregunta": "Will Bitcoin dip to $82,000 on September 30?",
+    "ts": "2026-09-30T04:33:35.528238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8ead02ce460b8173074db5f350a7d4d39ee5f333",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5146610",
+    "pregunta": "Will Bitcoin reach $85,000 on September 30?",
+    "ts": "2026-09-30T04:33:36.680597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8ead02ce460b8173074db5f350a7d4d39ee5f333",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904813",
+    "pregunta": "Game Handicap: BB (-1.5) vs OG (+1.5)",
+    "ts": "2026-09-30T04:33:39.305622",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0df43b68f72c2533523cf7daa38808360a4a2680",
     "whale_signal": "COMPRAR NO"
   }
 ]
