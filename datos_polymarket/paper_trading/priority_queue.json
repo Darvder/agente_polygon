@@ -1,50 +1,74 @@
 [
   {
-    "id": "5121592",
-    "pregunta": "Bari: Gianluca Cadenasso vs Lorenzo Angelini",
-    "ts": "2026-09-30T04:33:31.650649",
+    "id": "5144203",
+    "pregunta": "Will Trump say \"Truck\" or \"Trucker\" 20+ times during his remarks at Peterbilt Motors Company?",
+    "ts": "2026-09-30T04:45:00.282075",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5081323",
-    "pregunta": "Spread: Sydney Kings (-7.5)",
-    "ts": "2026-09-30T04:33:32.692950",
+    "id": "5144233",
+    "pregunta": "Will Trump say \"ICE\" during his rally in Oklahoma?",
+    "ts": "2026-09-30T04:45:01.420336",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5144219",
+    "pregunta": "Will Trump say \"Job\" 15+ times during his rally in Oklahoma?",
+    "ts": "2026-09-30T04:45:02.610556",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5144223",
+    "pregunta": "Will Trump say \"Smelter\" during his rally in Oklahoma?",
+    "ts": "2026-09-30T04:45:03.801601",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5144221",
+    "pregunta": "Will Trump say \"SI\" or \"Super Intelligence\" during his rally in Oklahoma?",
+    "ts": "2026-09-30T04:45:05.896618",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5105350",
+    "pregunta": "Will Nike say \"NikeSKIMS\" during earnings call?",
+    "ts": "2026-09-30T04:45:07.103935",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5071563",
     "pregunta": "China Open: Juan Manuel Cerundolo vs Yunchaokete Bu",
-    "ts": "2026-09-30T04:33:33.745825",
+    "ts": "2026-09-30T04:45:08.659321",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5146614",
-    "pregunta": "Will Bitcoin dip to $82,000 on September 30?",
-    "ts": "2026-09-30T04:33:35.528238",
+    "id": "3685354",
+    "pregunta": "Will there be no next Google Gemini Pro model release by September 30, 2026?",
+    "ts": "2026-09-30T04:45:11.401568",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8ead02ce460b8173074db5f350a7d4d39ee5f333",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5146610",
-    "pregunta": "Will Bitcoin reach $85,000 on September 30?",
-    "ts": "2026-09-30T04:33:36.680597",
+    "id": "5073772",
+    "pregunta": "LoL: T1 Academy vs Galions - Game 2 Winner",
+    "ts": "2026-09-30T04:45:12.452910",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8ead02ce460b8173074db5f350a7d4d39ee5f333",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4904813",
-    "pregunta": "Game Handicap: BB (-1.5) vs OG (+1.5)",
-    "ts": "2026-09-30T04:33:39.305622",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0df43b68f72c2533523cf7daa38808360a4a2680",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
