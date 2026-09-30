@@ -1,10 +1,74 @@
 [
   {
+    "id": "5133999",
+    "pregunta": "Dota 2: Team Spirit vs 1win - Game 1 Winner",
+    "ts": "2026-09-30T07:42:44.645796",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904811",
+    "pregunta": "Dota 2: BetBoom Team vs OG (BO3) - BLAST Slam Group C",
+    "ts": "2026-09-30T07:42:46.292167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3221408",
+    "pregunta": "KBO: LG Twins vs. SSG Landers",
+    "ts": "2026-09-30T07:42:48.304052",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906503",
+    "pregunta": "KBO: NC Dinos vs. Doosan Bears",
+    "ts": "2026-09-30T07:42:49.488775",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4881744",
+    "pregunta": "Australia Tour of South Africa ODIs: South Africa vs Australia",
+    "ts": "2026-09-30T07:42:50.564962",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4881753",
+    "pregunta": "West Indies Tour of India ODIs: India vs West Indies",
+    "ts": "2026-09-30T07:42:52.571352",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d1d408f7378a5ce9db1e796b15fb5574aebf2df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5123760",
+    "pregunta": "W15 Sharm ElSheikh: Sandra Samir vs Liel Marlies Rothensteiner",
+    "ts": "2026-09-30T07:42:53.752816",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d1d408f7378a5ce9db1e796b15fb5574aebf2df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5071565",
     "pregunta": "China Open: Nuno Borges vs Novak Djokovic",
-    "ts": "2026-09-30T07:33:08.937077",
+    "ts": "2026-09-30T07:42:54.822861",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_wallet": "0x1d1d408f7378a5ce9db1e796b15fb5574aebf2df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139980",
+    "pregunta": "W35 Reims: Alina Nesmianovych vs Gina Marie Dittmann",
+    "ts": "2026-09-30T07:42:55.911836",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d1d408f7378a5ce9db1e796b15fb5574aebf2df",
     "whale_signal": "COMPRAR NO"
   }
 ]
