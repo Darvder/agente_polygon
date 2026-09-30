@@ -1,66 +1,42 @@
 [
   {
+    "id": "4880586",
+    "pregunta": "Will Mexico win on 2026-09-29?",
+    "ts": "2026-09-29T19:44:11.250544",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "3207270",
     "pregunta": "Will Millonarios FC win on 2026-08-11?",
-    "ts": "2026-09-29T19:34:06.989962",
+    "ts": "2026-09-29T19:44:12.314564",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875337",
-    "pregunta": "Spread: Steelers (-2.5)",
-    "ts": "2026-09-29T19:34:08.042516",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-09-29T19:44:13.367546",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5029261",
-    "pregunta": "Chicago Cubs vs. San Diego Padres",
-    "ts": "2026-09-29T19:34:09.175942",
+    "id": "4880587",
+    "pregunta": "Will Mexico vs. Peru end in a draw?",
+    "ts": "2026-09-29T19:44:14.434350",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143621",
-    "pregunta": "Blackhawks vs. Golden Knights",
-    "ts": "2026-09-29T19:34:10.235729",
+    "id": "5056741",
+    "pregunta": "Spread: Indiana Fever (-1.5)",
+    "ts": "2026-09-29T19:44:17.495513",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4889427",
-    "pregunta": "Mexico vs. Peru: O/U 3.5",
-    "ts": "2026-09-29T19:34:11.309882",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa94e2e9fe7279b6244c6bbdaaece6fea4ad5c65c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4986603",
-    "pregunta": "Will \"Patient Zero\" hit 45m first week streams?",
-    "ts": "2026-09-29T19:34:13.387702",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x225b7c9aaf6108ded29b9fda9939aa671ef6422a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4893371",
-    "pregunta": "Will \"Patient Zero\" hit 50m first week streams?",
-    "ts": "2026-09-29T19:34:14.550910",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x225b7c9aaf6108ded29b9fda9939aa671ef6422a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5028985",
-    "pregunta": "Rhode Island FC vs. Indy Eleven: O/U 3.5",
-    "ts": "2026-09-29T19:34:17.529852",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x97b98443fe1f085d50d2fb1f6b27b7e9c24c3a45",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
