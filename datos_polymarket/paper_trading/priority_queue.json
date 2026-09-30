@@ -1,74 +1,58 @@
 [
   {
-    "id": "5144203",
-    "pregunta": "Will Trump say \"Truck\" or \"Trucker\" 20+ times during his remarks at Peterbilt Motors Company?",
-    "ts": "2026-09-30T04:45:00.282075",
+    "id": "5121073",
+    "pregunta": "Jingshan: Wushuang Zheng vs Sara Sorribes Tormo",
+    "ts": "2026-09-30T04:54:20.462651",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5144233",
-    "pregunta": "Will Trump say \"ICE\" during his rally in Oklahoma?",
-    "ts": "2026-09-30T04:45:01.420336",
+    "id": "4993126",
+    "pregunta": "Spread: Argentina (-2.5)",
+    "ts": "2026-09-30T04:54:21.643722",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5144219",
-    "pregunta": "Will Trump say \"Job\" 15+ times during his rally in Oklahoma?",
-    "ts": "2026-09-30T04:45:02.610556",
+    "id": "5073514",
+    "pregunta": "Will the highest temperature in Buenos Aires be 18\u00b0C on September 30?",
+    "ts": "2026-09-30T04:54:23.595639",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5144223",
-    "pregunta": "Will Trump say \"Smelter\" during his rally in Oklahoma?",
-    "ts": "2026-09-30T04:45:03.801601",
+    "id": "5073528",
+    "pregunta": "Will the highest temperature in Toronto be 24\u00b0C on September 30?",
+    "ts": "2026-09-30T04:54:24.727621",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5144221",
-    "pregunta": "Will Trump say \"SI\" or \"Super Intelligence\" during his rally in Oklahoma?",
-    "ts": "2026-09-30T04:45:05.896618",
+    "id": "5116451",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 32\u00b0C on October 1?",
+    "ts": "2026-09-30T04:54:25.810537",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5105350",
-    "pregunta": "Will Nike say \"NikeSKIMS\" during earnings call?",
-    "ts": "2026-09-30T04:45:07.103935",
+    "id": "5116270",
+    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on October 1?",
+    "ts": "2026-09-30T04:54:26.893349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x716934e59ade35d8c7469816542e368e744e3ca6",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5071563",
-    "pregunta": "China Open: Juan Manuel Cerundolo vs Yunchaokete Bu",
-    "ts": "2026-09-30T04:45:08.659321",
+    "id": "5116232",
+    "pregunta": "Will the highest temperature in Tel Aviv be 27\u00b0C on October 1?",
+    "ts": "2026-09-30T04:54:28.059168",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3685354",
-    "pregunta": "Will there be no next Google Gemini Pro model release by September 30, 2026?",
-    "ts": "2026-09-30T04:45:11.401568",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073772",
-    "pregunta": "LoL: T1 Academy vs Galions - Game 2 Winner",
-    "ts": "2026-09-30T04:45:12.452910",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x07b81b74d91addee3e9aae48beb2f74b8b9bb587",
     "whale_signal": "COMPRAR NO"
   }
 ]
