@@ -1,10 +1,26 @@
 [
   {
-    "id": "4993124",
-    "pregunta": "Spread: Argentina (-1.5)",
-    "ts": "2026-09-30T17:43:02.053079",
+    "id": "4190319",
+    "pregunta": "Penguins vs. Flyers: O/U 6.5",
+    "ts": "2026-09-30T17:53:35.456074",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc8e67c04bf4098b3c99f73892e13b0d8683944e",
+    "whale_wallet": "0xcd62ead835407d33b4be91b81c365c37a8bc5bb3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4190312",
+    "pregunta": "Islanders vs. Maple Leafs: O/U 5.5",
+    "ts": "2026-09-30T17:53:36.501177",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcd62ead835407d33b4be91b81c365c37a8bc5bb3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4190325",
+    "pregunta": "Kings vs. Avalanche: O/U 6.5",
+    "ts": "2026-09-30T17:53:37.572951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcd62ead835407d33b4be91b81c365c37a8bc5bb3",
     "whale_signal": "COMPRAR NO"
   }
 ]
