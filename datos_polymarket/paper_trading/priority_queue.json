@@ -1,58 +1,66 @@
 [
   {
-    "id": "4678632",
-    "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-09-30T12:13:07.103681",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678629",
-    "pregunta": "Will Wales vs. Norway end in a draw?",
-    "ts": "2026-09-30T12:13:08.173959",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5134065",
     "pregunta": "Dota 2: Level UP vs Xtreme Gaming - Game 1 Winner",
-    "ts": "2026-09-30T12:13:10.198650",
+    "ts": "2026-09-30T12:24:21.287692",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5143430",
-    "pregunta": "LoL: Team Phantasma vs Gamespace Mediterranean College Esports - Game 1 Winner",
-    "ts": "2026-09-30T12:13:11.266559",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5143432",
     "pregunta": "LoL: Team Phantasma vs Gamespace Mediterranean College Esports (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T12:13:12.342401",
+    "ts": "2026-09-30T12:24:24.442048",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5149711",
-    "pregunta": "Game Handicap: TP (-1.5) vs Gamespace Mediterranean College Esports (+1.5)",
-    "ts": "2026-09-30T12:13:14.417661",
+    "id": "5143430",
+    "pregunta": "LoL: Team Phantasma vs Gamespace Mediterranean College Esports - Game 1 Winner",
+    "ts": "2026-09-30T12:24:25.485967",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25576f200546e4c195f7cb30bb353b9529ffcc5b",
+    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5155487",
-    "pregunta": "Counter-Strike: EAC Extra vs MASONIC (BO1) - Dust2.dk Ligaen Regular Season",
-    "ts": "2026-09-30T12:13:16.545580",
+    "id": "5134142",
+    "pregunta": "Dota 2: Team Nemesis vs Natus Vincere (BO3) - BLAST Slam Group B",
+    "ts": "2026-09-30T12:24:26.531229",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x62e8b5d5c6060394b0a05200e0d67049511088a1",
+    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134068",
+    "pregunta": "Dota 2: Level UP vs Xtreme Gaming - Game 2 Winner",
+    "ts": "2026-09-30T12:24:27.579369",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134071",
+    "pregunta": "Dota 2: Level UP vs Xtreme Gaming (BO3) - BLAST Slam Group A",
+    "ts": "2026-09-30T12:24:28.625467",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963861",
+    "pregunta": "Will Micron Technology, Inc. (MU) hit (HIGH) $1,200 Week of September 28 2026?",
+    "ts": "2026-09-30T12:24:30.779248",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x059c925221f6d73897724bc1a70ce6730b8b1cba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4963933",
+    "pregunta": "Will South Korea ETF (EWY) hit (HIGH) $189 Week of September 28 2026?",
+    "ts": "2026-09-30T12:24:33.106541",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x059c925221f6d73897724bc1a70ce6730b8b1cba",
     "whale_signal": "COMPRAR NO"
   }
 ]
