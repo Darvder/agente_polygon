@@ -1,34 +1,82 @@
 [
   {
-    "id": "5143168",
-    "pregunta": "LoL: PCIFIC  vs The Ruddy Sack (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T11:04:06.348989",
+    "id": "5143198",
+    "pregunta": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition - Game 2 Winner",
+    "ts": "2026-09-30T11:12:42.131474",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb84510a7968bfe807842e026a3318e37b3937ade",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5146310",
-    "pregunta": "Counter-Strike: Gr\u00eamio Esports vs QUINTESS\u00caNCIA (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-30T11:04:07.423009",
+    "id": "5143242",
+    "pregunta": "LoL: TLN Pirates vs Valerion - Game 2 Winner",
+    "ts": "2026-09-30T11:12:43.220752",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb84510a7968bfe807842e026a3318e37b3937ade",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5146297",
-    "pregunta": "Counter-Strike: Leo Team vs  Phantom Academy - Map 2 Winner",
-    "ts": "2026-09-30T11:04:08.729215",
+    "id": "5143221",
+    "pregunta": "LoL: eSuba vs UCAM Esports Club (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T11:12:44.306119",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb84510a7968bfe807842e026a3318e37b3937ade",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5150271",
-    "pregunta": "Game Handicap: SU (-1.5) vs The Secret Club Esport (+1.5)",
-    "ts": "2026-09-30T11:04:09.956657",
+    "id": "5070174",
+    "pregunta": "China Open: Anna Bondar vs Renata Zarazua",
+    "ts": "2026-09-30T11:12:50.626662",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb84510a7968bfe807842e026a3318e37b3937ade",
+    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134139",
+    "pregunta": "Dota 2: Team Nemesis vs Natus Vincere - Game 2 Winner",
+    "ts": "2026-09-30T11:12:52.858154",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5133932",
+    "pregunta": "Dota 2: PARIVISION vs LGD Gaming - Game 2 Winner",
+    "ts": "2026-09-30T11:12:53.917226",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5130734",
+    "pregunta": "Adana: Leolia Jeanjean vs Melisa Ercan",
+    "ts": "2026-09-30T11:12:54.979903",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5154935",
+    "pregunta": "M25 Darwin: Philip Sekulic vs Zaharije-Zak Talic",
+    "ts": "2026-09-30T11:12:59.352688",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x82bfc0126f1cf439fe610d44a0891db1c7aa9934",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116495",
+    "pregunta": "Will the highest temperature in Qingdao be 24\u00b0C on October 1?",
+    "ts": "2026-09-30T11:13:01.746418",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x82bfc0126f1cf439fe610d44a0891db1c7aa9934",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116211",
+    "pregunta": "Will the highest temperature in Lucknow be 32\u00b0C on October 1?",
+    "ts": "2026-09-30T11:13:02.835888",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x82bfc0126f1cf439fe610d44a0891db1c7aa9934",
     "whale_signal": "COMPRAR NO"
   }
 ]
