@@ -1,18 +1,34 @@
 [
   {
-    "id": "4679461",
-    "pregunta": "Spread: Norway (-2.5)",
-    "ts": "2026-09-29T23:33:38.212626",
+    "id": "5071550",
+    "pregunta": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+    "ts": "2026-09-29T23:44:51.824450",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb9e3ed9bd2da0e142610e336e6df90339dd08cf2",
+    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679580",
-    "pregunta": "Spread: Germany (-2.5)",
-    "ts": "2026-09-29T23:33:39.312549",
+    "id": "5121596",
+    "pregunta": "Jingshan: Elias Ymer vs Terence Atmane",
+    "ts": "2026-09-29T23:44:52.880019",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb9e3ed9bd2da0e142610e336e6df90339dd08cf2",
+    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070170",
+    "pregunta": "China Open: Caty McNally vs Dayana Yastremska",
+    "ts": "2026-09-29T23:44:53.922009",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070165",
+    "pregunta": "China Open: Maya Joint vs Sinja Kraus",
+    "ts": "2026-09-29T23:44:54.962892",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
     "whale_signal": "COMPRAR NO"
   }
 ]
