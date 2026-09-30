@@ -2,65 +2,73 @@
   {
     "id": "5134065",
     "pregunta": "Dota 2: Level UP vs Xtreme Gaming - Game 1 Winner",
-    "ts": "2026-09-30T12:24:21.287692",
+    "ts": "2026-09-30T12:33:33.215363",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5143432",
-    "pregunta": "LoL: Team Phantasma vs Gamespace Mediterranean College Esports (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T12:24:24.442048",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5143430",
     "pregunta": "LoL: Team Phantasma vs Gamespace Mediterranean College Esports - Game 1 Winner",
-    "ts": "2026-09-30T12:24:25.485967",
+    "ts": "2026-09-30T12:33:34.315030",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5134142",
-    "pregunta": "Dota 2: Team Nemesis vs Natus Vincere (BO3) - BLAST Slam Group B",
-    "ts": "2026-09-30T12:24:26.531229",
+    "id": "5146304",
+    "pregunta": "Counter-Strike: ex-RUSTEC vs Esport BERG - Map 1 Winner",
+    "ts": "2026-09-30T12:33:35.422765",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5134068",
-    "pregunta": "Dota 2: Level UP vs Xtreme Gaming - Game 2 Winner",
-    "ts": "2026-09-30T12:24:27.579369",
+    "id": "5143432",
+    "pregunta": "LoL: Team Phantasma vs Gamespace Mediterranean College Esports (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T12:33:36.507974",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5134071",
     "pregunta": "Dota 2: Level UP vs Xtreme Gaming (BO3) - BLAST Slam Group A",
-    "ts": "2026-09-30T12:24:28.625467",
+    "ts": "2026-09-30T12:33:37.604834",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x904ed7c7820a434ea9b11e7333ed69190d850bec",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4963861",
-    "pregunta": "Will Micron Technology, Inc. (MU) hit (HIGH) $1,200 Week of September 28 2026?",
-    "ts": "2026-09-30T12:24:30.779248",
+    "id": "5143372",
+    "pregunta": "LoL: G2 NORD vs BOMBA Team - Game 2 Winner",
+    "ts": "2026-09-30T12:33:38.698422",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x059c925221f6d73897724bc1a70ce6730b8b1cba",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4963933",
-    "pregunta": "Will South Korea ETF (EWY) hit (HIGH) $189 Week of September 28 2026?",
-    "ts": "2026-09-30T12:24:33.106541",
+    "id": "5148064",
+    "pregunta": "Map Handicap: ex-RUSTEC (-1.5) vs Esport BERG (+1.5)",
+    "ts": "2026-09-30T12:33:40.677680",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x059c925221f6d73897724bc1a70ce6730b8b1cba",
+    "whale_wallet": "0xa6abbd913a41ef38874dcb158ffdbe03fee60e18",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134077",
+    "pregunta": "Game Handicap: Xtreme (-1.5) vs Level UP (+1.5)",
+    "ts": "2026-09-30T12:33:41.889739",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa6abbd913a41ef38874dcb158ffdbe03fee60e18",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1365894",
+    "pregunta": "Will Renan Santos finish in third place in the first round of the 2026 Brazilian presidential election?",
+    "ts": "2026-09-30T12:33:49.631481",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e24bd0ebc6a423c43cf600e7bf1170a867b7e71",
     "whale_signal": "COMPRAR NO"
   }
 ]
