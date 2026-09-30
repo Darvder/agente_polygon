@@ -1,58 +1,26 @@
 [
   {
-    "id": "5143161",
-    "pregunta": "LoL: Colossal Gaming vs Lodis (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T06:42:18.835193",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5073772",
-    "pregunta": "LoL: T1 Academy vs Galions - Game 2 Winner",
-    "ts": "2026-09-30T06:42:20.877483",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf0ac5725f74f44cd80f5e65c7f9fc5b3e5d24ec7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5146484",
-    "pregunta": "Games Total: O/U 2.5",
-    "ts": "2026-09-30T06:42:22.111188",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf0ac5725f74f44cd80f5e65c7f9fc5b3e5d24ec7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5073773",
     "pregunta": "LoL: T1 Academy vs Galions - Game 3 Winner",
-    "ts": "2026-09-30T06:42:23.202854",
+    "ts": "2026-09-30T06:52:42.252494",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf0ac5725f74f44cd80f5e65c7f9fc5b3e5d24ec7",
+    "whale_wallet": "0xac93767444a4fc0b5fc120fae76b54d2d090a0ac",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5085085",
-    "pregunta": "Mayot vs. Visker: Match O/U 21.5",
-    "ts": "2026-09-30T06:42:24.412776",
+    "id": "5073774",
+    "pregunta": "LoL: T1 Academy vs Galions - Game 4 Winner",
+    "ts": "2026-09-30T06:52:43.313668",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf0ac5725f74f44cd80f5e65c7f9fc5b3e5d24ec7",
+    "whale_wallet": "0xac93767444a4fc0b5fc120fae76b54d2d090a0ac",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5085021",
-    "pregunta": "Set 1 Winner: Harold Mayot vs Niels Visker",
-    "ts": "2026-09-30T06:42:25.633588",
+    "id": "4904810",
+    "pregunta": "Dota 2: BetBoom Team vs OG - Game 2 Winner",
+    "ts": "2026-09-30T06:52:59.129193",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf0ac5725f74f44cd80f5e65c7f9fc5b3e5d24ec7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613430",
-    "pregunta": "Will Sri Lanka win on 2026-09-30?",
-    "ts": "2026-09-30T06:42:27.605816",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
+    "whale_wallet": "0x21c7001ff2f9c4fbb002258688f1629cc24842e7",
     "whale_signal": "COMPRAR NO"
   }
 ]
