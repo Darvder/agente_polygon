@@ -1,58 +1,18 @@
 [
   {
-    "id": "4679578",
-    "pregunta": "Spread: Germany (-1.5)",
-    "ts": "2026-09-30T08:52:30.963099",
+    "id": "5143168",
+    "pregunta": "LoL: PCIFIC  vs The Ruddy Sack (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T09:03:35.397655",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5046263",
-    "pregunta": "Will South Africa win on 2026-09-30?",
-    "ts": "2026-09-30T08:52:32.068691",
+    "id": "5130724",
+    "pregunta": "China Open: Elsa Jacquemot vs Magdalena Frech",
+    "ts": "2026-09-30T09:03:54.613815",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4815377",
-    "pregunta": "West Virginia vs. Iowa State",
-    "ts": "2026-09-30T08:52:33.152047",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5142532",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 7.5",
-    "ts": "2026-09-30T08:52:34.258498",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-30T08:52:35.438909",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4638508",
-    "pregunta": "Will Lithuania win on 2026-09-30?",
-    "ts": "2026-09-30T08:52:36.534844",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4965997",
-    "pregunta": "Will Tesla deliver between 475000 and 500000 vehicles in Q3 2026",
-    "ts": "2026-09-30T08:52:38.487088",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6086abd699b663c783c46a86524135a2ebd6a688",
+    "whale_wallet": "0x876030bd42c944b031a097a1cb33e7257028d904",
     "whale_signal": "COMPRAR NO"
   }
 ]
