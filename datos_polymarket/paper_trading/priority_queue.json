@@ -1,82 +1,50 @@
 [
   {
-    "id": "5143198",
-    "pregunta": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition - Game 2 Winner",
-    "ts": "2026-09-30T11:12:42.131474",
+    "id": "4656105",
+    "pregunta": "Lithuania vs. Andorra: O/U 2.5",
+    "ts": "2026-09-30T11:22:38.784138",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4656119",
+    "pregunta": "Lithuania vs. Andorra: Lithuania O/U 0.5",
+    "ts": "2026-09-30T11:22:39.947440",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5046263",
+    "pregunta": "Will South Africa win on 2026-09-30?",
+    "ts": "2026-09-30T11:22:41.032229",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5143243",
+    "pregunta": "LoL: TLN Pirates vs Valerion (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T11:22:43.261683",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc546071d20d315966fa50bb7469127d32edf058e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5143242",
     "pregunta": "LoL: TLN Pirates vs Valerion - Game 2 Winner",
-    "ts": "2026-09-30T11:12:43.220752",
+    "ts": "2026-09-30T11:22:44.391815",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0xc546071d20d315966fa50bb7469127d32edf058e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5143221",
     "pregunta": "LoL: eSuba vs UCAM Esports Club (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T11:12:44.306119",
+    "ts": "2026-09-30T11:22:49.020225",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5070174",
-    "pregunta": "China Open: Anna Bondar vs Renata Zarazua",
-    "ts": "2026-09-30T11:12:50.626662",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5134139",
-    "pregunta": "Dota 2: Team Nemesis vs Natus Vincere - Game 2 Winner",
-    "ts": "2026-09-30T11:12:52.858154",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5133932",
-    "pregunta": "Dota 2: PARIVISION vs LGD Gaming - Game 2 Winner",
-    "ts": "2026-09-30T11:12:53.917226",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5130734",
-    "pregunta": "Adana: Leolia Jeanjean vs Melisa Ercan",
-    "ts": "2026-09-30T11:12:54.979903",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3eb9f81ab650fa73fe34c70aef269dcfdd899930",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5154935",
-    "pregunta": "M25 Darwin: Philip Sekulic vs Zaharije-Zak Talic",
-    "ts": "2026-09-30T11:12:59.352688",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x82bfc0126f1cf439fe610d44a0891db1c7aa9934",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116495",
-    "pregunta": "Will the highest temperature in Qingdao be 24\u00b0C on October 1?",
-    "ts": "2026-09-30T11:13:01.746418",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x82bfc0126f1cf439fe610d44a0891db1c7aa9934",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116211",
-    "pregunta": "Will the highest temperature in Lucknow be 32\u00b0C on October 1?",
-    "ts": "2026-09-30T11:13:02.835888",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x82bfc0126f1cf439fe610d44a0891db1c7aa9934",
+    "whale_wallet": "0x10ef48324b3ebc06d9137794c70285e8e37a7d7b",
     "whale_signal": "COMPRAR NO"
   }
 ]
