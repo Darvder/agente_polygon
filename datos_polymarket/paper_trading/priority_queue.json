@@ -1,58 +1,26 @@
 [
   {
-    "id": "5070165",
-    "pregunta": "China Open: Maya Joint vs Sinja Kraus",
-    "ts": "2026-09-30T00:23:45.838715",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121602",
-    "pregunta": "Jingshan: Marat Sharipov vs Dalibor Svrcina",
-    "ts": "2026-09-30T00:23:48.819166",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071540",
-    "pregunta": "Japan Open Tennis Championships: Alejandro Tabilo vs Tommy Paul",
-    "ts": "2026-09-30T00:23:49.874351",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5130732",
-    "pregunta": "China Open: Daria Snigur vs Katarzyna Kawa",
-    "ts": "2026-09-30T00:23:50.966655",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4725162",
     "pregunta": "Cura\u00e7ao vs. Trinidad and Tobago: O/U 2.5",
-    "ts": "2026-09-30T00:23:52.868894",
+    "ts": "2026-09-30T00:34:32.926054",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8dd753393672cf204e3e8d4075b04f9dac7601e2",
+    "whale_wallet": "0xd7082fdedf8ef554625c16f3c65e2a8995f01077",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4633796",
     "pregunta": "Sport Lisboa e Benfica vs. FC Bayern M\u00fcnchen: O/U 3.5",
-    "ts": "2026-09-30T00:23:53.938596",
+    "ts": "2026-09-30T00:34:33.964293",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8dd753393672cf204e3e8d4075b04f9dac7601e2",
+    "whale_wallet": "0xd7082fdedf8ef554625c16f3c65e2a8995f01077",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4705012",
     "pregunta": "Will Internacional de Bogot\u00e1 win on 2026-10-01?",
-    "ts": "2026-09-30T00:23:55.108662",
+    "ts": "2026-09-30T00:34:35.123037",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8dd753393672cf204e3e8d4075b04f9dac7601e2",
+    "whale_wallet": "0xd7082fdedf8ef554625c16f3c65e2a8995f01077",
     "whale_signal": "COMPRAR NO"
   }
 ]
