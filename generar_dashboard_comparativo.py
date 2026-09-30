@@ -569,7 +569,7 @@ def generar_dashboard():
         profit_factor_str_copy = f"{pf_val_copy:.2f}"
         profit_factor_clase_copy = "positive" if pf_val_copy >= 1.0 else "negative"
 
-    equity_copy = capital_actual_copy + pnl_flotante_copy
+    equity_copy = capital_actual_copy + capital_en_riesgo_copy + pnl_flotante_copy
     pnl_net_pct_copy = ((equity_copy - capital_inicial_copy) / capital_inicial_copy) * 100
 
     # Drawdown global
@@ -942,7 +942,7 @@ def generar_dashboard():
     micro_total_eval = micro_wins + micro_losses
     micro_win_rate = (micro_wins / micro_total_eval * 100.0) if micro_total_eval > 0 else 0.0
     micro_roi = (micro_pnl_realizado / micro_cap_ini * 100.0) if micro_cap_ini > 0 else 0.0
-    micro_equity = micro_cap_act + micro_pnl_flotante
+    micro_equity = micro_cap_act + micro_cap_riesgo + micro_pnl_flotante
     micro_pf_str = f"{(micro_wins_sum / micro_losses_sum):.2f}" if micro_losses_sum > 0 else ("∞" if micro_wins_sum > 0 else "0.00")
     micro_pf_clase = "positive" if micro_losses_sum == 0 or (micro_wins_sum / micro_losses_sum >= 1.0) else "negative"
     micro_pnl_clase = "positive" if micro_pnl_realizado >= 0 else "negative"
