@@ -1,66 +1,34 @@
 [
   {
-    "id": "608545",
-    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-    "ts": "2026-09-30T14:33:19.384563",
+    "id": "5142581",
+    "pregunta": "Spread: Atlanta Braves (-2.5)",
+    "ts": "2026-09-30T14:43:04.206344",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4633799",
-    "pregunta": "Sport Lisboa e Benfica vs. FC Bayern M\u00fcnchen: Both Teams to Score",
-    "ts": "2026-09-30T14:33:21.077074",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4907157",
-    "pregunta": "Maccabi Tel Aviv vs. Besiktas",
-    "ts": "2026-09-30T14:33:22.123384",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4633830",
-    "pregunta": "OL Lyonnes vs. Chelsea FC: O/U 3.5",
-    "ts": "2026-09-30T14:33:23.168333",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4633835",
-    "pregunta": "OL Lyonnes vs. Chelsea FC: 1st Half O/U 0.5",
-    "ts": "2026-09-30T14:33:24.211955",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4637371",
-    "pregunta": "Eastleigh FC vs. Southend United FC: O/U 2.5",
-    "ts": "2026-09-30T14:33:25.255334",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4623080",
-    "pregunta": "Will FC Bayern M\u00fcnchen win on 2026-09-30?",
-    "ts": "2026-09-30T14:33:26.299820",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5073584",
     "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
-    "ts": "2026-09-30T14:33:27.347305",
+    "ts": "2026-09-30T14:43:05.287918",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5142584",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 6.5",
+    "ts": "2026-09-30T14:43:06.365158",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5142582",
+    "pregunta": "Spread: Atlanta Braves (-1.5)",
+    "ts": "2026-09-30T14:43:07.556271",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   }
 ]
