@@ -1,66 +1,10 @@
 [
   {
-    "id": "4622527",
-    "pregunta": "United States vs. Chile: O/U 4.5",
-    "ts": "2026-09-29T20:43:29.926483",
+    "id": "4622528",
+    "pregunta": "United States vs. Chile: O/U 5.5",
+    "ts": "2026-09-29T20:53:12.112198",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3bf57663998170f8ca96c5e91fef4092a8aa2307",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5113479",
-    "pregunta": "Counter-Strike: Rush vs Gr\u00eamio Esports (BO3) - Gamers Club Liga S\u00e9rie A Playoffs",
-    "ts": "2026-09-29T20:43:31.719695",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5113481",
-    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne - Map 1 Winner",
-    "ts": "2026-09-29T20:43:33.887785",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613424",
-    "pregunta": "Will United States win on 2026-09-29?",
-    "ts": "2026-09-29T20:43:35.813502",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb697df7d96b2b9f22cef9d031b8596b006f7ac7c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5029258",
-    "pregunta": "Chicago Cubs vs. San Diego Padres",
-    "ts": "2026-09-29T20:43:38.695483",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5055951",
-    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 7.5",
-    "ts": "2026-09-29T20:43:39.792588",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4143608",
-    "pregunta": "Spread: Oilers (-1.5)",
-    "ts": "2026-09-29T20:43:40.876222",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5055955",
-    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 6.5",
-    "ts": "2026-09-29T20:43:41.942614",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
     "whale_signal": "COMPRAR NO"
   }
 ]
