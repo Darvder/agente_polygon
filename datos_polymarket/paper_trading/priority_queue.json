@@ -1,106 +1,66 @@
 [
   {
-    "id": "4889435",
-    "pregunta": "Mexico vs. Peru: 1st Half O/U 0.5",
-    "ts": "2026-09-29T20:33:09.378546",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4889426",
-    "pregunta": "Mexico vs. Peru: O/U 2.5",
-    "ts": "2026-09-29T20:33:10.415717",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T20:33:11.451568",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4889425",
-    "pregunta": "Mexico vs. Peru: O/U 1.5",
-    "ts": "2026-09-29T20:33:12.489601",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5143659",
-    "pregunta": "Minnesota Lynx vs. New York Liberty: O/U 174.5",
-    "ts": "2026-09-29T20:33:13.526171",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4880708",
-    "pregunta": "Mexico leading at halftime?",
-    "ts": "2026-09-29T20:33:16.443484",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4622526",
-    "pregunta": "United States vs. Chile: O/U 3.5",
-    "ts": "2026-09-29T20:33:17.479360",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613424",
-    "pregunta": "Will United States win on 2026-09-29?",
-    "ts": "2026-09-29T20:33:18.519727",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4613425",
-    "pregunta": "Will United States vs. Chile end in a draw?",
-    "ts": "2026-09-29T20:33:19.595695",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4622527",
     "pregunta": "United States vs. Chile: O/U 4.5",
-    "ts": "2026-09-29T20:33:20.628839",
+    "ts": "2026-09-29T20:43:29.926483",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x3bf57663998170f8ca96c5e91fef4092a8aa2307",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5113479",
+    "pregunta": "Counter-Strike: Rush vs Gr\u00eamio Esports (BO3) - Gamers Club Liga S\u00e9rie A Playoffs",
+    "ts": "2026-09-29T20:43:31.719695",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5113481",
     "pregunta": "Counter-Strike: LAG Gaming vs Marsborne - Map 1 Winner",
-    "ts": "2026-09-29T20:33:21.798865",
+    "ts": "2026-09-29T20:43:33.887785",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4622528",
-    "pregunta": "United States vs. Chile: O/U 5.5",
-    "ts": "2026-09-29T20:33:22.834742",
+    "id": "4613424",
+    "pregunta": "Will United States win on 2026-09-29?",
+    "ts": "2026-09-29T20:43:35.813502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0xb697df7d96b2b9f22cef9d031b8596b006f7ac7c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4622519",
-    "pregunta": "Spread: United States (-1.5)",
-    "ts": "2026-09-29T20:33:23.879898",
+    "id": "5029258",
+    "pregunta": "Chicago Cubs vs. San Diego Padres",
+    "ts": "2026-09-29T20:43:38.695483",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055951",
+    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 7.5",
+    "ts": "2026-09-29T20:43:39.792588",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4143608",
+    "pregunta": "Spread: Oilers (-1.5)",
+    "ts": "2026-09-29T20:43:40.876222",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055955",
+    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 6.5",
+    "ts": "2026-09-29T20:43:41.942614",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
