@@ -1,26 +1,34 @@
 [
   {
-    "id": "4880587",
-    "pregunta": "Will Mexico vs. Peru end in a draw?",
-    "ts": "2026-09-29T21:22:51.167578",
+    "id": "5132131",
+    "pregunta": "Mouilleron-Le-Captif: Joel Schwaerzler vs Harry Wendelken",
+    "ts": "2026-09-29T21:32:52.241717",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xaa76255de9e6cd8cd1c6563655940028cd148b54",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4143591",
+    "pregunta": "Rangers vs. Bruins",
+    "ts": "2026-09-29T21:32:55.733984",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889433",
+    "pregunta": "Mexico vs. Peru: Both Teams to Score",
+    "ts": "2026-09-29T21:32:56.785565",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4880586",
     "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T21:22:52.227386",
+    "ts": "2026-09-29T21:32:57.827865",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4952600",
-    "pregunta": "Minnesota Lynx vs. New York Liberty",
-    "ts": "2026-09-29T21:22:56.084446",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2f4df86a47a90d201cdf85b2e779be3bc0d3448f",
+    "whale_wallet": "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
     "whale_signal": "COMPRAR NO"
   }
 ]
