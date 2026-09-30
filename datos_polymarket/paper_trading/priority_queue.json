@@ -2,33 +2,73 @@
   {
     "id": "5069340",
     "pregunta": "LoL: Solary vs DN SOOPers Challengers - Game 3 Winner",
-    "ts": "2026-09-30T03:12:51.319038",
+    "ts": "2026-09-30T03:23:56.789833",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xca5f15ee1795b7d3df5ce1767ac5570badae41f5",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2589813",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-    "ts": "2026-09-30T03:12:53.307964",
+    "id": "5116308",
+    "pregunta": "Will the highest temperature in Madrid be 29\u00b0C on October 1?",
+    "ts": "2026-09-30T03:23:58.675692",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
+    "whale_wallet": "0x1dc6987296efd5013059734128e3ec6112e79852",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5069338",
-    "pregunta": "LoL: Solary vs DN SOOPers Challengers - Game 1 Winner",
-    "ts": "2026-09-30T03:12:55.220047",
+    "id": "5073516",
+    "pregunta": "Will the highest temperature in Buenos Aires be 20\u00b0C on September 30?",
+    "ts": "2026-09-30T03:23:59.759644",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b8d7527a9489aa65b490d54ea2cc02c1f940e61",
+    "whale_wallet": "0x1dc6987296efd5013059734128e3ec6112e79852",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5069339",
-    "pregunta": "LoL: Solary vs DN SOOPers Challengers - Game 2 Winner",
-    "ts": "2026-09-30T03:12:58.348634",
+    "id": "5116155",
+    "pregunta": "Will the highest temperature in London be 20\u00b0C on October 1?",
+    "ts": "2026-09-30T03:24:00.821353",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b8d7527a9489aa65b490d54ea2cc02c1f940e61",
+    "whale_wallet": "0x1dc6987296efd5013059734128e3ec6112e79852",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116429",
+    "pregunta": "Will the highest temperature in Amsterdam be 21\u00b0C on October 1?",
+    "ts": "2026-09-30T03:24:01.997560",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1dc6987296efd5013059734128e3ec6112e79852",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116168",
+    "pregunta": "Will the highest temperature in Paris be 21\u00b0C on October 1?",
+    "ts": "2026-09-30T03:24:03.074515",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1dc6987296efd5013059734128e3ec6112e79852",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116406",
+    "pregunta": "Will the highest temperature in Istanbul be 19\u00b0C on October 1?",
+    "ts": "2026-09-30T03:24:04.136632",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1dc6987296efd5013059734128e3ec6112e79852",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678638",
+    "pregunta": "Will Denmark win on 2026-10-01?",
+    "ts": "2026-09-30T03:24:06.874843",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a35a30de529eb0dff32f6e27037baa15d162580",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5130722",
+    "pregunta": "China Open: Zhuoxuan Bai vs Linda Fruhvirtova",
+    "ts": "2026-09-30T03:24:11.042684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
     "whale_signal": "COMPRAR NO"
   }
 ]
