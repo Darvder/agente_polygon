@@ -1,34 +1,82 @@
 [
   {
-    "id": "5132131",
-    "pregunta": "Mouilleron-Le-Captif: Joel Schwaerzler vs Harry Wendelken",
-    "ts": "2026-09-29T21:32:52.241717",
+    "id": "1105742",
+    "pregunta": "Will Delcy Rodr\u00edguez be the leader of Venezuela end of 2026?",
+    "ts": "2026-09-29T21:42:36.201124",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaa76255de9e6cd8cd1c6563655940028cd148b54",
+    "whale_wallet": "0x2a4438ccc4669d0461cfba3f07825a40519252b5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4143591",
-    "pregunta": "Rangers vs. Bruins",
-    "ts": "2026-09-29T21:32:55.733984",
+    "id": "1105744",
+    "pregunta": "Will Nicol\u00e1s Maduro be the leader of Venezuela end of 2026?",
+    "ts": "2026-09-29T21:42:37.286015",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
+    "whale_wallet": "0x2a4438ccc4669d0461cfba3f07825a40519252b5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4889433",
-    "pregunta": "Mexico vs. Peru: Both Teams to Score",
-    "ts": "2026-09-29T21:32:56.785565",
+    "id": "5113483",
+    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne (BO3) - ESL Challenger League North America Cup #2 Playoffs",
+    "ts": "2026-09-29T21:42:39.937652",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4880586",
-    "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T21:32:57.827865",
+    "id": "5082318",
+    "pregunta": "Will Elon Musk post 65-89 tweets from October 1 to October 3, 2026?",
+    "ts": "2026-09-29T21:42:42.882789",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063916",
+    "pregunta": "Will the highest temperature in London be 23\u00b0C on September 30?",
+    "ts": "2026-09-29T21:42:43.975817",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063917",
+    "pregunta": "Will the highest temperature in London be 24\u00b0C on September 30?",
+    "ts": "2026-09-29T21:42:45.058133",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5063915",
+    "pregunta": "Will the highest temperature in London be 22\u00b0C on September 30?",
+    "ts": "2026-09-29T21:42:46.123196",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4986269",
+    "pregunta": "Will Elon Musk post 65-89 tweets from September 28 to September 30, 2026?",
+    "ts": "2026-09-29T21:42:48.392689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116273",
+    "pregunta": "Will the highest temperature in Shanghai be 25\u00b0C on October 1?",
+    "ts": "2026-09-29T21:42:49.465366",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116270",
+    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on October 1?",
+    "ts": "2026-09-29T21:42:50.556589",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
     "whale_signal": "COMPRAR NO"
   }
 ]
