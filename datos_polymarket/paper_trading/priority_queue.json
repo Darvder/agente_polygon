@@ -1,16 +1,48 @@
 [
   {
-    "id": "4613424",
-    "pregunta": "Will United States win on 2026-09-29?",
-    "ts": "2026-09-29T19:02:48.848400",
+    "id": "5073964",
+    "pregunta": "Chicago White Sox vs. Houston Astros: O/U 9.5",
+    "ts": "2026-09-29T19:15:57.952152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792512",
+    "pregunta": "Spread: Botafogo FC (-2.5)",
+    "ts": "2026-09-29T19:15:59.020125",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792522",
+    "pregunta": "Botafogo FC vs. AA Ponte Preta: O/U 2.5",
+    "ts": "2026-09-29T19:16:00.099956",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-09-29T19:16:03.277505",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5006377",
-    "pregunta": "Spread: Boston Red Sox (-1.5)",
-    "ts": "2026-09-29T19:02:49.904492",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-09-29T19:16:04.341918",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4978501",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-29T19:16:05.624209",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -18,41 +50,17 @@
   {
     "id": "4880586",
     "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T19:02:50.961068",
+    "ts": "2026-09-29T19:16:06.693974",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4952600",
-    "pregunta": "Minnesota Lynx vs. New York Liberty",
-    "ts": "2026-09-29T19:02:52.021104",
+    "id": "4893561",
+    "pregunta": "Dana White's Contender Series: Zaurbek Sabanov vs. Adama Diop (Heavyweight, Main Card)",
+    "ts": "2026-09-29T19:16:09.069615",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4143608",
-    "pregunta": "Spread: Oilers (-1.5)",
-    "ts": "2026-09-29T19:02:53.084167",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-09-29T19:02:54.261749",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064023",
-    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on September 30?",
-    "ts": "2026-09-29T19:02:56.476437",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x55e831742258101503e924ab290aa085220ae026",
+    "whale_wallet": "0xb8ee94bd599a92d4747dda5f3bc6d2b243349e81",
     "whale_signal": "COMPRAR NO"
   }
 ]
