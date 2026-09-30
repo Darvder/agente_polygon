@@ -1,26 +1,50 @@
 [
   {
-    "id": "5158177",
-    "pregunta": "Counter-Strike: CYBERSHOKE Esports vs K27 - Map 2 Winner",
-    "ts": "2026-09-30T14:04:12.994731",
+    "id": "5142532",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 7.5",
+    "ts": "2026-09-30T14:13:09.671210",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5158178",
-    "pregunta": "Counter-Strike: CYBERSHOKE Esports vs K27 (BO3) - CIS LAN Championship Group C",
-    "ts": "2026-09-30T14:04:14.113587",
+    "id": "5073584",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-09-30T14:13:10.714997",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970871",
-    "pregunta": "Will Manchester City be deducted 0 Premier League points?",
-    "ts": "2026-09-30T14:04:24.044921",
+    "id": "5142531",
+    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
+    "ts": "2026-09-30T14:13:11.761425",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84c88cc4ddcc384635a830953c5b8c9d3e714fbd",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4633830",
+    "pregunta": "OL Lyonnes vs. Chelsea FC: O/U 3.5",
+    "ts": "2026-09-30T14:13:13.429562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4637371",
+    "pregunta": "Eastleigh FC vs. Southend United FC: O/U 2.5",
+    "ts": "2026-09-30T14:13:14.475032",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134068",
+    "pregunta": "Dota 2: Level UP vs Xtreme Gaming - Game 2 Winner",
+    "ts": "2026-09-30T14:13:17.390167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9f4bec86118be62d973fd53004efca8fed8c1e4",
     "whale_signal": "COMPRAR NO"
   }
 ]
