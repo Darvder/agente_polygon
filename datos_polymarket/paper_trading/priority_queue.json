@@ -1,90 +1,50 @@
 [
   {
-    "id": "5113483",
-    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne (BO3) - ESL Challenger League North America Cup #2 Playoffs",
-    "ts": "2026-09-29T22:33:47.938948",
+    "id": "4978501",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-29T22:42:39.404239",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5113482",
-    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne - Map 2 Winner",
-    "ts": "2026-09-29T22:33:49.067578",
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-09-29T22:42:40.493730",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5069342",
+    "pregunta": "LoL: Solary vs DN SOOPers Challengers (BO5) - World Star Challengers Invitational Playoffs",
+    "ts": "2026-09-29T22:42:41.552297",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073775",
+    "pregunta": "LoL: T1 Academy vs Galions (BO5) - World Star Challengers Invitational Playoffs",
+    "ts": "2026-09-29T22:42:42.644514",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5071554",
     "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Alexander Blockx",
-    "ts": "2026-09-29T22:33:50.163506",
+    "ts": "2026-09-29T22:42:44.587870",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5071581",
     "pregunta": "China Open: Karen Khachanov vs Felix Auger-Aliassime",
-    "ts": "2026-09-29T22:33:51.257392",
+    "ts": "2026-09-29T22:42:45.646630",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5094208",
-    "pregunta": "Dota 2: Cloud Dawning vs Yangon Galacticos - Game 1 Winner",
-    "ts": "2026-09-29T22:33:52.418733",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5094138",
-    "pregunta": "LoL: Hong Kong vs Chinese Taipei (BO1) - Asian Games Group B",
-    "ts": "2026-09-29T22:33:53.573190",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116451",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 32\u00b0C on October 1?",
-    "ts": "2026-09-29T22:33:56.263107",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064121",
-    "pregunta": "Will the highest temperature in Wuhan be 25\u00b0C on September 30?",
-    "ts": "2026-09-29T22:33:57.570830",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116341",
-    "pregunta": "Will the highest temperature in Chongqing be 24\u00b0C on October 1?",
-    "ts": "2026-09-29T22:33:58.890096",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064131",
-    "pregunta": "Will the highest temperature in Chengdu be 27\u00b0C on September 30?",
-    "ts": "2026-09-29T22:34:00.187471",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064000",
-    "pregunta": "Will the highest temperature in Tokyo be 22\u00b0C on September 30?",
-    "ts": "2026-09-29T22:34:01.284061",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38a1b79cc3b9c1742ac047c8c6e39e2f8aaf3154",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
