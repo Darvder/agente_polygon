@@ -1,8 +1,16 @@
 [
   {
-    "id": "4952600",
-    "pregunta": "Minnesota Lynx vs. New York Liberty",
-    "ts": "2026-09-29T20:24:45.752522",
+    "id": "4889435",
+    "pregunta": "Mexico vs. Peru: 1st Half O/U 0.5",
+    "ts": "2026-09-29T20:33:09.378546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889426",
+    "pregunta": "Mexico vs. Peru: O/U 2.5",
+    "ts": "2026-09-29T20:33:10.415717",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
@@ -10,9 +18,89 @@
   {
     "id": "4880586",
     "pregunta": "Will Mexico win on 2026-09-29?",
-    "ts": "2026-09-29T20:24:46.855584",
+    "ts": "2026-09-29T20:33:11.451568",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4889425",
+    "pregunta": "Mexico vs. Peru: O/U 1.5",
+    "ts": "2026-09-29T20:33:12.489601",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5143659",
+    "pregunta": "Minnesota Lynx vs. New York Liberty: O/U 174.5",
+    "ts": "2026-09-29T20:33:13.526171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4880708",
+    "pregunta": "Mexico leading at halftime?",
+    "ts": "2026-09-29T20:33:16.443484",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4622526",
+    "pregunta": "United States vs. Chile: O/U 3.5",
+    "ts": "2026-09-29T20:33:17.479360",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613424",
+    "pregunta": "Will United States win on 2026-09-29?",
+    "ts": "2026-09-29T20:33:18.519727",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4613425",
+    "pregunta": "Will United States vs. Chile end in a draw?",
+    "ts": "2026-09-29T20:33:19.595695",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4622527",
+    "pregunta": "United States vs. Chile: O/U 4.5",
+    "ts": "2026-09-29T20:33:20.628839",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5113481",
+    "pregunta": "Counter-Strike: LAG Gaming vs Marsborne - Map 1 Winner",
+    "ts": "2026-09-29T20:33:21.798865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4622528",
+    "pregunta": "United States vs. Chile: O/U 5.5",
+    "ts": "2026-09-29T20:33:22.834742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4622519",
+    "pregunta": "Spread: United States (-1.5)",
+    "ts": "2026-09-29T20:33:23.879898",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   }
 ]
