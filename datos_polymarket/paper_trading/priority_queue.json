@@ -1,26 +1,10 @@
 [
   {
-    "id": "5142960",
-    "pregunta": "Adana: Teodora Kostovic vs Dalma Galfi",
-    "ts": "2026-09-30T09:22:50.131669",
+    "id": "4585694",
+    "pregunta": "Will Trump meet with Javier Milei in September 2026?",
+    "ts": "2026-09-30T09:32:45.638027",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4881753",
-    "pregunta": "West Indies Tour of India ODIs: India vs West Indies",
-    "ts": "2026-09-30T09:22:51.204260",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5013940",
-    "pregunta": "Curitiba: Gonzalo Villanueva vs Juan Carlos Prado",
-    "ts": "2026-09-30T09:22:52.253619",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x98bfe8682a4b8dd1c3af735374efecba66ce0534",
     "whale_signal": "COMPRAR NO"
   }
 ]
