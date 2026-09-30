@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "5142532",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 7.5",
+    "ts": "2026-09-30T13:22:31.307689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5142531",
+    "pregunta": "Spread: Philadelphia Phillies (-1.5)",
+    "ts": "2026-09-30T13:22:32.407862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073584",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-09-30T13:22:33.477625",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4190310",
+    "pregunta": "Islanders vs. Maple Leafs",
+    "ts": "2026-09-30T13:22:35.480969",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1de70a0657f33f395102e2b4ae58a22928672db5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4190315",
+    "pregunta": "Penguins vs. Flyers",
+    "ts": "2026-09-30T13:22:36.572186",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1de70a0657f33f395102e2b4ae58a22928672db5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4190322",
+    "pregunta": "Spread: Avalanche (-1.5)",
+    "ts": "2026-09-30T13:22:37.739183",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1de70a0657f33f395102e2b4ae58a22928672db5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4978501",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-30T13:22:38.836733",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1de70a0657f33f395102e2b4ae58a22928672db5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4672546",
+    "pregunta": "Spread: FC Barcelona (-3.5)",
+    "ts": "2026-09-30T13:22:40.827645",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbfd770b7ff07fb2ece41b0e7c593db65a84cf0bf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5143335",
+    "pregunta": "LoL: Team Heretics Academy vs NightBirds (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T13:22:41.912250",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbfd770b7ff07fb2ece41b0e7c593db65a84cf0bf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4907157",
+    "pregunta": "Maccabi Tel Aviv vs. Besiktas",
+    "ts": "2026-09-30T13:22:43.014799",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbfd770b7ff07fb2ece41b0e7c593db65a84cf0bf",
+    "whale_signal": "COMPRAR NO"
+  }
+]
