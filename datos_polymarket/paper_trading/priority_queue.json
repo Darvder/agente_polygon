@@ -1,18 +1,42 @@
 [
   {
-    "id": "5143168",
-    "pregunta": "LoL: PCIFIC  vs The Ruddy Sack (BO1) - EMEA Masters Swiss Stage",
-    "ts": "2026-09-30T09:03:35.397655",
+    "id": "5143161",
+    "pregunta": "LoL: Colossal Gaming vs Lodis (BO1) - EMEA Masters Swiss Stage",
+    "ts": "2026-09-30T09:12:45.585284",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_wallet": "0x81300a0a80718398f9ab90db00d4b85a76245a50",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5130724",
-    "pregunta": "China Open: Elsa Jacquemot vs Magdalena Frech",
-    "ts": "2026-09-30T09:03:54.613815",
+    "id": "5007998",
+    "pregunta": "Counter-Strike: EAC Extra vs ENCE Prospects (BO3) - United21 Group A",
+    "ts": "2026-09-30T09:12:49.963018",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x876030bd42c944b031a097a1cb33e7257028d904",
+    "whale_wallet": "0x0201e56426119736d05b35b4b813998276e86a5f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5146296",
+    "pregunta": "Counter-Strike: Leo Team vs  Phantom Academy - Map 1 Winner",
+    "ts": "2026-09-30T09:12:51.086066",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0201e56426119736d05b35b4b813998276e86a5f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5007997",
+    "pregunta": "Counter-Strike: EAC Extra vs ENCE Prospects - Map 2 Winner",
+    "ts": "2026-09-30T09:12:52.150640",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0201e56426119736d05b35b4b813998276e86a5f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5134002",
+    "pregunta": "Dota 2: Team Spirit vs 1win - Game 2 Winner",
+    "ts": "2026-09-30T09:12:56.415586",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x55223a5883fcf352ee620c065f093a689102c807",
     "whale_signal": "COMPRAR NO"
   }
 ]
