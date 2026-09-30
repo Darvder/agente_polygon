@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1486.37,
-  "capital_en_riesgo": 416.31,
-  "n_ciclos": 38736,
-  "ultima_corrida": "2026-09-29 23:03",
+  "capital_actual": 1492.5,
+  "capital_en_riesgo": 402.86,
+  "n_ciclos": 38737,
+  "ultima_corrida": "2026-09-29 23:13",
   "n_tp": 572,
-  "n_sl": 380,
+  "n_sl": 381,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 16.15,
-    "capital_en_riesgo": 56.97,
+    "capital_actual": 16.66,
+    "capital_en_riesgo": 53.97,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 92,
-    "n_sl": 64,
+    "n_sl": 65,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-28",
@@ -211,7 +211,7 @@
         "pregunta": "Will the highest temperature in Moscow be 17\u00b0C on September 30?",
         "outcome": "Yes",
         "precio_token_entrada": 0.66,
-        "precio_actual": 0.675,
+        "precio_actual": 0.665,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -280,26 +280,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x2ccdfed3cfb5b4a507c883ab2cffa6c42a086280824fba8d23114c5a6144f642"
-      },
-      {
-        "fecha_entrada": "2026-09-29",
-        "fecha_entrada_dt": "2026-09-29 22:33",
-        "target_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
-        "market_id": "5094208",
-        "condition_id": "0x1316f30c41f64421660bb3fc888b9d44565cb7b50b3699a15682750b63c1d75c",
-        "token_id": "67196530690000146899712032831448661268786871135958495750076881983967797792962",
-        "pregunta": "Dota 2: Cloud Dawning vs Yangon Galacticos - Game 1 Winner",
-        "outcome": "Yangon Galacticos",
-        "precio_token_entrada": 0.735,
-        "precio_actual": 0.52,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xa51c07e896aa31435dfcddb756b362f4ea42b72ba5af16e9c2da7f2ee7efe4e2"
       },
       {
         "fecha_entrada": "2026-09-29",
@@ -3502,6 +3482,26 @@
         "pnl_realizado": -2.26,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xe033245ecff082fdf0bc6df3670447ddacd4eb49b883d9ac0450294818e7632b"
+      },
+      {
+        "fecha_entrada": "2026-09-29",
+        "fecha_entrada_dt": "2026-09-29 22:33",
+        "target_wallet": "0x7c8cc25556ef9c0962b41d0ebb74d2fd17a42d81",
+        "market_id": "5094208",
+        "condition_id": "0x1316f30c41f64421660bb3fc888b9d44565cb7b50b3699a15682750b63c1d75c",
+        "token_id": "67196530690000146899712032831448661268786871135958495750076881983967797792962",
+        "pregunta": "Dota 2: Cloud Dawning vs Yangon Galacticos - Game 1 Winner",
+        "outcome": "Yangon Galacticos",
+        "precio_token_entrada": 0.735,
+        "precio_actual": 0.125,
+        "precio_cierre": 0.125,
+        "pct_cambio": -0.8299,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-09-29 23:13",
+        "pnl_realizado": -2.49,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0xa51c07e896aa31435dfcddb756b362f4ea42b72ba5af16e9c2da7f2ee7efe4e2"
       }
     ]
   }
