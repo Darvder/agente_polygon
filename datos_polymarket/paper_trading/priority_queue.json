@@ -1,10 +1,26 @@
 [
   {
-    "id": "5140152",
-    "pregunta": "Dota 2: Aurora vs Team Liquid - Game 1 Winner",
-    "ts": "2026-10-01T11:02:35.684192",
+    "id": "4678601",
+    "pregunta": "Will Azerbaijan win on 2026-10-01?",
+    "ts": "2026-10-01T11:14:31.608309",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4679770",
+    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 2.5",
+    "ts": "2026-10-01T11:14:32.723035",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4679777",
+    "pregunta": "Azerbaijan vs. Liechtenstein: Both Teams to Score",
+    "ts": "2026-10-01T11:14:33.822168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
