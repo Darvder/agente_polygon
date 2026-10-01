@@ -1,74 +1,18 @@
 [
   {
-    "id": "5076668",
-    "pregunta": "Spread: Golden State Valkyries (-3.5)",
-    "ts": "2026-09-30T22:43:35.202271",
+    "id": "4952602",
+    "pregunta": "Golden State Valkyries vs. Dallas Wings",
+    "ts": "2026-09-30T22:53:34.403732",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4978454",
-    "pregunta": "Will Cook Islands vs. Tahiti end in a draw?",
-    "ts": "2026-09-30T22:43:36.496800",
+    "id": "5008083",
+    "pregunta": "Will Sacramento Republic FC vs. Las Vegas Lights end in a draw?",
+    "ts": "2026-09-30T22:53:35.647421",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150748",
-    "pregunta": "W35 Wagga Wagga: Kanon Sawashiro vs Ava Beck",
-    "ts": "2026-09-30T22:43:42.253162",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150769",
-    "pregunta": "W15 Maanshan: Jiayu Xu vs Seo Yun Choi",
-    "ts": "2026-09-30T22:43:45.577229",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5154922",
-    "pregunta": "M15 Luan: Taiyo Yamanaka vs Yuta Tomida",
-    "ts": "2026-09-30T22:43:47.830414",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5130744",
-    "pregunta": "China Open: Qinwen Zheng vs Han Shi",
-    "ts": "2026-09-30T22:43:48.922034",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121611",
-    "pregunta": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
-    "ts": "2026-09-30T22:43:52.260879",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5153143",
-    "pregunta": "Jingshan: Alex Bolt vs Evan Zhu",
-    "ts": "2026-09-30T22:43:53.360452",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150757",
-    "pregunta": "W15 Maanshan: Eva Marie Desvignes vs Honori Koyama",
-    "ts": "2026-09-30T22:43:54.512297",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   }
 ]
