@@ -1,50 +1,10 @@
 [
   {
-    "id": "4679470",
-    "pregunta": "Wales vs. Norway: O/U 2.5",
-    "ts": "2026-10-01T09:04:03.119573",
+    "id": "5116221",
+    "pregunta": "Will the highest temperature in Munich be 24\u00b0C on October 1?",
+    "ts": "2026-10-01T09:12:10.098144",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x856b152e385b2da01429f90429a3f96af8e72b6d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679477",
-    "pregunta": "Wales vs. Norway: Both Teams to Score",
-    "ts": "2026-10-01T09:04:04.213346",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x856b152e385b2da01429f90429a3f96af8e72b6d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166080",
-    "pregunta": "Counter-Strike: maybe vs eternal premium (BO3) - CCT Europe Challengers Series Playoffs",
-    "ts": "2026-10-01T09:04:12.408257",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5171342",
-    "pregunta": "Counter-Strike: Low Cortisol vs BESTIA Academy - Map 1 Winner",
-    "ts": "2026-10-01T09:04:14.267531",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5171344",
-    "pregunta": "Counter-Strike: Low Cortisol vs BESTIA Academy (BO3) - CCT South America Series 6 Playoffs",
-    "ts": "2026-10-01T09:04:15.330850",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4638093",
-    "pregunta": "Counter-Strike: BIG vs fnatic - Map 2 Winner",
-    "ts": "2026-10-01T09:04:16.383779",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_wallet": "0xddba38bd99cefc2b9f862a673ed187e25fdde638",
     "whale_signal": "COMPRAR NO"
   }
 ]
