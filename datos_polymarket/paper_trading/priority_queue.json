@@ -1,10 +1,26 @@
 [
   {
-    "id": "3954617",
-    "pregunta": "Iran-Oman Hormuz Agreement by October 31?",
-    "ts": "2026-09-30T18:52:23.906557",
+    "id": "4877712",
+    "pregunta": "Will SC Paderborn 07 win on 2026-09-30?",
+    "ts": "2026-09-30T19:03:06.430949",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb67590ab77acbd592714986fb6fd1149ca5cb63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5132125",
+    "pregunta": "Curitiba: Joao Lucas Da Silva vs Matheus Pucinelli de Almeida",
+    "ts": "2026-09-30T19:03:07.482284",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4949323",
+    "pregunta": "Valorant: XLG Gaming vs Nongshim RedForce (BO3) - VCT Champions Group D",
+    "ts": "2026-09-30T19:03:09.359427",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d1fc65dc942519e10b91520ec1de8df4b5e5a5f",
     "whale_signal": "COMPRAR NO"
   }
 ]
