@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "4689888",
+    "pregunta": "Will Cura\u00e7ao win on 2026-10-01?",
+    "ts": "2026-10-01T16:12:18.602739",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752979",
+    "pregunta": "Will England win on 2026-10-03?",
+    "ts": "2026-10-01T16:12:19.669266",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727399",
+    "pregunta": "Will Guatemala win on 2026-10-02?",
+    "ts": "2026-10-01T16:12:20.719363",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4642061",
+    "pregunta": "Counter-Strike: FaZe vs Nemiga - Map 2 Winner",
+    "ts": "2026-10-01T16:12:27.763294",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4642062",
+    "pregunta": "Counter-Strike: FaZe vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-01T16:12:28.809299",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167765",
+    "pregunta": "Counter-Strike: Nuclear TigeRES vs CYBERSHOKE Esports (BO3) - CIS LAN Championship Playoffs",
+    "ts": "2026-10-01T16:12:29.851635",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167764",
+    "pregunta": "Counter-Strike: Nuclear TigeRES vs CYBERSHOKE Esports - Map 2 Winner",
+    "ts": "2026-10-01T16:12:30.906519",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
+    "whale_signal": "COMPRAR NO"
+  }
+]
