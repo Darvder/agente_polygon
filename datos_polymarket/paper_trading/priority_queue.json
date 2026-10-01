@@ -1,50 +1,42 @@
 [
   {
-    "id": "4678650",
-    "pregunta": "Will Israel vs. Kosovo end in a draw?",
-    "ts": "2026-10-01T15:13:35.830195",
+    "id": "4679532",
+    "pregunta": "Greece vs. Netherlands: O/U 4.5",
+    "ts": "2026-10-01T15:23:45.455941",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678617",
-    "pregunta": "Will Greece win on 2026-10-01?",
-    "ts": "2026-10-01T15:13:36.891738",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0xe1ba8c37188622922198949a3efbadcd2b9fc53e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4678618",
     "pregunta": "Will Greece vs. Netherlands end in a draw?",
-    "ts": "2026-10-01T15:13:37.958089",
+    "ts": "2026-10-01T15:23:46.530498",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0xe1ba8c37188622922198949a3efbadcd2b9fc53e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678652",
-    "pregunta": "Will Kosovo win on 2026-10-01?",
-    "ts": "2026-10-01T15:13:39.020435",
+    "id": "4679531",
+    "pregunta": "Greece vs. Netherlands: O/U 3.5",
+    "ts": "2026-10-01T15:23:49.747530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_wallet": "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678609",
-    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
-    "ts": "2026-10-01T15:13:40.864109",
+    "id": "4678617",
+    "pregunta": "Will Greece win on 2026-10-01?",
+    "ts": "2026-10-01T15:23:51.866106",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_wallet": "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678605",
-    "pregunta": "Will Malta win on 2026-10-01?",
-    "ts": "2026-10-01T15:13:41.919411",
+    "id": "4672049",
+    "pregunta": "Paris Saint-Germain FC vs. Oud-Heverlee Leuven Women: O/U 4.5",
+    "ts": "2026-10-01T15:23:52.964482",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_wallet": "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090",
     "whale_signal": "COMPRAR NO"
   }
 ]
