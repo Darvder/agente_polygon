@@ -1,42 +1,58 @@
 [
   {
-    "id": "5071579",
-    "pregunta": "China Open: Learner Tien vs Hubert Hurkacz",
-    "ts": "2026-10-01T07:02:54.213383",
+    "id": "4678618",
+    "pregunta": "Will Greece vs. Netherlands end in a draw?",
+    "ts": "2026-10-01T07:13:38.424466",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe121ca930b64f2f9bad27fee1ceee76e105184da",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5132119",
-    "pregunta": "Porto 2: Mili Poljicak vs Henrique Rocha",
-    "ts": "2026-10-01T07:02:55.487320",
+    "id": "5073589",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-10-01T07:13:39.505514",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe121ca930b64f2f9bad27fee1ceee76e105184da",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5070140",
-    "pregunta": "China Open: Xinyu Gao vs Panna Udvardy",
-    "ts": "2026-10-01T07:02:56.563311",
+    "id": "4678652",
+    "pregunta": "Will Kosovo win on 2026-10-01?",
+    "ts": "2026-10-01T07:13:40.565643",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe121ca930b64f2f9bad27fee1ceee76e105184da",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "629040",
-    "pregunta": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-    "ts": "2026-10-01T07:03:00.886021",
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-10-01T07:13:41.632977",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb06cfb91a1e7abeec433c16db112aa046c79b574",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4948644",
-    "pregunta": "KBO: NC Dinos vs. Doosan Bears",
-    "ts": "2026-10-01T07:03:15.253840",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T07:13:42.700294",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4fd6f1e210945a27a1449fbf6ee1f23f7fdc3379",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-10-01T07:13:45.006448",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070132",
+    "pregunta": "China Open: Lanlana Tararudee vs Camila Osorio",
+    "ts": "2026-10-01T07:13:47.278210",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
