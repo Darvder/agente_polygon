@@ -1,42 +1,34 @@
 [
   {
-    "id": "4679768",
-    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 0.5",
-    "ts": "2026-10-01T12:12:54.815146",
+    "id": "5170731",
+    "pregunta": "Will Bitcoin reach $97,500 in October?",
+    "ts": "2026-10-01T12:22:12.756552",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679769",
-    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 1.5",
-    "ts": "2026-10-01T12:12:55.867328",
+    "id": "5170737",
+    "pregunta": "Will Bitcoin dip to $82,500 in October?",
+    "ts": "2026-10-01T12:22:13.802960",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679770",
-    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 2.5",
-    "ts": "2026-10-01T12:12:56.998700",
+    "id": "2467206",
+    "pregunta": "Will Bitcoin reach $95,000 by December 31, 2026?",
+    "ts": "2026-10-01T12:22:14.847935",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679760",
-    "pregunta": "Spread: Azerbaijan (-2.5)",
-    "ts": "2026-10-01T12:12:58.082458",
+    "id": "1345531",
+    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "ts": "2026-10-01T12:22:15.899902",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679657",
-    "pregunta": "Republic of Ireland vs. Austria: Both Teams to Score",
-    "ts": "2026-10-01T12:13:00.876260",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x580a4378ef152410cb25d10c177e1b5f8ec3ded5",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
     "whale_signal": "COMPRAR NO"
   }
 ]
