@@ -1,10 +1,50 @@
 [
   {
-    "id": "5150743",
-    "pregunta": "W35 Wagga Wagga: Nagi Hanatani vs Nana Onozawa",
-    "ts": "2026-09-30T22:22:17.934532",
+    "id": "5156101",
+    "pregunta": "Dota 2: Team Yandex vs BetBoom Team (BO3) - BLAST Slam Group C",
+    "ts": "2026-09-30T22:32:37.398873",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
+    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5140154",
+    "pregunta": "Dota 2: Aurora vs Team Liquid (BO3) - BLAST Slam Group D",
+    "ts": "2026-09-30T22:32:38.453529",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162909",
+    "pregunta": "Dota 2: 1win vs Team Nemesis (BO3) - BLAST Slam Group B",
+    "ts": "2026-09-30T22:32:39.515431",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162889",
+    "pregunta": "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - BLAST Slam Group A",
+    "ts": "2026-09-30T22:32:40.572756",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148813",
+    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 8.5",
+    "ts": "2026-09-30T22:32:42.746639",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x125a399cc5cb7cf7cbe8f010a05f0ed673374f02",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4952602",
+    "pregunta": "Golden State Valkyries vs. Dallas Wings",
+    "ts": "2026-09-30T22:32:43.807331",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x125a399cc5cb7cf7cbe8f010a05f0ed673374f02",
     "whale_signal": "COMPRAR NO"
   }
 ]
