@@ -1,50 +1,106 @@
 [
   {
-    "id": "5071561",
-    "pregunta": "China Open: Juncheng Shang vs Sebastian Baez",
-    "ts": "2026-10-01T05:03:31.818898",
+    "id": "4950465",
+    "pregunta": "Will the price of Bitcoin be between $82,000 and $84,000 on October 2?",
+    "ts": "2026-10-01T05:12:43.117006",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5151782",
-    "pregunta": "Will no next Israeli Minister of National Security be appointed by February 28, 2027?",
-    "ts": "2026-10-01T05:03:34.862395",
+    "id": "4909057",
+    "pregunta": "Will the price of Bitcoin be above $84,000 on October 1?",
+    "ts": "2026-10-01T05:12:44.157011",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5151639",
-    "pregunta": "Will Bezalel Smotrich be the next Israeli Minister of Finance?",
-    "ts": "2026-10-01T05:03:35.934958",
+    "id": "4950486",
+    "pregunta": "Will the price of Bitcoin be above $82,000 on October 2?",
+    "ts": "2026-10-01T05:12:45.211720",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5151640",
-    "pregunta": "Will Nir Barkat be the next Israeli Minister of Finance?",
-    "ts": "2026-10-01T05:03:37.098066",
+    "id": "4950462",
+    "pregunta": "Will the price of Bitcoin be between $80,000 and $82,000 on October 2?",
+    "ts": "2026-10-01T05:12:47.311561",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4718920",
-    "pregunta": "Will Real Oviedo win on 2026-10-02?",
-    "ts": "2026-10-01T05:03:40.182538",
+    "id": "5150550",
+    "pregunta": "Counter-Strike: ABT Esports vs Falcons Force (BO1) - FOX Legacy Cup Group A",
+    "ts": "2026-10-01T05:12:49.766179",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4a6d33a12dd3c9c4c742f3932f66880aae91160d",
+    "whale_wallet": "0x883aa989ab0b8ee4b0742035187f850d12bc73b0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4730369",
-    "pregunta": "Will Crici\u00fama EC win on 2026-10-02?",
-    "ts": "2026-10-01T05:03:41.246499",
+    "id": "5150538",
+    "pregunta": "Counter-Strike: aimclub vs ABT Esports (BO1) - FOX Legacy Cup Group A",
+    "ts": "2026-10-01T05:12:50.909915",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4a6d33a12dd3c9c4c742f3932f66880aae91160d",
+    "whale_wallet": "0x883aa989ab0b8ee4b0742035187f850d12bc73b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166076",
+    "pregunta": "Counter-Strike: UPGRADE vs Krytiepacani (BO3) - CIS LAN Championship Playoffs",
+    "ts": "2026-10-01T05:12:51.957513",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x883aa989ab0b8ee4b0742035187f850d12bc73b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5169988",
+    "pregunta": "Map Handicap: UP (-1.5) vs Krytiepacani (+1.5)",
+    "ts": "2026-10-01T05:12:53.004906",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x883aa989ab0b8ee4b0742035187f850d12bc73b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150545",
+    "pregunta": "Counter-Strike: NAVI Junior vs ABT Esports (BO1) - FOX Legacy Cup Group A",
+    "ts": "2026-10-01T05:12:54.057447",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x883aa989ab0b8ee4b0742035187f850d12bc73b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5149619",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-10-01T05:12:55.195884",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x883aa989ab0b8ee4b0742035187f850d12bc73b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150552",
+    "pregunta": "Counter-Strike: NAVI Junior vs PURE (BO1) - FOX Legacy Cup Group A",
+    "ts": "2026-10-01T05:12:56.258660",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x883aa989ab0b8ee4b0742035187f850d12bc73b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T05:12:58.095241",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4389b210113062b12130bf56738631b4780c92e5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-10-01T05:12:59.157526",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4389b210113062b12130bf56738631b4780c92e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
