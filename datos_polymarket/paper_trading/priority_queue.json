@@ -1,58 +1,58 @@
 [
   {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-01T03:15:18.922801",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2431413",
-    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
-    "ts": "2026-10-01T03:15:20.129799",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5062271",
-    "pregunta": "Will Bitcoin reach $86,000 September 28-October 4?",
-    "ts": "2026-10-01T03:15:21.184002",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4828203",
-    "pregunta": "Will Elon Musk post 180-199 tweets from September 25 to October 2, 2026?",
-    "ts": "2026-10-01T03:15:23.316204",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5071561",
     "pregunta": "China Open: Juncheng Shang vs Sebastian Baez",
-    "ts": "2026-10-01T03:15:24.394805",
+    "ts": "2026-10-01T03:24:12.816193",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-10-01T03:15:25.494383",
+    "id": "5070136",
+    "pregunta": "China Open: Paula Badosa vs Daria Kasatkina",
+    "ts": "2026-10-01T03:24:13.882065",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871405",
-    "pregunta": "Colts vs. Commanders",
-    "ts": "2026-10-01T03:15:26.594419",
+    "id": "5121621",
+    "pregunta": "Jingshan: Yuta Shimizu vs Bernard Tomic",
+    "ts": "2026-10-01T03:24:14.919739",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5130754",
+    "pregunta": "China Open: Marina Bassols Ribera vs Kamilla Rakhimova",
+    "ts": "2026-10-01T03:24:15.966543",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071534",
+    "pregunta": "Japan Open Tennis Championships: Carlos Alcaraz vs Alex Michelsen",
+    "ts": "2026-10-01T03:24:17.845227",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05b35debb8d22ac68d8dd4f1b99bcd8fc0cb45c3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071552",
+    "pregunta": "Japan Open Tennis Championships: Alejandro Davidovich Fokina vs Matteo Berrettini",
+    "ts": "2026-10-01T03:24:18.883596",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05b35debb8d22ac68d8dd4f1b99bcd8fc0cb45c3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4950486",
+    "pregunta": "Will the price of Bitcoin be above $82,000 on October 2?",
+    "ts": "2026-10-01T03:24:22.620706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   }
 ]
