@@ -1,58 +1,50 @@
 [
   {
-    "id": "3554657",
-    "pregunta": "Will Anthropic have the best AI model at the end of October 2026?",
-    "ts": "2026-09-30T20:22:10.393393",
+    "id": "4993147",
+    "pregunta": "Argentina vs. Bolivia: 1st Half O/U 2.5",
+    "ts": "2026-09-30T20:32:45.182115",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf6320b0f81bc9889dce6ce0feea43a925a6e930",
+    "whale_wallet": "0x059cf332860b4fe89c5aa7174c13f2eb53f3050e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3554659",
-    "pregunta": "Will Google have the best AI model at the end of October 2026?",
-    "ts": "2026-09-30T20:22:11.459573",
+    "id": "4993137",
+    "pregunta": "Argentina vs. Bolivia: O/U 3.5",
+    "ts": "2026-09-30T20:32:47.358806",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf6320b0f81bc9889dce6ce0feea43a925a6e930",
+    "whale_wallet": "0x059cf332860b4fe89c5aa7174c13f2eb53f3050e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4952602",
-    "pregunta": "Golden State Valkyries vs. Dallas Wings",
-    "ts": "2026-09-30T20:22:13.431251",
+    "id": "5121611",
+    "pregunta": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
+    "ts": "2026-09-30T20:32:49.255904",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4978501",
-    "pregunta": "Boston Red Sox vs. New York Yankees",
-    "ts": "2026-09-30T20:22:14.491010",
+    "id": "5121619",
+    "pregunta": "China Open: Alex Molcan vs Arthur Rinderknech",
+    "ts": "2026-09-30T20:32:50.299402",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5164995",
-    "pregunta": "Atlanta Dream vs. Washington Mystics: O/U 166.5",
-    "ts": "2026-09-30T20:22:16.647613",
+    "id": "5071571",
+    "pregunta": "China Open: Alex de Minaur vs Mariano Navone",
+    "ts": "2026-09-30T20:32:51.372462",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea74e82e045acca6bbc678c7be884a053a092e5f",
+    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5143658",
-    "pregunta": "Atlanta Dream vs. Washington Mystics: O/U 165.5",
-    "ts": "2026-09-30T20:22:17.748863",
+    "id": "5071556",
+    "pregunta": "Japan Open Tennis Championships: Kei Nishikori vs Frances Tiafoe",
+    "ts": "2026-09-30T20:32:52.414195",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea74e82e045acca6bbc678c7be884a053a092e5f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5061936",
-    "pregunta": "Golden State Valkyries vs. Dallas Wings: O/U 155.5",
-    "ts": "2026-09-30T20:22:18.985388",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xea74e82e045acca6bbc678c7be884a053a092e5f",
+    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
     "whale_signal": "COMPRAR NO"
   }
 ]
