@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1803.48,
-  "capital_en_riesgo": 165.28,
-  "n_ciclos": 38956,
-  "ultima_corrida": "2026-10-01 11:45",
+  "capital_actual": 1826.51,
+  "capital_en_riesgo": 140.28,
+  "n_ciclos": 38957,
+  "ultima_corrida": "2026-10-01 11:52",
   "n_tp": 646,
-  "n_sl": 430,
+  "n_sl": 431,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 75.53,
-    "capital_en_riesgo": 19.0,
+    "capital_actual": 79.22,
+    "capital_en_riesgo": 15.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 160,
-    "n_sl": 103,
+    "n_sl": 104,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-30",
@@ -31,7 +31,7 @@
         "pregunta": "Will Google have the best AI model at the end of October 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.2695,
-        "precio_actual": 0.2975,
+        "precio_actual": 0.312,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -40,26 +40,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x2e0355c6c075ae156999f77a6c17cc2cd698eeecec6461efbff70badf8dce919"
-      },
-      {
-        "fecha_entrada": "2026-10-01",
-        "fecha_entrada_dt": "2026-10-01 10:54",
-        "target_wallet": "0xcb016f2b417f98c88fc91fffe7e69d4a6b1c7dfb",
-        "market_id": "608547",
-        "condition_id": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a",
-        "token_id": "72710166409980712002774407052535905861151156175854323762835102340552522606004",
-        "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.3875,
-        "precio_actual": 0.3595,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x8a434c5e6724fc05558171a57caca2fea62b34b69b04f29b506ee2a65f8dd42c"
       },
       {
         "fecha_entrada": "2026-10-01",
@@ -5382,6 +5362,26 @@
         "pnl_realizado": -4.0,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xd66c8e8f37f66d882ed6e5903cff9bc3b1e28bc5118b388deefb67375894357f"
+      },
+      {
+        "fecha_entrada": "2026-10-01",
+        "fecha_entrada_dt": "2026-10-01 10:54",
+        "target_wallet": "0xcb016f2b417f98c88fc91fffe7e69d4a6b1c7dfb",
+        "market_id": "608547",
+        "condition_id": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a",
+        "token_id": "72710166409980712002774407052535905861151156175854323762835102340552522606004",
+        "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.3875,
+        "precio_actual": 0.357,
+        "precio_cierre": 0.357,
+        "pct_cambio": -0.0787,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-01 11:52",
+        "pnl_realizado": -0.31,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x8a434c5e6724fc05558171a57caca2fea62b34b69b04f29b506ee2a65f8dd42c"
       }
     ]
   }
