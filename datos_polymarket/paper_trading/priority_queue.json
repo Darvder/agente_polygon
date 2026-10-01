@@ -1,26 +1,34 @@
 [
   {
-    "id": "5071579",
-    "pregunta": "China Open: Learner Tien vs Hubert Hurkacz",
-    "ts": "2026-10-01T07:22:26.100861",
+    "id": "5146317",
+    "pregunta": "Counter-Strike: WRAITH PCIFIC vs Nexus - Map 2 Winner",
+    "ts": "2026-10-01T07:32:14.246279",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4949321",
-    "pregunta": "Valorant: XLG Gaming vs Nongshim RedForce - Map 1 Winner",
-    "ts": "2026-10-01T07:22:28.401223",
+    "id": "5149621",
+    "pregunta": "Counter-Strike: Revenge vs Passion Academy - Map 2 Winner",
+    "ts": "2026-10-01T07:32:16.323913",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0267da5b63ee7cd13ab286fe3b70bf388a3f409",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4949323",
-    "pregunta": "Valorant: XLG Gaming vs Nongshim RedForce (BO3) - VCT Champions Group D",
-    "ts": "2026-10-01T07:22:29.449547",
+    "id": "5116169",
+    "pregunta": "Will the highest temperature in Paris be 22\u00b0C on October 1?",
+    "ts": "2026-10-01T07:32:18.141890",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0267da5b63ee7cd13ab286fe3b70bf388a3f409",
+    "whale_wallet": "0x7c72a056cff0b1e2791b32eab5fa420b1df0825e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166079",
+    "pregunta": "Counter-Strike: maybe vs eternal premium - Map 2 Winner",
+    "ts": "2026-10-01T07:32:19.908931",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
     "whale_signal": "COMPRAR NO"
   }
 ]
