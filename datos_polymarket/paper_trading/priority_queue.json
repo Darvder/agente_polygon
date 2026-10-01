@@ -1,26 +1,50 @@
 [
   {
+    "id": "5148078",
+    "pregunta": "Counter-Strike: METANOIA WOLVES vs MEIA NOITE (BO3) - CCT South America Series 6 Group Stage",
+    "ts": "2026-09-30T19:12:12.842398",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4895423",
+    "pregunta": "Montevideo City Torque vs. CA Penarol Montevideo: O/U 3.5",
+    "ts": "2026-09-30T19:12:20.946493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-09-30T19:12:22.077090",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5027594",
+    "pregunta": "Will Brooklyn FC win on 2026-09-30?",
+    "ts": "2026-09-30T19:12:23.261807",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4877712",
     "pregunta": "Will SC Paderborn 07 win on 2026-09-30?",
-    "ts": "2026-09-30T19:03:06.430949",
+    "ts": "2026-09-30T19:12:24.319279",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5132125",
-    "pregunta": "Curitiba: Joao Lucas Da Silva vs Matheus Pucinelli de Almeida",
-    "ts": "2026-09-30T19:03:07.482284",
+    "id": "4993146",
+    "pregunta": "Argentina vs. Bolivia: 1st Half O/U 1.5",
+    "ts": "2026-09-30T19:12:26.166430",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4949323",
-    "pregunta": "Valorant: XLG Gaming vs Nongshim RedForce (BO3) - VCT Champions Group D",
-    "ts": "2026-09-30T19:03:09.359427",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6d1fc65dc942519e10b91520ec1de8df4b5e5a5f",
+    "whale_wallet": "0x3657e3559cc11cd6057cdfbcb315dcb559588d54",
     "whale_signal": "COMPRAR NO"
   }
 ]
