@@ -1,18 +1,50 @@
 [
   {
-    "id": "5156119",
-    "pregunta": "Dota 2: MOUZ vs OG - Game 1 Winner",
-    "ts": "2026-10-01T08:52:34.925704",
+    "id": "4679470",
+    "pregunta": "Wales vs. Norway: O/U 2.5",
+    "ts": "2026-10-01T09:04:03.119573",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_wallet": "0x856b152e385b2da01429f90429a3f96af8e72b6d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5162747",
-    "pregunta": "W75 Quinta do Lago: Harmony Tan vs Eva Vedder",
-    "ts": "2026-10-01T08:52:37.006918",
+    "id": "4679477",
+    "pregunta": "Wales vs. Norway: Both Teams to Score",
+    "ts": "2026-10-01T09:04:04.213346",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x856b152e385b2da01429f90429a3f96af8e72b6d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166080",
+    "pregunta": "Counter-Strike: maybe vs eternal premium (BO3) - CCT Europe Challengers Series Playoffs",
+    "ts": "2026-10-01T09:04:12.408257",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5171342",
+    "pregunta": "Counter-Strike: Low Cortisol vs BESTIA Academy - Map 1 Winner",
+    "ts": "2026-10-01T09:04:14.267531",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5171344",
+    "pregunta": "Counter-Strike: Low Cortisol vs BESTIA Academy (BO3) - CCT South America Series 6 Playoffs",
+    "ts": "2026-10-01T09:04:15.330850",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4638093",
+    "pregunta": "Counter-Strike: BIG vs fnatic - Map 2 Winner",
+    "ts": "2026-10-01T09:04:16.383779",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x10d79cc72df76ea3d6bdc2d54f41dbcbbb18bbf6",
     "whale_signal": "COMPRAR NO"
   }
 ]
