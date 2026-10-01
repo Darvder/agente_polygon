@@ -1,10 +1,18 @@
 [
   {
-    "id": "5121611",
-    "pregunta": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
-    "ts": "2026-09-30T23:33:26.912222",
+    "id": "5168026",
+    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 5.5",
+    "ts": "2026-09-30T23:44:32.696529",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5121584",
+    "pregunta": "Japan Open Tennis Championships: Tomas Etcheverry vs Stefanos Tsitsipas",
+    "ts": "2026-09-30T23:44:55.535430",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00003382bda11aa512e8aada9365f4dad3059cda",
     "whale_signal": "COMPRAR NO"
   }
 ]
