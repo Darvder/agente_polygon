@@ -1,34 +1,66 @@
 [
   {
-    "id": "4949458",
-    "pregunta": "KK Crvena Zvezda vs. Anadolu Efes",
-    "ts": "2026-10-01T14:12:19.791568",
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-10-01T14:22:47.257114",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4949456",
-    "pregunta": "Virtus Bologna vs. Olympiacos B.C.",
-    "ts": "2026-10-01T14:12:20.859403",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T14:22:48.375223",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4945127",
-    "pregunta": "Science City Jena vs. SC RASTA Vechta",
-    "ts": "2026-10-01T14:12:24.008897",
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-10-01T14:22:49.423562",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4949455",
-    "pregunta": "Paris Basketball vs. Zalgiris Kaunas",
-    "ts": "2026-10-01T14:12:25.054947",
+    "id": "4678613",
+    "pregunta": "Will Germany win on 2026-10-01?",
+    "ts": "2026-10-01T14:22:50.465273",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
+    "whale_wallet": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4642062",
+    "pregunta": "Counter-Strike: FaZe vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-01T14:22:53.336542",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678617",
+    "pregunta": "Will Greece win on 2026-10-01?",
+    "ts": "2026-10-01T14:22:55.620256",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4679539",
+    "pregunta": "Greece vs. Netherlands: 1st Half O/U 0.5",
+    "ts": "2026-10-01T14:22:56.833325",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678609",
+    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
+    "ts": "2026-10-01T14:22:57.875543",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
     "whale_signal": "COMPRAR NO"
   }
 ]
