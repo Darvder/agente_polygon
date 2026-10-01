@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1645.77,
-  "capital_en_riesgo": 408.44999999999993,
-  "n_ciclos": 38906,
-  "ultima_corrida": "2026-10-01 03:25",
-  "n_tp": 622,
+  "capital_actual": 1667.67,
+  "capital_en_riesgo": 386.55,
+  "n_ciclos": 38907,
+  "ultima_corrida": "2026-10-01 03:33",
+  "n_tp": 623,
   "n_sl": 413,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 44.34,
-    "capital_en_riesgo": 57.93,
+    "capital_actual": 47.37,
+    "capital_en_riesgo": 54.9,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 136,
+    "n_tp": 137,
     "n_sl": 89,
     "posiciones_abiertas": [
       {
@@ -131,7 +131,7 @@
         "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.425,
-        "precio_actual": 0.4535,
+        "precio_actual": 0.455,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.18,
@@ -171,7 +171,7 @@
         "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on October ",
         "outcome": "No",
         "precio_token_entrada": 0.735,
-        "precio_actual": 0.685,
+        "precio_actual": 0.74,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -271,7 +271,7 @@
         "pregunta": "Will Google have the best AI model at the end of October 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.2695,
-        "precio_actual": 0.29,
+        "precio_actual": 0.2915,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xbe4cd6ae9f4f59e2ed2fc2b65252911d2e7ced753ac1b09be9e1cce9f3039e96"
-      },
-      {
-        "fecha_entrada": "2026-10-01",
-        "fecha_entrada_dt": "2026-10-01 03:15",
-        "target_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
-        "market_id": "601819",
-        "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
-        "token_id": "79191939610100241429039499950443680906623179487184628479206155805558220344190",
-        "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential ele",
-        "outcome": "No",
-        "precio_token_entrada": 0.635,
-        "precio_actual": 0.635,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.03,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x473dfc8d2341b5e8cbb7d29a3c4250ce8baa90f4a17bfc264af016102feebc80"
       }
     ],
     "historial_cerradas": [
@@ -4882,6 +4862,26 @@
         "pnl_realizado": 1.1,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0xb1b600ada734d92f14294d2861e03f63b537064cf87ea351e34dafd1f30730a3"
+      },
+      {
+        "fecha_entrada": "2026-10-01",
+        "fecha_entrada_dt": "2026-10-01 03:15",
+        "target_wallet": "0xb0250c4487caebf3a822ac3fa4ccf5d0f69e174d",
+        "market_id": "601819",
+        "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+        "token_id": "79191939610100241429039499950443680906623179487184628479206155805558220344190",
+        "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential ele",
+        "outcome": "No",
+        "precio_token_entrada": 0.635,
+        "precio_actual": 0.635,
+        "precio_cierre": 0.635,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.03,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-01 03:33",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x473dfc8d2341b5e8cbb7d29a3c4250ce8baa90f4a17bfc264af016102feebc80"
       }
     ]
   }
