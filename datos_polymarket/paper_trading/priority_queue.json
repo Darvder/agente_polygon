@@ -1,34 +1,18 @@
 [
   {
-    "id": "5170731",
-    "pregunta": "Will Bitcoin reach $97,500 in October?",
-    "ts": "2026-10-01T12:22:12.756552",
+    "id": "4679768",
+    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 0.5",
+    "ts": "2026-10-01T12:33:45.869469",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170737",
-    "pregunta": "Will Bitcoin dip to $82,500 in October?",
-    "ts": "2026-10-01T12:22:13.802960",
+    "id": "4949461",
+    "pregunta": "Hapoel Tel Aviv vs. Real Madrid",
+    "ts": "2026-10-01T12:33:46.931927",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2467206",
-    "pregunta": "Will Bitcoin reach $95,000 by December 31, 2026?",
-    "ts": "2026-10-01T12:22:14.847935",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1345531",
-    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
-    "ts": "2026-10-01T12:22:15.899902",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
