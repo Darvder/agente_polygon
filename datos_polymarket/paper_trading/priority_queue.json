@@ -1,42 +1,34 @@
 [
   {
-    "id": "5150631",
-    "pregunta": "Will the highest temperature in Austin be between 82-83\u00b0F on October 2?",
-    "ts": "2026-10-01T02:35:03.174590",
+    "id": "5121617",
+    "pregunta": "China Open: Botic van de Zandschulp vs Francisco Cerundolo",
+    "ts": "2026-10-01T02:44:41.493660",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
+    "whale_wallet": "0x51c4dbd25f4a616eda7f030ff2a33c47c3ec9758",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148257",
-    "pregunta": "Will the highest temperature in Warsaw be 22\u00b0C on October 2?",
-    "ts": "2026-10-01T02:35:04.261030",
+    "id": "5070130",
+    "pregunta": "China Open: Magda Linette vs Katerina Siniakova",
+    "ts": "2026-10-01T02:44:44.709254",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
+    "whale_wallet": "0x51c4dbd25f4a616eda7f030ff2a33c47c3ec9758",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148267",
-    "pregunta": "Will the highest temperature in Taipei be 32\u00b0C on October 2?",
-    "ts": "2026-10-01T02:35:05.503270",
+    "id": "5132715",
+    "pregunta": "Set 1 Winner: August Holmgren vs Andrea Guerrieri",
+    "ts": "2026-10-01T02:44:45.878905",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
+    "whale_wallet": "0x51c4dbd25f4a616eda7f030ff2a33c47c3ec9758",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5153539",
-    "pregunta": "Will the highest temperature in Los Angeles be between 84-85\u00b0F on October 2?",
-    "ts": "2026-10-01T02:35:06.601299",
+    "id": "5146322",
+    "pregunta": "Counter-Strike: Butterfly vs Noir Verse (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-10-01T02:44:50.955155",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5153540",
-    "pregunta": "Will the highest temperature in Los Angeles be between 86-87\u00b0F on October 2?",
-    "ts": "2026-10-01T02:35:07.683446",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
+    "whale_wallet": "0x4f567c541e1c90ed8b3d8b604cb84a1dcc0550ed",
     "whale_signal": "COMPRAR NO"
   }
 ]
