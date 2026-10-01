@@ -1,34 +1,122 @@
 [
   {
-    "id": "4945124",
-    "pregunta": "Tasmania JackJumpers vs. Melbourne United",
-    "ts": "2026-10-01T06:33:09.710756",
+    "id": "5071579",
+    "pregunta": "China Open: Learner Tien vs Hubert Hurkacz",
+    "ts": "2026-10-01T06:43:36.706463",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc73133aa487dbd85e589e8b5a2dc7111b9316981",
+    "whale_wallet": "0x04a0c70c1b0248dded24eb33175de69093bba986",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148203",
-    "pregunta": "Will the highest temperature in Hong Kong be 32\u00b0C on October 2?",
-    "ts": "2026-10-01T06:33:29.591078",
+    "id": "4949323",
+    "pregunta": "Valorant: XLG Gaming vs Nongshim RedForce (BO3) - VCT Champions Group D",
+    "ts": "2026-10-01T06:43:38.846714",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0877bf99e66975af1e0555012286fc7204791f7",
+    "whale_wallet": "0x6daadde5d38030a2b0992025f11869efb0eb25f6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148201",
-    "pregunta": "Will the highest temperature in Hong Kong be 30\u00b0C on October 2?",
-    "ts": "2026-10-01T06:33:30.873308",
+    "id": "5130752",
+    "pregunta": "China Open: Harriet Dart vs Yihan Qu",
+    "ts": "2026-10-01T06:43:41.156479",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0877bf99e66975af1e0555012286fc7204791f7",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5121613",
-    "pregunta": "Japan Open Tennis Championships: Adolfo Vallejo vs Rafael Jodar",
-    "ts": "2026-10-01T06:33:33.010659",
+    "id": "5132129",
+    "pregunta": "Bari: Lorenzo Giustino vs Matthew William Donald",
+    "ts": "2026-10-01T06:43:42.244099",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd123211134d5dffbaaad1effd054f4b8a686d341",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5157730",
+    "pregunta": "Porto 2: Inaki Montes vs Jacob Fearnley",
+    "ts": "2026-10-01T06:43:43.333374",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166065",
+    "pregunta": "Porto 2: Edas Butvilas vs Moez Echargui",
+    "ts": "2026-10-01T06:43:44.422563",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071575",
+    "pregunta": "China Open: Tallon Griekspoor vs Andrey Rublev",
+    "ts": "2026-10-01T06:43:45.507606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070140",
+    "pregunta": "China Open: Xinyu Gao vs Panna Udvardy",
+    "ts": "2026-10-01T06:43:46.589629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5132137",
+    "pregunta": "Mouilleron-Le-Captif: Felix Balshaw vs Nicolai Budkov Kjaer",
+    "ts": "2026-10-01T06:43:47.673243",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071569",
+    "pregunta": "China Open: Alexander Bublik vs Jakub Mensik",
+    "ts": "2026-10-01T06:43:48.756774",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5132115",
+    "pregunta": "Porto 2: August Holmgren vs Andrea Guerrieri",
+    "ts": "2026-10-01T06:43:49.841863",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5157722",
+    "pregunta": "Porto 2: Tiago Pereira vs Hugo Grenier",
+    "ts": "2026-10-01T06:43:52.025656",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5157726",
+    "pregunta": "Curitiba: Mateus Cardoso Alves vs Gonzalo Villanueva",
+    "ts": "2026-10-01T06:43:53.110039",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5132134",
+    "pregunta": "Bari: Pierluigi Basile vs Martin Krumich",
+    "ts": "2026-10-01T06:43:54.437128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148484",
+    "pregunta": "Columbus: Bryce Nakashima vs Keegan Smith",
+    "ts": "2026-10-01T06:43:55.524600",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9706baa6dd084f1f0c3b88602a543d0c313f7f6",
     "whale_signal": "COMPRAR NO"
   }
 ]
