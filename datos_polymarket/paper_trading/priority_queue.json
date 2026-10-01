@@ -1,10 +1,42 @@
 [
   {
-    "id": "5070316",
-    "pregunta": "Will VfB Stuttgart win on 2026-10-01?",
-    "ts": "2026-10-01T10:43:16.018896",
+    "id": "608547",
+    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "ts": "2026-10-01T10:54:38.241262",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xcb016f2b417f98c88fc91fffe7e69d4a6b1c7dfb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5140172",
+    "pregunta": "Dota 2: GamerLegion vs Yakult Brothers - Game 1 Winner",
+    "ts": "2026-10-01T10:54:42.006746",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5140152",
+    "pregunta": "Dota 2: Aurora vs Team Liquid - Game 1 Winner",
+    "ts": "2026-10-01T10:54:43.053689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166222",
+    "pregunta": "LoL: Bushido Wildcats vs Frites Esports Club - Game 2 Winner",
+    "ts": "2026-10-01T10:54:44.103258",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5140154",
+    "pregunta": "Dota 2: Aurora vs Team Liquid (BO3) - BLAST Slam Group D",
+    "ts": "2026-10-01T10:54:45.157399",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   }
 ]
