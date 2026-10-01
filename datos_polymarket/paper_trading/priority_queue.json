@@ -1,10 +1,50 @@
 [
   {
-    "id": "4678627",
-    "pregunta": "Will Wales win on 2026-10-01?",
-    "ts": "2026-10-01T15:02:21.174196",
+    "id": "4678650",
+    "pregunta": "Will Israel vs. Kosovo end in a draw?",
+    "ts": "2026-10-01T15:13:35.830195",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678617",
+    "pregunta": "Will Greece win on 2026-10-01?",
+    "ts": "2026-10-01T15:13:36.891738",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678618",
+    "pregunta": "Will Greece vs. Netherlands end in a draw?",
+    "ts": "2026-10-01T15:13:37.958089",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678652",
+    "pregunta": "Will Kosovo win on 2026-10-01?",
+    "ts": "2026-10-01T15:13:39.020435",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678609",
+    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
+    "ts": "2026-10-01T15:13:40.864109",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678605",
+    "pregunta": "Will Malta win on 2026-10-01?",
+    "ts": "2026-10-01T15:13:41.919411",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
     "whale_signal": "COMPRAR NO"
   }
 ]
