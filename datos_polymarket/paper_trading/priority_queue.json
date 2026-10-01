@@ -1,26 +1,34 @@
 [
   {
-    "id": "5071579",
-    "pregunta": "China Open: Learner Tien vs Hubert Hurkacz",
-    "ts": "2026-10-01T07:53:45.843796",
+    "id": "5073589",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-10-01T08:02:26.923352",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5071569",
-    "pregunta": "China Open: Alexander Bublik vs Jakub Mensik",
-    "ts": "2026-10-01T07:53:47.941993",
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-10-01T08:02:27.965853",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4949321",
-    "pregunta": "Valorant: XLG Gaming vs Nongshim RedForce - Map 1 Winner",
-    "ts": "2026-10-01T07:53:53.838047",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T08:02:29.005447",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6b23c73159b753c96d3c1ed94413f113300c04a3",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4689924",
+    "pregunta": "Will Haiti win on 2026-10-01?",
+    "ts": "2026-10-01T08:02:30.046364",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
