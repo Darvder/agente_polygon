@@ -1,18 +1,58 @@
 [
   {
-    "id": "5168026",
-    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 5.5",
-    "ts": "2026-09-30T23:44:32.696529",
+    "id": "5150548",
+    "pregunta": "Counter-Strike: aimclub vs Falcons Force (BO1) - FOX Legacy Cup Group A",
+    "ts": "2026-09-30T23:52:17.955132",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xb66c2855ecdf8d41d6028b749fe7970f291ba0f5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5121584",
-    "pregunta": "Japan Open Tennis Championships: Tomas Etcheverry vs Stefanos Tsitsipas",
-    "ts": "2026-09-30T23:44:55.535430",
+    "id": "5150699",
+    "pregunta": "Map Handicap: LVKD (-1.5) vs MASONIC (+1.5)",
+    "ts": "2026-09-30T23:52:19.003865",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x00003382bda11aa512e8aada9365f4dad3059cda",
+    "whale_wallet": "0xb66c2855ecdf8d41d6028b749fe7970f291ba0f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5164613",
+    "pregunta": "Counter-Strike: HOTU vs Team Nemesis (BO3) - CIS LAN Championship Playoffs",
+    "ts": "2026-09-30T23:52:20.133593",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb66c2855ecdf8d41d6028b749fe7970f291ba0f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4638096",
+    "pregunta": "Map Handicap: BIG (-1.5) vs fnatic (+1.5)",
+    "ts": "2026-09-30T23:52:21.270091",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb66c2855ecdf8d41d6028b749fe7970f291ba0f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5164615",
+    "pregunta": "Map Handicap: HOTU (-1.5) vs Team Nemesis (+1.5)",
+    "ts": "2026-09-30T23:52:22.330411",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb66c2855ecdf8d41d6028b749fe7970f291ba0f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150624",
+    "pregunta": "Counter-Strike: Lazer Cats vs FC Famalic\u00e3o Esports (BO1) - FOX Legacy Cup Group B",
+    "ts": "2026-09-30T23:52:23.475439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb66c2855ecdf8d41d6028b749fe7970f291ba0f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5119803",
+    "pregunta": "Asian Games Men: India vs Sri Lanka",
+    "ts": "2026-09-30T23:52:26.090996",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x12dfc42b7c8b000278e9e60e3989477ce5bf32fc",
     "whale_signal": "COMPRAR NO"
   }
 ]
