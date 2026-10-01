@@ -1,162 +1,18 @@
 [
   {
-    "id": "5148387",
-    "pregunta": "Will the highest temperature in Helsinki be 17\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:46.775401",
+    "id": "4730367",
+    "pregunta": "CD Eldense vs. Real Oviedo: O/U 2.5",
+    "ts": "2026-10-01T00:44:56.924940",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
+    "whale_wallet": "0x0c680041542b7f6842ed2d66dff13088d00abb9f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148249",
-    "pregunta": "Will the highest temperature in Madrid be 26\u00b0C or higher on October 2?",
-    "ts": "2026-10-01T00:32:47.896360",
+    "id": "5119545",
+    "pregunta": "Will the highest temperature in Miami be between 80-81\u00b0F on October 1?",
+    "ts": "2026-10-01T00:45:11.816205",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148375",
-    "pregunta": "Will the highest temperature in Amsterdam be 21\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:49.019202",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5147463",
-    "pregunta": "Will the lowest temperature in Tokyo be 19\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:50.181738",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148202",
-    "pregunta": "Will the highest temperature in Hong Kong be 31\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:51.356251",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148191",
-    "pregunta": "Will the highest temperature in Tokyo be 24\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:52.396523",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5154290",
-    "pregunta": "Will the highest temperature in Panama City be 31\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:53.470085",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148408",
-    "pregunta": "Will the highest temperature in Jeddah be 35\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:54.510023",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148267",
-    "pregunta": "Will the highest temperature in Taipei be 32\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:55.643281",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148398",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 34\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:56.818062",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148396",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 32\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:57.961905",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148133",
-    "pregunta": "Will the highest temperature in Ankara be 17\u00b0C on October 2?",
-    "ts": "2026-10-01T00:32:59.083740",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122316",
-    "pregunta": "Will the highest temperature in Los Angeles be between 76-77\u00b0F on October 1?",
-    "ts": "2026-10-01T00:33:00.274790",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150603",
-    "pregunta": "Will the highest temperature in Miami be between 88-89\u00b0F on October 2?",
-    "ts": "2026-10-01T00:33:01.348443",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5147383",
-    "pregunta": "Will the lowest temperature in Paris be 10\u00b0C on October 2?",
-    "ts": "2026-10-01T00:33:02.470999",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148178",
-    "pregunta": "Will the highest temperature in Tel Aviv be 30\u00b0C on October 2?",
-    "ts": "2026-10-01T00:33:03.524811",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150565",
-    "pregunta": "Will the highest temperature in New York City be between 84-85\u00b0F on October 2?",
-    "ts": "2026-10-01T00:33:04.689436",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150601",
-    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on October 2?",
-    "ts": "2026-10-01T00:33:05.814739",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5154248",
-    "pregunta": "Will the highest temperature in Buenos Aires be 17\u00b0C on October 2?",
-    "ts": "2026-10-01T00:33:06.941995",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148397",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on October 2?",
-    "ts": "2026-10-01T00:33:07.986418",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb2099689a0fb0138c48f92619d516e432cbbad88",
+    "whale_wallet": "0x074619032c01c086f2352eb6ba91b45b38ca9d4b",
     "whale_signal": "COMPRAR NO"
   }
 ]
