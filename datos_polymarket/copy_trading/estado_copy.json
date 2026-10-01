@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1596.05,
-  "capital_en_riesgo": 398.81,
-  "n_ciclos": 38936,
-  "ultima_corrida": "2026-10-01 08:23",
-  "n_tp": 625,
+  "capital_actual": 1611.35,
+  "capital_en_riesgo": 384.31,
+  "n_ciclos": 38937,
+  "ultima_corrida": "2026-10-01 08:33",
+  "n_tp": 626,
   "n_sl": 420,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 37.44,
-    "capital_en_riesgo": 55.12,
+    "capital_actual": 40.61,
+    "capital_en_riesgo": 52.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 138,
+    "n_tp": 139,
     "n_sl": 94,
     "posiciones_abiertas": [
       {
@@ -251,7 +251,7 @@
         "pregunta": "Will Google have the best AI model at the end of October 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.2695,
-        "precio_actual": 0.2815,
+        "precio_actual": 0.282,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -291,7 +291,7 @@
         "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $85 Week of September 28 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.745,
-        "precio_actual": 0.96,
+        "precio_actual": 0.969,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -340,26 +340,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x1037ce21b367d55d3e37a7910d186f89c4e768b0d069e672fcfd467c44e00fb5"
-      },
-      {
-        "fecha_entrada": "2026-10-01",
-        "fecha_entrada_dt": "2026-10-01 08:22",
-        "target_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
-        "market_id": "5156119",
-        "condition_id": "0x9ba652aa90f92fe18e991957d346445f3a7815ccde9eddc7cecb1ae7e2572aaf",
-        "token_id": "114989868615721707118983840274744270837127845426982910135035831645950037344018",
-        "pregunta": "Dota 2: MOUZ vs OG - Game 1 Winner",
-        "outcome": "OG",
-        "precio_token_entrada": 0.725,
-        "precio_actual": 0.725,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x33377efcd6e6ad1cc326b49dd58ae563fc9de83b6032c8e2be78c1e9fd21d904"
       }
     ],
     "historial_cerradas": [
@@ -5002,6 +4982,26 @@
         "pnl_realizado": -2.9,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xa9124baff032f1bf9bd972f4985156a0a1e091a1d52834887dea26ba144e251a"
+      },
+      {
+        "fecha_entrada": "2026-10-01",
+        "fecha_entrada_dt": "2026-10-01 08:22",
+        "target_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+        "market_id": "5156119",
+        "condition_id": "0x9ba652aa90f92fe18e991957d346445f3a7815ccde9eddc7cecb1ae7e2572aaf",
+        "token_id": "114989868615721707118983840274744270837127845426982910135035831645950037344018",
+        "pregunta": "Dota 2: MOUZ vs OG - Game 1 Winner",
+        "outcome": "OG",
+        "precio_token_entrada": 0.725,
+        "precio_actual": 0.765,
+        "precio_cierre": 0.765,
+        "pct_cambio": 0.0552,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-01 08:33",
+        "pnl_realizado": 0.17,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x33377efcd6e6ad1cc326b49dd58ae563fc9de83b6032c8e2be78c1e9fd21d904"
       }
     ]
   }
