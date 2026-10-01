@@ -1,18 +1,26 @@
 [
   {
-    "id": "4730367",
-    "pregunta": "CD Eldense vs. Real Oviedo: O/U 2.5",
-    "ts": "2026-10-01T00:44:56.924940",
+    "id": "5121075",
+    "pregunta": "Jingshan: Alevtina Ibragimova vs Kyoka Okamura",
+    "ts": "2026-10-01T00:53:43.164942",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c680041542b7f6842ed2d66dff13088d00abb9f",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5119545",
-    "pregunta": "Will the highest temperature in Miami be between 80-81\u00b0F on October 1?",
-    "ts": "2026-10-01T00:45:11.816205",
+    "id": "5119803",
+    "pregunta": "Asian Games Men: India vs Sri Lanka",
+    "ts": "2026-10-01T00:53:44.230875",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x074619032c01c086f2352eb6ba91b45b38ca9d4b",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070122",
+    "pregunta": "China Open: Yulia Starodubtseva vs Alina Charaeva",
+    "ts": "2026-10-01T00:53:45.336257",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
