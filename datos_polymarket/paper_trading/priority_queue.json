@@ -1,42 +1,10 @@
 [
   {
-    "id": "608547",
-    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
-    "ts": "2026-10-01T10:54:38.241262",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcb016f2b417f98c88fc91fffe7e69d4a6b1c7dfb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5140172",
-    "pregunta": "Dota 2: GamerLegion vs Yakult Brothers - Game 1 Winner",
-    "ts": "2026-10-01T10:54:42.006746",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5140152",
     "pregunta": "Dota 2: Aurora vs Team Liquid - Game 1 Winner",
-    "ts": "2026-10-01T10:54:43.053689",
+    "ts": "2026-10-01T11:02:35.684192",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166222",
-    "pregunta": "LoL: Bushido Wildcats vs Frites Esports Club - Game 2 Winner",
-    "ts": "2026-10-01T10:54:44.103258",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5140154",
-    "pregunta": "Dota 2: Aurora vs Team Liquid (BO3) - BLAST Slam Group D",
-    "ts": "2026-10-01T10:54:45.157399",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
     "whale_signal": "COMPRAR NO"
   }
 ]
