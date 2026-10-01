@@ -1,8 +1,72 @@
 [
   {
-    "id": "4679591",
-    "pregunta": "Germany vs. Serbia: O/U 3.5",
-    "ts": "2026-10-01T13:15:05.028804",
+    "id": "5166310",
+    "pregunta": "LoL: Senshi Esports Club vs Bar\u00e7a eSports - Game 2 Winner",
+    "ts": "2026-10-01T13:22:21.400938",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166287",
+    "pregunta": "LoL: PCIFIC  vs Lodis - Game 1 Winner",
+    "ts": "2026-10-01T13:22:23.566504",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150661",
+    "pregunta": "Counter-Strike: Flame Hard vs SINQU (BO1) - FOX Legacy Cup Group B",
+    "ts": "2026-10-01T13:22:24.663628",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4657254",
+    "pregunta": "Will FK Austria Wien win on 2026-10-01?",
+    "ts": "2026-10-01T13:22:25.759802",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166289",
+    "pregunta": "LoL: PCIFIC  vs Lodis (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-10-01T13:22:26.834461",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166265",
+    "pregunta": "LoL: Team Phantasma vs The Secret Club Esport - Game 1 Winner",
+    "ts": "2026-10-01T13:22:27.931574",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4672386",
+    "pregunta": "FK Austria Wien vs. FC Internazionale Milano: O/U 1.5",
+    "ts": "2026-10-01T13:22:29.036649",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166267",
+    "pregunta": "LoL: Team Phantasma vs The Secret Club Esport (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-10-01T13:22:30.131336",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-10-01T13:22:31.901896",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -10,7 +74,7 @@
   {
     "id": "4813886",
     "pregunta": "North Texas vs. Tulsa",
-    "ts": "2026-10-01T13:15:06.155400",
+    "ts": "2026-10-01T13:22:33.005668",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -18,49 +82,17 @@
   {
     "id": "4679477",
     "pregunta": "Wales vs. Norway: Both Teams to Score",
-    "ts": "2026-10-01T13:15:07.263595",
+    "ts": "2026-10-01T13:22:34.183320",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678632",
-    "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-10-01T13:15:08.360764",
+    "id": "4679459",
+    "pregunta": "Spread: Norway (-1.5)",
+    "ts": "2026-10-01T13:22:35.259740",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678613",
-    "pregunta": "Will Germany win on 2026-10-01?",
-    "ts": "2026-10-01T13:15:10.587929",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71ac3cbb40647cb6da6fa0dc2923999ad9c4d2b1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170670",
-    "pregunta": "Will the highest temperature in Guangzhou be 33\u00b0C on October 3?",
-    "ts": "2026-10-01T13:15:12.980553",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e305b3524cab28f118d290de9c4cdf3fce2e404",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170361",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 21\u00b0C on October 3?",
-    "ts": "2026-10-01T13:15:14.034016",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e305b3524cab28f118d290de9c4cdf3fce2e404",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170566",
-    "pregunta": "Will the highest temperature in Shenzhen be 29\u00b0C on October 3?",
-    "ts": "2026-10-01T13:15:15.247692",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e305b3524cab28f118d290de9c4cdf3fce2e404",
     "whale_signal": "COMPRAR NO"
   }
 ]
