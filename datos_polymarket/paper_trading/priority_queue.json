@@ -1,26 +1,58 @@
 [
   {
+    "id": "5164995",
+    "pregunta": "Atlanta Dream vs. Washington Mystics: O/U 166.5",
+    "ts": "2026-09-30T19:53:10.188881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4993137",
     "pregunta": "Argentina vs. Bolivia: O/U 3.5",
-    "ts": "2026-09-30T19:42:15.800846",
+    "ts": "2026-09-30T19:53:11.251186",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4993147",
-    "pregunta": "Argentina vs. Bolivia: 1st Half O/U 2.5",
-    "ts": "2026-09-30T19:42:16.850434",
+    "id": "5097581",
+    "pregunta": "Spread: Atlanta Dream (-4.5)",
+    "ts": "2026-09-30T19:53:12.330112",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4895422",
-    "pregunta": "Montevideo City Torque vs. CA Penarol Montevideo: O/U 2.5",
-    "ts": "2026-09-30T19:42:17.909528",
+    "id": "4993128",
+    "pregunta": "Spread: Argentina (-3.5)",
+    "ts": "2026-09-30T19:53:13.411929",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4978501",
+    "pregunta": "Boston Red Sox vs. New York Yankees",
+    "ts": "2026-09-30T19:53:14.490620",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148078",
+    "pregunta": "Counter-Strike: METANOIA WOLVES vs MEIA NOITE (BO3) - CCT South America Series 6 Group Stage",
+    "ts": "2026-09-30T19:53:16.469962",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0b8cf0871066cbaffecc0579afaf3d44b94ac944",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5149639",
+    "pregunta": "LoL: Vietnam vs Chinese Taipei - Game 1 Winner",
+    "ts": "2026-09-30T19:53:17.570546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0b8cf0871066cbaffecc0579afaf3d44b94ac944",
     "whale_signal": "COMPRAR NO"
   }
 ]
