@@ -1,42 +1,26 @@
 [
   {
-    "id": "942401",
-    "pregunta": "Will the Democratic Party win the FL-13 House seat?",
-    "ts": "2026-09-30T21:22:21.547960",
+    "id": "3407937",
+    "pregunta": "Will the Republican Party candidate win the 2026 FL-04 House election by 9%-12%?",
+    "ts": "2026-09-30T21:32:59.353406",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x852eaa709e9e502489b3c3f6c967493342a9ca77",
+    "whale_wallet": "0x31cc0df4bd419abac4d0a13ac110b26558a4ea6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678613",
-    "pregunta": "Will Germany win on 2026-10-01?",
-    "ts": "2026-09-30T21:22:24.060209",
+    "id": "5122316",
+    "pregunta": "Will the highest temperature in Los Angeles be between 76-77\u00b0F on October 1?",
+    "ts": "2026-09-30T21:33:02.188607",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x3904e686bffade807ac746cd462c6f44724c539b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678632",
-    "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-09-30T21:22:25.133810",
+    "id": "4952602",
+    "pregunta": "Golden State Valkyries vs. Dallas Wings",
+    "ts": "2026-09-30T21:33:03.981734",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678652",
-    "pregunta": "Will Kosovo win on 2026-10-01?",
-    "ts": "2026-09-30T21:22:26.290246",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817984",
-    "pregunta": "Ohio State vs. Iowa",
-    "ts": "2026-09-30T21:22:27.454009",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
