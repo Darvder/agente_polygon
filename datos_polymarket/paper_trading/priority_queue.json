@@ -1,34 +1,42 @@
 [
   {
-    "id": "4642061",
-    "pregunta": "Counter-Strike: FaZe vs Nemiga - Map 2 Winner",
-    "ts": "2026-10-01T16:32:26.329930",
+    "id": "608545",
+    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+    "ts": "2026-10-01T16:42:47.381786",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
+    "whale_wallet": "0xb6c7b59dc4598a72117ee6a8e24c79708ee4c0e2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4642062",
-    "pregunta": "Counter-Strike: FaZe vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
-    "ts": "2026-10-01T16:32:27.426902",
+    "id": "4725333",
+    "pregunta": "Spread: Montserrat (-2.5)",
+    "ts": "2026-10-01T16:42:50.390546",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4725150",
-    "pregunta": "Spread: Cura\u00e7ao (-1.5)",
-    "ts": "2026-10-01T16:32:29.356261",
+    "id": "3072292",
+    "pregunta": "Will the highest score achieved on Humanity\u2019s Last Exam in 2026 be 65% or higher?",
+    "ts": "2026-10-01T16:42:52.786042",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1eb67fdec644c05bea0a6883483fcb414e01c733",
+    "whale_wallet": "0x82bd44e1ab121f4ae56a411419e8041dbb28335e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5097478",
-    "pregunta": "Envigado FC vs. Orsomarso SC: O/U 1.5",
-    "ts": "2026-10-01T16:32:30.548243",
+    "id": "3072310",
+    "pregunta": "Will the highest score achieved by an Anthropic Claude model on Humanity\u2019s Last Exam in 2026 be 65% or higher?",
+    "ts": "2026-10-01T16:42:54.098636",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1eb67fdec644c05bea0a6883483fcb414e01c733",
+    "whale_wallet": "0x82bd44e1ab121f4ae56a411419e8041dbb28335e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3662170",
+    "pregunta": "Will Carol de Toni win the most votes in the 2026 Santa Catarina Senate election?",
+    "ts": "2026-10-01T16:42:55.396764",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x82bd44e1ab121f4ae56a411419e8041dbb28335e",
     "whale_signal": "COMPRAR NO"
   }
 ]
