@@ -1,34 +1,10 @@
 [
   {
-    "id": "5146322",
-    "pregunta": "Counter-Strike: Butterfly vs Noir Verse (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-10-01T04:23:07.532012",
+    "id": "5070735",
+    "pregunta": "Set Handicap: Alycia Parks (-1.5) vs Lin Zhu (+1.5)",
+    "ts": "2026-10-01T04:34:16.162188",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3d4c523c750f61be22695b27e4117b3d256f67bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122937",
-    "pregunta": "LoL: LGD Gaming vs FlyQuest (BO1) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-01T04:23:08.570584",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3d4c523c750f61be22695b27e4117b3d256f67bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5062327",
-    "pregunta": "Will Ethereum dip to $2,600 September 28-October 4?",
-    "ts": "2026-10-01T04:23:10.422183",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170780",
-    "pregunta": "Will Ethereum dip to $2,600 in October?",
-    "ts": "2026-10-01T04:23:11.463883",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+    "whale_wallet": "0x8a7e040ee6c140dcac6d5d365b87593c43d1dd3c",
     "whale_signal": "COMPRAR NO"
   }
 ]
