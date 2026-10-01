@@ -1,50 +1,58 @@
 [
   {
-    "id": "5148078",
-    "pregunta": "Counter-Strike: METANOIA WOLVES vs MEIA NOITE (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-30T19:12:12.842398",
+    "id": "4411146",
+    "pregunta": "Will Nigeria win AFCON 2027 qualifying Group L?",
+    "ts": "2026-09-30T19:22:30.883171",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_wallet": "0x31cc0df4bd419abac4d0a13ac110b26558a4ea6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4895423",
-    "pregunta": "Montevideo City Torque vs. CA Penarol Montevideo: O/U 3.5",
-    "ts": "2026-09-30T19:12:20.946493",
+    "id": "2412747",
+    "pregunta": "Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?",
+    "ts": "2026-09-30T19:22:32.047978",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x31cc0df4bd419abac4d0a13ac110b26558a4ea6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4720683",
-    "pregunta": "Will France win on 2026-10-02?",
-    "ts": "2026-09-30T19:12:22.077090",
+    "id": "3661210",
+    "pregunta": "Will Fufuca win the most votes in the 2026 Maranh\u00e3o Senate election?",
+    "ts": "2026-09-30T19:22:33.139294",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x31cc0df4bd419abac4d0a13ac110b26558a4ea6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5027594",
-    "pregunta": "Will Brooklyn FC win on 2026-09-30?",
-    "ts": "2026-09-30T19:12:23.261807",
+    "id": "5115842",
+    "pregunta": "Will the lowest temperature in Helsinki be 0\u00b0C on October 1?",
+    "ts": "2026-09-30T19:22:34.307164",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x31cc0df4bd419abac4d0a13ac110b26558a4ea6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4877712",
-    "pregunta": "Will SC Paderborn 07 win on 2026-09-30?",
-    "ts": "2026-09-30T19:12:24.319279",
+    "id": "4958549",
+    "pregunta": "Will Muse from Meta be #2 Free App in the US Apple App Store on October 2?",
+    "ts": "2026-09-30T19:22:44.531004",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xd1a63a243042d864520512fbdbd2fd20e0ab1507",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4993146",
-    "pregunta": "Argentina vs. Bolivia: 1st Half O/U 1.5",
-    "ts": "2026-09-30T19:12:26.166430",
+    "id": "4958523",
+    "pregunta": "Will Muse from Meta be #1 Free App in the US Apple App Store on October 2?",
+    "ts": "2026-09-30T19:22:45.731830",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3657e3559cc11cd6057cdfbcb315dcb559588d54",
+    "whale_wallet": "0xd1a63a243042d864520512fbdbd2fd20e0ab1507",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5061935",
+    "pregunta": "Spread: Golden State Valkyries (-4.5)",
+    "ts": "2026-09-30T19:22:48.075937",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe44705b0261deeec75316f8a64fa205b0845d00",
     "whale_signal": "COMPRAR NO"
   }
 ]
