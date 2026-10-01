@@ -2,57 +2,17 @@
   {
     "id": "5156119",
     "pregunta": "Dota 2: MOUZ vs OG - Game 1 Winner",
-    "ts": "2026-10-01T08:41:54.779260",
+    "ts": "2026-10-01T08:52:34.925704",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfd6c2dd810044c5fd8186cceb6dfb4119000d980",
+    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5156099",
-    "pregunta": "Dota 2: Team Yandex vs BetBoom Team - Game 1 Winner",
-    "ts": "2026-10-01T08:41:55.857239",
+    "id": "5162747",
+    "pregunta": "W75 Quinta do Lago: Harmony Tan vs Eva Vedder",
+    "ts": "2026-10-01T08:52:37.006918",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfd6c2dd810044c5fd8186cceb6dfb4119000d980",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5156121",
-    "pregunta": "Dota 2: MOUZ vs OG (BO3) - BLAST Slam Group C",
-    "ts": "2026-10-01T08:41:56.963696",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfd6c2dd810044c5fd8186cceb6dfb4119000d980",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166201",
-    "pregunta": "LoL: MAGAZA vs The Otter Side (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T08:41:58.966804",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1e4b57f70ea89f197b96eb899409335c5eaa0a04",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5146322",
-    "pregunta": "Counter-Strike: Butterfly vs Noir Verse (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-10-01T08:42:00.162985",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1e4b57f70ea89f197b96eb899409335c5eaa0a04",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166080",
-    "pregunta": "Counter-Strike: maybe vs eternal premium (BO3) - CCT Europe Challengers Series Playoffs",
-    "ts": "2026-10-01T08:42:01.224460",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1e4b57f70ea89f197b96eb899409335c5eaa0a04",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5142275",
-    "pregunta": "Counter-Strike: Spirit Academy vs mellren (BO3) - CCT Europe Challengers Series Playoffs",
-    "ts": "2026-10-01T08:42:02.315523",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1e4b57f70ea89f197b96eb899409335c5eaa0a04",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
