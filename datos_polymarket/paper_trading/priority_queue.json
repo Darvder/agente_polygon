@@ -1,34 +1,26 @@
 [
   {
-    "id": "5166310",
-    "pregunta": "LoL: Senshi Esports Club vs Bar\u00e7a eSports - Game 2 Winner",
-    "ts": "2026-10-01T12:52:29.661502",
+    "id": "4679459",
+    "pregunta": "Spread: Norway (-1.5)",
+    "ts": "2026-10-01T13:03:15.036922",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679717",
-    "pregunta": "Malta vs. Gibraltar: Both Teams to Score",
-    "ts": "2026-10-01T12:52:34.696298",
+    "id": "4678611",
+    "pregunta": "Will Austria win on 2026-10-01?",
+    "ts": "2026-10-01T13:03:16.080555",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679768",
-    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 0.5",
-    "ts": "2026-10-01T12:52:35.791673",
+    "id": "4678613",
+    "pregunta": "Will Germany win on 2026-10-01?",
+    "ts": "2026-10-01T13:03:17.124779",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678602",
-    "pregunta": "Will Azerbaijan vs. Liechtenstein end in a draw?",
-    "ts": "2026-10-01T12:52:36.859323",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
