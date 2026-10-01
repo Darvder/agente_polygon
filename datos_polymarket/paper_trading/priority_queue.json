@@ -1,18 +1,106 @@
 [
   {
-    "id": "5167437",
-    "pregunta": "LoL: Estral Esports vs LOS (BO5) - CBLOL Promotion Playoffs",
-    "ts": "2026-10-01T02:13:34.769922",
+    "id": "5148133",
+    "pregunta": "Will the highest temperature in Ankara be 17\u00b0C on October 2?",
+    "ts": "2026-10-01T02:22:54.069777",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb51fcc2068a0d05b7e658e2e830c1cd88287b7db",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4662700",
-    "pregunta": "Will CoreWeave announce bankruptcy by December 31, 2028?",
-    "ts": "2026-10-01T02:13:36.873698",
+    "id": "5148168",
+    "pregunta": "Will the highest temperature in Munich be 20\u00b0C on October 2?",
+    "ts": "2026-10-01T02:22:55.204329",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148234",
+    "pregunta": "Will the highest temperature in Milan be 24\u00b0C on October 2?",
+    "ts": "2026-10-01T02:22:56.539098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148249",
+    "pregunta": "Will the highest temperature in Madrid be 26\u00b0C or higher on October 2?",
+    "ts": "2026-10-01T02:22:57.673562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148342",
+    "pregunta": "Will the highest temperature in Moscow be 13\u00b0C on October 2?",
+    "ts": "2026-10-01T02:22:58.796650",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148350",
+    "pregunta": "Will the highest temperature in Istanbul be 18\u00b0C on October 2?",
+    "ts": "2026-10-01T02:23:00.085934",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148387",
+    "pregunta": "Will the highest temperature in Helsinki be 17\u00b0C on October 2?",
+    "ts": "2026-10-01T02:23:01.290749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148409",
+    "pregunta": "Will the highest temperature in Jeddah be 36\u00b0C on October 2?",
+    "ts": "2026-10-01T02:23:02.421572",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148420",
+    "pregunta": "Will the highest temperature in Cape Town be 20\u00b0C on October 2?",
+    "ts": "2026-10-01T02:23:03.510990",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5121617",
+    "pregunta": "China Open: Botic van de Zandschulp vs Francisco Cerundolo",
+    "ts": "2026-10-01T02:23:05.552745",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071573",
+    "pregunta": "China Open: Ignacio Buse vs Quentin Halys",
+    "ts": "2026-10-01T02:23:06.639377",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071577",
+    "pregunta": "China Open: Roman Safiullin vs Flavio Cobolli",
+    "ts": "2026-10-01T02:23:07.746955",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4936032",
+    "pregunta": "Will S&P 500 (SPY) hit (HIGH) $790 in October?",
+    "ts": "2026-10-01T02:23:10.843185",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
     "whale_signal": "COMPRAR NO"
   }
 ]
