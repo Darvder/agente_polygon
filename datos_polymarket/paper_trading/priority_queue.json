@@ -1,106 +1,42 @@
 [
   {
-    "id": "5148133",
-    "pregunta": "Will the highest temperature in Ankara be 17\u00b0C on October 2?",
-    "ts": "2026-10-01T02:22:54.069777",
+    "id": "5150631",
+    "pregunta": "Will the highest temperature in Austin be between 82-83\u00b0F on October 2?",
+    "ts": "2026-10-01T02:35:03.174590",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148168",
-    "pregunta": "Will the highest temperature in Munich be 20\u00b0C on October 2?",
-    "ts": "2026-10-01T02:22:55.204329",
+    "id": "5148257",
+    "pregunta": "Will the highest temperature in Warsaw be 22\u00b0C on October 2?",
+    "ts": "2026-10-01T02:35:04.261030",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148234",
-    "pregunta": "Will the highest temperature in Milan be 24\u00b0C on October 2?",
-    "ts": "2026-10-01T02:22:56.539098",
+    "id": "5148267",
+    "pregunta": "Will the highest temperature in Taipei be 32\u00b0C on October 2?",
+    "ts": "2026-10-01T02:35:05.503270",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148249",
-    "pregunta": "Will the highest temperature in Madrid be 26\u00b0C or higher on October 2?",
-    "ts": "2026-10-01T02:22:57.673562",
+    "id": "5153539",
+    "pregunta": "Will the highest temperature in Los Angeles be between 84-85\u00b0F on October 2?",
+    "ts": "2026-10-01T02:35:06.601299",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
+    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148342",
-    "pregunta": "Will the highest temperature in Moscow be 13\u00b0C on October 2?",
-    "ts": "2026-10-01T02:22:58.796650",
+    "id": "5153540",
+    "pregunta": "Will the highest temperature in Los Angeles be between 86-87\u00b0F on October 2?",
+    "ts": "2026-10-01T02:35:07.683446",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148350",
-    "pregunta": "Will the highest temperature in Istanbul be 18\u00b0C on October 2?",
-    "ts": "2026-10-01T02:23:00.085934",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148387",
-    "pregunta": "Will the highest temperature in Helsinki be 17\u00b0C on October 2?",
-    "ts": "2026-10-01T02:23:01.290749",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148409",
-    "pregunta": "Will the highest temperature in Jeddah be 36\u00b0C on October 2?",
-    "ts": "2026-10-01T02:23:02.421572",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148420",
-    "pregunta": "Will the highest temperature in Cape Town be 20\u00b0C on October 2?",
-    "ts": "2026-10-01T02:23:03.510990",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f21926cbfb4148ffac8f5697aad7c1ca2eeb1d2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121617",
-    "pregunta": "China Open: Botic van de Zandschulp vs Francisco Cerundolo",
-    "ts": "2026-10-01T02:23:05.552745",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071573",
-    "pregunta": "China Open: Ignacio Buse vs Quentin Halys",
-    "ts": "2026-10-01T02:23:06.639377",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071577",
-    "pregunta": "China Open: Roman Safiullin vs Flavio Cobolli",
-    "ts": "2026-10-01T02:23:07.746955",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4936032",
-    "pregunta": "Will S&P 500 (SPY) hit (HIGH) $790 in October?",
-    "ts": "2026-10-01T02:23:10.843185",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
+    "whale_wallet": "0x0ba362df66ffca25e9e18baaf1b4efad9ca31972",
     "whale_signal": "COMPRAR NO"
   }
 ]
