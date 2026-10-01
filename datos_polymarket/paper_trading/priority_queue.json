@@ -1,34 +1,42 @@
 [
   {
-    "id": "5146317",
-    "pregunta": "Counter-Strike: WRAITH PCIFIC vs Nexus - Map 2 Winner",
-    "ts": "2026-10-01T07:32:14.246279",
+    "id": "4678618",
+    "pregunta": "Will Greece vs. Netherlands end in a draw?",
+    "ts": "2026-10-01T07:42:59.221199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5149621",
-    "pregunta": "Counter-Strike: Revenge vs Passion Academy - Map 2 Winner",
-    "ts": "2026-10-01T07:32:16.323913",
+    "id": "4689924",
+    "pregunta": "Will Haiti win on 2026-10-01?",
+    "ts": "2026-10-01T07:43:00.295547",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5116169",
-    "pregunta": "Will the highest temperature in Paris be 22\u00b0C on October 1?",
-    "ts": "2026-10-01T07:32:18.141890",
+    "id": "2299954",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
+    "ts": "2026-10-01T07:43:02.742463",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c72a056cff0b1e2791b32eab5fa420b1df0825e",
+    "whale_wallet": "0xf3fa24ccca4b2eb320eed99828cdec812eb87be3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5166079",
-    "pregunta": "Counter-Strike: maybe vs eternal premium - Map 2 Winner",
-    "ts": "2026-10-01T07:32:19.908931",
+    "id": "2299955",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
+    "ts": "2026-10-01T07:43:03.814337",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
+    "whale_wallet": "0xf3fa24ccca4b2eb320eed99828cdec812eb87be3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4935938",
+    "pregunta": "Will Airbnb, Inc. (ABNB) hit (LOW) $144 in October?",
+    "ts": "2026-10-01T07:43:05.050195",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf3fa24ccca4b2eb320eed99828cdec812eb87be3",
     "whale_signal": "COMPRAR NO"
   }
 ]
