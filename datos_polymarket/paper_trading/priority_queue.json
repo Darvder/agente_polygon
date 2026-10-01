@@ -1,72 +1,8 @@
 [
   {
-    "id": "5166310",
-    "pregunta": "LoL: Senshi Esports Club vs Bar\u00e7a eSports - Game 2 Winner",
-    "ts": "2026-10-01T13:22:21.400938",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166287",
-    "pregunta": "LoL: PCIFIC  vs Lodis - Game 1 Winner",
-    "ts": "2026-10-01T13:22:23.566504",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150661",
-    "pregunta": "Counter-Strike: Flame Hard vs SINQU (BO1) - FOX Legacy Cup Group B",
-    "ts": "2026-10-01T13:22:24.663628",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4657254",
-    "pregunta": "Will FK Austria Wien win on 2026-10-01?",
-    "ts": "2026-10-01T13:22:25.759802",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166289",
-    "pregunta": "LoL: PCIFIC  vs Lodis (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T13:22:26.834461",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166265",
-    "pregunta": "LoL: Team Phantasma vs The Secret Club Esport - Game 1 Winner",
-    "ts": "2026-10-01T13:22:27.931574",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4672386",
-    "pregunta": "FK Austria Wien vs. FC Internazionale Milano: O/U 1.5",
-    "ts": "2026-10-01T13:22:29.036649",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166267",
-    "pregunta": "LoL: Team Phantasma vs The Secret Club Esport (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T13:22:30.131336",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4678632",
     "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-10-01T13:22:31.901896",
+    "ts": "2026-10-01T13:32:14.685619",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
@@ -74,25 +10,41 @@
   {
     "id": "4813886",
     "pregunta": "North Texas vs. Tulsa",
-    "ts": "2026-10-01T13:22:33.005668",
+    "ts": "2026-10-01T13:32:15.742998",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679477",
-    "pregunta": "Wales vs. Norway: Both Teams to Score",
-    "ts": "2026-10-01T13:22:34.183320",
+    "id": "4678605",
+    "pregunta": "Will Malta win on 2026-10-01?",
+    "ts": "2026-10-01T13:32:16.789725",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679459",
-    "pregunta": "Spread: Norway (-1.5)",
-    "ts": "2026-10-01T13:22:35.259740",
+    "id": "4679417",
+    "pregunta": "Denmark vs. Portugal: Both Teams to Score",
+    "ts": "2026-10-01T13:32:17.956950",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678609",
+    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
+    "ts": "2026-10-01T13:32:19.006682",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5146328",
+    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs ex-Zero Tenacity (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-10-01T13:32:20.819801",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5a788269749e83bac7ced93422026625937ce86",
     "whale_signal": "COMPRAR NO"
   }
 ]
