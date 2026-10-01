@@ -1,10 +1,50 @@
 [
   {
-    "id": "5123129",
-    "pregunta": "Will the highest temperature in Toronto be 24\u00b0C on October 1?",
-    "ts": "2026-10-01T10:13:14.441161",
+    "id": "5166243",
+    "pregunta": "LoL: Valerion vs The Ruddy Sack - Game 1 Winner",
+    "ts": "2026-10-01T10:22:40.023837",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0484bf76425db5021ce2d369f78fc125906d4830",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5142275",
+    "pregunta": "Counter-Strike: Spirit Academy vs mellren (BO3) - CCT Europe Challengers Series Playoffs",
+    "ts": "2026-10-01T10:22:41.087388",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5090390",
+    "pregunta": "Counter-Strike: FORZE Reload vs Fire Flux Esports - Map 2 Winner",
+    "ts": "2026-10-01T10:22:42.233180",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166154",
+    "pregunta": "LoL: BOMBA Team vs Skillcamp Esport - Game 1 Winner",
+    "ts": "2026-10-01T10:22:43.447562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166223",
+    "pregunta": "LoL: Bushido Wildcats vs Frites Esports Club (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-10-01T10:22:44.510904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166221",
+    "pregunta": "LoL: Bushido Wildcats vs Frites Esports Club - Game 1 Winner",
+    "ts": "2026-10-01T10:22:45.575001",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
