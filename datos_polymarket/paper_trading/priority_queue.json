@@ -1,26 +1,34 @@
 [
   {
-    "id": "4216043",
-    "pregunta": "Flyers vs. Devils: O/U 5.5",
-    "ts": "2026-10-01T18:32:19.714274",
+    "id": "4813912",
+    "pregunta": "Spread: North Texas (-6.5)",
+    "ts": "2026-10-01T18:42:48.418039",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xfb88f6a86b877d2704328fc9f1ed63b41f8b0e4c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4216041",
-    "pregunta": "Flyers vs. Devils: O/U 4.5",
-    "ts": "2026-10-01T18:32:20.765161",
+    "id": "3875339",
+    "pregunta": "Spread: Steelers (-4.5)",
+    "ts": "2026-10-01T18:42:49.460285",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xfb88f6a86b877d2704328fc9f1ed63b41f8b0e4c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4705013",
-    "pregunta": "Will SC Recife win on 2026-10-01?",
-    "ts": "2026-10-01T18:32:21.844135",
+    "id": "4424974",
+    "pregunta": "Steelers vs. Browns: O/U 41.5",
+    "ts": "2026-10-01T18:42:50.501840",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xfb88f6a86b877d2704328fc9f1ed63b41f8b0e4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4725161",
+    "pregunta": "Cura\u00e7ao vs. Trinidad and Tobago: O/U 1.5",
+    "ts": "2026-10-01T18:42:53.426664",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8ee94bd599a92d4747dda5f3bc6d2b243349e81",
     "whale_signal": "COMPRAR NO"
   }
 ]
