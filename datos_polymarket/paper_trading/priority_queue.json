@@ -1,10 +1,74 @@
 [
   {
+    "id": "4679578",
+    "pregunta": "Spread: Germany (-1.5)",
+    "ts": "2026-10-01T13:52:24.559102",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678609",
+    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
+    "ts": "2026-10-01T13:52:25.605292",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678613",
+    "pregunta": "Will Germany win on 2026-10-01?",
+    "ts": "2026-10-01T13:52:26.662727",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-10-01T13:52:27.708025",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678611",
+    "pregunta": "Will Austria win on 2026-10-01?",
+    "ts": "2026-10-01T13:52:28.752830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T13:52:29.797106",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4678632",
     "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-10-01T13:43:24.687327",
+    "ts": "2026-10-01T13:52:30.840300",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678638",
+    "pregunta": "Will Denmark win on 2026-10-01?",
+    "ts": "2026-10-01T13:52:33.513058",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4679698",
+    "pregunta": "Spread: Malta (-1.5)",
+    "ts": "2026-10-01T13:52:34.571302",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
