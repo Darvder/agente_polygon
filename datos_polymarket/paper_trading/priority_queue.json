@@ -1,18 +1,34 @@
 [
   {
-    "id": "5164613",
-    "pregunta": "Counter-Strike: HOTU vs Team Nemesis (BO3) - CIS LAN Championship Playoffs",
-    "ts": "2026-10-01T01:43:55.895553",
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-10-01T01:52:41.050813",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x229c24468ef358ffaa2bd8cf45d37948dd6a11eb",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5156121",
-    "pregunta": "Dota 2: MOUZ vs OG (BO3) - BLAST Slam Group C",
-    "ts": "2026-10-01T01:43:56.961871",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T01:52:42.147503",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x229c24468ef358ffaa2bd8cf45d37948dd6a11eb",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-10-01T01:52:43.239345",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071573",
+    "pregunta": "China Open: Ignacio Buse vs Quentin Halys",
+    "ts": "2026-10-01T01:52:45.011890",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
