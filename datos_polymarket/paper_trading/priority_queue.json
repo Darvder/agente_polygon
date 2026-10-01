@@ -1,42 +1,58 @@
 [
   {
-    "id": "4678601",
-    "pregunta": "Will Azerbaijan win on 2026-10-01?",
-    "ts": "2026-10-01T11:22:34.415649",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T11:34:57.557882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679770",
-    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 2.5",
-    "ts": "2026-10-01T11:22:35.658060",
+    "id": "4678611",
+    "pregunta": "Will Austria win on 2026-10-01?",
+    "ts": "2026-10-01T11:34:58.604256",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4935808",
-    "pregunta": "Will Meta Platforms, Inc. (META) hit (HIGH) $800 in October?",
-    "ts": "2026-10-01T11:22:43.272240",
+    "id": "4679580",
+    "pregunta": "Spread: Germany (-2.5)",
+    "ts": "2026-10-01T11:34:59.653878",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x46c3ccc72c5697ff5a1db67394ec48a1c6462ada",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5157314",
-    "pregunta": "Will South Korea ETF (EWY) hit (LOW) $179 Week of September 28 2026?",
-    "ts": "2026-10-01T11:22:44.492528",
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-10-01T11:35:00.763033",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x46c3ccc72c5697ff5a1db67394ec48a1c6462ada",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4935854",
-    "pregunta": "Will Netflix, Inc. (NFLX) hit (LOW) $60 in October?",
-    "ts": "2026-10-01T11:22:45.743018",
+    "id": "4679459",
+    "pregunta": "Spread: Norway (-1.5)",
+    "ts": "2026-10-01T11:35:01.811787",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x46c3ccc72c5697ff5a1db67394ec48a1c6462ada",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752979",
+    "pregunta": "Will England win on 2026-10-03?",
+    "ts": "2026-10-01T11:35:02.870269",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4640189",
+    "pregunta": "Counter-Strike: Astralis vs Alliance - Map 1 Winner",
+    "ts": "2026-10-01T11:35:11.909191",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "whale_signal": "COMPRAR NO"
   }
 ]
