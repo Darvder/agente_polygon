@@ -1,34 +1,26 @@
 [
   {
-    "id": "4813912",
-    "pregunta": "Spread: North Texas (-6.5)",
-    "ts": "2026-10-01T18:42:48.418039",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb88f6a86b877d2704328fc9f1ed63b41f8b0e4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875339",
-    "pregunta": "Spread: Steelers (-4.5)",
-    "ts": "2026-10-01T18:42:49.460285",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb88f6a86b877d2704328fc9f1ed63b41f8b0e4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4424974",
-    "pregunta": "Steelers vs. Browns: O/U 41.5",
-    "ts": "2026-10-01T18:42:50.501840",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb88f6a86b877d2704328fc9f1ed63b41f8b0e4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4725161",
     "pregunta": "Cura\u00e7ao vs. Trinidad and Tobago: O/U 1.5",
-    "ts": "2026-10-01T18:42:53.426664",
+    "ts": "2026-10-01T18:52:30.175442",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb8ee94bd599a92d4747dda5f3bc6d2b243349e81",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4725102",
+    "pregunta": "Anguilla vs. Antigua and Barbuda: O/U 2.5",
+    "ts": "2026-10-01T18:52:31.275379",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4970792",
+    "pregunta": "Rainbow Six Siege: DarkZero Esports vs Five Fears (BO1) - North America League Stage 2 Group Stage",
+    "ts": "2026-10-01T18:52:32.436523",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
     "whale_signal": "COMPRAR NO"
   }
 ]
