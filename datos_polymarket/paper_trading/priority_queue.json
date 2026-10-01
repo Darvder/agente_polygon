@@ -1,34 +1,10 @@
 [
   {
-    "id": "4679657",
-    "pregunta": "Republic of Ireland vs. Austria: Both Teams to Score",
-    "ts": "2026-10-01T10:02:35.438938",
+    "id": "5123129",
+    "pregunta": "Will the highest temperature in Toronto be 24\u00b0C on October 1?",
+    "ts": "2026-10-01T10:13:14.441161",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5162757",
-    "pregunta": "W35 Baza: Carmen Gallardo Guevara vs Celia Cervino Ruiz",
-    "ts": "2026-10-01T10:02:36.627320",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5107440",
-    "pregunta": "Guinea vs. Kenya: Both Teams to Score",
-    "ts": "2026-10-01T10:02:37.800528",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720683",
-    "pregunta": "Will France win on 2026-10-02?",
-    "ts": "2026-10-01T10:02:38.903234",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x0484bf76425db5021ce2d369f78fc125906d4830",
     "whale_signal": "COMPRAR NO"
   }
 ]
