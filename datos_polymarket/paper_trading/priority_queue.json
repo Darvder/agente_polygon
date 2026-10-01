@@ -1,10 +1,18 @@
 [
   {
-    "id": "4828203",
-    "pregunta": "Will Elon Musk post 180-199 tweets from September 25 to October 2, 2026?",
-    "ts": "2026-10-01T01:33:25.485801",
+    "id": "5164613",
+    "pregunta": "Counter-Strike: HOTU vs Team Nemesis (BO3) - CIS LAN Championship Playoffs",
+    "ts": "2026-10-01T01:43:55.895553",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ceaa567754c75f74db89f3085e0509d60f2a932",
+    "whale_wallet": "0x229c24468ef358ffaa2bd8cf45d37948dd6a11eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5156121",
+    "pregunta": "Dota 2: MOUZ vs OG (BO3) - BLAST Slam Group C",
+    "ts": "2026-10-01T01:43:56.961871",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x229c24468ef358ffaa2bd8cf45d37948dd6a11eb",
     "whale_signal": "COMPRAR NO"
   }
 ]
