@@ -1,42 +1,18 @@
 [
   {
-    "id": "4679532",
-    "pregunta": "Greece vs. Netherlands: O/U 4.5",
-    "ts": "2026-10-01T15:23:45.455941",
+    "id": "4642060",
+    "pregunta": "Counter-Strike: FaZe vs Nemiga - Map 1 Winner",
+    "ts": "2026-10-01T15:32:15.890735",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1ba8c37188622922198949a3efbadcd2b9fc53e",
+    "whale_wallet": "0x486e1f19f5d761370761ce327af0ba7fb93dd265",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678618",
-    "pregunta": "Will Greece vs. Netherlands end in a draw?",
-    "ts": "2026-10-01T15:23:46.530498",
+    "id": "4642061",
+    "pregunta": "Counter-Strike: FaZe vs Nemiga - Map 2 Winner",
+    "ts": "2026-10-01T15:32:16.931073",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1ba8c37188622922198949a3efbadcd2b9fc53e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679531",
-    "pregunta": "Greece vs. Netherlands: O/U 3.5",
-    "ts": "2026-10-01T15:23:49.747530",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678617",
-    "pregunta": "Will Greece win on 2026-10-01?",
-    "ts": "2026-10-01T15:23:51.866106",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4672049",
-    "pregunta": "Paris Saint-Germain FC vs. Oud-Heverlee Leuven Women: O/U 4.5",
-    "ts": "2026-10-01T15:23:52.964482",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090",
+    "whale_wallet": "0x486e1f19f5d761370761ce327af0ba7fb93dd265",
     "whale_signal": "COMPRAR NO"
   }
 ]
