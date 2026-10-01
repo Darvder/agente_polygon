@@ -1,58 +1,10 @@
 [
   {
-    "id": "5132117",
-    "pregunta": "Porto 2: Toby Samuel vs Jerome Kym",
-    "ts": "2026-10-01T05:42:50.041707",
+    "id": "4636276",
+    "pregunta": "Counter-Strike: B8 vs Luminosity - Map 1 Winner",
+    "ts": "2026-10-01T05:52:38.109455",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5132109",
-    "pregunta": "Porto 2: Daniel Rincon vs Laslo Djere",
-    "ts": "2026-10-01T05:42:51.109466",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5070138",
-    "pregunta": "China Open: Alycia Parks vs Lin Zhu",
-    "ts": "2026-10-01T05:42:52.182162",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121613",
-    "pregunta": "Japan Open Tennis Championships: Adolfo Vallejo vs Rafael Jodar",
-    "ts": "2026-10-01T05:42:53.271916",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5132113",
-    "pregunta": "Porto 2: Goncalo Marques vs David Jorda Sanchis",
-    "ts": "2026-10-01T05:42:54.370895",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5157047",
-    "pregunta": "Adana: Lois Boisson vs Anna Blinkova",
-    "ts": "2026-10-01T05:42:55.437774",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5132142",
-    "pregunta": "Bari: Laurent Lokoli vs Samuele Pieri",
-    "ts": "2026-10-01T05:42:56.604893",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x25bf42fe847ca0d55db331103a11d0496202ef3d",
+    "whale_wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
     "whale_signal": "COMPRAR NO"
   }
 ]
