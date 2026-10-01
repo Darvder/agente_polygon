@@ -1,66 +1,10 @@
 [
   {
-    "id": "5122323",
-    "pregunta": "Will the highest temperature in San Francisco be 71\u00b0F or below on October 1?",
-    "ts": "2026-10-01T01:23:18.660395",
+    "id": "4828203",
+    "pregunta": "Will Elon Musk post 180-199 tweets from September 25 to October 2, 2026?",
+    "ts": "2026-10-01T01:33:25.485801",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa39d2970a3cb7fb597bfce1b09f20994ff5fa98c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4963920",
-    "pregunta": "Will S&P 500 (SPY) hit (HIGH) $775 Week of September 28 2026?",
-    "ts": "2026-10-01T01:23:19.786351",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa39d2970a3cb7fb597bfce1b09f20994ff5fa98c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4828177",
-    "pregunta": "Will Donald Trump post 180-199 Truth Social posts from September 25 to October 2, 2026?",
-    "ts": "2026-10-01T01:23:20.842547",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa39d2970a3cb7fb597bfce1b09f20994ff5fa98c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5116351",
-    "pregunta": "Will the highest temperature in Beijing be 22\u00b0C on October 1?",
-    "ts": "2026-10-01T01:23:21.943969",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa39d2970a3cb7fb597bfce1b09f20994ff5fa98c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4963992",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $85 Week of September 28 2026?",
-    "ts": "2026-10-01T01:23:22.996811",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa39d2970a3cb7fb597bfce1b09f20994ff5fa98c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119525",
-    "pregunta": "Will the highest temperature in Dallas be between 82-83\u00b0F on October 1?",
-    "ts": "2026-10-01T01:23:24.101092",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa39d2970a3cb7fb597bfce1b09f20994ff5fa98c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5119567",
-    "pregunta": "Will the highest temperature in Austin be between 82-83\u00b0F on October 1?",
-    "ts": "2026-10-01T01:23:25.214592",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa39d2970a3cb7fb597bfce1b09f20994ff5fa98c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071573",
-    "pregunta": "China Open: Ignacio Buse vs Quentin Halys",
-    "ts": "2026-10-01T01:23:28.276916",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
+    "whale_wallet": "0x9ceaa567754c75f74db89f3085e0509d60f2a932",
     "whale_signal": "COMPRAR NO"
   }
 ]
