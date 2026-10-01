@@ -1,50 +1,42 @@
 [
   {
-    "id": "5166245",
-    "pregunta": "LoL: Valerion vs The Ruddy Sack (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T12:02:06.399803",
+    "id": "4679768",
+    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 0.5",
+    "ts": "2026-10-01T12:12:54.815146",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x008865cb3793fae5afa3c8f17c4b27939db0dc07",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5166156",
-    "pregunta": "LoL: BOMBA Team vs Skillcamp Esport (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T12:02:07.447593",
+    "id": "4679769",
+    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 1.5",
+    "ts": "2026-10-01T12:12:55.867328",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x008865cb3793fae5afa3c8f17c4b27939db0dc07",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5166333",
-    "pregunta": "LoL: BIG vs NightBirds (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T12:02:08.594756",
+    "id": "4679770",
+    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 2.5",
+    "ts": "2026-10-01T12:12:56.998700",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x008865cb3793fae5afa3c8f17c4b27939db0dc07",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148484",
-    "pregunta": "Columbus: Bryce Nakashima vs Keegan Smith",
-    "ts": "2026-10-01T12:02:12.589792",
+    "id": "4679760",
+    "pregunta": "Spread: Azerbaijan (-2.5)",
+    "ts": "2026-10-01T12:12:58.082458",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5140153",
-    "pregunta": "Dota 2: Aurora vs Team Liquid - Game 2 Winner",
-    "ts": "2026-10-01T12:02:13.637948",
+    "id": "4679657",
+    "pregunta": "Republic of Ireland vs. Austria: Both Teams to Score",
+    "ts": "2026-10-01T12:13:00.876260",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166223",
-    "pregunta": "LoL: Bushido Wildcats vs Frites Esports Club (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T12:02:14.690880",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0x580a4378ef152410cb25d10c177e1b5f8ec3ded5",
     "whale_signal": "COMPRAR NO"
   }
 ]
