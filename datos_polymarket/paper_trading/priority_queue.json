@@ -1,50 +1,18 @@
 [
   {
-    "id": "4993147",
-    "pregunta": "Argentina vs. Bolivia: 1st Half O/U 2.5",
-    "ts": "2026-09-30T20:32:45.182115",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x059cf332860b4fe89c5aa7174c13f2eb53f3050e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4993137",
-    "pregunta": "Argentina vs. Bolivia: O/U 3.5",
-    "ts": "2026-09-30T20:32:47.358806",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x059cf332860b4fe89c5aa7174c13f2eb53f3050e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121611",
-    "pregunta": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
-    "ts": "2026-09-30T20:32:49.255904",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5121619",
     "pregunta": "China Open: Alex Molcan vs Arthur Rinderknech",
-    "ts": "2026-09-30T20:32:50.299402",
+    "ts": "2026-09-30T20:42:07.020124",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5071571",
-    "pregunta": "China Open: Alex de Minaur vs Mariano Navone",
-    "ts": "2026-09-30T20:32:51.372462",
+    "id": "5148769",
+    "pregunta": "Chicago Cubs winning after 5 innings?",
+    "ts": "2026-09-30T20:42:08.309678",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5071556",
-    "pregunta": "Japan Open Tennis Championships: Kei Nishikori vs Frances Tiafoe",
-    "ts": "2026-09-30T20:32:52.414195",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
