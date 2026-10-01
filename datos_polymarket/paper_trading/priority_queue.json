@@ -1,10 +1,34 @@
 [
   {
-    "id": "4636276",
-    "pregunta": "Counter-Strike: B8 vs Luminosity - Map 1 Winner",
-    "ts": "2026-10-01T05:52:38.109455",
+    "id": "4908380",
+    "pregunta": "Valorant: TYLOO vs Team Liquid (BO3) - VCT Champions Group C",
+    "ts": "2026-10-01T06:02:36.471245",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-10-01T06:02:37.597853",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071561",
+    "pregunta": "China Open: Juncheng Shang vs Sebastian Baez",
+    "ts": "2026-10-01T06:02:40.842038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4945124",
+    "pregunta": "Tasmania JackJumpers vs. Melbourne United",
+    "ts": "2026-10-01T06:02:41.973100",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3a855ba8cdce3fce20ddf6c2867c4889cfa1e543",
     "whale_signal": "COMPRAR NO"
   }
 ]
