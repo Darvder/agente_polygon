@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5156119",
+    "pregunta": "Dota 2: MOUZ vs OG - Game 1 Winner",
+    "ts": "2026-10-01T08:22:16.761831",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5156099",
+    "pregunta": "Dota 2: Team Yandex vs BetBoom Team - Game 1 Winner",
+    "ts": "2026-10-01T08:22:21.994581",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_signal": "COMPRAR NO"
+  }
+]
