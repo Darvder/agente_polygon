@@ -1,72 +1,56 @@
 [
   {
-    "id": "4679578",
-    "pregunta": "Spread: Germany (-1.5)",
-    "ts": "2026-10-01T13:52:24.559102",
+    "id": "5146328",
+    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs ex-Zero Tenacity (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-10-01T14:04:47.952291",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5140154",
+    "pregunta": "Dota 2: Aurora vs Team Liquid (BO3) - BLAST Slam Group D",
+    "ts": "2026-10-01T14:04:50.109958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166354",
+    "pregunta": "LoL: JSK Esports vs UCAM Esports Club - Game 2 Winner",
+    "ts": "2026-10-01T14:04:51.181283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166266",
+    "pregunta": "LoL: Team Phantasma vs The Secret Club Esport - Game 2 Winner",
+    "ts": "2026-10-01T14:04:52.244798",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4678609",
     "pregunta": "Will Republic of Ireland win on 2026-10-01?",
-    "ts": "2026-10-01T13:52:25.605292",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678613",
-    "pregunta": "Will Germany win on 2026-10-01?",
-    "ts": "2026-10-01T13:52:26.662727",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-10-01T13:52:27.708025",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678611",
-    "pregunta": "Will Austria win on 2026-10-01?",
-    "ts": "2026-10-01T13:52:28.752830",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-10-01T13:52:29.797106",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678632",
-    "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-10-01T13:52:30.840300",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678638",
-    "pregunta": "Will Denmark win on 2026-10-01?",
-    "ts": "2026-10-01T13:52:33.513058",
+    "ts": "2026-10-01T14:04:54.725577",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679698",
-    "pregunta": "Spread: Malta (-1.5)",
-    "ts": "2026-10-01T13:52:34.571302",
+    "id": "4679410",
+    "pregunta": "Denmark vs. Portugal: O/U 2.5",
+    "ts": "2026-10-01T14:04:55.818291",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4679530",
+    "pregunta": "Greece vs. Netherlands: O/U 2.5",
+    "ts": "2026-10-01T14:04:56.878680",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
