@@ -1,58 +1,10 @@
 [
   {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-09-30T23:23:07.769899",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678652",
-    "pregunta": "Will Kosovo win on 2026-10-01?",
-    "ts": "2026-09-30T23:23:08.826365",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678632",
-    "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-09-30T23:23:09.889697",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4815106",
-    "pregunta": "Navy vs. Air Force: O/U 45.5",
-    "ts": "2026-09-30T23:23:10.978249",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679459",
-    "pregunta": "Spread: Norway (-1.5)",
-    "ts": "2026-09-30T23:23:12.041573",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720661",
-    "pregunta": "Will Kazakhstan win on 2026-10-02?",
-    "ts": "2026-09-30T23:23:14.049298",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5121611",
     "pregunta": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
-    "ts": "2026-09-30T23:23:15.110313",
+    "ts": "2026-09-30T23:33:26.912222",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
     "whale_signal": "COMPRAR NO"
   }
 ]
