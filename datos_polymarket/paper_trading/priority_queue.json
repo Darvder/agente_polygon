@@ -1,10 +1,42 @@
 [
   {
-    "id": "1107582",
-    "pregunta": "US strike on Cuba by December 31?",
-    "ts": "2026-10-01T06:52:24.014777",
+    "id": "5071579",
+    "pregunta": "China Open: Learner Tien vs Hubert Hurkacz",
+    "ts": "2026-10-01T07:02:54.213383",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5c4eb8dd83402b22466504039bde5760043cb3b",
+    "whale_wallet": "0xe121ca930b64f2f9bad27fee1ceee76e105184da",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5132119",
+    "pregunta": "Porto 2: Mili Poljicak vs Henrique Rocha",
+    "ts": "2026-10-01T07:02:55.487320",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe121ca930b64f2f9bad27fee1ceee76e105184da",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5070140",
+    "pregunta": "China Open: Xinyu Gao vs Panna Udvardy",
+    "ts": "2026-10-01T07:02:56.563311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe121ca930b64f2f9bad27fee1ceee76e105184da",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629040",
+    "pregunta": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+    "ts": "2026-10-01T07:03:00.886021",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb06cfb91a1e7abeec433c16db112aa046c79b574",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4948644",
+    "pregunta": "KBO: NC Dinos vs. Doosan Bears",
+    "ts": "2026-10-01T07:03:15.253840",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4fd6f1e210945a27a1449fbf6ee1f23f7fdc3379",
     "whale_signal": "COMPRAR NO"
   }
 ]
