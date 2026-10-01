@@ -1,34 +1,58 @@
 [
   {
-    "id": "5130748",
-    "pregunta": "China Open: Katie Volynets vs Robin Montgomery",
-    "ts": "2026-09-30T21:02:41.923615",
+    "id": "4648865",
+    "pregunta": "Will Atl\u00e9tico Nacional win on 2026-09-30?",
+    "ts": "2026-09-30T21:14:16.544469",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3f9a532aaf64bd250e3b84b132b2c83152645a7",
+    "whale_wallet": "0x6a8330e931f629c400f7f6c7d7e7a019ce68920d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5070128",
-    "pregunta": "China Open: Sofia Kenin vs Ashlyn Krueger",
-    "ts": "2026-09-30T21:02:42.975119",
+    "id": "4993138",
+    "pregunta": "Argentina vs. Bolivia: O/U 4.5",
+    "ts": "2026-09-30T21:14:18.567136",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3f9a532aaf64bd250e3b84b132b2c83152645a7",
+    "whale_wallet": "0xb697df7d96b2b9f22cef9d031b8596b006f7ac7c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5070124",
-    "pregunta": "China Open: Aoi Ito vs Kimberly Birrell",
-    "ts": "2026-09-30T21:02:44.019776",
+    "id": "4190320",
+    "pregunta": "Penguins vs. Flyers: O/U 7.5",
+    "ts": "2026-09-30T21:14:23.464537",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3f9a532aaf64bd250e3b84b132b2c83152645a7",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5070134",
-    "pregunta": "China Open: Eva Lys vs Xinran Sun",
-    "ts": "2026-09-30T21:02:45.085212",
+    "id": "5125658",
+    "pregunta": "Asian Games Men: Pakistan vs Bangladesh",
+    "ts": "2026-09-30T21:14:24.525306",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3f9a532aaf64bd250e3b84b132b2c83152645a7",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4648869",
+    "pregunta": "Will Atl\u00e9tico Nacional vs. CDP Junior FC end in a draw?",
+    "ts": "2026-09-30T21:14:25.595499",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4789521",
+    "pregunta": "Atl\u00e9tico Nacional vs. CDP Junior FC: O/U 3.5",
+    "ts": "2026-09-30T21:14:26.640818",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4789522",
+    "pregunta": "Atl\u00e9tico Nacional vs. CDP Junior FC: O/U 4.5",
+    "ts": "2026-09-30T21:14:27.681569",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   }
 ]
