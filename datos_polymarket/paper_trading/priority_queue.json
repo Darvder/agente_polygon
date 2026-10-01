@@ -1,10 +1,34 @@
 [
   {
-    "id": "5121611",
-    "pregunta": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
-    "ts": "2026-10-01T00:13:34.845355",
+    "id": "5073589",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-10-01T00:22:42.337029",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x492bb408693470df7d031ef48f3a5466055b45ee",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4908381",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-10-01T00:22:45.457184",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd289eb6843833a2aa1dfbab2f82a01195a05d5f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5054041",
+    "pregunta": "Rainbow Six Siege: CAG by VARREL vs FearX (BO3) - Asia Pacific League APAC North - Stage 2 Playoffs",
+    "ts": "2026-10-01T00:22:46.557253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd289eb6843833a2aa1dfbab2f82a01195a05d5f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150541",
+    "pregunta": "Counter-Strike: NAVI Junior vs Next UP (BO1) - FOX Legacy Cup Group A",
+    "ts": "2026-10-01T00:22:47.605749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd289eb6843833a2aa1dfbab2f82a01195a05d5f7",
     "whale_signal": "COMPRAR NO"
   }
 ]
