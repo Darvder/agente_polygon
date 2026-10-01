@@ -1,58 +1,34 @@
 [
   {
-    "id": "5146328",
-    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs ex-Zero Tenacity (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-10-01T14:04:47.952291",
+    "id": "4949458",
+    "pregunta": "KK Crvena Zvezda vs. Anadolu Efes",
+    "ts": "2026-10-01T14:12:19.791568",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5140154",
-    "pregunta": "Dota 2: Aurora vs Team Liquid (BO3) - BLAST Slam Group D",
-    "ts": "2026-10-01T14:04:50.109958",
+    "id": "4949456",
+    "pregunta": "Virtus Bologna vs. Olympiacos B.C.",
+    "ts": "2026-10-01T14:12:20.859403",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5166354",
-    "pregunta": "LoL: JSK Esports vs UCAM Esports Club - Game 2 Winner",
-    "ts": "2026-10-01T14:04:51.181283",
+    "id": "4945127",
+    "pregunta": "Science City Jena vs. SC RASTA Vechta",
+    "ts": "2026-10-01T14:12:24.008897",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
+    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5166266",
-    "pregunta": "LoL: Team Phantasma vs The Secret Club Esport - Game 2 Winner",
-    "ts": "2026-10-01T14:04:52.244798",
+    "id": "4949455",
+    "pregunta": "Paris Basketball vs. Zalgiris Kaunas",
+    "ts": "2026-10-01T14:12:25.054947",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4a09bbd097074dc3226d6dda7d624c4a335761e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678609",
-    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
-    "ts": "2026-10-01T14:04:54.725577",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679410",
-    "pregunta": "Denmark vs. Portugal: O/U 2.5",
-    "ts": "2026-10-01T14:04:55.818291",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679530",
-    "pregunta": "Greece vs. Netherlands: O/U 2.5",
-    "ts": "2026-10-01T14:04:56.878680",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x26d33662187b4cca1b8ddbe5fee9e256c7338a20",
     "whale_signal": "COMPRAR NO"
   }
 ]
