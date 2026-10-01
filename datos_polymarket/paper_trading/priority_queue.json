@@ -2,49 +2,9 @@
   {
     "id": "4678632",
     "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-10-01T13:32:14.685619",
+    "ts": "2026-10-01T13:43:24.687327",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813886",
-    "pregunta": "North Texas vs. Tulsa",
-    "ts": "2026-10-01T13:32:15.742998",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678605",
-    "pregunta": "Will Malta win on 2026-10-01?",
-    "ts": "2026-10-01T13:32:16.789725",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679417",
-    "pregunta": "Denmark vs. Portugal: Both Teams to Score",
-    "ts": "2026-10-01T13:32:17.956950",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678609",
-    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
-    "ts": "2026-10-01T13:32:19.006682",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5146328",
-    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs ex-Zero Tenacity (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-10-01T13:32:20.819801",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb5a788269749e83bac7ced93422026625937ce86",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
