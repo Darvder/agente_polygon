@@ -1,58 +1,18 @@
 [
   {
-    "id": "5164995",
-    "pregunta": "Atlanta Dream vs. Washington Mystics: O/U 166.5",
-    "ts": "2026-09-30T19:53:10.188881",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4993137",
-    "pregunta": "Argentina vs. Bolivia: O/U 3.5",
-    "ts": "2026-09-30T19:53:11.251186",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5097581",
-    "pregunta": "Spread: Atlanta Dream (-4.5)",
-    "ts": "2026-09-30T19:53:12.330112",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4993128",
     "pregunta": "Spread: Argentina (-3.5)",
-    "ts": "2026-09-30T19:53:13.411929",
+    "ts": "2026-09-30T20:02:41.726723",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4978501",
-    "pregunta": "Boston Red Sox vs. New York Yankees",
-    "ts": "2026-09-30T19:53:14.490620",
+    "id": "4679371",
+    "pregunta": "Israel vs. Kosovo: Kosovo O/U 1.5",
+    "ts": "2026-09-30T20:02:42.877475",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148078",
-    "pregunta": "Counter-Strike: METANOIA WOLVES vs MEIA NOITE (BO3) - CCT South America Series 6 Group Stage",
-    "ts": "2026-09-30T19:53:16.469962",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0b8cf0871066cbaffecc0579afaf3d44b94ac944",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5149639",
-    "pregunta": "LoL: Vietnam vs Chinese Taipei - Game 1 Winner",
-    "ts": "2026-09-30T19:53:17.570546",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0b8cf0871066cbaffecc0579afaf3d44b94ac944",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
     "whale_signal": "COMPRAR NO"
   }
 ]
