@@ -1,74 +1,10 @@
 [
   {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-10-01T10:32:22.351859",
+    "id": "5070316",
+    "pregunta": "Will VfB Stuttgart win on 2026-10-01?",
+    "ts": "2026-10-01T10:43:16.018896",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5046264",
-    "pregunta": "Will Guinea win on 2026-10-01?",
-    "ts": "2026-10-01T10:32:23.433350",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4679770",
-    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 2.5",
-    "ts": "2026-10-01T10:32:24.602484",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166243",
-    "pregunta": "LoL: Valerion vs The Ruddy Sack - Game 1 Winner",
-    "ts": "2026-10-01T10:32:28.251137",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5142275",
-    "pregunta": "Counter-Strike: Spirit Academy vs mellren (BO3) - CCT Europe Challengers Series Playoffs",
-    "ts": "2026-10-01T10:32:29.315902",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5146322",
-    "pregunta": "Counter-Strike: Butterfly vs Noir Verse (BO3) - CCT Europe Series #10 Group Stage",
-    "ts": "2026-10-01T10:32:30.418566",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5166245",
-    "pregunta": "LoL: Valerion vs The Ruddy Sack (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-01T10:32:31.518786",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5140172",
-    "pregunta": "Dota 2: GamerLegion vs Yakult Brothers - Game 1 Winner",
-    "ts": "2026-10-01T10:32:32.613036",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4640189",
-    "pregunta": "Counter-Strike: Astralis vs Alliance - Map 1 Winner",
-    "ts": "2026-10-01T10:32:33.704103",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
