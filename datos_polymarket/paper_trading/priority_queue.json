@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "3865960",
+    "pregunta": "Will Bitcoin dip to $70,000 by December 31, 2026?",
+    "ts": "2026-10-01T09:32:50.730287",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ec6d95503c81c1f5dc83d006ba81dc1e22b7edb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1345531",
+    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "ts": "2026-10-01T09:32:51.840958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ec6d95503c81c1f5dc83d006ba81dc1e22b7edb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5156100",
+    "pregunta": "Dota 2: Team Yandex vs BetBoom Team - Game 2 Winner",
+    "ts": "2026-10-01T09:32:58.964044",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4cd4d6fe596f360137e5a0441fecc4e1ec9c041",
+    "whale_signal": "COMPRAR NO"
+  }
+]
