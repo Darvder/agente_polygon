@@ -1,58 +1,10 @@
 [
   {
-    "id": "5071573",
-    "pregunta": "China Open: Ignacio Buse vs Quentin Halys",
-    "ts": "2026-10-01T01:02:12.213576",
+    "id": "2773663",
+    "pregunta": "Will Republicans win 3 Senate and Governor elections in states won by Kamala?",
+    "ts": "2026-10-01T01:15:16.024774",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5070136",
-    "pregunta": "China Open: Paula Badosa vs Daria Kasatkina",
-    "ts": "2026-10-01T01:02:13.272261",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-10-01T01:02:16.463642",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4935836",
-    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $240 in October?",
-    "ts": "2026-10-01T01:02:18.482563",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4935887",
-    "pregunta": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $3.00 in October?",
-    "ts": "2026-10-01T01:02:19.539703",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4935962",
-    "pregunta": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $135 in October?",
-    "ts": "2026-10-01T01:02:20.753580",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4936037",
-    "pregunta": "Will S&P 500 (SPY) hit (LOW) $740 in October?",
-    "ts": "2026-10-01T01:02:21.814167",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
+    "whale_wallet": "0x16da1dfba37b7b8f3b313924e327131b84b805c0",
     "whale_signal": "COMPRAR NO"
   }
 ]
