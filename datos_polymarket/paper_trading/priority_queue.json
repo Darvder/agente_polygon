@@ -1,50 +1,74 @@
 [
   {
-    "id": "5156101",
-    "pregunta": "Dota 2: Team Yandex vs BetBoom Team (BO3) - BLAST Slam Group C",
-    "ts": "2026-09-30T22:32:37.398873",
+    "id": "5076668",
+    "pregunta": "Spread: Golden State Valkyries (-3.5)",
+    "ts": "2026-09-30T22:43:35.202271",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5140154",
-    "pregunta": "Dota 2: Aurora vs Team Liquid (BO3) - BLAST Slam Group D",
-    "ts": "2026-09-30T22:32:38.453529",
+    "id": "4978454",
+    "pregunta": "Will Cook Islands vs. Tahiti end in a draw?",
+    "ts": "2026-09-30T22:43:36.496800",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5162909",
-    "pregunta": "Dota 2: 1win vs Team Nemesis (BO3) - BLAST Slam Group B",
-    "ts": "2026-09-30T22:32:39.515431",
+    "id": "5150748",
+    "pregunta": "W35 Wagga Wagga: Kanon Sawashiro vs Ava Beck",
+    "ts": "2026-09-30T22:43:42.253162",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5162889",
-    "pregunta": "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - BLAST Slam Group A",
-    "ts": "2026-09-30T22:32:40.572756",
+    "id": "5150769",
+    "pregunta": "W15 Maanshan: Jiayu Xu vs Seo Yun Choi",
+    "ts": "2026-09-30T22:43:45.577229",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabab5104bee2379a8d1f2f88030a15eadd6007f8",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148813",
-    "pregunta": "Chicago Cubs vs. San Diego Padres: O/U 8.5",
-    "ts": "2026-09-30T22:32:42.746639",
+    "id": "5154922",
+    "pregunta": "M15 Luan: Taiyo Yamanaka vs Yuta Tomida",
+    "ts": "2026-09-30T22:43:47.830414",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x125a399cc5cb7cf7cbe8f010a05f0ed673374f02",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4952602",
-    "pregunta": "Golden State Valkyries vs. Dallas Wings",
-    "ts": "2026-09-30T22:32:43.807331",
+    "id": "5130744",
+    "pregunta": "China Open: Qinwen Zheng vs Han Shi",
+    "ts": "2026-09-30T22:43:48.922034",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x125a399cc5cb7cf7cbe8f010a05f0ed673374f02",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5121611",
+    "pregunta": "Japan Open Tennis Championships: Taylor Fritz vs Jaume Munar",
+    "ts": "2026-09-30T22:43:52.260879",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5153143",
+    "pregunta": "Jingshan: Alex Bolt vs Evan Zhu",
+    "ts": "2026-09-30T22:43:53.360452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150757",
+    "pregunta": "W15 Maanshan: Eva Marie Desvignes vs Honori Koyama",
+    "ts": "2026-09-30T22:43:54.512297",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   }
 ]
