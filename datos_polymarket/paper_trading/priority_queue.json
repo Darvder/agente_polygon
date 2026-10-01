@@ -1,58 +1,130 @@
 [
   {
-    "id": "4689888",
-    "pregunta": "Will Cura\u00e7ao win on 2026-10-01?",
-    "ts": "2026-10-01T16:12:18.602739",
+    "id": "4678642",
+    "pregunta": "Will Portugal win on 2026-10-01?",
+    "ts": "2026-10-01T16:22:57.853859",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xd3911bd5e070c9ad9a9519c966347802d8f3b109",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4752979",
-    "pregunta": "Will England win on 2026-10-03?",
-    "ts": "2026-10-01T16:12:19.669266",
+    "id": "4678627",
+    "pregunta": "Will Wales win on 2026-10-01?",
+    "ts": "2026-10-01T16:22:58.919789",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xd3911bd5e070c9ad9a9519c966347802d8f3b109",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4727399",
-    "pregunta": "Will Guatemala win on 2026-10-02?",
-    "ts": "2026-10-01T16:12:20.719363",
+    "id": "4678609",
+    "pregunta": "Will Republic of Ireland win on 2026-10-01?",
+    "ts": "2026-10-01T16:23:00.026868",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xd3911bd5e070c9ad9a9519c966347802d8f3b109",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4685128",
+    "pregunta": "Will Korea Republic win on 2026-10-02?",
+    "ts": "2026-10-01T16:23:01.210631",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3911bd5e070c9ad9a9519c966347802d8f3b109",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4642061",
     "pregunta": "Counter-Strike: FaZe vs Nemiga - Map 2 Winner",
-    "ts": "2026-10-01T16:12:27.763294",
+    "ts": "2026-10-01T16:23:02.315594",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
+    "whale_wallet": "0xd3911bd5e070c9ad9a9519c966347802d8f3b109",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5171356",
+    "pregunta": "Counter-Strike: ex-Keyd Stars vs ALKA (BO3) - CCT South America Series 6 Playoffs",
+    "ts": "2026-10-01T16:23:03.392647",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3911bd5e070c9ad9a9519c966347802d8f3b109",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4691001",
+    "pregunta": "Seattle Sounders FC vs. Sporting Kansas City: O/U 2.5",
+    "ts": "2026-10-01T16:23:05.310154",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4691016",
+    "pregunta": "Seattle Sounders FC vs. Sporting Kansas City: Seattle Sounders FC O/U 1.5",
+    "ts": "2026-10-01T16:23:06.886626",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4691008",
+    "pregunta": "Seattle Sounders FC vs. Sporting Kansas City: Both Teams to Score",
+    "ts": "2026-10-01T16:23:07.986764",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4689163",
+    "pregunta": "Will Seattle Sounders FC win on 2026-10-01?",
+    "ts": "2026-10-01T16:23:09.088096",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4724989",
+    "pregunta": "Dominican Republic vs. Haiti: Both Teams to Score",
+    "ts": "2026-10-01T16:23:10.269335",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4689888",
+    "pregunta": "Will Cura\u00e7ao win on 2026-10-01?",
+    "ts": "2026-10-01T16:23:11.324721",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4725179",
+    "pregunta": "Cura\u00e7ao vs. Trinidad and Tobago: Cura\u00e7ao O/U 3.5",
+    "ts": "2026-10-01T16:23:12.516392",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4725164",
+    "pregunta": "Cura\u00e7ao vs. Trinidad and Tobago: O/U 4.5",
+    "ts": "2026-10-01T16:23:13.605436",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1337fe91072f3a98647cacda8570ee18482bed5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1438611",
+    "pregunta": "Will Jay Z release an album in 2026?",
+    "ts": "2026-10-01T16:23:16.694397",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x726c6e3d5cdb1a8a97b38c0e2d88448b19d66bfd",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4642062",
     "pregunta": "Counter-Strike: FaZe vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
-    "ts": "2026-10-01T16:12:28.809299",
+    "ts": "2026-10-01T16:23:18.665389",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5167765",
-    "pregunta": "Counter-Strike: Nuclear TigeRES vs CYBERSHOKE Esports (BO3) - CIS LAN Championship Playoffs",
-    "ts": "2026-10-01T16:12:29.851635",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5167764",
-    "pregunta": "Counter-Strike: Nuclear TigeRES vs CYBERSHOKE Esports - Map 2 Winner",
-    "ts": "2026-10-01T16:12:30.906519",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14",
+    "whale_wallet": "0x299f1e05b122ddda46e4199093f05234f3732c50",
     "whale_signal": "COMPRAR NO"
   }
 ]
