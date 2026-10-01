@@ -1,34 +1,66 @@
 [
   {
-    "id": "4678632",
-    "pregunta": "Will Norway win on 2026-10-01?",
-    "ts": "2026-10-01T01:52:41.050813",
+    "id": "5119572",
+    "pregunta": "Will the highest temperature in Austin be between 92-93\u00b0F on October 1?",
+    "ts": "2026-10-01T02:05:34.352513",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xf8dc8cd0fd55eccb5409ed99ed90a86bc7f0f31f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678642",
-    "pregunta": "Will Portugal win on 2026-10-01?",
-    "ts": "2026-10-01T01:52:42.147503",
+    "id": "3959926",
+    "pregunta": "Will Josh Allen have 30+ passing touchdowns in the 2026-27 NFL regular season?",
+    "ts": "2026-10-01T02:05:40.911491",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x9e24bd0ebc6a423c43cf600e7bf1170a867b7e71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4678620",
-    "pregunta": "Will Netherlands win on 2026-10-01?",
-    "ts": "2026-10-01T01:52:43.239345",
+    "id": "5148460",
+    "pregunta": "Will the highest temperature in Manila be 32\u00b0C on October 2?",
+    "ts": "2026-10-01T02:05:54.148105",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5071573",
-    "pregunta": "China Open: Ignacio Buse vs Quentin Halys",
-    "ts": "2026-10-01T01:52:45.011890",
+    "id": "5148167",
+    "pregunta": "Will the highest temperature in Munich be 19\u00b0C on October 2?",
+    "ts": "2026-10-01T02:05:55.201530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148309",
+    "pregunta": "Will the highest temperature in Wuhan be 19\u00b0C on October 2?",
+    "ts": "2026-10-01T02:05:56.430352",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148308",
+    "pregunta": "Will the highest temperature in Wuhan be 18\u00b0C on October 2?",
+    "ts": "2026-10-01T02:05:57.526397",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150646",
+    "pregunta": "Will the highest temperature in Denver be between 82-83\u00b0F on October 2?",
+    "ts": "2026-10-01T02:05:58.720218",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148166",
+    "pregunta": "Will the highest temperature in Munich be 18\u00b0C on October 2?",
+    "ts": "2026-10-01T02:05:59.800729",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
     "whale_signal": "COMPRAR NO"
   }
 ]
