@@ -2,25 +2,41 @@
   {
     "id": "4678601",
     "pregunta": "Will Azerbaijan win on 2026-10-01?",
-    "ts": "2026-10-01T11:14:31.608309",
+    "ts": "2026-10-01T11:22:34.415649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4679770",
     "pregunta": "Azerbaijan vs. Liechtenstein: O/U 2.5",
-    "ts": "2026-10-01T11:14:32.723035",
+    "ts": "2026-10-01T11:22:35.658060",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679777",
-    "pregunta": "Azerbaijan vs. Liechtenstein: Both Teams to Score",
-    "ts": "2026-10-01T11:14:33.822168",
+    "id": "4935808",
+    "pregunta": "Will Meta Platforms, Inc. (META) hit (HIGH) $800 in October?",
+    "ts": "2026-10-01T11:22:43.272240",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x46c3ccc72c5697ff5a1db67394ec48a1c6462ada",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5157314",
+    "pregunta": "Will South Korea ETF (EWY) hit (LOW) $179 Week of September 28 2026?",
+    "ts": "2026-10-01T11:22:44.492528",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x46c3ccc72c5697ff5a1db67394ec48a1c6462ada",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4935854",
+    "pregunta": "Will Netflix, Inc. (NFLX) hit (LOW) $60 in October?",
+    "ts": "2026-10-01T11:22:45.743018",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x46c3ccc72c5697ff5a1db67394ec48a1c6462ada",
     "whale_signal": "COMPRAR NO"
   }
 ]
