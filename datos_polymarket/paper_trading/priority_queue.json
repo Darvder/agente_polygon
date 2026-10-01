@@ -1,18 +1,18 @@
 [
   {
-    "id": "5174526",
-    "pregunta": "Will the highest temperature in San Francisco be between 92-93\u00b0F on October 3?",
-    "ts": "2026-10-01T09:43:23.369125",
+    "id": "4679771",
+    "pregunta": "Azerbaijan vs. Liechtenstein: O/U 3.5",
+    "ts": "2026-10-01T09:52:22.709766",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9acd8d2bcabc675ef46e23d9fbb2f328cdb1a3fe",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4993026",
-    "pregunta": "Uzbekistan vs. Syria: 1st Half O/U 1.5",
-    "ts": "2026-10-01T09:43:25.283845",
+    "id": "4691002",
+    "pregunta": "Seattle Sounders FC vs. Sporting Kansas City: O/U 3.5",
+    "ts": "2026-10-01T09:52:23.876329",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe686e390a3f625904b2fb195be84ff295c8504e4",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
