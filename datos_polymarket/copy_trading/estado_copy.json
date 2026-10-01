@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1603.4,
-  "capital_en_riesgo": 405.71,
-  "n_ciclos": 38923,
-  "ultima_corrida": "2026-10-01 06:13",
+  "capital_actual": 1614.11,
+  "capital_en_riesgo": 380.71,
+  "n_ciclos": 38924,
+  "ultima_corrida": "2026-10-01 06:24",
   "n_tp": 623,
-  "n_sl": 416,
+  "n_sl": 417,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 41.92,
-    "capital_en_riesgo": 58.9,
+    "capital_actual": 43.63,
+    "capital_en_riesgo": 54.9,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 137,
-    "n_sl": 90,
+    "n_sl": 91,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-09-29",
@@ -171,7 +171,7 @@
         "pregunta": "Will the highest temperature in Atlanta be between 88-89\u00b0F on October ",
         "outcome": "No",
         "precio_token_entrada": 0.735,
-        "precio_actual": 0.755,
+        "precio_actual": 0.75,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -191,7 +191,7 @@
         "pregunta": "Will the highest temperature in Miami be between 84-85\u00b0F on October 1?",
         "outcome": "No",
         "precio_token_entrada": 0.725,
-        "precio_actual": 0.635,
+        "precio_actual": 0.63,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -351,7 +351,7 @@
         "pregunta": "Counter-Strike: Butterfly vs Noir Verse (BO3) - CCT Europe Series #10 ",
         "outcome": "Noir Verse",
         "precio_token_entrada": 0.565,
-        "precio_actual": 0.505,
+        "precio_actual": 0.495,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xbe4cd6ae9f4f59e2ed2fc2b65252911d2e7ced753ac1b09be9e1cce9f3039e96"
-      },
-      {
-        "fecha_entrada": "2026-10-01",
-        "fecha_entrada_dt": "2026-10-01 06:02",
-        "target_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-        "market_id": "4908380",
-        "condition_id": "0xfcec3a44b67a20584d459ae6607cde8b027c9f436ca4bdf97e98ac36a8144568",
-        "token_id": "16690971928775861371024120300255557980599204866139204071664088386142298186259",
-        "pregunta": "Valorant: TYLOO vs Team Liquid (BO3) - VCT Champions Group C",
-        "outcome": "TYLOO",
-        "precio_token_entrada": 0.35,
-        "precio_actual": 0.36,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x0bbb5c1e942406a8f2982bac1ac3ee7fef313d4986a202cafb4ea0b48ec8065e"
       }
     ],
     "historial_cerradas": [
@@ -4922,6 +4902,26 @@
         "pnl_realizado": -1.45,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x3eee7ee802c6e51ddb8dd889bb5b64fbdba1bf8b83b119e34afe5a2adc1c1226"
+      },
+      {
+        "fecha_entrada": "2026-10-01",
+        "fecha_entrada_dt": "2026-10-01 06:02",
+        "target_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+        "market_id": "4908380",
+        "condition_id": "0xfcec3a44b67a20584d459ae6607cde8b027c9f436ca4bdf97e98ac36a8144568",
+        "token_id": "16690971928775861371024120300255557980599204866139204071664088386142298186259",
+        "pregunta": "Valorant: TYLOO vs Team Liquid (BO3) - VCT Champions Group C",
+        "outcome": "TYLOO",
+        "precio_token_entrada": 0.35,
+        "precio_actual": 0.15,
+        "precio_cierre": 0.15,
+        "pct_cambio": -0.5714,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-01 06:24",
+        "pnl_realizado": -2.29,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x0bbb5c1e942406a8f2982bac1ac3ee7fef313d4986a202cafb4ea0b48ec8065e"
       }
     ]
   }

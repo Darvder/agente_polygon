@@ -1,26 +1,50 @@
 [
   {
-    "id": "4679777",
-    "pregunta": "Azerbaijan vs. Liechtenstein: Both Teams to Score",
-    "ts": "2026-10-01T06:12:34.947795",
+    "id": "5123129",
+    "pregunta": "Will the highest temperature in Toronto be 24\u00b0C on October 1?",
+    "ts": "2026-10-01T06:23:25.324368",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4679790",
-    "pregunta": "Azerbaijan vs. Liechtenstein: Liechtenstein O/U 0.5",
-    "ts": "2026-10-01T06:12:36.080262",
+    "id": "5116318",
+    "pregunta": "Will the highest temperature in Warsaw be 20\u00b0C on October 1?",
+    "ts": "2026-10-01T06:23:26.446140",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4978457",
-    "pregunta": "Will Uzbekistan win on 2026-10-01?",
-    "ts": "2026-10-01T06:12:37.226395",
+    "id": "5116308",
+    "pregunta": "Will the highest temperature in Madrid be 29\u00b0C on October 1?",
+    "ts": "2026-10-01T06:23:27.514550",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5116319",
+    "pregunta": "Will the highest temperature in Warsaw be 21\u00b0C on October 1?",
+    "ts": "2026-10-01T06:23:28.580404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5123127",
+    "pregunta": "Will the highest temperature in Toronto be 22\u00b0C on October 1?",
+    "ts": "2026-10-01T06:23:29.664443",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5123128",
+    "pregunta": "Will the highest temperature in Toronto be 23\u00b0C on October 1?",
+    "ts": "2026-10-01T06:23:30.749409",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
     "whale_signal": "COMPRAR NO"
   }
 ]
