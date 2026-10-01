@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "5071538",
+    "pregunta": "Japan Open Tennis Championships: Denis Shapovalov vs Sho Shimabukuro",
+    "ts": "2026-10-01T04:12:18.750348",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce1c76b92b62a98f395056cfb5669a7c497aa90a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5071534",
+    "pregunta": "Japan Open Tennis Championships: Carlos Alcaraz vs Alex Michelsen",
+    "ts": "2026-10-01T04:12:19.814361",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce1c76b92b62a98f395056cfb5669a7c497aa90a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5164615",
+    "pregunta": "Map Handicap: HOTU (-1.5) vs Team Nemesis (+1.5)",
+    "ts": "2026-10-01T04:12:21.849716",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4689168",
+    "pregunta": "Will Sporting Kansas City win on 2026-10-01?",
+    "ts": "2026-10-01T04:12:23.118694",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4689922",
+    "pregunta": "Will Dominican Republic win on 2026-10-01?",
+    "ts": "2026-10-01T04:12:24.327578",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4765419",
+    "pregunta": "Will CSyD Defensa y Justicia vs. CA San Lorenzo de Almagro end in a draw?",
+    "ts": "2026-10-01T04:12:25.564489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
