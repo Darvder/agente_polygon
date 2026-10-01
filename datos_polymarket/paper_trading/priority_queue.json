@@ -1,42 +1,26 @@
 [
   {
-    "id": "4678618",
-    "pregunta": "Will Greece vs. Netherlands end in a draw?",
-    "ts": "2026-10-01T07:42:59.221199",
+    "id": "5071579",
+    "pregunta": "China Open: Learner Tien vs Hubert Hurkacz",
+    "ts": "2026-10-01T07:53:45.843796",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4689924",
-    "pregunta": "Will Haiti win on 2026-10-01?",
-    "ts": "2026-10-01T07:43:00.295547",
+    "id": "5071569",
+    "pregunta": "China Open: Alexander Bublik vs Jakub Mensik",
+    "ts": "2026-10-01T07:53:47.941993",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2299954",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
-    "ts": "2026-10-01T07:43:02.742463",
+    "id": "4949321",
+    "pregunta": "Valorant: XLG Gaming vs Nongshim RedForce - Map 1 Winner",
+    "ts": "2026-10-01T07:53:53.838047",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf3fa24ccca4b2eb320eed99828cdec812eb87be3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2299955",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
-    "ts": "2026-10-01T07:43:03.814337",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf3fa24ccca4b2eb320eed99828cdec812eb87be3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4935938",
-    "pregunta": "Will Airbnb, Inc. (ABNB) hit (LOW) $144 in October?",
-    "ts": "2026-10-01T07:43:05.050195",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf3fa24ccca4b2eb320eed99828cdec812eb87be3",
+    "whale_wallet": "0x6b23c73159b753c96d3c1ed94413f113300c04a3",
     "whale_signal": "COMPRAR NO"
   }
 ]
