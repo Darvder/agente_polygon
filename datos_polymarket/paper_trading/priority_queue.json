@@ -1,18 +1,50 @@
 [
   {
-    "id": "5121619",
-    "pregunta": "China Open: Alex Molcan vs Arthur Rinderknech",
-    "ts": "2026-09-30T20:42:07.020124",
+    "id": "5148770",
+    "pregunta": "San Diego Padres winning after 5 innings?",
+    "ts": "2026-09-30T20:52:30.544823",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148769",
-    "pregunta": "Chicago Cubs winning after 5 innings?",
-    "ts": "2026-09-30T20:42:08.309678",
+    "id": "4678620",
+    "pregunta": "Will Netherlands win on 2026-10-01?",
+    "ts": "2026-09-30T20:52:31.595039",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4190322",
+    "pregunta": "Spread: Avalanche (-1.5)",
+    "ts": "2026-09-30T20:52:32.643895",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4678632",
+    "pregunta": "Will Norway win on 2026-10-01?",
+    "ts": "2026-09-30T20:52:33.692157",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4190321",
+    "pregunta": "Kings vs. Avalanche",
+    "ts": "2026-09-30T20:52:34.757510",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148810",
+    "pregunta": "Spread: Chicago Cubs (-1.5)",
+    "ts": "2026-09-30T20:52:35.798020",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
