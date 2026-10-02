@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "4705025",
+    "pregunta": "Will Gr\u00eamio Novorizontino win on 2026-10-01?",
+    "ts": "2026-10-01T20:41:59.910853",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4689923",
+    "pregunta": "Will Dominican Republic vs. Haiti end in a draw?",
+    "ts": "2026-10-01T20:42:01.135667",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875337",
+    "pregunta": "Spread: Steelers (-2.5)",
+    "ts": "2026-10-01T20:42:02.229105",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875338",
+    "pregunta": "Spread: Steelers (-3.5)",
+    "ts": "2026-10-01T20:42:03.320652",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875339",
+    "pregunta": "Spread: Steelers (-4.5)",
+    "ts": "2026-10-01T20:42:04.417252",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4216051",
+    "pregunta": "Wild vs. Predators",
+    "ts": "2026-10-01T20:42:05.565395",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4216060",
+    "pregunta": "Wild vs. Predators: O/U 5.5",
+    "ts": "2026-10-01T20:42:08.854493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4724973",
+    "pregunta": "Spread: Haiti (-2.5)",
+    "ts": "2026-10-01T20:42:09.963185",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919651",
+    "pregunta": "Steelers vs. Browns: O/U 44.5",
+    "ts": "2026-10-01T20:42:11.054691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5164752",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 7.5",
+    "ts": "2026-10-01T20:42:13.230128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
+    "whale_signal": "COMPRAR NO"
+  }
+]
