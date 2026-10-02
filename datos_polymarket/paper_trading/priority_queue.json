@@ -1,34 +1,10 @@
 [
   {
-    "id": "5192085",
-    "pregunta": "W35 Reims: Tessa Johanna Brockmann vs Salma Djoubri",
-    "ts": "2026-10-02T09:02:06.471734",
+    "id": "1421742",
+    "pregunta": "Floyd Mayweather vs. Manny Pacquiao 2",
+    "ts": "2026-10-02T09:11:53.549206",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5165125",
-    "pregunta": "Adana: Leolia Jeanjean vs Lucrezia Stefanini",
-    "ts": "2026-10-02T09:02:07.522977",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5157734",
-    "pregunta": "China Open: Yunchaokete Bu vs Novak Djokovic",
-    "ts": "2026-10-02T09:02:13.606550",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5183356",
-    "pregunta": "China Open: Hubert Hurkacz vs Arthur Gea",
-    "ts": "2026-10-02T09:02:14.700026",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
+    "whale_wallet": "0x2b4a27cfef5364a9d56b3d47cab76897c78f7bd0",
     "whale_signal": "COMPRAR NO"
   }
 ]
