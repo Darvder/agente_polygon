@@ -1,90 +1,42 @@
 [
   {
-    "id": "4424974",
-    "pregunta": "Steelers vs. Browns: O/U 41.5",
-    "ts": "2026-10-01T21:32:45.627289",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4858977",
-    "pregunta": "Spread: Browns (-14.5)",
-    "ts": "2026-10-01T21:32:46.725788",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4858975",
-    "pregunta": "Spread: Browns (-10.5)",
-    "ts": "2026-10-01T21:32:47.782769",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813942",
-    "pregunta": "Spread: Tulsa (-2.5)",
-    "ts": "2026-10-01T21:32:48.847186",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813949",
-    "pregunta": "Spread: Tulsa (-4.5)",
-    "ts": "2026-10-01T21:32:49.912247",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813939",
-    "pregunta": "Spread: Tulsa (-1.5)",
-    "ts": "2026-10-01T21:32:50.982992",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4858970",
     "pregunta": "Spread: Browns (-5.5)",
-    "ts": "2026-10-01T21:32:52.040298",
+    "ts": "2026-10-01T21:42:15.705603",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3760412",
-    "pregunta": "Steelers vs. Browns",
-    "ts": "2026-10-01T21:32:53.107994",
+    "id": "4952604",
+    "pregunta": "Indiana Fever vs. Las Vegas Aces",
+    "ts": "2026-10-01T21:42:18.613565",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_wallet": "0xb9ff64cc1241ae25b165927ffc871ca7faae5e00",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4858966",
-    "pregunta": "Spread: Browns (-1.5)",
-    "ts": "2026-10-01T21:32:54.201981",
+    "id": "4950487",
+    "pregunta": "Will the price of Bitcoin be above $84,000 on October 2?",
+    "ts": "2026-10-01T21:42:19.812591",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_wallet": "0xb9ff64cc1241ae25b165927ffc871ca7faae5e00",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814007",
-    "pregunta": "North Texas vs. Tulsa: O/U 51.5",
-    "ts": "2026-10-01T21:32:55.267245",
+    "id": "5176624",
+    "pregunta": "M15 Luan: Ryuki Matsuda vs Kosuke Ogura",
+    "ts": "2026-10-01T21:42:24.032249",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4858971",
-    "pregunta": "Spread: Browns (-6.5)",
-    "ts": "2026-10-01T21:32:56.333182",
+    "id": "5176626",
+    "pregunta": "M15 Luan: Taiyo Yamanaka vs Max Purcell",
+    "ts": "2026-10-01T21:42:25.092956",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   }
 ]
