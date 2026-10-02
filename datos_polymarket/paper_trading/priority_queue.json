@@ -1,82 +1,26 @@
 [
   {
-    "id": "5174083",
-    "pregunta": "China Open: Alex de Minaur vs Quentin Halys",
-    "ts": "2026-10-02T12:12:24.454072",
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-10-02T12:22:27.436227",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814789",
-    "pregunta": "Spread: Wake Forest (-14.5)",
-    "ts": "2026-10-02T12:12:25.520993",
+    "id": "4757299",
+    "pregunta": "Will Mexico win on 2026-10-03?",
+    "ts": "2026-10-02T12:22:28.543184",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5175482",
-    "pregunta": "San Diego Padres vs. Milwaukee Brewers",
-    "ts": "2026-10-02T12:12:26.627361",
+    "id": "4720682",
+    "pregunta": "Will Sweden win on 2026-10-02?",
+    "ts": "2026-10-02T12:22:29.634285",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817349",
-    "pregunta": "Spread: North Dakota State (-17.5)",
-    "ts": "2026-10-02T12:12:27.849238",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817164",
-    "pregunta": "Florida vs. Missouri: O/U 55.5",
-    "ts": "2026-10-02T12:12:29.094547",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180162",
-    "pregunta": "Dota 2: OG vs BetBoom Team - Game 1 Winner",
-    "ts": "2026-10-02T12:12:32.374144",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x249eb1db9382f3b5b1c5df512ed987b5a0514fa6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150585",
-    "pregunta": "Will the highest temperature in Atlanta be between 84-85\u00b0F on October 2?",
-    "ts": "2026-10-02T12:12:34.438330",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x37de5caf88559cf928ab0388bf95f3c951286fab",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5174523",
-    "pregunta": "Will the highest temperature in San Francisco be between 86-87\u00b0F on October 3?",
-    "ts": "2026-10-02T12:12:35.656614",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x37de5caf88559cf928ab0388bf95f3c951286fab",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5203540",
-    "pregunta": "Will the highest temperature in Buenos Aires be 25\u00b0C on October 4?",
-    "ts": "2026-10-02T12:12:40.321961",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x37de5caf88559cf928ab0388bf95f3c951286fab",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5197960",
-    "pregunta": "Will the highest temperature in Milan be 24\u00b0C on October 4?",
-    "ts": "2026-10-02T12:12:41.392332",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x37de5caf88559cf928ab0388bf95f3c951286fab",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
