@@ -1,34 +1,42 @@
 [
   {
-    "id": "5176629",
-    "pregunta": "M25 Darwin: Philip Sekulic vs Herman Hoeyeraal",
-    "ts": "2026-10-02T03:32:04.862805",
+    "id": "5152194",
+    "pregunta": "China Open: Maria Timofeeva vs Naomi Osaka",
+    "ts": "2026-10-02T03:41:55.410160",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5152210",
-    "pregunta": "China Open: Sara Bejlek vs Maddison Inglis",
-    "ts": "2026-10-02T03:32:05.954528",
+    "id": "4814065",
+    "pregunta": "Liberty vs. Delaware",
+    "ts": "2026-10-02T03:41:58.583480",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5090402",
-    "pregunta": "Counter-Strike: Teletubisie vs XI Esport - Map 1 Winner",
-    "ts": "2026-10-02T03:32:08.771541",
+    "id": "5009117",
+    "pregunta": "Will Manchester United FC win on 2026-10-10?",
+    "ts": "2026-10-02T03:41:59.682111",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d24e4fa945e12d08dd34178223f55f4e46c20b3",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5197894",
-    "pregunta": "Will the highest temperature in Munich be 21\u00b0C on October 4?",
-    "ts": "2026-10-02T03:32:10.878761",
+    "id": "5183356",
+    "pregunta": "China Open: Hubert Hurkacz vs Arthur Gea",
+    "ts": "2026-10-02T03:42:00.776232",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8b5e3be7673142c72e19f9682d9acef11eecf388",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5152204",
+    "pregunta": "China Open: Clara Tauson vs Polina Kudermetova",
+    "ts": "2026-10-02T03:42:02.845022",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8d32b6c89b3efdb581de4f0f7451955862a825a8",
     "whale_signal": "COMPRAR NO"
   }
 ]
