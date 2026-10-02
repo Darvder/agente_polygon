@@ -1,26 +1,10 @@
 [
   {
-    "id": "5170739",
-    "pregunta": "Will Bitcoin dip to $77,500 in October?",
-    "ts": "2026-10-01T23:33:29.179244",
+    "id": "5170578",
+    "pregunta": "Will the highest temperature in Moscow be 10\u00b0C on October 3?",
+    "ts": "2026-10-01T23:42:15.225014",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5153136",
-    "pregunta": "Jingshan: Elias Ymer vs Federico Cina",
-    "ts": "2026-10-01T23:33:32.186400",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813886",
-    "pregunta": "North Texas vs. Tulsa",
-    "ts": "2026-10-01T23:33:33.232818",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0x733e6e6a1a79a9661a4860e00ac9e3400c96d6da",
     "whale_signal": "COMPRAR NO"
   }
 ]
