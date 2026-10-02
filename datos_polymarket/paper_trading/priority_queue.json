@@ -1,26 +1,18 @@
 [
   {
-    "id": "4689163",
-    "pregunta": "Will Seattle Sounders FC win on 2026-10-01?",
-    "ts": "2026-10-01T22:11:45.899918",
+    "id": "5139147",
+    "pregunta": "Tunisia vs. Mali: O/U 3.5",
+    "ts": "2026-10-01T22:22:21.707761",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x558870723ad04c50b2bc7fcabc58a385bb514c0f",
+    "whale_wallet": "0xc185f496c90d72e28131f58a980416e22d317020",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970464",
-    "pregunta": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
-    "ts": "2026-10-01T22:11:48.602112",
+    "id": "4858970",
+    "pregunta": "Spread: Browns (-5.5)",
+    "ts": "2026-10-01T22:22:31.164627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc1458b6ba79821d0a59a22cd70d96f72779f32bb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4828213",
-    "pregunta": "Will Elon Musk post 220-239 tweets from September 25 to October 2, 2026?",
-    "ts": "2026-10-01T22:11:49.638079",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc1458b6ba79821d0a59a22cd70d96f72779f32bb",
+    "whale_wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
     "whale_signal": "COMPRAR NO"
   }
 ]
