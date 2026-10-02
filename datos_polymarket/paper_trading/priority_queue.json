@@ -1,42 +1,58 @@
 [
   {
-    "id": "5172505",
-    "pregunta": "W35 Wagga Wagga: Kanon Sawashiro vs Nagi Hanatani",
-    "ts": "2026-10-02T01:02:41.404632",
+    "id": "5157049",
+    "pregunta": "China Open: Taylah Preston vs Diane Parry",
+    "ts": "2026-10-02T01:12:03.805844",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x580325efbb00a3262513d16bce6bbcc979313f3f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753028",
-    "pregunta": "Will Scotland win on 2026-10-03?",
-    "ts": "2026-10-02T01:02:42.562402",
+    "id": "1321564",
+    "pregunta": "Will Anthropic have the highest IPO Market Cap 2026?",
+    "ts": "2026-10-02T01:12:05.583986",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170724",
-    "pregunta": "China Open: Alex Molcan vs Karen Khachanov",
-    "ts": "2026-10-02T01:02:45.298550",
+    "id": "2757891",
+    "pregunta": "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?",
+    "ts": "2026-10-02T01:12:06.754988",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5121615",
-    "pregunta": "China Open: Daniil Medvedev vs Pablo Carreno Busta",
-    "ts": "2026-10-02T01:02:46.336338",
+    "id": "2089110",
+    "pregunta": "Will Elmano de Freitas win the 2026 Cear\u00e1 gubernatorial election?",
+    "ts": "2026-10-02T01:12:07.820174",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5177575",
-    "pregunta": "Will Mar\u00eda Corina Machado enter Venezuela by October 31?",
-    "ts": "2026-10-02T01:02:48.289765",
+    "id": "4037599",
+    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
+    "ts": "2026-10-02T01:12:08.871927",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe221d23b7ee9bf426a3862b0a1c8608750e41505",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2487510",
+    "pregunta": "Will Sergio Moro win the Governor of Paran\u00e1 election?",
+    "ts": "2026-10-02T01:12:10.042002",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4984391",
+    "pregunta": "Valorant: Global Esports vs EDward Gaming (BO3) - VCT Champions Group B",
+    "ts": "2026-10-02T01:12:11.122388",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
