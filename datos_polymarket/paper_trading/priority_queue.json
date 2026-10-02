@@ -1,26 +1,18 @@
 [
   {
-    "id": "4942557",
-    "pregunta": "Will CA Platense vs. Estudiantes de La Plata end in a draw?",
-    "ts": "2026-10-01T21:01:45.560038",
+    "id": "4216010",
+    "pregunta": "Sabres vs. Blue Jackets",
+    "ts": "2026-10-01T21:11:55.055437",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xebbba265a23a5c13d94051b4be1090101e024214",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4943940",
-    "pregunta": "CA Platense vs. Estudiantes de La Plata: O/U 0.5",
-    "ts": "2026-10-01T21:01:46.655805",
+    "id": "4216051",
+    "pregunta": "Wild vs. Predators",
+    "ts": "2026-10-01T21:11:56.106427",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4725112",
-    "pregunta": "Anguilla vs. Antigua and Barbuda: 1st Half O/U 1.5",
-    "ts": "2026-10-01T21:01:48.736074",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfd3e6449d0c1e807501dcc17c0d9447201f35a7a",
+    "whale_wallet": "0xebbba265a23a5c13d94051b4be1090101e024214",
     "whale_signal": "COMPRAR NO"
   }
 ]
