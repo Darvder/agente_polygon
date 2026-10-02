@@ -1,10 +1,42 @@
 [
   {
-    "id": "5148166",
-    "pregunta": "Will the highest temperature in Munich be 18\u00b0C on October 2?",
-    "ts": "2026-10-02T08:13:08.571062",
+    "id": "5157734",
+    "pregunta": "China Open: Yunchaokete Bu vs Novak Djokovic",
+    "ts": "2026-10-02T08:22:01.573261",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0484bf76425db5021ce2d369f78fc125906d4830",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5157055",
+    "pregunta": "Adana: Elena Pridankina vs Erika Andreeva",
+    "ts": "2026-10-02T08:22:02.651957",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5192083",
+    "pregunta": "W75 Quinta do Lago: Francisca Jorge vs Eva Vedder",
+    "ts": "2026-10-02T08:22:04.765933",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5192081",
+    "pregunta": "W75 Quinta do Lago: Lisa Pigato vs Polona Hercog",
+    "ts": "2026-10-02T08:22:05.984619",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5165125",
+    "pregunta": "Adana: Leolia Jeanjean vs Lucrezia Stefanini",
+    "ts": "2026-10-02T08:22:07.057393",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   }
 ]
