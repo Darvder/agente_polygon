@@ -1,34 +1,42 @@
 [
   {
-    "id": "5148316",
-    "pregunta": "Will the highest temperature in Chengdu be 22\u00b0C on October 2?",
-    "ts": "2026-10-02T02:02:26.712840",
+    "id": "5082317",
+    "pregunta": "Will Elon Musk post 40-64 tweets from October 1 to October 3, 2026?",
+    "ts": "2026-10-02T02:12:52.987431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x164cb85e1718d0a8f95d588b08fbb52b34233e39",
+    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4720683",
-    "pregunta": "Will France win on 2026-10-02?",
-    "ts": "2026-10-02T02:02:39.329043",
+    "id": "4730329",
+    "pregunta": "Will Cear\u00e1 SC win on 2026-10-02?",
+    "ts": "2026-10-02T02:12:55.118126",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x52c1afbe1b05dce1cc2338bff041946a8e665f35",
+    "whale_wallet": "0x83838152aa7fcd068506018c0d409786ad87b160",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4720676",
-    "pregunta": "Will Hungary win on 2026-10-02?",
-    "ts": "2026-10-02T02:02:40.512455",
+    "id": "4751424",
+    "pregunta": "Will Cheltenham Town FC win on 2026-10-03?",
+    "ts": "2026-10-02T02:12:56.331806",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x52c1afbe1b05dce1cc2338bff041946a8e665f35",
+    "whale_wallet": "0x83838152aa7fcd068506018c0d409786ad87b160",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4720682",
-    "pregunta": "Will Sweden win on 2026-10-02?",
-    "ts": "2026-10-02T02:02:41.601431",
+    "id": "4752236",
+    "pregunta": "Accrington Stanley FC vs. Cheltenham Town FC: O/U 3.5",
+    "ts": "2026-10-02T02:12:57.390908",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x52c1afbe1b05dce1cc2338bff041946a8e665f35",
+    "whale_wallet": "0x83838152aa7fcd068506018c0d409786ad87b160",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5178208",
+    "pregunta": "Will \"Resident Evil\" 3rd Weekend Box Office be between 13m and 14m?",
+    "ts": "2026-10-02T02:13:05.963140",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1154e9b3064a5fa77f805652dafd3c2d83413429",
     "whale_signal": "COMPRAR NO"
   }
 ]
