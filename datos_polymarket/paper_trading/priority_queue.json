@@ -2,65 +2,41 @@
   {
     "id": "3760412",
     "pregunta": "Steelers vs. Browns",
-    "ts": "2026-10-01T22:42:05.893100",
+    "ts": "2026-10-01T22:53:15.043353",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4858970",
-    "pregunta": "Spread: Browns (-5.5)",
-    "ts": "2026-10-01T22:42:06.935253",
+    "id": "5152212",
+    "pregunta": "China Open: Linda Fruhvirtova vs Liudmila Samsonova",
+    "ts": "2026-10-01T22:53:16.110702",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4599732",
-    "pregunta": "Will there be no next German Chancellor before 2028?",
-    "ts": "2026-10-01T22:42:10.373698",
+    "id": "5152198",
+    "pregunta": "China Open: Anastasia Potapova vs Sinja Kraus",
+    "ts": "2026-10-01T22:53:17.179088",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe102b1da4367d827b48c47ea91fadf6997ff71df",
+    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5179198",
-    "pregunta": "Will Indiana enact a data center moratorium by December 31, 2028?",
-    "ts": "2026-10-01T22:42:11.418230",
+    "id": "5174078",
+    "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Stefanos Tsitsipas",
+    "ts": "2026-10-01T22:53:18.282221",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe102b1da4367d827b48c47ea91fadf6997ff71df",
+    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1107582",
-    "pregunta": "US strike on Cuba by December 31?",
-    "ts": "2026-10-01T22:42:13.515723",
+    "id": "5153136",
+    "pregunta": "Jingshan: Elias Ymer vs Federico Cina",
+    "ts": "2026-10-01T22:53:19.349081",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4175516",
-    "pregunta": "Will Florida Panthers advance to the Second Round of the 2027 Stanley Cup Playoffs?",
-    "ts": "2026-10-01T22:42:14.730586",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "608547",
-    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
-    "ts": "2026-10-01T22:42:15.831563",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "608545",
-    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-    "ts": "2026-10-01T22:42:16.875751",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_wallet": "0x0df758f3a438f88d9b98da42ab76cd585a101ec1",
     "whale_signal": "COMPRAR NO"
   }
 ]
