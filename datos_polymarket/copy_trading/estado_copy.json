@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1600.75,
-  "capital_en_riesgo": 383.95000000000005,
-  "n_ciclos": 39028,
-  "ultima_corrida": "2026-10-01 23:42",
-  "n_tp": 679,
+  "capital_actual": 1652.67,
+  "capital_en_riesgo": 358.95,
+  "n_ciclos": 39029,
+  "ultima_corrida": "2026-10-01 23:52",
+  "n_tp": 680,
   "n_sl": 464,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 35.02,
-    "capital_en_riesgo": 55.28,
+    "capital_actual": 43.33,
+    "capital_en_riesgo": 51.28,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 192,
+    "n_tp": 193,
     "n_sl": 138,
     "posiciones_abiertas": [
       {
@@ -91,7 +91,7 @@
         "pregunta": "Will Korea Republic win on 2026-10-02?",
         "outcome": "Yes",
         "precio_token_entrada": 0.595,
-        "precio_actual": 0.595,
+        "precio_actual": 0.585,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -271,7 +271,7 @@
         "pregunta": "North Texas vs. Tulsa",
         "outcome": "North Texas",
         "precio_token_entrada": 0.785,
-        "precio_actual": 0.745,
+        "precio_actual": 0.595,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -291,7 +291,7 @@
         "pregunta": "Will Elon Musk post 40-64 tweets from October 1 to October 3, 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.645,
-        "precio_actual": 0.645,
+        "precio_actual": 0.64,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xf6fcb578d0b305b83c12b2624a9966df1dbb80ba72107466a38e519b41ae1711"
-      },
-      {
-        "fecha_entrada": "2026-10-01",
-        "fecha_entrada_dt": "2026-10-01 23:33",
-        "target_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-        "market_id": "4813886",
-        "condition_id": "0x596a6c2d68c08eb21508bb6ba3a40e3bb3e093b26bc7c5e10dab4f1291827743",
-        "token_id": "31103053109568032567218454961206603367917736697436271258886344304885790332787",
-        "pregunta": "North Texas vs. Tulsa",
-        "outcome": "Tulsa",
-        "precio_token_entrada": 0.195,
-        "precio_actual": 0.255,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x9af994c879d263ccacf488458202317f8acc0307f1111019db1065394da58e49"
       }
     ],
     "historial_cerradas": [
@@ -6942,6 +6922,26 @@
         "pnl_realizado": 0.04,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xeb4e498a22839422dfd462a1a9c2d0cf8a1091e6b427d906c9f075fb201d4cd1"
+      },
+      {
+        "fecha_entrada": "2026-10-01",
+        "fecha_entrada_dt": "2026-10-01 23:33",
+        "target_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+        "market_id": "4813886",
+        "condition_id": "0x596a6c2d68c08eb21508bb6ba3a40e3bb3e093b26bc7c5e10dab4f1291827743",
+        "token_id": "31103053109568032567218454961206603367917736697436271258886344304885790332787",
+        "pregunta": "North Texas vs. Tulsa",
+        "outcome": "Tulsa",
+        "precio_token_entrada": 0.195,
+        "precio_actual": 0.405,
+        "precio_cierre": 0.405,
+        "pct_cambio": 1.0769,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-01 23:52",
+        "pnl_realizado": 4.31,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x9af994c879d263ccacf488458202317f8acc0307f1111019db1065394da58e49"
       }
     ]
   }
