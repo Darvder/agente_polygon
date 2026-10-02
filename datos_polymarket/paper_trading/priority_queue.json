@@ -1,98 +1,34 @@
 [
   {
-    "id": "4721494",
-    "pregunta": "Faroe Islands vs. Slovakia: O/U 1.5",
-    "ts": "2026-10-02T13:13:46.439864",
+    "id": "4721316",
+    "pregunta": "France vs. Italy: O/U 3.5",
+    "ts": "2026-10-02T13:22:33.522072",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2589812",
-    "pregunta": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-    "ts": "2026-10-02T13:13:47.507424",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720780",
-    "pregunta": "Exact Score: Faroe Islands 0 - 1 Slovakia?",
-    "ts": "2026-10-02T13:13:48.595197",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4789395",
-    "pregunta": "AD Cali vs. Alianza FC: Both Teams to Score",
-    "ts": "2026-10-02T13:13:49.670909",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4722131",
-    "pregunta": "Belgium vs. T\u00fcrkiye: O/U 8.5 Total Corners",
-    "ts": "2026-10-02T13:13:50.737632",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4727393",
-    "pregunta": "Will Guadeloupe win on 2026-10-02?",
-    "ts": "2026-10-02T13:13:51.822351",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5202926",
-    "pregunta": "Dallas Wings vs. Golden State Valkyries: O/U 158.5",
-    "ts": "2026-10-02T13:13:52.913025",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720676",
-    "pregunta": "Will Hungary win on 2026-10-02?",
-    "ts": "2026-10-02T13:13:53.981531",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814136",
-    "pregunta": "Pittsburgh vs. Virginia Tech",
-    "ts": "2026-10-02T13:13:55.072123",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27bf3c05230e12175b25158857f13897b7189c43",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720675",
-    "pregunta": "Will Slovakia win on 2026-10-02?",
-    "ts": "2026-10-02T13:13:57.067127",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4720682",
     "pregunta": "Will Sweden win on 2026-10-02?",
-    "ts": "2026-10-02T13:13:58.136413",
+    "ts": "2026-10-02T13:22:34.570679",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4250259",
-    "pregunta": "Rangers vs. Red Wings: O/U 5.5",
-    "ts": "2026-10-02T13:13:59.219867",
+    "id": "4720688",
+    "pregunta": "Will T\u00fcrkiye win on 2026-10-02?",
+    "ts": "2026-10-02T13:22:35.659151",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818714",
+    "pregunta": "Spread: South Carolina (-2.5)",
+    "ts": "2026-10-02T13:22:36.732004",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
