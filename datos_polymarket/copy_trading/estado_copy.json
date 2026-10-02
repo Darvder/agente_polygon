@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1619.64,
-  "capital_en_riesgo": 447.91,
-  "n_ciclos": 39045,
-  "ultima_corrida": "2026-10-02 02:33",
+  "capital_actual": 1631.78,
+  "capital_en_riesgo": 422.91,
+  "n_ciclos": 39046,
+  "ultima_corrida": "2026-10-02 02:43",
   "n_tp": 689,
-  "n_sl": 464,
+  "n_sl": 465,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 39.08,
-    "capital_en_riesgo": 64.24,
+    "capital_actual": 41.02,
+    "capital_en_riesgo": 60.24,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 202,
-    "n_sl": 138,
+    "n_sl": 139,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-01",
@@ -340,26 +340,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x9836ad5a2e8eb5f8a74e11f150e3765a09bc1ee2d2f35eab32624d38a1c80c02"
-      },
-      {
-        "fecha_entrada": "2026-10-02",
-        "fecha_entrada_dt": "2026-10-02 02:22",
-        "target_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-        "market_id": "5121615",
-        "condition_id": "0x0deddbc2442cb022ca4e6094f177f483886b2c65a61c42c773834a763d79b25d",
-        "token_id": "42217658525057663554947464800294626958348712271343666774689123455380270122922",
-        "pregunta": "China Open: Daniil Medvedev vs Pablo Carreno Busta",
-        "outcome": "Pablo Carreno Busta",
-        "precio_token_entrada": 0.175,
-        "precio_actual": 0.175,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x482df61bef7c8984e08e1dc08db7853b86d9867c50174fa1aeaf940f0551c5f6"
       },
       {
         "fecha_entrada": "2026-10-02",
@@ -7182,6 +7162,26 @@
         "pnl_realizado": 0.6,
         "razon_cierre": "TARGET_SELL",
         "tx_hash": "0x0065680b70955117541a7ea30679669741c2d1fbb56b7d53cc09b4d50ddc76ca"
+      },
+      {
+        "fecha_entrada": "2026-10-02",
+        "fecha_entrada_dt": "2026-10-02 02:22",
+        "target_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+        "market_id": "5121615",
+        "condition_id": "0x0deddbc2442cb022ca4e6094f177f483886b2c65a61c42c773834a763d79b25d",
+        "token_id": "42217658525057663554947464800294626958348712271343666774689123455380270122922",
+        "pregunta": "China Open: Daniil Medvedev vs Pablo Carreno Busta",
+        "outcome": "Pablo Carreno Busta",
+        "precio_token_entrada": 0.175,
+        "precio_actual": 0.085,
+        "precio_cierre": 0.085,
+        "pct_cambio": -0.5143,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-02 02:43",
+        "pnl_realizado": -2.06,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x482df61bef7c8984e08e1dc08db7853b86d9867c50174fa1aeaf940f0551c5f6"
       }
     ]
   }
