@@ -1,26 +1,18 @@
 [
   {
-    "id": "4720683",
-    "pregunta": "Will France win on 2026-10-02?",
-    "ts": "2026-10-02T12:22:27.436227",
+    "id": "5207928",
+    "pregunta": "Bitcoin above 85,000 on October 2, 2PM ET?",
+    "ts": "2026-10-02T12:33:43.769422",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x138b1b19b71472e3c1a89f076927edd974cd0467",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4757299",
-    "pregunta": "Will Mexico win on 2026-10-03?",
-    "ts": "2026-10-02T12:22:28.543184",
+    "id": "4721616",
+    "pregunta": "Cyprus vs. Armenia: O/U 3.5",
+    "ts": "2026-10-02T12:33:47.609849",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720682",
-    "pregunta": "Will Sweden win on 2026-10-02?",
-    "ts": "2026-10-02T12:22:29.634285",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xe16f112b529ff5ee751276998b2242d760aca33f",
     "whale_signal": "COMPRAR NO"
   }
 ]
