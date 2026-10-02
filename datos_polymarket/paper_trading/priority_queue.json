@@ -1,34 +1,18 @@
 [
   {
-    "id": "4721255",
-    "pregunta": "Belgium vs. T\u00fcrkiye: O/U 2.5",
-    "ts": "2026-10-02T03:03:58.459368",
+    "id": "5170403",
+    "pregunta": "Will the highest temperature in Munich be 21\u00b0C on October 3?",
+    "ts": "2026-10-02T03:11:51.704045",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x754b36af5e01e56b15acc45a5b27102a0ab9d06a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5176629",
-    "pregunta": "M25 Darwin: Philip Sekulic vs Herman Hoeyeraal",
-    "ts": "2026-10-02T03:03:59.509161",
+    "id": "5172779",
+    "pregunta": "Game Handicap: T1.A (-1.5) vs Solary (+1.5)",
+    "ts": "2026-10-02T03:11:54.509046",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4950469",
-    "pregunta": "Will the price of Bitcoin be between $86,000 and $88,000 on October 2?",
-    "ts": "2026-10-02T03:04:02.802056",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170738",
-    "pregunta": "Will Bitcoin dip to $80,000 in October?",
-    "ts": "2026-10-02T03:04:03.844330",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
+    "whale_wallet": "0x1c29705c62a6435b5d45c382530012b14c5a167e",
     "whale_signal": "COMPRAR NO"
   }
 ]
