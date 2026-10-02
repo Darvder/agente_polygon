@@ -1,18 +1,202 @@
 [
   {
-    "id": "5207928",
-    "pregunta": "Bitcoin above 85,000 on October 2, 2PM ET?",
-    "ts": "2026-10-02T12:33:43.769422",
+    "id": "5193570",
+    "pregunta": "Counter-Strike: WRAITH PCIFIC vs MASONIC (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-10-02T12:42:57.841368",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x138b1b19b71472e3c1a89f076927edd974cd0467",
+    "whale_wallet": "0x4fd6f1e210945a27a1449fbf6ee1f23f7fdc3379",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4721616",
-    "pregunta": "Cyprus vs. Armenia: O/U 3.5",
-    "ts": "2026-10-02T12:33:47.609849",
+    "id": "5171560",
+    "pregunta": "Will the highest temperature in Chicago be between 68-69\u00b0F on October 3?",
+    "ts": "2026-10-02T12:43:03.638943",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe16f112b529ff5ee751276998b2242d760aca33f",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4894413",
+    "pregunta": "Will the 30-year Treasury yield hit 5.90% before 2027?",
+    "ts": "2026-10-02T12:43:04.823110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167184",
+    "pregunta": "Saudi Arabia military action against Yemen on October 3?",
+    "ts": "2026-10-02T12:43:05.915290",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167185",
+    "pregunta": "Saudi Arabia military action against Yemen on October 4?",
+    "ts": "2026-10-02T12:43:07.069111",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167187",
+    "pregunta": "Saudi Arabia military action against Yemen on October 6?",
+    "ts": "2026-10-02T12:43:08.126501",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167188",
+    "pregunta": "Saudi Arabia military action against Yemen on October 7?",
+    "ts": "2026-10-02T12:43:09.279249",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167189",
+    "pregunta": "Saudi Arabia military action against Yemen on October 8?",
+    "ts": "2026-10-02T12:43:10.329143",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167190",
+    "pregunta": "Saudi Arabia military action against Yemen on October 9?",
+    "ts": "2026-10-02T12:43:11.484404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167191",
+    "pregunta": "Saudi Arabia military action against Yemen on October 10?",
+    "ts": "2026-10-02T12:43:12.645550",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167192",
+    "pregunta": "Saudi Arabia military action against Yemen on October 11?",
+    "ts": "2026-10-02T12:43:13.719462",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167194",
+    "pregunta": "Saudi Arabia military action against Yemen on October 13?",
+    "ts": "2026-10-02T12:43:14.885255",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167195",
+    "pregunta": "Saudi Arabia military action against Yemen on October 14?",
+    "ts": "2026-10-02T12:43:16.073873",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167196",
+    "pregunta": "Saudi Arabia military action against Yemen on October 15?",
+    "ts": "2026-10-02T12:43:17.233045",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167197",
+    "pregunta": "Saudi Arabia military action against Yemen on October 16?",
+    "ts": "2026-10-02T12:43:18.382655",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167198",
+    "pregunta": "Saudi Arabia military action against Yemen on October 17?",
+    "ts": "2026-10-02T12:43:19.530602",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5175350",
+    "pregunta": "Will the highest temperature in Mexico City be 25\u00b0C or higher on October 3?",
+    "ts": "2026-10-02T12:43:20.605569",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x370c671980712b4014fc6900766c0c6c66923eb1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721615",
+    "pregunta": "Cyprus vs. Armenia: O/U 2.5",
+    "ts": "2026-10-02T12:43:22.429110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93913662f8bca0c31260c823e66aa1ebd373527d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180495",
+    "pregunta": "Counter-Strike: Luminosity vs BIG (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-02T12:43:23.470706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93913662f8bca0c31260c823e66aa1ebd373527d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5194569",
+    "pregunta": "Columbus: Abedallah Shelbayh vs Aidan Mayo",
+    "ts": "2026-10-02T12:43:24.519724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93913662f8bca0c31260c823e66aa1ebd373527d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4790998",
+    "pregunta": "Fath Union Sport vs. US Amal Tiznit: O/U 1.5",
+    "ts": "2026-10-02T12:43:25.594783",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93913662f8bca0c31260c823e66aa1ebd373527d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814249",
+    "pregunta": "Pittsburgh vs. Virginia Tech: O/U 53.5",
+    "ts": "2026-10-02T12:43:26.757403",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93913662f8bca0c31260c823e66aa1ebd373527d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5183369",
+    "pregunta": "Bari: Matthew William Donald vs Martin Krumich",
+    "ts": "2026-10-02T12:43:28.651585",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ca106778b11724d0e14c96be3529fe753d7fc25",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150584",
+    "pregunta": "Will the highest temperature in Atlanta be between 82-83\u00b0F on October 2?",
+    "ts": "2026-10-02T12:43:29.698072",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ca106778b11724d0e14c96be3529fe753d7fc25",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4738434",
+    "pregunta": "Will Tochigi City FC vs. FC Imabari end in a draw?",
+    "ts": "2026-10-02T12:43:30.847739",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ca106778b11724d0e14c96be3529fe753d7fc25",
     "whale_signal": "COMPRAR NO"
   }
 ]
