@@ -1,42 +1,34 @@
 [
   {
-    "id": "5157734",
-    "pregunta": "China Open: Yunchaokete Bu vs Novak Djokovic",
-    "ts": "2026-10-02T08:22:01.573261",
+    "id": "5169645",
+    "pregunta": "Will the lowest temperature in London be 12\u00b0C on October 3?",
+    "ts": "2026-10-02T08:32:14.844794",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5157055",
-    "pregunta": "Adana: Elena Pridankina vs Erika Andreeva",
-    "ts": "2026-10-02T08:22:02.651957",
+    "id": "5170670",
+    "pregunta": "Will the highest temperature in Guangzhou be 33\u00b0C on October 3?",
+    "ts": "2026-10-02T08:32:15.929535",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5192083",
-    "pregunta": "W75 Quinta do Lago: Francisca Jorge vs Eva Vedder",
-    "ts": "2026-10-02T08:22:04.765933",
+    "id": "4828188",
+    "pregunta": "Will Donald Trump post 200+ Truth Social posts from September 25 to October 2, 2026?",
+    "ts": "2026-10-02T08:32:21.033260",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0x864fecd33f7d4ea8acb8e4b625fa58c230dd3ae7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5192081",
-    "pregunta": "W75 Quinta do Lago: Lisa Pigato vs Polona Hercog",
-    "ts": "2026-10-02T08:22:05.984619",
+    "id": "4828177",
+    "pregunta": "Will Donald Trump post 180-199 Truth Social posts from September 25 to October 2, 2026?",
+    "ts": "2026-10-02T08:32:22.123243",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5165125",
-    "pregunta": "Adana: Leolia Jeanjean vs Lucrezia Stefanini",
-    "ts": "2026-10-02T08:22:07.057393",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0x864fecd33f7d4ea8acb8e4b625fa58c230dd3ae7",
     "whale_signal": "COMPRAR NO"
   }
 ]
