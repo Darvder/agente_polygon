@@ -1,98 +1,10 @@
 [
   {
-    "id": "4739511",
-    "pregunta": "\u014cita Trinita vs. Montedio Yamagata: O/U 2.5",
-    "ts": "2026-10-02T18:42:46.476250",
+    "id": "4759178",
+    "pregunta": "Suriname vs. Guatemala: Suriname O/U 0.5",
+    "ts": "2026-10-02T18:51:51.776580",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4739510",
-    "pregunta": "\u014cita Trinita vs. Montedio Yamagata: O/U 1.5",
-    "ts": "2026-10-02T18:42:47.548179",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4739512",
-    "pregunta": "\u014cita Trinita vs. Montedio Yamagata: O/U 3.5",
-    "ts": "2026-10-02T18:42:48.722806",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4747305",
-    "pregunta": "Will Albacete Balompi\u00e9 win on 2026-10-03?",
-    "ts": "2026-10-02T18:42:49.792723",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4768562",
-    "pregunta": "Spread: SD Eibar (-1.5)",
-    "ts": "2026-10-02T18:42:50.870443",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4754871",
-    "pregunta": "Will Carlisle United FC win on 2026-10-03?",
-    "ts": "2026-10-02T18:42:52.013465",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4755832",
-    "pregunta": "Spread: Carlisle United FC (-1.5)",
-    "ts": "2026-10-02T18:42:53.186836",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4754866",
-    "pregunta": "Will Boreham Wood FC win on 2026-10-03?",
-    "ts": "2026-10-02T18:42:54.324944",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4983123",
-    "pregunta": "FK Haugesund vs. Stabaek IF: O/U 2.5",
-    "ts": "2026-10-02T18:42:55.381863",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4983063",
-    "pregunta": "Hoedd IL vs. Odds BK: O/U 2.5",
-    "ts": "2026-10-02T18:42:56.434284",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4983052",
-    "pregunta": "Spread: Odds BK (-1.5)",
-    "ts": "2026-10-02T18:42:57.607727",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4730286",
-    "pregunta": "Will S\u00e3o Paulo FC win on 2026-10-02?",
-    "ts": "2026-10-02T18:42:59.471391",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x421324ba22cda9fcb0f3de8c732ccf633497d15e",
+    "whale_wallet": "0x2d1dfd2e125a2b78fed1593385026ae59a97a495",
     "whale_signal": "COMPRAR NO"
   }
 ]
