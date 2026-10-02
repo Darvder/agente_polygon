@@ -1,58 +1,10 @@
 [
   {
-    "id": "5157049",
-    "pregunta": "China Open: Taylah Preston vs Diane Parry",
-    "ts": "2026-10-02T01:12:03.805844",
+    "id": "4950464",
+    "pregunta": "Will the price of Ethereum be above $2,700 on October 2?",
+    "ts": "2026-10-02T01:22:11.297852",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x580325efbb00a3262513d16bce6bbcc979313f3f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1321564",
-    "pregunta": "Will Anthropic have the highest IPO Market Cap 2026?",
-    "ts": "2026-10-02T01:12:05.583986",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2757891",
-    "pregunta": "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?",
-    "ts": "2026-10-02T01:12:06.754988",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2089110",
-    "pregunta": "Will Elmano de Freitas win the 2026 Cear\u00e1 gubernatorial election?",
-    "ts": "2026-10-02T01:12:07.820174",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4037599",
-    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-10-02T01:12:08.871927",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2487510",
-    "pregunta": "Will Sergio Moro win the Governor of Paran\u00e1 election?",
-    "ts": "2026-10-02T01:12:10.042002",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4984391",
-    "pregunta": "Valorant: Global Esports vs EDward Gaming (BO3) - VCT Champions Group B",
-    "ts": "2026-10-02T01:12:11.122388",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x60062ecbce1b143ed4955129377d2ff3632ac7e4",
     "whale_signal": "COMPRAR NO"
   }
 ]
