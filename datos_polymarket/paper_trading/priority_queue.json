@@ -1,34 +1,18 @@
 [
   {
-    "id": "5170361",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 21\u00b0C on October 3?",
-    "ts": "2026-10-02T15:44:06.497123",
+    "id": "5174670",
+    "pregunta": "Counter-Strike: Isurus vs Procyon Gaming - Map 2 Winner",
+    "ts": "2026-10-02T15:55:24.082422",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170362",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 22\u00b0C on October 3?",
-    "ts": "2026-10-02T15:44:07.540232",
+    "id": "4738432",
+    "pregunta": "Will Montedio Yamagata win on 2026-10-03?",
+    "ts": "2026-10-02T15:55:26.082221",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170363",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 23\u00b0C on October 3?",
-    "ts": "2026-10-02T15:44:08.593258",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170459",
-    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on October 3?",
-    "ts": "2026-10-02T15:44:09.646291",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
+    "whale_wallet": "0x6e12e47a09c33091b5cd3fbe88239441579c0cc2",
     "whale_signal": "COMPRAR NO"
   }
 ]
