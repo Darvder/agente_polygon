@@ -1,34 +1,18 @@
 [
   {
-    "id": "4814222",
-    "pregunta": "Spread: Penn State (-2.5)",
-    "ts": "2026-10-02T07:02:28.272741",
+    "id": "5030104",
+    "pregunta": "Valorant: T1 vs JD Gaming (BO3) - VCT Champions Group A",
+    "ts": "2026-10-02T07:12:53.998038",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4720683",
-    "pregunta": "Will France win on 2026-10-02?",
-    "ts": "2026-10-02T07:02:29.316883",
+    "id": "5030103",
+    "pregunta": "Valorant: T1 vs JD Gaming - Map 2 Winner",
+    "ts": "2026-10-02T07:12:56.910243",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720689",
-    "pregunta": "Will Ukraine win on 2026-10-02?",
-    "ts": "2026-10-02T07:02:30.359304",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180472",
-    "pregunta": "Counter-Strike: UPGRADE vs K27 - Map 2 Winner",
-    "ts": "2026-10-02T07:02:33.340765",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c71d47d87ee86a9ebf13cb7c68b318e7c0fc0e5",
+    "whale_wallet": "0x6ee644242da7f78baabb32d047117114fd4307ca",
     "whale_signal": "COMPRAR NO"
   }
 ]
