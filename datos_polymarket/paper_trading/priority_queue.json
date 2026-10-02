@@ -1,34 +1,18 @@
 [
   {
-    "id": "4705013",
-    "pregunta": "Will SC Recife win on 2026-10-01?",
-    "ts": "2026-10-01T19:12:27.231096",
+    "id": "5170349",
+    "pregunta": "Will the highest temperature in Paris be 22\u00b0C on October 3?",
+    "ts": "2026-10-01T19:23:14.020843",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4705025",
-    "pregunta": "Will Gr\u00eamio Novorizontino win on 2026-10-01?",
-    "ts": "2026-10-01T19:12:28.288436",
+    "id": "5171579",
+    "pregunta": "Will the highest temperature in Houston be between 82-83\u00b0F on October 3?",
+    "ts": "2026-10-01T19:23:15.316406",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875337",
-    "pregunta": "Spread: Steelers (-2.5)",
-    "ts": "2026-10-01T19:12:30.004991",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813886",
-    "pregunta": "North Texas vs. Tulsa",
-    "ts": "2026-10-01T19:12:31.081665",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x27066a9484c2a7ad5a0c6f85cdc778234985c6be",
     "whale_signal": "COMPRAR NO"
   }
 ]
