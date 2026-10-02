@@ -1,42 +1,18 @@
 [
   {
-    "id": "5181027",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $90 Week of September 28 2026?",
-    "ts": "2026-10-02T02:22:48.494885",
+    "id": "4824602",
+    "pregunta": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
+    "ts": "2026-10-02T02:33:08.467019",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
+    "whale_wallet": "0x8e0d917932711d46e6c812934497f903d5077467",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5174631",
-    "pregunta": "WTI Crude Oil (WTI) closes above $94 on October 2?",
-    "ts": "2026-10-02T02:22:49.678045",
+    "id": "4721515",
+    "pregunta": "Faroe Islands vs. Slovakia: Slovakia O/U 0.5",
+    "ts": "2026-10-02T02:33:10.218936",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4951225",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in October?",
-    "ts": "2026-10-02T02:22:50.798733",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5162848",
-    "pregunta": "Counter-Strike: SportsBetExpert vs Sangal (BO1) - ROG Journey Group B",
-    "ts": "2026-10-02T02:22:52.650828",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5121615",
-    "pregunta": "China Open: Daniil Medvedev vs Pablo Carreno Busta",
-    "ts": "2026-10-02T02:22:55.020634",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x32ed1015ee881fb4050e4d132b8e4850d85c4391",
     "whale_signal": "COMPRAR NO"
   }
 ]
