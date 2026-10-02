@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1596.33,
-  "capital_en_riesgo": 399.44,
-  "n_ciclos": 39008,
-  "ultima_corrida": "2026-10-01 20:24",
-  "n_tp": 667,
+  "capital_actual": 1620.39,
+  "capital_en_riesgo": 382.51,
+  "n_ciclos": 39009,
+  "ultima_corrida": "2026-10-01 20:33",
+  "n_tp": 668,
   "n_sl": 459,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 33.65,
-    "capital_en_riesgo": 58.64,
+    "capital_actual": 37.91,
+    "capital_en_riesgo": 55.64,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
-    "n_tp": 180,
+    "n_tp": 181,
     "n_sl": 130,
     "posiciones_abiertas": [
       {
@@ -191,7 +191,7 @@
         "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.605,
-        "precio_actual": 0.534,
+        "precio_actual": 0.5275,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -311,7 +311,7 @@
         "pregunta": "Will Haiti win on 2026-10-01?",
         "outcome": "Yes",
         "precio_token_entrada": 0.715,
-        "precio_actual": 0.9,
+        "precio_actual": 0.735,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -331,7 +331,7 @@
         "pregunta": "Spread: Atlanta Braves (-1.5)",
         "outcome": "Atlanta Braves",
         "precio_token_entrada": 0.67,
-        "precio_actual": 0.69,
+        "precio_actual": 0.755,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.36,
@@ -340,26 +340,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xeed49191ca26ee06b769f2e31e0a49868393088720d21834f3126e7fbae92bd9"
-      },
-      {
-        "fecha_entrada": "2026-10-01",
-        "fecha_entrada_dt": "2026-10-01 20:23",
-        "target_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-        "market_id": "4792463",
-        "condition_id": "0x5c7edee04e5f7a677f14dc869e4391d1f9714f711a45ab65dfae730dc9eeb697",
-        "token_id": "107094537406612380461929402791448387244221234762206785757608821478620273462528",
-        "pregunta": "Athletic Club vs. SC Recife: O/U 3.5",
-        "outcome": "Under",
-        "precio_token_entrada": 0.7,
-        "precio_actual": 0.7,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xd86d86a4813af55d6af8ad8c9813e4007efa9d15954e43fa54a1b0edc4a3dad1"
       }
     ],
     "historial_cerradas": [
@@ -6562,6 +6542,26 @@
         "pnl_realizado": -3.06,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xefad8547db28e095fe84b5ebd113af20b923966e06576f37d9f54154bb31c324"
+      },
+      {
+        "fecha_entrada": "2026-10-01",
+        "fecha_entrada_dt": "2026-10-01 20:23",
+        "target_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+        "market_id": "4792463",
+        "condition_id": "0x5c7edee04e5f7a677f14dc869e4391d1f9714f711a45ab65dfae730dc9eeb697",
+        "token_id": "107094537406612380461929402791448387244221234762206785757608821478620273462528",
+        "pregunta": "Athletic Club vs. SC Recife: O/U 3.5",
+        "outcome": "Under",
+        "precio_token_entrada": 0.7,
+        "precio_actual": 0.995,
+        "precio_cierre": 0.995,
+        "pct_cambio": 0.4214,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-01 20:33",
+        "pnl_realizado": 1.26,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0xd86d86a4813af55d6af8ad8c9813e4007efa9d15954e43fa54a1b0edc4a3dad1"
       }
     ]
   }
