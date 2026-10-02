@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "4814096",
+    "pregunta": "Spread: Liberty (-6.5)",
+    "ts": "2026-10-02T10:22:10.844028",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250268",
+    "pregunta": "Bruins vs. Jets",
+    "ts": "2026-10-02T10:22:11.949588",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721562",
+    "pregunta": "Latvia vs. Montenegro: Both Teams to Score",
+    "ts": "2026-10-02T10:22:13.051733",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814299",
+    "pregunta": "Penn State vs. Northwestern: O/U 45.5",
+    "ts": "2026-10-02T10:22:14.153830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727399",
+    "pregunta": "Will Guatemala win on 2026-10-02?",
+    "ts": "2026-10-02T10:22:15.248069",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721674",
+    "pregunta": "Kazakhstan vs. Moldova: O/U 1.5",
+    "ts": "2026-10-02T10:22:18.825663",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720663",
+    "pregunta": "Will Moldova win on 2026-10-02?",
+    "ts": "2026-10-02T10:22:19.891558",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721675",
+    "pregunta": "Kazakhstan vs. Moldova: O/U 2.5",
+    "ts": "2026-10-02T10:22:20.984141",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x11ba7897b4455946727c54df1b1a3b56ba940ca0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
