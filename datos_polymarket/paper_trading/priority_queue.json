@@ -1,26 +1,42 @@
 [
   {
-    "id": "4725161",
-    "pregunta": "Cura\u00e7ao vs. Trinidad and Tobago: O/U 1.5",
-    "ts": "2026-10-01T18:52:30.175442",
+    "id": "4689924",
+    "pregunta": "Will Haiti win on 2026-10-01?",
+    "ts": "2026-10-01T19:01:59.093553",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4725102",
-    "pregunta": "Anguilla vs. Antigua and Barbuda: O/U 2.5",
-    "ts": "2026-10-01T18:52:31.275379",
+    "id": "4705009",
+    "pregunta": "Will Athletic Club win on 2026-10-01?",
+    "ts": "2026-10-01T19:02:00.149354",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970792",
-    "pregunta": "Rainbow Six Siege: DarkZero Esports vs Five Fears (BO1) - North America League Stage 2 Group Stage",
-    "ts": "2026-10-01T18:52:32.436523",
+    "id": "4792463",
+    "pregunta": "Athletic Club vs. SC Recife: O/U 3.5",
+    "ts": "2026-10-01T19:02:01.278240",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792462",
+    "pregunta": "Athletic Club vs. SC Recife: O/U 2.5",
+    "ts": "2026-10-01T19:02:02.326200",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875337",
+    "pregunta": "Spread: Steelers (-2.5)",
+    "ts": "2026-10-01T19:02:04.620860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
