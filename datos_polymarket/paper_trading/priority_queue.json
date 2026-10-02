@@ -1,34 +1,10 @@
 [
   {
-    "id": "5152204",
-    "pregunta": "China Open: Clara Tauson vs Polina Kudermetova",
-    "ts": "2026-10-02T04:52:02.096174",
+    "id": "5183352",
+    "pregunta": "Bari: Samuele Pieri vs Carlos Taberner",
+    "ts": "2026-10-02T05:02:13.713571",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5174076",
-    "pregunta": "Japan Open Tennis Championships: Kyrian Jacquet vs Luciano Darderi",
-    "ts": "2026-10-02T04:52:03.135753",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5157051",
-    "pregunta": "Jingshan: Alexandra Shubladze vs Sijia Wei",
-    "ts": "2026-10-02T04:52:04.310271",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5157057",
-    "pregunta": "China Open: Nikola Bartunkova vs Magdalena Frech",
-    "ts": "2026-10-02T04:52:05.352150",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5e8bdf5346d0e40d58aa8c070fc11acb2b916eb",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
