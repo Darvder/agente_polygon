@@ -1,10 +1,98 @@
 [
   {
-    "id": "5152204",
-    "pregunta": "China Open: Clara Tauson vs Polina Kudermetova",
-    "ts": "2026-10-02T02:42:11.761896",
+    "id": "5148178",
+    "pregunta": "Will the highest temperature in Tel Aviv be 30\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:39.437547",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6e693c78ac451161173a79f6e46fe704c46032eb",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148408",
+    "pregunta": "Will the highest temperature in Jeddah be 35\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:40.618314",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148342",
+    "pregunta": "Will the highest temperature in Moscow be 13\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:41.855994",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148113",
+    "pregunta": "Will the highest temperature in Paris be 21\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:42.922951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148420",
+    "pregunta": "Will the highest temperature in Cape Town be 20\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:44.074663",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5154237",
+    "pregunta": "Will the highest temperature in Sao Paulo be 20\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:45.241966",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148307",
+    "pregunta": "Will the highest temperature in Wuhan be 17\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:46.331937",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148236",
+    "pregunta": "Will the highest temperature in Milan be 26\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:47.391317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148452",
+    "pregunta": "Will the highest temperature in Karachi be 34\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:48.451940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5148101",
+    "pregunta": "Will the highest temperature in London be 21\u00b0C on October 2?",
+    "ts": "2026-10-02T02:51:49.605686",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4984391",
+    "pregunta": "Valorant: Global Esports vs EDward Gaming (BO3) - VCT Champions Group B",
+    "ts": "2026-10-02T02:51:51.371152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162911",
+    "pregunta": "Game Handicap: 1WIN (-1.5) vs Team Nemesis (+1.5)",
+    "ts": "2026-10-02T02:51:53.274326",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb22550dfda030ca4cdd1d6baba26c5112fc47bc0",
     "whale_signal": "COMPRAR NO"
   }
 ]
