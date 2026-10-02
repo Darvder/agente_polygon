@@ -1,18 +1,42 @@
 [
   {
-    "id": "5170403",
-    "pregunta": "Will the highest temperature in Munich be 21\u00b0C on October 3?",
-    "ts": "2026-10-02T03:11:51.704045",
+    "id": "5174383",
+    "pregunta": "Game Spread: Carlos Alcaraz (-5.5) vs Matteo Arnaldi (+5.5)",
+    "ts": "2026-10-02T03:22:30.942395",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x754b36af5e01e56b15acc45a5b27102a0ab9d06a",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5172779",
-    "pregunta": "Game Handicap: T1.A (-1.5) vs Solary (+1.5)",
-    "ts": "2026-10-02T03:11:54.509046",
+    "id": "5058655",
+    "pregunta": "Liverpool Montevideo vs. CA Progreso: O/U 2.5",
+    "ts": "2026-10-02T03:22:32.046017",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1c29705c62a6435b5d45c382530012b14c5a167e",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871438",
+    "pregunta": "Falcons vs. Saints",
+    "ts": "2026-10-02T03:22:35.198219",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5152204",
+    "pregunta": "China Open: Clara Tauson vs Polina Kudermetova",
+    "ts": "2026-10-02T03:22:38.873891",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8d32b6c89b3efdb581de4f0f7451955862a825a8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5169735",
+    "pregunta": "Will the lowest temperature in Tokyo be 19\u00b0C on October 3?",
+    "ts": "2026-10-02T03:22:41.011423",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bae7577f470244ce8e678d20693eee2b8ffed25",
     "whale_signal": "COMPRAR NO"
   }
 ]
