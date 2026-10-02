@@ -1,10 +1,42 @@
 [
   {
-    "id": "5183352",
-    "pregunta": "Bari: Samuele Pieri vs Carlos Taberner",
-    "ts": "2026-10-02T05:02:13.713571",
+    "id": "5153540",
+    "pregunta": "Will the highest temperature in Los Angeles be between 86-87\u00b0F on October 2?",
+    "ts": "2026-10-02T05:12:01.387995",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150657",
+    "pregunta": "Will the highest temperature in Houston be between 90-91\u00b0F on October 2?",
+    "ts": "2026-10-02T05:12:02.612659",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4984391",
+    "pregunta": "Valorant: Global Esports vs EDward Gaming (BO3) - VCT Champions Group B",
+    "ts": "2026-10-02T05:12:04.564128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180473",
+    "pregunta": "Counter-Strike: UPGRADE vs K27 (BO3) - CIS LAN Championship Playoffs",
+    "ts": "2026-10-02T05:12:05.624546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5195995",
+    "pregunta": "Counter-Strike: SAW vs NAVI Junior (BO3) - FOX Legacy Cup Play-Ins",
+    "ts": "2026-10-02T05:12:06.663056",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
     "whale_signal": "COMPRAR NO"
   }
 ]
