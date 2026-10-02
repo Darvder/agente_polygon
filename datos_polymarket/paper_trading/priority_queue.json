@@ -1,10 +1,50 @@
 [
   {
-    "id": "5030104",
-    "pregunta": "Valorant: T1 vs JD Gaming (BO3) - VCT Champions Group A",
-    "ts": "2026-10-02T07:41:41.601414",
+    "id": "4814183",
+    "pregunta": "Spread: Virginia Tech (-2.5)",
+    "ts": "2026-10-02T07:52:13.562371",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814222",
+    "pregunta": "Spread: Penn State (-2.5)",
+    "ts": "2026-10-02T07:52:14.617027",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-10-02T07:52:15.661006",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-02T07:52:16.877349",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814065",
+    "pregunta": "Liberty vs. Delaware",
+    "ts": "2026-10-02T07:52:17.932318",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727399",
+    "pregunta": "Will Guatemala win on 2026-10-02?",
+    "ts": "2026-10-02T07:52:18.986831",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
