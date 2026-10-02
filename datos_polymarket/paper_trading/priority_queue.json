@@ -1,34 +1,34 @@
 [
   {
-    "id": "5169645",
-    "pregunta": "Will the lowest temperature in London be 12\u00b0C on October 3?",
-    "ts": "2026-10-02T08:32:14.844794",
+    "id": "4814299",
+    "pregunta": "Penn State vs. Northwestern: O/U 45.5",
+    "ts": "2026-10-02T08:42:30.556359",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170670",
-    "pregunta": "Will the highest temperature in Guangzhou be 33\u00b0C on October 3?",
-    "ts": "2026-10-02T08:32:15.929535",
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-10-02T08:42:31.612707",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfd2fa1a0d4b7d24b3122481c06d69ec6a3024191",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4828188",
-    "pregunta": "Will Donald Trump post 200+ Truth Social posts from September 25 to October 2, 2026?",
-    "ts": "2026-10-02T08:32:21.033260",
+    "id": "5183356",
+    "pregunta": "China Open: Hubert Hurkacz vs Arthur Gea",
+    "ts": "2026-10-02T08:42:33.551382",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x864fecd33f7d4ea8acb8e4b625fa58c230dd3ae7",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4828177",
-    "pregunta": "Will Donald Trump post 180-199 Truth Social posts from September 25 to October 2, 2026?",
-    "ts": "2026-10-02T08:32:22.123243",
+    "id": "4720661",
+    "pregunta": "Will Kazakhstan win on 2026-10-02?",
+    "ts": "2026-10-02T08:42:37.732342",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x864fecd33f7d4ea8acb8e4b625fa58c230dd3ae7",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   }
 ]
