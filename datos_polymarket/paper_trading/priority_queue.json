@@ -1,10 +1,26 @@
 [
   {
-    "id": "4936080",
-    "pregunta": "Will Gold (XAUUSD) hit (LOW) $3,900 in October?",
-    "ts": "2026-10-01T19:52:40.646943",
+    "id": "4216051",
+    "pregunta": "Wild vs. Predators",
+    "ts": "2026-10-01T20:02:25.817157",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7409f85b682c86871f4251c936c102416e2540ce",
+    "whale_wallet": "0x2290b7e7a4b99e797dec87ba724873a82676fd05",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073589",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
+    "ts": "2026-10-01T20:02:26.882392",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2290b7e7a4b99e797dec87ba724873a82676fd05",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3760412",
+    "pregunta": "Steelers vs. Browns",
+    "ts": "2026-10-01T20:02:29.004885",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00ed8529733253ff48c95f57d28e9c461fc80a9f",
     "whale_signal": "COMPRAR NO"
   }
 ]
