@@ -1,64 +1,16 @@
 [
   {
-    "id": "3760412",
-    "pregunta": "Steelers vs. Browns",
-    "ts": "2026-10-01T21:21:32.790578",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813886",
-    "pregunta": "North Texas vs. Tulsa",
-    "ts": "2026-10-01T21:21:33.832691",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4813901",
-    "pregunta": "Spread: New Mexico State (-13.5)",
-    "ts": "2026-10-01T21:21:35.686161",
+    "id": "4424974",
+    "pregunta": "Steelers vs. Browns: O/U 41.5",
+    "ts": "2026-10-01T21:32:45.627289",
     "origen": "whale_copytrader",
     "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4858976",
-    "pregunta": "Spread: Browns (-13.5)",
-    "ts": "2026-10-01T21:21:36.815324",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5164752",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 7.5",
-    "ts": "2026-10-01T21:21:37.848707",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4858968",
-    "pregunta": "Spread: Browns (-3.5)",
-    "ts": "2026-10-01T21:21:38.886680",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4858966",
-    "pregunta": "Spread: Browns (-1.5)",
-    "ts": "2026-10-01T21:21:39.930040",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919657",
-    "pregunta": "Steelers vs. Browns: O/U 56.5",
-    "ts": "2026-10-01T21:21:40.966207",
+    "id": "4858977",
+    "pregunta": "Spread: Browns (-14.5)",
+    "ts": "2026-10-01T21:32:46.725788",
     "origen": "whale_copytrader",
     "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
     "whale_signal": "COMPRAR NO"
@@ -66,23 +18,31 @@
   {
     "id": "4858975",
     "pregunta": "Spread: Browns (-10.5)",
-    "ts": "2026-10-01T21:21:42.006449",
+    "ts": "2026-10-01T21:32:47.782769",
     "origen": "whale_copytrader",
     "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4858974",
-    "pregunta": "Spread: Browns (-9.5)",
-    "ts": "2026-10-01T21:21:43.049142",
+    "id": "4813942",
+    "pregunta": "Spread: Tulsa (-2.5)",
+    "ts": "2026-10-01T21:32:48.847186",
     "origen": "whale_copytrader",
     "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919654",
-    "pregunta": "Steelers vs. Browns: O/U 50.5",
-    "ts": "2026-10-01T21:21:44.086233",
+    "id": "4813949",
+    "pregunta": "Spread: Tulsa (-4.5)",
+    "ts": "2026-10-01T21:32:49.912247",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4813939",
+    "pregunta": "Spread: Tulsa (-1.5)",
+    "ts": "2026-10-01T21:32:50.982992",
     "origen": "whale_copytrader",
     "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
     "whale_signal": "COMPRAR NO"
@@ -90,15 +50,39 @@
   {
     "id": "4858970",
     "pregunta": "Spread: Browns (-5.5)",
-    "ts": "2026-10-01T21:21:45.124645",
+    "ts": "2026-10-01T21:32:52.040298",
     "origen": "whale_copytrader",
     "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4858969",
-    "pregunta": "Spread: Browns (-4.5)",
-    "ts": "2026-10-01T21:21:46.163379",
+    "id": "3760412",
+    "pregunta": "Steelers vs. Browns",
+    "ts": "2026-10-01T21:32:53.107994",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4858966",
+    "pregunta": "Spread: Browns (-1.5)",
+    "ts": "2026-10-01T21:32:54.201981",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814007",
+    "pregunta": "North Texas vs. Tulsa: O/U 51.5",
+    "ts": "2026-10-01T21:32:55.267245",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4858971",
+    "pregunta": "Spread: Browns (-6.5)",
+    "ts": "2026-10-01T21:32:56.333182",
     "origen": "whale_copytrader",
     "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
     "whale_signal": "COMPRAR NO"
