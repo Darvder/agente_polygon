@@ -1,18 +1,34 @@
 [
   {
-    "id": "5176670",
-    "pregunta": "LoL: Chinese Taipei vs South Korea - Game 1 Winner",
-    "ts": "2026-10-01T23:12:50.056243",
+    "id": "5157532",
+    "pregunta": "Game Spread: Diane Parry (-1.5) vs Taylah Preston (+1.5)",
+    "ts": "2026-10-01T23:22:24.413607",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4fc6c10630d3b5ddec01ee5d4ecd83fa0d850e89",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5082317",
-    "pregunta": "Will Elon Musk post 40-64 tweets from October 1 to October 3, 2026?",
-    "ts": "2026-10-01T23:12:52.665289",
+    "id": "5184004",
+    "pregunta": "Will AEK win on 2026-10-14?",
+    "ts": "2026-10-01T23:22:27.007735",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5158619",
+    "pregunta": "Will SSC Napoli win on 2026-10-13?",
+    "ts": "2026-10-01T23:22:28.101451",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4739452",
+    "pregunta": "Tochigi City FC vs. FC Imabari: O/U 3.5",
+    "ts": "2026-10-01T23:22:29.406270",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
     "whale_signal": "COMPRAR NO"
   }
 ]
