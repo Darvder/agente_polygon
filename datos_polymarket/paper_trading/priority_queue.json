@@ -1,50 +1,26 @@
 [
   {
-    "id": "4718918",
-    "pregunta": "Will CD Eldense win on 2026-10-02?",
-    "ts": "2026-10-02T15:22:40.345364",
+    "id": "5153539",
+    "pregunta": "Will the highest temperature in Los Angeles be between 84-85\u00b0F on October 2?",
+    "ts": "2026-10-02T15:33:21.325997",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x200298f83227a9665d142f64264ce812d05da75e",
+    "whale_wallet": "0xf8dc8cd0fd55eccb5409ed99ed90a86bc7f0f31f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4720676",
-    "pregunta": "Will Hungary win on 2026-10-02?",
-    "ts": "2026-10-02T15:22:41.435236",
+    "id": "5153541",
+    "pregunta": "Will the highest temperature in Los Angeles be between 88-89\u00b0F on October 2?",
+    "ts": "2026-10-02T15:33:23.258364",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x200298f83227a9665d142f64264ce812d05da75e",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4721256",
-    "pregunta": "Belgium vs. T\u00fcrkiye: O/U 3.5",
-    "ts": "2026-10-02T15:22:43.541294",
+    "id": "5091950",
+    "pregunta": "Emmett Johnson: Anytime Touchdown",
+    "ts": "2026-10-02T15:33:25.391857",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4721315",
-    "pregunta": "France vs. Italy: O/U 2.5",
-    "ts": "2026-10-02T15:22:44.637343",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4721262",
-    "pregunta": "Belgium vs. T\u00fcrkiye: Both Teams to Score",
-    "ts": "2026-10-02T15:22:45.726591",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4721196",
-    "pregunta": "Ukraine vs. Northern Ireland: O/U 3.5",
-    "ts": "2026-10-02T15:22:46.816465",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x833dc214ab753cba994a74689d729bee27a7ec8e",
     "whale_signal": "COMPRAR NO"
   }
 ]
