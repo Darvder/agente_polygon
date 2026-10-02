@@ -1,58 +1,26 @@
 [
   {
-    "id": "4723622",
-    "pregunta": "Will Colombia win on 2026-10-02?",
-    "ts": "2026-10-02T13:32:28.814094",
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-10-02T13:42:32.369863",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4720686",
     "pregunta": "Will Belgium win on 2026-10-02?",
-    "ts": "2026-10-02T13:32:29.862050",
+    "ts": "2026-10-02T13:42:35.593657",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4721316",
-    "pregunta": "France vs. Italy: O/U 3.5",
-    "ts": "2026-10-02T13:32:31.042154",
+    "id": "4721305",
+    "pregunta": "Spread: France (-2.5)",
+    "ts": "2026-10-02T13:42:37.841722",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4250274",
-    "pregunta": "Blues vs. Stars",
-    "ts": "2026-10-02T13:32:32.119034",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720682",
-    "pregunta": "Will Sweden win on 2026-10-02?",
-    "ts": "2026-10-02T13:32:33.166552",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4819709",
-    "pregunta": "Spread: BYU (-6.5)",
-    "ts": "2026-10-02T13:32:34.214733",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4720692",
-    "pregunta": "Will Poland win on 2026-10-02?",
-    "ts": "2026-10-02T13:32:36.732979",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
