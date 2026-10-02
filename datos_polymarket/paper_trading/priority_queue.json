@@ -1,42 +1,42 @@
 [
   {
-    "id": "5082317",
-    "pregunta": "Will Elon Musk post 40-64 tweets from October 1 to October 3, 2026?",
-    "ts": "2026-10-02T02:12:52.987431",
+    "id": "5181027",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $90 Week of September 28 2026?",
+    "ts": "2026-10-02T02:22:48.494885",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4730329",
-    "pregunta": "Will Cear\u00e1 SC win on 2026-10-02?",
-    "ts": "2026-10-02T02:12:55.118126",
+    "id": "5174631",
+    "pregunta": "WTI Crude Oil (WTI) closes above $94 on October 2?",
+    "ts": "2026-10-02T02:22:49.678045",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83838152aa7fcd068506018c0d409786ad87b160",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4751424",
-    "pregunta": "Will Cheltenham Town FC win on 2026-10-03?",
-    "ts": "2026-10-02T02:12:56.331806",
+    "id": "4951225",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in October?",
+    "ts": "2026-10-02T02:22:50.798733",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83838152aa7fcd068506018c0d409786ad87b160",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4752236",
-    "pregunta": "Accrington Stanley FC vs. Cheltenham Town FC: O/U 3.5",
-    "ts": "2026-10-02T02:12:57.390908",
+    "id": "5162848",
+    "pregunta": "Counter-Strike: SportsBetExpert vs Sangal (BO1) - ROG Journey Group B",
+    "ts": "2026-10-02T02:22:52.650828",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x83838152aa7fcd068506018c0d409786ad87b160",
+    "whale_wallet": "0x61f621ed129a8b64f0d2abbef50d23cd52d1e497",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5178208",
-    "pregunta": "Will \"Resident Evil\" 3rd Weekend Box Office be between 13m and 14m?",
-    "ts": "2026-10-02T02:13:05.963140",
+    "id": "5121615",
+    "pregunta": "China Open: Daniil Medvedev vs Pablo Carreno Busta",
+    "ts": "2026-10-02T02:22:55.020634",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1154e9b3064a5fa77f805652dafd3c2d83413429",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
