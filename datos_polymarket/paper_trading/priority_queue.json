@@ -1,74 +1,18 @@
 [
   {
-    "id": "5174680",
-    "pregunta": "Games Total: O/U 2.5",
-    "ts": "2026-10-02T00:02:18.517588",
+    "id": "4813886",
+    "pregunta": "North Texas vs. Tulsa",
+    "ts": "2026-10-02T00:12:19.911740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbfeceb4126b34e7e194c3d02cc107125785f4c6c",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5174681",
-    "pregunta": "Map Handicap: GLS (-1.5) vs Gr\u00eamio Esports (+1.5)",
-    "ts": "2026-10-02T00:02:19.645021",
+    "id": "4877193",
+    "pregunta": "Will Spain win on 2026-10-06?",
+    "ts": "2026-10-02T00:12:22.810651",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbfeceb4126b34e7e194c3d02cc107125785f4c6c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814029",
-    "pregunta": "North Texas vs. Tulsa: O/U 71.5",
-    "ts": "2026-10-02T00:02:20.686296",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbfeceb4126b34e7e194c3d02cc107125785f4c6c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814027",
-    "pregunta": "North Texas vs. Tulsa: O/U 69.5",
-    "ts": "2026-10-02T00:02:21.723797",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbfeceb4126b34e7e194c3d02cc107125785f4c6c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4393420",
-    "pregunta": "Will the Bank of Canada make no change to the target for the overnight rate at the December interest rate announcement?",
-    "ts": "2026-10-02T00:02:23.601690",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x28ca4e9a04531f2eac0c2770f95db4e1c6a65d19",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5152202",
-    "pregunta": "China Open: Viktorija Golubic vs Peyton Stearns",
-    "ts": "2026-10-02T00:02:27.066349",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5178163",
-    "pregunta": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Series Southeast Asia Group Stage",
-    "ts": "2026-10-02T00:02:28.109052",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5176671",
-    "pregunta": "LoL: Chinese Taipei vs South Korea - Game 2 Winner",
-    "ts": "2026-10-02T00:02:29.148856",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180521",
-    "pregunta": "Game Handicap: KOR (-1.5) vs Chinese Taipei (+1.5)",
-    "ts": "2026-10-02T00:02:30.319625",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_wallet": "0xd238bc6303a72c4c9fb360bc25bdd7402017ad4d",
     "whale_signal": "COMPRAR NO"
   }
 ]
