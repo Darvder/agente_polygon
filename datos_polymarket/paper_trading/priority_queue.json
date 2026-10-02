@@ -1,66 +1,42 @@
 [
   {
-    "id": "4720686",
-    "pregunta": "Will Belgium win on 2026-10-02?",
-    "ts": "2026-10-02T15:03:13.600630",
+    "id": "4721278",
+    "pregunta": "Belgium vs. T\u00fcrkiye: T\u00fcrkiye O/U 3.5",
+    "ts": "2026-10-02T15:12:49.875146",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721330",
+    "pregunta": "France vs. Italy: France O/U 1.5",
+    "ts": "2026-10-02T15:12:50.916675",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4720682",
     "pregunta": "Will Sweden win on 2026-10-02?",
-    "ts": "2026-10-02T15:03:14.653815",
+    "ts": "2026-10-02T15:12:53.026192",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4981076",
-    "pregunta": "FC Bayern Munchen vs. Partizan",
-    "ts": "2026-10-02T15:03:15.727430",
+    "id": "4720681",
+    "pregunta": "Will Bosnia and Herzegovina vs. Sweden end in a draw?",
+    "ts": "2026-10-02T15:12:54.071074",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5156699",
-    "pregunta": "Will the price of Ethereum be between $2,600 and $2,700 on October 7?",
-    "ts": "2026-10-02T15:03:18.529557",
+    "id": "4721256",
+    "pregunta": "Belgium vs. T\u00fcrkiye: O/U 3.5",
+    "ts": "2026-10-02T15:12:55.135009",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa6d16ec668c14ee2e9c126aa141f8013c8abbd47",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5156697",
-    "pregunta": "Will the price of Ethereum be between $2,500 and $2,600 on October 7?",
-    "ts": "2026-10-02T15:03:20.812040",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa6d16ec668c14ee2e9c126aa141f8013c8abbd47",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5081789",
-    "pregunta": "Will the price of Ethereum be between $2,600 and $2,700 on October 5?",
-    "ts": "2026-10-02T15:03:21.967779",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa6d16ec668c14ee2e9c126aa141f8013c8abbd47",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5179263",
-    "pregunta": "Will the price of Ethereum be between $2,600 and $2,700 on October 8?",
-    "ts": "2026-10-02T15:03:23.115890",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa6d16ec668c14ee2e9c126aa141f8013c8abbd47",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5126807",
-    "pregunta": "Will the price of Ethereum be above $2,600 on October 6?",
-    "ts": "2026-10-02T15:03:24.193751",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa6d16ec668c14ee2e9c126aa141f8013c8abbd47",
+    "whale_wallet": "0xec5625bde94bdf224d6d941e612a403989921816",
     "whale_signal": "COMPRAR NO"
   }
 ]
