@@ -1,50 +1,74 @@
 [
   {
-    "id": "4721375",
-    "pregunta": "Bosnia and Herzegovina vs. Sweden: O/U 2.5",
-    "ts": "2026-10-02T14:12:32.377542",
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-10-02T14:23:24.142312",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5154280",
-    "pregunta": "Will there be exactly 4 ChatGPT outages in October 2026?",
-    "ts": "2026-10-02T14:12:36.056944",
+    "id": "4720675",
+    "pregunta": "Will Slovakia win on 2026-10-02?",
+    "ts": "2026-10-02T14:23:25.320337",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5190747",
-    "pregunta": "US x Iran ceasefire continues through November 15?",
-    "ts": "2026-10-02T14:12:37.120414",
+    "id": "4721265",
+    "pregunta": "Belgium vs. T\u00fcrkiye: 1st Half O/U 1.5",
+    "ts": "2026-10-02T14:23:26.382551",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4218310",
-    "pregunta": "Next Astra Model (6.1+) released by October 31, 2026?",
-    "ts": "2026-10-02T14:12:38.374563",
+    "id": "4721256",
+    "pregunta": "Belgium vs. T\u00fcrkiye: O/U 3.5",
+    "ts": "2026-10-02T14:23:27.437532",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4852541",
-    "pregunta": "Next Alibaba Qwen Plus (3.8+) released by October 31, 2026?",
-    "ts": "2026-10-02T14:12:39.704226",
+    "id": "4720687",
+    "pregunta": "Will Belgium vs. T\u00fcrkiye end in a draw?",
+    "ts": "2026-10-02T14:23:28.499076",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5162762",
-    "pregunta": "Next Alibaba Qwen Plus (3.8+) released by October 15, 2026?",
-    "ts": "2026-10-02T14:12:40.961114",
+    "id": "4981082",
+    "pregunta": "Fenerbahce vs. BC Dubai",
+    "ts": "2026-10-02T14:23:29.552612",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4721315",
+    "pregunta": "France vs. Italy: O/U 2.5",
+    "ts": "2026-10-02T14:23:30.609600",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215007",
+    "pregunta": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+    "ts": "2026-10-02T14:23:33.081274",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073564",
+    "pregunta": "Will Argentina vs. Burkina Faso end in a draw?",
+    "ts": "2026-10-02T14:23:34.135511",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   }
 ]
