@@ -1,34 +1,10 @@
 [
   {
-    "id": "4814065",
-    "pregunta": "Liberty vs. Delaware",
-    "ts": "2026-10-02T18:03:09.888751",
+    "id": "4756540",
+    "pregunta": "S\u00e3o Paulo FC vs. Santos FC: O/U 2.5",
+    "ts": "2026-10-02T18:14:01.412353",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814160",
-    "pregunta": "Liberty vs. Delaware: O/U 51.5",
-    "ts": "2026-10-02T18:03:10.956827",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814092",
-    "pregunta": "Spread: Liberty (-7.5)",
-    "ts": "2026-10-02T18:03:12.017604",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814249",
-    "pregunta": "Pittsburgh vs. Virginia Tech: O/U 53.5",
-    "ts": "2026-10-02T18:03:13.124035",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
