@@ -1,10 +1,106 @@
 [
   {
-    "id": "4727396",
-    "pregunta": "Will Cuba win on 2026-10-02?",
-    "ts": "2026-10-02T16:12:42.630276",
+    "id": "4738429",
+    "pregunta": "Will Kataller Toyama win on 2026-10-03?",
+    "ts": "2026-10-02T16:22:16.204460",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4739560",
+    "pregunta": "Spread: Kataller Toyama (-1.5)",
+    "ts": "2026-10-02T16:22:17.340724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752852",
+    "pregunta": "Chesterfield FC vs. Tranmere Rovers FC: O/U 2.5",
+    "ts": "2026-10-02T16:22:18.398694",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4768582",
+    "pregunta": "Albacete Balompi\u00e9 vs. SD Eibar: O/U 1.5",
+    "ts": "2026-10-02T16:22:19.586054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5035303",
+    "pregunta": "Will Manchester United WFC win on 2026-10-03?",
+    "ts": "2026-10-02T16:22:20.721614",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5035305",
+    "pregunta": "Will Liverpool LFC win on 2026-10-03?",
+    "ts": "2026-10-02T16:22:21.863995",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749505",
+    "pregunta": "Will Huddersfield Town AFC win on 2026-10-03?",
+    "ts": "2026-10-02T16:22:23.037076",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4749503",
+    "pregunta": "Will Burton Albion FC win on 2026-10-03?",
+    "ts": "2026-10-02T16:22:24.183917",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4983124",
+    "pregunta": "FK Haugesund vs. Stabaek IF: O/U 3.5",
+    "ts": "2026-10-02T16:22:25.334040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4756083",
+    "pregunta": "Gateshead FC vs. Worthing FC: O/U 2.5",
+    "ts": "2026-10-02T16:22:26.513283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4981435",
+    "pregunta": "Will Odds BK win on 2026-10-03?",
+    "ts": "2026-10-02T16:22:27.564541",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4769743",
+    "pregunta": "India vs. Brazil: O/U 4.5",
+    "ts": "2026-10-02T16:22:28.711971",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5114463",
+    "pregunta": "Will Elon Musk post 200-219 tweets from October 2 to October 9, 2026?",
+    "ts": "2026-10-02T16:22:32.195713",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x72a71c61e617b1f38db41d1eea2b8169df7bc680",
     "whale_signal": "COMPRAR NO"
   }
 ]
