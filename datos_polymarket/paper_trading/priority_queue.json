@@ -1,42 +1,90 @@
 [
   {
-    "id": "4720665",
-    "pregunta": "Will Cyprus win on 2026-10-02?",
-    "ts": "2026-10-02T11:12:48.065889",
+    "id": "4721556",
+    "pregunta": "Latvia vs. Montenegro: O/U 3.5",
+    "ts": "2026-10-02T11:22:58.642204",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970467",
-    "pregunta": "Will Elon Musk post 220-239 tweets from September 29 to October 6, 2026?",
-    "ts": "2026-10-02T11:12:52.266325",
+    "id": "4721555",
+    "pregunta": "Latvia vs. Montenegro: O/U 2.5",
+    "ts": "2026-10-02T11:22:59.704627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x792ed27ddd17f10e12eeef165c62114384b0e25d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970464",
-    "pregunta": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
-    "ts": "2026-10-02T11:12:53.421233",
+    "id": "4720665",
+    "pregunta": "Will Cyprus win on 2026-10-02?",
+    "ts": "2026-10-02T11:23:00.765630",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x792ed27ddd17f10e12eeef165c62114384b0e25d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5191356",
-    "pregunta": "Dota 2: GamerLegion vs Team Liquid (BO3) - BLAST Slam Group D",
-    "ts": "2026-10-02T11:12:55.521566",
+    "id": "4721562",
+    "pregunta": "Latvia vs. Montenegro: Both Teams to Score",
+    "ts": "2026-10-02T11:23:01.829866",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb877962274938a85e9d08b83062badd330b64601",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5193427",
-    "pregunta": "LoL: Colossal Gaming vs The Secret Club Esport (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-02T11:12:56.612904",
+    "id": "4720667",
+    "pregunta": "Will Armenia win on 2026-10-02?",
+    "ts": "2026-10-02T11:23:02.891668",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb877962274938a85e9d08b83062badd330b64601",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720671",
+    "pregunta": "Will Montenegro win on 2026-10-02?",
+    "ts": "2026-10-02T11:23:03.956655",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162889",
+    "pregunta": "Dota 2: LGD Gaming vs Xtreme Gaming (BO3) - BLAST Slam Group A",
+    "ts": "2026-10-02T11:23:06.858135",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4b513bc48279ad795eefedf204aef3936ec1bd4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720684",
+    "pregunta": "Will France vs. Italy end in a draw?",
+    "ts": "2026-10-02T11:23:07.913692",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4b513bc48279ad795eefedf204aef3936ec1bd4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720688",
+    "pregunta": "Will T\u00fcrkiye win on 2026-10-02?",
+    "ts": "2026-10-02T11:23:09.055578",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4b513bc48279ad795eefedf204aef3936ec1bd4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720680",
+    "pregunta": "Will Bosnia and Herzegovina win on 2026-10-02?",
+    "ts": "2026-10-02T11:23:10.125311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4b513bc48279ad795eefedf204aef3936ec1bd4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720670",
+    "pregunta": "Will Latvia vs. Montenegro end in a draw?",
+    "ts": "2026-10-02T11:23:11.333098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4b513bc48279ad795eefedf204aef3936ec1bd4",
     "whale_signal": "COMPRAR NO"
   }
 ]
