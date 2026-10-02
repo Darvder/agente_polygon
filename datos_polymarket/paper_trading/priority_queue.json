@@ -1,26 +1,42 @@
 [
   {
-    "id": "5183359",
-    "pregunta": "Porto 2: Jerome Kym vs Edas Butvilas",
-    "ts": "2026-10-02T11:02:22.078826",
+    "id": "4720665",
+    "pregunta": "Will Cyprus win on 2026-10-02?",
+    "ts": "2026-10-02T11:12:48.065889",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5183369",
-    "pregunta": "Bari: Matthew William Donald vs Martin Krumich",
-    "ts": "2026-10-02T11:02:23.126049",
+    "id": "4970467",
+    "pregunta": "Will Elon Musk post 220-239 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-10-02T11:12:52.266325",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_wallet": "0x792ed27ddd17f10e12eeef165c62114384b0e25d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1345531",
-    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
-    "ts": "2026-10-02T11:02:25.095686",
+    "id": "4970464",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-10-02T11:12:53.421233",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6e826364ca3979b35e11f681e2610f7c8056091f",
+    "whale_wallet": "0x792ed27ddd17f10e12eeef165c62114384b0e25d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5191356",
+    "pregunta": "Dota 2: GamerLegion vs Team Liquid (BO3) - BLAST Slam Group D",
+    "ts": "2026-10-02T11:12:55.521566",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb877962274938a85e9d08b83062badd330b64601",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5193427",
+    "pregunta": "LoL: Colossal Gaming vs The Secret Club Esport (BO3) - EMEA Masters Swiss Stage",
+    "ts": "2026-10-02T11:12:56.612904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb877962274938a85e9d08b83062badd330b64601",
     "whale_signal": "COMPRAR NO"
   }
 ]
