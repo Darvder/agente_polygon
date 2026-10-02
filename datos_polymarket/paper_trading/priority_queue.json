@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "5029249",
+    "pregunta": "Will Bolivia vs. Gambia end in a draw?",
+    "ts": "2026-10-02T05:33:42.692344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814222",
+    "pregunta": "Spread: Penn State (-2.5)",
+    "ts": "2026-10-02T05:33:43.781076",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4817801",
+    "pregunta": "Spread: Virginia (-2.5)",
+    "ts": "2026-10-02T05:33:44.968821",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815936",
+    "pregunta": "Spread: Western Michigan (-13.5)",
+    "ts": "2026-10-02T05:33:46.090577",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180484",
+    "pregunta": "Counter-Strike: B8 vs fnatic (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-02T05:33:48.261618",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5195993",
+    "pregunta": "Counter-Strike: SAW vs NAVI Junior - Map 1 Winner",
+    "ts": "2026-10-02T05:33:49.351000",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180473",
+    "pregunta": "Counter-Strike: UPGRADE vs K27 (BO3) - CIS LAN Championship Playoffs",
+    "ts": "2026-10-02T05:33:50.445598",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5178203",
+    "pregunta": "Dota 2: Cloud Dawning vs Ivory - Game 2 Winner",
+    "ts": "2026-10-02T05:33:51.565128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5195995",
+    "pregunta": "Counter-Strike: SAW vs NAVI Junior (BO3) - FOX Legacy Cup Play-Ins",
+    "ts": "2026-10-02T05:33:52.655607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  }
+]
