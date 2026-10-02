@@ -1,42 +1,50 @@
 [
   {
-    "id": "4858970",
-    "pregunta": "Spread: Browns (-5.5)",
-    "ts": "2026-10-01T21:42:15.705603",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4952604",
     "pregunta": "Indiana Fever vs. Las Vegas Aces",
-    "ts": "2026-10-01T21:42:18.613565",
+    "ts": "2026-10-01T21:52:12.598113",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb9ff64cc1241ae25b165927ffc871ca7faae5e00",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4950487",
-    "pregunta": "Will the price of Bitcoin be above $84,000 on October 2?",
-    "ts": "2026-10-01T21:42:19.812591",
+    "id": "4216073",
+    "pregunta": "Oilers vs. Canucks",
+    "ts": "2026-10-01T21:52:13.653570",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb9ff64cc1241ae25b165927ffc871ca7faae5e00",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5176624",
-    "pregunta": "M15 Luan: Ryuki Matsuda vs Kosuke Ogura",
-    "ts": "2026-10-01T21:42:24.032249",
+    "id": "4813886",
+    "pregunta": "North Texas vs. Tulsa",
+    "ts": "2026-10-01T21:52:14.694487",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5176626",
-    "pregunta": "M15 Luan: Taiyo Yamanaka vs Max Purcell",
-    "ts": "2026-10-01T21:42:25.092956",
+    "id": "4216060",
+    "pregunta": "Wild vs. Predators: O/U 5.5",
+    "ts": "2026-10-01T21:52:17.324898",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_wallet": "0x91feec8af2b517f024d91564ee108d707cc0c1c6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5178114",
+    "pregunta": "Will Trump say \"ICE\" during his Midterm Rally in Alabama?",
+    "ts": "2026-10-01T21:52:19.274748",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabcb905604117fcf98f6e0acba4145b9bdfb0448",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5178101",
+    "pregunta": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in Alabama?",
+    "ts": "2026-10-01T21:52:20.398473",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabcb905604117fcf98f6e0acba4145b9bdfb0448",
     "whale_signal": "COMPRAR NO"
   }
 ]
