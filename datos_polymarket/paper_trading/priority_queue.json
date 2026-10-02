@@ -1,10 +1,18 @@
 [
   {
-    "id": "4950464",
-    "pregunta": "Will the price of Ethereum be above $2,700 on October 2?",
-    "ts": "2026-10-02T01:22:11.297852",
+    "id": "5199296",
+    "pregunta": "Jingshan: Bernard Tomic vs Mattia Bellucci",
+    "ts": "2026-10-02T01:32:11.844889",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60062ecbce1b143ed4955129377d2ff3632ac7e4",
+    "whale_wallet": "0xda33d63c4e5b2f839ecc950764bcb8dae386cd9a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5157049",
+    "pregunta": "China Open: Taylah Preston vs Diane Parry",
+    "ts": "2026-10-02T01:32:17.893355",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x91fae9ce55c36ce511b157deb53188aee58acfb8",
     "whale_signal": "COMPRAR NO"
   }
 ]
