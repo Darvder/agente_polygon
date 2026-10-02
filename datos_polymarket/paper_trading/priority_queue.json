@@ -1,18 +1,34 @@
 [
   {
-    "id": "5208476",
-    "pregunta": "Counter-Strike: K27 vs Team Nemesis (BO5) - CIS LAN Championship Playoffs",
-    "ts": "2026-10-02T17:45:08.540378",
+    "id": "4814065",
+    "pregunta": "Liberty vs. Delaware",
+    "ts": "2026-10-02T17:52:45.341684",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5180218",
-    "pregunta": "Will Deportes Recoleta vs. Santiago Wanderers end in a draw?",
-    "ts": "2026-10-02T17:45:26.426289",
+    "id": "4727411",
+    "pregunta": "Will Jamaica win on 2026-10-02?",
+    "ts": "2026-10-02T17:52:46.415539",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb340a66040e82d2df8e12515eac8fad5041cd76c",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-02T17:52:47.478969",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752979",
+    "pregunta": "Will England win on 2026-10-03?",
+    "ts": "2026-10-02T17:52:48.539211",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]

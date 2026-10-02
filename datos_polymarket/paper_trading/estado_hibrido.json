@@ -1,21 +1,21 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 895.41,
-  "capital_en_riesgo": 69.42,
-  "n_ciclos": 39131,
-  "ultima_corrida": "2026-10-02 17:45",
+  "capital_actual": 917.4599999999999,
+  "capital_en_riesgo": 49.42,
+  "n_ciclos": 39132,
+  "ultima_corrida": "2026-10-02 17:52",
   "n_tp": 2,
   "n_sl": 4,
-  "n_time": 20,
+  "n_time": 21,
   "ultimo_ciclo_diagnostico": {
-    "fecha": "2026-10-02 17:45",
-    "mercados_escaneados_total": 405,
-    "mercados_prioritarios": 2,
+    "fecha": "2026-10-02 17:52",
+    "mercados_escaneados_total": 407,
+    "mercados_prioritarios": 0,
     "mercados_autonomos_candidatos": 8,
-    "mercados_pre_filtrados": 5,
-    "mercados_evaluados_llm": 5,
+    "mercados_pre_filtrados": 3,
+    "mercados_evaluados_llm": 3,
     "posiciones_aprobadas_llm": 0,
     "posiciones_guardadas": 0,
-    "capital_actual": 895.41
+    "capital_actual": 917.4599999999999
   }
 }
