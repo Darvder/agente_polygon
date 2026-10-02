@@ -1,34 +1,82 @@
 [
   {
-    "id": "4790879",
-    "pregunta": "IR Tanger vs. Moghreb Athletic T\u00e9touan: O/U 2.5",
-    "ts": "2026-10-02T17:01:59.805531",
+    "id": "5208476",
+    "pregunta": "Counter-Strike: K27 vs Team Nemesis (BO5) - CIS LAN Championship Playoffs",
+    "ts": "2026-10-02T17:13:16.851742",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe30172a60cda439db2b15b7c2cffe801ade38654",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4727396",
-    "pregunta": "Will Cuba win on 2026-10-02?",
-    "ts": "2026-10-02T17:02:01.554165",
+    "id": "4756540",
+    "pregunta": "S\u00e3o Paulo FC vs. Santos FC: O/U 2.5",
+    "ts": "2026-10-02T17:13:18.525767",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170735",
-    "pregunta": "Will Bitcoin reach $87,500 in October?",
-    "ts": "2026-10-02T17:02:04.045580",
+    "id": "4814065",
+    "pregunta": "Liberty vs. Delaware",
+    "ts": "2026-10-02T17:13:20.168652",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f93cd17e85dc4c42c4f9d525166de3d140fe8c0",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3662248",
-    "pregunta": "Will Guilherme Derrite win the most votes in the 2026 S\u00e3o Paulo Senate election?",
-    "ts": "2026-10-02T17:02:05.142373",
+    "id": "4814183",
+    "pregunta": "Spread: Virginia Tech (-2.5)",
+    "ts": "2026-10-02T17:13:21.214301",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f93cd17e85dc4c42c4f9d525166de3d140fe8c0",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250257",
+    "pregunta": "Rangers vs. Red Wings",
+    "ts": "2026-10-02T17:13:22.268293",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5203690",
+    "pregunta": "Spread: Los Angeles Dodgers (-1.5)",
+    "ts": "2026-10-02T17:13:23.313904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723622",
+    "pregunta": "Will Colombia win on 2026-10-02?",
+    "ts": "2026-10-02T17:13:24.361845",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-02T17:13:25.404947",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250274",
+    "pregunta": "Blues vs. Stars",
+    "ts": "2026-10-02T17:13:26.480876",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727402",
+    "pregunta": "Will Honduras win on 2026-10-02?",
+    "ts": "2026-10-02T17:13:27.540597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
