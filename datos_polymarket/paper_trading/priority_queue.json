@@ -1,10 +1,34 @@
 [
   {
-    "id": "5193560",
-    "pregunta": "Counter-Strike: Azuolas vs  Phantom Academy - Map 1 Winner",
-    "ts": "2026-10-02T06:52:07.243589",
+    "id": "4814222",
+    "pregunta": "Spread: Penn State (-2.5)",
+    "ts": "2026-10-02T07:02:28.272741",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3c475495b240fd0e968edac5dd1bfc26f4af037f",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-10-02T07:02:29.316883",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720689",
+    "pregunta": "Will Ukraine win on 2026-10-02?",
+    "ts": "2026-10-02T07:02:30.359304",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180472",
+    "pregunta": "Counter-Strike: UPGRADE vs K27 - Map 2 Winner",
+    "ts": "2026-10-02T07:02:33.340765",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c71d47d87ee86a9ebf13cb7c68b318e7c0fc0e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
