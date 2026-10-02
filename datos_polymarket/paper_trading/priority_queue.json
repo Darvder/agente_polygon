@@ -1,26 +1,34 @@
 [
   {
-    "id": "5153539",
-    "pregunta": "Will the highest temperature in Los Angeles be between 84-85\u00b0F on October 2?",
-    "ts": "2026-10-02T15:33:21.325997",
+    "id": "5170361",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 21\u00b0C on October 3?",
+    "ts": "2026-10-02T15:44:06.497123",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf8dc8cd0fd55eccb5409ed99ed90a86bc7f0f31f",
+    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5153541",
-    "pregunta": "Will the highest temperature in Los Angeles be between 88-89\u00b0F on October 2?",
-    "ts": "2026-10-02T15:33:23.258364",
+    "id": "5170362",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 22\u00b0C on October 3?",
+    "ts": "2026-10-02T15:44:07.540232",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5091950",
-    "pregunta": "Emmett Johnson: Anytime Touchdown",
-    "ts": "2026-10-02T15:33:25.391857",
+    "id": "5170363",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 23\u00b0C on October 3?",
+    "ts": "2026-10-02T15:44:08.593258",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x833dc214ab753cba994a74689d729bee27a7ec8e",
+    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5170459",
+    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on October 3?",
+    "ts": "2026-10-02T15:44:09.646291",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x554e20bac5e9c3d68221aaed1b0abb3f0925b670",
     "whale_signal": "COMPRAR NO"
   }
 ]
