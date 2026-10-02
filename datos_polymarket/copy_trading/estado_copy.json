@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1606.78,
-  "capital_en_riesgo": 447.90999999999997,
-  "n_ciclos": 39056,
-  "ultima_corrida": "2026-10-02 04:22",
+  "capital_actual": 1609.56,
+  "capital_en_riesgo": 422.91,
+  "n_ciclos": 39057,
+  "ultima_corrida": "2026-10-02 04:33",
   "n_tp": 689,
-  "n_sl": 465,
+  "n_sl": 466,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 37.02,
-    "capital_en_riesgo": 64.24,
+    "capital_actual": 37.46,
+    "capital_en_riesgo": 60.24,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 202,
-    "n_sl": 139,
+    "n_sl": 140,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-01",
@@ -111,7 +111,7 @@
         "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.605,
-        "precio_actual": 0.558,
+        "precio_actual": 0.5535,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -211,7 +211,7 @@
         "pregunta": "Will the price of Bitcoin be above $84,000 on October 2?",
         "outcome": "Yes",
         "precio_token_entrada": 0.785,
-        "precio_actual": 0.956,
+        "precio_actual": 0.952,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -291,7 +291,7 @@
         "pregunta": "Will the highest temperature in Houston be between 90-91\u00b0F on October ",
         "outcome": "No",
         "precio_token_entrada": 0.565,
-        "precio_actual": 0.57,
+        "precio_actual": 0.565,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.12,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x2ae3c05ead890f3e19ee94e5d2d92dba2706822d49ada3343249aaba73428c69"
-      },
-      {
-        "fecha_entrada": "2026-10-02",
-        "fecha_entrada_dt": "2026-10-02 02:51",
-        "target_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-        "market_id": "5148178",
-        "condition_id": "0xaaf53f26072181f15d02ef0b0b210c925105f5e673750b1faa7596ff1cb1d3d7",
-        "token_id": "93077015212165010595391629680737389259515695153189912307399736221849618186883",
-        "pregunta": "Will the highest temperature in Tel Aviv be 30\u00b0C on October 2?",
-        "outcome": "No",
-        "precio_token_entrada": 0.495,
-        "precio_actual": 0.515,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x83bd28cfa5d7d35b22a4fb0e2daad3429361bd8feb0a3e99d93e8a25575c2563"
       }
     ],
     "historial_cerradas": [
@@ -7202,6 +7182,26 @@
         "pnl_realizado": -2.06,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x482df61bef7c8984e08e1dc08db7853b86d9867c50174fa1aeaf940f0551c5f6"
+      },
+      {
+        "fecha_entrada": "2026-10-02",
+        "fecha_entrada_dt": "2026-10-02 02:51",
+        "target_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+        "market_id": "5148178",
+        "condition_id": "0xaaf53f26072181f15d02ef0b0b210c925105f5e673750b1faa7596ff1cb1d3d7",
+        "token_id": "93077015212165010595391629680737389259515695153189912307399736221849618186883",
+        "pregunta": "Will the highest temperature in Tel Aviv be 30\u00b0C on October 2?",
+        "outcome": "No",
+        "precio_token_entrada": 0.495,
+        "precio_actual": 0.055,
+        "precio_cierre": 0.055,
+        "pct_cambio": -0.8889,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-02 04:33",
+        "pnl_realizado": -3.56,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x83bd28cfa5d7d35b22a4fb0e2daad3429361bd8feb0a3e99d93e8a25575c2563"
       }
     ]
   }
