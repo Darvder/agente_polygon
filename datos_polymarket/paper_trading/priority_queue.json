@@ -1,50 +1,58 @@
 [
   {
+    "id": "4689168",
+    "pregunta": "Will Sporting Kansas City win on 2026-10-01?",
+    "ts": "2026-10-01T22:01:57.378928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5165507",
+    "pregunta": "Spread: Atlanta Braves (-2.5)",
+    "ts": "2026-10-01T22:01:58.435366",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4952604",
     "pregunta": "Indiana Fever vs. Las Vegas Aces",
-    "ts": "2026-10-01T21:52:12.598113",
+    "ts": "2026-10-01T22:01:59.483746",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4216073",
-    "pregunta": "Oilers vs. Canucks",
-    "ts": "2026-10-01T21:52:13.653570",
+    "id": "5165511",
+    "pregunta": "Philadelphia Phillies vs. Atlanta Braves: O/U 8.5",
+    "ts": "2026-10-01T22:02:02.160882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4813886",
-    "pregunta": "North Texas vs. Tulsa",
-    "ts": "2026-10-01T21:52:14.694487",
+    "id": "4424974",
+    "pregunta": "Steelers vs. Browns: O/U 41.5",
+    "ts": "2026-10-01T22:02:03.197609",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4216060",
-    "pregunta": "Wild vs. Predators: O/U 5.5",
-    "ts": "2026-10-01T21:52:17.324898",
+    "id": "4691002",
+    "pregunta": "Seattle Sounders FC vs. Sporting Kansas City: O/U 3.5",
+    "ts": "2026-10-01T22:02:04.246502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x91feec8af2b517f024d91564ee108d707cc0c1c6",
+    "whale_wallet": "0xa466841143753310fa0f4448526595fa65641c77",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5178114",
-    "pregunta": "Will Trump say \"ICE\" during his Midterm Rally in Alabama?",
-    "ts": "2026-10-01T21:52:19.274748",
+    "id": "3875344",
+    "pregunta": "Steelers vs. Browns: O/U 40.5",
+    "ts": "2026-10-01T22:02:06.083172",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabcb905604117fcf98f6e0acba4145b9bdfb0448",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5178101",
-    "pregunta": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in Alabama?",
-    "ts": "2026-10-01T21:52:20.398473",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xabcb905604117fcf98f6e0acba4145b9bdfb0448",
+    "whale_wallet": "0x6a7b4ef59745f19c280da45add5d1a5a8e9ca65c",
     "whale_signal": "COMPRAR NO"
   }
 ]
