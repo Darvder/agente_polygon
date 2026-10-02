@@ -1,50 +1,26 @@
 [
   {
-    "id": "4814183",
-    "pregunta": "Spread: Virginia Tech (-2.5)",
-    "ts": "2026-10-02T07:52:13.562371",
+    "id": "5154548",
+    "pregunta": "Will Canva's valuation hit (HIGH) $32B by October 31?",
+    "ts": "2026-10-02T08:02:46.274598",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x80c9bddb2a24b7ca3b0df3a53931d19f6c783347",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814222",
-    "pregunta": "Spread: Penn State (-2.5)",
-    "ts": "2026-10-02T07:52:14.617027",
+    "id": "5192077",
+    "pregunta": "W35 Baza: Celia Cervino Ruiz vs Nahia Berecoechea",
+    "ts": "2026-10-02T08:02:57.914991",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4720683",
-    "pregunta": "Will France win on 2026-10-02?",
-    "ts": "2026-10-02T07:52:15.661006",
+    "id": "5183356",
+    "pregunta": "China Open: Hubert Hurkacz vs Arthur Gea",
+    "ts": "2026-10-02T08:02:59.016861",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818670",
-    "pregunta": "Kentucky vs. South Carolina",
-    "ts": "2026-10-02T07:52:16.877349",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814065",
-    "pregunta": "Liberty vs. Delaware",
-    "ts": "2026-10-02T07:52:17.932318",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4727399",
-    "pregunta": "Will Guatemala win on 2026-10-02?",
-    "ts": "2026-10-02T07:52:18.986831",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
