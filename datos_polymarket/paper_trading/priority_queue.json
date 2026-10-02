@@ -1,10 +1,90 @@
 [
   {
-    "id": "1421742",
-    "pregunta": "Floyd Mayweather vs. Manny Pacquiao 2",
-    "ts": "2026-10-02T09:11:53.549206",
+    "id": "5170403",
+    "pregunta": "Will the highest temperature in Munich be 21\u00b0C on October 3?",
+    "ts": "2026-10-02T09:21:43.152498",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b4a27cfef5364a9d56b3d47cab76897c78f7bd0",
+    "whale_wallet": "0x182d864d7380402d8bee99444bf198dab3dbd452",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5170404",
+    "pregunta": "Will the highest temperature in Munich be 22\u00b0C on October 3?",
+    "ts": "2026-10-02T09:21:44.200452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x182d864d7380402d8bee99444bf198dab3dbd452",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720683",
+    "pregunta": "Will France win on 2026-10-02?",
+    "ts": "2026-10-02T09:21:46.179114",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720680",
+    "pregunta": "Will Bosnia and Herzegovina win on 2026-10-02?",
+    "ts": "2026-10-02T09:21:47.233413",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4720671",
+    "pregunta": "Will Montenegro win on 2026-10-02?",
+    "ts": "2026-10-02T09:21:48.290713",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814299",
+    "pregunta": "Penn State vs. Northwestern: O/U 45.5",
+    "ts": "2026-10-02T09:21:49.335751",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3504098",
+    "pregunta": "Will Ulrich Siegmund be the next Minister-President of Sachsen-Anhalt?",
+    "ts": "2026-10-02T09:21:53.859681",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40e509403fa040c8feee53c18d8afcfa4563fde2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2750319",
+    "pregunta": "Will no listed leader be out before 2027?",
+    "ts": "2026-10-02T09:21:59.831262",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40e509403fa040c8feee53c18d8afcfa4563fde2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2166703",
+    "pregunta": "Will Leonardo Badea be the next Prime Minister of Romania?",
+    "ts": "2026-10-02T09:22:01.060581",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40e509403fa040c8feee53c18d8afcfa4563fde2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2750302",
+    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
+    "ts": "2026-10-02T09:22:03.213494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40e509403fa040c8feee53c18d8afcfa4563fde2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2100981",
+    "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-02T09:22:05.374004",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40e509403fa040c8feee53c18d8afcfa4563fde2",
     "whale_signal": "COMPRAR NO"
   }
 ]
