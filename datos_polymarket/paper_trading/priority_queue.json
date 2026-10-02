@@ -1,34 +1,98 @@
 [
   {
-    "id": "5193447",
-    "pregunta": "LoL: NightBirds vs UCAM Esports Club - Game 1 Winner",
-    "ts": "2026-10-02T10:32:09.327379",
+    "id": "3902572",
+    "pregunta": "Will \"The Invite\" be nominated for Best Picture at the 99th Academy Awards?",
+    "ts": "2026-10-02T10:43:31.682796",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x008865cb3793fae5afa3c8f17c4b27939db0dc07",
+    "whale_wallet": "0x5c29b2ca441c040f0f637d0a852594bb65b8358e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5193425",
-    "pregunta": "LoL: Colossal Gaming vs The Secret Club Esport - Game 1 Winner",
-    "ts": "2026-10-02T10:32:11.427304",
+    "id": "5194573",
+    "pregunta": "Columbus: Mitchell Krueger vs Keegan Smith",
+    "ts": "2026-10-02T10:43:37.034081",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x008865cb3793fae5afa3c8f17c4b27939db0dc07",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5193449",
-    "pregunta": "LoL: NightBirds vs UCAM Esports Club (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-02T10:32:13.523218",
+    "id": "5183369",
+    "pregunta": "Bari: Matthew William Donald vs Martin Krumich",
+    "ts": "2026-10-02T10:43:38.271024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x008865cb3793fae5afa3c8f17c4b27939db0dc07",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5193403",
-    "pregunta": "LoL: PCIFIC  vs Frites Esports Club (BO3) - EMEA Masters Swiss Stage",
-    "ts": "2026-10-02T10:32:14.576833",
+    "id": "5196233",
+    "pregunta": "W15 Trelew: Leyla Fiorella Britez Risso vs Liv Zingg",
+    "ts": "2026-10-02T10:43:39.362199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x008865cb3793fae5afa3c8f17c4b27939db0dc07",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5183359",
+    "pregunta": "Porto 2: Jerome Kym vs Edas Butvilas",
+    "ts": "2026-10-02T10:43:45.750522",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5193913",
+    "pregunta": "Counter-Strike: Team Nemesis vs Nuclear TigeRES - Map 2 Winner",
+    "ts": "2026-10-02T10:43:48.882999",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162874",
+    "pregunta": "Counter-Strike: Sashi Esport vs Voca (BO1) - ROG Journey Group D",
+    "ts": "2026-10-02T10:43:49.943464",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162858",
+    "pregunta": "Counter-Strike: BBL vs HAVU (BO1) - ROG Journey Group B",
+    "ts": "2026-10-02T10:43:51.177123",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162857",
+    "pregunta": "Counter-Strike: NIP vs SportsBetExpert (BO1) - ROG Journey Group B",
+    "ts": "2026-10-02T10:43:52.251684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162859",
+    "pregunta": "Counter-Strike: JiJieHao vs 9INE (BO1) - ROG Journey Group C",
+    "ts": "2026-10-02T10:43:53.309769",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180493",
+    "pregunta": "Counter-Strike: Luminosity vs BIG - Map 1 Winner",
+    "ts": "2026-10-02T10:43:54.372294",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162856",
+    "pregunta": "Counter-Strike: Sinners vs Nordic Partners Gaming  (BO1) - ROG Journey Group A",
+    "ts": "2026-10-02T10:43:55.486884",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93078b5dd1c34d0f288d2f51b23f1347520d9da3",
     "whale_signal": "COMPRAR NO"
   }
 ]
