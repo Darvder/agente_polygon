@@ -1,42 +1,18 @@
 [
   {
-    "id": "5148430",
-    "pregunta": "Will the highest temperature in Guangzhou be 32\u00b0C on October 2?",
-    "ts": "2026-10-01T23:02:31.849209",
+    "id": "5176670",
+    "pregunta": "LoL: Chinese Taipei vs South Korea - Game 1 Winner",
+    "ts": "2026-10-01T23:12:50.056243",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd71776a8d4fddeb3c150c4607b3f8bec31213b85",
+    "whale_wallet": "0x4fc6c10630d3b5ddec01ee5d4ecd83fa0d850e89",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148212",
-    "pregunta": "Will the highest temperature in Shanghai be 25\u00b0C on October 2?",
-    "ts": "2026-10-01T23:02:33.716000",
+    "id": "5082317",
+    "pregunta": "Will Elon Musk post 40-64 tweets from October 1 to October 3, 2026?",
+    "ts": "2026-10-01T23:12:52.665289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x686880eea810fa9141be46a1acec9eee41755198",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148211",
-    "pregunta": "Will the highest temperature in Shanghai be 24\u00b0C on October 2?",
-    "ts": "2026-10-01T23:02:36.866513",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x686880eea810fa9141be46a1acec9eee41755198",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170450",
-    "pregunta": "Will the highest temperature in Shanghai be 25\u00b0C on October 3?",
-    "ts": "2026-10-01T23:02:37.929939",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x686880eea810fa9141be46a1acec9eee41755198",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148429",
-    "pregunta": "Will the highest temperature in Guangzhou be 31\u00b0C on October 2?",
-    "ts": "2026-10-01T23:02:40.033573",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x686880eea810fa9141be46a1acec9eee41755198",
+    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
     "whale_signal": "COMPRAR NO"
   }
 ]
