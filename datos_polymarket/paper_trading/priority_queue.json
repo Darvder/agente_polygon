@@ -1,42 +1,74 @@
 [
   {
-    "id": "1235572",
-    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
-    "ts": "2026-10-02T06:02:17.724873",
+    "id": "5180471",
+    "pregunta": "Counter-Strike: UPGRADE vs K27 - Map 1 Winner",
+    "ts": "2026-10-02T06:12:07.985625",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148384",
-    "pregunta": "Will the highest temperature in Helsinki be 14\u00b0C on October 2?",
-    "ts": "2026-10-02T06:02:19.873166",
+    "id": "5180473",
+    "pregunta": "Counter-Strike: UPGRADE vs K27 (BO3) - CIS LAN Championship Playoffs",
+    "ts": "2026-10-02T06:12:09.022551",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5147473",
-    "pregunta": "Will the lowest temperature in Hong Kong be 27\u00b0C on October 2?",
-    "ts": "2026-10-02T06:02:26.424868",
+    "id": "5154475",
+    "pregunta": "LoL: Solary vs T1 Academy - Game 3 Winner",
+    "ts": "2026-10-02T06:12:10.067649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5154473",
-    "pregunta": "LoL: Solary vs T1 Academy - Game 1 Winner",
-    "ts": "2026-10-02T06:02:28.421982",
+    "id": "5178203",
+    "pregunta": "Dota 2: Cloud Dawning vs Ivory - Game 2 Winner",
+    "ts": "2026-10-02T06:12:11.132998",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb9fe7e0232dd3c82b1cb1b5f2801b5c340d65e7f",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5195991",
+    "pregunta": "Counter-Strike: PURE vs Nice Try (BO3) - FOX Legacy Cup Play-Ins",
+    "ts": "2026-10-02T06:12:12.200321",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5030102",
+    "pregunta": "Valorant: T1 vs JD Gaming - Map 1 Winner",
+    "ts": "2026-10-02T06:12:14.101771",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5154474",
+    "pregunta": "LoL: Solary vs T1 Academy - Game 2 Winner",
+    "ts": "2026-10-02T06:12:19.854412",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x68e6bde00138a091a245367545857af03894a83f",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5154477",
     "pregunta": "LoL: Solary vs T1 Academy (BO5) - World Star Challengers Invitational Playoffs",
-    "ts": "2026-10-02T06:02:30.538817",
+    "ts": "2026-10-02T06:12:20.896274",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb9fe7e0232dd3c82b1cb1b5f2801b5c340d65e7f",
+    "whale_wallet": "0x68e6bde00138a091a245367545857af03894a83f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5154476",
+    "pregunta": "LoL: Solary vs T1 Academy - Game 4 Winner",
+    "ts": "2026-10-02T06:12:21.932450",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x68e6bde00138a091a245367545857af03894a83f",
     "whale_signal": "COMPRAR NO"
   }
 ]
