@@ -1,74 +1,34 @@
 [
   {
-    "id": "5148296",
-    "pregunta": "Will the highest temperature in Beijing be 22\u00b0C on October 2?",
-    "ts": "2026-10-02T00:41:57.113933",
+    "id": "4950492",
+    "pregunta": "Will the price of Bitcoin be above $88,000 on October 2?",
+    "ts": "2026-10-02T00:52:24.018724",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d3c08718f4969c1e33e33584c46559212a4b1aa",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148440",
-    "pregunta": "Will the highest temperature in Qingdao be 23\u00b0C on October 2?",
-    "ts": "2026-10-02T00:41:58.165039",
+    "id": "4950489",
+    "pregunta": "Will the price of Bitcoin be above $86,000 on October 2?",
+    "ts": "2026-10-02T00:52:25.148644",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d3c08718f4969c1e33e33584c46559212a4b1aa",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148279",
-    "pregunta": "Will the highest temperature in Chongqing be 20\u00b0C on October 2?",
-    "ts": "2026-10-02T00:41:59.248445",
+    "id": "1235568",
+    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
+    "ts": "2026-10-02T00:52:27.344422",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d3c08718f4969c1e33e33584c46559212a4b1aa",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5148307",
-    "pregunta": "Will the highest temperature in Wuhan be 17\u00b0C on October 2?",
-    "ts": "2026-10-02T00:42:00.308207",
+    "id": "1235547",
+    "pregunta": "Will the New York Yankees win the 2026 World Series?",
+    "ts": "2026-10-02T00:52:28.631659",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d3c08718f4969c1e33e33584c46559212a4b1aa",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148280",
-    "pregunta": "Will the highest temperature in Chongqing be 21\u00b0C on October 2?",
-    "ts": "2026-10-02T00:42:01.441012",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1d3c08718f4969c1e33e33584c46559212a4b1aa",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5191358",
-    "pregunta": "Game Handicap: Liquid (-1.5) vs GamerLegion (+1.5)",
-    "ts": "2026-10-02T00:42:03.413571",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2398cb2eaf28bc0c67c5e0708f7dd311c808a279",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5148316",
-    "pregunta": "Will the highest temperature in Chengdu be 22\u00b0C on October 2?",
-    "ts": "2026-10-02T00:42:04.464889",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2398cb2eaf28bc0c67c5e0708f7dd311c808a279",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180495",
-    "pregunta": "Counter-Strike: Luminosity vs BIG (BO3) - Stake Ranked Episode 4 Playoffs",
-    "ts": "2026-10-02T00:42:06.579322",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2398cb2eaf28bc0c67c5e0708f7dd311c808a279",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5174078",
-    "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Stefanos Tsitsipas",
-    "ts": "2026-10-02T00:42:07.636221",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2398cb2eaf28bc0c67c5e0708f7dd311c808a279",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   }
 ]
