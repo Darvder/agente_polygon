@@ -1,34 +1,42 @@
 [
   {
-    "id": "4950492",
-    "pregunta": "Will the price of Bitcoin be above $88,000 on October 2?",
-    "ts": "2026-10-02T00:52:24.018724",
+    "id": "5172505",
+    "pregunta": "W35 Wagga Wagga: Kanon Sawashiro vs Nagi Hanatani",
+    "ts": "2026-10-02T01:02:41.404632",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4950489",
-    "pregunta": "Will the price of Bitcoin be above $86,000 on October 2?",
-    "ts": "2026-10-02T00:52:25.148644",
+    "id": "4753028",
+    "pregunta": "Will Scotland win on 2026-10-03?",
+    "ts": "2026-10-02T01:02:42.562402",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1235568",
-    "pregunta": "Will the Milwaukee Brewers win the 2026 World Series?",
-    "ts": "2026-10-02T00:52:27.344422",
+    "id": "5170724",
+    "pregunta": "China Open: Alex Molcan vs Karen Khachanov",
+    "ts": "2026-10-02T01:02:45.298550",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1235547",
-    "pregunta": "Will the New York Yankees win the 2026 World Series?",
-    "ts": "2026-10-02T00:52:28.631659",
+    "id": "5121615",
+    "pregunta": "China Open: Daniil Medvedev vs Pablo Carreno Busta",
+    "ts": "2026-10-02T01:02:46.336338",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5177575",
+    "pregunta": "Will Mar\u00eda Corina Machado enter Venezuela by October 31?",
+    "ts": "2026-10-02T01:02:48.289765",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe221d23b7ee9bf426a3862b0a1c8608750e41505",
     "whale_signal": "COMPRAR NO"
   }
 ]
