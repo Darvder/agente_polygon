@@ -1,50 +1,18 @@
 [
   {
-    "id": "4720683",
-    "pregunta": "Will France win on 2026-10-02?",
-    "ts": "2026-10-02T05:42:18.918387",
+    "id": "4685128",
+    "pregunta": "Will Korea Republic win on 2026-10-02?",
+    "ts": "2026-10-02T05:52:13.935403",
     "origen": "whale_copytrader",
     "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5152194",
-    "pregunta": "China Open: Maria Timofeeva vs Naomi Osaka",
-    "ts": "2026-10-02T05:42:31.546341",
+    "id": "4706378",
+    "pregunta": "Korea Republic vs. Venezuela: O/U 2.5",
+    "ts": "2026-10-02T05:52:14.977087",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcdf03af22777ac4ac1f769c7ab27f248fe1acd14",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180483",
-    "pregunta": "Counter-Strike: B8 vs fnatic - Map 2 Winner",
-    "ts": "2026-10-02T05:42:32.606487",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcdf03af22777ac4ac1f769c7ab27f248fe1acd14",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180473",
-    "pregunta": "Counter-Strike: UPGRADE vs K27 (BO3) - CIS LAN Championship Playoffs",
-    "ts": "2026-10-02T05:42:33.659689",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcdf03af22777ac4ac1f769c7ab27f248fe1acd14",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180472",
-    "pregunta": "Counter-Strike: UPGRADE vs K27 - Map 2 Winner",
-    "ts": "2026-10-02T05:42:34.714064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcdf03af22777ac4ac1f769c7ab27f248fe1acd14",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5157732",
-    "pregunta": "Bari: Gianluca Cadenasso vs Vitaliy Sachko",
-    "ts": "2026-10-02T05:42:36.828997",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcdf03af22777ac4ac1f769c7ab27f248fe1acd14",
+    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
     "whale_signal": "COMPRAR NO"
   }
 ]
