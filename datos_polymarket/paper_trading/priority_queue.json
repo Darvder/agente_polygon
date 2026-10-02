@@ -1,18 +1,50 @@
 [
   {
-    "id": "5152208",
-    "pregunta": "China Open: Ekaterina Alexandrova vs Aliaksandra Sasnovich",
-    "ts": "2026-10-02T01:42:02.391424",
+    "id": "5150657",
+    "pregunta": "Will the highest temperature in Houston be between 90-91\u00b0F on October 2?",
+    "ts": "2026-10-02T01:52:02.998160",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x79fb795c6c16b7fde0c626a03a01657e5fb35ee4",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5157049",
-    "pregunta": "China Open: Taylah Preston vs Diane Parry",
-    "ts": "2026-10-02T01:42:03.436497",
+    "id": "5150658",
+    "pregunta": "Will the highest temperature in Houston be between 92-93\u00b0F on October 2?",
+    "ts": "2026-10-02T01:52:04.055830",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x79fb795c6c16b7fde0c626a03a01657e5fb35ee4",
+    "whale_wallet": "0xedbe108285993c7b1ab04c03139e82a7589b84d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5183354",
+    "pregunta": "Jingshan: Alex Bolt vs Dane Sweeny",
+    "ts": "2026-10-02T01:52:05.904520",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5176627",
+    "pregunta": "M25 Darwin: Casey Hoole vs Colin Sinclair",
+    "ts": "2026-10-02T01:52:09.055329",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5152208",
+    "pregunta": "China Open: Ekaterina Alexandrova vs Aliaksandra Sasnovich",
+    "ts": "2026-10-02T01:52:10.104928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5176637",
+    "pregunta": "M15 Baku: Marcus Walters vs James Connel",
+    "ts": "2026-10-02T01:52:11.169537",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   }
 ]
