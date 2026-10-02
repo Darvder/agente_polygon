@@ -1,26 +1,18 @@
 [
   {
-    "id": "4216051",
-    "pregunta": "Wild vs. Predators",
-    "ts": "2026-10-01T20:02:25.817157",
+    "id": "3875337",
+    "pregunta": "Spread: Steelers (-2.5)",
+    "ts": "2026-10-01T20:12:50.777128",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2290b7e7a4b99e797dec87ba724873a82676fd05",
+    "whale_wallet": "0x6bc742cc8c377ae2e323700fb9eabb9fede7c4a9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5073589",
-    "pregunta": "Philadelphia Phillies vs. Atlanta Braves",
-    "ts": "2026-10-01T20:02:26.882392",
+    "id": "4858970",
+    "pregunta": "Spread: Browns (-5.5)",
+    "ts": "2026-10-01T20:12:51.820275",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2290b7e7a4b99e797dec87ba724873a82676fd05",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3760412",
-    "pregunta": "Steelers vs. Browns",
-    "ts": "2026-10-01T20:02:29.004885",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x00ed8529733253ff48c95f57d28e9c461fc80a9f",
+    "whale_wallet": "0x6bc742cc8c377ae2e323700fb9eabb9fede7c4a9",
     "whale_signal": "COMPRAR NO"
   }
 ]
