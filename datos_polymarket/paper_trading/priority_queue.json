@@ -1,34 +1,50 @@
 [
   {
-    "id": "4720675",
-    "pregunta": "Will Slovakia win on 2026-10-02?",
-    "ts": "2026-10-02T14:03:36.838684",
+    "id": "4721375",
+    "pregunta": "Bosnia and Herzegovina vs. Sweden: O/U 2.5",
+    "ts": "2026-10-02T14:12:32.377542",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4721316",
-    "pregunta": "France vs. Italy: O/U 3.5",
-    "ts": "2026-10-02T14:03:37.887448",
+    "id": "5154280",
+    "pregunta": "Will there be exactly 4 ChatGPT outages in October 2026?",
+    "ts": "2026-10-02T14:12:36.056944",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4721195",
-    "pregunta": "Ukraine vs. Northern Ireland: O/U 2.5",
-    "ts": "2026-10-02T14:03:38.938940",
+    "id": "5190747",
+    "pregunta": "US x Iran ceasefire continues through November 15?",
+    "ts": "2026-10-02T14:12:37.120414",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "630747",
-    "pregunta": "Will the Republicans win the Kansas Senate race in 2026?",
-    "ts": "2026-10-02T14:03:59.926834",
+    "id": "4218310",
+    "pregunta": "Next Astra Model (6.1+) released by October 31, 2026?",
+    "ts": "2026-10-02T14:12:38.374563",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
+    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4852541",
+    "pregunta": "Next Alibaba Qwen Plus (3.8+) released by October 31, 2026?",
+    "ts": "2026-10-02T14:12:39.704226",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5162762",
+    "pregunta": "Next Alibaba Qwen Plus (3.8+) released by October 15, 2026?",
+    "ts": "2026-10-02T14:12:40.961114",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4cff670cfe6ca3cfa50477c939149d1bd2017cdb",
     "whale_signal": "COMPRAR NO"
   }
 ]
