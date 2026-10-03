@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5066461",
+    "pregunta": "LoL: Cloud9 vs LYON - Game 1 Winner",
+    "ts": "2026-10-03T05:32:20.142547",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30ea0d2d15ff45d44d89be73d5c30512c4018727",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5066463",
+    "pregunta": "LoL: Cloud9 vs LYON - Game 3 Winner",
+    "ts": "2026-10-03T05:32:21.226002",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30ea0d2d15ff45d44d89be73d5c30512c4018727",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753786",
+    "pregunta": "Croatia vs. England: O/U 1.5",
+    "ts": "2026-10-03T05:32:24.088420",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
