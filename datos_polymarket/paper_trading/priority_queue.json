@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "5197372",
+    "pregunta": "Will the lowest temperature in Paris be 12\u00b0C on October 4?",
+    "ts": "2026-10-03T08:32:10.586185",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x78e52bd8fd656f8996803f782a8aca27d967e48c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5197373",
+    "pregunta": "Will the lowest temperature in Paris be 13\u00b0C on October 4?",
+    "ts": "2026-10-03T08:32:11.754986",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x78e52bd8fd656f8996803f782a8aca27d967e48c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5197374",
+    "pregunta": "Will the lowest temperature in Paris be 14\u00b0C on October 4?",
+    "ts": "2026-10-03T08:32:12.917554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x78e52bd8fd656f8996803f782a8aca27d967e48c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5197365",
+    "pregunta": "Will the lowest temperature in London be 13\u00b0C on October 4?",
+    "ts": "2026-10-03T08:32:15.160781",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x78e52bd8fd656f8996803f782a8aca27d967e48c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5197364",
+    "pregunta": "Will the lowest temperature in London be 12\u00b0C on October 4?",
+    "ts": "2026-10-03T08:32:16.243784",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x78e52bd8fd656f8996803f782a8aca27d967e48c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5177603",
+    "pregunta": "Valorant: Karmine Corp vs Nongshim RedForce (BO3) - VCT Champions Group D",
+    "ts": "2026-10-03T08:32:17.891675",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5010649",
+    "pregunta": "Counter-Strike: Spirit vs ShindeN (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T08:32:20.034710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
