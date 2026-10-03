@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5174089",
+    "pregunta": "Japan Open Tennis Championships: Ugo Humbert vs Jiri Lehecka",
+    "ts": "2026-10-03T06:02:11.536839",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x76d2d8e2da11148b0b2f5758985da4fd232699a6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011085",
+    "pregunta": "Counter-Strike: Legacy vs PARIVISION (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T06:02:13.176807",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
