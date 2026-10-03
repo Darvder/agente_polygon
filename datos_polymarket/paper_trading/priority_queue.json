@@ -1,66 +1,18 @@
 [
   {
-    "id": "4817120",
-    "pregunta": "Spread: California (-3.5)",
-    "ts": "2026-10-03T15:33:14.078449",
+    "id": "4740219",
+    "pregunta": "UFC 332: Marvin Vettori vs. Ismail Naurdiev (Middleweight, Early Prelims)",
+    "ts": "2026-10-03T15:42:46.736842",
     "origen": "whale_copytrader",
     "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753668",
-    "pregunta": "Spain vs. Czechia: O/U 3.5",
-    "ts": "2026-10-03T15:33:16.483845",
+    "id": "4757292",
+    "pregunta": "Will C\u00f4te d'Ivoire vs. Cameroon end in a draw?",
+    "ts": "2026-10-03T15:42:50.454904",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5066461",
-    "pregunta": "LoL: Cloud9 vs LYON - Game 1 Winner",
-    "ts": "2026-10-03T15:33:17.572980",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4816423",
-    "pregunta": "Spread: Toledo (-20.5)",
-    "ts": "2026-10-03T15:33:18.854653",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4816500",
-    "pregunta": "Toledo vs. Ball State: O/U 49.5",
-    "ts": "2026-10-03T15:33:20.132690",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4816767",
-    "pregunta": "Spread: NC State (-1.5)",
-    "ts": "2026-10-03T15:33:21.408378",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817518",
-    "pregunta": "Spread: Tennessee (-6.5)",
-    "ts": "2026-10-03T15:33:22.690927",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4758673",
-    "pregunta": "Racing Louisville FC vs. Utah Royals FC: O/U 3.5",
-    "ts": "2026-10-03T15:33:23.963215",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe91171f655be1568e4c63f29663c0028649e3d4e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
