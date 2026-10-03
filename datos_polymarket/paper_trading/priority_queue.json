@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4753780",
+    "pregunta": "Spread: England (-3.5)",
+    "ts": "2026-10-03T12:02:24.146021",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4747314",
+    "pregunta": "Will C\u00e1diz CF win on 2026-10-03?",
+    "ts": "2026-10-03T12:02:25.190177",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
