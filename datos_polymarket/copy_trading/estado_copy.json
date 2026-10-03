@@ -16,8 +16,8 @@
     "min_capital_per_trade": 3.0,
     "max_capital_per_trade": 4.0,
     "risk_pct_per_trade": 0.05,
-    "take_profit_pct": 0.35,
-    "stop_loss_pct": -0.35,
+    "take_profit_pct": 0.6,
+    "stop_loss_pct": -0.5,
     "n_tp": 224,
     "n_sl": 154,
     "posiciones_abiertas": [

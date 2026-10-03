@@ -2,14 +2,41 @@
   "wallets_to_copy": [
     "0x96cfcb0c30942cfcd1cdf76c7d408794d66b1acb",
     "0x5e4c3b5b81171e2ca4ab776ac0d6bba787f9dba2",
-    "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
-    "0x59151ed846c13dc0f004b856a8be325ad571db2b"
+    "0x59151ed846c13dc0f004b856a8be325ad571db2b",
+    "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
+    "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974"
   ],
-  "max_positions": 20,
-  "max_positions_per_wallet": 5,
+  "blacklist_wallets": [
+    "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "0x13659c6a1aacd0e3bcb022e06261fff367f6c82a",
+    "0xec5625bde94bdf224d6d941e612a403989921816",
+    "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+    "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "0xb84510a7968bfe807842e026a3318e37b3937ade",
+    "0x1d300b022693462bd2ae4e1f63d23da3bc481192",
+    "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
+    "0xca5f15ee1795b7d3df5ce1767ac5570badae41f5",
+    "0x8b3ea124d951b6b140c1e7fef0f9e1a65d834d6c",
+    "0xea54aa79516cbdbb5f758bccd0da69edbba4524a",
+    "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090"
+  ],
+  "enable_dynamic_whales": true,
+  "dynamic_whale_limit": 4,
+  "min_whale_trade_usd": 250.0,
+  "max_positions": 25,
+  "max_positions_per_wallet": 4,
   "capital_per_trade": 25.0,
+  "min_capital_per_trade": 8.0,
+  "max_capital_per_trade": 25.0,
+  "risk_pct_per_trade": 0.018,
+  "take_profit_pct": 0.60,
+  "stop_loss_pct": -0.50,
   "max_slippage": 0.06,
   "min_price": 0.15,
   "max_price": 0.85,
-  "min_volume": 2000
+  "min_volume": 3000
 }

@@ -55,22 +55,42 @@ DEFAULT_CONFIG = {
     "wallets_to_copy": [
         "0x96cfcb0c30942cfcd1cdf76c7d408794d66b1acb", # mintblade
         "0x5e4c3b5b81171e2ca4ab776ac0d6bba787f9dba2", # endlessFate
-        "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae", # Latina
-        "0x59151ed846c13dc0f004b856a8be325ad571db2b"  # Selective Sports Whale
+        "0x59151ed846c13dc0f004b856a8be325ad571db2b", # Selective Sports Whale
+        "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2", # Whale Top +$93.32
+        "0x06dc51826bc524d9a83770e7de9dd7e005b04524", # Whale 81.8% WR +$75.40
+        "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974"  # Whale 100% WR +$38.30
+    ],
+    "blacklist_wallets": [
+        "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+        "0x13659c6a1aacd0e3bcb022e06261fff367f6c82a",
+        "0xec5625bde94bdf224d6d941e612a403989921816",
+        "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+        "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+        "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+        "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+        "0xdc41c39b95453c943174f369926018f6963bdd7e",
+        "0xb84510a7968bfe807842e026a3318e37b3937ade",
+        "0x1d300b022693462bd2ae4e1f63d23da3bc481192",
+        "0x7025570d44fc04948ef4040e1cc26b0fec31dcfe",
+        "0xca5f15ee1795b7d3df5ce1767ac5570badae41f5",
+        "0x8b3ea124d951b6b140c1e7fef0f9e1a65d834d6c",
+        "0xea54aa79516cbdbb5f758bccd0da69edbba4524a",
+        "0x9242a1b5ad76fdfb4edc4ba6a08d6db8476d8090"
     ],
     "enable_dynamic_whales": True,
-    "dynamic_whale_limit": 5,
-    "max_positions": 35,
-    "max_positions_per_wallet": 5,
+    "dynamic_whale_limit": 4,
+    "min_whale_trade_usd": 250.0,
+    "max_positions": 25,
+    "max_positions_per_wallet": 4,
     "min_capital_per_trade": 8.0,
     "max_capital_per_trade": 25.0,
     "risk_pct_per_trade": 0.018,
-    "stop_loss_pct": -0.35,
-    "take_profit_pct": 0.35,
+    "stop_loss_pct": -0.50,
+    "take_profit_pct": 0.60,
     "max_slippage": 0.06,
     "min_price": 0.15,
     "max_price": 0.85,
-    "min_volume": 2000
+    "min_volume": 3000
 }
 
 DEFAULT_ESTADO = {
@@ -153,8 +173,8 @@ def obtener_o_iniciar_micro(estado):
             "min_capital_per_trade": 3.0,
             "max_capital_per_trade": 4.0,
             "risk_pct_per_trade": 0.050,  # ~5.0% ($3.50 base)
-            "take_profit_pct": 0.35,
-            "stop_loss_pct": -0.35,
+            "take_profit_pct": 0.60,
+            "stop_loss_pct": -0.50,
             "n_tp": 0,
             "n_sl": 0,
             "posiciones_abiertas": [],
@@ -170,8 +190,8 @@ def obtener_o_iniciar_micro(estado):
     micro["min_capital_per_trade"] = 3.0
     micro["max_capital_per_trade"] = 4.0
     micro["risk_pct_per_trade"] = 0.050
-    micro.setdefault("take_profit_pct", 0.35)
-    micro.setdefault("stop_loss_pct", -0.35)
+    micro["take_profit_pct"] = 0.60
+    micro["stop_loss_pct"] = -0.50
     micro.setdefault("n_tp", 0)
     micro.setdefault("n_sl", 0)
     micro.setdefault("posiciones_abiertas", [])
@@ -352,24 +372,55 @@ def _get_proxies():
     proxy = os.environ.get("PROXY_URL", "").strip()
     return {"http": proxy, "https": proxy} if proxy else None
 
-def obtener_ballenas_dinamicas(limite=5):
-    """Descubre dinámicamente billeteras activas analizando los trades recientes del mercado (excluyendo bots de 5m)."""
+def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_trade_usd=250.0):
+    """
+    Descubre dinámicamente billeteras ballena de alta convicción:
+    1. Pondera por volumen USDC real (mínimo $250 por orden para descartar micro-degens y ruido).
+    2. Excluye billeteras en blacklist oficial y aquellas con P&L negativo acumulado en nuestro libro.
+    3. Excluye mercados de micro-temporalidad (5m, 15m updown).
+    """
     url = "https://data-api.polymarket.com/trades"
     p = _get_proxies()
+    blacklist_set = set(w.lower() for w in (blacklist or []))
+
+    # Auto-pruning de billeteras con PnL neto negativo histórico en el libro
+    losing_wallets = set()
+    if df_historial is not None and not df_historial.empty and 'pnl_realizado' in df_historial.columns:
+        c = df_historial[df_historial['estado'] == 'CERRADA']
+        if not c.empty and 'target_wallet' in c.columns:
+            wg = c.groupby('target_wallet').agg(
+                ops=('pnl_realizado', 'count'),
+                pnl=('pnl_realizado', 'sum'),
+                wins=('pnl_realizado', lambda x: (x > 0).sum())
+            )
+            for w_addr, row in wg.iterrows():
+                # Si ha perdido más de $10 USDC o tiene 6+ ops con menos del 45% WR, filtrar
+                if row['pnl'] < -10.0 or (row['ops'] >= 6 and (row['wins'] / row['ops']) < 0.45):
+                    losing_wallets.add(str(w_addr).lower())
+
     try:
         r = requests.get(url, params={"limit": 100}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200 and isinstance(r.json(), list):
             trades = r.json()
-            conteo = {}
+            volumen_por_wallet = {}
             for t in trades:
                 title_lower = (t.get("title") or "").lower()
                 slug_lower = (t.get("slug") or "").lower()
-                if "updown" in slug_lower or "up or down" in title_lower:
+                if "updown" in slug_lower or "up or down" in title_lower or "5m" in slug_lower or "15m" in slug_lower:
                     continue
                 w = t.get("proxyWallet") or t.get("user")
-                if w and isinstance(w, str) and w.startswith("0x"):
-                    conteo[w] = conteo.get(w, 0) + 1
-            top_wallets = [w for w, _ in sorted(conteo.items(), key=lambda x: x[1], reverse=True)]
+                if not w or not isinstance(w, str) or not w.startswith("0x"):
+                    continue
+                w_lower = w.lower()
+                if w_lower in blacklist_set or w_lower in losing_wallets:
+                    continue
+                shares = float(t.get("size", 0.0) or 0.0)
+                price = float(t.get("price", 0.0) or 0.0)
+                usd_vol = shares * price
+                # Solo considerar órdenes institucionales/ballenas reales (> $250 USDC)
+                if usd_vol >= min_trade_usd:
+                    volumen_por_wallet[w] = volumen_por_wallet.get(w, 0.0) + usd_vol
+            top_wallets = [w for w, _ in sorted(volumen_por_wallet.items(), key=lambda x: x[1], reverse=True)]
             return top_wallets[:limite]
     except Exception as e:
         log.warning(f"Error en descubrimiento dinámico de Whales: {e}")
@@ -413,19 +464,21 @@ async def procesar_copy_trading():
     df = cargar_libro()
     cache = cargar_cache()
 
-    wallets = list(config.get("wallets_to_copy", []))
+    blacklist = set(w.lower() for w in config.get("blacklist_wallets", []))
+    wallets = [w for w in config.get("wallets_to_copy", []) if w.lower() not in blacklist]
     
     # Descubrimiento dinámico de Whales activas
     if config.get("enable_dynamic_whales", True):
-        limite_dinamico = config.get("dynamic_whale_limit", 5)
-        ballenas_dinamicas = obtener_ballenas_dinamicas(limite=limite_dinamico)
+        limite_dinamico = config.get("dynamic_whale_limit", 4)
+        min_trade_usd = float(config.get("min_whale_trade_usd", 250.0))
+        ballenas_dinamicas = obtener_ballenas_dinamicas(limite=limite_dinamico, blacklist=blacklist, df_historial=df, min_trade_usd=min_trade_usd)
         if ballenas_dinamicas:
             nuevas_agregadas = 0
             for bw in ballenas_dinamicas:
-                if bw not in wallets:
+                if bw not in wallets and bw.lower() not in blacklist:
                     wallets.append(bw)
                     nuevas_agregadas += 1
-            log.info(f"🐋 [WHALE DISCOVERY] {len(ballenas_dinamicas)} ballenas activas en vivo ({nuevas_agregadas} nuevas para este ciclo). Total wallets a explorar: {len(wallets)}")
+            log.info(f"🐋 [WHALE DISCOVERY] {len(ballenas_dinamicas)} ballenas activas de alto volumen ({nuevas_agregadas} nuevas para este ciclo). Total wallets a explorar: {len(wallets)}")
     capital_por_op = config.get("capital_per_trade", 25.0)
     max_slippage = config.get("max_slippage", 0.06)
     max_posiciones = config.get("max_positions", 35)
@@ -788,8 +841,8 @@ async def procesar_copy_trading():
             pct = (precio_actual - pte) / pte if pte > 0 else 0.0
 
             # B. Control de riesgo y salidas automáticas (Stop Loss / Take Profit)
-            COPY_TP = float(config.get("take_profit_pct", 0.35))  # +35% Take Profit
-            COPY_SL = float(config.get("stop_loss_pct", -0.35))   # -35% Stop Loss (evita liquidaciones por spread normal en deportes)
+            COPY_TP = float(config.get("take_profit_pct", 0.60))  # +60% Take Profit
+            COPY_SL = float(config.get("stop_loss_pct", -0.50))   # -50% Stop Loss (evita liquidaciones prematuras por volatilidad deportiva)
             razon = None
 
             if pct >= COPY_TP:
@@ -862,8 +915,8 @@ async def procesar_copy_trading():
             pte_m = float(pm["precio_token_entrada"])
             pct_m = (precio_actual_m - pte_m) / pte_m if pte_m > 0 else 0.0
 
-            MICRO_TP = float(micro.get("take_profit_pct", 0.35))
-            MICRO_SL = float(micro.get("stop_loss_pct", -0.35))
+            MICRO_TP = float(micro.get("take_profit_pct", 0.60))
+            MICRO_SL = float(micro.get("stop_loss_pct", -0.50))
             razon_m = None
 
             if pct_m >= MICRO_TP:
