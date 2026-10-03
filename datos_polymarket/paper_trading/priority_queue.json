@@ -1,26 +1,34 @@
 [
   {
-    "id": "4752979",
-    "pregunta": "Will England win on 2026-10-03?",
-    "ts": "2026-10-03T10:22:26.584725",
+    "id": "5217584",
+    "pregunta": "Counter-Strike: Spirit Academy vs Fire Flux Esports (BO3) - CCT Europe Challengers Series Playoffs",
+    "ts": "2026-10-03T10:32:36.892972",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5175482",
-    "pregunta": "San Diego Padres vs. Milwaukee Brewers",
-    "ts": "2026-10-03T10:22:27.622549",
+    "id": "5011106",
+    "pregunta": "Counter-Strike: Aurora Gaming vs 9z - Map 2 Winner",
+    "ts": "2026-10-03T10:32:51.257608",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5102827",
-    "pregunta": "1H Spread: Alabama (-2.5)",
-    "ts": "2026-10-03T10:22:28.756746",
+    "id": "5011071",
+    "pregunta": "Counter-Strike: MOUZ vs M80 - Map 1 Winner",
+    "ts": "2026-10-03T10:32:52.532335",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1366007",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
+    "ts": "2026-10-03T10:32:54.379348",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
     "whale_signal": "COMPRAR NO"
   }
 ]
