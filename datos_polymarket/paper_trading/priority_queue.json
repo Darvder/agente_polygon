@@ -1,10 +1,50 @@
 [
   {
-    "id": "5192900",
-    "pregunta": "Dota 2: PARIVISION vs Aurora - Game 2 Winner",
-    "ts": "2026-10-03T09:26:47.741722",
+    "id": "5173046",
+    "pregunta": "China Open: Elena Rybakina vs Alina Charaeva",
+    "ts": "2026-10-03T09:32:09.359271",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753747",
+    "pregunta": "Belarus vs. San Marino: San Marino O/U 0.5",
+    "ts": "2026-10-03T09:32:10.435546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5175937",
+    "pregunta": "Chicago White Sox vs. Cleveland Guardians: O/U 7.5",
+    "ts": "2026-10-03T09:32:14.578684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4740067",
+    "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
+    "ts": "2026-10-03T09:32:15.842045",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4292962",
+    "pregunta": "Capitals vs. Lightning",
+    "ts": "2026-10-03T09:32:16.891263",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5204401",
+    "pregunta": "Valorant: LOUD vs Global Esports (BO3) - VCT Champions Group B",
+    "ts": "2026-10-03T09:32:17.969470",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
