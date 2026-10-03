@@ -1,42 +1,26 @@
 [
   {
-    "id": "5183373",
-    "pregunta": "China Open: Andrey Rublev vs Roman Safiullin",
-    "ts": "2026-10-03T02:22:45.404430",
+    "id": "3336033",
+    "pregunta": "KBO: Kia Tigers vs. LG Twins",
+    "ts": "2026-10-03T02:32:20.004473",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf16bef3ae5bc13b148c82fe890890a2ba0005ae3",
+    "whale_wallet": "0xf898dc38744d9e173bcaadef0647ceb42ad8e720",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5173050",
-    "pregunta": "China Open: Katerina Siniakova vs Elina Svitolina",
-    "ts": "2026-10-03T02:22:47.468619",
+    "id": "3336025",
+    "pregunta": "KBO: Doosan Bears vs. Samsung Lions",
+    "ts": "2026-10-03T02:32:21.075401",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+    "whale_wallet": "0xf898dc38744d9e173bcaadef0647ceb42ad8e720",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-10-03T02:22:50.386310",
+    "id": "2666714",
+    "pregunta": "Hiroshima Carp vs. Hanshin Tigers",
+    "ts": "2026-10-03T02:32:22.167390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc668e47b5f6babff45b855bd2416170f695335e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1090496",
-    "pregunta": "NATO x Russia military clash by December 31, 2026?",
-    "ts": "2026-10-03T02:22:51.440954",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc668e47b5f6babff45b855bd2416170f695335e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2364961",
-    "pregunta": "Will Trump and Putin not meet?",
-    "ts": "2026-10-03T02:22:52.491438",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc668e47b5f6babff45b855bd2416170f695335e8",
+    "whale_wallet": "0xf898dc38744d9e173bcaadef0647ceb42ad8e720",
     "whale_signal": "COMPRAR NO"
   }
 ]
