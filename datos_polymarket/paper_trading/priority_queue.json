@@ -1,42 +1,18 @@
 [
   {
-    "id": "4814386",
-    "pregunta": "Montana State vs. Idaho",
-    "ts": "2026-10-02T23:02:26.411034",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5174091",
     "pregunta": "Japan Open Tennis Championships: Denis Shapovalov vs Alejandro Tabilo",
-    "ts": "2026-10-02T23:02:27.460234",
+    "ts": "2026-10-02T23:13:14.800700",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5202248",
-    "pregunta": "Jingshan: Lloyd Harris vs Alex Bolt",
-    "ts": "2026-10-02T23:02:28.522647",
+    "id": "4738424",
+    "pregunta": "Will Fujieda MYFC win on 2026-10-03?",
+    "ts": "2026-10-02T23:13:15.891698",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180465",
-    "pregunta": "China Open: Coco Gauff vs Camila Osorio",
-    "ts": "2026-10-02T23:02:29.571765",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4724690",
-    "pregunta": "Seattle Reign FC vs. North Carolina Courage: O/U 1.5",
-    "ts": "2026-10-02T23:02:30.649844",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   }
 ]
