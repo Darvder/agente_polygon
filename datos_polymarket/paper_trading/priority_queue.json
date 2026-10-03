@@ -1,98 +1,82 @@
 [
   {
-    "id": "4814136",
-    "pregunta": "Pittsburgh vs. Virginia Tech",
-    "ts": "2026-10-02T20:32:12.825116",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4723625",
-    "pregunta": "Will Paraguay win on 2026-10-02?",
-    "ts": "2026-10-02T20:32:13.883805",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4008539",
-    "pregunta": "Will CD Universidad de Concepci\u00f3n vs. CD Huachipato end in a draw?",
-    "ts": "2026-10-02T20:32:15.881554",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4727402",
-    "pregunta": "Will Honduras win on 2026-10-02?",
-    "ts": "2026-10-02T20:32:18.013069",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4727403",
-    "pregunta": "Will Barbados win on 2026-10-02?",
-    "ts": "2026-10-02T20:32:19.167806",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4723622",
-    "pregunta": "Will Colombia win on 2026-10-02?",
-    "ts": "2026-10-02T20:32:20.302503",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4730369",
-    "pregunta": "Will Crici\u00fama EC win on 2026-10-02?",
-    "ts": "2026-10-02T20:32:21.435662",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4730287",
-    "pregunta": "Will S\u00e3o Paulo FC vs. Santos FC end in a draw?",
-    "ts": "2026-10-02T20:32:22.519442",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4799619",
-    "pregunta": "Will CA Boca Juniors win on 2026-10-04?",
-    "ts": "2026-10-02T20:32:23.576179",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4730471",
-    "pregunta": "Will Fortaleza EC win on 2026-10-02?",
-    "ts": "2026-10-02T20:32:24.628547",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4730476",
-    "pregunta": "Will Fortaleza EC vs. Clube N\u00e1utico Capibaribe end in a draw?",
-    "ts": "2026-10-02T20:32:25.679172",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4727408",
     "pregunta": "Will Grenada win on 2026-10-02?",
-    "ts": "2026-10-02T20:32:27.791077",
+    "ts": "2026-10-02T20:42:36.223281",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5197976",
+    "pregunta": "Will the highest temperature in Madrid be 25\u00b0C on October 4?",
+    "ts": "2026-10-02T20:42:38.226968",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7eaa74c0557a4f8a13a82822198bc89e5bfc7466",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5150154",
+    "pregunta": "Will the lowest temperature in New York City be between 66-67\u00b0F on October 2?",
+    "ts": "2026-10-02T20:42:39.267865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7eaa74c0557a4f8a13a82822198bc89e5bfc7466",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727411",
+    "pregunta": "Will Jamaica win on 2026-10-02?",
+    "ts": "2026-10-02T20:42:41.794988",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5155340",
+    "pregunta": "West Indies Tour of India ODIs: India vs West Indies",
+    "ts": "2026-10-02T20:42:42.851798",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4292996",
+    "pregunta": "Bruins vs. Wild",
+    "ts": "2026-10-02T20:42:43.980098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4817224",
+    "pregunta": "Holy Cross vs. William & Mary: O/U 51.5",
+    "ts": "2026-10-02T20:42:45.054096",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250280",
+    "pregunta": "Ducks vs. Golden Knights",
+    "ts": "2026-10-02T20:42:46.101064",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4821900",
+    "pregunta": "Arkansas State vs. Louisiana",
+    "ts": "2026-10-02T20:42:47.142496",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250283",
+    "pregunta": "Ducks vs. Golden Knights: O/U 6.5",
+    "ts": "2026-10-02T20:42:48.184626",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
