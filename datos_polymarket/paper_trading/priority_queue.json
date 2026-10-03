@@ -1,56 +1,48 @@
 [
   {
-    "id": "4723623",
-    "pregunta": "Will Colombia vs. Paraguay end in a draw?",
-    "ts": "2026-10-02T19:53:05.803866",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4799619",
-    "pregunta": "Will CA Boca Juniors win on 2026-10-04?",
-    "ts": "2026-10-02T19:53:06.871547",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4730471",
-    "pregunta": "Will Fortaleza EC win on 2026-10-02?",
-    "ts": "2026-10-02T19:53:07.946150",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4756541",
     "pregunta": "S\u00e3o Paulo FC vs. Santos FC: O/U 3.5",
-    "ts": "2026-10-02T19:53:09.006207",
+    "ts": "2026-10-02T20:02:46.195846",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4730287",
-    "pregunta": "Will S\u00e3o Paulo FC vs. Santos FC end in a draw?",
-    "ts": "2026-10-02T19:53:10.080826",
+    "id": "4723623",
+    "pregunta": "Will Colombia vs. Paraguay end in a draw?",
+    "ts": "2026-10-02T20:02:47.245873",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4740086",
-    "pregunta": "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
-    "ts": "2026-10-02T19:53:11.962979",
+    "id": "4730418",
+    "pregunta": "Will EC Juventude win on 2026-10-02?",
+    "ts": "2026-10-02T20:02:50.111354",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4752979",
-    "pregunta": "Will England win on 2026-10-03?",
-    "ts": "2026-10-02T19:53:13.019210",
+    "id": "4727403",
+    "pregunta": "Will Barbados win on 2026-10-02?",
+    "ts": "2026-10-02T20:02:51.150584",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723622",
+    "pregunta": "Will Colombia win on 2026-10-02?",
+    "ts": "2026-10-02T20:02:52.193680",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9674d0d14a078c5dd5cd411c64bff82523dfe1a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250276",
+    "pregunta": "Blues vs. Stars: O/U 6.5",
+    "ts": "2026-10-02T20:02:53.885865",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
@@ -58,15 +50,15 @@
   {
     "id": "4740067",
     "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
-    "ts": "2026-10-02T19:53:14.088849",
+    "ts": "2026-10-02T20:02:54.958287",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4292996",
-    "pregunta": "Bruins vs. Wild",
-    "ts": "2026-10-02T19:53:15.247166",
+    "id": "4817224",
+    "pregunta": "Holy Cross vs. William & Mary: O/U 51.5",
+    "ts": "2026-10-02T20:02:56.132825",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
@@ -74,17 +66,17 @@
   {
     "id": "5155340",
     "pregunta": "West Indies Tour of India ODIs: India vs West Indies",
-    "ts": "2026-10-02T19:53:16.420633",
+    "ts": "2026-10-02T20:02:57.173953",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170437",
-    "pregunta": "Will the highest temperature in Hong Kong be 28\u00b0C on October 3?",
-    "ts": "2026-10-02T19:53:18.312410",
+    "id": "4740086",
+    "pregunta": "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
+    "ts": "2026-10-02T20:02:58.218457",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
