@@ -1,10 +1,34 @@
 [
   {
-    "id": "5195145",
-    "pregunta": "Dota 2: Cloud Dawning vs InterActive Philippines - Game 2 Winner",
-    "ts": "2026-10-03T00:12:51.690217",
+    "id": "5173038",
+    "pregunta": "China Open: Katie Volynets vs Elise Mertens",
+    "ts": "2026-10-03T00:24:01.765845",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4816032",
+    "pregunta": "Spread: Miami (FL) (-14.5)",
+    "ts": "2026-10-03T00:24:04.002238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4292996",
+    "pregunta": "Bruins vs. Wild",
+    "ts": "2026-10-03T00:24:05.053984",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5201298",
+    "pregunta": "China Open: Linda Noskova vs Viktorija Golubic",
+    "ts": "2026-10-03T00:24:06.140999",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
