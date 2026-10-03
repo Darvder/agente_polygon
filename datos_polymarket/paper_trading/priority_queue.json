@@ -1,10 +1,18 @@
 [
   {
-    "id": "4759178",
-    "pregunta": "Suriname vs. Guatemala: Suriname O/U 0.5",
-    "ts": "2026-10-02T18:51:51.776580",
+    "id": "5169743",
+    "pregunta": "Will the lowest temperature in Hong Kong be 24\u00b0C on October 3?",
+    "ts": "2026-10-02T19:02:01.781696",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2d1dfd2e125a2b78fed1593385026ae59a97a495",
+    "whale_wallet": "0x06e8b7d7474f561130533455b0a9bdcc56339c25",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5169744",
+    "pregunta": "Will the lowest temperature in Hong Kong be 25\u00b0C on October 3?",
+    "ts": "2026-10-02T19:02:02.838261",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e8b7d7474f561130533455b0a9bdcc56339c25",
     "whale_signal": "COMPRAR NO"
   }
 ]
