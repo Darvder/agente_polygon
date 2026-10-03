@@ -1,130 +1,34 @@
 [
   {
-    "id": "4816603",
-    "pregunta": "Toledo Team Total: O/U 29.5",
-    "ts": "2026-10-03T16:13:22.575517",
+    "id": "4817070",
+    "pregunta": "Florida vs. Missouri",
+    "ts": "2026-10-03T16:22:12.757895",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa16a1302ca05463f30faebeb5c045767fde233a1",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4817439",
     "pregunta": "Auburn vs. Tennessee",
-    "ts": "2026-10-03T16:13:24.817132",
+    "ts": "2026-10-03T16:22:14.402338",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4817070",
-    "pregunta": "Florida vs. Missouri",
-    "ts": "2026-10-03T16:13:25.933848",
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-03T16:22:15.445190",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4818379",
     "pregunta": "Maryland vs. Nebraska",
-    "ts": "2026-10-03T16:13:27.062250",
+    "ts": "2026-10-03T16:22:16.479319",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817992",
-    "pregunta": "Spread: Ohio State (-14.5)",
-    "ts": "2026-10-03T16:13:29.297150",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5203688",
-    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers",
-    "ts": "2026-10-03T16:13:30.421337",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818643",
-    "pregunta": "Purdue vs. Illinois: O/U 61.5",
-    "ts": "2026-10-03T16:13:31.545874",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818714",
-    "pregunta": "Spread: South Carolina (-2.5)",
-    "ts": "2026-10-03T16:13:32.668481",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817164",
-    "pregunta": "Florida vs. Missouri: O/U 55.5",
-    "ts": "2026-10-03T16:13:33.845284",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4816032",
-    "pregunta": "Spread: Miami (FL) (-14.5)",
-    "ts": "2026-10-03T16:13:34.970448",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4819431",
-    "pregunta": "Spread: Texas A&M (-13.5)",
-    "ts": "2026-10-03T16:13:36.164378",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4820172",
-    "pregunta": "Utah State vs. Boise State: O/U 51.5",
-    "ts": "2026-10-03T16:13:37.619325",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4819012",
-    "pregunta": "Oregon State vs. Colorado State: O/U 61.5",
-    "ts": "2026-10-03T16:13:38.735427",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4819581",
-    "pregunta": "Spread: South Alabama (-13.5)",
-    "ts": "2026-10-03T16:13:39.862861",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817984",
-    "pregunta": "Ohio State vs. Iowa",
-    "ts": "2026-10-03T16:13:40.981945",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4816710",
-    "pregunta": "Louisville vs. NC State",
-    "ts": "2026-10-03T16:13:42.140230",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0abdea0ecefa914190c1856fb377ddd75b5b695a",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
