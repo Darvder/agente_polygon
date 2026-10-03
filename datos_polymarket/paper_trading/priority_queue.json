@@ -1,74 +1,58 @@
 [
   {
-    "id": "5203550",
-    "pregunta": "Will the highest temperature in Toronto be 21\u00b0C on October 4?",
-    "ts": "2026-10-03T17:32:57.947955",
+    "id": "4768024",
+    "pregunta": "Will CD Tolima win on 2026-10-03?",
+    "ts": "2026-10-03T17:45:13.009661",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5197850",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 22\u00b0C on October 4?",
-    "ts": "2026-10-03T17:32:59.101814",
+    "id": "4768020",
+    "pregunta": "Will CA Mineiro win on 2026-10-03?",
+    "ts": "2026-10-03T17:45:14.162885",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5198102",
-    "pregunta": "Will the highest temperature in Amsterdam be 19\u00b0C on October 4?",
-    "ts": "2026-10-03T17:33:00.245251",
+    "id": "4789017",
+    "pregunta": "CA Mineiro vs. Red Bull Bragantino: O/U 2.5",
+    "ts": "2026-10-03T17:45:15.296927",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5197961",
-    "pregunta": "Will the highest temperature in Milan be 25\u00b0C on October 4?",
-    "ts": "2026-10-03T17:33:01.481413",
+    "id": "4789217",
+    "pregunta": "CD Tolima vs. Boyac\u00e1 Chic\u00f3 FC: O/U 0.5",
+    "ts": "2026-10-03T17:45:16.388533",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5225477",
-    "pregunta": "Will the highest temperature in Helsinki be 14\u00b0C on October 5?",
-    "ts": "2026-10-03T17:33:02.785277",
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-03T17:45:17.479688",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5203558",
-    "pregunta": "Will the highest temperature in Mexico City be 19\u00b0C on October 4?",
-    "ts": "2026-10-03T17:33:03.889231",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5229021",
     "pregunta": "Will the highest temperature in Los Angeles be between 98-99\u00b0F on October 5?",
-    "ts": "2026-10-03T17:33:06.099379",
+    "ts": "2026-10-03T17:45:20.913445",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xca8432ac8200fb981ea89da18659e3184faf6f8d",
+    "whale_wallet": "0x9cf324c5f231e008ebb14f0e3950cf58c2ec31e5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5197828",
-    "pregunta": "Will the highest temperature in London be 21\u00b0C on October 4?",
-    "ts": "2026-10-03T17:33:08.392117",
+    "id": "5202946",
+    "pregunta": "Will the highest temperature in Los Angeles be between 96-97\u00b0F on October 4?",
+    "ts": "2026-10-03T17:45:22.062256",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5bae7577f470244ce8e678d20693eee2b8ffed25",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5200431",
-    "pregunta": "Will the highest temperature in Dallas be between 82-83\u00b0F on October 4?",
-    "ts": "2026-10-03T17:33:09.480141",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5bae7577f470244ce8e678d20693eee2b8ffed25",
+    "whale_wallet": "0x9cf324c5f231e008ebb14f0e3950cf58c2ec31e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
