@@ -1,10 +1,42 @@
 [
   {
+    "id": "5207791",
+    "pregunta": "Persiku Kudus vs. PSGC Ciamis: O/U 2.5",
+    "ts": "2026-10-03T05:02:37.818486",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5011060",
     "pregunta": "Counter-Strike: Team Falcons vs TYLOO - Map 1 Winner",
-    "ts": "2026-10-03T04:52:48.291863",
+    "ts": "2026-10-03T05:02:40.725207",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x62e8b5d5c6060394b0a05200e0d67049511088a1",
+    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5219335",
+    "pregunta": "Counter-Strike: Sinners vs NIP (BO3) - ROG Journey Playoffs",
+    "ts": "2026-10-03T05:02:41.765342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5219343",
+    "pregunta": "Counter-Strike: BC.Game Esports vs BBL (BO3) - ROG Journey Playoffs",
+    "ts": "2026-10-03T05:02:42.809720",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5219334",
+    "pregunta": "Counter-Strike: Sinners vs NIP - Map 2 Winner",
+    "ts": "2026-10-03T05:02:43.853825",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
     "whale_signal": "COMPRAR NO"
   }
 ]
