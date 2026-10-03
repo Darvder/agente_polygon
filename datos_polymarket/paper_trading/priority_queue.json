@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "5011117",
+    "pregunta": "Counter-Strike: G2 vs Natus Vincere - Map 2 Winner",
+    "ts": "2026-10-03T12:42:42.079486",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5193591",
+    "pregunta": "Counter-Strike: Lavked vs Nexus - Map 1 Winner",
+    "ts": "2026-10-03T12:42:43.172407",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011094",
+    "pregunta": "Counter-Strike: FURIA vs BetBoom Team - Map 1 Winner",
+    "ts": "2026-10-03T12:42:44.265012",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5223013",
+    "pregunta": "Counter-Strike: Mira vs Bounty Hunters Esports (BO3) - CCT South America Series 6 Playoffs",
+    "ts": "2026-10-03T12:42:45.361074",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5218287",
+    "pregunta": "Dota 2: 1win vs OG (BO3) - BLAST Slam Last Chance Qualifier",
+    "ts": "2026-10-03T12:42:46.452975",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011118",
+    "pregunta": "Counter-Strike: G2 vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T12:42:47.553337",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  }
+]
