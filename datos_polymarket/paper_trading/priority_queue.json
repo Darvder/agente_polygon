@@ -1,50 +1,74 @@
 [
   {
-    "id": "4728398",
-    "pregunta": "Will CS Independiente Rivadavia win on 2026-10-02?",
-    "ts": "2026-10-02T21:22:39.314973",
+    "id": "4250268",
+    "pregunta": "Bruins vs. Jets",
+    "ts": "2026-10-02T21:32:28.427910",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4728399",
-    "pregunta": "Will CS Independiente Rivadavia vs. Gimnasia y Esgrima de La Plata end in a draw?",
-    "ts": "2026-10-02T21:22:40.378085",
+    "id": "4752952",
+    "pregunta": "CS Independiente Rivadavia vs. Gimnasia y Esgrima de La Plata: O/U 2.5",
+    "ts": "2026-10-02T21:32:29.668787",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4730289",
-    "pregunta": "Will Santos FC win on 2026-10-02?",
-    "ts": "2026-10-02T21:22:42.342595",
+    "id": "4814305",
+    "pregunta": "Penn State vs. Northwestern: O/U 49.5",
+    "ts": "2026-10-02T21:32:30.729967",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe6dd9b82b1389d5b86a4837c8c09532a7fab5e33",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4756541",
-    "pregunta": "S\u00e3o Paulo FC vs. Santos FC: O/U 3.5",
-    "ts": "2026-10-02T21:22:44.479195",
+    "id": "4727411",
+    "pregunta": "Will Jamaica win on 2026-10-02?",
+    "ts": "2026-10-02T21:32:31.782963",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe6dd9b82b1389d5b86a4837c8c09532a7fab5e33",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4730476",
-    "pregunta": "Will Fortaleza EC vs. Clube N\u00e1utico Capibaribe end in a draw?",
-    "ts": "2026-10-02T21:22:45.530287",
+    "id": "4727410",
+    "pregunta": "Will El Salvador vs. Jamaica end in a draw?",
+    "ts": "2026-10-02T21:32:33.019096",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe6dd9b82b1389d5b86a4837c8c09532a7fab5e33",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4723625",
-    "pregunta": "Will Paraguay win on 2026-10-02?",
-    "ts": "2026-10-02T21:22:46.585249",
+    "id": "4814136",
+    "pregunta": "Pittsburgh vs. Virginia Tech",
+    "ts": "2026-10-02T21:32:34.073450",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe6dd9b82b1389d5b86a4837c8c09532a7fab5e33",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250280",
+    "pregunta": "Ducks vs. Golden Knights",
+    "ts": "2026-10-02T21:32:35.128483",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814269",
+    "pregunta": "Spread: Northwestern (-13.5)",
+    "ts": "2026-10-02T21:32:36.365604",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4792102",
+    "pregunta": "Fortaleza EC vs. Clube N\u00e1utico Capibaribe: O/U 2.5",
+    "ts": "2026-10-02T21:32:39.400386",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x03333873d9bf65a51946d2adda1c57702283f234",
     "whale_signal": "COMPRAR NO"
   }
 ]
