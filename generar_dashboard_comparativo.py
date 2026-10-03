@@ -950,6 +950,304 @@ def generar_dashboard():
     roi_copy = (pnl_total_copy / capital_inicial_copy) * 100.0 if capital_inicial_copy > 0 else 0.0
 
     # ──────────────────────────────────────────────────────────────
+    # 4b.2 MÉTRICAS CUANTITATIVAS DETALLADAS PARA TAB MICRO ($70)
+    # ──────────────────────────────────────────────────────────────
+    df_micro_cerradas = pd.DataFrame(micro_hist_cerradas)
+    daily_labels_micro = []
+    daily_pnl_micro = []
+    daily_roi_micro = []
+    daily_colors_micro = []
+    pnl_hoy_micro = 0.0
+    ops_hoy_micro = 0
+    wins_hoy_micro = 0
+    wr_hoy_micro = 0.0
+    dia_nombre_hoy_micro = "Hoy"
+    roi_hoy_pct_micro = 0.0
+
+    pnl_7d_micro = 0.0; roi_7d_micro = 0.0; ops_7d_micro = 0; wr_7d_micro = 0.0
+    pnl_30d_micro = 0.0; roi_30d_micro = 0.0; ops_30d_micro = 0; wr_30d_micro = 0.0
+    avg_daily_pnl_micro = 0.0; avg_daily_roi_micro = 0.0
+    volatilidad_micro = 0.0; sharpe_micro = 0.0
+    expectancy_micro = 0.0; expectancy_pct_micro = 0.0
+
+    n_target_sell_micro = 0; n_resolved_micro = 0; n_failsafe_micro = 0; n_tp_micro = 0; n_sl_micro = 0
+    yes_count_micro = 0; no_count_micro = 0
+
+    avg_dur_win_m_h = 0.0; avg_dur_loss_m_h = 0.0; avg_dur_global_m_h = 0.0
+    max_drawdown_micro = 0.0; current_drawdown_micro = 0.0
+    avg_win_micro = 0.0; avg_loss_micro = 0.0
+
+    min_sizing_micro = 3.0; max_sizing_micro = 4.0; avg_sizing_micro = 3.5; median_sizing_micro = 3.5
+    cnt_def_m = 0; cnt_bal_m = 0; cnt_asym_m = 0
+    pct_def_m = 0.0; pct_bal_m = 0.0; pct_asym_m = 0.0
+
+    whales_micro_stats = {}
+    rows_micro_detailed = []
+
+    if not df_micro_cerradas.empty:
+        df_micro_cerradas['fecha_dt'] = pd.to_datetime(df_micro_cerradas['fecha_cierre_real'].fillna(df_micro_cerradas['fecha_entrada']), errors='coerce')
+        df_micro_cerradas['fecha_in'] = pd.to_datetime(df_micro_cerradas['fecha_entrada'], errors='coerce')
+        df_micro_cerradas = df_micro_cerradas.sort_values('fecha_dt').reset_index(drop=True)
+
+        rc_counts = df_micro_cerradas['razon_cierre'].value_counts()
+        n_target_sell_micro = int(rc_counts.get("TARGET_SELL", 0))
+        n_resolved_micro = int(rc_counts.get("RESOLVED_EXIT", 0))
+        n_failsafe_micro = int(rc_counts.get("FAILSAFE_SYNC_EXIT", 0))
+        n_tp_micro = int(rc_counts.get("TAKE_PROFIT", 0))
+        n_sl_micro = int(rc_counts.get("STOP_LOSS", 0))
+
+        for oc in df_micro_cerradas.get('outcome', []):
+            if str(oc).upper() in ['YES', 'SÍ', 'SI']: yes_count_micro += 1
+            else: no_count_micro += 1
+
+        montos_m = df_micro_cerradas['monto_usdc'].dropna().astype(float)
+        if not montos_m.empty:
+            min_sizing_micro = float(montos_m.min())
+            max_sizing_micro = float(montos_m.max())
+            avg_sizing_micro = float(montos_m.mean())
+            median_sizing_micro = float(montos_m.median())
+            cnt_def_m = int((montos_m <= 3.3).sum())
+            cnt_bal_m = int(((montos_m > 3.3) & (montos_m <= 3.7)).sum())
+            cnt_asym_m = int((montos_m > 3.7).sum())
+            t_m = len(montos_m)
+            pct_def_m = (cnt_def_m / t_m) * 100.0 if t_m > 0 else 0.0
+            pct_bal_m = (cnt_bal_m / t_m) * 100.0 if t_m > 0 else 0.0
+            pct_asym_m = (cnt_asym_m / t_m) * 100.0 if t_m > 0 else 0.0
+
+        wins_m = df_micro_cerradas[df_micro_cerradas['pnl_realizado'] > 0]
+        losses_m = df_micro_cerradas[df_micro_cerradas['pnl_realizado'] < 0]
+        avg_win_micro = float(wins_m['pnl_realizado'].mean()) if not wins_m.empty else 0.0
+        avg_loss_micro = float(abs(losses_m['pnl_realizado'].mean())) if not losses_m.empty else 0.0
+
+        df_micro_cerradas['dur_h'] = (df_micro_cerradas['fecha_dt'] - df_micro_cerradas['fecha_in']).dt.total_seconds() / 3600.0
+        valid_dur_m = df_micro_cerradas[df_micro_cerradas['dur_h'] >= 0]
+        if not valid_dur_m.empty:
+            avg_dur_win_m_h = float(valid_dur_m[valid_dur_m['pnl_realizado'] > 0]['dur_h'].mean())
+            avg_dur_loss_m_h = float(valid_dur_m[valid_dur_m['pnl_realizado'] < 0]['dur_h'].mean())
+            avg_dur_global_m_h = float(valid_dur_m['dur_h'].mean())
+
+        df_micro_cerradas['cum_pnl'] = df_micro_cerradas['pnl_realizado'].cumsum()
+        eq_m = micro_cap_ini + df_micro_cerradas['cum_pnl']
+        peak_m = eq_m.cummax()
+        dd_m = ((eq_m - peak_m) / peak_m) * 100.0
+        max_drawdown_micro = float(dd_m.min()) if not dd_m.empty else 0.0
+        current_drawdown_micro = float(dd_m.iloc[-1]) if not dd_m.empty else 0.0
+
+        expectancy_micro = (micro_pnl_realizado / len(df_micro_cerradas)) if len(df_micro_cerradas) > 0 else 0.0
+        expectancy_pct_micro = (expectancy_micro / (avg_sizing_micro if avg_sizing_micro > 0 else 3.5)) * 100.0
+
+        df_micro_cerradas['dia_str'] = df_micro_cerradas['fecha_dt'].dt.strftime('%d %b')
+        daily_grouped_m = df_micro_cerradas.groupby('dia_str', sort=False).agg(
+            pnl_dia=('pnl_realizado', 'sum'),
+            ops=('pnl_realizado', 'count'),
+            wins=('pnl_realizado', lambda x: (x > 0).sum())
+        ).reset_index()
+
+        daily_labels_micro = daily_grouped_m['dia_str'].tolist()
+        daily_pnl_micro = [round(float(v), 2) for v in daily_grouped_m['pnl_dia'].tolist()]
+        daily_roi_micro = [round((float(v) / micro_cap_ini) * 100.0, 2) for v in daily_pnl_micro]
+        daily_colors_micro = ['#10b981' if v >= 0 else '#ef4444' for v in daily_pnl_micro]
+
+        if not daily_grouped_m.empty:
+            ultimo_dia_m = daily_grouped_m.iloc[-1]
+            pnl_hoy_micro = float(ultimo_dia_m['pnl_dia'])
+            ops_hoy_micro = int(ultimo_dia_m['ops'])
+            wins_hoy_micro = int(ultimo_dia_m['wins'])
+            wr_hoy_micro = (wins_hoy_micro / ops_hoy_micro * 100.0) if ops_hoy_micro > 0 else 0.0
+            dia_nombre_hoy_micro = str(ultimo_dia_m['dia_str'])
+            roi_hoy_pct_micro = (pnl_hoy_micro / micro_cap_ini) * 100.0
+
+        pnl_7d_micro = micro_pnl_realizado
+        roi_7d_micro = micro_roi
+        ops_7d_micro = len(df_micro_cerradas)
+        wr_7d_micro = micro_win_rate
+
+        pnl_30d_micro = micro_pnl_realizado
+        roi_30d_micro = micro_roi
+        ops_30d_micro = len(df_micro_cerradas)
+        wr_30d_micro = micro_win_rate
+
+        daily_active_m = df_micro_cerradas.groupby(df_micro_cerradas['fecha_dt'].dt.date)['pnl_realizado'].sum()
+        avg_daily_pnl_micro = float(daily_active_m.mean()) if not daily_active_m.empty else 0.0
+        avg_daily_roi_micro = (avg_daily_pnl_micro / micro_cap_ini) * 100.0
+
+        daily_rets_pct_m = (daily_active_m / micro_cap_ini) * 100.0
+        volatilidad_micro = float(daily_rets_pct_m.std()) if len(daily_rets_pct_m) > 1 else 0.0
+        sharpe_micro = (daily_rets_pct_m.mean() / (volatilidad_micro if volatilidad_micro > 0 else 1.0)) * (365 ** 0.5) if volatilidad_micro > 0 else 0.0
+
+        for _, pm in df_micro_cerradas.iterrows():
+            w_addr = pm.get("target_wallet", "Desconocido")
+            pnl_op_m = float(pm.get("pnl_realizado", 0.0))
+            if w_addr not in whales_micro_stats:
+                whales_micro_stats[w_addr] = {
+                    "address": w_addr,
+                    "name": WHALE_NAMES_NORM.get(w_addr.lower(), w_addr[:8] + "..." + w_addr[-4:]),
+                    "wins": 0, "losses": 0, "closed_pnl": 0.0, "floating_pnl": 0.0,
+                    "active_count": 0, "total_count": 0
+                }
+            whales_micro_stats[w_addr]["total_count"] += 1
+            whales_micro_stats[w_addr]["closed_pnl"] += pnl_op_m
+            if pnl_op_m > 0: whales_micro_stats[w_addr]["wins"] += 1
+            elif pnl_op_m < 0: whales_micro_stats[w_addr]["losses"] += 1
+
+        for pam in micro_pos_abiertas:
+            w_addr = pam.get("target_wallet", "Desconocido")
+            m_usdc = float(pam.get("monto_usdc", 4.0))
+            pte_m = float(pam.get("precio_token_entrada", 0.5))
+            pta_m = float(pam.get("precio_actual", pte_m))
+            pnl_flot_m = (pta_m - pte_m) * (m_usdc / pte_m) if pte_m > 0 else 0.0
+            if w_addr not in whales_micro_stats:
+                whales_micro_stats[w_addr] = {
+                    "address": w_addr,
+                    "name": WHALE_NAMES_NORM.get(w_addr.lower(), w_addr[:8] + "..." + w_addr[-4:]),
+                    "wins": 0, "losses": 0, "closed_pnl": 0.0, "floating_pnl": 0.0,
+                    "active_count": 0, "total_count": 0
+                }
+            whales_micro_stats[w_addr]["active_count"] += 1
+            whales_micro_stats[w_addr]["total_count"] += 1
+            whales_micro_stats[w_addr]["floating_pnl"] += pnl_flot_m
+
+        for _, pm in df_micro_cerradas.iterrows():
+            fecha = str(pm.get('fecha_cierre_real', pm.get('fecha_entrada', '—')))
+            pnl_op = float(pm.get('pnl_realizado', 0.0))
+            clase_row = "ganada" if pnl_op > 0 else ("perdida" if pnl_op < 0 else "neutral")
+            razon = str(pm.get('razon_cierre', 'CERRADA'))
+            whale_addr = pm.get('target_wallet', '')
+            whale_name = WHALE_NAMES_NORM.get(whale_addr.lower(), whale_addr[:8] + "..." + whale_addr[-4:])
+            tx_h = pm.get('tx_hash', '')
+            tx_link = f"https://polygonscan.com/tx/{tx_h}" if tx_h and tx_h.startswith('0x') else '#'
+            outcome = pm.get('outcome', 'YES')
+
+            datos_js_closed = {
+                "pregunta": pm.get('pregunta', 'Mercado'),
+                "senal": f"MICRO {outcome}",
+                "monto": f"${float(pm.get('monto_usdc', 0)):,.2f} USDC",
+                "confianza": "—",
+                "edge": "—",
+                "precio_entrada": f"{float(pm.get('precio_token_entrada', 0.5)):.3f}",
+                "precio_actual": f"{float(pm.get('precio_cierre', 0.5)):.3f}",
+                "pnl": f"{'+' if pnl_op>=0 else ''}${pnl_op:,.2f}",
+                "pnl_raw": pnl_op,
+                "salida": razon,
+                "razonamiento": f"Operación cerrada en cartera Micro ($70).<br>Copiado de Whale <strong>{whale_name}</strong> ({whale_addr}).<br><br>Razón de salida: <strong>{razon}</strong>.<br>P&L Realizado: ${pnl_op:+.2f} USDC.<br><br>Transacción en Polygonscan: <a href='{tx_link}' target='_blank' style='color:#38bdf8'>{tx_h}</a>"
+            }
+
+            row_html = f'''
+            <tr class="{clase_row}">
+                <td>{fecha}</td>
+                <td class="txt-truncate" title="{pm.get('pregunta', '')}">{pm.get('pregunta', '')}</td>
+                <td><span class="badge-tabla">{outcome}</span></td>
+                <td>${float(pm.get('monto_usdc', 0)):.2f}</td>
+                <td class="bold-pnl">{'+' if pnl_op>=0 else ''}${pnl_op:.2f}</td>
+                <td><span class="badge-razon {razon.lower()}">{razon}</span></td>
+                <td>
+                    <button class="btn-ver-cot-tabla" onclick="abrirModalDesdeBtn(this)" data-info="{html.escape(json.dumps(datos_js_closed))}">🔍</button>
+                </td>
+            </tr>'''
+            rows_micro_detailed.append(row_html)
+
+    ops_cerradas_micro_tabla_html = "".join(reversed(rows_micro_detailed))
+    if not ops_cerradas_micro_tabla_html:
+        ops_cerradas_micro_tabla_html = '<tr><td colspan="7" class="no-data">Sin historial de operaciones en cartera Micro ($70).</td></tr>'
+
+    total_tp_sl_micro = n_tp_micro + n_sl_micro
+    wr_estrat_micro = (n_tp_micro / total_tp_sl_micro * 100.0) if total_tp_sl_micro > 0 else 0.0
+    tp_sl_ratio_micro = f"{(n_tp_micro / n_sl_micro):.2f}" if n_sl_micro > 0 else "∞"
+
+    whales_micro_list = list(whales_micro_stats.values())
+    whales_micro_list.sort(key=lambda w: (w["closed_pnl"] + w["floating_pnl"]), reverse=True)
+    whales_table_micro_html = ""
+    for w in whales_micro_list:
+        total_pnl = w["closed_pnl"] + w["floating_pnl"]
+        p_clase = "positive" if total_pnl >= 0 else "negative"
+        p_sign = "+" if total_pnl > 0 else ""
+        t_closed = w["wins"] + w["losses"]
+        w_wr = (w["wins"] / t_closed * 100) if t_closed > 0 else 0.0
+        w_wr_str = f"{w_wr:.1f}%" if t_closed > 0 else "—"
+        wr_color = "#10b981" if w_wr >= 50 else ("#ef4444" if t_closed > 0 else "var(--muted)")
+        avg_pnl = (w["closed_pnl"] / t_closed) if t_closed > 0 else 0.0
+        avg_clase = "positive" if avg_pnl >= 0 else "negative"
+        is_active = w["active_count"] > 0
+        dot_color = "var(--green)" if is_active else "var(--gray)"
+        dot_glow = "0 0 6px var(--green)" if is_active else "none"
+        addr_short = w["address"][:8] + "..." + w["address"][-6:] if len(w["address"]) > 14 else w["address"]
+        tx_link = f'https://polygonscan.com/address/{w["address"]}'
+
+        whales_table_micro_html += f'''
+        <tr class="whale-row" data-search="{w['name'].lower()} {w['address'].lower()}">
+          <td>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <span class="status-dot" style="width:7px; height:7px; background-color:{dot_color}; box-shadow:{dot_glow}; flex-shrink:0;"></span>
+              <div>
+                <strong style="color:#fff; font-family:var(--font-head); font-size:0.9rem;">{w['name']}</strong>
+                <div style="font-size:0.68rem; font-family:var(--font-mono); color:var(--muted);">
+                  <a href="{tx_link}" target="_blank" style="color:var(--muted); text-decoration:none;">{addr_short} ↗</a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td style="text-align:center; font-family:var(--font-mono); font-weight:700; color:{'#38bdf8' if is_active else 'var(--muted)'};">{w['active_count']}</td>
+          <td style="text-align:center; font-family:var(--font-mono); color:var(--muted);">{t_closed}</td>
+          <td style="text-align:center; font-family:var(--font-mono);">{w['total_count']}</td>
+          <td style="text-align:center; font-family:var(--font-mono); font-weight:600; color:{wr_color};">{w_wr_str} <span style="font-size:0.68rem; color:var(--muted); font-weight:400;">({w['wins']}W/{w['losses']}L)</span></td>
+          <td style="text-align:right; font-family:var(--font-mono); font-weight:700;" class="{'positive' if w['closed_pnl'] >= 0 else 'negative'}">{'+' if w['closed_pnl'] > 0 else ''}${w['closed_pnl']:.2f}</td>
+          <td style="text-align:right; font-family:var(--font-mono);" class="{'positive' if w['floating_pnl'] >= 0 else 'negative'}">{'+' if w['floating_pnl'] > 0 else ''}${w['floating_pnl']:.2f}</td>
+          <td style="text-align:right; font-family:var(--font-mono); font-weight:700;" class="{p_clase}">{p_sign}${total_pnl:.2f}</td>
+          <td style="text-align:center; font-family:var(--font-mono);"><span class="badge {'positive' if avg_pnl >= 0 else 'negative'}" style="font-size:0.75rem;">{'+' if avg_pnl > 0 else ''}${avg_pnl:.2f}</span></td>
+        </tr>'''
+
+    # Categorías para Micro
+    categorias_micro_html = ""
+    if not df_micro_cerradas.empty and 'pregunta' in df_micro_cerradas.columns:
+        df_micro_cerradas['categoria'] = df_micro_cerradas['pregunta'].apply(clasificar_categoria)
+        cat_m_grouped = df_micro_cerradas.groupby('categoria').agg(
+            ops=('pnl_realizado', 'count'),
+            pnl=('pnl_realizado', 'sum'),
+            wins=('pnl_realizado', lambda x: (x > 0).sum())
+        ).reset_index()
+        cat_m_grouped['wr'] = (cat_m_grouped['wins'] / cat_m_grouped['ops'] * 100).round(1)
+        cat_m_grouped['pnl'] = cat_m_grouped['pnl'].round(2)
+        cat_m_grouped = cat_m_grouped.sort_values('pnl', ascending=False)
+
+        for _, cat in cat_m_grouped.iterrows():
+            c_name = cat['categoria']
+            icon = cat_icons.get(c_name, '📊')
+            c_pnl = cat['pnl']
+            c_ops = int(cat['ops'])
+            c_wr = cat['wr']
+            c_sign = "+" if c_pnl > 0 else ""
+            c_clase = "positive" if c_pnl >= 0 else "negative"
+
+            categorias_micro_html += f'''
+            <div class="cat-card">
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+                <span style="font-family:var(--font-head); font-weight:700; font-size:0.92rem; color:#fff; display:flex; align-items:center; gap:0.35rem;">
+                  {icon} {c_name}
+                </span>
+                <span class="badge {c_clase} bold" style="font-size:0.85rem; font-family:var(--font-mono);">
+                  {c_sign}${c_pnl:.2f}
+                </span>
+              </div>
+              <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.72rem; color:var(--muted); font-family:var(--font-mono);">
+                <span>Ops: <strong style="color:#fff;">{c_ops}</strong></span>
+                <span>Win Rate: <strong style="color:{'#10b981' if c_wr>=50 else '#ef4444'}">{c_wr:.1f}%</strong></span>
+              </div>
+              <div style="width:100%; height:4px; background:rgba(255,255,255,0.05); border-radius:2px; margin-top:0.5rem; overflow:hidden;">
+                <div style="height:100%; width:{min(100.0, max(5.0, c_wr))}%; background:{'#10b981' if c_wr>=50 else '#ef4444'}; border-radius:2px;"></div>
+              </div>
+            </div>'''
+
+    total_signals_micro = yes_count_micro + no_count_micro
+    pct_yes_micro = (yes_count_micro / total_signals_micro * 100) if total_signals_micro > 0 else 50.0
+    pct_no_micro = (no_count_micro / total_signals_micro * 100) if total_signals_micro > 0 else 50.0
+    senal_dominante_micro = "YES" if yes_count_micro >= no_count_micro else "NO"
+
+    donut_labels_micro = ['Whale Sell', 'Market Resolved', 'Failsafe Exit', 'Take Profit', 'Stop Loss']
+    donut_data_micro = [n_target_sell_micro, n_resolved_micro, n_failsafe_micro, n_tp_micro, n_sl_micro]
+    donut_colors_micro = ['#06b6d4', '#10b981', '#f59e0b', '#3b82f6', '#ef4444']
+
+
+    # ──────────────────────────────────────────────────────────────
     # 4c. MÉTRICAS SINCRONIZADAS: MACRO ($1,000) EN EL MISMO PERIODO DE MICRO
     # ──────────────────────────────────────────────────────────────
     # Determinamos la fecha/hora de inicio del experimento Micro
@@ -1065,6 +1363,35 @@ def generar_dashboard():
     chart_labels_comp = [dt.strftime("%d %b %H:%M") for dt in df_grid.index]
     chart_data_hib_comp = [round(float(v), 2) for v in df_grid['hib_pnl']]
     chart_data_copy_comp = [round(float(v), 2) for v in df_grid['copy_pnl']]
+
+    # Micro Serie Horaria Regular
+    if not df_micro_cerradas.empty and 'fecha_dt' in df_micro_cerradas.columns:
+        m_valid = df_micro_cerradas.dropna(subset=['fecha_dt']).sort_values('fecha_dt').copy()
+        m_valid['pnl_realizado'] = pd.to_numeric(m_valid['pnl_realizado'], errors='coerce').fillna(0.0)
+        m_valid['cum_pnl'] = m_valid['pnl_realizado'].cumsum()
+        m_valid['is_win'] = (m_valid['pnl_realizado'] > 0).astype(int)
+        m_valid['rolling_wr'] = m_valid['is_win'].rolling(window=20, min_periods=1).mean() * 100.0
+
+        m_hourly_pnl = m_valid.set_index('fecha_dt')[['cum_pnl']].resample('1h').last()
+        m_hourly_wr = m_valid.set_index('fecha_dt')[['rolling_wr']].resample('1h').last()
+
+        df_grid['micro_pnl'] = m_hourly_pnl['cum_pnl']
+        df_grid['micro_wr'] = m_hourly_wr['rolling_wr']
+        df_grid['micro_pnl'] = df_grid['micro_pnl'].ffill().fillna(0.0)
+        df_grid['micro_wr'] = df_grid['micro_wr'].ffill().fillna(50.0)
+
+        eq_curve_micro = micro_cap_ini + df_grid['micro_pnl']
+        peak_curve_micro = eq_curve_micro.cummax()
+        df_grid['micro_drawdown'] = ((eq_curve_micro - peak_curve_micro) / peak_curve_micro) * 100.0
+    else:
+        df_grid['micro_pnl'] = 0.0
+        df_grid['micro_wr'] = 50.0
+        df_grid['micro_drawdown'] = 0.0
+
+    fechas_micro_chart = chart_labels_comp
+    valores_micro_chart = [round(float(v), 2) for v in df_grid['micro_pnl']]
+    drawdown_series_micro = [round(float(v), 2) for v in df_grid['micro_drawdown']]
+    rolling_wr_series_micro = [round(float(v), 1) for v in df_grid['micro_wr']]
 
     fechas_copy = chart_labels_comp
     valores_copy = chart_data_copy_comp
@@ -1246,6 +1573,13 @@ body::before {
   color: #38bdf8;
   border-color: rgba(2, 132, 199, 0.4);
   box-shadow: 0 0 15px rgba(2, 132, 199, 0.15);
+}
+
+.main-nav-btn.active#nav-btn-micro {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border-color: rgba(56, 189, 248, 0.45);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
 }
 
 /* Master Layout */
@@ -2273,6 +2607,9 @@ tr:hover td {
       <button class="main-nav-btn" id="nav-btn-copy" onclick="switchMainTab('copy')">
         <span class="btn-icon">🎯</span> Agente Copy-Trader
       </button>
+      <button class="main-nav-btn" id="nav-btn-micro" onclick="switchMainTab('micro')">
+        <span class="btn-icon">💎</span> Agente Micro ($70)
+      </button>
     </div>
   </div>
 </nav>
@@ -3070,6 +3407,345 @@ tr:hover td {
     </div>
   </div>
 
+  <!-- ========================================== -->
+  <!-- TAB 4: DETALLE AGENTE MICRO ($70)          -->
+  <!-- ========================================== -->
+  <div id="view-micro" class="tab-view hidden-tab-view">
+    <header>
+      <div class="tab-title-desc">
+        <h1>💎 Agente Copy-Trader <span class="accent-copy" style="color:#38bdf8;">Micro ($70)</span></h1>
+        <p>Smart Money Follower · Perfil Capital Reducido ($70 Base) · 18 Cupos Simultáneos</p>
+      </div>
+      <div class="header-meta-container">
+        <div class="status-badge" style="background:rgba(56,189,248,0.1); border-color:#38bdf8;">
+          <span class="status-dot pulse" style="background-color:#38bdf8; box-shadow:0 0 10px #38bdf8"></span>
+          <span class="status-text" style="color:#38bdf8">SIMULACIÓN EN VIVO</span>
+        </div>
+        <div class="meta-header">
+          Ciclos de Monitoreo: <strong>#__CICLOS_COPY__</strong><br>
+          Última corrida local: <strong>__ULTIMA_ACTUALIZACION__</strong><br>
+          Posiciones activas: <strong>__ACTIVE_COUNT_MICRO__ / __MAX_POSICIONES_MICRO__</strong>
+        </div>
+      </div>
+    </header>
+
+    <!-- Métricas Micro Detailed -->
+    <div class="grid-metricas">
+      <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
+        <h4>Capital Disponible</h4>
+        <div class="val" style="color:#38bdf8;">__CAPITAL_ACTUAL_MICRO__</div>
+        <div class="sub">USDC · inicial $70.00</div>
+      </div>
+      <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
+        <h4>Valor Neto Flotante</h4>
+        <div class="val __EQUITY_CLASE_MICRO__">__NET_EQUITY_MICRO_VAL__</div>
+        <div class="sub">Efectivo + flotante (__ROI_MICRO__%)</div>
+      </div>
+      <div class="card-m" style="--accent: #818cf8; --accent-hover: #a5b4fc; --accent-glow: rgba(129, 140, 248, 0.2)">
+        <h4>USDC En Riesgo</h4>
+        <div class="val" style="color:#818cf8">__CAPITAL_EN_RIESGO_MICRO__</div>
+        <div class="sub">En __ACTIVE_COUNT_MICRO__/__MAX_POSICIONES_MICRO__ posiciones</div>
+      </div>
+      <div class="card-m" style="--accent: var(--green); --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.25)">
+        <h4>P&L Realizado Total</h4>
+        <div class="val __PNL_CLASE_MICRO__">__PNL_REALIZADO_MICRO__</div>
+        <div class="sub">__TOTAL_CERRADAS_MICRO__ ops cerradas</div>
+      </div>
+      <div class="card-m" style="--accent: #10b981; --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.25)">
+        <h4>Retorno Hoy (__DIA_NOMBRE_HOY_MICRO__)</h4>
+        <div class="val __PNL_HOY_CLASE_MICRO__">__PNL_HOY_MICRO__</div>
+        <div class="sub">__ROI_HOY_MICRO__% ROI · __OPS_HOY_MICRO__ ops (__WR_HOY_MICRO__% WR)</div>
+      </div>
+      <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
+        <h4>Retorno Semanal (7D)</h4>
+        <div class="val positive">__PNL_7D_MICRO__</div>
+        <div class="sub">__ROI_7D_MICRO__% ROI · __OPS_7D_MICRO__ ops (__WR_7D_MICRO__% WR)</div>
+      </div>
+      <div class="card-m" style="--accent: #0284c7; --accent-hover: #38bdf8; --accent-glow: rgba(2, 132, 199, 0.25)">
+        <h4>Retorno Mensual (30D)</h4>
+        <div class="val positive">__PNL_30D_MICRO__</div>
+        <div class="sub">__ROI_30D_MICRO__% ROI · __OPS_30D_MICRO__ ops (__WR_30D_MICRO__% WR)</div>
+      </div>
+      <div class="card-m" style="--accent: #a78bfa; --accent-hover: #c084fc; --accent-glow: rgba(167, 139, 250, 0.2)">
+        <h4>Promedio Diario Activo</h4>
+        <div class="val" style="color:#c084fc">__AVG_DAILY_PNL_MICRO__</div>
+        <div class="sub">__AVG_DAILY_ROI_MICRO__% / día en periodo activo</div>
+      </div>
+      <div class="card-m" style="--accent: #34d399; --accent-hover: #6ee7b7; --accent-glow: rgba(52, 211, 153, 0.2)">
+        <h4>Expectativa / Trade</h4>
+        <div class="val" style="color:#34d399">__EXPECTANCY_MICRO__</div>
+        <div class="sub">__EXPECTANCY_PCT_MICRO__% sobre tamaño medio</div>
+      </div>
+      <div class="card-m" style="--accent: #f59e0b; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
+        <h4>Volatilidad & Sharpe</h4>
+        <div class="val" style="font-size:1.15rem; display:flex; align-items:center; gap:0.4rem; height:2.7rem; color:#fbbf24">
+          <span>__VOLATILIDAD_MICRO__%</span>
+          <span style="color:var(--muted); font-weight:400; font-size:0.85rem">/ SR</span>
+          <span style="color:#10b981">__SHARPE_MICRO__</span>
+        </div>
+        <div class="sub">Vol diaria / Sharpe anualizado</div>
+      </div>
+      <div class="card-m" style="--accent: #fbbf24; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
+        <h4>Win Rate Global</h4>
+        <div class="val" style="color:#fbbf24">__WIN_RATE_MICRO__%</div>
+        <div class="sub">__TOTAL_GANADAS_MICRO__W · __TOTAL_PERDIDAS_MICRO__L</div>
+      </div>
+      <div class="card-m" style="--accent: #10b981; --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.2)">
+        <h4>Win Rate Estratégico (TP/SL)</h4>
+        <div class="val" style="color:#10b981">__WR_ESTRAT_MICRO__%</div>
+        <div class="sub">__N_TP_MICRO__ TP vs __N_SL_MICRO__ SL (Ratio __TP_SL_RATIO_MICRO__)</div>
+      </div>
+      <div class="card-m" style="--accent: #fbbf24; --accent-hover: #fbbf24; --accent-glow: rgba(245, 158, 11, 0.2)">
+        <h4>Profit Factor</h4>
+        <div class="val __PF_CLASE_MICRO__">__PROFIT_FACTOR_MICRO__</div>
+        <div class="sub">Ratio Ganancias / Pérdidas</div>
+      </div>
+      <div class="card-m" style="--accent: #ef4444; --accent-hover: #f87171; --accent-glow: rgba(239, 68, 68, 0.2)">
+        <h4>Drawdown Máximo</h4>
+        <div class="val negative">__MAX_DRAWDOWN_MICRO__%</div>
+        <div class="sub">Actual: __CURRENT_DRAWDOWN_MICRO__% (Pico $103.41 ATH)</div>
+      </div>
+      <div class="card-m" style="--accent: var(--green); --accent-hover: #34d399; --accent-glow: rgba(16, 185, 129, 0.2)">
+        <h4>Avg Win / Loss</h4>
+        <div class="val" style="font-size:1.15rem; display:flex; align-items:center; gap:0.4rem; height:2.7rem">
+          <span class="positive">+__AVG_WIN_MICRO__</span>
+          <span style="color:var(--muted); font-weight:400">/</span>
+          <span class="negative">__AVG_LOSS_MICRO__</span>
+        </div>
+        <div class="sub">Promedio ganadores/perdedores</div>
+      </div>
+      <div class="card-m" style="--accent: #8b5cf6; --accent-hover: #c084fc; --accent-glow: rgba(139, 92, 246, 0.2)">
+        <h4>Duración Promedio</h4>
+        <div class="val" style="color:#c084fc">__DUR_GLOBAL_MICRO__h</div>
+        <div class="sub">__DUR_WIN_MICRO__h Win / __DUR_LOSS_MICRO__h Loss</div>
+      </div>
+    </div>
+
+    <!-- Tabla Interactiva de Whales Seguidos en Micro -->
+    <div class="panel" style="margin-bottom:2rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+        <h3 style="margin-bottom:0; display:flex; align-items:center; gap:0.5rem; color:#38bdf8;">
+          🐳 Monitoreo y Rendimiento por Whale (Cartera Micro $70)
+        </h3>
+        <div class="search-box" style="min-width:280px;">
+          <input type="text" id="searchWhalesMicro" placeholder="🔍 Buscar whale, nombre o wallet..." onkeyup="filterWhalesMicroTable()">
+        </div>
+      </div>
+      <div class="whale-table-container" style="max-height:420px; overflow-y:auto; border:1px solid var(--border); border-radius:12px;">
+        <table class="whale-table" style="width:100%; border-collapse:collapse;">
+          <thead style="position:sticky; top:0; background:rgba(8, 12, 28, 0.95); backdrop-filter:blur(8px); z-index:10;">
+            <tr>
+              <th style="text-align:left;">Whale / Wallet</th>
+              <th style="text-align:center;">Activas</th>
+              <th style="text-align:center;">Cerradas</th>
+              <th style="text-align:center;">Total</th>
+              <th style="text-align:center;">Win Rate</th>
+              <th style="text-align:right;">P&L Realizado</th>
+              <th style="text-align:right;">P&L Flotante</th>
+              <th style="text-align:right;">P&L Total</th>
+              <th style="text-align:center;">Avg / Op</th>
+            </tr>
+          </thead>
+          <tbody id="tablaWhalesMicroBody">
+            __WHALES_TABLE_MICRO_HTML__
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Gráficos Row 1: PnL Acumulado (Día + Hora) y Evolución Diaria de Retornos Micro -->
+    <div class="row-2">
+      <div class="panel">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="margin-bottom:0; color:#38bdf8;">💎 Curva P&L Acumulado Agente Micro ($70)</h3>
+          <span style="font-size:0.72rem; color:var(--muted); font-family:var(--font-mono);"><span style="color:#38bdf8;">●</span> Paso regular 1h (Escala Lineal)</span>
+        </div>
+        <div style="height:320px; position:relative">
+          <canvas id="chartMicroPnl"></canvas>
+        </div>
+      </div>
+      <div class="panel">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="margin-bottom:0;">📅 Evolución del Retorno Diario Micro</h3>
+          <div class="metric-toggle-group">
+            <button class="metric-toggle-btn active" id="btnToggleUsdMicro" onclick="setDailyViewMicro('usd')">$ USD</button>
+            <button class="metric-toggle-btn" id="btnToggleRoiMicro" onclick="setDailyViewMicro('roi')">% ROI</button>
+          </div>
+        </div>
+        <div style="height:320px; position:relative">
+          <canvas id="chartMicroDaily"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gráficos Row 2: Drawdown Histórico y Rolling Win Rate Micro -->
+    <div class="row-2" style="margin-top:1.5rem;">
+      <div class="panel">
+        <h3>📉 Curva de Drawdown Histórico Micro (% Caída desde ATH)</h3>
+        <div style="height:260px; position:relative">
+          <canvas id="chartMicroDrawdown"></canvas>
+        </div>
+      </div>
+      <div class="panel">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="margin-bottom:0;">🎯 Evolución Dinámica del Win Rate Micro (Ventana 20 Ops)</h3>
+          <span style="font-size:0.72rem; color:var(--muted); font-family:var(--font-mono);"><span style="color:rgba(239, 68, 68, 0.9); font-weight:700;">---</span> Umbral 50%</span>
+        </div>
+        <div style="height:260px; position:relative">
+          <canvas id="chartMicroRollingWr"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gráficos Row 3: Distribución de Salidas y Señales Micro -->
+    <div class="panel" style="margin-top:1.5rem; margin-bottom:2rem;">
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1.5rem;">
+        <div>
+          <h3>🎯 Distribución de Salidas Micro</h3>
+          <div style="height:190px; position:relative; margin-bottom:1rem">
+            <canvas id="chartMicroDonut"></canvas>
+          </div>
+          <div class="breakdown-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));">
+            <div class="bk-item"><div class="bk-dot" style="background:#06b6d4"></div><div><div class="bk-label">Whale Sell</div><div class="bk-count" style="color:#06b6d4">__N_TARGET_SELL_MICRO__</div></div></div>
+            <div class="bk-item"><div class="bk-dot" style="background:#10b981"></div><div><div class="bk-label">Resolved</div><div class="bk-count" style="color:#10b981">__N_RESOLVED_MICRO__</div></div></div>
+            <div class="bk-item"><div class="bk-dot" style="background:#f59e0b"></div><div><div class="bk-label">Failsafe</div><div class="bk-count" style="color:#f59e0b">__N_FAILSAFE_MICRO__</div></div></div>
+            <div class="bk-item"><div class="bk-dot" style="background:#3b82f6"></div><div><div class="bk-label">Take Profit</div><div class="bk-count" style="color:#3b82f6">__N_TP_MICRO__</div></div></div>
+            <div class="bk-item"><div class="bk-dot" style="background:#ef4444"></div><div><div class="bk-label">Stop Loss</div><div class="bk-count" style="color:#ef4444">__N_SL_MICRO__</div></div></div>
+          </div>
+        </div>
+        <div>
+          <h3>⚖️ Distribución de Señales Micro</h3>
+          <div style="margin-top:2rem;">
+            <div class="yes-no-bar-container">
+              <div class="yes-no-bar-yes" style="width: __PCT_YES_MICRO__%;"></div>
+            </div>
+            <div class="yes-no-labels" style="margin-top:0.75rem;">
+              <span class="positive" style="color:#38bdf8">YES: __YES_COUNT_MICRO__ (__PCT_YES_MICRO_STR__%)</span>
+              <span class="negative">NO: __NO_COUNT_MICRO__ (__PCT_NO_MICRO_STR__%)</span>
+            </div>
+            <div style="margin-top:2rem; padding:1rem; background:rgba(8, 12, 20, 0.45); border-radius:10px; border:1px solid var(--border);">
+              <div style="font-size:0.75rem; color:var(--muted); font-family:var(--font-mono);">
+                💡 <strong>Preferencia de Entrada:</strong> Mayoría en <strong>__SEÑAL_DOMINANTE_MICRO__</strong> con dimensionamiento escalado ($3.00 - $4.00 USDC).
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel de Distribución de Sizing Dinámico Micro -->
+    <div class="panel" style="margin-bottom:2rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:0.5rem;">
+        <h3 style="margin-bottom:0; display:flex; align-items:center; gap:0.5rem; color:#38bdf8;">
+          ⚖️ Distribución de Sizing Dinámico Micro ($70)
+        </h3>
+        <div style="display:flex; gap:0.8rem; font-family:var(--font-mono); font-size:0.75rem;">
+          <span style="color:var(--muted)">Mín: <strong style="color:#fff">${min_sizing_micro:.2f}</strong></span>
+          <span style="color:var(--muted)">Mediana: <strong style="color:#fff">${median_sizing_micro:.2f}</strong></span>
+          <span style="color:var(--muted)">Promedio: <strong style="color:#38bdf8">${avg_sizing_micro:.2f}</strong></span>
+          <span style="color:var(--muted)">Máx: <strong style="color:#fff">${max_sizing_micro:.2f}</strong></span>
+        </div>
+      </div>
+      
+      <div style="height:16px; width:100%; background:rgba(255,255,255,0.04); border-radius:8px; overflow:hidden; display:flex; margin-bottom:1rem; border:1px solid rgba(255,255,255,0.06);">
+        <div style="width:__PCT_DEF_MICRO__%; background:#38bdf8; transition:width 0.5s;" title="Defensivo ($3.00-$3.30): __CNT_DEF_MICRO__ ops (__PCT_DEF_MICRO__%)"></div>
+        <div style="width:__PCT_BAL_MICRO__%; background:#818cf8; transition:width 0.5s;" title="Equilibrado ($3.30-$3.70): __CNT_BAL_MICRO__ ops (__PCT_BAL_MICRO__%)"></div>
+        <div style="width:__PCT_ASYM_MICRO__%; background:#c084fc; transition:width 0.5s;" title="Asimétrico ($3.70-$4.00): __CNT_ASYM_MICRO__ ops (__PCT_ASYM_MICRO__%)"></div>
+      </div>
+      
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:1rem;">
+        <div style="background:rgba(56, 189, 248, 0.05); border:1px solid rgba(56, 189, 248, 0.15); border-radius:10px; padding:0.85rem;">
+          <div style="display:flex; align-items:center; gap:0.4rem; font-size:0.75rem; color:#38bdf8; font-weight:600; font-family:var(--font-mono);">
+            <span style="width:8px; height:8px; border-radius:50%; background:#38bdf8; display:inline-block;"></span> DEFENSIVO ($3.00 – $3.30)
+          </div>
+          <div style="font-size:1.35rem; font-weight:700; font-family:var(--font-mono); color:#fff; margin-top:0.3rem;">
+            __PCT_DEF_MICRO__% <span style="font-size:0.75rem; color:var(--muted); font-weight:400;">(__CNT_DEF_MICRO__ ops)</span>
+          </div>
+          <div style="font-size:0.7rem; color:var(--muted); margin-top:0.2rem;">Protección de capital en mercados volátiles</div>
+        </div>
+        <div style="background:rgba(129, 140, 248, 0.05); border:1px solid rgba(129, 140, 248, 0.15); border-radius:10px; padding:0.85rem;">
+          <div style="display:flex; align-items:center; gap:0.4rem; font-size:0.75rem; color:#818cf8; font-weight:600; font-family:var(--font-mono);">
+            <span style="width:8px; height:8px; border-radius:50%; background:#818cf8; display:inline-block;"></span> EQUILIBRADO ($3.30 – $3.70)
+          </div>
+          <div style="font-size:1.35rem; font-weight:700; font-family:var(--font-mono); color:#fff; margin-top:0.3rem;">
+            __PCT_BAL_MICRO__% <span style="font-size:0.75rem; color:var(--muted); font-weight:400;">(__CNT_BAL_MICRO__ ops)</span>
+          </div>
+          <div style="font-size:0.7rem; color:var(--muted); margin-top:0.2rem;">Tamaño estándar para operaciones con edge confirmado</div>
+        </div>
+        <div style="background:rgba(192, 132, 252, 0.05); border:1px solid rgba(192, 132, 252, 0.15); border-radius:10px; padding:0.85rem;">
+          <div style="display:flex; align-items:center; gap:0.4rem; font-size:0.75rem; color:#c084fc; font-weight:600; font-family:var(--font-mono);">
+            <span style="width:8px; height:8px; border-radius:50%; background:#c084fc; display:inline-block;"></span> ASIMÉTRICO ($3.70 – $4.00)
+          </div>
+          <div style="font-size:1.35rem; font-weight:700; font-family:var(--font-mono); color:#fff; margin-top:0.3rem;">
+            __PCT_ASYM_MICRO__% <span style="font-size:0.75rem; color:var(--muted); font-weight:400;">(__CNT_ASYM_MICRO__ ops)</span>
+          </div>
+          <div style="font-size:0.7rem; color:var(--muted); margin-top:0.2rem;">Alta convicción / Máxima recompensa por unidad de riesgo</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rendimiento por Categoría Micro -->
+    <div class="panel" style="margin-bottom:2rem;">
+      <h3 style="margin-bottom:1rem; display:flex; align-items:center; gap:0.5rem; color:#38bdf8;">
+        🌐 Rendimiento por Categoría de Mercado (Micro $70)
+      </h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem;">
+        __CATEGORIAS_MICRO_HTML__
+      </div>
+    </div>
+
+    <!-- Posiciones Abiertas Micro -->
+    <div class="panel">
+      <h3 style="color:#38bdf8;">💎 Posiciones Abiertas Micro ($70) — (__ACTIVE_COUNT_MICRO__ / __MAX_POSICIONES_MICRO__)</h3>
+      <div class="abiertas-wrapper">
+        __OPS_ABIERTAS_MICRO_HTML__
+      </div>
+    </div>
+
+    <!-- Historial Detallado Micro -->
+    <div class="panel">
+      <h3 style="color:#38bdf8;">💎 Historial Detallado de Operaciones Micro ($70)</h3>
+      <div class="filter-bar" style="flex-wrap:wrap; gap:0.75rem;">
+        <div class="search-box" style="flex:1; min-width:240px;">
+          <input type="text" id="buscarTablaMicro" placeholder="🔍 Buscar mercado, wallet o resultado..." onkeyup="filtrarTabla('Micro')">
+        </div>
+        <div class="filter-tabs">
+          <button class="filter-tab filter-tab-micro active" onclick="setFiltro('todos', 'Micro')">Todos</button>
+          <button class="filter-tab filter-tab-micro" onclick="setFiltro('ganancias', 'Micro')">Ganados</button>
+          <button class="filter-tab filter-tab-micro" onclick="setFiltro('perdidas', 'Micro')">Perdidos</button>
+          <button class="filter-tab filter-tab-micro" onclick="setFiltro('tp', 'Micro')">Take Profit</button>
+          <button class="filter-tab filter-tab-micro" onclick="setFiltro('sl', 'Micro')">Stop Loss</button>
+          <button class="filter-tab filter-tab-micro" onclick="setFiltro('target_sell', 'Micro')">Whale Sell</button>
+          <button class="filter-tab filter-tab-micro" onclick="setFiltro('resolved', 'Micro')">Resolved</button>
+          <button class="filter-tab filter-tab-micro" onclick="setFiltro('failsafe', 'Micro')">Failsafe</button>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem;">
+          <select id="limitMicroSelect" onchange="cambiarLimiteMicro(this.value)" class="custom-select" title="Límite de filas">
+            <option value="25">Ver 25 ops</option>
+            <option value="50">Ver 50 ops</option>
+            <option value="100">Ver 100 ops</option>
+            <option value="all" selected>Ver Todas</option>
+          </select>
+          <button class="btn-csv-export" onclick="exportarCsvMicro()">📥 Exportar CSV</button>
+        </div>
+      </div>
+      <div class="tabla-contenedor">
+        <table>
+          <thead>
+            <tr>
+              <th>Fecha Cierre</th><th>Mercado</th><th>Resultado</th>
+              <th>Monto</th><th>P&L</th><th>Salida</th><th>Detalle</th>
+            </tr>
+          </thead>
+          <tbody id="tablaMicroBody">
+            __OPS_CERRADAS_MICRO_TABLA_HTML__
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 <!-- Modal Overlay Unificado -->
@@ -3185,7 +3861,7 @@ document.getElementById('modalDetalle').addEventListener('click', function(e) {
 });
 
 // Filtering and Search Functions (Independent per Tab)
-const filtros = { Hib: 'todos', Copy: 'todos' };
+const filtros = { Hib: 'todos', Copy: 'todos', Micro: 'todos' };
 
 function filterWhalesTable() {
   const query = document.getElementById('searchWhales').value.toLowerCase();
@@ -3281,6 +3957,12 @@ function filtrarTabla(agent) {
       if (filtro === 'target_sell') matchesFiltro = razon === 'TARGET_SELL';
       else if (filtro === 'resolved') matchesFiltro = razon === 'RESOLVED_EXIT';
       else if (filtro === 'failsafe') matchesFiltro = razon === 'FAILSAFE_SYNC_EXIT';
+    } else if (agent === 'Micro') {
+      if (filtro === 'target_sell') matchesFiltro = razon === 'TARGET_SELL';
+      else if (filtro === 'resolved') matchesFiltro = razon === 'RESOLVED_EXIT';
+      else if (filtro === 'failsafe') matchesFiltro = razon === 'FAILSAFE_SYNC_EXIT';
+      else if (filtro === 'tp') matchesFiltro = razon === 'TAKE_PROFIT';
+      else if (filtro === 'sl') matchesFiltro = razon === 'STOP_LOSS';
     }
     
     const show = (matchesQuery && matchesFiltro);
@@ -3649,6 +4331,241 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
   }
 });
 
+
+// ==========================================
+// GRÁFICOS TAB 4: AGENTE MICRO ($70)
+// ==========================================
+
+// Chart Micro 1: Micro P&L
+const ctxMicro = document.getElementById('chartMicroPnl').getContext('2d');
+const gradMicro = ctxMicro.createLinearGradient(0, 0, 0, 320);
+gradMicro.addColorStop(0, 'rgba(56, 189, 248, 0.35)');
+gradMicro.addColorStop(1, 'rgba(56, 189, 248, 0.0)');
+new Chart(ctxMicro, {
+  type: 'line',
+  data: {
+    labels: __FECHAS_RENDIMIENTO_MICRO__,
+    datasets: [{
+      data: __VALORES_RENDIMIENTO_MICRO__,
+      borderColor: '#38bdf8',
+      backgroundColor: gradMicro,
+      borderWidth: 3,
+      fill: true,
+      tension: 0.35,
+      pointBackgroundColor: '#38bdf8',
+      pointHoverBackgroundColor: '#ffffff',
+      pointRadius: 3,
+      pointHoverRadius: 6,
+      pointBorderColor: 'transparent'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { color: 'rgba(255, 255, 255, 0.03)' }, ticks: { color: '#94a3b8', font: { size: 10, family: 'JetBrains Mono' } } },
+      y: { grid: { color: 'rgba(255, 255, 255, 0.03)' }, ticks: { color: '#94a3b8', font: { size: 10, family: 'JetBrains Mono' } } }
+    }
+  }
+});
+
+// Chart Micro 2: Micro Donut
+new Chart(document.getElementById('chartMicroDonut').getContext('2d'), {
+  type: 'doughnut',
+  data: {
+    labels: __DONUT_LABELS_MICRO__,
+    datasets: [{
+      data: __DONUT_DATA_MICRO__,
+      backgroundColor: __DONUT_COLORS_MICRO__,
+      borderWidth: 0,
+      hoverOffset: 6
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '75%',
+    plugins: { legend: { display: false } }
+  }
+});
+
+// Chart Micro 3: Micro Daily P&L
+let currentDailyMetricMicro = 'usd';
+const dailyLabelsMicro = __DAILY_LABELS_MICRO__;
+const dailyPnlDataMicro = __DAILY_PNL_MICRO__;
+const dailyRoiDataMicro = __DAILY_ROI_MICRO__;
+const dailyColorsMicro = __DAILY_COLORS_MICRO__;
+
+const chartMicroDailyInst = new Chart(document.getElementById('chartMicroDaily').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: dailyLabelsMicro,
+    datasets: [{
+      label: 'P&L Diario (USD)',
+      data: dailyPnlDataMicro,
+      backgroundColor: dailyColorsMicro,
+      borderRadius: 6,
+      borderWidth: 0
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) {
+            const idx = ctx.dataIndex;
+            const pnl = dailyPnlDataMicro[idx];
+            const roi = dailyRoiDataMicro[idx];
+            return [
+              ' P&L: ' + (pnl >= 0 ? '+' : '') + '$' + pnl.toFixed(2) + ' USD',
+              ' Retorno: ' + (roi >= 0 ? '+' : '') + roi.toFixed(2) + '% ROI'
+            ];
+          }
+        }
+      }
+    },
+    scales: {
+      x: { grid: { color: 'rgba(255, 255, 255, 0.03)' }, ticks: { color: '#94a3b8', font: { size: 10, family: 'JetBrains Mono' } } },
+      y: {
+        grid: { color: 'rgba(255, 255, 255, 0.03)' },
+        ticks: {
+          color: '#94a3b8',
+          font: { size: 10, family: 'JetBrains Mono' },
+          callback: function(v) { return (currentDailyMetricMicro === 'usd' ? '$' : '') + v + (currentDailyMetricMicro === 'roi' ? '%' : ''); }
+        }
+      }
+    }
+  }
+});
+
+function setDailyViewMicro(metric) {
+  currentDailyMetricMicro = metric;
+  const btnUsd = document.getElementById('btnToggleUsdMicro');
+  const btnRoi = document.getElementById('btnToggleRoiMicro');
+  if (btnUsd) btnUsd.classList.toggle('active', metric === 'usd');
+  if (btnRoi) btnRoi.classList.toggle('active', metric === 'roi');
+
+  if (metric === 'usd') {
+    chartMicroDailyInst.data.datasets[0].label = 'P&L Diario (USD)';
+    chartMicroDailyInst.data.datasets[0].data = dailyPnlDataMicro;
+  } else {
+    chartMicroDailyInst.data.datasets[0].label = 'Retorno Diario (% ROI)';
+    chartMicroDailyInst.data.datasets[0].data = dailyRoiDataMicro;
+  }
+  chartMicroDailyInst.update();
+}
+
+// Chart Micro 4: Drawdown
+const ctxDdMicro = document.getElementById('chartMicroDrawdown').getContext('2d');
+const gradDdMicro = ctxDdMicro.createLinearGradient(0, 0, 0, 260);
+gradDdMicro.addColorStop(0, 'rgba(239, 68, 68, 0.0)');
+gradDdMicro.addColorStop(1, 'rgba(239, 68, 68, 0.35)');
+new Chart(ctxDdMicro, {
+  type: 'line',
+  data: {
+    labels: __FECHAS_RENDIMIENTO_MICRO__,
+    datasets: [{
+      data: __DRAWDOWN_SERIES_MICRO__,
+      borderColor: '#ef4444',
+      backgroundColor: gradDdMicro,
+      borderWidth: 2,
+      fill: true,
+      tension: 0.25,
+      pointRadius: 0,
+      pointHoverRadius: 5,
+      pointBackgroundColor: '#ef4444'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) { return ' Drawdown: ' + ctx.raw.toFixed(2) + '%'; }
+        }
+      }
+    },
+    scales: {
+      x: { display: false },
+      y: {
+        grid: { color: 'rgba(255, 255, 255, 0.03)' },
+        ticks: {
+          color: '#94a3b8',
+          font: { size: 10, family: 'JetBrains Mono' },
+          callback: function(v) { return v + '%'; }
+        }
+      }
+    }
+  }
+});
+
+// Chart Micro 5: Rolling Win Rate
+const rollingWrDataMicro = __ROLLING_WR_SERIES_MICRO__;
+new Chart(document.getElementById('chartMicroRollingWr').getContext('2d'), {
+  type: 'line',
+  data: {
+    labels: __FECHAS_RENDIMIENTO_MICRO__,
+    datasets: [
+      {
+        label: 'Win Rate Móvil (20 ops)',
+        data: rollingWrDataMicro,
+        borderColor: '#10b981',
+        backgroundColor: 'rgba(16, 185, 129, 0.08)',
+        borderWidth: 2.5,
+        fill: true,
+        tension: 0.3,
+        pointRadius: 0,
+        pointHoverRadius: 5,
+        pointBackgroundColor: '#10b981'
+      },
+      {
+        label: 'Umbral 50%',
+        data: Array(rollingWrDataMicro.length).fill(50),
+        borderColor: 'rgba(239, 68, 68, 0.75)',
+        borderWidth: 1.5,
+        borderDash: [5, 5],
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        fill: false
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) {
+            if (ctx.datasetIndex === 1) return ' Umbral Base: 50.0%';
+            return ' Win Rate (últimas 20): ' + ctx.raw.toFixed(1) + '%';
+          }
+        }
+      }
+    },
+    scales: {
+      x: { display: false },
+      y: {
+        min: 0,
+        max: 100,
+        grid: { color: 'rgba(255, 255, 255, 0.03)' },
+        ticks: {
+          color: '#94a3b8',
+          font: { size: 10, family: 'JetBrains Mono' },
+          callback: function(v) { return v + '%'; }
+        }
+      }
+    }
+  }
+});
+
 </script>
 </body>
 </html>"""
@@ -3829,6 +4746,80 @@ new Chart(document.getElementById('chartCopyRollingWr').getContext('2d'), {
     html_content = html_content.replace("__PF_CLASE_MICRO__", micro_pf_clase)
     html_content = html_content.replace("__OPS_ABIERTAS_MICRO_HTML__", ops_abiertas_micro_html)
     html_content = html_content.replace("__OPS_CERRADAS_MICRO_HTML__", ops_cerradas_micro_html)
+    html_content = html_content.replace("__TOTAL_CERRADAS_MICRO__", str(len(df_micro_cerradas)))
+    html_content = html_content.replace("__PNL_HOY_MICRO__", f"{'+' if pnl_hoy_micro>=0 else ''}${pnl_hoy_micro:,.2f}")
+    html_content = html_content.replace("__PNL_HOY_CLASE_MICRO__", "positive" if pnl_hoy_micro>=0 else "negative")
+    html_content = html_content.replace("__ROI_HOY_MICRO__", f"{roi_hoy_pct_micro:+.1f}")
+    html_content = html_content.replace("__OPS_HOY_MICRO__", str(ops_hoy_micro))
+    html_content = html_content.replace("__WR_HOY_MICRO__", f"{wr_hoy_micro:.1f}")
+    html_content = html_content.replace("__DIA_NOMBRE_HOY_MICRO__", dia_nombre_hoy_micro)
+
+    html_content = html_content.replace("__PNL_7D_MICRO__", f"{'+' if pnl_7d_micro>=0 else ''}${pnl_7d_micro:,.2f}")
+    html_content = html_content.replace("__ROI_7D_MICRO__", f"{roi_7d_micro:+.1f}")
+    html_content = html_content.replace("__OPS_7D_MICRO__", str(ops_7d_micro))
+    html_content = html_content.replace("__WR_7D_MICRO__", f"{wr_7d_micro:.1f}")
+
+    html_content = html_content.replace("__PNL_30D_MICRO__", f"{'+' if pnl_30d_micro>=0 else ''}${pnl_30d_micro:,.2f}")
+    html_content = html_content.replace("__ROI_30D_MICRO__", f"{roi_30d_micro:+.1f}")
+    html_content = html_content.replace("__OPS_30D_MICRO__", str(ops_30d_micro))
+    html_content = html_content.replace("__WR_30D_MICRO__", f"{wr_30d_micro:.1f}")
+
+    html_content = html_content.replace("__AVG_DAILY_PNL_MICRO__", f"{'+' if avg_daily_pnl_micro>=0 else ''}${avg_daily_pnl_micro:,.2f}")
+    html_content = html_content.replace("__AVG_DAILY_ROI_MICRO__", f"{avg_daily_roi_micro:+.1f}")
+    html_content = html_content.replace("__EXPECTANCY_MICRO__", f"{'+' if expectancy_micro>=0 else ''}${expectancy_micro:,.2f}")
+    html_content = html_content.replace("__EXPECTANCY_PCT_MICRO__", f"{expectancy_pct_micro:+.1f}")
+    html_content = html_content.replace("__VOLATILIDAD_MICRO__", f"{volatilidad_micro:.1f}")
+    html_content = html_content.replace("__SHARPE_MICRO__", f"{sharpe_micro:.2f}")
+
+    html_content = html_content.replace("__WR_ESTRAT_MICRO__", f"{wr_estrat_micro:.1f}")
+    html_content = html_content.replace("__N_TP_MICRO__", str(n_tp_micro))
+    html_content = html_content.replace("__N_SL_MICRO__", str(n_sl_micro))
+    html_content = html_content.replace("__TP_SL_RATIO_MICRO__", tp_sl_ratio_micro)
+
+    html_content = html_content.replace("__MAX_DRAWDOWN_MICRO__", f"{max_drawdown_micro:.1f}")
+    html_content = html_content.replace("__CURRENT_DRAWDOWN_MICRO__", f"{current_drawdown_micro:.1f}")
+    html_content = html_content.replace("__AVG_WIN_MICRO__", f"${avg_win_micro:.2f}")
+    html_content = html_content.replace("__AVG_LOSS_MICRO__", f"${abs(avg_loss_micro):.2f}")
+    html_content = html_content.replace("__DUR_GLOBAL_MICRO__", f"{avg_dur_global_m_h:.1f}")
+    html_content = html_content.replace("__DUR_WIN_MICRO__", f"{avg_dur_win_m_h:.1f}")
+    html_content = html_content.replace("__DUR_LOSS_MICRO__", f"{avg_dur_loss_m_h:.1f}")
+
+    html_content = html_content.replace("__WHALES_TABLE_MICRO_HTML__", whales_table_micro_html)
+    html_content = html_content.replace("__CATEGORIAS_MICRO_HTML__", categorias_micro_html)
+    html_content = html_content.replace("__OPS_CERRADAS_MICRO_TABLA_HTML__", ops_cerradas_micro_tabla_html)
+
+    html_content = html_content.replace("__N_TARGET_SELL_MICRO__", str(n_target_sell_micro))
+    html_content = html_content.replace("__N_RESOLVED_MICRO__", str(n_resolved_micro))
+    html_content = html_content.replace("__N_FAILSAFE_MICRO__", str(n_failsafe_micro))
+
+    html_content = html_content.replace("__PCT_YES_MICRO__", f"{pct_yes_micro:.1f}")
+    html_content = html_content.replace("__PCT_NO_MICRO__", f"{pct_no_micro:.1f}")
+    html_content = html_content.replace("__PCT_YES_MICRO_STR__", f"{pct_yes_micro:.0f}")
+    html_content = html_content.replace("__PCT_NO_MICRO_STR__", f"{pct_no_micro:.0f}")
+    html_content = html_content.replace("__YES_COUNT_MICRO__", str(yes_count_micro))
+    html_content = html_content.replace("__NO_COUNT_MICRO__", str(no_count_micro))
+    html_content = html_content.replace("__SEÑAL_DOMINANTE_MICRO__", senal_dominante_micro)
+
+    html_content = html_content.replace("__PCT_DEF_MICRO__", f"{pct_def_m:.1f}")
+    html_content = html_content.replace("__PCT_BAL_MICRO__", f"{pct_bal_m:.1f}")
+    html_content = html_content.replace("__PCT_ASYM_MICRO__", f"{pct_asym_m:.1f}")
+    html_content = html_content.replace("__CNT_DEF_MICRO__", str(cnt_def_m))
+    html_content = html_content.replace("__CNT_BAL_MICRO__", str(cnt_bal_m))
+    html_content = html_content.replace("__CNT_ASYM_MICRO__", str(cnt_asym_m))
+
+    html_content = html_content.replace("__DAILY_LABELS_MICRO__", json.dumps(daily_labels_micro))
+    html_content = html_content.replace("__DAILY_PNL_MICRO__", json.dumps(daily_pnl_micro))
+    html_content = html_content.replace("__DAILY_ROI_MICRO__", json.dumps(daily_roi_micro))
+    html_content = html_content.replace("__DAILY_COLORS_MICRO__", json.dumps(daily_colors_micro))
+
+    html_content = html_content.replace("__FECHAS_RENDIMIENTO_MICRO__", json.dumps(fechas_micro_chart))
+    html_content = html_content.replace("__VALORES_RENDIMIENTO_MICRO__", json.dumps(valores_micro_chart))
+    html_content = html_content.replace("__DONUT_LABELS_MICRO__", json.dumps(donut_labels_micro))
+    html_content = html_content.replace("__DONUT_DATA_MICRO__", json.dumps(donut_data_micro))
+    html_content = html_content.replace("__DONUT_COLORS_MICRO__", json.dumps(donut_colors_micro))
+
+    html_content = html_content.replace("__DRAWDOWN_SERIES_MICRO__", json.dumps(drawdown_series_micro))
+    html_content = html_content.replace("__ROLLING_WR_SERIES_MICRO__", json.dumps(rolling_wr_series_micro))
 
     # Comparación Sincronizada Macro ($1,000) vs Micro ($70)
     html_content = html_content.replace("__FECHA_INICIO_EXP_STR__", fecha_inicio_exp_str)
