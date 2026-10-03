@@ -1,98 +1,34 @@
 [
   {
-    "id": "4753787",
-    "pregunta": "Croatia vs. England: O/U 2.5",
-    "ts": "2026-10-03T03:32:28.932407",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5199882",
     "pregunta": "Spread: Melbourne United (-5.5)",
-    "ts": "2026-10-03T03:32:30.798337",
+    "ts": "2026-10-03T03:44:39.502009",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4738433",
-    "pregunta": "Will Tochigi City FC win on 2026-10-03?",
-    "ts": "2026-10-03T03:32:31.882203",
+    "id": "4739511",
+    "pregunta": "\u014cita Trinita vs. Montedio Yamagata: O/U 2.5",
+    "ts": "2026-10-03T03:44:40.541242",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170647",
-    "pregunta": "Will the highest temperature in Jeddah be 37\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:34.803865",
+    "id": "5197960",
+    "pregunta": "Will the highest temperature in Milan be 24\u00b0C on October 4?",
+    "ts": "2026-10-03T03:44:46.573474",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x9cf324c5f231e008ebb14f0e3950cf58c2ec31e5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170689",
-    "pregunta": "Will the highest temperature in Karachi be 33\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:35.868627",
+    "id": "5199968",
+    "pregunta": "Will the highest temperature in Chicago be between 74-75\u00b0F on October 4?",
+    "ts": "2026-10-03T03:44:47.613745",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170655",
-    "pregunta": "Will the highest temperature in Cape Town be 21\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:36.967263",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170415",
-    "pregunta": "Will the highest temperature in Tel Aviv be 31\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:38.032178",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170470",
-    "pregunta": "Will the highest temperature in Milan be 24\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:39.236374",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170403",
-    "pregunta": "Will the highest temperature in Munich be 21\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:40.458612",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170338",
-    "pregunta": "Will the highest temperature in London be 20\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:41.623264",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5175357",
-    "pregunta": "Will the highest temperature in Panama City be 29\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:42.781553",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170471",
-    "pregunta": "Will the highest temperature in Milan be 25\u00b0C on October 3?",
-    "ts": "2026-10-03T03:32:43.875635",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4addc66860b349959cb5070a83dbd9eeb6836fe5",
+    "whale_wallet": "0x9cf324c5f231e008ebb14f0e3950cf58c2ec31e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
