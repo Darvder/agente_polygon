@@ -1,58 +1,42 @@
 [
   {
-    "id": "5208470",
-    "pregunta": "Bari: Vitaliy Sachko vs Samuele Pieri",
-    "ts": "2026-10-03T07:33:40.634953",
+    "id": "5035359",
+    "pregunta": "KHL: CSKA Moscow vs. HC Dynamo Moscow",
+    "ts": "2026-10-03T07:42:13.731349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_wallet": "0xb77e49e20dcb7adda603a3b2a1cf8a576d73f4fe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5173048",
-    "pregunta": "China Open: Marie Bouzkova vs Kimberly Birrell",
-    "ts": "2026-10-03T07:33:41.852010",
+    "id": "5035371",
+    "pregunta": "KHL: Severstal Cherepovets vs. Shanghai Dragons",
+    "ts": "2026-10-03T07:42:14.797636",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_wallet": "0xb77e49e20dcb7adda603a3b2a1cf8a576d73f4fe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5177602",
+    "pregunta": "Valorant: Karmine Corp vs Nongshim RedForce - Map 2 Winner",
+    "ts": "2026-10-03T07:42:16.735588",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e2b3a77f3487db462a7a0d4550e451332a48ea8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5122923",
+    "pregunta": "LoL: HANJIN BRION vs JD Gaming (BO1) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-03T07:42:17.827852",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e2b3a77f3487db462a7a0d4550e451332a48ea8",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5183375",
     "pregunta": "China Open: Francisco Cerundolo vs Jakub Mensik",
-    "ts": "2026-10-03T07:33:42.912725",
+    "ts": "2026-10-03T07:42:19.754104",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5216911",
-    "pregunta": "Counter-Strike: Astralis vs BIG (BO3) - Stake Ranked Episode 4 Playoffs",
-    "ts": "2026-10-03T07:33:43.977608",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5011050",
-    "pregunta": "Counter-Strike: Vitality vs 1WIN - Map 2 Winner",
-    "ts": "2026-10-03T07:33:49.551482",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5190965",
-    "pregunta": "Counter-Strike: mellren vs FORZE Reload - Map 2 Winner",
-    "ts": "2026-10-03T07:33:51.833068",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5010647",
-    "pregunta": "Counter-Strike: Spirit vs ShindeN - Map 1 Winner",
-    "ts": "2026-10-03T07:33:53.962772",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0x043afcca7292d08b1de52f14176068f58f8c915c",
     "whale_signal": "COMPRAR NO"
   }
 ]
