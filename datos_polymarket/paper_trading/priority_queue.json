@@ -2,57 +2,97 @@
   {
     "id": "4814136",
     "pregunta": "Pittsburgh vs. Virginia Tech",
-    "ts": "2026-10-02T20:22:08.873207",
+    "ts": "2026-10-02T20:32:12.825116",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723625",
+    "pregunta": "Will Paraguay win on 2026-10-02?",
+    "ts": "2026-10-02T20:32:13.883805",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4008539",
+    "pregunta": "Will CD Universidad de Concepci\u00f3n vs. CD Huachipato end in a draw?",
+    "ts": "2026-10-02T20:32:15.881554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727402",
+    "pregunta": "Will Honduras win on 2026-10-02?",
+    "ts": "2026-10-02T20:32:18.013069",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4727403",
+    "pregunta": "Will Barbados win on 2026-10-02?",
+    "ts": "2026-10-02T20:32:19.167806",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4723622",
+    "pregunta": "Will Colombia win on 2026-10-02?",
+    "ts": "2026-10-02T20:32:20.302503",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4730369",
+    "pregunta": "Will Crici\u00fama EC win on 2026-10-02?",
+    "ts": "2026-10-02T20:32:21.435662",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4730287",
+    "pregunta": "Will S\u00e3o Paulo FC vs. Santos FC end in a draw?",
+    "ts": "2026-10-02T20:32:22.519442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4799619",
+    "pregunta": "Will CA Boca Juniors win on 2026-10-04?",
+    "ts": "2026-10-02T20:32:23.576179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4730471",
     "pregunta": "Will Fortaleza EC win on 2026-10-02?",
-    "ts": "2026-10-02T20:22:09.942507",
+    "ts": "2026-10-02T20:32:24.628547",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4952606",
-    "pregunta": "Dallas Wings vs. Golden State Valkyries",
-    "ts": "2026-10-02T20:22:14.318165",
+    "id": "4730476",
+    "pregunta": "Will Fortaleza EC vs. Clube N\u00e1utico Capibaribe end in a draw?",
+    "ts": "2026-10-02T20:32:25.679172",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12082135bdeab5384b248951b1fc3caca49f0160",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4817224",
-    "pregunta": "Holy Cross vs. William & Mary: O/U 51.5",
-    "ts": "2026-10-02T20:22:16.461622",
+    "id": "4727408",
+    "pregunta": "Will Grenada win on 2026-10-02?",
+    "ts": "2026-10-02T20:32:27.791077",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4292996",
-    "pregunta": "Bruins vs. Wild",
-    "ts": "2026-10-02T20:22:17.541546",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740067",
-    "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
-    "ts": "2026-10-02T20:22:18.604964",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5172438",
-    "pregunta": "Asian Games Men: Bangladesh vs Sri Lanka",
-    "ts": "2026-10-02T20:22:21.647466",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5b23615caea86d38bc85aa238532aa944d767193",
+    "whale_wallet": "0xdc2a004617c75ad3716ac343afa63a0fdd939e91",
     "whale_signal": "COMPRAR NO"
   }
 ]
