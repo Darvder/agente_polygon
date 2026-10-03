@@ -1,18 +1,42 @@
 [
   {
-    "id": "4817084",
-    "pregunta": "California vs. UNLV",
-    "ts": "2026-10-03T13:43:25.645267",
+    "id": "4814811",
+    "pregunta": "Michigan vs. Minnesota",
+    "ts": "2026-10-03T13:52:19.096523",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753657",
-    "pregunta": "Spread: Spain (-2.5)",
-    "ts": "2026-10-03T13:43:26.684274",
+    "id": "4815135",
+    "pregunta": "UCF vs. Houston",
+    "ts": "2026-10-03T13:52:20.153652",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814993",
+    "pregunta": "Navy vs. Air Force",
+    "ts": "2026-10-03T13:52:21.207342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815920",
+    "pregunta": "Western Michigan vs. Buffalo",
+    "ts": "2026-10-03T13:52:23.937245",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753668",
+    "pregunta": "Spain vs. Czechia: O/U 3.5",
+    "ts": "2026-10-03T13:52:24.993735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   }
 ]
