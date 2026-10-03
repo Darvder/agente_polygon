@@ -1,34 +1,74 @@
 [
   {
-    "id": "5219361",
-    "pregunta": "Counter-Strike: Sangal vs Eternal Fire (BO3) - ROG Journey Playoffs",
-    "ts": "2026-10-03T06:22:26.352499",
+    "id": "5011085",
+    "pregunta": "Counter-Strike: Legacy vs PARIVISION (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T06:32:56.584692",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0201e56426119736d05b35b4b813998276e86a5f",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5011085",
-    "pregunta": "Counter-Strike: Legacy vs PARIVISION (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-03T06:22:28.637033",
+    "id": "5177603",
+    "pregunta": "Valorant: Karmine Corp vs Nongshim RedForce (BO3) - VCT Champions Group D",
+    "ts": "2026-10-03T06:32:57.632942",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0201e56426119736d05b35b4b813998276e86a5f",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180463",
+    "pregunta": "China Open: Xinran Sun vs Cristina Bucsa",
+    "ts": "2026-10-03T06:33:01.691104",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190964",
+    "pregunta": "Counter-Strike: mellren vs FORZE Reload - Map 1 Winner",
+    "ts": "2026-10-03T06:33:02.751315",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5216911",
+    "pregunta": "Counter-Strike: Astralis vs BIG (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-03T06:33:03.813357",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5216910",
     "pregunta": "Counter-Strike: Astralis vs BIG - Map 2 Winner",
-    "ts": "2026-10-03T06:22:29.727784",
+    "ts": "2026-10-03T06:33:04.861197",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0201e56426119736d05b35b4b813998276e86a5f",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5193587",
-    "pregunta": "Counter-Strike: Leo Team vs ENJOY - Map 1 Winner",
-    "ts": "2026-10-03T06:22:31.047443",
+    "id": "5190966",
+    "pregunta": "Counter-Strike: mellren vs FORZE Reload (BO3) - CCT Europe Challengers Series Playoffs",
+    "ts": "2026-10-03T06:33:05.909521",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0201e56426119736d05b35b4b813998276e86a5f",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5217557",
+    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs Wildcard (BO3) - FOX Legacy Cup Playoffs",
+    "ts": "2026-10-03T06:33:08.574687",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190967",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-10-03T06:33:09.760399",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
     "whale_signal": "COMPRAR NO"
   }
 ]
