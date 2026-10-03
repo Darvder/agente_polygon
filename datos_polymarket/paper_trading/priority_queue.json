@@ -1,50 +1,18 @@
 [
   {
-    "id": "5173038",
-    "pregunta": "China Open: Katie Volynets vs Elise Mertens",
-    "ts": "2026-10-03T00:52:31.581160",
+    "id": "5183373",
+    "pregunta": "China Open: Andrey Rublev vs Roman Safiullin",
+    "ts": "2026-10-03T01:03:34.001205",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5174083",
-    "pregunta": "China Open: Alex de Minaur vs Quentin Halys",
-    "ts": "2026-10-03T00:52:32.669595",
+    "id": "4739679",
+    "pregunta": "Spread: Albirex Niigata (-1.5)",
+    "ts": "2026-10-03T01:03:35.069323",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5174093",
-    "pregunta": "Japan Open Tennis Championships: Carlos Alcaraz vs Matteo Arnaldi",
-    "ts": "2026-10-03T00:52:35.663810",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x398f0d01805b406a008dea6e503df421bb1630f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5202248",
-    "pregunta": "Jingshan: Lloyd Harris vs Alex Bolt",
-    "ts": "2026-10-03T00:52:38.714564",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5195145",
-    "pregunta": "Dota 2: Cloud Dawning vs InterActive Philippines - Game 2 Winner",
-    "ts": "2026-10-03T00:52:39.860139",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5150252",
-    "pregunta": "KCC Egis vs. LG Sakers",
-    "ts": "2026-10-03T00:52:41.104294",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
