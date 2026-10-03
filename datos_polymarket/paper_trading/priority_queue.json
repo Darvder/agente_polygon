@@ -1,26 +1,42 @@
 [
   {
-    "id": "4753736",
-    "pregunta": "Belarus vs. San Marino: 1st Half O/U 0.5",
-    "ts": "2026-10-03T11:32:22.268748",
+    "id": "4815716",
+    "pregunta": "Alabama vs. Mississippi State",
+    "ts": "2026-10-03T11:42:17.614433",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x09a7987daa6b37e117f2cfef385f51789667ba39",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753798",
-    "pregunta": "Croatia vs. England: 1st Half O/U 2.5",
-    "ts": "2026-10-03T11:32:23.333391",
+    "id": "5011072",
+    "pregunta": "Counter-Strike: MOUZ vs M80 - Map 2 Winner",
+    "ts": "2026-10-03T11:42:19.576321",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4752957",
-    "pregunta": "Will Iceland win on 2026-10-03?",
-    "ts": "2026-10-03T11:32:25.343699",
+    "id": "4814993",
+    "pregunta": "Navy vs. Air Force",
+    "ts": "2026-10-03T11:42:20.638815",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752990",
+    "pregunta": "Will Belarus win on 2026-10-03?",
+    "ts": "2026-10-03T11:42:22.404638",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011118",
+    "pregunta": "Counter-Strike: G2 vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T11:42:26.851875",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   }
 ]
