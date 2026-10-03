@@ -1,42 +1,26 @@
 [
   {
-    "id": "5207791",
-    "pregunta": "Persiku Kudus vs. PSGC Ciamis: O/U 2.5",
-    "ts": "2026-10-03T05:02:37.818486",
+    "id": "5011062",
+    "pregunta": "Counter-Strike: Team Falcons vs TYLOO (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T05:11:44.460951",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x0be34ffafafa7f3a2998b15b05e04d36cb2835fe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5011060",
-    "pregunta": "Counter-Strike: Team Falcons vs TYLOO - Map 1 Winner",
-    "ts": "2026-10-03T05:02:40.725207",
+    "id": "5173060",
+    "pregunta": "China Open: Kamilla Rakhimova vs Leylah Fernandez",
+    "ts": "2026-10-03T05:11:46.539853",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
+    "whale_wallet": "0x93004c4d67da4ced6dd6a107d23d29212fa4ca58",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5219335",
-    "pregunta": "Counter-Strike: Sinners vs NIP (BO3) - ROG Journey Playoffs",
-    "ts": "2026-10-03T05:02:41.765342",
+    "id": "5177379",
+    "pregunta": "Valorant: G2 Esports vs Team Liquid (BO3) - VCT Champions Group C",
+    "ts": "2026-10-03T05:11:47.591516",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5219343",
-    "pregunta": "Counter-Strike: BC.Game Esports vs BBL (BO3) - ROG Journey Playoffs",
-    "ts": "2026-10-03T05:02:42.809720",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5219334",
-    "pregunta": "Counter-Strike: Sinners vs NIP - Map 2 Winner",
-    "ts": "2026-10-03T05:02:43.853825",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbe1c2abab0a725ad0a37e16779728ff92b0c14de",
+    "whale_wallet": "0x93004c4d67da4ced6dd6a107d23d29212fa4ca58",
     "whale_signal": "COMPRAR NO"
   }
 ]
