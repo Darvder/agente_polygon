@@ -1,34 +1,74 @@
 [
   {
-    "id": "5217584",
-    "pregunta": "Counter-Strike: Spirit Academy vs Fire Flux Esports (BO3) - CCT Europe Challengers Series Playoffs",
-    "ts": "2026-10-03T10:32:36.892972",
+    "id": "4769742",
+    "pregunta": "India vs. Brazil: O/U 3.5",
+    "ts": "2026-10-03T10:42:50.596971",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5011106",
-    "pregunta": "Counter-Strike: Aurora Gaming vs 9z - Map 2 Winner",
-    "ts": "2026-10-03T10:32:51.257608",
+    "id": "4769743",
+    "pregunta": "India vs. Brazil: O/U 4.5",
+    "ts": "2026-10-03T10:42:51.659983",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5114458",
+    "pregunta": "Will Elon Musk post 180-199 tweets from October 2 to October 9, 2026?",
+    "ts": "2026-10-03T10:42:57.963194",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2d6ce0b703efb60f8f356246bcdb98544a54e3f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5217592",
+    "pregunta": "Counter-Strike: Luminosity vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-03T10:43:02.330023",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5217590",
+    "pregunta": "Counter-Strike: Luminosity vs Nemiga - Map 1 Winner",
+    "ts": "2026-10-03T10:43:03.383184",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5011071",
     "pregunta": "Counter-Strike: MOUZ vs M80 - Map 1 Winner",
-    "ts": "2026-10-03T10:32:52.532335",
+    "ts": "2026-10-03T10:43:04.436168",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1366007",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
-    "ts": "2026-10-03T10:32:54.379348",
+    "id": "5218285",
+    "pregunta": "Dota 2: 1win vs OG - Game 1 Winner",
+    "ts": "2026-10-03T10:43:05.489147",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5218287",
+    "pregunta": "Dota 2: 1win vs OG (BO3) - BLAST Slam Last Chance Qualifier",
+    "ts": "2026-10-03T10:43:06.545967",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84ad9c5c547a82ec9a08547b94bd922446e5bfb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752960",
+    "pregunta": "Will Iceland vs. Bulgaria end in a draw?",
+    "ts": "2026-10-03T10:43:08.652253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ee31121157d6051e78e390dbf53399f4e1dad6a",
     "whale_signal": "COMPRAR NO"
   }
 ]
