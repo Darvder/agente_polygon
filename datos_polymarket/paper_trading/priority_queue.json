@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "5218266",
+    "pregunta": "Dota 2: LGD Gaming vs GamerLegion - Game 2 Winner",
+    "ts": "2026-10-03T09:52:43.173492",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x48b0900dc31ac1aadf4777ba76eb72d35048a348",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4740067",
+    "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
+    "ts": "2026-10-03T09:52:44.953056",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4819709",
+    "pregunta": "Spread: BYU (-6.5)",
+    "ts": "2026-10-03T09:52:45.995249",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753776",
+    "pregunta": "Spread: England (-1.5)",
+    "ts": "2026-10-03T09:52:47.041029",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4292952",
+    "pregunta": "Senators vs. Maple Leafs",
+    "ts": "2026-10-03T09:52:48.088155",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752979",
+    "pregunta": "Will England win on 2026-10-03?",
+    "ts": "2026-10-03T09:52:49.130058",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4769734",
+    "pregunta": "Spread: Brazil (-3.5)",
+    "ts": "2026-10-03T09:52:51.700780",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
