@@ -1,10 +1,114 @@
 [
   {
-    "id": "4814811",
-    "pregunta": "Michigan vs. Minnesota",
-    "ts": "2026-10-03T14:21:59.147950",
+    "id": "5223364",
+    "pregunta": "Map Handicap: PCY (-1.5) vs ex-Keyd Stars (+1.5)",
+    "ts": "2026-10-03T14:32:53.273862",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5223019",
+    "pregunta": "Counter-Strike: ex-Keyd Stars vs Procyon Gaming - Map 1 Winner",
+    "ts": "2026-10-03T14:32:54.329432",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5223020",
+    "pregunta": "Counter-Strike: ex-Keyd Stars vs Procyon Gaming - Map 2 Winner",
+    "ts": "2026-10-03T14:32:55.386688",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5223021",
+    "pregunta": "Counter-Strike: ex-Keyd Stars vs Procyon Gaming (BO3) - CCT South America Series 6 Playoffs",
+    "ts": "2026-10-03T14:32:56.473269",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4816201",
+    "pregunta": "Vanderbilt vs. Georgia: O/U 55.5",
+    "ts": "2026-10-03T14:32:58.747833",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814802",
+    "pregunta": "Stanford vs. Wake Forest: O/U 53.5",
+    "ts": "2026-10-03T14:32:59.808032",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180184",
+    "pregunta": "Dota 2: Team Spirit vs Team Yandex (BO3) - BLAST Slam Seeding Matches",
+    "ts": "2026-10-03T14:33:00.861494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815948",
+    "pregunta": "Spread: Western Michigan (-3.5)",
+    "ts": "2026-10-03T14:33:01.946074",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815822",
+    "pregunta": "Morgan State vs. Villanova",
+    "ts": "2026-10-03T14:33:03.049373",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814443",
+    "pregunta": "Syracuse vs. UConn",
+    "ts": "2026-10-03T14:33:04.104347",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5035254",
+    "pregunta": "FC Den Bosch vs. FC Dordrecht: O/U 1.5",
+    "ts": "2026-10-03T14:33:05.188845",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4816427",
+    "pregunta": "Spread: Toledo (-13.5)",
+    "ts": "2026-10-03T14:33:06.238944",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4816550",
+    "pregunta": "Alcorn State vs. Grambling State",
+    "ts": "2026-10-03T14:33:07.480988",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b44a7a2aeec83d21b81130d7b5f449132f51488",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4765424",
+    "pregunta": "Will CA Tucum\u00e1n win on 2026-10-03?",
+    "ts": "2026-10-03T14:33:09.326275",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
