@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1528.25,
-  "capital_en_riesgo": 439.5,
-  "n_ciclos": 39233,
-  "ultima_corrida": "2026-10-03 09:53",
+  "capital_actual": 1532.76,
+  "capital_en_riesgo": 414.5,
+  "n_ciclos": 39234,
+  "ultima_corrida": "2026-10-03 10:03",
   "n_tp": 731,
-  "n_sl": 495,
+  "n_sl": 496,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 22.08,
-    "capital_en_riesgo": 60.23,
+    "capital_actual": 22.8,
+    "capital_en_riesgo": 56.23,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.35,
     "stop_loss_pct": -0.35,
     "n_tp": 242,
-    "n_sl": 172,
+    "n_sl": 173,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-01",
@@ -111,7 +111,7 @@
         "pregunta": "Will Anthropic have the highest IPO Market Cap 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.5665,
-        "precio_actual": 0.576,
+        "precio_actual": 0.5775,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -251,7 +251,7 @@
         "pregunta": "Will Bitcoin dip to $75,000 in October?",
         "outcome": "No",
         "precio_token_entrada": 0.765,
-        "precio_actual": 0.765,
+        "precio_actual": 0.775,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -271,7 +271,7 @@
         "pregunta": "Croatia vs. England: O/U 2.5",
         "outcome": "Over",
         "precio_token_entrada": 0.575,
-        "precio_actual": 0.575,
+        "precio_actual": 0.585,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.9,
@@ -340,26 +340,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x969c2495b1e7a29a144564c1d12840e06ce77aa425cb646c64614c391f5df925"
-      },
-      {
-        "fecha_entrada": "2026-10-03",
-        "fecha_entrada_dt": "2026-10-03 09:52",
-        "target_wallet": "0x48b0900dc31ac1aadf4777ba76eb72d35048a348",
-        "market_id": "5218266",
-        "condition_id": "0xfe614aebb4f5e9c5d9c0cdd4c085ed22eee9d73657d5ac8e943702d2ac98f763",
-        "token_id": "106644954080516805236210219582845114538264832551122094712228089379030470241702",
-        "pregunta": "Dota 2: LGD Gaming vs GamerLegion - Game 2 Winner",
-        "outcome": "GamerLegion",
-        "precio_token_entrada": 0.305,
-        "precio_actual": 0.305,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x5a302c792d44a1a4c43854dbb4e4ebb39cb984e3f0f397e02669284c5f51e52c"
       }
     ],
     "historial_cerradas": [
@@ -8642,6 +8622,26 @@
         "pnl_realizado": -2.35,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x5d54c03c3b1f3f88f5933b1e419b0dff2227d740ed9abdff1273c06deae46d01"
+      },
+      {
+        "fecha_entrada": "2026-10-03",
+        "fecha_entrada_dt": "2026-10-03 09:52",
+        "target_wallet": "0x48b0900dc31ac1aadf4777ba76eb72d35048a348",
+        "market_id": "5218266",
+        "condition_id": "0xfe614aebb4f5e9c5d9c0cdd4c085ed22eee9d73657d5ac8e943702d2ac98f763",
+        "token_id": "106644954080516805236210219582845114538264832551122094712228089379030470241702",
+        "pregunta": "Dota 2: LGD Gaming vs GamerLegion - Game 2 Winner",
+        "outcome": "GamerLegion",
+        "precio_token_entrada": 0.305,
+        "precio_actual": 0.055,
+        "precio_cierre": 0.055,
+        "pct_cambio": -0.8197,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-03 10:03",
+        "pnl_realizado": -3.28,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x5a302c792d44a1a4c43854dbb4e4ebb39cb984e3f0f397e02669284c5f51e52c"
       }
     ]
   }
