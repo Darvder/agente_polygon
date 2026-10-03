@@ -1,10 +1,66 @@
 [
   {
-    "id": "5203693",
-    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers: O/U 8.5",
-    "ts": "2026-10-03T16:58:44.432805",
+    "id": "4757293",
+    "pregunta": "Will Cameroon win on 2026-10-03?",
+    "ts": "2026-10-03T17:03:31.898740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4765425",
+    "pregunta": "Will CA Tucum\u00e1n vs. CA Barracas Central end in a draw?",
+    "ts": "2026-10-03T17:03:32.937364",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4765424",
+    "pregunta": "Will CA Tucum\u00e1n win on 2026-10-03?",
+    "ts": "2026-10-03T17:03:33.976736",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4765426",
+    "pregunta": "Will CA Barracas Central win on 2026-10-03?",
+    "ts": "2026-10-03T17:03:35.018195",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4765421",
+    "pregunta": "Will CA Newell's Old Boys win on 2026-10-03?",
+    "ts": "2026-10-03T17:03:36.059621",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4768022",
+    "pregunta": "Will Red Bull Bragantino win on 2026-10-03?",
+    "ts": "2026-10-03T17:03:37.106881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4768020",
+    "pregunta": "Will CA Mineiro win on 2026-10-03?",
+    "ts": "2026-10-03T17:03:38.144891",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4765423",
+    "pregunta": "Will CA Lan\u00fas win on 2026-10-03?",
+    "ts": "2026-10-03T17:03:39.182493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
     "whale_signal": "COMPRAR NO"
   }
 ]
