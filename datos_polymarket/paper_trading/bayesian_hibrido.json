@@ -5,9 +5,9 @@
     "wr": 0.667
   },
   "precio:bajo": {
-    "n": 7,
+    "n": 8,
     "wins": 2,
-    "wr": 0.364
+    "wr": 0.333
   },
   "se\u00f1al:no": {
     "n": 6,
@@ -25,14 +25,14 @@
     "wr": 0.5
   },
   "confianza:alta": {
-    "n": 4,
+    "n": 5,
     "wins": 1,
-    "wr": 0.375
+    "wr": 0.333
   },
   "momentum:estable": {
-    "n": 4,
+    "n": 5,
     "wins": 2,
-    "wr": 0.5
+    "wr": 0.444
   },
   "int_confianza_edge:alta_medio": {
     "n": 1,
@@ -45,9 +45,9 @@
     "wr": 0.333
   },
   "se\u00f1al:yes": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "wr": 0.429
+    "wr": 0.375
   },
   "vol:alto": {
     "n": 2,
@@ -70,9 +70,9 @@
     "wr": 0.5
   },
   "int_precio_senal:bajo_yes": {
-    "n": 2,
+    "n": 3,
     "wins": 1,
-    "wr": 0.5
+    "wr": 0.429
   },
   "categoria:esports": {
     "n": 2,
@@ -120,9 +120,9 @@
     "wr": 0.4
   },
   "edge:muy_alto": {
-    "n": 3,
+    "n": 4,
     "wins": 0,
-    "wr": 0.286
+    "wr": 0.25
   },
   "momentum:caida_suave": {
     "n": 1,
@@ -130,14 +130,14 @@
     "wr": 0.4
   },
   "int_confianza_edge:alta_muy_alto": {
-    "n": 3,
+    "n": 4,
     "wins": 0,
-    "wr": 0.286
+    "wr": 0.25
   },
   "categoria:otro": {
-    "n": 3,
+    "n": 4,
     "wins": 0,
-    "wr": 0.286
+    "wr": 0.25
   },
   "edge:alto": {
     "n": 1,
@@ -170,8 +170,8 @@
     "wr": 0.4
   },
   "vol:plano": {
-    "n": 1,
+    "n": 2,
     "wins": 0,
-    "wr": 0.4
+    "wr": 0.333
   }
 }
