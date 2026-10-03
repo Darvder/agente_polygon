@@ -1,18 +1,58 @@
 [
   {
-    "id": "5197938",
-    "pregunta": "Will the highest temperature in Shanghai be 22\u00b0C on October 4?",
-    "ts": "2026-10-03T07:22:56.954683",
+    "id": "5208470",
+    "pregunta": "Bari: Vitaliy Sachko vs Samuele Pieri",
+    "ts": "2026-10-03T07:33:40.634953",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe379d0518db9a894e87289c870505be369306960",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5198146",
-    "pregunta": "Will the highest temperature in Cape Town be 27\u00b0C on October 4?",
-    "ts": "2026-10-03T07:22:58.080153",
+    "id": "5173048",
+    "pregunta": "China Open: Marie Bouzkova vs Kimberly Birrell",
+    "ts": "2026-10-03T07:33:41.852010",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe379d0518db9a894e87289c870505be369306960",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5183375",
+    "pregunta": "China Open: Francisco Cerundolo vs Jakub Mensik",
+    "ts": "2026-10-03T07:33:42.912725",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5216911",
+    "pregunta": "Counter-Strike: Astralis vs BIG (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-03T07:33:43.977608",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011050",
+    "pregunta": "Counter-Strike: Vitality vs 1WIN - Map 2 Winner",
+    "ts": "2026-10-03T07:33:49.551482",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190965",
+    "pregunta": "Counter-Strike: mellren vs FORZE Reload - Map 2 Winner",
+    "ts": "2026-10-03T07:33:51.833068",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5010647",
+    "pregunta": "Counter-Strike: Spirit vs ShindeN - Map 1 Winner",
+    "ts": "2026-10-03T07:33:53.962772",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   }
 ]
