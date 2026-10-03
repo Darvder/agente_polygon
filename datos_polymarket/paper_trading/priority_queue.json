@@ -1,50 +1,10 @@
 [
   {
-    "id": "4786268",
-    "pregunta": "CSyD Defensa y Justicia vs. CA San Lorenzo de Almagro: O/U 3.5",
-    "ts": "2026-10-03T15:12:06.734852",
+    "id": "4753005",
+    "pregunta": "Will Spain win on 2026-10-03?",
+    "ts": "2026-10-03T15:23:58.670671",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17224c4130ca96b1bb8196e271c18c8ccb918d47",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753546",
-    "pregunta": "North Macedonia vs. Scotland: O/U 1.5",
-    "ts": "2026-10-03T15:12:07.946646",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17224c4130ca96b1bb8196e271c18c8ccb918d47",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753657",
-    "pregunta": "Spread: Spain (-2.5)",
-    "ts": "2026-10-03T15:12:09.701064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753221",
-    "pregunta": "Exact Score: Spain 2 - 0 Czechia?",
-    "ts": "2026-10-03T15:12:10.757583",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4757291",
-    "pregunta": "Will C\u00f4te d'Ivoire win on 2026-10-03?",
-    "ts": "2026-10-03T15:12:11.827508",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753609",
-    "pregunta": "Switzerland vs. Slovenia: O/U 4.5",
-    "ts": "2026-10-03T15:12:12.896841",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x71271e0ffcf12540d937fb419fe65351be62c7a2",
     "whale_signal": "COMPRAR NO"
   }
 ]
