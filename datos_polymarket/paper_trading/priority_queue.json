@@ -1,34 +1,26 @@
 [
   {
-    "id": "4814386",
-    "pregunta": "Montana State vs. Idaho",
-    "ts": "2026-10-03T01:14:03.389056",
+    "id": "4739692",
+    "pregunta": "Albirex Niigata vs. Tokushima Vortis: O/U 3.5",
+    "ts": "2026-10-03T01:23:15.343063",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb7ab821f037a4c8deb9b23b8001a4be985d116d0",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5174083",
-    "pregunta": "China Open: Alex de Minaur vs Quentin Halys",
-    "ts": "2026-10-03T01:14:05.752170",
+    "id": "4738424",
+    "pregunta": "Will Fujieda MYFC win on 2026-10-03?",
+    "ts": "2026-10-03T01:23:16.412692",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0254f10461b2f53487bc198d26f4833c78af31e0",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5183373",
-    "pregunta": "China Open: Andrey Rublev vs Roman Safiullin",
-    "ts": "2026-10-03T01:14:06.788173",
+    "id": "4738421",
+    "pregunta": "Will Albirex Niigata win on 2026-10-03?",
+    "ts": "2026-10-03T01:23:18.925454",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0254f10461b2f53487bc198d26f4833c78af31e0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5173054",
-    "pregunta": "China Open: Jelena Ostapenko vs Paula Badosa",
-    "ts": "2026-10-03T01:14:07.837178",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0254f10461b2f53487bc198d26f4833c78af31e0",
+    "whale_wallet": "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2",
     "whale_signal": "COMPRAR NO"
   }
 ]
