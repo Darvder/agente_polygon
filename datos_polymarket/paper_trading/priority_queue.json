@@ -1,10 +1,58 @@
 [
   {
-    "id": "4768273",
-    "pregunta": "C\u00e1diz CF vs. CD Legan\u00e9s: O/U 4.5",
-    "ts": "2026-10-03T13:22:30.396467",
+    "id": "4765418",
+    "pregunta": "Will CSyD Defensa y Justicia win on 2026-10-03?",
+    "ts": "2026-10-03T13:32:00.104632",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xc98ff9dad68a08a4e5ea0930a5ddbb05db86a13f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815643",
+    "pregunta": "Notre Dame vs. North Carolina: O/U 63.5",
+    "ts": "2026-10-03T13:32:04.878300",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815135",
+    "pregunta": "UCF vs. Houston",
+    "ts": "2026-10-03T13:32:05.933212",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815536",
+    "pregunta": "Spread: Notre Dame (-13.5)",
+    "ts": "2026-10-03T13:32:07.001279",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5174513",
+    "pregunta": "Will the highest temperature in Los Angeles be between 96-97\u00b0F on October 3?",
+    "ts": "2026-10-03T13:32:09.171765",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05561a288e778a297110cba12af64663600fb1aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5171547",
+    "pregunta": "Will the highest temperature in Atlanta be between 82-83\u00b0F on October 3?",
+    "ts": "2026-10-03T13:32:10.244499",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05561a288e778a297110cba12af64663600fb1aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5174514",
+    "pregunta": "Will the highest temperature in Los Angeles be between 98-99\u00b0F on October 3?",
+    "ts": "2026-10-03T13:32:11.805478",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05561a288e778a297110cba12af64663600fb1aa",
     "whale_signal": "COMPRAR NO"
   }
 ]
