@@ -1,34 +1,42 @@
 [
   {
-    "id": "5011062",
-    "pregunta": "Counter-Strike: Team Falcons vs TYLOO (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-02T22:52:34.304097",
+    "id": "4814386",
+    "pregunta": "Montana State vs. Idaho",
+    "ts": "2026-10-02T23:02:26.411034",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc520df01f36d1ad744114a24a4f2d6c6164fd43c",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5122951",
-    "pregunta": "LoL: RED Canids vs Natus Vincere (BO1) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-02T22:52:35.364971",
+    "id": "5174091",
+    "pregunta": "Japan Open Tennis Championships: Denis Shapovalov vs Alejandro Tabilo",
+    "ts": "2026-10-02T23:02:27.460234",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc520df01f36d1ad744114a24a4f2d6c6164fd43c",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5177379",
-    "pregunta": "Valorant: G2 Esports vs Team Liquid (BO3) - VCT Champions Group C",
-    "ts": "2026-10-02T22:52:41.312003",
+    "id": "5202248",
+    "pregunta": "Jingshan: Lloyd Harris vs Alex Bolt",
+    "ts": "2026-10-02T23:02:28.522647",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4739571",
-    "pregunta": "Ventforet K\u014dfu vs. Kataller Toyama: O/U 2.5",
-    "ts": "2026-10-02T22:52:42.386778",
+    "id": "5180465",
+    "pregunta": "China Open: Coco Gauff vs Camila Osorio",
+    "ts": "2026-10-02T23:02:29.571765",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4724690",
+    "pregunta": "Seattle Reign FC vs. North Carolina Courage: O/U 1.5",
+    "ts": "2026-10-02T23:02:30.649844",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
     "whale_signal": "COMPRAR NO"
   }
 ]
