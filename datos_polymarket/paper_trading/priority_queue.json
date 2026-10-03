@@ -1,50 +1,58 @@
 [
   {
-    "id": "4819704",
-    "pregunta": "Georgia Southern vs. Coastal Carolina",
-    "ts": "2026-10-03T18:13:54.594094",
+    "id": "4819913",
+    "pregunta": "Washington vs. USC: O/U 57.5",
+    "ts": "2026-10-03T18:22:09.937313",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4292981",
-    "pregunta": "Kraken vs. Oilers: O/U 5.5",
-    "ts": "2026-10-03T18:13:57.878447",
+    "id": "4292990",
+    "pregunta": "Devils vs. Islanders",
+    "ts": "2026-10-03T18:22:11.041199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4740086",
-    "pregunta": "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
-    "ts": "2026-10-03T18:13:58.924917",
+    "id": "5208279",
+    "pregunta": "Spread: Avalanche (-1.5)",
+    "ts": "2026-10-03T18:22:12.108051",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4820068",
-    "pregunta": "Texas Tech vs. Colorado: O/U 49.5",
-    "ts": "2026-10-03T18:14:01.007391",
+    "id": "3875282",
+    "pregunta": "Spread: Bengals (-2.5)",
+    "ts": "2026-10-03T18:22:13.200961",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4819431",
-    "pregunta": "Spread: Texas A&M (-13.5)",
-    "ts": "2026-10-03T18:14:05.196686",
+    "id": "4820287",
+    "pregunta": "Army vs. Louisiana Tech",
+    "ts": "2026-10-03T18:22:14.265037",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4816035",
-    "pregunta": "Spread: Miami (FL) (-13.5)",
-    "ts": "2026-10-03T18:14:12.512514",
+    "id": "4820029",
+    "pregunta": "Spread: Texas Tech (-13.5)",
+    "ts": "2026-10-03T18:22:16.067613",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
+    "whale_wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4820183",
+    "pregunta": "Spread: South Florida (-5.5)",
+    "ts": "2026-10-03T18:22:17.175893",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
     "whale_signal": "COMPRAR NO"
   }
 ]
