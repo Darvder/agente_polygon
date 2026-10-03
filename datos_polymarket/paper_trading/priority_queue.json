@@ -1,42 +1,50 @@
 [
   {
-    "id": "4740147",
-    "pregunta": "Will Damian Pinas win by KO or TKO?",
-    "ts": "2026-10-03T18:03:56.383591",
+    "id": "4819704",
+    "pregunta": "Georgia Southern vs. Coastal Carolina",
+    "ts": "2026-10-03T18:13:54.594094",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4819709",
-    "pregunta": "Spread: BYU (-6.5)",
-    "ts": "2026-10-03T18:03:57.599720",
+    "id": "4292981",
+    "pregunta": "Kraken vs. Oilers: O/U 5.5",
+    "ts": "2026-10-03T18:13:57.878447",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5005657",
-    "pregunta": "Heat vs. Raptors",
-    "ts": "2026-10-03T18:03:58.643243",
+    "id": "4740086",
+    "pregunta": "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
+    "ts": "2026-10-03T18:13:58.924917",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5176533",
-    "pregunta": "Loudoun United FC vs. Indy Eleven: O/U 2.5",
-    "ts": "2026-10-03T18:04:01.108494",
+    "id": "4820068",
+    "pregunta": "Texas Tech vs. Colorado: O/U 49.5",
+    "ts": "2026-10-03T18:14:01.007391",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4818490",
-    "pregunta": "Purdue vs. Illinois",
-    "ts": "2026-10-03T18:04:04.261348",
+    "id": "4819431",
+    "pregunta": "Spread: Texas A&M (-13.5)",
+    "ts": "2026-10-03T18:14:05.196686",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
+    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4816035",
+    "pregunta": "Spread: Miami (FL) (-13.5)",
+    "ts": "2026-10-03T18:14:12.512514",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0e3eb939a2a2a3269ff1f61f12445924637fb80",
     "whale_signal": "COMPRAR NO"
   }
 ]
