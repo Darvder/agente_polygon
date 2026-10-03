@@ -1,58 +1,66 @@
 [
   {
-    "id": "4768586",
-    "pregunta": "Albacete Balompi\u00e9 vs. SD Eibar: O/U 3.5",
-    "ts": "2026-10-03T08:52:32.156073",
+    "id": "5010649",
+    "pregunta": "Counter-Strike: Spirit vs ShindeN (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T09:03:47.905644",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5177603",
     "pregunta": "Valorant: Karmine Corp vs Nongshim RedForce (BO3) - VCT Champions Group D",
-    "ts": "2026-10-03T08:52:33.809923",
+    "ts": "2026-10-03T09:03:48.958458",
     "origen": "whale_copytrader",
     "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5217565",
-    "pregunta": "Counter-Strike: fnatic vs Alliance (BO3) - Stake Ranked Episode 4 Playoffs",
-    "ts": "2026-10-03T08:52:35.885159",
+    "id": "5056286",
+    "pregunta": "Dota 2: Rostik Team vs Cake Team - Game 2 Winner",
+    "ts": "2026-10-03T09:03:50.890982",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x93402a429d249b3dab3275d9e9dc5cc3ab55e829",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5010649",
-    "pregunta": "Counter-Strike: Spirit vs ShindeN (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-03T08:52:37.651542",
+    "id": "5056287",
+    "pregunta": "Dota 2: Rostik Team vs Cake Team (BO3) - BetBoom Streamers Battle Playoffs",
+    "ts": "2026-10-03T09:03:52.032099",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70c0dab421a75c6544c547c26816ce9daf9a7ecf",
+    "whale_wallet": "0x93402a429d249b3dab3275d9e9dc5cc3ab55e829",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5010648",
     "pregunta": "Counter-Strike: Spirit vs ShindeN - Map 2 Winner",
-    "ts": "2026-10-03T08:52:38.693701",
+    "ts": "2026-10-03T09:03:53.082015",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70c0dab421a75c6544c547c26816ce9daf9a7ecf",
+    "whale_wallet": "0x93402a429d249b3dab3275d9e9dc5cc3ab55e829",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4749511",
-    "pregunta": "Will Bradford City AFC win on 2026-10-03?",
-    "ts": "2026-10-03T08:52:40.613464",
+    "id": "4752134",
+    "pregunta": "Crewe Alexandra FC vs. Bristol Rovers FC: Both Teams to Score",
+    "ts": "2026-10-03T09:03:54.946936",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0fc50c15e6ffd6f4061ca51d8a70cb0563d8e3b9",
+    "whale_wallet": "0x5d21a14bd9f4ada9d01bd5a9b64830c39794af5a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5011073",
-    "pregunta": "Counter-Strike: MOUZ vs M80 (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-03T08:52:41.664793",
+    "id": "4752148",
+    "pregunta": "Crewe Alexandra FC vs. Bristol Rovers FC: Crewe Alexandra FC O/U 0.5",
+    "ts": "2026-10-03T09:03:56.027258",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0fc50c15e6ffd6f4061ca51d8a70cb0563d8e3b9",
+    "whale_wallet": "0x5d21a14bd9f4ada9d01bd5a9b64830c39794af5a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752158",
+    "pregunta": "Crewe Alexandra FC vs. Bristol Rovers FC: Bristol Rovers FC O/U 0.5",
+    "ts": "2026-10-03T09:03:57.081121",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5d21a14bd9f4ada9d01bd5a9b64830c39794af5a",
     "whale_signal": "COMPRAR NO"
   }
 ]
