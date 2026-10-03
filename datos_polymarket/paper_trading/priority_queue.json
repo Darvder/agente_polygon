@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4753747",
+    "pregunta": "Belarus vs. San Marino: San Marino O/U 0.5",
+    "ts": "2026-10-03T04:22:28.772253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4738433",
+    "pregunta": "Will Tochigi City FC win on 2026-10-03?",
+    "ts": "2026-10-03T04:22:29.811212",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4738432",
+    "pregunta": "Will Montedio Yamagata win on 2026-10-03?",
+    "ts": "2026-10-03T04:22:30.861600",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4739511",
+    "pregunta": "\u014cita Trinita vs. Montedio Yamagata: O/U 2.5",
+    "ts": "2026-10-03T04:22:31.900452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011083",
+    "pregunta": "Counter-Strike: Legacy vs PARIVISION - Map 1 Winner",
+    "ts": "2026-10-03T04:22:33.693941",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
