@@ -1,66 +1,34 @@
 [
   {
-    "id": "5180115",
-    "pregunta": "Will Elon Musk post 40-64 tweets from October 3 to October 5, 2026?",
-    "ts": "2026-10-03T15:52:21.519839",
+    "id": "5203688",
+    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers",
+    "ts": "2026-10-03T16:03:35.937634",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5180116",
-    "pregunta": "Will Elon Musk post 65-89 tweets from October 3 to October 5, 2026?",
-    "ts": "2026-10-03T15:52:22.684865",
+    "id": "5204394",
+    "pregunta": "Spread: Atlanta Braves (-1.5)",
+    "ts": "2026-10-03T16:03:37.031572",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+    "whale_wallet": "0xbd9a44b4fa5038150095935a68c26c7099ec63e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970467",
-    "pregunta": "Will Elon Musk post 220-239 tweets from September 29 to October 6, 2026?",
-    "ts": "2026-10-03T15:52:23.734403",
+    "id": "4762522",
+    "pregunta": "Will St. Vincent and the Grenadines win on 2026-10-03?",
+    "ts": "2026-10-03T16:03:40.065922",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4740219",
-    "pregunta": "UFC 332: Marvin Vettori vs. Ismail Naurdiev (Middleweight, Early Prelims)",
-    "ts": "2026-10-03T15:52:25.474773",
+    "id": "5066465",
+    "pregunta": "LoL: Cloud9 vs LYON (BO5) - LCS Playoffs",
+    "ts": "2026-10-03T16:03:41.154202",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4789277",
-    "pregunta": "\u00c1guilas Doradas Rionegro vs. Jaguares de C\u00f3rdoba FC: O/U 0.5",
-    "ts": "2026-10-03T15:52:27.219677",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4730310",
-    "pregunta": "Will \u00c1guilas Doradas Rionegro win on 2026-10-03?",
-    "ts": "2026-10-03T15:52:28.263500",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817094",
-    "pregunta": "Spread: Florida (-5.5)",
-    "ts": "2026-10-03T15:52:29.303418",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4789278",
-    "pregunta": "\u00c1guilas Doradas Rionegro vs. Jaguares de C\u00f3rdoba FC: O/U 1.5",
-    "ts": "2026-10-03T15:52:30.352039",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
     "whale_signal": "COMPRAR NO"
   }
 ]
