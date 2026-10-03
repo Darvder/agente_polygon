@@ -1,90 +1,82 @@
 [
   {
-    "id": "1919741",
-    "pregunta": "Will Georgia Bulldogs win the 2027 CFP National Championship?",
-    "ts": "2026-10-02T19:31:24.614628",
+    "id": "4799619",
+    "pregunta": "Will CA Boca Juniors win on 2026-10-04?",
+    "ts": "2026-10-02T19:42:28.129962",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814186",
-    "pregunta": "Spread: Virginia Tech (-3.5)",
-    "ts": "2026-10-02T19:31:27.136308",
+    "id": "4753674",
+    "pregunta": "Spain vs. Czechia: Both Teams to Score",
+    "ts": "2026-10-02T19:42:29.223236",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814190",
-    "pregunta": "Spread: Virginia Tech (-4.5)",
-    "ts": "2026-10-02T19:31:28.228232",
+    "id": "4799620",
+    "pregunta": "Will CA Boca Juniors vs. CA Uni\u00f3n end in a draw?",
+    "ts": "2026-10-02T19:42:30.420873",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814196",
-    "pregunta": "Spread: Virginia Tech (-6.5)",
-    "ts": "2026-10-02T19:31:29.322236",
+    "id": "4730289",
+    "pregunta": "Will Santos FC win on 2026-10-02?",
+    "ts": "2026-10-02T19:42:31.489187",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814193",
-    "pregunta": "Spread: Virginia Tech (-5.5)",
-    "ts": "2026-10-02T19:31:30.388924",
+    "id": "4727403",
+    "pregunta": "Will Barbados win on 2026-10-02?",
+    "ts": "2026-10-02T19:42:32.565815",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814136",
+    "pregunta": "Pittsburgh vs. Virginia Tech",
+    "ts": "2026-10-02T19:42:33.663622",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814178",
+    "pregunta": "Penn State vs. Northwestern",
+    "ts": "2026-10-02T19:42:37.198818",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4730287",
+    "pregunta": "Will S\u00e3o Paulo FC vs. Santos FC end in a draw?",
+    "ts": "2026-10-02T19:42:42.688232",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5172438",
+    "pregunta": "Asian Games Men: Bangladesh vs Sri Lanka",
+    "ts": "2026-10-02T19:42:44.843475",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4814222",
     "pregunta": "Spread: Penn State (-2.5)",
-    "ts": "2026-10-02T19:31:31.475097",
+    "ts": "2026-10-02T19:42:46.755578",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740067",
-    "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
-    "ts": "2026-10-02T19:31:33.587858",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4752979",
-    "pregunta": "Will England win on 2026-10-03?",
-    "ts": "2026-10-02T19:31:34.668075",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785998",
-    "pregunta": "Will Republic of Ireland win on 2026-10-04?",
-    "ts": "2026-10-02T19:31:35.759356",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4727411",
-    "pregunta": "Will Jamaica win on 2026-10-02?",
-    "ts": "2026-10-02T19:31:36.848046",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4292968",
-    "pregunta": "Canadiens vs. Penguins",
-    "ts": "2026-10-02T19:31:38.024542",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x6e294c1624df132cb0a5cd842c35dc26f7533e6a",
     "whale_signal": "COMPRAR NO"
   }
 ]
