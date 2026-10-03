@@ -1,18 +1,90 @@
 [
   {
-    "id": "5174089",
-    "pregunta": "Japan Open Tennis Championships: Ugo Humbert vs Jiri Lehecka",
-    "ts": "2026-10-03T06:02:11.536839",
+    "id": "5190966",
+    "pregunta": "Counter-Strike: mellren vs FORZE Reload (BO3) - CCT Europe Challengers Series Playoffs",
+    "ts": "2026-10-03T06:12:39.715835",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x76d2d8e2da11148b0b2f5758985da4fd232699a6",
+    "whale_wallet": "0xd2f4746a2f61e18153f3ffd96714155f343d34e3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5011085",
-    "pregunta": "Counter-Strike: Legacy vs PARIVISION (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-03T06:02:13.176807",
+    "id": "5193589",
+    "pregunta": "Counter-Strike: Leo Team vs ENJOY (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-10-03T06:12:42.869700",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xd2f4746a2f61e18153f3ffd96714155f343d34e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5219351",
+    "pregunta": "Counter-Strike: JiJieHao vs 100 Thieves (BO3) - ROG Journey Playoffs",
+    "ts": "2026-10-03T06:12:43.924425",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd2f4746a2f61e18153f3ffd96714155f343d34e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011061",
+    "pregunta": "Counter-Strike: Team Falcons vs TYLOO - Map 2 Winner",
+    "ts": "2026-10-03T06:12:46.580180",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011049",
+    "pregunta": "Counter-Strike: Vitality vs 1WIN - Map 1 Winner",
+    "ts": "2026-10-03T06:12:47.716512",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011071",
+    "pregunta": "Counter-Strike: MOUZ vs M80 - Map 1 Winner",
+    "ts": "2026-10-03T06:12:48.847881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5177603",
+    "pregunta": "Valorant: Karmine Corp vs Nongshim RedForce (BO3) - VCT Champions Group D",
+    "ts": "2026-10-03T06:12:49.901493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5177601",
+    "pregunta": "Valorant: Karmine Corp vs Nongshim RedForce - Map 1 Winner",
+    "ts": "2026-10-03T06:12:50.956346",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190964",
+    "pregunta": "Counter-Strike: mellren vs FORZE Reload - Map 1 Winner",
+    "ts": "2026-10-03T06:12:52.792683",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa81aff34f8d19eb7434a655ec6aad2821bedb5a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011073",
+    "pregunta": "Counter-Strike: MOUZ vs M80 (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T06:12:53.843328",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa81aff34f8d19eb7434a655ec6aad2821bedb5a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5122930",
+    "pregunta": "LoL: Team Vitality vs BNK FEARX (BO1) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-03T06:12:54.893826",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa81aff34f8d19eb7434a655ec6aad2821bedb5a3",
     "whale_signal": "COMPRAR NO"
   }
 ]
