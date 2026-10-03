@@ -1,10 +1,58 @@
 [
   {
+    "id": "4814136",
+    "pregunta": "Pittsburgh vs. Virginia Tech",
+    "ts": "2026-10-02T20:22:08.873207",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4730471",
     "pregunta": "Will Fortaleza EC win on 2026-10-02?",
-    "ts": "2026-10-02T20:11:46.924738",
+    "ts": "2026-10-02T20:22:09.942507",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x455e970f699a6384a414be5b1abfbe2cd2ad874a",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4952606",
+    "pregunta": "Dallas Wings vs. Golden State Valkyries",
+    "ts": "2026-10-02T20:22:14.318165",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x12082135bdeab5384b248951b1fc3caca49f0160",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4817224",
+    "pregunta": "Holy Cross vs. William & Mary: O/U 51.5",
+    "ts": "2026-10-02T20:22:16.461622",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4292996",
+    "pregunta": "Bruins vs. Wild",
+    "ts": "2026-10-02T20:22:17.541546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4740067",
+    "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
+    "ts": "2026-10-02T20:22:18.604964",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5172438",
+    "pregunta": "Asian Games Men: Bangladesh vs Sri Lanka",
+    "ts": "2026-10-02T20:22:21.647466",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5b23615caea86d38bc85aa238532aa944d767193",
     "whale_signal": "COMPRAR NO"
   }
 ]
