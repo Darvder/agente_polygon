@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4768598",
+    "pregunta": "Albacete Balompi\u00e9 vs. SD Eibar: Both Teams to Score",
+    "ts": "2026-10-03T04:02:25.114780",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaebc1649625c49ad937bc9776fe3a09d4b1341f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5122951",
+    "pregunta": "LoL: RED Canids vs Natus Vincere (BO1) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-03T04:02:27.210786",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xda7f15947e30a47644b498417a837611b7862a74",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5122937",
+    "pregunta": "LoL: LGD Gaming vs FlyQuest (BO1) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-03T04:02:28.260973",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xda7f15947e30a47644b498417a837611b7862a74",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011062",
+    "pregunta": "Counter-Strike: Team Falcons vs TYLOO (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-03T04:02:29.313709",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xda7f15947e30a47644b498417a837611b7862a74",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5011060",
+    "pregunta": "Counter-Strike: Team Falcons vs TYLOO - Map 1 Winner",
+    "ts": "2026-10-03T04:02:30.386865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xda7f15947e30a47644b498417a837611b7862a74",
+    "whale_signal": "COMPRAR NO"
+  }
+]
