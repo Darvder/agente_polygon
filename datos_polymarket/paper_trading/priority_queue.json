@@ -1,66 +1,82 @@
 [
   {
-    "id": "4250280",
-    "pregunta": "Ducks vs. Golden Knights",
-    "ts": "2026-10-02T20:52:36.621508",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4752979",
     "pregunta": "Will England win on 2026-10-03?",
-    "ts": "2026-10-02T20:52:37.700793",
+    "ts": "2026-10-02T21:03:01.545597",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753674",
-    "pregunta": "Spain vs. Czechia: Both Teams to Score",
-    "ts": "2026-10-02T20:52:40.502301",
+    "id": "4250280",
+    "pregunta": "Ducks vs. Golden Knights",
+    "ts": "2026-10-02T21:03:02.590629",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4952606",
-    "pregunta": "Dallas Wings vs. Golden State Valkyries",
-    "ts": "2026-10-02T20:52:41.570808",
+    "id": "4293007",
+    "pregunta": "Blues vs. Avalanche",
+    "ts": "2026-10-02T21:03:03.743308",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4759047",
-    "pregunta": "Barbados vs. Bermuda: O/U 5.5",
-    "ts": "2026-10-02T20:52:42.658428",
+    "id": "4814186",
+    "pregunta": "Spread: Virginia Tech (-3.5)",
+    "ts": "2026-10-02T21:03:07.650464",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
+    "whale_wallet": "0x13bfcba70fd0d327132ae707a71c228e3dada36f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814266",
+    "pregunta": "Pittsburgh vs. Virginia Tech: O/U 65.5",
+    "ts": "2026-10-02T21:03:08.696251",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13bfcba70fd0d327132ae707a71c228e3dada36f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5179178",
+    "pregunta": "Spread: Golden Knights (-1.5)",
+    "ts": "2026-10-02T21:03:10.815861",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13bfcba70fd0d327132ae707a71c228e3dada36f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250282",
+    "pregunta": "Ducks vs. Golden Knights: O/U 5.5",
+    "ts": "2026-10-02T21:03:11.861888",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13bfcba70fd0d327132ae707a71c228e3dada36f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4250284",
+    "pregunta": "Ducks vs. Golden Knights: O/U 7.5",
+    "ts": "2026-10-02T21:03:13.120644",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13bfcba70fd0d327132ae707a71c228e3dada36f",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4814136",
     "pregunta": "Pittsburgh vs. Virginia Tech",
-    "ts": "2026-10-02T20:52:43.724880",
+    "ts": "2026-10-02T21:03:16.287679",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
+    "whale_wallet": "0x13bfcba70fd0d327132ae707a71c228e3dada36f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4723625",
-    "pregunta": "Will Paraguay win on 2026-10-02?",
-    "ts": "2026-10-02T20:52:44.788682",
+    "id": "4952606",
+    "pregunta": "Dallas Wings vs. Golden State Valkyries",
+    "ts": "2026-10-02T21:03:18.170936",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814313",
-    "pregunta": "Penn State vs. Northwestern: O/U 55.5",
-    "ts": "2026-10-02T20:52:46.918376",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+    "whale_wallet": "0xfe67df6e0c585e50cbe8bdcad804d980c6b8a2e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
