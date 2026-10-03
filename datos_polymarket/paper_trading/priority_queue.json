@@ -1,42 +1,66 @@
 [
   {
-    "id": "4814811",
-    "pregunta": "Michigan vs. Minnesota",
-    "ts": "2026-10-03T13:52:19.096523",
+    "id": "5236113",
+    "pregunta": "Map Handicap: AST (-1.5) vs fnatic (+1.5)",
+    "ts": "2026-10-03T14:02:27.733431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4815135",
-    "pregunta": "UCF vs. Houston",
-    "ts": "2026-10-03T13:52:20.153652",
+    "id": "5223364",
+    "pregunta": "Map Handicap: PCY (-1.5) vs ex-Keyd Stars (+1.5)",
+    "ts": "2026-10-03T14:02:28.928226",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814993",
-    "pregunta": "Navy vs. Air Force",
-    "ts": "2026-10-03T13:52:21.207342",
+    "id": "5223019",
+    "pregunta": "Counter-Strike: ex-Keyd Stars vs Procyon Gaming - Map 1 Winner",
+    "ts": "2026-10-03T14:02:30.131138",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4815920",
-    "pregunta": "Western Michigan vs. Buffalo",
-    "ts": "2026-10-03T13:52:23.937245",
+    "id": "5223020",
+    "pregunta": "Counter-Strike: ex-Keyd Stars vs Procyon Gaming - Map 2 Winner",
+    "ts": "2026-10-03T14:02:31.330577",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753668",
-    "pregunta": "Spain vs. Czechia: O/U 3.5",
-    "ts": "2026-10-03T13:52:24.993735",
+    "id": "5223022",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-10-03T14:02:32.484483",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3e775abc3c974c4868bdbe384f8bf067135bf64",
+    "whale_wallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753547",
+    "pregunta": "North Macedonia vs. Scotland: O/U 2.5",
+    "ts": "2026-10-03T14:02:34.319974",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753014",
+    "pregunta": "Will Switzerland win on 2026-10-03?",
+    "ts": "2026-10-03T14:02:35.364940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-03T14:02:37.029021",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
