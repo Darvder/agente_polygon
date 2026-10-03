@@ -1,8 +1,24 @@
 [
   {
-    "id": "4727411",
-    "pregunta": "Will Jamaica win on 2026-10-02?",
-    "ts": "2026-10-02T19:12:06.989612",
+    "id": "4740067",
+    "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
+    "ts": "2026-10-02T19:22:23.856949",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4740086",
+    "pregunta": "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
+    "ts": "2026-10-02T19:22:24.994336",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4758923",
+    "pregunta": "El Salvador vs. Jamaica: O/U 1.5",
+    "ts": "2026-10-02T19:22:26.079671",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
@@ -10,57 +26,41 @@
   {
     "id": "4752979",
     "pregunta": "Will England win on 2026-10-03?",
-    "ts": "2026-10-02T19:12:08.036699",
+    "ts": "2026-10-02T19:22:27.131760",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4292996",
-    "pregunta": "Bruins vs. Wild",
-    "ts": "2026-10-02T19:12:09.315251",
+    "id": "4785998",
+    "pregunta": "Will Republic of Ireland win on 2026-10-04?",
+    "ts": "2026-10-02T19:22:28.272931",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3660695",
-    "pregunta": "Will Capit\u00e3o Alberto Neto win the most votes in the 2026 Amazonas Senate election?",
-    "ts": "2026-10-02T19:12:12.302155",
+    "id": "4792344",
+    "pregunta": "S\u00e3o Bernardo FC vs. CR Brasil: O/U 4.5",
+    "ts": "2026-10-02T19:22:29.978521",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9727ed498a58a9e8e8758d51c5a4eb0b752dcd9",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3660698",
-    "pregunta": "Will Eduardo Braga win the most votes in the 2026 Amazonas Senate election?",
-    "ts": "2026-10-02T19:12:13.344998",
+    "id": "4730286",
+    "pregunta": "Will S\u00e3o Paulo FC win on 2026-10-02?",
+    "ts": "2026-10-02T19:22:31.028635",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9727ed498a58a9e8e8758d51c5a4eb0b752dcd9",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3662248",
-    "pregunta": "Will Guilherme Derrite win the most votes in the 2026 S\u00e3o Paulo Senate election?",
-    "ts": "2026-10-02T19:12:15.596834",
+    "id": "4037600",
+    "pregunta": "Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?",
+    "ts": "2026-10-02T19:22:32.845187",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9727ed498a58a9e8e8758d51c5a4eb0b752dcd9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3660967",
-    "pregunta": "Will Bia Kicis win the second-most votes in the 2026 Federal District Senate election?",
-    "ts": "2026-10-02T19:12:16.636953",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc9727ed498a58a9e8e8758d51c5a4eb0b752dcd9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3660975",
-    "pregunta": "Will Leila do V\u00f4lei win the second-most votes in the 2026 Federal District Senate election?",
-    "ts": "2026-10-02T19:12:18.733392",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc9727ed498a58a9e8e8758d51c5a4eb0b752dcd9",
+    "whale_wallet": "0xdf3b18f3fbf325cceaa9557c7afc79742064880a",
     "whale_signal": "COMPRAR NO"
   }
 ]
