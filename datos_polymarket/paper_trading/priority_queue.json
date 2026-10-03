@@ -1,34 +1,10 @@
 [
   {
-    "id": "4817070",
-    "pregunta": "Florida vs. Missouri",
-    "ts": "2026-10-03T16:22:12.757895",
+    "id": "5066462",
+    "pregunta": "LoL: Cloud9 vs LYON - Game 2 Winner",
+    "ts": "2026-10-03T16:32:22.830660",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817439",
-    "pregunta": "Auburn vs. Tennessee",
-    "ts": "2026-10-03T16:22:14.402338",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818670",
-    "pregunta": "Kentucky vs. South Carolina",
-    "ts": "2026-10-03T16:22:15.445190",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818379",
-    "pregunta": "Maryland vs. Nebraska",
-    "ts": "2026-10-03T16:22:16.479319",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_wallet": "0xb2f8c1e5695e6fdefe14bce1643eea8b75c70e89",
     "whale_signal": "COMPRAR NO"
   }
 ]
