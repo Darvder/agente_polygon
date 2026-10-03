@@ -1,58 +1,34 @@
 [
   {
-    "id": "4768024",
-    "pregunta": "Will CD Tolima win on 2026-10-03?",
-    "ts": "2026-10-03T17:45:13.009661",
+    "id": "1365861",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?",
+    "ts": "2026-10-03T17:54:05.557819",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x9e24bd0ebc6a423c43cf600e7bf1170a867b7e71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4768020",
-    "pregunta": "Will CA Mineiro win on 2026-10-03?",
-    "ts": "2026-10-03T17:45:14.162885",
+    "id": "4816710",
+    "pregunta": "Louisville vs. NC State",
+    "ts": "2026-10-03T17:54:29.731800",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4789017",
-    "pregunta": "CA Mineiro vs. Red Bull Bragantino: O/U 2.5",
-    "ts": "2026-10-03T17:45:15.296927",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4789217",
     "pregunta": "CD Tolima vs. Boyac\u00e1 Chic\u00f3 FC: O/U 0.5",
-    "ts": "2026-10-03T17:45:16.388533",
+    "ts": "2026-10-03T17:54:31.510695",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4818670",
-    "pregunta": "Kentucky vs. South Carolina",
-    "ts": "2026-10-03T17:45:17.479688",
+    "id": "4768024",
+    "pregunta": "Will CD Tolima win on 2026-10-03?",
+    "ts": "2026-10-03T17:54:32.578567",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5229021",
-    "pregunta": "Will the highest temperature in Los Angeles be between 98-99\u00b0F on October 5?",
-    "ts": "2026-10-03T17:45:20.913445",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9cf324c5f231e008ebb14f0e3950cf58c2ec31e5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5202946",
-    "pregunta": "Will the highest temperature in Los Angeles be between 96-97\u00b0F on October 4?",
-    "ts": "2026-10-03T17:45:22.062256",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9cf324c5f231e008ebb14f0e3950cf58c2ec31e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
