@@ -1,26 +1,42 @@
 [
   {
-    "id": "5066461",
-    "pregunta": "LoL: Cloud9 vs LYON - Game 1 Winner",
-    "ts": "2026-10-03T05:32:20.142547",
+    "id": "5177378",
+    "pregunta": "Valorant: G2 Esports vs Team Liquid - Map 2 Winner",
+    "ts": "2026-10-03T05:42:29.859616",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x30ea0d2d15ff45d44d89be73d5c30512c4018727",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5066463",
-    "pregunta": "LoL: Cloud9 vs LYON - Game 3 Winner",
-    "ts": "2026-10-03T05:32:21.226002",
+    "id": "5215350",
+    "pregunta": "M15 Sibenik: Noah Lopez vs Martin VAN DER MEERSCHEN",
+    "ts": "2026-10-03T05:42:32.206562",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x30ea0d2d15ff45d44d89be73d5c30512c4018727",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753786",
-    "pregunta": "Croatia vs. England: O/U 1.5",
-    "ts": "2026-10-03T05:32:24.088420",
+    "id": "5216349",
+    "pregunta": "W15 Varna: Felitsata Dorofeeva-Rybas vs Sonja Zhenikhova",
+    "ts": "2026-10-03T05:42:33.296272",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5215354",
+    "pregunta": "M25 Kigali: Calvin Hemery vs Florent Bax",
+    "ts": "2026-10-03T05:42:35.471394",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180463",
+    "pregunta": "China Open: Xinran Sun vs Cristina Bucsa",
+    "ts": "2026-10-03T05:42:40.277350",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
     "whale_signal": "COMPRAR NO"
   }
 ]
