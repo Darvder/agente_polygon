@@ -1,42 +1,18 @@
 [
   {
-    "id": "5035359",
-    "pregunta": "KHL: CSKA Moscow vs. HC Dynamo Moscow",
-    "ts": "2026-10-03T07:42:13.731349",
+    "id": "5183375",
+    "pregunta": "China Open: Francisco Cerundolo vs Jakub Mensik",
+    "ts": "2026-10-03T07:53:31.394215",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb77e49e20dcb7adda603a3b2a1cf8a576d73f4fe",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5035371",
-    "pregunta": "KHL: Severstal Cherepovets vs. Shanghai Dragons",
-    "ts": "2026-10-03T07:42:14.797636",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb77e49e20dcb7adda603a3b2a1cf8a576d73f4fe",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5177602",
-    "pregunta": "Valorant: Karmine Corp vs Nongshim RedForce - Map 2 Winner",
-    "ts": "2026-10-03T07:42:16.735588",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8e2b3a77f3487db462a7a0d4550e451332a48ea8",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5122923",
     "pregunta": "LoL: HANJIN BRION vs JD Gaming (BO1) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-03T07:42:17.827852",
+    "ts": "2026-10-03T07:53:35.429564",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8e2b3a77f3487db462a7a0d4550e451332a48ea8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5183375",
-    "pregunta": "China Open: Francisco Cerundolo vs Jakub Mensik",
-    "ts": "2026-10-03T07:42:19.754104",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x043afcca7292d08b1de52f14176068f58f8c915c",
+    "whale_wallet": "0x60eb581181bf2c889bb58ac65a268ebcec2bbb9d",
     "whale_signal": "COMPRAR NO"
   }
 ]
