@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "id": "5174513",
+    "pregunta": "Will the highest temperature in Los Angeles be between 96-97\u00b0F on October 3?",
+    "ts": "2026-10-02T23:32:16.271697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5174514",
+    "pregunta": "Will the highest temperature in Los Angeles be between 98-99\u00b0F on October 3?",
+    "ts": "2026-10-02T23:32:17.312417",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5174512",
+    "pregunta": "Will the highest temperature in Los Angeles be between 94-95\u00b0F on October 3?",
+    "ts": "2026-10-02T23:32:18.441547",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3dd1cf0515af12542488af04388404fb056e557e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752931",
+    "pregunta": "Will Finland win on 2026-10-03?",
+    "ts": "2026-10-02T23:32:20.315280",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4752975",
+    "pregunta": "Will Croatia win on 2026-10-03?",
+    "ts": "2026-10-02T23:32:21.447696",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4757293",
+    "pregunta": "Will Cameroon win on 2026-10-03?",
+    "ts": "2026-10-02T23:32:22.577135",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4751394",
+    "pregunta": "Will Tranmere Rovers FC win on 2026-10-03?",
+    "ts": "2026-10-02T23:32:23.708684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4751393",
+    "pregunta": "Will Chesterfield FC vs. Tranmere Rovers FC end in a draw?",
+    "ts": "2026-10-02T23:32:24.764859",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4751421",
+    "pregunta": "Will Fleetwood Town FC win on 2026-10-03?",
+    "ts": "2026-10-02T23:32:25.904875",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4751420",
+    "pregunta": "Will Salford City FC vs. Fleetwood Town FC end in a draw?",
+    "ts": "2026-10-02T23:32:27.072750",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4751400",
+    "pregunta": "Will Shrewsbury Town FC win on 2026-10-03?",
+    "ts": "2026-10-02T23:32:28.245007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4751399",
+    "pregunta": "Will Grimsby Town FC vs. Shrewsbury Town FC end in a draw?",
+    "ts": "2026-10-02T23:32:29.393165",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c02af1cd2fda1d07f1bfd467f9d253df11a23bc",
+    "whale_signal": "COMPRAR NO"
+  }
+]
