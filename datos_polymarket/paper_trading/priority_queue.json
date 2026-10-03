@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4952606",
+    "pregunta": "Dallas Wings vs. Golden State Valkyries",
+    "ts": "2026-10-02T22:22:40.337687",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4814386",
+    "pregunta": "Montana State vs. Idaho",
+    "ts": "2026-10-02T22:22:41.377367",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_signal": "COMPRAR NO"
+  }
+]
