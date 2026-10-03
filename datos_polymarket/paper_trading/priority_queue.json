@@ -1,42 +1,26 @@
 [
   {
-    "id": "1892493",
-    "pregunta": "Will Las Vegas Aces win the 2026 WNBA Finals?",
-    "ts": "2026-10-03T06:52:16.967760",
+    "id": "4753667",
+    "pregunta": "Spain vs. Czechia: O/U 2.5",
+    "ts": "2026-10-03T07:02:52.828432",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5011118",
-    "pregunta": "Counter-Strike: G2 vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-03T06:52:18.897411",
+    "id": "4753687",
+    "pregunta": "Spain vs. Czechia: Czechia O/U 0.5",
+    "ts": "2026-10-03T07:02:56.039643",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08356cf3719dd0342869b35f192669b50b58ab92",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5066465",
-    "pregunta": "LoL: Cloud9 vs LYON (BO5) - LCS Playoffs",
-    "ts": "2026-10-03T06:52:19.937791",
+    "id": "4753659",
+    "pregunta": "Spread: Spain (-3.5)",
+    "ts": "2026-10-03T07:02:57.133138",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08356cf3719dd0342869b35f192669b50b58ab92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122930",
-    "pregunta": "LoL: Team Vitality vs BNK FEARX (BO1) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-03T06:52:21.747651",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf6eef6b249b78ae9f61dd91bc6fb5a5e5e697129",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5122944",
-    "pregunta": "LoL: GAM Esports vs Team WE (BO1) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-03T06:52:22.788887",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf6eef6b249b78ae9f61dd91bc6fb5a5e5e697129",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
