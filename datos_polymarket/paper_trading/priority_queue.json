@@ -1,74 +1,42 @@
 [
   {
-    "id": "5203688",
-    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers",
-    "ts": "2026-10-03T14:52:02.259238",
+    "id": "4753547",
+    "pregunta": "North Macedonia vs. Scotland: O/U 2.5",
+    "ts": "2026-10-03T15:03:17.431788",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4818670",
-    "pregunta": "Kentucky vs. South Carolina",
-    "ts": "2026-10-03T14:52:03.329572",
+    "id": "4769681",
+    "pregunta": "Canada vs. Peru: O/U 2.5",
+    "ts": "2026-10-03T15:03:18.477248",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818069",
-    "pregunta": "Ohio State vs. Iowa: O/U 47.5",
-    "ts": "2026-10-03T14:52:05.043690",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4819790",
-    "pregunta": "BYU vs. TCU: O/U 47.5",
-    "ts": "2026-10-03T14:52:06.128573",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4817166",
-    "pregunta": "Florida vs. Missouri: O/U 57.5",
-    "ts": "2026-10-03T14:52:07.186391",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4815920",
     "pregunta": "Western Michigan vs. Buffalo",
-    "ts": "2026-10-03T14:52:08.243352",
+    "ts": "2026-10-03T15:03:26.603904",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4818714",
-    "pregunta": "Spread: South Carolina (-2.5)",
-    "ts": "2026-10-03T14:52:09.322481",
+    "id": "4817084",
+    "pregunta": "California vs. UNLV",
+    "ts": "2026-10-03T15:03:31.823490",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4818711",
-    "pregunta": "Spread: South Carolina (-1.5)",
-    "ts": "2026-10-03T14:52:10.413025",
+    "id": "4814443",
+    "pregunta": "Syracuse vs. UConn",
+    "ts": "2026-10-03T15:03:32.866380",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818643",
-    "pregunta": "Purdue vs. Illinois: O/U 61.5",
-    "ts": "2026-10-03T14:52:11.523007",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
     "whale_signal": "COMPRAR NO"
   }
 ]
