@@ -1,34 +1,10 @@
 [
   {
-    "id": "5215697",
-    "pregunta": "Game Handicap: LY (-1.5) vs Cloud9 (+1.5)",
-    "ts": "2026-10-03T16:42:53.469668",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5066462",
-    "pregunta": "LoL: Cloud9 vs LYON - Game 2 Winner",
-    "ts": "2026-10-03T16:42:54.534819",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4818379",
-    "pregunta": "Maryland vs. Nebraska",
-    "ts": "2026-10-03T16:42:57.290358",
+    "id": "5203693",
+    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers: O/U 8.5",
+    "ts": "2026-10-03T16:58:44.432805",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-03T16:43:00.027498",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58f84122535fbe42cec75d70e24ba0dd7e7cec8",
     "whale_signal": "COMPRAR NO"
   }
 ]
