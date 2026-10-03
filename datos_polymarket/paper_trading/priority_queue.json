@@ -1,42 +1,50 @@
 [
   {
-    "id": "4753547",
-    "pregunta": "North Macedonia vs. Scotland: O/U 2.5",
-    "ts": "2026-10-03T15:03:17.431788",
+    "id": "4786268",
+    "pregunta": "CSyD Defensa y Justicia vs. CA San Lorenzo de Almagro: O/U 3.5",
+    "ts": "2026-10-03T15:12:06.734852",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17224c4130ca96b1bb8196e271c18c8ccb918d47",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753546",
+    "pregunta": "North Macedonia vs. Scotland: O/U 1.5",
+    "ts": "2026-10-03T15:12:07.946646",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17224c4130ca96b1bb8196e271c18c8ccb918d47",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753657",
+    "pregunta": "Spread: Spain (-2.5)",
+    "ts": "2026-10-03T15:12:09.701064",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4769681",
-    "pregunta": "Canada vs. Peru: O/U 2.5",
-    "ts": "2026-10-03T15:03:18.477248",
+    "id": "4753221",
+    "pregunta": "Exact Score: Spain 2 - 0 Czechia?",
+    "ts": "2026-10-03T15:12:10.757583",
     "origen": "whale_copytrader",
     "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4815920",
-    "pregunta": "Western Michigan vs. Buffalo",
-    "ts": "2026-10-03T15:03:26.603904",
+    "id": "4757291",
+    "pregunta": "Will C\u00f4te d'Ivoire win on 2026-10-03?",
+    "ts": "2026-10-03T15:12:11.827508",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4817084",
-    "pregunta": "California vs. UNLV",
-    "ts": "2026-10-03T15:03:31.823490",
+    "id": "4753609",
+    "pregunta": "Switzerland vs. Slovenia: O/U 4.5",
+    "ts": "2026-10-03T15:12:12.896841",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814443",
-    "pregunta": "Syracuse vs. UConn",
-    "ts": "2026-10-03T15:03:32.866380",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x26d61145a64b1b5036c82a147dfeb7d56fa0cacc",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
