@@ -1,26 +1,10 @@
 [
   {
-    "id": "3336033",
-    "pregunta": "KBO: Kia Tigers vs. LG Twins",
-    "ts": "2026-10-03T02:32:20.004473",
+    "id": "4738429",
+    "pregunta": "Will Kataller Toyama win on 2026-10-03?",
+    "ts": "2026-10-03T02:42:19.198075",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf898dc38744d9e173bcaadef0647ceb42ad8e720",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3336025",
-    "pregunta": "KBO: Doosan Bears vs. Samsung Lions",
-    "ts": "2026-10-03T02:32:21.075401",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf898dc38744d9e173bcaadef0647ceb42ad8e720",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2666714",
-    "pregunta": "Hiroshima Carp vs. Hanshin Tigers",
-    "ts": "2026-10-03T02:32:22.167390",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf898dc38744d9e173bcaadef0647ceb42ad8e720",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
