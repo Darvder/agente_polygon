@@ -1,26 +1,18 @@
 [
   {
+    "id": "5122944",
+    "pregunta": "LoL: GAM Esports vs Team WE (BO1) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-03T08:12:22.480631",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0dad340e363a1af5ffbc5a5fdeec45f1381749b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5122923",
     "pregunta": "LoL: HANJIN BRION vs JD Gaming (BO1) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-03T08:02:02.339647",
+    "ts": "2026-10-03T08:12:23.532671",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4819176",
-    "pregunta": "Arkansas-Pine Bluff vs. Southern University",
-    "ts": "2026-10-03T08:02:07.555238",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x54ce7dd357766fc3255645e55ef41edd51cc9f80",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753966",
-    "pregunta": "Finland vs. Albania: O/U 1.5",
-    "ts": "2026-10-03T08:02:09.503244",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x841291db37019d4e31f6d08cfb34cc3681487fc8",
+    "whale_wallet": "0xf0dad340e363a1af5ffbc5a5fdeec45f1381749b",
     "whale_signal": "COMPRAR NO"
   }
 ]
