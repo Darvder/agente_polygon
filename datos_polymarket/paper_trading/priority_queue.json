@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "5203688",
+    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers",
+    "ts": "2026-10-03T14:52:02.259238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-03T14:52:03.329572",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818069",
+    "pregunta": "Ohio State vs. Iowa: O/U 47.5",
+    "ts": "2026-10-03T14:52:05.043690",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4819790",
+    "pregunta": "BYU vs. TCU: O/U 47.5",
+    "ts": "2026-10-03T14:52:06.128573",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4817166",
+    "pregunta": "Florida vs. Missouri: O/U 57.5",
+    "ts": "2026-10-03T14:52:07.186391",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4815920",
+    "pregunta": "Western Michigan vs. Buffalo",
+    "ts": "2026-10-03T14:52:08.243352",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818714",
+    "pregunta": "Spread: South Carolina (-2.5)",
+    "ts": "2026-10-03T14:52:09.322481",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818711",
+    "pregunta": "Spread: South Carolina (-1.5)",
+    "ts": "2026-10-03T14:52:10.413025",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818643",
+    "pregunta": "Purdue vs. Illinois: O/U 61.5",
+    "ts": "2026-10-03T14:52:11.523007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
