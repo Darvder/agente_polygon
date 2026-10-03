@@ -1,42 +1,18 @@
 [
   {
-    "id": "5174091",
-    "pregunta": "Japan Open Tennis Championships: Denis Shapovalov vs Alejandro Tabilo",
-    "ts": "2026-10-02T22:32:13.886319",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753988",
-    "pregunta": "Finland vs. Albania: Albania O/U 1.5",
-    "ts": "2026-10-02T22:32:15.127736",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5173038",
     "pregunta": "China Open: Katie Volynets vs Elise Mertens",
-    "ts": "2026-10-02T22:32:18.071022",
+    "ts": "2026-10-02T22:42:27.026525",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2290b7e7a4b99e797dec87ba724873a82676fd05",
+    "whale_wallet": "0x580325efbb00a3262513d16bce6bbcc979313f3f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5173056",
-    "pregunta": "China Open: Maria Sakkari vs Storm Hunter",
-    "ts": "2026-10-02T22:32:19.150368",
+    "id": "5174091",
+    "pregunta": "Japan Open Tennis Championships: Denis Shapovalov vs Alejandro Tabilo",
+    "ts": "2026-10-02T22:42:29.793055",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2290b7e7a4b99e797dec87ba724873a82676fd05",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180459",
-    "pregunta": "China Open: Donna Vekic vs Lin Zhu",
-    "ts": "2026-10-02T22:32:20.215538",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2290b7e7a4b99e797dec87ba724873a82676fd05",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
