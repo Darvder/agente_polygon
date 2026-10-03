@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4739572",
+    "pregunta": "Ventforet K\u014dfu vs. Kataller Toyama: O/U 3.5",
+    "ts": "2026-10-03T02:13:07.937436",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b841580c0c36e9e882d7e3f24ab33c46ab76e9b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4739511",
+    "pregunta": "\u014cita Trinita vs. Montedio Yamagata: O/U 2.5",
+    "ts": "2026-10-03T02:13:09.098960",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b841580c0c36e9e882d7e3f24ab33c46ab76e9b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
