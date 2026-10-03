@@ -1,34 +1,10 @@
 [
   {
-    "id": "4815377",
-    "pregunta": "West Virginia vs. Iowa State",
-    "ts": "2026-10-03T14:13:04.434399",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4814443",
-    "pregunta": "Syracuse vs. UConn",
-    "ts": "2026-10-03T14:13:05.507509",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4814811",
     "pregunta": "Michigan vs. Minnesota",
-    "ts": "2026-10-03T14:13:06.569180",
+    "ts": "2026-10-03T14:21:59.147950",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4815920",
-    "pregunta": "Western Michigan vs. Buffalo",
-    "ts": "2026-10-03T14:13:07.635829",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0f76e9a901b9b18b0ac0561556079aa4f0a6dcc9",
+    "whale_wallet": "0x952718df56ab7955e0a0121a9e47fa8f52b6888b",
     "whale_signal": "COMPRAR NO"
   }
 ]
