@@ -1,18 +1,10 @@
 [
   {
-    "id": "5170362",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 22\u00b0C on October 3?",
-    "ts": "2026-10-02T23:45:23.509970",
+    "id": "5081783",
+    "pregunta": "Will the price of Bitcoin be above $84,000 on October 5?",
+    "ts": "2026-10-02T23:55:19.356556",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x980b778659bb90ea06d1019eb2883786f8cb4f24",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170361",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 21\u00b0C on October 3?",
-    "ts": "2026-10-02T23:45:24.680734",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x980b778659bb90ea06d1019eb2883786f8cb4f24",
+    "whale_wallet": "0xf83ec0e37ac9eece71c064507270e9001a734663",
     "whale_signal": "COMPRAR NO"
   }
 ]
