@@ -1,18 +1,42 @@
 [
   {
-    "id": "4789017",
-    "pregunta": "CA Mineiro vs. Red Bull Bragantino: O/U 2.5",
-    "ts": "2026-10-03T17:14:43.936522",
+    "id": "4816710",
+    "pregunta": "Louisville vs. NC State",
+    "ts": "2026-10-03T17:22:33.046717",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753669",
-    "pregunta": "Spain vs. Czechia: O/U 4.5",
-    "ts": "2026-10-03T17:14:49.339589",
+    "id": "4818670",
+    "pregunta": "Kentucky vs. South Carolina",
+    "ts": "2026-10-03T17:22:34.092497",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2ec5ac52dcb5537f1fe8b47ee3cfd34bd666fd53",
+    "whale_wallet": "0xd9e0aaca471f489be338fd0f91a26e8669a805f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5197850",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 22\u00b0C on October 4?",
+    "ts": "2026-10-03T17:22:36.878824",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x43bd51535d5af64988bd63393ee52a49d563beda",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818732",
+    "pregunta": "Spread: South Carolina (-8.5)",
+    "ts": "2026-10-03T17:22:38.775677",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b0fcd4c06147cb090681b4bd59cab5b9319b7ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4819360",
+    "pregunta": "UTSA vs. Rice: O/U 55.5",
+    "ts": "2026-10-03T17:22:39.842619",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b0fcd4c06147cb090681b4bd59cab5b9319b7ae",
     "whale_signal": "COMPRAR NO"
   }
 ]
