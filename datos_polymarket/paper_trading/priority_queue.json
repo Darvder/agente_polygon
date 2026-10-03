@@ -1,34 +1,42 @@
 [
   {
-    "id": "1365861",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?",
-    "ts": "2026-10-03T17:54:05.557819",
+    "id": "4740147",
+    "pregunta": "Will Damian Pinas win by KO or TKO?",
+    "ts": "2026-10-03T18:03:56.383591",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e24bd0ebc6a423c43cf600e7bf1170a867b7e71",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4816710",
-    "pregunta": "Louisville vs. NC State",
-    "ts": "2026-10-03T17:54:29.731800",
+    "id": "4819709",
+    "pregunta": "Spread: BYU (-6.5)",
+    "ts": "2026-10-03T18:03:57.599720",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0f21e6d351baa9185716b5c00c2925ed9621848",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4789217",
-    "pregunta": "CD Tolima vs. Boyac\u00e1 Chic\u00f3 FC: O/U 0.5",
-    "ts": "2026-10-03T17:54:31.510695",
+    "id": "5005657",
+    "pregunta": "Heat vs. Raptors",
+    "ts": "2026-10-03T18:03:58.643243",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4768024",
-    "pregunta": "Will CD Tolima win on 2026-10-03?",
-    "ts": "2026-10-03T17:54:32.578567",
+    "id": "5176533",
+    "pregunta": "Loudoun United FC vs. Indy Eleven: O/U 2.5",
+    "ts": "2026-10-03T18:04:01.108494",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x67af214764bd6eda61fadb25cdcbea6d13d761ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4818490",
+    "pregunta": "Purdue vs. Illinois",
+    "ts": "2026-10-03T18:04:04.261348",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
     "whale_signal": "COMPRAR NO"
   }
 ]
