@@ -1,58 +1,18 @@
 [
   {
-    "id": "4747307",
-    "pregunta": "Will SD Eibar win on 2026-10-03?",
-    "ts": "2026-10-03T07:13:33.703843",
+    "id": "5197938",
+    "pregunta": "Will the highest temperature in Shanghai be 22\u00b0C on October 4?",
+    "ts": "2026-10-03T07:22:56.954683",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xe379d0518db9a894e87289c870505be369306960",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4753968",
-    "pregunta": "Finland vs. Albania: O/U 3.5",
-    "ts": "2026-10-03T07:13:34.827021",
+    "id": "5198146",
+    "pregunta": "Will the highest temperature in Cape Town be 27\u00b0C on October 4?",
+    "ts": "2026-10-03T07:22:58.080153",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5183375",
-    "pregunta": "China Open: Francisco Cerundolo vs Jakub Mensik",
-    "ts": "2026-10-03T07:13:41.233509",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5175473",
-    "pregunta": "Spread: Tampa Bay Rays (-1.5)",
-    "ts": "2026-10-03T07:13:42.356980",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4749520",
-    "pregunta": "Will Plymouth Argyle FC win on 2026-10-03?",
-    "ts": "2026-10-03T07:13:43.398588",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740067",
-    "pregunta": "UFC 332: King Green vs. Esteban Ribovics (Lightweight, Main Card)",
-    "ts": "2026-10-03T07:13:44.436839",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5171739",
-    "pregunta": "Will Schalke 04 win on 2026-10-03?",
-    "ts": "2026-10-03T07:13:45.482816",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x29d2863456528f5548dab565fb3474debc1debba",
+    "whale_wallet": "0xe379d0518db9a894e87289c870505be369306960",
     "whale_signal": "COMPRAR NO"
   }
 ]
