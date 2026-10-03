@@ -1,18 +1,66 @@
 [
   {
+    "id": "5180115",
+    "pregunta": "Will Elon Musk post 40-64 tweets from October 3 to October 5, 2026?",
+    "ts": "2026-10-03T15:52:21.519839",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180116",
+    "pregunta": "Will Elon Musk post 65-89 tweets from October 3 to October 5, 2026?",
+    "ts": "2026-10-03T15:52:22.684865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4970467",
+    "pregunta": "Will Elon Musk post 220-239 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-10-03T15:52:23.734403",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4740219",
     "pregunta": "UFC 332: Marvin Vettori vs. Ismail Naurdiev (Middleweight, Early Prelims)",
-    "ts": "2026-10-03T15:42:46.736842",
+    "ts": "2026-10-03T15:52:25.474773",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4789277",
+    "pregunta": "\u00c1guilas Doradas Rionegro vs. Jaguares de C\u00f3rdoba FC: O/U 0.5",
+    "ts": "2026-10-03T15:52:27.219677",
     "origen": "whale_copytrader",
     "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4757292",
-    "pregunta": "Will C\u00f4te d'Ivoire vs. Cameroon end in a draw?",
-    "ts": "2026-10-03T15:42:50.454904",
+    "id": "4730310",
+    "pregunta": "Will \u00c1guilas Doradas Rionegro win on 2026-10-03?",
+    "ts": "2026-10-03T15:52:28.263500",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4817094",
+    "pregunta": "Spread: Florida (-5.5)",
+    "ts": "2026-10-03T15:52:29.303418",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4789278",
+    "pregunta": "\u00c1guilas Doradas Rionegro vs. Jaguares de C\u00f3rdoba FC: O/U 1.5",
+    "ts": "2026-10-03T15:52:30.352039",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
     "whale_signal": "COMPRAR NO"
   }
 ]
