@@ -1,90 +1,26 @@
 [
   {
-    "id": "4849910",
-    "pregunta": "Spread: Morecambe FC (-1.5)",
-    "ts": "2026-10-03T10:13:05.514547",
+    "id": "4752979",
+    "pregunta": "Will England win on 2026-10-03?",
+    "ts": "2026-10-03T10:22:26.584725",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4846440",
-    "pregunta": "Will Morecambe FC win on 2026-10-03?",
-    "ts": "2026-10-03T10:13:06.690933",
+    "id": "5175482",
+    "pregunta": "San Diego Padres vs. Milwaukee Brewers",
+    "ts": "2026-10-03T10:22:27.622549",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5060064",
-    "pregunta": "CA Temperley vs. Gimnasia y Esgrima de Jujuy: O/U 1.5",
-    "ts": "2026-10-03T10:13:07.861211",
+    "id": "5102827",
+    "pregunta": "1H Spread: Alabama (-2.5)",
+    "ts": "2026-10-03T10:22:28.756746",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5060065",
-    "pregunta": "CA Temperley vs. Gimnasia y Esgrima de Jujuy: O/U 2.5",
-    "ts": "2026-10-03T10:13:08.912667",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753668",
-    "pregunta": "Spain vs. Czechia: O/U 3.5",
-    "ts": "2026-10-03T10:13:09.980646",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753667",
-    "pregunta": "Spain vs. Czechia: O/U 2.5",
-    "ts": "2026-10-03T10:13:11.035575",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753669",
-    "pregunta": "Spain vs. Czechia: O/U 4.5",
-    "ts": "2026-10-03T10:13:12.088366",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753657",
-    "pregunta": "Spread: Spain (-2.5)",
-    "ts": "2026-10-03T10:13:13.138758",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753659",
-    "pregunta": "Spread: Spain (-3.5)",
-    "ts": "2026-10-03T10:13:14.327000",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753547",
-    "pregunta": "North Macedonia vs. Scotland: O/U 2.5",
-    "ts": "2026-10-03T10:13:15.379822",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4753546",
-    "pregunta": "North Macedonia vs. Scotland: O/U 1.5",
-    "ts": "2026-10-03T10:13:16.519034",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2f7b23f2697bfd5acb8cba237f61fc9a3b17029",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
