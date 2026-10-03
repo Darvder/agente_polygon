@@ -1,18 +1,58 @@
 [
   {
-    "id": "4814136",
-    "pregunta": "Pittsburgh vs. Virginia Tech",
-    "ts": "2026-10-02T21:42:37.749191",
+    "id": "4758923",
+    "pregunta": "El Salvador vs. Jamaica: O/U 1.5",
+    "ts": "2026-10-02T21:52:18.386387",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6db568e61e5e3de7d87f831431b673f38ce2e279",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4814178",
-    "pregunta": "Penn State vs. Northwestern",
-    "ts": "2026-10-02T21:42:40.723598",
+    "id": "4730293",
+    "pregunta": "Will AD Cali win on 2026-10-02?",
+    "ts": "2026-10-02T21:52:19.478051",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09a7987daa6b37e117f2cfef385f51789667ba39",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4758924",
+    "pregunta": "El Salvador vs. Jamaica: O/U 2.5",
+    "ts": "2026-10-02T21:52:20.579838",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4952606",
+    "pregunta": "Dallas Wings vs. Golden State Valkyries",
+    "ts": "2026-10-02T21:52:21.617193",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4789358",
+    "pregunta": "Spread: AD Cali (-1.5)",
+    "ts": "2026-10-02T21:52:25.376776",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4753674",
+    "pregunta": "Spain vs. Czechia: Both Teams to Score",
+    "ts": "2026-10-02T21:52:26.446065",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4789395",
+    "pregunta": "AD Cali vs. Alianza FC: Both Teams to Score",
+    "ts": "2026-10-02T21:52:27.486455",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x289eaf2df05622c3c66e7cb4f13368e7d84b1214",
     "whale_signal": "COMPRAR NO"
   }
 ]
