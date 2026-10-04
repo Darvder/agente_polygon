@@ -1,82 +1,42 @@
 [
   {
-    "id": "4859223",
-    "pregunta": "Spread: Colts (-9.5)",
-    "ts": "2026-10-04T10:52:41.152471",
+    "id": "4860887",
+    "pregunta": "Spread: Bears (-3.5)",
+    "ts": "2026-10-04T11:03:59.295512",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4859224",
-    "pregunta": "Spread: Colts (-10.5)",
-    "ts": "2026-10-04T10:52:45.391207",
+    "id": "4861760",
+    "pregunta": "Spread: Vikings (-9.5)",
+    "ts": "2026-10-04T11:04:00.331530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4859221",
-    "pregunta": "Spread: Colts (-7.5)",
-    "ts": "2026-10-04T10:52:46.453347",
+    "id": "3875306",
+    "pregunta": "Patriots vs. Bills: O/U 47.5",
+    "ts": "2026-10-04T11:04:01.398402",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4859219",
-    "pregunta": "Spread: Colts (-5.5)",
-    "ts": "2026-10-04T10:52:47.520355",
+    "id": "3875253",
+    "pregunta": "Spread: Rams (-3.5)",
+    "ts": "2026-10-04T11:04:02.467614",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4424975",
-    "pregunta": "Colts vs. Commanders: O/U 48.5",
-    "ts": "2026-10-04T10:52:48.578973",
+    "id": "5247411",
+    "pregunta": "Counter-Strike: Vitality vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T11:04:06.247817",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875324",
-    "pregunta": "Spread: Colts (-3.5)",
-    "ts": "2026-10-04T10:52:49.685735",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875327",
-    "pregunta": "Colts vs. Commanders: O/U 47.5",
-    "ts": "2026-10-04T10:52:51.810668",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4859227",
-    "pregunta": "Spread: Colts (-16.5)",
-    "ts": "2026-10-04T10:52:56.016996",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4859225",
-    "pregunta": "Spread: Colts (-13.5)",
-    "ts": "2026-10-04T10:52:57.085663",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4859391",
-    "pregunta": "Colts vs. Commanders: O/U 44.5",
-    "ts": "2026-10-04T10:52:58.157303",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_wallet": "0x1ceed2a8e1d2aae3801efe11f93e22ad4bea97aa",
     "whale_signal": "COMPRAR NO"
   }
 ]
