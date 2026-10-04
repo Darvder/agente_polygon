@@ -1,16 +1,8 @@
 [
   {
-    "id": "3871435",
-    "pregunta": "Broncos vs. 49ers",
-    "ts": "2026-10-04T17:44:20.279749",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875165",
-    "pregunta": "Spread: 49ers (-3.5)",
-    "ts": "2026-10-04T17:44:21.369005",
+    "id": "3871431",
+    "pregunta": "Chiefs vs. Raiders",
+    "ts": "2026-10-04T17:53:23.005895",
     "origen": "whale_copytrader",
     "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
@@ -18,81 +10,25 @@
   {
     "id": "5175492",
     "pregunta": "San Diego Padres vs. Milwaukee Brewers",
-    "ts": "2026-10-04T17:44:22.457639",
+    "ts": "2026-10-04T17:53:26.318354",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0x274fc19df5ec819e9e481959a00390db549c971a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871431",
-    "pregunta": "Chiefs vs. Raiders",
-    "ts": "2026-10-04T17:44:23.551444",
+    "id": "3871435",
+    "pregunta": "Broncos vs. 49ers",
+    "ts": "2026-10-04T17:53:27.438431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0x274fc19df5ec819e9e481959a00390db549c971a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875233",
-    "pregunta": "Spread: Vikings (-6.5)",
-    "ts": "2026-10-04T17:44:25.753001",
+    "id": "3871427",
+    "pregunta": "Dolphins vs. Vikings",
+    "ts": "2026-10-04T17:53:28.569143",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4863143",
-    "pregunta": "Spread: Raiders (-2.5)",
-    "ts": "2026-10-04T17:44:26.840972",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4862303",
-    "pregunta": "Spread: Seahawks (-19.5)",
-    "ts": "2026-10-04T17:44:27.929219",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4862022",
-    "pregunta": "Spread: 49ers (-8.5)",
-    "ts": "2026-10-04T17:44:29.016931",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4862021",
-    "pregunta": "Spread: 49ers (-7.5)",
-    "ts": "2026-10-04T17:44:30.112126",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919399",
-    "pregunta": "Broncos vs. 49ers: O/U 29.5",
-    "ts": "2026-10-04T17:44:31.251930",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875172",
-    "pregunta": "Spread: 49ers (-6.5)",
-    "ts": "2026-10-04T17:44:32.343439",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919455",
-    "pregunta": "Dolphins vs. Vikings: O/U 26.5",
-    "ts": "2026-10-04T17:44:33.430826",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_wallet": "0x274fc19df5ec819e9e481959a00390db549c971a",
     "whale_signal": "COMPRAR NO"
   }
 ]
