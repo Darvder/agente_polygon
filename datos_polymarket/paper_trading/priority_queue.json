@@ -1,18 +1,26 @@
 [
   {
-    "id": "3871418",
-    "pregunta": "Cowboys vs. Texans",
-    "ts": "2026-10-04T14:33:39.615378",
+    "id": "4785943",
+    "pregunta": "Will Portugal win on 2026-10-04?",
+    "ts": "2026-10-04T14:45:21.315176",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf6dd2e6947283b30a19a106401dadad2bc9bac58",
+    "whale_wallet": "0x576d57683f81c30ae5f76523ccb91534382e1f40",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5206978",
-    "pregunta": "Spain snap election called by October 31?",
-    "ts": "2026-10-04T14:33:48.372294",
+    "id": "4787028",
+    "pregunta": "Portugal vs. Norway: Portugal O/U 1.5",
+    "ts": "2026-10-04T14:45:22.382245",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e35a2a8cfd1eb1e69dacd043206db5a787f1a6c",
+    "whale_wallet": "0x576d57683f81c30ae5f76523ccb91534382e1f40",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871433",
+    "pregunta": "Chargers vs. Seahawks",
+    "ts": "2026-10-04T14:45:35.004959",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b0fcd4c06147cb090681b4bd59cab5b9319b7ae",
     "whale_signal": "COMPRAR NO"
   }
 ]
