@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4822620",
+    "pregunta": "Spread: Arizona (-6.5)",
+    "ts": "2026-10-03T22:22:40.823074",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5175482",
+    "pregunta": "San Diego Padres vs. Milwaukee Brewers",
+    "ts": "2026-10-03T22:22:41.866358",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x796fc6fda8f8e03c03e2a2d012155989960300f6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
