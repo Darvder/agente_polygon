@@ -1,18 +1,66 @@
 [
   {
-    "id": "3919444",
-    "pregunta": "Chiefs vs. Raiders: O/U 46.5",
-    "ts": "2026-10-04T15:23:22.192476",
+    "id": "3871411",
+    "pregunta": "Patriots vs. Bills",
+    "ts": "2026-10-04T15:33:22.018178",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6157d529ae129fe08f22a27ed42e741d2eaa9fb4",
+    "whale_wallet": "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5262963",
-    "pregunta": "LoL: Team Liquid vs LYON - Game 1 Winner",
-    "ts": "2026-10-04T15:23:24.375125",
+    "id": "3871431",
+    "pregunta": "Chiefs vs. Raiders",
+    "ts": "2026-10-04T15:33:23.111927",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x63464a9086822a8fbfa95c7977da6a2b2edf2e24",
+    "whale_wallet": "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875204",
+    "pregunta": "Spread: Seahawks (-6.5)",
+    "ts": "2026-10-04T15:33:25.803344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4786001",
+    "pregunta": "Will Israel win on 2026-10-04?",
+    "ts": "2026-10-04T15:33:27.687842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4785989",
+    "pregunta": "Will Germany win on 2026-10-04?",
+    "ts": "2026-10-04T15:33:28.761491",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4785961",
+    "pregunta": "Will Netherlands win on 2026-10-04?",
+    "ts": "2026-10-04T15:33:29.850405",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4785999",
+    "pregunta": "Will Republic of Ireland vs. Israel end in a draw?",
+    "ts": "2026-10-04T15:33:30.976523",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4785943",
+    "pregunta": "Will Portugal win on 2026-10-04?",
+    "ts": "2026-10-04T15:33:32.044952",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
     "whale_signal": "COMPRAR NO"
   }
 ]
