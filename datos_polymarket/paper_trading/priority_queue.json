@@ -1,18 +1,34 @@
 [
   {
-    "id": "3875326",
-    "pregunta": "Colts vs. Commanders: O/U 46.5",
-    "ts": "2026-10-04T09:22:54.886463",
+    "id": "5247322",
+    "pregunta": "Counter-Strike: G2 vs 1WIN - Map 1 Winner",
+    "ts": "2026-10-04T09:32:29.609191",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871405",
-    "pregunta": "Colts vs. Commanders",
-    "ts": "2026-10-04T09:22:55.976652",
+    "id": "3871411",
+    "pregunta": "Patriots vs. Bills",
+    "ts": "2026-10-04T09:32:32.886791",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "whale_wallet": "0x6f11bcdd1e09a7109b61e6c26ddbcfe3f204c524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247381",
+    "pregunta": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T09:32:35.001527",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd88ad596fa48b3ea6acac2c699bba7a92abca7e4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5255759",
+    "pregunta": "Counter-Strike: Butterfly vs megoshort - Map 1 Winner",
+    "ts": "2026-10-04T09:32:37.020105",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
     "whale_signal": "COMPRAR NO"
   }
 ]
