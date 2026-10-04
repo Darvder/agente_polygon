@@ -1,122 +1,42 @@
 [
   {
-    "id": "3919446",
-    "pregunta": "Chiefs vs. Raiders: O/U 50.5",
-    "ts": "2026-10-04T16:03:20.399532",
+    "id": "3875204",
+    "pregunta": "Spread: Seahawks (-6.5)",
+    "ts": "2026-10-04T16:13:54.452301",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4862025",
-    "pregunta": "Spread: 49ers (-13.5)",
-    "ts": "2026-10-04T16:03:21.629199",
+    "id": "3919456",
+    "pregunta": "Dolphins vs. Vikings: O/U 28.5",
+    "ts": "2026-10-04T16:13:55.500261",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871435",
-    "pregunta": "Broncos vs. 49ers",
-    "ts": "2026-10-04T16:03:22.689749",
+    "id": "4862295",
+    "pregunta": "Spread: Seahawks (-7.5)",
+    "ts": "2026-10-04T16:13:58.631502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875235",
-    "pregunta": "Spread: Vikings (-10.5)",
-    "ts": "2026-10-04T16:03:23.743771",
+    "id": "4862178",
+    "pregunta": "Broncos vs. 49ers: O/U 36.5",
+    "ts": "2026-10-04T16:13:59.675437",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875232",
-    "pregunta": "Spread: Vikings (-4.5)",
-    "ts": "2026-10-04T16:03:24.800095",
+    "id": "4863139",
+    "pregunta": "Spread: Raiders (-1.5)",
+    "ts": "2026-10-04T16:14:00.720410",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4863097",
-    "pregunta": "Spread: Chiefs (-2.5)",
-    "ts": "2026-10-04T16:03:25.855846",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871431",
-    "pregunta": "Chiefs vs. Raiders",
-    "ts": "2026-10-04T16:03:26.920115",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875225",
-    "pregunta": "Spread: Chiefs (-6.5)",
-    "ts": "2026-10-04T16:03:27.975010",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875222",
-    "pregunta": "Spread: Chiefs (-3.5)",
-    "ts": "2026-10-04T16:03:29.027602",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919406",
-    "pregunta": "Broncos vs. 49ers: O/U 43.5",
-    "ts": "2026-10-04T16:03:30.084508",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4862180",
-    "pregunta": "Broncos vs. 49ers: O/U 40.5",
-    "ts": "2026-10-04T16:03:31.294697",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4037600",
-    "pregunta": "Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-10-04T16:03:33.292485",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x76dbc01caffa54d0010368ff8d3226d8017f6987",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4037599",
-    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-10-04T16:03:34.347662",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x76dbc01caffa54d0010368ff8d3226d8017f6987",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T16:03:36.334439",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T16:03:37.392654",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   }
 ]
