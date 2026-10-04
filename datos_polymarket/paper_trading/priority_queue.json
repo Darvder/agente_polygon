@@ -1,58 +1,42 @@
 [
   {
-    "id": "4424988",
-    "pregunta": "Broncos vs. 49ers: O/U 46.5",
-    "ts": "2026-10-04T14:54:06.991837",
+    "id": "3919461",
+    "pregunta": "Dolphins vs. Vikings: O/U 38.5",
+    "ts": "2026-10-04T15:05:34.543123",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919390",
-    "pregunta": "Lions vs. Panthers: O/U 55.5",
-    "ts": "2026-10-04T14:54:08.241530",
+    "id": "3871431",
+    "pregunta": "Chiefs vs. Raiders",
+    "ts": "2026-10-04T15:05:35.629767",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875238",
-    "pregunta": "Dolphins vs. Vikings: O/U 42.5",
-    "ts": "2026-10-04T14:54:09.498655",
+    "id": "3875235",
+    "pregunta": "Spread: Vikings (-10.5)",
+    "ts": "2026-10-04T15:05:36.723001",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871411",
-    "pregunta": "Patriots vs. Bills",
-    "ts": "2026-10-04T14:54:13.632670",
+    "id": "3871427",
+    "pregunta": "Dolphins vs. Vikings",
+    "ts": "2026-10-04T15:05:37.818201",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919555",
-    "pregunta": "Jaguars vs. Bengals: O/U 40.5",
-    "ts": "2026-10-04T14:54:14.728259",
+    "id": "1366007",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
+    "ts": "2026-10-04T15:05:40.550646",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875304",
-    "pregunta": "Spread: Bills (-6.5)",
-    "ts": "2026-10-04T14:54:17.989218",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5275186",
-    "pregunta": "Suzhou: Alexandra Shubladze vs Tyra Caterina Grant",
-    "ts": "2026-10-04T14:54:19.830297",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_wallet": "0xc7285a98c485b4350ce50fa0b67f067693de3e5b",
     "whale_signal": "COMPRAR NO"
   }
 ]
