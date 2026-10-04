@@ -1,10 +1,18 @@
 [
   {
-    "id": "4664788",
-    "pregunta": "Will Google be the #2 AI lab at the end of November 2026?",
-    "ts": "2026-10-03T23:32:32.074772",
+    "id": "2089111",
+    "pregunta": "Will Ciro Gomes win the 2026 Cear\u00e1 gubernatorial election?",
+    "ts": "2026-10-03T23:43:29.758840",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaee811b7c7e5d961b545ac0e3f62f5f1cb181154",
+    "whale_wallet": "0xdae19c63dfe026d3435313b631f60d4f878c3835",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3005718",
+    "pregunta": "Will New Orleans Saints finish the 2026-27 NFL regular season with the most interceptions?",
+    "ts": "2026-10-03T23:43:32.001529",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d5a13ef8e32d5e5a808ceba52d6ac78d4c063c",
     "whale_signal": "COMPRAR NO"
   }
 ]
