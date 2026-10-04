@@ -1,66 +1,50 @@
 [
   {
-    "id": "4785923",
-    "pregunta": "Will Austria win on 2026-10-04?",
-    "ts": "2026-10-04T10:23:06.179878",
+    "id": "4859792",
+    "pregunta": "Spread: Rams (-5.5)",
+    "ts": "2026-10-04T10:33:44.269312",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1365904",
-    "pregunta": "Will Augusto Cury finish in third place in the first round of the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T10:23:09.147295",
+    "id": "4859805",
+    "pregunta": "Spread: Eagles (-2.5)",
+    "ts": "2026-10-04T10:33:45.346934",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd69ab8c72733300b9b44e8216f62fe66439874c3",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4852863",
-    "pregunta": "Will Augusto Cury finish in fourth place in the first round of the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T10:23:10.284581",
+    "id": "4861792",
+    "pregunta": "1H Spread: Vikings (-7.5)",
+    "ts": "2026-10-04T10:33:46.389096",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd69ab8c72733300b9b44e8216f62fe66439874c3",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3662130",
-    "pregunta": "Will Marcel Van Hattem win the most votes in the 2026 Rio Grande do Sul Senate election?",
-    "ts": "2026-10-04T10:23:11.330386",
+    "id": "3919595",
+    "pregunta": "Patriots vs. Bills: O/U 49.5",
+    "ts": "2026-10-04T10:33:47.436848",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd69ab8c72733300b9b44e8216f62fe66439874c3",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T10:23:12.370496",
+    "id": "4860887",
+    "pregunta": "Spread: Bears (-3.5)",
+    "ts": "2026-10-04T10:33:48.480311",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd69ab8c72733300b9b44e8216f62fe66439874c3",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4863946",
-    "pregunta": "Spread: Lions (-5.5)",
-    "ts": "2026-10-04T10:23:14.341382",
+    "id": "3875305",
+    "pregunta": "Spread: Bills (-7.5)",
+    "ts": "2026-10-04T10:33:49.521502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9052a5f2324b8efa264a2a37e942770284143c2d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4860071",
-    "pregunta": "Spread: Cardinals (-2.5)",
-    "ts": "2026-10-04T10:23:15.395061",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9052a5f2324b8efa264a2a37e942770284143c2d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4860073",
-    "pregunta": "Spread: Cardinals (-4.5)",
-    "ts": "2026-10-04T10:23:16.436458",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9052a5f2324b8efa264a2a37e942770284143c2d",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
