@@ -1,26 +1,66 @@
 [
   {
-    "id": "3875271",
-    "pregunta": "Spread: Texans (-1.5)",
-    "ts": "2026-10-04T14:13:56.415852",
+    "id": "3871421",
+    "pregunta": "Cardinals vs. Giants",
+    "ts": "2026-10-04T14:24:12.866756",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4861201",
-    "pregunta": "Spread: Bills (-2.5)",
-    "ts": "2026-10-04T14:13:58.601532",
+    "id": "3871412",
+    "pregunta": "Jets vs. Bears",
+    "ts": "2026-10-04T14:24:13.931564",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875272",
-    "pregunta": "Spread: Texans (-2.5)",
-    "ts": "2026-10-04T14:13:59.667957",
+    "id": "3871418",
+    "pregunta": "Cowboys vs. Texans",
+    "ts": "2026-10-04T14:24:15.008720",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_wallet": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871423",
+    "pregunta": "Rams vs. Eagles",
+    "ts": "2026-10-04T14:24:16.072854",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871414",
+    "pregunta": "Jaguars vs. Bengals",
+    "ts": "2026-10-04T14:24:17.166545",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871424",
+    "pregunta": "Packers vs. Buccaneers",
+    "ts": "2026-10-04T14:24:18.227392",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3503793",
+    "pregunta": "Will Baker Mayfield have 19.5+ passing touchdowns in the 2026-27 NFL regular season?",
+    "ts": "2026-10-04T14:24:21.601654",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8a804574b7d1bd21ecd1fb6db97c1285e66dc54c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3502662",
+    "pregunta": "Will CeeDee Lamb have 999.5+ receiving yards in the 2026-27 NFL regular season?",
+    "ts": "2026-10-04T14:24:28.827497",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8a804574b7d1bd21ecd1fb6db97c1285e66dc54c",
     "whale_signal": "COMPRAR NO"
   }
 ]
