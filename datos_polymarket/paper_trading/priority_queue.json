@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5208490",
+    "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Arthur Fils",
+    "ts": "2026-10-04T03:22:47.407415",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5229244",
+    "pregunta": "China Open: Alex de Minaur vs Andrey Rublev",
+    "ts": "2026-10-04T03:22:48.445827",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233572",
+    "pregunta": "LoL: LGD Gaming vs BNK FEARX - Game 2 Winner",
+    "ts": "2026-10-04T03:22:51.233623",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233573",
+    "pregunta": "LoL: LGD Gaming vs BNK FEARX (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-04T03:22:52.282126",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
