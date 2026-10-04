@@ -1,66 +1,82 @@
 [
   {
-    "id": "5247324",
-    "pregunta": "Counter-Strike: G2 vs 1WIN (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-04T11:13:41.749065",
+    "id": "3875252",
+    "pregunta": "Spread: Rams (-2.5)",
+    "ts": "2026-10-04T11:23:40.019356",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x79ae097215202b5d01f98e4479fb219102469a4a",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5285591",
-    "pregunta": "Counter-Strike: Nemiga vs Astralis (BO5) - Stake Ranked Episode 4 Playoffs",
-    "ts": "2026-10-04T11:13:42.799616",
+    "id": "3875275",
+    "pregunta": "Spread: Texans (-6.5)",
+    "ts": "2026-10-04T11:23:41.072731",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x79ae097215202b5d01f98e4479fb219102469a4a",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5201306",
-    "pregunta": "China Open: Karolina Muchova vs Liudmila Samsonova",
-    "ts": "2026-10-04T11:13:46.159880",
+    "id": "4860348",
+    "pregunta": "Spread: Texans (-7.5)",
+    "ts": "2026-10-04T11:23:42.116871",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4424989",
-    "pregunta": "Broncos vs. 49ers: O/U 48.5",
-    "ts": "2026-10-04T11:13:47.213491",
+    "id": "4861760",
+    "pregunta": "Spread: Vikings (-9.5)",
+    "ts": "2026-10-04T11:23:43.158318",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875306",
+    "pregunta": "Patriots vs. Bills: O/U 47.5",
+    "ts": "2026-10-04T11:23:44.197304",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4797782",
+    "pregunta": "Will Haiti win on 2026-10-04?",
+    "ts": "2026-10-04T11:23:45.241209",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875159",
+    "pregunta": "Spread: 49ers (-1.5)",
+    "ts": "2026-10-04T11:23:46.285502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871411",
+    "pregunta": "Patriots vs. Bills",
+    "ts": "2026-10-04T11:23:49.043563",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2424814c59ba3496baae640cc0c18432ee593b61",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4860078",
+    "pregunta": "Spread: Cardinals (-9.5)",
+    "ts": "2026-10-04T11:23:50.115265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2424814c59ba3496baae640cc0c18432ee593b61",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3875326",
     "pregunta": "Colts vs. Commanders: O/U 46.5",
-    "ts": "2026-10-04T11:13:48.263896",
+    "ts": "2026-10-04T11:23:52.957286",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919631",
-    "pregunta": "Colts vs. Commanders: O/U 45.5",
-    "ts": "2026-10-04T11:13:49.312927",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4859225",
-    "pregunta": "Spread: Colts (-13.5)",
-    "ts": "2026-10-04T11:13:50.362890",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4859226",
-    "pregunta": "Spread: Colts (-14.5)",
-    "ts": "2026-10-04T11:13:51.414951",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xa54de3eb0aeebe109eae42f9501a98ea6b78deb8",
     "whale_signal": "COMPRAR NO"
   }
 ]
