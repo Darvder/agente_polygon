@@ -1,34 +1,154 @@
 [
   {
-    "id": "4839815",
-    "pregunta": "Puerto Rico vs. Cayman Islands: O/U 1.5",
-    "ts": "2026-10-04T18:33:50.963993",
+    "id": "5262967",
+    "pregunta": "LoL: Team Liquid vs LYON (BO5) - LCS Playoffs",
+    "ts": "2026-10-04T18:44:30.958865",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5059645",
-    "pregunta": "Jazz vs. Nuggets",
-    "ts": "2026-10-04T18:33:52.020862",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5262966",
-    "pregunta": "LoL: Team Liquid vs LYON - Game 4 Winner",
-    "ts": "2026-10-04T18:33:54.769466",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5262965",
     "pregunta": "LoL: Team Liquid vs LYON - Game 3 Winner",
-    "ts": "2026-10-04T18:33:57.923489",
+    "ts": "2026-10-04T18:44:34.877853",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce0871a82a7799ace36ab2fcd08f95b21cdf510b",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299060",
+    "pregunta": "Counter-Strike: Galorys vs Turma do Pagode - Map 2 Winner",
+    "ts": "2026-10-04T18:44:36.002507",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299061",
+    "pregunta": "Counter-Strike: Galorys vs Turma do Pagode (BO3) - CCT South America Series 6 Playoffs",
+    "ts": "2026-10-04T18:44:37.044423",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5262966",
+    "pregunta": "LoL: Team Liquid vs LYON - Game 4 Winner",
+    "ts": "2026-10-04T18:44:38.085856",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875207",
+    "pregunta": "Chargers vs. Seahawks: O/U 42.5",
+    "ts": "2026-10-04T18:44:39.998101",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4862304",
+    "pregunta": "Spread: Seahawks (-20.5)",
+    "ts": "2026-10-04T18:44:41.041125",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875213",
+    "pregunta": "Chargers vs. Seahawks: O/U 45.5",
+    "ts": "2026-10-04T18:44:42.084358",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4862302",
+    "pregunta": "Spread: Seahawks (-17.5)",
+    "ts": "2026-10-04T18:44:43.124006",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875216",
+    "pregunta": "Chargers vs. Seahawks: O/U 47.5",
+    "ts": "2026-10-04T18:44:44.171717",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919398",
+    "pregunta": "Broncos vs. 49ers: O/U 27.5",
+    "ts": "2026-10-04T18:44:45.213751",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919399",
+    "pregunta": "Broncos vs. 49ers: O/U 29.5",
+    "ts": "2026-10-04T18:44:46.252602",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5238416",
+    "pregunta": "Spread: Rangers (-1.5)",
+    "ts": "2026-10-04T18:44:47.408865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5201202",
+    "pregunta": "Spread: Warriors (-2.5)",
+    "ts": "2026-10-04T18:44:48.450801",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5059648",
+    "pregunta": "Warriors vs. Clippers",
+    "ts": "2026-10-04T18:44:49.495311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4862298",
+    "pregunta": "Spread: Seahawks (-10.5)",
+    "ts": "2026-10-04T18:44:50.533835",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5253369",
+    "pregunta": "Jazz vs. Nuggets: O/U 234.5",
+    "ts": "2026-10-04T18:44:51.583528",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5253379",
+    "pregunta": "Warriors vs. Clippers: O/U 227.5",
+    "ts": "2026-10-04T18:44:52.643960",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5306752",
+    "pregunta": "Spread: Utah (-1.5)",
+    "ts": "2026-10-04T18:44:53.788935",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
     "whale_signal": "COMPRAR NO"
   }
 ]
