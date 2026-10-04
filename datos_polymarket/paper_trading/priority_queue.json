@@ -1,10 +1,42 @@
 [
   {
-    "id": "5241292",
-    "pregunta": "China Open: Alexander Zverev vs Novak Djokovic",
-    "ts": "2026-10-04T08:22:44.701508",
+    "id": "5233550",
+    "pregunta": "LoL: Team WE vs HANJIN BRION (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-04T08:32:54.190398",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
+    "whale_wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871411",
+    "pregunta": "Patriots vs. Bills",
+    "ts": "2026-10-04T08:32:55.256713",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247270",
+    "pregunta": "Counter-Strike: Luminosity vs Astralis (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-04T08:32:56.985576",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4908944",
+    "pregunta": "Honor of Kings: AG Super Play vs Rogue Warriors (BO5) - King Pro League Grand Finals Group Stage",
+    "ts": "2026-10-04T08:32:58.949322",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf6b6f36c8a681d20cbff0d401b5cc138ea6fc527",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247152",
+    "pregunta": "Counter-Strike: Team Falcons vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T08:33:00.036310",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf6b6f36c8a681d20cbff0d401b5cc138ea6fc527",
     "whale_signal": "COMPRAR NO"
   }
 ]
