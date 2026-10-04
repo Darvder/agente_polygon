@@ -1,1 +1,114 @@
-[]
+[
+  {
+    "id": "3871412",
+    "pregunta": "Jets vs. Bears",
+    "ts": "2026-10-04T12:33:55.607984",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875295",
+    "pregunta": "Spread: Bears (-10.5)",
+    "ts": "2026-10-04T12:33:56.733666",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875292",
+    "pregunta": "Spread: Bears (-7.5)",
+    "ts": "2026-10-04T12:33:57.836857",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4859805",
+    "pregunta": "Spread: Eagles (-2.5)",
+    "ts": "2026-10-04T12:33:58.885694",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4424987",
+    "pregunta": "Titans vs. Ravens: O/U 48.5",
+    "ts": "2026-10-04T12:33:59.990049",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875305",
+    "pregunta": "Spread: Bills (-7.5)",
+    "ts": "2026-10-04T12:34:01.043173",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919555",
+    "pregunta": "Jaguars vs. Bengals: O/U 40.5",
+    "ts": "2026-10-04T12:34:02.122056",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4860076",
+    "pregunta": "Spread: Cardinals (-7.5)",
+    "ts": "2026-10-04T12:34:03.178141",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4859966",
+    "pregunta": "Rams vs. Eagles: O/U 42.5",
+    "ts": "2026-10-04T12:34:04.232425",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4860081",
+    "pregunta": "Spread: Cardinals (-14.5)",
+    "ts": "2026-10-04T12:34:05.334894",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4860078",
+    "pregunta": "Spread: Cardinals (-9.5)",
+    "ts": "2026-10-04T12:34:06.433620",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871421",
+    "pregunta": "Cardinals vs. Giants",
+    "ts": "2026-10-04T12:34:07.488337",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5285591",
+    "pregunta": "Counter-Strike: Nemiga vs Astralis (BO5) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-04T12:34:09.467308",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x14ca946e75d59b8b7ebe21110512f7b885d78f43",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4786788",
+    "pregunta": "Republic of Ireland vs. Israel: Republic of Ireland O/U 1.5",
+    "ts": "2026-10-04T12:34:11.714102",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb95f77dc5e3d524f8149b32553eb16dbaefb6622",
+    "whale_signal": "COMPRAR NO"
+  }
+]
