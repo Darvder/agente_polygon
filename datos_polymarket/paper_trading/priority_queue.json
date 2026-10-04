@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5247141",
+    "pregunta": "Counter-Strike: 9z vs TYLOO (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T07:32:15.779950",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3308f2d02d40fa571da699c62c168f859afdf04b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247143",
+    "pregunta": "Map Handicap: 9z (-1.5) vs TYLOO (+1.5)",
+    "ts": "2026-10-04T07:32:16.928663",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3308f2d02d40fa571da699c62c168f859afdf04b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233548",
+    "pregunta": "LoL: Team WE vs HANJIN BRION - Game 1 Winner",
+    "ts": "2026-10-04T07:32:18.805239",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1000ddb5f5025849765e29d051dfff78f5d4d41",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233549",
+    "pregunta": "LoL: Team WE vs HANJIN BRION - Game 2 Winner",
+    "ts": "2026-10-04T07:32:19.870304",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1000ddb5f5025849765e29d051dfff78f5d4d41",
+    "whale_signal": "COMPRAR NO"
+  }
+]
