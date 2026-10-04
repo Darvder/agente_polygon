@@ -1,26 +1,66 @@
 [
   {
-    "id": "3871431",
-    "pregunta": "Chiefs vs. Raiders",
-    "ts": "2026-10-04T17:23:30.141667",
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-04T17:33:30.461649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4862295",
-    "pregunta": "Spread: Seahawks (-7.5)",
-    "ts": "2026-10-04T17:23:31.206599",
+    "id": "4037599",
+    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
+    "ts": "2026-10-04T17:33:31.554612",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4319439",
-    "pregunta": "Will Anthropic IPO by November 30, 2026?",
-    "ts": "2026-10-04T17:23:33.911008",
+    "id": "1365854",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
+    "ts": "2026-10-04T17:33:32.651098",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88ee376120bfcf1daf5642c5d8a6b45d7637c234",
+    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233619",
+    "pregunta": "LoL: GAM Esports vs Team Vitality (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-04T17:33:36.100816",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233617",
+    "pregunta": "LoL: GAM Esports vs Team Vitality - Game 1 Winner",
+    "ts": "2026-10-04T17:33:37.406735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233618",
+    "pregunta": "LoL: GAM Esports vs Team Vitality - Game 2 Winner",
+    "ts": "2026-10-04T17:33:38.805714",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5262965",
+    "pregunta": "LoL: Team Liquid vs LYON - Game 3 Winner",
+    "ts": "2026-10-04T17:33:39.900932",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919400",
+    "pregunta": "Broncos vs. 49ers: O/U 31.5",
+    "ts": "2026-10-04T17:33:42.951914",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe4e4ce4e45e10446f1ef344126fc760d913b299b",
     "whale_signal": "COMPRAR NO"
   }
 ]
