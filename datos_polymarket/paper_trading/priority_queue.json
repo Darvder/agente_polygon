@@ -1,66 +1,10 @@
 [
   {
-    "id": "4819769",
-    "pregunta": "Washington vs. USC",
-    "ts": "2026-10-03T20:02:29.486736",
+    "id": "4822662",
+    "pregunta": "Cincinnati vs. Arizona: O/U 55.5",
+    "ts": "2026-10-03T20:12:37.487083",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4037599",
-    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-10-03T20:02:31.441400",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-03T20:02:32.529152",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1365854",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
-    "ts": "2026-10-03T20:02:33.617470",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4037600",
-    "pregunta": "Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-10-03T20:02:34.711350",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1365861",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?",
-    "ts": "2026-10-03T20:02:35.808694",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740015",
-    "pregunta": "UFC 332: Natalia Silva vs. Wang Cong (Women's Flyweight, Main Card)",
-    "ts": "2026-10-03T20:02:36.895215",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4740087",
-    "pregunta": "Fight to Go the Distance?",
-    "ts": "2026-10-03T20:02:38.872480",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0x853212cd809da6acc458021c106af749b7aa738b",
     "whale_signal": "COMPRAR NO"
   }
 ]
