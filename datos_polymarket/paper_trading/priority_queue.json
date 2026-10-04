@@ -1,42 +1,34 @@
 [
   {
-    "id": "3919461",
-    "pregunta": "Dolphins vs. Vikings: O/U 38.5",
-    "ts": "2026-10-04T15:05:34.543123",
+    "id": "3871421",
+    "pregunta": "Cardinals vs. Giants",
+    "ts": "2026-10-04T15:14:34.212536",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871431",
-    "pregunta": "Chiefs vs. Raiders",
-    "ts": "2026-10-04T15:05:35.629767",
+    "id": "3871411",
+    "pregunta": "Patriots vs. Bills",
+    "ts": "2026-10-04T15:14:35.291470",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875235",
-    "pregunta": "Spread: Vikings (-10.5)",
-    "ts": "2026-10-04T15:05:36.723001",
+    "id": "3875244",
+    "pregunta": "Spread: Packers (-3.5)",
+    "ts": "2026-10-04T15:14:40.288327",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x457f2814dac53a0a9951b5c2ea5a9db20896aa1a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871427",
-    "pregunta": "Dolphins vs. Vikings",
-    "ts": "2026-10-04T15:05:37.818201",
+    "id": "3871433",
+    "pregunta": "Chargers vs. Seahawks",
+    "ts": "2026-10-04T15:14:41.385350",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1366007",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
-    "ts": "2026-10-04T15:05:40.550646",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc7285a98c485b4350ce50fa0b67f067693de3e5b",
+    "whale_wallet": "0x457f2814dac53a0a9951b5c2ea5a9db20896aa1a",
     "whale_signal": "COMPRAR NO"
   }
 ]
