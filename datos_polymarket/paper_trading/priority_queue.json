@@ -1,66 +1,98 @@
 [
   {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T17:33:30.461649",
+    "id": "3871435",
+    "pregunta": "Broncos vs. 49ers",
+    "ts": "2026-10-04T17:44:20.279749",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4037599",
-    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-10-04T17:33:31.554612",
+    "id": "3875165",
+    "pregunta": "Spread: 49ers (-3.5)",
+    "ts": "2026-10-04T17:44:21.369005",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1365854",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T17:33:32.651098",
+    "id": "5175492",
+    "pregunta": "San Diego Padres vs. Milwaukee Brewers",
+    "ts": "2026-10-04T17:44:22.457639",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5233619",
-    "pregunta": "LoL: GAM Esports vs Team Vitality (BO3) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-04T17:33:36.100816",
+    "id": "3871431",
+    "pregunta": "Chiefs vs. Raiders",
+    "ts": "2026-10-04T17:44:23.551444",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5233617",
-    "pregunta": "LoL: GAM Esports vs Team Vitality - Game 1 Winner",
-    "ts": "2026-10-04T17:33:37.406735",
+    "id": "3875233",
+    "pregunta": "Spread: Vikings (-6.5)",
+    "ts": "2026-10-04T17:44:25.753001",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5233618",
-    "pregunta": "LoL: GAM Esports vs Team Vitality - Game 2 Winner",
-    "ts": "2026-10-04T17:33:38.805714",
+    "id": "4863143",
+    "pregunta": "Spread: Raiders (-2.5)",
+    "ts": "2026-10-04T17:44:26.840972",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5262965",
-    "pregunta": "LoL: Team Liquid vs LYON - Game 3 Winner",
-    "ts": "2026-10-04T17:33:39.900932",
+    "id": "4862303",
+    "pregunta": "Spread: Seahawks (-19.5)",
+    "ts": "2026-10-04T17:44:27.929219",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919400",
-    "pregunta": "Broncos vs. 49ers: O/U 31.5",
-    "ts": "2026-10-04T17:33:42.951914",
+    "id": "4862022",
+    "pregunta": "Spread: 49ers (-8.5)",
+    "ts": "2026-10-04T17:44:29.016931",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe4e4ce4e45e10446f1ef344126fc760d913b299b",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4862021",
+    "pregunta": "Spread: 49ers (-7.5)",
+    "ts": "2026-10-04T17:44:30.112126",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919399",
+    "pregunta": "Broncos vs. 49ers: O/U 29.5",
+    "ts": "2026-10-04T17:44:31.251930",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875172",
+    "pregunta": "Spread: 49ers (-6.5)",
+    "ts": "2026-10-04T17:44:32.343439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919455",
+    "pregunta": "Dolphins vs. Vikings: O/U 26.5",
+    "ts": "2026-10-04T17:44:33.430826",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b46bb71681777202368d095196f266944a1684d",
     "whale_signal": "COMPRAR NO"
   }
 ]
