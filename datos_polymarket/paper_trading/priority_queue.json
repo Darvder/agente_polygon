@@ -1,34 +1,18 @@
 [
   {
-    "id": "3871421",
-    "pregunta": "Cardinals vs. Giants",
-    "ts": "2026-10-04T15:14:34.212536",
+    "id": "3919444",
+    "pregunta": "Chiefs vs. Raiders: O/U 46.5",
+    "ts": "2026-10-04T15:23:22.192476",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_wallet": "0x6157d529ae129fe08f22a27ed42e741d2eaa9fb4",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871411",
-    "pregunta": "Patriots vs. Bills",
-    "ts": "2026-10-04T15:14:35.291470",
+    "id": "5262963",
+    "pregunta": "LoL: Team Liquid vs LYON - Game 1 Winner",
+    "ts": "2026-10-04T15:23:24.375125",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875244",
-    "pregunta": "Spread: Packers (-3.5)",
-    "ts": "2026-10-04T15:14:40.288327",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x457f2814dac53a0a9951b5c2ea5a9db20896aa1a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871433",
-    "pregunta": "Chargers vs. Seahawks",
-    "ts": "2026-10-04T15:14:41.385350",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x457f2814dac53a0a9951b5c2ea5a9db20896aa1a",
+    "whale_wallet": "0x63464a9086822a8fbfa95c7977da6a2b2edf2e24",
     "whale_signal": "COMPRAR NO"
   }
 ]
