@@ -1,10 +1,18 @@
 [
   {
-    "id": "5175485",
-    "pregunta": "San Diego Padres vs. Milwaukee Brewers: O/U 6.5",
-    "ts": "2026-10-03T19:23:16.232295",
+    "id": "5203539",
+    "pregunta": "Will the highest temperature in Buenos Aires be 24\u00b0C on October 4?",
+    "ts": "2026-10-03T19:33:51.910359",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
+    "whale_wallet": "0x80c052f2189288b94e732083facd93ee590dc4f6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5197844",
+    "pregunta": "Will the highest temperature in Paris be 25\u00b0C on October 4?",
+    "ts": "2026-10-03T19:33:53.035382",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80c052f2189288b94e732083facd93ee590dc4f6",
     "whale_signal": "COMPRAR NO"
   }
 ]
