@@ -1,34 +1,58 @@
 [
   {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T16:24:26.951186",
+    "id": "3871433",
+    "pregunta": "Chargers vs. Seahawks",
+    "ts": "2026-10-04T16:33:06.619862",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T16:24:28.022228",
+    "id": "5242634",
+    "pregunta": "Las Vegas Aces vs. Golden State Valkyries",
+    "ts": "2026-10-04T16:33:07.653132",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5262967",
-    "pregunta": "LoL: Team Liquid vs LYON (BO5) - LCS Playoffs",
-    "ts": "2026-10-04T16:24:29.119116",
+    "id": "3871435",
+    "pregunta": "Broncos vs. 49ers",
+    "ts": "2026-10-04T16:33:08.688462",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5142102",
-    "pregunta": "CA Central Norte Salta vs. CA Racing de Cordoba: O/U 1.5",
-    "ts": "2026-10-04T16:24:31.938320",
+    "id": "3871427",
+    "pregunta": "Dolphins vs. Vikings",
+    "ts": "2026-10-04T16:33:09.723490",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8191c793fd7edbadf0fae651f55c1da3b638da72",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4037600",
+    "pregunta": "Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?",
+    "ts": "2026-10-04T16:33:11.474250",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x04fbd55b0626add23661c448710a0194fcd25968",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1366011",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the first round of the 2026 Brazilian presidential election by less than 5%?",
+    "ts": "2026-10-04T16:33:12.511048",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x04fbd55b0626add23661c448710a0194fcd25968",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4903297",
+    "pregunta": "Will voter turnout in the first round of the 2026 Brazil presidential election be 78-80%?",
+    "ts": "2026-10-04T16:33:13.629951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x04fbd55b0626add23661c448710a0194fcd25968",
     "whale_signal": "COMPRAR NO"
   }
 ]
