@@ -1,50 +1,42 @@
 [
   {
-    "id": "4859792",
-    "pregunta": "Spread: Rams (-5.5)",
-    "ts": "2026-10-04T10:33:44.269312",
+    "id": "5255759",
+    "pregunta": "Counter-Strike: Butterfly vs megoshort - Map 1 Winner",
+    "ts": "2026-10-04T10:45:01.630205",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x746069033ad4443923096e6dfdea54ffccd7de6e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4859805",
-    "pregunta": "Spread: Eagles (-2.5)",
-    "ts": "2026-10-04T10:33:45.346934",
+    "id": "5255760",
+    "pregunta": "Counter-Strike: Butterfly vs megoshort - Map 2 Winner",
+    "ts": "2026-10-04T10:45:02.676323",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x746069033ad4443923096e6dfdea54ffccd7de6e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4861792",
-    "pregunta": "1H Spread: Vikings (-7.5)",
-    "ts": "2026-10-04T10:33:46.389096",
+    "id": "5056791",
+    "pregunta": "Manchester City WFC vs. Arsenal WFC: O/U 4.5",
+    "ts": "2026-10-04T10:45:04.661491",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919595",
-    "pregunta": "Patriots vs. Bills: O/U 49.5",
-    "ts": "2026-10-04T10:33:47.436848",
+    "id": "4785923",
+    "pregunta": "Will Austria win on 2026-10-04?",
+    "ts": "2026-10-04T10:45:05.707891",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4860887",
-    "pregunta": "Spread: Bears (-3.5)",
-    "ts": "2026-10-04T10:33:48.480311",
+    "id": "4785897",
+    "pregunta": "Will Malta win on 2026-10-04?",
+    "ts": "2026-10-04T10:45:06.754673",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3875305",
-    "pregunta": "Spread: Bills (-7.5)",
-    "ts": "2026-10-04T10:33:49.521502",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
