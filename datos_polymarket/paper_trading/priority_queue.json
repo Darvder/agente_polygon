@@ -1,26 +1,58 @@
 [
   {
-    "id": "4785943",
-    "pregunta": "Will Portugal win on 2026-10-04?",
-    "ts": "2026-10-04T14:45:21.315176",
+    "id": "4424988",
+    "pregunta": "Broncos vs. 49ers: O/U 46.5",
+    "ts": "2026-10-04T14:54:06.991837",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x576d57683f81c30ae5f76523ccb91534382e1f40",
+    "whale_wallet": "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4787028",
-    "pregunta": "Portugal vs. Norway: Portugal O/U 1.5",
-    "ts": "2026-10-04T14:45:22.382245",
+    "id": "3919390",
+    "pregunta": "Lions vs. Panthers: O/U 55.5",
+    "ts": "2026-10-04T14:54:08.241530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x576d57683f81c30ae5f76523ccb91534382e1f40",
+    "whale_wallet": "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871433",
-    "pregunta": "Chargers vs. Seahawks",
-    "ts": "2026-10-04T14:45:35.004959",
+    "id": "3875238",
+    "pregunta": "Dolphins vs. Vikings: O/U 42.5",
+    "ts": "2026-10-04T14:54:09.498655",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1b0fcd4c06147cb090681b4bd59cab5b9319b7ae",
+    "whale_wallet": "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871411",
+    "pregunta": "Patriots vs. Bills",
+    "ts": "2026-10-04T14:54:13.632670",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919555",
+    "pregunta": "Jaguars vs. Bengals: O/U 40.5",
+    "ts": "2026-10-04T14:54:14.728259",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875304",
+    "pregunta": "Spread: Bills (-6.5)",
+    "ts": "2026-10-04T14:54:17.989218",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5275186",
+    "pregunta": "Suzhou: Alexandra Shubladze vs Tyra Caterina Grant",
+    "ts": "2026-10-04T14:54:19.830297",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
     "whale_signal": "COMPRAR NO"
   }
 ]
