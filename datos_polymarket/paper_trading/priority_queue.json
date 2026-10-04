@@ -1,66 +1,82 @@
 [
   {
-    "id": "3875183",
-    "pregunta": "Broncos vs. 49ers: O/U 47.5",
-    "ts": "2026-10-04T13:02:46.622967",
+    "id": "4785987",
+    "pregunta": "Will Greece vs. Germany end in a draw?",
+    "ts": "2026-10-04T13:14:02.697813",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade",
+    "whale_wallet": "0x96020c20842a5175e3e0aeef7843d1dbb7bc4d02",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3919631",
-    "pregunta": "Colts vs. Commanders: O/U 45.5",
-    "ts": "2026-10-04T13:02:49.228071",
+    "id": "3875281",
+    "pregunta": "Spread: Bengals (-1.5)",
+    "ts": "2026-10-04T13:14:04.568026",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_wallet": "0xe9f5c75ee1ae1aae57bf8582e359913c795a3e7a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4859532",
-    "pregunta": "Spread: Buccaneers (-3.5)",
-    "ts": "2026-10-04T13:02:50.272950",
+    "id": "3871414",
+    "pregunta": "Jaguars vs. Bengals",
+    "ts": "2026-10-04T13:14:05.618297",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4424983",
-    "pregunta": "Patriots vs. Bills: O/U 48.5",
-    "ts": "2026-10-04T13:02:51.316740",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871418",
-    "pregunta": "Cowboys vs. Texans",
-    "ts": "2026-10-04T13:02:52.360741",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919557",
-    "pregunta": "Jaguars vs. Bengals: O/U 44.5",
-    "ts": "2026-10-04T13:02:53.402800",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5247411",
-    "pregunta": "Counter-Strike: Vitality vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-04T13:02:55.411558",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4c07bf46017ef52c0bea3fe4253185dec1316200",
+    "whale_wallet": "0xe9f5c75ee1ae1aae57bf8582e359913c795a3e7a",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3871424",
     "pregunta": "Packers vs. Buccaneers",
-    "ts": "2026-10-04T13:02:56.463579",
+    "ts": "2026-10-04T13:14:07.301785",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4c07bf46017ef52c0bea3fe4253185dec1316200",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4785998",
+    "pregunta": "Will Republic of Ireland win on 2026-10-04?",
+    "ts": "2026-10-04T13:14:08.361995",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919423",
+    "pregunta": "Chargers vs. Seahawks: O/U 41.5",
+    "ts": "2026-10-04T13:14:09.443568",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4787015",
+    "pregunta": "Portugal vs. Norway: O/U 4.5",
+    "ts": "2026-10-04T13:14:10.600599",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5096966",
+    "pregunta": "Dolphins vs. Vikings: 1H Moneyline",
+    "ts": "2026-10-04T13:14:11.749305",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4785989",
+    "pregunta": "Will Germany win on 2026-10-04?",
+    "ts": "2026-10-04T13:14:12.836534",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5203709",
+    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers",
+    "ts": "2026-10-04T13:14:13.914189",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
