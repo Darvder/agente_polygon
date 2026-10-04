@@ -1,10 +1,26 @@
 [
   {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T05:55:03.623431",
+    "id": "5247150",
+    "pregunta": "Counter-Strike: Team Falcons vs Aurora Gaming - Map 1 Winner",
+    "ts": "2026-10-04T06:03:30.875207",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x325fe0ebff00b61cf658bb580b698f84986f8e0e",
+    "whale_wallet": "0x0f94d3f72e865512c2a5cc98954f01b78ea8ab45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5242464",
+    "pregunta": "Set Handicap: Alexander Zverev (-1.5) vs Novak Djokovic (+1.5)",
+    "ts": "2026-10-04T06:03:32.756889",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x241adda58ed48866f0deec7867731dd84c5ba9c8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247119",
+    "pregunta": "Counter-Strike: Spirit vs PARIVISION (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T06:03:40.488761",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf6ced7761deb6c5e48a2fdbf637150dda8eb3f1d",
     "whale_signal": "COMPRAR NO"
   }
 ]
