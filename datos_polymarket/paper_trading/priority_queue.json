@@ -1,42 +1,10 @@
 [
   {
-    "id": "4786822",
-    "pregunta": "Spread: Germany (-1.5)",
-    "ts": "2026-10-04T12:43:28.100829",
+    "id": "5222773",
+    "pregunta": "LoL: Solary vs Bar\u00e7a eSports - Game 4 Winner",
+    "ts": "2026-10-04T12:54:17.315754",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4787072",
-    "pregunta": "Kosovo vs. Austria: O/U 1.5",
-    "ts": "2026-10-04T12:43:29.147655",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785917",
-    "pregunta": "Will Kosovo win on 2026-10-04?",
-    "ts": "2026-10-04T12:43:30.205886",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4877193",
-    "pregunta": "Will Spain win on 2026-10-06?",
-    "ts": "2026-10-04T12:43:31.247365",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4849013",
-    "pregunta": "CD Castell\u00f3n vs. AD Ceuta FC: O/U 2.5",
-    "ts": "2026-10-04T12:43:32.305224",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x0b3d410ca710a2ade1ee97a93c4133e8dcae430f",
     "whale_signal": "COMPRAR NO"
   }
 ]
