@@ -1,10 +1,50 @@
 [
   {
-    "id": "4037599",
-    "pregunta": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
-    "ts": "2026-10-04T11:52:49.164873",
+    "id": "4785917",
+    "pregunta": "Will Kosovo win on 2026-10-04?",
+    "ts": "2026-10-04T12:04:59.576631",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8ea88410b1998c248a19bc004e3175d47bde1444",
+    "whale_wallet": "0x60d37e5f5c95506d1b59e7a0252980487605721e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875328",
+    "pregunta": "Colts vs. Commanders: O/U 49.5",
+    "ts": "2026-10-04T12:05:02.740232",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4859227",
+    "pregunta": "Spread: Colts (-16.5)",
+    "ts": "2026-10-04T12:05:11.587999",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875305",
+    "pregunta": "Spread: Bills (-7.5)",
+    "ts": "2026-10-04T12:05:15.965105",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875245",
+    "pregunta": "Spread: Packers (-4.5)",
+    "ts": "2026-10-04T12:05:17.052699",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5255750",
+    "pregunta": "Adana: Leolia Jeanjean vs Lois Boisson",
+    "ts": "2026-10-04T12:05:19.257942",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b3028fd82e6973535c84f202c8311f17c13fb47",
     "whale_signal": "COMPRAR NO"
   }
 ]
