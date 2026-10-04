@@ -1,34 +1,42 @@
 [
   {
-    "id": "5233572",
-    "pregunta": "LoL: LGD Gaming vs BNK FEARX - Game 2 Winner",
-    "ts": "2026-10-04T04:13:33.067340",
+    "id": "559652",
+    "pregunta": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+    "ts": "2026-10-04T04:24:34.244465",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7759a35ac38c416f21a661ea0a9ce206790d995f",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5241292",
-    "pregunta": "China Open: Alexander Zverev vs Novak Djokovic",
-    "ts": "2026-10-04T04:13:35.001603",
+    "id": "5204401",
+    "pregunta": "Valorant: LOUD vs Global Esports (BO3) - VCT Champions Group B",
+    "ts": "2026-10-04T04:24:35.334073",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5208490",
-    "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Arthur Fils",
-    "ts": "2026-10-04T04:13:36.034345",
+    "id": "5233550",
+    "pregunta": "LoL: Team WE vs HANJIN BRION (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-04T04:24:36.428349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5241294",
-    "pregunta": "China Open: Daniil Medvedev vs Francisco Cerundolo",
-    "ts": "2026-10-04T04:13:37.067034",
+    "id": "5247119",
+    "pregunta": "Counter-Strike: Spirit vs PARIVISION (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T04:24:37.520891",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5229244",
+    "pregunta": "China Open: Alex de Minaur vs Andrey Rublev",
+    "ts": "2026-10-04T04:24:39.634522",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf03b3be0a0e7026bc41bbfcdc286129962833ba1",
     "whale_signal": "COMPRAR NO"
   }
 ]
