@@ -1,58 +1,42 @@
 [
   {
-    "id": "5280142",
-    "pregunta": "Counter-Strike: FORZE Reload vs Spirit Academy (BO3) - CCT Europe Challengers Series Playoffs",
-    "ts": "2026-10-04T11:33:35.820108",
+    "id": "3919625",
+    "pregunta": "Colts vs. Commanders: O/U 33.5",
+    "ts": "2026-10-04T11:42:52.881040",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x91349d74ea1a13ef8af8cad85db7298f7a834fad",
+    "whale_wallet": "0xef7c60dbebeb76789fbd47a339e7102f6300159f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4860071",
+    "pregunta": "Spread: Cardinals (-2.5)",
+    "ts": "2026-10-04T11:42:53.920477",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xef7c60dbebeb76789fbd47a339e7102f6300159f",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5247324",
     "pregunta": "Counter-Strike: G2 vs 1WIN (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-04T11:33:37.909087",
+    "ts": "2026-10-04T11:42:56.123005",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x91349d74ea1a13ef8af8cad85db7298f7a834fad",
+    "whale_wallet": "0x116adf811dd0df4a192c9c36156c3472e617a2f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4785882",
-    "pregunta": "Will Azerbaijan win on 2026-10-04?",
-    "ts": "2026-10-04T11:33:39.747559",
+    "id": "5247405",
+    "pregunta": "Counter-Strike: Vitality vs Natus Vincere - Map 1 Winner",
+    "ts": "2026-10-04T11:42:58.121783",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4785923",
-    "pregunta": "Will Austria win on 2026-10-04?",
-    "ts": "2026-10-04T11:33:40.794375",
+    "id": "5280142",
+    "pregunta": "Counter-Strike: FORZE Reload vs Spirit Academy (BO3) - CCT Europe Challengers Series Playoffs",
+    "ts": "2026-10-04T11:43:00.372769",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785897",
-    "pregunta": "Will Malta win on 2026-10-04?",
-    "ts": "2026-10-04T11:33:41.868131",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785899",
-    "pregunta": "Will Malta vs. Andorra end in a draw?",
-    "ts": "2026-10-04T11:33:42.924261",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785901",
-    "pregunta": "Will Andorra win on 2026-10-04?",
-    "ts": "2026-10-04T11:33:43.965427",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   }
 ]
