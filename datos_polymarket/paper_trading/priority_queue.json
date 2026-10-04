@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "3871438",
+    "pregunta": "Falcons vs. Saints",
+    "ts": "2026-10-04T17:12:37.618621",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1787252abc9db4d5bfac51c253a68e0162ffe19",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875116",
+    "pregunta": "Spread: Saints (-2.5)",
+    "ts": "2026-10-04T17:12:38.683435",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1787252abc9db4d5bfac51c253a68e0162ffe19",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875113",
+    "pregunta": "Spread: Saints (-1.5)",
+    "ts": "2026-10-04T17:12:39.764512",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1787252abc9db4d5bfac51c253a68e0162ffe19",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871427",
+    "pregunta": "Dolphins vs. Vikings",
+    "ts": "2026-10-04T17:12:41.667761",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf28e42d20e4826f2b10a24bc952001697947cab2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871435",
+    "pregunta": "Broncos vs. 49ers",
+    "ts": "2026-10-04T17:12:42.736797",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf28e42d20e4826f2b10a24bc952001697947cab2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871431",
+    "pregunta": "Chiefs vs. Raiders",
+    "ts": "2026-10-04T17:12:43.790546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf28e42d20e4826f2b10a24bc952001697947cab2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
