@@ -1,18 +1,26 @@
 [
   {
-    "id": "5207400",
-    "pregunta": "China Open: Nikola Bartunkova vs Aryna Sabalenka",
-    "ts": "2026-10-04T00:03:42.011336",
+    "id": "4822446",
+    "pregunta": "Texas State vs. San Diego State",
+    "ts": "2026-10-04T00:12:40.416635",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xccff3146eff948611822511963392278b243e845",
+    "whale_wallet": "0xc8a4337850be801fcf6a0a2c257085895cd8c97f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2771324",
-    "pregunta": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-    "ts": "2026-10-04T00:03:43.253242",
+    "id": "4785998",
+    "pregunta": "Will Republic of Ireland win on 2026-10-04?",
+    "ts": "2026-10-04T00:12:42.395678",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xccff3146eff948611822511963392278b243e845",
+    "whale_wallet": "0x43ff322387687e91097c2c601bd775d8c2dc30e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4786761",
+    "pregunta": "Spread: Republic of Ireland (-1.5)",
+    "ts": "2026-10-04T00:12:43.662802",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x43ff322387687e91097c2c601bd775d8c2dc30e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
