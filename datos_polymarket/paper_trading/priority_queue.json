@@ -1,42 +1,18 @@
 [
   {
-    "id": "4740105",
-    "pregunta": "UFC 332: Roman Kopylov vs. Ateba Gautier (Middleweight, Main Card)",
-    "ts": "2026-10-03T19:45:52.594667",
+    "id": "3504098",
+    "pregunta": "Will Ulrich Siegmund be the next Minister-President of Sachsen-Anhalt?",
+    "ts": "2026-10-03T19:53:55.111081",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7cfc323ece0130044a84dce68374607ee92c32cd",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4740086",
-    "pregunta": "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
-    "ts": "2026-10-03T19:45:53.634735",
+    "id": "4819689",
+    "pregunta": "BYU vs. TCU",
+    "ts": "2026-10-03T19:54:00.319167",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7cfc323ece0130044a84dce68374607ee92c32cd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871423",
-    "pregunta": "Rams vs. Eagles",
-    "ts": "2026-10-03T19:45:55.578946",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3cc501d94675f449c753be69232c162a987b5fcb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5175472",
-    "pregunta": "New York Yankees vs. Tampa Bay Rays",
-    "ts": "2026-10-03T19:45:57.580660",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e2d316226626fbcb1a34b42b726e5faf31f5116",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4787001",
-    "pregunta": "Spread: Portugal (-1.5)",
-    "ts": "2026-10-03T19:45:58.650710",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e2d316226626fbcb1a34b42b726e5faf31f5116",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
     "whale_signal": "COMPRAR NO"
   }
 ]
