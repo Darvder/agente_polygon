@@ -1,10 +1,26 @@
 [
   {
-    "id": "5205505",
-    "pregunta": "Valorant: FUT Esports vs T1 (BO3) - VCT Champions Group A",
-    "ts": "2026-10-04T06:22:52.003074",
+    "id": "5233548",
+    "pregunta": "LoL: Team WE vs HANJIN BRION - Game 1 Winner",
+    "ts": "2026-10-04T06:33:21.832070",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x66b296ed0c8f988a15ef80c8973640fb63295570",
+    "whale_wallet": "0xf2f23d470f2ede0a31a71326b310e8113ce40550",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067424",
+    "pregunta": "Basquet Coruna vs. Bilbao Basket",
+    "ts": "2026-10-04T06:33:23.517258",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233550",
+    "pregunta": "LoL: Team WE vs HANJIN BRION (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-04T06:33:25.545967",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x84a60dc7b2e6e4e0d8eb1c394660e282ca388277",
     "whale_signal": "COMPRAR NO"
   }
 ]
