@@ -1,42 +1,10 @@
 [
   {
-    "id": "5224362",
-    "pregunta": "Barito Putera vs. Persela Lamongan: O/U 1.5",
-    "ts": "2026-10-04T05:43:42.500952",
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-04T05:55:03.623431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5224361",
-    "pregunta": "Barito Putera vs. Persela Lamongan: O/U 0.5",
-    "ts": "2026-10-04T05:43:43.569501",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5225954",
-    "pregunta": "Deltras FC vs. Persiba Balikpapan: O/U 2.5",
-    "ts": "2026-10-04T05:43:44.641532",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4777021",
-    "pregunta": "Tegevajaro Miyazaki vs. RB \u014cmiya Ardija: 1st Half O/U 0.5",
-    "ts": "2026-10-04T05:43:45.712814",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5247129",
-    "pregunta": "Counter-Strike: ShindeN vs Legacy - Map 2 Winner",
-    "ts": "2026-10-04T05:43:48.861763",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xddf796e82987756b1273994f321c9cebed6643b4",
+    "whale_wallet": "0x325fe0ebff00b61cf658bb580b698f84986f8e0e",
     "whale_signal": "COMPRAR NO"
   }
 ]
