@@ -1,34 +1,42 @@
 [
   {
-    "id": "608545",
-    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-    "ts": "2026-10-04T05:32:39.657887",
+    "id": "5224362",
+    "pregunta": "Barito Putera vs. Persela Lamongan: O/U 1.5",
+    "ts": "2026-10-04T05:43:42.500952",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x146fda3540946f1da00c10b80eac9e9d955a9410",
+    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "608547",
-    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
-    "ts": "2026-10-04T05:32:40.699915",
+    "id": "5224361",
+    "pregunta": "Barito Putera vs. Persela Lamongan: O/U 0.5",
+    "ts": "2026-10-04T05:43:43.569501",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x146fda3540946f1da00c10b80eac9e9d955a9410",
+    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5233550",
-    "pregunta": "LoL: Team WE vs HANJIN BRION (BO3) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-04T05:32:42.441143",
+    "id": "5225954",
+    "pregunta": "Deltras FC vs. Persiba Balikpapan: O/U 2.5",
+    "ts": "2026-10-04T05:43:44.641532",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4777012",
-    "pregunta": "Tegevajaro Miyazaki vs. RB \u014cmiya Ardija: O/U 2.5",
-    "ts": "2026-10-04T05:32:50.115707",
+    "id": "4777021",
+    "pregunta": "Tegevajaro Miyazaki vs. RB \u014cmiya Ardija: 1st Half O/U 0.5",
+    "ts": "2026-10-04T05:43:45.712814",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247129",
+    "pregunta": "Counter-Strike: ShindeN vs Legacy - Map 2 Winner",
+    "ts": "2026-10-04T05:43:48.861763",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddf796e82987756b1273994f321c9cebed6643b4",
     "whale_signal": "COMPRAR NO"
   }
 ]
