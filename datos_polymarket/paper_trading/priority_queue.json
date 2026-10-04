@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5233572",
+    "pregunta": "LoL: LGD Gaming vs BNK FEARX - Game 2 Winner",
+    "ts": "2026-10-04T04:13:33.067340",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7759a35ac38c416f21a661ea0a9ce206790d995f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5241292",
+    "pregunta": "China Open: Alexander Zverev vs Novak Djokovic",
+    "ts": "2026-10-04T04:13:35.001603",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5208490",
+    "pregunta": "Japan Open Tennis Championships: Valentin Vacherot vs Arthur Fils",
+    "ts": "2026-10-04T04:13:36.034345",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5241294",
+    "pregunta": "China Open: Daniil Medvedev vs Francisco Cerundolo",
+    "ts": "2026-10-04T04:13:37.067034",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac4c55b85a1dcacb638bd63ea4eeb8d8a9352200",
+    "whale_signal": "COMPRAR NO"
+  }
+]
