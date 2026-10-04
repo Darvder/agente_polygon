@@ -1,58 +1,26 @@
 [
   {
-    "id": "3871423",
-    "pregunta": "Rams vs. Eagles",
-    "ts": "2026-10-04T14:04:58.705963",
+    "id": "3875271",
+    "pregunta": "Spread: Texans (-1.5)",
+    "ts": "2026-10-04T14:13:56.415852",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871421",
-    "pregunta": "Cardinals vs. Giants",
-    "ts": "2026-10-04T14:04:59.745814",
+    "id": "4861201",
+    "pregunta": "Spread: Bills (-2.5)",
+    "ts": "2026-10-04T14:13:58.601532",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4337894",
-    "pregunta": "Panthers vs. Ducks: O/U 6.5",
-    "ts": "2026-10-04T14:05:02.498893",
+    "id": "3875272",
+    "pregunta": "Spread: Texans (-2.5)",
+    "ts": "2026-10-04T14:13:59.667957",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4797782",
-    "pregunta": "Will Haiti win on 2026-10-04?",
-    "ts": "2026-10-04T14:05:03.541071",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871414",
-    "pregunta": "Jaguars vs. Bengals",
-    "ts": "2026-10-04T14:05:04.584615",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5096966",
-    "pregunta": "Dolphins vs. Vikings: 1H Moneyline",
-    "ts": "2026-10-04T14:05:05.626365",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871418",
-    "pregunta": "Cowboys vs. Texans",
-    "ts": "2026-10-04T14:05:06.664464",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
     "whale_signal": "COMPRAR NO"
   }
 ]
