@@ -1,26 +1,42 @@
 [
   {
-    "id": "5233548",
-    "pregunta": "LoL: Team WE vs HANJIN BRION - Game 1 Winner",
-    "ts": "2026-10-04T06:33:21.832070",
+    "id": "3919479",
+    "pregunta": "Packers vs. Buccaneers: O/U 39.5",
+    "ts": "2026-10-04T06:42:29.144334",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf2f23d470f2ede0a31a71326b310e8113ce40550",
+    "whale_wallet": "0x9fad8308ef6b6ed5320e53a290a3bd4ad91f5a9f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5067424",
-    "pregunta": "Basquet Coruna vs. Bilbao Basket",
-    "ts": "2026-10-04T06:33:23.517258",
+    "id": "3919595",
+    "pregunta": "Patriots vs. Bills: O/U 49.5",
+    "ts": "2026-10-04T06:42:30.216415",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x9fad8308ef6b6ed5320e53a290a3bd4ad91f5a9f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5233550",
-    "pregunta": "LoL: Team WE vs HANJIN BRION (BO3) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-04T06:33:25.545967",
+    "id": "4860887",
+    "pregunta": "Spread: Bears (-3.5)",
+    "ts": "2026-10-04T06:42:31.281559",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84a60dc7b2e6e4e0d8eb1c394660e282ca388277",
+    "whale_wallet": "0x9fad8308ef6b6ed5320e53a290a3bd4ad91f5a9f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247139",
+    "pregunta": "Counter-Strike: 9z vs TYLOO - Map 1 Winner",
+    "ts": "2026-10-04T06:42:33.954540",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5254140",
+    "pregunta": "Counter-Strike: mellren vs Spirit Academy - Map 1 Winner",
+    "ts": "2026-10-04T06:42:37.089292",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   }
 ]
