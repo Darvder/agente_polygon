@@ -1,42 +1,50 @@
 [
   {
-    "id": "5204399",
-    "pregunta": "Valorant: LOUD vs Global Esports - Map 1 Winner",
-    "ts": "2026-10-04T02:03:24.976249",
+    "id": "5017154",
+    "pregunta": "Adelaide 36ers vs. New Zealand Breakers",
+    "ts": "2026-10-04T02:12:53.017075",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2c2abaa25bc357aab18b032d2b720595c362267e",
+    "whale_wallet": "0xa54de3eb0aeebe109eae42f9501a98ea6b78deb8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5233573",
-    "pregunta": "LoL: LGD Gaming vs BNK FEARX (BO3) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-04T02:03:26.014263",
+    "id": "5241317",
+    "pregunta": "Wuning 3: Egor Agafonov vs Maxim Zhukov",
+    "ts": "2026-10-04T02:12:54.737525",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2c2abaa25bc357aab18b032d2b720595c362267e",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5208492",
     "pregunta": "China Open: Hubert Hurkacz vs Karen Khachanov",
-    "ts": "2026-10-04T02:03:27.950700",
+    "ts": "2026-10-04T02:12:55.777517",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5201302",
     "pregunta": "China Open: Ekaterina Alexandrova vs Diana Shnaider",
-    "ts": "2026-10-04T02:03:28.990908",
+    "ts": "2026-10-04T02:12:56.818436",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5201304",
-    "pregunta": "China Open: Daria Snigur vs Taylah Preston",
-    "ts": "2026-10-04T02:03:30.034320",
+    "id": "5228447",
+    "pregunta": "Jingshan: Jessica Bouzas Maneiro vs Alexandra Shubladze",
+    "ts": "2026-10-04T02:12:57.862065",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5229244",
+    "pregunta": "China Open: Alex de Minaur vs Andrey Rublev",
+    "ts": "2026-10-04T02:12:58.903691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
     "whale_signal": "COMPRAR NO"
   }
 ]
