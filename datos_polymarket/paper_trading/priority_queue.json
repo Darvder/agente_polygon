@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5247119",
+    "pregunta": "Counter-Strike: Spirit vs PARIVISION (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T07:04:26.813784",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5205505",
+    "pregunta": "Valorant: FUT Esports vs T1 (BO3) - VCT Champions Group A",
+    "ts": "2026-10-04T07:04:27.872588",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247139",
+    "pregunta": "Counter-Strike: 9z vs TYLOO - Map 1 Winner",
+    "ts": "2026-10-04T07:04:28.952885",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5205503",
+    "pregunta": "Valorant: FUT Esports vs T1 - Map 1 Winner",
+    "ts": "2026-10-04T07:04:30.011660",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233548",
+    "pregunta": "LoL: Team WE vs HANJIN BRION - Game 1 Winner",
+    "ts": "2026-10-04T07:04:31.911170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x62c68066fe7466ad3048a4adff9ad18cfecdab7b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
