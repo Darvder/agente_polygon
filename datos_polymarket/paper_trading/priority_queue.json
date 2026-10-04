@@ -1,24 +1,40 @@
 [
   {
-    "id": "3871433",
-    "pregunta": "Chargers vs. Seahawks",
-    "ts": "2026-10-04T15:45:35.804229",
+    "id": "4337898",
+    "pregunta": "Golden Knights vs. Canucks",
+    "ts": "2026-10-04T15:52:34.359556",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_wallet": "0xcd0e49bdd7e8abed92bda5bf3431cb0b144d46e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871427",
-    "pregunta": "Dolphins vs. Vikings",
-    "ts": "2026-10-04T15:45:36.865685",
+    "id": "4337885",
+    "pregunta": "Utah vs. Rangers: O/U 7.5",
+    "ts": "2026-10-04T15:52:35.530785",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_wallet": "0xcd0e49bdd7e8abed92bda5bf3431cb0b144d46e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5262967",
-    "pregunta": "LoL: Team Liquid vs LYON (BO5) - LCS Playoffs",
-    "ts": "2026-10-04T15:45:39.927293",
+    "id": "5238416",
+    "pregunta": "Spread: Rangers (-1.5)",
+    "ts": "2026-10-04T15:52:36.729148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcd0e49bdd7e8abed92bda5bf3431cb0b144d46e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5262963",
+    "pregunta": "LoL: Team Liquid vs LYON - Game 1 Winner",
+    "ts": "2026-10-04T15:52:38.604789",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7374f718137a406e536faca061203e108e41f266",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4879950",
+    "pregunta": "C\u00facuta Deportivo FC vs. Deportivo Pereira: O/U 2.5",
+    "ts": "2026-10-04T15:52:40.557326",
     "origen": "whale_copytrader",
     "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
