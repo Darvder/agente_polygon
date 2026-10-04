@@ -1,58 +1,34 @@
 [
   {
-    "id": "4769561",
-    "pregunta": "United States vs. Mexico: O/U 2.5",
-    "ts": "2026-10-03T22:53:31.798982",
+    "id": "3871421",
+    "pregunta": "Cardinals vs. Giants",
+    "ts": "2026-10-03T23:03:44.943774",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+    "whale_wallet": "0x74692bbae173bfe318cba2606e319a5685cca5f0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875325",
-    "pregunta": "Spread: Colts (-4.5)",
-    "ts": "2026-10-03T22:53:34.158120",
+    "id": "4785989",
+    "pregunta": "Will Germany win on 2026-10-04?",
+    "ts": "2026-10-03T23:03:45.982504",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_wallet": "0x74692bbae173bfe318cba2606e319a5685cca5f0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4859224",
-    "pregunta": "Spread: Colts (-10.5)",
-    "ts": "2026-10-03T22:53:35.250261",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-10-03T23:03:47.767138",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_wallet": "0x9f16e3ac408ec33ba389891ae68df894e8dea28f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4822679",
-    "pregunta": "San Jose State vs. Hawai'i",
-    "ts": "2026-10-03T22:53:36.341667",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-10-03T23:03:48.899747",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3919595",
-    "pregunta": "Patriots vs. Bills: O/U 49.5",
-    "ts": "2026-10-03T22:53:37.648186",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871427",
-    "pregunta": "Dolphins vs. Vikings",
-    "ts": "2026-10-03T22:53:38.748111",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4822731",
-    "pregunta": "Spread: Hawai'i (-3.5)",
-    "ts": "2026-10-03T22:53:41.310306",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1d3a805284bc8029cd6acd06d5a2b8b2b1807b63",
+    "whale_wallet": "0x9f16e3ac408ec33ba389891ae68df894e8dea28f",
     "whale_signal": "COMPRAR NO"
   }
 ]
