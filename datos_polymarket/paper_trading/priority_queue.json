@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5175482",
+    "pregunta": "San Diego Padres vs. Milwaukee Brewers",
+    "ts": "2026-10-03T21:04:06.224342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd8dca4272c19833d7c751d9d7e17a67b28273669",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4769561",
+    "pregunta": "United States vs. Mexico: O/U 2.5",
+    "ts": "2026-10-03T21:04:08.129039",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4822679",
+    "pregunta": "San Jose State vs. Hawai'i",
+    "ts": "2026-10-03T21:04:09.172759",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877193",
+    "pregunta": "Will Spain win on 2026-10-06?",
+    "ts": "2026-10-03T21:04:10.212294",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4769560",
+    "pregunta": "United States vs. Mexico: O/U 1.5",
+    "ts": "2026-10-03T21:04:11.250152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
