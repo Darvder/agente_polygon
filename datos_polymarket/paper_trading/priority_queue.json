@@ -1,42 +1,26 @@
 [
   {
+    "id": "4820019",
+    "pregunta": "Texas Tech vs. Colorado",
+    "ts": "2026-10-03T21:14:07.253862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5202254",
+    "pregunta": "Japan Open Tennis Championships: Jaume Munar vs Kyrian Jacquet",
+    "ts": "2026-10-03T21:14:10.509613",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5175482",
     "pregunta": "San Diego Padres vs. Milwaukee Brewers",
-    "ts": "2026-10-03T21:04:06.224342",
+    "ts": "2026-10-03T21:14:12.611933",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd8dca4272c19833d7c751d9d7e17a67b28273669",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4769561",
-    "pregunta": "United States vs. Mexico: O/U 2.5",
-    "ts": "2026-10-03T21:04:08.129039",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4822679",
-    "pregunta": "San Jose State vs. Hawai'i",
-    "ts": "2026-10-03T21:04:09.172759",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4877193",
-    "pregunta": "Will Spain win on 2026-10-06?",
-    "ts": "2026-10-03T21:04:10.212294",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4769560",
-    "pregunta": "United States vs. Mexico: O/U 1.5",
-    "ts": "2026-10-03T21:04:11.250152",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
     "whale_signal": "COMPRAR NO"
   }
 ]
