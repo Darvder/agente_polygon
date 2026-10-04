@@ -1,18 +1,42 @@
 [
   {
-    "id": "5203539",
-    "pregunta": "Will the highest temperature in Buenos Aires be 24\u00b0C on October 4?",
-    "ts": "2026-10-03T19:33:51.910359",
+    "id": "4740105",
+    "pregunta": "UFC 332: Roman Kopylov vs. Ateba Gautier (Middleweight, Main Card)",
+    "ts": "2026-10-03T19:45:52.594667",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x80c052f2189288b94e732083facd93ee590dc4f6",
+    "whale_wallet": "0x7cfc323ece0130044a84dce68374607ee92c32cd",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5197844",
-    "pregunta": "Will the highest temperature in Paris be 25\u00b0C on October 4?",
-    "ts": "2026-10-03T19:33:53.035382",
+    "id": "4740086",
+    "pregunta": "UFC 332: Roberto Soldic vs. Khaos Williams (Welterweight, Main Card)",
+    "ts": "2026-10-03T19:45:53.634735",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x80c052f2189288b94e732083facd93ee590dc4f6",
+    "whale_wallet": "0x7cfc323ece0130044a84dce68374607ee92c32cd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871423",
+    "pregunta": "Rams vs. Eagles",
+    "ts": "2026-10-03T19:45:55.578946",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3cc501d94675f449c753be69232c162a987b5fcb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5175472",
+    "pregunta": "New York Yankees vs. Tampa Bay Rays",
+    "ts": "2026-10-03T19:45:57.580660",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e2d316226626fbcb1a34b42b726e5faf31f5116",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4787001",
+    "pregunta": "Spread: Portugal (-1.5)",
+    "ts": "2026-10-03T19:45:58.650710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e2d316226626fbcb1a34b42b726e5faf31f5116",
     "whale_signal": "COMPRAR NO"
   }
 ]
