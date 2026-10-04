@@ -1,34 +1,26 @@
 [
   {
+    "id": "1365904",
+    "pregunta": "Will Augusto Cury finish in third place in the first round of the 2026 Brazilian presidential election?",
+    "ts": "2026-10-04T09:42:48.303959",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x918ab485f945ba87a725a01db75b23b22f816a0c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247270",
+    "pregunta": "Counter-Strike: Luminosity vs Astralis (BO3) - Stake Ranked Episode 4 Playoffs",
+    "ts": "2026-10-04T09:42:52.140865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5247322",
     "pregunta": "Counter-Strike: G2 vs 1WIN - Map 1 Winner",
-    "ts": "2026-10-04T09:32:29.609191",
+    "ts": "2026-10-04T09:42:53.187175",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3871411",
-    "pregunta": "Patriots vs. Bills",
-    "ts": "2026-10-04T09:32:32.886791",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6f11bcdd1e09a7109b61e6c26ddbcfe3f204c524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5247381",
-    "pregunta": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-04T09:32:35.001527",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd88ad596fa48b3ea6acac2c699bba7a92abca7e4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5255759",
-    "pregunta": "Counter-Strike: Butterfly vs megoshort - Map 1 Winner",
-    "ts": "2026-10-04T09:32:37.020105",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
+    "whale_wallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
     "whale_signal": "COMPRAR NO"
   }
 ]
