@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4839815",
+    "pregunta": "Puerto Rico vs. Cayman Islands: O/U 1.5",
+    "ts": "2026-10-04T18:33:50.963993",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5059645",
+    "pregunta": "Jazz vs. Nuggets",
+    "ts": "2026-10-04T18:33:52.020862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5262966",
+    "pregunta": "LoL: Team Liquid vs LYON - Game 4 Winner",
+    "ts": "2026-10-04T18:33:54.769466",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08798625f46beade1a243ac0c1dbe961d1ae9501",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5262965",
+    "pregunta": "LoL: Team Liquid vs LYON - Game 3 Winner",
+    "ts": "2026-10-04T18:33:57.923489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce0871a82a7799ace36ab2fcd08f95b21cdf510b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
