@@ -1,10 +1,66 @@
 [
   {
-    "id": "5222773",
-    "pregunta": "LoL: Solary vs Bar\u00e7a eSports - Game 4 Winner",
-    "ts": "2026-10-04T12:54:17.315754",
+    "id": "3875183",
+    "pregunta": "Broncos vs. 49ers: O/U 47.5",
+    "ts": "2026-10-04T13:02:46.622967",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0b3d410ca710a2ade1ee97a93c4133e8dcae430f",
+    "whale_wallet": "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919631",
+    "pregunta": "Colts vs. Commanders: O/U 45.5",
+    "ts": "2026-10-04T13:02:49.228071",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4859532",
+    "pregunta": "Spread: Buccaneers (-3.5)",
+    "ts": "2026-10-04T13:02:50.272950",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4424983",
+    "pregunta": "Patriots vs. Bills: O/U 48.5",
+    "ts": "2026-10-04T13:02:51.316740",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871418",
+    "pregunta": "Cowboys vs. Texans",
+    "ts": "2026-10-04T13:02:52.360741",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919557",
+    "pregunta": "Jaguars vs. Bengals: O/U 44.5",
+    "ts": "2026-10-04T13:02:53.402800",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247411",
+    "pregunta": "Counter-Strike: Vitality vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-04T13:02:55.411558",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c07bf46017ef52c0bea3fe4253185dec1316200",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871424",
+    "pregunta": "Packers vs. Buccaneers",
+    "ts": "2026-10-04T13:02:56.463579",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c07bf46017ef52c0bea3fe4253185dec1316200",
     "whale_signal": "COMPRAR NO"
   }
 ]
