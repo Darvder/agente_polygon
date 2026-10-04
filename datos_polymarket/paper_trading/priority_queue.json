@@ -1,26 +1,90 @@
 [
   {
-    "id": "5247322",
-    "pregunta": "Counter-Strike: G2 vs 1WIN - Map 1 Winner",
-    "ts": "2026-10-04T09:02:46.884663",
+    "id": "5241292",
+    "pregunta": "China Open: Alexander Zverev vs Novak Djokovic",
+    "ts": "2026-10-04T09:13:16.079442",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c6367b4e0022ca702ad6f33cd2cf504b2cc3cbb",
+    "whale_wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4859792",
-    "pregunta": "Spread: Rams (-5.5)",
-    "ts": "2026-10-04T09:02:48.795302",
+    "id": "3875306",
+    "pregunta": "Patriots vs. Bills: O/U 47.5",
+    "ts": "2026-10-04T09:13:18.120975",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68df8708aadb901618f11abf2471805a66a24815",
+    "whale_wallet": "0x37c64f63fbd808b510b7a4bd3437c9991b0c92e9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875333",
-    "pregunta": "Spread: Commanders (-2.5)",
-    "ts": "2026-10-04T09:02:49.881883",
+    "id": "3875152",
+    "pregunta": "Lions vs. Panthers: O/U 50.5",
+    "ts": "2026-10-04T09:13:19.166923",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68df8708aadb901618f11abf2471805a66a24815",
+    "whale_wallet": "0x37c64f63fbd808b510b7a4bd3437c9991b0c92e9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871427",
+    "pregunta": "Dolphins vs. Vikings",
+    "ts": "2026-10-04T09:13:20.208830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37c64f63fbd808b510b7a4bd3437c9991b0c92e9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871405",
+    "pregunta": "Colts vs. Commanders",
+    "ts": "2026-10-04T09:13:21.259396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37c64f63fbd808b510b7a4bd3437c9991b0c92e9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875162",
+    "pregunta": "Spread: 49ers (-2.5)",
+    "ts": "2026-10-04T09:13:22.311074",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37c64f63fbd808b510b7a4bd3437c9991b0c92e9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919479",
+    "pregunta": "Packers vs. Buccaneers: O/U 39.5",
+    "ts": "2026-10-04T09:13:24.126530",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4859694",
+    "pregunta": "Packers vs. Buccaneers: O/U 38.5",
+    "ts": "2026-10-04T09:13:25.202103",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875326",
+    "pregunta": "Colts vs. Commanders: O/U 46.5",
+    "ts": "2026-10-04T09:13:26.244842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875305",
+    "pregunta": "Spread: Bills (-7.5)",
+    "ts": "2026-10-04T09:13:27.292525",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4861760",
+    "pregunta": "Spread: Vikings (-9.5)",
+    "ts": "2026-10-04T09:13:28.339035",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde78f38169634477f6ff46572128b6d21a6505",
     "whale_signal": "COMPRAR NO"
   }
 ]
