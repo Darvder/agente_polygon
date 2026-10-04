@@ -1,66 +1,26 @@
 [
   {
-    "id": "3871411",
-    "pregunta": "Patriots vs. Bills",
-    "ts": "2026-10-04T15:33:22.018178",
+    "id": "3871433",
+    "pregunta": "Chargers vs. Seahawks",
+    "ts": "2026-10-04T15:45:35.804229",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3871431",
-    "pregunta": "Chiefs vs. Raiders",
-    "ts": "2026-10-04T15:33:23.111927",
+    "id": "3871427",
+    "pregunta": "Dolphins vs. Vikings",
+    "ts": "2026-10-04T15:45:36.865685",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875204",
-    "pregunta": "Spread: Seahawks (-6.5)",
-    "ts": "2026-10-04T15:33:25.803344",
+    "id": "5262967",
+    "pregunta": "LoL: Team Liquid vs LYON (BO5) - LCS Playoffs",
+    "ts": "2026-10-04T15:45:39.927293",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4786001",
-    "pregunta": "Will Israel win on 2026-10-04?",
-    "ts": "2026-10-04T15:33:27.687842",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785989",
-    "pregunta": "Will Germany win on 2026-10-04?",
-    "ts": "2026-10-04T15:33:28.761491",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785961",
-    "pregunta": "Will Netherlands win on 2026-10-04?",
-    "ts": "2026-10-04T15:33:29.850405",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785999",
-    "pregunta": "Will Republic of Ireland vs. Israel end in a draw?",
-    "ts": "2026-10-04T15:33:30.976523",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4785943",
-    "pregunta": "Will Portugal win on 2026-10-04?",
-    "ts": "2026-10-04T15:33:32.044952",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xacf37e7a3a1ea8be013b009f7ec513f4fd2f64be",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
