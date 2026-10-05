@@ -1,34 +1,26 @@
 [
   {
-    "id": "5259093",
-    "pregunta": "Braga: Thiago Monteiro vs Elmer Moeller",
-    "ts": "2026-10-05T12:13:18.504265",
+    "id": "5180792",
+    "pregunta": "World Championship of Legends: Bangladesh Champions vs England Champions",
+    "ts": "2026-10-05T12:23:31.041402",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+    "whale_wallet": "0xb5db6abf19904c4f18daa9bcd753edb99b1f5800",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5299146",
-    "pregunta": "Counter-Strike: Vitality vs Team Falcons (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-05T12:13:21.457767",
+    "id": "5305615",
+    "pregunta": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-05T12:23:33.082968",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xc9ae00eda811041a059f3eec9356b24067c1b9e0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4836584",
-    "pregunta": "Italy vs. T\u00fcrkiye: Both Teams to Score",
-    "ts": "2026-10-05T12:13:22.530417",
+    "id": "5299144",
+    "pregunta": "Counter-Strike: Vitality vs Team Falcons - Map 1 Winner",
+    "ts": "2026-10-05T12:23:34.154556",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5269648",
-    "pregunta": "Dota 2: LEGION vs Blasterbl (BO3) - PARI Universe Closed Qualifier Playoffs",
-    "ts": "2026-10-05T12:13:23.626480",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xc9ae00eda811041a059f3eec9356b24067c1b9e0",
     "whale_signal": "COMPRAR NO"
   }
 ]
