@@ -1,42 +1,26 @@
 [
   {
-    "id": "5277255",
-    "pregunta": "Set Handicap: Jiri Lehecka (-1.5) vs Valentin Vacherot (+1.5)",
-    "ts": "2026-10-05T06:13:12.190954",
+    "id": "5223047",
+    "pregunta": "Orsomarso SC vs. Deportes Quindio: O/U 2.5",
+    "ts": "2026-10-05T06:23:16.181128",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa87ca87e77111b9b72ba059372fab96d16bdad4a",
+    "whale_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5276822",
-    "pregunta": "Japan Open Tennis Championships: Jiri Lehecka vs Valentin Vacherot",
-    "ts": "2026-10-05T06:13:13.228772",
+    "id": "5320332",
+    "pregunta": "Shanghai Rolex Masters: Botic van de Zandschulp vs Daniel Merida Aguilar",
+    "ts": "2026-10-05T06:23:17.251114",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa87ca87e77111b9b72ba059372fab96d16bdad4a",
+    "whale_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5290772",
-    "pregunta": "China Open: Novak Djokovic vs Daniil Medvedev",
-    "ts": "2026-10-05T06:13:14.272210",
+    "id": "5299124",
+    "pregunta": "Counter-Strike: Spirit vs MOUZ (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T06:23:22.637785",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa87ca87e77111b9b72ba059372fab96d16bdad4a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5291850",
-    "pregunta": "Set Handicap: Daniil Medvedev (-1.5) vs Novak Djokovic (+1.5)",
-    "ts": "2026-10-05T06:13:15.440310",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa87ca87e77111b9b72ba059372fab96d16bdad4a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5233641",
-    "pregunta": "LoL: Shopify Rebellion vs JD Gaming - Game 2 Winner",
-    "ts": "2026-10-05T06:13:20.514872",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbd47b05f46027d0f4d28a77543aa728b5145179c",
+    "whale_wallet": "0x58ce8cec3cbc6eb3dbbe8cd39436bc0dd2ebe206",
     "whale_signal": "COMPRAR NO"
   }
 ]
