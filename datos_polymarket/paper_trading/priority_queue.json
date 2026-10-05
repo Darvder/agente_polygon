@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5259093",
+    "pregunta": "Braga: Thiago Monteiro vs Elmer Moeller",
+    "ts": "2026-10-05T12:13:18.504265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299146",
+    "pregunta": "Counter-Strike: Vitality vs Team Falcons (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T12:13:21.457767",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4836584",
+    "pregunta": "Italy vs. T\u00fcrkiye: Both Teams to Score",
+    "ts": "2026-10-05T12:13:22.530417",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5269648",
+    "pregunta": "Dota 2: LEGION vs Blasterbl (BO3) - PARI Universe Closed Qualifier Playoffs",
+    "ts": "2026-10-05T12:13:23.626480",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
