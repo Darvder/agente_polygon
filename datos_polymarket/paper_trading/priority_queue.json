@@ -1,10 +1,18 @@
 [
   {
+    "id": "665374",
+    "pregunta": "Will the U.S. invade Iran before 2027?",
+    "ts": "2026-10-05T02:43:07.362541",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8365a0c9908dca494abaf0b90584162b474ce9a6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5233617",
     "pregunta": "LoL: GAM Esports vs Team Vitality - Game 1 Winner",
-    "ts": "2026-10-05T02:33:32.336493",
+    "ts": "2026-10-05T02:43:11.383918",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfdb524eee964681e669af9d36eea9a435883b452",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
     "whale_signal": "COMPRAR NO"
   }
 ]
