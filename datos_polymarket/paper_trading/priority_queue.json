@@ -1,34 +1,18 @@
 [
   {
-    "id": "5228453",
-    "pregunta": "China Open: Donna Vekic vs Iga Swiatek",
-    "ts": "2026-10-05T00:14:03.251720",
+    "id": "5275164",
+    "pregunta": "Suzhou: Alevtina Ibragimova vs Rebecca Sramkova",
+    "ts": "2026-10-05T00:24:53.811589",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xf2f49d179b07e6a7e4fb3409bc46b05866a249cd",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5239708",
-    "pregunta": "China Open: Marie Bouzkova vs Qinwen Zheng",
-    "ts": "2026-10-05T00:14:04.295066",
+    "id": "5276768",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Lorenzo Sonego vs Aziz Dougaz",
+    "ts": "2026-10-05T00:24:57.024796",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5299078",
-    "pregunta": "Counter-Strike: ShindeN vs G2 - Map 1 Winner",
-    "ts": "2026-10-05T00:14:06.062856",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4974093",
-    "pregunta": "Will FC Sochaux-Montb\u00e9liard win on 2026-10-09?",
-    "ts": "2026-10-05T00:14:08.646731",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa7ac1665996b18f2372d591d20f53adb1354ba39",
+    "whale_wallet": "0xf2f49d179b07e6a7e4fb3409bc46b05866a249cd",
     "whale_signal": "COMPRAR NO"
   }
 ]
