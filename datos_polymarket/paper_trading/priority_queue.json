@@ -1,10 +1,34 @@
 [
   {
-    "id": "5275170",
-    "pregunta": "Suzhou: Ruien Zhang vs Tatiana Prozorova",
-    "ts": "2026-10-05T01:23:01.902747",
+    "id": "5276802",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Terence Atmane vs Bernard Tomic",
+    "ts": "2026-10-05T01:32:54.731465",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd0c7f0d430bf1ec764a8279a75235fb5e54e4459",
+    "whale_wallet": "0xe9d31c24fc8d6a4beb58ee1808fdbefd0e72079f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5276784",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Hugo Gaston vs Liam Draxl",
+    "ts": "2026-10-05T01:32:56.517557",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb31e41965df4ab8014de4c4d8da9deff0a6ac120",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5276795",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Chun-Hsin Tseng vs Nicolas Mejia",
+    "ts": "2026-10-05T01:32:57.561863",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb31e41965df4ab8014de4c4d8da9deff0a6ac120",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5239704",
+    "pregunta": "China Open: Iva Jovic vs Kamilla Rakhimova",
+    "ts": "2026-10-05T01:32:59.231054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d6819679e37b51fc1d01ac7691cb4f408dd4354",
     "whale_signal": "COMPRAR NO"
   }
 ]
