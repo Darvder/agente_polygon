@@ -1,34 +1,58 @@
 [
   {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T23:33:06.260484",
+    "id": "5239708",
+    "pregunta": "China Open: Marie Bouzkova vs Qinwen Zheng",
+    "ts": "2026-10-04T23:44:22.075755",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f145575cb31aa906195799b371b476137f0c52a",
+    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2487543",
-    "pregunta": "Will Eduardo Paes win the Governor of Rio de Janeiro election?",
-    "ts": "2026-10-04T23:33:07.318327",
+    "id": "5279369",
+    "pregunta": "Game Spread: Adam Walton (-5.5) vs Rigele Te (+5.5)",
+    "ts": "2026-10-04T23:44:23.152934",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f145575cb31aa906195799b371b476137f0c52a",
+    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2487544",
-    "pregunta": "Will Douglas Ruas win the Governor of Rio de Janeiro election?",
-    "ts": "2026-10-04T23:33:08.444507",
+    "id": "608547",
+    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "ts": "2026-10-04T23:44:25.181725",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f145575cb31aa906195799b371b476137f0c52a",
+    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-04T23:33:09.487229",
+    "id": "5299147",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-10-04T23:44:26.414922",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f145575cb31aa906195799b371b476137f0c52a",
+    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5266945",
+    "pregunta": "Will the highest temperature in Manila be 33\u00b0C on October 6?",
+    "ts": "2026-10-04T23:44:27.646388",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4835296",
+    "pregunta": "Will Cyprus win on 2026-10-05?",
+    "ts": "2026-10-04T23:44:28.761584",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2589812",
+    "pregunta": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+    "ts": "2026-10-04T23:44:29.832938",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
     "whale_signal": "COMPRAR NO"
   }
 ]
