@@ -1,10 +1,50 @@
 [
   {
-    "id": "4835355",
-    "pregunta": "Will Sweden win on 2026-10-05?",
-    "ts": "2026-10-05T04:14:26.068050",
+    "id": "5292805",
+    "pregunta": "Counter-Strike: Teletubisie vs OldMix (BO3) - United21 Group C",
+    "ts": "2026-10-05T04:25:04.685262",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc9fcc42094233f28de5d7a54b563db7ed72905b",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233594",
+    "pregunta": "LoL: Natus Vincere vs FlyQuest - Game 1 Winner",
+    "ts": "2026-10-05T04:25:05.722779",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233596",
+    "pregunta": "LoL: Natus Vincere vs FlyQuest (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-05T04:25:06.761797",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299078",
+    "pregunta": "Counter-Strike: ShindeN vs G2 - Map 1 Winner",
+    "ts": "2026-10-05T04:25:07.799321",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5292803",
+    "pregunta": "Counter-Strike: Teletubisie vs OldMix - Map 2 Winner",
+    "ts": "2026-10-05T04:25:08.869423",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299067",
+    "pregunta": "Counter-Strike: PARIVISION vs FURIA - Map 1 Winner",
+    "ts": "2026-10-05T04:25:09.909262",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21",
     "whale_signal": "COMPRAR NO"
   }
 ]
