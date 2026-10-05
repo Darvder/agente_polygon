@@ -1,10 +1,42 @@
 [
   {
-    "id": "4641065",
-    "pregunta": "US x Iran ceasefire continues through October 31?",
-    "ts": "2026-10-05T12:53:38.214595",
+    "id": "5299133",
+    "pregunta": "Counter-Strike: Aurora Gaming vs BetBoom Team - Map 1 Winner",
+    "ts": "2026-10-05T13:04:34.229558",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1942350e6ce9f9e2ad929a9b3acdaa699a8196ed",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5323865",
+    "pregunta": "LoL: HANJIN BRION vs Natus Vincere (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-05T13:04:36.124909",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc35944a67658dc37d4e8de948cea2a7fa3f923",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5323963",
+    "pregunta": "LoL: Team Vitality vs RED Canids - Game 1 Winner",
+    "ts": "2026-10-05T13:04:37.285983",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc35944a67658dc37d4e8de948cea2a7fa3f923",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5144653",
+    "pregunta": "Pelicans vs. Thunder",
+    "ts": "2026-10-05T13:04:38.344282",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc35944a67658dc37d4e8de948cea2a7fa3f923",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5105821",
+    "pregunta": "Knicks vs. 76ers",
+    "ts": "2026-10-05T13:04:39.401778",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc35944a67658dc37d4e8de948cea2a7fa3f923",
     "whale_signal": "COMPRAR NO"
   }
 ]

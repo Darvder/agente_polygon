@@ -1,15 +1,15 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1584.23,
-  "capital_en_riesgo": 438.08,
-  "n_ciclos": 39539,
-  "ultima_corrida": "2026-10-05 12:54",
-  "n_tp": 805,
+  "capital_actual": 1607.82,
+  "capital_en_riesgo": 434.11,
+  "n_ciclos": 39540,
+  "ultima_corrida": "2026-10-05 13:05",
+  "n_tp": 806,
   "n_sl": 549,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 9.66,
+    "capital_actual": 12.01,
     "capital_en_riesgo": 56.87,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 308,
+    "n_tp": 309,
     "n_sl": 222,
     "posiciones_abiertas": [
       {
@@ -71,7 +71,7 @@
         "pregunta": "Will Anthropic have the highest IPO Market Cap 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.5665,
-        "precio_actual": 0.5415,
+        "precio_actual": 0.539,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -111,7 +111,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.453,
-        "precio_actual": 0.4645,
+        "precio_actual": 0.4745,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -343,15 +343,15 @@
       },
       {
         "fecha_entrada": "2026-10-05",
-        "fecha_entrada_dt": "2026-10-05 09:05",
-        "target_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
-        "market_id": "4837231",
-        "condition_id": "0x856c61478e408e2ede4c067f15047ae615e43ba21ef86bc3559cf7b80a930f9e",
-        "token_id": "3690637727472717725593223354945888275908613878656141351980970425941235987264",
-        "pregunta": "Cyprus vs. Latvia: Cyprus O/U 5.5 Corners",
-        "outcome": "Over",
-        "precio_token_entrada": 0.56,
-        "precio_actual": 0.5,
+        "fecha_entrada_dt": "2026-10-05 13:04",
+        "target_wallet": "0xedc35944a67658dc37d4e8de948cea2a7fa3f923",
+        "market_id": "5323865",
+        "condition_id": "0xd852e0f76587ed40d7092ca1036044ee8a516e17b17ee32e26623ea3c1b21ac7",
+        "token_id": "95984957601079311090346346955717233367487551020215570592707048769682530675936",
+        "pregunta": "LoL: HANJIN BRION vs Natus Vincere (BO3) - Demacia Cup Global Invitati",
+        "outcome": "HANJIN BRION",
+        "precio_token_entrada": 0.785,
+        "precio_actual": 0.785,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -359,7 +359,7 @@
         "fecha_cierre_real": "",
         "pnl_realizado": 0.0,
         "razon_cierre": "",
-        "tx_hash": "0xd772b636d55a29933c5b305e4a9b3ac6fb1e557233e0f1b81fe536d053eb98db"
+        "tx_hash": "0xc8b3e59ebb3f6649e2ab84b0433c937f61c1ca166abe1c22cf714bb2c9d9e5b2"
       }
     ],
     "historial_cerradas": [
@@ -10962,6 +10962,26 @@
         "pnl_realizado": -2.07,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xaf40b6511a167919ec821cc4c543a349d2a087a6d0fee4a40da4e1939065716b"
+      },
+      {
+        "fecha_entrada": "2026-10-05",
+        "fecha_entrada_dt": "2026-10-05 09:05",
+        "target_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
+        "market_id": "4837231",
+        "condition_id": "0x856c61478e408e2ede4c067f15047ae615e43ba21ef86bc3559cf7b80a930f9e",
+        "token_id": "3690637727472717725593223354945888275908613878656141351980970425941235987264",
+        "pregunta": "Cyprus vs. Latvia: Cyprus O/U 5.5 Corners",
+        "outcome": "Over",
+        "precio_token_entrada": 0.56,
+        "precio_actual": 0.9995,
+        "precio_cierre": 0.9995,
+        "pct_cambio": 0.7848,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-05 13:05",
+        "pnl_realizado": 2.35,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0xd772b636d55a29933c5b305e4a9b3ac6fb1e557233e0f1b81fe536d053eb98db"
       }
     ]
   }
