@@ -1,10 +1,18 @@
 [
   {
-    "id": "3871438",
-    "pregunta": "Falcons vs. Saints",
-    "ts": "2026-10-05T16:44:05.291635",
+    "id": "5323869",
+    "pregunta": "Game Handicap: BRO (-1.5) vs Natus Vincere (+1.5)",
+    "ts": "2026-10-05T16:53:13.399392",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecb14ac6e9ca447ce2f2912e6217b43d7b655da3",
+    "whale_wallet": "0x74e160f969bfdb81971e9065d9650638e6b31e20",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5204427",
+    "pregunta": "Game Handicap: KBM (-1.5) vs 9z Globant (+1.5)",
+    "ts": "2026-10-05T16:53:14.528716",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x74e160f969bfdb81971e9065d9650638e6b31e20",
     "whale_signal": "COMPRAR NO"
   }
 ]
