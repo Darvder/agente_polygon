@@ -1,18 +1,42 @@
 [
   {
-    "id": "5276766",
-    "pregunta": "China Open: Alex de Minaur vs Hubert Hurkacz",
-    "ts": "2026-10-05T05:05:22.592770",
+    "id": "5299069",
+    "pregunta": "Counter-Strike: PARIVISION vs FURIA (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T05:15:42.474105",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+    "whale_wallet": "0x8992c1f5f79a710eeeada4b1a70cda5472cced1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5290778",
+    "pregunta": "Palermo: Federico Arnaboldi vs Kalin Ivanovski",
+    "ts": "2026-10-05T05:15:45.634332",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x575bb9a6984d20abb240393161b4eaa5b47e6a6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233596",
+    "pregunta": "LoL: Natus Vincere vs FlyQuest (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-05T05:15:47.599336",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff80bb23621f03fc6300808730316c78abe09b4d",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5233595",
     "pregunta": "LoL: Natus Vincere vs FlyQuest - Game 2 Winner",
-    "ts": "2026-10-05T05:05:24.576551",
+    "ts": "2026-10-05T05:15:52.803241",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19af615ae0679927f75a22f70ec6ce0521fe489c",
+    "whale_wallet": "0xff80bb23621f03fc6300808730316c78abe09b4d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5276810",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Martin Damm vs Pavel Kotov",
+    "ts": "2026-10-05T05:15:54.570395",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
