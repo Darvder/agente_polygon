@@ -1,26 +1,10 @@
 [
   {
-    "id": "1571985",
-    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
-    "ts": "2026-10-05T05:23:30.890981",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x349e9d77d61ca62343243e88200373406d784b5f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5233594",
-    "pregunta": "LoL: Natus Vincere vs FlyQuest - Game 1 Winner",
-    "ts": "2026-10-05T05:23:32.790610",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xee7c748761cd39ff8bc8ce5fc6d298fd91a870f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5233595",
     "pregunta": "LoL: Natus Vincere vs FlyQuest - Game 2 Winner",
-    "ts": "2026-10-05T05:23:33.833050",
+    "ts": "2026-10-05T05:34:25.854648",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xee7c748761cd39ff8bc8ce5fc6d298fd91a870f2",
+    "whale_wallet": "0x5e8e7771121f4f8f9f7739ddecfe2baa2d918212",
     "whale_signal": "COMPRAR NO"
   }
 ]
