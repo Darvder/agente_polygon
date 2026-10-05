@@ -1,10 +1,26 @@
 [
   {
-    "id": "5233641",
-    "pregunta": "LoL: Shopify Rebellion vs JD Gaming - Game 2 Winner",
-    "ts": "2026-10-05T06:53:46.372647",
+    "id": "5299069",
+    "pregunta": "Counter-Strike: PARIVISION vs FURIA (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T07:03:46.915792",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0ef9299f9b8707e499cfe19cf9b947a883383d08",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299091",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T07:03:47.966284",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5290772",
+    "pregunta": "China Open: Novak Djokovic vs Daniil Medvedev",
+    "ts": "2026-10-05T07:03:53.951156",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x15740055904cab8a8b743f2f6f5428122f8764c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
