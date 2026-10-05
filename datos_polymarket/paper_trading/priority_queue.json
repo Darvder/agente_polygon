@@ -1,10 +1,18 @@
 [
   {
-    "id": "5233595",
-    "pregunta": "LoL: Natus Vincere vs FlyQuest - Game 2 Winner",
-    "ts": "2026-10-05T05:34:25.854648",
+    "id": "4836704",
+    "pregunta": "Northern Ireland vs. Georgia: Both Teams to Score",
+    "ts": "2026-10-05T05:43:04.527457",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5e8e7771121f4f8f9f7739ddecfe2baa2d918212",
+    "whale_wallet": "0x2c832c3eef5bfa5cff18a691152c5f289ddbfca2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4836644",
+    "pregunta": "France vs. Belgium: Both Teams to Score",
+    "ts": "2026-10-05T05:43:05.696175",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c832c3eef5bfa5cff18a691152c5f289ddbfca2",
     "whale_signal": "COMPRAR NO"
   }
 ]
