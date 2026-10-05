@@ -1,18 +1,10 @@
 [
   {
-    "id": "5259085",
-    "pregunta": "Villena: Pablo Llamas Ruiz vs Luca Nardi",
-    "ts": "2026-10-05T12:42:58.847698",
+    "id": "4641065",
+    "pregunta": "US x Iran ceasefire continues through October 31?",
+    "ts": "2026-10-05T12:53:38.214595",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x98a1446d06035b92bc060c1ba6ba17a9e3981c2e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5259093",
-    "pregunta": "Braga: Thiago Monteiro vs Elmer Moeller",
-    "ts": "2026-10-05T12:42:59.917738",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x98a1446d06035b92bc060c1ba6ba17a9e3981c2e",
+    "whale_wallet": "0x1942350e6ce9f9e2ad929a9b3acdaa699a8196ed",
     "whale_signal": "COMPRAR NO"
   }
 ]
