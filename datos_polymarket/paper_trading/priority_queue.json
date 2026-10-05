@@ -1,34 +1,26 @@
 [
   {
-    "id": "5299122",
-    "pregunta": "Counter-Strike: Spirit vs MOUZ - Map 1 Winner",
-    "ts": "2026-10-05T09:32:58.945112",
+    "id": "5081787",
+    "pregunta": "Will the price of Bitcoin be above $86,000 on October 5?",
+    "ts": "2026-10-05T09:44:39.683944",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x05625ca25b4b289f3be889fecc9f160a6f0118a4",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5299113",
-    "pregunta": "Counter-Strike: M80 vs TYLOO (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-05T09:33:00.943569",
+    "id": "5269646",
+    "pregunta": "Dota 2: LEGION vs Blasterbl - Game 1 Winner",
+    "ts": "2026-10-05T09:44:50.250248",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x04fbd55b0626add23661c448710a0194fcd25968",
+    "whale_wallet": "0xb26fa000b3b281ba582bebc3457e12f0b8219536",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5299112",
-    "pregunta": "Counter-Strike: M80 vs TYLOO - Map 2 Winner",
-    "ts": "2026-10-05T09:33:02.041017",
+    "id": "5278887",
+    "pregunta": "Counter-Strike: STATE vs Vitality Academy - Map 2 Winner",
+    "ts": "2026-10-05T09:44:52.287295",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x04fbd55b0626add23661c448710a0194fcd25968",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5299111",
-    "pregunta": "Counter-Strike: M80 vs TYLOO - Map 1 Winner",
-    "ts": "2026-10-05T09:33:05.858175",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdfb2d6bda19b61dcd8fce46a0590999db2bec37c",
+    "whale_wallet": "0x0cc3138207958914c03c995e2f06566267777021",
     "whale_signal": "COMPRAR NO"
   }
 ]
