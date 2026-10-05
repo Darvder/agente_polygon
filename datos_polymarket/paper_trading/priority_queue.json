@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5233640",
+    "pregunta": "LoL: Shopify Rebellion vs JD Gaming - Game 1 Winner",
+    "ts": "2026-10-05T06:43:11.929108",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc0c38a9c217843b79499fd4d4ac1a04fd4cdac0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5255769",
+    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs Lavked (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-10-05T06:43:14.042365",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc0c38a9c217843b79499fd4d4ac1a04fd4cdac0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299089",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN - Map 1 Winner",
+    "ts": "2026-10-05T06:43:16.141073",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc0c38a9c217843b79499fd4d4ac1a04fd4cdac0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299091",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T06:43:17.195896",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc0c38a9c217843b79499fd4d4ac1a04fd4cdac0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
