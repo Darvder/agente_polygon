@@ -1,18 +1,42 @@
 [
   {
-    "id": "3875134",
-    "pregunta": "Spread: Lions (-4.5)",
-    "ts": "2026-10-04T19:13:20.677384",
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-04T19:24:09.022159",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xffebb68d667e2ab641ab0d07ad19f3c92d00ebcd",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3875152",
-    "pregunta": "Lions vs. Panthers: O/U 50.5",
-    "ts": "2026-10-04T19:13:21.746866",
+    "id": "5059645",
+    "pregunta": "Jazz vs. Nuggets",
+    "ts": "2026-10-04T19:24:12.000328",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4879892",
+    "pregunta": "CA Bucaramanga vs. CDP Junior FC: O/U 4.5",
+    "ts": "2026-10-04T19:24:13.067519",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5196012",
+    "pregunta": "Spread: Nuggets (-4.5)",
+    "ts": "2026-10-04T19:24:14.173030",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5261012",
+    "pregunta": "Atlanta Braves vs. Los Angeles Dodgers: O/U 8.5",
+    "ts": "2026-10-04T19:24:15.239618",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
