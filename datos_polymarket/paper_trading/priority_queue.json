@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "5139093",
+    "pregunta": "Argentina vs. Benin: Both Teams to Score",
+    "ts": "2026-10-05T18:24:16.332561",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877292",
+    "pregunta": "CA V\u00e9lez Sarsfield vs. CA Platense: O/U 3.5",
+    "ts": "2026-10-05T18:24:17.428229",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877230",
+    "pregunta": "Estudiantes de La Plata vs. CA Gimnasia y Esgrima de Mendoza: O/U 1.5",
+    "ts": "2026-10-05T18:24:18.518036",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4845758",
+    "pregunta": "Will Estudiantes de La Plata vs. CA Gimnasia y Esgrima de Mendoza end in a draw?",
+    "ts": "2026-10-05T18:24:19.612823",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877229",
+    "pregunta": "Estudiantes de La Plata vs. CA Gimnasia y Esgrima de Mendoza: O/U 0.5",
+    "ts": "2026-10-05T18:24:20.915090",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5156179",
+    "pregunta": "Tyler Shough: Rushing Yards O/U 14.5",
+    "ts": "2026-10-05T18:24:23.260238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc0a6b9fd5a03068c501ac84330051c6f24cb2e5d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
