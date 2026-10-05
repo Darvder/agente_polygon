@@ -1,26 +1,10 @@
 [
   {
-    "id": "5228449",
-    "pregunta": "China Open: Belinda Bencic vs Ann Li",
-    "ts": "2026-10-05T02:53:00.785539",
+    "id": "5239708",
+    "pregunta": "China Open: Marie Bouzkova vs Qinwen Zheng",
+    "ts": "2026-10-05T03:03:31.899216",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5279357",
-    "pregunta": "Spread: Anyang (-4.5)",
-    "ts": "2026-10-05T02:53:01.989728",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "665374",
-    "pregunta": "Will the U.S. invade Iran before 2027?",
-    "ts": "2026-10-05T02:53:03.760069",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf92a950992181e21874dd1b36c7e5666c443a517",
+    "whale_wallet": "0x492bb408693470df7d031ef48f3a5466055b45ee",
     "whale_signal": "COMPRAR NO"
   }
 ]
