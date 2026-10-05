@@ -1,58 +1,34 @@
 [
   {
-    "id": "5239708",
-    "pregunta": "China Open: Marie Bouzkova vs Qinwen Zheng",
-    "ts": "2026-10-04T23:44:22.075755",
+    "id": "3866000",
+    "pregunta": "Will Ethereum dip to $2,250 by December 31, 2026?",
+    "ts": "2026-10-04T23:54:17.976331",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
+    "whale_wallet": "0x3d1ce8bb9bfadfcc71baf3f6b602b4903c70e45c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5279369",
-    "pregunta": "Game Spread: Adam Walton (-5.5) vs Rigele Te (+5.5)",
-    "ts": "2026-10-04T23:44:23.152934",
+    "id": "3865999",
+    "pregunta": "Will Ethereum dip to $2,000 by December 31, 2026?",
+    "ts": "2026-10-04T23:54:19.047195",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2801d30fb7eeedfd655181e50295f5c97345ca4a",
+    "whale_wallet": "0x3d1ce8bb9bfadfcc71baf3f6b602b4903c70e45c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "608547",
-    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
-    "ts": "2026-10-04T23:44:25.181725",
+    "id": "5228453",
+    "pregunta": "China Open: Donna Vekic vs Iga Swiatek",
+    "ts": "2026-10-04T23:54:20.868836",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
+    "whale_wallet": "0xcf448488de19f7be58bd277d3f12b02aedbfc095",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5299147",
-    "pregunta": "Games Total: O/U 2.5",
-    "ts": "2026-10-04T23:44:26.414922",
+    "id": "3215007",
+    "pregunta": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+    "ts": "2026-10-04T23:54:22.687697",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5266945",
-    "pregunta": "Will the highest temperature in Manila be 33\u00b0C on October 6?",
-    "ts": "2026-10-04T23:44:27.646388",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4835296",
-    "pregunta": "Will Cyprus win on 2026-10-05?",
-    "ts": "2026-10-04T23:44:28.761584",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2589812",
-    "pregunta": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-    "ts": "2026-10-04T23:44:29.832938",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb5527654d309c6617addabbb64e47931cf35b70c",
+    "whale_wallet": "0x25c67ee139a981dc009673732dfb47d122525145",
     "whale_signal": "COMPRAR NO"
   }
 ]
