@@ -1,18 +1,34 @@
 [
   {
-    "id": "5307888",
-    "pregunta": "Counter-Strike: MORROW vs Noir Verse (BO3) - NODWIN Clutch Series Play-In Group A",
-    "ts": "2026-10-05T07:33:18.508315",
+    "id": "5299089",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN - Map 1 Winner",
+    "ts": "2026-10-05T07:43:40.811024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3a959c179cf018395db289eb553d09e70e0f343b",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5299091",
     "pregunta": "Counter-Strike: Legacy vs 1WIN (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-05T07:33:20.406520",
+    "ts": "2026-10-05T07:43:41.887451",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x63ad2e6f80f7240598d4e2f72a7ac64d6ffe790c",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299100",
+    "pregunta": "Counter-Strike: 9z vs Natus Vincere - Map 1 Winner",
+    "ts": "2026-10-05T07:43:44.144092",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299090",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN - Map 2 Winner",
+    "ts": "2026-10-05T07:43:45.222016",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
     "whale_signal": "COMPRAR NO"
   }
 ]
