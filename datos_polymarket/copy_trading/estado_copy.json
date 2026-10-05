@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1561.55,
-  "capital_en_riesgo": 454.34,
-  "n_ciclos": 39511,
-  "ultima_corrida": "2026-10-05 08:16",
-  "n_tp": 803,
+  "capital_actual": 1621.76,
+  "capital_en_riesgo": 429.34,
+  "n_ciclos": 39512,
+  "ultima_corrida": "2026-10-05 08:25",
+  "n_tp": 804,
   "n_sl": 547,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 5.73,
-    "capital_en_riesgo": 59.66,
+    "capital_actual": 14.09,
+    "capital_en_riesgo": 55.87,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 306,
+    "n_tp": 307,
     "n_sl": 220,
     "posiciones_abiertas": [
       {
@@ -71,7 +71,7 @@
         "pregunta": "Will Anthropic have the highest IPO Market Cap 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.5665,
-        "precio_actual": 0.5375,
+        "precio_actual": 0.538,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -111,7 +111,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.453,
-        "precio_actual": 0.483,
+        "precio_actual": 0.481,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -211,7 +211,7 @@
         "pregunta": "Will Bitcoin dip to $77,500 in October?",
         "outcome": "No",
         "precio_token_entrada": 0.755,
-        "precio_actual": 0.735,
+        "precio_actual": 0.745,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xd8b12f94075bec84dce9221add1268d20a4b220cc512ececb22d6923dce8431f"
-      },
-      {
-        "fecha_entrada": "2026-10-05",
-        "fecha_entrada_dt": "2026-10-05 07:23",
-        "target_wallet": "0xd6043fb053a1a688ee9c9625249ba0d58b66bd53",
-        "market_id": "5299090",
-        "condition_id": "0x03ad48211570a94d6aeca2774decffd15ca07c3ff4e57cb5ce822d1fea2b3f3e",
-        "token_id": "99804967765567983963172854007707431429957999732466518215711696023497179715337",
-        "pregunta": "Counter-Strike: Legacy vs 1WIN - Map 2 Winner",
-        "outcome": "1WIN",
-        "precio_token_entrada": 0.415,
-        "precio_actual": 0.645,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.79,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xbf834fd6e6ef69fff875c6ce55f31e6835acc34817aa7aaadb9ef0b198286070"
       }
     ],
     "historial_cerradas": [
@@ -10902,6 +10882,26 @@
         "pnl_realizado": 3.76,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x53f30c4151bd4af83c30200a8135eb8d3952f7df8048fa56c37c16a2fa71ef6c"
+      },
+      {
+        "fecha_entrada": "2026-10-05",
+        "fecha_entrada_dt": "2026-10-05 07:23",
+        "target_wallet": "0xd6043fb053a1a688ee9c9625249ba0d58b66bd53",
+        "market_id": "5299090",
+        "condition_id": "0x03ad48211570a94d6aeca2774decffd15ca07c3ff4e57cb5ce822d1fea2b3f3e",
+        "token_id": "99804967765567983963172854007707431429957999732466518215711696023497179715337",
+        "pregunta": "Counter-Strike: Legacy vs 1WIN - Map 2 Winner",
+        "outcome": "1WIN",
+        "precio_token_entrada": 0.415,
+        "precio_actual": 0.915,
+        "precio_cierre": 0.915,
+        "pct_cambio": 1.2048,
+        "monto_usdc": 3.79,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-05 08:25",
+        "pnl_realizado": 4.57,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0xbf834fd6e6ef69fff875c6ce55f31e6835acc34817aa7aaadb9ef0b198286070"
       }
     ]
   }
