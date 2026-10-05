@@ -1,10 +1,18 @@
 [
   {
-    "id": "4839635",
-    "pregunta": "Costa Rica vs. Haiti: O/U 2.5",
-    "ts": "2026-10-04T19:04:07.111187",
+    "id": "3875134",
+    "pregunta": "Spread: Lions (-4.5)",
+    "ts": "2026-10-04T19:13:20.677384",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x32ea2b9da53bd9d7128f4b6df542c33b1ba9105d",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3875152",
+    "pregunta": "Lions vs. Panthers: O/U 50.5",
+    "ts": "2026-10-04T19:13:21.746866",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
