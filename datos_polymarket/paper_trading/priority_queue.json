@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4337898",
+    "pregunta": "Golden Knights vs. Canucks",
+    "ts": "2026-10-04T22:32:48.467683",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f16a66df16a707334d89704631338ae7a770246",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3871436",
+    "pregunta": "Lions vs. Panthers",
+    "ts": "2026-10-04T22:32:50.632080",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f16a66df16a707334d89704631338ae7a770246",
+    "whale_signal": "COMPRAR NO"
+  }
+]
