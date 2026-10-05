@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5299090",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN - Map 2 Winner",
+    "ts": "2026-10-05T08:15:11.237553",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299091",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T08:15:12.309128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299122",
+    "pregunta": "Counter-Strike: Spirit vs MOUZ - Map 1 Winner",
+    "ts": "2026-10-05T08:15:13.404076",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299123",
+    "pregunta": "Counter-Strike: Spirit vs MOUZ - Map 2 Winner",
+    "ts": "2026-10-05T08:15:14.492639",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  }
+]
