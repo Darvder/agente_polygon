@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5201202",
+    "pregunta": "Spread: Warriors (-2.5)",
+    "ts": "2026-10-04T19:52:57.194970",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5059648",
+    "pregunta": "Warriors vs. Clippers",
+    "ts": "2026-10-04T19:52:58.280043",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
