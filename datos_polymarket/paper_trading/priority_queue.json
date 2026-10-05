@@ -1,74 +1,18 @@
 [
   {
-    "id": "5275170",
-    "pregunta": "Suzhou: Ruien Zhang vs Tatiana Prozorova",
-    "ts": "2026-10-05T01:43:32.951706",
+    "id": "5239708",
+    "pregunta": "China Open: Marie Bouzkova vs Qinwen Zheng",
+    "ts": "2026-10-05T01:54:03.442884",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xae093968fc73edf7736d2224892a28dbbe1f4d75",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5276774",
-    "pregunta": "Shanghai Rolex Masters, Qualification: Linang Xiao vs Federico Cina",
-    "ts": "2026-10-05T01:43:34.733919",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5276778",
-    "pregunta": "Shanghai Rolex Masters, Qualification: Taro Daniel vs Shintaro Mochizuki",
-    "ts": "2026-10-05T01:43:42.486166",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5276786",
-    "pregunta": "Shanghai Rolex Masters, Qualification: Andre Ilagan vs Nikoloz Basilashvili",
-    "ts": "2026-10-05T01:43:43.522959",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5259066",
-    "pregunta": "Wuning 3: Sergey Fomin vs Timofei Derepasko",
-    "ts": "2026-10-05T01:43:44.563300",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5277327",
-    "pregunta": "Atmane vs. Tomic: Match O/U 22.5",
-    "ts": "2026-10-05T01:43:45.602187",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_wallet": "0xcad22bcc3c5f2e35f12313d968fd413f376bf315",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5276795",
     "pregunta": "Shanghai Rolex Masters, Qualification: Chun-Hsin Tseng vs Nicolas Mejia",
-    "ts": "2026-10-05T01:43:46.645483",
+    "ts": "2026-10-05T01:54:09.743167",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5277341",
-    "pregunta": "Set 1 Winner: Chun-Hsin Tseng vs Nicolas Mejia",
-    "ts": "2026-10-05T01:43:47.715883",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5259051",
-    "pregunta": "Wuning 3: Beibit Zhukayev vs Yaroslav Demin",
-    "ts": "2026-10-05T01:43:48.754238",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_wallet": "0xb58085c02bf7ecd1c26bddce36fdd177f2e09b95",
     "whale_signal": "COMPRAR NO"
   }
 ]
