@@ -1,42 +1,74 @@
 [
   {
-    "id": "5276822",
-    "pregunta": "Japan Open Tennis Championships: Jiri Lehecka vs Valentin Vacherot",
-    "ts": "2026-10-05T05:53:43.872934",
+    "id": "5180960",
+    "pregunta": "World Championship of Legends: Australia Champions vs Pakistan Champions",
+    "ts": "2026-10-05T06:05:32.353535",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3193feb60a841edb0e2034c2018cbe2fbae9ed9e",
+    "whale_wallet": "0xc9c7b2f764e48292589f4275c5d84fe596f9007d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4835355",
+    "pregunta": "Will Sweden win on 2026-10-05?",
+    "ts": "2026-10-05T06:05:34.263866",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233644",
+    "pregunta": "Game Handicap: JDG (-1.5) vs Shopify Rebellion (+1.5)",
+    "ts": "2026-10-05T06:05:35.328960",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5175495",
+    "pregunta": "Chicago White Sox vs. Cleveland Guardians",
+    "ts": "2026-10-05T06:05:36.386392",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5233640",
     "pregunta": "LoL: Shopify Rebellion vs JD Gaming - Game 1 Winner",
-    "ts": "2026-10-05T05:53:45.597766",
+    "ts": "2026-10-05T06:05:37.447567",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5203671",
-    "pregunta": "Will Kenya win on 2026-10-05?",
-    "ts": "2026-10-05T05:53:47.524739",
+    "id": "5276810",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Martin Damm vs Pavel Kotov",
+    "ts": "2026-10-05T06:05:43.711807",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0e352a8ea986d5ca5614b0dc844dae3fa80c760",
+    "whale_wallet": "0xd46e2bf5fbf2349351611e071d696eaa8910d10d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4809764",
-    "pregunta": "Games Total: O/U 3.5",
-    "ts": "2026-10-05T05:53:48.566157",
+    "id": "5299079",
+    "pregunta": "Counter-Strike: ShindeN vs G2 - Map 2 Winner",
+    "ts": "2026-10-05T06:05:46.821644",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0e352a8ea986d5ca5614b0dc844dae3fa80c760",
+    "whale_wallet": "0xd46e2bf5fbf2349351611e071d696eaa8910d10d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4838710",
-    "pregunta": "Will Tajikistan win on 2026-10-06?",
-    "ts": "2026-10-05T05:53:49.686562",
+    "id": "5299068",
+    "pregunta": "Counter-Strike: PARIVISION vs FURIA - Map 2 Winner",
+    "ts": "2026-10-05T06:05:47.856737",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0e352a8ea986d5ca5614b0dc844dae3fa80c760",
+    "whale_wallet": "0xd46e2bf5fbf2349351611e071d696eaa8910d10d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299069",
+    "pregunta": "Counter-Strike: PARIVISION vs FURIA (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T06:05:49.929929",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd46e2bf5fbf2349351611e071d696eaa8910d10d",
     "whale_signal": "COMPRAR NO"
   }
 ]
