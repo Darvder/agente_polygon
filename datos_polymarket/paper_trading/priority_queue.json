@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5170739",
+    "pregunta": "Will Bitcoin dip to $77,500 in October?",
+    "ts": "2026-10-04T20:23:15.372885",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
