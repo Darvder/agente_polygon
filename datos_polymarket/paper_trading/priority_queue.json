@@ -1,26 +1,18 @@
 [
   {
-    "id": "5276802",
-    "pregunta": "Shanghai Rolex Masters, Qualification: Terence Atmane vs Bernard Tomic",
-    "ts": "2026-10-05T03:23:59.553706",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf12f7688a0bc8cc744ef871f70b74c16a976b30f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5228449",
-    "pregunta": "China Open: Belinda Bencic vs Ann Li",
-    "ts": "2026-10-05T03:24:01.739728",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf12f7688a0bc8cc744ef871f70b74c16a976b30f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5233617",
     "pregunta": "LoL: GAM Esports vs Team Vitality - Game 1 Winner",
-    "ts": "2026-10-05T03:24:06.807218",
+    "ts": "2026-10-05T03:33:11.529606",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27652a77c32ca02a36243c8261481d879a826a38",
+    "whale_wallet": "0x9a01eab1e0079ccbf898104be414eac4a8db24d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5276764",
+    "pregunta": "Japan Open Tennis Championships: Carlos Alcaraz vs Jaume Munar",
+    "ts": "2026-10-05T03:33:16.594065",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb58085c02bf7ecd1c26bddce36fdd177f2e09b95",
     "whale_signal": "COMPRAR NO"
   }
 ]
