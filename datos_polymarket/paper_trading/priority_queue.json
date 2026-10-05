@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "3871436",
+    "pregunta": "Lions vs. Panthers",
+    "ts": "2026-10-04T22:53:45.913736",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x528ff0b0cc2c8228721b30828ea574aba54e2101",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5238415",
+    "pregunta": "Spread: Golden Knights (-1.5)",
+    "ts": "2026-10-04T22:53:47.032808",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x528ff0b0cc2c8228721b30828ea574aba54e2101",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5228866",
+    "pregunta": "Set Handicap: Iga Swiatek (-1.5) vs Donna Vekic (+1.5)",
+    "ts": "2026-10-04T22:53:48.198085",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x528ff0b0cc2c8228721b30828ea574aba54e2101",
+    "whale_signal": "COMPRAR NO"
+  }
+]
