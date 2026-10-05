@@ -1,26 +1,18 @@
 [
   {
-    "id": "5175495",
-    "pregunta": "Chicago White Sox vs. Cleveland Guardians",
-    "ts": "2026-10-05T14:52:52.940050",
+    "id": "608547",
+    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "ts": "2026-10-05T15:37:58.774880",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdaef2be2a19ad331737d06545f85615b094554e9",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4835315",
-    "pregunta": "Will Italy win on 2026-10-05?",
-    "ts": "2026-10-05T14:52:54.667552",
+    "id": "5105821",
+    "pregunta": "Knicks vs. 76ers",
+    "ts": "2026-10-05T15:37:59.809861",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4835310",
-    "pregunta": "Will Belgium win on 2026-10-05?",
-    "ts": "2026-10-05T14:52:55.722585",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
