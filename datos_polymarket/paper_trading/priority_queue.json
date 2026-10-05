@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "5073574",
+    "pregunta": "Will Chile win on 2026-10-05?",
+    "ts": "2026-10-05T16:34:25.001874",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4883355",
+    "pregunta": "Will Guatemala win on 2026-10-05?",
+    "ts": "2026-10-05T16:34:26.095479",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073572",
+    "pregunta": "Will Mexico win on 2026-10-05?",
+    "ts": "2026-10-05T16:34:27.174281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877193",
+    "pregunta": "Will Spain win on 2026-10-06?",
+    "ts": "2026-10-05T16:34:28.269709",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4366696",
+    "pregunta": "Jets vs. Penguins: O/U 6.5",
+    "ts": "2026-10-05T16:34:29.358217",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073573",
+    "pregunta": "Will Mexico vs. Chile end in a draw?",
+    "ts": "2026-10-05T16:34:30.451556",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
