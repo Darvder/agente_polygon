@@ -1,26 +1,34 @@
 [
   {
-    "id": "5081787",
-    "pregunta": "Will the price of Bitcoin be above $86,000 on October 5?",
-    "ts": "2026-10-05T09:44:39.683944",
+    "id": "5299113",
+    "pregunta": "Counter-Strike: M80 vs TYLOO (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T09:53:58.292057",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5269646",
-    "pregunta": "Dota 2: LEGION vs Blasterbl - Game 1 Winner",
-    "ts": "2026-10-05T09:44:50.250248",
+    "id": "5299122",
+    "pregunta": "Counter-Strike: Spirit vs MOUZ - Map 1 Winner",
+    "ts": "2026-10-05T09:54:02.339939",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb26fa000b3b281ba582bebc3457e12f0b8219536",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5278887",
     "pregunta": "Counter-Strike: STATE vs Vitality Academy - Map 2 Winner",
-    "ts": "2026-10-05T09:44:52.287295",
+    "ts": "2026-10-05T09:54:04.644654",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0cc3138207958914c03c995e2f06566267777021",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "666659",
+    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
+    "ts": "2026-10-05T09:54:06.580132",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x217ab24700da222475b51c720d4e92fb61e086db",
     "whale_signal": "COMPRAR NO"
   }
 ]
