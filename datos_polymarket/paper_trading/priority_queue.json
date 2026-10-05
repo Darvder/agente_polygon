@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5299122",
+    "pregunta": "Counter-Strike: Spirit vs MOUZ - Map 1 Winner",
+    "ts": "2026-10-05T09:32:58.945112",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05625ca25b4b289f3be889fecc9f160a6f0118a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299113",
+    "pregunta": "Counter-Strike: M80 vs TYLOO (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T09:33:00.943569",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x04fbd55b0626add23661c448710a0194fcd25968",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299112",
+    "pregunta": "Counter-Strike: M80 vs TYLOO - Map 2 Winner",
+    "ts": "2026-10-05T09:33:02.041017",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x04fbd55b0626add23661c448710a0194fcd25968",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299111",
+    "pregunta": "Counter-Strike: M80 vs TYLOO - Map 1 Winner",
+    "ts": "2026-10-05T09:33:05.858175",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdfb2d6bda19b61dcd8fce46a0590999db2bec37c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
