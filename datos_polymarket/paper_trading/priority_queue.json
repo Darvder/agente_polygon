@@ -1,10 +1,66 @@
 [
   {
-    "id": "5239708",
-    "pregunta": "China Open: Marie Bouzkova vs Qinwen Zheng",
-    "ts": "2026-10-05T03:03:31.899216",
+    "id": "5228451",
+    "pregunta": "China Open: Jelena Ostapenko vs Elise Mertens",
+    "ts": "2026-10-05T03:13:14.968230",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x492bb408693470df7d031ef48f3a5466055b45ee",
+    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5228455",
+    "pregunta": "China Open: Maria Sakkari vs Elina Svitolina",
+    "ts": "2026-10-05T03:13:16.110816",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5239702",
+    "pregunta": "China Open: Alina Charaeva vs Sonay Kartal",
+    "ts": "2026-10-05T03:13:20.484773",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233617",
+    "pregunta": "LoL: GAM Esports vs Team Vitality - Game 1 Winner",
+    "ts": "2026-10-05T03:13:23.715109",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233621",
+    "pregunta": "Game Handicap: VIT (-1.5) vs GAM Esports (+1.5)",
+    "ts": "2026-10-05T03:13:24.805487",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5233618",
+    "pregunta": "LoL: GAM Esports vs Team Vitality - Game 2 Winner",
+    "ts": "2026-10-05T03:13:26.090012",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5276802",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Terence Atmane vs Bernard Tomic",
+    "ts": "2026-10-05T03:13:28.196648",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb58085c02bf7ecd1c26bddce36fdd177f2e09b95",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5276793",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Michael Zheng vs Federico Agustin Gomez",
+    "ts": "2026-10-05T03:13:32.574601",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb58085c02bf7ecd1c26bddce36fdd177f2e09b95",
     "whale_signal": "COMPRAR NO"
   }
 ]
