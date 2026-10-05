@@ -1,34 +1,26 @@
 [
   {
+    "id": "4988400",
+    "pregunta": "Will Sporting CP win on 2026-10-09?",
+    "ts": "2026-10-05T13:47:55.286792",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "601819",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-05T13:47:57.089737",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5299134",
     "pregunta": "Counter-Strike: Aurora Gaming vs BetBoom Team - Map 2 Winner",
-    "ts": "2026-10-05T13:32:46.775233",
+    "ts": "2026-10-05T13:47:59.140528",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4131264e0cfa60b1e8d994551d29ee5f9806c4a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4835330",
-    "pregunta": "Will Hungary win on 2026-10-05?",
-    "ts": "2026-10-05T13:32:48.840231",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb31b2635897c82f80b64921ae0082dff8fdfedca",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4835326",
-    "pregunta": "Will Ukraine win on 2026-10-05?",
-    "ts": "2026-10-05T13:32:49.939642",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb31b2635897c82f80b64921ae0082dff8fdfedca",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5299135",
-    "pregunta": "Counter-Strike: Aurora Gaming vs BetBoom Team (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-05T13:32:51.858214",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xeaf167210152cab1730f507003927b54416a09b7",
+    "whale_wallet": "0x0b5a14b1c2f547cfd238b1123d228562f5721457",
     "whale_signal": "COMPRAR NO"
   }
 ]
