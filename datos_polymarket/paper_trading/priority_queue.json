@@ -1,34 +1,74 @@
 [
   {
-    "id": "5299113",
-    "pregunta": "Counter-Strike: M80 vs TYLOO (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-05T09:53:58.292057",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5299122",
     "pregunta": "Counter-Strike: Spirit vs MOUZ - Map 1 Winner",
-    "ts": "2026-10-05T09:54:02.339939",
+    "ts": "2026-10-05T10:03:25.073446",
     "origen": "whale_copytrader",
     "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5278887",
-    "pregunta": "Counter-Strike: STATE vs Vitality Academy - Map 2 Winner",
-    "ts": "2026-10-05T09:54:04.644654",
+    "id": "5239706",
+    "pregunta": "China Open: Coco Gauff vs Xinran Sun",
+    "ts": "2026-10-05T10:03:28.010472",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0xb5db6abf19904c4f18daa9bcd753edb99b1f5800",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "666659",
-    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
-    "ts": "2026-10-05T09:54:06.580132",
+    "id": "561231",
+    "pregunta": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+    "ts": "2026-10-05T10:03:29.859981",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x217ab24700da222475b51c720d4e92fb61e086db",
+    "whale_wallet": "0xf4ef5a8424f42aebf5bfbd65f7ace3aa8d016e2f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299123",
+    "pregunta": "Counter-Strike: Spirit vs MOUZ - Map 2 Winner",
+    "ts": "2026-10-05T10:03:31.599803",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299113",
+    "pregunta": "Counter-Strike: M80 vs TYLOO (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T10:03:32.661255",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5307900",
+    "pregunta": "Counter-Strike: Gothic vs MOUZ NXT (BO3) - NODWIN Clutch Series Play-In Group B",
+    "ts": "2026-10-05T10:03:33.709345",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5307899",
+    "pregunta": "Counter-Strike: Gothic vs MOUZ NXT - Map 2 Winner",
+    "ts": "2026-10-05T10:03:34.903245",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5307898",
+    "pregunta": "Counter-Strike: Gothic vs MOUZ NXT - Map 1 Winner",
+    "ts": "2026-10-05T10:03:36.078610",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299124",
+    "pregunta": "Counter-Strike: Spirit vs MOUZ (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T10:03:37.125094",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85",
     "whale_signal": "COMPRAR NO"
   }
 ]
