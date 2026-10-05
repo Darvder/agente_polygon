@@ -1,10 +1,26 @@
 [
   {
-    "id": "5299102",
-    "pregunta": "Counter-Strike: 9z vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-05T07:14:15.335367",
+    "id": "5299069",
+    "pregunta": "Counter-Strike: PARIVISION vs FURIA (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-05T07:23:17.568745",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0fd0ee57696ec75f14cafc0f5cb3a2ef9beb4a43",
+    "whale_wallet": "0xbfe3908d7fc06d489202be1bda6ee7589392ed7f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299090",
+    "pregunta": "Counter-Strike: Legacy vs 1WIN - Map 2 Winner",
+    "ts": "2026-10-05T07:23:20.433582",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd6043fb053a1a688ee9c9625249ba0d58b66bd53",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299100",
+    "pregunta": "Counter-Strike: 9z vs Natus Vincere - Map 1 Winner",
+    "ts": "2026-10-05T07:23:22.323633",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xea7b7dd812b017b7f64667895593cc7f6fc9cbcc",
     "whale_signal": "COMPRAR NO"
   }
 ]
