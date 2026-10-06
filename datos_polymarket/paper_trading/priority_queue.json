@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4878347",
+    "pregunta": "Moldova vs. Slovakia: 1st Half O/U 1.5",
+    "ts": "2026-10-06T14:27:43.808936",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8191c793fd7edbadf0fae651f55c1da3b638da72",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4878158",
+    "pregunta": "Switzerland vs. North Macedonia: 1st Half O/U 0.5",
+    "ts": "2026-10-06T14:27:44.920113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8191c793fd7edbadf0fae651f55c1da3b638da72",
+    "whale_signal": "COMPRAR NO"
+  }
+]
