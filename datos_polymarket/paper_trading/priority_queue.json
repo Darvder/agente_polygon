@@ -1,26 +1,10 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-10-06T02:53:52.195454",
+    "id": "5306882",
+    "pregunta": "China Open: Karolina Muchova vs Naomi Osaka",
+    "ts": "2026-10-06T03:05:30.499706",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-10-06T02:53:53.245469",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "629030",
-    "pregunta": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-    "ts": "2026-10-06T02:53:54.293637",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x39aaed185b92e99a78249610cc14a589b764583c",
+    "whale_wallet": "0x492bb408693470df7d031ef48f3a5466055b45ee",
     "whale_signal": "COMPRAR NO"
   }
 ]
