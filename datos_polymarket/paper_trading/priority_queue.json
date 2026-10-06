@@ -1,26 +1,18 @@
 [
   {
-    "id": "5170733",
-    "pregunta": "Will Bitcoin reach $92,500 in October?",
-    "ts": "2026-10-05T21:24:50.279692",
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-10-05T21:33:36.271160",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5349021",
-    "pregunta": "Spread: Senators (-3.5)",
-    "ts": "2026-10-05T21:24:52.710691",
+    "id": "5203712",
+    "pregunta": "Los Angeles Dodgers vs. Atlanta Braves",
+    "ts": "2026-10-05T21:33:37.419972",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x615d8bd712792b71e16b3fffc3e444ca13fdab9a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4366714",
-    "pregunta": "Sharks vs. Stars: O/U 4.5",
-    "ts": "2026-10-05T21:24:53.863766",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x615d8bd712792b71e16b3fffc3e444ca13fdab9a",
+    "whale_wallet": "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933",
     "whale_signal": "COMPRAR NO"
   }
 ]
