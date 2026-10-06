@@ -1,10 +1,26 @@
 [
   {
-    "id": "4877193",
-    "pregunta": "Will Spain win on 2026-10-06?",
-    "ts": "2026-10-06T11:53:22.460674",
+    "id": "5342727",
+    "pregunta": "Counter-Strike: FURIA vs Aurora Gaming - Map 2 Winner",
+    "ts": "2026-10-06T12:05:02.873029",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342720",
+    "pregunta": "Counter-Strike: Butterfly vs ex-RUSTEC (BO3) - CCT Europe Series #10 Group Stage",
+    "ts": "2026-10-06T12:05:03.939710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342756",
+    "pregunta": "Counter-Strike: Legacy vs M80 - Map 1 Winner",
+    "ts": "2026-10-06T12:05:05.045138",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   }
 ]
