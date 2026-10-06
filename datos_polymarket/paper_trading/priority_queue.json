@@ -2,7 +2,7 @@
   {
     "id": "5320299",
     "pregunta": "Shanghai Rolex Masters, Qualification: Liam Draxl vs Nikoloz Basilashvili",
-    "ts": "2026-10-06T00:42:29.073674",
+    "ts": "2026-10-06T00:53:45.102997",
     "origen": "whale_copytrader",
     "whale_wallet": "0x7750cdd6207bda401911ad3657253af46491a3f3",
     "whale_signal": "COMPRAR NO"
@@ -10,25 +10,33 @@
   {
     "id": "5275182",
     "pregunta": "Suzhou: Hanyu Guo vs Aliona Falei",
-    "ts": "2026-10-06T00:42:30.983262",
+    "ts": "2026-10-06T00:53:46.747498",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xae5123e8a2f7125e9479d5916b37b7274ab61d03",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5330817",
-    "pregunta": "Suzhou: Han Shi vs Renata Zarazua",
-    "ts": "2026-10-06T00:42:32.140445",
+    "id": "5320301",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Aziz Dougaz vs Federico Cina",
+    "ts": "2026-10-06T00:53:47.788032",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xae5123e8a2f7125e9479d5916b37b7274ab61d03",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5275715",
-    "pregunta": "Set 1 Winner: Linda Noskova vs Ekaterina Alexandrova",
-    "ts": "2026-10-06T00:42:33.230595",
+    "id": "4878156",
+    "pregunta": "Switzerland vs. North Macedonia: Both Teams to Score",
+    "ts": "2026-10-06T00:53:48.826730",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xae5123e8a2f7125e9479d5916b37b7274ab61d03",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5324253",
+    "pregunta": "Game Spread: Ilia Simakin (-4.5) vs Rigele Te (+4.5)",
+    "ts": "2026-10-06T00:53:50.765791",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0dc7ee1f7a230a1a20163271717f8f8752b586c",
     "whale_signal": "COMPRAR NO"
   }
 ]
