@@ -1,34 +1,58 @@
 [
   {
-    "id": "5339814",
-    "pregunta": "Dota 2: Team Synapse vs Yellow Submarine - Game 2 Winner",
-    "ts": "2026-10-06T12:54:37.538538",
+    "id": "601819",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-06T13:04:35.191092",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce8250076efd967c08495dadaff84220e50a03d3",
+    "whale_wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5347240",
-    "pregunta": "Dota 2: LEGION vs MOUZ - Game 1 Winner",
-    "ts": "2026-10-06T12:54:38.591348",
+    "id": "5342760",
+    "pregunta": "Map Handicap: LGC (-1.5) vs M80 (+1.5)",
+    "ts": "2026-10-06T13:04:37.314360",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce8250076efd967c08495dadaff84220e50a03d3",
+    "whale_wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4878169",
-    "pregunta": "Switzerland vs. North Macedonia: North Macedonia O/U 0.5",
-    "ts": "2026-10-06T12:54:40.475772",
+    "id": "5342728",
+    "pregunta": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-06T13:04:39.320703",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xeaa285900c9df3b5c22dd4ec9d595d29bb24670e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4877899",
-    "pregunta": "Spread: England (-2.5)",
-    "ts": "2026-10-06T12:54:41.526288",
+    "id": "5342727",
+    "pregunta": "Counter-Strike: FURIA vs Aurora Gaming - Map 2 Winner",
+    "ts": "2026-10-06T13:04:41.596989",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342758",
+    "pregunta": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-06T13:04:42.694065",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5336695",
+    "pregunta": "LoL: \u2060Movistar KOI F\u00e9nix vs Frites Esports Club - Game 3 Winner",
+    "ts": "2026-10-06T13:04:43.754417",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342757",
+    "pregunta": "Counter-Strike: Legacy vs M80 - Map 2 Winner",
+    "ts": "2026-10-06T13:04:44.820386",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
