@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5275188",
+    "pregunta": "Suzhou: Moyuka Uchijima vs Zhuoxuan Bai",
+    "ts": "2026-10-05T22:33:25.796106",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x096bbeb8b91bcb722048d8db8a32b1576a827676",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342741",
+    "pregunta": "Map Handicap: BB (-1.5) vs 9z (+1.5)",
+    "ts": "2026-10-05T22:33:27.741897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x99e42eb9038705165b22f821e27659c1dc41e4c4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
