@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5350761",
+    "pregunta": "LoL: Estral Esports vs KaBuM! Ilha das Lendas - Game 1 Winner",
+    "ts": "2026-10-06T17:53:39.120063",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a3fb8c5ad2af4c621b2138d9579410343976712",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4907636",
+    "pregunta": "Montserrat vs. Turks and Caicos Islands: O/U 2.5",
+    "ts": "2026-10-06T17:53:40.174087",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a3fb8c5ad2af4c621b2138d9579410343976712",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4907518",
+    "pregunta": "St. Vincent and the Grenadines vs. Sint Maarten: O/U 4.5",
+    "ts": "2026-10-06T17:53:41.239606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a3fb8c5ad2af4c621b2138d9579410343976712",
+    "whale_signal": "COMPRAR NO"
+  }
+]
