@@ -1,18 +1,26 @@
 [
   {
-    "id": "1393319",
-    "pregunta": "Predict.fun FDV above $300M one day after launch?",
-    "ts": "2026-10-05T21:43:05.962407",
+    "id": "3919372",
+    "pregunta": "Falcons vs. Saints: O/U 54.5",
+    "ts": "2026-10-05T21:53:33.792862",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa2fc0448a1dce9258ebb91b2f3abcddb98a0b1b4",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5118964",
-    "pregunta": "Lakers vs. Kings",
-    "ts": "2026-10-05T21:43:08.063849",
+    "id": "5262854",
+    "pregunta": "New York Yankees vs. Tampa Bay Rays: O/U 6.5",
+    "ts": "2026-10-05T21:53:34.833519",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x35a95bff71c361ad62c54caccb1c92ebd2a69291",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919373",
+    "pregunta": "Falcons vs. Saints: O/U 56.5",
+    "ts": "2026-10-05T21:53:35.871476",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
