@@ -1,10 +1,18 @@
 [
   {
+    "id": "5331910",
+    "pregunta": "China Open: Novak Djokovic vs Alex de Minaur",
+    "ts": "2026-10-06T07:13:13.495477",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61e0cb043c88e34d1502139a682c75d286284b62",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5342698",
     "pregunta": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-06T07:04:07.683946",
+    "ts": "2026-10-06T07:13:15.433302",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xda5fff24aa9d889d6366da205029c73093102e9b",
+    "whale_wallet": "0x743c74e807d27efb1c9ae7ea4adc76014e2b294b",
     "whale_signal": "COMPRAR NO"
   }
 ]

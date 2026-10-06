@@ -1,15 +1,15 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1619.22,
-  "capital_en_riesgo": 421.19,
-  "n_ciclos": 39641,
-  "ultima_corrida": "2026-10-06 07:04",
-  "n_tp": 817,
+  "capital_actual": 1620.95,
+  "capital_en_riesgo": 423.67,
+  "n_ciclos": 39642,
+  "ultima_corrida": "2026-10-06 07:14",
+  "n_tp": 818,
   "n_sl": 560,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 17.33,
+    "capital_actual": 17.97,
     "capital_en_riesgo": 57.57,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 320,
+    "n_tp": 321,
     "n_sl": 231,
     "posiciones_abiertas": [
       {
@@ -91,7 +91,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.453,
-        "precio_actual": 0.4805,
+        "precio_actual": 0.481,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -291,7 +291,7 @@
         "pregunta": "Spread: Korea Republic (-1.5)",
         "outcome": "Korea Republic",
         "precio_token_entrada": 0.325,
-        "precio_actual": 0.39,
+        "precio_actual": 0.465,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.45,
@@ -311,7 +311,7 @@
         "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
         "outcome": "No",
         "precio_token_entrada": 0.751,
-        "precio_actual": 0.7355,
+        "precio_actual": 0.7365,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -343,15 +343,15 @@
       },
       {
         "fecha_entrada": "2026-10-06",
-        "fecha_entrada_dt": "2026-10-06 06:13",
-        "target_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-        "market_id": "5331893",
-        "condition_id": "0xf3095152abbb2512bfe1a73c238e55c8f831e3c38854d5d44b348289ba420f82",
-        "token_id": "67799579021802882576143799823568255558376864689091665001157377642802436697429",
-        "pregunta": "Shanghai Rolex Masters, Qualification: Pavel Kotov vs Aleksandar Vukic",
-        "outcome": "Pavel Kotov",
-        "precio_token_entrada": 0.825,
-        "precio_actual": 0.9995,
+        "fecha_entrada_dt": "2026-10-06 07:13",
+        "target_wallet": "0x61e0cb043c88e34d1502139a682c75d286284b62",
+        "market_id": "5331910",
+        "condition_id": "0xe493156bbf7abade85f7f021c9e534cd159eeeef628e9c7c2b58991c73c983b9",
+        "token_id": "59315189812085618981292370309863825218544678404957028867438457097679338836208",
+        "pregunta": "China Open: Novak Djokovic vs Alex de Minaur",
+        "outcome": "Novak Djokovic",
+        "precio_token_entrada": 0.615,
+        "precio_actual": 0.615,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -359,7 +359,7 @@
         "fecha_cierre_real": "",
         "pnl_realizado": 0.0,
         "razon_cierre": "",
-        "tx_hash": "0x04589d1e41bf6fd8e40e34d8b2e92de14d4a8e3cc317615c50f9a2f5fd6d2284"
+        "tx_hash": "0x0ce946bc0195462f19c8d83e2ed8f681959e9f6475fa6f62d4359cb584e5b838"
       }
     ],
     "historial_cerradas": [
@@ -11382,6 +11382,26 @@
         "pnl_realizado": -2.51,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x84bdd976aa90c3a792348e41b5357cb723fe2682fcad57cb70ddd7a5bd0c6158"
+      },
+      {
+        "fecha_entrada": "2026-10-06",
+        "fecha_entrada_dt": "2026-10-06 06:13",
+        "target_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+        "market_id": "5331893",
+        "condition_id": "0xf3095152abbb2512bfe1a73c238e55c8f831e3c38854d5d44b348289ba420f82",
+        "token_id": "67799579021802882576143799823568255558376864689091665001157377642802436697429",
+        "pregunta": "Shanghai Rolex Masters, Qualification: Pavel Kotov vs Aleksandar Vukic",
+        "outcome": "Pavel Kotov",
+        "precio_token_entrada": 0.825,
+        "precio_actual": 1.0,
+        "precio_cierre": 1.0,
+        "pct_cambio": 0.2121,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-06 07:14",
+        "pnl_realizado": 0.64,
+        "razon_cierre": "RESOLVED_EXIT",
+        "tx_hash": "0x04589d1e41bf6fd8e40e34d8b2e92de14d4a8e3cc317615c50f9a2f5fd6d2284"
       }
     ]
   }
