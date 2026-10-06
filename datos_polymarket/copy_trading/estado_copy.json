@@ -2,15 +2,15 @@
   "capital_inicial": 1000.0,
   "capital_actual": 1674.5,
   "capital_en_riesgo": 416.63,
-  "n_ciclos": 39604,
-  "ultima_corrida": "2026-10-06 00:54",
+  "n_ciclos": 39605,
+  "ultima_corrida": "2026-10-06 01:04",
   "n_tp": 816,
   "n_sl": 555,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 20.45,
-    "capital_en_riesgo": 58.57,
+    "capital_actual": 29.13,
+    "capital_en_riesgo": 54.57,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 319,
+    "n_tp": 320,
     "n_sl": 227,
     "posiciones_abiertas": [
       {
@@ -171,7 +171,7 @@
         "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "outcome": "No",
         "precio_token_entrada": 0.174,
-        "precio_actual": 0.1645,
+        "precio_actual": 0.163,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.19,
@@ -340,26 +340,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x3af3060799fc569e3944d275d9b9d62f44ec35d5efa07deb54f55d413eabe537"
-      },
-      {
-        "fecha_entrada": "2026-10-06",
-        "fecha_entrada_dt": "2026-10-06 00:42",
-        "target_wallet": "0x7750cdd6207bda401911ad3657253af46491a3f3",
-        "market_id": "5320299",
-        "condition_id": "0x6951f2c10e6d5046222c8315e45fb4c787eed42434f8667708a7f3f835e43281",
-        "token_id": "77639389782831862751708501868030601862503176201017187042570041339452866373391",
-        "pregunta": "Shanghai Rolex Masters, Qualification: Liam Draxl vs Nikoloz Basilashv",
-        "outcome": "Nikoloz Basilashvili",
-        "precio_token_entrada": 0.265,
-        "precio_actual": 0.22,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x0341acbc3cf8b45ecf1ff3d6d9fb5c5139e2a00457572958def92b287e7094f6"
       }
     ],
     "historial_cerradas": [
@@ -11282,6 +11262,26 @@
         "pnl_realizado": 2.21,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x56376148c2bca046216a20d5da6b31c74f1280e2039e2a0870a89dab60e1050a"
+      },
+      {
+        "fecha_entrada": "2026-10-06",
+        "fecha_entrada_dt": "2026-10-06 00:42",
+        "target_wallet": "0x7750cdd6207bda401911ad3657253af46491a3f3",
+        "market_id": "5320299",
+        "condition_id": "0x6951f2c10e6d5046222c8315e45fb4c787eed42434f8667708a7f3f835e43281",
+        "token_id": "77639389782831862751708501868030601862503176201017187042570041339452866373391",
+        "pregunta": "Shanghai Rolex Masters, Qualification: Liam Draxl vs Nikoloz Basilashv",
+        "outcome": "Nikoloz Basilashvili",
+        "precio_token_entrada": 0.265,
+        "precio_actual": 0.575,
+        "precio_cierre": 0.575,
+        "pct_cambio": 1.1698,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-06 01:04",
+        "pnl_realizado": 4.68,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x0341acbc3cf8b45ecf1ff3d6d9fb5c5139e2a00457572958def92b287e7094f6"
       }
     ]
   }
