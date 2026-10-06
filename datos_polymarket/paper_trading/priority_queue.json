@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5139078",
+    "pregunta": "Spread: Argentina (-3.5)",
+    "ts": "2026-10-06T15:54:02.679873",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1050854d71bde435fb32b0cd6704e7ea7e0c43af",
+    "whale_signal": "COMPRAR NO"
+  }
+]
