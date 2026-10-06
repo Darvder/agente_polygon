@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1678.26,
-  "capital_en_riesgo": 398.67,
-  "n_ciclos": 39644,
-  "ultima_corrida": "2026-10-06 07:34",
-  "n_tp": 819,
+  "capital_actual": 1714.42,
+  "capital_en_riesgo": 376.32,
+  "n_ciclos": 39645,
+  "ultima_corrida": "2026-10-06 07:43",
+  "n_tp": 820,
   "n_sl": 560,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 25.88,
-    "capital_en_riesgo": 54.12,
+    "capital_actual": 30.73,
+    "capital_en_riesgo": 51.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 322,
+    "n_tp": 323,
     "n_sl": 231,
     "posiciones_abiertas": [
       {
@@ -91,7 +91,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.453,
-        "precio_actual": 0.475,
+        "precio_actual": 0.471,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -311,7 +311,7 @@
         "pregunta": "Will Russia and Ukraine hold any diplomatic meeting by October 15, 202",
         "outcome": "No",
         "precio_token_entrada": 0.8,
-        "precio_actual": 0.805,
+        "precio_actual": 0.81,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x2a86700b7957fc93a3d1c00067021fd4516d9dbb117227cc86415579d1b423a7"
-      },
-      {
-        "fecha_entrada": "2026-10-06",
-        "fecha_entrada_dt": "2026-10-06 07:13",
-        "target_wallet": "0x61e0cb043c88e34d1502139a682c75d286284b62",
-        "market_id": "5331910",
-        "condition_id": "0xe493156bbf7abade85f7f021c9e534cd159eeeef628e9c7c2b58991c73c983b9",
-        "token_id": "59315189812085618981292370309863825218544678404957028867438457097679338836208",
-        "pregunta": "China Open: Novak Djokovic vs Alex de Minaur",
-        "outcome": "Novak Djokovic",
-        "precio_token_entrada": 0.615,
-        "precio_actual": 0.775,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x0ce946bc0195462f19c8d83e2ed8f681959e9f6475fa6f62d4359cb584e5b838"
       }
     ],
     "historial_cerradas": [
@@ -11402,6 +11382,26 @@
         "pnl_realizado": 4.46,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x3af3060799fc569e3944d275d9b9d62f44ec35d5efa07deb54f55d413eabe537"
+      },
+      {
+        "fecha_entrada": "2026-10-06",
+        "fecha_entrada_dt": "2026-10-06 07:13",
+        "target_wallet": "0x61e0cb043c88e34d1502139a682c75d286284b62",
+        "market_id": "5331910",
+        "condition_id": "0xe493156bbf7abade85f7f021c9e534cd159eeeef628e9c7c2b58991c73c983b9",
+        "token_id": "59315189812085618981292370309863825218544678404957028867438457097679338836208",
+        "pregunta": "China Open: Novak Djokovic vs Alex de Minaur",
+        "outcome": "Novak Djokovic",
+        "precio_token_entrada": 0.615,
+        "precio_actual": 0.995,
+        "precio_cierre": 0.995,
+        "pct_cambio": 0.6179,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-06 07:43",
+        "pnl_realizado": 1.85,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x0ce946bc0195462f19c8d83e2ed8f681959e9f6475fa6f62d4359cb584e5b838"
       }
     ]
   }
