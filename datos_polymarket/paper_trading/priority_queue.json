@@ -1,18 +1,58 @@
 [
   {
-    "id": "4877135",
-    "pregunta": "Will Bulgaria win on 2026-10-06?",
-    "ts": "2026-10-06T14:33:25.368906",
+    "id": "5311920",
+    "pregunta": "Will Ethereum dip to $2,600 October 5-11?",
+    "ts": "2026-10-06T14:44:58.773206",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77fa47189ddba1eefa3ea7d92a497e370807a23d",
+    "whale_wallet": "0xa98a9d23e7211c22d2259b68b1bc9d47b3013b92",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4877189",
-    "pregunta": "Will Croatia win on 2026-10-06?",
-    "ts": "2026-10-06T14:33:30.631971",
+    "id": "3865960",
+    "pregunta": "Will Bitcoin dip to $70,000 by December 31, 2026?",
+    "ts": "2026-10-06T14:44:59.815532",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9b467dd87e79e280397a6fe734bf2062505cc72",
+    "whale_wallet": "0xa98a9d23e7211c22d2259b68b1bc9d47b3013b92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877193",
+    "pregunta": "Will Spain win on 2026-10-06?",
+    "ts": "2026-10-06T14:45:01.708789",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877191",
+    "pregunta": "Will Croatia vs. Spain end in a draw?",
+    "ts": "2026-10-06T14:45:02.771737",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412201",
+    "pregunta": "Will OpenAI announce another Millennium Prize solution by December 31, 2027?",
+    "ts": "2026-10-06T14:45:04.482882",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5165009",
+    "pregunta": "Gemini 4.0 released by October 10, 2026?",
+    "ts": "2026-10-06T14:45:05.656274",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5084763",
+    "pregunta": "Gemini 4.0 released by October 15, 2026?",
+    "ts": "2026-10-06T14:45:06.726723",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
     "whale_signal": "COMPRAR NO"
   }
 ]
