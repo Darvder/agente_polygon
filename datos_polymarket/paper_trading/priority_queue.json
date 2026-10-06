@@ -1,10 +1,18 @@
 [
   {
-    "id": "5154331",
-    "pregunta": "KBO: KT Wiz vs. Kiwoom Heroes",
-    "ts": "2026-10-06T01:53:33.668171",
+    "id": "1235572",
+    "pregunta": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "ts": "2026-10-06T02:04:16.415453",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb8c4482802bbc9256926cde54b3daa03ee8e7385",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5323911",
+    "pregunta": "LoL: JD Gaming vs LGD Gaming - Game 1 Winner",
+    "ts": "2026-10-06T02:04:17.637928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
     "whale_signal": "COMPRAR NO"
   }
 ]
