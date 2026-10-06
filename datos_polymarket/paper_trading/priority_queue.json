@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5355784",
+    "pregunta": "Lakers vs. Kings: O/U 227.5",
+    "ts": "2026-10-05T23:44:04.372755",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70dc005e4abe3a4f66d80686372535219fe11dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5273135",
+    "pregunta": "Lakers vs. Kings: O/U 229.5",
+    "ts": "2026-10-05T23:44:05.534050",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70dc005e4abe3a4f66d80686372535219fe11dfd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5323862",
+    "pregunta": "LoL: HANJIN BRION vs Natus Vincere - Game 1 Winner",
+    "ts": "2026-10-05T23:44:06.581819",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70dc005e4abe3a4f66d80686372535219fe11dfd",
+    "whale_signal": "COMPRAR NO"
+  }
+]
