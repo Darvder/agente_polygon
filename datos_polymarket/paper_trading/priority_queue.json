@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3871438",
+    "pregunta": "Falcons vs. Saints",
+    "ts": "2026-10-05T20:44:17.740209",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3919375",
+    "pregunta": "Falcons vs. Saints: O/U 60.5",
+    "ts": "2026-10-05T20:44:18.780803",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
+    "whale_signal": "COMPRAR NO"
+  }
+]
