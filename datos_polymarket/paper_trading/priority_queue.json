@@ -1,42 +1,34 @@
 [
   {
-    "id": "5331922",
-    "pregunta": "Villena: Francesco Maestrelli vs Oliver Tarvet",
-    "ts": "2026-10-06T12:43:21.972531",
+    "id": "5339814",
+    "pregunta": "Dota 2: Team Synapse vs Yellow Submarine - Game 2 Winner",
+    "ts": "2026-10-06T12:54:37.538538",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3ec3f4fd481c6e93733f817e8e119e8f473ae330",
+    "whale_wallet": "0xce8250076efd967c08495dadaff84220e50a03d3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4877193",
-    "pregunta": "Will Spain win on 2026-10-06?",
-    "ts": "2026-10-06T12:43:23.914266",
+    "id": "5347240",
+    "pregunta": "Dota 2: LEGION vs MOUZ - Game 1 Winner",
+    "ts": "2026-10-06T12:54:38.591348",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6861fe63d4748104932530ffc5d64d55abebb317",
+    "whale_wallet": "0xce8250076efd967c08495dadaff84220e50a03d3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5311626",
-    "pregunta": "Los Angeles Dodgers vs. Atlanta Braves: O/U 6.5",
-    "ts": "2026-10-06T12:43:25.678627",
+    "id": "4878169",
+    "pregunta": "Switzerland vs. North Macedonia: North Macedonia O/U 0.5",
+    "ts": "2026-10-06T12:54:40.475772",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4409719",
-    "pregunta": "Blues vs. Blackhawks",
-    "ts": "2026-10-06T12:43:26.726963",
+    "id": "4877899",
+    "pregunta": "Spread: England (-2.5)",
+    "ts": "2026-10-06T12:54:41.526288",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4877960",
-    "pregunta": "Spread: Spain (-2.5)",
-    "ts": "2026-10-06T12:43:27.774665",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
