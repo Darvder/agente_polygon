@@ -1,26 +1,82 @@
 [
   {
+    "id": "4877607",
+    "pregunta": "England leading at halftime?",
+    "ts": "2026-10-06T14:04:25.546959",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc909625648c05cf65638c2532620ab386ef21f2c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877503",
+    "pregunta": "Switzerland leading at halftime?",
+    "ts": "2026-10-06T14:04:26.613722",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc909625648c05cf65638c2532620ab386ef21f2c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342976",
+    "pregunta": "Counter-Strike: mellren vs Gothic - Map 2 Winner",
+    "ts": "2026-10-06T14:04:29.052688",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaaad37f3bbb45af95818e20e554f8b21371f29e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4843881",
+    "pregunta": "Spread: Texans (-7.5)",
+    "ts": "2026-10-06T14:04:31.397346",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061483",
+    "pregunta": "Spread: Texans (-6.5)",
+    "ts": "2026-10-06T14:04:32.470133",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5336960",
+    "pregunta": "LoL: TLN Pirates vs Bushido Wildcats - Game 3 Winner",
+    "ts": "2026-10-06T14:04:34.623344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x004ab8d52906a8d0dfd10287e570babdeb4c71b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5342758",
     "pregunta": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-06T13:55:21.706363",
+    "ts": "2026-10-06T14:04:36.753941",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x52ecea7b3159f09db589e4f4ee64872fd0bba6f3",
+    "whale_wallet": "0x004ab8d52906a8d0dfd10287e570babdeb4c71b8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5342769",
-    "pregunta": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-06T13:55:22.770913",
+    "id": "4877166",
+    "pregunta": "Will Scotland win on 2026-10-06?",
+    "ts": "2026-10-06T14:04:37.813210",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x52ecea7b3159f09db589e4f4ee64872fd0bba6f3",
+    "whale_wallet": "0x004ab8d52906a8d0dfd10287e570babdeb4c71b8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "665374",
-    "pregunta": "Will the U.S. invade Iran before 2027?",
-    "ts": "2026-10-06T13:55:25.089148",
+    "id": "4877193",
+    "pregunta": "Will Spain win on 2026-10-06?",
+    "ts": "2026-10-06T14:04:38.881442",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x74471a007ddcc488f6d57b5e86dfb35a8d48a16d",
+    "whale_wallet": "0x004ab8d52906a8d0dfd10287e570babdeb4c71b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877897",
+    "pregunta": "Spread: England (-1.5)",
+    "ts": "2026-10-06T14:04:39.943558",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x004ab8d52906a8d0dfd10287e570babdeb4c71b8",
     "whale_signal": "COMPRAR NO"
   }
 ]
