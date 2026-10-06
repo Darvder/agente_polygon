@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5331885",
+    "pregunta": "Wuning 3: Alibek Kachmazov vs Charles Broom",
+    "ts": "2026-10-06T06:13:34.333558",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5331893",
+    "pregunta": "Shanghai Rolex Masters, Qualification: Pavel Kotov vs Aleksandar Vukic",
+    "ts": "2026-10-06T06:13:35.398336",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
