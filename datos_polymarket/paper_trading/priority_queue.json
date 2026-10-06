@@ -1,18 +1,26 @@
 [
   {
-    "id": "5175497",
-    "pregunta": "New York Yankees vs. Tampa Bay Rays",
-    "ts": "2026-10-05T20:13:22.396354",
+    "id": "5306882",
+    "pregunta": "China Open: Karolina Muchova vs Naomi Osaka",
+    "ts": "2026-10-05T20:23:17.604212",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xe8c4d68aff65b38cac46987b9b65e01eb47d395d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4877151",
-    "pregunta": "CA Banfield vs. CA Rosario Central: O/U 1.5",
-    "ts": "2026-10-05T20:13:23.491447",
+    "id": "3871438",
+    "pregunta": "Falcons vs. Saints",
+    "ts": "2026-10-05T20:23:18.673336",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xe8c4d68aff65b38cac46987b9b65e01eb47d395d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "631057",
+    "pregunta": "Will the Democrats win the Ohio Senate race in 2026?",
+    "ts": "2026-10-05T20:23:20.503560",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x841ff7664a363a502639fb6eab10724d5fa1bbd0",
     "whale_signal": "COMPRAR NO"
   }
 ]
