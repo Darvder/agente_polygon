@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4878398",
+    "pregunta": "Kazakhstan vs. Faroe Islands: O/U 3.5",
+    "ts": "2026-10-06T10:33:29.272241",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877125",
+    "pregunta": "Will Kazakhstan win on 2026-10-06?",
+    "ts": "2026-10-06T10:33:30.314552",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4878399",
+    "pregunta": "Kazakhstan vs. Faroe Islands: O/U 4.5",
+    "ts": "2026-10-06T10:33:31.371730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
