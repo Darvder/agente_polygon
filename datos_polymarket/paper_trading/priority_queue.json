@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5175497",
+    "pregunta": "New York Yankees vs. Tampa Bay Rays",
+    "ts": "2026-10-05T20:13:22.396354",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877151",
+    "pregunta": "CA Banfield vs. CA Rosario Central: O/U 1.5",
+    "ts": "2026-10-05T20:13:23.491447",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
