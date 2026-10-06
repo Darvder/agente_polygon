@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5239515",
+    "pregunta": "Will Elon Musk post <40 tweets from October 5 to October 7, 2026?",
+    "ts": "2026-10-05T21:14:36.847839",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xade91e4502d8e8456dd98b004c4f7e607f399ec3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4970464",
+    "pregunta": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
+    "ts": "2026-10-05T21:14:37.921423",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xade91e4502d8e8456dd98b004c4f7e607f399ec3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
