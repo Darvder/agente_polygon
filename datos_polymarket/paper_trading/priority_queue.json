@@ -1,10 +1,26 @@
 [
   {
-    "id": "5139078",
-    "pregunta": "Spread: Argentina (-3.5)",
-    "ts": "2026-10-06T15:54:02.679873",
+    "id": "5342768",
+    "pregunta": "Counter-Strike: Team Falcons vs Natus Vincere - Map 2 Winner",
+    "ts": "2026-10-06T16:03:37.810798",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1050854d71bde435fb32b0cd6704e7ea7e0c43af",
+    "whale_wallet": "0xa5210526a589221769501fa0a7ca4e7b4278d609",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5354907",
+    "pregunta": "Will Messi score 2+ goals vs. Benin?",
+    "ts": "2026-10-06T16:03:40.932026",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5c1cb0b7686d2c59f1d6e991f3b67c8b9f0ed33e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342769",
+    "pregunta": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-06T16:03:42.983461",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd05f7eb68d4c1311a431c74b295f845a7c468a79",
     "whale_signal": "COMPRAR NO"
   }
 ]
