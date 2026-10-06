@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1646.61,
-  "capital_en_riesgo": 442.35,
-  "n_ciclos": 39695,
-  "ultima_corrida": "2026-10-06 16:04",
-  "n_tp": 826,
+  "capital_actual": 1664.98,
+  "capital_en_riesgo": 424.09,
+  "n_ciclos": 39696,
+  "ultima_corrida": "2026-10-06 16:14",
+  "n_tp": 827,
   "n_sl": 564,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 24.0,
-    "capital_en_riesgo": 61.08,
+    "capital_actual": 27.02,
+    "capital_en_riesgo": 58.08,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 328,
+    "n_tp": 329,
     "n_sl": 233,
     "posiciones_abiertas": [
       {
@@ -51,7 +51,7 @@
         "pregunta": "Will Anthropic have the highest IPO Market Cap 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.5665,
-        "precio_actual": 0.522,
+        "precio_actual": 0.524,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -231,7 +231,7 @@
         "pregunta": "Will Bitcoin reach $92,500 in October?",
         "outcome": "No",
         "precio_token_entrada": 0.605,
-        "precio_actual": 0.625,
+        "precio_actual": 0.635,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -291,7 +291,7 @@
         "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
         "outcome": "No",
         "precio_token_entrada": 0.751,
-        "precio_actual": 0.7265,
+        "precio_actual": 0.728,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xe4d847d1958c9658105c2dae1a63a9723b070c63bc88420d048a536d09b53f00"
-      },
-      {
-        "fecha_entrada": "2026-10-06",
-        "fecha_entrada_dt": "2026-10-06 16:03",
-        "target_wallet": "0xd05f7eb68d4c1311a431c74b295f845a7c468a79",
-        "market_id": "5342769",
-        "condition_id": "0x16bf6187b713dc4c937599080f8063ba55beb46a6b3508e895d4f1114fd4fa48",
-        "token_id": "85839573127644995829194246125315141460470962820252227002719929097299769959470",
-        "pregunta": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League G",
-        "outcome": "Team Falcons",
-        "precio_token_entrada": 0.805,
-        "precio_actual": 0.805,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x1a159bb71fb6f05f8fcf244631f3271d67efed9d1b6d6f9eec7f2be49501a232"
       }
     ],
     "historial_cerradas": [
@@ -11602,6 +11582,26 @@
         "pnl_realizado": 1.86,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x796794efbe06c9ee34e741669419e3115f7ba37bcc00e49682a3c13576135a82"
+      },
+      {
+        "fecha_entrada": "2026-10-06",
+        "fecha_entrada_dt": "2026-10-06 16:03",
+        "target_wallet": "0xd05f7eb68d4c1311a431c74b295f845a7c468a79",
+        "market_id": "5342769",
+        "condition_id": "0x16bf6187b713dc4c937599080f8063ba55beb46a6b3508e895d4f1114fd4fa48",
+        "token_id": "85839573127644995829194246125315141460470962820252227002719929097299769959470",
+        "pregunta": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League G",
+        "outcome": "Team Falcons",
+        "precio_token_entrada": 0.805,
+        "precio_actual": 0.81,
+        "precio_cierre": 0.81,
+        "pct_cambio": 0.0062,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-06 16:14",
+        "pnl_realizado": 0.02,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x1a159bb71fb6f05f8fcf244631f3271d67efed9d1b6d6f9eec7f2be49501a232"
       }
     ]
   }
