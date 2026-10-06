@@ -1,10 +1,34 @@
 [
   {
-    "id": "5155252",
-    "pregunta": "West Indies Tour of India T20s: India vs West Indies",
-    "ts": "2026-10-06T09:55:06.586733",
+    "id": "5342698",
+    "pregunta": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-06T10:05:13.611572",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4b7b1814b0da33f2b61be4939976898aa476008",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342739",
+    "pregunta": "Counter-Strike: 9z vs BetBoom Team (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-06T10:05:14.664843",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5342737",
+    "pregunta": "Counter-Strike: 9z vs BetBoom Team - Map 1 Winner",
+    "ts": "2026-10-06T10:05:16.868659",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5268002",
+    "pregunta": "Antofagasta: Alex Barrena vs Matheus Pucinelli de Almeida",
+    "ts": "2026-10-06T10:05:19.934430",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe0b01fa337f48b3792ae9e76f3665bfc4f3a5294",
     "whale_signal": "COMPRAR NO"
   }
 ]
