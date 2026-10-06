@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1609.54,
-  "capital_en_riesgo": 451.32,
-  "n_ciclos": 39677,
-  "ultima_corrida": "2026-10-06 13:05",
-  "n_tp": 820,
+  "capital_actual": 1653.66,
+  "capital_en_riesgo": 426.32,
+  "n_ciclos": 39678,
+  "ultima_corrida": "2026-10-06 13:15",
+  "n_tp": 821,
   "n_sl": 562,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 14.58,
-    "capital_en_riesgo": 63.08,
+    "capital_actual": 21.64,
+    "capital_en_riesgo": 59.08,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 323,
+    "n_tp": 324,
     "n_sl": 233,
     "posiciones_abiertas": [
       {
@@ -51,7 +51,7 @@
         "pregunta": "Will Anthropic have the highest IPO Market Cap 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.5665,
-        "precio_actual": 0.517,
+        "precio_actual": 0.5165,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -91,7 +91,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.453,
-        "precio_actual": 0.4775,
+        "precio_actual": 0.479,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -171,7 +171,7 @@
         "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "outcome": "No",
         "precio_token_entrada": 0.174,
-        "precio_actual": 0.157,
+        "precio_actual": 0.1545,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.19,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x8645c4518facf5437268aeb636497eaf83bbe4a229aab728f658d427d521302c"
-      },
-      {
-        "fecha_entrada": "2026-10-06",
-        "fecha_entrada_dt": "2026-10-06 12:54",
-        "target_wallet": "0xce8250076efd967c08495dadaff84220e50a03d3",
-        "market_id": "5347240",
-        "condition_id": "0x865a76063c16e6ef3610189aa06d27ba5483f1c4e61977cdebb4bf9064858f5e",
-        "token_id": "29586942224200866361574824244152635276065570030433709535132101808869670886137",
-        "pregunta": "Dota 2: LEGION vs MOUZ - Game 1 Winner",
-        "outcome": "MOUZ",
-        "precio_token_entrada": 0.425,
-        "precio_actual": 0.29,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x2eb3e5403c5f40c23c21b4a3db661e74534860d14088234ecb15ef1be3a3358d"
       }
     ],
     "historial_cerradas": [
@@ -11502,6 +11482,26 @@
         "pnl_realizado": -2.39,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xa09d9b15bd279f891db0fe1e5ef783bb0d14090873a8e2c53245edb1fef7fc82"
+      },
+      {
+        "fecha_entrada": "2026-10-06",
+        "fecha_entrada_dt": "2026-10-06 12:54",
+        "target_wallet": "0xce8250076efd967c08495dadaff84220e50a03d3",
+        "market_id": "5347240",
+        "condition_id": "0x865a76063c16e6ef3610189aa06d27ba5483f1c4e61977cdebb4bf9064858f5e",
+        "token_id": "29586942224200866361574824244152635276065570030433709535132101808869670886137",
+        "pregunta": "Dota 2: LEGION vs MOUZ - Game 1 Winner",
+        "outcome": "MOUZ",
+        "precio_token_entrada": 0.425,
+        "precio_actual": 0.75,
+        "precio_cierre": 0.75,
+        "pct_cambio": 0.7647,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-06 13:15",
+        "pnl_realizado": 3.06,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x2eb3e5403c5f40c23c21b4a3db661e74534860d14088234ecb15ef1be3a3358d"
       }
     ]
   }

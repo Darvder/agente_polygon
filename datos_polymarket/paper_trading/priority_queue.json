@@ -1,58 +1,34 @@
 [
   {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-06T13:04:35.191092",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5342760",
-    "pregunta": "Map Handicap: LGC (-1.5) vs M80 (+1.5)",
-    "ts": "2026-10-06T13:04:37.314360",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5342728",
     "pregunta": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-06T13:04:39.320703",
+    "ts": "2026-10-06T13:14:41.375796",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeaa285900c9df3b5c22dd4ec9d595d29bb24670e",
+    "whale_wallet": "0x167ef4770dfd6038ce4d9dd9f76e1c70ca5c28d9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5342727",
-    "pregunta": "Counter-Strike: FURIA vs Aurora Gaming - Map 2 Winner",
-    "ts": "2026-10-06T13:04:41.596989",
+    "id": "5073578",
+    "pregunta": "Will Venezuela win on 2026-10-06?",
+    "ts": "2026-10-06T13:14:48.519638",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_wallet": "0xee586017922db8b2ff244c91ae6b66f661c3d209",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5342758",
-    "pregunta": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-06T13:04:42.694065",
+    "id": "4877133",
+    "pregunta": "Will Luxembourg win on 2026-10-06?",
+    "ts": "2026-10-06T13:14:49.566680",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_wallet": "0xee586017922db8b2ff244c91ae6b66f661c3d209",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5336695",
-    "pregunta": "LoL: \u2060Movistar KOI F\u00e9nix vs Frites Esports Club - Game 3 Winner",
-    "ts": "2026-10-06T13:04:43.754417",
+    "id": "4877131",
+    "pregunta": "Will Slovakia win on 2026-10-06?",
+    "ts": "2026-10-06T13:14:50.617469",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5342757",
-    "pregunta": "Counter-Strike: Legacy vs M80 - Map 2 Winner",
-    "ts": "2026-10-06T13:04:44.820386",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x236448c21cafb8a9cf9bb93d2e66cd73cd8d18f2",
+    "whale_wallet": "0xee586017922db8b2ff244c91ae6b66f661c3d209",
     "whale_signal": "COMPRAR NO"
   }
 ]
