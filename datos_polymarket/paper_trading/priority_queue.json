@@ -1,18 +1,42 @@
 [
   {
-    "id": "5342728",
-    "pregunta": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-06T12:34:25.482723",
+    "id": "5331922",
+    "pregunta": "Villena: Francesco Maestrelli vs Oliver Tarvet",
+    "ts": "2026-10-06T12:43:21.972531",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0d7cc750f6aafafe000210f52d623f3bce49b7db",
+    "whale_wallet": "0x3ec3f4fd481c6e93733f817e8e119e8f473ae330",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5336716",
-    "pregunta": "Game Handicap: MKF (-2.5) vs Frites Esports Club (+2.5)",
-    "ts": "2026-10-06T12:34:27.590328",
+    "id": "4877193",
+    "pregunta": "Will Spain win on 2026-10-06?",
+    "ts": "2026-10-06T12:43:23.914266",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x91e395818007547cd870a145f999c0044b7dea34",
+    "whale_wallet": "0x6861fe63d4748104932530ffc5d64d55abebb317",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5311626",
+    "pregunta": "Los Angeles Dodgers vs. Atlanta Braves: O/U 6.5",
+    "ts": "2026-10-06T12:43:25.678627",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4409719",
+    "pregunta": "Blues vs. Blackhawks",
+    "ts": "2026-10-06T12:43:26.726963",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4877960",
+    "pregunta": "Spread: Spain (-2.5)",
+    "ts": "2026-10-06T12:43:27.774665",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
