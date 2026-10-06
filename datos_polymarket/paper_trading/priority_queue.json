@@ -1,18 +1,26 @@
 [
   {
-    "id": "5239515",
-    "pregunta": "Will Elon Musk post <40 tweets from October 5 to October 7, 2026?",
-    "ts": "2026-10-05T21:14:36.847839",
+    "id": "5170733",
+    "pregunta": "Will Bitcoin reach $92,500 in October?",
+    "ts": "2026-10-05T21:24:50.279692",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xade91e4502d8e8456dd98b004c4f7e607f399ec3",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970464",
-    "pregunta": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
-    "ts": "2026-10-05T21:14:37.921423",
+    "id": "5349021",
+    "pregunta": "Spread: Senators (-3.5)",
+    "ts": "2026-10-05T21:24:52.710691",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xade91e4502d8e8456dd98b004c4f7e607f399ec3",
+    "whale_wallet": "0x615d8bd712792b71e16b3fffc3e444ca13fdab9a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4366714",
+    "pregunta": "Sharks vs. Stars: O/U 4.5",
+    "ts": "2026-10-05T21:24:53.863766",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x615d8bd712792b71e16b3fffc3e444ca13fdab9a",
     "whale_signal": "COMPRAR NO"
   }
 ]
