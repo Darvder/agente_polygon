@@ -1,42 +1,18 @@
 [
   {
-    "id": "5306882",
-    "pregunta": "China Open: Karolina Muchova vs Naomi Osaka",
-    "ts": "2026-10-06T03:42:50.482849",
+    "id": "4877856",
+    "pregunta": "Albania vs. San Marino: Both Teams to Score",
+    "ts": "2026-10-06T03:55:40.348534",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x492bb408693470df7d031ef48f3a5466055b45ee",
+    "whale_wallet": "0x3449dd397d165206791e12ef8187d31696234030",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5080436",
-    "pregunta": "Will Russia and Ukraine hold any diplomatic meeting by October 15, 2026?",
-    "ts": "2026-10-06T03:42:52.437201",
+    "id": "5336989",
+    "pregunta": "Games Total: O/U 3.5",
+    "ts": "2026-10-06T03:55:41.385784",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3247818",
-    "pregunta": "Will US GDP growth in Q3 2026 be greater than 3.0%?",
-    "ts": "2026-10-06T03:42:53.530462",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5323865",
-    "pregunta": "LoL: HANJIN BRION vs Natus Vincere (BO3) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-06T03:42:59.425603",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5342769",
-    "pregunta": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-    "ts": "2026-10-06T03:43:00.491443",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x3449dd397d165206791e12ef8187d31696234030",
     "whale_signal": "COMPRAR NO"
   }
 ]
