@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5342728",
+    "pregunta": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-06T12:34:25.482723",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d7cc750f6aafafe000210f52d623f3bce49b7db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5336716",
+    "pregunta": "Game Handicap: MKF (-2.5) vs Frites Esports Club (+2.5)",
+    "ts": "2026-10-06T12:34:27.590328",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x91e395818007547cd870a145f999c0044b7dea34",
+    "whale_signal": "COMPRAR NO"
+  }
+]
