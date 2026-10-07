@@ -1,42 +1,26 @@
 [
   {
-    "id": "5324132",
-    "pregunta": "Counter-Strike: G2 Ares vs SINQU (BO1) - Roman Imperium Cup Group A",
-    "ts": "2026-10-07T06:43:31.237073",
+    "id": "5325697",
+    "pregunta": "LoL: FlyQuest vs Shopify Rebellion (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-07T06:54:01.514405",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5324337",
-    "pregunta": "Counter-Strike: OG vs Falcons Force (BO1) - Roman Imperium Cup Group A",
-    "ts": "2026-10-07T06:43:32.332755",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5324386",
-    "pregunta": "Counter-Strike: Falcons Force vs Orion Wanderers (BO1) - Roman Imperium Cup Group A",
-    "ts": "2026-10-07T06:43:33.408980",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5310422",
-    "pregunta": "Counter-Strike: HOTU vs STATE (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
-    "ts": "2026-10-07T06:43:34.497154",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_wallet": "0x2465e0eb9743a7156575ccc65aad331359185d84",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5305632",
     "pregunta": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
-    "ts": "2026-10-07T06:43:38.536922",
+    "ts": "2026-10-07T06:54:03.424304",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5ba711c5cf8d430e7d1e0b94a07e0a522f608732",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393016",
+    "pregunta": "Counter-Strike: FURIA vs 9z (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-07T06:54:05.555506",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
