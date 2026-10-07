@@ -1,18 +1,10 @@
 [
   {
-    "id": "5221104",
-    "pregunta": "New York Liberty vs. Atlanta Dream",
-    "ts": "2026-10-07T17:53:50.679180",
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-07T18:05:11.588819",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5360920",
-    "pregunta": "Spread: Atlanta Dream (-2.5)",
-    "ts": "2026-10-07T17:53:51.787498",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xd04e0676ea998bb7d5ef405960edd9b273cb41b8",
     "whale_signal": "COMPRAR NO"
   }
 ]
