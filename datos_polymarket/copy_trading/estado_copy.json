@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1611.48,
-  "capital_en_riesgo": 452.25,
-  "n_ciclos": 39740,
-  "ultima_corrida": "2026-10-06 23:34",
-  "n_tp": 830,
+  "capital_actual": 1650.89,
+  "capital_en_riesgo": 427.25,
+  "n_ciclos": 39741,
+  "ultima_corrida": "2026-10-06 23:44",
+  "n_tp": 831,
   "n_sl": 570,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 26.59,
-    "capital_en_riesgo": 62.73,
+    "capital_actual": 32.9,
+    "capital_en_riesgo": 58.73,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 334,
+    "n_tp": 335,
     "n_sl": 238,
     "posiciones_abiertas": [
       {
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xc2487ad65cdaae01ac0a75ad62bb4a370c28c0a586123e0531e729b9a277859d"
-      },
-      {
-        "fecha_entrada": "2026-10-06",
-        "fecha_entrada_dt": "2026-10-06 21:03",
-        "target_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-        "market_id": "5175499",
-        "condition_id": "0x7af06a6b565678dd02509cb9209e8b8cfc791c4025e1a352b7aba321f6b31279",
-        "token_id": "20349843725895040757479233276300297167730053244330193078664314684453257197179",
-        "pregunta": "Milwaukee Brewers vs. San Diego Padres",
-        "outcome": "San Diego Padres",
-        "precio_token_entrada": 0.555,
-        "precio_actual": 0.775,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xdef759514c7361931e4925d896faebce31210f76ec4c589064b7b73cf703c1ab"
       },
       {
         "fecha_entrada": "2026-10-06",
@@ -11822,6 +11802,26 @@
         "pnl_realizado": 0.87,
         "razon_cierre": "RESOLVED_EXIT",
         "tx_hash": "0x653c8da7e003f3bc263d0adaef2770d3a412297444adfeed563944881adee314"
+      },
+      {
+        "fecha_entrada": "2026-10-06",
+        "fecha_entrada_dt": "2026-10-06 21:03",
+        "target_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "market_id": "5175499",
+        "condition_id": "0x7af06a6b565678dd02509cb9209e8b8cfc791c4025e1a352b7aba321f6b31279",
+        "token_id": "20349843725895040757479233276300297167730053244330193078664314684453257197179",
+        "pregunta": "Milwaukee Brewers vs. San Diego Padres",
+        "outcome": "San Diego Padres",
+        "precio_token_entrada": 0.555,
+        "precio_actual": 0.875,
+        "precio_cierre": 0.875,
+        "pct_cambio": 0.5766,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-06 23:44",
+        "pnl_realizado": 2.31,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xdef759514c7361931e4925d896faebce31210f76ec4c589064b7b73cf703c1ab"
       }
     ]
   }
