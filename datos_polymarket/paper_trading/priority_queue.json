@@ -1,42 +1,26 @@
 [
   {
-    "id": "5170734",
-    "pregunta": "Will Bitcoin reach $90,000 in October?",
-    "ts": "2026-10-07T09:53:45.985667",
+    "id": "5291724",
+    "pregunta": "Inter Toronto FC vs. FC Supra Du Quebec: 1st Half O/U 2.5",
+    "ts": "2026-10-07T10:05:08.475290",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc1b6142d02b72bf732e559f4ac6419c6f2563c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170733",
-    "pregunta": "Will Bitcoin reach $92,500 in October?",
-    "ts": "2026-10-07T09:53:47.046439",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc1b6142d02b72bf732e559f4ac6419c6f2563c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5391530",
-    "pregunta": "Dota 2: MOUZ vs CyberHero - Game 2 Winner",
-    "ts": "2026-10-07T09:53:48.988491",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcbb9b594d8355c47f597e96a19406f3b038a49ac",
+    "whale_wallet": "0x800af3f81fef581962a8de17f6bf583b88fd0b4d",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5393025",
     "pregunta": "Counter-Strike: PARIVISION vs Natus Vincere - Map 1 Winner",
-    "ts": "2026-10-07T09:53:50.030305",
+    "ts": "2026-10-07T10:05:10.538964",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcbb9b594d8355c47f597e96a19406f3b038a49ac",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5393029",
-    "pregunta": "Map Handicap: NAVI (-1.5) vs PARIVISION (+1.5)",
-    "ts": "2026-10-07T09:53:51.109352",
+    "id": "5393027",
+    "pregunta": "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-07T10:05:11.609555",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcbb9b594d8355c47f597e96a19406f3b038a49ac",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   }
 ]
