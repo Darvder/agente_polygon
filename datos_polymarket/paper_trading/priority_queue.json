@@ -1,18 +1,82 @@
 [
   {
-    "id": "5330839",
-    "pregunta": "Samsun: Polina Iatcenko vs Dalma Galfi",
-    "ts": "2026-10-07T08:03:17.680797",
+    "id": "4948486",
+    "pregunta": "Oper\u00e1rio Ferrovi\u00e1rio EC vs. Botafogo FC: O/U 1.5",
+    "ts": "2026-10-07T08:13:42.165301",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5391362",
-    "pregunta": "M25 Santa Margherita di Pula: Leonardo Primucci vs Alessandro Bellifemine",
-    "ts": "2026-10-07T08:03:19.960389",
+    "id": "5259096",
+    "pregunta": "Braga: Tiago Pereira vs Pol Martin Tiffon",
+    "ts": "2026-10-07T08:13:43.267538",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320317",
+    "pregunta": "Shanghai Rolex Masters: Arthur Fery vs Marin Cilic",
+    "ts": "2026-10-07T08:13:44.320817",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5321726",
+    "pregunta": "Nanjing City vs. Shaanxi Union FC: O/U 4.5",
+    "ts": "2026-10-07T08:13:45.375006",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320591",
+    "pregunta": "Will Foshan Nanshi FC win on 2026-10-07?",
+    "ts": "2026-10-07T08:13:46.444245",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375168",
+    "pregunta": "FK Neftchi Fargona vs. Xorazm Fk Urganch: Both Teams to Score",
+    "ts": "2026-10-07T08:13:47.680244",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5374716",
+    "pregunta": "Will FK Neftchi Fargona win on 2026-10-07?",
+    "ts": "2026-10-07T08:13:48.906811",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320592",
+    "pregunta": "Will Foshan Nanshi FC vs. Guangxi Hengchen FC end in a draw?",
+    "ts": "2026-10-07T08:13:49.958800",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5380314",
+    "pregunta": "Palermo: Andrej Martin vs Alejandro Moro Canas",
+    "ts": "2026-10-07T08:13:51.013366",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4947650",
+    "pregunta": "SC Internacional vs. SC Corinthians Paulista: Both Teams to Score",
+    "ts": "2026-10-07T08:13:52.243856",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
     "whale_signal": "COMPRAR NO"
   }
 ]
