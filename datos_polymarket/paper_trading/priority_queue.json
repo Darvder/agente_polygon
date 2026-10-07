@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "5380273",
+    "pregunta": "Shanghai Rolex Masters: Quentin Halys vs Coleman Wong",
+    "ts": "2026-10-07T05:14:13.908412",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5395445",
+    "pregunta": "Counter-Strike: Gothic vs LPH Gaming (BO3) - NODWIN Clutch Series Play-In Group B",
+    "ts": "2026-10-07T05:14:16.021538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf5c239eb9b2b883cd96752e6a79f06abe1dcdbba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5337609",
+    "pregunta": "Game Handicap: G2N (-1.5) vs Team Heretics Academy (+1.5)",
+    "ts": "2026-10-07T05:14:18.323264",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf5c239eb9b2b883cd96752e6a79f06abe1dcdbba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5324132",
+    "pregunta": "Counter-Strike: G2 Ares vs SINQU (BO1) - Roman Imperium Cup Group A",
+    "ts": "2026-10-07T05:14:19.402566",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf5c239eb9b2b883cd96752e6a79f06abe1dcdbba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5392520",
+    "pregunta": "Counter-Strike: Gothic vs Esport Academy Copenhagen (BO3) - CCT Europe Series #10 Playoffs",
+    "ts": "2026-10-07T05:14:20.459606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf5c239eb9b2b883cd96752e6a79f06abe1dcdbba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5387501",
+    "pregunta": "Counter-Strike: Just Swing vs Boring Players (BO3) - ESL Challenger League Asia-Pacific Cup #3 Playoffs",
+    "ts": "2026-10-07T05:14:21.563274",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf5c239eb9b2b883cd96752e6a79f06abe1dcdbba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5305615",
+    "pregunta": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-07T05:14:23.824693",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x546b8059742bfebd84b098967258954add2e1582",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5305614",
+    "pregunta": "Valorant: NRG vs T1 - Map 2 Winner",
+    "ts": "2026-10-07T05:14:24.886313",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x546b8059742bfebd84b098967258954add2e1582",
+    "whale_signal": "COMPRAR NO"
+  }
+]
