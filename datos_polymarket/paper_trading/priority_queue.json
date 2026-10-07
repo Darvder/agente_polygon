@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "5144656",
+    "pregunta": "Nets vs. Hornets",
+    "ts": "2026-10-06T19:33:41.658919",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5144653",
+    "pregunta": "Pelicans vs. Thunder",
+    "ts": "2026-10-06T19:33:42.752748",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2784681",
+    "pregunta": "Will Vancouver Whitecaps FC win on 2026-07-16?",
+    "ts": "2026-10-06T19:33:44.551177",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139086",
+    "pregunta": "Argentina vs. Benin: O/U 2.5",
+    "ts": "2026-10-06T19:33:45.604697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139074",
+    "pregunta": "Spread: Argentina (-1.5)",
+    "ts": "2026-10-06T19:33:46.675337",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139093",
+    "pregunta": "Argentina vs. Benin: Both Teams to Score",
+    "ts": "2026-10-06T19:33:47.773443",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4409654",
+    "pregunta": "Predators vs. Maple Leafs",
+    "ts": "2026-10-06T19:33:48.831390",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
