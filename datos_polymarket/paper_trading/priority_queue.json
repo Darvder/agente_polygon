@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3951230",
+    "pregunta": "Buccaneers vs. Cowboys",
+    "ts": "2026-10-06T22:44:06.863992",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb306c2fc3b9916a053765e991e2b588fea772086",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5175499",
+    "pregunta": "Milwaukee Brewers vs. San Diego Padres",
+    "ts": "2026-10-06T22:44:08.807939",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5439e5590ba2ee1f2f5389c8205d57ccffa8c45b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
