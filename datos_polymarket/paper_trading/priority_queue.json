@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5371731",
+    "pregunta": "Suzhou: Tatiana Prozorova vs Kyoka Okamura",
+    "ts": "2026-10-07T00:12:43.225413",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc0a5ecceff48cd8f313cd658cdb609e8b5231f5f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5319469",
+    "pregunta": "China Open: Iva Jovic vs Iga Swiatek",
+    "ts": "2026-10-07T00:12:44.316364",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc0a5ecceff48cd8f313cd658cdb609e8b5231f5f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
