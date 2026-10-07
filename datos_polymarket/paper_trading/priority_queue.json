@@ -1,10 +1,34 @@
 [
   {
-    "id": "5381318",
-    "pregunta": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qualifier Playoffs",
-    "ts": "2026-10-07T04:23:40.713966",
+    "id": "5287859",
+    "pregunta": "Samsun: Elena Pridankina vs Anna Blinkova",
+    "ts": "2026-10-07T04:34:32.485743",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1d3e9a9a5f95c537b44fdd44f2c461f9e69b8de",
+    "whale_wallet": "0x0f16a66df16a707334d89704631338ae7a770246",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320330",
+    "pregunta": "Shanghai Rolex Masters: Yannick Hanfmann vs Kamil Majchrzak",
+    "ts": "2026-10-07T04:34:33.524832",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f16a66df16a707334d89704631338ae7a770246",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5380273",
+    "pregunta": "Shanghai Rolex Masters: Quentin Halys vs Coleman Wong",
+    "ts": "2026-10-07T04:34:35.344742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375164",
+    "pregunta": "FK Neftchi Fargona vs. Xorazm Fk Urganch: O/U 5.5",
+    "ts": "2026-10-07T04:34:36.386944",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
