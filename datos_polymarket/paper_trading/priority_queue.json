@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5330839",
+    "pregunta": "Samsun: Polina Iatcenko vs Dalma Galfi",
+    "ts": "2026-10-07T08:03:17.680797",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5391362",
+    "pregunta": "M25 Santa Margherita di Pula: Leonardo Primucci vs Alessandro Bellifemine",
+    "ts": "2026-10-07T08:03:19.960389",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
