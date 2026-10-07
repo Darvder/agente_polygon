@@ -1,34 +1,26 @@
 [
   {
-    "id": "5354906",
-    "pregunta": "Will Messi score 1+ goals vs. Benin?",
-    "ts": "2026-10-06T20:03:12.603515",
+    "id": "5139095",
+    "pregunta": "Argentina vs. Benin: 1st Half O/U 0.5",
+    "ts": "2026-10-06T20:14:59.941357",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_wallet": "0x2ec5ac52dcb5537f1fe8b47ee3cfd34bd666fd53",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5139085",
-    "pregunta": "Argentina vs. Benin: O/U 1.5",
-    "ts": "2026-10-06T20:03:13.659731",
+    "id": "5239515",
+    "pregunta": "Will Elon Musk post <40 tweets from October 5 to October 7, 2026?",
+    "ts": "2026-10-06T20:15:01.851700",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_wallet": "0xfbcbd30ee172d6750364c117d989c4c049eebb5d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3187537",
-    "pregunta": "Will Mar\u00eda Corina Machado enter Venezuela by December 31?",
-    "ts": "2026-10-06T20:03:14.930954",
+    "id": "5093911",
+    "pregunta": "Southern Miss vs. Troy: O/U 59.5",
+    "ts": "2026-10-06T20:15:05.034129",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5139086",
-    "pregunta": "Argentina vs. Benin: O/U 2.5",
-    "ts": "2026-10-06T20:03:19.102299",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x571284e04f005cecddf74c6361a924e0a443720f",
+    "whale_wallet": "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8",
     "whale_signal": "COMPRAR NO"
   }
 ]
