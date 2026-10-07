@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5221104",
+    "pregunta": "New York Liberty vs. Atlanta Dream",
+    "ts": "2026-10-07T17:53:50.679180",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5360920",
+    "pregunta": "Spread: Atlanta Dream (-2.5)",
+    "ts": "2026-10-07T17:53:51.787498",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
