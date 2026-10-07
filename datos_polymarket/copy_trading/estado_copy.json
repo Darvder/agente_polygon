@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1666.13,
-  "capital_en_riesgo": 427.25,
-  "n_ciclos": 39745,
-  "ultima_corrida": "2026-10-07 00:24",
-  "n_tp": 832,
+  "capital_actual": 1673.3,
+  "capital_en_riesgo": 420.08,
+  "n_ciclos": 39746,
+  "ultima_corrida": "2026-10-07 00:35",
+  "n_tp": 833,
   "n_sl": 570,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 35.8,
-    "capital_en_riesgo": 58.16,
+    "capital_actual": 35.91,
+    "capital_en_riesgo": 58.05,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 336,
+    "n_tp": 337,
     "n_sl": 238,
     "posiciones_abiertas": [
       {
@@ -311,7 +311,7 @@
         "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.5045,
-        "precio_actual": 0.493,
+        "precio_actual": 0.4975,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x8f474c35242dd08c7204c2ade5714ce6f6368b37a1e84dfddb1f4c378884f3cc"
-      },
-      {
-        "fecha_entrada": "2026-10-06",
-        "fecha_entrada_dt": "2026-10-06 21:33",
-        "target_wallet": "0x1fb5d3ba3e6a72f098fb9cf5fe5e08ff1f4ccabd",
-        "market_id": "4906128",
-        "condition_id": "0x7a70fc60ee280fa7b4312f5dd128d148d74ae5b3e4a2e8215ccf0030a08ebb04",
-        "token_id": "103159225638359731790247383162357783913500681643575178525536406773575671450318",
-        "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
-        "outcome": "No",
-        "precio_token_entrada": 0.655,
-        "precio_actual": 0.655,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.11,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xf6dc1931eda4a42d126440e884338e2f21fdaed25a619fbe9cd57dbc5f011a66"
       },
       {
         "fecha_entrada": "2026-10-07",
@@ -351,7 +331,7 @@
         "pregunta": "China Open: Iva Jovic vs Iga Swiatek",
         "outcome": "Iga Swiatek",
         "precio_token_entrada": 0.655,
-        "precio_actual": 0.845,
+        "precio_actual": 0.865,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.25,
@@ -360,6 +340,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x86e61795a7626d4f4d7c1f50f8d8dad2e740e344678e92b4984d8d169b75b654"
+      },
+      {
+        "fecha_entrada": "2026-10-07",
+        "fecha_entrada_dt": "2026-10-07 00:35",
+        "target_wallet": "0x9a01eab1e0079ccbf898104be414eac4a8db24d0",
+        "market_id": "5320321",
+        "condition_id": "0xd6b264590e0fc98aae815f9e94a17ea2beb939b89164fcf75a180b5c84dc3df0",
+        "token_id": "60421111061670706442774818171796360902749869241917707813939485196558679629974",
+        "pregunta": "Shanghai Rolex Masters: Arthur Gea vs Jaime Faria",
+        "outcome": "Arthur Gea",
+        "precio_token_entrada": 0.715,
+        "precio_actual": 0.715,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0xc950df4d7b00e8991e3ca11360fa5f7dd934a19ee87e7b8390554e91ce1a9bf5"
       }
     ],
     "historial_cerradas": [
@@ -11842,6 +11842,26 @@
         "pnl_realizado": 2.33,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x195ee17fa82734d4b03d0b2dccd286c49022d4931add8190a5e7cb3baf98c219"
+      },
+      {
+        "fecha_entrada": "2026-10-06",
+        "fecha_entrada_dt": "2026-10-06 21:33",
+        "target_wallet": "0x1fb5d3ba3e6a72f098fb9cf5fe5e08ff1f4ccabd",
+        "market_id": "4906128",
+        "condition_id": "0x7a70fc60ee280fa7b4312f5dd128d148d74ae5b3e4a2e8215ccf0030a08ebb04",
+        "token_id": "103159225638359731790247383162357783913500681643575178525536406773575671450318",
+        "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+        "outcome": "No",
+        "precio_token_entrada": 0.655,
+        "precio_actual": 0.655,
+        "precio_cierre": 0.655,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.11,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-07 00:35",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "TARGET_SELL",
+        "tx_hash": "0xf6dc1931eda4a42d126440e884338e2f21fdaed25a619fbe9cd57dbc5f011a66"
       }
     ]
   }
