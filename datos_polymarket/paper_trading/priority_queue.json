@@ -1,26 +1,10 @@
 [
   {
-    "id": "5380273",
-    "pregunta": "Shanghai Rolex Masters: Quentin Halys vs Coleman Wong",
-    "ts": "2026-10-07T02:44:41.344318",
+    "id": "5330841",
+    "pregunta": "China Open: Coco Gauff vs Elise Mertens",
+    "ts": "2026-10-07T02:56:51.019992",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9dde44ddeababae222bf7aec96c85cbdab6b525",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5380275",
-    "pregunta": "Shanghai Rolex Masters: Alex Molcan vs Federico Cina",
-    "ts": "2026-10-07T02:44:42.430097",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9dde44ddeababae222bf7aec96c85cbdab6b525",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5320313",
-    "pregunta": "Shanghai Rolex Masters: Zhizhen Zhang vs Tomas Machac",
-    "ts": "2026-10-07T02:44:43.490494",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd9dde44ddeababae222bf7aec96c85cbdab6b525",
+    "whale_wallet": "0x15740055904cab8a8b743f2f6f5428122f8764c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
