@@ -1,10 +1,42 @@
 [
   {
-    "id": "5330841",
-    "pregunta": "China Open: Coco Gauff vs Elise Mertens",
-    "ts": "2026-10-07T02:56:51.019992",
+    "id": "5325650",
+    "pregunta": "LoL: GAM Esports vs FlyQuest - Game 2 Winner",
+    "ts": "2026-10-07T03:04:04.724337",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x15740055904cab8a8b743f2f6f5428122f8764c9",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5325672",
+    "pregunta": "LoL: GAM Esports vs Shopify Rebellion - Game 1 Winner",
+    "ts": "2026-10-07T03:04:05.789626",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5325674",
+    "pregunta": "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-07T03:04:06.854302",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5325676",
+    "pregunta": "Game Handicap: SR (-1.5) vs GAM Esports (+1.5)",
+    "ts": "2026-10-07T03:04:07.935623",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5325673",
+    "pregunta": "LoL: GAM Esports vs Shopify Rebellion - Game 2 Winner",
+    "ts": "2026-10-07T03:04:09.004913",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
     "whale_signal": "COMPRAR NO"
   }
 ]
