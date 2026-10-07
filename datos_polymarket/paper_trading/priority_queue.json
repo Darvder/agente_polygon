@@ -1,18 +1,26 @@
 [
   {
-    "id": "5393037",
-    "pregunta": "Counter-Strike: Spirit vs M80 - Map 2 Winner",
-    "ts": "2026-10-07T15:33:18.582224",
+    "id": "3399935",
+    "pregunta": "Will Kylian Mbapp\u00e9 finish in the top 3 of the 2026 Ballon d'Or?",
+    "ts": "2026-10-07T15:43:24.385695",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+    "whale_wallet": "0xaf3f36aee929ae495fbcf56fd95907147e0db43e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5380293",
-    "pregunta": "Palermo: Gianluca Cadenasso vs Massimo Giunta",
-    "ts": "2026-10-07T15:33:19.641825",
+    "id": "608547",
+    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "ts": "2026-10-07T15:43:25.460192",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+    "whale_wallet": "0xaf3f36aee929ae495fbcf56fd95907147e0db43e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "608545",
+    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+    "ts": "2026-10-07T15:43:26.514591",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaf3f36aee929ae495fbcf56fd95907147e0db43e",
     "whale_signal": "COMPRAR NO"
   }
 ]
