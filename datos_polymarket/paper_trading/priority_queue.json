@@ -1,18 +1,42 @@
 [
   {
-    "id": "5325696",
-    "pregunta": "LoL: FlyQuest vs Shopify Rebellion - Game 2 Winner",
-    "ts": "2026-10-07T06:34:01.071226",
+    "id": "5324132",
+    "pregunta": "Counter-Strike: G2 Ares vs SINQU (BO1) - Roman Imperium Cup Group A",
+    "ts": "2026-10-07T06:43:31.237073",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1f313a980c5cfd4444f66bcf40563eb900e5402",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4913779",
-    "pregunta": "Botafogo FR vs. CR Vasco da Gama: Botafogo FR O/U 3.5 Corners",
-    "ts": "2026-10-07T06:34:03.031591",
+    "id": "5324337",
+    "pregunta": "Counter-Strike: OG vs Falcons Force (BO1) - Roman Imperium Cup Group A",
+    "ts": "2026-10-07T06:43:32.332755",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe8ca3f758c93f44f3ec210542ab78afb7c0bcccb",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5324386",
+    "pregunta": "Counter-Strike: Falcons Force vs Orion Wanderers (BO1) - Roman Imperium Cup Group A",
+    "ts": "2026-10-07T06:43:33.408980",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5310422",
+    "pregunta": "Counter-Strike: HOTU vs STATE (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
+    "ts": "2026-10-07T06:43:34.497154",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5305632",
+    "pregunta": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-07T06:43:38.536922",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ba711c5cf8d430e7d1e0b94a07e0a522f608732",
     "whale_signal": "COMPRAR NO"
   }
 ]
