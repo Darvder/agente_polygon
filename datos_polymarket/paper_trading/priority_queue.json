@@ -1,26 +1,18 @@
 [
   {
-    "id": "5375164",
-    "pregunta": "FK Neftchi Fargona vs. Xorazm Fk Urganch: O/U 5.5",
-    "ts": "2026-10-07T09:33:54.537675",
+    "id": "5320319",
+    "pregunta": "Shanghai Rolex Masters: Holger Rune vs Daniel Altmaier",
+    "ts": "2026-10-07T09:44:48.848429",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9be051ddfb45b9b31391dd37323925f61fa9b5fd",
+    "whale_wallet": "0xbaddefe34aa18376d19f16be054b059803e1e097",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5374716",
-    "pregunta": "Will FK Neftchi Fargona win on 2026-10-07?",
-    "ts": "2026-10-07T09:33:55.579792",
+    "id": "608545",
+    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+    "ts": "2026-10-07T09:44:51.001112",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9be051ddfb45b9b31391dd37323925f61fa9b5fd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5331908",
-    "pregunta": "Braga: Patrick Schoen vs Andrej Nedic",
-    "ts": "2026-10-07T09:33:57.667950",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
+    "whale_wallet": "0x22d3f8a94992261392eed316429b466d72895e3a",
     "whale_signal": "COMPRAR NO"
   }
 ]
