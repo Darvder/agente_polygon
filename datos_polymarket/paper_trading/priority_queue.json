@@ -1,18 +1,26 @@
 [
   {
-    "id": "5391622",
-    "pregunta": "W35 Lagos: Valeria Savinykh vs Lizette Cabrera",
-    "ts": "2026-10-07T12:23:53.298176",
+    "id": "5393027",
+    "pregunta": "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-07T12:33:50.077590",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8546a601f7c7cc3dae7141f20b0e09e42bbf35b8",
+    "whale_wallet": "0x2cea147625e653974b96182a5cbcc1c4911b4ecc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5391634",
-    "pregunta": "W50 Lexington, SC: Yuki Naito vs Alexis Nguyen",
-    "ts": "2026-10-07T12:23:54.375153",
+    "id": "5407326",
+    "pregunta": "Will the price of Ethereum be above $2,700 on October 14?",
+    "ts": "2026-10-07T12:33:52.307778",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8546a601f7c7cc3dae7141f20b0e09e42bbf35b8",
+    "whale_wallet": "0x9b20ecf9520ba74e7869318fd13acd459751b887",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5259177",
+    "pregunta": "Braga: Florian Broska vs Lukas Neumayer",
+    "ts": "2026-10-07T12:33:59.126986",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xafef98246f384449a4e13aa779e7cb414d7ff50e",
     "whale_signal": "COMPRAR NO"
   }
 ]
