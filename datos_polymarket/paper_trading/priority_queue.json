@@ -1,26 +1,34 @@
 [
   {
-    "id": "5392196",
-    "pregunta": "Map Handicap: TdP (-1.5) vs BORRACHEIROS (+1.5)",
-    "ts": "2026-10-07T15:53:40.804407",
+    "id": "5175503",
+    "pregunta": "Cleveland Guardians vs. Chicago White Sox",
+    "ts": "2026-10-07T16:03:31.941378",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe49fc6b512179146a38a0e72f18035b89e0c587e",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5392195",
-    "pregunta": "Map Handicap: LDP (-1.5) vs METANOIA WOLVES (+1.5)",
-    "ts": "2026-10-07T15:53:41.977630",
+    "id": "5350602",
+    "pregunta": "Cleveland Guardians vs. Chicago White Sox: O/U 8.5",
+    "ts": "2026-10-07T16:03:32.994886",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe49fc6b512179146a38a0e72f18035b89e0c587e",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5369841",
-    "pregunta": "Counter-Strike: Turma do Pagode vs BORRACHEIROS - Map 1 Winner",
-    "ts": "2026-10-07T15:53:43.119495",
+    "id": "5346677",
+    "pregunta": "New York Liberty vs. Atlanta Dream: O/U 170.5",
+    "ts": "2026-10-07T16:03:34.052899",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe49fc6b512179146a38a0e72f18035b89e0c587e",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5361542",
+    "pregunta": "Tampa Bay Rays vs. New York Yankees: O/U 7.5",
+    "ts": "2026-10-07T16:03:35.106133",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
