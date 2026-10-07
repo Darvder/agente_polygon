@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5305614",
+    "pregunta": "Valorant: NRG vs T1 - Map 2 Winner",
+    "ts": "2026-10-07T05:55:32.364818",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3e24e5e90dd24fc0c033f8a7ae742a8e59b34fab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5395444",
+    "pregunta": "Counter-Strike: Gothic vs LPH Gaming - Map 2 Winner",
+    "ts": "2026-10-07T05:55:34.573162",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa6ffeabe65081d9ec75779733481618f21743555",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5392520",
+    "pregunta": "Counter-Strike: Gothic vs Esport Academy Copenhagen (BO3) - CCT Europe Series #10 Playoffs",
+    "ts": "2026-10-07T05:55:35.666401",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa6ffeabe65081d9ec75779733481618f21743555",
+    "whale_signal": "COMPRAR NO"
+  }
+]
