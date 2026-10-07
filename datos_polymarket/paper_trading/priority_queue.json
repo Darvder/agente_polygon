@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5395089",
+    "pregunta": "Milwaukee Brewers vs. San Diego Padres: O/U 5.5",
+    "ts": "2026-10-06T21:53:32.359080",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbac81bb1c0e3ec89ea86f1067ecdbb93bc838d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5073572",
+    "pregunta": "Will Mexico win on 2026-10-05?",
+    "ts": "2026-10-06T21:53:34.410600",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb3a293fe14c3f46f1bdc7aba7cab559aa29d1cc",
+    "whale_signal": "COMPRAR NO"
+  }
+]
