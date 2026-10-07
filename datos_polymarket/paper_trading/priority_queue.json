@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5287859",
+    "pregunta": "Samsun: Elena Pridankina vs Anna Blinkova",
+    "ts": "2026-10-07T03:53:36.378193",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x21801da197fabf39eea52f64f70544574b9508f0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5325672",
+    "pregunta": "LoL: GAM Esports vs Shopify Rebellion - Game 1 Winner",
+    "ts": "2026-10-07T03:53:38.408921",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x24d33fdf5861dc16ee13407a73f40b1ae24230ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5170772",
+    "pregunta": "Will Ethereum reach $2,900 in October?",
+    "ts": "2026-10-07T03:53:40.191736",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
