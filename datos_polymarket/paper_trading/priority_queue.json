@@ -1,10 +1,26 @@
 [
   {
-    "id": "5380281",
-    "pregunta": "Shanghai Rolex Masters: Marco Trungelliti vs Rei Sakamoto",
-    "ts": "2026-10-07T02:34:03.911873",
+    "id": "5380273",
+    "pregunta": "Shanghai Rolex Masters: Quentin Halys vs Coleman Wong",
+    "ts": "2026-10-07T02:44:41.344318",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb6b3f9deb65ed28e8aeef663192901778c409441",
+    "whale_wallet": "0xd9dde44ddeababae222bf7aec96c85cbdab6b525",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5380275",
+    "pregunta": "Shanghai Rolex Masters: Alex Molcan vs Federico Cina",
+    "ts": "2026-10-07T02:44:42.430097",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9dde44ddeababae222bf7aec96c85cbdab6b525",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320313",
+    "pregunta": "Shanghai Rolex Masters: Zhizhen Zhang vs Tomas Machac",
+    "ts": "2026-10-07T02:44:43.490494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd9dde44ddeababae222bf7aec96c85cbdab6b525",
     "whale_signal": "COMPRAR NO"
   }
 ]
