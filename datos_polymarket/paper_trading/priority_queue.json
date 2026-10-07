@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5392284",
+    "pregunta": "Dota 2: Team Synapse vs LEGION - Game 1 Winner",
+    "ts": "2026-10-07T10:55:13.124879",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc1de5ffb02d2b354932ccf5e31172545965e21f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320325",
+    "pregunta": "Shanghai Rolex Masters: Hubert Hurkacz vs James Duckworth",
+    "ts": "2026-10-07T10:55:15.018721",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393027",
+    "pregunta": "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+    "ts": "2026-10-07T10:55:16.114742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
