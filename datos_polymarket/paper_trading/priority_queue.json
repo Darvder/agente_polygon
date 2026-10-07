@@ -1,34 +1,26 @@
 [
   {
-    "id": "5287859",
-    "pregunta": "Samsun: Elena Pridankina vs Anna Blinkova",
-    "ts": "2026-10-07T04:34:32.485743",
+    "id": "5325672",
+    "pregunta": "LoL: GAM Esports vs Shopify Rebellion - Game 1 Winner",
+    "ts": "2026-10-07T04:46:27.049060",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f16a66df16a707334d89704631338ae7a770246",
+    "whale_wallet": "0x78c930ac41f25afca28f19ce7aea62d9f7f2f9b2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5320330",
-    "pregunta": "Shanghai Rolex Masters: Yannick Hanfmann vs Kamil Majchrzak",
-    "ts": "2026-10-07T04:34:33.524832",
+    "id": "5325673",
+    "pregunta": "LoL: GAM Esports vs Shopify Rebellion - Game 2 Winner",
+    "ts": "2026-10-07T04:46:28.116657",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f16a66df16a707334d89704631338ae7a770246",
+    "whale_wallet": "0x78c930ac41f25afca28f19ce7aea62d9f7f2f9b2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5380273",
-    "pregunta": "Shanghai Rolex Masters: Quentin Halys vs Coleman Wong",
-    "ts": "2026-10-07T04:34:35.344742",
+    "id": "5311866",
+    "pregunta": "Will Bitcoin dip to $80,000 October 5-11?",
+    "ts": "2026-10-07T04:46:30.632191",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5375164",
-    "pregunta": "FK Neftchi Fargona vs. Xorazm Fk Urganch: O/U 5.5",
-    "ts": "2026-10-07T04:34:36.386944",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
