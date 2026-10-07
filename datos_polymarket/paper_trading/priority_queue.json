@@ -1,10 +1,66 @@
 [
   {
-    "id": "5400408",
-    "pregunta": "Carles Puigdemont back in Spain by October 31, 2026?",
-    "ts": "2026-10-07T07:32:49.762965",
+    "id": "5330839",
+    "pregunta": "Samsun: Polina Iatcenko vs Dalma Galfi",
+    "ts": "2026-10-07T07:43:30.311882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1359911d098bf507069e7e22370e6f6cae3f092e",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5331922",
+    "pregunta": "Villena: Francesco Maestrelli vs Oliver Tarvet",
+    "ts": "2026-10-07T07:43:31.389615",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5380309",
+    "pregunta": "Palermo: Zdenek Kolar vs Michele Ribecai",
+    "ts": "2026-10-07T07:43:32.445110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5319471",
+    "pregunta": "China Open: Alina Charaeva vs Qinwen Zheng",
+    "ts": "2026-10-07T07:43:33.489914",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5380299",
+    "pregunta": "Shanghai Rolex Masters: Mattia Bellucci vs Yi Zhou",
+    "ts": "2026-10-07T07:43:34.569381",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375271",
+    "pregunta": "W50 Burgas: Lia Karatancheva vs Luisina Giovannini",
+    "ts": "2026-10-07T07:43:35.621935",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5331916",
+    "pregunta": "Villena: Philip Henning vs Maks Kasnikowski",
+    "ts": "2026-10-07T07:43:36.679073",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320317",
+    "pregunta": "Shanghai Rolex Masters: Arthur Fery vs Marin Cilic",
+    "ts": "2026-10-07T07:43:37.736983",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
     "whale_signal": "COMPRAR NO"
   }
 ]
