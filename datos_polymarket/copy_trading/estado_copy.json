@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1737.29,
-  "capital_en_riesgo": 461.05,
-  "n_ciclos": 39988,
-  "ultima_corrida": "2026-10-08 17:25",
+  "capital_actual": 1716.48,
+  "capital_en_riesgo": 461.16,
+  "n_ciclos": 39989,
+  "ultima_corrida": "2026-10-08 17:36",
   "n_tp": 893,
-  "n_sl": 618,
+  "n_sl": 619,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 35.1,
-    "capital_en_riesgo": 58.8,
+    "capital_actual": 31.61,
+    "capital_en_riesgo": 59.75,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 391,
-    "n_sl": 280,
+    "n_sl": 281,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-02",
@@ -251,7 +251,7 @@
         "pregunta": "Will Ethereum dip to $2,250 by December 31, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.535,
-        "precio_actual": 0.505,
+        "precio_actual": 0.51,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.14,
@@ -323,26 +323,6 @@
       },
       {
         "fecha_entrada": "2026-10-08",
-        "fecha_entrada_dt": "2026-10-08 16:54",
-        "target_wallet": "0x3eb3acfabb3efb4a68cc5d61e495e1c9d3f24d75",
-        "market_id": "5422429",
-        "condition_id": "0x49729e5502bfc445dfb8aabf89be4fa1a92d2867e1fb1f18c27848facab0ecd7",
-        "token_id": "60283678737914110978625318278654845243216888947783800595273859871166401996211",
-        "pregunta": "LoL: Maryville University vs Cupid Esports - Game 2 Winner",
-        "outcome": "Cupid Esports",
-        "precio_token_entrada": 0.565,
-        "precio_actual": 0.32,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.05,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x66310f67dbf42bdc28aa1b04d32c3626fafa65ccdd94a82f2c45217d9cb94f34"
-      },
-      {
-        "fecha_entrada": "2026-10-08",
         "fecha_entrada_dt": "2026-10-08 17:15",
         "target_wallet": "0xf403a1583d518513c1341347a785805fc7cf8a59",
         "market_id": "5405587",
@@ -360,6 +340,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x936a2bdcb9496963aa9467722c313f94b46ae7127006726c66a42b06934e9973"
+      },
+      {
+        "fecha_entrada": "2026-10-08",
+        "fecha_entrada_dt": "2026-10-08 17:35",
+        "target_wallet": "0xf3a6ac44c5c90ff2b4afa4459f71acc2e57971bd",
+        "market_id": "5430736",
+        "condition_id": "0x0236934cc3f63618b2a070b3c7b810ce21e04844839b179731701e9fb793a955",
+        "token_id": "31874280709040798187334961716025211209175246436015488837875059621473863535104",
+        "pregunta": "Pelicans vs. Heat: O/U 233.5",
+        "outcome": "Over",
+        "precio_token_entrada": 0.535,
+        "precio_actual": 0.535,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 4.0,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0x7b5c6c00dd6115f25dd49ff5fb6f2a75622ed146324aefe57ca1d6b26167d036"
       }
     ],
     "historial_cerradas": [
@@ -13782,6 +13782,26 @@
         "pnl_realizado": -1.8,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x3f9e55a07405baba20b369599cc8a3328b78fd0edda1a1527f42b7e9288d8c0e"
+      },
+      {
+        "fecha_entrada": "2026-10-08",
+        "fecha_entrada_dt": "2026-10-08 16:54",
+        "target_wallet": "0x3eb3acfabb3efb4a68cc5d61e495e1c9d3f24d75",
+        "market_id": "5422429",
+        "condition_id": "0x49729e5502bfc445dfb8aabf89be4fa1a92d2867e1fb1f18c27848facab0ecd7",
+        "token_id": "60283678737914110978625318278654845243216888947783800595273859871166401996211",
+        "pregunta": "LoL: Maryville University vs Cupid Esports - Game 2 Winner",
+        "outcome": "Cupid Esports",
+        "precio_token_entrada": 0.565,
+        "precio_actual": 0.095,
+        "precio_cierre": 0.095,
+        "pct_cambio": -0.8319,
+        "monto_usdc": 3.05,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-08 17:36",
+        "pnl_realizado": -2.54,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x66310f67dbf42bdc28aa1b04d32c3626fafa65ccdd94a82f2c45217d9cb94f34"
       }
     ]
   }
