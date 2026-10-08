@@ -1,10 +1,18 @@
 [
   {
-    "id": "5175509",
-    "pregunta": "Cleveland Guardians vs. Chicago White Sox",
-    "ts": "2026-10-08T17:44:32.342074",
+    "id": "3399935",
+    "pregunta": "Will Kylian Mbapp\u00e9 finish in the top 3 of the 2026 Ballon d'Or?",
+    "ts": "2026-10-08T17:55:18.940608",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8bb006d1bb8b1c5735da79e81637e3dad6e3ca79",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "608545",
+    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+    "ts": "2026-10-08T17:55:20.005153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
     "whale_signal": "COMPRAR NO"
   }
 ]
