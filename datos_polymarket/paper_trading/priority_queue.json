@@ -1,10 +1,18 @@
 [
   {
-    "id": "5428884",
-    "pregunta": "Dota 2: PARIVISION vs Team Yandex - Game 1 Winner",
-    "ts": "2026-10-08T12:13:58.279785",
+    "id": "5339986",
+    "pregunta": "Israel x Iran ceasefire continues through November 15?",
+    "ts": "2026-10-08T12:23:15.440997",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb64fe08cf7ebbf52cf2963bba89deb13b79ddc88",
+    "whale_wallet": "0x4c2da46b289847e3e8377c6f4ca3d520c620f8ae",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-10-08T12:23:16.502163",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c2da46b289847e3e8377c6f4ca3d520c620f8ae",
     "whale_signal": "COMPRAR NO"
   }
 ]
