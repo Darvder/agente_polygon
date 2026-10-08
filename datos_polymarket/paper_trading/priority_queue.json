@@ -1,26 +1,18 @@
 [
   {
-    "id": "5320339",
-    "pregunta": "Shanghai Rolex Masters: Fabian Marozsan vs Zachary Svajda",
-    "ts": "2026-10-08T03:52:55.706554",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5320343",
     "pregunta": "Shanghai Rolex Masters: Mariano Navone vs Pablo Carreno Busta",
-    "ts": "2026-10-08T03:52:56.769398",
+    "ts": "2026-10-08T04:04:31.621067",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0x351f51e4a6e48d36c79ada2e0ed3fe43929db0d8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5320351",
-    "pregunta": "Shanghai Rolex Masters: Marcos Giron vs Sebastian Baez",
-    "ts": "2026-10-08T03:52:57.875634",
+    "id": "4411097",
+    "pregunta": "Will Benin win AFCON 2027 qualifying Group F?",
+    "ts": "2026-10-08T04:04:34.882584",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xc23c4edc4816b0aef9401b7aad02d19ed4724fea",
     "whale_signal": "COMPRAR NO"
   }
 ]
