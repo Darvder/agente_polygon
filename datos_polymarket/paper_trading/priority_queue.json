@@ -1,26 +1,34 @@
 [
   {
-    "id": "5414684",
-    "pregunta": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-08T11:15:32.502826",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3eb31daa061a19855cbf0a4884c202fb86976a2a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5170733",
-    "pregunta": "Will Bitcoin reach $92,500 in October?",
-    "ts": "2026-10-08T11:15:37.056876",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x01299eda022e674a25366999bd4444c7715ef939",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5247179",
     "pregunta": "Dota 2: Aurora vs 1win - Game 2 Winner",
-    "ts": "2026-10-08T11:15:42.396701",
+    "ts": "2026-10-08T11:24:41.923682",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_wallet": "0x23cb737291afa36d7e8e1a23e3fd37b667da80d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5195337",
+    "pregunta": "Celtics vs. Cavaliers",
+    "ts": "2026-10-08T11:24:44.023852",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x440564023990d2ffbedb91a188e8f8de0afd7508",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5259183",
+    "pregunta": "Shamrock Rovers vs. Drogheda United FC: O/U 2.5",
+    "ts": "2026-10-08T11:24:45.214886",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x440564023990d2ffbedb91a188e8f8de0afd7508",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4936103",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in October?",
+    "ts": "2026-10-08T11:24:47.041813",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
