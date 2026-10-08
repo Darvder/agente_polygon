@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5380324",
+    "pregunta": "Shanghai Rolex Masters: Pavel Kotov vs Tallon Griekspoor",
+    "ts": "2026-10-08T00:54:39.479979",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5320328",
+    "pregunta": "Shanghai Rolex Masters: Jaume Munar vs Jenson Brooksby",
+    "ts": "2026-10-08T00:54:40.532667",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5405575",
+    "pregunta": "M25 Darwin: Ethan Cook vs Philip Sekulic",
+    "ts": "2026-10-08T00:54:42.632698",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ac8457ed2aca137619956eed4924b9275e0c7d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
