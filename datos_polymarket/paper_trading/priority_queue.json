@@ -1,10 +1,18 @@
 [
   {
-    "id": "5167480",
-    "pregunta": "Timberwolves vs. Pacers",
-    "ts": "2026-10-07T19:33:35.519870",
+    "id": "5404885",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-07T19:45:01.233735",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0x03333873d9bf65a51946d2adda1c57702283f234",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5404908",
+    "pregunta": "LoL: FlyQuest vs RED Canids (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-07T19:45:02.283943",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x03333873d9bf65a51946d2adda1c57702283f234",
     "whale_signal": "COMPRAR NO"
   }
 ]
