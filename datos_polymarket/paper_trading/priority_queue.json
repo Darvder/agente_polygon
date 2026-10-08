@@ -1,10 +1,18 @@
 [
   {
-    "id": "5428890",
-    "pregunta": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
-    "ts": "2026-10-08T15:53:56.330583",
+    "id": "4864990",
+    "pregunta": "Spread: Cowboys (-10.5)",
+    "ts": "2026-10-08T16:04:46.757281",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x033eeb3efed4a42059faace467c5c3f6eb2e1bb9",
+    "whale_wallet": "0x3832289e6aca6b9444f6d9a4a2a8392f434535e1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630963",
+    "pregunta": "Will the Democrats win the Texas Senate race in 2026?",
+    "ts": "2026-10-08T16:04:47.804290",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3832289e6aca6b9444f6d9a4a2a8392f434535e1",
     "whale_signal": "COMPRAR NO"
   }
 ]
