@@ -1,66 +1,10 @@
 [
   {
-    "id": "5430736",
-    "pregunta": "Pelicans vs. Heat: O/U 233.5",
-    "ts": "2026-10-08T17:35:41.413054",
+    "id": "5175509",
+    "pregunta": "Cleveland Guardians vs. Chicago White Sox",
+    "ts": "2026-10-08T17:44:32.342074",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf3a6ac44c5c90ff2b4afa4459f71acc2e57971bd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5430740",
-    "pregunta": "Pelicans vs. Heat: O/U 235.5",
-    "ts": "2026-10-08T17:35:42.499891",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf3a6ac44c5c90ff2b4afa4459f71acc2e57971bd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5424051",
-    "pregunta": "Shanghai Rolex Masters: Alex de Minaur vs Alex Molcan",
-    "ts": "2026-10-08T17:35:44.284031",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5405370",
-    "pregunta": "Spread: Hurricanes (-1.5)",
-    "ts": "2026-10-08T17:35:46.142213",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4469760",
-    "pregunta": "Wild vs. Lightning",
-    "ts": "2026-10-08T17:35:47.236689",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4911438",
-    "pregunta": "Will Atl\u00e9tico Nacional win on 2026-10-07?",
-    "ts": "2026-10-08T17:35:48.302602",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4061695",
-    "pregunta": "Spread: Cowboys (-6.5)",
-    "ts": "2026-10-08T17:35:49.407183",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4469803",
-    "pregunta": "Canucks vs. Hurricanes",
-    "ts": "2026-10-08T17:35:50.506754",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x8bb006d1bb8b1c5735da79e81637e3dad6e3ca79",
     "whale_signal": "COMPRAR NO"
   }
 ]
