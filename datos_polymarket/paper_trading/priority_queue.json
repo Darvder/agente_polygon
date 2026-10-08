@@ -1,10 +1,42 @@
 [
   {
-    "id": "4947463",
-    "pregunta": "Cruzeiro EC vs. S\u00e3o Paulo FC: O/U 2.5",
-    "ts": "2026-10-07T20:55:27.205183",
+    "id": "5094195",
+    "pregunta": "Spread: Jacksonville State (-5.5)",
+    "ts": "2026-10-07T21:04:05.790523",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x34a1eed3f6bb10dd2f99b79cb4e8ca8749ae7622",
+    "whale_wallet": "0x710c4447028830ebc66f53780d15907bc20f7795",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167474",
+    "pregunta": "Bucks vs. Thunder",
+    "ts": "2026-10-07T21:04:06.857721",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x710c4447028830ebc66f53780d15907bc20f7795",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094185",
+    "pregunta": "Jacksonville State vs. Kennesaw State",
+    "ts": "2026-10-07T21:04:07.926944",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x710c4447028830ebc66f53780d15907bc20f7795",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094203",
+    "pregunta": "Spread: Kennesaw State (-2.5)",
+    "ts": "2026-10-07T21:04:09.020097",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x710c4447028830ebc66f53780d15907bc20f7795",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167471",
+    "pregunta": "Magic vs. Grizzlies",
+    "ts": "2026-10-07T21:04:10.079288",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x710c4447028830ebc66f53780d15907bc20f7795",
     "whale_signal": "COMPRAR NO"
   }
 ]
