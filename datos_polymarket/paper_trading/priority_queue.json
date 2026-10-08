@@ -1,18 +1,26 @@
 [
   {
-    "id": "5380320",
-    "pregunta": "Antofagasta: Miguel Tobon vs Tomas Barrios",
-    "ts": "2026-10-08T14:55:52.993234",
+    "id": "630964",
+    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
+    "ts": "2026-10-08T15:04:20.096930",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd1aaf6c0894158520678771a8b3d45832e89f105",
+    "whale_wallet": "0xb153ac5a9068d4669d5b686d09d2d318b640ba16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5259186",
-    "pregunta": "Shamrock Rovers vs. Drogheda United FC: O/U 5.5",
-    "ts": "2026-10-08T14:55:57.763177",
+    "id": "3503091",
+    "pregunta": "Will Tee Higgins have 10.5+ receiving touchdowns in the 2026-27 NFL regular season?",
+    "ts": "2026-10-08T15:04:23.064691",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd1aaf6c0894158520678771a8b3d45832e89f105",
+    "whale_wallet": "0xbceb50be0fa7525e47f303370f7cf4e355c30049",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3959884",
+    "pregunta": "Will Tee Higgins have 10+ receiving touchdowns in the 2026-27 NFL regular season?",
+    "ts": "2026-10-08T15:04:24.211236",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbceb50be0fa7525e47f303370f7cf4e355c30049",
     "whale_signal": "COMPRAR NO"
   }
 ]
