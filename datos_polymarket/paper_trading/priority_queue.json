@@ -1,34 +1,66 @@
 [
   {
-    "id": "3951230",
-    "pregunta": "Buccaneers vs. Cowboys",
-    "ts": "2026-10-08T10:55:15.472670",
+    "id": "5425163",
+    "pregunta": "Game Handicap: CPD (-1.5) vs Maryville University (+1.5)",
+    "ts": "2026-10-08T11:05:12.067244",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa1e6ba93d878b71a895f80fcb5c36337143fe1c2",
+    "whale_wallet": "0xddf37336be71210729a5b79d62d90d6b2bdf8d34",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5247179",
-    "pregunta": "Dota 2: Aurora vs 1win - Game 2 Winner",
-    "ts": "2026-10-08T10:55:17.390666",
+    "id": "5114486",
+    "pregunta": "Will Elon Musk post 300-319 tweets from October 2 to October 9, 2026?",
+    "ts": "2026-10-08T11:05:14.319570",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8dc5667e182f4ba1ac9c8a6ed02db849e05fc07d",
+    "whale_wallet": "0xb0ccfba29aaf3c20ce28cf97349c951ba589f09b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5311606",
+    "pregunta": "George Pickens: Receptions O/U 4.5",
+    "ts": "2026-10-08T11:05:16.560073",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5331121e9f2f206d8c06ae6235761b1a3f8d3672",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5290959",
+    "pregunta": "George Pickens: Anytime Touchdown",
+    "ts": "2026-10-08T11:05:18.325033",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5331121e9f2f206d8c06ae6235761b1a3f8d3672",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5421193",
+    "pregunta": "Cleveland Guardians winning after 5 innings?",
+    "ts": "2026-10-08T11:05:19.573545",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5331121e9f2f206d8c06ae6235761b1a3f8d3672",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4469812",
+    "pregunta": "Stars vs. Sabres",
+    "ts": "2026-10-08T11:05:20.635096",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5331121e9f2f206d8c06ae6235761b1a3f8d3672",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4469820",
+    "pregunta": "Utah vs. Bruins",
+    "ts": "2026-10-08T11:05:21.710769",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5331121e9f2f206d8c06ae6235761b1a3f8d3672",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5408296",
     "pregunta": "Villena: Max Hans Rehberg vs Hynek Barton",
-    "ts": "2026-10-08T10:55:19.410393",
+    "ts": "2026-10-08T11:05:23.792257",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5347057",
-    "pregunta": "Braga: Zsombor Piros vs Elmer Moeller",
-    "ts": "2026-10-08T10:55:20.459164",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
+    "whale_wallet": "0xa39a38fbb98ad026c5a6b126d74d891e1be51246",
     "whale_signal": "COMPRAR NO"
   }
 ]
