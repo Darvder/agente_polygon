@@ -1,10 +1,26 @@
 [
   {
-    "id": "5204832",
-    "pregunta": "Maccabi Tel Aviv vs. Olimpia Milano",
-    "ts": "2026-10-08T11:36:04.545880",
+    "id": "5428890",
+    "pregunta": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-08T11:43:45.688445",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06b0b853a450a23696639253c2f07b8819b8afd6",
+    "whale_wallet": "0xa1f4714c78813491eedad8c7c162236be45c9681",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4977835",
+    "pregunta": "SE Palmeiras vs. EC Bahia: O/U 4.5",
+    "ts": "2026-10-08T11:43:48.124054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393328",
+    "pregunta": "Palermo: Carlo Alberto Caniato vs Francesco Passaro",
+    "ts": "2026-10-08T11:43:49.159748",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
     "whale_signal": "COMPRAR NO"
   }
 ]
