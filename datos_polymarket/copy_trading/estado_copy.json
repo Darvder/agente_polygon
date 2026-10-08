@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1899.22,
-  "capital_en_riesgo": 288.01,
-  "n_ciclos": 39885,
-  "ultima_corrida": "2026-10-08 00:16",
-  "n_tp": 865,
+  "capital_actual": 1930.21,
+  "capital_en_riesgo": 263.01,
+  "n_ciclos": 39886,
+  "ultima_corrida": "2026-10-08 00:24",
+  "n_tp": 866,
   "n_sl": 591,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 56.22,
-    "capital_en_riesgo": 44.59,
+    "capital_actual": 60.19,
+    "capital_en_riesgo": 41.39,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 363,
+    "n_tp": 364,
     "n_sl": 254,
     "posiciones_abiertas": [
       {
@@ -91,7 +91,7 @@
         "pregunta": "Will Bitcoin reach $92,500 in October?",
         "outcome": "No",
         "precio_token_entrada": 0.605,
-        "precio_actual": 0.775,
+        "precio_actual": 0.755,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -240,26 +240,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x7eb298b39d41425cb898ca42c5e8c83c9e5437083b4c328c0fb1069906282923"
-      },
-      {
-        "fecha_entrada": "2026-10-08",
-        "fecha_entrada_dt": "2026-10-08 00:15",
-        "target_wallet": "0xbdc3e475821b3512b1ae1a492f89d15323e4c0ea",
-        "market_id": "5320334",
-        "condition_id": "0xf4326228240f3756c9df90d8e09705c17eb44961865b4850ee1f4a322ed61dc8",
-        "token_id": "86442538400387854439276287068614801754563759737258948316204329315060109185425",
-        "pregunta": "Shanghai Rolex Masters: Nuno Borges vs Facundo Acosta",
-        "outcome": "Nuno Borges",
-        "precio_token_entrada": 0.73,
-        "precio_actual": 0.73,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.2,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x242a8f0da9233fbfd3ceb4b993ef2298a93d3f614accfed27ed4cb0965409713"
       },
       {
         "fecha_entrada": "2026-10-08",
@@ -12622,6 +12602,26 @@
         "pnl_realizado": 1.32,
         "razon_cierre": "RESOLVED_EXIT",
         "tx_hash": "0xb52ea1303648cc444c96be9ffc6cbd9e5d59e7fb6b4c40314d8eaf7bf1d9aa03"
+      },
+      {
+        "fecha_entrada": "2026-10-08",
+        "fecha_entrada_dt": "2026-10-08 00:15",
+        "target_wallet": "0xbdc3e475821b3512b1ae1a492f89d15323e4c0ea",
+        "market_id": "5320334",
+        "condition_id": "0xf4326228240f3756c9df90d8e09705c17eb44961865b4850ee1f4a322ed61dc8",
+        "token_id": "86442538400387854439276287068614801754563759737258948316204329315060109185425",
+        "pregunta": "Shanghai Rolex Masters: Nuno Borges vs Facundo Acosta",
+        "outcome": "Nuno Borges",
+        "precio_token_entrada": 0.73,
+        "precio_actual": 0.905,
+        "precio_cierre": 0.905,
+        "pct_cambio": 0.2397,
+        "monto_usdc": 3.2,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-08 00:24",
+        "pnl_realizado": 0.77,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x242a8f0da9233fbfd3ceb4b993ef2298a93d3f614accfed27ed4cb0965409713"
       }
     ]
   }
