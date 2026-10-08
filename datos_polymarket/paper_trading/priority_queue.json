@@ -1,58 +1,10 @@
 [
   {
-    "id": "4947524",
-    "pregunta": "Botafogo FR vs. CR Vasco da Gama: O/U 3.5",
-    "ts": "2026-10-07T20:45:33.927513",
+    "id": "4947463",
+    "pregunta": "Cruzeiro EC vs. S\u00e3o Paulo FC: O/U 2.5",
+    "ts": "2026-10-07T20:55:27.205183",
     "origen": "whale_copytrader",
     "whale_wallet": "0x34a1eed3f6bb10dd2f99b79cb4e8ca8749ae7622",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4947462",
-    "pregunta": "Cruzeiro EC vs. S\u00e3o Paulo FC: O/U 1.5",
-    "ts": "2026-10-07T20:45:34.994534",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x34a1eed3f6bb10dd2f99b79cb4e8ca8749ae7622",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4947472",
-    "pregunta": "Cruzeiro EC vs. S\u00e3o Paulo FC: 1st Half O/U 0.5",
-    "ts": "2026-10-07T20:45:37.047901",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x792edc35edfc9a90d12338fd7fe65139da48fd6c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5361542",
-    "pregunta": "Tampa Bay Rays vs. New York Yankees: O/U 7.5",
-    "ts": "2026-10-07T20:45:38.123302",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x792edc35edfc9a90d12338fd7fe65139da48fd6c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4440789",
-    "pregunta": "Avalanche vs. Jets",
-    "ts": "2026-10-07T20:45:42.330557",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x689f7d0a49d2646dc199848ffbdb4757242e259c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5175505",
-    "pregunta": "Tampa Bay Rays vs. New York Yankees",
-    "ts": "2026-10-07T20:45:43.400315",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x689f7d0a49d2646dc199848ffbdb4757242e259c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5175507",
-    "pregunta": "Milwaukee Brewers vs. San Diego Padres",
-    "ts": "2026-10-07T20:45:44.466930",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x689f7d0a49d2646dc199848ffbdb4757242e259c",
     "whale_signal": "COMPRAR NO"
   }
 ]
