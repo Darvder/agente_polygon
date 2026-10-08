@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5218877",
+    "pregunta": "Will Micron (MU) finish week of October 5 above $1,080?",
+    "ts": "2026-10-08T02:13:29.813455",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5218880",
+    "pregunta": "Will Micron (MU) finish week of October 5 above $1,090?",
+    "ts": "2026-10-08T02:13:30.959735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
+    "whale_signal": "COMPRAR NO"
+  }
+]
