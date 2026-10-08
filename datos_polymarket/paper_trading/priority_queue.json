@@ -1,10 +1,74 @@
 [
   {
-    "id": "5167477",
-    "pregunta": "Suns vs. Bulls",
-    "ts": "2026-10-07T20:24:28.793121",
+    "id": "5361546",
+    "pregunta": "Tampa Bay Rays vs. New York Yankees: O/U 6.5",
+    "ts": "2026-10-07T20:33:49.113718",
     "origen": "whale_copytrader",
     "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5221104",
+    "pregunta": "New York Liberty vs. Atlanta Dream",
+    "ts": "2026-10-07T20:33:50.182352",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5094185",
+    "pregunta": "Jacksonville State vs. Kennesaw State",
+    "ts": "2026-10-07T20:33:51.223994",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5167471",
+    "pregunta": "Magic vs. Grizzlies",
+    "ts": "2026-10-07T20:33:52.265613",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5361541",
+    "pregunta": "Spread: New York Yankees (-1.5)",
+    "ts": "2026-10-07T20:34:00.752417",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5398299",
+    "pregunta": "Milwaukee Brewers vs. San Diego Padres: O/U 8.5",
+    "ts": "2026-10-07T20:34:01.804148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5398296",
+    "pregunta": "Spread: Milwaukee Brewers (-1.5)",
+    "ts": "2026-10-07T20:34:02.939403",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5400425",
+    "pregunta": "W35 Wagga Wagga: I Wen Wan vs Tahlia Kokkinis",
+    "ts": "2026-10-07T20:34:03.986892",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5395104",
+    "pregunta": "W35 Las Vegas, NV: Francesca Mattioli vs Duru Soke",
+    "ts": "2026-10-07T20:34:05.032629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
     "whale_signal": "COMPRAR NO"
   }
 ]
