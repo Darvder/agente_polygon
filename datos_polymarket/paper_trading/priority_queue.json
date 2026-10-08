@@ -1,10 +1,18 @@
 [
   {
-    "id": "5428887",
-    "pregunta": "Dota 2: PARIVISION vs Team Yandex - Game 2 Winner",
-    "ts": "2026-10-08T14:45:37.094822",
+    "id": "5380320",
+    "pregunta": "Antofagasta: Miguel Tobon vs Tomas Barrios",
+    "ts": "2026-10-08T14:55:52.993234",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9055a9e36aa73274e3a92dc2dbb081bb4d9e756a",
+    "whale_wallet": "0xd1aaf6c0894158520678771a8b3d45832e89f105",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5259186",
+    "pregunta": "Shamrock Rovers vs. Drogheda United FC: O/U 5.5",
+    "ts": "2026-10-08T14:55:57.763177",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1aaf6c0894158520678771a8b3d45832e89f105",
     "whale_signal": "COMPRAR NO"
   }
 ]
