@@ -1,58 +1,26 @@
 [
   {
-    "id": "4977900",
-    "pregunta": "Fluminense FC vs. Coritiba FBC: Both Teams to Score",
-    "ts": "2026-10-08T09:55:14.660818",
+    "id": "5408286",
+    "pregunta": "Villena: Damir Dzumhur vs Abedallah Shelbayh",
+    "ts": "2026-10-08T10:05:03.222033",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_wallet": "0x606d65fca4f80b75926c106d0ac8d3ce90bf1aaf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5347057",
-    "pregunta": "Braga: Zsombor Piros vs Elmer Moeller",
-    "ts": "2026-10-08T09:55:15.718189",
+    "id": "2771492",
+    "pregunta": "Will Barcelona win the 2026-27 LALIGA Championship?",
+    "ts": "2026-10-08T10:05:04.286309",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_wallet": "0x606d65fca4f80b75926c106d0ac8d3ce90bf1aaf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5094959",
-    "pregunta": "Spread: Western Kentucky (-10.5)",
-    "ts": "2026-10-08T09:55:16.770286",
+    "id": "5419388",
+    "pregunta": "Counter-Strike: WBT vs NAVI Junior (BO3) - Roman Imperium Cup Playoffs",
+    "ts": "2026-10-08T10:05:12.636695",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5408296",
-    "pregunta": "Villena: Max Hans Rehberg vs Hynek Barton",
-    "ts": "2026-10-08T09:55:17.815193",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5395956",
-    "pregunta": "Will Al Duhail SC win on 2026-10-08?",
-    "ts": "2026-10-08T09:55:18.947520",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5416771",
-    "pregunta": "Counter-Strike: Lynn Vision vs Chinggis Warriors (BO3) - ESL Challenger League Asia-Pacific Cup #3 Playoffs",
-    "ts": "2026-10-08T09:55:23.862954",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x370575b7acf3d84ebb9cb003c2d470346cea9677",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5393318",
-    "pregunta": "Villena: Pablo Llamas Ruiz vs Petr Nesterov",
-    "ts": "2026-10-08T09:55:24.931196",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x370575b7acf3d84ebb9cb003c2d470346cea9677",
+    "whale_wallet": "0xa6035b8854b86d30dc65d70cfccb4090b3d47122",
     "whale_signal": "COMPRAR NO"
   }
 ]
