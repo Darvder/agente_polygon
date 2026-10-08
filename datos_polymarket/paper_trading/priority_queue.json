@@ -1,18 +1,58 @@
 [
   {
-    "id": "5311866",
-    "pregunta": "Will Bitcoin dip to $80,000 October 5-11?",
-    "ts": "2026-10-08T10:34:44.697957",
+    "id": "5114482",
+    "pregunta": "Will Elon Musk post 280-299 tweets from October 2 to October 9, 2026?",
+    "ts": "2026-10-08T10:46:16.741812",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x32ea2b9da53bd9d7128f4b6df542c33b1ba9105d",
+    "whale_wallet": "0x750545482cf883fcd5e7f7ad8e14d3f61a322978",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5422672",
-    "pregunta": "Will Bitcoin dip to $81,000 on October 8?",
-    "ts": "2026-10-08T10:34:45.781543",
+    "id": "5393318",
+    "pregunta": "Villena: Pablo Llamas Ruiz vs Petr Nesterov",
+    "ts": "2026-10-08T10:46:21.073907",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x32ea2b9da53bd9d7128f4b6df542c33b1ba9105d",
+    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5408296",
+    "pregunta": "Villena: Max Hans Rehberg vs Hynek Barton",
+    "ts": "2026-10-08T10:46:22.144052",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5395956",
+    "pregunta": "Will Al Duhail SC win on 2026-10-08?",
+    "ts": "2026-10-08T10:46:23.216710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5347057",
+    "pregunta": "Braga: Zsombor Piros vs Elmer Moeller",
+    "ts": "2026-10-08T10:46:24.264244",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5429529",
+    "pregunta": "Spread: Pakhtakor (-2.5)",
+    "ts": "2026-10-08T10:46:25.353942",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180873",
+    "pregunta": "Kuopion Palloseura vs. AC Oulu: O/U 2.5",
+    "ts": "2026-10-08T10:46:26.468575",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
     "whale_signal": "COMPRAR NO"
   }
 ]
