@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5311866",
+    "pregunta": "Will Bitcoin dip to $80,000 October 5-11?",
+    "ts": "2026-10-08T10:34:44.697957",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x32ea2b9da53bd9d7128f4b6df542c33b1ba9105d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5422672",
+    "pregunta": "Will Bitcoin dip to $81,000 on October 8?",
+    "ts": "2026-10-08T10:34:45.781543",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x32ea2b9da53bd9d7128f4b6df542c33b1ba9105d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
