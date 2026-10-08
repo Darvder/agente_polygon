@@ -1,34 +1,26 @@
 [
   {
-    "id": "5404883",
-    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 1 Winner",
-    "ts": "2026-10-08T08:33:32.094617",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5247180",
-    "pregunta": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
-    "ts": "2026-10-08T08:33:33.203623",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5247178",
     "pregunta": "Dota 2: Aurora vs 1win - Game 1 Winner",
-    "ts": "2026-10-08T08:33:34.307986",
+    "ts": "2026-10-08T08:44:15.499237",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
+    "whale_wallet": "0x08c263965a9cbec5e83ac1d6f14b9bbc957bc023",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5418268",
-    "pregunta": "Dota 2: Team Synapse vs Blasterbl - Game 1 Winner",
-    "ts": "2026-10-08T08:33:41.392896",
+    "id": "5204831",
+    "pregunta": "Panathinaikos vs. Fenerbahce",
+    "ts": "2026-10-08T08:44:19.537599",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x69f667579eac00be469270e7d49e89be832d1658",
+    "whale_wallet": "0xbee74161057f6095ebf6424dc29d79cb7a6225d7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5380326",
+    "pregunta": "Shanghai Rolex Masters: Cameron Norrie vs Dalibor Svrcina",
+    "ts": "2026-10-08T08:44:20.599191",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbee74161057f6095ebf6424dc29d79cb7a6225d7",
     "whale_signal": "COMPRAR NO"
   }
 ]
