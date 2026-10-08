@@ -1,50 +1,26 @@
 [
   {
-    "id": "5320351",
-    "pregunta": "Shanghai Rolex Masters: Marcos Giron vs Sebastian Baez",
-    "ts": "2026-10-08T03:43:51.269304",
+    "id": "5320339",
+    "pregunta": "Shanghai Rolex Masters: Fabian Marozsan vs Zachary Svajda",
+    "ts": "2026-10-08T03:52:55.706554",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064596",
-    "pregunta": "Crystal Palace FC vs. Nottingham Forest FC: O/U 1.5",
-    "ts": "2026-10-08T03:43:52.496382",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5413788",
-    "pregunta": "W50 Heraklion: Ipek Oz vs Alice Rame",
-    "ts": "2026-10-08T03:43:54.583543",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5320343",
     "pregunta": "Shanghai Rolex Masters: Mariano Navone vs Pablo Carreno Busta",
-    "ts": "2026-10-08T03:43:55.652466",
+    "ts": "2026-10-08T03:52:56.769398",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5378869",
-    "pregunta": "Samsun: Alicia Dudeney vs Ayla Aksu",
-    "ts": "2026-10-08T03:43:56.725479",
+    "id": "5320351",
+    "pregunta": "Shanghai Rolex Masters: Marcos Giron vs Sebastian Baez",
+    "ts": "2026-10-08T03:52:57.875634",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5380332",
-    "pregunta": "Shanghai Rolex Masters: Juan Manuel Cerundolo vs Nicolas Mejia",
-    "ts": "2026-10-08T03:43:57.818593",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
