@@ -1,26 +1,74 @@
 [
   {
-    "id": "5404885",
-    "pregunta": "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitational Group Stage",
-    "ts": "2026-10-08T07:54:43.308255",
+    "id": "5253410",
+    "pregunta": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-08T08:05:51.142317",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfbe4dd438ac8f252f724f144165fc219c45593af",
+    "whale_wallet": "0x3f650eb5c3f6445f7fc7aba4a54894bbe1ef32f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5247180",
+    "pregunta": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-08T08:05:53.567253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3f650eb5c3f6445f7fc7aba4a54894bbe1ef32f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5408286",
+    "pregunta": "Villena: Damir Dzumhur vs Abedallah Shelbayh",
+    "ts": "2026-10-08T08:05:55.579477",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x32bb3f0f842da76d3c3bba7d6d76376334733c1a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5371735",
+    "pregunta": "China Open: Ekaterina Alexandrova vs Mirra Andreeva",
+    "ts": "2026-10-08T08:05:56.632665",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x32bb3f0f842da76d3c3bba7d6d76376334733c1a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5403231",
+    "pregunta": "Samsun: Mariam Bolkvadze vs Bianca Andreescu",
+    "ts": "2026-10-08T08:05:57.751298",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x32bb3f0f842da76d3c3bba7d6d76376334733c1a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5380326",
+    "pregunta": "Shanghai Rolex Masters: Cameron Norrie vs Dalibor Svrcina",
+    "ts": "2026-10-08T08:05:58.811683",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x32bb3f0f842da76d3c3bba7d6d76376334733c1a",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5393322",
     "pregunta": "Palermo: Buvaysar Gadamauri vs Yanaki Milev",
-    "ts": "2026-10-08T07:54:45.945189",
+    "ts": "2026-10-08T08:05:59.925089",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4e87291b58c51400bc7844c7dc3c0a14db76300",
+    "whale_wallet": "0x32bb3f0f842da76d3c3bba7d6d76376334733c1a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5171486",
-    "pregunta": "Counter-Strike: Betclic Apogee Esports vs PRIVATE (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
-    "ts": "2026-10-08T07:54:49.923171",
+    "id": "4955669",
+    "pregunta": "Will Gr\u00eamio Novorizontino win on 2026-10-08?",
+    "ts": "2026-10-08T08:06:00.987957",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6fe396d16ad1cb3c816845a77726785e4155aa13",
+    "whale_wallet": "0x32bb3f0f842da76d3c3bba7d6d76376334733c1a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5419057",
+    "pregunta": "Braga: Ryan Nijboer vs Marvin Moeller",
+    "ts": "2026-10-08T08:06:02.099594",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x32bb3f0f842da76d3c3bba7d6d76376334733c1a",
     "whale_signal": "COMPRAR NO"
   }
 ]
