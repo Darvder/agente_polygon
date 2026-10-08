@@ -1,42 +1,34 @@
 [
   {
-    "id": "5404883",
-    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 1 Winner",
-    "ts": "2026-10-08T07:24:55.167080",
+    "id": "5418268",
+    "pregunta": "Dota 2: Team Synapse vs Blasterbl - Game 1 Winner",
+    "ts": "2026-10-08T07:33:44.556824",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
+    "whale_wallet": "0x0ce3fcc9cfc32c1961b04921c69a1d8e7b5d44b2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5305664",
-    "pregunta": "Valorant: Team Vitality vs Nongshim RedForce - Map 1 Winner",
-    "ts": "2026-10-08T07:24:57.246925",
+    "id": "5404885",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-08T07:33:49.621888",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5404884",
-    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 2 Winner",
-    "ts": "2026-10-08T07:24:58.289011",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
+    "whale_wallet": "0xc34cd27593243598c66a9a2820f37bcfb87c2e29",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5305665",
     "pregunta": "Valorant: Team Vitality vs Nongshim RedForce - Map 2 Winner",
-    "ts": "2026-10-08T07:24:59.329175",
+    "ts": "2026-10-08T07:33:50.691121",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
+    "whale_wallet": "0xc34cd27593243598c66a9a2820f37bcfb87c2e29",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5305666",
-    "pregunta": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Playoffs",
-    "ts": "2026-10-08T07:25:01.515405",
+    "id": "5404884",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 2 Winner",
+    "ts": "2026-10-08T07:33:51.755052",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5179d2ddae33099a4a641fad5944e54083954eec",
+    "whale_wallet": "0xc34cd27593243598c66a9a2820f37bcfb87c2e29",
     "whale_signal": "COMPRAR NO"
   }
 ]
