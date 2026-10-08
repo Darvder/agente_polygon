@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5422429",
+    "pregunta": "LoL: Maryville University vs Cupid Esports - Game 2 Winner",
+    "ts": "2026-10-08T18:34:28.885702",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5422430",
+    "pregunta": "LoL: Maryville University vs Cupid Esports - Game 3 Winner",
+    "ts": "2026-10-08T18:34:29.951157",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  }
+]
