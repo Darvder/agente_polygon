@@ -1,58 +1,34 @@
 [
   {
-    "id": "5114482",
-    "pregunta": "Will Elon Musk post 280-299 tweets from October 2 to October 9, 2026?",
-    "ts": "2026-10-08T10:46:16.741812",
+    "id": "3951230",
+    "pregunta": "Buccaneers vs. Cowboys",
+    "ts": "2026-10-08T10:55:15.472670",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x750545482cf883fcd5e7f7ad8e14d3f61a322978",
+    "whale_wallet": "0xa1e6ba93d878b71a895f80fcb5c36337143fe1c2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5393318",
-    "pregunta": "Villena: Pablo Llamas Ruiz vs Petr Nesterov",
-    "ts": "2026-10-08T10:46:21.073907",
+    "id": "5247179",
+    "pregunta": "Dota 2: Aurora vs 1win - Game 2 Winner",
+    "ts": "2026-10-08T10:55:17.390666",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_wallet": "0x8dc5667e182f4ba1ac9c8a6ed02db849e05fc07d",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5408296",
     "pregunta": "Villena: Max Hans Rehberg vs Hynek Barton",
-    "ts": "2026-10-08T10:46:22.144052",
+    "ts": "2026-10-08T10:55:19.410393",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5395956",
-    "pregunta": "Will Al Duhail SC win on 2026-10-08?",
-    "ts": "2026-10-08T10:46:23.216710",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5347057",
     "pregunta": "Braga: Zsombor Piros vs Elmer Moeller",
-    "ts": "2026-10-08T10:46:24.264244",
+    "ts": "2026-10-08T10:55:20.459164",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5429529",
-    "pregunta": "Spread: Pakhtakor (-2.5)",
-    "ts": "2026-10-08T10:46:25.353942",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5180873",
-    "pregunta": "Kuopion Palloseura vs. AC Oulu: O/U 2.5",
-    "ts": "2026-10-08T10:46:26.468575",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2559b5bae55fc693e15896e816aae2761d8eb2e3",
+    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
     "whale_signal": "COMPRAR NO"
   }
 ]
