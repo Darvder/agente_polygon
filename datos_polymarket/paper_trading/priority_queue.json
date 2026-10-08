@@ -1,10 +1,74 @@
 [
   {
+    "id": "5422432",
+    "pregunta": "LoL: Maryville University vs Cupid Esports (BO5) - LCS Promotion Playoffs",
+    "ts": "2026-10-08T06:03:30.156199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x214039968998abdcdbd998d15d699296f3570e12",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5404885",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitational Group Stage",
+    "ts": "2026-10-08T06:03:31.201612",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x214039968998abdcdbd998d15d699296f3570e12",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5305664",
+    "pregunta": "Valorant: Team Vitality vs Nongshim RedForce - Map 1 Winner",
+    "ts": "2026-10-08T06:03:33.102892",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddc400c468cc38b8618855d37c58c5aeed660270",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5253409",
     "pregunta": "Dota 2: Team Yandex vs LGD Gaming - Game 2 Winner",
-    "ts": "2026-10-08T05:53:33.143864",
+    "ts": "2026-10-08T06:03:34.897563",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe23b8c541afbe1a3f06734a569207e7243ae7c42",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5418306",
+    "pregunta": "Counter-Strike: G2 Ares vs Rebels Gaming - Map 2 Winner",
+    "ts": "2026-10-08T06:03:36.033523",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5392528",
+    "pregunta": "Counter-Strike: Acend vs ex-Zero Tenacity (BO3) - CCT Europe Series #10 Playoffs",
+    "ts": "2026-10-08T06:03:37.083917",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5253410",
+    "pregunta": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-08T06:03:38.127477",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5404883",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 1 Winner",
+    "ts": "2026-10-08T06:03:39.170028",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5373729",
+    "pregunta": "Counter-Strike: RoundsGG vs MOUZ NXT - Map 1 Winner",
+    "ts": "2026-10-08T06:03:40.231607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
     "whale_signal": "COMPRAR NO"
   }
 ]
