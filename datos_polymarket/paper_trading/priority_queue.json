@@ -1,10 +1,26 @@
 [
   {
-    "id": "5170738",
-    "pregunta": "Will Bitcoin dip to $80,000 in October?",
-    "ts": "2026-10-08T11:55:44.837294",
+    "id": "5428884",
+    "pregunta": "Dota 2: PARIVISION vs Team Yandex - Game 1 Winner",
+    "ts": "2026-10-08T12:05:06.835503",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x919602ca59ece97229441b0c5674f5c1a265c311",
+    "whale_wallet": "0x28ab8e33192e7dc9cf855cee6cd4046378dcd5bf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393318",
+    "pregunta": "Villena: Pablo Llamas Ruiz vs Petr Nesterov",
+    "ts": "2026-10-08T12:05:09.948625",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x792edc35edfc9a90d12338fd7fe65139da48fd6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5180873",
+    "pregunta": "Kuopion Palloseura vs. AC Oulu: O/U 2.5",
+    "ts": "2026-10-08T12:05:11.048538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x792edc35edfc9a90d12338fd7fe65139da48fd6c",
     "whale_signal": "COMPRAR NO"
   }
 ]
