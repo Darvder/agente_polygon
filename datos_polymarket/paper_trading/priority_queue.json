@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "5421653",
+    "pregunta": "W50 Lexington, SC: Hina Inoue vs Lea Ma",
+    "ts": "2026-10-08T12:53:36.802018",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xafef98246f384449a4e13aa779e7cb414d7ff50e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5398055",
+    "pregunta": "Antofagasta: Joaquin Aguilar vs Lautaro Midon",
+    "ts": "2026-10-08T12:53:37.866766",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xafef98246f384449a4e13aa779e7cb414d7ff50e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393328",
+    "pregunta": "Palermo: Carlo Alberto Caniato vs Francesco Passaro",
+    "ts": "2026-10-08T12:53:43.349690",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5421549",
+    "pregunta": "M15 Quito: Lucas Andrade Da Silva vs Mauricio Echazu",
+    "ts": "2026-10-08T12:53:44.589503",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393326",
+    "pregunta": "Villena: Daniel Rincon vs Pedro Martinez",
+    "ts": "2026-10-08T12:53:45.688455",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393324",
+    "pregunta": "Antofagasta: Juan Carlos Prado vs Pedro Boscardin Dias",
+    "ts": "2026-10-08T12:53:48.913706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5393332",
+    "pregunta": "Palermo: Gabriele Piraino vs Enrico Dalla Valle",
+    "ts": "2026-10-08T12:53:50.022893",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0d0efde748a217f3985ef32ecc7d005f83e50570",
+    "whale_signal": "COMPRAR NO"
+  }
+]
