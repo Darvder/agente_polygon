@@ -1,18 +1,10 @@
 [
   {
-    "id": "5404887",
-    "pregunta": "Game Handicap: JDG (-1.5) vs Natus Vincere (+1.5)",
-    "ts": "2026-10-08T05:43:40.999455",
+    "id": "5253409",
+    "pregunta": "Dota 2: Team Yandex vs LGD Gaming - Game 2 Winner",
+    "ts": "2026-10-08T05:53:33.143864",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4061704",
-    "pregunta": "Buccaneers vs. Cowboys: O/U 47.5",
-    "ts": "2026-10-08T05:43:43.008237",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x37c64f63fbd808b510b7a4bd3437c9991b0c92e9",
+    "whale_wallet": "0xe23b8c541afbe1a3f06734a569207e7243ae7c42",
     "whale_signal": "COMPRAR NO"
   }
 ]
