@@ -1,18 +1,50 @@
 [
   {
-    "id": "3399935",
-    "pregunta": "Will Kylian Mbapp\u00e9 finish in the top 3 of the 2026 Ballon d'Or?",
-    "ts": "2026-10-08T17:55:18.940608",
+    "id": "5414662",
+    "pregunta": "Counter-Strike: 1WIN vs Aurora Gaming (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-08T18:04:59.936797",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_wallet": "0x567464a8b6b5794c43282c4a9274e12b48ba8b14",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "608545",
-    "pregunta": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-    "ts": "2026-10-08T17:55:20.005153",
+    "id": "5414673",
+    "pregunta": "Counter-Strike: Vitality vs PARIVISION (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-08T18:05:01.023321",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_wallet": "0x567464a8b6b5794c43282c4a9274e12b48ba8b14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414684",
+    "pregunta": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-08T18:05:02.065817",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x567464a8b6b5794c43282c4a9274e12b48ba8b14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414695",
+    "pregunta": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-08T18:05:03.118441",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x567464a8b6b5794c43282c4a9274e12b48ba8b14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5431579",
+    "pregunta": "Counter-Strike: GamerLegion vs Sinners (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
+    "ts": "2026-10-08T18:05:04.195359",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x567464a8b6b5794c43282c4a9274e12b48ba8b14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5418315",
+    "pregunta": "Counter-Strike: fnatic vs K27 (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
+    "ts": "2026-10-08T18:05:05.421862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x567464a8b6b5794c43282c4a9274e12b48ba8b14",
     "whale_signal": "COMPRAR NO"
   }
 ]
