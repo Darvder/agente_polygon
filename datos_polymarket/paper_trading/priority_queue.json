@@ -1,34 +1,10 @@
 [
   {
-    "id": "5404906",
-    "pregunta": "LoL: FlyQuest vs RED Canids - Game 1 Winner",
-    "ts": "2026-10-08T04:55:00.656134",
+    "id": "5404907",
+    "pregunta": "LoL: FlyQuest vs RED Canids - Game 2 Winner",
+    "ts": "2026-10-08T05:06:22.593658",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe1f313a980c5cfd4444f66bcf40563eb900e5402",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5413806",
-    "pregunta": "W35 Monastir: Katarina Kuzmova vs Sophia Biolay",
-    "ts": "2026-10-08T04:55:03.495627",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5320332",
-    "pregunta": "Shanghai Rolex Masters: Botic van de Zandschulp vs Daniel Merida Aguilar",
-    "ts": "2026-10-08T04:55:04.587393",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5253408",
-    "pregunta": "Dota 2: Team Yandex vs LGD Gaming - Game 1 Winner",
-    "ts": "2026-10-08T04:55:05.623337",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x746295855be6f49fe2da2accd69ea34b3cf23ac3",
+    "whale_wallet": "0x5bc68aaadcd547a6e2047dfbd1d12593591beff4",
     "whale_signal": "COMPRAR NO"
   }
 ]
