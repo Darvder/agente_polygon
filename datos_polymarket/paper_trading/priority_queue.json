@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5320334",
+    "pregunta": "Shanghai Rolex Masters: Nuno Borges vs Facundo Acosta",
+    "ts": "2026-10-08T00:15:36.816489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc3e475821b3512b1ae1a492f89d15323e4c0ea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5253412",
+    "pregunta": "Game Handicap: TY (-1.5) vs LGD Gaming (+1.5)",
+    "ts": "2026-10-08T00:15:38.766422",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcdfb7564a5731d30713c91943ae395d5f815980c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
