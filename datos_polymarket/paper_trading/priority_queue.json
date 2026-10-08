@@ -1,10 +1,66 @@
 [
   {
-    "id": "5247178",
-    "pregunta": "Dota 2: Aurora vs 1win - Game 1 Winner",
-    "ts": "2026-10-08T08:54:04.206638",
+    "id": "5407189",
+    "pregunta": "Spread: Sabres (-1.5)",
+    "ts": "2026-10-08T09:04:05.115177",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x51bef5ceb733fc728d3fb55e64600d4896cc12c2",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4469795",
+    "pregunta": "Predators vs. Canadiens",
+    "ts": "2026-10-08T09:04:06.227038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5407188",
+    "pregunta": "Spread: Utah (-1.5)",
+    "ts": "2026-10-08T09:04:07.447786",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4469760",
+    "pregunta": "Wild vs. Lightning",
+    "ts": "2026-10-08T09:04:08.629744",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5405371",
+    "pregunta": "Spread: Canadiens (-1.5)",
+    "ts": "2026-10-08T09:04:09.806776",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5407190",
+    "pregunta": "Spread: Lightning (-1.5)",
+    "ts": "2026-10-08T09:04:10.982656",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5195337",
+    "pregunta": "Celtics vs. Cavaliers",
+    "ts": "2026-10-08T09:04:12.117722",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4469812",
+    "pregunta": "Stars vs. Sabres",
+    "ts": "2026-10-08T09:04:13.200485",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x715b82a4baefe3f4c93828661603ffbf2ce9920f",
     "whale_signal": "COMPRAR NO"
   }
 ]
