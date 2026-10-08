@@ -1,18 +1,1 @@
-[
-  {
-    "id": "5179259",
-    "pregunta": "Will the price of Bitcoin be above $84,000 on October 8?",
-    "ts": "2026-10-08T04:24:14.038785",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5311866",
-    "pregunta": "Will Bitcoin dip to $80,000 October 5-11?",
-    "ts": "2026-10-08T04:24:15.081969",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
