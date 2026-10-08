@@ -1,18 +1,10 @@
 [
   {
-    "id": "5371735",
-    "pregunta": "China Open: Ekaterina Alexandrova vs Mirra Andreeva",
-    "ts": "2026-10-08T06:53:30.792453",
+    "id": "5404884",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 2 Winner",
+    "ts": "2026-10-08T07:03:43.103240",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc0a5ecceff48cd8f313cd658cdb609e8b5231f5f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5253409",
-    "pregunta": "Dota 2: Team Yandex vs LGD Gaming - Game 2 Winner",
-    "ts": "2026-10-08T06:53:32.668009",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0254f10461b2f53487bc198d26f4833c78af31e0",
+    "whale_wallet": "0xb22f1d16071506037666f928274d408595c7e23d",
     "whale_signal": "COMPRAR NO"
   }
 ]
