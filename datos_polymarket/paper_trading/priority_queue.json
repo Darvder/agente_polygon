@@ -1,34 +1,18 @@
 [
   {
-    "id": "5179256",
-    "pregunta": "Will the price of Bitcoin be above $82,000 on October 8?",
-    "ts": "2026-10-08T06:13:41.981734",
+    "id": "5320332",
+    "pregunta": "Shanghai Rolex Masters: Botic van de Zandschulp vs Daniel Merida Aguilar",
+    "ts": "2026-10-08T06:26:19.570528",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x643ba78365aa19372b5434062dd1609a5d2ea1cb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5170773",
-    "pregunta": "Will Ethereum reach $2,800 in October?",
-    "ts": "2026-10-08T06:13:43.031668",
+    "id": "5320341",
+    "pregunta": "Shanghai Rolex Masters: Luca Van Assche vs Yunchaokete Bu",
+    "ts": "2026-10-08T06:26:20.648977",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5404883",
-    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 1 Winner",
-    "ts": "2026-10-08T06:13:47.005920",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c90f6c6c47d8497501a6466dfe9c46f7c9d5b3e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5253409",
-    "pregunta": "Dota 2: Team Yandex vs LGD Gaming - Game 2 Winner",
-    "ts": "2026-10-08T06:13:48.962606",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x69f667579eac00be469270e7d49e89be832d1658",
+    "whale_wallet": "0x643ba78365aa19372b5434062dd1609a5d2ea1cb",
     "whale_signal": "COMPRAR NO"
   }
 ]
