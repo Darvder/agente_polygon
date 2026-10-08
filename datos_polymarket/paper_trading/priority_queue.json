@@ -1,58 +1,18 @@
 [
   {
-    "id": "5320332",
-    "pregunta": "Shanghai Rolex Masters: Botic van de Zandschulp vs Daniel Merida Aguilar",
-    "ts": "2026-10-08T05:35:07.206046",
+    "id": "5404887",
+    "pregunta": "Game Handicap: JDG (-1.5) vs Natus Vincere (+1.5)",
+    "ts": "2026-10-08T05:43:40.999455",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x357b4636b1a2a3539566120a939ab445d2f20b65",
+    "whale_wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5404906",
-    "pregunta": "LoL: FlyQuest vs RED Canids - Game 1 Winner",
-    "ts": "2026-10-08T05:35:09.147412",
+    "id": "4061704",
+    "pregunta": "Buccaneers vs. Cowboys: O/U 47.5",
+    "ts": "2026-10-08T05:43:43.008237",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb8f260bcbc2d5a4eabc57cd7c7334994ee05cd5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5404907",
-    "pregunta": "LoL: FlyQuest vs RED Canids - Game 2 Winner",
-    "ts": "2026-10-08T05:35:10.264666",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb8f260bcbc2d5a4eabc57cd7c7334994ee05cd5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5253409",
-    "pregunta": "Dota 2: Team Yandex vs LGD Gaming - Game 2 Winner",
-    "ts": "2026-10-08T05:35:11.341279",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfb8f260bcbc2d5a4eabc57cd7c7334994ee05cd5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5305649",
-    "pregunta": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "ts": "2026-10-08T05:35:13.233344",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xddc400c468cc38b8618855d37c58c5aeed660270",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5305648",
-    "pregunta": "Valorant: 100 Thieves vs G2 Esports - Map 2 Winner",
-    "ts": "2026-10-08T05:35:14.343165",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xddc400c468cc38b8618855d37c58c5aeed660270",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5419378",
-    "pregunta": "Counter-Strike: Esport Academy Copenhagen vs PURE (BO3) - Roman Imperium Cup Playoffs",
-    "ts": "2026-10-08T05:35:16.321052",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd6771bf957cab6a10fcb8e2c8c6db9713cf37579",
+    "whale_wallet": "0x37c64f63fbd808b510b7a4bd3437c9991b0c92e9",
     "whale_signal": "COMPRAR NO"
   }
 ]
