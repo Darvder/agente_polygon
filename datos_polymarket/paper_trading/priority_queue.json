@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5404883",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 1 Winner",
+    "ts": "2026-10-08T07:24:55.167080",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5305664",
+    "pregunta": "Valorant: Team Vitality vs Nongshim RedForce - Map 1 Winner",
+    "ts": "2026-10-08T07:24:57.246925",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5404884",
+    "pregunta": "LoL: Natus Vincere vs JD Gaming - Game 2 Winner",
+    "ts": "2026-10-08T07:24:58.289011",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5305665",
+    "pregunta": "Valorant: Team Vitality vs Nongshim RedForce - Map 2 Winner",
+    "ts": "2026-10-08T07:24:59.329175",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff6ceac97eb1c01fece7f9ef87f166cc2819b30e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5305666",
+    "pregunta": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-08T07:25:01.515405",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5179d2ddae33099a4a641fad5944e54083954eec",
+    "whale_signal": "COMPRAR NO"
+  }
+]
