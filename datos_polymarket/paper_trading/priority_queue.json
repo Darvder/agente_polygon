@@ -1,42 +1,18 @@
 [
   {
-    "id": "5429098",
-    "pregunta": "Counter-Strike: Iberian Soul vs Noir Verse - Map 1 Winner",
-    "ts": "2026-10-09T12:14:21.167864",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "5414693",
     "pregunta": "Counter-Strike: Team Falcons vs Spirit - Map 1 Winner",
-    "ts": "2026-10-09T12:14:23.310942",
+    "ts": "2026-10-09T12:24:18.500987",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_wallet": "0xdfc983d8c361103661167a59df7bb1e8059e7552",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5414695",
-    "pregunta": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-09T12:14:25.239903",
+    "id": "5442758",
+    "pregunta": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-09T12:24:21.858453",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x893575c7d99542163c6b6e8a0fe5af0b6d217daa",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5391204",
-    "pregunta": "LoL: \u2060Movistar KOI F\u00e9nix vs TLN Pirates - Game 1 Winner",
-    "ts": "2026-10-09T12:14:26.299747",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x893575c7d99542163c6b6e8a0fe5af0b6d217daa",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5391208",
-    "pregunta": "LoL: \u2060Movistar KOI F\u00e9nix vs TLN Pirates (BO5) - EMEA Masters Playoffs",
-    "ts": "2026-10-09T12:14:29.373578",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
+    "whale_wallet": "0x797255f4701331610041687268d246071343594f",
     "whale_signal": "COMPRAR NO"
   }
 ]
