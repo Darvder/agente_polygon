@@ -1,10 +1,18 @@
 [
   {
-    "id": "5390945",
-    "pregunta": "Seinajoen JK vs. FC Lahti: O/U 2.5",
-    "ts": "2026-10-09T04:05:56.832345",
+    "id": "5407554",
+    "pregunta": "China Open: Qinwen Zheng vs Elina Svitolina",
+    "ts": "2026-10-09T04:14:15.912674",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5427262",
+    "pregunta": "Shanghai Rolex Masters: Alejandro Davidovich Fokina vs Jenson Brooksby",
+    "ts": "2026-10-09T04:14:17.041803",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
