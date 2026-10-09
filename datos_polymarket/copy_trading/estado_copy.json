@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1694.46,
-  "capital_en_riesgo": 378.35,
-  "n_ciclos": 40036,
-  "ultima_corrida": "2026-10-09 01:24",
-  "n_tp": 900,
+  "capital_actual": 1724.26,
+  "capital_en_riesgo": 355.55,
+  "n_ciclos": 40037,
+  "ultima_corrida": "2026-10-09 01:34",
+  "n_tp": 901,
   "n_sl": 632,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 30.13,
-    "capital_en_riesgo": 42.91,
+    "capital_actual": 34.05,
+    "capital_en_riesgo": 39.91,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 397,
+    "n_tp": 398,
     "n_sl": 294,
     "posiciones_abiertas": [
       {
@@ -171,7 +171,7 @@
         "pregunta": "Will \"End of Beginning \u2013 Djo\" be the top song for 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.813,
-        "precio_actual": 0.8275,
+        "precio_actual": 0.833,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -260,26 +260,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xb08e6af6db4eae0bed86160fc7ab65876b21606acf1ad501bbbda2f25207298d"
-      },
-      {
-        "fecha_entrada": "2026-10-08",
-        "fecha_entrada_dt": "2026-10-08 23:53",
-        "target_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
-        "market_id": "5424037",
-        "condition_id": "0xcacf19b6b88e2ba0f0a1013ac6bb31c3ab4f477ed60ff65497b460d13fa8fceb",
-        "token_id": "61554820382121549064168552350983163254330556603729036707276810336823378709651",
-        "pregunta": "Shanghai Rolex Masters: Arthur Gea vs Ugo Humbert",
-        "outcome": "Arthur Gea",
-        "precio_token_entrada": 0.765,
-        "precio_actual": 0.9995,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xb985351c9b2522547fae3e51f07fd7a982640a97aa90382f0dc7da77e758fad2"
       }
     ],
     "historial_cerradas": [
@@ -14102,6 +14082,26 @@
         "pnl_realizado": 0.13,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x33656006948fc80321ac14bd9eb8f93b8e457932688f237d56f239a910c0a352"
+      },
+      {
+        "fecha_entrada": "2026-10-08",
+        "fecha_entrada_dt": "2026-10-08 23:53",
+        "target_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+        "market_id": "5424037",
+        "condition_id": "0xcacf19b6b88e2ba0f0a1013ac6bb31c3ab4f477ed60ff65497b460d13fa8fceb",
+        "token_id": "61554820382121549064168552350983163254330556603729036707276810336823378709651",
+        "pregunta": "Shanghai Rolex Masters: Arthur Gea vs Ugo Humbert",
+        "outcome": "Arthur Gea",
+        "precio_token_entrada": 0.765,
+        "precio_actual": 1.0,
+        "precio_cierre": 1.0,
+        "pct_cambio": 0.3072,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-09 01:34",
+        "pnl_realizado": 0.92,
+        "razon_cierre": "RESOLVED_EXIT",
+        "tx_hash": "0xb985351c9b2522547fae3e51f07fd7a982640a97aa90382f0dc7da77e758fad2"
       }
     ]
   }
