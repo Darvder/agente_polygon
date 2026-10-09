@@ -1,10 +1,34 @@
 [
   {
-    "id": "5414695",
-    "pregunta": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-09T11:33:59.736175",
+    "id": "5442758",
+    "pregunta": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-09T11:45:10.007091",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+    "whale_wallet": "0xeaa285900c9df3b5c22dd4ec9d595d29bb24670e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5204855",
+    "pregunta": "West Indies Tour of India T20s: India vs West Indies",
+    "ts": "2026-10-09T11:45:13.357653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x82cfd9da8cc4cfb6069903b2700df7108bffa9d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4641065",
+    "pregunta": "US x Iran ceasefire continues through October 31?",
+    "ts": "2026-10-09T11:45:18.503897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5447182",
+    "pregunta": "US-Iran ceasefire continues through the midterms?",
+    "ts": "2026-10-09T11:45:19.581374",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   }
 ]
