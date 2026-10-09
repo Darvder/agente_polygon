@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1625.63,
-  "capital_en_riesgo": 445.11999999999995,
-  "n_ciclos": 40122,
-  "ultima_corrida": "2026-10-09 15:45",
+  "capital_actual": 1625.66,
+  "capital_en_riesgo": 420.12,
+  "n_ciclos": 40123,
+  "ultima_corrida": "2026-10-09 15:55",
   "n_tp": 920,
-  "n_sl": 649,
+  "n_sl": 650,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
     "capital_actual": 13.28,
-    "capital_en_riesgo": 51.8,
+    "capital_en_riesgo": 48.44,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 415,
-    "n_sl": 310,
+    "n_sl": 311,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-05",
@@ -91,7 +91,7 @@
         "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.365,
-        "precio_actual": 0.385,
+        "precio_actual": 0.375,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -211,7 +211,7 @@
         "pregunta": "Skin cancer vaccine FDA approved by September 30, 2027?",
         "outcome": "Yes",
         "precio_token_entrada": 0.415,
-        "precio_actual": 0.445,
+        "precio_actual": 0.44,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -231,7 +231,7 @@
         "pregunta": "Will Google have the best AI model at the end of October 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.711,
-        "precio_actual": 0.7165,
+        "precio_actual": 0.717,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xdfafd2d6db06c5274697cc5d70f10dd78156287ebfe8558bebec7f8e5fcf346b"
-      },
-      {
-        "fecha_entrada": "2026-10-09",
-        "fecha_entrada_dt": "2026-10-09 15:35",
-        "target_wallet": "0x1720de39dda935fd8fedb01a88cf971b55ac3c09",
-        "market_id": "5457350",
-        "condition_id": "0x0dc975f5cf7ef22747a1d74b171a117056811355a4a81138c905b2908b361dde",
-        "token_id": "111658130923113676919675830832181688345653057119951887081721176065206495076142",
-        "pregunta": "Dota 2: LGD Gaming vs Aurora - Game 2 Winner",
-        "outcome": "LGD Gaming",
-        "precio_token_entrada": 0.49,
-        "precio_actual": 0.355,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.36,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xdc32c05e469b5625d04cf1de843611765d713092ceb4ec93c074463edfb29eb2"
       }
     ],
     "historial_cerradas": [
@@ -14842,6 +14822,26 @@
         "pnl_realizado": 0.14,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xa54a92d53f382c0546665a1bed6ef95547f8155618d7a66cf3679dc3c85f9b91"
+      },
+      {
+        "fecha_entrada": "2026-10-09",
+        "fecha_entrada_dt": "2026-10-09 15:35",
+        "target_wallet": "0x1720de39dda935fd8fedb01a88cf971b55ac3c09",
+        "market_id": "5457350",
+        "condition_id": "0x0dc975f5cf7ef22747a1d74b171a117056811355a4a81138c905b2908b361dde",
+        "token_id": "111658130923113676919675830832181688345653057119951887081721176065206495076142",
+        "pregunta": "Dota 2: LGD Gaming vs Aurora - Game 2 Winner",
+        "outcome": "LGD Gaming",
+        "precio_token_entrada": 0.49,
+        "precio_actual": 0.0005,
+        "precio_cierre": 0.0005,
+        "pct_cambio": -0.999,
+        "monto_usdc": 3.36,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-09 15:55",
+        "pnl_realizado": -3.36,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0xdc32c05e469b5625d04cf1de843611765d713092ceb4ec93c074463edfb29eb2"
       }
     ]
   }
