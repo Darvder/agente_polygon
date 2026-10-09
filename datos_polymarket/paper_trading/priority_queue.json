@@ -1,26 +1,10 @@
 [
   {
-    "id": "5414664",
-    "pregunta": "Map Handicap: AUR (-1.5) vs 1WIN (+1.5)",
-    "ts": "2026-10-09T04:43:58.443360",
+    "id": "5424057",
+    "pregunta": "Shanghai Rolex Masters: Francisco Cerundolo vs Roman Safiullin",
+    "ts": "2026-10-09T04:54:17.281609",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5414660",
-    "pregunta": "Counter-Strike: 1WIN vs Aurora Gaming - Map 1 Winner",
-    "ts": "2026-10-09T04:43:59.538946",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5414661",
-    "pregunta": "Counter-Strike: 1WIN vs Aurora Gaming - Map 2 Winner",
-    "ts": "2026-10-09T04:44:00.634094",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
