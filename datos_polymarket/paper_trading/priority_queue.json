@@ -1,10 +1,18 @@
 [
   {
-    "id": "5433017",
-    "pregunta": "Dota 2: Team Spirit vs Aurora - Game 2 Winner",
-    "ts": "2026-10-09T07:14:57.757435",
+    "id": "4961362",
+    "pregunta": "Will Henan FC win on 2026-10-09?",
+    "ts": "2026-10-09T07:23:28.707676",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbb147768500572730f03ee17cbb639e8a16b49b2",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414672",
+    "pregunta": "Counter-Strike: Vitality vs PARIVISION - Map 2 Winner",
+    "ts": "2026-10-09T07:23:30.808135",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x89416b627f37949c2f9a805383fbddd7a6f83126",
     "whale_signal": "COMPRAR NO"
   }
 ]
