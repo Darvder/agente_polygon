@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "5009117",
+    "pregunta": "Will Manchester United FC win on 2026-10-10?",
+    "ts": "2026-10-09T07:45:00.709024",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5062308",
+    "pregunta": "Will Liverpool FC win on 2026-10-11?",
+    "ts": "2026-10-09T07:45:01.926923",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4973404",
+    "pregunta": "Will M\u00e1laga CF win on 2026-10-09?",
+    "ts": "2026-10-09T07:45:02.999576",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4973406",
+    "pregunta": "Will RCD Espanyol de Barcelona win on 2026-10-09?",
+    "ts": "2026-10-09T07:45:04.060964",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4961368",
+    "pregunta": "Will Shanghai Haigang FC win on 2026-10-09?",
+    "ts": "2026-10-09T07:45:05.118500",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4985282",
+    "pregunta": "Qingdao Hainiu FC vs. Beijing Guoan FC: O/U 3.5",
+    "ts": "2026-10-09T07:45:06.191562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
