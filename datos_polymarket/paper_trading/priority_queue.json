@@ -1,34 +1,74 @@
 [
   {
+    "id": "5432887",
+    "pregunta": "Samsun: Simona Waltert vs Himeno Sakatsume",
+    "ts": "2026-10-09T12:07:03.891327",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x02fdcc77817bed708708be296c283481aec8104c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5442222",
     "pregunta": "W35 Villeneuve d'Ascq: Amandine Monnot vs Oceane Dodin",
-    "ts": "2026-10-09T11:56:47.199775",
+    "ts": "2026-10-09T12:07:04.955650",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5d7639ed5fd3c5ebf0fc69d548e1046acd0f9168",
+    "whale_wallet": "0x02fdcc77817bed708708be296c283481aec8104c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5224549",
-    "pregunta": "Will Croatia win on 2026-10-09?",
-    "ts": "2026-10-09T11:56:49.239698",
+    "id": "5434045",
+    "pregunta": "Braga: Elmer Moeller vs Tiago Pereira",
+    "ts": "2026-10-09T12:07:06.052744",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0x02fdcc77817bed708708be296c283481aec8104c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5242148",
-    "pregunta": "World Championship of Legends: Bangladesh Champions vs West Indies Champions",
-    "ts": "2026-10-09T11:56:50.513000",
+    "id": "4985035",
+    "pregunta": "SK Brann vs. Viking FK: O/U 3.5",
+    "ts": "2026-10-09T12:07:07.990165",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5391208",
-    "pregunta": "LoL: \u2060Movistar KOI F\u00e9nix vs TLN Pirates (BO5) - EMEA Masters Playoffs",
-    "ts": "2026-10-09T11:56:53.337382",
+    "id": "5429329",
+    "pregunta": "Los Angeles Dodgers vs. Milwaukee Brewers",
+    "ts": "2026-10-09T12:07:09.237362",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16602a38e8fb4498ffee0ea81e08d2b421825598",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4957685",
+    "pregunta": "Will Al Nassr Saudi Club win on 2026-10-09?",
+    "ts": "2026-10-09T12:07:10.317499",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5036045",
+    "pregunta": "Will CF Montr\u00e9al win on 2026-10-10?",
+    "ts": "2026-10-09T12:07:11.389223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5030664",
+    "pregunta": "Galatasaray SK vs. Kas\u0131mpa\u015fa SK: O/U 3.5",
+    "ts": "2026-10-09T12:07:13.377434",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7709920920516c8657e15a495dac707c7294a44d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5391204",
+    "pregunta": "LoL: \u2060Movistar KOI F\u00e9nix vs TLN Pirates - Game 1 Winner",
+    "ts": "2026-10-09T12:07:15.499254",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9da87ceed0185264383d19ec1e31b28ef8228c76",
     "whale_signal": "COMPRAR NO"
   }
 ]
