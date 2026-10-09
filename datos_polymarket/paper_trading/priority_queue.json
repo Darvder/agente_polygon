@@ -1,10 +1,18 @@
 [
   {
-    "id": "5414682",
-    "pregunta": "Counter-Strike: FURIA vs MOUZ - Map 1 Winner",
-    "ts": "2026-10-09T09:06:21.239383",
+    "id": "5414686",
+    "pregunta": "Map Handicap: MOUZ (-1.5) vs FURIA (+1.5)",
+    "ts": "2026-10-09T09:14:23.876681",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd4f90db3fe7a658e744d3711779a37773c31f4ad",
+    "whale_wallet": "0x27e43aad2471b41a8cee10a20920d948c2304803",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5004082",
+    "pregunta": "Al Kholood Saudi Club vs. Al Qadisiyah Saudi Club: O/U 5.5",
+    "ts": "2026-10-09T09:14:25.070219",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27e43aad2471b41a8cee10a20920d948c2304803",
     "whale_signal": "COMPRAR NO"
   }
 ]
