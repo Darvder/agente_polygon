@@ -1,42 +1,50 @@
 [
   {
-    "id": "5015296",
-    "pregunta": "PSV vs. SC Heerenveen: O/U 4.5",
-    "ts": "2026-10-09T13:05:16.961107",
+    "id": "5162693",
+    "pregunta": "ChatGPT Full Outage by November 30?",
+    "ts": "2026-10-09T13:14:28.702211",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x50b0de750ec7f757250d483ebb86e1e9e61e1640",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4957685",
-    "pregunta": "Will Al Nassr Saudi Club win on 2026-10-09?",
-    "ts": "2026-10-09T13:05:18.034221",
+    "id": "5224549",
+    "pregunta": "Will Croatia win on 2026-10-09?",
+    "ts": "2026-10-09T13:14:30.501605",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x10658d371ae1f09eed503a3a14c8ac6a1a936218",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4965142",
-    "pregunta": "Al Nassr Saudi Club vs. Al Diraiyah Saudi Club: O/U 3.5",
-    "ts": "2026-10-09T13:05:19.114616",
+    "id": "5180576",
+    "pregunta": "Next White House Press Secretary announced by November 30, 2026?",
+    "ts": "2026-10-09T13:14:32.610200",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x9baebe30d1cefe0ac5be4be85189c9fa33e95d34",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5414695",
-    "pregunta": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-09T13:05:21.196412",
+    "id": "3566294",
+    "pregunta": "Will Anna Kelly be the next White House Press Secretary?",
+    "ts": "2026-10-09T13:14:33.779873",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_wallet": "0x9baebe30d1cefe0ac5be4be85189c9fa33e95d34",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4965141",
-    "pregunta": "Al Nassr Saudi Club vs. Al Diraiyah Saudi Club: O/U 2.5",
-    "ts": "2026-10-09T13:05:23.394482",
+    "id": "3566309",
+    "pregunta": "Will Katie Zacharia be the next White House Press Secretary?",
+    "ts": "2026-10-09T13:14:34.856734",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x99f4cf80217131f82a0ca3399ca6a126df216e5d",
+    "whale_wallet": "0x9baebe30d1cefe0ac5be4be85189c9fa33e95d34",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4585607",
+    "pregunta": "Next White House Press Secretary announced by October 14, 2026?",
+    "ts": "2026-10-09T13:14:35.926402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9baebe30d1cefe0ac5be4be85189c9fa33e95d34",
     "whale_signal": "COMPRAR NO"
   }
 ]
