@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5423599",
+    "pregunta": "Spread: Las Vegas Aces (-4.5)",
+    "ts": "2026-10-09T16:43:23.168317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd202bf6d89dc6bab1b9f00ead175f75466348973",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5428443",
+    "pregunta": "Games Total: O/U 3.5",
+    "ts": "2026-10-09T16:43:30.594807",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5428446",
+    "pregunta": "Game Handicap: DSG (-2.5) vs Fuego (+2.5)",
+    "ts": "2026-10-09T16:43:31.669069",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5042910",
+    "pregunta": "Will Gimnasia y Esgrima de La Plata win on 2026-10-09?",
+    "ts": "2026-10-09T16:43:32.734568",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  }
+]
