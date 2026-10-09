@@ -1,26 +1,18 @@
 [
   {
-    "id": "5426238",
-    "pregunta": "Will Crude Oil reach a new all-time high by March 31, 2027?",
-    "ts": "2026-10-09T14:04:59.188521",
+    "id": "630964",
+    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
+    "ts": "2026-10-09T14:15:44.022375",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe57ab8ec1bd537476c1986e9768fbbc2ec99e196",
+    "whale_wallet": "0x3783d304429894664c0661797bfbc7a679fef624",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5457349",
-    "pregunta": "Dota 2: LGD Gaming vs Aurora - Game 1 Winner",
-    "ts": "2026-10-09T14:05:07.642838",
+    "id": "4641065",
+    "pregunta": "US x Iran ceasefire continues through October 31?",
+    "ts": "2026-10-09T14:15:48.139272",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x93bd19205887ab9fadbf1013ea1a1b7d4cb1bbc5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5434411",
-    "pregunta": "Counter-Strike: PRIVATE vs Nuclear TigeRES (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
-    "ts": "2026-10-09T14:05:09.709255",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9cc2eb9007a7e3019d78d063245021b94ae9c4d0",
+    "whale_wallet": "0x33e27ac64a453337cfcea8345c705a407c573a1b",
     "whale_signal": "COMPRAR NO"
   }
 ]
