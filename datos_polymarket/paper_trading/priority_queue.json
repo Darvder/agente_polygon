@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5398001",
+    "pregunta": "Will the highest temperature in Guangzhou be 32\u00b0C on October 9?",
+    "ts": "2026-10-09T03:04:05.802554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2d0fbf6995692cc56f21171a9993be04436a81aa",
+    "whale_signal": "COMPRAR NO"
+  }
+]
