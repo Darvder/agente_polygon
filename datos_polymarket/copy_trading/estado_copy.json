@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1727.61,
-  "capital_en_riesgo": 419.09,
-  "n_ciclos": 40078,
-  "ultima_corrida": "2026-10-09 08:26",
+  "capital_actual": 1733.77,
+  "capital_en_riesgo": 394.09,
+  "n_ciclos": 40079,
+  "ultima_corrida": "2026-10-09 08:34",
   "n_tp": 907,
-  "n_sl": 634,
+  "n_sl": 635,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 31.09,
-    "capital_en_riesgo": 52.69,
+    "capital_actual": 31.95,
+    "capital_en_riesgo": 49.18,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 404,
-    "n_sl": 296,
+    "n_sl": 297,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-05",
@@ -291,7 +291,7 @@
         "pregunta": "Kosovo vs. Austria: O/U 3.5",
         "outcome": "Under",
         "precio_token_entrada": 0.605,
-        "precio_actual": 0.59,
+        "precio_actual": 0.595,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x127cc0dd4066623379753c7defbddcdd3473ba1e1af1d1a1f511d638f6195499"
-      },
-      {
-        "fecha_entrada": "2026-10-09",
-        "fecha_entrada_dt": "2026-10-09 07:03",
-        "target_wallet": "0xad8d18f541adc5cb36e2b0a437e8abe4db869b5e",
-        "market_id": "5430338",
-        "condition_id": "0xd97b5438c5b64f2565c89c6c359740baabb03bf6855733725d0e993b31fca27a",
-        "token_id": "77704604879135293816691783976059659973620453348031846299588527867045030924755",
-        "pregunta": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
-        "outcome": "Nongshim RedForce",
-        "precio_token_entrada": 0.345,
-        "precio_actual": 0.195,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.51,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xe746b86b41771bc37c233baa4eae5fe1c10ddadd0acfdceb72a978a361515f4f"
       }
     ],
     "historial_cerradas": [
@@ -14342,6 +14322,26 @@
         "pnl_realizado": 2.66,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0xa7d6b4de483d98b29d7c41e5cd7afae44074c7097aaf652cadf5a1cdce9c3d88"
+      },
+      {
+        "fecha_entrada": "2026-10-09",
+        "fecha_entrada_dt": "2026-10-09 07:03",
+        "target_wallet": "0xad8d18f541adc5cb36e2b0a437e8abe4db869b5e",
+        "market_id": "5430338",
+        "condition_id": "0xd97b5438c5b64f2565c89c6c359740baabb03bf6855733725d0e993b31fca27a",
+        "token_id": "77704604879135293816691783976059659973620453348031846299588527867045030924755",
+        "pregunta": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
+        "outcome": "Nongshim RedForce",
+        "precio_token_entrada": 0.345,
+        "precio_actual": 0.085,
+        "precio_cierre": 0.085,
+        "pct_cambio": -0.7536,
+        "monto_usdc": 3.51,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-09 08:34",
+        "pnl_realizado": -2.65,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0xe746b86b41771bc37c233baa4eae5fe1c10ddadd0acfdceb72a978a361515f4f"
       }
     ]
   }
