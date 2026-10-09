@@ -1,18 +1,42 @@
 [
   {
-    "id": "5407554",
-    "pregunta": "China Open: Qinwen Zheng vs Elina Svitolina",
-    "ts": "2026-10-09T04:14:15.912674",
+    "id": "5226502",
+    "pregunta": "Kosovo vs. Austria: O/U 3.5",
+    "ts": "2026-10-09T04:23:53.746401",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5427262",
-    "pregunta": "Shanghai Rolex Masters: Alejandro Davidovich Fokina vs Jenson Brooksby",
-    "ts": "2026-10-09T04:14:17.041803",
+    "id": "5069973",
+    "pregunta": "CA Aldosivi vs. CA Sarmiento: O/U 1.5",
+    "ts": "2026-10-09T04:23:54.913901",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5424067",
+    "pregunta": "Shanghai Rolex Masters: Karen Khachanov vs Arthur Fery",
+    "ts": "2026-10-09T04:23:55.960862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5226469",
+    "pregunta": "Albania vs. Wales: O/U 2.5",
+    "ts": "2026-10-09T04:23:57.018629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5226458",
+    "pregunta": "Spread: Wales (-1.5)",
+    "ts": "2026-10-09T04:23:58.060615",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86",
     "whale_signal": "COMPRAR NO"
   }
 ]
