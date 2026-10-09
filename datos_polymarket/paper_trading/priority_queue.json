@@ -1,66 +1,26 @@
 [
   {
-    "id": "5234035",
-    "pregunta": "Barcelona vs. Zalgiris Kaunas",
-    "ts": "2026-10-09T14:34:56.125613",
+    "id": "5457349",
+    "pregunta": "Dota 2: LGD Gaming vs Aurora - Game 1 Winner",
+    "ts": "2026-10-09T14:46:15.612410",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6e20729b591f61f81b72b5f6c2be16cbf0f9f16",
+    "whale_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4970406",
-    "pregunta": "Will Olympique Lyonnais win on 2026-10-09?",
-    "ts": "2026-10-09T14:34:59.204029",
+    "id": "5457350",
+    "pregunta": "Dota 2: LGD Gaming vs Aurora - Game 2 Winner",
+    "ts": "2026-10-09T14:46:16.701208",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x31139db02aa5250b60bcfbe30f04e432e5be905d",
+    "whale_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5095263",
-    "pregunta": "Columbia vs. Marist: O/U 51.5",
-    "ts": "2026-10-09T14:35:00.464352",
+    "id": "5177537",
+    "pregunta": "Will Donald Trump publicly praise Warren Buffett by October 31, 2026?",
+    "ts": "2026-10-09T14:46:18.663985",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x31139db02aa5250b60bcfbe30f04e432e5be905d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095320",
-    "pregunta": "Florida State vs. Louisville: O/U 59.5",
-    "ts": "2026-10-09T14:35:01.723300",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x31139db02aa5250b60bcfbe30f04e432e5be905d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095518",
-    "pregunta": "Iowa vs. Washington: O/U 39.5",
-    "ts": "2026-10-09T14:35:02.955020",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x31139db02aa5250b60bcfbe30f04e432e5be905d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095666",
-    "pregunta": "Washington State vs. Utah State: O/U 39.5",
-    "ts": "2026-10-09T14:35:04.164832",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x31139db02aa5250b60bcfbe30f04e432e5be905d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095413",
-    "pregunta": "Wyoming vs. San Jose State: O/U 37.5",
-    "ts": "2026-10-09T14:35:05.388778",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x31139db02aa5250b60bcfbe30f04e432e5be905d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095775",
-    "pregunta": "Iowa State vs. BYU: O/U 45.5",
-    "ts": "2026-10-09T14:35:06.619476",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x31139db02aa5250b60bcfbe30f04e432e5be905d",
+    "whale_wallet": "0xe0dcc05376176f9f9e5160b9aae6f51e2ca93944",
     "whale_signal": "COMPRAR NO"
   }
 ]
