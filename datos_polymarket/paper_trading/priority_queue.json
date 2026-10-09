@@ -1,10 +1,114 @@
 [
   {
-    "id": "5424057",
-    "pregunta": "Shanghai Rolex Masters: Francisco Cerundolo vs Roman Safiullin",
-    "ts": "2026-10-09T04:54:17.281609",
+    "id": "5433016",
+    "pregunta": "Dota 2: Team Spirit vs Aurora - Game 1 Winner",
+    "ts": "2026-10-09T05:06:16.217863",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x23cb737291afa36d7e8e1a23e3fd37b667da80d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5381790",
+    "pregunta": "Counter-Strike: mellren vs Bebop (BO3) - CCT Europe Closed Qualifier: Series #11 Group C",
+    "ts": "2026-10-09T05:06:19.288368",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5442205",
+    "pregunta": "W35 Monastir: Polina Skliar vs Viola Turini",
+    "ts": "2026-10-09T05:06:20.541058",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5424067",
+    "pregunta": "Shanghai Rolex Masters: Karen Khachanov vs Arthur Fery",
+    "ts": "2026-10-09T05:06:23.804885",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5424375",
+    "pregunta": "Set 1 Winner: Francisco Cerundolo vs Roman Safiullin",
+    "ts": "2026-10-09T05:06:24.881906",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5441996",
+    "pregunta": "M25 Kigali: Dev Javia vs Florent Bax",
+    "ts": "2026-10-09T05:06:26.124291",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5430194",
+    "pregunta": "M25 Darwin: Jake Delaney vs Zane Stevens",
+    "ts": "2026-10-09T05:06:27.347745",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5442195",
+    "pregunta": "W50 Heraklion: Jennifer Ruggeri vs Nuria Brancaccio",
+    "ts": "2026-10-09T05:06:28.446204",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5405585",
+    "pregunta": "Valorant: T1 vs Paper Rex - Map 1 Winner",
+    "ts": "2026-10-09T05:06:29.532717",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5430195",
+    "pregunta": "M25 Darwin: Moerani Bouzige vs Casey Hoole",
+    "ts": "2026-10-09T05:06:30.660182",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5433220",
+    "pregunta": "Game Handicap: TS (-1.5) vs Aurora (+1.5)",
+    "ts": "2026-10-09T05:06:31.903461",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5405586",
+    "pregunta": "Valorant: T1 vs Paper Rex - Map 2 Winner",
+    "ts": "2026-10-09T05:06:32.998683",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4973958",
+    "pregunta": "M\u00e1laga CF vs. RCD Espanyol de Barcelona: RCD Espanyol de Barcelona O/U 5.5 Corners",
+    "ts": "2026-10-09T05:06:34.900632",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc0f89d4e30b3ab40ab1f1979ebdcf8a02c39ae2e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4981983",
+    "pregunta": "PSV vs. SC Heerenveen: SC Heerenveen O/U 4.5 Corners",
+    "ts": "2026-10-09T05:06:36.136724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc0f89d4e30b3ab40ab1f1979ebdcf8a02c39ae2e",
     "whale_signal": "COMPRAR NO"
   }
 ]
