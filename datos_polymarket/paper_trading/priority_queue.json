@@ -1,10 +1,34 @@
 [
   {
-    "id": "5389106",
-    "pregunta": "Will Seinajoen JK win on 2026-10-09?",
-    "ts": "2026-10-09T10:25:13.530709",
+    "id": "5442758",
+    "pregunta": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-09T10:35:17.717224",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xad0be253358a44cefbee8ab5edfb9a85790da514",
+    "whale_wallet": "0xf184bff6a9217f1a76dcba7c0c4888351ebbc2d7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5442756",
+    "pregunta": "Dota 2: 1win vs PARIVISION - Game 1 Winner",
+    "ts": "2026-10-09T10:35:19.873512",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc5bd11896bfb0fb335dad88d99a7e9a6bc3f102",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414683",
+    "pregunta": "Counter-Strike: FURIA vs MOUZ - Map 2 Winner",
+    "ts": "2026-10-09T10:35:20.959982",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc5bd11896bfb0fb335dad88d99a7e9a6bc3f102",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414684",
+    "pregunta": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-09T10:35:22.045675",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc5bd11896bfb0fb335dad88d99a7e9a6bc3f102",
     "whale_signal": "COMPRAR NO"
   }
 ]
