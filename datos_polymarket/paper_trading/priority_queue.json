@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5447182",
+    "pregunta": "US-Iran ceasefire continues through the midterms?",
+    "ts": "2026-10-09T15:13:58.972383",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3866011",
+    "pregunta": "Will Hyperliquid reach $110 by December 31, 2026?",
+    "ts": "2026-10-09T15:14:01.722657",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5371f1b6954e31c502064614649cea3568cb76eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3750544",
+    "pregunta": "Will XRP hit $2 by December 31, 2026?",
+    "ts": "2026-10-09T15:14:02.901236",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5371f1b6954e31c502064614649cea3568cb76eb",
+    "whale_signal": "COMPRAR NO"
+  }
+]
