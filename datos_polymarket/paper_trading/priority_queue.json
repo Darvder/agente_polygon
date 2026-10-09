@@ -1,18 +1,26 @@
 [
   {
-    "id": "5414686",
-    "pregunta": "Map Handicap: MOUZ (-1.5) vs FURIA (+1.5)",
-    "ts": "2026-10-09T09:14:23.876681",
+    "id": "5430337",
+    "pregunta": "Valorant: 100 Thieves vs Nongshim RedForce - Map 2 Winner",
+    "ts": "2026-10-09T09:24:36.015466",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27e43aad2471b41a8cee10a20920d948c2304803",
+    "whale_wallet": "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5004082",
-    "pregunta": "Al Kholood Saudi Club vs. Al Qadisiyah Saudi Club: O/U 5.5",
-    "ts": "2026-10-09T09:14:25.070219",
+    "id": "5414682",
+    "pregunta": "Counter-Strike: FURIA vs MOUZ - Map 1 Winner",
+    "ts": "2026-10-09T09:24:37.124256",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27e43aad2471b41a8cee10a20920d948c2304803",
+    "whale_wallet": "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414684",
+    "pregunta": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-09T09:24:43.144179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   }
 ]
