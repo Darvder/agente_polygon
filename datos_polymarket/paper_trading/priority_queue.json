@@ -1,10 +1,34 @@
 [
   {
-    "id": "5433018",
-    "pregunta": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
-    "ts": "2026-10-09T07:53:45.448660",
+    "id": "5414684",
+    "pregunta": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-09T08:03:52.597273",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x446884aa55e3dcf7123d9a3d6243c4e34b70b165",
+    "whale_wallet": "0x9b963178d3b8765cfc5af94c00550d6ec6c54389",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5445021",
+    "pregunta": "Counter-Strike: FaZe vs PURE (BO3) - Roman Imperium Cup Playoffs",
+    "ts": "2026-10-09T08:03:53.670755",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b963178d3b8765cfc5af94c00550d6ec6c54389",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414695",
+    "pregunta": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-09T08:03:54.732175",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b963178d3b8765cfc5af94c00550d6ec6c54389",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414686",
+    "pregunta": "Map Handicap: MOUZ (-1.5) vs FURIA (+1.5)",
+    "ts": "2026-10-09T08:03:55.791030",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9b963178d3b8765cfc5af94c00550d6ec6c54389",
     "whale_signal": "COMPRAR NO"
   }
 ]
