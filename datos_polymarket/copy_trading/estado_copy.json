@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1575.66,
-  "capital_en_riesgo": 470.11999999999995,
-  "n_ciclos": 40130,
-  "ultima_corrida": "2026-10-09 17:05",
-  "n_tp": 920,
+  "capital_actual": 1612.21,
+  "capital_en_riesgo": 445.45,
+  "n_ciclos": 40131,
+  "ultima_corrida": "2026-10-09 17:16",
+  "n_tp": 921,
   "n_sl": 650,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 3.9,
-    "capital_en_riesgo": 57.82,
+    "capital_actual": 8.34,
+    "capital_en_riesgo": 54.82,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 415,
+    "n_tp": 416,
     "n_sl": 311,
     "posiciones_abiertas": [
       {
@@ -240,26 +240,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xfbb92c2f1761204fcf94f7815ef32d1990aef8eff8789835a75f7eaec701242f"
-      },
-      {
-        "fecha_entrada": "2026-10-09",
-        "fecha_entrada_dt": "2026-10-09 13:05",
-        "target_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-        "market_id": "4957685",
-        "condition_id": "0x84396b9d9bc8fca1da863fb9dd7017be7f620b343197eab72b4544475fb57d7f",
-        "token_id": "28760699448585376603229778884623745510703675691139124445756248502132741234261",
-        "pregunta": "Will Al Nassr Saudi Club win on 2026-10-09?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.675,
-        "precio_actual": 0.9995,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xc8191d9ac579b8ea7f1defb54067e15b6104bdf9f4777d66fed2d02e7091447d"
       },
       {
         "fecha_entrada": "2026-10-09",
@@ -14902,6 +14882,26 @@
         "pnl_realizado": -3.36,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xdc32c05e469b5625d04cf1de843611765d713092ceb4ec93c074463edfb29eb2"
+      },
+      {
+        "fecha_entrada": "2026-10-09",
+        "fecha_entrada_dt": "2026-10-09 13:05",
+        "target_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+        "market_id": "4957685",
+        "condition_id": "0x84396b9d9bc8fca1da863fb9dd7017be7f620b343197eab72b4544475fb57d7f",
+        "token_id": "28760699448585376603229778884623745510703675691139124445756248502132741234261",
+        "pregunta": "Will Al Nassr Saudi Club win on 2026-10-09?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.675,
+        "precio_actual": 1.0,
+        "precio_cierre": 1.0,
+        "pct_cambio": 0.4815,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-09 17:15",
+        "pnl_realizado": 1.44,
+        "razon_cierre": "RESOLVED_EXIT",
+        "tx_hash": "0xc8191d9ac579b8ea7f1defb54067e15b6104bdf9f4777d66fed2d02e7091447d"
       }
     ]
   }
