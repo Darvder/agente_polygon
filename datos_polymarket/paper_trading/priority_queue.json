@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5427264",
+    "pregunta": "Shanghai Rolex Masters: Novak Djokovic vs Hubert Hurkacz",
+    "ts": "2026-10-09T06:54:50.466680",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5442212",
+    "pregunta": "W50 Heraklion: Francesca Curmi vs Alisa Oktiabreva",
+    "ts": "2026-10-09T06:54:51.525637",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5442210",
+    "pregunta": "W50 Heraklion: Jessica Bertoldo vs Ipek Oz",
+    "ts": "2026-10-09T06:54:52.766077",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5424067",
+    "pregunta": "Shanghai Rolex Masters: Karen Khachanov vs Arthur Fery",
+    "ts": "2026-10-09T06:54:53.825300",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5403229",
+    "pregunta": "China Open: Elise Mertens vs Iga Swiatek",
+    "ts": "2026-10-09T06:54:54.879197",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+    "whale_signal": "COMPRAR NO"
+  }
+]
