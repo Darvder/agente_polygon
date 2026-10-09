@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "id": "5290956",
+    "pregunta": "Chris Godwin Jr.: Anytime Touchdown",
+    "ts": "2026-10-08T20:24:17.343804",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5290958",
+    "pregunta": "Emeka Egbuka: Anytime Touchdown",
+    "ts": "2026-10-08T20:24:18.576641",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5095142",
+    "pregunta": "South Alabama vs. Arkansas State",
+    "ts": "2026-10-08T20:24:19.650904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4865816",
+    "pregunta": "Cowboys Team Total: O/U 30.5",
+    "ts": "2026-10-08T20:24:20.719605",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4864992",
+    "pregunta": "Spread: Cowboys (-14.5)",
+    "ts": "2026-10-08T20:24:21.788484",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5095249",
+    "pregunta": "Columbia vs. Marist",
+    "ts": "2026-10-08T20:24:22.861516",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4864987",
+    "pregunta": "Spread: Cowboys (-7.5)",
+    "ts": "2026-10-08T20:24:23.930795",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5175509",
+    "pregunta": "Cleveland Guardians vs. Chicago White Sox",
+    "ts": "2026-10-08T20:24:25.949413",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3951230",
+    "pregunta": "Buccaneers vs. Cowboys",
+    "ts": "2026-10-08T20:24:27.020728",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4978020",
+    "pregunta": "Santos FC vs. CR Flamengo: Both Teams to Score",
+    "ts": "2026-10-08T20:24:29.061013",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d75e83a28ac8efad0fdd29b654e7a2ad47c899e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4978014",
+    "pregunta": "Santos FC vs. CR Flamengo: O/U 3.5",
+    "ts": "2026-10-08T20:24:30.128098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d75e83a28ac8efad0fdd29b654e7a2ad47c899e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4977953",
+    "pregunta": "CA Paranaense vs. CA Mineiro: O/U 2.5",
+    "ts": "2026-10-08T20:24:31.193903",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d75e83a28ac8efad0fdd29b654e7a2ad47c899e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4977842",
+    "pregunta": "SE Palmeiras vs. EC Bahia: 1st Half O/U 0.5",
+    "ts": "2026-10-08T20:24:32.435602",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d75e83a28ac8efad0fdd29b654e7a2ad47c899e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
