@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-10-09T03:53:55.799976",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb51b3beffd13cde071ed799e70a7b0b598e8b4d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5423749",
+    "pregunta": "Will the highest temperature in Shanghai be 26\u00b0C on October 10?",
+    "ts": "2026-10-09T03:53:57.745182",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80c052f2189288b94e732083facd93ee590dc4f6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
