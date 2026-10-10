@@ -1,10 +1,26 @@
 [
   {
-    "id": "5434049",
-    "pregunta": "Shanghai Rolex Masters: Daniil Medvedev vs Jan-Lennard Struff",
-    "ts": "2026-10-10T00:55:51.009950",
+    "id": "5203589",
+    "pregunta": "2nd Half Spread: Arsenal FC (-1.5)",
+    "ts": "2026-10-10T01:04:22.853563",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x62e8b5d5c6060394b0a05200e0d67049511088a1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5096795",
+    "pregunta": "San Diego vs. Butler: O/U 57.5",
+    "ts": "2026-10-10T01:04:23.924446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x62e8b5d5c6060394b0a05200e0d67049511088a1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5096902",
+    "pregunta": "William & Mary vs. North Carolina Central",
+    "ts": "2026-10-10T01:04:24.991229",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x62e8b5d5c6060394b0a05200e0d67049511088a1",
     "whale_signal": "COMPRAR NO"
   }
 ]
