@@ -1,18 +1,26 @@
 [
   {
-    "id": "5009005",
-    "pregunta": "Will Arsenal FC win on 2026-10-10?",
-    "ts": "2026-10-10T07:14:45.250502",
+    "id": "5457981",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 2 Winner",
+    "ts": "2026-10-10T07:24:56.285540",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe92e48eedd15867056b51926a59aa524439f535d",
+    "whale_wallet": "0xc0f5345be7d24194892f10627123ffe91c633d04",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5009011",
-    "pregunta": "Will Arsenal FC vs. Leeds United FC end in a draw?",
-    "ts": "2026-10-10T07:14:46.294793",
+    "id": "5430340",
+    "pregunta": "Valorant: G2 Esports vs Team Vitality - Map 1 Winner",
+    "ts": "2026-10-10T07:24:58.246377",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe92e48eedd15867056b51926a59aa524439f535d",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5430342",
+    "pregunta": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-10T07:24:59.307427",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
     "whale_signal": "COMPRAR NO"
   }
 ]
