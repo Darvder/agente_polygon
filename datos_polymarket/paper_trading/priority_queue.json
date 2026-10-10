@@ -1,114 +1,34 @@
 [
   {
-    "id": "5263193",
-    "pregunta": "LoL: LOS vs FURIA Esports - Game 2 Winner",
-    "ts": "2026-10-10T14:04:26.392730",
+    "id": "4988412",
+    "pregunta": "Will FC Porto win on 2026-10-10?",
+    "ts": "2026-10-10T14:13:52.728789",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2518940d122e38d235d367ea4557eaff2796254f",
+    "whale_wallet": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5263194",
-    "pregunta": "LoL: LOS vs FURIA Esports - Game 3 Winner",
-    "ts": "2026-10-10T14:04:27.484302",
+    "id": "5020792",
+    "pregunta": "CS Mar\u00edtimo vs. FC Porto: O/U 3.5",
+    "ts": "2026-10-10T14:13:53.772009",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2518940d122e38d235d367ea4557eaff2796254f",
+    "whale_wallet": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5104930",
-    "pregunta": "UCF vs. Oklahoma State",
-    "ts": "2026-10-10T14:04:29.290710",
+    "id": "5263196",
+    "pregunta": "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
+    "ts": "2026-10-10T14:14:00.945748",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5096266",
-    "pregunta": "Indiana vs. Nebraska: O/U 47.5",
-    "ts": "2026-10-10T14:04:30.385756",
+    "id": "5473049",
+    "pregunta": "Counter-Strike: MOUZ vs Spirit - Map 2 Winner",
+    "ts": "2026-10-10T14:14:03.038174",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095975",
-    "pregunta": "Wake Forest vs. NC State",
-    "ts": "2026-10-10T14:04:31.481299",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5096263",
-    "pregunta": "Indiana vs. Nebraska: O/U 41.5",
-    "ts": "2026-10-10T14:04:32.580453",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5096662",
-    "pregunta": "Texas A&M vs. Missouri",
-    "ts": "2026-10-10T14:04:33.670928",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5096841",
-    "pregunta": "South Carolina vs. Florida: O/U 59.5",
-    "ts": "2026-10-10T14:04:34.782231",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5096369",
-    "pregunta": "Arizona vs. West Virginia",
-    "ts": "2026-10-10T14:04:35.885389",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5096079",
-    "pregunta": "Tulane vs. Army",
-    "ts": "2026-10-10T14:04:36.984204",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5104975",
-    "pregunta": "UCF vs. Oklahoma State: O/U 63.5",
-    "ts": "2026-10-10T14:04:38.087064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095977",
-    "pregunta": "Spread: Wake Forest (-17.5)",
-    "ts": "2026-10-10T14:04:39.196404",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4396623",
-    "pregunta": "Will Spirit Win the ESL Pro League Season 24?",
-    "ts": "2026-10-10T14:04:41.212583",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6727f4f44ea8081bc5eaa3d120768b12ab512ac7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4396625",
-    "pregunta": "Will MOUZ Win the ESL Pro League Season 24?",
-    "ts": "2026-10-10T14:04:42.316498",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6727f4f44ea8081bc5eaa3d120768b12ab512ac7",
+    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
     "whale_signal": "COMPRAR NO"
   }
 ]
