@@ -1,26 +1,18 @@
 [
   {
-    "id": "5242638",
-    "pregunta": "Golden State Valkyries vs. Las Vegas Aces",
-    "ts": "2026-10-09T23:34:34.434519",
+    "id": "5095768",
+    "pregunta": "Spread: BYU (-17.5)",
+    "ts": "2026-10-09T23:43:45.742258",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf6dd2e6947283b30a19a106401dadad2bc9bac58",
+    "whale_wallet": "0xce2e43c9569432a8ee808e8da88da0cabd474257",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5095633",
-    "pregunta": "Washington State vs. Utah State",
-    "ts": "2026-10-09T23:34:42.917870",
+    "id": "5095765",
+    "pregunta": "Spread: BYU (-13.5)",
+    "ts": "2026-10-09T23:43:46.786905",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf6dd2e6947283b30a19a106401dadad2bc9bac58",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5017721",
-    "pregunta": "Tigres de la UANL vs. Deportivo Toluca FC: 1st Half O/U 1.5",
-    "ts": "2026-10-09T23:34:45.020638",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbc5b77b1274d7b48257d9b4d1bf7652e32ec3ddc",
+    "whale_wallet": "0xce2e43c9569432a8ee808e8da88da0cabd474257",
     "whale_signal": "COMPRAR NO"
   }
 ]
