@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1588.28,
-  "capital_en_riesgo": 462.38,
-  "n_ciclos": 40210,
-  "ultima_corrida": "2026-10-10 06:24",
-  "n_tp": 937,
+  "capital_actual": 1611.58,
+  "capital_en_riesgo": 445.13,
+  "n_ciclos": 40211,
+  "ultima_corrida": "2026-10-10 06:34",
+  "n_tp": 938,
   "n_sl": 662,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 5.54,
-    "capital_en_riesgo": 56.54,
+    "capital_actual": 9.59,
+    "capital_en_riesgo": 53.54,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 433,
+    "n_tp": 434,
     "n_sl": 325,
     "posiciones_abiertas": [
       {
@@ -91,7 +91,7 @@
         "pregunta": "Will Bitcoin dip to $80,000 October 5-11?",
         "outcome": "No",
         "precio_token_entrada": 0.63,
-        "precio_actual": 0.971,
+        "precio_actual": 0.972,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -271,7 +271,7 @@
         "pregunta": "US x Iran ceasefire continues through November 30?",
         "outcome": "Yes",
         "precio_token_entrada": 0.4,
-        "precio_actual": 0.395,
+        "precio_actual": 0.405,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.98,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xa1a64c83ee5a660660901d6535dd9b706189dd604a1bd711ff1e697a1582c8af"
-      },
-      {
-        "fecha_entrada": "2026-10-10",
-        "fecha_entrada_dt": "2026-10-10 05:14",
-        "target_wallet": "0x27753c9c8dcdec6f35e30c3dc64fcd0797d93652",
-        "market_id": "5270365",
-        "condition_id": "0xb4455b89ca6b53c8fd3fbaf3e55ef89f6044b59393cd7623ff44dc5b2093689a",
-        "token_id": "47930227227234535124275103195711077805114747466215245000318700543638932462005",
-        "pregunta": "South East Melbourne Phoenix vs. Melbourne United",
-        "outcome": "Melbourne United",
-        "precio_token_entrada": 0.74,
-        "precio_actual": 0.9995,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xe2cbeada9467d560a3df5fd00379ae5e63221bf1208aae6d655eb5d2b2858011"
       }
     ],
     "historial_cerradas": [
@@ -15542,6 +15522,26 @@
         "pnl_realizado": -3.0,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x172cc4475ba223169daef060a4a740b689e54df59764abbcd7c77e9358760fc2"
+      },
+      {
+        "fecha_entrada": "2026-10-10",
+        "fecha_entrada_dt": "2026-10-10 05:14",
+        "target_wallet": "0x27753c9c8dcdec6f35e30c3dc64fcd0797d93652",
+        "market_id": "5270365",
+        "condition_id": "0xb4455b89ca6b53c8fd3fbaf3e55ef89f6044b59393cd7623ff44dc5b2093689a",
+        "token_id": "47930227227234535124275103195711077805114747466215245000318700543638932462005",
+        "pregunta": "South East Melbourne Phoenix vs. Melbourne United",
+        "outcome": "Melbourne United",
+        "precio_token_entrada": 0.74,
+        "precio_actual": 0.9995,
+        "precio_cierre": 0.9995,
+        "pct_cambio": 0.3507,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-10 06:34",
+        "pnl_realizado": 1.05,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xe2cbeada9467d560a3df5fd00379ae5e63221bf1208aae6d655eb5d2b2858011"
       }
     ]
   }
