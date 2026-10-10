@@ -1,26 +1,18 @@
 [
   {
-    "id": "5221105",
-    "pregunta": "Atlanta Dream vs. New York Liberty",
-    "ts": "2026-10-09T19:45:23.009032",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf6dd2e6947283b30a19a106401dadad2bc9bac58",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4497802",
-    "pregunta": "Ducks vs. Jets",
-    "ts": "2026-10-09T19:45:24.753299",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4497787",
     "pregunta": "Rangers vs. Capitals",
-    "ts": "2026-10-09T19:45:25.795706",
+    "ts": "2026-10-09T19:54:30.340503",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5095269",
+    "pregunta": "Florida State vs. Louisville",
+    "ts": "2026-10-09T19:54:31.398077",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
     "whale_signal": "COMPRAR NO"
   }
 ]
