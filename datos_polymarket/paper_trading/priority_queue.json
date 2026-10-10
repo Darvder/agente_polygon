@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5009126",
+    "pregunta": "Will Tottenham Hotspur FC win on 2026-10-10?",
+    "ts": "2026-10-10T11:53:48.308403",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x53a1a7bbd8c025157adfac80c7c7b2ba630d76b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5003804",
+    "pregunta": "Will Frosinone Calcio win on 2026-10-10?",
+    "ts": "2026-10-10T11:54:08.996217",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaa0e2d9e050184ae1f85667ecb3f1c0af5222a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5003802",
+    "pregunta": "Will SSC Napoli win on 2026-10-10?",
+    "ts": "2026-10-10T11:54:10.050798",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaa0e2d9e050184ae1f85667ecb3f1c0af5222a0e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
