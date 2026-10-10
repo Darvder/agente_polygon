@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5461095",
+    "pregunta": "Wuhan Tennis Open, Qualification: Anna Bondar vs Lois Boisson",
+    "ts": "2026-10-10T04:25:11.773565",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bfe9469c7c4035325024c846bc530c9d29e3258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5405589",
+    "pregunta": "Valorant: NRG vs LOUD - Map 1 Winner",
+    "ts": "2026-10-10T04:25:15.922501",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9a01eab1e0079ccbf898104be414eac4a8db24d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5473050",
+    "pregunta": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-10T04:25:17.946452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ba3a7a502103c9ef676f74db134d39d28f924b4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5483534",
+    "pregunta": "Game Handicap: DSG (-1.5) vs Cupid Esports (+1.5)",
+    "ts": "2026-10-10T04:25:20.174854",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeada0f9464c58bb16bf23f6d9c65b2da100530b5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
