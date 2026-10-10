@@ -1,74 +1,26 @@
 [
   {
-    "id": "4641065",
-    "pregunta": "US x Iran ceasefire continues through October 31?",
-    "ts": "2026-10-09T23:25:30.960437",
+    "id": "5242638",
+    "pregunta": "Golden State Valkyries vs. Las Vegas Aces",
+    "ts": "2026-10-09T23:34:34.434519",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x72f7b4aa5acaff9629917cf4ec34620a41c492f7",
+    "whale_wallet": "0xf6dd2e6947283b30a19a106401dadad2bc9bac58",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4713484",
-    "pregunta": "US x Iran ceasefire continues through December 31?",
-    "ts": "2026-10-09T23:25:32.010589",
+    "id": "5095633",
+    "pregunta": "Washington State vs. Utah State",
+    "ts": "2026-10-09T23:34:42.917870",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x72f7b4aa5acaff9629917cf4ec34620a41c492f7",
+    "whale_wallet": "0xf6dd2e6947283b30a19a106401dadad2bc9bac58",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4713483",
-    "pregunta": "US x Iran ceasefire continues through November 30?",
-    "ts": "2026-10-09T23:25:33.065735",
+    "id": "5017721",
+    "pregunta": "Tigres de la UANL vs. Deportivo Toluca FC: 1st Half O/U 1.5",
+    "ts": "2026-10-09T23:34:45.020638",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x72f7b4aa5acaff9629917cf4ec34620a41c492f7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5013492",
-    "pregunta": "FC Augsburg vs. FC Bayern M\u00fcnchen: Both Teams to Score",
-    "ts": "2026-10-09T23:25:35.320248",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5970243e208e9963a60de3bcd39f6a26d18d11f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5016501",
-    "pregunta": "Deportivo Alav\u00e9s vs. Club Atl\u00e9tico de Madrid: Both Teams to Score",
-    "ts": "2026-10-09T23:25:36.522615",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5970243e208e9963a60de3bcd39f6a26d18d11f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5015014",
-    "pregunta": "Will Club Atl\u00e9tico de Madrid win on 2026-10-10?",
-    "ts": "2026-10-09T23:25:37.573300",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5970243e208e9963a60de3bcd39f6a26d18d11f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5016240",
-    "pregunta": "Real Madrid CF vs. Villarreal CF: Both Teams to Score",
-    "ts": "2026-10-09T23:25:38.711487",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5970243e208e9963a60de3bcd39f6a26d18d11f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5015072",
-    "pregunta": "Will Real Madrid CF vs. Villarreal CF end in a draw?",
-    "ts": "2026-10-09T23:25:39.884891",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5970243e208e9963a60de3bcd39f6a26d18d11f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5015068",
-    "pregunta": "Will Real Madrid CF win on 2026-10-10?",
-    "ts": "2026-10-09T23:25:40.936836",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5970243e208e9963a60de3bcd39f6a26d18d11f2",
+    "whale_wallet": "0xbc5b77b1274d7b48257d9b4d1bf7652e32ec3ddc",
     "whale_signal": "COMPRAR NO"
   }
 ]
