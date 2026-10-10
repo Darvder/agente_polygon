@@ -1,50 +1,74 @@
 [
   {
-    "id": "5015014",
-    "pregunta": "Will Club Atl\u00e9tico de Madrid win on 2026-10-10?",
-    "ts": "2026-10-10T10:54:30.273923",
+    "id": "5016494",
+    "pregunta": "Deportivo Alav\u00e9s vs. Club Atl\u00e9tico de Madrid: O/U 2.5",
+    "ts": "2026-10-10T11:06:50.341548",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5003798",
-    "pregunta": "Will FC Internazionale Milano win on 2026-10-10?",
-    "ts": "2026-10-10T10:54:31.361051",
+    "id": "5015009",
+    "pregunta": "Will Deportivo Alav\u00e9s vs. Club Atl\u00e9tico de Madrid end in a draw?",
+    "ts": "2026-10-10T11:06:51.395820",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5009057",
-    "pregunta": "Will FC Bayern M\u00fcnchen win on 2026-10-10?",
-    "ts": "2026-10-10T10:54:32.434684",
+    "id": "5474954",
+    "pregunta": "Dota 2: PARIVISION vs Aurora - Game 2 Winner",
+    "ts": "2026-10-10T11:07:03.821209",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "whale_wallet": "0x69f667579eac00be469270e7d49e89be832d1658",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5009008",
-    "pregunta": "Will TSG 1899 Hoffenheim vs. Hamburger SV end in a draw?",
-    "ts": "2026-10-10T10:54:33.497442",
+    "id": "5096681",
+    "pregunta": "Spread: Missouri (-3.5)",
+    "ts": "2026-10-10T11:07:05.698703",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "whale_wallet": "0x59747fd2f28591eb2a479acbb7230f924efd2a69",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5009053",
-    "pregunta": "Will FC Augsburg vs. FC Bayern M\u00fcnchen end in a draw?",
-    "ts": "2026-10-10T10:54:34.722366",
+    "id": "5096822",
+    "pregunta": "Spread: Florida (-8.5)",
+    "ts": "2026-10-10T11:07:06.846405",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "whale_wallet": "0x59747fd2f28591eb2a479acbb7230f924efd2a69",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5009042",
-    "pregunta": "Will Brighton & Hove Albion FC win on 2026-10-10?",
-    "ts": "2026-10-10T10:54:35.783985",
+    "id": "5097980",
+    "pregunta": "Spread: Texas (-6.5)",
+    "ts": "2026-10-10T11:07:07.914643",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "whale_wallet": "0x59747fd2f28591eb2a479acbb7230f924efd2a69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5098940",
+    "pregunta": "Spread: Oregon (-9.5)",
+    "ts": "2026-10-10T11:07:08.975163",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59747fd2f28591eb2a479acbb7230f924efd2a69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5101063",
+    "pregunta": "Spread: Penn State (-3.5)",
+    "ts": "2026-10-10T11:07:10.123274",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59747fd2f28591eb2a479acbb7230f924efd2a69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5101529",
+    "pregunta": "Spread: Alabama (-3.5)",
+    "ts": "2026-10-10T11:07:11.186406",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59747fd2f28591eb2a479acbb7230f924efd2a69",
     "whale_signal": "COMPRAR NO"
   }
 ]
