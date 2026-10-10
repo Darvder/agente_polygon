@@ -1,42 +1,26 @@
 [
   {
-    "id": "5476642",
-    "pregunta": "Braga: Elmer Moeller vs Vilius Gaubas",
-    "ts": "2026-10-10T08:45:27.988689",
+    "id": "5457957",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-10T08:54:28.489334",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf8164a94e27cdced0cc975e21308fb099b2d0433",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5430342",
-    "pregunta": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
-    "ts": "2026-10-10T08:45:32.422857",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc548cb509b2dfc09282f8037eb103a8ad7a88e4e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5430341",
-    "pregunta": "Valorant: G2 Esports vs Team Vitality - Map 2 Winner",
-    "ts": "2026-10-10T08:45:35.650830",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc548cb509b2dfc09282f8037eb103a8ad7a88e4e",
+    "whale_wallet": "0xbc0c38a9c217843b79499fd4d4ac1a04fd4cdac0",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5457955",
     "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 1 Winner",
-    "ts": "2026-10-10T08:45:36.712744",
+    "ts": "2026-10-10T08:54:29.544939",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc548cb509b2dfc09282f8037eb103a8ad7a88e4e",
+    "whale_wallet": "0xbc0c38a9c217843b79499fd4d4ac1a04fd4cdac0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5474953",
-    "pregunta": "Dota 2: PARIVISION vs Aurora - Game 1 Winner",
-    "ts": "2026-10-10T08:45:42.899962",
+    "id": "5375147",
+    "pregunta": "Iran-Oman Hormuz Agreement by November 30?",
+    "ts": "2026-10-10T08:54:31.665845",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9f4bec86118be62d973fd53004efca8fed8c1e4",
+    "whale_wallet": "0xe5554c0ddb96628641f079edb419fb47fb2ea91d",
     "whale_signal": "COMPRAR NO"
   }
 ]
