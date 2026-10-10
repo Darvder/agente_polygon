@@ -1,26 +1,42 @@
 [
   {
-    "id": "5013810",
-    "pregunta": "Arsenal FC vs. Leeds United FC: O/U 2.5",
-    "ts": "2026-10-10T07:54:12.410540",
+    "id": "5024519",
+    "pregunta": "Sheffield United FC vs. Lincoln City FC: O/U 2.5",
+    "ts": "2026-10-10T08:05:29.084512",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x10a6fadcbacd66330862206f6199b197e3ad4d8b",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5430342",
     "pregunta": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
-    "ts": "2026-10-10T07:54:19.376147",
+    "ts": "2026-10-10T08:05:30.966607",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x4c07bf46017ef52c0bea3fe4253185dec1316200",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5009005",
-    "pregunta": "Will Arsenal FC win on 2026-10-10?",
-    "ts": "2026-10-10T07:54:20.415510",
+    "id": "5474957",
+    "pregunta": "Game Handicap: PARI (-1.5) vs Aurora (+1.5)",
+    "ts": "2026-10-10T08:05:32.006857",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x4c07bf46017ef52c0bea3fe4253185dec1316200",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5269687",
+    "pregunta": "Spurs vs. Suns",
+    "ts": "2026-10-10T08:05:44.432864",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5461112",
+    "pregunta": "China Open: Qinwen Zheng vs Elise Mertens",
+    "ts": "2026-10-10T08:05:56.195347",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2324444d15c077a20b4fed3e5837635251820aee",
     "whale_signal": "COMPRAR NO"
   }
 ]
