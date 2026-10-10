@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5009005",
+    "pregunta": "Will Arsenal FC win on 2026-10-10?",
+    "ts": "2026-10-10T07:14:45.250502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe92e48eedd15867056b51926a59aa524439f535d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5009011",
+    "pregunta": "Will Arsenal FC vs. Leeds United FC end in a draw?",
+    "ts": "2026-10-10T07:14:46.294793",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe92e48eedd15867056b51926a59aa524439f535d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
