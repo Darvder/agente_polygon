@@ -1,74 +1,50 @@
 [
   {
-    "id": "4527219",
-    "pregunta": "Wild vs. Panthers",
-    "ts": "2026-10-10T15:45:20.709373",
+    "id": "5472060",
+    "pregunta": "Spread: Timberwolves (-1.5)",
+    "ts": "2026-10-10T15:55:03.795341",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x82398835fe16616214d928ba87127e28fc1cd9a3",
+    "whale_wallet": "0x4c999cfdac664b015757d540653c30dc8e0720ea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5100561",
-    "pregunta": "Spread: North Dakota State (-2.5)",
-    "ts": "2026-10-10T15:45:21.759029",
+    "id": "5492586",
+    "pregunta": "Spread: Spurs (-6.5)",
+    "ts": "2026-10-10T15:55:04.849284",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x82398835fe16616214d928ba87127e28fc1cd9a3",
+    "whale_wallet": "0x4c999cfdac664b015757d540653c30dc8e0720ea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5098663",
-    "pregunta": "Duke vs. Georgia Tech",
-    "ts": "2026-10-10T15:45:23.340433",
+    "id": "5473432",
+    "pregunta": "Spread: Spurs (-7.5)",
+    "ts": "2026-10-10T15:55:05.911502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x4c999cfdac664b015757d540653c30dc8e0720ea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5098206",
-    "pregunta": "Virginia Tech vs. California",
-    "ts": "2026-10-10T15:45:24.397567",
+    "id": "5505468",
+    "pregunta": "Spread: Timberwolves (-2.5)",
+    "ts": "2026-10-10T15:55:06.962392",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x4c999cfdac664b015757d540653c30dc8e0720ea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5098927",
-    "pregunta": "UCLA vs. Oregon",
-    "ts": "2026-10-10T15:45:25.454148",
+    "id": "5263196",
+    "pregunta": "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
+    "ts": "2026-10-10T15:55:08.633097",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5097961",
-    "pregunta": "Texas vs. Oklahoma",
-    "ts": "2026-10-10T15:45:26.514501",
+    "id": "5473050",
+    "pregunta": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-10T15:55:10.592095",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5016242",
-    "pregunta": "Real Madrid CF vs. Villarreal CF: 1st Half O/U 0.5",
-    "ts": "2026-10-10T15:45:28.432000",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4272f2468fd3b5743998f76376def1721f134a17",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5218503",
-    "pregunta": "UFC Fight Night: Andre Fili vs. Kai Kamaka III (Featherweight, Main Card)",
-    "ts": "2026-10-10T15:45:31.248315",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5218680",
-    "pregunta": "UFC Fight Night: Niko Price vs. Leon Shahbazyan (Welterweight, Prelims)",
-    "ts": "2026-10-10T15:45:32.290175",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x8b0e373dcf6efcf6d6910303b44378d2dc763a6e",
     "whale_signal": "COMPRAR NO"
   }
 ]
