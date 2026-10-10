@@ -1,10 +1,74 @@
 [
   {
-    "id": "5015014",
-    "pregunta": "Will Club Atl\u00e9tico de Madrid win on 2026-10-10?",
-    "ts": "2026-10-10T10:34:45.669561",
+    "id": "5476642",
+    "pregunta": "Braga: Elmer Moeller vs Vilius Gaubas",
+    "ts": "2026-10-10T10:44:23.741642",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5013618",
+    "pregunta": "Spread: VfB Stuttgart (-1.5)",
+    "ts": "2026-10-10T10:44:24.809327",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5013477",
+    "pregunta": "FC Augsburg vs. FC Bayern M\u00fcnchen: O/U 4.5",
+    "ts": "2026-10-10T10:44:28.075284",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5009053",
+    "pregunta": "Will FC Augsburg vs. FC Bayern M\u00fcnchen end in a draw?",
+    "ts": "2026-10-10T10:44:29.138940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5474955",
+    "pregunta": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-10T10:44:30.225814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5457956",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 2 Winner",
+    "ts": "2026-10-10T10:44:31.306395",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5474954",
+    "pregunta": "Dota 2: PARIVISION vs Aurora - Game 2 Winner",
+    "ts": "2026-10-10T10:44:32.370771",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5016495",
+    "pregunta": "Deportivo Alav\u00e9s vs. Club Atl\u00e9tico de Madrid: O/U 3.5",
+    "ts": "2026-10-10T10:44:33.436226",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5457957",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-10T10:44:37.103951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2abcd0879d4df485ea48091a53a7f33b8873bb3",
     "whale_signal": "COMPRAR NO"
   }
 ]
