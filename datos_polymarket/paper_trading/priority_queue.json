@@ -1,26 +1,122 @@
 [
   {
-    "id": "4527204",
-    "pregunta": "Flyers vs. Bruins",
-    "ts": "2026-10-10T09:24:04.727647",
+    "id": "5009102",
+    "pregunta": "Will AFC Bournemouth win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:25.972649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaa075924e1dc7cff3b9fab67401126338c4d2125",
+    "whale_wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5457955",
-    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 1 Winner",
-    "ts": "2026-10-10T09:24:06.607692",
+    "id": "5009057",
+    "pregunta": "Will FC Bayern M\u00fcnchen win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:27.014045",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5457957",
     "pregunta": "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-10T09:24:07.665947",
+    "ts": "2026-10-10T09:34:28.763512",
     "origen": "whale_copytrader",
     "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5457955",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 1 Winner",
+    "ts": "2026-10-10T09:34:29.813084",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5009059",
+    "pregunta": "Will Fulham FC win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:31.692835",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5013037",
+    "pregunta": "Chelsea FC vs. AFC Bournemouth: Both Teams to Score",
+    "ts": "2026-10-10T09:34:32.762323",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5009091",
+    "pregunta": "Will 1. FC Union Berlin win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:34.729623",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5265826",
+    "pregunta": "Will AIK win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:35.768862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5027213",
+    "pregunta": "Will AS Tren\u010d\u00edn win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:36.976184",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5009229",
+    "pregunta": "Will Sheffield United FC win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:38.048238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5021349",
+    "pregunta": "Will Bristol Rovers FC win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:39.232916",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5273599",
+    "pregunta": "Will Tranmere Rovers FC win on 2026-10-17?",
+    "ts": "2026-10-10T09:34:40.415691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5265831",
+    "pregunta": "Will IF Brommapojkarna win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:41.464967",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5257743",
+    "pregunta": "Will KS Cracovia Krakow win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:42.571512",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5018218",
+    "pregunta": "Will Mansfield Town FC win on 2026-10-10?",
+    "ts": "2026-10-10T09:34:43.756423",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59911710f01a9a8fb3470e3c9be8f5b78f6cee89",
     "whale_signal": "COMPRAR NO"
   }
 ]
