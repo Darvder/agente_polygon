@@ -1,18 +1,18 @@
 [
   {
-    "id": "5020768",
-    "pregunta": "Spread: FC Porto (-1.5)",
-    "ts": "2026-10-10T12:16:16.420969",
+    "id": "5239459",
+    "pregunta": "Will Tampereen Ilves win on 2026-10-10?",
+    "ts": "2026-10-10T12:24:44.080767",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
+    "whale_wallet": "0x162ca4c5249987872fea1e15c846d7fe80316c47",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4991145",
-    "pregunta": "Will CD Cobresal win on 2026-10-10?",
-    "ts": "2026-10-10T12:16:17.516790",
+    "id": "2365859",
+    "pregunta": "Hyperbeat FDV above $10M one day after launch?",
+    "ts": "2026-10-10T12:24:46.259104",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
+    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
     "whale_signal": "COMPRAR NO"
   }
 ]
