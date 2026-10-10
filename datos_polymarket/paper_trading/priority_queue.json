@@ -1,26 +1,42 @@
 [
   {
-    "id": "5100798",
-    "pregunta": "Bethune-Cookman vs. Alabama A&M",
-    "ts": "2026-10-10T13:45:06.398930",
+    "id": "5013478",
+    "pregunta": "AS Monaco FC vs. Toulouse FC: O/U 4.5",
+    "ts": "2026-10-10T13:55:39.031629",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x168fd826a1f30c1752f221b74a7a1316c54f6424",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5098000",
-    "pregunta": "Texas vs. Oklahoma: O/U 38.5",
-    "ts": "2026-10-10T13:45:07.481184",
+    "id": "5015068",
+    "pregunta": "Will Real Madrid CF win on 2026-10-10?",
+    "ts": "2026-10-10T13:55:40.095026",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x168fd826a1f30c1752f221b74a7a1316c54f6424",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5473049",
+    "pregunta": "Counter-Strike: MOUZ vs Spirit - Map 2 Winner",
+    "ts": "2026-10-10T13:55:41.152491",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5473050",
     "pregunta": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-10T13:45:08.531930",
+    "ts": "2026-10-10T13:55:43.278530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x168fd826a1f30c1752f221b74a7a1316c54f6424",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5036072",
+    "pregunta": "Will Chicago Fire FC win on 2026-10-10?",
+    "ts": "2026-10-10T13:55:46.395758",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
