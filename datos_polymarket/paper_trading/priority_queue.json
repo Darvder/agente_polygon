@@ -1,42 +1,26 @@
 [
   {
-    "id": "5344853",
-    "pregunta": "Spread: Northwestern (-30.5)",
-    "ts": "2026-10-10T13:14:44.460395",
+    "id": "5100262",
+    "pregunta": "Cal Poly vs. Idaho State",
+    "ts": "2026-10-10T13:25:50.073570",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5096598",
-    "pregunta": "Ball State vs. Northwestern: O/U 69.5",
-    "ts": "2026-10-10T13:14:45.559105",
+    "id": "5009084",
+    "pregunta": "Will Paris Saint-Germain FC win on 2026-10-10?",
+    "ts": "2026-10-10T13:25:51.113421",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5096842",
-    "pregunta": "South Carolina vs. Florida: O/U 61.5",
-    "ts": "2026-10-10T13:14:47.351334",
+    "id": "5458175",
+    "pregunta": "Spread: Devils (-1.5)",
+    "ts": "2026-10-10T13:25:52.154987",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5096079",
-    "pregunta": "Tulane vs. Army",
-    "ts": "2026-10-10T13:14:48.454568",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5102255",
-    "pregunta": "Spread: Boise State (-7.5)",
-    "ts": "2026-10-10T13:14:49.555836",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
