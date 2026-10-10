@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5020768",
+    "pregunta": "Spread: FC Porto (-1.5)",
+    "ts": "2026-10-10T12:16:16.420969",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4991145",
+    "pregunta": "Will CD Cobresal win on 2026-10-10?",
+    "ts": "2026-10-10T12:16:17.516790",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
+    "whale_signal": "COMPRAR NO"
+  }
+]
