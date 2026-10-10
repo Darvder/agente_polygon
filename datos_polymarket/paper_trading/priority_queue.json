@@ -1,26 +1,10 @@
 [
   {
-    "id": "5100262",
-    "pregunta": "Cal Poly vs. Idaho State",
-    "ts": "2026-10-10T13:25:50.073570",
+    "id": "5100322",
+    "pregunta": "San Diego State vs. Oregon State: O/U 53.5",
+    "ts": "2026-10-10T13:33:59.061332",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5009084",
-    "pregunta": "Will Paris Saint-Germain FC win on 2026-10-10?",
-    "ts": "2026-10-10T13:25:51.113421",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5458175",
-    "pregunta": "Spread: Devils (-1.5)",
-    "ts": "2026-10-10T13:25:52.154987",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0xe1787252abc9db4d5bfac51c253a68e0162ffe19",
     "whale_signal": "COMPRAR NO"
   }
 ]
