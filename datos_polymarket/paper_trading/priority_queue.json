@@ -1,50 +1,42 @@
 [
   {
-    "id": "5101510",
-    "pregunta": "Georgia vs. Alabama",
-    "ts": "2026-10-10T10:13:38.034355",
+    "id": "5474955",
+    "pregunta": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-10T10:26:52.656668",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5452730",
-    "pregunta": "LoL: essences vs Nothin'Here (BO5) - LCP Promotion: Wild Card Playoffs",
-    "ts": "2026-10-10T10:13:40.089450",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5474686",
-    "pregunta": "Counter-Strike: GamerLegion vs PRIVATE (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
-    "ts": "2026-10-10T10:13:41.175797",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_wallet": "0x3308f2d02d40fa571da699c62c168f859afdf04b",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5457957",
     "pregunta": "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-10T10:13:42.255912",
+    "ts": "2026-10-10T10:26:55.157315",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_wallet": "0xcc1389fdfd0843b30cc78be280e328b44d81941d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5468959",
-    "pregunta": "Counter-Strike: Bebop vs 6666 - Map 2 Winner",
-    "ts": "2026-10-10T10:13:47.802282",
+    "id": "5474954",
+    "pregunta": "Dota 2: PARIVISION vs Aurora - Game 2 Winner",
+    "ts": "2026-10-10T10:26:56.243100",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
+    "whale_wallet": "0xcc1389fdfd0843b30cc78be280e328b44d81941d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5457956",
-    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 2 Winner",
-    "ts": "2026-10-10T10:13:48.864775",
+    "id": "5009384",
+    "pregunta": "Brighton & Hove Albion FC leading at halftime?",
+    "ts": "2026-10-10T10:26:58.407944",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
+    "whale_wallet": "0xcba9371dcbbd7a48b477f04274376e1feea9f812",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5009748",
+    "pregunta": "Paris FC leading at halftime?",
+    "ts": "2026-10-10T10:26:59.494463",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcba9371dcbbd7a48b477f04274376e1feea9f812",
     "whale_signal": "COMPRAR NO"
   }
 ]
