@@ -1,18 +1,1 @@
-[
-  {
-    "id": "5095288",
-    "pregunta": "Spread: Louisville (-3.5)",
-    "ts": "2026-10-09T19:24:49.783890",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x81f35897a435656e1312ea50e5f0f11ee0ad1f2a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5095269",
-    "pregunta": "Florida State vs. Louisville",
-    "ts": "2026-10-09T19:24:52.841902",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x50f97e9c24050ca2cd7f0fef900df984e1d0c327",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
