@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5434057",
+    "pregunta": "Shanghai Rolex Masters: Dalibor Svrcina vs Tomas Etcheverry",
+    "ts": "2026-10-10T04:43:21.869139",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5427286",
+    "pregunta": "Shanghai Rolex Masters: Alejandro Tabilo vs Pablo Carreno Busta",
+    "ts": "2026-10-10T04:43:22.906977",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
+    "whale_signal": "COMPRAR NO"
+  }
+]
