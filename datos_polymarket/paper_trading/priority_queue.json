@@ -2,17 +2,25 @@
   {
     "id": "5434057",
     "pregunta": "Shanghai Rolex Masters: Dalibor Svrcina vs Tomas Etcheverry",
-    "ts": "2026-10-10T04:43:21.869139",
+    "ts": "2026-10-10T04:53:56.730604",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
+    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5427286",
-    "pregunta": "Shanghai Rolex Masters: Alejandro Tabilo vs Pablo Carreno Busta",
-    "ts": "2026-10-10T04:43:22.906977",
+    "id": "5427282",
+    "pregunta": "Shanghai Rolex Masters: Learner Tien vs Zachary Svajda",
+    "ts": "2026-10-10T04:53:59.936319",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf6159d094a6597079ea72a26bc75c5b5ecfcdd9",
+    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5009016",
+    "pregunta": "Will Hannover 96 win on 2026-10-10?",
+    "ts": "2026-10-10T04:54:03.134477",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831a95e09bb49b61677662c561eaa39aac1a23d9",
     "whale_signal": "COMPRAR NO"
   }
 ]
