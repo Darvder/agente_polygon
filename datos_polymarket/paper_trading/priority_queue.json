@@ -1,18 +1,50 @@
 [
   {
-    "id": "5239459",
-    "pregunta": "Will Tampereen Ilves win on 2026-10-10?",
-    "ts": "2026-10-10T12:24:44.080767",
+    "id": "5263192",
+    "pregunta": "LoL: LOS vs FURIA Esports - Game 1 Winner",
+    "ts": "2026-10-10T12:34:22.702299",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x162ca4c5249987872fea1e15c846d7fe80316c47",
+    "whale_wallet": "0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2365859",
-    "pregunta": "Hyperbeat FDV above $10M one day after launch?",
-    "ts": "2026-10-10T12:24:46.259104",
+    "id": "5473048",
+    "pregunta": "Counter-Strike: MOUZ vs Spirit - Map 1 Winner",
+    "ts": "2026-10-10T12:34:23.744627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+    "whale_wallet": "0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5473050",
+    "pregunta": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-10T12:34:25.645972",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5b602ba50c2991277219bd2d30424b2e21e16143",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5473051",
+    "pregunta": "Games Total: O/U 2.5",
+    "ts": "2026-10-10T12:34:26.772181",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5b602ba50c2991277219bd2d30424b2e21e16143",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5505992",
+    "pregunta": "Counter-Strike: Black Phoenix vs Iberian Soul (BO3) - CCT Europe Series #10 Playoffs",
+    "ts": "2026-10-10T12:34:28.884165",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92c900eda2703e7882888cd310726b363ca81f16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5012963",
+    "pregunta": "FC Internazionale Milano vs. Parma Calcio 1913: O/U 3.5",
+    "ts": "2026-10-10T12:34:30.676090",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
