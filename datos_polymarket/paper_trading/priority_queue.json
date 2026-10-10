@@ -1,18 +1,26 @@
 [
   {
-    "id": "5098738",
-    "pregunta": "Duke vs. Georgia Tech: O/U 43.5",
-    "ts": "2026-10-10T09:14:29.644267",
+    "id": "4527204",
+    "pregunta": "Flyers vs. Bruins",
+    "ts": "2026-10-10T09:24:04.727647",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0xaa075924e1dc7cff3b9fab67401126338c4d2125",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5013241",
-    "pregunta": "Aston Villa FC vs. Brentford FC: O/U 2.5",
-    "ts": "2026-10-10T09:14:32.586768",
+    "id": "5457955",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 1 Winner",
+    "ts": "2026-10-10T09:24:06.607692",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabd60fdeac7deb4b78d96f19704f82b8b146ca90",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5457957",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-10T09:24:07.665947",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
     "whale_signal": "COMPRAR NO"
   }
 ]
