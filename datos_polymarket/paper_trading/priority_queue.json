@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5036197",
+    "pregunta": "Will Inter Miami CF win on 2026-10-10?",
+    "ts": "2026-10-10T18:24:42.956341",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5068043",
+    "pregunta": "FC Ju\u00e1rez vs. Club Tijuana: O/U 2.5",
+    "ts": "2026-10-10T18:24:44.814272",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2983745063d1485b793a4ae6ea5144bfb0a94eb2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5040862",
+    "pregunta": "Inter Miami CF vs. D.C. United SC: O/U 3.5",
+    "ts": "2026-10-10T18:24:45.872144",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2983745063d1485b793a4ae6ea5144bfb0a94eb2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5001748",
+    "pregunta": "Fight to Go the Distance?",
+    "ts": "2026-10-10T18:24:47.840065",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf997b74248b39280d1c88aeb123585f06ea9840",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5218575",
+    "pregunta": "O/U 1.5 Rounds",
+    "ts": "2026-10-10T18:24:49.008397",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf997b74248b39280d1c88aeb123585f06ea9840",
+    "whale_signal": "COMPRAR NO"
+  }
+]
