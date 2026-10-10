@@ -1,42 +1,18 @@
 [
   {
-    "id": "5096681",
-    "pregunta": "Spread: Missouri (-3.5)",
-    "ts": "2026-10-10T08:14:34.416929",
+    "id": "5434051",
+    "pregunta": "Shanghai Rolex Masters: Botic van de Zandschulp vs Alex Michelsen",
+    "ts": "2026-10-10T08:25:15.508535",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5101951",
-    "pregunta": "Southeastern Louisiana vs. UT Rio Grande Valley",
-    "ts": "2026-10-10T08:14:35.478187",
+    "id": "5013812",
+    "pregunta": "Arsenal FC vs. Leeds United FC: O/U 3.5",
+    "ts": "2026-10-10T08:25:18.000966",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5013810",
-    "pregunta": "Arsenal FC vs. Leeds United FC: O/U 2.5",
-    "ts": "2026-10-10T08:14:37.519132",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88ce95ec67bee7e3c3de3cb9f255ac537897cb62",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5013839",
-    "pregunta": "Arsenal FC vs. Leeds United FC: Arsenal FC O/U 0.5",
-    "ts": "2026-10-10T08:14:38.773685",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88ce95ec67bee7e3c3de3cb9f255ac537897cb62",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5427284",
-    "pregunta": "Shanghai Rolex Masters: Sebastian Baez vs Valentin Vacherot",
-    "ts": "2026-10-10T08:14:39.826500",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88ce95ec67bee7e3c3de3cb9f255ac537897cb62",
+    "whale_wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "whale_signal": "COMPRAR NO"
   }
 ]
