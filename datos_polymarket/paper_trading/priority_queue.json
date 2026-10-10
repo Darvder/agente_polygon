@@ -1,18 +1,50 @@
 [
   {
-    "id": "5013477",
-    "pregunta": "FC Augsburg vs. FC Bayern M\u00fcnchen: O/U 4.5",
-    "ts": "2026-10-10T10:04:12.966710",
+    "id": "5101510",
+    "pregunta": "Georgia vs. Alabama",
+    "ts": "2026-10-10T10:13:38.034355",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56f4f054e92ced8fa7accfebcad73251afe49ec5",
+    "whale_wallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5330077",
-    "pregunta": "Will the price of Bitcoin be above $82,000 on October 12?",
-    "ts": "2026-10-10T10:04:16.002115",
+    "id": "5452730",
+    "pregunta": "LoL: essences vs Nothin'Here (BO5) - LCP Promotion: Wild Card Playoffs",
+    "ts": "2026-10-10T10:13:40.089450",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd04e0676ea998bb7d5ef405960edd9b273cb41b8",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5474686",
+    "pregunta": "Counter-Strike: GamerLegion vs PRIVATE (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
+    "ts": "2026-10-10T10:13:41.175797",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5457957",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-10T10:13:42.255912",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2da325618fff9b2ffe64a49253fbcae8c7b9f258",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5468959",
+    "pregunta": "Counter-Strike: Bebop vs 6666 - Map 2 Winner",
+    "ts": "2026-10-10T10:13:47.802282",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5457956",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Vitality - Map 2 Winner",
+    "ts": "2026-10-10T10:13:48.864775",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
     "whale_signal": "COMPRAR NO"
   }
 ]
