@@ -1,34 +1,50 @@
 [
   {
-    "id": "5016335",
-    "pregunta": "Spread: FC Barcelona (-2.5)",
-    "ts": "2026-10-10T12:44:49.947260",
+    "id": "5096662",
+    "pregunta": "Texas A&M vs. Missouri",
+    "ts": "2026-10-10T12:53:20.552908",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x020d2210ed22b5c5e66b1c7f43896244a18e06ea",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5016337",
-    "pregunta": "Spread: FC Barcelona (-3.5)",
-    "ts": "2026-10-10T12:44:51.010612",
+    "id": "5096841",
+    "pregunta": "South Carolina vs. Florida: O/U 59.5",
+    "ts": "2026-10-10T12:53:21.637193",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x020d2210ed22b5c5e66b1c7f43896244a18e06ea",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5015068",
-    "pregunta": "Will Real Madrid CF win on 2026-10-10?",
-    "ts": "2026-10-10T12:44:52.058945",
+    "id": "5414204",
+    "pregunta": "LoL: Solary vs G2 NORD - Game 1 Winner",
+    "ts": "2026-10-10T12:53:23.530055",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x020d2210ed22b5c5e66b1c7f43896244a18e06ea",
+    "whale_wallet": "0x0b5a14b1c2f547cfd238b1123d228562f5721457",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5009024",
-    "pregunta": "Will AS Monaco FC win on 2026-10-10?",
-    "ts": "2026-10-10T12:44:53.101478",
+    "id": "5413849",
+    "pregunta": "LoL: Karmine Corp Blue vs Anubis Gaming - Game 2 Winner",
+    "ts": "2026-10-10T12:53:24.594703",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x020d2210ed22b5c5e66b1c7f43896244a18e06ea",
+    "whale_wallet": "0x0b5a14b1c2f547cfd238b1123d228562f5721457",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5414205",
+    "pregunta": "LoL: Solary vs G2 NORD - Game 2 Winner",
+    "ts": "2026-10-10T12:53:25.680606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0b5a14b1c2f547cfd238b1123d228562f5721457",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5473048",
+    "pregunta": "Counter-Strike: MOUZ vs Spirit - Map 1 Winner",
+    "ts": "2026-10-10T12:53:26.769094",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0b5a14b1c2f547cfd238b1123d228562f5721457",
     "whale_signal": "COMPRAR NO"
   }
 ]
