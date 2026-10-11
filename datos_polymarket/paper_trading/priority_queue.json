@@ -1,18 +1,26 @@
 [
   {
-    "id": "5557867",
-    "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 2 Winner",
-    "ts": "2026-10-11T10:55:44.982366",
+    "id": "5062308",
+    "pregunta": "Will Liverpool FC win on 2026-10-11?",
+    "ts": "2026-10-11T11:04:28.664843",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfeb41ea3682dd0ac9f0aa7743d32c860d37174c5",
+    "whale_wallet": "0x06a9865f05e5f379840e6df4feadc98892571a49",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5065296",
-    "pregunta": "Will Real Sociedad de F\u00fatbol win on 2026-10-11?",
-    "ts": "2026-10-11T10:55:46.824730",
+    "id": "5057127",
+    "pregunta": "Will AC Milan win on 2026-10-11?",
+    "ts": "2026-10-11T11:04:29.793600",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27b999e442de6aea7f972069edb58ff09cd690d0",
+    "whale_wallet": "0x06a9865f05e5f379840e6df4feadc98892571a49",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5401794",
+    "pregunta": "Military action against Saudi Oil Pipeline (East-West) by October 15?",
+    "ts": "2026-10-11T11:04:31.650171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
