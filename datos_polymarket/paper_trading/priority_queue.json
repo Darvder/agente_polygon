@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "5522404",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit - Map 1 Winner",
+    "ts": "2026-10-11T07:04:47.168000",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5503813",
+    "pregunta": "Valorant: G2 Esports vs T1 - Map 1 Winner",
+    "ts": "2026-10-11T07:04:49.681849",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5481134",
+    "pregunta": "Shanghai Rolex Masters: Alexander Bublik vs Brandon Nakashima",
+    "ts": "2026-10-11T07:04:50.725404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5503817",
+    "pregunta": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-11T07:04:51.758379",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5505476",
+    "pregunta": "Spread: Rockets (-1.5)",
+    "ts": "2026-10-11T07:04:52.800361",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5545246",
+    "pregunta": "Mavericks vs. Rockets: O/U 231.5",
+    "ts": "2026-10-11T07:04:53.958883",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5503821",
+    "pregunta": "Map Handicap: G2 (-1.5) vs T1 (+1.5)",
+    "ts": "2026-10-11T07:04:54.997455",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522420",
+    "pregunta": "Map Handicap: TS (-1.5) vs Aurora Gaming (+1.5)",
+    "ts": "2026-10-11T07:04:56.031550",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5481128",
+    "pregunta": "Shanghai Rolex Masters: Alexander Zverev vs Quentin Halys",
+    "ts": "2026-10-11T07:04:57.065449",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "whale_signal": "COMPRAR NO"
+  }
+]
