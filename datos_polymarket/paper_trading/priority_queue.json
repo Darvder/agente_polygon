@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5481124",
+    "pregunta": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
+    "ts": "2026-10-11T01:46:10.085146",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5054659",
+    "pregunta": "Will Kataller Toyama win on 2026-10-11?",
+    "ts": "2026-10-11T01:46:11.185631",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5077083",
+    "pregunta": "JEF United Ichihara Chiba vs. V-Varen Nagasaki: O/U 1.5",
+    "ts": "2026-10-11T01:46:12.276719",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5481126",
+    "pregunta": "Shanghai Rolex Masters: Ben Shelton vs Arthur Gea",
+    "ts": "2026-10-11T01:46:14.121287",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5485356",
+    "pregunta": "Wuhan Tennis Open, Qualification: Han Shi vs Kamilla Rakhimova",
+    "ts": "2026-10-11T01:46:15.213488",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
