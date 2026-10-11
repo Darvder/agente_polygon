@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1596.53,
-  "capital_en_riesgo": 352.22,
-  "n_ciclos": 40303,
-  "ultima_corrida": "2026-10-10 21:55",
+  "capital_actual": 1596.82,
+  "capital_en_riesgo": 327.22,
+  "n_ciclos": 40304,
+  "ultima_corrida": "2026-10-10 22:04",
   "n_tp": 956,
-  "n_sl": 686,
+  "n_sl": 687,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 8.32,
-    "capital_en_riesgo": 41.42,
+    "capital_actual": 8.35,
+    "capital_en_riesgo": 38.42,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 450,
-    "n_sl": 346,
+    "n_sl": 347,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-05",
@@ -251,7 +251,7 @@
         "pregunta": "Georgia vs. Alabama",
         "outcome": "Georgia",
         "precio_token_entrada": 0.535,
-        "precio_actual": 0.545,
+        "precio_actual": 0.685,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -260,26 +260,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x8e302d24b94ec6d975b90ad5959b05890bf5dcf6b99468552348b0d11126ab45"
-      },
-      {
-        "fecha_entrada": "2026-10-10",
-        "fecha_entrada_dt": "2026-10-10 20:55",
-        "target_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
-        "market_id": "5101529",
-        "condition_id": "0x8153affe0e9548b6e66d49eb4a840be3bca73bbc7d8f96f00a15b01bd38ee712",
-        "token_id": "112750723800508442173678239942807633557110254634547768970250361156856825239213",
-        "pregunta": "Spread: Alabama (-3.5)",
-        "outcome": "Alabama",
-        "precio_token_entrada": 0.435,
-        "precio_actual": 0.305,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x621340d937ac5bdca130c39224510657af172297a80903723cb6d53cdd021968"
       }
     ],
     "historial_cerradas": [
@@ -16202,6 +16182,26 @@
         "pnl_realizado": -3.23,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x872a747fac612dc29399b2d328055544db2d6ba00e70fd6dd89ffa708d84bc5c"
+      },
+      {
+        "fecha_entrada": "2026-10-10",
+        "fecha_entrada_dt": "2026-10-10 20:55",
+        "target_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
+        "market_id": "5101529",
+        "condition_id": "0x8153affe0e9548b6e66d49eb4a840be3bca73bbc7d8f96f00a15b01bd38ee712",
+        "token_id": "112750723800508442173678239942807633557110254634547768970250361156856825239213",
+        "pregunta": "Spread: Alabama (-3.5)",
+        "outcome": "Alabama",
+        "precio_token_entrada": 0.435,
+        "precio_actual": 0.005,
+        "precio_cierre": 0.005,
+        "pct_cambio": -0.9885,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-10 22:04",
+        "pnl_realizado": -2.97,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x621340d937ac5bdca130c39224510657af172297a80903723cb6d53cdd021968"
       }
     ]
   }
