@@ -1,42 +1,10 @@
 [
   {
-    "id": "5281433",
-    "pregunta": "West Indies Tour of India T20s: India vs West Indies",
-    "ts": "2026-10-11T10:13:11.960902",
+    "id": "5171303",
+    "pregunta": "Will Hyperliquid reach $100 in October?",
+    "ts": "2026-10-11T10:26:07.232907",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5526026",
-    "pregunta": "Counter-Strike: The KnockoutX vs Alter Ego - Map 2 Winner",
-    "ts": "2026-10-11T10:13:15.025978",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x74410e84747bce0123b9e206810b4c2366784891",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5526023",
-    "pregunta": "Counter-Strike: Kaleido Gaming vs Chinggis Warriors (BO3) - ESL Challenger League Asia-Pacific Cup #3 Playoffs",
-    "ts": "2026-10-11T10:13:18.262857",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x74410e84747bce0123b9e206810b4c2366784891",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5532386",
-    "pregunta": "Counter-Strike: Imperial vs NRG (BO3) - FRAG University Playoffs",
-    "ts": "2026-10-11T10:13:21.218311",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4c6fee4e92a59bf7e9031a3f131e4c23794bda33",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5522464",
-    "pregunta": "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
-    "ts": "2026-10-11T10:13:22.305168",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4c6fee4e92a59bf7e9031a3f131e4c23794bda33",
+    "whale_wallet": "0xd5e3226b2d399b64063c3659ac93a670cbb6e379",
     "whale_signal": "COMPRAR NO"
   }
 ]
