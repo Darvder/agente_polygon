@@ -1,42 +1,18 @@
 [
   {
+    "id": "4061499",
+    "pregunta": "Texans vs. Titans: O/U 38.5",
+    "ts": "2026-10-11T11:35:41.141420",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5557867",
     "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 2 Winner",
-    "ts": "2026-10-11T11:26:27.370763",
+    "ts": "2026-10-11T11:35:46.687666",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x23cb737291afa36d7e8e1a23e3fd37b667da80d0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5046320",
-    "pregunta": "Will Zamalek SC win on 2026-10-11?",
-    "ts": "2026-10-11T11:26:29.250654",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe6bf45da92f7d318f2d7ee28f6d5dd02038016b9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5088004",
-    "pregunta": "Will Sharkia ENPPI win on 2026-10-12?",
-    "ts": "2026-10-11T11:26:30.337792",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe6bf45da92f7d318f2d7ee28f6d5dd02038016b9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5046322",
-    "pregunta": "Will El Ahly SC win on 2026-10-11?",
-    "ts": "2026-10-11T11:26:31.414900",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe6bf45da92f7d318f2d7ee28f6d5dd02038016b9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5088000",
-    "pregunta": "Will Modern SC win on 2026-10-12?",
-    "ts": "2026-10-11T11:26:32.464725",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe6bf45da92f7d318f2d7ee28f6d5dd02038016b9",
+    "whale_wallet": "0x3ba76206c56a050c9605fd875a363e5469c2bbea",
     "whale_signal": "COMPRAR NO"
   }
 ]
