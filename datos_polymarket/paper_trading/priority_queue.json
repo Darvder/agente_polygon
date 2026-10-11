@@ -1,18 +1,26 @@
 [
   {
-    "id": "5049515",
-    "pregunta": "Will Br\u00f8ndby IF win on 2026-10-11?",
-    "ts": "2026-10-11T08:15:27.897414",
+    "id": "5522408",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit - Map 2 Winner",
+    "ts": "2026-10-11T08:24:13.416225",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xb13268eb47396af4f2e7ff91ed374f9026e16b5e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5507150",
-    "pregunta": "Samsun: Ayla Aksu vs Lucrezia Stefanini",
-    "ts": "2026-10-11T08:15:32.445240",
+    "id": "5503817",
+    "pregunta": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-11T08:24:14.451119",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
+    "whale_wallet": "0xb13268eb47396af4f2e7ff91ed374f9026e16b5e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5057115",
+    "pregunta": "Will AC Monza win on 2026-10-11?",
+    "ts": "2026-10-11T08:24:19.557668",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x152be3ddbcacec3d07fa9cc44243d9a06a29fbe1",
     "whale_signal": "COMPRAR NO"
   }
 ]
