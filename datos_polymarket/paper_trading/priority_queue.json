@@ -1,10 +1,42 @@
 [
   {
-    "id": "5223436",
-    "pregunta": "Will Donald Trump post 100-119 Truth Social posts from October 6 to October 13, 2026?",
-    "ts": "2026-10-11T08:34:35.521154",
+    "id": "5065618",
+    "pregunta": "PEC Zwolle vs. SC Cambuur-Leeuwarden: 1st Half O/U 1.5",
+    "ts": "2026-10-11T08:44:31.951168",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe7e91d5d52b1524ddf6e83082d2d8b012a78fb3c",
+    "whale_wallet": "0x5415e0326703e29a16f6b260ce3c85692ef0f764",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5074096",
+    "pregunta": "VfL Bochum vs. DSC Arminia Bielefeld: O/U 1.5",
+    "ts": "2026-10-11T08:44:33.003268",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5415e0326703e29a16f6b260ce3c85692ef0f764",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064644",
+    "pregunta": "1. FC K\u00f6ln vs. Borussia M\u00f6nchengladbach: 1st Half O/U 2.5",
+    "ts": "2026-10-11T08:44:34.096181",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5415e0326703e29a16f6b260ce3c85692ef0f764",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5065348",
+    "pregunta": "Telstar 1963 vs. ADO Den Haag: O/U 6.5",
+    "ts": "2026-10-11T08:44:35.320907",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5415e0326703e29a16f6b260ce3c85692ef0f764",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5065569",
+    "pregunta": "PEC Zwolle vs. SC Cambuur-Leeuwarden: O/U 2.5",
+    "ts": "2026-10-11T08:44:36.372405",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5415e0326703e29a16f6b260ce3c85692ef0f764",
     "whale_signal": "COMPRAR NO"
   }
 ]
