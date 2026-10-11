@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5279694",
+    "pregunta": "Chicago White Sox vs. Cleveland Guardians",
+    "ts": "2026-10-10T21:54:57.305816",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5100548",
+    "pregunta": "North Dakota State vs. UNLV",
+    "ts": "2026-10-10T21:54:58.402481",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5101510",
+    "pregunta": "Georgia vs. Alabama",
+    "ts": "2026-10-10T21:54:59.492811",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5100820",
+    "pregunta": "LSU vs. Kentucky",
+    "ts": "2026-10-10T21:55:00.587928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_signal": "COMPRAR NO"
+  }
+]

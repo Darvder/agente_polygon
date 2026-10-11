@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1595.91,
-  "capital_en_riesgo": 377.22,
-  "n_ciclos": 40302,
-  "ultima_corrida": "2026-10-10 21:44",
+  "capital_actual": 1596.53,
+  "capital_en_riesgo": 352.22,
+  "n_ciclos": 40303,
+  "ultima_corrida": "2026-10-10 21:55",
   "n_tp": 956,
-  "n_sl": 685,
+  "n_sl": 686,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 8.24,
-    "capital_en_riesgo": 44.73,
+    "capital_actual": 8.32,
+    "capital_en_riesgo": 41.42,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 450,
-    "n_sl": 345,
+    "n_sl": 346,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-05",
@@ -251,7 +251,7 @@
         "pregunta": "Georgia vs. Alabama",
         "outcome": "Georgia",
         "precio_token_entrada": 0.535,
-        "precio_actual": 0.495,
+        "precio_actual": 0.545,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -271,7 +271,7 @@
         "pregunta": "Spread: Alabama (-3.5)",
         "outcome": "Alabama",
         "precio_token_entrada": 0.435,
-        "precio_actual": 0.315,
+        "precio_actual": 0.305,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -280,26 +280,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x621340d937ac5bdca130c39224510657af172297a80903723cb6d53cdd021968"
-      },
-      {
-        "fecha_entrada": "2026-10-10",
-        "fecha_entrada_dt": "2026-10-10 21:35",
-        "target_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-        "market_id": "5101044",
-        "condition_id": "0xc51bec8000c97e601ac1fe718ce272be0f99c0e53b4e9b7f7e1cca733b9f184d",
-        "token_id": "110519279564489200124109885727786723740569799327596749715371851885524153246067",
-        "pregunta": "USC vs. Penn State",
-        "outcome": "Penn State",
-        "precio_token_entrada": 0.2,
-        "precio_actual": 0.145,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.31,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x872a747fac612dc29399b2d328055544db2d6ba00e70fd6dd89ffa708d84bc5c"
       }
     ],
     "historial_cerradas": [
@@ -16202,6 +16182,26 @@
         "pnl_realizado": 1.94,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0xcd80a4ae62082a5e93e5ad793326961205ac6c23cf1722c085d9bf6faccccbc8"
+      },
+      {
+        "fecha_entrada": "2026-10-10",
+        "fecha_entrada_dt": "2026-10-10 21:35",
+        "target_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+        "market_id": "5101044",
+        "condition_id": "0xc51bec8000c97e601ac1fe718ce272be0f99c0e53b4e9b7f7e1cca733b9f184d",
+        "token_id": "110519279564489200124109885727786723740569799327596749715371851885524153246067",
+        "pregunta": "USC vs. Penn State",
+        "outcome": "Penn State",
+        "precio_token_entrada": 0.2,
+        "precio_actual": 0.005,
+        "precio_cierre": 0.005,
+        "pct_cambio": -0.975,
+        "monto_usdc": 3.31,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-10 21:55",
+        "pnl_realizado": -3.23,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x872a747fac612dc29399b2d328055544db2d6ba00e70fd6dd89ffa708d84bc5c"
       }
     ]
   }
