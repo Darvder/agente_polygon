@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5429315",
+    "pregunta": "Los Angeles Dodgers vs. Milwaukee Brewers",
+    "ts": "2026-10-11T11:54:02.282335",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5043898",
+    "pregunta": "Will Sport Lisboa e Benfica win on 2026-10-11?",
+    "ts": "2026-10-11T11:54:03.358404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061629",
+    "pregunta": "Raiders vs. Patriots: O/U 45.5",
+    "ts": "2026-10-11T11:54:04.460692",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4844086",
+    "pregunta": "Texans Team Total: O/U 23.5",
+    "ts": "2026-10-11T11:54:05.540747",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
