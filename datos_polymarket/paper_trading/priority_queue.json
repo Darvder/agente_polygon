@@ -2,25 +2,41 @@
   {
     "id": "5522412",
     "pregunta": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-11T07:44:12.863199",
+    "ts": "2026-10-11T07:54:30.619921",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa55745a37f9ce31f5a47e69f8bbec87f9c006e77",
+    "whale_wallet": "0xc19211ddb9a00b176b85f9f92d10497b8476086c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5507148",
-    "pregunta": "China Open: Qinwen Zheng vs Mirra Andreeva",
-    "ts": "2026-10-11T07:44:15.987446",
+    "id": "5429315",
+    "pregunta": "Los Angeles Dodgers vs. Milwaukee Brewers",
+    "ts": "2026-10-11T07:54:33.802552",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3cc65a9097a1c1e134366d6fb96a1e8eed4f53f7",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5508588",
-    "pregunta": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "ts": "2026-10-11T07:44:18.063413",
+    "id": "5064626",
+    "pregunta": "Crystal Palace FC vs. Nottingham Forest FC: Both Teams to Score",
+    "ts": "2026-10-11T07:54:34.895653",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x87a3456e3b5777b45d5a1be804df76c6b8ef5857",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4865188",
+    "pregunta": "1H Spread: Jaguars (-3.5)",
+    "ts": "2026-10-11T07:54:36.028066",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4865189",
+    "pregunta": "1H Spread: Jaguars (-4.5)",
+    "ts": "2026-10-11T07:54:37.168642",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
     "whale_signal": "COMPRAR NO"
   }
 ]
