@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "4843884",
+    "pregunta": "Spread: Texans (-10.5)",
+    "ts": "2026-10-11T13:35:10.365530",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061366",
+    "pregunta": "Spread: Packers (-6.5)",
+    "ts": "2026-10-11T13:35:11.409614",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061588",
+    "pregunta": "Spread: Saints (-1.5)",
+    "ts": "2026-10-11T13:35:12.546691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4866156",
+    "pregunta": "Spread: Patriots (-9.5)",
+    "ts": "2026-10-11T13:35:13.600794",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061550",
+    "pregunta": "Spread: Jets (-2.5)",
+    "ts": "2026-10-11T13:35:14.635987",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061654",
+    "pregunta": "Bengals vs. Dolphins: O/U 48.5",
+    "ts": "2026-10-11T13:35:15.690711",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4024671",
+    "pregunta": "Giants vs. Commanders",
+    "ts": "2026-10-11T13:35:16.730122",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4024667",
+    "pregunta": "Colts vs. Steelers",
+    "ts": "2026-10-11T13:35:17.914744",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
