@@ -1,42 +1,10 @@
 [
   {
-    "id": "5063517",
-    "pregunta": "Liverpool FC vs. Manchester City FC: O/U 8.5 Total Corners",
-    "ts": "2026-10-11T03:54:20.639313",
+    "id": "5054897",
+    "pregunta": "Sh\u014dnan Bellm\u0101re vs. Albirex Niigata: O/U 2.5",
+    "ts": "2026-10-11T04:03:03.969359",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063574",
-    "pregunta": "Southampton FC vs. Portsmouth FC: O/U 9.5 Total Corners",
-    "ts": "2026-10-11T03:54:21.734689",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063575",
-    "pregunta": "Southampton FC vs. Portsmouth FC: O/U 10.5 Total Corners",
-    "ts": "2026-10-11T03:54:22.836687",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063672",
-    "pregunta": "Liverpool FC vs. Manchester City FC: Liverpool FC O/U 4.5 Corners",
-    "ts": "2026-10-11T03:54:23.873941",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5063576",
-    "pregunta": "Southampton FC vs. Portsmouth FC: O/U 11.5 Total Corners",
-    "ts": "2026-10-11T03:54:25.053588",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
+    "whale_wallet": "0x440564023990d2ffbedb91a188e8f8de0afd7508",
     "whale_signal": "COMPRAR NO"
   }
 ]
