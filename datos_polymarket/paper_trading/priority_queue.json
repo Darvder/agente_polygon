@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5057076",
+    "pregunta": "Will Como 1907 win on 2026-10-11?",
+    "ts": "2026-10-11T03:25:47.882750",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ca15f0b1d5dc2756f1f172ec747f66bb70daea0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5062261",
+    "pregunta": "Will RC Strasbourg Alsace win on 2026-10-11?",
+    "ts": "2026-10-11T03:25:49.092605",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ca15f0b1d5dc2756f1f172ec747f66bb70daea0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5481134",
+    "pregunta": "Shanghai Rolex Masters: Alexander Bublik vs Brandon Nakashima",
+    "ts": "2026-10-11T03:25:50.317707",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ca15f0b1d5dc2756f1f172ec747f66bb70daea0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5065285",
+    "pregunta": "Will RC Celta de Vigo win on 2026-10-11?",
+    "ts": "2026-10-11T03:25:51.375860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ca15f0b1d5dc2756f1f172ec747f66bb70daea0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5434305",
+    "pregunta": "TreVeyon Henderson: Rushing Yards O/U 69.5",
+    "ts": "2026-10-11T03:25:53.601340",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3ce96461e77d62b434acf9a40af96fcbd79a9c2d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
