@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1471.4,
-  "capital_en_riesgo": 436.44,
-  "n_ciclos": 40360,
-  "ultima_corrida": "2026-10-11 07:30",
+  "capital_actual": 1446.8,
+  "capital_en_riesgo": 461.04,
+  "n_ciclos": 40361,
+  "ultima_corrida": "2026-10-11 07:34",
   "n_tp": 963,
   "n_sl": 696,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 1.11,
-    "capital_en_riesgo": 47.42,
+    "capital_actual": 1.12,
+    "capital_en_riesgo": 44.42,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 455,
-    "n_sl": 352,
+    "n_sl": 353,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-05",
@@ -51,7 +51,7 @@
         "pregunta": "Will 1. FC Slov\u00e1cko win on 2026-10-11?",
         "outcome": "No",
         "precio_token_entrada": 0.835,
-        "precio_actual": 0.65,
+        "precio_actual": 0.625,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.3,
@@ -91,7 +91,7 @@
         "pregunta": "Will Bitcoin dip to $80,000 October 5-11?",
         "outcome": "No",
         "precio_token_entrada": 0.63,
-        "precio_actual": 0.988,
+        "precio_actual": 0.9875,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -291,7 +291,7 @@
         "pregunta": "Will RC Strasbourg Alsace win on 2026-10-11?",
         "outcome": "Yes",
         "precio_token_entrada": 0.325,
-        "precio_actual": 0.305,
+        "precio_actual": 0.295,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -300,26 +300,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xbec3a8585d82a692985d3dc30999574255dd3e6badf68504a4de5c0cbb1e6139"
-      },
-      {
-        "fecha_entrada": "2026-10-11",
-        "fecha_entrada_dt": "2026-10-11 07:29",
-        "target_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
-        "market_id": "5522404",
-        "condition_id": "0xeaa567f8bfeb9dc2735729241ef2b58e6a858f0851333e6f87b2641e5a52365a",
-        "token_id": "51177838805520678911083380548515610976398254477815554278025895211102149949267",
-        "pregunta": "Counter-Strike: Aurora Gaming vs Spirit - Map 1 Winner",
-        "outcome": "Spirit",
-        "precio_token_entrada": 0.215,
-        "precio_actual": 0.215,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x03e08711b4f904049279ab8c94a94fc9281c48d982f031639553143ec20974c7"
       }
     ],
     "historial_cerradas": [
@@ -16462,6 +16442,26 @@
         "pnl_realizado": -0.52,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xd66dd89b2f5444cd2d8e4d236820393a21b6a173ded550921195a85176d527fc"
+      },
+      {
+        "fecha_entrada": "2026-10-11",
+        "fecha_entrada_dt": "2026-10-11 07:29",
+        "target_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+        "market_id": "5522404",
+        "condition_id": "0xeaa567f8bfeb9dc2735729241ef2b58e6a858f0851333e6f87b2641e5a52365a",
+        "token_id": "51177838805520678911083380548515610976398254477815554278025895211102149949267",
+        "pregunta": "Counter-Strike: Aurora Gaming vs Spirit - Map 1 Winner",
+        "outcome": "Spirit",
+        "precio_token_entrada": 0.215,
+        "precio_actual": 0.0005,
+        "precio_cierre": 0.0005,
+        "pct_cambio": -0.9977,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-11 07:34",
+        "pnl_realizado": -2.99,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x03e08711b4f904049279ab8c94a94fc9281c48d982f031639553143ec20974c7"
       }
     ]
   }
