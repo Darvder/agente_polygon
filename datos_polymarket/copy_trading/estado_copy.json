@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1557.67,
-  "capital_en_riesgo": 257.42,
-  "n_ciclos": 40419,
-  "ultima_corrida": "2026-10-11 17:14",
-  "n_tp": 977,
+  "capital_actual": 1601.48,
+  "capital_en_riesgo": 232.42,
+  "n_ciclos": 40420,
+  "ultima_corrida": "2026-10-11 17:26",
+  "n_tp": 978,
   "n_sl": 709,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 13.92,
-    "capital_en_riesgo": 32.12,
+    "capital_actual": 19.18,
+    "capital_en_riesgo": 29.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 460,
+    "n_tp": 461,
     "n_sl": 355,
     "posiciones_abiertas": [
       {
@@ -151,7 +151,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.612,
-        "precio_actual": 0.6605,
+        "precio_actual": 0.6525,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -180,26 +180,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x60c9a3e36ab53f1dc6d377f841ac55fbbb6893a90b5b46f9a712476c61e9a8cf"
-      },
-      {
-        "fecha_entrada": "2026-10-11",
-        "fecha_entrada_dt": "2026-10-11 14:15",
-        "target_wallet": "0x50bec18c474d9a1d18b3be72332441302375371b",
-        "market_id": "4843321",
-        "condition_id": "0xf4d720befc960a36c9e3a0c66ee08b268d9c60ffec1bf6c3665c6d6da68ae4e1",
-        "token_id": "70367009811725413225225029474411991944027361983110423248659900530888160494495",
-        "pregunta": "Spread: Broncos (-3.5)",
-        "outcome": "Chargers",
-        "precio_token_entrada": 0.505,
-        "precio_actual": 0.665,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x239d118162e1e0af5d2f8f937103338ac520336e357cff21af75894d380b0bee"
       },
       {
         "fecha_entrada": "2026-10-11",
@@ -16522,6 +16502,26 @@
         "pnl_realizado": 1.86,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0xa7c42ab36fa54f43040472d4ec5be0e5226d3adbd89ae1a6e27180bbce421aa9"
+      },
+      {
+        "fecha_entrada": "2026-10-11",
+        "fecha_entrada_dt": "2026-10-11 14:15",
+        "target_wallet": "0x50bec18c474d9a1d18b3be72332441302375371b",
+        "market_id": "4843321",
+        "condition_id": "0xf4d720befc960a36c9e3a0c66ee08b268d9c60ffec1bf6c3665c6d6da68ae4e1",
+        "token_id": "70367009811725413225225029474411991944027361983110423248659900530888160494495",
+        "pregunta": "Spread: Broncos (-3.5)",
+        "outcome": "Chargers",
+        "precio_token_entrada": 0.505,
+        "precio_actual": 0.885,
+        "precio_cierre": 0.885,
+        "pct_cambio": 0.7525,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-11 17:26",
+        "pnl_realizado": 2.26,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x239d118162e1e0af5d2f8f937103338ac520336e357cff21af75894d380b0bee"
       }
     ]
   }
