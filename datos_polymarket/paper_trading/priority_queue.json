@@ -1,26 +1,42 @@
 [
   {
-    "id": "5062308",
-    "pregunta": "Will Liverpool FC win on 2026-10-11?",
-    "ts": "2026-10-11T11:04:28.664843",
+    "id": "5557867",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 2 Winner",
+    "ts": "2026-10-11T11:16:58.141572",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06a9865f05e5f379840e6df4feadc98892571a49",
+    "whale_wallet": "0x5a56fe0468618bbd44e0f278c080db59b30610f5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5057127",
-    "pregunta": "Will AC Milan win on 2026-10-11?",
-    "ts": "2026-10-11T11:04:29.793600",
+    "id": "5532383",
+    "pregunta": "Counter-Strike: Imperial vs NRG - Map 1 Winner",
+    "ts": "2026-10-11T11:17:02.082881",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06a9865f05e5f379840e6df4feadc98892571a49",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5401794",
-    "pregunta": "Military action against Saudi Oil Pipeline (East-West) by October 15?",
-    "ts": "2026-10-11T11:04:31.650171",
+    "id": "5522452",
+    "pregunta": "Counter-Strike: Vitality vs MOUZ - Map 2 Winner",
+    "ts": "2026-10-11T11:17:03.132649",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5528437",
+    "pregunta": "Maia: Michael Vrbensky vs Olle Wallin",
+    "ts": "2026-10-11T11:17:05.327556",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522464",
+    "pregunta": "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
+    "ts": "2026-10-11T11:17:07.308494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4dc2794bb0de8ae2044e27be8ef99dc4bf40698a",
     "whale_signal": "COMPRAR NO"
   }
 ]
