@@ -1,34 +1,34 @@
 [
   {
-    "id": "5040375",
-    "pregunta": "Sporting Kansas City vs. Portland Timbers: O/U 4.5",
-    "ts": "2026-10-10T21:04:57.958246",
+    "id": "5473432",
+    "pregunta": "Spread: Spurs (-7.5)",
+    "ts": "2026-10-10T21:14:16.139134",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xddb993dbaee76440dbb42408a1925e38b7aaedcd",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5040374",
-    "pregunta": "Sporting Kansas City vs. Portland Timbers: O/U 3.5",
-    "ts": "2026-10-10T21:04:59.068132",
+    "id": "5040440",
+    "pregunta": "Minnesota United FC vs. Houston Dynamo: Both Teams to Score",
+    "ts": "2026-10-10T21:14:18.215513",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x15ac9d4fb9c30fca4fec2fdecde3fdace721f3ba",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5069551",
-    "pregunta": "CA River Plate vs. AA Estudiantes: O/U 1.5",
-    "ts": "2026-10-10T21:05:00.163024",
+    "id": "5100820",
+    "pregunta": "LSU vs. Kentucky",
+    "ts": "2026-10-10T21:14:20.977511",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5040492",
-    "pregunta": "Austin FC vs. Nashville SC: O/U 1.5",
-    "ts": "2026-10-10T21:05:01.255323",
+    "id": "5101510",
+    "pregunta": "Georgia vs. Alabama",
+    "ts": "2026-10-10T21:14:22.014320",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
