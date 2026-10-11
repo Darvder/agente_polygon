@@ -1,18 +1,42 @@
 [
   {
-    "id": "5481134",
-    "pregunta": "Shanghai Rolex Masters: Alexander Bublik vs Brandon Nakashima",
-    "ts": "2026-10-11T07:17:15.219961",
+    "id": "5522404",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit - Map 1 Winner",
+    "ts": "2026-10-11T07:29:22.132013",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9476f80a7d12990b3a379b9173aa52fb07a7451",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5508588",
-    "pregunta": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "ts": "2026-10-11T07:17:19.731362",
+    "id": "5526017",
+    "pregunta": "Counter-Strike: THE UNIT vs Teletubisie - Map 1 Winner",
+    "ts": "2026-10-11T07:29:23.215150",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2931cf68a383c734a286890bdcc86ac224347b81",
+    "whale_wallet": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522412",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-11T07:29:26.216216",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5503815",
+    "pregunta": "Valorant: G2 Esports vs T1 - Map 2 Winner",
+    "ts": "2026-10-11T07:29:27.300004",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5065019",
+    "pregunta": "Como 1907 vs. AS Roma: O/U 0.5",
+    "ts": "2026-10-11T07:29:29.531955",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ef9406884d0056b356e811e05cf497008de2052",
     "whale_signal": "COMPRAR NO"
   }
 ]
