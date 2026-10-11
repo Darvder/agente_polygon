@@ -1,26 +1,18 @@
 [
   {
-    "id": "679022",
-    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
-    "ts": "2026-10-11T06:25:19.787524",
+    "id": "4061601",
+    "pregunta": "Vikings vs. Saints: O/U 41.5",
+    "ts": "2026-10-11T06:33:56.031692",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x629fc00d812171de2211f4ed1de67cf9c17f7407",
+    "whale_wallet": "0x9fad8308ef6b6ed5320e53a290a3bd4ad91f5a9f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5508587",
-    "pregunta": "Dota 2: Team Spirit vs PARIVISION - Game 2 Winner",
-    "ts": "2026-10-11T06:25:21.734787",
+    "id": "4061428",
+    "pregunta": "Broncos vs. Chargers: O/U 42.5",
+    "ts": "2026-10-11T06:33:57.132141",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x489d3df3601288940f89d56b5642b0951129f6e3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5508588",
-    "pregunta": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "ts": "2026-10-11T06:25:22.815072",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x489d3df3601288940f89d56b5642b0951129f6e3",
+    "whale_wallet": "0x9fad8308ef6b6ed5320e53a290a3bd4ad91f5a9f",
     "whale_signal": "COMPRAR NO"
   }
 ]
