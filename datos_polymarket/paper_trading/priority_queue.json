@@ -1,26 +1,66 @@
 [
   {
-    "id": "5522464",
-    "pregunta": "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
-    "ts": "2026-10-11T10:35:13.781631",
+    "id": "5062311",
+    "pregunta": "Will Liverpool FC vs. Manchester City FC end in a draw?",
+    "ts": "2026-10-11T10:43:57.618111",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x50f97e9c24050ca2cd7f0fef900df984e1d0c327",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5285634",
+    "pregunta": "Union Saint-Gilloise vs. Oud-Heverlee Leuven: O/U 2.5",
+    "ts": "2026-10-11T10:43:58.816131",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5557866",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 1 Winner",
+    "ts": "2026-10-11T10:44:00.663254",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5522448",
     "pregunta": "Counter-Strike: Vitality vs MOUZ - Map 1 Winner",
-    "ts": "2026-10-11T10:35:15.917703",
+    "ts": "2026-10-11T10:44:01.724470",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc33a3e29cbf02a7e79483b088d56be97615079",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5557870",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
+    "ts": "2026-10-11T10:44:02.791523",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522464",
+    "pregunta": "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
+    "ts": "2026-10-11T10:44:03.879072",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5557867",
     "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 2 Winner",
-    "ts": "2026-10-11T10:35:18.135549",
+    "ts": "2026-10-11T10:44:04.975358",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbdc33a3e29cbf02a7e79483b088d56be97615079",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5067073",
+    "pregunta": "Real Sociedad de F\u00fatbol vs. RC Deportivo A Coru\u00f1a: O/U 4.5",
+    "ts": "2026-10-11T10:44:06.913303",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x34a1eed3f6bb10dd2f99b79cb4e8ca8749ae7622",
     "whale_signal": "COMPRAR NO"
   }
 ]
