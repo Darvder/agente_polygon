@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "5054672",
+    "pregunta": "Montedio Yamagata leading at halftime?",
+    "ts": "2026-10-11T01:04:37.847212",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x599d8b80cddf9bf35f87fbb0aeb1a3d7038c12b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5055089",
+    "pregunta": "Montedio Yamagata vs. Vegalta Sendai: 1st Half O/U 1.5",
+    "ts": "2026-10-11T01:04:39.013590",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x599d8b80cddf9bf35f87fbb0aeb1a3d7038c12b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5076976",
+    "pregunta": "FC Mito Holly Hock vs. Shimizu S-Pulse: Both Teams to Score",
+    "ts": "2026-10-11T01:04:40.137071",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x599d8b80cddf9bf35f87fbb0aeb1a3d7038c12b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5076980",
+    "pregunta": "FC Mito Holly Hock vs. Shimizu S-Pulse: 1st Half O/U 0.5",
+    "ts": "2026-10-11T01:04:41.310450",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x599d8b80cddf9bf35f87fbb0aeb1a3d7038c12b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5076981",
+    "pregunta": "FC Mito Holly Hock vs. Shimizu S-Pulse: 1st Half O/U 1.5",
+    "ts": "2026-10-11T01:04:42.448682",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x599d8b80cddf9bf35f87fbb0aeb1a3d7038c12b2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5076962",
+    "pregunta": "FC Mito Holly Hock vs. Shimizu S-Pulse: O/U 2.5",
+    "ts": "2026-10-11T01:04:43.499489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x599d8b80cddf9bf35f87fbb0aeb1a3d7038c12b2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
