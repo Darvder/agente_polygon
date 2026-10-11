@@ -1,18 +1,26 @@
 [
   {
-    "id": "5309782",
-    "pregunta": "Mavericks vs. Rockets",
-    "ts": "2026-10-11T06:14:51.848658",
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-10-11T06:25:19.787524",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc174d86436152cc50b6a86d7f1b727d024c366f2",
+    "whale_wallet": "0x629fc00d812171de2211f4ed1de67cf9c17f7407",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5530780",
-    "pregunta": "LoL: PART TIMERS vs essences (BO5) - LCP Promotion: Wild Card Playoffs",
-    "ts": "2026-10-11T06:14:53.820499",
+    "id": "5508587",
+    "pregunta": "Dota 2: Team Spirit vs PARIVISION - Game 2 Winner",
+    "ts": "2026-10-11T06:25:21.734787",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb39b7606f8ab87759e7add0efc5bc67f48989826",
+    "whale_wallet": "0x489d3df3601288940f89d56b5642b0951129f6e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5508588",
+    "pregunta": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "ts": "2026-10-11T06:25:22.815072",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x489d3df3601288940f89d56b5642b0951129f6e3",
     "whale_signal": "COMPRAR NO"
   }
 ]
