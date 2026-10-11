@@ -1,10 +1,58 @@
 [
   {
-    "id": "5067018",
-    "pregunta": "Real Betis Balompi\u00e9 vs. CA Osasuna: Both Teams to Score",
-    "ts": "2026-10-11T12:43:51.693316",
+    "id": "5522476",
+    "pregunta": "Map Handicap: VIT (-2.5) vs MOUZ (+2.5)",
+    "ts": "2026-10-11T12:55:21.628696",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522456",
+    "pregunta": "Counter-Strike: Vitality vs MOUZ - Map 3 Winner",
+    "ts": "2026-10-11T12:55:22.681214",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5557868",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 3 Winner",
+    "ts": "2026-10-11T12:55:24.528841",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x23cb737291afa36d7e8e1a23e3fd37b667da80d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064549",
+    "pregunta": "US Sassuolo Calcio vs. AC Milan: O/U 2.5",
+    "ts": "2026-10-11T12:55:26.325459",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x34a1eed3f6bb10dd2f99b79cb4e8ca8749ae7622",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4842822",
+    "pregunta": "Spread: Packers (-14.5)",
+    "ts": "2026-10-11T12:55:28.212142",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6a1bcb2b8430b82e2f44c357d942e45b4f40530a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4024678",
+    "pregunta": "Bears vs. Packers",
+    "ts": "2026-10-11T12:55:29.277480",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6a1bcb2b8430b82e2f44c357d942e45b4f40530a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4866158",
+    "pregunta": "Spread: Patriots (-14.5)",
+    "ts": "2026-10-11T12:55:30.341957",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6a1bcb2b8430b82e2f44c357d942e45b4f40530a",
     "whale_signal": "COMPRAR NO"
   }
 ]
