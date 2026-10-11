@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1495.02,
-  "capital_en_riesgo": 444.95000000000005,
-  "n_ciclos": 40320,
-  "ultima_corrida": "2026-10-11 00:45",
-  "n_tp": 958,
+  "capital_actual": 1541.63,
+  "capital_en_riesgo": 419.95,
+  "n_ciclos": 40321,
+  "ultima_corrida": "2026-10-11 00:54",
+  "n_tp": 959,
   "n_sl": 689,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 8.78,
-    "capital_en_riesgo": 41.42,
+    "capital_actual": 14.37,
+    "capital_en_riesgo": 38.42,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 452,
+    "n_tp": 453,
     "n_sl": 348,
     "posiciones_abiertas": [
       {
@@ -91,7 +91,7 @@
         "pregunta": "Will Bitcoin dip to $80,000 October 5-11?",
         "outcome": "No",
         "precio_token_entrada": 0.63,
-        "precio_actual": 0.972,
+        "precio_actual": 0.9715,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -260,26 +260,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xd124fab0ee7a55e346fe4039c2ae5147cad9384bf68317db545496ab28b7007d"
-      },
-      {
-        "fecha_entrada": "2026-10-10",
-        "fecha_entrada_dt": "2026-10-10 22:25",
-        "target_wallet": "0x13ff290849c6fef06efde63dfe643e62767716a3",
-        "market_id": "5102251",
-        "condition_id": "0x2c73b0845d489c0c428284d44c629fdcfd0e439223286c9e3bf7630dcbc14cb3",
-        "token_id": "10424942904380583785609457055288556834308436082152780809775567043611479523697",
-        "pregunta": "Spread: Boise State (-14.5)",
-        "outcome": "Fresno State",
-        "precio_token_entrada": 0.48,
-        "precio_actual": 0.485,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x2454305ea00c61621160211b05c43cd93008a63da3f850ad0f292fdb86cd0995"
       }
     ],
     "historial_cerradas": [
@@ -16282,6 +16262,26 @@
         "pnl_realizado": 2.91,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x6c287ffd5f6298c1896b1c3998dae61e9e488a24645f75c458292dc146bc6feb"
+      },
+      {
+        "fecha_entrada": "2026-10-10",
+        "fecha_entrada_dt": "2026-10-10 22:25",
+        "target_wallet": "0x13ff290849c6fef06efde63dfe643e62767716a3",
+        "market_id": "5102251",
+        "condition_id": "0x2c73b0845d489c0c428284d44c629fdcfd0e439223286c9e3bf7630dcbc14cb3",
+        "token_id": "10424942904380583785609457055288556834308436082152780809775567043611479523697",
+        "pregunta": "Spread: Boise State (-14.5)",
+        "outcome": "Fresno State",
+        "precio_token_entrada": 0.48,
+        "precio_actual": 0.895,
+        "precio_cierre": 0.895,
+        "pct_cambio": 0.8646,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-11 00:54",
+        "pnl_realizado": 2.59,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x2454305ea00c61621160211b05c43cd93008a63da3f850ad0f292fdb86cd0995"
       }
     ]
   }
