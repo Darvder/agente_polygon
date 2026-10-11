@@ -8,6 +8,8 @@ Implementa filtros de slippage y sincronización por posiciones abiertas (failsa
 import os
 import json
 import time
+import copy
+import re
 import logging
 import requests
 import pandas as pd
@@ -50,17 +52,57 @@ COLUMNAS_LIBRO = [
     'pnl_realizado', 'razon_cierre', 'tx_hash'
 ]
 
+# Palabras clave para filtrado estricto de apuestas deportivas y esports
+SPORTS_KEYWORDS = [
+    ' vs ', ' vs. ', ' v ', ' o/u ', 'over/under', 'spread:', 'handicap',
+    'game 1', 'game 2', 'game 3', 'map 1', 'map 2', 'map 3', 'bo1', 'bo3', 'bo5',
+    'tennis', 'atp', 'wta', 'rolex masters', 'chisinau', 'qualification',
+    'esports', 'counter-strike', 'dota 2', 'valorant', 'league of legends', 'lol:',
+    'nfl', 'nba', 'mlb', 'nhl', 'premier league', 'champions league', 'la liga', 'serie a',
+    'fc ', ' cf', ' united', 'fc:', 'sc:', 'real madrid', 'barcelona', 'liverpool',
+    'touchdown', 'quarterback', 'field goal', 'halftime', 'ballon d\'or', 'jets', 'browns',
+    'eagles', 'jaguars', 'texans', 'dodgers', 'brewers', 'broncos', 'chargers',
+    'roma', 'galatasaray', 'sporting cp', 'dortmund', 'once caldas', 'nashville sc', 'guadalajara'
+]
+
+def es_mercado_deportivo_o_esports(title="", slug=""):
+    """Identifica si un mercado es de apuestas deportivas o esports de alta latencia/resolución rápida."""
+    tl = f" {str(title).lower()} {str(slug).lower()} "
+    if re.search(r'win on 20\d\d', tl):
+        return True
+    return any(k in tl for k in SPORTS_KEYWORDS)
+
 # Configuración por defecto
 DEFAULT_CONFIG = {
     "wallets_to_copy": [
         "0x96cfcb0c30942cfcd1cdf76c7d408794d66b1acb", # mintblade
         "0x5e4c3b5b81171e2ca4ab776ac0d6bba787f9dba2", # endlessFate
-        "0x59151ed846c13dc0f004b856a8be325ad571db2b", # Selective Sports Whale
+        "0x59151ed846c13dc0f004b856a8be325ad571db2b", # Selective Whale
         "0x5eeb2911bf927d7ded5fccf150293105ef7e01b2", # Whale Top +$93.32
         "0x06dc51826bc524d9a83770e7de9dd7e005b04524", # Whale 81.8% WR +$75.40
         "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974"  # Whale 100% WR +$38.30
     ],
     "blacklist_wallets": [
+        "0x821dab0565ebf5b327f51db06223fdcfe01acf16", # Toxic sports gambler -$124
+        "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+        "0xf4ec03081af3116b77f0d52c109c6828ff0ec574",
+        "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+        "0x70dc005e4abe3a4f66d80686372535219fe11dfd",
+        "0xb5527654d309c6617addabbb64e47931cf35b70c",
+        "0xa98a9d23e7211c22d2259b68b1bc9d47b3013b92",
+        "0xf403a1583d518513c1341347a785805fc7cf8a59",
+        "0x168fd826a1f30c1752f221b74a7a1316c54f6424",
+        "0x1720de39dda935fd8fedb01a88cf971b55ac3c09",
+        "0x901515976ced8fa2025b75140814d79f77e7281f",
+        "0x746069033ad4443923096e6dfdea54ffccd7de6e",
+        "0x06a9865f05e5f379840e6df4feadc98892571a49",
+        "0x241adda58ed48866f0deec7867731dd84c5ba9c8",
+        "0x5102078b37376025b1529516409c56f7a5ff7b08",
+        "0x5bfe9469c7c4035325024c846bc530c9d29e3258",
+        "0x274fc19df5ec819e9e481959a00390db549c971a",
+        "0x6f11bcdd1e09a7109b61e6c26ddbcfe3f204c524",
+        "0xdbe8f1f08120ef7996df79ae1e6ef35887b61141",
+        "0xf7f67ecde5cfb6fd4e30edadb19a7c53f9e8e517",
         "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
         "0x13659c6a1aacd0e3bcb022e06261fff367f6c82a",
         "0xec5625bde94bdf224d6d941e612a403989921816",
@@ -80,6 +122,7 @@ DEFAULT_CONFIG = {
     "enable_dynamic_whales": True,
     "dynamic_whale_limit": 4,
     "min_whale_trade_usd": 250.0,
+    "filter_sports": True,
     "max_positions": 25,
     "max_positions_per_wallet": 4,
     "min_capital_per_trade": 8.0,
@@ -245,13 +288,29 @@ def calcular_tamano_posicion_micro(micro, precio_token, slippage, max_slippage, 
 # ── Inicializadores de archivos ────────────────────────────────────
 
 def cargar_config():
+    """Carga configuración fusionando siempre DEFAULT_CONFIG con el archivo en disco para garantizar persistencia de la blacklist y parámetros de riesgo."""
+    cfg = copy.deepcopy(DEFAULT_CONFIG)
     if os.path.exists(FILE_CONFIG):
-        with open(FILE_CONFIG) as f:
-            return json.load(f)
-    # Crear por defecto
-    with open(FILE_CONFIG, "w") as f:
-        json.dump(DEFAULT_CONFIG, f, indent=2)
-    return DEFAULT_CONFIG
+        try:
+            with open(FILE_CONFIG) as f:
+                disk_cfg = json.load(f)
+                if isinstance(disk_cfg, dict):
+                    for k, v in disk_cfg.items():
+                        if k == "blacklist_wallets":
+                            def_bl = set(w.lower() for w in DEFAULT_CONFIG.get("blacklist_wallets", []))
+                            disk_bl = set(w.lower() for w in (v or []))
+                            cfg[k] = list(def_bl.union(disk_bl))
+                        else:
+                            cfg[k] = v
+        except Exception as e:
+            log.warning(f"Error cargando config desde {FILE_CONFIG}: {e}")
+    # Guardar configuración consolidada en disco
+    try:
+        with open(FILE_CONFIG, "w") as f:
+            json.dump(cfg, f, indent=2)
+    except Exception as e:
+        log.warning(f"Error guardando config consolidada en {FILE_CONFIG}: {e}")
+    return cfg
 
 def cargar_estado():
     if os.path.exists(FILE_ESTADO):
@@ -383,20 +442,27 @@ def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_
     p = _get_proxies()
     blacklist_set = set(w.lower() for w in (blacklist or []))
 
-    # Auto-pruning de billeteras con PnL neto negativo histórico en el libro
+    # Auto-pruning de billeteras con PnL neto negativo histórico o racha perdedora reciente (Rolling Window)
     losing_wallets = set()
     if df_historial is not None and not df_historial.empty and 'pnl_realizado' in df_historial.columns:
         c = df_historial[df_historial['estado'] == 'CERRADA']
         if not c.empty and 'target_wallet' in c.columns:
-            wg = c.groupby('target_wallet').agg(
-                ops=('pnl_realizado', 'count'),
-                pnl=('pnl_realizado', 'sum'),
-                wins=('pnl_realizado', lambda x: (x > 0).sum())
-            )
-            for w_addr, row in wg.iterrows():
-                # Si ha perdido más de $10 USDC o tiene 6+ ops con menos del 45% WR, filtrar
-                if row['pnl'] < -10.0 or (row['ops'] >= 6 and (row['wins'] / row['ops']) < 0.45):
-                    losing_wallets.add(str(w_addr).lower())
+            for w_addr, grp in c.groupby('target_wallet'):
+                w_str = str(w_addr).lower()
+                # 1. PnL histórico total
+                pnl_total = float(grp['pnl_realizado'].sum())
+                ops_total = len(grp)
+                wr_total = float((grp['pnl_realizado'] > 0).mean())
+                if pnl_total < -15.0 or (ops_total >= 8 and wr_total < 0.42):
+                    losing_wallets.add(w_str)
+                    continue
+                # 2. Ventana móvil reciente (últimas 12 operaciones de la wallet)
+                grp_reciente = grp.tail(12)
+                pnl_reciente = float(grp_reciente['pnl_realizado'].sum())
+                ops_reciente = len(grp_reciente)
+                wr_reciente = float((grp_reciente['pnl_realizado'] > 0).mean())
+                if pnl_reciente < -10.0 or (ops_reciente >= 5 and wr_reciente < 0.40):
+                    losing_wallets.add(w_str)
 
     try:
         r = requests.get(url, params={"limit": 100}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
@@ -404,9 +470,14 @@ def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_
             trades = r.json()
             volumen_por_wallet = {}
             for t in trades:
-                title_lower = (t.get("title") or "").lower()
-                slug_lower = (t.get("slug") or "").lower()
+                title = t.get("title") or ""
+                slug = t.get("slug") or ""
+                title_lower = title.lower()
+                slug_lower = slug.lower()
                 if "updown" in slug_lower or "up or down" in title_lower or "5m" in slug_lower or "15m" in slug_lower:
+                    continue
+                # Descartar apostadores deportivos y esports del descubrimiento de ballenas
+                if es_mercado_deportivo_o_esports(title, slug):
                     continue
                 w = t.get("proxyWallet") or t.get("user")
                 if not w or not isinstance(w, str) or not w.startswith("0x"):
@@ -548,6 +619,11 @@ async def procesar_copy_trading():
             title_lower = (t.get("title") or "").lower()
             slug_lower = (t.get("slug") or "").lower()
             if "updown" in slug_lower or "up or down" in title_lower:
+                cache.add(tx_hash)
+                continue
+
+            # Filtro 0b: Descartar apuestas deportivas y esports (alta latencia, resolución inmediata y liquidación al 100%)
+            if config.get("filter_sports", True) and es_mercado_deportivo_o_esports(title_lower, slug_lower):
                 cache.add(tx_hash)
                 continue
 
