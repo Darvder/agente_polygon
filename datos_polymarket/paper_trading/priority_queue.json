@@ -1,74 +1,34 @@
 [
   {
-    "id": "5101510",
-    "pregunta": "Georgia vs. Alabama",
-    "ts": "2026-10-10T20:55:10.853303",
+    "id": "5040375",
+    "pregunta": "Sporting Kansas City vs. Portland Timbers: O/U 4.5",
+    "ts": "2026-10-10T21:04:57.958246",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4527229",
-    "pregunta": "Maple Leafs vs. Avalanche",
-    "ts": "2026-10-10T20:55:11.915377",
+    "id": "5040374",
+    "pregunta": "Sporting Kansas City vs. Portland Timbers: O/U 3.5",
+    "ts": "2026-10-10T21:04:59.068132",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5100820",
-    "pregunta": "LSU vs. Kentucky",
-    "ts": "2026-10-10T20:55:12.969261",
+    "id": "5069551",
+    "pregunta": "CA River Plate vs. AA Estudiantes: O/U 1.5",
+    "ts": "2026-10-10T21:05:00.163024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5279694",
-    "pregunta": "Chicago White Sox vs. Cleveland Guardians",
-    "ts": "2026-10-10T20:55:14.029685",
+    "id": "5040492",
+    "pregunta": "Austin FC vs. Nashville SC: O/U 1.5",
+    "ts": "2026-10-10T21:05:01.255323",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5097373",
-    "pregunta": "UAB vs. Memphis: O/U 57.5",
-    "ts": "2026-10-10T20:55:17.730985",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5101845",
-    "pregunta": "Minnesota vs. Purdue",
-    "ts": "2026-10-10T20:55:18.792900",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5101310",
-    "pregunta": "Spread: Virginia (-1.5)",
-    "ts": "2026-10-10T20:55:19.850488",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5262660",
-    "pregunta": "Timberwolves vs. Heat",
-    "ts": "2026-10-10T20:55:20.924575",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5101529",
-    "pregunta": "Spread: Alabama (-3.5)",
-    "ts": "2026-10-10T20:55:21.981465",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5102078b37376025b1529516409c56f7a5ff7b08",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
     "whale_signal": "COMPRAR NO"
   }
 ]
