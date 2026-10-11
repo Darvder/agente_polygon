@@ -1,66 +1,98 @@
 [
   {
-    "id": "4843884",
-    "pregunta": "Spread: Texans (-10.5)",
-    "ts": "2026-10-11T13:35:10.365530",
+    "id": "5057138",
+    "pregunta": "Will Juventus FC win on 2026-10-11?",
+    "ts": "2026-10-11T13:47:31.144487",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_wallet": "0x03f4bd4bd14e0dffa6f012d023387e1a327f7e44",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4061366",
-    "pregunta": "Spread: Packers (-6.5)",
-    "ts": "2026-10-11T13:35:11.409614",
+    "id": "4024666",
+    "pregunta": "Browns vs. Jets",
+    "ts": "2026-10-11T13:47:33.044007",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4061588",
-    "pregunta": "Spread: Saints (-1.5)",
-    "ts": "2026-10-11T13:35:12.546691",
+    "id": "4843594",
+    "pregunta": "Spread: Commanders (-8.5)",
+    "ts": "2026-10-11T13:47:34.102755",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4866156",
-    "pregunta": "Spread: Patriots (-9.5)",
-    "ts": "2026-10-11T13:35:13.600794",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4061550",
-    "pregunta": "Spread: Jets (-2.5)",
-    "ts": "2026-10-11T13:35:14.635987",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4061654",
-    "pregunta": "Bengals vs. Dolphins: O/U 48.5",
-    "ts": "2026-10-11T13:35:15.690711",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4024671",
     "pregunta": "Giants vs. Commanders",
-    "ts": "2026-10-11T13:35:16.730122",
+    "ts": "2026-10-11T13:47:35.158987",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4024667",
-    "pregunta": "Colts vs. Steelers",
-    "ts": "2026-10-11T13:35:17.914744",
+    "id": "4061499",
+    "pregunta": "Texans vs. Titans: O/U 38.5",
+    "ts": "2026-10-11T13:47:36.227167",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06e38dc49e29d94870f3485e9772a55421e7cda8",
+    "whale_wallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190565",
+    "pregunta": "Next US-Iran senior diplomatic meeting by November 30, 2026?",
+    "ts": "2026-10-11T13:47:39.384212",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5476380",
+    "pregunta": "US imports Russian diesel by October 31?",
+    "ts": "2026-10-11T13:47:43.728257",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3851436",
+    "pregunta": "Will George Harvie win the 2026 Delta mayoral election?",
+    "ts": "2026-10-11T13:47:44.943238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375148",
+    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
+    "ts": "2026-10-11T13:47:47.063593",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5329587",
+    "pregunta": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amazonas?",
+    "ts": "2026-10-11T13:47:48.322365",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061632",
+    "pregunta": "Raiders vs. Patriots: O/U 51.5",
+    "ts": "2026-10-11T13:47:50.450355",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4061654",
+    "pregunta": "Bengals vs. Dolphins: O/U 48.5",
+    "ts": "2026-10-11T13:47:51.505561",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x558f2f82cf0394c28ce3c8e117ee747aeab51a56",
     "whale_signal": "COMPRAR NO"
   }
 ]
