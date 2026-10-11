@@ -1,10 +1,26 @@
 [
   {
-    "id": "5171303",
-    "pregunta": "Will Hyperliquid reach $100 in October?",
-    "ts": "2026-10-11T10:26:07.232907",
+    "id": "5522464",
+    "pregunta": "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
+    "ts": "2026-10-11T10:35:13.781631",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd5e3226b2d399b64063c3659ac93a670cbb6e379",
+    "whale_wallet": "0x50f97e9c24050ca2cd7f0fef900df984e1d0c327",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522448",
+    "pregunta": "Counter-Strike: Vitality vs MOUZ - Map 1 Winner",
+    "ts": "2026-10-11T10:35:15.917703",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc33a3e29cbf02a7e79483b088d56be97615079",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5557867",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 2 Winner",
+    "ts": "2026-10-11T10:35:18.135549",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbdc33a3e29cbf02a7e79483b088d56be97615079",
     "whale_signal": "COMPRAR NO"
   }
 ]
