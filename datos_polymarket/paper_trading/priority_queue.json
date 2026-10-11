@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5291699",
+    "pregunta": "Will SpaceXAI officially rename itself to SpaceXSI by October 15?",
+    "ts": "2026-10-10T23:03:59.110421",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x81962d4b60e570db68de998ae77a35d07822ab69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5269687",
+    "pregunta": "Spurs vs. Suns",
+    "ts": "2026-10-10T23:04:02.190830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
