@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5507148",
+    "pregunta": "China Open: Qinwen Zheng vs Mirra Andreeva",
+    "ts": "2026-10-11T05:43:53.004365",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc576775ef9167ddc38ee6a4e537545ab73d0b9d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5481134",
+    "pregunta": "Shanghai Rolex Masters: Alexander Bublik vs Brandon Nakashima",
+    "ts": "2026-10-11T05:43:57.100055",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x033eeb3efed4a42059faace467c5c3f6eb2e1bb9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5309782",
+    "pregunta": "Mavericks vs. Rockets",
+    "ts": "2026-10-11T05:43:58.192940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x033eeb3efed4a42059faace467c5c3f6eb2e1bb9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5508587",
+    "pregunta": "Dota 2: Team Spirit vs PARIVISION - Game 2 Winner",
+    "ts": "2026-10-11T05:43:59.263458",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x033eeb3efed4a42059faace467c5c3f6eb2e1bb9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5281451",
+    "pregunta": "Australia A Tour of India Unofficial ODIs: India A vs Australia A",
+    "ts": "2026-10-11T05:44:01.294132",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0267ebb4a7371037b79e2b062c766b03ee2e7f7e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
