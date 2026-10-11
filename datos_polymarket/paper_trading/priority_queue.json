@@ -1,50 +1,42 @@
 [
   {
+    "id": "5041048",
+    "pregunta": "Philadelphia Union vs. Real Salt Lake: O/U 1.5",
+    "ts": "2026-10-10T20:25:28.861689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5036254",
+    "pregunta": "Will FC Cincinnati win on 2026-10-10?",
+    "ts": "2026-10-10T20:25:29.960152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5101510",
     "pregunta": "Georgia vs. Alabama",
-    "ts": "2026-10-10T20:14:21.806546",
+    "ts": "2026-10-10T20:25:31.745443",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5101845",
-    "pregunta": "Minnesota vs. Purdue",
-    "ts": "2026-10-10T20:14:22.860190",
+    "id": "5101528",
+    "pregunta": "Spread: Alabama (-2.5)",
+    "ts": "2026-10-10T20:25:32.790391",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4527229",
-    "pregunta": "Maple Leafs vs. Avalanche",
-    "ts": "2026-10-10T20:14:23.897413",
+    "id": "5101527",
+    "pregunta": "Spread: Alabama (-1.5)",
+    "ts": "2026-10-10T20:25:34.079791",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5100820",
-    "pregunta": "LSU vs. Kentucky",
-    "ts": "2026-10-10T20:14:24.943487",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5262660",
-    "pregunta": "Timberwolves vs. Heat",
-    "ts": "2026-10-10T20:14:26.887767",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x602785cdf56a03221130d3d42a577ac6cf444320",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5218372",
-    "pregunta": "UFC Fight Night: Jai Herbert vs. Matheus Camilo (Lightweight, Main Card)",
-    "ts": "2026-10-10T20:14:28.806658",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0e604be17c231a33dc01e38a722c7fe3984e3bad",
+    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
     "whale_signal": "COMPRAR NO"
   }
 ]
