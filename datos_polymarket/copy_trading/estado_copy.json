@@ -1,15 +1,15 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1501.65,
+  "capital_actual": 1517.14,
   "capital_en_riesgo": 282.42,
-  "n_ciclos": 40405,
-  "ultima_corrida": "2026-10-11 14:55",
-  "n_tp": 975,
+  "n_ciclos": 40406,
+  "ultima_corrida": "2026-10-11 15:05",
+  "n_tp": 976,
   "n_sl": 709,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 12.06,
+    "capital_actual": 13.92,
     "capital_en_riesgo": 32.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 459,
+    "n_tp": 460,
     "n_sl": 355,
     "posiciones_abiertas": [
       {
@@ -162,26 +162,6 @@
         "tx_hash": "0x6a6a7a8849f15caa7eaa13cd9987fc4889820925f6877be3a6faa6dd8f0729eb"
       },
       {
-        "fecha_entrada": "2026-10-10",
-        "fecha_entrada_dt": "2026-10-10 19:43",
-        "target_wallet": "0x448861155279dbf833d041b963e3ac854599e319",
-        "market_id": "4024666",
-        "condition_id": "0xbfb4a383d3a8bdfb1f47a388eaf0534af7f56403e1571d3e1e1f2f074d27838f",
-        "token_id": "13178437423787613306714793123862154236291774865703775281016183012011117761161",
-        "pregunta": "Browns vs. Jets",
-        "outcome": "Jets",
-        "precio_token_entrada": 0.565,
-        "precio_actual": 0.835,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xa7c42ab36fa54f43040472d4ec5be0e5226d3adbd89ae1a6e27180bbce421aa9"
-      },
-      {
         "fecha_entrada": "2026-10-11",
         "fecha_entrada_dt": "2026-10-11 01:55",
         "target_wallet": "0x780f249bb117d07c981d1c0e5690eb4fbe698955",
@@ -211,7 +191,7 @@
         "pregunta": "Spread: Broncos (-3.5)",
         "outcome": "Chargers",
         "precio_token_entrada": 0.505,
-        "precio_actual": 0.505,
+        "precio_actual": 0.515,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -220,6 +200,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x239d118162e1e0af5d2f8f937103338ac520336e357cff21af75894d380b0bee"
+      },
+      {
+        "fecha_entrada": "2026-10-11",
+        "fecha_entrada_dt": "2026-10-11 15:05",
+        "target_wallet": "0xaa34642d279dc6a1e2d2ddf9dcb1e737176166fb",
+        "market_id": "630963",
+        "condition_id": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417",
+        "token_id": "25172545206000541692667496253531562288536270988826888609620735617040533835056",
+        "pregunta": "Will the Democrats win the Texas Senate race in 2026?",
+        "outcome": "No",
+        "precio_token_entrada": 0.375,
+        "precio_actual": 0.375,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0xe2e39b68e5f0cad286dfc043b885a6defb6e72d6ab10dd551707338ea84ec1fa"
       }
     ],
     "historial_cerradas": [
@@ -16502,6 +16502,26 @@
         "pnl_realizado": 2.07,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x80c91e441f9aa418af2e6249db1c733854a0e610c18f36140e4d61b7505bfae9"
+      },
+      {
+        "fecha_entrada": "2026-10-10",
+        "fecha_entrada_dt": "2026-10-10 19:43",
+        "target_wallet": "0x448861155279dbf833d041b963e3ac854599e319",
+        "market_id": "4024666",
+        "condition_id": "0xbfb4a383d3a8bdfb1f47a388eaf0534af7f56403e1571d3e1e1f2f074d27838f",
+        "token_id": "13178437423787613306714793123862154236291774865703775281016183012011117761161",
+        "pregunta": "Browns vs. Jets",
+        "outcome": "Jets",
+        "precio_token_entrada": 0.565,
+        "precio_actual": 0.915,
+        "precio_cierre": 0.915,
+        "pct_cambio": 0.6195,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-11 15:05",
+        "pnl_realizado": 1.86,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0xa7c42ab36fa54f43040472d4ec5be0e5226d3adbd89ae1a6e27180bbce421aa9"
       }
     ]
   }

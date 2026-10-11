@@ -1,26 +1,10 @@
 [
   {
-    "id": "4024678",
-    "pregunta": "Bears vs. Packers",
-    "ts": "2026-10-11T14:55:06.937087",
+    "id": "630963",
+    "pregunta": "Will the Democrats win the Texas Senate race in 2026?",
+    "ts": "2026-10-11T15:05:26.390404",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06a22231b2d42f8704e85ef44c2dda278d9f8015",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4024660",
-    "pregunta": "Raiders vs. Patriots",
-    "ts": "2026-10-11T14:55:08.013559",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06a22231b2d42f8704e85ef44c2dda278d9f8015",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5307146",
-    "pregunta": "Legia Warszawa vs. Wisla Krakow: O/U 3.5",
-    "ts": "2026-10-11T14:55:09.091494",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06a22231b2d42f8704e85ef44c2dda278d9f8015",
+    "whale_wallet": "0xaa34642d279dc6a1e2d2ddf9dcb1e737176166fb",
     "whale_signal": "COMPRAR NO"
   }
 ]
