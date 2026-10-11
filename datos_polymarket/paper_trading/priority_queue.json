@@ -1,18 +1,26 @@
 [
   {
-    "id": "5507154",
-    "pregunta": "Wuhan Tennis Open: Janice Tjen vs Oleksandra Oliynykova",
-    "ts": "2026-10-11T03:36:22.844769",
+    "id": "5141856",
+    "pregunta": "Ballon d'Or 2026: Rodri or Lionel Messi to finish higher?",
+    "ts": "2026-10-11T03:44:24.869976",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_wallet": "0x6a678ca367432d28cb6aa55bb6bc57d8f53bdf6f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5508590",
-    "pregunta": "Game Handicap: PARI (-1.5) vs Team Spirit (+1.5)",
-    "ts": "2026-10-11T03:36:23.930185",
+    "id": "608547",
+    "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "ts": "2026-10-11T03:44:25.949903",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_wallet": "0x6a678ca367432d28cb6aa55bb6bc57d8f53bdf6f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5455113",
+    "pregunta": "Shanghai Rolex Masters: Francisco Cerundolo vs Jakub Mensik",
+    "ts": "2026-10-11T03:44:28.107456",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8bfee7aeca33003fe9d7398d5143dc7866542d74",
     "whale_signal": "COMPRAR NO"
   }
 ]
