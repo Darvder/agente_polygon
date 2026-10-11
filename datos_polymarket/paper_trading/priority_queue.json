@@ -1,10 +1,26 @@
 [
   {
-    "id": "5481124",
-    "pregunta": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
-    "ts": "2026-10-11T02:43:56.653377",
+    "id": "5067071",
+    "pregunta": "Real Sociedad de F\u00fatbol vs. RC Deportivo A Coru\u00f1a: O/U 2.5",
+    "ts": "2026-10-11T02:54:43.203757",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xef292327dc97299c63f30e998614740d9a852f1e",
+    "whale_wallet": "0xd1f0c55f1008a3dad84839c5a898e25891a87a20",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5066947",
+    "pregunta": "Real Racing Club vs. Valencia CF: O/U 2.5",
+    "ts": "2026-10-11T02:54:44.340562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1f0c55f1008a3dad84839c5a898e25891a87a20",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5062314",
+    "pregunta": "Will Manchester City FC win on 2026-10-11?",
+    "ts": "2026-10-11T02:54:45.503218",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd1f0c55f1008a3dad84839c5a898e25891a87a20",
     "whale_signal": "COMPRAR NO"
   }
 ]
