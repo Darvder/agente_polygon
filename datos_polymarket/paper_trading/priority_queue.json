@@ -1,18 +1,50 @@
 [
   {
-    "id": "5040272",
-    "pregunta": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 1.5",
-    "ts": "2026-10-10T22:04:06.647481",
+    "id": "5100820",
+    "pregunta": "LSU vs. Kentucky",
+    "ts": "2026-10-10T22:17:23.827330",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5040311",
-    "pregunta": "Colorado Rapids SC vs. San Jose Earthquakes: O/U 2.5",
-    "ts": "2026-10-10T22:04:07.695000",
+    "id": "5096934",
+    "pregunta": "James Madison vs. Georgia Southern",
+    "ts": "2026-10-10T22:17:24.883479",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5269687",
+    "pregunta": "Spurs vs. Suns",
+    "ts": "2026-10-10T22:17:25.944386",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4641065",
+    "pregunta": "US x Iran ceasefire continues through October 31?",
+    "ts": "2026-10-10T22:17:28.095694",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdda510aea9859bbdbf9ea690d7e3d9557e2ac82a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5473425",
+    "pregunta": "Kings vs. Warriors: O/U 232.5",
+    "ts": "2026-10-10T22:17:35.616164",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x617b46903eaadc7dfb4f94e18408e2033ee3a499",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5473435",
+    "pregunta": "Spurs vs. Suns: O/U 225.5",
+    "ts": "2026-10-10T22:17:36.674999",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x617b46903eaadc7dfb4f94e18408e2033ee3a499",
     "whale_signal": "COMPRAR NO"
   }
 ]
