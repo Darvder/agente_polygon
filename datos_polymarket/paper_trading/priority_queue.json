@@ -1,42 +1,58 @@
 [
   {
+    "id": "5481134",
+    "pregunta": "Shanghai Rolex Masters: Alexander Bublik vs Brandon Nakashima",
+    "ts": "2026-10-11T08:04:55.660185",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb077e7482c6bea18f75e33bf823cbbe59cda8fe8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522408",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit - Map 2 Winner",
+    "ts": "2026-10-11T08:04:56.700351",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb077e7482c6bea18f75e33bf823cbbe59cda8fe8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5057111",
+    "pregunta": "Will SS Lazio win on 2026-10-11?",
+    "ts": "2026-10-11T08:04:58.368343",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5299844",
+    "pregunta": "Sri Lanka Tour of Pakistan T20s: Pakistan vs Sri Lanka",
+    "ts": "2026-10-11T08:04:59.410311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064600",
+    "pregunta": "Crystal Palace FC vs. Nottingham Forest FC: O/U 2.5",
+    "ts": "2026-10-11T08:05:00.469419",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5064384",
+    "pregunta": "Liverpool FC vs. Manchester City FC: Both Teams to Score",
+    "ts": "2026-10-11T08:05:01.515825",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5522412",
     "pregunta": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-11T07:54:30.619921",
+    "ts": "2026-10-11T08:05:03.301872",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc19211ddb9a00b176b85f9f92d10497b8476086c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5429315",
-    "pregunta": "Los Angeles Dodgers vs. Milwaukee Brewers",
-    "ts": "2026-10-11T07:54:33.802552",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064626",
-    "pregunta": "Crystal Palace FC vs. Nottingham Forest FC: Both Teams to Score",
-    "ts": "2026-10-11T07:54:34.895653",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4865188",
-    "pregunta": "1H Spread: Jaguars (-3.5)",
-    "ts": "2026-10-11T07:54:36.028066",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4865189",
-    "pregunta": "1H Spread: Jaguars (-4.5)",
-    "ts": "2026-10-11T07:54:37.168642",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "whale_wallet": "0x3c2b0236a49e16eea4b1bf026d945da0320d825e",
     "whale_signal": "COMPRAR NO"
   }
 ]
