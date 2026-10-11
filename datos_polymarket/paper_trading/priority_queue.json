@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5054659",
+    "pregunta": "Will Kataller Toyama win on 2026-10-11?",
+    "ts": "2026-10-10T23:54:56.936369",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5485350",
+    "pregunta": "Wuhan Tennis Open, Qualification: Sara Sorribes Tormo vs Daria Kasatkina",
+    "ts": "2026-10-10T23:55:02.040710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93004c4d67da4ced6dd6a107d23d29212fa4ca58",
+    "whale_signal": "COMPRAR NO"
+  }
+]
