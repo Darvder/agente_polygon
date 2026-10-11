@@ -1,26 +1,26 @@
 [
   {
-    "id": "5522408",
-    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit - Map 2 Winner",
-    "ts": "2026-10-11T07:33:36.042127",
+    "id": "5522412",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-11T07:44:12.863199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb22f1d16071506037666f928274d408595c7e23d",
+    "whale_wallet": "0xa55745a37f9ce31f5a47e69f8bbec87f9c006e77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5507148",
+    "pregunta": "China Open: Qinwen Zheng vs Mirra Andreeva",
+    "ts": "2026-10-11T07:44:15.987446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3cc65a9097a1c1e134366d6fb96a1e8eed4f53f7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5508588",
     "pregunta": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "ts": "2026-10-11T07:33:38.001162",
+    "ts": "2026-10-11T07:44:18.063413",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce8250076efd967c08495dadaff84220e50a03d3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5522412",
-    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - ESL Pro League Playoffs",
-    "ts": "2026-10-11T07:33:41.088676",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x05d0f1d99bcb06e57cec0e28a652dde9b319c4ea",
+    "whale_wallet": "0x87a3456e3b5777b45d5a1be804df76c6b8ef5857",
     "whale_signal": "COMPRAR NO"
   }
 ]
