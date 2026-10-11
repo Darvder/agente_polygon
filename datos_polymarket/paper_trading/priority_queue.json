@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5508586",
+    "pregunta": "Dota 2: Team Spirit vs PARIVISION - Game 1 Winner",
+    "ts": "2026-10-11T05:04:56.026088",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5494447",
+    "pregunta": "Valorant: 100 Thieves vs NRG - Map 1 Winner",
+    "ts": "2026-10-11T05:04:57.074859",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5494449",
+    "pregunta": "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-11T05:04:58.117454",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
