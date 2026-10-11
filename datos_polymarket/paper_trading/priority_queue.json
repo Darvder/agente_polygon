@@ -1,10 +1,42 @@
 [
   {
-    "id": "5481134",
-    "pregunta": "Shanghai Rolex Masters: Alexander Bublik vs Brandon Nakashima",
-    "ts": "2026-10-11T05:55:39.725389",
+    "id": "5503817",
+    "pregunta": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
+    "ts": "2026-10-11T06:05:10.772645",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x357b4636b1a2a3539566120a939ab445d2f20b65",
+    "whale_wallet": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5503821",
+    "pregunta": "Map Handicap: G2 (-1.5) vs T1 (+1.5)",
+    "ts": "2026-10-11T06:05:11.839521",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522420",
+    "pregunta": "Map Handicap: TS (-1.5) vs Aurora Gaming (+1.5)",
+    "ts": "2026-10-11T06:05:13.047933",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5522412",
+    "pregunta": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - ESL Pro League Playoffs",
+    "ts": "2026-10-11T06:05:14.104287",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5508587",
+    "pregunta": "Dota 2: Team Spirit vs PARIVISION - Game 2 Winner",
+    "ts": "2026-10-11T06:05:21.499530",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0b995ff0078ba4f8849b99adfc93d74667498bdd",
     "whale_signal": "COMPRAR NO"
   }
 ]
