@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1473.92,
-  "capital_en_riesgo": 466.16,
-  "n_ciclos": 40342,
-  "ultima_corrida": "2026-10-11 04:25",
+  "capital_actual": 1485.98,
+  "capital_en_riesgo": 441.16,
+  "n_ciclos": 40343,
+  "ultima_corrida": "2026-10-11 04:35",
   "n_tp": 962,
-  "n_sl": 692,
+  "n_sl": 693,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 0.75,
-    "capital_en_riesgo": 50.42,
+    "capital_actual": 1.63,
+    "capital_en_riesgo": 47.42,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 455,
-    "n_sl": 350,
+    "n_sl": 351,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-05",
@@ -211,7 +211,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.612,
-        "precio_actual": 0.6565,
+        "precio_actual": 0.6555,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xbec3a8585d82a692985d3dc30999574255dd3e6badf68504a4de5c0cbb1e6139"
-      },
-      {
-        "fecha_entrada": "2026-10-11",
-        "fecha_entrada_dt": "2026-10-11 04:24",
-        "target_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
-        "market_id": "5455113",
-        "condition_id": "0x1e5b376b81b349e454e32717a7edb35928c98ba361e1668a4c1a9d4c746747a6",
-        "token_id": "61813604196005368080707328318291814264983329128874839586905411126554840178205",
-        "pregunta": "Shanghai Rolex Masters: Francisco Cerundolo vs Jakub Mensik",
-        "outcome": "Francisco Cerundolo",
-        "precio_token_entrada": 0.425,
-        "precio_actual": 0.425,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xafb5ae94e89039456f4cabf231ac0fcb379e94f35a08572d9a102c434ba1ac7a"
       }
     ],
     "historial_cerradas": [
@@ -16442,6 +16422,26 @@
         "pnl_realizado": 0.61,
         "razon_cierre": "RESOLVED_EXIT",
         "tx_hash": "0x9aa703e9bca6f1d0959f5757ee2b12e9bb978c56f52e4792d03f3e21af9e756c"
+      },
+      {
+        "fecha_entrada": "2026-10-11",
+        "fecha_entrada_dt": "2026-10-11 04:24",
+        "target_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+        "market_id": "5455113",
+        "condition_id": "0x1e5b376b81b349e454e32717a7edb35928c98ba361e1668a4c1a9d4c746747a6",
+        "token_id": "61813604196005368080707328318291814264983329128874839586905411126554840178205",
+        "pregunta": "Shanghai Rolex Masters: Francisco Cerundolo vs Jakub Mensik",
+        "outcome": "Francisco Cerundolo",
+        "precio_token_entrada": 0.425,
+        "precio_actual": 0.125,
+        "precio_cierre": 0.125,
+        "pct_cambio": -0.7059,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-11 04:35",
+        "pnl_realizado": -2.12,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0xafb5ae94e89039456f4cabf231ac0fcb379e94f35a08572d9a102c434ba1ac7a"
       }
     ]
   }

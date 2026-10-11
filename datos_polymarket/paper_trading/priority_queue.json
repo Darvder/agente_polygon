@@ -1,10 +1,34 @@
 [
   {
+    "id": "5508586",
+    "pregunta": "Dota 2: Team Spirit vs PARIVISION - Game 1 Winner",
+    "ts": "2026-10-11T04:34:58.912718",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9552db9b30e120d4ae8308108f41366b1a59dff7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5455609",
+    "pregunta": "Set Handicap: Jakub Mensik (-1.5) vs Francisco Cerundolo (+1.5)",
+    "ts": "2026-10-11T04:35:01.274296",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5430791a10e94bb25395cd0cd06b6185d4081010",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "5455113",
     "pregunta": "Shanghai Rolex Masters: Francisco Cerundolo vs Jakub Mensik",
-    "ts": "2026-10-11T04:24:45.024609",
+    "ts": "2026-10-11T04:35:02.318260",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+    "whale_wallet": "0x5430791a10e94bb25395cd0cd06b6185d4081010",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5054904",
+    "pregunta": "Sh\u014dnan Bellm\u0101re vs. Albirex Niigata: Both Teams to Score",
+    "ts": "2026-10-11T04:35:03.410881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5430791a10e94bb25395cd0cd06b6185d4081010",
     "whale_signal": "COMPRAR NO"
   }
 ]
