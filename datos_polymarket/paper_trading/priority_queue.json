@@ -1,42 +1,26 @@
 [
   {
-    "id": "5041048",
-    "pregunta": "Philadelphia Union vs. Real Salt Lake: O/U 1.5",
-    "ts": "2026-10-10T20:25:28.861689",
+    "id": "5101044",
+    "pregunta": "USC vs. Penn State",
+    "ts": "2026-10-10T20:35:23.161666",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xa315afc43cd6c3fc06774d33d769d0ff043ecabb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5036254",
-    "pregunta": "Will FC Cincinnati win on 2026-10-10?",
-    "ts": "2026-10-10T20:25:29.960152",
+    "id": "5101062",
+    "pregunta": "Spread: Penn State (-2.5)",
+    "ts": "2026-10-10T20:35:24.215390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0xa315afc43cd6c3fc06774d33d769d0ff043ecabb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5101510",
-    "pregunta": "Georgia vs. Alabama",
-    "ts": "2026-10-10T20:25:31.745443",
+    "id": "5218445",
+    "pregunta": "UFC Fight Night: Ketlen Souza vs. Loopy God\u00ednez (Women's Strawweight, Main Card)",
+    "ts": "2026-10-10T20:35:27.047941",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5101528",
-    "pregunta": "Spread: Alabama (-2.5)",
-    "ts": "2026-10-10T20:25:32.790391",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5101527",
-    "pregunta": "Spread: Alabama (-1.5)",
-    "ts": "2026-10-10T20:25:34.079791",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "whale_wallet": "0x07b31abaa54862cb4103ccf7ae7dc1f316a020fb",
     "whale_signal": "COMPRAR NO"
   }
 ]
