@@ -1,58 +1,26 @@
 [
   {
-    "id": "5064358",
-    "pregunta": "SC Freiburg vs. FC Schalke 04: O/U 3.5",
-    "ts": "2026-10-11T12:24:09.581962",
+    "id": "5522456",
+    "pregunta": "Counter-Strike: Vitality vs MOUZ - Map 3 Winner",
+    "ts": "2026-10-11T12:35:51.216619",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5062298",
-    "pregunta": "Will SC Freiburg win on 2026-10-11?",
-    "ts": "2026-10-11T12:24:10.676318",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5064544",
-    "pregunta": "US Sassuolo Calcio vs. AC Milan: O/U 0.5",
-    "ts": "2026-10-11T12:24:11.780389",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5057125",
-    "pregunta": "Will US Sassuolo Calcio vs. AC Milan end in a draw?",
-    "ts": "2026-10-11T12:24:12.876182",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5557868",
     "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 3 Winner",
-    "ts": "2026-10-11T12:24:15.907330",
+    "ts": "2026-10-11T12:35:52.269453",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbed3644bcdaab7d8bfa582bbf9ffb7ef9598fbe2",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4024667",
-    "pregunta": "Colts vs. Steelers",
-    "ts": "2026-10-11T12:24:19.208565",
+    "id": "5557870",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
+    "ts": "2026-10-11T12:35:53.312897",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5de1a37282dcd180f4547c907ed0c0b3566cabe",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5522456",
-    "pregunta": "Counter-Strike: Vitality vs MOUZ - Map 3 Winner",
-    "ts": "2026-10-11T12:24:21.394567",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb5de1a37282dcd180f4547c907ed0c0b3566cabe",
+    "whale_wallet": "0x3471a897e56a8d3621ca79af87dae4325977f17e",
     "whale_signal": "COMPRAR NO"
   }
 ]
