@@ -1,10 +1,18 @@
 [
   {
-    "id": "4061428",
-    "pregunta": "Broncos vs. Chargers: O/U 42.5",
-    "ts": "2026-10-11T09:14:08.262836",
+    "id": "5557870",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
+    "ts": "2026-10-11T09:24:36.376738",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6387cfb4719f0b1ed27a73348511b8eaad1895dc",
+    "whale_wallet": "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5557866",
+    "pregunta": "Dota 2: Team Yandex vs Team Spirit - Game 1 Winner",
+    "ts": "2026-10-11T09:24:37.527860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
     "whale_signal": "COMPRAR NO"
   }
 ]
