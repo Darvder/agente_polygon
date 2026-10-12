@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1445.83,
-  "capital_en_riesgo": 399.67,
-  "n_ciclos": 40531,
-  "ultima_corrida": "2026-10-12 11:57",
-  "n_tp": 981,
+  "capital_actual": 1495.83,
+  "capital_en_riesgo": 374.67,
+  "n_ciclos": 40532,
+  "ultima_corrida": "2026-10-12 12:05",
+  "n_tp": 982,
   "n_sl": 710,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 3.75,
-    "capital_en_riesgo": 47.12,
+    "capital_actual": 9.75,
+    "capital_en_riesgo": 44.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 463,
+    "n_tp": 464,
     "n_sl": 356,
     "posiciones_abiertas": [
       {
@@ -51,7 +51,7 @@
         "pregunta": "W15 Chisinau: Maria Valentina Pop vs Felitsata Dorofeeva-Rybas",
         "outcome": "Felitsata Dorofeeva-Rybas",
         "precio_token_entrada": 0.82,
-        "precio_actual": 0.9945,
+        "precio_actual": 0.995,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -151,7 +151,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.612,
-        "precio_actual": 0.6435,
+        "precio_actual": 0.647,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -291,7 +291,7 @@
         "pregunta": "Will the price of Bitcoin be above $82,000 on October 13?",
         "outcome": "Yes",
         "precio_token_entrada": 0.79,
-        "precio_actual": 0.715,
+        "precio_actual": 0.695,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -300,26 +300,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x79fc13fc98a732e672b3256472fe2e430976ea7f323d5b8157a909481f383cfa"
-      },
-      {
-        "fecha_entrada": "2026-10-12",
-        "fecha_entrada_dt": "2026-10-12 11:56",
-        "target_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
-        "market_id": "5455715",
-        "condition_id": "0xa789008543e9928409ed9ef3c362ebc3ce1b6fa8ef574ed8640940e7c10b12a8",
-        "token_id": "40841642833350279546437095527623913186060317602406426879085071387746204443276",
-        "pregunta": "Will Meta (META) close above $740 on October 12?",
-        "outcome": "No",
-        "precio_token_entrada": 0.205,
-        "precio_actual": 0.205,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xb757e6feba3c04a241a45edac27d3e839ceca7a9e4b40a78d7ed953cd8b3c0ef"
       }
     ],
     "historial_cerradas": [
@@ -16702,6 +16682,26 @@
         "pnl_realizado": -0.07,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x68d8cf1df286cf7daf1aaa2c250ed07d9ffbaaf9c7fd7be95ccc96d1a608aaa0"
+      },
+      {
+        "fecha_entrada": "2026-10-12",
+        "fecha_entrada_dt": "2026-10-12 11:56",
+        "target_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+        "market_id": "5455715",
+        "condition_id": "0xa789008543e9928409ed9ef3c362ebc3ce1b6fa8ef574ed8640940e7c10b12a8",
+        "token_id": "40841642833350279546437095527623913186060317602406426879085071387746204443276",
+        "pregunta": "Will Meta (META) close above $740 on October 12?",
+        "outcome": "No",
+        "precio_token_entrada": 0.205,
+        "precio_actual": 0.41,
+        "precio_cierre": 0.41,
+        "pct_cambio": 1.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-12 12:05",
+        "pnl_realizado": 3.0,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0xb757e6feba3c04a241a45edac27d3e839ceca7a9e4b40a78d7ed953cd8b3c0ef"
       }
     ]
   }
