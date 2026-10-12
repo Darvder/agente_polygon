@@ -1,26 +1,10 @@
 [
   {
-    "id": "5340071",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?",
-    "ts": "2026-10-12T06:54:55.439489",
+    "id": "5219930",
+    "pregunta": "Will Trump say \"Ammunition\" this week?",
+    "ts": "2026-10-12T07:05:26.462550",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x81ab904fce65bfbe4353cf30063273a1a0c3ba97",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5329576",
-    "pregunta": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amap\u00e1?",
-    "ts": "2026-10-12T06:54:56.483162",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x81ab904fce65bfbe4353cf30063273a1a0c3ba97",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5329677",
-    "pregunta": "Will Lula win the most votes in the second round of the Brazil presidential election from Par\u00e1?",
-    "ts": "2026-10-12T06:54:57.637245",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x81ab904fce65bfbe4353cf30063273a1a0c3ba97",
+    "whale_wallet": "0x33e27ac64a453337cfcea8345c705a407c573a1b",
     "whale_signal": "COMPRAR NO"
   }
 ]
