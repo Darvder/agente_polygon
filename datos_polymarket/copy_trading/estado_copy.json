@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1443.53,
-  "capital_en_riesgo": 401.29,
-  "n_ciclos": 40519,
-  "ultima_corrida": "2026-10-12 09:55",
+  "capital_actual": 1467.97,
+  "capital_en_riesgo": 376.29,
+  "n_ciclos": 40520,
+  "ultima_corrida": "2026-10-12 10:06",
   "n_tp": 980,
-  "n_sl": 709,
+  "n_sl": 710,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 6.79,
-    "capital_en_riesgo": 44.15,
+    "capital_actual": 9.75,
+    "capital_en_riesgo": 41.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 463,
-    "n_sl": 355,
+    "n_sl": 356,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-08",
@@ -31,7 +31,7 @@
         "pregunta": "Will Ethereum dip to $2,250 by December 31, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.535,
-        "precio_actual": 0.475,
+        "precio_actual": 0.47,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.14,
@@ -260,26 +260,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xca5e4afa374c0871bcd6e0d049b6bf2f5585547f2d1b039163665cea8c7d0bfa"
-      },
-      {
-        "fecha_entrada": "2026-10-12",
-        "fecha_entrada_dt": "2026-10-12 05:24",
-        "target_wallet": "0xee401f5405fcf646c0cc0e72758f4a9df6c23333",
-        "market_id": "3580933",
-        "condition_id": "0x910aabbfae28b3569929c31fb5461f4db13f7ddd427bdee1e696d313125838e3",
-        "token_id": "71621185653281721927174401118354054745399424014255544529977515442951477963801",
-        "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.3575,
-        "precio_actual": 0.3505,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.03,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x68d8cf1df286cf7daf1aaa2c250ed07d9ffbaaf9c7fd7be95ccc96d1a608aaa0"
       },
       {
         "fecha_entrada": "2026-10-12",
@@ -16662,6 +16642,26 @@
         "pnl_realizado": 2.08,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x33542ab757b2baf9c89bb7a5494066ec940fcc4cf12eec0160113de80f228427"
+      },
+      {
+        "fecha_entrada": "2026-10-12",
+        "fecha_entrada_dt": "2026-10-12 05:24",
+        "target_wallet": "0xee401f5405fcf646c0cc0e72758f4a9df6c23333",
+        "market_id": "3580933",
+        "condition_id": "0x910aabbfae28b3569929c31fb5461f4db13f7ddd427bdee1e696d313125838e3",
+        "token_id": "71621185653281721927174401118354054745399424014255544529977515442951477963801",
+        "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.3575,
+        "precio_actual": 0.3495,
+        "precio_cierre": 0.3495,
+        "pct_cambio": -0.0224,
+        "monto_usdc": 3.03,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-12 10:06",
+        "pnl_realizado": -0.07,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x68d8cf1df286cf7daf1aaa2c250ed07d9ffbaaf9c7fd7be95ccc96d1a608aaa0"
       }
     ]
   }
