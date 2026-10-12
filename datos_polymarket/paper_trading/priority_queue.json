@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5593518",
+    "pregunta": "Will Bitcoin dip to $83,000 on October 12?",
+    "ts": "2026-10-12T05:24:36.323060",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x308068929da7c9d04e84d9d5dc65829ec74afa4a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-10-12T05:24:38.605982",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xee401f5405fcf646c0cc0e72758f4a9df6c23333",
+    "whale_signal": "COMPRAR NO"
+  }
+]
