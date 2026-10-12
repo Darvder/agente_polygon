@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1538.29,
-  "capital_en_riesgo": 289.29,
-  "n_ciclos": 40489,
-  "ultima_corrida": "2026-10-12 04:55",
-  "n_tp": 978,
+  "capital_actual": 1562.28,
+  "capital_en_riesgo": 269.08,
+  "n_ciclos": 40490,
+  "ultima_corrida": "2026-10-12 05:05",
+  "n_tp": 979,
   "n_sl": 709,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 7.18,
-    "capital_en_riesgo": 41.12,
+    "capital_actual": 10.74,
+    "capital_en_riesgo": 38.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 461,
+    "n_tp": 462,
     "n_sl": 355,
     "posiciones_abiertas": [
       {
@@ -200,26 +200,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xe2e39b68e5f0cad286dfc043b885a6defb6e72d6ab10dd551707338ea84ec1fa"
-      },
-      {
-        "fecha_entrada": "2026-10-11",
-        "fecha_entrada_dt": "2026-10-11 23:05",
-        "target_wallet": "0xd640bffba986c2de1a512c0e25a3e37805cd480c",
-        "market_id": "4951225",
-        "condition_id": "0xc97dfdadb9df05ae810d375c22e6226d78e657c9f4a24fc2d307c39b136efbfe",
-        "token_id": "36609595209061267599064071591481832129524747878699421999162236248801945808541",
-        "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in October?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.615,
-        "precio_actual": 0.77,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xe9d76af8ceaf4a2468cd336c8bc3b7c4a4d0c54ad576756cc0656a580774250e"
       },
       {
         "fecha_entrada": "2026-10-11",
@@ -16602,6 +16582,26 @@
         "pnl_realizado": 2.26,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x239d118162e1e0af5d2f8f937103338ac520336e357cff21af75894d380b0bee"
+      },
+      {
+        "fecha_entrada": "2026-10-11",
+        "fecha_entrada_dt": "2026-10-11 23:05",
+        "target_wallet": "0xd640bffba986c2de1a512c0e25a3e37805cd480c",
+        "market_id": "4951225",
+        "condition_id": "0xc97dfdadb9df05ae810d375c22e6226d78e657c9f4a24fc2d307c39b136efbfe",
+        "token_id": "36609595209061267599064071591481832129524747878699421999162236248801945808541",
+        "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in October?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.615,
+        "precio_actual": 0.73,
+        "precio_cierre": 0.73,
+        "pct_cambio": 0.187,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-12 05:05",
+        "pnl_realizado": 0.56,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xe9d76af8ceaf4a2468cd336c8bc3b7c4a4d0c54ad576756cc0656a580774250e"
       }
     ]
   }
