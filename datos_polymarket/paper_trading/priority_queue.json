@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4936105",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in October?",
+    "ts": "2026-10-12T07:44:54.931293",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x41f3b515c133850bc03e72b3bfaa42cf0962844e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "634976",
+    "pregunta": "Will Mary Peltola win the Alaska Senate race in 2026?",
+    "ts": "2026-10-12T07:44:56.814782",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe6ed4c630dfa0380cf9add8a2c44fa34832007ea",
+    "whale_signal": "COMPRAR NO"
+  }
+]
