@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1559.82,
-  "capital_en_riesgo": 301.20000000000005,
-  "n_ciclos": 40658,
-  "ultima_corrida": "2026-10-13 09:05",
+  "capital_actual": 1577.29,
+  "capital_en_riesgo": 276.2,
+  "n_ciclos": 40659,
+  "ultima_corrida": "2026-10-13 09:15",
   "n_tp": 990,
-  "n_sl": 713,
+  "n_sl": 714,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 12.4,
-    "capital_en_riesgo": 40.43,
+    "capital_actual": 15.2,
+    "capital_en_riesgo": 36.43,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 470,
-    "n_sl": 359,
+    "n_sl": 360,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-09",
@@ -62,26 +62,6 @@
         "tx_hash": "0x2729ebd14a5c010e0bcafabeaf2da93ab43b38c36fb8b2951a78482c604c10b2"
       },
       {
-        "fecha_entrada": "2026-10-09",
-        "fecha_entrada_dt": "2026-10-09 08:44",
-        "target_wallet": "0xf6c9bf136dd67afb78942ce6f5e9ff64ef031c13",
-        "market_id": "4030774",
-        "condition_id": "0x93b6eaed362b87061c411c4c7ffef61fe0f82607e9448f89d8db96d5a93fa533",
-        "token_id": "95425983221826743771054287863310452008715413424413049232716734619606931545132",
-        "pregunta": "Skin cancer vaccine FDA approved by September 30, 2027?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.415,
-        "precio_actual": 0.325,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x5a699b64cd7a2df774ffb3f2bd78370480a9645eda0217539e3fe96c8149ad5a"
-      },
-      {
         "fecha_entrada": "2026-10-10",
         "fecha_entrada_dt": "2026-10-10 14:44",
         "target_wallet": "0x5c8311c96d2b6741ffa16aa69ddd1fc97901eceb",
@@ -91,7 +71,7 @@
         "pregunta": "Will Harry Kane win the 2026 Ballon d'Or?",
         "outcome": "Yes",
         "precio_token_entrada": 0.612,
-        "precio_actual": 0.618,
+        "precio_actual": 0.625,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -16862,6 +16842,26 @@
         "pnl_realizado": 0.66,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x2dad7c10f68923c024a075a0feb97c1f42d660ecedd38e880bedb6a407593ff7"
+      },
+      {
+        "fecha_entrada": "2026-10-09",
+        "fecha_entrada_dt": "2026-10-09 08:44",
+        "target_wallet": "0xf6c9bf136dd67afb78942ce6f5e9ff64ef031c13",
+        "market_id": "4030774",
+        "condition_id": "0x93b6eaed362b87061c411c4c7ffef61fe0f82607e9448f89d8db96d5a93fa533",
+        "token_id": "95425983221826743771054287863310452008715413424413049232716734619606931545132",
+        "pregunta": "Skin cancer vaccine FDA approved by September 30, 2027?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.415,
+        "precio_actual": 0.29,
+        "precio_cierre": 0.29,
+        "pct_cambio": -0.3012,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-13 09:15",
+        "pnl_realizado": -1.2,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x5a699b64cd7a2df774ffb3f2bd78370480a9645eda0217539e3fe96c8149ad5a"
       }
     ]
   }
