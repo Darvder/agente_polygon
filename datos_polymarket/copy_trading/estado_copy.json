@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1556.97,
-  "capital_en_riesgo": 299.98,
-  "n_ciclos": 40648,
-  "ultima_corrida": "2026-10-13 07:25",
-  "n_tp": 989,
+  "capital_actual": 1579.64,
+  "capital_en_riesgo": 281.38,
+  "n_ciclos": 40649,
+  "ultima_corrida": "2026-10-13 07:36",
+  "n_tp": 990,
   "n_sl": 713,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 11.74,
-    "capital_en_riesgo": 40.43,
+    "capital_actual": 15.4,
+    "capital_en_riesgo": 37.43,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 469,
+    "n_tp": 470,
     "n_sl": 359,
     "posiciones_abiertas": [
       {
@@ -222,26 +222,6 @@
         "tx_hash": "0x331563c165f358c4638c1622733399c898c2736df5ee7223e8e30edb05c505e1"
       },
       {
-        "fecha_entrada": "2026-10-12",
-        "fecha_entrada_dt": "2026-10-12 21:25",
-        "target_wallet": "0x9ceaa567754c75f74db89f3085e0509d60f2a932",
-        "market_id": "5223514",
-        "condition_id": "0x23de63d22aa7f3f5d2e67cc9ced9576beb24af6a18c716ec168dc0220300c037",
-        "token_id": "80537245503001976471387601591388535967981209657978603064925122396185566455857",
-        "pregunta": "Will Elon Musk post 340-359 tweets from October 6 to October 13, 2026?",
-        "outcome": "No",
-        "precio_token_entrada": 0.82,
-        "precio_actual": 0.9995,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x2dad7c10f68923c024a075a0feb97c1f42d660ecedd38e880bedb6a407593ff7"
-      },
-      {
         "fecha_entrada": "2026-10-13",
         "fecha_entrada_dt": "2026-10-13 00:15",
         "target_wallet": "0xa49becb692927d455924583b5e3e5788246f4c40",
@@ -271,7 +251,7 @@
         "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.422,
-        "precio_actual": 0.4295,
+        "precio_actual": 0.4305,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.43,
@@ -16842,6 +16822,26 @@
         "pnl_realizado": -1.72,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x4e6b949ff99c782a91e0fd8318c648a52ebc98826e1b0f3230b1267958e9344a"
+      },
+      {
+        "fecha_entrada": "2026-10-12",
+        "fecha_entrada_dt": "2026-10-12 21:25",
+        "target_wallet": "0x9ceaa567754c75f74db89f3085e0509d60f2a932",
+        "market_id": "5223514",
+        "condition_id": "0x23de63d22aa7f3f5d2e67cc9ced9576beb24af6a18c716ec168dc0220300c037",
+        "token_id": "80537245503001976471387601591388535967981209657978603064925122396185566455857",
+        "pregunta": "Will Elon Musk post 340-359 tweets from October 6 to October 13, 2026?",
+        "outcome": "No",
+        "precio_token_entrada": 0.82,
+        "precio_actual": 0.9995,
+        "precio_cierre": 0.9995,
+        "pct_cambio": 0.2189,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-13 07:36",
+        "pnl_realizado": 0.66,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x2dad7c10f68923c024a075a0feb97c1f42d660ecedd38e880bedb6a407593ff7"
       }
     ]
   }
