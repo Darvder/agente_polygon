@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5595857",
+    "pregunta": "Will the highest temperature in Madrid be 28\u00b0C on October 14?",
+    "ts": "2026-10-13T13:35:12.662749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9f6a4549f14154a7f2c74d03efd8de903a61eb61",
+    "whale_signal": "COMPRAR NO"
+  }
+]
