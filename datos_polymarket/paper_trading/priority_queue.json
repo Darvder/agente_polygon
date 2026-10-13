@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5595782",
+    "pregunta": "Will the highest temperature in Tel Aviv be 31\u00b0C on October 14?",
+    "ts": "2026-10-13T08:14:05.822643",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5bae7577f470244ce8e678d20693eee2b8ffed25",
+    "whale_signal": "COMPRAR NO"
+  }
+]
