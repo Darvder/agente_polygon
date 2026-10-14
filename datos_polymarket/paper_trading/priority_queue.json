@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5170787",
+    "pregunta": "Will Ethereum dip to $2,400 in October?",
+    "ts": "2026-10-14T08:05:07.690733",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4397022",
+    "pregunta": "Will Gen.G win Worlds 2026?",
+    "ts": "2026-10-14T08:05:08.751554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-10-14T08:05:09.814618",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2589813",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+    "ts": "2026-10-14T08:05:10.883940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2589812",
+    "pregunta": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+    "ts": "2026-10-14T08:05:11.963992",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x00cb3eedc099e8c59b957beceb55205669e7e987",
+    "whale_signal": "COMPRAR NO"
+  }
+]
