@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1410.08,
-  "capital_en_riesgo": 448.77000000000004,
-  "n_ciclos": 40774,
-  "ultima_corrida": "2026-10-14 04:36",
-  "n_tp": 995,
+  "capital_actual": 1427.61,
+  "capital_en_riesgo": 431.71,
+  "n_ciclos": 40775,
+  "ultima_corrida": "2026-10-14 04:45",
+  "n_tp": 996,
   "n_sl": 715,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 1.03,
-    "capital_en_riesgo": 51.47,
+    "capital_actual": 4.11,
+    "capital_en_riesgo": 48.47,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 474,
+    "n_tp": 475,
     "n_sl": 361,
     "posiciones_abiertas": [
       {
@@ -171,7 +171,7 @@
         "pregunta": "Next Fable Model (5.2+) released by October 31, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.7085,
-        "precio_actual": 0.907,
+        "precio_actual": 0.893,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -240,26 +240,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x4f5a03a2117dd4ccd53fd7f9576af055e58eff01104965ae1d2b954a8df87aae"
-      },
-      {
-        "fecha_entrada": "2026-10-13",
-        "fecha_entrada_dt": "2026-10-13 12:46",
-        "target_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
-        "market_id": "4935867",
-        "condition_id": "0x9a1c68459ef81bec0050d82b24f4b42a4b596a16d040690c0ced5ec690c4769f",
-        "token_id": "8683772199103540699716528873759311380099527629780837544467613567187153209200",
-        "pregunta": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $186 in October?",
-        "outcome": "No",
-        "precio_token_entrada": 0.6315,
-        "precio_actual": 0.7195,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x75dff9ad39386e4cfe550a8489186b5a81d276a646d5d023522fe6e9d06288a7"
       },
       {
         "fecha_entrada": "2026-10-13",
@@ -17062,6 +17042,26 @@
         "pnl_realizado": 0.66,
         "razon_cierre": "RESOLVED_EXIT",
         "tx_hash": "0x32d90976e484872af7793cb186362c64f92ece9bfdfbf4fa9b42e02ec69d95d7"
+      },
+      {
+        "fecha_entrada": "2026-10-13",
+        "fecha_entrada_dt": "2026-10-13 12:46",
+        "target_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+        "market_id": "4935867",
+        "condition_id": "0x9a1c68459ef81bec0050d82b24f4b42a4b596a16d040690c0ced5ec690c4769f",
+        "token_id": "8683772199103540699716528873759311380099527629780837544467613567187153209200",
+        "pregunta": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $186 in October?",
+        "outcome": "No",
+        "precio_token_entrada": 0.6315,
+        "precio_actual": 0.649,
+        "precio_cierre": 0.649,
+        "pct_cambio": 0.0277,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-14 04:45",
+        "pnl_realizado": 0.08,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x75dff9ad39386e4cfe550a8489186b5a81d276a646d5d023522fe6e9d06288a7"
       }
     ]
   }
