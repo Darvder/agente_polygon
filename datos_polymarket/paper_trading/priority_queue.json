@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "3660165",
+    "pregunta": "Will Vicentinho J\u00fanior win the 2026 Tocantins gubernatorial election?",
+    "ts": "2026-10-14T17:53:40.103975",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3660163",
+    "pregunta": "Will Professora Dorinha win the 2026 Tocantins gubernatorial election?",
+    "ts": "2026-10-14T17:53:41.213882",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-14T17:53:42.285331",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
