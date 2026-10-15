@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "630964",
+    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
+    "ts": "2026-10-15T06:17:03.502351",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3eae62bde2d83aba0fe84018921b2693ec645e6d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5339986",
+    "pregunta": "Israel x Iran ceasefire continues through November 15?",
+    "ts": "2026-10-15T06:17:05.558418",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde9ff487fae209ab6e3157a8acb4276f9c783d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5402418",
+    "pregunta": "Muse Charm released by December 31, 2026?",
+    "ts": "2026-10-15T06:17:06.655289",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde9ff487fae209ab6e3157a8acb4276f9c783d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5700129",
+    "pregunta": "Will the Tesla Roadster fly for 1s+?",
+    "ts": "2026-10-15T06:17:07.744360",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefde9ff487fae209ab6e3157a8acb4276f9c783d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
