@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1105742",
+    "pregunta": "Will Delcy Rodr\u00edguez be the leader of Venezuela end of 2026?",
+    "ts": "2026-10-15T10:45:59.371216",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ddfa4d5b954379a03d19f87df36b9820b862c83",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-15T10:46:03.608574",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ddfa4d5b954379a03d19f87df36b9820b862c83",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "601819",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-15T10:46:04.656095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ddfa4d5b954379a03d19f87df36b9820b862c83",
+    "whale_signal": "COMPRAR NO"
+  }
+]
