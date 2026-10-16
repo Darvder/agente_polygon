@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5170735",
+    "pregunta": "Will Bitcoin reach $87,500 in October?",
+    "ts": "2026-10-16T05:36:06.593573",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5459795",
+    "pregunta": "Will the price of Bitcoin be above $82,000 on October 16?",
+    "ts": "2026-10-16T05:36:07.685740",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5407561",
+    "pregunta": "Will Bitcoin reach $85,000 in October?",
+    "ts": "2026-10-16T05:36:08.776728",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
