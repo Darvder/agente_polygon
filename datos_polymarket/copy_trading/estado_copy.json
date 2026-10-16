@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1473.03,
-  "capital_en_riesgo": 431.94,
-  "n_ciclos": 41053,
-  "ultima_corrida": "2026-10-16 03:07",
-  "n_tp": 1007,
+  "capital_actual": 1490.17,
+  "capital_en_riesgo": 417.45,
+  "n_ciclos": 41054,
+  "ultima_corrida": "2026-10-16 03:15",
+  "n_tp": 1008,
   "n_sl": 721,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 1.43,
-    "capital_en_riesgo": 54.0,
+    "capital_actual": 4.98,
+    "capital_en_riesgo": 51.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 485,
+    "n_tp": 486,
     "n_sl": 366,
     "posiciones_abiertas": [
       {
@@ -51,7 +51,7 @@
         "pregunta": "Will Indiana enact a data center moratorium by December 31, 2028?",
         "outcome": "No",
         "precio_token_entrada": 0.725,
-        "precio_actual": 0.72,
+        "precio_actual": 0.725,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -300,26 +300,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x809adab4436a28c53577a0df7ba6db9ce048d367c8190c7705b7dccf2043fae2"
-      },
-      {
-        "fecha_entrada": "2026-10-15",
-        "fecha_entrada_dt": "2026-10-15 05:25",
-        "target_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
-        "market_id": "5646771",
-        "condition_id": "0x443ada57d3d51ce71a90610a2a416d18121c74466394d8ab6af15598d7cef24a",
-        "token_id": "48396889162950095154598932253263234834841707533958661244391294745631838368002",
-        "pregunta": "Will the highest temperature in Los Angeles be between 84-85\u00b0F on Octo",
-        "outcome": "No",
-        "precio_token_entrada": 0.845,
-        "precio_actual": 0.9995,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x7dfdaf77fe23e1248195ac3a769f5f3fb0ae2eb0a0bd2686eefa445ee25cc6ff"
       },
       {
         "fecha_entrada": "2026-10-15",
@@ -17402,6 +17382,26 @@
         "pnl_realizado": 1.86,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x40cbdb95f50d61ca44228feaa12755e6c82c1861fd94c84029ab3726ebeb5cac"
+      },
+      {
+        "fecha_entrada": "2026-10-15",
+        "fecha_entrada_dt": "2026-10-15 05:25",
+        "target_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
+        "market_id": "5646771",
+        "condition_id": "0x443ada57d3d51ce71a90610a2a416d18121c74466394d8ab6af15598d7cef24a",
+        "token_id": "48396889162950095154598932253263234834841707533958661244391294745631838368002",
+        "pregunta": "Will the highest temperature in Los Angeles be between 84-85\u00b0F on Octo",
+        "outcome": "No",
+        "precio_token_entrada": 0.845,
+        "precio_actual": 0.9995,
+        "precio_cierre": 0.9995,
+        "pct_cambio": 0.1828,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-16 03:15",
+        "pnl_realizado": 0.55,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x7dfdaf77fe23e1248195ac3a769f5f3fb0ae2eb0a0bd2686eefa445ee25cc6ff"
       }
     ]
   }
