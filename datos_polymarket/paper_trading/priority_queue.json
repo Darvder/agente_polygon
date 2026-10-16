@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2127309",
+    "pregunta": "Will Javier Milei win the 2027 Argentina presidential election?",
+    "ts": "2026-10-15T19:17:22.306475",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5e9ffe7473eba7fa54ff7ec5032f70310b3991db",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-15T19:17:23.383625",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5e9ffe7473eba7fa54ff7ec5032f70310b3991db",
+    "whale_signal": "COMPRAR NO"
+  }
+]
