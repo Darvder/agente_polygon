@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5679113",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on October 16?",
+    "ts": "2026-10-16T02:36:44.630495",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2a0547c20e75f8b2b84bdbe3443a3836534a786",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5678908",
+    "pregunta": "Will the highest temperature in Tokyo be 25\u00b0C on October 16?",
+    "ts": "2026-10-16T02:36:45.694653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc2a0547c20e75f8b2b84bdbe3443a3836534a786",
+    "whale_signal": "COMPRAR NO"
+  }
+]
