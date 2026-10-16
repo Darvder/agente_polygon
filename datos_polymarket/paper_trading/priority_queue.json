@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5447182",
+    "pregunta": "US-Iran ceasefire continues through the midterms?",
+    "ts": "2026-10-16T17:25:01.794509",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3399459",
+    "pregunta": "Israel x Iran ceasefire continues through October 31?",
+    "ts": "2026-10-16T17:25:03.946562",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  }
+]
