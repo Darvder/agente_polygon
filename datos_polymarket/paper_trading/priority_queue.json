@@ -1,18 +1,10 @@
 [
   {
-    "id": "2127309",
-    "pregunta": "Will Javier Milei win the 2027 Argentina presidential election?",
-    "ts": "2026-10-15T19:17:22.306475",
+    "id": "5646757",
+    "pregunta": "Will the highest temperature in Seattle be between 66-67\u00b0F on October 15?",
+    "ts": "2026-10-15T19:26:27.796405",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5e9ffe7473eba7fa54ff7ec5032f70310b3991db",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-15T19:17:23.383625",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5e9ffe7473eba7fa54ff7ec5032f70310b3991db",
+    "whale_wallet": "0xf84d10bcae66a69c39ee2292c6898aa107b25e65",
     "whale_signal": "COMPRAR NO"
   }
 ]
