@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5684938",
+    "pregunta": "Spain General Election: PP + Vox get 50%+ of Vote?",
+    "ts": "2026-10-15T23:54:54.230943",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ff7455790cd4a08ce14eb5887e6b12279e0f7f0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5163128",
+    "pregunta": "Will Iran target Oman by November 30, 2026?",
+    "ts": "2026-10-15T23:54:55.280139",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ff7455790cd4a08ce14eb5887e6b12279e0f7f0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
