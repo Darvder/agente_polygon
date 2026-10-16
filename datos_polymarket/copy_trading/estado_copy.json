@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1483.9,
-  "capital_en_riesgo": 421.33,
-  "n_ciclos": 41016,
-  "ultima_corrida": "2026-10-15 20:56",
+  "capital_actual": 1486.18,
+  "capital_en_riesgo": 402.76,
+  "n_ciclos": 41017,
+  "ultima_corrida": "2026-10-15 21:05",
   "n_tp": 1005,
-  "n_sl": 720,
+  "n_sl": 721,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 2.12,
-    "capital_en_riesgo": 54.0,
+    "capital_actual": 2.49,
+    "capital_en_riesgo": 51.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 483,
-    "n_sl": 365,
+    "n_sl": 366,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-12",
@@ -91,7 +91,7 @@
         "pregunta": "Next Fable Model (5.2+) released by October 31, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.7085,
-        "precio_actual": 0.8595,
+        "precio_actual": 0.8655,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -291,7 +291,7 @@
         "pregunta": "Will Professora Dorinha win the 2026 Tocantins gubernatorial election?",
         "outcome": "No",
         "precio_token_entrada": 0.82,
-        "precio_actual": 0.86,
+        "precio_actual": 0.865,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -311,7 +311,7 @@
         "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.849,
-        "precio_actual": 0.79,
+        "precio_actual": 0.7905,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x7dfdaf77fe23e1248195ac3a769f5f3fb0ae2eb0a0bd2686eefa445ee25cc6ff"
-      },
-      {
-        "fecha_entrada": "2026-10-15",
-        "fecha_entrada_dt": "2026-10-15 05:25",
-        "target_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
-        "market_id": "5648231",
-        "condition_id": "0x3d7d088c4ef50fcd9a0fc903edf320c0c954b73f18ee884995cc4530c201dceb",
-        "token_id": "99854415118476799457200718554055964641535674578416731833986699731041652291307",
-        "pregunta": "Will the highest temperature in Toronto be 12\u00b0C on October 15?",
-        "outcome": "No",
-        "precio_token_entrada": 0.61,
-        "precio_actual": 0.66,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xd43aa6abee3e26e099f8ce08cc47d938495a80d2b22268fe85a7081ac2e1268e"
       }
     ],
     "historial_cerradas": [
@@ -17342,6 +17322,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x4171c484d2cc6ec3a5d0baed8fb7196fe8dca39915f9cb2034721715bf6f9825"
+      },
+      {
+        "fecha_entrada": "2026-10-15",
+        "fecha_entrada_dt": "2026-10-15 05:25",
+        "target_wallet": "0x9506e646497107cabf2d5b941a8e6a60d0db1c4f",
+        "market_id": "5648231",
+        "condition_id": "0x3d7d088c4ef50fcd9a0fc903edf320c0c954b73f18ee884995cc4530c201dceb",
+        "token_id": "99854415118476799457200718554055964641535674578416731833986699731041652291307",
+        "pregunta": "Will the highest temperature in Toronto be 12\u00b0C on October 15?",
+        "outcome": "No",
+        "precio_token_entrada": 0.61,
+        "precio_actual": 0.075,
+        "precio_cierre": 0.075,
+        "pct_cambio": -0.877,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-15 21:05",
+        "pnl_realizado": -2.63,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0xd43aa6abee3e26e099f8ce08cc47d938495a80d2b22268fe85a7081ac2e1268e"
       }
     ]
   }
