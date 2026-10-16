@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1501.45,
-  "capital_en_riesgo": 419.28000000000003,
-  "n_ciclos": 41083,
-  "ultima_corrida": "2026-10-16 08:15",
+  "capital_actual": 1525.75,
+  "capital_en_riesgo": 394.28,
+  "n_ciclos": 41084,
+  "ultima_corrida": "2026-10-16 08:26",
   "n_tp": 1010,
-  "n_sl": 722,
+  "n_sl": 723,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 6.47,
-    "capital_en_riesgo": 51.36,
+    "capital_actual": 9.74,
+    "capital_en_riesgo": 48.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 488,
-    "n_sl": 367,
+    "n_sl": 368,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-12",
@@ -211,7 +211,7 @@
         "pregunta": "Will Vicentinho J\u00fanior win the 2026 Tocantins gubernatorial election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.79,
-        "precio_actual": 0.81,
+        "precio_actual": 0.815,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x37793505590f37466b49402083bf629f536e2b91030227474024d1b8fd2fd30e"
-      },
-      {
-        "fecha_entrada": "2026-10-16",
-        "fecha_entrada_dt": "2026-10-16 05:36",
-        "target_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-        "market_id": "5170735",
-        "condition_id": "0x42dc04e485b5d8ec749326fe564820ee37a1c63425f43d7b0755a016afd5c4cb",
-        "token_id": "60853708478456543766262549859214991255573301006704578370875039498477095018713",
-        "pregunta": "Will Bitcoin reach $87,500 in October?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.355,
-        "precio_actual": 0.355,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.36,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x0eb58eef5425294f59fa666a561c38ad2e6959874bc31757303cbf14bc21f467"
       },
       {
         "fecha_entrada": "2026-10-16",
@@ -17462,6 +17442,26 @@
         "pnl_realizado": 1.9,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x6baf359809db01b0433a4bad93c9c2fd8b5be11ed4f3ee2bde278fa0d207dcd6"
+      },
+      {
+        "fecha_entrada": "2026-10-16",
+        "fecha_entrada_dt": "2026-10-16 05:36",
+        "target_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+        "market_id": "5170735",
+        "condition_id": "0x42dc04e485b5d8ec749326fe564820ee37a1c63425f43d7b0755a016afd5c4cb",
+        "token_id": "60853708478456543766262549859214991255573301006704578370875039498477095018713",
+        "pregunta": "Will Bitcoin reach $87,500 in October?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.355,
+        "precio_actual": 0.345,
+        "precio_cierre": 0.345,
+        "pct_cambio": -0.0282,
+        "monto_usdc": 3.36,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-16 08:26",
+        "pnl_realizado": -0.09,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x0eb58eef5425294f59fa666a561c38ad2e6959874bc31757303cbf14bc21f467"
       }
     ]
   }
