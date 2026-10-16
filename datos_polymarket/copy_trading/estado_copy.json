@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1486.18,
-  "capital_en_riesgo": 402.76,
-  "n_ciclos": 41017,
-  "ultima_corrida": "2026-10-15 21:05",
-  "n_tp": 1005,
+  "capital_actual": 1505.34,
+  "capital_en_riesgo": 384.1,
+  "n_ciclos": 41018,
+  "ultima_corrida": "2026-10-15 21:16",
+  "n_tp": 1006,
   "n_sl": 721,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 2.49,
-    "capital_en_riesgo": 51.0,
+    "capital_actual": 5.57,
+    "capital_en_riesgo": 48.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 483,
+    "n_tp": 484,
     "n_sl": 366,
     "posiciones_abiertas": [
       {
@@ -220,26 +220,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x40cbdb95f50d61ca44228feaa12755e6c82c1861fd94c84029ab3726ebeb5cac"
-      },
-      {
-        "fecha_entrada": "2026-10-14",
-        "fecha_entrada_dt": "2026-10-14 08:35",
-        "target_wallet": "0x92318178c4b81150570b7f780183048631d82212",
-        "market_id": "701496",
-        "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
-        "token_id": "11291662904897713174667903388388696640643610556195928998276904135282270136756",
-        "pregunta": "Will Bitcoin reach $100,000 by December 31, 2026?",
-        "outcome": "No",
-        "precio_token_entrada": 0.745,
-        "precio_actual": 0.765,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x041a197ecdc010623ff21de0a8706a91d19b6ea532ac27d34fa9f1a6d08c5a08"
       },
       {
         "fecha_entrada": "2026-10-14",
@@ -17342,6 +17322,26 @@
         "pnl_realizado": -2.63,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xd43aa6abee3e26e099f8ce08cc47d938495a80d2b22268fe85a7081ac2e1268e"
+      },
+      {
+        "fecha_entrada": "2026-10-14",
+        "fecha_entrada_dt": "2026-10-14 08:35",
+        "target_wallet": "0x92318178c4b81150570b7f780183048631d82212",
+        "market_id": "701496",
+        "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+        "token_id": "11291662904897713174667903388388696640643610556195928998276904135282270136756",
+        "pregunta": "Will Bitcoin reach $100,000 by December 31, 2026?",
+        "outcome": "No",
+        "precio_token_entrada": 0.745,
+        "precio_actual": 0.765,
+        "precio_cierre": 0.765,
+        "pct_cambio": 0.0268,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-15 21:15",
+        "pnl_realizado": 0.08,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x041a197ecdc010623ff21de0a8706a91d19b6ea532ac27d34fa9f1a6d08c5a08"
       }
     ]
   }
