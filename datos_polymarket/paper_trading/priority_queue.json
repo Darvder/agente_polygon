@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "630964",
+    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
+    "ts": "2026-10-17T08:34:20.762808",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1c72797cd4b9b83f42e287144e334c4de347dfb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630773",
+    "pregunta": "Will the Republicans win the Maine Senate race in 2026?",
+    "ts": "2026-10-17T08:34:21.818606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1c72797cd4b9b83f42e287144e334c4de347dfb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1811265",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
+    "ts": "2026-10-17T08:34:22.894781",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1c72797cd4b9b83f42e287144e334c4de347dfb6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562828",
+    "pregunta": "2026 Balance of Power: D Senate, D House",
+    "ts": "2026-10-17T08:34:23.943951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1c72797cd4b9b83f42e287144e334c4de347dfb6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
