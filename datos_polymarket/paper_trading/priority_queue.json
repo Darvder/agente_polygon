@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5190747",
+    "pregunta": "US x Iran ceasefire continues through November 15?",
+    "ts": "2026-10-17T07:36:01.842404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7ac4104bbdd9c330478341f16c44acd7961bc7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5686980",
+    "pregunta": "US x Iran ceasefire continues through November 8?",
+    "ts": "2026-10-17T07:36:03.012219",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7ac4104bbdd9c330478341f16c44acd7961bc7d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "567688",
+    "pregunta": "Netanyahu out by end of 2026?",
+    "ts": "2026-10-17T07:36:04.954098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe82674763388f0ad41b3db4e0f554d9994b16f1f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
