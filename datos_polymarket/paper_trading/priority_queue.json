@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5851293",
+    "pregunta": "Will Bitcoin dip to $80,000 on October 18?",
+    "ts": "2026-10-18T17:06:41.115787",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x308068929da7c9d04e84d9d5dc65829ec74afa4a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
