@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5767159",
+    "pregunta": "Will the highest temperature in Cape Town be 19\u00b0C or higher on October 18?",
+    "ts": "2026-10-18T18:56:15.440578",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x73e35ce0b7e36ef3ce29ebd12b30b28007383239",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5765916",
+    "pregunta": "Talarico Texas Senate odds hit 70% by November 2?",
+    "ts": "2026-10-18T18:56:16.631691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x73e35ce0b7e36ef3ce29ebd12b30b28007383239",
+    "whale_signal": "COMPRAR NO"
+  }
+]
