@@ -1,10 +1,18 @@
 [
   {
-    "id": "630805",
-    "pregunta": "Will the Democrats win the Michigan Senate race in 2026?",
-    "ts": "2026-10-18T03:24:59.292043",
+    "id": "562794",
+    "pregunta": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+    "ts": "2026-10-18T03:35:03.163489",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa4e87ea652a4b216d3f1bc0c71b8e6a1ee15c630",
+    "whale_wallet": "0x508212fa8e10afce25025422161c15c68b8b049d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1283288",
+    "pregunta": "Will the Republican Party win the IA-02 House seat?",
+    "ts": "2026-10-18T03:35:04.256991",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x508212fa8e10afce25025422161c15c68b8b049d",
     "whale_signal": "COMPRAR NO"
   }
 ]
