@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3862800",
+    "pregunta": "Will Russia capture Dobropillia by December 31, 2026?",
+    "ts": "2026-10-18T11:36:14.388626",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9328e28eeb44978dbac9debb61ebc92931be6a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2232192",
+    "pregunta": "Will Russia enter Druzkhivka by December 31, 2026?",
+    "ts": "2026-10-18T11:36:15.493699",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9328e28eeb44978dbac9debb61ebc92931be6a5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
