@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5732710",
+    "pregunta": "Will \"Grand Theft Auto VI Launch Trailer\" get between 60 and 80 million views on week 1?",
+    "ts": "2026-10-18T15:55:34.336195",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25257a6a89dba93dd0c536b6279365632a4eb919",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5732709",
+    "pregunta": "Will \"Grand Theft Auto VI Launch Trailer\" get between 40 and 60 million views on week 1?",
+    "ts": "2026-10-18T15:55:35.407486",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25257a6a89dba93dd0c536b6279365632a4eb919",
+    "whale_signal": "COMPRAR NO"
+  }
+]
