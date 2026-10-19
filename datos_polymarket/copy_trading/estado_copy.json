@@ -2,15 +2,15 @@
   "capital_inicial": 1000.0,
   "capital_actual": 1503.5,
   "capital_en_riesgo": 435.17,
-  "n_ciclos": 41535,
-  "ultima_corrida": "2026-10-19 11:36",
+  "n_ciclos": 41536,
+  "ultima_corrida": "2026-10-19 11:46",
   "n_tp": 1028,
   "n_sl": 731,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 1.23,
-    "capital_en_riesgo": 55.19,
+    "capital_actual": 4.09,
+    "capital_en_riesgo": 52.19,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 501,
-    "n_sl": 378,
+    "n_sl": 379,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-13",
@@ -111,7 +111,7 @@
         "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.849,
-        "precio_actual": 0.7575,
+        "precio_actual": 0.7645,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x0b3d56b48a52e2f4d1177365639e3e80739d1849fcd06975a18acfbde06014be"
-      },
-      {
-        "fecha_entrada": "2026-10-19",
-        "fecha_entrada_dt": "2026-10-19 11:35",
-        "target_wallet": "0x6114ab1b41a31643998b1cfe021ec6562a48cff0",
-        "market_id": "5686979",
-        "condition_id": "0x04fb634139d4654febf4b62c425b209806e06d9eff93ac2e7c5301ecdaf5e4ca",
-        "token_id": "11703355753646866721510451780813586747644200170798817311988936815535980370261",
-        "pregunta": "US x Iran ceasefire continues through October 22?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.7815,
-        "precio_actual": 0.7815,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x3be0f0866816b861e0c01ac95fed1b87f1dc5629060450139de4ba1368ae33af"
       }
     ],
     "historial_cerradas": [
@@ -17962,6 +17942,26 @@
         "pnl_realizado": -1.92,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x3570dfb2b8216cc286023bc473daf87cb0a75cf84b3e1c31c4eb65a151ac546e"
+      },
+      {
+        "fecha_entrada": "2026-10-19",
+        "fecha_entrada_dt": "2026-10-19 11:35",
+        "target_wallet": "0x6114ab1b41a31643998b1cfe021ec6562a48cff0",
+        "market_id": "5686979",
+        "condition_id": "0x04fb634139d4654febf4b62c425b209806e06d9eff93ac2e7c5301ecdaf5e4ca",
+        "token_id": "11703355753646866721510451780813586747644200170798817311988936815535980370261",
+        "pregunta": "US x Iran ceasefire continues through October 22?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.7815,
+        "precio_actual": 0.746,
+        "precio_cierre": 0.746,
+        "pct_cambio": -0.0454,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-19 11:46",
+        "pnl_realizado": -0.14,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x3be0f0866816b861e0c01ac95fed1b87f1dc5629060450139de4ba1368ae33af"
       }
     ]
   }
