@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1512.28,
-  "capital_en_riesgo": 418.55,
-  "n_ciclos": 41489,
-  "ultima_corrida": "2026-10-19 03:55",
-  "n_tp": 1022,
+  "capital_actual": 1587.28,
+  "capital_en_riesgo": 343.55,
+  "n_ciclos": 41490,
+  "ultima_corrida": "2026-10-19 04:06",
+  "n_tp": 1025,
   "n_sl": 730,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 2.48,
-    "capital_en_riesgo": 55.69,
+    "capital_actual": 5.98,
+    "capital_en_riesgo": 52.19,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 498,
+    "n_tp": 499,
     "n_sl": 377,
     "posiciones_abiertas": [
       {
@@ -271,7 +271,7 @@
         "pregunta": "Next Fable Model (5.2+) released by October 24, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.745,
-        "precio_actual": 0.77,
+        "precio_actual": 0.755,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x20d6a9b51d2cca969984b10c87c238a15bfc2e4213651c1fddb9b60f11d2a2f7"
-      },
-      {
-        "fecha_entrada": "2026-10-19",
-        "fecha_entrada_dt": "2026-10-19 03:35",
-        "target_wallet": "0x6e4b248bb4b24a675d075665e8de0a95a3b4b97a",
-        "market_id": "3212531",
-        "condition_id": "0x86998659aaf92acf979a93ffa20cbba3e1deb773ae675100c7505a2ecf56cdfa",
-        "token_id": "13300136913477308084321877933195623368729073723713575337172312099490494185871",
-        "pregunta": "Will Mark Rutte visit Ukraine by December 31, 2026?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.35,
-        "precio_actual": 0.35,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.5,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x8be1517f72c326e7c835023975bfba3244e44a543d31e334159e1a5b600ed48a"
       }
     ],
     "historial_cerradas": [
@@ -17882,6 +17862,26 @@
         "pnl_realizado": -0.12,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x97930e4e153e1183309d161037da28423f7696b8916e80406687b13a0858317b"
+      },
+      {
+        "fecha_entrada": "2026-10-19",
+        "fecha_entrada_dt": "2026-10-19 03:35",
+        "target_wallet": "0x6e4b248bb4b24a675d075665e8de0a95a3b4b97a",
+        "market_id": "3212531",
+        "condition_id": "0x86998659aaf92acf979a93ffa20cbba3e1deb773ae675100c7505a2ecf56cdfa",
+        "token_id": "13300136913477308084321877933195623368729073723713575337172312099490494185871",
+        "pregunta": "Will Mark Rutte visit Ukraine by December 31, 2026?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.35,
+        "precio_actual": 0.35,
+        "precio_cierre": 0.35,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.5,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-19 04:06",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x8be1517f72c326e7c835023975bfba3244e44a543d31e334159e1a5b600ed48a"
       }
     ]
   }
