@@ -1,18 +1,1 @@
-[
-  {
-    "id": "5889110",
-    "pregunta": "Will the price of Bitcoin be above $80,000 on October 25?",
-    "ts": "2026-10-18T19:27:01.724117",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5823055",
-    "pregunta": "Will the price of Solana be between $90 and $100 on October 24?",
-    "ts": "2026-10-18T19:27:02.778339",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
