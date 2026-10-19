@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5340071",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?",
+    "ts": "2026-10-19T13:55:37.222117",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc7285a98c485b4350ce50fa0b67f067693de3e5b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562828",
+    "pregunta": "2026 Balance of Power: D Senate, D House",
+    "ts": "2026-10-19T13:55:38.271371",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc7285a98c485b4350ce50fa0b67f067693de3e5b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
