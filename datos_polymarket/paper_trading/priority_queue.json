@@ -1,10 +1,26 @@
 [
   {
-    "id": "4936103",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in October?",
-    "ts": "2026-10-19T07:35:52.064730",
+    "id": "5847928",
+    "pregunta": "Paris curfew by October 24?",
+    "ts": "2026-10-19T07:44:14.504380",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd362985f6e881c0bd8310fb85cc40be7a0089684",
+    "whale_wallet": "0x92d0cb81e6c891b835c8e0272e8c323095bd269e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5847927",
+    "pregunta": "Paris curfew by October 21?",
+    "ts": "2026-10-19T07:44:15.575781",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92d0cb81e6c891b835c8e0272e8c323095bd269e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5847926",
+    "pregunta": "Paris curfew by October 19?",
+    "ts": "2026-10-19T07:44:16.640319",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92d0cb81e6c891b835c8e0272e8c323095bd269e",
     "whale_signal": "COMPRAR NO"
   }
 ]
