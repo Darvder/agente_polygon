@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5329576",
+    "pregunta": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amap\u00e1?",
+    "ts": "2026-10-20T18:56:25.892131",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf44076b9299b390a1f4bd5979d926ce989aeb009",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629558",
+    "pregunta": "Will the Republicans win the Ohio governor race in 2026?",
+    "ts": "2026-10-20T18:56:27.005965",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf44076b9299b390a1f4bd5979d926ce989aeb009",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629505",
+    "pregunta": "Will the Democrats win the Nevada governor race in 2026?",
+    "ts": "2026-10-20T18:56:28.145898",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf44076b9299b390a1f4bd5979d926ce989aeb009",
+    "whale_signal": "COMPRAR NO"
+  }
+]
