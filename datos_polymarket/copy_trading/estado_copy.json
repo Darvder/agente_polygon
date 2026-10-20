@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1576.07,
-  "capital_en_riesgo": 342.6,
-  "n_ciclos": 41716,
-  "ultima_corrida": "2026-10-20 17:55",
+  "capital_actual": 1598.74,
+  "capital_en_riesgo": 317.6,
+  "n_ciclos": 41717,
+  "ultima_corrida": "2026-10-20 18:05",
   "n_tp": 1037,
-  "n_sl": 741,
+  "n_sl": 742,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 21.2,
-    "capital_en_riesgo": 34.12,
+    "capital_actual": 23.92,
+    "capital_en_riesgo": 31.12,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 512,
-    "n_sl": 389,
+    "n_sl": 390,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-16",
@@ -171,7 +171,7 @@
         "pregunta": "Will the Democrats win the Texas governor race in 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.245,
-        "precio_actual": 0.295,
+        "precio_actual": 0.28,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.02,
@@ -191,7 +191,7 @@
         "pregunta": "Next Fable Model (5.2+) released by October 31, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.8315,
-        "precio_actual": 0.8205,
+        "precio_actual": 0.823,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -220,26 +220,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xa7a2421c66be425a3a11980343daf5f312b5d3e6933246689afdac122f1dcbb3"
-      },
-      {
-        "fecha_entrada": "2026-10-20",
-        "fecha_entrada_dt": "2026-10-20 15:24",
-        "target_wallet": "0x160df84695ed42f620a1b2fa4cb69a5f69986f25",
-        "market_id": "601819",
-        "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
-        "token_id": "30630994248667897740988010928640156931882346081873066002335460180076741328029",
-        "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential ele",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.215,
-        "precio_actual": 0.195,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xc8dde75225c14708644df5388aceb81f3a1231487aa18c90200120c3db9f1592"
       }
     ],
     "historial_cerradas": [
@@ -18262,6 +18242,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xe29ff9694dfc617cdf83156e7bbc8f3eab6c8a841264df1ffca3177c0078c2da"
+      },
+      {
+        "fecha_entrada": "2026-10-20",
+        "fecha_entrada_dt": "2026-10-20 15:24",
+        "target_wallet": "0x160df84695ed42f620a1b2fa4cb69a5f69986f25",
+        "market_id": "601819",
+        "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+        "token_id": "30630994248667897740988010928640156931882346081873066002335460180076741328029",
+        "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential ele",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.215,
+        "precio_actual": 0.195,
+        "precio_cierre": 0.195,
+        "pct_cambio": -0.093,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-20 18:05",
+        "pnl_realizado": -0.28,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xc8dde75225c14708644df5388aceb81f3a1231487aa18c90200120c3db9f1592"
       }
     ]
   }
