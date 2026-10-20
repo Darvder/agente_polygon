@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "630747",
+    "pregunta": "Will the Republicans win the Kansas Senate race in 2026?",
+    "ts": "2026-10-20T09:53:49.865402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xad89f899f1524533adfd1e6a07da692fcd92f6e1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630746",
+    "pregunta": "Will the Democrats win the Kansas Senate race in 2026?",
+    "ts": "2026-10-20T09:53:50.921545",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xad89f899f1524533adfd1e6a07da692fcd92f6e1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-10-20T09:54:03.662793",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x56e4fb67f28cb01af0a841feb7941e28d03638f1",
+    "whale_signal": "COMPRAR NO"
+  }
+]
