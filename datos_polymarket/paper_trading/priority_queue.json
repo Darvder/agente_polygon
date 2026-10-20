@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5475114",
+    "pregunta": "Will 170-189 ships transit the Bab el-Mandeb Strait between October 12-October 18?",
+    "ts": "2026-10-20T05:55:51.539900",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2fdb5df2a326fdfad9ebd030cafe72359da88ffc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5475108",
+    "pregunta": "Will 20-24 ships transit the Strait of Hormuz between October 12-October 18?",
+    "ts": "2026-10-20T05:55:52.592653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2fdb5df2a326fdfad9ebd030cafe72359da88ffc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5475109",
+    "pregunta": "Will 25-29 ships transit the Strait of Hormuz between October 12-October 18?",
+    "ts": "2026-10-20T05:55:53.642038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2fdb5df2a326fdfad9ebd030cafe72359da88ffc",
+    "whale_signal": "COMPRAR NO"
+  }
+]
