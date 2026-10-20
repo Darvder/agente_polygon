@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2757891",
+    "pregunta": "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?",
+    "ts": "2026-10-20T04:35:10.951590",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b954ebc87c7b68749c763d8f611c3421554b5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824602",
+    "pregunta": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
+    "ts": "2026-10-20T04:35:12.009813",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x640b954ebc87c7b68749c763d8f611c3421554b5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
