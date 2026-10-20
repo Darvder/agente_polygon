@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5743142",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $95 in October?",
+    "ts": "2026-10-20T11:25:23.865395",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9592adb70397e9de67ba9abe6971e3f50fb7a7b8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
