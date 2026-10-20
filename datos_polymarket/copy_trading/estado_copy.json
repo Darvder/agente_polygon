@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
   "capital_actual": 1517.73,
-  "capital_en_riesgo": 399.33,
-  "n_ciclos": 41652,
-  "ultima_corrida": "2026-10-20 07:04",
+  "capital_en_riesgo": 399.33000000000004,
+  "n_ciclos": 41653,
+  "ultima_corrida": "2026-10-20 07:15",
   "n_tp": 1029,
   "n_sl": 737,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 9.55,
-    "capital_en_riesgo": 45.85,
+    "capital_actual": 12.55,
+    "capital_en_riesgo": 42.85,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 503,
+    "n_tp": 504,
     "n_sl": 385,
     "posiciones_abiertas": [
       {
@@ -111,7 +111,7 @@
         "pregunta": "Next Fable Model (5.2+) released by October 24, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.745,
-        "precio_actual": 0.55,
+        "precio_actual": 0.555,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -300,26 +300,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xe8be0e39ffb9004d62e68562ae013942a24ccd01958a41b1753408f64011952a"
-      },
-      {
-        "fecha_entrada": "2026-10-20",
-        "fecha_entrada_dt": "2026-10-20 06:44",
-        "target_wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
-        "market_id": "5329576",
-        "condition_id": "0xa0c4607a7d7c5ffe77cae5ffe47ccdc2207c8faceaaa225cf5a7de4ec93e543a",
-        "token_id": "106065276045357806320609774556329031079474847295342526506532891782476703273135",
-        "pregunta": "Will Flavio Bolsonaro win the most votes in the second round of the Br",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.685,
-        "precio_actual": 0.685,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xac59c69063410e76b2c83151664c6dd8d09a17179bd906e142b00c696d41df23"
       }
     ],
     "historial_cerradas": [
@@ -18082,6 +18062,26 @@
         "pnl_realizado": -0.05,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x20c49a4f167db3d984d6c0ea44c6e8d07c8a4a4e16634f3a5ecd238ac00aa1d0"
+      },
+      {
+        "fecha_entrada": "2026-10-20",
+        "fecha_entrada_dt": "2026-10-20 06:44",
+        "target_wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+        "market_id": "5329576",
+        "condition_id": "0xa0c4607a7d7c5ffe77cae5ffe47ccdc2207c8faceaaa225cf5a7de4ec93e543a",
+        "token_id": "106065276045357806320609774556329031079474847295342526506532891782476703273135",
+        "pregunta": "Will Flavio Bolsonaro win the most votes in the second round of the Br",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.685,
+        "precio_actual": 0.685,
+        "precio_cierre": 0.685,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-20 07:15",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xac59c69063410e76b2c83151664c6dd8d09a17179bd906e142b00c696d41df23"
       }
     ]
   }
