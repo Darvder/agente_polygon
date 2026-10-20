@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5855368",
+    "pregunta": "Will the highest temperature in Shanghai be 30\u00b0C on October 20?",
+    "ts": "2026-10-19T23:05:00.952787",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x686880eea810fa9141be46a1acec9eee41755198",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5855356",
+    "pregunta": "Will the highest temperature in Hong Kong be 30\u00b0C on October 20?",
+    "ts": "2026-10-19T23:05:02.011822",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x686880eea810fa9141be46a1acec9eee41755198",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5855367",
+    "pregunta": "Will the highest temperature in Shanghai be 29\u00b0C on October 20?",
+    "ts": "2026-10-19T23:05:03.060059",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x686880eea810fa9141be46a1acec9eee41755198",
+    "whale_signal": "COMPRAR NO"
+  }
+]
