@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "5616910",
+    "pregunta": "Will International Business Machines (IBM) Q3 Software revenue be above $7.65B?",
+    "ts": "2026-10-21T15:56:21.671097",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6fa70d26939b2075fcafd2db38099b42cf47907e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
