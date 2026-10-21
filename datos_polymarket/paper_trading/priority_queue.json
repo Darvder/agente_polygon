@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "3081959",
+    "pregunta": "Will the Bank of Russia make no change to the key rate after the October Meeting?",
+    "ts": "2026-10-21T16:14:18.727933",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  }
+]
