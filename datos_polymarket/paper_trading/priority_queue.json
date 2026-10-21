@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "1393324",
+    "pregunta": "Predict.fun FDV above $1B one day after launch?",
+    "ts": "2026-10-21T04:35:08.074730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e499f4477eb5714836c0a7c5394c9e83eead3d8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1393325",
+    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
+    "ts": "2026-10-21T04:35:09.280758",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e499f4477eb5714836c0a7c5394c9e83eead3d8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
