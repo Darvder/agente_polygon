@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5951556",
+    "pregunta": "Lyon curfew effectively lifted by October 24?",
+    "ts": "2026-10-20T19:35:25.951784",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5951549",
+    "pregunta": "Paris curfew effectively lifted by October 24?",
+    "ts": "2026-10-20T19:35:27.048600",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
