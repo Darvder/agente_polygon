@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4641065",
+    "pregunta": "US x Iran ceasefire continues through October 31?",
+    "ts": "2026-10-21T15:05:22.417684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5686979",
+    "pregunta": "US x Iran ceasefire continues through October 22?",
+    "ts": "2026-10-21T15:05:23.464198",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5686977",
+    "pregunta": "US x Iran ceasefire continues through October 24?",
+    "ts": "2026-10-21T15:05:29.749901",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
