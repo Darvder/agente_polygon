@@ -1,10 +1,50 @@
 [
   {
-    "id": "601826",
-    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-21T10:16:02.257581",
+    "id": "601819",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-21T10:26:31.718371",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e7bf3e7b8ba0351b737897197fd5cc34fbfbd8c",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2467206",
+    "pregunta": "Will Bitcoin reach $95,000 by December 31, 2026?",
+    "ts": "2026-10-21T10:26:35.827812",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1345531",
+    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "ts": "2026-10-21T10:26:36.864206",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701496",
+    "pregunta": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "ts": "2026-10-21T10:26:37.903513",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6002418",
+    "pregunta": "Will Bitcoin reach $85,000 on October 21?",
+    "ts": "2026-10-21T10:26:38.935077",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6002417",
+    "pregunta": "Will Bitcoin reach $86,000 on October 21?",
+    "ts": "2026-10-21T10:26:39.959803",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
     "whale_signal": "COMPRAR NO"
   }
 ]
