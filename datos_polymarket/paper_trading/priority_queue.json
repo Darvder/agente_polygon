@@ -1,26 +1,34 @@
 [
   {
-    "id": "4641065",
-    "pregunta": "US x Iran ceasefire continues through October 31?",
-    "ts": "2026-10-21T15:05:22.417684",
+    "id": "5784291",
+    "pregunta": "Next White House Press Secretary announced by December 31, 2026?",
+    "ts": "2026-10-21T15:17:17.799905",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5686979",
-    "pregunta": "US x Iran ceasefire continues through October 22?",
-    "ts": "2026-10-21T15:05:23.464198",
+    "id": "3128768",
+    "pregunta": "Iran full airspace closure by December 31?",
+    "ts": "2026-10-21T15:17:23.127034",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5686977",
-    "pregunta": "US x Iran ceasefire continues through October 24?",
-    "ts": "2026-10-21T15:05:29.749901",
+    "id": "4743423",
+    "pregunta": "Will Saudi airspace be closed by December 31?",
+    "ts": "2026-10-21T15:17:24.173852",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2853074",
+    "pregunta": "Bab el-Mandeb Strait effectively closed by December 31?",
+    "ts": "2026-10-21T15:17:28.317667",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   }
 ]
