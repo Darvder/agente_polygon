@@ -1,50 +1,34 @@
 [
   {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-21T10:26:31.718371",
+    "id": "3867164",
+    "pregunta": "Will Lighter dip to $2.5 before 2027?",
+    "ts": "2026-10-21T10:44:38.896344",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_wallet": "0xc4567fe2a835b23f40db07f567ba0efbbdc98996",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2467206",
-    "pregunta": "Will Bitcoin reach $95,000 by December 31, 2026?",
-    "ts": "2026-10-21T10:26:35.827812",
+    "id": "3867167",
+    "pregunta": "Will Lighter dip to $2 before 2027?",
+    "ts": "2026-10-21T10:44:40.098163",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_wallet": "0xc4567fe2a835b23f40db07f567ba0efbbdc98996",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1345531",
-    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
-    "ts": "2026-10-21T10:26:36.864206",
+    "id": "3867076",
+    "pregunta": "Will Zcash dip to $700 by December 31, 2026?",
+    "ts": "2026-10-21T10:44:41.282589",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_wallet": "0xc4567fe2a835b23f40db07f567ba0efbbdc98996",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "701496",
-    "pregunta": "Will Bitcoin reach $100,000 by December 31, 2026?",
-    "ts": "2026-10-21T10:26:37.903513",
+    "id": "3866532",
+    "pregunta": "Will BNB dip to $650 by December 31, 2026?",
+    "ts": "2026-10-21T10:44:42.515695",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6002418",
-    "pregunta": "Will Bitcoin reach $85,000 on October 21?",
-    "ts": "2026-10-21T10:26:38.935077",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6002417",
-    "pregunta": "Will Bitcoin reach $86,000 on October 21?",
-    "ts": "2026-10-21T10:26:39.959803",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_wallet": "0xc4567fe2a835b23f40db07f567ba0efbbdc98996",
     "whale_signal": "COMPRAR NO"
   }
 ]
