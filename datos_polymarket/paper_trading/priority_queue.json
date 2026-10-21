@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2941850",
+    "pregunta": "Will the Bank of Canada make no change to the target for the overnight rate at the October interest rate announcement?",
+    "ts": "2026-10-21T17:35:26.017878",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc2737dc6798944bf78e36c7e736efd4b0fbd85e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6015671",
+    "pregunta": "Will Bitcoin dip to $82,500 in October?",
+    "ts": "2026-10-21T17:35:27.776284",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5977746",
+    "pregunta": "Will Ethereum dip to $2,400 in October?",
+    "ts": "2026-10-21T17:35:28.822472",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
