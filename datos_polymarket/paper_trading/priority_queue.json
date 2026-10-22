@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4393420",
+    "pregunta": "Will the Bank of Canada make no change to the target for the overnight rate at the December interest rate announcement?",
+    "ts": "2026-10-22T06:56:48.171959",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc10bea406b376b175ceafa3e4b1087226d1b8ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2941850",
+    "pregunta": "Will the Bank of Canada make no change to the target for the overnight rate at the October interest rate announcement?",
+    "ts": "2026-10-22T06:56:49.339709",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc10bea406b376b175ceafa3e4b1087226d1b8ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3499789",
+    "pregunta": "No change in Reserve Bank of Australia's interest rates at the November 2026 meeting?",
+    "ts": "2026-10-22T06:56:50.434776",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc10bea406b376b175ceafa3e4b1087226d1b8ef",
+    "whale_signal": "COMPRAR NO"
+  }
+]
