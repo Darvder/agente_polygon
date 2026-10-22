@@ -1,34 +1,18 @@
 [
   {
-    "id": "634892",
-    "pregunta": "Will the Republicans win the Nebraska Senate race in 2026?",
-    "ts": "2026-10-22T17:06:30.193660",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1812608",
-    "pregunta": "Will Brad Bradford win the 2026 Toronto mayoral election?",
-    "ts": "2026-10-22T17:06:31.246319",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "601826",
     "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-22T17:06:32.286300",
+    "ts": "2026-10-22T17:17:08.493508",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_wallet": "0x7cd5b2a057968376826c74e8c378ee36c0472b75",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2100981",
-    "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election?",
-    "ts": "2026-10-22T17:06:34.486504",
+    "id": "601819",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-22T17:17:09.601752",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ef10cdb7b930bf61630661abf7843a055107127",
+    "whale_wallet": "0x7cd5b2a057968376826c74e8c378ee36c0472b75",
     "whale_signal": "COMPRAR NO"
   }
 ]
