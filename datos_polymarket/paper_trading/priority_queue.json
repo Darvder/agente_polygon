@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5998510",
+    "pregunta": "Will \"Street Fighter\" 2nd Weekend Box Office be between $8M and $11M?",
+    "ts": "2026-10-22T15:46:32.658052",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9aeb534c42b58b21673d5e03e9da14fbd15b2729",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5998511",
+    "pregunta": "Will \"Street Fighter\" 2nd Weekend Box Office be between $11M and $14M?",
+    "ts": "2026-10-22T15:46:33.720953",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9aeb534c42b58b21673d5e03e9da14fbd15b2729",
+    "whale_signal": "COMPRAR NO"
+  }
+]
