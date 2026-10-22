@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5170789",
+    "pregunta": "Will Ethereum dip to $2,200 in October?",
+    "ts": "2026-10-21T21:25:04.907515",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd04e0676ea998bb7d5ef405960edd9b273cb41b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562828",
+    "pregunta": "2026 Balance of Power: D Senate, D House",
+    "ts": "2026-10-21T21:25:06.027696",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd04e0676ea998bb7d5ef405960edd9b273cb41b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562793",
+    "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "ts": "2026-10-21T21:25:07.098000",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd04e0676ea998bb7d5ef405960edd9b273cb41b8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
