@@ -1,10 +1,26 @@
 [
   {
-    "id": "5401796",
-    "pregunta": "Military action against Saudi Oil Pipeline (East-West) by November 30?",
-    "ts": "2026-10-23T03:17:08.315484",
+    "id": "3055230",
+    "pregunta": "Will Avengers: Doomsday have the 2nd best domestic opening weekend in 2026?",
+    "ts": "2026-10-23T03:26:02.310603",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x62cf46cd4c3af254dccfc37a7f93de265b4b5826",
+    "whale_wallet": "0x066db61cb41e262d3c773172ae7179d7c20c07bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3055228",
+    "pregunta": "Will Spider-Man: Brand New Day have the 2nd best domestic opening weekend in 2026?",
+    "ts": "2026-10-23T03:26:03.438106",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x066db61cb41e262d3c773172ae7179d7c20c07bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "678445",
+    "pregunta": "Will Spider-Man: Brand New Day have the best domestic opening weekend in 2026?",
+    "ts": "2026-10-23T03:26:04.465106",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x066db61cb41e262d3c773172ae7179d7c20c07bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
