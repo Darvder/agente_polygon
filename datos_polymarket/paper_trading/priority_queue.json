@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4566441",
+    "pregunta": "Will Olympiacos finish top 8 in UEL league phase?",
+    "ts": "2026-10-23T17:06:02.678466",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4566433",
+    "pregunta": "Will Lyon finish top 8 in UEL league phase?",
+    "ts": "2026-10-23T17:06:05.020040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4566899",
+    "pregunta": "Will Olympiacos finish 9th-24th in UEL league phase?",
+    "ts": "2026-10-23T17:06:08.538775",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_signal": "COMPRAR NO"
+  }
+]
