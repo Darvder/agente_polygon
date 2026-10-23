@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5167217",
+    "pregunta": "Will Trump speak to Volodymyr Zelenskyy by October 31?",
+    "ts": "2026-10-23T15:35:20.084604",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4807a18cd70a7108366660aa08d94600d8ef70ab",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-10-23T15:35:22.168696",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9fee67765051cf8cd227eac5591683c57529f381",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-10-23T15:35:23.213689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9fee67765051cf8cd227eac5591683c57529f381",
+    "whale_signal": "COMPRAR NO"
+  }
+]
