@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "3120760",
+    "pregunta": "NATO x Russia military clash by October 31, 2026?",
+    "ts": "2026-10-23T16:36:17.052023",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5686982",
+    "pregunta": "US x Iran ceasefire continues through October 28?",
+    "ts": "2026-10-23T16:36:18.093648",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4641065",
+    "pregunta": "US x Iran ceasefire continues through October 31?",
+    "ts": "2026-10-23T16:36:19.165239",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  }
+]
