@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "665374",
+    "pregunta": "Will the U.S. invade Iran before 2027?",
+    "ts": "2026-10-24T03:25:40.679566",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ff7455790cd4a08ce14eb5887e6b12279e0f7f0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4643631",
+    "pregunta": "Will Trump issue an AI Safety Executive Order by December 31?",
+    "ts": "2026-10-24T03:25:41.801398",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ff7455790cd4a08ce14eb5887e6b12279e0f7f0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6027261",
+    "pregunta": "Will PSOE win 102-107 seats in the 2026 Spanish general election?",
+    "ts": "2026-10-24T03:25:42.927019",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ff7455790cd4a08ce14eb5887e6b12279e0f7f0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
