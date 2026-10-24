@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1612.28,
-  "capital_en_riesgo": 323.56,
-  "n_ciclos": 42189,
-  "ultima_corrida": "2026-10-24 01:18",
-  "n_tp": 1072,
+  "capital_actual": 1650.27,
+  "capital_en_riesgo": 285.57,
+  "n_ciclos": 42190,
+  "ultima_corrida": "2026-10-24 01:25",
+  "n_tp": 1074,
   "n_sl": 761,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 15.82,
-    "capital_en_riesgo": 39.03,
+    "capital_actual": 21.82,
+    "capital_en_riesgo": 33.03,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 540,
+    "n_tp": 542,
     "n_sl": 403,
     "posiciones_abiertas": [
       {
@@ -100,26 +100,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x3cffd7610f6a0bbaf711d7c665f0297f33d4d5137baaf338d24fc3b74d4617ee"
-      },
-      {
-        "fecha_entrada": "2026-10-23",
-        "fecha_entrada_dt": "2026-10-23 04:56",
-        "target_wallet": "0x9a6931060fd1c930451adbd3013d893e2edac2a0",
-        "market_id": "2100984",
-        "condition_id": "0xd05da9807740aa0f5bc9e9232daabe87a21e5012c19e283abf414f1c1651118b",
-        "token_id": "9025448570994866714151390167666974197623007132973626623412960268955048642964",
-        "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative electio",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.695,
-        "precio_actual": 0.695,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xcde37dfe6e81f9ae423e46486f68afdd9c6934c482dd5de5a9b80fff27a6bfbe"
       },
       {
         "fecha_entrada": "2026-10-23",
@@ -260,26 +240,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x67f07e7ecb9e1f1401a324096a15e6a7f949cc9816f7efb23feff2eddd1078e3"
-      },
-      {
-        "fecha_entrada": "2026-10-23",
-        "fecha_entrada_dt": "2026-10-23 22:26",
-        "target_wallet": "0xb5b8eb95db0c651af2b83fb804cc0b700ce5f0cb",
-        "market_id": "3740634",
-        "condition_id": "0x51ba92ce68860e45743ad6f6e60a251c83fe50d55ee7fda64b03c5504b37f2be",
-        "token_id": "76083482372231980815268524244484955391915832791289553998630619148217159147283",
-        "pregunta": "Will Liberal\u2013National win the most seats in the next Victorian state e",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.8,
-        "precio_actual": 0.8,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x9031e97b0b4a2b4bffc620a8c356aed375ee4c453892799a37a0ced2c4c3c934"
       }
     ],
     "historial_cerradas": [
@@ -19142,6 +19102,46 @@
         "pnl_realizado": 0.13,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x4c95361950c62289e3c42320ebf23b545a31b1fb523b0ab4cfbcca99473dd505"
+      },
+      {
+        "fecha_entrada": "2026-10-23",
+        "fecha_entrada_dt": "2026-10-23 04:56",
+        "target_wallet": "0x9a6931060fd1c930451adbd3013d893e2edac2a0",
+        "market_id": "2100984",
+        "condition_id": "0xd05da9807740aa0f5bc9e9232daabe87a21e5012c19e283abf414f1c1651118b",
+        "token_id": "9025448570994866714151390167666974197623007132973626623412960268955048642964",
+        "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative electio",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.695,
+        "precio_actual": 0.695,
+        "precio_cierre": 0.695,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-24 01:25",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xcde37dfe6e81f9ae423e46486f68afdd9c6934c482dd5de5a9b80fff27a6bfbe"
+      },
+      {
+        "fecha_entrada": "2026-10-23",
+        "fecha_entrada_dt": "2026-10-23 22:26",
+        "target_wallet": "0xb5b8eb95db0c651af2b83fb804cc0b700ce5f0cb",
+        "market_id": "3740634",
+        "condition_id": "0x51ba92ce68860e45743ad6f6e60a251c83fe50d55ee7fda64b03c5504b37f2be",
+        "token_id": "76083482372231980815268524244484955391915832791289553998630619148217159147283",
+        "pregunta": "Will Liberal\u2013National win the most seats in the next Victorian state e",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.8,
+        "precio_actual": 0.8,
+        "precio_cierre": 0.8,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-24 01:25",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x9031e97b0b4a2b4bffc620a8c356aed375ee4c453892799a37a0ced2c4c3c934"
       }
     ]
   }
