@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "5087226",
+    "pregunta": "US-Iran Hormuz Agreement by November 30?",
+    "ts": "2026-10-24T15:36:15.861043",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ad6a4411d911fbe1f6852e4ca3a9124a315d276",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-10-24T15:36:22.248698",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ad6a4411d911fbe1f6852e4ca3a9124a315d276",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "634893",
+    "pregunta": "Will an independent win the Nebraska Senate race in 2026?",
+    "ts": "2026-10-24T15:36:23.296999",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ad6a4411d911fbe1f6852e4ca3a9124a315d276",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4743423",
+    "pregunta": "Will Saudi airspace be closed by December 31?",
+    "ts": "2026-10-24T15:36:24.510011",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ad6a4411d911fbe1f6852e4ca3a9124a315d276",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190747",
+    "pregunta": "US x Iran ceasefire continues through November 15?",
+    "ts": "2026-10-24T15:36:28.839909",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ad6a4411d911fbe1f6852e4ca3a9124a315d276",
+    "whale_signal": "COMPRAR NO"
+  }
+]
