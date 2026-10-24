@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1705.62,
-  "capital_en_riesgo": 220.71,
-  "n_ciclos": 42271,
-  "ultima_corrida": "2026-10-24 14:55",
-  "n_tp": 1077,
+  "capital_actual": 1728.61,
+  "capital_en_riesgo": 197.72,
+  "n_ciclos": 42272,
+  "ultima_corrida": "2026-10-24 15:05",
+  "n_tp": 1078,
   "n_sl": 766,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 26.64,
-    "capital_en_riesgo": 27.0,
+    "capital_actual": 29.64,
+    "capital_en_riesgo": 24.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 546,
+    "n_tp": 547,
     "n_sl": 407,
     "posiciones_abiertas": [
       {
@@ -71,7 +71,7 @@
         "pregunta": "US x Iran ceasefire continues through October 28?",
         "outcome": "Yes",
         "precio_token_entrada": 0.795,
-        "precio_actual": 0.89,
+        "precio_actual": 0.885,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -151,7 +151,7 @@
         "pregunta": "Will Anthropic's market cap be between $2.0T and $2.25T at market clos",
         "outcome": "Yes",
         "precio_token_entrada": 0.1705,
-        "precio_actual": 0.203,
+        "precio_actual": 0.2,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -180,26 +180,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x05a2533b12ff1dcb71d64420edf38257beffd2659b18e967fd40993211983b05"
-      },
-      {
-        "fecha_entrada": "2026-10-24",
-        "fecha_entrada_dt": "2026-10-24 13:25",
-        "target_wallet": "0x84dcc886d0acd3d2b5232fe3401bc123f01a92cb",
-        "market_id": "634976",
-        "condition_id": "0x19d2ff72e389d190c183e6b114817301d29eba651d67d75a38ee201a05188fd9",
-        "token_id": "72139607190315861034411702195742538105117960260100800877125381826122747504258",
-        "pregunta": "Will Mary Peltola win the Alaska Senate race in 2026?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.745,
-        "precio_actual": 0.745,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x8d792acb19902782ba1d611b91e6e49fa6cf3366cac61fcb3f9992c8fd81a74d"
       }
     ],
     "historial_cerradas": [
@@ -19262,6 +19242,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x3cffd7610f6a0bbaf711d7c665f0297f33d4d5137baaf338d24fc3b74d4617ee"
+      },
+      {
+        "fecha_entrada": "2026-10-24",
+        "fecha_entrada_dt": "2026-10-24 13:25",
+        "target_wallet": "0x84dcc886d0acd3d2b5232fe3401bc123f01a92cb",
+        "market_id": "634976",
+        "condition_id": "0x19d2ff72e389d190c183e6b114817301d29eba651d67d75a38ee201a05188fd9",
+        "token_id": "72139607190315861034411702195742538105117960260100800877125381826122747504258",
+        "pregunta": "Will Mary Peltola win the Alaska Senate race in 2026?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.745,
+        "precio_actual": 0.745,
+        "precio_cierre": 0.745,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-24 15:05",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x8d792acb19902782ba1d611b91e6e49fa6cf3366cac61fcb3f9992c8fd81a74d"
       }
     ]
   }
