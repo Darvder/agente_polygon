@@ -1,18 +1,10 @@
 [
   {
-    "id": "1393325",
-    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
-    "ts": "2026-10-24T19:24:26.650308",
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-24T19:36:48.040063",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8c7836b270daf59bce721087f41ef10684a413ed",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1393326",
-    "pregunta": "Predict.fun FDV above $2B one day after launch?",
-    "ts": "2026-10-24T19:24:27.833240",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8c7836b270daf59bce721087f41ef10684a413ed",
+    "whale_wallet": "0x7a3f7b977d5233fd984235fe98232d5513b9373a",
     "whale_signal": "COMPRAR NO"
   }
 ]
