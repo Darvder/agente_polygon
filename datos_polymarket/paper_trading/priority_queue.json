@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5998478",
+    "pregunta": "Next Fable Model (5.2+) released by October 29, 2026?",
+    "ts": "2026-10-25T08:15:01.564073",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3344039",
+    "pregunta": "Will the Democratic Party candidate win the 2026 North Carolina Senate election by 18% or more?",
+    "ts": "2026-10-25T08:15:02.710701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "559661",
+    "pregunta": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+    "ts": "2026-10-25T08:15:03.747311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5636167",
+    "pregunta": "Will Russia enter Bilozerske by November 30, 2026?",
+    "ts": "2026-10-25T08:15:04.772217",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_signal": "COMPRAR NO"
+  }
+]
