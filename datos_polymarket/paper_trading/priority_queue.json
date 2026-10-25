@@ -2,9 +2,33 @@
   {
     "id": "601826",
     "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-24T19:36:48.040063",
+    "ts": "2026-10-24T19:44:41.478282",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7a3f7b977d5233fd984235fe98232d5513b9373a",
+    "whale_wallet": "0xa82b0e89cf734e2fa70cbd52ca65c77d64595220",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-10-24T19:44:43.325079",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3007ea6df4389c173a5119162be94aac6bba763a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906129",
+    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
+    "ts": "2026-10-24T19:44:44.379996",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3007ea6df4389c173a5119162be94aac6bba763a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5087228",
+    "pregunta": "US-Iran Hormuz Agreement by December 31?",
+    "ts": "2026-10-24T19:44:45.437300",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3007ea6df4389c173a5119162be94aac6bba763a",
     "whale_signal": "COMPRAR NO"
   }
 ]
