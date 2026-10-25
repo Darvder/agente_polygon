@@ -1,18 +1,10 @@
 [
   {
-    "id": "601819",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-25T18:16:51.097992",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "601826",
     "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-    "ts": "2026-10-25T18:16:52.168247",
+    "ts": "2026-10-25T18:25:26.944183",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_wallet": "0x5a1c3e76aa7466f77453c1f30c18e294ebda7f07",
     "whale_signal": "COMPRAR NO"
   }
 ]
