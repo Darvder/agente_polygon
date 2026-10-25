@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "601819",
+    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-25T15:16:46.231501",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824602",
+    "pregunta": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
+    "ts": "2026-10-25T15:16:47.291235",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "601826",
+    "pregunta": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "ts": "2026-10-25T15:16:48.334768",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_signal": "COMPRAR NO"
+  }
+]
