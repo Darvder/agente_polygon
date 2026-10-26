@@ -1,10 +1,42 @@
 [
   {
-    "id": "1812607",
-    "pregunta": "Will Olivia Chow win the 2026 Toronto mayoral election?",
-    "ts": "2026-10-26T12:57:06.758863",
+    "id": "3554496",
+    "pregunta": "Will Alibaba be the second-best Chinese AI company at the end of October 2026?",
+    "ts": "2026-10-26T13:06:24.223075",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb7606d0d3719c88f9b868a13015881af5222ccd7",
+    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3554523",
+    "pregunta": "Will Moonshot be the third-best Chinese AI company at the end of October 2026?",
+    "ts": "2026-10-26T13:06:25.369852",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6104448",
+    "pregunta": "Will Kimi K3.1 Pro debut with an HLE-Diamond score of 25% or higher?",
+    "ts": "2026-10-26T13:06:26.391407",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6104449",
+    "pregunta": "Will Kimi K3.1 Pro debut with an HLE-Diamond score of 30% or higher?",
+    "ts": "2026-10-26T13:06:27.537450",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6104450",
+    "pregunta": "Will Kimi K3.1 Pro debut with an HLE-Diamond score of 35% or higher?",
+    "ts": "2026-10-26T13:06:28.560828",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
