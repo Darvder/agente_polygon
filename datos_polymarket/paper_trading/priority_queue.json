@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2293900",
+    "pregunta": "No one announced as next James Bond?",
+    "ts": "2026-10-26T10:37:36.394489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb410255a64fd72acdb7e57b8f65999865a017736",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5412544",
+    "pregunta": "Next James Bond announced by December 31, 2026?",
+    "ts": "2026-10-26T10:37:37.425781",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb410255a64fd72acdb7e57b8f65999865a017736",
+    "whale_signal": "COMPRAR NO"
+  }
+]
