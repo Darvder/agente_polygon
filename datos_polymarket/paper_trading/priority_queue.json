@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "944282",
+    "pregunta": "Will the Democratic Party win the VA-01 House seat?",
+    "ts": "2026-10-26T00:05:11.522066",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd42c8d269bfc2ad22bff794d08a7ef6a2e1a141d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4558983",
+    "pregunta": "Will the Republican Party candidate win the 2026 Texas Railroad Commissioner election?",
+    "ts": "2026-10-26T00:05:13.715699",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38a54d2d3c7d7c96b4a86d839420409c1428e97f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629337",
+    "pregunta": "Will the Democrats win the Georgia governor race in 2026?",
+    "ts": "2026-10-26T00:05:14.761186",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38a54d2d3c7d7c96b4a86d839420409c1428e97f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629490",
+    "pregunta": "Will the Democrats win the Nebraska governor race in 2026?",
+    "ts": "2026-10-26T00:05:15.969502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38a54d2d3c7d7c96b4a86d839420409c1428e97f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
