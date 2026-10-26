@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "6236212",
+    "pregunta": "Will Bitcoin reach $82,000 on October 26?",
+    "ts": "2026-10-26T01:05:36.259033",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x43eb2ba94d3b0ed1bc241174b4993b666285f17f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
