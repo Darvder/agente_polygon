@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "4936102",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in October?",
+    "ts": "2026-10-25T21:47:10.430365",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
