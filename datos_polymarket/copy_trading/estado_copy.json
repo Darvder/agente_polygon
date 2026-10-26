@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1693.45,
-  "capital_en_riesgo": 322.34999999999997,
-  "n_ciclos": 42537,
-  "ultima_corrida": "2026-10-26 11:39",
-  "n_tp": 1110,
+  "capital_actual": 1714.17,
+  "capital_en_riesgo": 302.34,
+  "n_ciclos": 42538,
+  "ultima_corrida": "2026-10-26 11:45",
+  "n_tp": 1111,
   "n_sl": 788,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 24.29,
-    "capital_en_riesgo": 37.3,
+    "capital_actual": 27.4,
+    "capital_en_riesgo": 34.3,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 578,
+    "n_tp": 579,
     "n_sl": 427,
     "posiciones_abiertas": [
       {
@@ -151,7 +151,7 @@
         "pregunta": "Will the Democrats win the Michigan Senate race in 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.68,
-        "precio_actual": 0.68,
+        "precio_actual": 0.685,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -240,26 +240,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xa9b0b092948a1d40ed1c26b382a488560191c90f6502968237a14fb744583124"
-      },
-      {
-        "fecha_entrada": "2026-10-26",
-        "fecha_entrada_dt": "2026-10-26 10:37",
-        "target_wallet": "0xb410255a64fd72acdb7e57b8f65999865a017736",
-        "market_id": "5412544",
-        "condition_id": "0x519de46d3249956754f29c8f6ca5820cc7494edfe52de827555116ac520a0f2b",
-        "token_id": "10731541609759372152788998905880593678622937723875298586908650398816195130875",
-        "pregunta": "Next James Bond announced by December 31, 2026?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.7,
-        "precio_actual": 0.71,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xeaf6f626f8187001fbe9476c4d5b05fd74548f3a6aa9dbbea4e618204c7ccc5a"
       }
     ],
     "historial_cerradas": [
@@ -20362,6 +20342,26 @@
         "pnl_realizado": -1.78,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0x047692bac8c74cd40ac9cc3718ab2021bf55a46384fd94a1029a7bf6f7f6bad1"
+      },
+      {
+        "fecha_entrada": "2026-10-26",
+        "fecha_entrada_dt": "2026-10-26 10:37",
+        "target_wallet": "0xb410255a64fd72acdb7e57b8f65999865a017736",
+        "market_id": "5412544",
+        "condition_id": "0x519de46d3249956754f29c8f6ca5820cc7494edfe52de827555116ac520a0f2b",
+        "token_id": "10731541609759372152788998905880593678622937723875298586908650398816195130875",
+        "pregunta": "Next James Bond announced by December 31, 2026?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.7,
+        "precio_actual": 0.725,
+        "precio_cierre": 0.725,
+        "pct_cambio": 0.0357,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-26 11:45",
+        "pnl_realizado": 0.11,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xeaf6f626f8187001fbe9476c4d5b05fd74548f3a6aa9dbbea4e618204c7ccc5a"
       }
     ]
   }
