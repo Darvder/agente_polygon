@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "3524035",
+    "pregunta": "Will the Republican Party candidate win the 2026 TX-12 House election by 20%-25%?",
+    "ts": "2026-10-26T17:36:20.723606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523970",
+    "pregunta": "Will the Democratic Party candidate win the 2026 TX-16 House election by 30%-35%?",
+    "ts": "2026-10-26T17:36:21.951690",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523935",
+    "pregunta": "Will the Democratic Party candidate win the 2026 TX-20 House election by 40%-45%?",
+    "ts": "2026-10-26T17:36:22.997849",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523644",
+    "pregunta": "Will the Republican Party candidate win the 2026 TX-36 House election by 15%-20%?",
+    "ts": "2026-10-26T17:36:24.210837",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523630",
+    "pregunta": "Will the Democratic Party candidate win the 2026 TX-37 House election by 65%-70%?",
+    "ts": "2026-10-26T17:36:25.426396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3524484",
+    "pregunta": "Will the Democratic Party candidate win the 2026 UT-01 House election by 20%-25%?",
+    "ts": "2026-10-26T17:36:26.467130",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  }
+]
