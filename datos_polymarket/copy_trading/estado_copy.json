@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1811.18,
-  "capital_en_riesgo": 205.61,
-  "n_ciclos": 42580,
-  "ultima_corrida": "2026-10-26 18:46",
+  "capital_actual": 1830.86,
+  "capital_en_riesgo": 185.9,
+  "n_ciclos": 42581,
+  "ultima_corrida": "2026-10-26 18:57",
   "n_tp": 1120,
-  "n_sl": 793,
+  "n_sl": 794,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 33.95,
-    "capital_en_riesgo": 27.78,
+    "capital_actual": 36.95,
+    "capital_en_riesgo": 24.78,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 586,
+    "n_tp": 587,
     "n_sl": 432,
     "posiciones_abiertas": [
       {
@@ -31,7 +31,7 @@
         "pregunta": "Will Olivia Chow win the 2026 Toronto mayoral election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.615,
-        "precio_actual": 0.81,
+        "precio_actual": 0.8,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -160,26 +160,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x4caef0a4ad0ed3b52bf41824216186ce9ce1008cfbd4464bbb2644b56e7e7b56"
-      },
-      {
-        "fecha_entrada": "2026-10-26",
-        "fecha_entrada_dt": "2026-10-26 17:36",
-        "target_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
-        "market_id": "3524035",
-        "condition_id": "0x856cef2f1fcd075dae20cdad6a35203c7b53eb0a70f77fb4dea2128a114ba232",
-        "token_id": "17288584535437208010245533975941074861653187417484495228733710479621698223074",
-        "pregunta": "Will the Republican Party candidate win the 2026 TX-12 House election ",
-        "outcome": "No",
-        "precio_token_entrada": 0.6625,
-        "precio_actual": 0.6615,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x7a001457e2edac662a2b00a16618ad27f227dba72b6ab9f366c62e08cf8bc37c"
       },
       {
         "fecha_entrada": "2026-10-26",
@@ -20562,6 +20542,26 @@
         "pnl_realizado": -0.04,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xf4d2f4f2728397ee99968b86847d9e18e58c29ad66983e77199ac35cd86d794a"
+      },
+      {
+        "fecha_entrada": "2026-10-26",
+        "fecha_entrada_dt": "2026-10-26 17:36",
+        "target_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+        "market_id": "3524035",
+        "condition_id": "0x856cef2f1fcd075dae20cdad6a35203c7b53eb0a70f77fb4dea2128a114ba232",
+        "token_id": "17288584535437208010245533975941074861653187417484495228733710479621698223074",
+        "pregunta": "Will the Republican Party candidate win the 2026 TX-12 House election ",
+        "outcome": "No",
+        "precio_token_entrada": 0.6625,
+        "precio_actual": 0.6615,
+        "precio_cierre": 0.6615,
+        "pct_cambio": -0.0015,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-26 18:57",
+        "pnl_realizado": -0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x7a001457e2edac662a2b00a16618ad27f227dba72b6ab9f366c62e08cf8bc37c"
       }
     ]
   }
