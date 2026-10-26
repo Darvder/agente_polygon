@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "629337",
+    "pregunta": "Will the Democrats win the Georgia governor race in 2026?",
+    "ts": "2026-10-26T05:36:59.526052",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630805",
+    "pregunta": "Will the Democrats win the Michigan Senate race in 2026?",
+    "ts": "2026-10-26T05:37:00.790769",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630924",
+    "pregunta": "Will the Democrats win the South Carolina Senate race in 2026?",
+    "ts": "2026-10-26T05:37:01.835795",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629505",
+    "pregunta": "Will the Democrats win the Nevada governor race in 2026?",
+    "ts": "2026-10-26T05:37:02.878461",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629506",
+    "pregunta": "Will the Republicans win the Nevada governor race in 2026?",
+    "ts": "2026-10-26T05:37:03.921602",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562828",
+    "pregunta": "2026 Balance of Power: D Senate, D House",
+    "ts": "2026-10-26T05:37:04.942701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "631057",
+    "pregunta": "Will the Democrats win the Ohio Senate race in 2026?",
+    "ts": "2026-10-26T05:37:05.988179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+    "whale_signal": "COMPRAR NO"
+  }
+]
