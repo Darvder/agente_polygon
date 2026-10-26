@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6243117",
+    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on October 28?",
+    "ts": "2026-10-26T08:56:28.709039",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2100981",
+    "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-26T08:56:30.625619",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfcc063639ff29bbaca05cc59c048ef898d9f15ef",
+    "whale_signal": "COMPRAR NO"
+  }
+]
