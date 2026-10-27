@@ -1,10 +1,66 @@
 [
   {
-    "id": "5938571",
-    "pregunta": "Will Amir Ohana be the next Speaker of the Knesset?",
-    "ts": "2026-10-27T12:19:39.385919",
+    "id": "631058",
+    "pregunta": "Will the Republicans win the Ohio Senate race in 2026?",
+    "ts": "2026-10-27T12:37:06.776678",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdbf73adbf83a752de9ef9390e32797df82eafbea",
+    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630773",
+    "pregunta": "Will the Republicans win the Maine Senate race in 2026?",
+    "ts": "2026-10-27T12:37:07.823984",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "634976",
+    "pregunta": "Will Mary Peltola win the Alaska Senate race in 2026?",
+    "ts": "2026-10-27T12:37:08.874885",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "631057",
+    "pregunta": "Will the Democrats win the Ohio Senate race in 2026?",
+    "ts": "2026-10-27T12:37:09.922730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "634892",
+    "pregunta": "Will the Republicans win the Nebraska Senate race in 2026?",
+    "ts": "2026-10-27T12:37:10.966980",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-10-27T12:37:14.947707",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-10-27T12:37:15.971973",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2110577",
+    "pregunta": "Will Likud win 20-24 seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T12:37:17.016456",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
     "whale_signal": "COMPRAR NO"
   }
 ]
