@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2110576",
+    "pregunta": "Will Likud win fewer than 20 seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T14:08:12.174098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x449c7483aade15b5c4772fab7becc60a1c20879e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2100984",
+    "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T14:08:13.205449",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x449c7483aade15b5c4772fab7becc60a1c20879e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
