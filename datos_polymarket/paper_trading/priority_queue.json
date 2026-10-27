@@ -1,18 +1,10 @@
 [
   {
-    "id": "2100981",
-    "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election?",
-    "ts": "2026-10-27T12:55:33.870711",
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-10-27T13:00:55.566226",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5b7b16448f93c6928450dc165ccd309f0d568a0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2100984",
-    "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
-    "ts": "2026-10-27T12:55:35.899713",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x3805634f0ee56a943fbbdbdf6a702aeeff1f1834",
     "whale_signal": "COMPRAR NO"
   }
 ]
