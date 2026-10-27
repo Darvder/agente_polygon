@@ -1,26 +1,18 @@
 [
   {
-    "id": "682705",
-    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-10-27T12:44:16.099077",
+    "id": "2100981",
+    "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T12:55:33.870711",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+    "whale_wallet": "0xb5b7b16448f93c6928450dc165ccd309f0d568a0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5686980",
-    "pregunta": "US x Iran ceasefire continues through November 8?",
-    "ts": "2026-10-27T12:44:17.150020",
+    "id": "2100984",
+    "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T12:55:35.899713",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5686978",
-    "pregunta": "US x Iran ceasefire continues through November 22?",
-    "ts": "2026-10-27T12:44:19.372056",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
