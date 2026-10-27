@@ -1,34 +1,18 @@
 [
   {
-    "id": "2100984",
-    "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
-    "ts": "2026-10-27T15:27:10.826104",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1e55408f217f58facdf1d663c74cfa7f55e9e3e2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "682705",
     "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-10-27T15:27:12.577178",
+    "ts": "2026-10-27T15:40:50.735913",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
+    "whale_wallet": "0x9f83f83bdfc209c6fade8a2c77ea9667e9176cd9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-10-27T15:27:13.602302",
+    "id": "2100981",
+    "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T15:40:51.757439",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110578",
-    "pregunta": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?",
-    "ts": "2026-10-27T15:27:21.571038",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
+    "whale_wallet": "0x9f83f83bdfc209c6fade8a2c77ea9667e9176cd9",
     "whale_signal": "COMPRAR NO"
   }
 ]
