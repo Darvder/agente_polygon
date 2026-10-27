@@ -1,18 +1,26 @@
 [
   {
-    "id": "2110576",
-    "pregunta": "Will Likud win fewer than 20 seats in the 2026 Israeli legislative election?",
-    "ts": "2026-10-27T14:08:12.174098",
+    "id": "5951550",
+    "pregunta": "Paris curfew effectively lifted by October 31?",
+    "ts": "2026-10-27T14:23:03.512891",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x449c7483aade15b5c4772fab7becc60a1c20879e",
+    "whale_wallet": "0xea463798c163a495112542fb77bbe3edc93659e7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2100984",
-    "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
-    "ts": "2026-10-27T14:08:13.205449",
+    "id": "1284671",
+    "pregunta": "Will the Republican Party win the SC-01 House seat?",
+    "ts": "2026-10-27T14:23:04.675467",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x449c7483aade15b5c4772fab7becc60a1c20879e",
+    "whale_wallet": "0xea463798c163a495112542fb77bbe3edc93659e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630734",
+    "pregunta": "Will the Republicans win the Iowa Senate race in 2026?",
+    "ts": "2026-10-27T14:23:05.733665",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xea463798c163a495112542fb77bbe3edc93659e7",
     "whale_signal": "COMPRAR NO"
   }
 ]
