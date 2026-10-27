@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5170789",
+    "pregunta": "Will Ethereum dip to $2,200 in October?",
+    "ts": "2026-10-27T05:47:41.060484",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6051342",
+    "pregunta": "Will Ethereum reach $2,500 in October?",
+    "ts": "2026-10-27T05:47:42.246730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5928345",
+    "pregunta": "Will Vitality Win the PGL Masters Bucharest 2026?",
+    "ts": "2026-10-27T05:47:44.282944",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaf6d5dc9b6f85b0aa4a0c4f84b10aae0cd144d01",
+    "whale_signal": "COMPRAR NO"
+  }
+]
