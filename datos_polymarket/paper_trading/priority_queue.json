@@ -1,10 +1,26 @@
 [
   {
+    "id": "567688",
+    "pregunta": "Netanyahu out by end of 2026?",
+    "ts": "2026-10-27T16:26:14.076797",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30c16e063c3be66d93acf14c06e2741e348f9f91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2100984",
+    "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T16:26:16.168516",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30c16e063c3be66d93acf14c06e2741e348f9f91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "682705",
     "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-10-27T16:16:59.215941",
+    "ts": "2026-10-27T16:26:17.232037",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_wallet": "0x30c16e063c3be66d93acf14c06e2741e348f9f91",
     "whale_signal": "COMPRAR NO"
   }
 ]
