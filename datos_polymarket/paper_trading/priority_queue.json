@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4867546",
+    "pregunta": "Jon Ossoff Democratic nomination odds leader on October 31?",
+    "ts": "2026-10-27T07:26:59.594275",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a75758a4a13d3322b1e7a2b30f48c6763bfbeb3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166740",
+    "pregunta": "Will the Republicans win Macomb County in the Michigan Senate race in 2026?",
+    "ts": "2026-10-27T07:27:00.803030",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a75758a4a13d3322b1e7a2b30f48c6763bfbeb3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4844538",
+    "pregunta": "Republican Senate odds dip to 30% by October 31?",
+    "ts": "2026-10-27T07:27:03.032473",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a75758a4a13d3322b1e7a2b30f48c6763bfbeb3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
