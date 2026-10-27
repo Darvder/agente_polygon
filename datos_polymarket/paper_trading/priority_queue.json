@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2100984",
+    "pregunta": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T06:57:31.434170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0794c4cb7fc0adbe3f98f0634e7db95c074de6ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-10-27T06:57:32.454005",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0794c4cb7fc0adbe3f98f0634e7db95c074de6ee",
+    "whale_signal": "COMPRAR NO"
+  }
+]
