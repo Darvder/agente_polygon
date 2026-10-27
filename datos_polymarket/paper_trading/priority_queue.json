@@ -1,26 +1,34 @@
 [
   {
-    "id": "5951550",
-    "pregunta": "Paris curfew effectively lifted by October 31?",
-    "ts": "2026-10-27T14:23:03.512891",
+    "id": "2100981",
+    "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T14:28:00.829047",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea463798c163a495112542fb77bbe3edc93659e7",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1284671",
-    "pregunta": "Will the Republican Party win the SC-01 House seat?",
-    "ts": "2026-10-27T14:23:04.675467",
+    "id": "561974",
+    "pregunta": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+    "ts": "2026-10-27T14:28:06.054695",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea463798c163a495112542fb77bbe3edc93659e7",
+    "whale_wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "630734",
-    "pregunta": "Will the Republicans win the Iowa Senate race in 2026?",
-    "ts": "2026-10-27T14:23:05.733665",
+    "id": "5997213",
+    "pregunta": "Next Astra Model (6.1+) released by December 15, 2026?",
+    "ts": "2026-10-27T14:28:17.726169",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xea463798c163a495112542fb77bbe3edc93659e7",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4218313",
+    "pregunta": "Next Astra Model (6.1+) released by December 31, 2026?",
+    "ts": "2026-10-27T14:28:18.779603",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
