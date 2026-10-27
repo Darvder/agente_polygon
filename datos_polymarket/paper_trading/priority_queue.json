@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5972417",
+    "pregunta": "Will the price of Bitcoin be above $80,000 on October 27?",
+    "ts": "2026-10-26T22:46:43.553732",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5972371",
+    "pregunta": "Will the price of Bitcoin be between $78,000 and $80,000 on October 27?",
+    "ts": "2026-10-26T22:46:44.763265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x726fd4fd2d3f3a48fcbd54d1cecdd933d207d8e7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
