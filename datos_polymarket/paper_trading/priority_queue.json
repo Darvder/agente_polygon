@@ -1,18 +1,10 @@
 [
   {
-    "id": "1345531",
-    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
-    "ts": "2026-10-27T19:19:24.164354",
+    "id": "2110578",
+    "pregunta": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?",
+    "ts": "2026-10-27T19:28:36.733556",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4959105",
-    "pregunta": "Trump meets with Putin by November 30?",
-    "ts": "2026-10-27T19:19:28.314500",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x04560ce4285463cfddd87a334618beb15399c88a",
+    "whale_wallet": "0xa5e21a381ff2b2c444695f696d3e6a48700b84dc",
     "whale_signal": "COMPRAR NO"
   }
 ]
