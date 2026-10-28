@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1995.39,
-  "capital_en_riesgo": 154.57,
-  "n_ciclos": 42797,
-  "ultima_corrida": "2026-10-28 07:28",
-  "n_tp": 1150,
+  "capital_actual": 2019.75,
+  "capital_en_riesgo": 134.29,
+  "n_ciclos": 42798,
+  "ultima_corrida": "2026-10-28 07:38",
+  "n_tp": 1151,
   "n_sl": 806,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 58.81,
-    "capital_en_riesgo": 22.0,
+    "capital_actual": 62.41,
+    "capital_en_riesgo": 19.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 615,
+    "n_tp": 616,
     "n_sl": 445,
     "posiciones_abiertas": [
       {
@@ -100,26 +100,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xaf7a6c4933571f4d56d3d8193f11f3078ab341efd92d70eee9380f2d889f33cd"
-      },
-      {
-        "fecha_entrada": "2026-10-27",
-        "fecha_entrada_dt": "2026-10-27 15:40",
-        "target_wallet": "0x9f83f83bdfc209c6fade8a2c77ea9667e9176cd9",
-        "market_id": "2100981",
-        "condition_id": "0xf77fa3e63014f1f76ea4433dac66b3860493ed7f1a9fee3dfbef9104d7f1eee3",
-        "token_id": "40530616708770133196461535468385029946615148250396571867031554779644977064648",
-        "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.825,
-        "precio_actual": 0.991,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x5de577278a8f8c0182897ebf91f4d2ea6d27862841528c193e7eb7026bde5011"
       },
       {
         "fecha_entrada": "2026-10-28",
@@ -21362,6 +21342,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xc627123db24b5c82e9fd169d96634c86b772fea2fec393cc38cefe046bece6cb"
+      },
+      {
+        "fecha_entrada": "2026-10-27",
+        "fecha_entrada_dt": "2026-10-27 15:40",
+        "target_wallet": "0x9f83f83bdfc209c6fade8a2c77ea9667e9176cd9",
+        "market_id": "2100981",
+        "condition_id": "0xf77fa3e63014f1f76ea4433dac66b3860493ed7f1a9fee3dfbef9104d7f1eee3",
+        "token_id": "40530616708770133196461535468385029946615148250396571867031554779644977064648",
+        "pregunta": "Will Likud win the most seats in the 2026 Israeli legislative election",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.825,
+        "precio_actual": 0.991,
+        "precio_cierre": 0.991,
+        "pct_cambio": 0.2012,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-28 07:38",
+        "pnl_realizado": 0.6,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x5de577278a8f8c0182897ebf91f4d2ea6d27862841528c193e7eb7026bde5011"
       }
     ]
   }
