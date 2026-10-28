@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-10-28T01:58:37.468040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-10-28T01:58:38.512986",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
