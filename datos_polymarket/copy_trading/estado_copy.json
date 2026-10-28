@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1934.81,
-  "capital_en_riesgo": 211.05,
-  "n_ciclos": 42786,
-  "ultima_corrida": "2026-10-28 05:38",
-  "n_tp": 1145,
+  "capital_actual": 1930.93,
+  "capital_en_riesgo": 214.93,
+  "n_ciclos": 42787,
+  "ultima_corrida": "2026-10-28 05:48",
+  "n_tp": 1146,
   "n_sl": 806,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 55.77,
-    "capital_en_riesgo": 25.0,
+    "capital_actual": 54.77,
+    "capital_en_riesgo": 26.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 612,
+    "n_tp": 613,
     "n_sl": 445,
     "posiciones_abiertas": [
       {
@@ -40,26 +40,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xef5086bb246b0cb8fd5a22b6225db0ca43488eee9f027409fe95a99fedfaadda"
-      },
-      {
-        "fecha_entrada": "2026-10-27",
-        "fecha_entrada_dt": "2026-10-27 00:56",
-        "target_wallet": "0x04bf21c2527ae8d54a2f713a6420c608366c7caf",
-        "market_id": "701496",
-        "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
-        "token_id": "11291662904897713174667903388388696640643610556195928998276904135282270136756",
-        "pregunta": "Will Bitcoin reach $100,000 by December 31, 2026?",
-        "outcome": "No",
-        "precio_token_entrada": 0.825,
-        "precio_actual": 0.825,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xf3a7327cfb7c5a5106aa8625d202f3a8c8df756b3be820f48bfd1be4034a850c"
       },
       {
         "fecha_entrada": "2026-10-27",
@@ -180,6 +160,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xf403ca2d1a7ffba9cc5e64ce21080693bbbd32b2d92fe7920c1a2c2e7a09bf70"
+      },
+      {
+        "fecha_entrada": "2026-10-28",
+        "fecha_entrada_dt": "2026-10-28 05:47",
+        "target_wallet": "0x8cf4d3bd0f849bdd39ce68889259d9a584e65608",
+        "market_id": "679018",
+        "condition_id": "0x8126317d621047fb13d508a2651eecc8d38305904671822a62309c5aabd353aa",
+        "token_id": "55764212211467781322980371912612507865974994976253196346176314491480419639168",
+        "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.4305,
+        "precio_actual": 0.4305,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 4.0,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0xc627123db24b5c82e9fd169d96634c86b772fea2fec393cc38cefe046bece6cb"
       }
     ],
     "historial_cerradas": [
@@ -21322,6 +21322,26 @@
         "pnl_realizado": 0.11,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xf7c17135b9523dca3613d1f0f713901c0863d92ea7997eebf88cb46bf4cf53e9"
+      },
+      {
+        "fecha_entrada": "2026-10-27",
+        "fecha_entrada_dt": "2026-10-27 00:56",
+        "target_wallet": "0x04bf21c2527ae8d54a2f713a6420c608366c7caf",
+        "market_id": "701496",
+        "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+        "token_id": "11291662904897713174667903388388696640643610556195928998276904135282270136756",
+        "pregunta": "Will Bitcoin reach $100,000 by December 31, 2026?",
+        "outcome": "No",
+        "precio_token_entrada": 0.825,
+        "precio_actual": 0.825,
+        "precio_cierre": 0.825,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-28 05:47",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xf3a7327cfb7c5a5106aa8625d202f3a8c8df756b3be820f48bfd1be4034a850c"
       }
     ]
   }
