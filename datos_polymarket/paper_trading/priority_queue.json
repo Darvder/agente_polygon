@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2431413",
+    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
+    "ts": "2026-10-29T04:37:38.275687",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3f3bfc6d754e416699793901ffb12ddeee9f1d77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2431412",
+    "pregunta": "Will Google have the best AI model at the end of December 2026?",
+    "ts": "2026-10-29T04:37:39.295316",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3f3bfc6d754e416699793901ffb12ddeee9f1d77",
+    "whale_signal": "COMPRAR NO"
+  }
+]
