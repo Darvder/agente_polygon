@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "634893",
+    "pregunta": "Will an independent win the Nebraska Senate race in 2026?",
+    "ts": "2026-10-29T09:25:07.516621",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x448861155279dbf833d041b963e3ac854599e319",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "634892",
+    "pregunta": "Will the Republicans win the Nebraska Senate race in 2026?",
+    "ts": "2026-10-29T09:25:08.559164",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x448861155279dbf833d041b963e3ac854599e319",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3865962",
+    "pregunta": "Will Bitcoin dip to $65,000 by December 31, 2026?",
+    "ts": "2026-10-29T09:25:10.786622",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaf7b432e06b472bff9701ec91c4c4266abc6dd49",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562793",
+    "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "ts": "2026-10-29T09:25:12.881169",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaf7b432e06b472bff9701ec91c4c4266abc6dd49",
+    "whale_signal": "COMPRAR NO"
+  }
+]
