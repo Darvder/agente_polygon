@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5190747",
+    "pregunta": "US x Iran ceasefire continues through November 15?",
+    "ts": "2026-10-29T15:27:03.335893",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-10-29T15:27:04.376491",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4713483",
+    "pregunta": "US x Iran ceasefire continues through November 30?",
+    "ts": "2026-10-29T15:27:05.413914",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5686978",
+    "pregunta": "US x Iran ceasefire continues through November 22?",
+    "ts": "2026-10-29T15:27:06.455987",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
+    "whale_signal": "COMPRAR NO"
+  }
+]
