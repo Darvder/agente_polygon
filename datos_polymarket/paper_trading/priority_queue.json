@@ -1,10 +1,26 @@
 [
   {
-    "id": "562793",
-    "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-    "ts": "2026-10-28T21:49:11.387898",
+    "id": "4620900",
+    "pregunta": "Another Fed rate hike in 2026?",
+    "ts": "2026-10-28T21:57:32.346760",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd5e6bd725b5af7ed2f26d0b188435f62899e0f58",
+    "whale_wallet": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-10-28T21:57:33.398923",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215007",
+    "pregunta": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+    "ts": "2026-10-28T21:57:34.490994",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
     "whale_signal": "COMPRAR NO"
   }
 ]
