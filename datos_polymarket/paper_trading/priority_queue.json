@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6361257",
+    "pregunta": "Israeli Knesset election annulled?",
+    "ts": "2026-10-29T07:46:18.775209",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x33e27ac64a453337cfcea8345c705a407c573a1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-10-29T07:46:26.522496",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  }
+]
