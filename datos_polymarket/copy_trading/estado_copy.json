@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 2008.16,
-  "capital_en_riesgo": 170.48,
-  "n_ciclos": 42979,
-  "ultima_corrida": "2026-10-29 15:06",
+  "capital_actual": 2029.76,
+  "capital_en_riesgo": 148.42,
+  "n_ciclos": 42980,
+  "ultima_corrida": "2026-10-29 15:16",
   "n_tp": 1180,
-  "n_sl": 814,
+  "n_sl": 815,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 60.53,
-    "capital_en_riesgo": 24.44,
+    "capital_actual": 63.47,
+    "capital_en_riesgo": 21.44,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 642,
-    "n_sl": 454,
+    "n_sl": 455,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-28",
@@ -60,26 +60,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x9d03c552139e8dfa64ee9535ca28b01d339fc00b0637451f094d097506c7ee67"
-      },
-      {
-        "fecha_entrada": "2026-10-29",
-        "fecha_entrada_dt": "2026-10-29 10:57",
-        "target_wallet": "0xda8a1dafee4ca0954f5ffca5e207be8ad0f4a35f",
-        "market_id": "6257190",
-        "condition_id": "0x90a2d8aca80d0e870daa3721c430ac2e4dc1c06f8b24693a10e824cb17201005",
-        "token_id": "99742260876592608119089806609155346278076945577706867281777118225689112468465",
-        "pregunta": "Will voter turnout in the second round of the 2026 Bulgaria presidenti",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.72,
-        "precio_actual": 0.705,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xa2fe2b8bb3db241d674ff19c5dd353856e8d9eb0a26be6ea8a4b929dcb66265a"
       },
       {
         "fecha_entrada": "2026-10-29",
@@ -151,7 +131,7 @@
         "pregunta": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.4025,
-        "precio_actual": 0.401,
+        "precio_actual": 0.4015,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.44,
@@ -22082,6 +22062,26 @@
         "pnl_realizado": -0.01,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xeaf10670e5ba7895056e997837f898c642c9efef72da4e952785059064b96ca0"
+      },
+      {
+        "fecha_entrada": "2026-10-29",
+        "fecha_entrada_dt": "2026-10-29 10:57",
+        "target_wallet": "0xda8a1dafee4ca0954f5ffca5e207be8ad0f4a35f",
+        "market_id": "6257190",
+        "condition_id": "0x90a2d8aca80d0e870daa3721c430ac2e4dc1c06f8b24693a10e824cb17201005",
+        "token_id": "99742260876592608119089806609155346278076945577706867281777118225689112468465",
+        "pregunta": "Will voter turnout in the second round of the 2026 Bulgaria presidenti",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.72,
+        "precio_actual": 0.705,
+        "precio_cierre": 0.705,
+        "pct_cambio": -0.0208,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-29 15:16",
+        "pnl_realizado": -0.06,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xa2fe2b8bb3db241d674ff19c5dd353856e8d9eb0a26be6ea8a4b929dcb66265a"
       }
     ]
   }
