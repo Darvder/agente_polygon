@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 2025.75,
-  "capital_en_riesgo": 140.51,
-  "n_ciclos": 42875,
-  "ultima_corrida": "2026-10-28 21:26",
+  "capital_actual": 2050.21,
+  "capital_en_riesgo": 115.51,
+  "n_ciclos": 42876,
+  "ultima_corrida": "2026-10-28 21:36",
   "n_tp": 1159,
-  "n_sl": 809,
+  "n_sl": 810,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 64.34,
-    "capital_en_riesgo": 18.94,
+    "capital_actual": 68.19,
+    "capital_en_riesgo": 15.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 624,
-    "n_sl": 448,
+    "n_sl": 449,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-28",
@@ -40,26 +40,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xa5879900f679a8f5f7b34151cc809c00acb7cb70113bc4736272e3cf915a87cb"
-      },
-      {
-        "fecha_entrada": "2026-10-28",
-        "fecha_entrada_dt": "2026-10-28 17:18",
-        "target_wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
-        "market_id": "942084",
-        "condition_id": "0x0eda21c8b5651dba9fd69aad361e9d01481965e94241ac438486a16dab181344",
-        "token_id": "100828434651155155710172841941100159662807201107427176770262475413650206834153",
-        "pregunta": "Will the Democratic Party win the AZ-01 House seat?",
-        "outcome": "No",
-        "precio_token_entrada": 0.23,
-        "precio_actual": 0.225,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.94,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xcb1c6876fc4194a5419f840e2731c22f1ef324dcd48f26dedfc4af76a56edeaa"
       },
       {
         "fecha_entrada": "2026-10-28",
@@ -131,7 +111,7 @@
         "pregunta": "Will Trump and Putin meet next in China?",
         "outcome": "Yes",
         "precio_token_entrada": 0.795,
-        "precio_actual": 0.8,
+        "precio_actual": 0.795,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -21582,6 +21562,26 @@
         "pnl_realizado": 0.45,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x865fbf491a4de345023b3a43c7e31641f40024f95a00a78b50b86cf4bb4fb459"
+      },
+      {
+        "fecha_entrada": "2026-10-28",
+        "fecha_entrada_dt": "2026-10-28 17:18",
+        "target_wallet": "0x122cb94c437ea5e6f088c6c0c143c592ab8efbed",
+        "market_id": "942084",
+        "condition_id": "0x0eda21c8b5651dba9fd69aad361e9d01481965e94241ac438486a16dab181344",
+        "token_id": "100828434651155155710172841941100159662807201107427176770262475413650206834153",
+        "pregunta": "Will the Democratic Party win the AZ-01 House seat?",
+        "outcome": "No",
+        "precio_token_entrada": 0.23,
+        "precio_actual": 0.225,
+        "precio_cierre": 0.225,
+        "pct_cambio": -0.0217,
+        "monto_usdc": 3.94,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-28 21:36",
+        "pnl_realizado": -0.09,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xcb1c6876fc4194a5419f840e2731c22f1ef324dcd48f26dedfc4af76a56edeaa"
       }
     ]
   }
