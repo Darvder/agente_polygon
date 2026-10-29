@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2657589",
+    "pregunta": "Will 1 Fed rate hike happen in 2026?",
+    "ts": "2026-10-29T16:47:00.831701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30e443872ddf63b2908a49f92cd690c304a55102",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215007",
+    "pregunta": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+    "ts": "2026-10-29T16:47:01.852802",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30e443872ddf63b2908a49f92cd690c304a55102",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6322992",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
+    "ts": "2026-10-29T16:47:03.041472",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30e443872ddf63b2908a49f92cd690c304a55102",
+    "whale_signal": "COMPRAR NO"
+  }
+]
