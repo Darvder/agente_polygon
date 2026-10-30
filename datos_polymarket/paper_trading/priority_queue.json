@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3192168",
+    "pregunta": "Will exactly 2 Israeli legislative elections occur before a government is formed?",
+    "ts": "2026-10-30T08:18:57.243518",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x223f7e0048cf2cddb41dce5f17454b52c3b0a193",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-10-30T08:18:59.287710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x223f7e0048cf2cddb41dce5f17454b52c3b0a193",
+    "whale_signal": "COMPRAR NO"
+  }
+]
