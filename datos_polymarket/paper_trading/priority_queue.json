@@ -1,26 +1,18 @@
 [
   {
-    "id": "5957239",
-    "pregunta": "Will Elon Musk post 360-379 tweets from October 23 to October 30, 2026?",
-    "ts": "2026-10-30T10:38:30.454709",
+    "id": "6084520",
+    "pregunta": "Will the price of Bitcoin be above $78,000 on October 30?",
+    "ts": "2026-10-30T10:50:02.584159",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc959dac4288ab5fc3b27285ae9d2fb121207c37f",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6104809",
-    "pregunta": "Will Elon Musk post 340-359 tweets from October 27 to November 3, 2026?",
-    "ts": "2026-10-30T10:38:31.605178",
+    "id": "6016014",
+    "pregunta": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
+    "ts": "2026-10-30T10:50:07.778323",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc959dac4288ab5fc3b27285ae9d2fb121207c37f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6104811",
-    "pregunta": "Will Elon Musk post 360-379 tweets from October 27 to November 3, 2026?",
-    "ts": "2026-10-30T10:38:32.652436",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc959dac4288ab5fc3b27285ae9d2fb121207c37f",
+    "whale_wallet": "0x2bbc5fd6914fcac653a1a6ff70d709ed52a93d3d",
     "whale_signal": "COMPRAR NO"
   }
 ]
