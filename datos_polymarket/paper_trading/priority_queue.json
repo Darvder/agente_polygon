@@ -1,18 +1,10 @@
 [
   {
-    "id": "634976",
-    "pregunta": "Will Mary Peltola win the Alaska Senate race in 2026?",
-    "ts": "2026-10-30T10:58:25.559431",
+    "id": "5957239",
+    "pregunta": "Will Elon Musk post 360-379 tweets from October 23 to October 30, 2026?",
+    "ts": "2026-10-30T11:07:31.991621",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1003fc11414a1fa7e2ed1fb184b4bd283df87cce",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6351848",
-    "pregunta": "Will commitments to the 1W public sale exceed $50M?",
-    "ts": "2026-10-30T10:58:27.377618",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x683adcdf8b6e9b2693e3a9240635b150aaeb3b03",
+    "whale_wallet": "0xf9ac4c4ef54ee6010a28299ec1d616b63bf7806e",
     "whale_signal": "COMPRAR NO"
   }
 ]
