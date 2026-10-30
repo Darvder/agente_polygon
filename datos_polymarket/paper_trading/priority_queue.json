@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6084496",
+    "pregunta": "Will the price of Ethereum be above $2,200 on October 30?",
+    "ts": "2026-10-30T04:27:59.718775",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5170825",
+    "pregunta": "Will XRP dip to $1.20 in October?",
+    "ts": "2026-10-30T04:28:00.760359",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
