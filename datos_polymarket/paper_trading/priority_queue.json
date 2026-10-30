@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2467206",
+    "pregunta": "Will Bitcoin reach $95,000 by December 31, 2026?",
+    "ts": "2026-10-29T21:59:22.277074",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeee864f3b001f901f84c85c7e9667dacc5b37e06",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-10-29T21:59:23.315303",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeee864f3b001f901f84c85c7e9667dacc5b37e06",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1345531",
+    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "ts": "2026-10-29T21:59:24.349347",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeee864f3b001f901f84c85c7e9667dacc5b37e06",
+    "whale_signal": "COMPRAR NO"
+  }
+]
