@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4951227",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?",
+    "ts": "2026-10-30T05:29:11.248635",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6097441",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $105 Week of October 26 2026?",
+    "ts": "2026-10-30T05:29:12.267590",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
