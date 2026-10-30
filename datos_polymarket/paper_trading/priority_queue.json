@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "id": "3523696",
+    "pregunta": "Will the Republican Party candidate win the 2026 TX-32 House election by 6%-9%?",
+    "ts": "2026-10-30T18:07:14.403638",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523695",
+    "pregunta": "Will the Republican Party candidate win the 2026 TX-32 House election by 9%-12%?",
+    "ts": "2026-10-30T18:07:15.438666",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523697",
+    "pregunta": "Will the Republican Party candidate win the 2026 TX-32 House election by 3%-6%?",
+    "ts": "2026-10-30T18:07:16.472694",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3408020",
+    "pregunta": "Will the Republican Party candidate win the 2026 FL-11 House election by 3%-6%?",
+    "ts": "2026-10-30T18:07:17.631071",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3408019",
+    "pregunta": "Will the Republican Party candidate win the 2026 FL-11 House election by 6%-9%?",
+    "ts": "2026-10-30T18:07:18.669875",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3408021",
+    "pregunta": "Will the Republican Party candidate win the 2026 FL-11 House election by 0%-3%?",
+    "ts": "2026-10-30T18:07:19.705619",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3390100",
+    "pregunta": "Will the Democratic Party candidate win the 2026 AL-07 House election by 30%-35%?",
+    "ts": "2026-10-30T18:07:20.745759",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3390099",
+    "pregunta": "Will the Democratic Party candidate win the 2026 AL-07 House election by 35%-40%?",
+    "ts": "2026-10-30T18:07:21.782790",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3390101",
+    "pregunta": "Will the Democratic Party candidate win the 2026 AL-07 House election by 25%-30%?",
+    "ts": "2026-10-30T18:07:22.817187",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523223",
+    "pregunta": "Will the Republican Party candidate win the 2026 WI-08 House election by 0%-3%?",
+    "ts": "2026-10-30T18:07:23.851143",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3523221",
+    "pregunta": "Will the Republican Party candidate win the 2026 WI-08 House election by 6%-9%?",
+    "ts": "2026-10-30T18:07:24.933087",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3518625",
+    "pregunta": "Will the Republican Party candidate win the 2026 NC-07 House election by 12%-15%?",
+    "ts": "2026-10-30T18:07:26.069829",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x54dbe14d342f129be293df83a12515065b6c0174",
+    "whale_signal": "COMPRAR NO"
+  }
+]
