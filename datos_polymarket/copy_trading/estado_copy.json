@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 2056.87,
-  "capital_en_riesgo": 140.71,
-  "n_ciclos": 43016,
-  "ultima_corrida": "2026-10-29 21:27",
+  "capital_actual": 2076.61,
+  "capital_en_riesgo": 119.19,
+  "n_ciclos": 43017,
+  "ultima_corrida": "2026-10-29 21:36",
   "n_tp": 1190,
-  "n_sl": 816,
+  "n_sl": 817,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 69.35,
-    "capital_en_riesgo": 18.44,
+    "capital_actual": 72.1,
+    "capital_en_riesgo": 15.44,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 651,
-    "n_sl": 456,
+    "n_sl": 457,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-28",
@@ -71,7 +71,7 @@
         "pregunta": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.4025,
-        "precio_actual": 0.399,
+        "precio_actual": 0.398,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.44,
@@ -80,26 +80,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x254227c583a07319c2e183604774576575d8d2bcc83f3c76229bd4996deec583"
-      },
-      {
-        "fecha_entrada": "2026-10-29",
-        "fecha_entrada_dt": "2026-10-29 17:56",
-        "target_wallet": "0xda9126becc96be3598ddd05c4fc06f4093759ffd",
-        "market_id": "5686978",
-        "condition_id": "0x59ddc2932f49564467e41975f22552c5e73a9517a31593a97125b9c0e9040632",
-        "token_id": "4420109122269961903838377988801016459754342710438343956822807478810847811648",
-        "pregunta": "US x Iran ceasefire continues through November 22?",
-        "outcome": "No",
-        "precio_token_entrada": 0.665,
-        "precio_actual": 0.61,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x42e059506acf7aa57a8cf6f87d4d579e91fbeb116a4fec2c34ba3850fc7f13e1"
       },
       {
         "fecha_entrada": "2026-10-29",
@@ -22282,6 +22262,26 @@
         "pnl_realizado": 0.16,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x648813601614286d22eada956a031ee9a96745eda5d154fde8c570c159769320"
+      },
+      {
+        "fecha_entrada": "2026-10-29",
+        "fecha_entrada_dt": "2026-10-29 17:56",
+        "target_wallet": "0xda9126becc96be3598ddd05c4fc06f4093759ffd",
+        "market_id": "5686978",
+        "condition_id": "0x59ddc2932f49564467e41975f22552c5e73a9517a31593a97125b9c0e9040632",
+        "token_id": "4420109122269961903838377988801016459754342710438343956822807478810847811648",
+        "pregunta": "US x Iran ceasefire continues through November 22?",
+        "outcome": "No",
+        "precio_token_entrada": 0.665,
+        "precio_actual": 0.61,
+        "precio_cierre": 0.61,
+        "pct_cambio": -0.0827,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-29 21:36",
+        "pnl_realizado": -0.25,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x42e059506acf7aa57a8cf6f87d4d579e91fbeb116a4fec2c34ba3850fc7f13e1"
       }
     ]
   }
