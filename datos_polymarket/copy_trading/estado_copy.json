@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 2057.04,
-  "capital_en_riesgo": 180.55,
-  "n_ciclos": 43263,
-  "ultima_corrida": "2026-10-31 14:48",
-  "n_tp": 1213,
+  "capital_actual": 2076.67,
+  "capital_en_riesgo": 160.92,
+  "n_ciclos": 43264,
+  "ultima_corrida": "2026-10-31 14:55",
+  "n_tp": 1214,
   "n_sl": 832,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 69.57,
-    "capital_en_riesgo": 25.0,
+    "capital_actual": 72.57,
+    "capital_en_riesgo": 22.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 672,
+    "n_tp": 673,
     "n_sl": 468,
     "posiciones_abiertas": [
       {
@@ -160,26 +160,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x1811dd5dca2d81d573ef6c71725d0fd739effa9f78f615bc2d6233f86a3aa265"
-      },
-      {
-        "fecha_entrada": "2026-10-31",
-        "fecha_entrada_dt": "2026-10-31 08:48",
-        "target_wallet": "0xf28ff4697bc86297e75460d27c35bb3b66090327",
-        "market_id": "562793",
-        "condition_id": "0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3",
-        "token_id": "113287701564209339913693347405685749986285999146352375265161592243948562084773",
-        "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm el",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.715,
-        "precio_actual": 0.715,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xd07980356ef181abbcba794d7481a2a0fad8f4ff054121dcad67a9e05ede00d4"
       }
     ],
     "historial_cerradas": [
@@ -22982,6 +22962,26 @@
         "pnl_realizado": 0.12,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x0e55feb729b5ed3360a7f2b1cec14d1749a724c7db7cf26ab06d51ee9c94f08c"
+      },
+      {
+        "fecha_entrada": "2026-10-31",
+        "fecha_entrada_dt": "2026-10-31 08:48",
+        "target_wallet": "0xf28ff4697bc86297e75460d27c35bb3b66090327",
+        "market_id": "562793",
+        "condition_id": "0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3",
+        "token_id": "113287701564209339913693347405685749986285999146352375265161592243948562084773",
+        "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm el",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.715,
+        "precio_actual": 0.715,
+        "precio_cierre": 0.715,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-31 14:55",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xd07980356ef181abbcba794d7481a2a0fad8f4ff054121dcad67a9e05ede00d4"
       }
     ]
   }
