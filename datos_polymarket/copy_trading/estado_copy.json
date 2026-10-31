@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1855.29,
-  "capital_en_riesgo": 364.57,
-  "n_ciclos": 43153,
-  "ultima_corrida": "2026-10-30 20:19",
-  "n_tp": 1196,
+  "capital_actual": 1876.74,
+  "capital_en_riesgo": 343.12,
+  "n_ciclos": 43154,
+  "ultima_corrida": "2026-10-30 20:28",
+  "n_tp": 1197,
   "n_sl": 823,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 37.19,
-    "capital_en_riesgo": 52.91,
+    "capital_actual": 40.19,
+    "capital_en_riesgo": 49.91,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 657,
+    "n_tp": 658,
     "n_sl": 462,
     "posiciones_abiertas": [
       {
@@ -151,7 +151,7 @@
         "pregunta": "Will Ukraine re-enter Uspenivka by December 31?",
         "outcome": "No",
         "precio_token_entrada": 0.705,
-        "precio_actual": 0.78,
+        "precio_actual": 0.785,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xe4db92b1311c8f77bd271a58d873dc905d3e5be6157f389c5b43a2a244e19eae"
-      },
-      {
-        "fecha_entrada": "2026-10-30",
-        "fecha_entrada_dt": "2026-10-30 20:18",
-        "target_wallet": "0x4959175440b8f38229b32f2f036057f6893ea6f5",
-        "market_id": "1059066",
-        "condition_id": "0xbfc776a7f419fdc9bec5f026cb6bd115db75e22664f5d99873e4c330676015f8",
-        "token_id": "71142357229322422344089572678224125547687709803011207827324848262016351952627",
-        "pregunta": "Will a team from LCK (South Korea) win LoL Worlds 2026?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.815,
-        "precio_actual": 0.815,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xa878fe8b8b372b89f437e906fc1da77e807138fecb952514bc5354f65bf090da"
       }
     ],
     "historial_cerradas": [
@@ -22722,6 +22702,26 @@
         "pnl_realizado": -0.04,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x81717a59772c51ca2e85dcec2a995fc16ac59b74d7f067f3d4959340c78e2200"
+      },
+      {
+        "fecha_entrada": "2026-10-30",
+        "fecha_entrada_dt": "2026-10-30 20:18",
+        "target_wallet": "0x4959175440b8f38229b32f2f036057f6893ea6f5",
+        "market_id": "1059066",
+        "condition_id": "0xbfc776a7f419fdc9bec5f026cb6bd115db75e22664f5d99873e4c330676015f8",
+        "token_id": "71142357229322422344089572678224125547687709803011207827324848262016351952627",
+        "pregunta": "Will a team from LCK (South Korea) win LoL Worlds 2026?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.815,
+        "precio_actual": 0.815,
+        "precio_cierre": 0.815,
+        "pct_cambio": 0.0,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-30 20:28",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xa878fe8b8b372b89f437e906fc1da77e807138fecb952514bc5354f65bf090da"
       }
     ]
   }
