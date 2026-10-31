@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1770.32,
-  "capital_en_riesgo": 451.9,
+  "capital_actual": 1795.81,
+  "capital_en_riesgo": 426.9,
   "n_ciclos": 43247,
-  "ultima_corrida": "2026-10-31 12:04",
-  "n_tp": 1203,
+  "ultima_corrida": "2026-10-31 12:09",
+  "n_tp": 1204,
   "n_sl": 830,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 33.99,
-    "capital_en_riesgo": 58.0,
+    "capital_actual": 37.06,
+    "capital_en_riesgo": 55.0,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 664,
+    "n_tp": 665,
     "n_sl": 466,
     "posiciones_abiertas": [
       {
@@ -131,7 +131,7 @@
         "pregunta": "Will ZywOo reach 36 HLTV MVP awards by December 31, 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.7945,
-        "precio_actual": 0.893,
+        "precio_actual": 0.8925,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -200,26 +200,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x8fde426d23b72dc97b1d1f13ef7a17950d2c4dbd8dd9a2ef39db77569f2788b9"
-      },
-      {
-        "fecha_entrada": "2026-10-30",
-        "fecha_entrada_dt": "2026-10-30 21:31",
-        "target_wallet": "0x955c9661bf6e010beff0ba896a49f715a8c8990f",
-        "market_id": "6016014",
-        "condition_id": "0xfdaeb3750d55aa824cae3ac3636a0ca3d78e78bde3f7134a0ba41044b012a617",
-        "token_id": "94678034369451760406023197587747704418908694216956184952684548905377628741185",
-        "pregunta": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.715,
-        "precio_actual": 0.729,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 3.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x02e62796308e067e18f8d10bb133a131dd633f657c0fc1f9faa7b036958cb76b"
       },
       {
         "fecha_entrada": "2026-10-31",
@@ -371,7 +351,7 @@
         "pregunta": "Will 1win launch a token by October 31, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.657,
-        "precio_actual": 0.861,
+        "precio_actual": 0.877,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.0,
@@ -22982,6 +22962,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xfd0e9d5d567f764be3f1e583ba09a6bd9ec6990f70f0da9f0b06d2adfd5c6783"
+      },
+      {
+        "fecha_entrada": "2026-10-30",
+        "fecha_entrada_dt": "2026-10-30 21:31",
+        "target_wallet": "0x955c9661bf6e010beff0ba896a49f715a8c8990f",
+        "market_id": "6016014",
+        "condition_id": "0xfdaeb3750d55aa824cae3ac3636a0ca3d78e78bde3f7134a0ba41044b012a617",
+        "token_id": "94678034369451760406023197587747704418908694216956184952684548905377628741185",
+        "pregunta": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.715,
+        "precio_actual": 0.7315,
+        "precio_cierre": 0.7315,
+        "pct_cambio": 0.0231,
+        "monto_usdc": 3.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-10-31 12:09",
+        "pnl_realizado": 0.07,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x02e62796308e067e18f8d10bb133a131dd633f657c0fc1f9faa7b036958cb76b"
       }
     ]
   }
