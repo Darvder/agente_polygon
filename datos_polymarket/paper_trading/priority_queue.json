@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6016014",
+    "pregunta": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
+    "ts": "2026-10-31T17:06:50.582213",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1284082",
+    "pregunta": "Will the Democratic Party win the NC-13 House seat?",
+    "ts": "2026-10-31T17:06:51.604571",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5939179",
+    "pregunta": "Will Gadi Eizenkot receive the first mandate to form a government after the 2026 Israeli election?",
+    "ts": "2026-10-31T17:06:52.629283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  }
+]
