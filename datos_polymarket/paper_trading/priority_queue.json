@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "630806",
+    "pregunta": "Will the Republicans win the Michigan Senate race in 2026?",
+    "ts": "2026-11-01T13:18:54.848325",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x64c8ec47e1f5a367f234a74f8176d805e87173ce",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630805",
+    "pregunta": "Will the Democrats win the Michigan Senate race in 2026?",
+    "ts": "2026-11-01T13:18:55.885378",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x64c8ec47e1f5a367f234a74f8176d805e87173ce",
+    "whale_signal": "COMPRAR NO"
+  }
+]
