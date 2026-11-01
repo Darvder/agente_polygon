@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "630772",
+    "pregunta": "Will the Democrats win the Maine Senate race in 2026?",
+    "ts": "2026-11-01T15:07:21.916029",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x926e426171c55ab724ea33d180167d72eafbc009",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562828",
+    "pregunta": "2026 Balance of Power: D Senate, D House",
+    "ts": "2026-11-01T15:07:22.969806",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x926e426171c55ab724ea33d180167d72eafbc009",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "634976",
+    "pregunta": "Will Mary Peltola win the Alaska Senate race in 2026?",
+    "ts": "2026-11-01T15:07:24.018830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x926e426171c55ab724ea33d180167d72eafbc009",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630805",
+    "pregunta": "Will the Democrats win the Michigan Senate race in 2026?",
+    "ts": "2026-11-01T15:07:25.074122",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x926e426171c55ab724ea33d180167d72eafbc009",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630963",
+    "pregunta": "Will the Democrats win the Texas Senate race in 2026?",
+    "ts": "2026-11-01T15:07:26.129522",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x926e426171c55ab724ea33d180167d72eafbc009",
+    "whale_signal": "COMPRAR NO"
+  }
+]
