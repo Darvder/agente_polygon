@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "6446444",
+    "pregunta": "Will the highest temperature in Beijing be 18\u00b0C on November 2?",
+    "ts": "2026-11-01T09:35:55.250212",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xba9d9001d2e070623395ea84c500e09e2bb546ef",
+    "whale_signal": "COMPRAR NO"
+  }
+]
