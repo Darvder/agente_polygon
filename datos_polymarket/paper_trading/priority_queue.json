@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6205302",
+    "pregunta": "Will the price of Bitcoin be between $76,000 and $78,000 on November 1?",
+    "ts": "2026-11-01T01:28:06.090396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6205333",
+    "pregunta": "Will the price of Ethereum be between $2,300 and $2,400 on November 1?",
+    "ts": "2026-11-01T01:28:07.217167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
