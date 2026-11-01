@@ -1,34 +1,18 @@
 [
   {
-    "id": "4906128",
-    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
-    "ts": "2026-11-01T06:16:38.019064",
+    "id": "1194643",
+    "pregunta": "Will Iliana Iotova win the next Bulgarian presidential election?",
+    "ts": "2026-11-01T06:29:46.610806",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e7296fc4776144f60db9a5943ff2051696599c4",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "630963",
-    "pregunta": "Will the Democrats win the Texas Senate race in 2026?",
-    "ts": "2026-11-01T06:16:39.077816",
+    "id": "629557",
+    "pregunta": "Will the Democrats win the Ohio governor race in 2026?",
+    "ts": "2026-11-01T06:29:47.634289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e7296fc4776144f60db9a5943ff2051696599c4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "630805",
-    "pregunta": "Will the Democrats win the Michigan Senate race in 2026?",
-    "ts": "2026-11-01T06:16:40.132575",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e7296fc4776144f60db9a5943ff2051696599c4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "562793",
-    "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-    "ts": "2026-11-01T06:16:41.171325",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9e7296fc4776144f60db9a5943ff2051696599c4",
+    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
     "whale_signal": "COMPRAR NO"
   }
 ]
