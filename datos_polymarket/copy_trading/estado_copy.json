@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1775.62,
-  "capital_en_riesgo": 466.37000000000006,
-  "n_ciclos": 43457,
-  "ultima_corrida": "2026-11-01 23:19",
+  "capital_actual": 1796.94,
+  "capital_en_riesgo": 441.37,
+  "n_ciclos": 43458,
+  "ultima_corrida": "2026-11-01 23:29",
   "n_tp": 1223,
-  "n_sl": 835,
+  "n_sl": 836,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 37.06,
-    "capital_en_riesgo": 60.59,
+    "capital_actual": 40.47,
+    "capital_en_riesgo": 56.59,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 3.0,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 680,
-    "n_sl": 469,
+    "n_sl": 470,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-10-29",
@@ -231,7 +231,7 @@
         "pregunta": "Will the Democratic Party candidate win the 2026 Texas Senate election",
         "outcome": "Yes",
         "precio_token_entrada": 0.245,
-        "precio_actual": 0.34,
+        "precio_actual": 0.335,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.59,
@@ -280,26 +280,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xe384428da73851f7737f04693051c1979b15f7d319468134cad80cadfc1438ec"
-      },
-      {
-        "fecha_entrada": "2026-10-31",
-        "fecha_entrada_dt": "2026-10-31 21:28",
-        "target_wallet": "0x277e6718cdf00f4f887d17589895ae031a337d32",
-        "market_id": "3865960",
-        "condition_id": "0x6d7203b2161a636a6ad554a986400e29411aecfdb51f91416a0ef9f7b6685e3b",
-        "token_id": "26181023444847865740144968881453381639052456965503182671034643115973725837732",
-        "pregunta": "Will Bitcoin dip to $70,000 by December 31, 2026?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.475,
-        "precio_actual": 0.405,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.0,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x6066a95850b2191f5e519fd9b5ccfaa59c488de796d7507beb4ab445b71a8710"
       },
       {
         "fecha_entrada": "2026-11-01",
@@ -23362,6 +23342,26 @@
         "pnl_realizado": 0.89,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xb0d94f58e8e8bc1e909f00bb69126692518c3185d210376334a4dca5d6e55337"
+      },
+      {
+        "fecha_entrada": "2026-10-31",
+        "fecha_entrada_dt": "2026-10-31 21:28",
+        "target_wallet": "0x277e6718cdf00f4f887d17589895ae031a337d32",
+        "market_id": "3865960",
+        "condition_id": "0x6d7203b2161a636a6ad554a986400e29411aecfdb51f91416a0ef9f7b6685e3b",
+        "token_id": "26181023444847865740144968881453381639052456965503182671034643115973725837732",
+        "pregunta": "Will Bitcoin dip to $70,000 by December 31, 2026?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.475,
+        "precio_actual": 0.405,
+        "precio_cierre": 0.405,
+        "pct_cambio": -0.1474,
+        "monto_usdc": 4.0,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-01 23:29",
+        "pnl_realizado": -0.59,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x6066a95850b2191f5e519fd9b5ccfaa59c488de796d7507beb4ab445b71a8710"
       }
     ]
   }
