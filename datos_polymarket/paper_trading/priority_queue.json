@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-02T15:37:54.656271",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3e616d35bf0a16dbc2ba12fa394b198a4cee089f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3409450",
+    "pregunta": "Will Democrats sweep the Texas Senate and Governor elections?",
+    "ts": "2026-11-02T15:37:56.645631",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06b7cab12a5ac745c07e9dd552b165f48bf1c135",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1284671",
+    "pregunta": "Will the Republican Party win the SC-01 House seat?",
+    "ts": "2026-11-02T15:37:57.720804",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06b7cab12a5ac745c07e9dd552b165f48bf1c135",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1284081",
+    "pregunta": "Will the Republican Party win the NC-13 House seat?",
+    "ts": "2026-11-02T15:37:58.760063",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06b7cab12a5ac745c07e9dd552b165f48bf1c135",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "562828",
+    "pregunta": "2026 Balance of Power: D Senate, D House",
+    "ts": "2026-11-02T15:37:59.806580",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06b7cab12a5ac745c07e9dd552b165f48bf1c135",
+    "whale_signal": "COMPRAR NO"
+  }
+]
