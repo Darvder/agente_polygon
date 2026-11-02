@@ -1,42 +1,10 @@
 [
   {
-    "id": "562793",
-    "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-    "ts": "2026-11-02T09:28:12.079403",
+    "id": "4570988",
+    "pregunta": "Will the Bank of Russia announce no change at the December 2026 meeting?",
+    "ts": "2026-11-02T09:41:41.026727",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0840f6d2f4c4e625db8c43b2fd7b0d54678e9746",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "630806",
-    "pregunta": "Will the Republicans win the Michigan Senate race in 2026?",
-    "ts": "2026-11-02T09:28:14.201919",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x46d8634b4f7df1aeffc77306fb9417a9129db638",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "630964",
-    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
-    "ts": "2026-11-02T09:28:15.225556",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x46d8634b4f7df1aeffc77306fb9417a9129db638",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "634974",
-    "pregunta": "Will Dan Sullivan win the Alaska Senate race in 2026?",
-    "ts": "2026-11-02T09:28:16.248295",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x46d8634b4f7df1aeffc77306fb9417a9129db638",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "562830",
-    "pregunta": "2026 Balance of Power: R Senate, D House",
-    "ts": "2026-11-02T09:28:17.272434",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x46d8634b4f7df1aeffc77306fb9417a9129db638",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
