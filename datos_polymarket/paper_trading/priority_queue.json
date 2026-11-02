@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4570988",
+    "pregunta": "Will the Bank of Russia announce no change at the December 2026 meeting?",
+    "ts": "2026-11-02T09:17:19.089599",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6366107",
+    "pregunta": "Will the next Fable model (5.2+) debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-02T09:17:20.299718",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139754",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1520 by June 30, 2027?",
+    "ts": "2026-11-02T09:17:21.318588",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
