@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "630964",
+    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
+    "ts": "2026-11-02T16:28:30.578237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "630773",
+    "pregunta": "Will the Republicans win the Maine Senate race in 2026?",
+    "ts": "2026-11-02T16:28:31.641529",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
