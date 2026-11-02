@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6274257",
+    "pregunta": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+    "ts": "2026-11-02T01:17:06.453307",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9df09287717a405d2ecf2cc2b859ec2573e1587a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "634892",
+    "pregunta": "Will the Republicans win the Nebraska Senate race in 2026?",
+    "ts": "2026-11-02T01:17:08.510440",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4959175440b8f38229b32f2f036057f6893ea6f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-02T01:17:09.560845",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4959175440b8f38229b32f2f036057f6893ea6f5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
