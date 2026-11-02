@@ -1,18 +1,1 @@
-[
-  {
-    "id": "6507378",
-    "pregunta": "Will Bitcoin reach $80,000 in November?",
-    "ts": "2026-11-01T19:08:44.837150",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f145575cb31aa906195799b371b476137f0c52a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3387867",
-    "pregunta": "Will Ethereum dip to $1,750 by December 31, 2026?",
-    "ts": "2026-11-01T19:08:47.794559",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
