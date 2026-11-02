@@ -1,10 +1,18 @@
 [
   {
-    "id": "562793",
-    "pregunta": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-    "ts": "2026-11-02T14:49:50.587994",
+    "id": "630964",
+    "pregunta": "Will the Republicans win the Texas Senate race in 2026?",
+    "ts": "2026-11-02T14:58:10.734605",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf86aeab993eee4c3f2cf2ca9c26c902c81f9f802",
+    "whale_wallet": "0x122cdd9db64fd8dc3ebab813218e3effe21f821f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "629557",
+    "pregunta": "Will the Democrats win the Ohio governor race in 2026?",
+    "ts": "2026-11-02T14:58:11.784487",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x122cdd9db64fd8dc3ebab813218e3effe21f821f",
     "whale_signal": "COMPRAR NO"
   }
 ]
