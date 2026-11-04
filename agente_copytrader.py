@@ -230,8 +230,12 @@ def obtener_o_iniciar_micro(estado):
     # Parámetros actualizados para cartera de 18 posiciones concurrentes
     micro["max_positions"] = 18
     micro["max_positions_per_wallet"] = 3
-    micro["min_capital_per_trade"] = 3.0
-    micro["max_capital_per_trade"] = 4.0
+    # Escalado automático proporcional al capital acumulado (Interés Compuesto)
+    cap_inicial = float(micro.get("capital_inicial", 70.0))
+    cap_total = float(micro.get("capital_actual", 70.0)) + float(micro.get("capital_en_riesgo", 0.0))
+    escala = max(0.5, cap_total / cap_inicial)
+    micro["min_capital_per_trade"] = round(3.0 * escala, 2)
+    micro["max_capital_per_trade"] = round(4.0 * escala, 2)
     micro["risk_pct_per_trade"] = 0.050
     micro["take_profit_pct"] = 0.60
     micro["stop_loss_pct"] = -0.50
@@ -244,18 +248,22 @@ def obtener_o_iniciar_micro(estado):
 def calcular_tamano_posicion_micro(micro, precio_token, slippage, max_slippage, trade_whale):
     """
     Calcula el tamaño de posición óptimo dinámico para el Agente Micro ($70).
-    Ajustado entre 3.00 y 4.00 USDC (base ~$3.50), aplicando los mismos factores
+    Escala automáticamente el rango según el capital acumulado (interés compuesto),
+    manteniendo la base de ~5.0% de riesgo por trade y aplicando los factores
     cuantitativos de asimetría de pago, fricción de slippage y convicción de ballena.
     """
     capital_actual = float(micro.get("capital_actual", 70.0))
     capital_riesgo = float(micro.get("capital_en_riesgo", 0.0))
     equity_total = max(30.0, capital_actual + capital_riesgo)
 
-    min_cap = float(micro.get("min_capital_per_trade", 3.0))
-    max_cap = float(micro.get("max_capital_per_trade", 4.0))
+    # Escalado automático proporcional al equity acumulado
+    cap_inicial = float(micro.get("capital_inicial", 70.0))
+    escala = max(0.5, equity_total / cap_inicial)
+    min_cap = round(3.0 * escala, 2)
+    max_cap = round(4.0 * escala, 2)
     risk_pct = float(micro.get("risk_pct_per_trade", 0.050))
 
-    # 1. Base proporcional (~$3.50 sobre $70)
+    # 1. Base proporcional (5.0% del equity total)
     tamano_base = equity_total * risk_pct
 
     # 2. Factor de asimetría retorno/riesgo
