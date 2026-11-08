@@ -1,42 +1,10 @@
 [
   {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-08T17:07:37.412989",
+    "id": "6833625",
+    "pregunta": "Will Bitcoin dip to $73,000 on November 8?",
+    "ts": "2026-11-08T17:21:46.371909",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831496",
-    "pregunta": "US x Iran Effective Ceasefire by November 30?",
-    "ts": "2026-11-08T17:07:38.432250",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-08T17:07:39.461238",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3749286",
-    "pregunta": "Will Hyperliquid hit $100 by December 31, 2026?",
-    "ts": "2026-11-08T17:07:41.351348",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4f315c1f2fcfbcbccc31fa28ae086babf309efa3",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4397022",
-    "pregunta": "Will Gen.G win Worlds 2026?",
-    "ts": "2026-11-08T17:07:43.218521",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa19df895ec6624b12d86ca3036648b85825f3909",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
