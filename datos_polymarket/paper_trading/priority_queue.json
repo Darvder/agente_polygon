@@ -1,10 +1,26 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-08T12:41:35.553601",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-08T12:49:30.948805",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x11a255b1c94c20ba707b88b72e17cc52f5d617ae",
+    "whale_wallet": "0xf42f4a4211d058cd109d503cf13f7bcdfc82a6a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367372",
+    "pregunta": "Israel x Iran ceasefire continues through November 22?",
+    "ts": "2026-11-08T12:49:32.126776",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf42f4a4211d058cd109d503cf13f7bcdfc82a6a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-08T12:49:33.155781",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf42f4a4211d058cd109d503cf13f7bcdfc82a6a7",
     "whale_signal": "COMPRAR NO"
   }
 ]
