@@ -1,18 +1,42 @@
 [
   {
-    "id": "3865999",
-    "pregunta": "Will Ethereum dip to $2,000 by December 31, 2026?",
-    "ts": "2026-11-08T04:17:08.603860",
+    "id": "6367372",
+    "pregunta": "Israel x Iran ceasefire continues through November 22?",
+    "ts": "2026-11-08T04:30:07.133031",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x01299eda022e674a25366999bd4444c7715ef939",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507421",
-    "pregunta": "Will Ethereum dip to $2,000 in November?",
-    "ts": "2026-11-08T04:17:09.639453",
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-08T04:30:08.161067",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x01299eda022e674a25366999bd4444c7715ef939",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-08T04:30:09.202853",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-08T04:30:10.235479",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-08T04:30:13.016189",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf29dbb8a92efb21e55094f0892a0a5d28b8fadd3",
     "whale_signal": "COMPRAR NO"
   }
 ]
