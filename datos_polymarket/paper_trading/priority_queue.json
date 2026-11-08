@@ -1,10 +1,26 @@
 [
   {
-    "id": "6731228",
-    "pregunta": "Will Kai Cenat finish his GTA marathon by November 10?",
-    "ts": "2026-11-08T05:40:34.600655",
+    "id": "6367372",
+    "pregunta": "Israel x Iran ceasefire continues through November 22?",
+    "ts": "2026-11-08T05:51:22.598012",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x14b259dec5e64621e22e388d90861cf3d5b1f1e3",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-08T05:51:23.655092",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-08T05:51:24.733502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
     "whale_signal": "COMPRAR NO"
   }
 ]
