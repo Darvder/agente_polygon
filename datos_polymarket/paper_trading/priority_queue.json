@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2293862",
+    "pregunta": "Callum Turner announced as next James Bond?",
+    "ts": "2026-11-08T07:57:21.794152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6cffe15b87a42bd7c0a0b95790aba11cf99b45ac",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2293877",
+    "pregunta": "Robert Pattinson announced as next James Bond?",
+    "ts": "2026-11-08T07:57:22.837393",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6cffe15b87a42bd7c0a0b95790aba11cf99b45ac",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2293863",
+    "pregunta": "Jack Lowden announced as next James Bond?",
+    "ts": "2026-11-08T07:57:23.878566",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6cffe15b87a42bd7c0a0b95790aba11cf99b45ac",
+    "whale_signal": "COMPRAR NO"
+  }
+]
