@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6751201",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11?",
+    "ts": "2026-11-08T15:36:33.481467",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x23422c087ee194b4d0453414156aa4a89f4edd81",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6803933",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 2:59 PM ET?",
+    "ts": "2026-11-08T15:36:34.538939",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x23422c087ee194b4d0453414156aa4a89f4edd81",
+    "whale_signal": "COMPRAR NO"
+  }
+]
