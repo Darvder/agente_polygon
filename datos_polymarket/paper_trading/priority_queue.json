@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6777883",
+    "pregunta": "Will the highest temperature in San Francisco be between 70-71\u00b0F on November 9?",
+    "ts": "2026-11-08T02:18:13.345456",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6775276",
+    "pregunta": "Will the highest temperature in Dallas be between 72-73\u00b0F on November 9?",
+    "ts": "2026-11-08T02:18:14.499272",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
