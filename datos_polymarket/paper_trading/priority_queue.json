@@ -1,26 +1,18 @@
 [
   {
-    "id": "6507421",
-    "pregunta": "Will Ethereum dip to $2,000 in November?",
-    "ts": "2026-11-08T17:37:00.934028",
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-08T17:49:17.777181",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
+    "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507381",
-    "pregunta": "Will Bitcoin dip to $72,500 in November?",
-    "ts": "2026-11-08T17:37:01.978137",
+    "id": "6367372",
+    "pregunta": "Israel x Iran ceasefire continues through November 22?",
+    "ts": "2026-11-08T17:49:19.886143",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3377554",
-    "pregunta": "Will Paul Giamatti win Best Supporting Actor at the 99th Academy Awards?",
-    "ts": "2026-11-08T17:37:04.875987",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe33825c663c81ad37d7e2f57ebff26799a0064ad",
+    "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
     "whale_signal": "COMPRAR NO"
   }
 ]
