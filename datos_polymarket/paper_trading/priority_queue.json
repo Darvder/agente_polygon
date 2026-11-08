@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-08T05:17:50.475095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4397033",
+    "pregunta": "Will Bilibili Gaming win Worlds 2026?",
+    "ts": "2026-11-08T05:17:52.305033",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
