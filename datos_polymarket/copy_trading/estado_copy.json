@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 2259.27,
-  "capital_en_riesgo": 0.0,
-  "n_ciclos": 44284,
-  "ultima_corrida": "2026-11-07 20:06",
+  "capital_actual": 2240.21,
+  "capital_en_riesgo": 19.06,
+  "n_ciclos": 44285,
+  "ultima_corrida": "2026-11-07 20:15",
   "n_tp": 1244,
   "n_sl": 845,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 100.31,
-    "capital_en_riesgo": 0.0,
+    "capital_actual": 96.01,
+    "capital_en_riesgo": 4.3,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 4.3,
@@ -20,7 +20,28 @@
     "stop_loss_pct": -0.5,
     "n_tp": 698,
     "n_sl": 478,
-    "posiciones_abiertas": [],
+    "posiciones_abiertas": [
+      {
+        "fecha_entrada": "2026-11-07",
+        "fecha_entrada_dt": "2026-11-07 20:15",
+        "target_wallet": "0x7272c0d9478ef6447f48a20a7db2839a61a4a67d",
+        "market_id": "5765625",
+        "condition_id": "0x8fe2a9b49888f04856aa3d4e754f1fe9e0057fd71d9185240031f72837a62678",
+        "token_id": "90585240135272227271459662294238828093338598606344852190550720006974277047281",
+        "pregunta": "Will PPI YoY be 6.8% or more in October?",
+        "outcome": "No",
+        "precio_token_entrada": 0.71,
+        "precio_actual": 0.71,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 4.3,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0x46f8e637452767a124938ea1b243977ca636ed0ad99cd4e6130ea7c98dff0adf"
+      }
+    ],
     "historial_cerradas": [
       {
         "fecha_entrada": "2026-09-27",

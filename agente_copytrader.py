@@ -149,7 +149,8 @@ DEFAULT_ESTADO = {
 
 def calcular_tamano_posicion_copy(estado, precio_token, slippage, max_slippage, trade_whale, config):
     """
-    Calcula el tamaño de posición óptimo dinámico ajustado por retorno / unidad de riesgo.
+    Calcula el tamaño de posición óptimo dinámico ajustado por retorno / unidad de riesgo para el Agente Macro ($1,000).
+    - Escala automáticamente el rango según el capital acumulado (interés compuesto).
     - Base de riesgo sobre el capital total (equity = efectivo + riesgo).
     - Asimetría de pago (Risk/Reward): beneficia cuotas asimétricas, penaliza cuotas caras con poco upside.
     - Fricción de slippage: reduce el monto si el slippage es alto.
@@ -159,8 +160,11 @@ def calcular_tamano_posicion_copy(estado, precio_token, slippage, max_slippage, 
     capital_riesgo = float(estado.get("capital_en_riesgo", 0.0))
     equity_total = max(100.0, capital_actual + capital_riesgo)
 
-    min_cap = float(config.get("min_capital_per_trade", 8.0))
-    max_cap = float(config.get("max_capital_per_trade", 25.0))
+    # Escalado automático proporcional al equity acumulado (Interés Compuesto)
+    cap_inicial = float(estado.get("capital_inicial", 1000.0))
+    escala = max(0.5, equity_total / cap_inicial)
+    min_cap = round(float(config.get("min_capital_per_trade", 8.0)) * escala, 2)
+    max_cap = round(float(config.get("max_capital_per_trade", 25.0)) * escala, 2)
     risk_pct = float(config.get("risk_pct_per_trade", 0.018))  # ~1.8% del balance total
 
     # 1. Base proporcional de capital
@@ -591,6 +595,14 @@ async def procesar_copy_trading():
             estado["capital_actual"] = round(float(estado.get("capital_actual", 1000.0) + desfase), 2)
             log.info(f"⚖️ [AUDITORÍA MACRO] Contabilidad unificada: Riesgo ajustado a ${monto_riesgo_real} USDC.")
             guardar_estado(estado)
+
+    # Escalado automático proporcional al capital acumulado en Macro (Interés Compuesto)
+    cap_inicial_macro = float(estado.get("capital_inicial", 1000.0))
+    equity_macro = float(estado.get("capital_actual", 1000.0)) + float(estado.get("capital_en_riesgo", 0.0))
+    escala_macro = max(0.5, equity_macro / cap_inicial_macro)
+    min_macro_dyn = round(float(config.get("min_capital_per_trade", 8.0)) * escala_macro, 2)
+    max_macro_dyn = round(float(config.get("max_capital_per_trade", 25.0)) * escala_macro, 2)
+    log.info(f"📈 [INTERÉS COMPUESTO MACRO] Equity: ${equity_macro:,.2f} (Escala: {escala_macro:.2f}x). Rango por orden: ${min_macro_dyn:.2f} a ${max_macro_dyn:.2f} USDC.")
 
     # Inicializar y auditar simulación paralela Micro ($70)
     micro = obtener_o_iniciar_micro(estado)

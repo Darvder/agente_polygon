@@ -30,5 +30,21 @@
     "origen": "whale_copytrader",
     "whale_wallet": "0x413d1ff09fa67c08d9bf295ea4804a26cc02d704",
     "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-07T20:14:57.716549",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1c144e30f405a25f991cbd8baa15d40599090869",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5765625",
+    "pregunta": "Will PPI YoY be 6.8% or more in October?",
+    "ts": "2026-11-07T20:15:00.056691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7272c0d9478ef6447f48a20a7db2839a61a4a67d",
+    "whale_signal": "COMPRAR NO"
   }
 ]
