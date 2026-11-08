@@ -1,10 +1,42 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-08T10:07:35.164788",
+    "id": "6587460",
+    "pregunta": "Will the price of Ethereum be above $2,300 on November 9?",
+    "ts": "2026-11-08T10:17:48.287865",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbd3ca2691c5e39c1085a2c8eb15b4abfea4c52cd",
+    "whale_wallet": "0x301e286fd88abb7cda0a19a24e4dc4823c4db752",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6772964",
+    "pregunta": "Will the highest temperature in Beijing be 12\u00b0C on November 9?",
+    "ts": "2026-11-08T10:17:50.232604",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xba9d9001d2e070623395ea84c500e09e2bb546ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6772963",
+    "pregunta": "Will the highest temperature in Beijing be 11\u00b0C on November 9?",
+    "ts": "2026-11-08T10:17:51.388517",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xba9d9001d2e070623395ea84c500e09e2bb546ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6772864",
+    "pregunta": "Will the highest temperature in Tokyo be 15\u00b0C on November 9?",
+    "ts": "2026-11-08T10:17:53.323750",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x73ee03e69aff55ef0d113ee531ff6f01c77beea9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6772863",
+    "pregunta": "Will the highest temperature in Tokyo be 14\u00b0C on November 9?",
+    "ts": "2026-11-08T10:17:54.394799",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x73ee03e69aff55ef0d113ee531ff6f01c77beea9",
     "whale_signal": "COMPRAR NO"
   }
 ]
