@@ -1,10 +1,18 @@
 [
   {
-    "id": "3585430",
-    "pregunta": "Tesla and SpaceX merger officially announced by December 31, 2027?",
-    "ts": "2026-11-08T02:31:54.042879",
+    "id": "4319441",
+    "pregunta": "Will Anthropic IPO by December 15, 2026?",
+    "ts": "2026-11-08T02:39:38.256700",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_wallet": "0xcaab19659b995951a44cc992447cb2ad5be324dd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-08T02:39:39.456879",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcaab19659b995951a44cc992447cb2ad5be324dd",
     "whale_signal": "COMPRAR NO"
   }
 ]
