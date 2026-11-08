@@ -1,10 +1,26 @@
 [
   {
-    "id": "4867865",
-    "pregunta": "Will no qualifying US-Iran senior diplomatic meeting take place by December 31, 2026?",
-    "ts": "2026-11-08T13:58:38.414491",
+    "id": "6833622",
+    "pregunta": "Will Bitcoin dip to $75,000 on November 8?",
+    "ts": "2026-11-08T14:08:32.016217",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x52c492939debf0a8d42bcadf9b046a49556d0624",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6833748",
+    "pregunta": "Will Ethereum dip to $2,200 on November 8?",
+    "ts": "2026-11-08T14:08:33.186442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1399398",
+    "pregunta": "Will there be between 125m and 130m votes cast in the 2026 U.S. House of Representatives midterm elections?",
+    "ts": "2026-11-08T14:08:35.009054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x072afc0a066adc5b75c989de372adb952268cee6",
     "whale_signal": "COMPRAR NO"
   }
 ]
