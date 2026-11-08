@@ -1,10 +1,42 @@
 [
   {
-    "id": "5401796",
-    "pregunta": "Military action against Saudi Oil Pipeline (East-West) by November 30?",
-    "ts": "2026-11-07T23:38:07.387695",
+    "id": "6777882",
+    "pregunta": "Will the highest temperature in San Francisco be between 68-69\u00b0F on November 9?",
+    "ts": "2026-11-07T23:48:53.852950",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f66aa958734d9d5af35f5f19a276d23e84f3a50",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6775309",
+    "pregunta": "Will the highest temperature in Chicago be between 60-61\u00b0F on November 9?",
+    "ts": "2026-11-07T23:48:55.056164",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6775300",
+    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on November 9?",
+    "ts": "2026-11-07T23:48:56.278923",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6775328",
+    "pregunta": "Will the highest temperature in Houston be between 66-67\u00b0F on November 9?",
+    "ts": "2026-11-07T23:48:57.481123",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6777847",
+    "pregunta": "Will the highest temperature in Seattle be between 56-57\u00b0F on November 9?",
+    "ts": "2026-11-07T23:48:58.681383",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
     "whale_signal": "COMPRAR NO"
   }
 ]
