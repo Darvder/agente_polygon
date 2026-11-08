@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1005344",
+    "pregunta": "Puffpaw FDV above $100M one day after launch?",
+    "ts": "2026-11-07T22:30:09.841283",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1005346",
+    "pregunta": "Puffpaw FDV above $300M one day after launch?",
+    "ts": "2026-11-07T22:30:10.864354",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1005345",
+    "pregunta": "Puffpaw FDV above $200M one day after launch?",
+    "ts": "2026-11-07T22:30:12.077845",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
+    "whale_signal": "COMPRAR NO"
+  }
+]
