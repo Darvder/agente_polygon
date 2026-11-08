@@ -1,18 +1,10 @@
 [
   {
-    "id": "6777883",
-    "pregunta": "Will the highest temperature in San Francisco be between 70-71\u00b0F on November 9?",
-    "ts": "2026-11-08T02:18:13.345456",
+    "id": "3585430",
+    "pregunta": "Tesla and SpaceX merger officially announced by December 31, 2027?",
+    "ts": "2026-11-08T02:31:54.042879",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6775276",
-    "pregunta": "Will the highest temperature in Dallas be between 72-73\u00b0F on November 9?",
-    "ts": "2026-11-08T02:18:14.499272",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
