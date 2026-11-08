@@ -1,26 +1,34 @@
 [
   {
-    "id": "6563895",
-    "pregunta": "Will Ethereum dip to $2,200 November 2-8?",
-    "ts": "2026-11-08T08:22:14.317438",
+    "id": "6685074",
+    "pregunta": "Will MOUZ Win the BLAST Rivals Hong Kong 2026?",
+    "ts": "2026-11-08T08:29:34.705218",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xb2cbf3389906f0cadb8d727bc166cfcc818b2bad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6833622",
-    "pregunta": "Will Bitcoin dip to $75,000 on November 8?",
-    "ts": "2026-11-08T08:22:16.310394",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-08T08:29:37.078023",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_wallet": "0xc672a3046d8d17b61c94a1f93a3172d3aa3aba2b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507383",
-    "pregunta": "Will Bitcoin dip to $67,500 in November?",
-    "ts": "2026-11-08T08:22:18.199009",
+    "id": "6719488",
+    "pregunta": "Will Elon Musk post 65-89 tweets from November 7 to November 9, 2026?",
+    "ts": "2026-11-08T08:29:38.977340",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0x251d896fa1443abdcca009605f340e43dd9ca195",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6719485",
+    "pregunta": "Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?",
+    "ts": "2026-11-08T08:29:40.007815",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x251d896fa1443abdcca009605f340e43dd9ca195",
     "whale_signal": "COMPRAR NO"
   }
 ]
