@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "6773036",
+    "pregunta": "Will the highest temperature in Busan be 14\u00b0C on November 9?",
+    "ts": "2026-11-08T03:20:39.090232",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6772807",
+    "pregunta": "Will the highest temperature in Ankara be 7\u00b0C on November 9?",
+    "ts": "2026-11-08T03:20:40.268479",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6773016",
+    "pregunta": "Will the highest temperature in Moscow be 6\u00b0C on November 9?",
+    "ts": "2026-11-08T03:20:41.445928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6773015",
+    "pregunta": "Will the highest temperature in Moscow be 5\u00b0C on November 9?",
+    "ts": "2026-11-08T03:20:42.628665",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6772884",
+    "pregunta": "Will the highest temperature in Shanghai be 17\u00b0C on November 9?",
+    "ts": "2026-11-08T03:20:43.807932",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6772883",
+    "pregunta": "Will the highest temperature in Shanghai be 16\u00b0C on November 9?",
+    "ts": "2026-11-08T03:20:44.988606",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6745391",
+    "pregunta": "Will the highest temperature in San Francisco be between 70-71\u00b0F on November 8?",
+    "ts": "2026-11-08T03:20:46.167123",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  }
+]
