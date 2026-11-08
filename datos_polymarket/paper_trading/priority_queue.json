@@ -2,17 +2,41 @@
   {
     "id": "6831493",
     "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-08T05:17:50.475095",
+    "ts": "2026-11-08T05:30:58.821040",
     "origen": "whale_copytrader",
     "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4397033",
-    "pregunta": "Will Bilibili Gaming win Worlds 2026?",
-    "ts": "2026-11-08T05:17:52.305033",
+    "id": "6836716",
+    "pregunta": "Over $5M committed to the Mori Finance public sale?",
+    "ts": "2026-11-08T05:31:00.732952",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6836718",
+    "pregunta": "Over $10M committed to the Mori Finance public sale?",
+    "ts": "2026-11-08T05:31:01.852664",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6836721",
+    "pregunta": "Over $20M committed to the Mori Finance public sale?",
+    "ts": "2026-11-08T05:31:02.968103",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-08T05:31:06.038682",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   }
 ]
