@@ -1,18 +1,42 @@
 [
   {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-08T01:34:31.590916",
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-08T01:41:17.964667",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x527798b8dedcee32cdc388af1bf390ed09e8f94c",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3128886",
     "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-08T01:34:32.675906",
+    "ts": "2026-11-08T01:41:18.987731",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x527798b8dedcee32cdc388af1bf390ed09e8f94c",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4599796",
+    "pregunta": "Israeli airspace closed by December 31, 2026?",
+    "ts": "2026-11-08T01:41:20.110643",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-08T01:41:21.799161",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x168600b3805472df67209254c4428b78633f3cd3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "676741",
+    "pregunta": "Will Apple be the largest company in the world by market cap on December 31?",
+    "ts": "2026-11-08T01:41:27.408664",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2173dbe4dc392c1be62434296071c91813b1a09f",
     "whale_signal": "COMPRAR NO"
   }
 ]
