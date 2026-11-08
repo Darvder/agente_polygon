@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-08T12:00:06.449404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6597870",
+    "pregunta": "Will Jon Ossoff announce a presidential run by June 30, 2027?",
+    "ts": "2026-11-08T12:00:09.301143",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3347348",
+    "pregunta": "Will Jon Ossoff announce a Presidential run before 2028?",
+    "ts": "2026-11-08T12:00:10.519906",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3728733",
+    "pregunta": "Will the Moderate Party (M) be in the next Swedish government?",
+    "ts": "2026-11-08T12:00:11.703539",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
