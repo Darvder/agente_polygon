@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-08T12:20:11.419099",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd39b573bc2aa618c9bc226624e985133c1d109d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6424262",
+    "pregunta": "Israel military action against Iraq by November 30, 2026?",
+    "ts": "2026-11-08T12:20:14.281126",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8fe807aa951e35af53fd0fee36abc303864ce76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6713441",
+    "pregunta": "Israel military action against Lebanon on November 8?",
+    "ts": "2026-11-08T12:20:15.406160",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb8fe807aa951e35af53fd0fee36abc303864ce76",
+    "whale_signal": "COMPRAR NO"
+  }
+]
