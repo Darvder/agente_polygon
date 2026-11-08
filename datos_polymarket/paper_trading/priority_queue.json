@@ -1,10 +1,18 @@
 [
   {
-    "id": "5190565",
-    "pregunta": "Next US-Iran senior diplomatic meeting by November 30, 2026?",
-    "ts": "2026-11-08T10:50:18.561206",
+    "id": "6507376",
+    "pregunta": "Will Bitcoin reach $85,000 in November?",
+    "ts": "2026-11-08T10:59:12.966095",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa832e7afb91c8083d42474faaf05f9abfaf8abf8",
+    "whale_wallet": "0xbb8e35c58195397ee29beee3f2bd3bb326e82bee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507382",
+    "pregunta": "Will Bitcoin dip to $70,000 in November?",
+    "ts": "2026-11-08T10:59:14.153169",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbb8e35c58195397ee29beee3f2bd3bb326e82bee",
     "whale_signal": "COMPRAR NO"
   }
 ]
