@@ -121,7 +121,7 @@ DEFAULT_CONFIG = {
     ],
     "enable_dynamic_whales": True,
     "dynamic_whale_limit": 4,
-    "min_whale_trade_usd": 250.0,
+    "min_whale_trade_usd": 150.0,
     "filter_sports": True,
     "max_positions": 25,
     "max_positions_per_wallet": 4,
@@ -439,6 +439,18 @@ def _get_proxies():
     proxy = os.environ.get("PROXY_URL", "").strip()
     return {"http": proxy, "https": proxy} if proxy else None
 
+def _extraer_activos_cartera(posiciones):
+    """Extrae un dict {token_id: shares} de las posiciones abiertas del trader, compatible con Data API v1 y v2."""
+    activos = {}
+    for p in (posiciones or []):
+        t_id = str(p.get("token_id") or p.get("asset") or "")
+        if not t_id or t_id == "None":
+            continue
+        sz = float(p.get("current_size") or p.get("size") or p.get("total_size") or 0.0)
+        if sz > 0:
+            activos[t_id] = sz
+    return activos
+
 def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_trade_usd=250.0):
     """
     Descubre dinámicamente billeteras ballena de alta convicción:
@@ -446,7 +458,7 @@ def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_
     2. Excluye billeteras en blacklist oficial y aquellas con P&L negativo acumulado en nuestro libro.
     3. Excluye mercados de micro-temporalidad (5m, 15m updown).
     """
-    url = "https://data-api.polymarket.com/trades"
+    url = "https://data-api.polymarket.com/v2/trades"
     p = _get_proxies()
     blacklist_set = set(w.lower() for w in (blacklist or []))
 
@@ -473,9 +485,10 @@ def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_
                     losing_wallets.add(w_str)
 
     try:
-        r = requests.get(url, params={"limit": 100}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
-        if r.status_code == 200 and isinstance(r.json(), list):
-            trades = r.json()
+        r = requests.get(url, params={"limit": 1000}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
+        if r.status_code == 200:
+            res = r.json()
+            trades = res.get("data", []) if isinstance(res, dict) else (res if isinstance(res, list) else [])
             volumen_por_wallet = {}
             for t in trades:
                 title = t.get("title") or ""
@@ -487,7 +500,7 @@ def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_
                 # Descartar apostadores deportivos y esports del descubrimiento de ballenas
                 if es_mercado_deportivo_o_esports(title, slug):
                     continue
-                w = t.get("proxyWallet") or t.get("user")
+                w = t.get("proxy_wallet") or t.get("proxyWallet") or t.get("user")
                 if not w or not isinstance(w, str) or not w.startswith("0x"):
                     continue
                 w_lower = w.lower()
@@ -506,27 +519,29 @@ def obtener_ballenas_dinamicas(limite=4, blacklist=None, df_historial=None, min_
     return []
 
 def obtener_transacciones_usuario(wallet):
-    """Consulta las transacciones de un usuario en la data-api (limitado a las 20 más recientes)."""
+    """Consulta las transacciones de un usuario en la data-api v2 (limitado a las 20 más recientes)."""
     time.sleep(0.2)
-    url = f"https://data-api.polymarket.com/trades"
+    url = "https://data-api.polymarket.com/v2/trades"
     p = _get_proxies()
     try:
         r = requests.get(url, params={"user": wallet, "limit": 20}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200:
-            return r.json()
+            res = r.json()
+            return res.get("data", []) if isinstance(res, dict) else (res if isinstance(res, list) else [])
     except Exception as e:
         log.warning(f"Error consultando trades para wallet {wallet[:10]}: {e}")
     return []
 
 def obtener_posiciones_usuario(wallet):
-    """Consulta la cartera abierta de posiciones del usuario."""
+    """Consulta la cartera abierta de posiciones del usuario en la data-api v2."""
     time.sleep(0.2)
-    url = f"https://data-api.polymarket.com/positions"
+    url = "https://data-api.polymarket.com/v2/positions"
     p = _get_proxies()
     try:
         r = requests.get(url, params={"user": wallet}, headers=DEFAULT_HEADERS, timeout=12, **({"proxies": p} if p else {}))
         if r.status_code == 200:
-            return r.json()
+            res = r.json()
+            return res.get("data", []) if isinstance(res, dict) else (res if isinstance(res, list) else [])
     except Exception as e:
         log.warning(f"Error consultando posiciones para wallet {wallet[:10]}: {e}")
     return []
@@ -608,7 +623,7 @@ async def procesar_copy_trading():
 
         log.info(f"Scouting wallet: {wallet[:15]}...")
         positions_trader = obtener_posiciones_usuario(wallet)
-        active_assets = {str(p.get("asset")): float(p.get("size", 0)) for p in positions_trader if float(p.get("size", 0)) > 0}
+        active_assets = _extraer_activos_cartera(positions_trader)
         wallet_positions_cache[wallet] = active_assets
 
         trades = obtener_transacciones_usuario(wallet)
@@ -619,7 +634,7 @@ async def procesar_copy_trading():
         trades_ordenados = sorted(trades, key=lambda x: x.get("timestamp", 0))
 
         for t in trades_ordenados:
-            tx_hash = t.get("transactionHash")
+            tx_hash = t.get("transaction_hash") or t.get("transactionHash")
             if not tx_hash or tx_hash in cache:
                 continue
 
@@ -648,8 +663,8 @@ async def procesar_copy_trading():
                 continue
 
             side = str(t.get("side")).upper()
-            condition_id = t.get("conditionId")
-            asset_id = str(t.get("asset"))
+            condition_id = t.get("condition_id") or t.get("conditionId")
+            asset_id = str(t.get("token_id") or t.get("asset") or "")
             pregunta = t.get("title", "")
             outcome_trader = t.get("outcome", "")
 
@@ -939,7 +954,7 @@ async def procesar_copy_trading():
                     active_assets_target = wallet_positions_cache[wallet_objetivo]
                 else:
                     positions_trader = obtener_posiciones_usuario(wallet_objetivo)
-                    active_assets_target = {str(p.get("asset")): float(p.get("size", 0)) for p in positions_trader if float(p.get("size", 0)) > 0}
+                    active_assets_target = _extraer_activos_cartera(positions_trader)
                     wallet_positions_cache[wallet_objetivo] = active_assets_target
 
                 mantiene_posicion = asset_id in active_assets_target
@@ -1012,7 +1027,7 @@ async def procesar_copy_trading():
                     active_assets_target_m = wallet_positions_cache[wallet_obj_m]
                 else:
                     positions_trader_m = obtener_posiciones_usuario(wallet_obj_m)
-                    active_assets_target_m = {str(p.get("asset")): float(p.get("size", 0)) for p in positions_trader_m if float(p.get("size", 0)) > 0}
+                    active_assets_target_m = _extraer_activos_cartera(positions_trader_m)
                     wallet_positions_cache[wallet_obj_m] = active_assets_target_m
 
                 mantiene_m = asset_id_m in active_assets_target_m
