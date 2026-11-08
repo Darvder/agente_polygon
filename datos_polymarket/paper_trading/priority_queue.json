@@ -1,10 +1,26 @@
 [
   {
-    "id": "3215054",
-    "pregunta": "Will no one dissent the December Fed decision?",
-    "ts": "2026-11-08T08:08:24.651845",
+    "id": "6563895",
+    "pregunta": "Will Ethereum dip to $2,200 November 2-8?",
+    "ts": "2026-11-08T08:22:14.317438",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6833622",
+    "pregunta": "Will Bitcoin dip to $75,000 on November 8?",
+    "ts": "2026-11-08T08:22:16.310394",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-08T08:22:18.199009",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   }
 ]
