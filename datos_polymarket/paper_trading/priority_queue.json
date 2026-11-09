@@ -1,10 +1,18 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-08T20:10:21.528376",
+    "id": "4397025",
+    "pregunta": "Will T1 win Worlds 2026?",
+    "ts": "2026-11-08T20:18:58.700665",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcd71fd5370880f3d92bb941e628c05840fe0d127",
+    "whale_wallet": "0x37b278ab19e1cdc0e392da980dcc59ef802a8681",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3236056",
+    "pregunta": "Will BLG be number 1 on the end of year Global Power Rankings?",
+    "ts": "2026-11-08T20:18:59.818146",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37b278ab19e1cdc0e392da980dcc59ef802a8681",
     "whale_signal": "COMPRAR NO"
   }
 ]
