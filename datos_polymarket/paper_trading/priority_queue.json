@@ -1,50 +1,74 @@
 [
   {
-    "id": "6587498",
-    "pregunta": "Will the price of Bitcoin be above $74,000 on November 9?",
-    "ts": "2026-11-09T08:40:40.429467",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-09T08:53:55.451790",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8320b90db15e5b777e5a023b5ba3cfa214d4904e",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6892470",
-    "pregunta": "MicroStrategy announces >1000 BTC purchase November 10-16?",
-    "ts": "2026-11-09T08:40:42.322860",
+    "id": "4338136",
+    "pregunta": "Russia x Ukraine ceasefire agreement by May 31, 2027?",
+    "ts": "2026-11-09T08:53:56.635266",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa0c37cb0587b0dd1542f794bcfa345762bba5b9a",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6764150",
-    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $196 Week of November 9 2026?",
-    "ts": "2026-11-09T08:40:44.147646",
+    "id": "3701688",
+    "pregunta": "Russia x Ukraine ceasefire agreement by June 30, 2027?",
+    "ts": "2026-11-09T08:53:57.817642",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c30ee60b7f53f80211ca65df99d48cce53b7673",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6764164",
-    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $164 Week of November 9 2026?",
-    "ts": "2026-11-09T08:40:45.264304",
+    "id": "4338138",
+    "pregunta": "Russia x Ukraine ceasefire agreement by July 31, 2027?",
+    "ts": "2026-11-09T08:53:58.992342",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c30ee60b7f53f80211ca65df99d48cce53b7673",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6722269",
-    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $144 in November?",
-    "ts": "2026-11-09T08:40:46.286111",
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T08:54:00.173680",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c30ee60b7f53f80211ca65df99d48cce53b7673",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6764151",
-    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $192 Week of November 9 2026?",
-    "ts": "2026-11-09T08:40:47.401481",
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-09T08:54:01.193082",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c30ee60b7f53f80211ca65df99d48cce53b7673",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375148",
+    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
+    "ts": "2026-11-09T08:54:02.215764",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-09T08:54:03.242897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6837096",
+    "pregunta": "Will the highest temperature in Tokyo be 13\u00b0C on November 10?",
+    "ts": "2026-11-09T08:54:06.826494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
     "whale_signal": "COMPRAR NO"
   }
 ]
