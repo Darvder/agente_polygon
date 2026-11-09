@@ -1,18 +1,42 @@
 [
   {
-    "id": "5211896",
-    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
-    "ts": "2026-11-08T23:49:21.388605",
+    "id": "3543255",
+    "pregunta": "Will Tanoa Sasraku win the Turner Prize 2026?",
+    "ts": "2026-11-08T23:57:59.367468",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97d1a1072955f50df44fb3b7621f1cc4921818ef",
+    "whale_wallet": "0xbcdc6542f0250ab33763fe556b1379129b15e5b1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1811265",
-    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
-    "ts": "2026-11-08T23:49:22.427756",
+    "id": "3543254",
+    "pregunta": "Will Marguerite Humeau win the Turner Prize 2026?",
+    "ts": "2026-11-08T23:58:00.563276",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97d1a1072955f50df44fb3b7621f1cc4921818ef",
+    "whale_wallet": "0xbcdc6542f0250ab33763fe556b1379129b15e5b1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5998043",
+    "pregunta": "Will the total domestic gross for \"You Can See Everything\" be between $75M and $100M by November 30?",
+    "ts": "2026-11-08T23:58:01.753287",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbcdc6542f0250ab33763fe556b1379129b15e5b1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6731228",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 10?",
+    "ts": "2026-11-08T23:58:02.819979",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbcdc6542f0250ab33763fe556b1379129b15e5b1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5475219",
+    "pregunta": "ICE Agent charged in NYC incident by December 31?",
+    "ts": "2026-11-08T23:58:06.471641",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x687d8cf19d873aed1957e61a3f2092d4721ce28b",
     "whale_signal": "COMPRAR NO"
   }
 ]
