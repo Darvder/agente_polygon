@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-08T23:49:21.388605",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x97d1a1072955f50df44fb3b7621f1cc4921818ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1811265",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
+    "ts": "2026-11-08T23:49:22.427756",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x97d1a1072955f50df44fb3b7621f1cc4921818ef",
+    "whale_signal": "COMPRAR NO"
+  }
+]
