@@ -1,18 +1,10 @@
 [
   {
-    "id": "3862800",
-    "pregunta": "Will Russia capture Dobropillia by December 31, 2026?",
-    "ts": "2026-11-09T05:39:57.955358",
+    "id": "666659",
+    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
+    "ts": "2026-11-09T05:50:15.983289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6438437",
-    "pregunta": "US imports Russian diesel by March 31?",
-    "ts": "2026-11-09T05:39:59.077809",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
