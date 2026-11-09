@@ -1,10 +1,26 @@
 [
   {
-    "id": "5238391",
-    "pregunta": "Saudi-Houthi ceasefire agreement announced by December 31?",
-    "ts": "2026-11-09T09:09:17.101851",
+    "id": "6803933",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 2:59 PM ET?",
+    "ts": "2026-11-09T09:19:43.999206",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6751201",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11?",
+    "ts": "2026-11-09T09:19:45.128408",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6587449",
+    "pregunta": "Will the price of Ethereum be above $2,100 on November 9?",
+    "ts": "2026-11-09T09:19:46.902328",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
