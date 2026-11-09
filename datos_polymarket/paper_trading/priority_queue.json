@@ -1,34 +1,10 @@
 [
   {
-    "id": "6747248",
-    "pregunta": "WTI Crude Oil (WTI) closes above $86 on November 9?",
-    "ts": "2026-11-09T07:52:16.393832",
+    "id": "5087226",
+    "pregunta": "US-Iran Hormuz Agreement by November 30?",
+    "ts": "2026-11-09T08:00:30.936991",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6747245",
-    "pregunta": "WTI Crude Oil (WTI) closes above $89 on November 9?",
-    "ts": "2026-11-09T07:52:17.595759",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6747243",
-    "pregunta": "WTI Crude Oil (WTI) closes above $90 on November 9?",
-    "ts": "2026-11-09T07:52:18.797612",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6747246",
-    "pregunta": "WTI Crude Oil (WTI) closes above $88 on November 9?",
-    "ts": "2026-11-09T07:52:19.840515",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_wallet": "0x3c593aeb73ebdadbc9ce76d4264a6a2af4011766",
     "whale_signal": "COMPRAR NO"
   }
 ]
