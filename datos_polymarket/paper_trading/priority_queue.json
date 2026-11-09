@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6747227",
+    "pregunta": "S&P 500 (SPY) closes above $750 on November 9?",
+    "ts": "2026-11-09T12:48:43.883385",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdefebc7ed6f5d6e8710398f37eea6fc1746a17f4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6747226",
+    "pregunta": "S&P 500 (SPY) closes above $755 on November 9?",
+    "ts": "2026-11-09T12:48:45.068919",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdefebc7ed6f5d6e8710398f37eea6fc1746a17f4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
