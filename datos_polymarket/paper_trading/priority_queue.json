@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "676741",
+    "pregunta": "Will Apple be the largest company in the world by market cap on December 31?",
+    "ts": "2026-11-09T00:57:42.646886",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "676739",
+    "pregunta": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+    "ts": "2026-11-09T00:57:43.674527",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+    "whale_signal": "COMPRAR NO"
+  }
+]
