@@ -1,18 +1,18 @@
 [
   {
-    "id": "6747227",
-    "pregunta": "S&P 500 (SPY) closes above $750 on November 9?",
-    "ts": "2026-11-09T12:48:43.883385",
+    "id": "6731228",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 10?",
+    "ts": "2026-11-09T12:58:05.284037",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdefebc7ed6f5d6e8710398f37eea6fc1746a17f4",
+    "whale_wallet": "0x091ba263f60c6bf8d3a09e8c233976d84df7e843",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6747226",
-    "pregunta": "S&P 500 (SPY) closes above $755 on November 9?",
-    "ts": "2026-11-09T12:48:45.068919",
+    "id": "1662423",
+    "pregunta": "Will Chuck Schumer be the next Senate Majority Leader?",
+    "ts": "2026-11-09T12:58:07.204514",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdefebc7ed6f5d6e8710398f37eea6fc1746a17f4",
+    "whale_wallet": "0x4fc19a907012ef58717ee7ceb1f89057f71aec92",
     "whale_signal": "COMPRAR NO"
   }
 ]
