@@ -1,34 +1,42 @@
 [
   {
-    "id": "666659",
-    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
-    "ts": "2026-11-09T16:30:56.818249",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-09T16:43:09.472167",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
+    "whale_wallet": "0x709179e7392e59922ab2d73cb1141698b30096f8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6703598",
-    "pregunta": "Exact Score: CD Tecnico Universitario 1 - 0 Manta FC?",
-    "ts": "2026-11-09T16:31:08.643314",
+    "id": "6764289",
+    "pregunta": "Will Micron (MU) close at >$780 on the final day of trading of the week of Nov 9 \u2013 Nov 13?",
+    "ts": "2026-11-09T16:43:11.992238",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6596696",
-    "pregunta": "Exact Score: AZ Picerno 1 - 2 SSC Bari?",
-    "ts": "2026-11-09T16:31:09.760718",
+    "id": "6763974",
+    "pregunta": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $276 Week of November 9 2026?",
+    "ts": "2026-11-09T16:43:13.013037",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6669705",
-    "pregunta": "Exact Score: SCU Torreense 1 - 2 UD Leiria?",
-    "ts": "2026-11-09T16:31:10.879591",
+    "id": "6764064",
+    "pregunta": "Will Meta Platforms, Inc. (META) hit (HIGH) $670 Week of November 9 2026?",
+    "ts": "2026-11-09T16:43:14.032077",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6763944",
+    "pregunta": "Will Microsoft Corporation (MSFT) hit (LOW) $532.50 Week of November 9 2026?",
+    "ts": "2026-11-09T16:43:15.049838",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
