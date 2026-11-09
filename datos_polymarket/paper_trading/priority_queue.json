@@ -1,10 +1,18 @@
 [
   {
-    "id": "559661",
-    "pregunta": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-    "ts": "2026-11-08T19:38:40.734534",
+    "id": "3848399",
+    "pregunta": "Will Valencia be relegated from the 2026-27 LaLiga?",
+    "ts": "2026-11-08T19:47:57.372063",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5049970",
+    "pregunta": "Will the Dallas Stars record 110+ points?",
+    "ts": "2026-11-08T19:47:59.457006",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
     "whale_signal": "COMPRAR NO"
   }
 ]
