@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6891210",
+    "pregunta": "Will Bitcoin dip to $72,000 on November 9?",
+    "ts": "2026-11-09T08:21:17.545641",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x14767de7346a328d71f8fd4aed260d1cd67dec90",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5087228",
+    "pregunta": "US-Iran Hormuz Agreement by December 31?",
+    "ts": "2026-11-09T08:21:19.304003",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-09T08:21:23.029148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9fbd9d177c1b1250e8dd4114c40881017a74572c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
