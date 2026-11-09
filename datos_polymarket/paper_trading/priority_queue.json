@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5087226",
+    "pregunta": "US-Iran Hormuz Agreement by November 30?",
+    "ts": "2026-11-09T16:00:53.831037",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x876bb030ddd424ef505ae02914024cf18c6a1703",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4664499",
+    "pregunta": "Will Xiaomi have the best Chinese AI model at the end of November 2026?",
+    "ts": "2026-11-09T16:00:54.863741",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x876bb030ddd424ef505ae02914024cf18c6a1703",
+    "whale_signal": "COMPRAR NO"
+  }
+]
