@@ -1,18 +1,26 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-09T10:20:14.067221",
+    "id": "6617851",
+    "pregunta": "Israeli airspace closed by November 30, 2026?",
+    "ts": "2026-11-09T10:28:34.910255",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
+    "whale_wallet": "0x07e156cddecececf9404595aedddf7e1eece27af",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6299701",
-    "pregunta": "Next Israeli government formed by June 30, 2027?",
-    "ts": "2026-11-09T10:20:15.259743",
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-09T10:28:35.962904",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
+    "whale_wallet": "0x07e156cddecececf9404595aedddf7e1eece27af",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3748038",
+    "pregunta": "Will AfD be in the next Sachsen-Anhalt state government?",
+    "ts": "2026-11-09T10:28:39.994823",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x42790346edc3b0f04925113233684e9aaa884f3b",
     "whale_signal": "COMPRAR NO"
   }
 ]
