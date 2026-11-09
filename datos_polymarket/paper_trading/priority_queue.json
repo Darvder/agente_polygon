@@ -1,26 +1,34 @@
 [
   {
-    "id": "6066698",
-    "pregunta": "Will Anthropic IPO by November 20, 2026?",
-    "ts": "2026-11-09T16:21:43.537266",
+    "id": "666659",
+    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
+    "ts": "2026-11-09T16:30:56.818249",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6268047",
-    "pregunta": "Will Anthropic IPO by November 19, 2026?",
-    "ts": "2026-11-09T16:21:44.585256",
+    "id": "6703598",
+    "pregunta": "Exact Score: CD Tecnico Universitario 1 - 0 Manta FC?",
+    "ts": "2026-11-09T16:31:08.643314",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6268050",
-    "pregunta": "Will Anthropic IPO by November 18, 2026?",
-    "ts": "2026-11-09T16:21:45.632274",
+    "id": "6596696",
+    "pregunta": "Exact Score: AZ Picerno 1 - 2 SSC Bari?",
+    "ts": "2026-11-09T16:31:09.760718",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6669705",
+    "pregunta": "Exact Score: SCU Torreense 1 - 2 UD Leiria?",
+    "ts": "2026-11-09T16:31:10.879591",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
     "whale_signal": "COMPRAR NO"
   }
 ]
