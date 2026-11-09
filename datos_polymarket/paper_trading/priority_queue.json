@@ -1,10 +1,98 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-09T14:39:26.328065",
+    "id": "3585431",
+    "pregunta": "Tesla and SpaceX merger officially announced by February 28, 2027?",
+    "ts": "2026-11-09T14:49:33.638467",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6893261",
+    "pregunta": "Will the highest temperature in Busan be 18\u00b0C on November 11?",
+    "ts": "2026-11-09T14:49:34.738865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6893304",
+    "pregunta": "Will the highest temperature in Jeddah be 31\u00b0C on November 11?",
+    "ts": "2026-11-09T14:49:35.934816",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2696747",
+    "pregunta": "US-Iran Final Nuclear Deal by December 31, 2026?",
+    "ts": "2026-11-09T14:49:37.959851",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x449c7483aade15b5c4772fab7becc60a1c20879e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-09T14:49:39.894771",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc04eba3d4fb1729de321db9c4e1c90f55790c1f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904271",
+    "pregunta": "Will Claude Fable 5.2+ debut at an output token price of at least $50 by June 30, 2027?",
+    "ts": "2026-11-09T14:49:41.951522",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "676997",
+    "pregunta": "Will Nicki Minaj release a new song in 2026?",
+    "ts": "2026-11-09T14:49:43.152859",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139761",
+    "pregunta": "Will the next Fable model (5.2+) debut with a Humanity's Last Exam score of 60% or higher?",
+    "ts": "2026-11-09T14:49:44.347877",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139762",
+    "pregunta": "Will the next Fable model (5.2+) debut with a Humanity's Last Exam score of 65% or higher?",
+    "ts": "2026-11-09T14:49:45.538149",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3072309",
+    "pregunta": "Will the highest score achieved by an Anthropic Claude model on Humanity\u2019s Last Exam in 2026 be 60% or higher?",
+    "ts": "2026-11-09T14:49:46.634220",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3072310",
+    "pregunta": "Will the highest score achieved by an Anthropic Claude model on Humanity\u2019s Last Exam in 2026 be 65% or higher?",
+    "ts": "2026-11-09T14:49:47.832368",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3072292",
+    "pregunta": "Will the highest score achieved on Humanity\u2019s Last Exam in 2026 be 65% or higher?",
+    "ts": "2026-11-09T14:49:48.927480",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
     "whale_signal": "COMPRAR NO"
   }
 ]
