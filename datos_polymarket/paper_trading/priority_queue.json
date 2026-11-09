@@ -1,26 +1,66 @@
 [
   {
-    "id": "2232192",
-    "pregunta": "Will Russia enter Druzkhivka by December 31, 2026?",
-    "ts": "2026-11-09T12:20:10.326890",
+    "id": "6731228",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 10?",
+    "ts": "2026-11-09T12:27:48.074693",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcecaeade076dafc88fdb955864da9d9c15693f67",
+    "whale_wallet": "0xc9ddc629e4bdb509a7ad08fd989ea621e3a79f42",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "559661",
-    "pregunta": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-    "ts": "2026-11-09T12:20:12.437374",
+    "id": "5087226",
+    "pregunta": "US-Iran Hormuz Agreement by November 30?",
+    "ts": "2026-11-09T12:27:49.992094",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcecaeade076dafc88fdb955864da9d9c15693f67",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5211896",
-    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
-    "ts": "2026-11-09T12:20:14.258980",
+    "id": "2657589",
+    "pregunta": "Will 1 Fed rate hike happen in 2026?",
+    "ts": "2026-11-09T12:27:52.075930",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1359911d098bf507069e7e22370e6f6cae3f092e",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2657590",
+    "pregunta": "Will 2 Fed rate hikes happen in 2026?",
+    "ts": "2026-11-09T12:27:53.143360",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T12:27:55.232845",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-09T12:27:56.270888",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-09T12:27:57.311517",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-09T12:27:59.416611",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   }
 ]
