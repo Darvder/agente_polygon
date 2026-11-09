@@ -2,25 +2,17 @@
   {
     "id": "679064",
     "pregunta": "Will Teddy Riner win the 2027 French presidential election?",
-    "ts": "2026-11-09T11:08:26.254480",
+    "ts": "2026-11-09T11:20:01.282418",
     "origen": "whale_copytrader",
     "whale_wallet": "0x636a3db1b7805894a6342930fb776f734c095559",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6443539",
-    "pregunta": "Will Elon Musk post 300-319 tweets from November 3 to November 10, 2026?",
-    "ts": "2026-11-09T11:08:28.116492",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-09T11:20:04.352517",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe575b9ee877cf680dab131b4f04baae131016c24",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6719491",
-    "pregunta": "Will Elon Musk post 90-114 tweets from November 7 to November 9, 2026?",
-    "ts": "2026-11-09T11:08:30.970566",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x750545482cf883fcd5e7f7ad8e14d3f61a322978",
+    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
     "whale_signal": "COMPRAR NO"
   }
 ]
