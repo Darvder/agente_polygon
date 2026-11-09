@@ -1,26 +1,50 @@
 [
   {
-    "id": "6803933",
-    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 2:59 PM ET?",
-    "ts": "2026-11-09T09:19:43.999206",
+    "id": "676739",
+    "pregunta": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+    "ts": "2026-11-09T09:31:33.678331",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6751201",
-    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11?",
-    "ts": "2026-11-09T09:19:45.128408",
+    "id": "6594197",
+    "pregunta": "Will Microsoft be the second-largest company in the world by market cap on November 30, 2026?",
+    "ts": "2026-11-09T09:31:34.812792",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3392720",
+    "pregunta": "Will Microsoft be the second-largest company in the world by market cap on December 31?",
+    "ts": "2026-11-09T09:31:35.937691",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6587449",
     "pregunta": "Will the price of Ethereum be above $2,100 on November 9?",
-    "ts": "2026-11-09T09:19:46.902328",
+    "ts": "2026-11-09T09:31:38.767375",
     "origen": "whale_copytrader",
     "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T09:31:40.508758",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4fbfee91cb92887382dfc18387b87eba7954f319",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-09T09:31:41.551399",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4fbfee91cb92887382dfc18387b87eba7954f319",
     "whale_signal": "COMPRAR NO"
   }
 ]
