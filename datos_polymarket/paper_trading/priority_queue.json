@@ -1,10 +1,26 @@
 [
   {
-    "id": "6438437",
-    "pregunta": "US imports Russian diesel by March 31?",
-    "ts": "2026-11-09T12:09:54.364844",
+    "id": "2232192",
+    "pregunta": "Will Russia enter Druzkhivka by December 31, 2026?",
+    "ts": "2026-11-09T12:20:10.326890",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_wallet": "0xcecaeade076dafc88fdb955864da9d9c15693f67",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "559661",
+    "pregunta": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+    "ts": "2026-11-09T12:20:12.437374",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcecaeade076dafc88fdb955864da9d9c15693f67",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-09T12:20:14.258980",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1359911d098bf507069e7e22370e6f6cae3f092e",
     "whale_signal": "COMPRAR NO"
   }
 ]
