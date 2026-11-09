@@ -1,34 +1,26 @@
 [
   {
-    "id": "6587500",
-    "pregunta": "Will the price of Bitcoin be above $76,000 on November 9?",
-    "ts": "2026-11-08T21:58:02.777198",
+    "id": "2293863",
+    "pregunta": "Jack Lowden announced as next James Bond?",
+    "ts": "2026-11-08T22:07:37.570553",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
+    "whale_wallet": "0xb357437166e9dc62a8c5aef1f5a8fb78bbeca4ae",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6873135",
-    "pregunta": "Will the price of Ethereum be above $2,100 on November 15?",
-    "ts": "2026-11-08T21:58:03.959660",
+    "id": "2293862",
+    "pregunta": "Callum Turner announced as next James Bond?",
+    "ts": "2026-11-08T22:07:38.728659",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
+    "whale_wallet": "0xb357437166e9dc62a8c5aef1f5a8fb78bbeca4ae",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6753156",
-    "pregunta": "Will the price of Bitcoin be above $76,000 on November 13?",
-    "ts": "2026-11-08T21:58:05.122433",
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-08T22:07:40.826856",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6639471",
-    "pregunta": "Will the price of Bitcoin be above $76,000 on November 10?",
-    "ts": "2026-11-08T21:58:06.289400",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
+    "whale_wallet": "0xb357437166e9dc62a8c5aef1f5a8fb78bbeca4ae",
     "whale_signal": "COMPRAR NO"
   }
 ]
