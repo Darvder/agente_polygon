@@ -1,18 +1,50 @@
 [
   {
-    "id": "6837096",
-    "pregunta": "Will the highest temperature in Tokyo be 13\u00b0C on November 10?",
-    "ts": "2026-11-09T07:00:41.584436",
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-09T07:08:29.124340",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6837094",
-    "pregunta": "Will the highest temperature in Tokyo be 11\u00b0C on November 10?",
-    "ts": "2026-11-09T07:00:42.773687",
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T07:08:30.170372",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-09T07:08:31.336180",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5087228",
+    "pregunta": "US-Iran Hormuz Agreement by December 31?",
+    "ts": "2026-11-09T07:08:32.503612",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5087226",
+    "pregunta": "US-Iran Hormuz Agreement by November 30?",
+    "ts": "2026-11-09T07:08:33.557268",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1811265",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
+    "ts": "2026-11-09T07:08:36.546650",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
     "whale_signal": "COMPRAR NO"
   }
 ]
