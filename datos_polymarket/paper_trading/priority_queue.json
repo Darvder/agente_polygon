@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6721890",
+    "pregunta": "Will Ethereum reach $2,400 in November?",
+    "ts": "2026-11-09T01:39:38.288459",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5714365",
+    "pregunta": "US imports Russian diesel by November 30?",
+    "ts": "2026-11-09T01:39:40.124280",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe73d170c228d578c401d0f1ca29c89b062f0328d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3055230",
+    "pregunta": "Will Avengers: Doomsday have the 2nd best domestic opening weekend in 2026?",
+    "ts": "2026-11-09T01:39:42.846564",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4755188644460fc8140a18ccefc1e80b6a5e4158",
+    "whale_signal": "COMPRAR NO"
+  }
+]
