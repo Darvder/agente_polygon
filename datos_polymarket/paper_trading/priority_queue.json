@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-09T13:28:32.677225",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T13:28:33.747188",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-09T13:28:34.795906",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1811265",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
+    "ts": "2026-11-09T13:28:36.690162",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe8dc200c0e3c71d0d96957d5488d2426e0cc3e53",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-09T13:28:42.871962",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x09cc4da8a3e39237aa74b445a300565e33d0421a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
