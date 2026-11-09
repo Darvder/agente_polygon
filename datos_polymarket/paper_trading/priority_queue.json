@@ -1,74 +1,26 @@
 [
   {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-09T08:53:55.451790",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4338136",
-    "pregunta": "Russia x Ukraine ceasefire agreement by May 31, 2027?",
-    "ts": "2026-11-09T08:53:56.635266",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3701688",
-    "pregunta": "Russia x Ukraine ceasefire agreement by June 30, 2027?",
-    "ts": "2026-11-09T08:53:57.817642",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4338138",
-    "pregunta": "Russia x Ukraine ceasefire agreement by July 31, 2027?",
-    "ts": "2026-11-09T08:53:58.992342",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "4906128",
     "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
-    "ts": "2026-11-09T08:54:00.173680",
+    "ts": "2026-11-09T09:01:15.556848",
     "origen": "whale_copytrader",
     "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4867452",
-    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
-    "ts": "2026-11-09T08:54:01.193082",
+    "id": "2724048",
+    "pregunta": "Pete Hegseth impeached by December 31, 2026?",
+    "ts": "2026-11-09T09:01:17.469740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_wallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5375148",
-    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
-    "ts": "2026-11-09T08:54:02.215764",
+    "id": "5238391",
+    "pregunta": "Saudi-Houthi ceasefire agreement announced by December 31?",
+    "ts": "2026-11-09T09:01:18.538850",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-09T08:54:03.242897",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837096",
-    "pregunta": "Will the highest temperature in Tokyo be 13\u00b0C on November 10?",
-    "ts": "2026-11-09T08:54:06.826494",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
+    "whale_wallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
     "whale_signal": "COMPRAR NO"
   }
 ]
