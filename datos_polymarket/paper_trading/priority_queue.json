@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "6842193",
+    "pregunta": "Will the highest temperature in New York City be between 60-61\u00b0F on November 10?",
+    "ts": "2026-11-09T02:49:59.685313",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
+    "whale_signal": "COMPRAR NO"
+  }
+]
