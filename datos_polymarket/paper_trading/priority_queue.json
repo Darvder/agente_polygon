@@ -1,18 +1,42 @@
 [
   {
-    "id": "5087226",
-    "pregunta": "US-Iran Hormuz Agreement by November 30?",
-    "ts": "2026-11-09T16:00:53.831037",
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T16:08:03.841823",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x876bb030ddd424ef505ae02914024cf18c6a1703",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4664499",
-    "pregunta": "Will Xiaomi have the best Chinese AI model at the end of November 2026?",
-    "ts": "2026-11-09T16:00:54.863741",
+    "id": "5087226",
+    "pregunta": "US-Iran Hormuz Agreement by November 30?",
+    "ts": "2026-11-09T16:08:07.944198",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x876bb030ddd424ef505ae02914024cf18c6a1703",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-09T16:08:08.965559",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4338136",
+    "pregunta": "Russia x Ukraine ceasefire agreement by May 31, 2027?",
+    "ts": "2026-11-09T16:08:09.987064",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-09T16:08:13.052457",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
     "whale_signal": "COMPRAR NO"
   }
 ]
