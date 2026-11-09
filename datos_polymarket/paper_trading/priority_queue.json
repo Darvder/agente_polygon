@@ -1,10 +1,18 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-09T07:30:55.148037",
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T07:40:26.985529",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4f5bb6dcf70fb8312b2e31c10472ba082f27c6b4",
+    "whale_wallet": "0x8b4bca1d794779e66e023d44391b2a86c5ab541b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6639396",
+    "pregunta": "Will the price of Ethereum be above $2,100 on November 10?",
+    "ts": "2026-11-09T07:40:30.721926",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
