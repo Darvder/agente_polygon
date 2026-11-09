@@ -1,10 +1,18 @@
 [
   {
-    "id": "3399468",
-    "pregunta": "Israel x Iran ceasefire continues through December 31?",
-    "ts": "2026-11-09T06:49:57.465480",
+    "id": "6837096",
+    "pregunta": "Will the highest temperature in Tokyo be 13\u00b0C on November 10?",
+    "ts": "2026-11-09T07:00:41.584436",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6837094",
+    "pregunta": "Will the highest temperature in Tokyo be 11\u00b0C on November 10?",
+    "ts": "2026-11-09T07:00:42.773687",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
     "whale_signal": "COMPRAR NO"
   }
 ]
