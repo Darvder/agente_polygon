@@ -1,10 +1,26 @@
 [
   {
-    "id": "4906129",
-    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
-    "ts": "2026-11-08T21:29:50.195148",
+    "id": "2109956",
+    "pregunta": "Israeli election results in a hung parliament?",
+    "ts": "2026-11-08T21:39:59.526228",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3192167",
+    "pregunta": "Will exactly 1 Israeli legislative election occur before a government is formed?",
+    "ts": "2026-11-08T21:40:00.571698",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824672",
+    "pregunta": "Will Ra'am be in the next Israeli government?",
+    "ts": "2026-11-08T21:40:01.752132",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
     "whale_signal": "COMPRAR NO"
   }
 ]
