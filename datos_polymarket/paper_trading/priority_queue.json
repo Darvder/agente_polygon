@@ -1,34 +1,26 @@
 [
   {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-09T18:31:30.184811",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3007ea6df4389c173a5119162be94aac6bba763a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4906128",
     "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
-    "ts": "2026-11-09T18:20:50.607320",
+    "ts": "2026-11-09T18:31:31.203360",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa82b0e89cf734e2fa70cbd52ca65c77d64595220",
+    "whale_wallet": "0x3007ea6df4389c173a5119162be94aac6bba763a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5176795",
-    "pregunta": "Will Google have the #1 AI model at the end of December 2026?",
-    "ts": "2026-11-09T18:20:56.448643",
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-09T18:31:32.243857",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf18097bd7ce33d07d3c18bf5a1e91e7f16e7f908",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5176781",
-    "pregunta": "Will Anthropic have the #1 AI model at the end of December 2026?",
-    "ts": "2026-11-09T18:20:57.495416",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf18097bd7ce33d07d3c18bf5a1e91e7f16e7f908",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3013350",
-    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
-    "ts": "2026-11-09T18:20:58.686988",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf18097bd7ce33d07d3c18bf5a1e91e7f16e7f908",
+    "whale_wallet": "0x3007ea6df4389c173a5119162be94aac6bba763a",
     "whale_signal": "COMPRAR NO"
   }
 ]
