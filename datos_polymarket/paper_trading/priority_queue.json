@@ -1,26 +1,42 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-09T04:29:47.706434",
+    "id": "6764126",
+    "pregunta": "Will NVIDIA (NVDA) finish week of November 9 above $170?",
+    "ts": "2026-11-09T04:39:47.115600",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x43ab1a5e85387dd7b61d3a28d679831c13241e4c",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6891197",
-    "pregunta": "Will Bitcoin reach $76,000 November 9-15?",
-    "ts": "2026-11-09T04:29:51.355178",
+    "id": "6747205",
+    "pregunta": "Will NVIDIA (NVDA) close above $180 on November 9?",
+    "ts": "2026-11-09T04:39:48.138089",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6891192",
-    "pregunta": "Will Bitcoin reach $78,000 November 9-15?",
-    "ts": "2026-11-09T04:29:52.412413",
+    "id": "6747185",
+    "pregunta": "Will Google (GOOGL) close above $290 on November 9?",
+    "ts": "2026-11-09T04:39:49.253445",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891210",
+    "pregunta": "Will Bitcoin dip to $72,000 on November 9?",
+    "ts": "2026-11-09T04:39:56.064620",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0cb16fa435fc6dd7c21766e12251e17d6da1dea6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891208",
+    "pregunta": "Will Bitcoin dip to $73,000 on November 9?",
+    "ts": "2026-11-09T04:39:57.087589",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0cb16fa435fc6dd7c21766e12251e17d6da1dea6",
     "whale_signal": "COMPRAR NO"
   }
 ]
