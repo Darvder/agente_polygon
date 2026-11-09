@@ -1,18 +1,26 @@
 [
   {
-    "id": "6774515",
-    "pregunta": "Will the White House call a full lid by 6:30 PM on November 10?",
-    "ts": "2026-11-08T20:28:26.642961",
+    "id": "4397022",
+    "pregunta": "Will Gen.G win Worlds 2026?",
+    "ts": "2026-11-08T20:39:18.586773",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x45bbe85e001a1b1626e94349d45ad6a09f9241a7",
+    "whale_wallet": "0xf704bd6748077f976cca0c7a74a87d12fc5abed4",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5686361",
-    "pregunta": "Will \"Behemoth!\" be nominated for Best Original Score at the 99th Academy Awards?",
-    "ts": "2026-11-08T20:28:27.818445",
+    "id": "6875839",
+    "pregunta": "Will Bitcoin reach $76,000 November 2-8?",
+    "ts": "2026-11-08T20:39:21.089255",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x45bbe85e001a1b1626e94349d45ad6a09f9241a7",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6587498",
+    "pregunta": "Will the price of Bitcoin be above $74,000 on November 9?",
+    "ts": "2026-11-08T20:39:22.115007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
