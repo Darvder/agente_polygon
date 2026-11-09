@@ -1,10 +1,26 @@
 [
   {
-    "id": "6638499",
-    "pregunta": "Ukraine signs peace deal with Russia by June 30, 2027?",
-    "ts": "2026-11-09T13:49:22.635749",
+    "id": "5190565",
+    "pregunta": "Next US-Iran senior diplomatic meeting by November 30, 2026?",
+    "ts": "2026-11-09T13:59:19.995369",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x90f444f7c4a08fdc601bc9657d56ac9e656e98e2",
+    "whale_wallet": "0x870535b39b1f8902a3be94f15158b39961058354",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-09T13:59:21.065640",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x870535b39b1f8902a3be94f15158b39961058354",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867865",
+    "pregunta": "Will no qualifying US-Iran senior diplomatic meeting take place by December 31, 2026?",
+    "ts": "2026-11-09T13:59:22.269917",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x870535b39b1f8902a3be94f15158b39961058354",
     "whale_signal": "COMPRAR NO"
   }
 ]
