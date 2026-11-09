@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6423277",
+    "pregunta": "Will Russia capture Bilytske by November 30, 2026?",
+    "ts": "2026-11-08T18:59:56.748990",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f4f411de06dcf9d78eae51ae76852ff0a4c7039",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5636168",
+    "pregunta": "Will Russia enter Bilozerske by December 31, 2026?",
+    "ts": "2026-11-08T18:59:57.928315",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f4f411de06dcf9d78eae51ae76852ff0a4c7039",
+    "whale_signal": "COMPRAR NO"
+  }
+]
