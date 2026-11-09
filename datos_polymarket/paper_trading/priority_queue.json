@@ -1,34 +1,114 @@
 [
   {
-    "id": "4319439",
-    "pregunta": "Will Anthropic IPO by November 30, 2026?",
-    "ts": "2026-11-09T14:58:56.776934",
+    "id": "2724048",
+    "pregunta": "Pete Hegseth impeached by December 31, 2026?",
+    "ts": "2026-11-09T15:11:16.876786",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3cc379741b2ab96d61aab5942a1a711a89f1fb0b",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3721426",
-    "pregunta": "Will Anthropic's initial public offering occur in November 2026 (ET)?",
-    "ts": "2026-11-09T14:58:57.895214",
+    "id": "2750302",
+    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
+    "ts": "2026-11-09T15:11:17.900336",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3cc379741b2ab96d61aab5942a1a711a89f1fb0b",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2176270",
-    "pregunta": "Strait of Hormuz traffic returns to normal by December 31?",
-    "ts": "2026-11-09T14:58:59.539794",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-09T15:11:18.923467",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x74471a007ddcc488f6d57b5e86dfb35a8d48a16d",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6104431",
-    "pregunta": "Will Kimi K3.1 Pro debut at a score of at least 1470 by June 30, 2027?",
-    "ts": "2026-11-09T14:59:01.260622",
+    "id": "5087226",
+    "pregunta": "US-Iran Hormuz Agreement by November 30?",
+    "ts": "2026-11-09T15:11:19.948337",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b72b21f7e9999d568d9b93f0be110257d9938d5",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375148",
+    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
+    "ts": "2026-11-09T15:11:20.973539",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906129",
+    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
+    "ts": "2026-11-09T15:11:21.998620",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375147",
+    "pregunta": "Iran-Oman Hormuz Agreement by November 30?",
+    "ts": "2026-11-09T15:11:23.026210",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5238391",
+    "pregunta": "Saudi-Houthi ceasefire agreement announced by December 31?",
+    "ts": "2026-11-09T15:11:25.082172",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6268047",
+    "pregunta": "Will Anthropic IPO by November 19, 2026?",
+    "ts": "2026-11-09T15:11:27.833210",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe74d4976e5e034182d708a3b9df602e72d4722fd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6639471",
+    "pregunta": "Will the price of Bitcoin be above $76,000 on November 10?",
+    "ts": "2026-11-09T15:11:32.651107",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5246abed17a5cff43a17b55b30f982f45200f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891196",
+    "pregunta": "Will Bitcoin reach $76,000 on November 9?",
+    "ts": "2026-11-09T15:11:33.674516",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5246abed17a5cff43a17b55b30f982f45200f5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190565",
+    "pregunta": "Next US-Iran senior diplomatic meeting by November 30, 2026?",
+    "ts": "2026-11-09T15:11:35.401406",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2663603",
+    "pregunta": "Will any Uranium Enrichment % Cap (1+ Year) be in a US-Iran deal in 2026?",
+    "ts": "2026-11-09T15:11:36.430455",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2668004",
+    "pregunta": "Will a \u22645% Uranium Enrichment Cap (1+ Year) be in a US-Iran deal in 2026?",
+    "ts": "2026-11-09T15:11:37.459593",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
     "whale_signal": "COMPRAR NO"
   }
 ]
