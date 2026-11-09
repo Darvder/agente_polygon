@@ -1,10 +1,18 @@
 [
   {
-    "id": "6507414",
-    "pregunta": "Will Ethereum reach $2,500 in November?",
-    "ts": "2026-11-08T22:19:37.696340",
+    "id": "6422699",
+    "pregunta": "Will NYC have between 2 and 3 inches of precipitation in November?",
+    "ts": "2026-11-08T22:28:40.077475",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x3f41732df5afa542082d9878fa94a9f19e769979",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-08T22:28:41.128841",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3f41732df5afa542082d9878fa94a9f19e769979",
     "whale_signal": "COMPRAR NO"
   }
 ]
