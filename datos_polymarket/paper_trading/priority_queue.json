@@ -1,58 +1,10 @@
 [
   {
-    "id": "6507414",
-    "pregunta": "Will Ethereum reach $2,500 in November?",
-    "ts": "2026-11-09T04:14:34.590123",
+    "id": "6547092",
+    "pregunta": "Will Trump say \"Christmas\" this week?",
+    "ts": "2026-11-09T04:21:47.753627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6c3aeaa01f9dde7d35b6b7b5300b6d8783810d47",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1345531",
-    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
-    "ts": "2026-11-09T04:14:36.389625",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507376",
-    "pregunta": "Will Bitcoin reach $85,000 in November?",
-    "ts": "2026-11-09T04:14:37.455622",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-09T04:14:39.238882",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3f41732df5afa542082d9878fa94a9f19e769979",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507381",
-    "pregunta": "Will Bitcoin dip to $72,500 in November?",
-    "ts": "2026-11-09T04:14:41.043368",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b5b1cffb6052c2efc28f1ab9b4d4d47adff4a17",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507377",
-    "pregunta": "Will Bitcoin reach $82,500 in November?",
-    "ts": "2026-11-09T04:14:42.100791",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b5b1cffb6052c2efc28f1ab9b4d4d47adff4a17",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6721565",
-    "pregunta": "Will Bitcoin reach $77,500 in November?",
-    "ts": "2026-11-09T04:14:43.156638",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9b5b1cffb6052c2efc28f1ab9b4d4d47adff4a17",
+    "whale_wallet": "0xdb6d79bfd96dab06571439137848884ec7691286",
     "whale_signal": "COMPRAR NO"
   }
 ]
