@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6891191",
+    "pregunta": "Will Bitcoin reach $77,000 on November 9?",
+    "ts": "2026-11-09T10:59:45.104484",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6587500",
+    "pregunta": "Will the price of Bitcoin be above $76,000 on November 9?",
+    "ts": "2026-11-09T10:59:46.156051",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
+    "whale_signal": "COMPRAR NO"
+  }
+]
