@@ -1,18 +1,26 @@
 [
   {
-    "id": "6891191",
-    "pregunta": "Will Bitcoin reach $77,000 on November 9?",
-    "ts": "2026-11-09T10:59:45.104484",
+    "id": "679064",
+    "pregunta": "Will Teddy Riner win the 2027 French presidential election?",
+    "ts": "2026-11-09T11:08:26.254480",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
+    "whale_wallet": "0x636a3db1b7805894a6342930fb776f734c095559",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6587500",
-    "pregunta": "Will the price of Bitcoin be above $76,000 on November 9?",
-    "ts": "2026-11-09T10:59:46.156051",
+    "id": "6443539",
+    "pregunta": "Will Elon Musk post 300-319 tweets from November 3 to November 10, 2026?",
+    "ts": "2026-11-09T11:08:28.116492",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
+    "whale_wallet": "0xe575b9ee877cf680dab131b4f04baae131016c24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6719491",
+    "pregunta": "Will Elon Musk post 90-114 tweets from November 7 to November 9, 2026?",
+    "ts": "2026-11-09T11:08:30.970566",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x750545482cf883fcd5e7f7ad8e14d3f61a322978",
     "whale_signal": "COMPRAR NO"
   }
 ]
