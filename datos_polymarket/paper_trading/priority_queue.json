@@ -1,10 +1,26 @@
 [
   {
-    "id": "6547092",
-    "pregunta": "Will Trump say \"Christmas\" this week?",
-    "ts": "2026-11-09T04:21:47.753627",
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-09T04:29:47.706434",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb6d79bfd96dab06571439137848884ec7691286",
+    "whale_wallet": "0x43ab1a5e85387dd7b61d3a28d679831c13241e4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891197",
+    "pregunta": "Will Bitcoin reach $76,000 November 9-15?",
+    "ts": "2026-11-09T04:29:51.355178",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891192",
+    "pregunta": "Will Bitcoin reach $78,000 November 9-15?",
+    "ts": "2026-11-09T04:29:52.412413",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
