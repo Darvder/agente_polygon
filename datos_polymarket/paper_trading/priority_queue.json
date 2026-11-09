@@ -1,32 +1,24 @@
 [
   {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-09T17:19:44.965811",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-09T17:27:53.799656",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+    "whale_wallet": "0x50ea4aea70724a5bc0ccf3ee242b2a09fc5948db",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-09T17:19:46.156519",
+    "id": "666659",
+    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
+    "ts": "2026-11-09T17:27:55.655124",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+    "whale_wallet": "0xbb2e58504db6b05f50ff2ec146189d4abbd05bbf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4906128",
-    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
-    "ts": "2026-11-09T17:19:47.202968",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412747",
-    "pregunta": "Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?",
-    "ts": "2026-11-09T17:19:48.284131",
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-09T17:27:57.532946",
     "origen": "whale_copytrader",
     "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
     "whale_signal": "COMPRAR NO"
@@ -34,9 +26,33 @@
   {
     "id": "5190565",
     "pregunta": "Next US-Iran senior diplomatic meeting by November 30, 2026?",
-    "ts": "2026-11-09T17:19:49.337508",
+    "ts": "2026-11-09T17:27:58.588367",
     "origen": "whale_copytrader",
     "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-09T17:28:05.714608",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1811265",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
+    "ts": "2026-11-09T17:28:06.762667",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5211896",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by November 30?",
+    "ts": "2026-11-09T17:28:07.819482",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
     "whale_signal": "COMPRAR NO"
   }
 ]
