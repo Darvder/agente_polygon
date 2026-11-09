@@ -1,74 +1,10 @@
 [
   {
-    "id": "6837270",
-    "pregunta": "Will the highest temperature in Busan be 18\u00b0C on November 10?",
-    "ts": "2026-11-09T03:00:07.801814",
+    "id": "6507423",
+    "pregunta": "Will Ethereum dip to $1,800 in November?",
+    "ts": "2026-11-09T03:08:38.437627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837248",
-    "pregunta": "Will the highest temperature in Moscow be 4\u00b0C on November 10?",
-    "ts": "2026-11-09T03:00:08.967961",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837108",
-    "pregunta": "Will the highest temperature in Hong Kong be 23\u00b0C on November 10?",
-    "ts": "2026-11-09T03:00:10.128160",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837260",
-    "pregunta": "Will the highest temperature in Istanbul be 14\u00b0C on November 10?",
-    "ts": "2026-11-09T03:00:11.278396",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837020",
-    "pregunta": "Will the highest temperature in Paris be 14\u00b0C on November 10?",
-    "ts": "2026-11-09T03:00:12.447732",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837117",
-    "pregunta": "Will the highest temperature in Shanghai be 15\u00b0C on November 10?",
-    "ts": "2026-11-09T03:00:13.594078",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837095",
-    "pregunta": "Will the highest temperature in Tokyo be 12\u00b0C on November 10?",
-    "ts": "2026-11-09T03:00:14.744963",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3865960",
-    "pregunta": "Will Bitcoin dip to $70,000 by December 31, 2026?",
-    "ts": "2026-11-09T03:00:16.436412",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507381",
-    "pregunta": "Will Bitcoin dip to $72,500 in November?",
-    "ts": "2026-11-09T03:00:17.482931",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xc9b83a1cd23f894d10c35edf0c511f1f7e02ed97",
     "whale_signal": "COMPRAR NO"
   }
 ]
