@@ -1,26 +1,58 @@
 [
   {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-08T20:49:35.963610",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6587462",
+    "pregunta": "Will the price of Bitcoin be between $76,000 and $78,000 on November 9?",
+    "ts": "2026-11-08T20:49:37.823766",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "4397022",
     "pregunta": "Will Gen.G win Worlds 2026?",
-    "ts": "2026-11-08T20:39:18.586773",
+    "ts": "2026-11-08T20:49:39.657217",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf704bd6748077f976cca0c7a74a87d12fc5abed4",
+    "whale_wallet": "0x2b251efbc8e35233e87b76be09db0a03562571a6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6875839",
-    "pregunta": "Will Bitcoin reach $76,000 November 2-8?",
-    "ts": "2026-11-08T20:39:21.089255",
+    "id": "3392758",
+    "pregunta": "Will Microsoft be the third-largest company in the world by market cap on December 31?",
+    "ts": "2026-11-08T20:49:41.738851",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0x4a2be7a7e6e3b41dc2de00706b4c09660ca9af20",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6587498",
-    "pregunta": "Will the price of Bitcoin be above $74,000 on November 9?",
-    "ts": "2026-11-08T20:39:22.115007",
+    "id": "6104431",
+    "pregunta": "Will Kimi K3.1 Pro debut at a score of at least 1470 by June 30, 2027?",
+    "ts": "2026-11-08T20:49:42.891725",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0x4a2be7a7e6e3b41dc2de00706b4c09660ca9af20",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-08T20:49:43.966661",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a2be7a7e6e3b41dc2de00706b4c09660ca9af20",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-08T20:49:45.028524",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4a2be7a7e6e3b41dc2de00706b4c09660ca9af20",
     "whale_signal": "COMPRAR NO"
   }
 ]
