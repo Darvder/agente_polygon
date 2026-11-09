@@ -2,7 +2,7 @@
   {
     "id": "6907990",
     "pregunta": "US announces end of Iranian blockade by December 15, 2026?",
-    "ts": "2026-11-09T16:58:10.778695",
+    "ts": "2026-11-09T17:02:20.655535",
     "origen": "whale_copytrader",
     "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
@@ -10,7 +10,7 @@
   {
     "id": "4599796",
     "pregunta": "Israeli airspace closed by December 31, 2026?",
-    "ts": "2026-11-09T16:58:13.868655",
+    "ts": "2026-11-09T17:02:23.947361",
     "origen": "whale_copytrader",
     "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
@@ -18,25 +18,33 @@
   {
     "id": "4906128",
     "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
-    "ts": "2026-11-09T16:58:17.159846",
+    "ts": "2026-11-09T17:02:27.124487",
     "origen": "whale_copytrader",
     "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2243897",
-    "pregunta": "Russia x Ukraine ceasefire agreement by December 31, 2026?",
-    "ts": "2026-11-09T16:58:20.129535",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-09T17:02:30.410074",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1a279adb096d316b1b168993e8ed976d3cd372a",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6891196",
-    "pregunta": "Will Bitcoin reach $76,000 on November 9?",
-    "ts": "2026-11-09T16:58:22.060466",
+    "id": "6908168",
+    "pregunta": "Jensen Huang announced resignation or removal by March 31, 2027?",
+    "ts": "2026-11-09T17:02:35.138311",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-09T17:02:37.236238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
     "whale_signal": "COMPRAR NO"
   }
 ]
