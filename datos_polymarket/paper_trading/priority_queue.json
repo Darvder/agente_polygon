@@ -1,34 +1,10 @@
 [
   {
-    "id": "6719485",
-    "pregunta": "Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?",
-    "ts": "2026-11-09T06:09:54.850429",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31?",
+    "ts": "2026-11-09T06:18:57.901699",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x251d896fa1443abdcca009605f340e43dd9ca195",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1193093",
-    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-09T06:10:03.015795",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x651d591c4b0e33eb58a5a03f102f610029fb6f4d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6873135",
-    "pregunta": "Will the price of Ethereum be above $2,100 on November 15?",
-    "ts": "2026-11-09T06:10:04.972372",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6639396",
-    "pregunta": "Will the price of Ethereum be above $2,100 on November 10?",
-    "ts": "2026-11-09T06:10:06.133455",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
+    "whale_wallet": "0xb66582886125a2a2ea966f1ea60ea60b6ecabf8f",
     "whale_signal": "COMPRAR NO"
   }
 ]
