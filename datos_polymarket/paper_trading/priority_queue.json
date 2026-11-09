@@ -1,42 +1,34 @@
 [
   {
-    "id": "6507421",
-    "pregunta": "Will Ethereum dip to $2,000 in November?",
-    "ts": "2026-11-09T05:59:45.099034",
+    "id": "6719485",
+    "pregunta": "Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?",
+    "ts": "2026-11-09T06:09:54.850429",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
+    "whale_wallet": "0x251d896fa1443abdcca009605f340e43dd9ca195",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507422",
-    "pregunta": "Will Ethereum dip to $1,900 in November?",
-    "ts": "2026-11-09T05:59:46.133052",
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-09T06:10:03.015795",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
+    "whale_wallet": "0x651d591c4b0e33eb58a5a03f102f610029fb6f4d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507423",
-    "pregunta": "Will Ethereum dip to $1,800 in November?",
-    "ts": "2026-11-09T05:59:47.167360",
+    "id": "6873135",
+    "pregunta": "Will the price of Ethereum be above $2,100 on November 15?",
+    "ts": "2026-11-09T06:10:04.972372",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
+    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507424",
-    "pregunta": "Will Ethereum dip to $1,700 in November?",
-    "ts": "2026-11-09T05:59:48.202109",
+    "id": "6639396",
+    "pregunta": "Will the price of Ethereum be above $2,100 on November 10?",
+    "ts": "2026-11-09T06:10:06.133455",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2750302",
-    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
-    "ts": "2026-11-09T05:59:50.581262",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1d50ae21c78895e591e8bc5b55b9246e49390fe3",
+    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
     "whale_signal": "COMPRAR NO"
   }
 ]
