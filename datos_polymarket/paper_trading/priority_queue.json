@@ -1,10 +1,18 @@
 [
   {
-    "id": "6891196",
-    "pregunta": "Will Bitcoin reach $76,000 on November 9?",
-    "ts": "2026-11-09T05:30:27.989095",
+    "id": "3862800",
+    "pregunta": "Will Russia capture Dobropillia by December 31, 2026?",
+    "ts": "2026-11-09T05:39:57.955358",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0cb16fa435fc6dd7c21766e12251e17d6da1dea6",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6438437",
+    "pregunta": "US imports Russian diesel by March 31?",
+    "ts": "2026-11-09T05:39:59.077809",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
     "whale_signal": "COMPRAR NO"
   }
 ]
