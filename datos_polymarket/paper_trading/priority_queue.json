@@ -1,10 +1,42 @@
 [
   {
-    "id": "666659",
-    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
-    "ts": "2026-11-09T05:50:15.983289",
+    "id": "6507421",
+    "pregunta": "Will Ethereum dip to $2,000 in November?",
+    "ts": "2026-11-09T05:59:45.099034",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
+    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507422",
+    "pregunta": "Will Ethereum dip to $1,900 in November?",
+    "ts": "2026-11-09T05:59:46.133052",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507423",
+    "pregunta": "Will Ethereum dip to $1,800 in November?",
+    "ts": "2026-11-09T05:59:47.167360",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507424",
+    "pregunta": "Will Ethereum dip to $1,700 in November?",
+    "ts": "2026-11-09T05:59:48.202109",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x275575bb11522eb29f82fe0a601d7c4dc94b5016",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2750302",
+    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
+    "ts": "2026-11-09T05:59:50.581262",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1d50ae21c78895e591e8bc5b55b9246e49390fe3",
     "whale_signal": "COMPRAR NO"
   }
 ]
