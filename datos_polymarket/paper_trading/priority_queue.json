@@ -1,26 +1,42 @@
 [
   {
-    "id": "6910695",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in November?",
-    "ts": "2026-11-10T11:19:11.862919",
+    "id": "5163128",
+    "pregunta": "Will Iran target Oman by November 30, 2026?",
+    "ts": "2026-11-10T11:29:31.073573",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6332d3594bdc70fe73196997e9e0c638473b4378",
+    "whale_wallet": "0x330eb4b09a68c781b31eca51e15bf09bb87cbcd1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-10T11:19:14.695109",
+    "id": "6267652",
+    "pregunta": "Will Anthropic raise less than $65B in its IPO?",
+    "ts": "2026-11-10T11:29:33.975643",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe033e9d4a0e8b30c417f3f7abcb029bc695940a5",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6322992",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
-    "ts": "2026-11-10T11:19:15.715343",
+    "id": "3721702",
+    "pregunta": "Will Anthropic's IPO valuation be between $1.25T and $1.50T?",
+    "ts": "2026-11-10T11:29:35.027583",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe033e9d4a0e8b30c417f3f7abcb029bc695940a5",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3721704",
+    "pregunta": "Will Anthropic's IPO valuation be between $1.50T and $1.75T?",
+    "ts": "2026-11-10T11:29:36.114905",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6268102",
+    "pregunta": "Will Anthropic IPO on November 19, 2026?",
+    "ts": "2026-11-10T11:29:37.179260",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
     "whale_signal": "COMPRAR NO"
   }
 ]
