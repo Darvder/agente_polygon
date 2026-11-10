@@ -1,74 +1,10 @@
 [
   {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-10T09:11:16.014046",
+    "id": "6921860",
+    "pregunta": "Will Bitcoin dip to $72,000 on November 10?",
+    "ts": "2026-11-10T09:22:57.839418",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3215012",
-    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
-    "ts": "2026-11-10T09:11:17.182372",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5154351",
-    "pregunta": "Will the Fed Pause-Hike-Hike in the next three decisions (Oct-Dec-Jan)?",
-    "ts": "2026-11-10T09:11:19.894195",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe033e9d4a0e8b30c417f3f7abcb029bc695940a5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6322992",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
-    "ts": "2026-11-10T09:11:20.944107",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe033e9d4a0e8b30c417f3f7abcb029bc695940a5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6891192",
-    "pregunta": "Will Bitcoin reach $78,000 November 9-15?",
-    "ts": "2026-11-10T09:11:22.911151",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3865999",
-    "pregunta": "Will Ethereum dip to $2,000 by December 31, 2026?",
-    "ts": "2026-11-10T09:11:23.972503",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2818594",
-    "pregunta": "Will Solana dip to $70 by December 31, 2026?",
-    "ts": "2026-11-10T09:11:27.362097",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3866621",
-    "pregunta": "Will XRP dip to $1.00 by December 31, 2026?",
-    "ts": "2026-11-10T09:11:28.527662",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507381",
-    "pregunta": "Will Bitcoin dip to $72,500 in November?",
-    "ts": "2026-11-10T09:11:29.571220",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x9343962d1b1d4f136e9c89cc282a4429e0443f72",
     "whale_signal": "COMPRAR NO"
   }
 ]
