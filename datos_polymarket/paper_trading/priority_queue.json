@@ -1,26 +1,58 @@
 [
   {
-    "id": "2412746",
-    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-    "ts": "2026-11-10T14:22:01.108978",
+    "id": "6353938",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the April 2027 meeting?",
+    "ts": "2026-11-10T14:37:25.457708",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+    "whale_wallet": "0xbbc588105c90a643c76282edfbf5131631c2b08b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6907990",
-    "pregunta": "US announces end of Iranian blockade by December 15, 2026?",
-    "ts": "2026-11-10T14:22:02.810607",
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-10T14:37:26.503467",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
+    "whale_wallet": "0xbbc588105c90a643c76282edfbf5131631c2b08b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3399468",
-    "pregunta": "Israel x Iran ceasefire continues through December 31?",
-    "ts": "2026-11-10T14:22:03.833889",
+    "id": "3681004",
+    "pregunta": "Will Japan Q3 GDP growth (annualized) be between 0.0% and 0.8%?",
+    "ts": "2026-11-10T14:37:27.700284",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
+    "whale_wallet": "0xbbc588105c90a643c76282edfbf5131631c2b08b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4178756",
+    "pregunta": "Will the 5-year Treasury yield dip below 4.40% before 2027?",
+    "ts": "2026-11-10T14:37:28.748503",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbc588105c90a643c76282edfbf5131631c2b08b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "665369",
+    "pregunta": "Will Trump's approval rating hit 35% in 2026?",
+    "ts": "2026-11-10T14:37:29.955242",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbc588105c90a643c76282edfbf5131631c2b08b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2965188",
+    "pregunta": "Will Lindsay Clancy be the #1 searched person on Google this year?",
+    "ts": "2026-11-10T14:37:31.159242",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbc588105c90a643c76282edfbf5131631c2b08b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6683248",
+    "pregunta": "Will the price of Ethereum be above $2,100 on November 11?",
+    "ts": "2026-11-10T14:37:35.016536",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa64d76d112e7b47e5ca3f8fbc5485ae41a91cad1",
     "whale_signal": "COMPRAR NO"
   }
 ]
