@@ -1,10 +1,42 @@
 [
   {
-    "id": "1393324",
-    "pregunta": "Predict.fun FDV above $1B one day after launch?",
-    "ts": "2026-11-10T08:21:35.655217",
+    "id": "6907990",
+    "pregunta": "US announces end of Iranian blockade by December 15, 2026?",
+    "ts": "2026-11-10T08:27:19.562681",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x575fa0886b1bbb88a87cbc5a3b3c68c5f57d278f",
+    "whale_wallet": "0xc932d38f38394feee092031b2a28509f505e7277",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906128",
+    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
+    "ts": "2026-11-10T08:27:20.627932",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc932d38f38394feee092031b2a28509f505e7277",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6440108",
+    "pregunta": "Will at least 10 ships transit the Strait of Hormuz on any day by November 30, 2026?",
+    "ts": "2026-11-10T08:27:21.779058",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc932d38f38394feee092031b2a28509f505e7277",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2431412",
+    "pregunta": "Will Google have the best AI model at the end of December 2026?",
+    "ts": "2026-11-10T08:27:22.841342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc932d38f38394feee092031b2a28509f505e7277",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2724048",
+    "pregunta": "Pete Hegseth impeached by December 31, 2026?",
+    "ts": "2026-11-10T08:27:23.906188",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc932d38f38394feee092031b2a28509f505e7277",
     "whale_signal": "COMPRAR NO"
   }
 ]
