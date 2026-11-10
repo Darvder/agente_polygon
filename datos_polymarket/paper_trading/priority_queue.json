@@ -1,10 +1,18 @@
 [
   {
-    "id": "6836721",
-    "pregunta": "Over $20M committed to the Mori Finance public sale?",
-    "ts": "2026-11-10T10:58:10.866260",
+    "id": "6882874",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 7:59 AM ET?",
+    "ts": "2026-11-10T11:10:04.785410",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe4e6aa2f9eb66b76d372d80cd91f6bc592d04bd4",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1345531",
+    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "ts": "2026-11-10T11:10:06.861545",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8b4bca1d794779e66e023d44391b2a86c5ab541b",
     "whale_signal": "COMPRAR NO"
   }
 ]
