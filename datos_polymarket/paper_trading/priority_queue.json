@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "559661",
+    "pregunta": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+    "ts": "2026-11-09T22:58:58.950550",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x145b9ca7e5d522a8a31dec1d1961e17b2802d6bd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6280833",
+    "pregunta": "Ukraine agrees not to join NATO by December 31, 2027?",
+    "ts": "2026-11-09T22:59:00.806255",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x128bd3d7878de7eb409400298b45ac93b81af4f7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6882874",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 7:59 AM ET?",
+    "ts": "2026-11-09T22:59:02.642289",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xae44e7eaf3829be5bad4e8e7452f7cbce83ece37",
+    "whale_signal": "COMPRAR NO"
+  }
+]
