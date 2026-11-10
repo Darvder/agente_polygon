@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "6066052",
+    "pregunta": "Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?",
+    "ts": "2026-11-10T00:19:33.643860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-10T00:19:34.669157",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139754",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1520 by June 30, 2027?",
+    "ts": "2026-11-10T00:19:36.824412",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139755",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1530 by June 30, 2027?",
+    "ts": "2026-11-10T00:19:37.850148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6366107",
+    "pregunta": "Will the next Fable model (5.2+) debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-10T00:19:38.973214",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_signal": "COMPRAR NO"
+  }
+]
