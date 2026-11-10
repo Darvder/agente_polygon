@@ -1,18 +1,26 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-10T07:31:10.254260",
+    "id": "2299956",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+    "ts": "2026-11-10T07:39:02.432554",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa9b982a035e15f08f4e3f35e56a4aacd34120fc6",
+    "whale_wallet": "0x8a4c788f043023b8b28a762216d037e9f148532b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "561974",
-    "pregunta": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-    "ts": "2026-11-10T07:31:12.167543",
+    "id": "6443538",
+    "pregunta": "Will Elon Musk post 280-299 tweets from November 3 to November 10, 2026?",
+    "ts": "2026-11-10T07:39:04.959138",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc3623645c6b005b7f41fe12f834043a7e5147f20",
+    "whale_wallet": "0x2cb256064f192c16bab846ac83aa3f9120f5ee14",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6443537",
+    "pregunta": "Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
+    "ts": "2026-11-10T07:39:05.980237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2cb256064f192c16bab846ac83aa3f9120f5ee14",
     "whale_signal": "COMPRAR NO"
   }
 ]
