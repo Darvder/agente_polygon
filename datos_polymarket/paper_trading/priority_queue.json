@@ -1,10 +1,42 @@
 [
   {
-    "id": "6443538",
-    "pregunta": "Will Elon Musk post 280-299 tweets from November 3 to November 10, 2026?",
-    "ts": "2026-11-10T12:08:38.264757",
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-11-10T12:19:39.606086",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdc36e99e2ddb2291286fe0a7d5317044b11c8542",
+    "whale_wallet": "0x0a26054fe174697bf6be759c4b600fdb830d1851",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-10T12:19:41.452170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7ef580a13f0463561170074bece5fb7bbd3812c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6908168",
+    "pregunta": "Jensen Huang announced resignation or removal by March 31, 2027?",
+    "ts": "2026-11-10T12:19:42.644996",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7ef580a13f0463561170074bece5fb7bbd3812c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6753207",
+    "pregunta": "Will the price of XRP be between $0.90 and $1.00 on November 13?",
+    "ts": "2026-11-10T12:19:44.491097",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6801948",
+    "pregunta": "Will the price of XRP be between $0.90 and $1.00 on November 14?",
+    "ts": "2026-11-10T12:19:45.677897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
