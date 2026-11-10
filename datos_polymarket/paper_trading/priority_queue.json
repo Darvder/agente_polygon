@@ -1,10 +1,18 @@
 [
   {
-    "id": "6910575",
-    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $184 in November?",
-    "ts": "2026-11-10T07:59:29.581324",
+    "id": "6882874",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 7:59 AM ET?",
+    "ts": "2026-11-10T08:11:34.217487",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84f947e419f3197b47154372d61fb2e76d613453",
+    "whale_wallet": "0xda3eb33b7295977782959ba5e3198973551de9ca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1320796",
+    "pregunta": "Microstrategy delisted from MSCI index by December 31?",
+    "ts": "2026-11-10T08:11:35.971909",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3b91c0de58925787f14985328d94bd78ceb2e572",
     "whale_signal": "COMPRAR NO"
   }
 ]
