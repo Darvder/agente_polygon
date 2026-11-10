@@ -1,10 +1,26 @@
 [
   {
-    "id": "2110753",
-    "pregunta": "Will Anthropic\u2019s market cap be 1.8T or greater at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-10T03:30:55.695147",
+    "id": "6882874",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 7:59 AM ET?",
+    "ts": "2026-11-10T03:39:15.299999",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
+    "whale_wallet": "0xc499d0ec9d065884a20157cf26a395370256f793",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6556897",
+    "pregunta": "Will the Democrats sweep the House and Senate and the US government not take a stake in OpenAI or Anthropic by the end of 2027?",
+    "ts": "2026-11-10T03:39:17.254177",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6803933",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 2:59 PM ET?",
+    "ts": "2026-11-10T03:39:19.245837",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x10210a9fd731590147802fe35399ce151d831655",
     "whale_signal": "COMPRAR NO"
   }
 ]
