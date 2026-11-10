@@ -1,34 +1,34 @@
 [
   {
-    "id": "6507382",
-    "pregunta": "Will Bitcoin dip to $70,000 in November?",
-    "ts": "2026-11-10T04:50:51.501975",
+    "id": "6656065",
+    "pregunta": "Will the 10-year Treasury yield dip below 4.67% in November?",
+    "ts": "2026-11-10T05:00:40.392398",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
+    "whale_wallet": "0x2ed8f7a10686dbb0fb15f5c3335f30e0043793d4",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507381",
-    "pregunta": "Will Bitcoin dip to $72,500 in November?",
-    "ts": "2026-11-10T04:50:52.551960",
+    "id": "5087228",
+    "pregunta": "US-Iran Hormuz Agreement by December 31?",
+    "ts": "2026-11-10T05:00:43.103891",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
+    "whale_wallet": "0xa91edabae0eae478c830a6d5dfd3acc0571709e0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6803500",
-    "pregunta": "Will Elon Musk post 40-64 tweets from November 9 to November 11, 2026?",
-    "ts": "2026-11-10T04:50:56.481230",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-10T05:00:44.126838",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_wallet": "0xa91edabae0eae478c830a6d5dfd3acc0571709e0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6910695",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in November?",
-    "ts": "2026-11-10T04:51:05.664437",
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-10T05:00:45.152237",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0xa91edabae0eae478c830a6d5dfd3acc0571709e0",
     "whale_signal": "COMPRAR NO"
   }
 ]
