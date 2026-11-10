@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6658562",
+    "pregunta": "Shapiro's Democratic nomination odds hit 8% by December 31?",
+    "ts": "2026-11-10T16:37:41.709611",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6935093",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 3:59 AM ET?",
+    "ts": "2026-11-10T16:37:44.714784",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbcdc6542f0250ab33763fe556b1379129b15e5b1",
+    "whale_signal": "COMPRAR NO"
+  }
+]
