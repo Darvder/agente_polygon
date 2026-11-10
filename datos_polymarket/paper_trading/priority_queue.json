@@ -1,34 +1,18 @@
 [
   {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-10T14:50:49.265191",
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-11-10T15:02:07.879806",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe89905ca9a689f5129621b62fcf715b5a45b88c",
+    "whale_wallet": "0x2fa9f8d5908905ed1ba3135f2c60d1d07476d134",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6921860",
-    "pregunta": "Will Bitcoin dip to $72,000 on November 10?",
-    "ts": "2026-11-10T14:50:51.184195",
+    "id": "6934681",
+    "pregunta": "Hegseth impeached and removed by March 31, 2027?",
+    "ts": "2026-11-10T15:02:09.873143",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4906128",
-    "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
-    "ts": "2026-11-10T14:50:53.116342",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa0991752cb645c4db0d65945b8472a1c2ea999a7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2724048",
-    "pregunta": "Pete Hegseth impeached by December 31, 2026?",
-    "ts": "2026-11-10T14:50:55.053497",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xaab9f5e600a5dd88fe3a6f93313b180f6220a08d",
+    "whale_wallet": "0xcfcabcd88df9e0bebfc4347a86c4686e7cb78b3a",
     "whale_signal": "COMPRAR NO"
   }
 ]
