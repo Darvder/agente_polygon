@@ -1,26 +1,18 @@
 [
   {
-    "id": "2299956",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
-    "ts": "2026-11-10T07:39:02.432554",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8a4c788f043023b8b28a762216d037e9f148532b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6443538",
-    "pregunta": "Will Elon Musk post 280-299 tweets from November 3 to November 10, 2026?",
-    "ts": "2026-11-10T07:39:04.959138",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2cb256064f192c16bab846ac83aa3f9120f5ee14",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6443537",
     "pregunta": "Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
-    "ts": "2026-11-10T07:39:05.980237",
+    "ts": "2026-11-10T07:51:26.834027",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2cb256064f192c16bab846ac83aa3f9120f5ee14",
+    "whale_wallet": "0x745c86257e6ddf185838073ce910ec2bdf477c03",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6639469",
+    "pregunta": "Will the price of Bitcoin be above $74,000 on November 10?",
+    "ts": "2026-11-10T07:51:28.474938",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
