@@ -1,18 +1,90 @@
 [
   {
-    "id": "3215008",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-    "ts": "2026-11-10T15:02:07.879806",
+    "id": "6923357",
+    "pregunta": "Will the highest temperature in Lucknow be 30\u00b0C on November 12?",
+    "ts": "2026-11-10T15:11:32.088745",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2fa9f8d5908905ed1ba3135f2c60d1d07476d134",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6934681",
-    "pregunta": "Hegseth impeached and removed by March 31, 2027?",
-    "ts": "2026-11-10T15:02:09.873143",
+    "id": "6892994",
+    "pregunta": "Will the highest temperature in London be 11\u00b0C on November 11?",
+    "ts": "2026-11-10T15:11:33.292163",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcfcabcd88df9e0bebfc4347a86c4686e7cb78b3a",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923356",
+    "pregunta": "Will the highest temperature in Lucknow be 29\u00b0C on November 12?",
+    "ts": "2026-11-10T15:11:34.336494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6900616",
+    "pregunta": "Will the highest temperature in Seattle be between 62-63\u00b0F on November 11?",
+    "ts": "2026-11-10T15:11:35.379768",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6901508",
+    "pregunta": "Will the highest temperature in Sao Paulo be 26\u00b0C on November 11?",
+    "ts": "2026-11-10T15:11:36.423730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6901510",
+    "pregunta": "Will the highest temperature in Sao Paulo be 28\u00b0C on November 11?",
+    "ts": "2026-11-10T15:11:37.469842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923410",
+    "pregunta": "Will the highest temperature in Shanghai be 20\u00b0C on November 12?",
+    "ts": "2026-11-10T15:11:38.551973",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923500",
+    "pregunta": "Will the highest temperature in Wuhan be 14\u00b0C on November 12?",
+    "ts": "2026-11-10T15:11:39.595936",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6893296",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on November 11?",
+    "ts": "2026-11-10T15:11:40.638437",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923509",
+    "pregunta": "Will the highest temperature in Chengdu be 16\u00b0C on November 12?",
+    "ts": "2026-11-10T15:11:41.723161",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6898124",
+    "pregunta": "Will the highest temperature in Atlanta be between 70-71\u00b0F on November 11?",
+    "ts": "2026-11-10T15:11:42.767899",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
     "whale_signal": "COMPRAR NO"
   }
 ]
