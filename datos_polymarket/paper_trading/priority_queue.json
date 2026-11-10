@@ -1,26 +1,10 @@
 [
   {
-    "id": "6837348",
-    "pregunta": "Will the highest temperature in Qingdao be 16\u00b0C on November 10?",
-    "ts": "2026-11-10T02:21:27.482229",
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-10T02:28:18.660814",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa1cce6ea8c929c91ee4b9c78a57b11115d7f6171",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837217",
-    "pregunta": "Will the highest temperature in Chengdu be 16\u00b0C on November 10?",
-    "ts": "2026-11-10T02:21:29.527758",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa1cce6ea8c929c91ee4b9c78a57b11115d7f6171",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6837218",
-    "pregunta": "Will the highest temperature in Chengdu be 17\u00b0C on November 10?",
-    "ts": "2026-11-10T02:21:30.553169",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa1cce6ea8c929c91ee4b9c78a57b11115d7f6171",
+    "whale_wallet": "0x52f9c45a6fa8182649067bef26209878b935e1c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
