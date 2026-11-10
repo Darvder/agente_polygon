@@ -1,10 +1,50 @@
 [
   {
-    "id": "6018065",
-    "pregunta": "Houthis capture Taiz city by December 31?",
-    "ts": "2026-11-09T20:08:22.626537",
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-09T20:18:52.238108",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-09T20:18:53.267646",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412747",
+    "pregunta": "Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?",
+    "ts": "2026-11-09T20:18:55.063217",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299955",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
+    "ts": "2026-11-09T20:18:56.094792",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299954",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
+    "ts": "2026-11-09T20:18:57.123892",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-09T20:18:58.175965",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
     "whale_signal": "COMPRAR NO"
   }
 ]
