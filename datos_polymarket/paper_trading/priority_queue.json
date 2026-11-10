@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6299699",
+    "pregunta": "Next Israeli government formed by December 31, 2026?",
+    "ts": "2026-11-10T06:40:25.809848",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x09bb36b444503887dcd4ad3a9722a9432ae1f8b1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "567688",
+    "pregunta": "Netanyahu out by end of 2026?",
+    "ts": "2026-11-10T06:40:26.832443",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x09bb36b444503887dcd4ad3a9722a9432ae1f8b1",
+    "whale_signal": "COMPRAR NO"
+  }
+]
