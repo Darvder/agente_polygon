@@ -1,34 +1,10 @@
 [
   {
-    "id": "3215012",
-    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
-    "ts": "2026-11-10T04:19:45.517209",
+    "id": "6837160",
+    "pregunta": "Will the highest temperature in Warsaw be 3\u00b0C on November 10?",
+    "ts": "2026-11-10T04:31:24.476103",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3215007",
-    "pregunta": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-    "ts": "2026-11-10T04:19:46.537360",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-10T04:19:48.598100",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3215008",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-    "ts": "2026-11-10T04:19:50.482479",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x881713021866ab84467b2b552b6cd7a51ac9cda8",
     "whale_signal": "COMPRAR NO"
   }
 ]
