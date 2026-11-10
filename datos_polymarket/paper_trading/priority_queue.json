@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6364436",
+    "pregunta": "Government shutdown by December 12?",
+    "ts": "2026-11-10T14:07:50.192991",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x28ca4e9a04531f2eac0c2770f95db4e1c6a65d19",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-10T14:07:52.969278",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa91edabae0eae478c830a6d5dfd3acc0571709e0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-10T14:07:54.003768",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa91edabae0eae478c830a6d5dfd3acc0571709e0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
