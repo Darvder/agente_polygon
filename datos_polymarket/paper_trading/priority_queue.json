@@ -1,18 +1,26 @@
 [
   {
-    "id": "6069585",
-    "pregunta": "Will the 10-year Treasury yield dip below 4.8% before 2027?",
-    "ts": "2026-11-10T09:59:47.827740",
+    "id": "1393325",
+    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
+    "ts": "2026-11-10T10:08:26.802505",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_wallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6267652",
-    "pregunta": "Will Anthropic raise less than $65B in its IPO?",
-    "ts": "2026-11-10T09:59:48.848978",
+    "id": "1393326",
+    "pregunta": "Predict.fun FDV above $2B one day after launch?",
+    "ts": "2026-11-10T10:08:31.394244",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_wallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2110751",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-10T10:08:33.338002",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa6ce5994449773446cd092ca3888e9df1ab9be8c",
     "whale_signal": "COMPRAR NO"
   }
 ]
