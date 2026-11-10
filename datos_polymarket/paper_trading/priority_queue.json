@@ -1,10 +1,26 @@
 [
   {
-    "id": "4867865",
-    "pregunta": "Will no qualifying US-Iran senior diplomatic meeting take place by December 31, 2026?",
-    "ts": "2026-11-10T02:09:52.611966",
+    "id": "6837348",
+    "pregunta": "Will the highest temperature in Qingdao be 16\u00b0C on November 10?",
+    "ts": "2026-11-10T02:21:27.482229",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x905b737fdd1d4780731c634b87c8b7b9d3cde39f",
+    "whale_wallet": "0xa1cce6ea8c929c91ee4b9c78a57b11115d7f6171",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6837217",
+    "pregunta": "Will the highest temperature in Chengdu be 16\u00b0C on November 10?",
+    "ts": "2026-11-10T02:21:29.527758",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa1cce6ea8c929c91ee4b9c78a57b11115d7f6171",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6837218",
+    "pregunta": "Will the highest temperature in Chengdu be 17\u00b0C on November 10?",
+    "ts": "2026-11-10T02:21:30.553169",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa1cce6ea8c929c91ee4b9c78a57b11115d7f6171",
     "whale_signal": "COMPRAR NO"
   }
 ]
