@@ -1,34 +1,42 @@
 [
   {
-    "id": "6366093",
-    "pregunta": "Will the next Fable model (5.2+) debut in the top 1 of the Text Arena leaderboard by June 30, 2027?",
-    "ts": "2026-11-10T05:19:06.419050",
+    "id": "6921830",
+    "pregunta": "Will Bitcoin reach $76,000 on November 10?",
+    "ts": "2026-11-10T05:27:40.655065",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6366107",
-    "pregunta": "Will the next Fable model (5.2+) debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
-    "ts": "2026-11-10T05:19:07.464140",
+    "id": "6921839",
+    "pregunta": "Will Bitcoin reach $75,000 on November 10?",
+    "ts": "2026-11-10T05:27:41.851466",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5139753",
-    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
-    "ts": "2026-11-10T05:19:08.718759",
+    "id": "6507421",
+    "pregunta": "Will Ethereum dip to $2,000 in November?",
+    "ts": "2026-11-10T05:27:43.873648",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5139755",
-    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1530 by June 30, 2027?",
-    "ts": "2026-11-10T05:19:12.154564",
+    "id": "2373865",
+    "pregunta": "Will Russia capture Rai-Oleksandrivka by December 31?",
+    "ts": "2026-11-10T05:27:45.950284",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_wallet": "0x98d13dfa17ade5cc64d75a409bc3d1150ba6ed25",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5636168",
+    "pregunta": "Will Russia enter Bilozerske by December 31, 2026?",
+    "ts": "2026-11-10T05:27:48.669019",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98d13dfa17ade5cc64d75a409bc3d1150ba6ed25",
     "whale_signal": "COMPRAR NO"
   }
 ]
