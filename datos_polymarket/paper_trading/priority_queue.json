@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6594195",
+    "pregunta": "Will NVIDIA be the second-largest company in the world by market cap on November 30, 2026?",
+    "ts": "2026-11-09T23:20:15.138305",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "561261",
+    "pregunta": "Will Jon Ossoff win the 2028 US Presidential Election?",
+    "ts": "2026-11-09T23:20:16.209459",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_signal": "COMPRAR NO"
+  }
+]
