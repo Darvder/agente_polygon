@@ -1,90 +1,34 @@
 [
   {
-    "id": "6923357",
-    "pregunta": "Will the highest temperature in Lucknow be 30\u00b0C on November 12?",
-    "ts": "2026-11-10T15:11:32.088745",
+    "id": "6366851",
+    "pregunta": "Will Gemini Carbon debut with an HLE-Diamond score of 70% or higher?",
+    "ts": "2026-11-10T15:21:27.024384",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6892994",
-    "pregunta": "Will the highest temperature in London be 11\u00b0C on November 11?",
-    "ts": "2026-11-10T15:11:33.292163",
+    "id": "6942819",
+    "pregunta": "Will Claude Fable 5.2 debut with an HLE-Diamond score of 70% or higher?",
+    "ts": "2026-11-10T15:21:28.079041",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6923356",
-    "pregunta": "Will the highest temperature in Lucknow be 29\u00b0C on November 12?",
-    "ts": "2026-11-10T15:11:34.336494",
+    "id": "6942818",
+    "pregunta": "Will Claude Fable 5.2 debut with an HLE-Diamond score of 65% or higher?",
+    "ts": "2026-11-10T15:21:29.133890",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6900616",
-    "pregunta": "Will the highest temperature in Seattle be between 62-63\u00b0F on November 11?",
-    "ts": "2026-11-10T15:11:35.379768",
+    "id": "6929336",
+    "pregunta": "Will the highest temperature in Sao Paulo be 27\u00b0C on November 12?",
+    "ts": "2026-11-10T15:21:35.681584",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6901508",
-    "pregunta": "Will the highest temperature in Sao Paulo be 26\u00b0C on November 11?",
-    "ts": "2026-11-10T15:11:36.423730",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6901510",
-    "pregunta": "Will the highest temperature in Sao Paulo be 28\u00b0C on November 11?",
-    "ts": "2026-11-10T15:11:37.469842",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6923410",
-    "pregunta": "Will the highest temperature in Shanghai be 20\u00b0C on November 12?",
-    "ts": "2026-11-10T15:11:38.551973",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6923500",
-    "pregunta": "Will the highest temperature in Wuhan be 14\u00b0C on November 12?",
-    "ts": "2026-11-10T15:11:39.595936",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6893296",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on November 11?",
-    "ts": "2026-11-10T15:11:40.638437",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6923509",
-    "pregunta": "Will the highest temperature in Chengdu be 16\u00b0C on November 12?",
-    "ts": "2026-11-10T15:11:41.723161",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6898124",
-    "pregunta": "Will the highest temperature in Atlanta be between 70-71\u00b0F on November 11?",
-    "ts": "2026-11-10T15:11:42.767899",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
