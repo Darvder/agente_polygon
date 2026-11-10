@@ -1,10 +1,18 @@
 [
   {
-    "id": "6801555",
-    "pregunta": "Will Cuffem lose the most weight in Nozempic 2?",
-    "ts": "2026-11-10T05:58:33.160063",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-10T06:08:31.905243",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
+    "whale_wallet": "0x40a75505ba4e7deb9bf55e839e5a34dd6c9becb7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3728736",
+    "pregunta": "Will the Christian Democrats (KD) be in the next Swedish government?",
+    "ts": "2026-11-10T06:08:33.071504",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40a75505ba4e7deb9bf55e839e5a34dd6c9becb7",
     "whale_signal": "COMPRAR NO"
   }
 ]
