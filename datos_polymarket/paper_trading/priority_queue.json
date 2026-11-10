@@ -1,10 +1,18 @@
 [
   {
-    "id": "2468323",
-    "pregunta": "Will Hyperliquid dip to $50 by December 31, 2026?",
-    "ts": "2026-11-10T13:39:18.275964",
+    "id": "6803933",
+    "pregunta": "Will Kai Cenat finish his GTA marathon by November 11, 2:59 PM ET?",
+    "ts": "2026-11-10T13:49:54.411069",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc1a58674dbcc1d3208f7e61a0a8b252162caf290",
+    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2109956",
+    "pregunta": "Israeli election results in a hung parliament?",
+    "ts": "2026-11-10T13:49:56.245400",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x66e7ce01c6831b8a2503d09edd6167152ee68bcd",
     "whale_signal": "COMPRAR NO"
   }
 ]
