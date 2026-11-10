@@ -1,26 +1,18 @@
 [
   {
-    "id": "6921839",
-    "pregunta": "Will Bitcoin reach $75,000 on November 10?",
-    "ts": "2026-11-10T15:56:53.829415",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-10T15:58:22.660027",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_wallet": "0xb7632365a9edc5be7239295bf559e8cd98a8d3a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2750302",
-    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
-    "ts": "2026-11-10T15:56:55.664522",
+    "id": "6625377",
+    "pregunta": "Will Elon Musk post 240-259 tweets from November 6 to November 13, 2026?",
+    "ts": "2026-11-10T15:58:26.908001",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2282a5df686f9dd2326bba576226850d439273e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5204875",
-    "pregunta": "Will EU emergency diesel stocks be at least 37M tonnes at end of December 2026?",
-    "ts": "2026-11-10T15:56:57.538439",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xde18162d38cd41fd8c27872584d9451120427ca8",
+    "whale_wallet": "0x1e1aed3928a9617e7c7ae674c4fa7aebbd9d7690",
     "whale_signal": "COMPRAR NO"
   }
 ]
