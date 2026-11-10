@@ -1,42 +1,26 @@
 [
   {
-    "id": "3215007",
-    "pregunta": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-    "ts": "2026-11-10T04:00:42.955682",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "3215008",
     "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-    "ts": "2026-11-10T04:00:43.978200",
+    "ts": "2026-11-10T04:11:43.777484",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3215012",
-    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
-    "ts": "2026-11-10T04:00:45.003972",
+    "id": "6733683",
+    "pregunta": "Will WaiterG win the GMGN GGC Season 1 Grand Final?",
+    "ts": "2026-11-10T04:11:45.877579",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
+    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4170752",
-    "pregunta": "Will the Fed Hike\u2013Pause\u2013Hike in the next three decisions (Sep\u2013Oct\u2013Dec)?",
-    "ts": "2026-11-10T04:00:46.701315",
+    "id": "2299955",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
+    "ts": "2026-11-10T04:11:46.898180",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa1d4c28c43a35c1ba6433d09288dac23496f2f1b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4620900",
-    "pregunta": "Another Fed rate hike in 2026?",
-    "ts": "2026-11-10T04:00:47.730100",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa1d4c28c43a35c1ba6433d09288dac23496f2f1b",
+    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
     "whale_signal": "COMPRAR NO"
   }
 ]
