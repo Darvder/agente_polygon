@@ -1,10 +1,18 @@
 [
   {
-    "id": "6764473",
-    "pregunta": "Will Gold (XAUUSD) hit (HIGH) $4,150 Week of November 9 2026?",
-    "ts": "2026-11-10T09:48:07.319851",
+    "id": "6069585",
+    "pregunta": "Will the 10-year Treasury yield dip below 4.8% before 2027?",
+    "ts": "2026-11-10T09:59:47.827740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdac56442dacdaa0a170de01c09750319059cae24",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6267652",
+    "pregunta": "Will Anthropic raise less than $65B in its IPO?",
+    "ts": "2026-11-10T09:59:48.848978",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
     "whale_signal": "COMPRAR NO"
   }
 ]
