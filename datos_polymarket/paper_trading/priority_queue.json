@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6920654",
+    "pregunta": "Will Elon Musk attend Super Bowl LXI?",
+    "ts": "2026-11-10T12:39:11.076585",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6920688",
+    "pregunta": "Will Kendrick Lamar attend Super Bowl LXI?",
+    "ts": "2026-11-10T12:39:12.200937",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
