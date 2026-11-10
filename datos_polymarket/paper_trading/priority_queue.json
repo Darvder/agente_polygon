@@ -1,58 +1,10 @@
 [
   {
-    "id": "6661903",
-    "pregunta": "Will Congress override 3+ Trump vetoes by December 31, 2027?",
-    "ts": "2026-11-10T03:20:12.998053",
+    "id": "2110753",
+    "pregunta": "Will Anthropic\u2019s market cap be 1.8T or greater at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-10T03:30:55.695147",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x66cab4346fe9e0064f9a471e1da35ec4b182532d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6893261",
-    "pregunta": "Will the highest temperature in Busan be 18\u00b0C on November 11?",
-    "ts": "2026-11-10T03:20:15.204536",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6893251",
-    "pregunta": "Will the highest temperature in Istanbul be 17\u00b0C on November 11?",
-    "ts": "2026-11-10T03:20:16.419582",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6893239",
-    "pregunta": "Will the highest temperature in Moscow be 4\u00b0C on November 11?",
-    "ts": "2026-11-10T03:20:17.633005",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6893099",
-    "pregunta": "Will the highest temperature in Hong Kong be 25\u00b0C on November 11?",
-    "ts": "2026-11-10T03:20:18.844629",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6893110",
-    "pregunta": "Will the highest temperature in Shanghai be 19\u00b0C on November 11?",
-    "ts": "2026-11-10T03:20:20.074525",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6299701",
-    "pregunta": "Next Israeli government formed by June 30, 2027?",
-    "ts": "2026-11-10T03:20:22.224691",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
     "whale_signal": "COMPRAR NO"
   }
 ]
