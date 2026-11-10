@@ -1,10 +1,42 @@
 [
   {
-    "id": "4838928",
-    "pregunta": "AI bubble burst by June 30, 2027?",
-    "ts": "2026-11-10T08:50:10.076253",
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-10T08:58:43.456436",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6800c247294ffecaa285c814d879cc1e8b81b2cb",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3748065",
+    "pregunta": "Will Bitcoin hit $100k by June 30, 2027?",
+    "ts": "2026-11-10T08:58:44.489622",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3748066",
+    "pregunta": "Will Bitcoin hit $100k by September 30, 2027?",
+    "ts": "2026-11-10T08:58:45.521171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3865960",
+    "pregunta": "Will Bitcoin dip to $70,000 by December 31, 2026?",
+    "ts": "2026-11-10T08:58:46.555840",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3865962",
+    "pregunta": "Will Bitcoin dip to $65,000 by December 31, 2026?",
+    "ts": "2026-11-10T08:58:47.589553",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
     "whale_signal": "COMPRAR NO"
   }
 ]
