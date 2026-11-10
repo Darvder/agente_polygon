@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "6366093",
+    "pregunta": "Will the next Fable model (5.2+) debut in the top 1 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-10T05:19:06.419050",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6366107",
+    "pregunta": "Will the next Fable model (5.2+) debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-10T05:19:07.464140",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-10T05:19:08.718759",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139755",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1530 by June 30, 2027?",
+    "ts": "2026-11-10T05:19:12.154564",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
