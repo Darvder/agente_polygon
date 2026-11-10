@@ -1,10 +1,18 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-10T02:28:18.660814",
+    "id": "6638498",
+    "pregunta": "Ukraine signs peace deal with Russia by December 31, 2027?",
+    "ts": "2026-11-10T02:39:18.032887",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x52f9c45a6fa8182649067bef26209878b935e1c7",
+    "whale_wallet": "0xc9e3dde4919c9106b0b114c5ec569d2b5d9c9bf1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6639469",
+    "pregunta": "Will the price of Bitcoin be above $74,000 on November 10?",
+    "ts": "2026-11-10T02:39:20.694211",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf1da56e58fb35f99987c87db50a3a1ae0d86ce2a",
     "whale_signal": "COMPRAR NO"
   }
 ]
