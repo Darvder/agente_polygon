@@ -1,10 +1,42 @@
 [
   {
-    "id": "3902370",
-    "pregunta": "Israel x Iran ceasefire continues through November 30?",
-    "ts": "2026-11-10T03:51:25.401415",
+    "id": "3215007",
+    "pregunta": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+    "ts": "2026-11-10T04:00:42.955682",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd7fd119fe82cdef2f98a91075a8ff3841447dae3",
+    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-11-10T04:00:43.978200",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215012",
+    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
+    "ts": "2026-11-10T04:00:45.003972",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7ad3d7e5cda50dbe1fc5c29a1ffc2f61a9232e30",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4170752",
+    "pregunta": "Will the Fed Hike\u2013Pause\u2013Hike in the next three decisions (Sep\u2013Oct\u2013Dec)?",
+    "ts": "2026-11-10T04:00:46.701315",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa1d4c28c43a35c1ba6433d09288dac23496f2f1b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4620900",
+    "pregunta": "Another Fed rate hike in 2026?",
+    "ts": "2026-11-10T04:00:47.730100",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa1d4c28c43a35c1ba6433d09288dac23496f2f1b",
     "whale_signal": "COMPRAR NO"
   }
 ]
