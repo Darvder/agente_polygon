@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "3215008",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "ts": "2026-11-09T20:52:12.908043",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x86b74da7ca8efe81ce0a60d1bcb19a97614a7d35",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3192167",
+    "pregunta": "Will exactly 1 Israeli legislative election occur before a government is formed?",
+    "ts": "2026-11-09T20:52:15.501728",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb490d0534bb68b4c2ce139b219a728cd2c3693e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-09T20:52:16.580920",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb490d0534bb68b4c2ce139b219a728cd2c3693e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-09T20:52:17.630385",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb490d0534bb68b4c2ce139b219a728cd2c3693e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5426238",
+    "pregunta": "Will Crude Oil reach a new all-time high by March 31, 2027?",
+    "ts": "2026-11-09T20:52:18.689199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb490d0534bb68b4c2ce139b219a728cd2c3693e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
