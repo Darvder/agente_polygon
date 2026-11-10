@@ -1,34 +1,10 @@
 [
   {
-    "id": "6366851",
-    "pregunta": "Will Gemini Carbon debut with an HLE-Diamond score of 70% or higher?",
-    "ts": "2026-11-10T15:21:27.024384",
+    "id": "4664660",
+    "pregunta": "Will Anthropic have the best AI model at the end of November 2026?",
+    "ts": "2026-11-10T15:28:47.605299",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6942819",
-    "pregunta": "Will Claude Fable 5.2 debut with an HLE-Diamond score of 70% or higher?",
-    "ts": "2026-11-10T15:21:28.079041",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6942818",
-    "pregunta": "Will Claude Fable 5.2 debut with an HLE-Diamond score of 65% or higher?",
-    "ts": "2026-11-10T15:21:29.133890",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6929336",
-    "pregunta": "Will the highest temperature in Sao Paulo be 27\u00b0C on November 12?",
-    "ts": "2026-11-10T15:21:35.681584",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_wallet": "0xe228f29215f2a0e9b5a5f57a0974063e23401f4c",
     "whale_signal": "COMPRAR NO"
   }
 ]
