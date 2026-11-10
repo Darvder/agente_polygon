@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6424254",
+    "pregunta": "NATO downs another Russian drone by November 15?",
+    "ts": "2026-11-10T18:31:01.983922",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9773ef9b9c24546687567902b9dfd92adca58238",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5163128",
+    "pregunta": "Will Iran target Oman by November 30, 2026?",
+    "ts": "2026-11-10T18:31:07.896670",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5fbf72d3dee75b24d8e60a2c2329603b0c128925",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5238391",
+    "pregunta": "Saudi-Houthi ceasefire agreement announced by December 31?",
+    "ts": "2026-11-10T18:31:08.937833",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5fbf72d3dee75b24d8e60a2c2329603b0c128925",
+    "whale_signal": "COMPRAR NO"
+  }
+]
