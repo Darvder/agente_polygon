@@ -1,18 +1,10 @@
 [
   {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-10T06:08:31.905243",
+    "id": "6921980",
+    "pregunta": "Will Ethereum dip to $2,000 on November 10?",
+    "ts": "2026-11-10T06:19:38.954940",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x40a75505ba4e7deb9bf55e839e5a34dd6c9becb7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3728736",
-    "pregunta": "Will the Christian Democrats (KD) be in the next Swedish government?",
-    "ts": "2026-11-10T06:08:33.071504",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x40a75505ba4e7deb9bf55e839e5a34dd6c9becb7",
+    "whale_wallet": "0x982a77e75498fa134607f598c861b8de9d0c6851",
     "whale_signal": "COMPRAR NO"
   }
 ]
