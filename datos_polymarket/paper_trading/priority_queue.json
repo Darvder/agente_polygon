@@ -1,18 +1,10 @@
 [
   {
-    "id": "6443537",
-    "pregunta": "Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
-    "ts": "2026-11-10T07:51:26.834027",
+    "id": "6910575",
+    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $184 in November?",
+    "ts": "2026-11-10T07:59:29.581324",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x745c86257e6ddf185838073ce910ec2bdf477c03",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6639469",
-    "pregunta": "Will the price of Bitcoin be above $74,000 on November 10?",
-    "ts": "2026-11-10T07:51:28.474938",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x84f947e419f3197b47154372d61fb2e76d613453",
     "whale_signal": "COMPRAR NO"
   }
 ]
