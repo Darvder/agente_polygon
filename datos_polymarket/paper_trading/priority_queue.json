@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6658605",
+    "pregunta": "Rubio's Republican nomination odds hit 25% by December 31?",
+    "ts": "2026-11-09T19:49:44.222124",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c4ed674fde7dc998036b3ae92445d00fcdb297b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6658607",
+    "pregunta": "Rubio's Republican nomination odds dip to 15% by December 31?",
+    "ts": "2026-11-09T19:49:45.348060",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c4ed674fde7dc998036b3ae92445d00fcdb297b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
