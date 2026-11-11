@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6598402",
+    "pregunta": "Will Claude go down fewer than 5 times in November 2026?",
+    "ts": "2026-11-11T04:39:59.803778",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6598485",
+    "pregunta": "Will there be fewer than 3 ChatGPT outages in November 2026?",
+    "ts": "2026-11-11T04:40:00.821803",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_signal": "COMPRAR NO"
+  }
+]
