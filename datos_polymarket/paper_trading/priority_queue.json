@@ -1,34 +1,10 @@
 [
   {
-    "id": "6507384",
-    "pregunta": "Will Bitcoin dip to $65,000 in November?",
-    "ts": "2026-11-11T12:28:23.646499",
+    "id": "5426238",
+    "pregunta": "Will Crude Oil reach a new all-time high by March 31, 2027?",
+    "ts": "2026-11-11T12:43:34.658396",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1383905",
-    "pregunta": "Extended FDV above $150M one day after launch?",
-    "ts": "2026-11-11T12:28:25.519586",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xab828a2bcb4a5a93a94cdeedf3cb70b6211babe5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3399468",
-    "pregunta": "Israel x Iran ceasefire continues through December 31?",
-    "ts": "2026-11-11T12:28:28.153593",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-11T12:28:29.201238",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
+    "whale_wallet": "0x9ddfa4d5b954379a03d19f87df36b9820b862c83",
     "whale_signal": "COMPRAR NO"
   }
 ]
