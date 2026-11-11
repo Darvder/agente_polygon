@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6625367",
+    "pregunta": "Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?",
+    "ts": "2026-11-11T13:30:10.536162",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6864204009ba1e137989983eafee8644cb3f294b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6625381",
+    "pregunta": "Will Elon Musk post 260-279 tweets from November 6 to November 13, 2026?",
+    "ts": "2026-11-11T13:30:11.588104",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6864204009ba1e137989983eafee8644cb3f294b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
