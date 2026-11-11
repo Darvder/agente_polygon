@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "6836718",
+    "pregunta": "Over $10M committed to the Mori Finance public sale?",
+    "ts": "2026-11-11T13:11:36.933200",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x663b5de4c77ce13d0837a7b280d642b4786f67be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-11T13:11:38.638461",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf5b1051707fdc0995525fe393aceed5c2480619f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507440",
+    "pregunta": "Will Solana dip to $70 in November?",
+    "ts": "2026-11-11T13:11:40.358109",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65d45d1454cadae706511ec883cfb2d8ab0fb7e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6722267",
+    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $152 in November?",
+    "ts": "2026-11-11T13:11:41.470426",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65d45d1454cadae706511ec883cfb2d8ab0fb7e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6685293",
+    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $208 in November?",
+    "ts": "2026-11-11T13:11:42.589861",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65d45d1454cadae706511ec883cfb2d8ab0fb7e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4599796",
+    "pregunta": "Israeli airspace closed by December 31, 2026?",
+    "ts": "2026-11-11T13:11:43.618184",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65d45d1454cadae706511ec883cfb2d8ab0fb7e3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
