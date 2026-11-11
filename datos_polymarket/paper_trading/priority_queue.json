@@ -1,18 +1,26 @@
 [
   {
-    "id": "4664662",
-    "pregunta": "Will Google have the best AI model at the end of November 2026?",
-    "ts": "2026-11-11T14:30:06.013112",
+    "id": "6366107",
+    "pregunta": "Will the next Fable model (5.2+) debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-11T14:41:07.712349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x876bb030ddd424ef505ae02914024cf18c6a1703",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6953472",
-    "pregunta": "Will Bitcoin reach $75,000 on November 11?",
-    "ts": "2026-11-11T14:30:09.698737",
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-11T14:41:08.757404",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2431412",
+    "pregunta": "Will Google have the best AI model at the end of December 2026?",
+    "ts": "2026-11-11T14:41:10.679195",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "whale_signal": "COMPRAR NO"
   }
 ]
