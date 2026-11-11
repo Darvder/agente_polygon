@@ -1,26 +1,10 @@
 [
   {
-    "id": "2412745",
-    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-11T06:38:37.002591",
+    "id": "6947942",
+    "pregunta": "Russia x Ukraine energy ceasefire agreement by November 30, 2026?",
+    "ts": "2026-11-11T06:48:23.323762",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-11T06:38:38.047492",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5104763",
-    "pregunta": "Will Putin and Zelenskyy not meet by December 31, 2027?",
-    "ts": "2026-11-11T06:38:39.250526",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
     "whale_signal": "COMPRAR NO"
   }
 ]
