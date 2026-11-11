@@ -1,10 +1,34 @@
 [
   {
-    "id": "3581388",
-    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
-    "ts": "2026-11-11T09:39:56.189156",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-11T09:51:29.435639",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfbe66593e49c4e7a7180a2582f041158bfb800f8",
+    "whale_wallet": "0x340799a80e861ece53fdf2a7dbe59e9223c0c3eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "676741",
+    "pregunta": "Will Apple be the largest company in the world by market cap on December 31?",
+    "ts": "2026-11-11T09:51:33.371249",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "676739",
+    "pregunta": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+    "ts": "2026-11-11T09:51:34.439349",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3392760",
+    "pregunta": "Will Alphabet be the third-largest company in the world by market cap on December 31?",
+    "ts": "2026-11-11T09:51:35.537969",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
     "whale_signal": "COMPRAR NO"
   }
 ]
