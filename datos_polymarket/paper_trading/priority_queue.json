@@ -1,34 +1,34 @@
 [
   {
-    "id": "2412746",
-    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-    "ts": "2026-11-11T12:18:55.494691",
+    "id": "6507384",
+    "pregunta": "Will Bitcoin dip to $65,000 in November?",
+    "ts": "2026-11-11T12:28:23.646499",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf06c3d68ab8bf3f188fb3236398739108cd26d33",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6618898",
-    "pregunta": "Will Chantal Soucy win the 2026 Saint-Hyacinthe\u2014Bagot\u2014Acton by-election?",
-    "ts": "2026-11-11T12:18:57.554670",
+    "id": "1383905",
+    "pregunta": "Extended FDV above $150M one day after launch?",
+    "ts": "2026-11-11T12:28:25.519586",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_wallet": "0xab828a2bcb4a5a93a94cdeedf3cb70b6211babe5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1662423",
-    "pregunta": "Will Chuck Schumer be the next Senate Majority Leader?",
-    "ts": "2026-11-11T12:18:59.479578",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-11T12:28:28.153593",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce08c8409d7bd3582a1763af9de885fab3b628bd",
+    "whale_wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-11T12:19:00.570440",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-11T12:28:29.201238",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce08c8409d7bd3582a1763af9de885fab3b628bd",
+    "whale_wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
     "whale_signal": "COMPRAR NO"
   }
 ]
