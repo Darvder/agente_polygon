@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "6900638",
+    "pregunta": "Will the highest temperature in Los Angeles be between 82-83\u00b0F on November 11?",
+    "ts": "2026-11-11T02:01:23.072502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce0b1054a2adb61a3efe8bcd42acc8d40154b974",
+    "whale_signal": "COMPRAR NO"
+  }
+]
