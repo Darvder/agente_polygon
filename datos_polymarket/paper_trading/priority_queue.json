@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "6929376",
+    "pregunta": "Will the highest temperature in Mexico City be 20\u00b0C on November 12?",
+    "ts": "2026-11-11T09:27:57.155336",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6901556",
+    "pregunta": "Will the highest temperature in Panama City be 33\u00b0C on November 11?",
+    "ts": "2026-11-11T09:27:58.355279",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923613",
+    "pregunta": "Will the highest temperature in Jeddah be 33\u00b0C on November 12?",
+    "ts": "2026-11-11T09:27:59.554580",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6898136",
+    "pregunta": "Will the highest temperature in Miami be between 84-85\u00b0F on November 11?",
+    "ts": "2026-11-11T09:28:00.759612",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6900638",
+    "pregunta": "Will the highest temperature in Los Angeles be between 82-83\u00b0F on November 11?",
+    "ts": "2026-11-11T09:28:01.800855",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6025201",
+    "pregunta": "Next GPT Sol (6.2+) released by November 15, 2026?",
+    "ts": "2026-11-11T09:28:03.889900",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8823210c7f19a81ab66f2d243930a301ba24b804",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-11T09:28:06.628997",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d080c87b913514dcc60791bb0d79faf07ffdc42",
+    "whale_signal": "COMPRAR NO"
+  }
+]
