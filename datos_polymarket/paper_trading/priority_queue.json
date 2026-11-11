@@ -1,10 +1,42 @@
 [
   {
-    "id": "2299955",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
-    "ts": "2026-11-11T08:44:18.711444",
+    "id": "6268047",
+    "pregunta": "Will Anthropic IPO by November 19, 2026?",
+    "ts": "2026-11-11T08:53:25.311716",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd5b97d08ec6098407bfbf66c2786ccc9967fe44e",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6326204",
+    "pregunta": "EU country blames Russia for new sabotage attack by November 30?",
+    "ts": "2026-11-11T08:53:26.515265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5190565",
+    "pregunta": "Next US-Iran senior diplomatic meeting by November 30, 2026?",
+    "ts": "2026-11-11T08:53:27.559706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-11T08:53:28.604299",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-11T08:53:29.804741",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
     "whale_signal": "COMPRAR NO"
   }
 ]
