@@ -1,10 +1,26 @@
 [
   {
-    "id": "6507382",
-    "pregunta": "Will Bitcoin dip to $70,000 in November?",
-    "ts": "2026-11-10T20:37:28.354258",
+    "id": "559661",
+    "pregunta": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+    "ts": "2026-11-10T20:49:17.294514",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdda247bd26d5ee9499f5197096deaff6b0074814",
+    "whale_wallet": "0xc4df2fb88e4664a8afeedd4a17acd21f42197320",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-10T20:49:18.335540",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4df2fb88e4664a8afeedd4a17acd21f42197320",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6908168",
+    "pregunta": "Jensen Huang announced resignation or removal by March 31, 2027?",
+    "ts": "2026-11-10T20:49:19.382251",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc4df2fb88e4664a8afeedd4a17acd21f42197320",
     "whale_signal": "COMPRAR NO"
   }
 ]
