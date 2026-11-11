@@ -1,10 +1,26 @@
 [
   {
-    "id": "5998481",
-    "pregunta": "Russia x Ukraine ceasefire by March 31, 2027?",
-    "ts": "2026-11-11T10:18:41.765019",
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-11T10:30:38.716182",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-11T10:30:39.742411",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6901530",
+    "pregunta": "Will the highest temperature in Toronto be 10\u00b0C on November 11?",
+    "ts": "2026-11-11T10:30:42.951159",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0700c595640b0b50eacb7039e589160ae3a5b7f9",
     "whale_signal": "COMPRAR NO"
   }
 ]
