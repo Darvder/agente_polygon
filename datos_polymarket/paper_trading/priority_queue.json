@@ -1,50 +1,18 @@
 [
   {
-    "id": "6683302",
-    "pregunta": "Will the price of Bitcoin be above $74,000 on November 11?",
-    "ts": "2026-11-11T03:00:59.209499",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6909745",
-    "pregunta": "Will Elon Musk post 90-114 tweets from November 12 to November 14, 2026?",
-    "ts": "2026-11-11T03:01:03.532433",
+    "id": "6909744",
+    "pregunta": "Will Elon Musk post 65-89 tweets from November 12 to November 14, 2026?",
+    "ts": "2026-11-11T03:11:42.607876",
     "origen": "whale_copytrader",
     "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6909743",
-    "pregunta": "Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?",
-    "ts": "2026-11-11T03:01:04.710573",
+    "id": "6625371",
+    "pregunta": "Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?",
+    "ts": "2026-11-11T03:11:43.641437",
     "origen": "whale_copytrader",
     "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1345531",
-    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
-    "ts": "2026-11-11T03:01:07.579406",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507377",
-    "pregunta": "Will Bitcoin reach $82,500 in November?",
-    "ts": "2026-11-11T03:01:08.619046",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6721566",
-    "pregunta": "Will Bitcoin reach $80,000 in November?",
-    "ts": "2026-11-11T03:01:09.658679",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
     "whale_signal": "COMPRAR NO"
   }
 ]
