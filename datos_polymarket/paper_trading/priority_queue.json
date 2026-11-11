@@ -1,10 +1,26 @@
 [
   {
-    "id": "1345234",
-    "pregunta": "Will OpenAI\u2019s market cap be $1.5T or greater at market close on IPO day by December 31, 2027?",
-    "ts": "2026-11-11T11:58:18.495387",
+    "id": "1383905",
+    "pregunta": "Extended FDV above $150M one day after launch?",
+    "ts": "2026-11-11T12:07:52.063029",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb0fcea24160139269e0af107811e33d99d6ece0b",
+    "whale_wallet": "0x23f45f43c45c2302d1b233af2c64884d4149c234",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6900637",
+    "pregunta": "Will the highest temperature in Los Angeles be between 80-81\u00b0F on November 11?",
+    "ts": "2026-11-11T12:07:53.901410",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x68dbed42912551cbffcd15ff758ef62781ad44f0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923585",
+    "pregunta": "Will the highest temperature in Helsinki be 7\u00b0C on November 12?",
+    "ts": "2026-11-11T12:07:55.788047",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x482943e8126e83a63695cebde33a9498ee7497eb",
     "whale_signal": "COMPRAR NO"
   }
 ]
