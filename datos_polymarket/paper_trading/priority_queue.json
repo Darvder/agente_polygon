@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-11T00:40:47.180817",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6685525",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in November?",
+    "ts": "2026-11-11T00:40:48.219953",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
