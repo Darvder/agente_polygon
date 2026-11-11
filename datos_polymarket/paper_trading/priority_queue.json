@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-11T07:41:41.349360",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbf9327eaf310c429643c578b0b683dd58331e5e9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1370612",
+    "pregunta": "Will Google be the first company to have an AI model hit 1550 on Chatbot Arena in 2026?",
+    "ts": "2026-11-11T07:41:44.737038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c4ed674fde7dc998036b3ae92445d00fcdb297b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6919042",
+    "pregunta": "DeSantis's Republican nomination odds hit 20% by December 31?",
+    "ts": "2026-11-11T07:41:45.830145",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c4ed674fde7dc998036b3ae92445d00fcdb297b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
