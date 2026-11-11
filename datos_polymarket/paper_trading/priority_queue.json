@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6404404",
+    "pregunta": "Will the Swiss National Bank make no change to the SNB policy rate at the June meeting?",
+    "ts": "2026-11-10T21:20:44.462004",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e88f359b9803e41420fbb13385c5ae1765c301c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5194645",
+    "pregunta": "Will the median home value in Los Angeles Metro be between $1,115,000 and $1,126,000 on December 31?",
+    "ts": "2026-11-10T21:20:45.498907",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e88f359b9803e41420fbb13385c5ae1765c301c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
