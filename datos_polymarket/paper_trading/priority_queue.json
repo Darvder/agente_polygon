@@ -1,10 +1,26 @@
 [
   {
-    "id": "6935440",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2027?",
-    "ts": "2026-11-11T13:40:11.511914",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-11T13:48:46.154072",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe917ff331e805261dbc903d39965a6b64ccd9612",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-11T13:48:47.333653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-11T13:48:49.268206",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf06640c4a150c774e1f6af1a2574f7f452d4f6f4",
     "whale_signal": "COMPRAR NO"
   }
 ]
