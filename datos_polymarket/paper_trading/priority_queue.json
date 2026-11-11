@@ -1,18 +1,26 @@
 [
   {
-    "id": "6598402",
-    "pregunta": "Will Claude go down fewer than 5 times in November 2026?",
-    "ts": "2026-11-11T04:39:59.803778",
+    "id": "5787490",
+    "pregunta": "Next White House Press Secretary announced by November 30, 2026?",
+    "ts": "2026-11-11T04:51:30.497240",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6598485",
-    "pregunta": "Will there be fewer than 3 ChatGPT outages in November 2026?",
-    "ts": "2026-11-11T04:40:00.821803",
+    "id": "6947944",
+    "pregunta": "Russia x Ukraine energy ceasefire agreement by December 31, 2026?",
+    "ts": "2026-11-11T04:51:31.542237",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6947942",
+    "pregunta": "Russia x Ukraine energy ceasefire agreement by November 30, 2026?",
+    "ts": "2026-11-11T04:51:32.585083",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
     "whale_signal": "COMPRAR NO"
   }
 ]
