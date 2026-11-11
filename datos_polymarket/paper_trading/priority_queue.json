@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "6588820",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in November?",
+    "ts": "2026-11-10T19:00:28.887268",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824672",
+    "pregunta": "Will Ra'am be in the next Israeli government?",
+    "ts": "2026-11-10T19:00:29.935958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2109956",
+    "pregunta": "Israeli election results in a hung parliament?",
+    "ts": "2026-11-10T19:00:30.984749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-10T19:00:39.570244",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6597853",
+    "pregunta": "Will Alexandria Ocasio-Cortez announce a presidential run by March 31, 2027?",
+    "ts": "2026-11-10T19:00:41.664379",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3708350",
+    "pregunta": "Will Alexandria Ocasio-Cortez run for President in 2028?",
+    "ts": "2026-11-10T19:00:42.712730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
