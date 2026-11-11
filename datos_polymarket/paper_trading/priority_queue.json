@@ -1,42 +1,10 @@
 [
   {
-    "id": "6891265",
-    "pregunta": "Will Ethereum dip to $2,000 November 9-15?",
-    "ts": "2026-11-11T16:48:19.209692",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-11T16:58:15.652818",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-11T16:48:23.576213",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-11T16:48:24.619491",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4599796",
-    "pregunta": "Israeli airspace closed by December 31, 2026?",
-    "ts": "2026-11-11T16:48:25.661735",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831494",
-    "pregunta": "US x Iran Effective Ceasefire by November 15?",
-    "ts": "2026-11-11T16:48:26.860998",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xc6b43842da62ac546722dc164a29db9ce028ccbf",
     "whale_signal": "COMPRAR NO"
   }
 ]
