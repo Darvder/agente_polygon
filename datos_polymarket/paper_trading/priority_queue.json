@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4664662",
+    "pregunta": "Will Google have the best AI model at the end of November 2026?",
+    "ts": "2026-11-11T14:30:06.013112",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x876bb030ddd424ef505ae02914024cf18c6a1703",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6953472",
+    "pregunta": "Will Bitcoin reach $75,000 on November 11?",
+    "ts": "2026-11-11T14:30:09.698737",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
