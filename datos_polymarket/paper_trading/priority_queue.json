@@ -2,33 +2,9 @@
   {
     "id": "6882826",
     "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-11T17:09:50.316285",
+    "ts": "2026-11-11T17:21:36.932198",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5998481",
-    "pregunta": "Russia x Ukraine ceasefire by March 31, 2027?",
-    "ts": "2026-11-11T17:09:53.133133",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5998480",
-    "pregunta": "Russia x Ukraine ceasefire by December 31, 2027?",
-    "ts": "2026-11-11T17:09:54.169671",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6935440",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2027?",
-    "ts": "2026-11-11T17:09:59.080669",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_wallet": "0x2ac5d02d79e928ab4c1bcb0674c7c3332ef92a5e",
     "whale_signal": "COMPRAR NO"
   }
 ]
