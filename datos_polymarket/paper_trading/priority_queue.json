@@ -1,42 +1,42 @@
 [
   {
-    "id": "6891192",
-    "pregunta": "Will Bitcoin reach $78,000 November 9-15?",
-    "ts": "2026-11-11T15:19:45.229658",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-11T16:01:56.877820",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x4bc5d791b6426215ad2bf26ff209af054e1ee563",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2431413",
-    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
-    "ts": "2026-11-11T15:19:47.213136",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-11T16:01:57.911850",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8056f8b1ad2475318bed2f8e956ea301f0133485",
+    "whale_wallet": "0x4bc5d791b6426215ad2bf26ff209af054e1ee563",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6923422",
-    "pregunta": "Will the highest temperature in Singapore be 31\u00b0C on November 12?",
-    "ts": "2026-11-11T15:19:49.323365",
+    "id": "6930382",
+    "pregunta": "Will Tesla (TSLA) close above $390 on November 11?",
+    "ts": "2026-11-11T16:01:59.657308",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6925022",
-    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on November 12?",
-    "ts": "2026-11-11T15:19:50.364307",
+    "id": "6930369",
+    "pregunta": "Will Meta (META) close above $630 on November 11?",
+    "ts": "2026-11-11T16:02:00.779210",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2750319",
-    "pregunta": "Will no listed leader be out before 2027?",
-    "ts": "2026-11-11T15:19:53.364695",
+    "id": "6930426",
+    "pregunta": "S&P 500 (SPY) closes above $760 on November 11?",
+    "ts": "2026-11-11T16:02:01.811024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbffeed39c52b884f3261e303165bdd5fd3fb6492",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
     "whale_signal": "COMPRAR NO"
   }
 ]
