@@ -1,34 +1,26 @@
 [
   {
-    "id": "6753155",
-    "pregunta": "Will the price of Ethereum be between $2,000 and $2,100 on November 13?",
-    "ts": "2026-11-12T18:29:35.590529",
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-12T18:39:53.980383",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0xb7632365a9edc5be7239295bf559e8cd98a8d3a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6979955",
-    "pregunta": "Will Bitcoin dip to $71,000 on November 12?",
-    "ts": "2026-11-12T18:29:37.809168",
+    "id": "2243499",
+    "pregunta": "Will Javokhir Sindarov win the 2026 World Chess Championship?",
+    "ts": "2026-11-12T18:39:55.880410",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0x9313ad34670b8139c98d9a7a8d5d43e26897504b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6991606",
-    "pregunta": "Will Bitcoin reach $74,000 November 9-15?",
-    "ts": "2026-11-12T18:29:40.030171",
+    "id": "2243498",
+    "pregunta": "Will Gukesh Dommaraju win the 2026 World Chess Championship?",
+    "ts": "2026-11-12T18:39:56.922625",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6979956",
-    "pregunta": "Will Bitcoin dip to $70,000 on November 12?",
-    "ts": "2026-11-12T18:29:41.060886",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0x9313ad34670b8139c98d9a7a8d5d43e26897504b",
     "whale_signal": "COMPRAR NO"
   }
 ]
