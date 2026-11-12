@@ -1,74 +1,34 @@
 [
   {
-    "id": "6975664",
-    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T00:41:14.561700",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x278988d52017d32ef3852351580b664bf67996a2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6975353",
     "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T00:41:16.253040",
+    "ts": "2026-11-12T00:52:00.535498",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x13ba02e5c3194cea8788dd71977696e6e6c2d971",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3592180",
-    "pregunta": "Next Google Gemini Flash-Lite Model (3.6+) released by November 30, 2026?",
-    "ts": "2026-11-12T00:41:18.784133",
+    "id": "6975664",
+    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
+    "ts": "2026-11-12T00:52:01.554108",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "561974",
-    "pregunta": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-    "ts": "2026-11-12T00:41:19.806977",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-12T00:52:03.511004",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0x2c3928af89565c352afe8e2a1b25deed77a056dc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-12T00:41:20.831994",
+    "id": "6975354",
+    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
+    "ts": "2026-11-12T00:52:06.534738",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2293877",
-    "pregunta": "Robert Pattinson announced as next James Bond?",
-    "ts": "2026-11-12T00:41:21.859754",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3392719",
-    "pregunta": "Will NVIDIA be the second-largest company in the world by market cap on December 31?",
-    "ts": "2026-11-12T00:41:22.882509",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3392760",
-    "pregunta": "Will Alphabet be the third-largest company in the world by market cap on December 31?",
-    "ts": "2026-11-12T00:41:23.904489",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1345232",
-    "pregunta": "Will OpenAI\u2019s market cap be between $1T and $1.25T at market close on IPO day by December 31, 2027?",
-    "ts": "2026-11-12T00:41:24.929336",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0x2c3928af89565c352afe8e2a1b25deed77a056dc",
     "whale_signal": "COMPRAR NO"
   }
 ]
