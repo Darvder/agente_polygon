@@ -2,41 +2,17 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T05:31:36.988008",
+    "ts": "2026-11-12T05:40:55.384362",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xed2930d2be9d3d992cbd0acd6d0efca25d533024",
+    "whale_wallet": "0x102891af38bdfa65ff2b189126549100be78f3fc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6979971",
-    "pregunta": "Will Ethereum dip to $2,000 on November 12?",
-    "ts": "2026-11-12T05:31:38.688346",
+    "id": "6975353",
+    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+    "ts": "2026-11-12T05:40:57.143415",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6979969",
-    "pregunta": "Will Ethereum reach $2,100 on November 12?",
-    "ts": "2026-11-12T05:31:39.705833",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6891272",
-    "pregunta": "Will Ethereum dip to $1,900 November 9-15?",
-    "ts": "2026-11-12T05:31:40.725224",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6891265",
-    "pregunta": "Will Ethereum dip to $2,000 November 9-15?",
-    "ts": "2026-11-12T05:31:41.745904",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+    "whale_wallet": "0xe4119958b1f9283370169eb05e5eaa96577a04c5",
     "whale_signal": "COMPRAR NO"
   }
 ]
