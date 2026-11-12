@@ -1,50 +1,58 @@
 [
   {
-    "id": "4838928",
-    "pregunta": "AI bubble burst by June 30, 2027?",
-    "ts": "2026-11-11T19:41:04.633516",
+    "id": "6908170",
+    "pregunta": "Jensen Huang divorce by March 31, 2027?",
+    "ts": "2026-11-11T19:47:44.338125",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975354",
-    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
-    "ts": "2026-11-11T19:41:05.672278",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6935440",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2027?",
-    "ts": "2026-11-11T19:41:07.849341",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6976273",
-    "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
-    "ts": "2026-11-11T19:41:08.885769",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6884119",
-    "pregunta": "Jensen Huang divorce by December 31, 2026?",
-    "ts": "2026-11-11T19:41:10.957440",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-11T19:41:13.769490",
+    "ts": "2026-11-11T19:47:45.392623",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc8a2c5318e92fd92dac2ad1a3588b7749504c66c",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975354",
+    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
+    "ts": "2026-11-11T19:47:46.435140",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6976273",
+    "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
+    "ts": "2026-11-11T19:47:48.549564",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6685069",
+    "pregunta": "Will Vitality Win the BLAST Rivals Hong Kong 2026?",
+    "ts": "2026-11-11T19:47:50.369110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xce2103be7489aa1741d11b4e58d8b59303217d65",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975353",
+    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+    "ts": "2026-11-11T19:47:52.237858",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0562e01b3c3e65bb93bf0de32f02cec238a79d66",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-11T19:47:53.276166",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0562e01b3c3e65bb93bf0de32f02cec238a79d66",
     "whale_signal": "COMPRAR NO"
   }
 ]
