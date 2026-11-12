@@ -1,18 +1,26 @@
 [
   {
-    "id": "6973833",
-    "pregunta": "Will the Democrats win Colorado in the 2028 Presidential Election?",
-    "ts": "2026-11-12T01:10:27.504555",
+    "id": "3249722",
+    "pregunta": "Will Jeremiah Smith win the 2026 Heisman Trophy?",
+    "ts": "2026-11-12T01:19:12.467329",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2463edb6d5d69d1b2bfd99bb0918f0e1e93724ee",
+    "whale_wallet": "0xcbb5623096b78505a26524e642c5c9066e585ed9",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T01:10:29.195813",
+    "ts": "2026-11-12T01:19:15.045843",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x335a0ba4556d17e056b68a046577160b01382440",
+    "whale_wallet": "0xfc915907cf315161de19dbd0390787bdb84931eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975353",
+    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+    "ts": "2026-11-12T01:19:16.088621",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfc915907cf315161de19dbd0390787bdb84931eb",
     "whale_signal": "COMPRAR NO"
   }
 ]
