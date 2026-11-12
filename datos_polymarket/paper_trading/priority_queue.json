@@ -1,10 +1,42 @@
 [
   {
-    "id": "6439064",
-    "pregunta": "Will \"Avengers: Doomsday\" Opening Weekend Box Office be at least 400m?",
-    "ts": "2026-11-12T14:40:16.247455",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-12T14:49:46.131349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe904443b4084bbda216e344353a44cd4324a2d9f",
+    "whale_wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-12T14:49:47.174331",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-12T14:49:48.325032",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-12T14:49:50.437749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6722272",
+    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $136 in November?",
+    "ts": "2026-11-12T14:49:52.411621",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30328330513d01e16174d53d98c2047ef35c99e7",
     "whale_signal": "COMPRAR NO"
   }
 ]
