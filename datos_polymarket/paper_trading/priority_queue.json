@@ -1,26 +1,18 @@
 [
   {
-    "id": "3249722",
-    "pregunta": "Will Jeremiah Smith win the 2026 Heisman Trophy?",
-    "ts": "2026-11-12T01:19:12.467329",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-12T01:30:21.099452",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcbb5623096b78505a26524e642c5c9066e585ed9",
+    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T01:19:15.045843",
+    "ts": "2026-11-12T01:30:22.133290",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfc915907cf315161de19dbd0390787bdb84931eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T01:19:16.088621",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfc915907cf315161de19dbd0390787bdb84931eb",
+    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
     "whale_signal": "COMPRAR NO"
   }
 ]
