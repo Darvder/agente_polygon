@@ -1,26 +1,18 @@
 [
   {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T06:31:43.829908",
+    "id": "3866621",
+    "pregunta": "Will XRP dip to $1.00 by December 31, 2026?",
+    "ts": "2026-11-12T06:40:35.998884",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x33d8262f5e6680af2e0fcedcf02ead94d0635f5c",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6975664",
-    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T06:31:44.851564",
+    "id": "6716488",
+    "pregunta": "Will the price of Bitcoin be between $72,000 and $74,000 on November 12?",
+    "ts": "2026-11-12T06:40:39.059830",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x33d8262f5e6680af2e0fcedcf02ead94d0635f5c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2695686",
-    "pregunta": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
-    "ts": "2026-11-12T06:31:46.638695",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2d99e29c4f066ba32098c65e4c7454b277d94ca3",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
