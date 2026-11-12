@@ -1,66 +1,26 @@
 [
   {
-    "id": "3145011",
-    "pregunta": "Will The Odyssey win Best Picture at the 99th Academy Awards?",
-    "ts": "2026-11-12T17:26:45.721965",
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-12T17:39:47.353137",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe33825c663c81ad37d7e2f57ebff26799a0064ad",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6955278",
-    "pregunta": "Will the highest temperature in Jeddah be 33\u00b0C on November 13?",
-    "ts": "2026-11-12T17:26:47.735073",
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-12T17:39:48.389319",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6981379",
-    "pregunta": "Will the highest temperature in Qingdao be 18\u00b0C on November 14?",
-    "ts": "2026-11-12T17:26:48.892724",
+    "id": "6979955",
+    "pregunta": "Will Bitcoin dip to $71,000 on November 12?",
+    "ts": "2026-11-12T17:39:51.934267",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6981148",
-    "pregunta": "Will the highest temperature in Shanghai be 20\u00b0C on November 14?",
-    "ts": "2026-11-12T17:26:50.049622",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6955279",
-    "pregunta": "Will the highest temperature in Jeddah be 34\u00b0C on November 13?",
-    "ts": "2026-11-12T17:26:51.105220",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6955227",
-    "pregunta": "Will the highest temperature in Istanbul be 23\u00b0C on November 13?",
-    "ts": "2026-11-12T17:26:52.264729",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6958545",
-    "pregunta": "Will the highest temperature in Los Angeles be between 70-71\u00b0F on November 13?",
-    "ts": "2026-11-12T17:26:53.427016",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6955008",
-    "pregunta": "Will the highest temperature in Ankara be 17\u00b0C on November 13?",
-    "ts": "2026-11-12T17:26:54.579312",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
