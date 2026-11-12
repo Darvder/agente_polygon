@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5998481",
+    "pregunta": "Russia x Ukraine ceasefire by March 31, 2027?",
+    "ts": "2026-11-12T15:38:56.022981",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xee91588848a3c086a3d4ae22cdfdd3125670094f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6207382",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $75 in November?",
+    "ts": "2026-11-12T15:39:00.750747",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6172754",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
+    "ts": "2026-11-12T15:39:01.932246",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6588820",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in November?",
+    "ts": "2026-11-12T15:39:03.120376",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  }
+]
