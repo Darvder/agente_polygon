@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "6753155",
+    "pregunta": "Will the price of Ethereum be between $2,000 and $2,100 on November 13?",
+    "ts": "2026-11-12T18:29:35.590529",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6979955",
+    "pregunta": "Will Bitcoin dip to $71,000 on November 12?",
+    "ts": "2026-11-12T18:29:37.809168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6991606",
+    "pregunta": "Will Bitcoin reach $74,000 November 9-15?",
+    "ts": "2026-11-12T18:29:40.030171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6979956",
+    "pregunta": "Will Bitcoin dip to $70,000 on November 12?",
+    "ts": "2026-11-12T18:29:41.060886",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  }
+]
