@@ -1,26 +1,58 @@
 [
   {
-    "id": "6976273",
-    "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
-    "ts": "2026-11-12T00:21:17.763332",
+    "id": "5997211",
+    "pregunta": "Next Astra Model (6.1+) released by November 15, 2026?",
+    "ts": "2026-11-12T00:29:16.495263",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x037edc7d8a99ce2d688b8e183cc446d83e80af90",
+    "whale_wallet": "0xe33825c663c81ad37d7e2f57ebff26799a0064ad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-12T00:21:18.789330",
+    "id": "6923466",
+    "pregunta": "Will the highest temperature in Taipei be 28\u00b0C on November 12?",
+    "ts": "2026-11-12T00:29:18.304454",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x037edc7d8a99ce2d688b8e183cc446d83e80af90",
+    "whale_wallet": "0x0700c595640b0b50eacb7039e589160ae3a5b7f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923467",
+    "pregunta": "Will the highest temperature in Taipei be 29\u00b0C on November 12?",
+    "ts": "2026-11-12T00:29:19.393591",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0700c595640b0b50eacb7039e589160ae3a5b7f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923391",
+    "pregunta": "Will the highest temperature in Tokyo be 18\u00b0C on November 12?",
+    "ts": "2026-11-12T00:29:20.561421",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0700c595640b0b50eacb7039e589160ae3a5b7f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923390",
+    "pregunta": "Will the highest temperature in Tokyo be 17\u00b0C on November 12?",
+    "ts": "2026-11-12T00:29:21.721846",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0700c595640b0b50eacb7039e589160ae3a5b7f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6923392",
+    "pregunta": "Will the highest temperature in Tokyo be 19\u00b0C on November 12?",
+    "ts": "2026-11-12T00:29:22.885099",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0700c595640b0b50eacb7039e589160ae3a5b7f9",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T00:21:19.811417",
+    "ts": "2026-11-12T00:29:24.716315",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x037edc7d8a99ce2d688b8e183cc446d83e80af90",
+    "whale_wallet": "0xf94c69f27e25acb49d2e7ef5892b6c5990d559dc",
     "whale_signal": "COMPRAR NO"
   }
 ]
