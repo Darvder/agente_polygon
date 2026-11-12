@@ -1,18 +1,1 @@
-[
-  {
-    "id": "716640",
-    "pregunta": "Theo FDV above $100M one day after launch?",
-    "ts": "2026-11-12T16:02:29.750184",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "920403",
-    "pregunta": "Variational FDV above $1B one day after launch?",
-    "ts": "2026-11-12T16:02:33.916316",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
