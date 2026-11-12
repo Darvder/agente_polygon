@@ -1,34 +1,50 @@
 [
   {
-    "id": "5998481",
-    "pregunta": "Russia x Ukraine ceasefire by March 31, 2027?",
-    "ts": "2026-11-12T15:38:56.022981",
+    "id": "904737",
+    "pregunta": "Extended FDV above $300M one day after launch?",
+    "ts": "2026-11-12T15:50:10.434124",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xee91588848a3c086a3d4ae22cdfdd3125670094f",
+    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6207382",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $75 in November?",
-    "ts": "2026-11-12T15:39:00.750747",
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-12T15:50:11.492023",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6172754",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
-    "ts": "2026-11-12T15:39:01.932246",
+    "id": "2252540",
+    "pregunta": "Tesla and SpaceX merger officially announced by December 31?",
+    "ts": "2026-11-12T15:50:12.699893",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6588820",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in November?",
-    "ts": "2026-11-12T15:39:03.120376",
+    "id": "6415342",
+    "pregunta": "Exact Score: Czechia 0 - 2 Spain?",
+    "ts": "2026-11-12T15:50:14.552702",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0x1a1ea39eed3313841b1eb01a4252079d1f3da80a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6415345",
+    "pregunta": "Exact Score: Czechia 0 - 3 Spain?",
+    "ts": "2026-11-12T15:50:15.601637",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1a1ea39eed3313841b1eb01a4252079d1f3da80a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367372",
+    "pregunta": "Israel x Iran ceasefire continues through November 22?",
+    "ts": "2026-11-12T15:50:18.083592",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1359911d098bf507069e7e22370e6f6cae3f092e",
     "whale_signal": "COMPRAR NO"
   }
 ]
