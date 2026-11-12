@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2737233",
+    "pregunta": "Iran leadership change by June 30, 2027?",
+    "ts": "2026-11-12T16:51:13.034769",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd67ba35aef659c872377a5ac2becb7ada7f85780",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6955039",
+    "pregunta": "Will the highest temperature in Munich be 7\u00b0C on November 13?",
+    "ts": "2026-11-12T16:51:16.070612",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa054a910cff3f6d3503335577f12d68a169aa95d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
