@@ -1,42 +1,18 @@
 [
   {
-    "id": "6935440",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2027?",
-    "ts": "2026-11-12T08:01:23.065996",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-12T08:01:27.249626",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x78267160761e0bdf647c66e39b9d7a03c204300d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T08:01:30.152206",
+    "ts": "2026-11-12T08:10:20.523512",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd636c869e219240acabd144a95412a2723ea230b",
+    "whale_wallet": "0x3724379b7192ddf7fb43aadbba6d8bc3895e69b5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6975354",
-    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
-    "ts": "2026-11-12T08:01:31.198239",
+    "id": "6975353",
+    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+    "ts": "2026-11-12T08:10:24.068740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd636c869e219240acabd144a95412a2723ea230b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-12T08:01:32.221530",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd636c869e219240acabd144a95412a2723ea230b",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
