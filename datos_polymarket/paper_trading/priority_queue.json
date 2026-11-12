@@ -2,17 +2,9 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T04:00:11.218686",
+    "ts": "2026-11-12T04:11:09.960343",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa27409e9cb57f8d00c99fce93a52bdbf27335eae",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5234654",
-    "pregunta": "Will Russia capture all of Kostyantynivka by March 31, 2027?",
-    "ts": "2026-11-12T04:00:13.200251",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa2f1fecf1cc7db65a46588f764b6691533052d22",
+    "whale_wallet": "0xda3a9b7afff7b44ad4fd75308723194e0a11381f",
     "whale_signal": "COMPRAR NO"
   }
 ]
