@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "6976273",
+    "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
+    "ts": "2026-11-11T21:08:58.404449",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe0dbdb7f005f233f4510e4ef7e53a2f76a8df44e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-11T21:08:59.445874",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe0dbdb7f005f233f4510e4ef7e53a2f76a8df44e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975664",
+    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
+    "ts": "2026-11-11T21:09:01.267373",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a5ffc44aeb0aa4d1cdf41df7e6be60ed4476c92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975353",
+    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+    "ts": "2026-11-11T21:09:02.322436",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2a5ffc44aeb0aa4d1cdf41df7e6be60ed4476c92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6919849",
+    "pregunta": "Will Ian Buck be the next CEO of NVIDIA?",
+    "ts": "2026-11-11T21:09:04.223176",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6abe7704bd2c9812e1f74a6b01a61ac7368ed6a5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
