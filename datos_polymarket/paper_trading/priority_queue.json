@@ -2,9 +2,17 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T04:11:09.960343",
+    "ts": "2026-11-12T04:17:57.369863",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xda3a9b7afff7b44ad4fd75308723194e0a11381f",
+    "whale_wallet": "0x69788e136500902559a2fb21883ab9baacbd08d8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6979954",
+    "pregunta": "Will Bitcoin dip to $72,000 on November 12?",
+    "ts": "2026-11-12T04:18:00.366359",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
     "whale_signal": "COMPRAR NO"
   }
 ]
