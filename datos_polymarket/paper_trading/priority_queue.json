@@ -2,57 +2,33 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T06:03:29.540404",
+    "ts": "2026-11-12T06:10:11.244464",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x37adc09664f35ccb0760f0e1d90e6fb22574a548",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1193093",
-    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-12T06:03:31.415470",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-12T06:03:32.434014",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
+    "whale_wallet": "0x13ba02e5c3194cea8788dd71977696e6e6c2d971",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6975353",
     "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T06:03:34.266720",
+    "ts": "2026-11-12T06:10:12.280403",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9c14434c1d6e1f9a276dcef5abb2a080b6a93371",
+    "whale_wallet": "0x13ba02e5c3194cea8788dd71977696e6e6c2d971",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4595916",
-    "pregunta": "Will Trump be impeached by June 30, 2027?",
-    "ts": "2026-11-12T06:03:35.443082",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-12T06:10:15.035598",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9c14434c1d6e1f9a276dcef5abb2a080b6a93371",
+    "whale_wallet": "0x576315d31495f237c216fb1973794838e6111c22",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4595915",
-    "pregunta": "Will Trump be impeached by December 31, 2027?",
-    "ts": "2026-11-12T06:03:36.625147",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-12T06:10:17.589995",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9c14434c1d6e1f9a276dcef5abb2a080b6a93371",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5608145",
-    "pregunta": "Pete Hegseth impeached by June 30, 2027?",
-    "ts": "2026-11-12T06:03:37.644173",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9c14434c1d6e1f9a276dcef5abb2a080b6a93371",
+    "whale_wallet": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
     "whale_signal": "COMPRAR NO"
   }
 ]
