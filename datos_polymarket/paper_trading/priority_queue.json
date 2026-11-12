@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-12T14:09:07.594696",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x21064fd320bfd5a86f8c92a94d3209edf4154dea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1393323",
+    "pregunta": "Predict.fun FDV above $800M one day after launch?",
+    "ts": "2026-11-12T14:09:09.353643",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x663b5de4c77ce13d0837a7b280d642b4786f67be",
+    "whale_signal": "COMPRAR NO"
+  }
+]
