@@ -2,57 +2,9 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T04:29:09.715294",
+    "ts": "2026-11-12T04:41:40.438390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7eff44d3a998e21e1aa014a9fe89ef5f71a77196",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975354",
-    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
-    "ts": "2026-11-12T04:29:12.349893",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-12T04:29:13.501627",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T04:29:14.546401",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6979969",
-    "pregunta": "Will Ethereum reach $2,100 on November 12?",
-    "ts": "2026-11-12T04:29:16.458803",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6979950",
-    "pregunta": "Will Bitcoin reach $75,000 on November 12?",
-    "ts": "2026-11-12T04:29:25.937417",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6979954",
-    "pregunta": "Will Bitcoin dip to $72,000 on November 12?",
-    "ts": "2026-11-12T04:29:26.984497",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x95aa594bca67ba8be9923ecdf0edeef7ca8eeab3",
     "whale_signal": "COMPRAR NO"
   }
 ]
