@@ -2,41 +2,25 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-11T22:33:07.525886",
+    "ts": "2026-11-11T22:41:44.239722",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6139c42e48cf190e67a0a85d492413b499336b7a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6976273",
-    "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
-    "ts": "2026-11-11T22:33:08.545926",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6139c42e48cf190e67a0a85d492413b499336b7a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-11T22:33:10.449066",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1963eabad7eb7499fb049ddebb96a8fd22179bfd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975354",
-    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
-    "ts": "2026-11-11T22:33:13.322951",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xabbeb2bdd30ba5c51cb14168b068103961648f37",
+    "whale_wallet": "0x17153a4ac2e132275ee992f1373140e72b7bf4f2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6882826",
     "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-11T22:33:14.345991",
+    "ts": "2026-11-11T22:41:45.275192",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabbeb2bdd30ba5c51cb14168b068103961648f37",
+    "whale_wallet": "0x17153a4ac2e132275ee992f1373140e72b7bf4f2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975354",
+    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
+    "ts": "2026-11-11T22:41:46.311925",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17153a4ac2e132275ee992f1373140e72b7bf4f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
