@@ -1,34 +1,42 @@
 [
   {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T05:17:24.003122",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdd8184551f4b3fca3fc780d4d1c6342d7c2d9640",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6919849",
-    "pregunta": "Will Ian Buck be the next CEO of NVIDIA?",
-    "ts": "2026-11-12T05:17:29.046892",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xefde9ff487fae209ab6e3157a8acb4276f9c783d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975354",
-    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
-    "ts": "2026-11-12T05:17:31.223462",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T05:17:33.079407",
+    "ts": "2026-11-12T05:31:36.988008",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5dcfb5a3eb503b4cc8a67cb9077a2e2ef99675b9",
+    "whale_wallet": "0xed2930d2be9d3d992cbd0acd6d0efca25d533024",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6979971",
+    "pregunta": "Will Ethereum dip to $2,000 on November 12?",
+    "ts": "2026-11-12T05:31:38.688346",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6979969",
+    "pregunta": "Will Ethereum reach $2,100 on November 12?",
+    "ts": "2026-11-12T05:31:39.705833",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891272",
+    "pregunta": "Will Ethereum dip to $1,900 November 9-15?",
+    "ts": "2026-11-12T05:31:40.725224",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891265",
+    "pregunta": "Will Ethereum dip to $2,000 November 9-15?",
+    "ts": "2026-11-12T05:31:41.745904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
     "whale_signal": "COMPRAR NO"
   }
 ]
