@@ -2,33 +2,17 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T04:59:43.310874",
+    "ts": "2026-11-12T05:11:34.811273",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa71b6b1c52f4ab28aaf8cbac809e48f15baa32d9",
+    "whale_wallet": "0x2ecb3055976168e95676dc12c10e2000e2d9ecb8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6364901",
-    "pregunta": "Will there be no next Claude Opus model (5.6+) release by November 30, 2026?",
-    "ts": "2026-11-12T04:59:45.825663",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-12T05:11:36.717843",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4895504",
-    "pregunta": "Next Claude Opus (5.6+) released by November 30, 2026?",
-    "ts": "2026-11-12T04:59:46.946228",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6651508",
-    "pregunta": "Will Ann Kao win Hsinchu City and Cheng Chao-fang win Hsinchu County?",
-    "ts": "2026-11-12T04:59:50.218005",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_wallet": "0xdade0c83c7820af23889146b468915ae39cb3639",
     "whale_signal": "COMPRAR NO"
   }
 ]
