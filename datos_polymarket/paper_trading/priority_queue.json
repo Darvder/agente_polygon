@@ -2,25 +2,41 @@
   {
     "id": "6507382",
     "pregunta": "Will Bitcoin dip to $70,000 in November?",
-    "ts": "2026-11-12T09:21:06.638228",
+    "ts": "2026-11-12T09:30:41.130791",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1393323",
-    "pregunta": "Predict.fun FDV above $800M one day after launch?",
-    "ts": "2026-11-12T09:21:10.578899",
+    "id": "6919849",
+    "pregunta": "Will Ian Buck be the next CEO of NVIDIA?",
+    "ts": "2026-11-12T09:30:42.858197",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4c2a07d0b2f77d7b2cc30d9c7379fbf80ed265dc",
+    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1393324",
-    "pregunta": "Predict.fun FDV above $1B one day after launch?",
-    "ts": "2026-11-12T09:21:11.621341",
+    "id": "6722272",
+    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $136 in November?",
+    "ts": "2026-11-12T09:30:43.883509",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4c2a07d0b2f77d7b2cc30d9c7379fbf80ed265dc",
+    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6941565",
+    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $148 Week of November 9 2026?",
+    "ts": "2026-11-12T09:30:44.905494",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6753603",
+    "pregunta": "Next Astra Model (6.1+) released by November 12, 2026?",
+    "ts": "2026-11-12T09:30:48.736091",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
