@@ -1,18 +1,26 @@
 [
   {
-    "id": "5194535",
-    "pregunta": "Will the Iranian regime fall before 2028?",
-    "ts": "2026-11-12T09:08:45.051036",
+    "id": "6507382",
+    "pregunta": "Will Bitcoin dip to $70,000 in November?",
+    "ts": "2026-11-12T09:21:06.638228",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3192167",
-    "pregunta": "Will exactly 1 Israeli legislative election occur before a government is formed?",
-    "ts": "2026-11-12T09:08:46.079625",
+    "id": "1393323",
+    "pregunta": "Predict.fun FDV above $800M one day after launch?",
+    "ts": "2026-11-12T09:21:10.578899",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_wallet": "0x4c2a07d0b2f77d7b2cc30d9c7379fbf80ed265dc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1393324",
+    "pregunta": "Predict.fun FDV above $1B one day after launch?",
+    "ts": "2026-11-12T09:21:11.621341",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4c2a07d0b2f77d7b2cc30d9c7379fbf80ed265dc",
     "whale_signal": "COMPRAR NO"
   }
 ]
