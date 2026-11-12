@@ -1,26 +1,50 @@
 [
   {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-11T19:02:23.161181",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb7606d0d3719c88f9b868a13015881af5222ccd7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-11T19:02:24.874391",
+    "ts": "2026-11-11T19:13:29.910431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9604b357e8307b0ccc8eb5812725d2b112c6fc1d",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6976273",
     "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
-    "ts": "2026-11-11T19:02:25.903201",
+    "ts": "2026-11-11T19:13:30.953043",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9604b357e8307b0ccc8eb5812725d2b112c6fc1d",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975353",
+    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+    "ts": "2026-11-11T19:13:33.694413",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77266604e63f5caf08d19caebae0c563ce064aee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1345531",
+    "pregunta": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "ts": "2026-11-11T19:13:35.536329",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507377",
+    "pregunta": "Will Bitcoin reach $82,500 in November?",
+    "ts": "2026-11-11T19:13:36.719474",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6721566",
+    "pregunta": "Will Bitcoin reach $80,000 in November?",
+    "ts": "2026-11-11T19:13:37.760640",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
     "whale_signal": "COMPRAR NO"
   }
 ]
