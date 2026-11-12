@@ -1,58 +1,18 @@
 [
   {
-    "id": "6908170",
-    "pregunta": "Jensen Huang divorce by March 31, 2027?",
-    "ts": "2026-11-11T19:47:44.338125",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-11T19:47:45.392623",
+    "ts": "2026-11-11T19:59:43.753505",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975354",
-    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
-    "ts": "2026-11-11T19:47:46.435140",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_wallet": "0x736539924a5602b37a03a54fc12c1cc8f98964da",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6976273",
     "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
-    "ts": "2026-11-11T19:47:48.549564",
+    "ts": "2026-11-11T19:59:44.773236",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6685069",
-    "pregunta": "Will Vitality Win the BLAST Rivals Hong Kong 2026?",
-    "ts": "2026-11-11T19:47:50.369110",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xce2103be7489aa1741d11b4e58d8b59303217d65",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-11T19:47:52.237858",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0562e01b3c3e65bb93bf0de32f02cec238a79d66",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6884119",
-    "pregunta": "Jensen Huang divorce by December 31, 2026?",
-    "ts": "2026-11-11T19:47:53.276166",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0562e01b3c3e65bb93bf0de32f02cec238a79d66",
+    "whale_wallet": "0x736539924a5602b37a03a54fc12c1cc8f98964da",
     "whale_signal": "COMPRAR NO"
   }
 ]
