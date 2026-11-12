@@ -1,42 +1,50 @@
 [
   {
-    "id": "6884119",
-    "pregunta": "Jensen Huang divorce by December 31, 2026?",
-    "ts": "2026-11-11T19:29:51.041033",
+    "id": "4838928",
+    "pregunta": "AI bubble burst by June 30, 2027?",
+    "ts": "2026-11-11T19:41:04.633516",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-11T19:29:52.083616",
+    "id": "6975354",
+    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
+    "ts": "2026-11-11T19:41:05.672278",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6975664",
-    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-11T19:29:53.130654",
+    "id": "6935440",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2027?",
+    "ts": "2026-11-11T19:41:07.849341",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6976273",
     "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
-    "ts": "2026-11-11T19:29:54.174573",
+    "ts": "2026-11-11T19:41:08.885769",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-11T19:29:56.993877",
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-11T19:41:10.957440",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x42fa06688f182914f863e38d976b322cf7ab4bfb",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975664",
+    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
+    "ts": "2026-11-11T19:41:13.769490",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc8a2c5318e92fd92dac2ad1a3588b7749504c66c",
     "whale_signal": "COMPRAR NO"
   }
 ]
