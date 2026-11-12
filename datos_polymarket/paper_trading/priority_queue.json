@@ -1,10 +1,18 @@
 [
   {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-12T01:02:01.373433",
+    "id": "6973833",
+    "pregunta": "Will the Democrats win Colorado in the 2028 Presidential Election?",
+    "ts": "2026-11-12T01:10:27.504555",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
+    "whale_wallet": "0x2463edb6d5d69d1b2bfd99bb0918f0e1e93724ee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975664",
+    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
+    "ts": "2026-11-12T01:10:29.195813",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x335a0ba4556d17e056b68a046577160b01382440",
     "whale_signal": "COMPRAR NO"
   }
 ]
