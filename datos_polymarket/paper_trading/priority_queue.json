@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4906129",
+    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
+    "ts": "2026-11-12T11:28:28.721437",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3ffe0f919dc7bac333dd33c0d5204bf8d0b426f4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-12T11:28:29.763353",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3ffe0f919dc7bac333dd33c0d5204bf8d0b426f4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6716573",
+    "pregunta": "Will the price of Bitcoin be above $72,000 on November 12?",
+    "ts": "2026-11-12T11:28:31.673051",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
