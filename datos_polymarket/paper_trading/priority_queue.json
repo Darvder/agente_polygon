@@ -2,17 +2,33 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T04:50:35.434560",
+    "ts": "2026-11-12T04:59:43.310874",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7eff44d3a998e21e1aa014a9fe89ef5f71a77196",
+    "whale_wallet": "0xa71b6b1c52f4ab28aaf8cbac809e48f15baa32d9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T04:50:39.886945",
+    "id": "6364901",
+    "pregunta": "Will there be no next Claude Opus model (5.6+) release by November 30, 2026?",
+    "ts": "2026-11-12T04:59:45.825663",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x21c010ba4e7dfa018f1f658db205fe71b4d1cce8",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4895504",
+    "pregunta": "Next Claude Opus (5.6+) released by November 30, 2026?",
+    "ts": "2026-11-12T04:59:46.946228",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6651508",
+    "pregunta": "Will Ann Kao win Hsinchu City and Cheng Chao-fang win Hsinchu County?",
+    "ts": "2026-11-12T04:59:50.218005",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
     "whale_signal": "COMPRAR NO"
   }
 ]
