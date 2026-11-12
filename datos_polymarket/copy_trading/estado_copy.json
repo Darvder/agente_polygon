@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1594.25,
-  "capital_en_riesgo": 595.0099999999999,
-  "n_ciclos": 44921,
-  "ultima_corrida": "2026-11-12 08:40",
+  "capital_actual": 1623.74,
+  "capital_en_riesgo": 560.34,
+  "n_ciclos": 44922,
+  "ultima_corrida": "2026-11-12 08:49",
   "n_tp": 1252,
-  "n_sl": 853,
+  "n_sl": 854,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 17.85,
-    "capital_en_riesgo": 76.08,
+    "capital_actual": 21.29,
+    "capital_en_riesgo": 71.95,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 4.03,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 706,
-    "n_sl": 486,
+    "n_sl": 487,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-11-07",
@@ -111,7 +111,7 @@
         "pregunta": "Will Greens win the third-most seats in the next Victorian state elect",
         "outcome": "No",
         "precio_token_entrada": 0.801,
-        "precio_actual": 0.78,
+        "precio_actual": 0.7755,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.3,
@@ -271,7 +271,7 @@
         "pregunta": "Will Apple be the largest company in the world by market cap on Decemb",
         "outcome": "Yes",
         "precio_token_entrada": 0.6905,
-        "precio_actual": 0.8505,
+        "precio_actual": 0.85,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.94,
@@ -351,7 +351,7 @@
         "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
         "outcome": "Yes",
         "precio_token_entrada": 0.64,
-        "precio_actual": 0.755,
+        "precio_actual": 0.745,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 3.9,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x22e31588da53fffdae79bf4f91c62acacd6ace796e6280d74f29f9e858576bcf"
-      },
-      {
-        "fecha_entrada": "2026-11-11",
-        "fecha_entrada_dt": "2026-11-11 18:27",
-        "target_wallet": "0xcb14ea66fe71f23b5426d05b6db4b86dc34cbd17",
-        "market_id": "6975353",
-        "condition_id": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
-        "token_id": "60524199552830937560823820614073807447576580099407491131126483622728255798404",
-        "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.535,
-        "precio_actual": 0.455,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.13,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x1a62970d3120d78957b0b8fcb2a7bc5cda1c0f0cb81df636377cfc8162e17ba4"
       }
     ],
     "historial_cerradas": [
@@ -24222,6 +24202,26 @@
         "pnl_realizado": -0.1,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xbbd690fe0281e74cc91ed18aac2eec1c2096c2d5813151a74e3ebd1aeb578392"
+      },
+      {
+        "fecha_entrada": "2026-11-11",
+        "fecha_entrada_dt": "2026-11-11 18:27",
+        "target_wallet": "0xcb14ea66fe71f23b5426d05b6db4b86dc34cbd17",
+        "market_id": "6975353",
+        "condition_id": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
+        "token_id": "60524199552830937560823820614073807447576580099407491131126483622728255798404",
+        "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.535,
+        "precio_actual": 0.445,
+        "precio_cierre": 0.445,
+        "pct_cambio": -0.1682,
+        "monto_usdc": 4.13,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-12 08:49",
+        "pnl_realizado": -0.69,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x1a62970d3120d78957b0b8fcb2a7bc5cda1c0f0cb81df636377cfc8162e17ba4"
       }
     ]
   }

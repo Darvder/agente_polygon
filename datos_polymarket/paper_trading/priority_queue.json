@@ -1,10 +1,50 @@
 [
   {
-    "id": "3358974",
-    "pregunta": "Will Nvidia\u2019s market capitalization be less than $4.00T at the end of 2026?",
-    "ts": "2026-11-12T08:39:44.053259",
+    "id": "3215012",
+    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
+    "ts": "2026-11-12T08:48:18.606373",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x22517b9402db98d7b2d0fd09bbe961929476bf89",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375148",
+    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
+    "ts": "2026-11-12T08:48:21.603836",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5154352",
+    "pregunta": "Will the Fed Pause-Hike-Pause in the next three decisions (Oct-Dec-Jan)?",
+    "ts": "2026-11-12T08:48:23.715522",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215013",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
+    "ts": "2026-11-12T08:48:24.766530",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-12T08:48:31.780538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6907990",
+    "pregunta": "US announces end of Iranian blockade by December 15, 2026?",
+    "ts": "2026-11-12T08:48:32.834304",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
     "whale_signal": "COMPRAR NO"
   }
 ]
