@@ -1,18 +1,34 @@
 [
   {
-    "id": "6975664",
-    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T07:19:59.281190",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-12T07:32:32.771471",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb7606d0d3719c88f9b868a13015881af5222ccd7",
+    "whale_wallet": "0x9ede1a0f698c29ee76f2d04dc1cfc902c249ccc5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-12T07:20:01.124752",
+    "id": "4397022",
+    "pregunta": "Will Gen.G win Worlds 2026?",
+    "ts": "2026-11-12T07:32:34.637319",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf74be653d18bc1b9e70ba6d6cdb89e8d8c55a7da",
+    "whale_wallet": "0xd0eada74ae81a37faaa2cf0af3f39815d824aa42",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4397242",
+    "pregunta": "Will Canyon win Worlds 2026 Finals MVP?",
+    "ts": "2026-11-12T07:32:35.654372",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd0eada74ae81a37faaa2cf0af3f39815d824aa42",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4397243",
+    "pregunta": "Will Chovy win Worlds 2026 Finals MVP?",
+    "ts": "2026-11-12T07:32:36.672223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd0eada74ae81a37faaa2cf0af3f39815d824aa42",
     "whale_signal": "COMPRAR NO"
   }
 ]
