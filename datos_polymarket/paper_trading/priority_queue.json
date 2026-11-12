@@ -1,34 +1,50 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-12T07:32:32.771471",
+    "id": "2264328",
+    "pregunta": "Russia x Ukraine ceasefire by December 31, 2026?",
+    "ts": "2026-11-12T07:43:12.099229",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ede1a0f698c29ee76f2d04dc1cfc902c249ccc5",
+    "whale_wallet": "0xee91588848a3c086a3d4ae22cdfdd3125670094f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4397022",
-    "pregunta": "Will Gen.G win Worlds 2026?",
-    "ts": "2026-11-12T07:32:34.637319",
+    "id": "6919849",
+    "pregunta": "Will Ian Buck be the next CEO of NVIDIA?",
+    "ts": "2026-11-12T07:43:13.160049",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd0eada74ae81a37faaa2cf0af3f39815d824aa42",
+    "whale_wallet": "0xee91588848a3c086a3d4ae22cdfdd3125670094f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4397242",
-    "pregunta": "Will Canyon win Worlds 2026 Finals MVP?",
-    "ts": "2026-11-12T07:32:35.654372",
+    "id": "6439064",
+    "pregunta": "Will \"Avengers: Doomsday\" Opening Weekend Box Office be at least 400m?",
+    "ts": "2026-11-12T07:43:15.118287",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd0eada74ae81a37faaa2cf0af3f39815d824aa42",
+    "whale_wallet": "0xa2e0d285e4ce58852f1159a9b6d2b68c0bf9fd91",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4397243",
-    "pregunta": "Will Chovy win Worlds 2026 Finals MVP?",
-    "ts": "2026-11-12T07:32:36.672223",
+    "id": "678447",
+    "pregunta": "Will Avengers: Doomsday have the best domestic opening weekend in 2026?",
+    "ts": "2026-11-12T07:43:16.171301",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd0eada74ae81a37faaa2cf0af3f39815d824aa42",
+    "whale_wallet": "0xa2e0d285e4ce58852f1159a9b6d2b68c0bf9fd91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6753102",
+    "pregunta": "Will the price of Ethereum be above $2,000 on November 13?",
+    "ts": "2026-11-12T07:43:18.099288",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6716573",
+    "pregunta": "Will the price of Bitcoin be above $72,000 on November 12?",
+    "ts": "2026-11-12T07:43:19.140149",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
