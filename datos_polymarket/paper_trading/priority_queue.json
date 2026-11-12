@@ -1,50 +1,26 @@
 [
   {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-12T10:04:30.749607",
+    "id": "6753152",
+    "pregunta": "Will the price of Bitcoin be above $72,000 on November 13?",
+    "ts": "2026-11-12T10:12:20.018316",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe89905ca9a689f5129621b62fcf715b5a45b88c",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2299955",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
-    "ts": "2026-11-12T10:04:32.541735",
+    "id": "6764126",
+    "pregunta": "Will NVIDIA (NVDA) finish week of November 9 above $170?",
+    "ts": "2026-11-12T10:12:24.607316",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1796706",
-    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
-    "ts": "2026-11-12T10:04:33.720616",
+    "id": "3553882",
+    "pregunta": "Will J.D. Vance attend a US x Iran diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-12T10:12:26.550412",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "666665",
-    "pregunta": "Will Howard Lutnick leave the Trump administration before 2027?",
-    "ts": "2026-11-12T10:04:34.737955",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975664",
-    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T10:04:36.603901",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27b999e442de6aea7f972069edb58ff09cd690d0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507382",
-    "pregunta": "Will Bitcoin dip to $70,000 in November?",
-    "ts": "2026-11-12T10:04:37.621647",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27b999e442de6aea7f972069edb58ff09cd690d0",
+    "whale_wallet": "0x5cd5c8d7a17c78d7389d8b87b611aed83322ac33",
     "whale_signal": "COMPRAR NO"
   }
 ]
