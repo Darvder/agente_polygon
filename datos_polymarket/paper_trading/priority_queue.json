@@ -2,33 +2,33 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T06:10:11.244464",
+    "ts": "2026-11-12T06:19:56.875355",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x13ba02e5c3194cea8788dd71977696e6e6c2d971",
+    "whale_wallet": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6975353",
-    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
-    "ts": "2026-11-12T06:10:12.280403",
+    "id": "6753109",
+    "pregunta": "Will the price of Ethereum be above $2,100 on November 13?",
+    "ts": "2026-11-12T06:19:59.349579",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x13ba02e5c3194cea8788dd71977696e6e6c2d971",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-12T06:10:15.035598",
+    "id": "6947942",
+    "pregunta": "Russia x Ukraine energy ceasefire agreement by November 30, 2026?",
+    "ts": "2026-11-12T06:20:01.086392",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x576315d31495f237c216fb1973794838e6111c22",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-12T06:10:17.589995",
+    "id": "6947944",
+    "pregunta": "Russia x Ukraine energy ceasefire agreement by December 31, 2026?",
+    "ts": "2026-11-12T06:20:02.113903",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   }
 ]
