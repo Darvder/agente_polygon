@@ -2,17 +2,9 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T08:20:14.019504",
+    "ts": "2026-11-12T08:29:07.399059",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3d680413d1e5ace1c82ef6b6ccbb4bfa3bafa444",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2299955",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
-    "ts": "2026-11-12T08:20:15.899386",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd44d6c3adca37d7e172bb5ee52497dbd63202ba9",
+    "whale_wallet": "0x13ba02e5c3194cea8788dd71977696e6e6c2d971",
     "whale_signal": "COMPRAR NO"
   }
 ]
