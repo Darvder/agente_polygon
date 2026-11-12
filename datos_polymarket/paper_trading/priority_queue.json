@@ -1,18 +1,26 @@
 [
   {
-    "id": "3866621",
-    "pregunta": "Will XRP dip to $1.00 by December 31, 2026?",
-    "ts": "2026-11-12T06:40:35.998884",
+    "id": "6975664",
+    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
+    "ts": "2026-11-12T06:50:16.679191",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x9ba7ae7ae11df2477c567d6a5aeb5b3bc9cf00ef",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6716488",
-    "pregunta": "Will the price of Bitcoin be between $72,000 and $74,000 on November 12?",
-    "ts": "2026-11-12T06:40:39.059830",
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-12T06:50:18.577561",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5375148",
+    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
+    "ts": "2026-11-12T06:50:21.005482",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaa577b1213e9019bfd97263ca943e6b4a1ca3991",
     "whale_signal": "COMPRAR NO"
   }
 ]
