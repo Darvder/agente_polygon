@@ -1,34 +1,26 @@
 [
   {
+    "id": "6975353",
+    "pregunta": "Jensen Huang announced resignation or removal by November 13, 2026?",
+    "ts": "2026-11-12T06:31:43.829908",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x33d8262f5e6680af2e0fcedcf02ead94d0635f5c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T06:19:56.875355",
+    "ts": "2026-11-12T06:31:44.851564",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
+    "whale_wallet": "0x33d8262f5e6680af2e0fcedcf02ead94d0635f5c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6753109",
-    "pregunta": "Will the price of Ethereum be above $2,100 on November 13?",
-    "ts": "2026-11-12T06:19:59.349579",
+    "id": "2695686",
+    "pregunta": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+    "ts": "2026-11-12T06:31:46.638695",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6947942",
-    "pregunta": "Russia x Ukraine energy ceasefire agreement by November 30, 2026?",
-    "ts": "2026-11-12T06:20:01.086392",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6947944",
-    "pregunta": "Russia x Ukraine energy ceasefire agreement by December 31, 2026?",
-    "ts": "2026-11-12T06:20:02.113903",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_wallet": "0x2d99e29c4f066ba32098c65e4c7454b277d94ca3",
     "whale_signal": "COMPRAR NO"
   }
 ]
