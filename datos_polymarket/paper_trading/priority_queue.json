@@ -2,25 +2,57 @@
   {
     "id": "6975664",
     "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-12T06:50:16.679191",
+    "ts": "2026-11-12T07:01:13.415494",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ba7ae7ae11df2477c567d6a5aeb5b3bc9cf00ef",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6882826",
-    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-12T06:50:18.577561",
+    "id": "6975354",
+    "pregunta": "Jensen Huang announced resignation or removal by November 30, 2026?",
+    "ts": "2026-11-12T07:01:14.434745",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0xc301c1e034e71e1a6ce9684f029c4674a00466aa",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5375148",
-    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
-    "ts": "2026-11-12T06:50:21.005482",
+    "id": "6598408",
+    "pregunta": "Will Claude go down 5-7 times in November 2026?",
+    "ts": "2026-11-12T07:01:16.312655",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaa577b1213e9019bfd97263ca943e6b4a1ca3991",
+    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2507003",
+    "pregunta": "Will two SpaceX Starships dock together by December 31, 2027?",
+    "ts": "2026-11-12T07:01:17.447648",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6919847",
+    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+    "ts": "2026-11-12T07:01:18.486292",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6433563",
+    "pregunta": "Will the Rhine River return to normal levels before November 15, 2026?",
+    "ts": "2026-11-12T07:01:19.623141",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f211a24da4c005d9438a1ea269673b85ed0b376",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3728735",
+    "pregunta": "Will the Left Party (V) be in the next Swedish government?",
+    "ts": "2026-11-12T07:01:21.414003",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x79a899a6c52addf90a67092091e24c407355bb66",
     "whale_signal": "COMPRAR NO"
   }
 ]
