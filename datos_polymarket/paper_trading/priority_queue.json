@@ -1,10 +1,26 @@
 [
   {
-    "id": "5784291",
-    "pregunta": "Next White House Press Secretary announced by December 31, 2026?",
-    "ts": "2026-11-12T10:40:37.834132",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-12T10:49:31.231426",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3f3bfc6d754e416699793901ffb12ddeee9f1d77",
+    "whale_wallet": "0x0e1d01759cfa75782134472a7af5963da9d50c53",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-12T10:49:40.691254",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd5ccdf772f795547e299de57f47966e24de8dea4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6439064",
+    "pregunta": "Will \"Avengers: Doomsday\" Opening Weekend Box Office be at least 400m?",
+    "ts": "2026-11-12T10:49:42.598169",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa2e0d285e4ce58852f1159a9b6d2b68c0bf9fd91",
     "whale_signal": "COMPRAR NO"
   }
 ]
