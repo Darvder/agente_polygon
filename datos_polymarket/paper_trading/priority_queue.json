@@ -1,18 +1,10 @@
 [
   {
-    "id": "6975664",
-    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
-    "ts": "2026-11-11T19:59:43.753505",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x736539924a5602b37a03a54fc12c1cc8f98964da",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6976273",
     "pregunta": "Jensen Huang announced resignation or removal by November 11, 2026?",
-    "ts": "2026-11-11T19:59:44.773236",
+    "ts": "2026-11-11T20:10:39.744917",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x736539924a5602b37a03a54fc12c1cc8f98964da",
+    "whale_wallet": "0x7c30ee60b7f53f80211ca65df99d48cce53b7673",
     "whale_signal": "COMPRAR NO"
   }
 ]
