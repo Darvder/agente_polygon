@@ -1,50 +1,26 @@
 [
   {
-    "id": "3215012",
-    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
-    "ts": "2026-11-12T08:48:18.606373",
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-12T09:00:59.481435",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x6114ab1b41a31643998b1cfe021ec6562a48cff0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5375148",
-    "pregunta": "Iran-Oman Hormuz Agreement by December 31?",
-    "ts": "2026-11-12T08:48:21.603836",
+    "id": "6975664",
+    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
+    "ts": "2026-11-12T09:01:01.203491",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
+    "whale_wallet": "0x6ac0caf622798132614a5972f81d86ff23fc55f3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5154352",
-    "pregunta": "Will the Fed Pause-Hike-Pause in the next three decisions (Oct-Dec-Jan)?",
-    "ts": "2026-11-12T08:48:23.715522",
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-12T09:01:06.161527",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-12T08:48:24.766530",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-12T08:48:31.780538",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6907990",
-    "pregunta": "US announces end of Iranian blockade by December 15, 2026?",
-    "ts": "2026-11-12T08:48:32.834304",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
+    "whale_wallet": "0x88e32b106f02fcd7a204e388f830ba290659384e",
     "whale_signal": "COMPRAR NO"
   }
 ]
