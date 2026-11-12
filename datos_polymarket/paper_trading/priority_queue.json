@@ -1,10 +1,18 @@
 [
   {
-    "id": "2695686",
-    "pregunta": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
-    "ts": "2026-11-12T07:10:26.784217",
+    "id": "6975664",
+    "pregunta": "Jensen Huang announced resignation or removal by November 12, 2026?",
+    "ts": "2026-11-12T07:19:59.281190",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_wallet": "0xb7606d0d3719c88f9b868a13015881af5222ccd7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6882826",
+    "pregunta": "Jensen Huang announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-12T07:20:01.124752",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf74be653d18bc1b9e70ba6d6cdb89e8d8c55a7da",
     "whale_signal": "COMPRAR NO"
   }
 ]
