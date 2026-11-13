@@ -1,58 +1,42 @@
 [
   {
-    "id": "6507383",
-    "pregunta": "Will Bitcoin dip to $67,500 in November?",
-    "ts": "2026-11-13T03:01:42.899149",
+    "id": "4663871",
+    "pregunta": "Will Stephen Wilson Jr. win New Artist of the Year at the 2026 CMA Awards?",
+    "ts": "2026-11-13T03:12:46.777896",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
+    "whale_wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6981049",
-    "pregunta": "Will the highest temperature in Paris be 11\u00b0C on November 14?",
-    "ts": "2026-11-13T03:01:46.313930",
+    "id": "4663867",
+    "pregunta": "Will Tucker Wetmore win New Artist of the Year at the 2026 CMA Awards?",
+    "ts": "2026-11-13T03:12:47.885845",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6981291",
-    "pregunta": "Will the highest temperature in Istanbul be 23\u00b0C on November 14?",
-    "ts": "2026-11-13T03:01:47.435370",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-13T03:12:48.906112",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6981135",
-    "pregunta": "Will the highest temperature in Hong Kong be 26\u00b0C on November 14?",
-    "ts": "2026-11-13T03:01:48.546701",
+    "id": "2110752",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-13T03:12:51.094349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6981277",
-    "pregunta": "Will the highest temperature in Moscow be 6\u00b0C on November 14?",
-    "ts": "2026-11-13T03:01:49.664334",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-13T03:12:52.120051",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6981075",
-    "pregunta": "Will the highest temperature in Ankara be 18\u00b0C or higher on November 14?",
-    "ts": "2026-11-13T03:01:50.778913",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6981146",
-    "pregunta": "Will the highest temperature in Shanghai be 18\u00b0C on November 14?",
-    "ts": "2026-11-13T03:01:51.802185",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   }
 ]
