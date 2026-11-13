@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6656718",
+    "pregunta": "Will the Ornn H100 Index be at least $3.25 on December 31, 2026?",
+    "ts": "2026-11-13T11:51:14.099299",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc84058541b1ef3586be91fd56860c1de283296",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6989178",
+    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
+    "ts": "2026-11-13T11:51:17.815541",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6875763ae42e03f2b4bf396bfa91e49ace44a463",
+    "whale_signal": "COMPRAR NO"
+  }
+]
