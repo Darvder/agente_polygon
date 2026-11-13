@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-13T13:20:22.530130",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f2bcf469f85fe746058f3a0767d24124d0d665a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-13T13:20:23.550436",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f2bcf469f85fe746058f3a0767d24124d0d665a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
