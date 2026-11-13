@@ -1,26 +1,10 @@
 [
   {
-    "id": "6801794",
-    "pregunta": "Will the price of Bitcoin be above $70,000 on November 14?",
-    "ts": "2026-11-13T08:41:28.153481",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-13T08:53:05.109743",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3013350",
-    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
-    "ts": "2026-11-13T08:41:32.856978",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x92318178c4b81150570b7f780183048631d82212",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3865962",
-    "pregunta": "Will Bitcoin dip to $65,000 by December 31, 2026?",
-    "ts": "2026-11-13T08:41:33.875604",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x92318178c4b81150570b7f780183048631d82212",
+    "whale_wallet": "0xf18097bd7ce33d07d3c18bf5a1e91e7f16e7f908",
     "whale_signal": "COMPRAR NO"
   }
 ]
