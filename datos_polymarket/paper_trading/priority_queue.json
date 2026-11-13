@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "2839991",
+    "pregunta": "Will any state enact a data center moratorium by December 31?",
+    "ts": "2026-11-13T00:50:58.605868",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-13T00:51:01.298236",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3387867",
+    "pregunta": "Will Ethereum dip to $1,750 by December 31, 2026?",
+    "ts": "2026-11-13T00:51:03.166500",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T00:51:04.302699",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701720",
+    "pregunta": "Will Dogecoin dip to $0.06 by December 31, 2026?",
+    "ts": "2026-11-13T00:51:05.481473",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891282",
+    "pregunta": "Will Ethereum dip to $1,800 November 9-15?",
+    "ts": "2026-11-13T00:51:06.668814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
