@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-12T19:24:19.853223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc5200e2eed92ece3793de9159fa1a25ae2d90455",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6908170",
+    "pregunta": "Jensen Huang divorce by March 31, 2027?",
+    "ts": "2026-11-12T19:24:21.180119",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc5200e2eed92ece3793de9159fa1a25ae2d90455",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-12T19:24:23.021394",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdda247bd26d5ee9499f5197096deaff6b0074814",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-12T19:24:24.041493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdda247bd26d5ee9499f5197096deaff6b0074814",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507384",
+    "pregunta": "Will Bitcoin dip to $65,000 in November?",
+    "ts": "2026-11-12T19:24:25.061977",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdda247bd26d5ee9499f5197096deaff6b0074814",
+    "whale_signal": "COMPRAR NO"
+  }
+]
