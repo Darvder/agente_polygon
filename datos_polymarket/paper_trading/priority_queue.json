@@ -1,10 +1,18 @@
 [
   {
-    "id": "6981082",
-    "pregunta": "Will the highest temperature in Wellington be 19\u00b0C on November 14?",
-    "ts": "2026-11-13T07:30:41.193040",
+    "id": "2695686",
+    "pregunta": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+    "ts": "2026-11-13T07:42:31.327251",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09a85cfe4d51e0cde12daa4d255b3f789fb447c1",
+    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-13T07:42:34.058304",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d080c87b913514dcc60791bb0d79faf07ffdc42",
     "whale_signal": "COMPRAR NO"
   }
 ]
