@@ -1,10 +1,18 @@
 [
   {
-    "id": "6884119",
-    "pregunta": "Jensen Huang divorce by December 31, 2026?",
-    "ts": "2026-11-12T21:39:29.250802",
+    "id": "6979956",
+    "pregunta": "Will Bitcoin dip to $70,000 on November 12?",
+    "ts": "2026-11-12T21:51:02.778176",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x22dbd51e1a4e10fff072fa24300238c64033190f",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507384",
+    "pregunta": "Will Bitcoin dip to $65,000 in November?",
+    "ts": "2026-11-12T21:51:04.593012",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3f3bfc6d754e416699793901ffb12ddeee9f1d77",
     "whale_signal": "COMPRAR NO"
   }
 ]
