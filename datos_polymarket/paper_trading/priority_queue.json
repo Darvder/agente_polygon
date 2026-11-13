@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-12T23:02:20.263091",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
