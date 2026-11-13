@@ -1,10 +1,26 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-12T20:01:01.118776",
+    "id": "6991606",
+    "pregunta": "Will Bitcoin reach $74,000 November 9-15?",
+    "ts": "2026-11-12T20:09:52.330618",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd77ba3d17771e8eab33e062678e3580bcaf124ab",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6991214",
+    "pregunta": "Will Bitcoin reach $72,500 in November?",
+    "ts": "2026-11-12T20:09:53.496396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6753152",
+    "pregunta": "Will the price of Bitcoin be above $72,000 on November 13?",
+    "ts": "2026-11-12T20:09:55.643767",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
