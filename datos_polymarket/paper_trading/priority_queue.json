@@ -1,10 +1,26 @@
 [
   {
-    "id": "6989178",
-    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
-    "ts": "2026-11-13T01:32:10.917822",
+    "id": "3387867",
+    "pregunta": "Will Ethereum dip to $1,750 by December 31, 2026?",
+    "ts": "2026-11-13T01:41:31.631472",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891282",
+    "pregunta": "Will Ethereum dip to $1,800 November 9-15?",
+    "ts": "2026-11-13T01:41:32.758665",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T01:41:34.904320",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
