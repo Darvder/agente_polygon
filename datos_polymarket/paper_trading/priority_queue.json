@@ -1,10 +1,18 @@
 [
   {
-    "id": "6625371",
-    "pregunta": "Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?",
-    "ts": "2026-11-12T23:20:40.696508",
+    "id": "6873191",
+    "pregunta": "Will the price of Bitcoin be above $72,000 on November 15?",
+    "ts": "2026-11-12T23:29:03.327204",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
+    "whale_wallet": "0xe9c6312464b52aa3eff13d822b003282075995c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-12T23:29:05.218351",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x55e2436d747835c7e40b0c6cf92f632bf1215fc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
