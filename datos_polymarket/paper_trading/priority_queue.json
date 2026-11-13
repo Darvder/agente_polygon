@@ -1,18 +1,1 @@
-[
-  {
-    "id": "6507383",
-    "pregunta": "Will Bitcoin dip to $67,500 in November?",
-    "ts": "2026-11-13T05:40:37.415696",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507384",
-    "pregunta": "Will Bitcoin dip to $65,000 in November?",
-    "ts": "2026-11-13T05:40:43.420321",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x61ea887d0cae49c07fafe0cb25f2b2d8f6ba8d37",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
