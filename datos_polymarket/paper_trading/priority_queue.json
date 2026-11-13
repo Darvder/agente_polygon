@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2839963",
+    "pregunta": "China ballistic missile launch by December 31?",
+    "ts": "2026-11-13T06:21:41.478862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb37aa8834f9baefc6fb3312f59df8ddf0348f1b1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T06:21:46.953051",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
