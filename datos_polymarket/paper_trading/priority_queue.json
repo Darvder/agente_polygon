@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "1811265",
+    "pregunta": "Pete Hegseth out as Secretary of Defense by December 31?",
+    "ts": "2026-11-13T02:39:58.681536",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ad794b2aaabbb61ed1361264f47d3838b3e4084",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4599796",
+    "pregunta": "Israeli airspace closed by December 31, 2026?",
+    "ts": "2026-11-13T02:40:02.777506",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ad794b2aaabbb61ed1361264f47d3838b3e4084",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-13T02:40:03.801174",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9ad794b2aaabbb61ed1361264f47d3838b3e4084",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6919849",
+    "pregunta": "Will Ian Buck be the next CEO of NVIDIA?",
+    "ts": "2026-11-13T02:40:09.974829",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a60c2d03c39b6b726b3ef3f30d0c1dd258aac8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
