@@ -1,10 +1,26 @@
 [
   {
-    "id": "7023300",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-    "ts": "2026-11-13T17:18:00.515911",
+    "id": "6949001",
+    "pregunta": "Will Gemini Krypton debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-13T17:33:23.099105",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2818594",
+    "pregunta": "Will Solana dip to $70 by December 31, 2026?",
+    "ts": "2026-11-13T17:33:24.814610",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T17:33:25.838742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
