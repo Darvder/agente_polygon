@@ -1,18 +1,50 @@
 [
   {
-    "id": "6588820",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in November?",
-    "ts": "2026-11-13T09:10:27.312418",
+    "id": "4838928",
+    "pregunta": "AI bubble burst by June 30, 2027?",
+    "ts": "2026-11-13T09:21:40.009469",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
+    "whale_wallet": "0xdc21adf39ded0fc7c89066e1ae7b533f706b0726",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6771174",
-    "pregunta": "Will Elon Musk post 180-199 tweets from November 10 to November 17, 2026?",
-    "ts": "2026-11-13T09:10:38.019281",
+    "id": "5462869",
+    "pregunta": "Will Morena win the most seats in the 2027 Chiapas Congress election?",
+    "ts": "2026-11-13T09:21:42.788552",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0f7f9903f46c24ba66900ceb4a427873129c6450",
+    "whale_wallet": "0xb5e83a636f2d77c0c25e2d2abaca753ea204a5f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3520557",
+    "pregunta": "Will the Republican Party candidate win the 2026 PA-13 House election by 30%-35%?",
+    "ts": "2026-11-13T09:21:46.317168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5e83a636f2d77c0c25e2d2abaca753ea204a5f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3697713",
+    "pregunta": "Will total votes cast in the 2026 midterm election for Governor of New York be between 6,500,000 and 7,000,000?",
+    "ts": "2026-11-13T09:21:47.469197",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5e83a636f2d77c0c25e2d2abaca753ea204a5f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3405600",
+    "pregunta": "Will the Democratic Party candidate win the 2026 CO-08 House election by 12%-15%?",
+    "ts": "2026-11-13T09:21:48.628580",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5e83a636f2d77c0c25e2d2abaca753ea204a5f9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3697367",
+    "pregunta": "Will total votes cast in the 2026 midterm election for Governor of Connecticut be between 1,200,000 and 1,300,000?",
+    "ts": "2026-11-13T09:21:54.268054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5e83a636f2d77c0c25e2d2abaca753ea204a5f9",
     "whale_signal": "COMPRAR NO"
   }
 ]
