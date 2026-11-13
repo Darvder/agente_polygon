@@ -1,26 +1,34 @@
 [
   {
-    "id": "4664724",
-    "pregunta": "Will Meta be the third-best AI lab at the end of November 2026?",
-    "ts": "2026-11-12T21:08:34.092390",
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-12T21:19:38.760674",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa68b7c78dbedd4185d498685671639db0e7bc4b4",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5139754",
-    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1520 by June 30, 2027?",
-    "ts": "2026-11-12T21:08:35.276414",
+    "id": "6891272",
+    "pregunta": "Will Ethereum dip to $1,900 November 9-15?",
+    "ts": "2026-11-12T21:19:40.669639",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa68b7c78dbedd4185d498685671639db0e7bc4b4",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5139753",
-    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
-    "ts": "2026-11-12T21:08:36.400275",
+    "id": "6507382",
+    "pregunta": "Will Bitcoin dip to $70,000 in November?",
+    "ts": "2026-11-12T21:19:41.713803",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa68b7c78dbedd4185d498685671639db0e7bc4b4",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891207",
+    "pregunta": "Will Bitcoin dip to $68,000 November 9-15?",
+    "ts": "2026-11-12T21:19:42.860585",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
