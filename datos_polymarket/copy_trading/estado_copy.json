@@ -2,15 +2,15 @@
   "capital_inicial": 1000.0,
   "capital_actual": 1596.17,
   "capital_en_riesgo": 584.79,
-  "n_ciclos": 45016,
-  "ultima_corrida": "2026-11-13 00:51",
+  "n_ciclos": 45017,
+  "ultima_corrida": "2026-11-13 01:03",
   "n_tp": 1252,
   "n_sl": 854,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 17.93,
-    "capital_en_riesgo": 77.5,
+    "capital_actual": 20.02,
+    "capital_en_riesgo": 73.2,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 4.09,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 707,
-    "n_sl": 487,
+    "n_sl": 488,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-11-07",
@@ -82,26 +82,6 @@
         "tx_hash": "0x642aaa9782f95ed67e71e9e9f9a90076ec08c4cdc2b5818eb921a2e1c0823537"
       },
       {
-        "fecha_entrada": "2026-11-07",
-        "fecha_entrada_dt": "2026-11-07 23:27",
-        "target_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-        "market_id": "6507384",
-        "condition_id": "0xf10d87e5a4e46d435aa7f6b57e2cc305262145b2b78626808899e38c1ed90052",
-        "token_id": "26127252001062724044596677668627061063663004770824340739601953173022522084681",
-        "pregunta": "Will Bitcoin dip to $65,000 in November?",
-        "outcome": "No",
-        "precio_token_entrada": 0.835,
-        "precio_actual": 0.455,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.3,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x4d1a278a39699376cede042345b8adc1247a0c41aa4422ba06a15a713dd5c73a"
-      },
-      {
         "fecha_entrada": "2026-11-08",
         "fecha_entrada_dt": "2026-11-08 00:38",
         "target_wallet": "0x34ab33da0f9576174aef6996ebae64b7d759f1db",
@@ -111,7 +91,7 @@
         "pregunta": "Will Greens win the third-most seats in the next Victorian state elect",
         "outcome": "No",
         "precio_token_entrada": 0.801,
-        "precio_actual": 0.781,
+        "precio_actual": 0.7695,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.3,
@@ -24262,6 +24242,26 @@
         "pnl_realizado": 2.19,
         "razon_cierre": "RESOLVED_EXIT",
         "tx_hash": "0x22e31588da53fffdae79bf4f91c62acacd6ace796e6280d74f29f9e858576bcf"
+      },
+      {
+        "fecha_entrada": "2026-11-07",
+        "fecha_entrada_dt": "2026-11-07 23:27",
+        "target_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+        "market_id": "6507384",
+        "condition_id": "0xf10d87e5a4e46d435aa7f6b57e2cc305262145b2b78626808899e38c1ed90052",
+        "token_id": "26127252001062724044596677668627061063663004770824340739601953173022522084681",
+        "pregunta": "Will Bitcoin dip to $65,000 in November?",
+        "outcome": "No",
+        "precio_token_entrada": 0.835,
+        "precio_actual": 0.405,
+        "precio_cierre": 0.405,
+        "pct_cambio": -0.515,
+        "monto_usdc": 4.3,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-13 01:03",
+        "pnl_realizado": -2.21,
+        "razon_cierre": "STOP_LOSS",
+        "tx_hash": "0x4d1a278a39699376cede042345b8adc1247a0c41aa4422ba06a15a713dd5c73a"
       }
     ]
   }
