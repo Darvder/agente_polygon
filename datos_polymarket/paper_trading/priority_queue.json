@@ -1,26 +1,10 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-13T07:00:50.828273",
+    "id": "6991214",
+    "pregunta": "Will Bitcoin reach $72,500 in November?",
+    "ts": "2026-11-13T07:13:16.798882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2e128c4f8e10c9b8c81a6b070fcac8d64b6276",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-13T07:00:51.850565",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2e128c4f8e10c9b8c81a6b070fcac8d64b6276",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6753150",
-    "pregunta": "Will the price of Bitcoin be above $70,000 on November 13?",
-    "ts": "2026-11-13T07:00:54.945710",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17273742dc70b68dbd173f79655044d605840e1e",
+    "whale_wallet": "0x60f100f5112b42e2ef89036d8b9c6877757dcb3e",
     "whale_signal": "COMPRAR NO"
   }
 ]
