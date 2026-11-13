@@ -1,10 +1,18 @@
 [
   {
-    "id": "5420002",
-    "pregunta": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
-    "ts": "2026-11-13T15:30:23.370726",
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-13T15:38:53.965850",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
+    "whale_wallet": "0xa0991752cb645c4db0d65945b8472a1c2ea999a7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-13T15:38:55.155996",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa0991752cb645c4db0d65945b8472a1c2ea999a7",
     "whale_signal": "COMPRAR NO"
   }
 ]
