@@ -1,18 +1,10 @@
 [
   {
-    "id": "666665",
-    "pregunta": "Will Howard Lutnick leave the Trump administration before 2027?",
-    "ts": "2026-11-13T12:40:44.893575",
+    "id": "2965189",
+    "pregunta": "Will Jensen Huang be the #1 searched person on Google this year?",
+    "ts": "2026-11-13T12:52:36.619736",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507423",
-    "pregunta": "Will Ethereum dip to $1,800 in November?",
-    "ts": "2026-11-13T12:40:46.799782",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbc730b41a9aaad603dda9473dcb8a059df2c9fa7",
+    "whale_wallet": "0x9ddfa4d5b954379a03d19f87df36b9820b862c83",
     "whale_signal": "COMPRAR NO"
   }
 ]
