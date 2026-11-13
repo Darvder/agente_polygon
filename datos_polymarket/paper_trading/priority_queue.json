@@ -2,9 +2,81 @@
   {
     "id": "7023299",
     "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
-    "ts": "2026-11-13T18:11:54.813818",
+    "ts": "2026-11-13T18:22:09.858298",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3e2d44b4de7e40f8f8427f44b03a118efd0e3472",
+    "whale_wallet": "0x92e53057ef2872722a53fe807245bd387e1defee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023302",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",
+    "ts": "2026-11-13T18:22:10.907984",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92e53057ef2872722a53fe807245bd387e1defee",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2486556",
+    "pregunta": "Will Herman Mashaba be the next mayor of Johannesburg?",
+    "ts": "2026-11-13T18:22:12.811737",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999655",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by November 30?",
+    "ts": "2026-11-13T18:22:15.961779",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5420002",
+    "pregunta": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
+    "ts": "2026-11-13T18:22:17.019559",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023301",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
+    "ts": "2026-11-13T18:22:18.060831",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-13T18:22:19.113880",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7003587",
+    "pregunta": "Will Disney say \"AI / Artificial Intelligence\" 10+ times during earnings call?",
+    "ts": "2026-11-13T18:22:21.038770",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6936431c93a525f454d1bb914c107f926c86a45e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7003603",
+    "pregunta": "Will Target say \"Toy\" 5+ times during earnings call?",
+    "ts": "2026-11-13T18:22:22.205355",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6936431c93a525f454d1bb914c107f926c86a45e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2735522",
+    "pregunta": "Will Radomir Sai\u010di\u0107 win the next Serbia presidential election?",
+    "ts": "2026-11-13T18:22:24.070590",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x145b3509dea2102f6ac87008dc4d95b8e078ef11",
     "whale_signal": "COMPRAR NO"
   }
 ]
