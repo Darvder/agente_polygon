@@ -1,26 +1,18 @@
 [
   {
-    "id": "2412745",
-    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-13T05:13:01.377042",
+    "id": "6909887",
+    "pregunta": "Will Ethereum reach $2,200 in November?",
+    "ts": "2026-11-13T05:19:17.190281",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1936e71fb72786cca17585fedc430091454e1d16",
+    "whale_wallet": "0xede186f37ead91aa618cf8101db2bfe6b6c57dd1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6753150",
-    "pregunta": "Will the price of Bitcoin be above $70,000 on November 13?",
-    "ts": "2026-11-13T05:13:03.115848",
+    "id": "5787490",
+    "pregunta": "Next White House Press Secretary announced by November 30, 2026?",
+    "ts": "2026-11-13T05:19:19.782137",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7006273",
-    "pregunta": "Will Bitcoin dip to $67,000 on November 13?",
-    "ts": "2026-11-13T05:13:04.135031",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xd8d5289c35124b5353f5a10a28b8cc29aec38935",
     "whale_signal": "COMPRAR NO"
   }
 ]
