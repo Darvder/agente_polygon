@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6935923",
+    "pregunta": "Will the price of Ethereum be between $1,800 and $1,900 on November 17?",
+    "ts": "2026-11-13T16:46:53.639972",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6990912",
+    "pregunta": "Will the price of Ethereum be above $1,800 on November 19?",
+    "ts": "2026-11-13T16:46:54.711583",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
