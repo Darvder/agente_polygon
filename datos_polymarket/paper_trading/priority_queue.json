@@ -1,10 +1,18 @@
 [
   {
-    "id": "6424258",
-    "pregunta": "Will Iran target Jordan by November 30, 2026?",
-    "ts": "2026-11-12T20:23:52.639270",
+    "id": "6507382",
+    "pregunta": "Will Bitcoin dip to $70,000 in November?",
+    "ts": "2026-11-12T20:31:38.808415",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0dcc05376176f9f9e5160b9aae6f51e2ca93944",
+    "whale_wallet": "0x92318178c4b81150570b7f780183048631d82212",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507386",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-12T20:31:39.853147",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92318178c4b81150570b7f780183048631d82212",
     "whale_signal": "COMPRAR NO"
   }
 ]
