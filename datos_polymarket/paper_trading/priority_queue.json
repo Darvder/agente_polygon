@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6588820",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in November?",
+    "ts": "2026-11-13T09:10:27.312418",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6771174",
+    "pregunta": "Will Elon Musk post 180-199 tweets from November 10 to November 17, 2026?",
+    "ts": "2026-11-13T09:10:38.019281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f7f9903f46c24ba66900ceb4a427873129c6450",
+    "whale_signal": "COMPRAR NO"
+  }
+]
