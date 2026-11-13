@@ -1,10 +1,18 @@
 [
   {
-    "id": "2109956",
-    "pregunta": "Israeli election results in a hung parliament?",
-    "ts": "2026-11-13T15:57:49.447652",
+    "id": "6998285",
+    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+    "ts": "2026-11-13T16:06:54.286456",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+    "whale_wallet": "0xaa281355e0747a4358c56c076587eda05fe3da01",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1393325",
+    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
+    "ts": "2026-11-13T16:06:59.676684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe95e726d0ca927874f3998d815bfec51d19261f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
