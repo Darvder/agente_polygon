@@ -1,34 +1,58 @@
 [
   {
-    "id": "7006290",
-    "pregunta": "Will Ethereum dip to $1,850 on November 13?",
-    "ts": "2026-11-13T02:51:04.678602",
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T03:01:42.899149",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7006268",
-    "pregunta": "Will Bitcoin reach $71,000 on November 13?",
-    "ts": "2026-11-13T02:51:05.718972",
+    "id": "6981049",
+    "pregunta": "Will the highest temperature in Paris be 11\u00b0C on November 14?",
+    "ts": "2026-11-13T03:01:46.313930",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7006287",
-    "pregunta": "Will Ethereum reach $2,000 on November 13?",
-    "ts": "2026-11-13T02:51:06.923535",
+    "id": "6981291",
+    "pregunta": "Will the highest temperature in Istanbul be 23\u00b0C on November 14?",
+    "ts": "2026-11-13T03:01:47.435370",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5087228",
-    "pregunta": "US-Iran Hormuz Agreement by December 31?",
-    "ts": "2026-11-13T02:51:11.090621",
+    "id": "6981135",
+    "pregunta": "Will the highest temperature in Hong Kong be 26\u00b0C on November 14?",
+    "ts": "2026-11-13T03:01:48.546701",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6981277",
+    "pregunta": "Will the highest temperature in Moscow be 6\u00b0C on November 14?",
+    "ts": "2026-11-13T03:01:49.664334",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6981075",
+    "pregunta": "Will the highest temperature in Ankara be 18\u00b0C or higher on November 14?",
+    "ts": "2026-11-13T03:01:50.778913",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6981146",
+    "pregunta": "Will the highest temperature in Shanghai be 18\u00b0C on November 14?",
+    "ts": "2026-11-13T03:01:51.802185",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
     "whale_signal": "COMPRAR NO"
   }
 ]
