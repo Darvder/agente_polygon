@@ -1,26 +1,42 @@
 [
   {
-    "id": "3387867",
-    "pregunta": "Will Ethereum dip to $1,750 by December 31, 2026?",
-    "ts": "2026-11-13T01:41:31.631472",
+    "id": "666665",
+    "pregunta": "Will Howard Lutnick leave the Trump administration before 2027?",
+    "ts": "2026-11-13T01:51:34.514289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6891282",
-    "pregunta": "Will Ethereum dip to $1,800 November 9-15?",
-    "ts": "2026-11-13T01:41:32.758665",
+    "id": "666659",
+    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
+    "ts": "2026-11-13T01:51:35.649363",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507383",
-    "pregunta": "Will Bitcoin dip to $67,500 in November?",
-    "ts": "2026-11-13T01:41:34.904320",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-13T01:51:36.685860",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999516",
+    "pregunta": "Will 4 Jensen Huang affairs be reported by December 31?",
+    "ts": "2026-11-13T01:51:38.461404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-13T01:51:41.037479",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xadaf137fbfe5e20ed662fa72bb69a4ab6fce3da0",
     "whale_signal": "COMPRAR NO"
   }
 ]
