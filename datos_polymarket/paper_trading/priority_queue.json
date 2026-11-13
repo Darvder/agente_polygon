@@ -1,10 +1,26 @@
 [
   {
-    "id": "6975335",
-    "pregunta": "Kimberly Powell announced resignation or removal by November 30, 2026?",
-    "ts": "2026-11-13T14:10:11.955027",
+    "id": "6451906",
+    "pregunta": "Exact Score: Slovakia 1 - 0 Faroe Islands?",
+    "ts": "2026-11-13T14:19:09.320454",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb7de57721ee931290e90bc0c8a9f38855130b802",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-13T14:19:11.367674",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6997774",
+    "pregunta": "Fourth Jensen Huang affair reported by December 31?",
+    "ts": "2026-11-13T14:19:12.412902",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
     "whale_signal": "COMPRAR NO"
   }
 ]
