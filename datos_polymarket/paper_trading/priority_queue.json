@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "920404",
+    "pregunta": "Variational FDV above $2B one day after launch?",
+    "ts": "2026-11-13T04:39:14.194856",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "920403",
+    "pregunta": "Variational FDV above $1B one day after launch?",
+    "ts": "2026-11-13T04:39:15.309246",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6908170",
+    "pregunta": "Jensen Huang divorce by March 31, 2027?",
+    "ts": "2026-11-13T04:39:16.420841",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-13T04:39:17.442300",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
+    "whale_signal": "COMPRAR NO"
+  }
+]
