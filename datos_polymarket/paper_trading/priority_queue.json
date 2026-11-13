@@ -1,26 +1,18 @@
 [
   {
-    "id": "6507383",
-    "pregunta": "Will Bitcoin dip to $67,500 in November?",
-    "ts": "2026-11-13T03:21:42.681688",
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-13T03:29:06.455137",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
+    "whale_wallet": "0xc50d9eb22148878935fb37a47bacef30eb6cb554",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7006269",
-    "pregunta": "Will Bitcoin reach $70,000 on November 13?",
-    "ts": "2026-11-13T03:21:45.122523",
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-13T03:29:07.511440",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6753095",
-    "pregunta": "Will the price of Ethereum be above $1,900 on November 13?",
-    "ts": "2026-11-13T03:21:46.252540",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_wallet": "0xc50d9eb22148878935fb37a47bacef30eb6cb554",
     "whale_signal": "COMPRAR NO"
   }
 ]
