@@ -1,10 +1,26 @@
 [
   {
-    "id": "6625371",
-    "pregunta": "Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?",
-    "ts": "2026-11-13T05:00:26.973629",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-13T05:13:01.377042",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88ad670a55cc44000615f23a8935b90a570cfd52",
+    "whale_wallet": "0x1936e71fb72786cca17585fedc430091454e1d16",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6753150",
+    "pregunta": "Will the price of Bitcoin be above $70,000 on November 13?",
+    "ts": "2026-11-13T05:13:03.115848",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7006273",
+    "pregunta": "Will Bitcoin dip to $67,000 on November 13?",
+    "ts": "2026-11-13T05:13:04.135031",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
