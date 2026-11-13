@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4664724",
+    "pregunta": "Will Meta be the third-best AI lab at the end of November 2026?",
+    "ts": "2026-11-12T21:08:34.092390",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa68b7c78dbedd4185d498685671639db0e7bc4b4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139754",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1520 by June 30, 2027?",
+    "ts": "2026-11-12T21:08:35.276414",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa68b7c78dbedd4185d498685671639db0e7bc4b4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-12T21:08:36.400275",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa68b7c78dbedd4185d498685671639db0e7bc4b4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
