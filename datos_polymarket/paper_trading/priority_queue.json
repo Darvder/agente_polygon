@@ -1,34 +1,10 @@
 [
   {
-    "id": "6884119",
-    "pregunta": "Jensen Huang divorce by December 31, 2026?",
-    "ts": "2026-11-13T17:53:04.101061",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7023299",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
-    "ts": "2026-11-13T17:53:05.122419",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "7023300",
     "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-    "ts": "2026-11-13T17:53:06.146377",
+    "ts": "2026-11-13T18:02:18.499299",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7023301",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
-    "ts": "2026-11-13T17:53:07.175190",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_wallet": "0x93521335308a270795daa9f073b5406938b12227",
     "whale_signal": "COMPRAR NO"
   }
 ]
