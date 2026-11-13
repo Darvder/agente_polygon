@@ -1,26 +1,66 @@
 [
   {
-    "id": "6949001",
-    "pregunta": "Will Gemini Krypton debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
-    "ts": "2026-11-13T17:33:23.099105",
+    "id": "6981092",
+    "pregunta": "Will the highest temperature in Lucknow be 30\u00b0C on November 14?",
+    "ts": "2026-11-13T17:40:50.252800",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_wallet": "0x9f6a4549f14154a7f2c74d03efd8de903a61eb61",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2818594",
-    "pregunta": "Will Solana dip to $70 by December 31, 2026?",
-    "ts": "2026-11-13T17:33:24.814610",
+    "id": "6997774",
+    "pregunta": "Fourth Jensen Huang affair reported by December 31?",
+    "ts": "2026-11-13T17:40:53.855908",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x8fce065d5820ea3deb72976640290959bb952566",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507383",
-    "pregunta": "Will Bitcoin dip to $67,500 in November?",
-    "ts": "2026-11-13T17:33:25.838742",
+    "id": "2363844",
+    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
+    "ts": "2026-11-13T17:40:54.979487",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x8fce065d5820ea3deb72976640290959bb952566",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-13T17:40:56.104111",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8fce065d5820ea3deb72976640290959bb952566",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6884119",
+    "pregunta": "Jensen Huang divorce by December 31, 2026?",
+    "ts": "2026-11-13T17:40:57.138168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8fce065d5820ea3deb72976640290959bb952566",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6423030",
+    "pregunta": "Will Russia capture all of Bilytske by November 30?",
+    "ts": "2026-11-13T17:40:58.175865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8fce065d5820ea3deb72976640290959bb952566",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-13T17:40:59.209094",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8fce065d5820ea3deb72976640290959bb952566",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-13T17:41:01.278153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8fce065d5820ea3deb72976640290959bb952566",
     "whale_signal": "COMPRAR NO"
   }
 ]
