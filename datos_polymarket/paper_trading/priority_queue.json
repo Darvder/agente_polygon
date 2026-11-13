@@ -1,42 +1,18 @@
 [
   {
-    "id": "6919849",
-    "pregunta": "Will Ian Buck be the next CEO of NVIDIA?",
-    "ts": "2026-11-12T19:30:18.289975",
+    "id": "6999515",
+    "pregunta": "Will 3 Jensen Huang affairs be reported by December 31?",
+    "ts": "2026-11-12T19:42:14.752716",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6959364",
-    "pregunta": "Will the highest temperature in Buenos Aires be 28\u00b0C on November 13?",
-    "ts": "2026-11-12T19:30:19.332190",
+    "id": "6919836",
+    "pregunta": "Will Colette Kress be the next CEO of NVIDIA?",
+    "ts": "2026-11-12T19:42:15.777228",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6959365",
-    "pregunta": "Will the highest temperature in Buenos Aires be 29\u00b0C on November 13?",
-    "ts": "2026-11-12T19:30:20.464297",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6955257",
-    "pregunta": "Will the highest temperature in Helsinki be 5\u00b0C on November 13?",
-    "ts": "2026-11-12T19:30:21.501310",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6991224",
-    "pregunta": "Will Ethereum reach $2,100 in November?",
-    "ts": "2026-11-12T19:30:23.426283",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8e15f0f862a8fd540373092e37626a5a2254b101",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   }
 ]
