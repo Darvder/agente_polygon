@@ -1,58 +1,10 @@
 [
   {
-    "id": "6935848",
-    "pregunta": "Will the price of Ethereum be above $1,900 on November 17?",
-    "ts": "2026-11-12T22:29:28.935223",
+    "id": "6891207",
+    "pregunta": "Will Bitcoin dip to $68,000 November 9-15?",
+    "ts": "2026-11-12T22:44:07.877728",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6909220",
-    "pregunta": "Will the price of Bitcoin be above $68,000 on November 16?",
-    "ts": "2026-11-12T22:29:30.131599",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6990918",
-    "pregunta": "Will the price of Ethereum be above $1,900 on November 19?",
-    "ts": "2026-11-12T22:29:31.371835",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6967574",
-    "pregunta": "Will the price of Ethereum be above $1,900 on November 18?",
-    "ts": "2026-11-12T22:29:32.623542",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6967626",
-    "pregunta": "Will the price of Bitcoin be above $68,000 on November 18?",
-    "ts": "2026-11-12T22:29:33.820393",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6935919",
-    "pregunta": "Will the price of Bitcoin be above $68,000 on November 17?",
-    "ts": "2026-11-12T22:29:35.019879",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6919836",
-    "pregunta": "Will Colette Kress be the next CEO of NVIDIA?",
-    "ts": "2026-11-12T22:29:37.844544",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x011f2d377e56119fb09196dffb0948ae55711122",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
