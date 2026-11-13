@@ -1,10 +1,18 @@
 [
   {
-    "id": "7019140",
-    "pregunta": "Will Bitcoin reach $70,000 November 9-15?",
-    "ts": "2026-11-13T14:43:23.543079",
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-13T14:50:49.578707",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaa577b1213e9019bfd97263ca943e6b4a1ca3991",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-13T14:50:50.619162",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
