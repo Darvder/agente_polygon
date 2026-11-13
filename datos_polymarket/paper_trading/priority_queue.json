@@ -1,42 +1,26 @@
 [
   {
-    "id": "4663871",
-    "pregunta": "Will Stephen Wilson Jr. win New Artist of the Year at the 2026 CMA Awards?",
-    "ts": "2026-11-13T03:12:46.777896",
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T03:21:42.681688",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
+    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4663867",
-    "pregunta": "Will Tucker Wetmore win New Artist of the Year at the 2026 CMA Awards?",
-    "ts": "2026-11-13T03:12:47.885845",
+    "id": "7006269",
+    "pregunta": "Will Bitcoin reach $70,000 on November 13?",
+    "ts": "2026-11-13T03:21:45.122523",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-13T03:12:48.906112",
+    "id": "6753095",
+    "pregunta": "Will the price of Ethereum be above $1,900 on November 13?",
+    "ts": "2026-11-13T03:21:46.252540",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110752",
-    "pregunta": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-13T03:12:51.094349",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412745",
-    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-13T03:12:52.120051",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
