@@ -1,26 +1,66 @@
 [
   {
-    "id": "6891211",
-    "pregunta": "Will Bitcoin dip to $66,000 November 9-15?",
-    "ts": "2026-11-13T11:21:12.254819",
+    "id": "6981124",
+    "pregunta": "Will the highest temperature in Tokyo be 18\u00b0C on November 14?",
+    "ts": "2026-11-13T11:30:53.847859",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x1941ca5d7f587827da004b1b1551b0bd6429deea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6753174",
-    "pregunta": "Will the price of Solana be above $80 on November 13?",
-    "ts": "2026-11-13T11:21:13.334521",
+    "id": "6981117",
+    "pregunta": "Will the highest temperature in Tel Aviv be 29\u00b0C on November 14?",
+    "ts": "2026-11-13T11:30:54.956252",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x1941ca5d7f587827da004b1b1551b0bd6429deea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507383",
-    "pregunta": "Will Bitcoin dip to $67,500 in November?",
-    "ts": "2026-11-13T11:21:14.404788",
+    "id": "6981334",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on November 14?",
+    "ts": "2026-11-13T11:30:55.978760",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x1941ca5d7f587827da004b1b1551b0bd6429deea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6983024",
+    "pregunta": "Will the highest temperature in Dallas be between 60-61\u00b0F on November 14?",
+    "ts": "2026-11-13T11:30:57.094380",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1941ca5d7f587827da004b1b1551b0bd6429deea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6984668",
+    "pregunta": "Will the highest temperature in Los Angeles be between 72-73\u00b0F on November 14?",
+    "ts": "2026-11-13T11:30:58.210439",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1941ca5d7f587827da004b1b1551b0bd6429deea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6981146",
+    "pregunta": "Will the highest temperature in Shanghai be 18\u00b0C on November 14?",
+    "ts": "2026-11-13T11:30:59.235948",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1941ca5d7f587827da004b1b1551b0bd6429deea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6618428",
+    "pregunta": "Will Malaysia win Eurovision Asia 2026?",
+    "ts": "2026-11-13T11:31:01.681430",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2824ab453e1bcc26d7fc44fcbf58d07cb8e2a954",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6618432",
+    "pregunta": "Will Philippines win Eurovision Asia 2026?",
+    "ts": "2026-11-13T11:31:02.705958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2824ab453e1bcc26d7fc44fcbf58d07cb8e2a954",
     "whale_signal": "COMPRAR NO"
   }
 ]
