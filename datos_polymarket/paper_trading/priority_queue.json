@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "6981082",
+    "pregunta": "Will the highest temperature in Wellington be 19\u00b0C on November 14?",
+    "ts": "2026-11-13T07:30:41.193040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x09a85cfe4d51e0cde12daa4d255b3f789fb447c1",
+    "whale_signal": "COMPRAR NO"
+  }
+]
