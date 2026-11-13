@@ -1,42 +1,18 @@
 [
   {
-    "id": "666665",
-    "pregunta": "Will Howard Lutnick leave the Trump administration before 2027?",
-    "ts": "2026-11-13T01:51:34.514289",
+    "id": "6721565",
+    "pregunta": "Will Bitcoin reach $77,500 in November?",
+    "ts": "2026-11-13T02:01:13.160202",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
+    "whale_wallet": "0xf58798dc4ab8c4eddb2ef0f8dcbcb310b7d02759",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "666659",
-    "pregunta": "Will Pete Hegseth leave the Trump administration before 2027?",
-    "ts": "2026-11-13T01:51:35.649363",
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T02:01:15.925555",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-13T01:51:36.685860",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6999516",
-    "pregunta": "Will 4 Jensen Huang affairs be reported by December 31?",
-    "ts": "2026-11-13T01:51:38.461404",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412746",
-    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-    "ts": "2026-11-13T01:51:41.037479",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xadaf137fbfe5e20ed662fa72bb69a4ab6fce3da0",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
