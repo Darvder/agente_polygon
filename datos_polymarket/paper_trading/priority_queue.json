@@ -1,34 +1,26 @@
 [
   {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-13T01:02:49.991732",
+    "id": "3865962",
+    "pregunta": "Will Bitcoin dip to $65,000 by December 31, 2026?",
+    "ts": "2026-11-13T01:12:28.523849",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831496",
-    "pregunta": "US x Iran Effective Ceasefire by November 30?",
-    "ts": "2026-11-13T01:02:51.012610",
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-13T01:12:30.729024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5426105",
-    "pregunta": "Syrian troops enter Yemen by December 31, 2026?",
-    "ts": "2026-11-13T01:02:52.049660",
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-13T01:12:32.571887",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1393326",
-    "pregunta": "Predict.fun FDV above $2B one day after launch?",
-    "ts": "2026-11-13T01:02:53.895164",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8a9777a7d3079e208afc08de2ccdf744de78593d",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
     "whale_signal": "COMPRAR NO"
   }
 ]
