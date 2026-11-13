@@ -1,18 +1,50 @@
 [
   {
-    "id": "6979956",
-    "pregunta": "Will Bitcoin dip to $70,000 on November 12?",
-    "ts": "2026-11-12T21:51:02.778176",
+    "id": "6991606",
+    "pregunta": "Will Bitcoin reach $74,000 November 9-15?",
+    "ts": "2026-11-12T22:00:20.477664",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x8cc8560dfbd3b39a7aee6d1209876ebad9f1f1b3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507384",
-    "pregunta": "Will Bitcoin dip to $65,000 in November?",
-    "ts": "2026-11-12T21:51:04.593012",
+    "id": "6940083",
+    "pregunta": "Will Bitcoin reach $75,000 in November?",
+    "ts": "2026-11-12T22:00:21.632336",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3f3bfc6d754e416699793901ffb12ddeee9f1d77",
+    "whale_wallet": "0x8cc8560dfbd3b39a7aee6d1209876ebad9f1f1b3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6721565",
+    "pregunta": "Will Bitcoin reach $77,500 in November?",
+    "ts": "2026-11-12T22:00:22.793054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8cc8560dfbd3b39a7aee6d1209876ebad9f1f1b3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6530868",
+    "pregunta": "Will Meta be the third-best AI lab at the end of January 2027?",
+    "ts": "2026-11-12T22:00:23.949508",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8cc8560dfbd3b39a7aee6d1209876ebad9f1f1b3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891207",
+    "pregunta": "Will Bitcoin dip to $68,000 November 9-15?",
+    "ts": "2026-11-12T22:00:25.003251",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8cc8560dfbd3b39a7aee6d1209876ebad9f1f1b3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-12T22:00:26.154144",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8cc8560dfbd3b39a7aee6d1209876ebad9f1f1b3",
     "whale_signal": "COMPRAR NO"
   }
 ]
