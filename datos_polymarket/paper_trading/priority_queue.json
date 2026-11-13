@@ -1,10 +1,26 @@
 [
   {
-    "id": "6723102",
-    "pregunta": "Marco Rubio out as Secretary of State by March 31, 2027?",
-    "ts": "2026-11-13T06:51:02.005849",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-13T07:00:50.828273",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5d19b53c973be1097119c9ddc48fcb18fff6e35",
+    "whale_wallet": "0x9f2e128c4f8e10c9b8c81a6b070fcac8d64b6276",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-13T07:00:51.850565",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9f2e128c4f8e10c9b8c81a6b070fcac8d64b6276",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6753150",
+    "pregunta": "Will the price of Bitcoin be above $70,000 on November 13?",
+    "ts": "2026-11-13T07:00:54.945710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17273742dc70b68dbd173f79655044d605840e1e",
     "whale_signal": "COMPRAR NO"
   }
 ]
