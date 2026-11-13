@@ -1,18 +1,18 @@
 [
   {
-    "id": "1383905",
-    "pregunta": "Extended FDV above $150M one day after launch?",
-    "ts": "2026-11-13T05:29:59.891828",
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T05:40:37.415696",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4266d3aeedfb1a99f8a79406d97e2b230c725305",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4554109",
-    "pregunta": "Will the next governing coalition of Sweden include M + KD + L + C?",
-    "ts": "2026-11-13T05:30:01.878762",
+    "id": "6507384",
+    "pregunta": "Will Bitcoin dip to $65,000 in November?",
+    "ts": "2026-11-13T05:40:43.420321",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_wallet": "0x61ea887d0cae49c07fafe0cb25f2b2d8f6ba8d37",
     "whale_signal": "COMPRAR NO"
   }
 ]
