@@ -1,42 +1,66 @@
 [
   {
+    "id": "2695686",
+    "pregunta": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+    "ts": "2026-11-13T09:40:06.729182",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1359911d098bf507069e7e22370e6f6cae3f092e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-13T09:40:08.501018",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf7b7009844425e328f135856273c30659be3e490",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "6753150",
     "pregunta": "Will the price of Bitcoin be above $70,000 on November 13?",
-    "ts": "2026-11-13T09:28:15.907935",
+    "ts": "2026-11-13T09:40:15.645761",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3865962",
-    "pregunta": "Will Bitcoin dip to $65,000 by December 31, 2026?",
-    "ts": "2026-11-13T09:28:17.083005",
+    "id": "6172754",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
+    "ts": "2026-11-13T09:40:17.696424",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3013350",
-    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
-    "ts": "2026-11-13T09:28:18.945926",
+    "id": "6991214",
+    "pregunta": "Will Bitcoin reach $72,500 in November?",
+    "ts": "2026-11-13T09:40:18.719886",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6721565",
-    "pregunta": "Will Bitcoin reach $77,500 in November?",
-    "ts": "2026-11-13T09:28:19.985637",
+    "id": "6801794",
+    "pregunta": "Will the price of Bitcoin be above $70,000 on November 14?",
+    "ts": "2026-11-13T09:40:20.458538",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6685090",
-    "pregunta": "Will Falcons Win the BLAST Rivals Hong Kong 2026?",
-    "ts": "2026-11-13T09:28:21.978641",
+    "id": "6801704",
+    "pregunta": "Will the price of Bitcoin be between $68,000 and $70,000 on November 14?",
+    "ts": "2026-11-13T09:40:21.573986",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a796d1f7abb43779dc3410488447a70bc04eeda",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7006268",
+    "pregunta": "Will Bitcoin reach $71,000 on November 13?",
+    "ts": "2026-11-13T09:40:22.594962",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   }
 ]
