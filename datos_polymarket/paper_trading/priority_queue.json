@@ -1,50 +1,26 @@
 [
   {
-    "id": "2293862",
-    "pregunta": "Callum Turner announced as next James Bond?",
-    "ts": "2026-11-13T22:40:38.393915",
+    "id": "6507386",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-13T22:50:45.304927",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x146fda3540946f1da00c10b80eac9e9d955a9410",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6989178",
-    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
-    "ts": "2026-11-13T22:40:39.580521",
+    "id": "3581388",
+    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
+    "ts": "2026-11-13T22:50:48.072119",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x96f478afa59cd9ff38c99ced44359c82b2a1a69c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1796706",
-    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
-    "ts": "2026-11-13T22:40:40.638157",
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-13T22:50:49.114699",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6999655",
-    "pregunta": "Howard Lutnick out as Secretary of Commerce by November 30?",
-    "ts": "2026-11-13T22:40:41.676646",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110750",
-    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-13T22:40:43.730428",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "920403",
-    "pregunta": "Variational FDV above $1B one day after launch?",
-    "ts": "2026-11-13T22:40:44.767595",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_wallet": "0x96f478afa59cd9ff38c99ced44359c82b2a1a69c",
     "whale_signal": "COMPRAR NO"
   }
 ]
