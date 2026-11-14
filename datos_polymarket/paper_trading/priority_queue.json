@@ -1,34 +1,10 @@
 [
   {
-    "id": "7007708",
-    "pregunta": "Will the highest temperature in Busan be 20\u00b0C on November 15?",
-    "ts": "2026-11-14T02:59:27.037548",
+    "id": "2965189",
+    "pregunta": "Will Jensen Huang be the #1 searched person on Google this year?",
+    "ts": "2026-11-14T03:09:11.598334",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7007557",
-    "pregunta": "Will the highest temperature in Shanghai be 20\u00b0C on November 15?",
-    "ts": "2026-11-14T02:59:28.068282",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7007687",
-    "pregunta": "Will the highest temperature in Moscow be 4\u00b0C on November 15?",
-    "ts": "2026-11-14T02:59:29.252369",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7007535",
-    "pregunta": "Will the highest temperature in Tokyo be 16\u00b0C on November 15?",
-    "ts": "2026-11-14T02:59:30.438806",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_wallet": "0x9b3b01a13f37c35faffb59e9da1d59c67919c04f",
     "whale_signal": "COMPRAR NO"
   }
 ]
