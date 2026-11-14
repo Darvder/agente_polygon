@@ -1,10 +1,50 @@
 [
   {
-    "id": "7018707",
-    "pregunta": "Will Bitcoin reach $70,000 in November?",
-    "ts": "2026-11-13T22:31:14.235347",
+    "id": "2293862",
+    "pregunta": "Callum Turner announced as next James Bond?",
+    "ts": "2026-11-13T22:40:38.393915",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6989178",
+    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
+    "ts": "2026-11-13T22:40:39.580521",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-13T22:40:40.638157",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999655",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by November 30?",
+    "ts": "2026-11-13T22:40:41.676646",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2110750",
+    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-13T22:40:43.730428",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "920403",
+    "pregunta": "Variational FDV above $1B one day after launch?",
+    "ts": "2026-11-13T22:40:44.767595",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
     "whale_signal": "COMPRAR NO"
   }
 ]
