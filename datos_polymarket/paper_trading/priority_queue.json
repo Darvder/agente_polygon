@@ -1,34 +1,42 @@
 [
   {
-    "id": "7023300",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-    "ts": "2026-11-13T20:23:14.992926",
+    "id": "2293877",
+    "pregunta": "Robert Pattinson announced as next James Bond?",
+    "ts": "2026-11-13T20:30:13.676116",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7023301",
     "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
-    "ts": "2026-11-13T20:23:16.835767",
+    "ts": "2026-11-13T20:30:15.722955",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5999ebfa145490e0280dd246856a5b3605f7ae94",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7026544",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 6:00 AM ET?",
-    "ts": "2026-11-13T20:23:17.857303",
+    "id": "5420002",
+    "pregunta": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
+    "ts": "2026-11-13T20:30:16.742502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5999ebfa145490e0280dd246856a5b3605f7ae94",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7027503",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 10:30 PM ET?",
-    "ts": "2026-11-13T20:23:18.878768",
+    "id": "7026542",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 9:00 PM ET?",
+    "ts": "2026-11-13T20:30:21.621503",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5999ebfa145490e0280dd246856a5b3605f7ae94",
+    "whale_wallet": "0x853c37a959a5791b849e3f3225c7f5963746bd03",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023299",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
+    "ts": "2026-11-13T20:30:23.446710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
     "whale_signal": "COMPRAR NO"
   }
 ]
