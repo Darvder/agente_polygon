@@ -1,26 +1,34 @@
 [
   {
-    "id": "6507386",
-    "pregunta": "Will Bitcoin dip to $62,500 in November?",
-    "ts": "2026-11-13T22:50:45.304927",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-13T23:00:01.520639",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x146fda3540946f1da00c10b80eac9e9d955a9410",
+    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3581388",
-    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
-    "ts": "2026-11-13T22:50:48.072119",
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-13T23:00:02.722830",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x96f478afa59cd9ff38c99ced44359c82b2a1a69c",
+    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580994",
-    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
-    "ts": "2026-11-13T22:50:49.114699",
+    "id": "7006274",
+    "pregunta": "Will Bitcoin dip to $66,000 on November 13?",
+    "ts": "2026-11-13T23:00:06.333507",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x96f478afa59cd9ff38c99ced44359c82b2a1a69c",
+    "whale_wallet": "0x38e598961dd0456a7fb2e758bd433d3e59fb8a4a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891211",
+    "pregunta": "Will Bitcoin dip to $66,000 November 9-15?",
+    "ts": "2026-11-13T23:00:07.382837",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38e598961dd0456a7fb2e758bd433d3e59fb8a4a",
     "whale_signal": "COMPRAR NO"
   }
 ]
