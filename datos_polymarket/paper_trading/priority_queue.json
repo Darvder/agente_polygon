@@ -1,18 +1,10 @@
 [
   {
-    "id": "6994508",
-    "pregunta": "Will Jensen Huang publicly testify before Congress by December 31, 2026?",
-    "ts": "2026-11-14T18:00:12.692387",
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-14T18:11:34.360331",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x11f3c56d0583665247e5a494e8f7709c759ed859",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4397022",
-    "pregunta": "Will Gen.G win Worlds 2026?",
-    "ts": "2026-11-14T18:00:15.418176",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
     "whale_signal": "COMPRAR NO"
   }
 ]
