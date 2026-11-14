@@ -2,17 +2,17 @@
   {
     "id": "6507384",
     "pregunta": "Will Bitcoin dip to $65,000 in November?",
-    "ts": "2026-11-14T10:00:55.903128",
+    "ts": "2026-11-14T10:10:14.399533",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x027e587a1086809d1a00f22216bef6a808f1c97f",
+    "whale_wallet": "0x55e2436d747835c7e40b0c6cf92f632bf1215fc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7007631",
-    "pregunta": "Will the highest temperature in Chongqing be 16\u00b0C on November 15?",
-    "ts": "2026-11-14T10:00:58.254746",
+    "id": "6801787",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 14?",
+    "ts": "2026-11-14T10:10:16.503858",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5e40ba72c60c6fe4f970161818200bb5263cf89c",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   }
 ]
