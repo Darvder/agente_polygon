@@ -1,10 +1,18 @@
 [
   {
-    "id": "4397022",
-    "pregunta": "Will Gen.G win Worlds 2026?",
-    "ts": "2026-11-14T13:11:07.057510",
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-14T13:20:57.831313",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3728737",
+    "pregunta": "Will the Green Party (MP) be in the next Swedish government?",
+    "ts": "2026-11-14T13:20:58.961477",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
     "whale_signal": "COMPRAR NO"
   }
 ]
