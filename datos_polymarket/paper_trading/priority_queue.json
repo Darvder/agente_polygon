@@ -1,18 +1,34 @@
 [
   {
-    "id": "7030573",
-    "pregunta": "Will Bitcoin dip to $63,000 on November 14?",
-    "ts": "2026-11-14T17:38:54.112206",
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-14T17:48:42.776276",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38e598961dd0456a7fb2e758bd433d3e59fb8a4a",
+    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6909217",
-    "pregunta": "Will the price of Bitcoin be above $66,000 on November 16?",
-    "ts": "2026-11-14T17:38:57.284747",
+    "id": "4397033",
+    "pregunta": "Will Bilibili Gaming win Worlds 2026?",
+    "ts": "2026-11-14T17:48:44.494951",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf63a50dc0586cfff228de260e4b7bc91e11b48e",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4397022",
+    "pregunta": "Will Gen.G win Worlds 2026?",
+    "ts": "2026-11-14T17:48:45.554167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1059067",
+    "pregunta": "Will a team from LPL (China) win LoL Worlds 2026?",
+    "ts": "2026-11-14T17:48:46.611965",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076",
     "whale_signal": "COMPRAR NO"
   }
 ]
