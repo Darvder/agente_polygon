@@ -1,18 +1,26 @@
 [
   {
-    "id": "6685080",
-    "pregunta": "Will Spirit Win the BLAST Rivals Hong Kong 2026?",
-    "ts": "2026-11-14T05:02:52.735469",
+    "id": "7018707",
+    "pregunta": "Will Bitcoin reach $70,000 in November?",
+    "ts": "2026-11-14T05:09:31.375160",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2cf7ea94f3ad6bdb4668ce5409aa233703f3294a",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2299954",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
-    "ts": "2026-11-14T05:02:55.646894",
+    "id": "6991214",
+    "pregunta": "Will Bitcoin reach $72,500 in November?",
+    "ts": "2026-11-14T05:09:32.522698",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030537",
+    "pregunta": "Will Bitcoin reach $68,000 on November 14?",
+    "ts": "2026-11-14T05:09:33.584547",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
