@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6507384",
+    "pregunta": "Will Bitcoin dip to $65,000 in November?",
+    "ts": "2026-11-14T10:00:55.903128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x027e587a1086809d1a00f22216bef6a808f1c97f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7007631",
+    "pregunta": "Will the highest temperature in Chongqing be 16\u00b0C on November 15?",
+    "ts": "2026-11-14T10:00:58.254746",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5e40ba72c60c6fe4f970161818200bb5263cf89c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
