@@ -1,26 +1,18 @@
 [
   {
-    "id": "2299956",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
-    "ts": "2026-11-14T13:50:28.166616",
+    "id": "6507423",
+    "pregunta": "Will Ethereum dip to $1,800 in November?",
+    "ts": "2026-11-14T14:04:17.513315",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x277e6718cdf00f4f887d17589895ae031a337d32",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3013350",
-    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
-    "ts": "2026-11-14T13:50:29.205970",
+    "id": "6891215",
+    "pregunta": "Will Bitcoin dip to $62,000 November 9-15?",
+    "ts": "2026-11-14T14:04:18.537736",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x277e6718cdf00f4f887d17589895ae031a337d32",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4397243",
-    "pregunta": "Will Chovy win Worlds 2026 Finals MVP?",
-    "ts": "2026-11-14T13:50:31.682067",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5a6ba1e5cfac165281fec736c4d8f10ce6547375",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
