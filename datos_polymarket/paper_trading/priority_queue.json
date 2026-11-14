@@ -1,18 +1,10 @@
 [
   {
-    "id": "6801787",
-    "pregunta": "Will the price of Bitcoin be above $66,000 on November 14?",
-    "ts": "2026-11-14T10:20:17.407644",
+    "id": "6507384",
+    "pregunta": "Will Bitcoin dip to $65,000 in November?",
+    "ts": "2026-11-14T10:31:14.552565",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6801697",
-    "pregunta": "Will the price of Bitcoin be between $66,000 and $68,000 on November 14?",
-    "ts": "2026-11-14T10:20:18.430559",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   }
 ]
