@@ -1,82 +1,18 @@
 [
   {
-    "id": "7009976",
-    "pregunta": "Will the highest temperature in Austin be 55\u00b0F or below on November 15?",
-    "ts": "2026-11-14T18:27:51.655099",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-14T18:42:06.588931",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7007467",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 15\u00b0C on November 15?",
-    "ts": "2026-11-14T18:27:52.708191",
+    "id": "6496388",
+    "pregunta": "Fight to Go the Distance?",
+    "ts": "2026-11-14T18:42:14.352156",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7033455",
-    "pregunta": "Will the highest temperature in Chicago be between 50-51\u00b0F on November 16?",
-    "ts": "2026-11-14T18:27:55.019575",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7033434",
-    "pregunta": "Will the highest temperature in Atlanta be between 58-59\u00b0F on November 16?",
-    "ts": "2026-11-14T18:27:56.170225",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7009972",
-    "pregunta": "Will the highest temperature in Chicago be between 52-53\u00b0F on November 15?",
-    "ts": "2026-11-14T18:27:57.329261",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7009970",
-    "pregunta": "Will the highest temperature in Chicago be between 48-49\u00b0F on November 15?",
-    "ts": "2026-11-14T18:27:58.384439",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7009971",
-    "pregunta": "Will the highest temperature in Chicago be between 50-51\u00b0F on November 15?",
-    "ts": "2026-11-14T18:27:59.537208",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7033466",
-    "pregunta": "Will the highest temperature in Austin be between 56-57\u00b0F on November 16?",
-    "ts": "2026-11-14T18:28:00.697979",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7033457",
-    "pregunta": "Will the highest temperature in Chicago be between 54-55\u00b0F on November 16?",
-    "ts": "2026-11-14T18:28:01.856788",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7030957",
-    "pregunta": "Will the highest temperature in Milan be 13\u00b0C on November 16?",
-    "ts": "2026-11-14T18:28:02.903425",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_wallet": "0x91886d8ef8b47dd002410127a2ceb5f1e1d4623d",
     "whale_signal": "COMPRAR NO"
   }
 ]
