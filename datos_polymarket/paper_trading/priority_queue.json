@@ -1,10 +1,18 @@
 [
   {
-    "id": "6507384",
-    "pregunta": "Will Bitcoin dip to $65,000 in November?",
-    "ts": "2026-11-14T10:31:14.552565",
+    "id": "4397033",
+    "pregunta": "Will Bilibili Gaming win Worlds 2026?",
+    "ts": "2026-11-14T10:40:37.783604",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "920403",
+    "pregunta": "Variational FDV above $1B one day after launch?",
+    "ts": "2026-11-14T10:40:39.565179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3b5150963287a9cf79e852ad440985fb2f929144",
     "whale_signal": "COMPRAR NO"
   }
 ]
