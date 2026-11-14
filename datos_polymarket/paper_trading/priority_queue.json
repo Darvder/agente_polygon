@@ -1,18 +1,26 @@
 [
   {
-    "id": "6507388",
-    "pregunta": "Will Bitcoin dip to $60,000 in November?",
-    "ts": "2026-11-14T12:50:11.276457",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-14T13:02:31.048801",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xb1354b3eaf0a5e810383bd9d00b64eb99350f5b9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507423",
-    "pregunta": "Will Ethereum dip to $1,800 in November?",
-    "ts": "2026-11-14T12:50:16.435402",
+    "id": "7012057",
+    "pregunta": "Will the highest temperature in Toronto be 8\u00b0C on November 15?",
+    "ts": "2026-11-14T13:02:33.064433",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7007456",
+    "pregunta": "Will the highest temperature in Paris be 12\u00b0C on November 15?",
+    "ts": "2026-11-14T13:02:34.255959",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
     "whale_signal": "COMPRAR NO"
   }
 ]
