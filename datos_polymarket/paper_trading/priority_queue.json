@@ -1,42 +1,42 @@
 [
   {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-13T19:02:03.506588",
+    "id": "7023300",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
+    "ts": "2026-11-13T19:11:49.602727",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
+    "whale_wallet": "0xecb14ac6e9ca447ce2f2912e6217b43d7b655da3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7026542",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 9:00 PM ET?",
+    "ts": "2026-11-13T19:11:51.755998",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xecb14ac6e9ca447ce2f2912e6217b43d7b655da3",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7023301",
     "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
-    "ts": "2026-11-13T19:02:08.723791",
+    "ts": "2026-11-13T19:11:52.800296",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xecb14ac6e9ca447ce2f2912e6217b43d7b655da3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1796706",
-    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
-    "ts": "2026-11-13T19:02:09.818862",
+    "id": "6507383",
+    "pregunta": "Will Bitcoin dip to $67,500 in November?",
+    "ts": "2026-11-13T19:11:55.494412",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "666665",
-    "pregunta": "Will Howard Lutnick leave the Trump administration before 2027?",
-    "ts": "2026-11-13T19:02:10.917222",
+    "id": "7019140",
+    "pregunta": "Will Bitcoin reach $70,000 November 9-15?",
+    "ts": "2026-11-13T19:11:56.670422",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6999655",
-    "pregunta": "Howard Lutnick out as Secretary of Commerce by November 30?",
-    "ts": "2026-11-13T19:02:12.012799",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
