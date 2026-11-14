@@ -1,18 +1,10 @@
 [
   {
-    "id": "6873119",
-    "pregunta": "Will the price of Ethereum be above $1,800 on November 15?",
-    "ts": "2026-11-14T11:40:54.322044",
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-14T11:47:47.903249",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5663667",
-    "pregunta": "Will Netanyahu announce his retirement from politics by March 31, 2027?",
-    "ts": "2026-11-14T11:41:10.673340",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0745ade57d00df793ac60225d773126896c84a1b",
+    "whale_wallet": "0x277e6718cdf00f4f887d17589895ae031a337d32",
     "whale_signal": "COMPRAR NO"
   }
 ]
