@@ -1,26 +1,10 @@
 [
   {
-    "id": "701552",
-    "pregunta": "Will Ethereum dip to $1,500 by December 31, 2026?",
-    "ts": "2026-11-14T11:59:52.927943",
+    "id": "6507386",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-14T12:11:01.244943",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "701604",
-    "pregunta": "Will XRP dip to $0.80 by December 31, 2026?",
-    "ts": "2026-11-14T11:59:54.801055",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3013350",
-    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
-    "ts": "2026-11-14T11:59:57.956379",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x89a730b74c204625cf19d3d64ff8e8c412b89918",
+    "whale_wallet": "0x8b2df62a3a0d675053cfc671f72ac059851f67b3",
     "whale_signal": "COMPRAR NO"
   }
 ]
