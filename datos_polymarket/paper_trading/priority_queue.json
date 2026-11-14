@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-13T23:19:19.648573",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-13T23:19:21.715349",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6990958",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 19?",
+    "ts": "2026-11-13T23:19:23.475508",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388537259dc9e693c1c9b96fdf07a63f6b7aca77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018480",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 20?",
+    "ts": "2026-11-13T23:19:24.504353",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388537259dc9e693c1c9b96fdf07a63f6b7aca77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023983",
+    "pregunta": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
+    "ts": "2026-11-13T23:19:27.133223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x955c9661bf6e010beff0ba896a49f715a8c8990f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023981",
+    "pregunta": "Will it be confirmed that maintenance, an upgrade or another planned change to an FAA or contractor system caused the FAA's nationwide ground stop on November 13?",
+    "ts": "2026-11-13T23:19:28.259990",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x955c9661bf6e010beff0ba896a49f715a8c8990f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
