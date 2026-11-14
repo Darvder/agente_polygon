@@ -1,10 +1,34 @@
 [
   {
-    "id": "6507386",
-    "pregunta": "Will Bitcoin dip to $62,500 in November?",
-    "ts": "2026-11-14T08:58:47.182548",
+    "id": "7030609",
+    "pregunta": "Will Ethereum dip to $1,850 on November 14?",
+    "ts": "2026-11-14T09:07:15.738844",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1570cd986a87e3c9d800c0f00b6da0bcf608e4ff",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030537",
+    "pregunta": "Will Bitcoin reach $68,000 on November 14?",
+    "ts": "2026-11-14T09:07:16.893484",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030554",
+    "pregunta": "Will Bitcoin dip to $66,000 on November 14?",
+    "ts": "2026-11-14T09:07:17.931589",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030610",
+    "pregunta": "Will Ethereum dip to $1,800 on November 14?",
+    "ts": "2026-11-14T09:07:18.992301",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
