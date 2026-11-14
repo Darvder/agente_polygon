@@ -1,18 +1,26 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-13T23:51:54.277489",
+    "id": "7018480",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 20?",
+    "ts": "2026-11-13T23:58:59.659080",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x39d0f1dca6fb7e5514858c1a337724a426764fe8",
+    "whale_wallet": "0x7875b62d93522284742de2bd49c2729ac477e0ef",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-13T23:51:55.296104",
+    "id": "7018707",
+    "pregunta": "Will Bitcoin reach $70,000 in November?",
+    "ts": "2026-11-13T23:59:02.032894",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x39d0f1dca6fb7e5514858c1a337724a426764fe8",
+    "whale_wallet": "0x7875b62d93522284742de2bd49c2729ac477e0ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507388",
+    "pregunta": "Will Bitcoin dip to $60,000 in November?",
+    "ts": "2026-11-13T23:59:03.084172",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7875b62d93522284742de2bd49c2729ac477e0ef",
     "whale_signal": "COMPRAR NO"
   }
 ]
