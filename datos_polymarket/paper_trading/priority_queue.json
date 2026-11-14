@@ -1,74 +1,26 @@
 [
   {
-    "id": "6507440",
-    "pregunta": "Will Solana dip to $70 in November?",
-    "ts": "2026-11-14T11:20:40.537667",
+    "id": "2293877",
+    "pregunta": "Robert Pattinson announced as next James Bond?",
+    "ts": "2026-11-14T11:32:42.701597",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9b83a1cd23f894d10c35edf0c511f1f7e02ed97",
+    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6891215",
-    "pregunta": "Will Bitcoin dip to $62,000 November 9-15?",
-    "ts": "2026-11-14T11:20:42.422264",
+    "id": "6919851",
+    "pregunta": "Will Rene Haas be the next CEO of NVIDIA?",
+    "ts": "2026-11-14T11:32:44.795065",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6801787",
-    "pregunta": "Will the price of Bitcoin be above $66,000 on November 14?",
-    "ts": "2026-11-14T11:20:43.468445",
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-14T11:32:54.865953",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6801697",
-    "pregunta": "Will the price of Bitcoin be between $66,000 and $68,000 on November 14?",
-    "ts": "2026-11-14T11:20:44.518488",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7030573",
-    "pregunta": "Will Bitcoin dip to $63,000 on November 14?",
-    "ts": "2026-11-14T11:20:47.762806",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1399397",
-    "pregunta": "Will there be between 120m and 125m votes cast in the 2026 U.S. House of Representatives midterm elections?",
-    "ts": "2026-11-14T11:20:49.661367",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3249722",
-    "pregunta": "Will Jeremiah Smith win the 2026 Heisman Trophy?",
-    "ts": "2026-11-14T11:20:50.815190",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5336164",
-    "pregunta": "Will Luiz In\u00e1cio Lula da Silva win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the US Senate?",
-    "ts": "2026-11-14T11:20:51.854391",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3360287",
-    "pregunta": "Will a player from the Big Ten win the 2026 Heisman Trophy?",
-    "ts": "2026-11-14T11:20:52.916019",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_wallet": "0x1b0eb43561ffbade73a84bfa607f5269ebe03dd6",
     "whale_signal": "COMPRAR NO"
   }
 ]
