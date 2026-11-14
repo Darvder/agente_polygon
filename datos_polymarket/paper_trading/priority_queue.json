@@ -1,18 +1,42 @@
 [
   {
-    "id": "4397033",
-    "pregunta": "Will Bilibili Gaming win Worlds 2026?",
-    "ts": "2026-11-14T10:40:37.783604",
+    "id": "2818594",
+    "pregunta": "Will Solana dip to $70 by December 31, 2026?",
+    "ts": "2026-11-14T10:50:00.308787",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "920403",
-    "pregunta": "Variational FDV above $1B one day after launch?",
-    "ts": "2026-11-14T10:40:39.565179",
+    "id": "6507386",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-14T10:50:05.614240",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3b5150963287a9cf79e852ad440985fb2f929144",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507423",
+    "pregunta": "Will Ethereum dip to $1,800 in November?",
+    "ts": "2026-11-14T10:50:06.642794",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891282",
+    "pregunta": "Will Ethereum dip to $1,800 November 9-15?",
+    "ts": "2026-11-14T10:50:07.832739",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-14T10:50:08.861421",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
