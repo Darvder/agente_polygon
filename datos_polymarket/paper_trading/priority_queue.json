@@ -1,26 +1,10 @@
 [
   {
-    "id": "7023302",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",
-    "ts": "2026-11-13T21:41:08.039196",
+    "id": "7006304",
+    "pregunta": "Will Solana dip to $75 on November 13?",
+    "ts": "2026-11-13T21:50:38.111016",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8597ca63e722d6216bfc3057591fdc67ec49daee",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6989178",
-    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
-    "ts": "2026-11-13T21:41:09.207993",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8597ca63e722d6216bfc3057591fdc67ec49daee",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507440",
-    "pregunta": "Will Solana dip to $70 in November?",
-    "ts": "2026-11-13T21:41:11.966630",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+    "whale_wallet": "0x8eeb7381fbdf0ca19e84a3dc138e8d16cb1fa4d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
