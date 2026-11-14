@@ -1,18 +1,58 @@
 [
   {
-    "id": "561979",
-    "pregunta": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
-    "ts": "2026-11-14T03:50:05.670271",
+    "id": "7018717",
+    "pregunta": "Will Ethereum reach $2,000 in November?",
+    "ts": "2026-11-14T03:58:11.618884",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3c169155e6e5b8fdd3bd7a4782873bf57f23e71a",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4595915",
-    "pregunta": "Will Trump be impeached by December 31, 2027?",
-    "ts": "2026-11-14T03:50:07.538231",
+    "id": "6507423",
+    "pregunta": "Will Ethereum dip to $1,800 in November?",
+    "ts": "2026-11-14T03:58:12.705062",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9b85bb85b1255918e956046dbd127c431df31259",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6991224",
+    "pregunta": "Will Ethereum reach $2,100 in November?",
+    "ts": "2026-11-14T03:58:15.003970",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6909887",
+    "pregunta": "Will Ethereum reach $2,200 in November?",
+    "ts": "2026-11-14T03:58:16.057710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3387867",
+    "pregunta": "Will Ethereum dip to $1,750 by December 31, 2026?",
+    "ts": "2026-11-14T03:58:18.187935",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299956",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+    "ts": "2026-11-14T03:58:19.268908",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4838928",
+    "pregunta": "AI bubble burst by June 30, 2027?",
+    "ts": "2026-11-14T03:58:20.353741",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
     "whale_signal": "COMPRAR NO"
   }
 ]
