@@ -1,26 +1,26 @@
 [
   {
-    "id": "6891211",
-    "pregunta": "Will Bitcoin dip to $66,000 November 9-15?",
-    "ts": "2026-11-13T22:08:40.191968",
+    "id": "1393325",
+    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
+    "ts": "2026-11-13T22:20:58.837313",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x14767de7346a328d71f8fd4aed260d1cd67dec90",
+    "whale_wallet": "0xf7bd9f758e100426a134ebf6d7f0b2eec90f2a37",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7023981",
-    "pregunta": "Will it be confirmed that maintenance, an upgrade or another planned change to an FAA or contractor system caused the FAA's nationwide ground stop on November 13?",
-    "ts": "2026-11-13T22:08:42.228420",
+    "id": "1393324",
+    "pregunta": "Predict.fun FDV above $1B one day after launch?",
+    "ts": "2026-11-13T22:20:59.873080",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0dcc05376176f9f9e5160b9aae6f51e2ca93944",
+    "whale_wallet": "0xf7bd9f758e100426a134ebf6d7f0b2eec90f2a37",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7023983",
-    "pregunta": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
-    "ts": "2026-11-13T22:08:43.268093",
+    "id": "6801790",
+    "pregunta": "Will the price of Bitcoin be above $68,000 on November 14?",
+    "ts": "2026-11-13T22:21:05.631957",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0dcc05376176f9f9e5160b9aae6f51e2ca93944",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
