@@ -1,10 +1,18 @@
 [
   {
-    "id": "7029685",
-    "pregunta": "China ballistic missile launch by December 31?",
-    "ts": "2026-11-14T04:48:14.502181",
+    "id": "6685080",
+    "pregunta": "Will Spirit Win the BLAST Rivals Hong Kong 2026?",
+    "ts": "2026-11-14T05:02:52.735469",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
+    "whale_wallet": "0x2cf7ea94f3ad6bdb4668ce5409aa233703f3294a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299954",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
+    "ts": "2026-11-14T05:02:55.646894",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5dadc4c1e319ea265305203c730cf420cbf306fe",
     "whale_signal": "COMPRAR NO"
   }
 ]
