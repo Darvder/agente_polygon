@@ -1,26 +1,10 @@
 [
   {
-    "id": "6873184",
-    "pregunta": "Will the price of Bitcoin be above $66,000 on November 15?",
-    "ts": "2026-11-14T15:10:21.954125",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-14T15:19:57.979832",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6909217",
-    "pregunta": "Will the price of Bitcoin be above $66,000 on November 16?",
-    "ts": "2026-11-14T15:10:22.973170",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7043499",
-    "pregunta": "Will Bitcoin reach $67,500 in November?",
-    "ts": "2026-11-14T15:10:23.992281",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_wallet": "0x449c7483aade15b5c4772fab7becc60a1c20879e",
     "whale_signal": "COMPRAR NO"
   }
 ]
