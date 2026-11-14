@@ -1,26 +1,10 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-14T13:02:31.048801",
+    "id": "4397022",
+    "pregunta": "Will Gen.G win Worlds 2026?",
+    "ts": "2026-11-14T13:11:07.057510",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1354b3eaf0a5e810383bd9d00b64eb99350f5b9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7012057",
-    "pregunta": "Will the highest temperature in Toronto be 8\u00b0C on November 15?",
-    "ts": "2026-11-14T13:02:33.064433",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7007456",
-    "pregunta": "Will the highest temperature in Paris be 12\u00b0C on November 15?",
-    "ts": "2026-11-14T13:02:34.255959",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
     "whale_signal": "COMPRAR NO"
   }
 ]
