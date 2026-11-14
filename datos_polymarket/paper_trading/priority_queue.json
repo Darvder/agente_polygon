@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-14T02:30:22.210156",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e30c3a56d89edac738d788dd218a9e64fb91e50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-14T02:30:23.276372",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e30c3a56d89edac738d788dd218a9e64fb91e50",
+    "whale_signal": "COMPRAR NO"
+  }
+]
