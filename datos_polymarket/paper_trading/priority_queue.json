@@ -1,26 +1,10 @@
 [
   {
-    "id": "7018707",
-    "pregunta": "Will Bitcoin reach $70,000 in November?",
-    "ts": "2026-11-14T05:09:31.375160",
+    "id": "1345232",
+    "pregunta": "Will OpenAI\u2019s market cap be between $1T and $1.25T at market close on IPO day by December 31, 2027?",
+    "ts": "2026-11-14T05:18:49.658572",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6991214",
-    "pregunta": "Will Bitcoin reach $72,500 in November?",
-    "ts": "2026-11-14T05:09:32.522698",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7030537",
-    "pregunta": "Will Bitcoin reach $68,000 on November 14?",
-    "ts": "2026-11-14T05:09:33.584547",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0xb0fcea24160139269e0af107811e33d99d6ece0b",
     "whale_signal": "COMPRAR NO"
   }
 ]
