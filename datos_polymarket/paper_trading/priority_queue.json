@@ -1,18 +1,34 @@
 [
   {
-    "id": "4397033",
-    "pregunta": "Will Bilibili Gaming win Worlds 2026?",
-    "ts": "2026-11-14T14:10:55.335044",
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-14T14:19:57.857229",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5d3431449c0c26d0cc423cefbafb04cb7ae07c8c",
+    "whale_wallet": "0xd44165d736b14fb61691aebb13dc4e81ccbbbc79",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4393420",
-    "pregunta": "Will the Bank of Canada make no change to the target for the overnight rate at the December interest rate announcement?",
-    "ts": "2026-11-14T14:11:01.759635",
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-14T14:19:59.679638",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc8430106323f54dcd1f93f1a1f1597c619cb2526",
+    "whale_wallet": "0xd325196b2aefd3ac46c6e9790daa8bb8250c8c10",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-14T14:20:01.544849",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd9f3d41d166ee393e78e19f93be2a6004257f50",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-14T14:20:03.739510",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd9f3d41d166ee393e78e19f93be2a6004257f50",
     "whale_signal": "COMPRAR NO"
   }
 ]
