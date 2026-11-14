@@ -1,26 +1,10 @@
 [
   {
-    "id": "1393325",
-    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
-    "ts": "2026-11-13T22:20:58.837313",
+    "id": "7018707",
+    "pregunta": "Will Bitcoin reach $70,000 in November?",
+    "ts": "2026-11-13T22:31:14.235347",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf7bd9f758e100426a134ebf6d7f0b2eec90f2a37",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1393324",
-    "pregunta": "Predict.fun FDV above $1B one day after launch?",
-    "ts": "2026-11-13T22:20:59.873080",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf7bd9f758e100426a134ebf6d7f0b2eec90f2a37",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6801790",
-    "pregunta": "Will the price of Bitcoin be above $68,000 on November 14?",
-    "ts": "2026-11-13T22:21:05.631957",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
