@@ -1,18 +1,34 @@
 [
   {
-    "id": "6991122",
-    "pregunta": "Will Elon Musk post 90-114 tweets from November 14 to November 16, 2026?",
-    "ts": "2026-11-14T02:41:54.543855",
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-14T02:50:38.754145",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
+    "whale_wallet": "0x9e05b2d8bfa136c4f17beec912a8546c2e35e30e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6801790",
-    "pregunta": "Will the price of Bitcoin be above $68,000 on November 14?",
-    "ts": "2026-11-14T02:41:56.932600",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-14T02:50:39.773556",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x71a70f24538d885d1b45f9cea158a2cdf2e56fcf",
+    "whale_wallet": "0x9e05b2d8bfa136c4f17beec912a8546c2e35e30e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-14T02:50:42.468478",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xba685df138d6951b92821b3a9d955e07b05aab07",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891211",
+    "pregunta": "Will Bitcoin dip to $66,000 November 9-15?",
+    "ts": "2026-11-14T02:50:44.487499",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
