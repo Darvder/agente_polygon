@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6891211",
+    "pregunta": "Will Bitcoin dip to $66,000 November 9-15?",
+    "ts": "2026-11-13T22:08:40.191968",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x14767de7346a328d71f8fd4aed260d1cd67dec90",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023981",
+    "pregunta": "Will it be confirmed that maintenance, an upgrade or another planned change to an FAA or contractor system caused the FAA's nationwide ground stop on November 13?",
+    "ts": "2026-11-13T22:08:42.228420",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe0dcc05376176f9f9e5160b9aae6f51e2ca93944",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023983",
+    "pregunta": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
+    "ts": "2026-11-13T22:08:43.268093",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe0dcc05376176f9f9e5160b9aae6f51e2ca93944",
+    "whale_signal": "COMPRAR NO"
+  }
+]
