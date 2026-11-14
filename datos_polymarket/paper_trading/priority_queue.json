@@ -1,10 +1,66 @@
 [
   {
-    "id": "6873186",
-    "pregunta": "Will the price of Bitcoin be above $68,000 on November 15?",
-    "ts": "2026-11-14T06:41:26.979264",
+    "id": "7029723",
+    "pregunta": "Will Markwayne Mullin leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:13.684372",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaf9c5be099517fbc8001c079aa9c53adec989d9f",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029711",
+    "pregunta": "Will Marco Rubio leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:14.720499",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029709",
+    "pregunta": "Will Robert F. Kennedy Jr. leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:15.753794",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029712",
+    "pregunta": "Will Scott Bessent leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:16.782326",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029713",
+    "pregunta": "Will Lee Zeldin leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:17.810130",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029715",
+    "pregunta": "Will Kash Patel leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:18.840943",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029721",
+    "pregunta": "Will John Ratcliffe leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:19.870138",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029716",
+    "pregunta": "Will Stephen Miller leave the Trump administration before 2028?",
+    "ts": "2026-11-14T06:50:20.998897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
     "whale_signal": "COMPRAR NO"
   }
 ]
