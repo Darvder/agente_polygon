@@ -1,34 +1,10 @@
 [
   {
-    "id": "7030537",
-    "pregunta": "Will Bitcoin reach $68,000 on November 14?",
-    "ts": "2026-11-14T08:02:47.725313",
+    "id": "6873184",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 15?",
+    "ts": "2026-11-14T08:12:48.969653",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3865962",
-    "pregunta": "Will Bitcoin dip to $65,000 by December 31, 2026?",
-    "ts": "2026-11-14T08:03:01.793866",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38e598961dd0456a7fb2e758bd433d3e59fb8a4a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6424797",
-    "pregunta": "US x Yemen ceasefire continues through December 31?",
-    "ts": "2026-11-14T08:03:07.763066",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6977205",
-    "pregunta": "New NVIDIA CEO named by December 31, 2026?",
-    "ts": "2026-11-14T08:03:11.027168",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_wallet": "0xcd9f0ccde365b63802c9a8c7fd7107c50613c1a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
