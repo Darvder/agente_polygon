@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7030554",
+    "pregunta": "Will Bitcoin dip to $66,000 on November 14?",
+    "ts": "2026-11-14T00:50:28.884679",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd5a643204bbf5bc36438565ea52fde8d9b4c6991",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5238401",
+    "pregunta": "Will there be 2 US aircraft carriers in CENTCOM on November 30, 2026?",
+    "ts": "2026-11-14T00:50:30.825105",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
