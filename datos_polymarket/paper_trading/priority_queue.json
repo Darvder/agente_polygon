@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6891213",
+    "pregunta": "Will Bitcoin dip to $64,000 November 9-15?",
+    "ts": "2026-11-14T01:50:54.453270",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6947944",
+    "pregunta": "Russia x Ukraine energy ceasefire agreement by December 31, 2026?",
+    "ts": "2026-11-14T01:50:59.971128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb943c91557ece0d6a62044d00ec9664aaf079bbe",
+    "whale_signal": "COMPRAR NO"
+  }
+]
