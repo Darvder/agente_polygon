@@ -1,58 +1,18 @@
 [
   {
-    "id": "7018707",
-    "pregunta": "Will Bitcoin reach $70,000 in November?",
-    "ts": "2026-11-14T03:41:26.689962",
+    "id": "561979",
+    "pregunta": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
+    "ts": "2026-11-14T03:50:05.670271",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_wallet": "0x3c169155e6e5b8fdd3bd7a4782873bf57f23e71a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507384",
-    "pregunta": "Will Bitcoin dip to $65,000 in November?",
-    "ts": "2026-11-14T03:41:28.757895",
+    "id": "4595915",
+    "pregunta": "Will Trump be impeached by December 31, 2027?",
+    "ts": "2026-11-14T03:50:07.538231",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6991214",
-    "pregunta": "Will Bitcoin reach $72,500 in November?",
-    "ts": "2026-11-14T03:41:29.958123",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507386",
-    "pregunta": "Will Bitcoin dip to $62,500 in November?",
-    "ts": "2026-11-14T03:41:32.026432",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6940083",
-    "pregunta": "Will Bitcoin reach $75,000 in November?",
-    "ts": "2026-11-14T03:41:34.094766",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3865962",
-    "pregunta": "Will Bitcoin dip to $65,000 by December 31, 2026?",
-    "ts": "2026-11-14T03:41:37.188612",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3013350",
-    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
-    "ts": "2026-11-14T03:41:38.233566",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_wallet": "0x9b85bb85b1255918e956046dbd127c431df31259",
     "whale_signal": "COMPRAR NO"
   }
 ]
