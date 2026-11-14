@@ -1,10 +1,26 @@
 [
   {
-    "id": "7007535",
-    "pregunta": "Will the highest temperature in Tokyo be 16\u00b0C on November 15?",
-    "ts": "2026-11-14T14:59:41.229530",
+    "id": "6873184",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 15?",
+    "ts": "2026-11-14T15:10:21.954125",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x73534402899084573c0f0ddc003674eba01cb6c5",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6909217",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 16?",
+    "ts": "2026-11-14T15:10:22.973170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-14T15:10:23.992281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
     "whale_signal": "COMPRAR NO"
   }
 ]
