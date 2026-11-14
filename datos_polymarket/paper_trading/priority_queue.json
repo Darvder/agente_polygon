@@ -1,50 +1,34 @@
 [
   {
-    "id": "7023301",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
-    "ts": "2026-11-13T20:11:20.834197",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7026542",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 9:00 PM ET?",
-    "ts": "2026-11-13T20:11:22.026574",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "7023300",
     "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-    "ts": "2026-11-13T20:11:23.081665",
+    "ts": "2026-11-13T20:23:14.992926",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
+    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7023301",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
+    "ts": "2026-11-13T20:23:16.835767",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5999ebfa145490e0280dd246856a5b3605f7ae94",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7026544",
+    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 6:00 AM ET?",
+    "ts": "2026-11-13T20:23:17.857303",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5999ebfa145490e0280dd246856a5b3605f7ae94",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7027503",
     "pregunta": "Will the FAA's nationwide ground stop be lifted by November 13, 10:30 PM ET?",
-    "ts": "2026-11-13T20:11:24.282928",
+    "ts": "2026-11-13T20:23:18.878768",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7023302",
-    "pregunta": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",
-    "ts": "2026-11-13T20:11:25.481047",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2965189",
-    "pregunta": "Will Jensen Huang be the #1 searched person on Google this year?",
-    "ts": "2026-11-13T20:11:27.533884",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf85fa31a58fcce6c00b5af806a598b1600329800",
+    "whale_wallet": "0x5999ebfa145490e0280dd246856a5b3605f7ae94",
     "whale_signal": "COMPRAR NO"
   }
 ]
