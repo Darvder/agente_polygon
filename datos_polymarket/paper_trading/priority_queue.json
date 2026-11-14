@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-14T07:48:54.340889",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7818687f1c2cda416877ab68d18d2c9c25f9d185",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363844",
+    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
+    "ts": "2026-11-14T07:48:56.293306",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9dfb2df4d4e8433b6e8fd592d4a9a9366fcae887",
+    "whale_signal": "COMPRAR NO"
+  }
+]
