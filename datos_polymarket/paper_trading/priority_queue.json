@@ -1,8 +1,32 @@
 [
   {
-    "id": "3728737",
-    "pregunta": "Will the Green Party (MP) be in the next Swedish government?",
-    "ts": "2026-11-14T11:01:13.486120",
+    "id": "2467362",
+    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
+    "ts": "2026-11-14T11:07:26.336101",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xac44a02b69c95f555ee9c0ab1df1056a5e01f676",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5166847",
+    "pregunta": "Will the Ornn H200 Index be at least $6.50 on November 30, 2026?",
+    "ts": "2026-11-14T11:07:29.530063",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc84058541b1ef3586be91fd56860c1de283296",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6656724",
+    "pregunta": "Will the Ornn H200 Index be at least $6.50 on December 31, 2026?",
+    "ts": "2026-11-14T11:07:30.592993",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc84058541b1ef3586be91fd56860c1de283296",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-14T11:07:33.471690",
     "origen": "whale_copytrader",
     "whale_wallet": "0x0fafcd98288de61a3350b24b8a1ecc1284bdd0d9",
     "whale_signal": "COMPRAR NO"
@@ -10,7 +34,7 @@
   {
     "id": "3728731",
     "pregunta": "Will the Swedish Social Democratic Party (S) be in the next Swedish government?",
-    "ts": "2026-11-14T11:01:14.674660",
+    "ts": "2026-11-14T11:07:34.623364",
     "origen": "whale_copytrader",
     "whale_wallet": "0x0fafcd98288de61a3350b24b8a1ecc1284bdd0d9",
     "whale_signal": "COMPRAR NO"
