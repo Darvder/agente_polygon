@@ -1,10 +1,26 @@
 [
   {
-    "id": "5420002",
-    "pregunta": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
-    "ts": "2026-11-14T09:23:36.676320",
+    "id": "6891213",
+    "pregunta": "Will Bitcoin dip to $64,000 November 9-15?",
+    "ts": "2026-11-14T09:30:45.988348",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_wallet": "0x14767de7346a328d71f8fd4aed260d1cd67dec90",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507384",
+    "pregunta": "Will Bitcoin dip to $65,000 in November?",
+    "ts": "2026-11-14T09:30:47.918697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507423",
+    "pregunta": "Will Ethereum dip to $1,800 in November?",
+    "ts": "2026-11-14T09:30:49.029451",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
     "whale_signal": "COMPRAR NO"
   }
 ]
