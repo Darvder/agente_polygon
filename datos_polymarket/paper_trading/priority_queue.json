@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5426238",
+    "pregunta": "Will Crude Oil reach a new all-time high by March 31, 2027?",
+    "ts": "2026-11-14T20:10:37.192252",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0b9168da5620dfab028b53c753a3be88d585ae77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891218",
+    "pregunta": "Will Bitcoin dip to $60,000 November 9-15?",
+    "ts": "2026-11-14T20:10:39.976547",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38e598961dd0456a7fb2e758bd433d3e59fb8a4a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891215",
+    "pregunta": "Will Bitcoin dip to $62,000 November 9-15?",
+    "ts": "2026-11-14T20:10:41.000524",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38e598961dd0456a7fb2e758bd433d3e59fb8a4a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507388",
+    "pregunta": "Will Bitcoin dip to $60,000 in November?",
+    "ts": "2026-11-14T20:10:42.731429",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x71e206538bc8a784541356f63f63d2e82ca831c4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
