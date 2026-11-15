@@ -1,18 +1,18 @@
 [
   {
-    "id": "7057684",
-    "pregunta": "Will Bitcoin reach $67,000 on November 15?",
-    "ts": "2026-11-15T01:18:25.724231",
+    "id": "6891215",
+    "pregunta": "Will Bitcoin dip to $62,000 November 9-15?",
+    "ts": "2026-11-15T01:33:31.391784",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7057691",
-    "pregunta": "Will Bitcoin dip to $61,000 on November 15?",
-    "ts": "2026-11-15T01:18:26.764552",
+    "id": "3357829",
+    "pregunta": "Will Imelda Castro Castro win the 2027 Sinaloa Governor Election?",
+    "ts": "2026-11-15T01:33:33.363751",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x6c104a31c105ab2573a42e0f178f961e4496df5c",
     "whale_signal": "COMPRAR NO"
   }
 ]
