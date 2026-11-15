@@ -1,18 +1,50 @@
 [
   {
-    "id": "6602618",
-    "pregunta": "Will Neuralink's valuation hit (LOW) $51.5B by November 30?",
-    "ts": "2026-11-15T02:48:34.376962",
+    "id": "6891291",
+    "pregunta": "Will Ethereum dip to $1,700 November 9-15?",
+    "ts": "2026-11-15T02:58:49.255392",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7000213",
-    "pregunta": "Democratic 2028 presidential odds 64-66% on November 20?",
-    "ts": "2026-11-15T02:48:35.523942",
+    "id": "7057689",
+    "pregunta": "Will Bitcoin dip to $63,000 on November 15?",
+    "ts": "2026-11-15T02:58:50.288062",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7057685",
+    "pregunta": "Will Bitcoin reach $66,000 on November 15?",
+    "ts": "2026-11-15T02:58:51.417410",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7031092",
+    "pregunta": "Will the highest temperature in Busan be 19\u00b0C on November 16?",
+    "ts": "2026-11-15T02:58:53.076110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7031090",
+    "pregunta": "Will the highest temperature in Busan be 18\u00b0C on November 16?",
+    "ts": "2026-11-15T02:58:54.110199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7031064",
+    "pregunta": "Will the highest temperature in Moscow be 4\u00b0C on November 16?",
+    "ts": "2026-11-15T02:58:55.140998",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b29fd072a61e82c870034e25bd81169ef70f288",
     "whale_signal": "COMPRAR NO"
   }
 ]
