@@ -1,42 +1,10 @@
 [
   {
-    "id": "6947953",
-    "pregunta": "Will Steve Witkoff join Trump at APEC in China?",
-    "ts": "2026-11-15T13:50:45.303632",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-15T14:01:08.337105",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6947952",
-    "pregunta": "Will Jared Kushner join Trump at APEC in China?",
-    "ts": "2026-11-15T13:50:46.333402",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6891215",
-    "pregunta": "Will Bitcoin dip to $62,000 November 9-15?",
-    "ts": "2026-11-15T13:50:49.886799",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7057706",
-    "pregunta": "Will Ethereum dip to $1,750 on November 15?",
-    "ts": "2026-11-15T13:50:50.911871",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7057689",
-    "pregunta": "Will Bitcoin dip to $63,000 on November 15?",
-    "ts": "2026-11-15T13:50:51.937600",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xf0f86cdb6872730ca12c84ff8b014a539b8c325f",
     "whale_signal": "COMPRAR NO"
   }
 ]
