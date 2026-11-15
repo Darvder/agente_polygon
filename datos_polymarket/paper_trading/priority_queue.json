@@ -1,18 +1,10 @@
 [
   {
-    "id": "6891215",
-    "pregunta": "Will Bitcoin dip to $62,000 November 9-15?",
-    "ts": "2026-11-15T01:33:31.391784",
+    "id": "5430612",
+    "pregunta": "Will Microsoft launch a Muse-like personal agent before 2027?",
+    "ts": "2026-11-15T01:38:55.804354",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3357829",
-    "pregunta": "Will Imelda Castro Castro win the 2027 Sinaloa Governor Election?",
-    "ts": "2026-11-15T01:33:33.363751",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6c104a31c105ab2573a42e0f178f961e4496df5c",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
     "whale_signal": "COMPRAR NO"
   }
 ]
