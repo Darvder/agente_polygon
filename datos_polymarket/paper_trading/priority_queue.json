@@ -1,10 +1,26 @@
 [
   {
-    "id": "5104763",
-    "pregunta": "Will Putin and Zelenskyy not meet by December 31, 2027?",
-    "ts": "2026-11-15T10:27:13.253198",
+    "id": "6597786",
+    "pregunta": "Will Marco Rubio announce a presidential run by March 31, 2027?",
+    "ts": "2026-11-15T10:37:10.983387",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47a66f17ad84c257db450ea38d67ed0365375928",
+    "whale_wallet": "0x808aee7fddb14ca58f4358c94fe9c194fc2def3f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3377041",
+    "pregunta": "Will Lux (Rosal\u00eda) win Album of the Year at the 69th Annual GRAMMY Awards?",
+    "ts": "2026-11-15T10:37:12.184849",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x808aee7fddb14ca58f4358c94fe9c194fc2def3f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6597787",
+    "pregunta": "Will Marco Rubio announce a presidential run by June 30, 2027?",
+    "ts": "2026-11-15T10:37:13.341297",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x808aee7fddb14ca58f4358c94fe9c194fc2def3f",
     "whale_signal": "COMPRAR NO"
   }
 ]
