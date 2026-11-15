@@ -1,10 +1,26 @@
 [
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-15T16:19:57.256136",
+    "id": "3681003",
+    "pregunta": "Will Japan Q3 GDP growth (annualized) be between -0.8% and 0.0%?",
+    "ts": "2026-11-15T16:28:16.411043",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1ee5a774917fafa898e14017d1406326a15827d8",
+    "whale_wallet": "0x8bfcc166420b94d0d597f113fa2c0bb72b94659a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3681004",
+    "pregunta": "Will Japan Q3 GDP growth (annualized) be between 0.0% and 0.8%?",
+    "ts": "2026-11-15T16:28:17.584716",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8bfcc166420b94d0d597f113fa2c0bb72b94659a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3681005",
+    "pregunta": "Will Japan Q3 GDP growth (annualized) be between 0.8% and 1.6%?",
+    "ts": "2026-11-15T16:28:18.768672",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8bfcc166420b94d0d597f113fa2c0bb72b94659a",
     "whale_signal": "COMPRAR NO"
   }
 ]
