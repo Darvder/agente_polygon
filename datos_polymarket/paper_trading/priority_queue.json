@@ -1,26 +1,18 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-15T12:08:50.674622",
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-15T12:20:46.502501",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x066a7727f53124db18aa963f900bb95b36f7550d",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6997774",
-    "pregunta": "Fourth Jensen Huang affair reported by December 31?",
-    "ts": "2026-11-15T12:08:54.904459",
+    "id": "6507390",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-15T12:20:47.605361",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe5a2d793d3a9139d80e36663b1db2fa8cbde5384",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6989178",
-    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
-    "ts": "2026-11-15T12:08:56.025259",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe5a2d793d3a9139d80e36663b1db2fa8cbde5384",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
     "whale_signal": "COMPRAR NO"
   }
 ]
