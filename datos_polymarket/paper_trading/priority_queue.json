@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-14T23:59:27.810943",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x74471a007ddcc488f6d57b5e86dfb35a8d48a16d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7028077",
+    "pregunta": "Will Iceland be 2nd in the World Happiness Report 2027?",
+    "ts": "2026-11-14T23:59:31.916538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc004b035b67be284e0d1db56c39e865df6cac095",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7028082",
+    "pregunta": "Will Israel be top 5 in the World Happiness Report 2027?",
+    "ts": "2026-11-14T23:59:33.110555",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc004b035b67be284e0d1db56c39e865df6cac095",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7028098",
+    "pregunta": "Will the US rank 19th or higher in the World Happiness Report 2027?",
+    "ts": "2026-11-14T23:59:34.151521",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc004b035b67be284e0d1db56c39e865df6cac095",
+    "whale_signal": "COMPRAR NO"
+  }
+]
