@@ -1,26 +1,42 @@
 [
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-15T17:42:14.263775",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-15T17:49:58.999907",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5ca7a775f10a9f5cc4218feebd1398a6c3196149",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3681004",
-    "pregunta": "Will Japan Q3 GDP growth (annualized) be between 0.0% and 0.8%?",
-    "ts": "2026-11-15T17:42:16.245258",
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-15T17:50:00.044631",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x40601b813190cee07d18c1a3c67ee3399bdfc1c4",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3681003",
-    "pregunta": "Will Japan Q3 GDP growth (annualized) be between -0.8% and 0.0%?",
-    "ts": "2026-11-15T17:42:17.427263",
+    "id": "4188006",
+    "pregunta": "Iran blockade lifted before Iran-Oman Hormuz agreement?",
+    "ts": "2026-11-15T17:50:02.301477",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x40601b813190cee07d18c1a3c67ee3399bdfc1c4",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-15T17:50:03.335763",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-15T17:50:04.375654",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   }
 ]
