@@ -1,18 +1,10 @@
 [
   {
-    "id": "1393323",
-    "pregunta": "Predict.fun FDV above $800M one day after launch?",
-    "ts": "2026-11-15T05:08:26.713271",
+    "id": "6935919",
+    "pregunta": "Will the price of Bitcoin be above $68,000 on November 17?",
+    "ts": "2026-11-15T05:19:51.799289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5a60bb0b393f8497faf6f07142e11877e8cd2a67",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2690156",
-    "pregunta": "Will Codex launch a token by December 31, 2026?",
-    "ts": "2026-11-15T05:08:29.008023",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5a60bb0b393f8497faf6f07142e11877e8cd2a67",
+    "whale_wallet": "0xe392d6cc6a012f306cef646f79114eb6f351c023",
     "whale_signal": "COMPRAR NO"
   }
 ]
