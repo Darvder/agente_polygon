@@ -1,42 +1,18 @@
 [
   {
-    "id": "1393324",
-    "pregunta": "Predict.fun FDV above $1B one day after launch?",
-    "ts": "2026-11-15T08:48:56.736935",
+    "id": "5154696",
+    "pregunta": "Will OpenAI\u2019s valuation be at least $1.30T at the end of November 2026?",
+    "ts": "2026-11-15T09:00:09.165073",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3fdf9e7302b8644bf6c780b053d8c64011d59d95",
+    "whale_wallet": "0xc04804d0cc1cd7fe3ea7a00e247f55e62c1927d0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6280832",
-    "pregunta": "Ukraine agrees not to join NATO by June 30, 2027?",
-    "ts": "2026-11-15T08:48:58.659521",
+    "id": "5730984",
+    "pregunta": "Pedro S\u00e1nchez out as PM of Spain by January 31, 2027?",
+    "ts": "2026-11-15T09:00:10.195799",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f176a980de5b25f89f17473e5e8adef565c519e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6280833",
-    "pregunta": "Ukraine agrees not to join NATO by December 31, 2027?",
-    "ts": "2026-11-15T08:48:59.709654",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f176a980de5b25f89f17473e5e8adef565c519e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5419411",
-    "pregunta": "Zelenskyy out as Ukraine president by June 30, 2027?",
-    "ts": "2026-11-15T08:49:00.788303",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f176a980de5b25f89f17473e5e8adef565c519e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6017460",
-    "pregunta": "Will GPT Astra 6.1+ be released between November 16 and November 22, 2026?",
-    "ts": "2026-11-15T08:49:02.711695",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc4c46d8e1f58c360c4607de7f70f89880f9c393d",
+    "whale_wallet": "0xc04804d0cc1cd7fe3ea7a00e247f55e62c1927d0",
     "whale_signal": "COMPRAR NO"
   }
 ]
