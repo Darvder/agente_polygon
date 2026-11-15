@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6602618",
+    "pregunta": "Will Neuralink's valuation hit (LOW) $51.5B by November 30?",
+    "ts": "2026-11-15T02:48:34.376962",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7000213",
+    "pregunta": "Democratic 2028 presidential odds 64-66% on November 20?",
+    "ts": "2026-11-15T02:48:35.523942",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
