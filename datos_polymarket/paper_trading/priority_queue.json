@@ -1,10 +1,18 @@
 [
   {
-    "id": "2569364",
-    "pregunta": "MPS x Intesa Sanpaolo merger/acquisition announced in 2026?",
-    "ts": "2026-11-15T06:08:17.505526",
+    "id": "5420004",
+    "pregunta": "Will Luka Mesec win the 2026 Ljubljana mayoral election?",
+    "ts": "2026-11-15T06:18:47.536829",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbc605ab11e44f0b09762313f2cdfb6b25514af79",
+    "whale_wallet": "0xe41adddfd269f811c8dc173237ed8c4f213d29bd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299956",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+    "ts": "2026-11-15T06:18:48.558159",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe41adddfd269f811c8dc173237ed8c4f213d29bd",
     "whale_signal": "COMPRAR NO"
   }
 ]
