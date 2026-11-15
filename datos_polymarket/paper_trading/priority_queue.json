@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-15T04:57:37.290844",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7048649",
+    "pregunta": "Will the 7-day average ship traffic through the Strait of Hormuz reach 40+ by December 31?",
+    "ts": "2026-11-15T04:57:39.509982",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7048647",
+    "pregunta": "Will the 7-day average ship traffic through the Strait of Hormuz reach 20+ by December 31?",
+    "ts": "2026-11-15T04:57:40.674776",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
+    "whale_signal": "COMPRAR NO"
+  }
+]
