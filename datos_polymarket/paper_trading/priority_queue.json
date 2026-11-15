@@ -1,10 +1,18 @@
 [
   {
-    "id": "567688",
-    "pregunta": "Netanyahu out by end of 2026?",
-    "ts": "2026-11-15T15:20:25.954345",
+    "id": "6998285",
+    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+    "ts": "2026-11-15T15:31:13.542635",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19f20f9ba84cdd12f566f471e89c5b93ce300121",
+    "whale_wallet": "0xa5d1714e2c59650d3ad4564adca5768d5db1511c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5151872",
+    "pregunta": "Sweden snap election called in 2026?",
+    "ts": "2026-11-15T15:31:16.388497",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d4a9ff98bdce01ff8081362f676749db0c85887",
     "whale_signal": "COMPRAR NO"
   }
 ]
