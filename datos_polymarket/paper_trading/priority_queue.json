@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7018013",
+    "pregunta": "Fourth Jensen Huang affair reported by November 20?",
+    "ts": "2026-11-14T19:20:13.806907",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2872613",
+    "pregunta": "Will Clavicular wear a Yarmulke in 2026?",
+    "ts": "2026-11-14T19:20:15.878506",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
