@@ -1,10 +1,18 @@
 [
   {
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-15T05:30:53.328905",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05ddbe2edc2fcb293eb149028f45e93cec14305c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "6935919",
     "pregunta": "Will the price of Bitcoin be above $68,000 on November 17?",
-    "ts": "2026-11-15T05:19:51.799289",
+    "ts": "2026-11-15T05:30:55.393734",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe392d6cc6a012f306cef646f79114eb6f351c023",
+    "whale_wallet": "0x6796c7ff1bbc2fb7019b1f276e31ce706355a0d7",
     "whale_signal": "COMPRAR NO"
   }
 ]
