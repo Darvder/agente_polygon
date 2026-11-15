@@ -1,10 +1,50 @@
 [
   {
-    "id": "6496419",
-    "pregunta": "Will the fight be won by submission?",
-    "ts": "2026-11-14T23:30:46.398836",
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-14T23:39:50.160552",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc785252b25901a591e9d962e09f4342468444ef2",
+    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2431412",
+    "pregunta": "Will Google have the best AI model at the end of December 2026?",
+    "ts": "2026-11-14T23:39:52.001911",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5636168",
+    "pregunta": "Will Russia enter Bilozerske by December 31, 2026?",
+    "ts": "2026-11-14T23:39:53.112575",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-14T23:39:54.841194",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-14T23:39:56.889802",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-14T23:39:57.916267",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
     "whale_signal": "COMPRAR NO"
   }
 ]
