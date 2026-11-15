@@ -1,10 +1,18 @@
 [
   {
-    "id": "7049681",
-    "pregunta": "Jensen Huang rejoins NVIDIA before divorce?",
-    "ts": "2026-11-14T19:31:19.280139",
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-14T19:39:11.339287",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6cb273aa20efc1bee3e14b8641917181d56d99a3",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "690683",
+    "pregunta": "Will Variational launch a token by December 31, 2026?",
+    "ts": "2026-11-14T19:39:12.532326",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
