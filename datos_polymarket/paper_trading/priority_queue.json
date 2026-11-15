@@ -1,10 +1,18 @@
 [
   {
-    "id": "7057689",
-    "pregunta": "Will Bitcoin dip to $63,000 on November 15?",
-    "ts": "2026-11-15T17:00:12.328106",
+    "id": "6403128",
+    "pregunta": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate at the November meeting?",
+    "ts": "2026-11-15T17:12:36.198199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x6114ab1b41a31643998b1cfe021ec6562a48cff0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6921781",
+    "pregunta": "Will CZ post 40-59 posts from November 13 to November 20, 2026?",
+    "ts": "2026-11-15T17:12:42.112842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
