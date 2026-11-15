@@ -1,26 +1,66 @@
 [
   {
-    "id": "6597786",
-    "pregunta": "Will Marco Rubio announce a presidential run by March 31, 2027?",
-    "ts": "2026-11-15T10:37:10.983387",
+    "id": "6507388",
+    "pregunta": "Will Bitcoin dip to $60,000 in November?",
+    "ts": "2026-11-15T10:50:42.324557",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x808aee7fddb14ca58f4358c94fe9c194fc2def3f",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3377041",
-    "pregunta": "Will Lux (Rosal\u00eda) win Album of the Year at the 69th Annual GRAMMY Awards?",
-    "ts": "2026-11-15T10:37:12.184849",
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-15T10:50:43.507008",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x808aee7fddb14ca58f4358c94fe9c194fc2def3f",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6597787",
-    "pregunta": "Will Marco Rubio announce a presidential run by June 30, 2027?",
-    "ts": "2026-11-15T10:37:13.341297",
+    "id": "6991214",
+    "pregunta": "Will Bitcoin reach $72,500 in November?",
+    "ts": "2026-11-15T10:50:45.721077",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x808aee7fddb14ca58f4358c94fe9c194fc2def3f",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-15T10:50:48.985254",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043509",
+    "pregunta": "Will Ethereum reach $1,900 in November?",
+    "ts": "2026-11-15T10:50:50.023155",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6991224",
+    "pregunta": "Will Ethereum reach $2,100 in November?",
+    "ts": "2026-11-15T10:50:52.241375",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507424",
+    "pregunta": "Will Ethereum dip to $1,700 in November?",
+    "ts": "2026-11-15T10:50:54.451392",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507425",
+    "pregunta": "Will Ethereum dip to $1,600 in November?",
+    "ts": "2026-11-15T10:50:56.671148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x388347b80c42a644fd5266171ee72d0440ef6bb0",
     "whale_signal": "COMPRAR NO"
   }
 ]
