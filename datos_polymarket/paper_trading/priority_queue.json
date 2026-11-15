@@ -1,10 +1,18 @@
 [
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-15T15:52:00.099057",
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-15T16:00:43.098219",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47e838c90f2c14e599ded20bac2c98538ab0faee",
+    "whale_wallet": "0xa6ffdcd7f996739189f9d3d5c0a256e3aa980372",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7011587",
+    "pregunta": "Will the highest temperature in Los Angeles be between 70-71\u00b0F on November 15?",
+    "ts": "2026-11-15T16:00:46.683535",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x68dbed42912551cbffcd15ff758ef62781ad44f0",
     "whale_signal": "COMPRAR NO"
   }
 ]
