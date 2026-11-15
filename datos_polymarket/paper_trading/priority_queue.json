@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6496501",
+    "pregunta": "Fight to Go the Distance?",
+    "ts": "2026-11-14T20:38:00.843543",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9a92f72bbc78028f6e222df0b9f1a6238a533c67",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-14T20:38:02.668085",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x40cfb29411d29f4fa0908f2a121297042cccd21d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
