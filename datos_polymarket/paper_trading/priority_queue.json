@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "6947952",
+    "pregunta": "Will Jared Kushner join Trump at APEC in China?",
+    "ts": "2026-11-15T09:51:53.560485",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xddb1ecc4ddf67d6732630d5eea099f9ffa53ea72",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6947953",
+    "pregunta": "Will Steve Witkoff join Trump at APEC in China?",
+    "ts": "2026-11-15T09:51:55.629671",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999868",
+    "pregunta": "Will Jensen Huang post again on X by November 30?",
+    "ts": "2026-11-15T09:52:00.690113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5219297",
+    "pregunta": "Will EU emergency diesel stocks be at least 37M tonnes at end of November 2026?",
+    "ts": "2026-11-15T09:52:01.890628",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6764670",
+    "pregunta": "Riksdag approves Swedish Prime Minister by February 28, 2027?",
+    "ts": "2026-11-15T09:52:03.096861",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6764668",
+    "pregunta": "Riksdag approves Swedish Prime Minister by November 30, 2026?",
+    "ts": "2026-11-15T09:52:04.140431",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
