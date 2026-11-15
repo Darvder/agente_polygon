@@ -1,26 +1,10 @@
 [
   {
-    "id": "5787490",
-    "pregunta": "Next White House Press Secretary announced by November 30, 2026?",
-    "ts": "2026-11-15T09:21:56.652228",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-15T09:29:22.150550",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xadfbdf35f3594287ad16934164bad4f8d05e0fb1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-15T09:21:58.387311",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72fda811b6ce9988394810c46d783f19225dc176",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-15T09:21:59.405949",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x72fda811b6ce9988394810c46d783f19225dc176",
+    "whale_wallet": "0x95e4883450f6e3483484d186bbff58910feb10c3",
     "whale_signal": "COMPRAR NO"
   }
 ]
