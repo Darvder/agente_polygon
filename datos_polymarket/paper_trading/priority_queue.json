@@ -1,42 +1,10 @@
 [
   {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-15T17:49:58.999907",
+    "id": "3519448",
+    "pregunta": "Will the Democratic Party candidate win the 2026 NJ-06 House election by 35%-40%?",
+    "ts": "2026-11-15T18:01:39.425686",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-15T17:50:00.044631",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4188006",
-    "pregunta": "Iran blockade lifted before Iran-Oman Hormuz agreement?",
-    "ts": "2026-11-15T17:50:02.301477",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-15T17:50:03.335763",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-15T17:50:04.375654",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x34ab33da0f9576174aef6996ebae64b7d759f1db",
     "whale_signal": "COMPRAR NO"
   }
 ]
