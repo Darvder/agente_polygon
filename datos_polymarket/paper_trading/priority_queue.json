@@ -1,18 +1,26 @@
 [
   {
-    "id": "6403128",
-    "pregunta": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate at the November meeting?",
-    "ts": "2026-11-15T17:12:36.198199",
+    "id": "6997774",
+    "pregunta": "Fourth Jensen Huang affair reported by December 31?",
+    "ts": "2026-11-15T17:21:59.404431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6114ab1b41a31643998b1cfe021ec6562a48cff0",
+    "whale_wallet": "0x24189b6c233a6b9a5365fe99b380673e900766c8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6921781",
-    "pregunta": "Will CZ post 40-59 posts from November 13 to November 20, 2026?",
-    "ts": "2026-11-15T17:12:42.112842",
+    "id": "6919847",
+    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+    "ts": "2026-11-15T17:22:02.272288",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_wallet": "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018707",
+    "pregunta": "Will Bitcoin reach $70,000 in November?",
+    "ts": "2026-11-15T17:22:03.293060",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
     "whale_signal": "COMPRAR NO"
   }
 ]
