@@ -1,34 +1,18 @@
 [
   {
-    "id": "5234719",
-    "pregunta": "Will Russia capture the Royal Caf\u00e9 Alex in Kostyantynivka by March 31, 2027?",
-    "ts": "2026-11-15T14:22:01.238120",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-15T14:22:02.285295",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-15T14:22:03.339634",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "6998285",
     "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-    "ts": "2026-11-15T14:22:04.391806",
+    "ts": "2026-11-15T14:30:10.530591",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_wallet": "0xcdb1f1ef8213c06911e4ba6a884176c5571e276c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999602",
+    "pregunta": "Will Jensen Huang not join any company by December 31, 2027?",
+    "ts": "2026-11-15T14:30:12.533815",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7ef580a13f0463561170074bece5fb7bbd3812c",
     "whale_signal": "COMPRAR NO"
   }
 ]
