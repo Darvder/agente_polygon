@@ -1,10 +1,58 @@
 [
   {
-    "id": "2412746",
-    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-    "ts": "2026-11-15T00:09:23.476459",
+    "id": "6496408",
+    "pregunta": "Will Ciryl Gane win in Round 1?",
+    "ts": "2026-11-15T00:18:06.881686",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe74d4976e5e034182d708a3b9df602e72d4722fd",
+    "whale_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6496409",
+    "pregunta": "Will Ciryl Gane win in Round 2?",
+    "ts": "2026-11-15T00:18:07.992305",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6496388",
+    "pregunta": "Fight to Go the Distance?",
+    "ts": "2026-11-15T00:18:09.008987",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6496390",
+    "pregunta": "Will Josh Hokit win by KO or TKO?",
+    "ts": "2026-11-15T00:18:10.123921",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891291",
+    "pregunta": "Will Ethereum dip to $1,700 November 9-15?",
+    "ts": "2026-11-15T00:18:12.514821",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6891215",
+    "pregunta": "Will Bitcoin dip to $62,000 November 9-15?",
+    "ts": "2026-11-15T00:18:13.532928",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507390",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-15T00:18:14.552733",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
