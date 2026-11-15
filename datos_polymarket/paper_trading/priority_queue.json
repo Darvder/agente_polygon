@@ -1,18 +1,26 @@
 [
   {
-    "id": "6998285",
-    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-    "ts": "2026-11-15T15:31:13.542635",
+    "id": "7018707",
+    "pregunta": "Will Bitcoin reach $70,000 in November?",
+    "ts": "2026-11-15T15:41:32.843040",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa5d1714e2c59650d3ad4564adca5768d5db1511c",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5151872",
-    "pregunta": "Sweden snap election called in 2026?",
-    "ts": "2026-11-15T15:31:16.388497",
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-15T15:41:34.989117",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9d4a9ff98bdce01ff8081362f676749db0c85887",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7074444",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-15T15:41:36.012419",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   }
 ]
