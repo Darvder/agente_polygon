@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1621.86,
-  "capital_en_riesgo": 600.3900000000001,
-  "n_ciclos": 45283,
-  "ultima_corrida": "2026-11-14 21:41",
-  "n_tp": 1257,
+  "capital_actual": 1648.18,
+  "capital_en_riesgo": 574.07,
+  "n_ciclos": 45284,
+  "ultima_corrida": "2026-11-14 21:50",
+  "n_tp": 1258,
   "n_sl": 855,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 17.3,
-    "capital_en_riesgo": 77.45,
+    "capital_actual": 17.32,
+    "capital_en_riesgo": 77.43,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 4.06,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 710,
+    "n_tp": 711,
     "n_sl": 490,
     "posiciones_abiertas": [
       {
@@ -251,7 +251,7 @@
         "pregunta": "Israel x Iran ceasefire continues through November 30?",
         "outcome": "Yes",
         "precio_token_entrada": 0.845,
-        "precio_actual": 0.835,
+        "precio_actual": 0.855,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.0,
@@ -300,26 +300,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xf0c939a435dca8ff2491319fffcbd1138c78f9ba8d83b39669ebb6c28f6a8216"
-      },
-      {
-        "fecha_entrada": "2026-11-14",
-        "fecha_entrada_dt": "2026-11-14 16:13",
-        "target_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-        "market_id": "6991214",
-        "condition_id": "0x7d2dce9ecaa2081bdf030dbd8eea760e4ce0f549aa15497cd32dda865ff240b3",
-        "token_id": "114903462612355184984137070670434914533345138399010988247188477558461263422979",
-        "pregunta": "Will Bitcoin reach $72,500 in November?",
-        "outcome": "No",
-        "precio_token_entrada": 0.765,
-        "precio_actual": 0.765,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.08,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xf811d9301e3c6734092906ad1d677e9c610536163f724a84b9bb245941ce74df"
       },
       {
         "fecha_entrada": "2026-11-14",
@@ -380,6 +360,26 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0xc305e2277b44a265be10a965a4c7ec8b5e8d7df4f657f318f94f09661d107da7"
+      },
+      {
+        "fecha_entrada": "2026-11-14",
+        "fecha_entrada_dt": "2026-11-14 21:49",
+        "target_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+        "market_id": "6507390",
+        "condition_id": "0xea8456818e462ddd25a436cf4e47ddff428e28b64ae3624957ae968012bf9787",
+        "token_id": "62104054092941340976580469137816666615613969504677668715742709707923994448385",
+        "pregunta": "Will Bitcoin dip to $57,500 in November?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.3105,
+        "precio_actual": 0.3105,
+        "precio_cierre": "",
+        "pct_cambio": 0.0,
+        "monto_usdc": 4.06,
+        "estado": "ABIERTA",
+        "fecha_cierre_real": "",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "",
+        "tx_hash": "0x6541e6006b1e52b5f78ec29dd75fe8cdd30625daa254ee4d42482b153518757a"
       }
     ],
     "historial_cerradas": [
@@ -24382,6 +24382,26 @@
         "pnl_realizado": -2.02,
         "razon_cierre": "STOP_LOSS",
         "tx_hash": "0xf82d0d3ffe4edc3d417279903f2a4f9b6529051b6c77e232a2753e83b93ac05f"
+      },
+      {
+        "fecha_entrada": "2026-11-14",
+        "fecha_entrada_dt": "2026-11-14 16:13",
+        "target_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+        "market_id": "6991214",
+        "condition_id": "0x7d2dce9ecaa2081bdf030dbd8eea760e4ce0f549aa15497cd32dda865ff240b3",
+        "token_id": "114903462612355184984137070670434914533345138399010988247188477558461263422979",
+        "pregunta": "Will Bitcoin reach $72,500 in November?",
+        "outcome": "No",
+        "precio_token_entrada": 0.765,
+        "precio_actual": 0.765,
+        "precio_cierre": 0.765,
+        "pct_cambio": 0.0,
+        "monto_usdc": 4.08,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-14 21:49",
+        "pnl_realizado": 0.0,
+        "razon_cierre": "TARGET_SELL",
+        "tx_hash": "0xf811d9301e3c6734092906ad1d677e9c610536163f724a84b9bb245941ce74df"
       }
     ]
   }
