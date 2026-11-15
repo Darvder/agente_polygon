@@ -1,26 +1,18 @@
 [
   {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-15T04:57:37.290844",
+    "id": "1393323",
+    "pregunta": "Predict.fun FDV above $800M one day after launch?",
+    "ts": "2026-11-15T05:08:26.713271",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
+    "whale_wallet": "0x5a60bb0b393f8497faf6f07142e11877e8cd2a67",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7048649",
-    "pregunta": "Will the 7-day average ship traffic through the Strait of Hormuz reach 40+ by December 31?",
-    "ts": "2026-11-15T04:57:39.509982",
+    "id": "2690156",
+    "pregunta": "Will Codex launch a token by December 31, 2026?",
+    "ts": "2026-11-15T05:08:29.008023",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7048647",
-    "pregunta": "Will the 7-day average ship traffic through the Strait of Hormuz reach 20+ by December 31?",
-    "ts": "2026-11-15T04:57:40.674776",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
+    "whale_wallet": "0x5a60bb0b393f8497faf6f07142e11877e8cd2a67",
     "whale_signal": "COMPRAR NO"
   }
 ]
