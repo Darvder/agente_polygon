@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "6909217",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 16?",
+    "ts": "2026-11-14T22:41:49.208276",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6909153",
+    "pregunta": "Will the price of Ethereum be above $1,800 on November 16?",
+    "ts": "2026-11-14T22:41:52.338513",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6967620",
+    "pregunta": "Will the price of Bitcoin be above $64,000 on November 18?",
+    "ts": "2026-11-14T22:41:54.402483",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab155a20ff29debee4128e9dd1ea6ab8541c46e5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507425",
+    "pregunta": "Will Ethereum dip to $1,600 in November?",
+    "ts": "2026-11-14T22:41:56.361101",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6991214",
+    "pregunta": "Will Bitcoin reach $72,500 in November?",
+    "ts": "2026-11-14T22:41:57.408051",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
