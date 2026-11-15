@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4906129",
+    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
+    "ts": "2026-11-14T23:10:59.457150",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x44dabe09f4c0d31435be1df63ed299e5207fe225",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5456804",
+    "pregunta": "SpaceX becomes a US mobile carrier by June 30, 2027?",
+    "ts": "2026-11-14T23:11:01.486081",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc73ae816662a007c7ec3d8a9487c140fe312ec83",
+    "whale_signal": "COMPRAR NO"
+  }
+]
