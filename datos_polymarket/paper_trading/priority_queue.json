@@ -1,18 +1,42 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-15T16:00:43.098219",
+    "id": "7031065",
+    "pregunta": "Will the highest temperature in Moscow be 5\u00b0C on November 16?",
+    "ts": "2026-11-15T16:08:26.336162",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa6ffdcd7f996739189f9d3d5c0a256e3aa980372",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7011587",
-    "pregunta": "Will the highest temperature in Los Angeles be between 70-71\u00b0F on November 15?",
-    "ts": "2026-11-15T16:00:46.683535",
+    "id": "7033406",
+    "pregunta": "Will the highest temperature in New York City be between 54-55\u00b0F on November 16?",
+    "ts": "2026-11-15T16:08:27.501256",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68dbed42912551cbffcd15ff758ef62781ad44f0",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7058430",
+    "pregunta": "Will the highest temperature in Busan be 17\u00b0C on November 17?",
+    "ts": "2026-11-15T16:08:28.659855",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030878",
+    "pregunta": "Will the highest temperature in Lucknow be 28\u00b0C on November 16?",
+    "ts": "2026-11-15T16:08:29.811405",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7058432",
+    "pregunta": "Will the highest temperature in Busan be 19\u00b0C on November 17?",
+    "ts": "2026-11-15T16:08:30.980223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   }
 ]
