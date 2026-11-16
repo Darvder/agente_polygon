@@ -1,34 +1,18 @@
 [
   {
-    "id": "6595333",
-    "pregunta": "Will Elon Musk\u2019s net worth be between $900B and $1.00T on November 30?",
-    "ts": "2026-11-16T08:28:22.348300",
+    "id": "4599796",
+    "pregunta": "Israeli airspace closed by December 31, 2026?",
+    "ts": "2026-11-16T08:41:09.580861",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0x8afa03dd6974e44d00c4d14dcccb00c0ddf6adb6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-16T08:28:23.388022",
+    "id": "6919847",
+    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+    "ts": "2026-11-16T08:41:11.658930",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110750",
-    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-16T08:28:24.550570",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507425",
-    "pregunta": "Will Ethereum dip to $1,600 in November?",
-    "ts": "2026-11-16T08:28:25.624828",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
