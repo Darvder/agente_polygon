@@ -1,10 +1,18 @@
 [
   {
-    "id": "7085201",
-    "pregunta": "Will Ethereum reach $1,850 on November 16?",
-    "ts": "2026-11-16T03:41:25.196286",
+    "id": "6919847",
+    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+    "ts": "2026-11-16T03:53:42.121290",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x975e746f6807f9500b330a3a94b8338e1b5a2787",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-16T03:53:43.990897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5cd5c8d7a17c78d7389d8b87b611aed83322ac33",
     "whale_signal": "COMPRAR NO"
   }
 ]
