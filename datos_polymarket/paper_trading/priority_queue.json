@@ -1,50 +1,74 @@
 [
   {
-    "id": "6949321",
-    "pregunta": "Will \"A Dog's Perfect Christmas\" be the top global Netflix movie this week?",
-    "ts": "2026-11-15T22:48:15.171907",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-15T22:59:42.380231",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x01e948dac58f7bf183e207866127912adb455250",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7029348",
-    "pregunta": "Will Strait of Hormuz traffic not return to normal in 2027?",
-    "ts": "2026-11-15T22:48:17.164774",
+    "id": "6919849",
+    "pregunta": "Will Ian Buck be the next CEO of NVIDIA?",
+    "ts": "2026-11-15T22:59:43.431408",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd3ecb2aee0d65622da559ff356b00e8c2e626603",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7058341",
-    "pregunta": "Will the highest temperature in Wuhan be 13\u00b0C on November 17?",
-    "ts": "2026-11-15T22:48:19.175135",
+    "id": "3887676",
+    "pregunta": "Anthropic IPO closing market cap above $1.5T?",
+    "ts": "2026-11-15T22:59:44.585104",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7058332",
-    "pregunta": "Will the highest temperature in Beijing be 10\u00b0C on November 17?",
-    "ts": "2026-11-15T22:48:20.839295",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-15T22:59:45.640165",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7035904",
-    "pregunta": "Will the highest temperature in Panama City be 33\u00b0C on November 16?",
-    "ts": "2026-11-15T22:48:21.904703",
+    "id": "4664495",
+    "pregunta": "Will Alibaba have the best Chinese AI model at the end of November 2026?",
+    "ts": "2026-11-15T22:59:48.434630",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7058628",
-    "pregunta": "Will the highest temperature in Karachi be 33\u00b0C on November 17?",
-    "ts": "2026-11-15T22:48:22.942297",
+    "id": "5782543",
+    "pregunta": "Will Ben Ferguson be the next White House Press Secretary?",
+    "ts": "2026-11-15T22:59:49.497940",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-15T22:59:50.538031",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-15T22:59:51.579885",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3249716",
+    "pregunta": "Will Darian Mensah win the 2026 Heisman Trophy?",
+    "ts": "2026-11-15T22:59:52.744059",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   }
 ]
