@@ -1,18 +1,10 @@
 [
   {
-    "id": "6770166",
-    "pregunta": "Will the next Qwen Max model (3.9+) debut at a score of at least 1480 by June 30, 2027?",
-    "ts": "2026-11-15T23:48:41.000520",
+    "id": "7062032",
+    "pregunta": "Will the highest temperature in New York City be between 56-57\u00b0F on November 17?",
+    "ts": "2026-11-15T23:58:22.154607",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6770165",
-    "pregunta": "Will the next Qwen Max model (3.9+) debut at a score of at least 1460 by June 30, 2027?",
-    "ts": "2026-11-15T23:48:42.179268",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_wallet": "0x135b1e034ff8c77c09f0fe25f2a89b6ddc60fcd9",
     "whale_signal": "COMPRAR NO"
   }
 ]
