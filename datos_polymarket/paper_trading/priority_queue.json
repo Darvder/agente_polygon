@@ -1,10 +1,18 @@
 [
   {
-    "id": "3388205",
-    "pregunta": "Will Christopher Nolan win Best Director at the 99th Academy Awards?",
-    "ts": "2026-11-16T14:12:36.337031",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-16T14:18:47.187530",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x314c9c0c6f60c3563cc29ef3f969d36e6d0b69dd",
+    "whale_wallet": "0xbc926c5fbeae8d40ed4b6c4a7403c6cad21c02c0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-16T14:18:48.239881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbc926c5fbeae8d40ed4b6c4a7403c6cad21c02c0",
     "whale_signal": "COMPRAR NO"
   }
 ]
