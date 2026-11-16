@@ -1,10 +1,26 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-15T21:38:04.874030",
+    "id": "6919847",
+    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+    "ts": "2026-11-15T21:51:05.211823",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x24ded84d901a743cfee095f8082b0f9f647183cb",
+    "whale_wallet": "0x2d2e8ad4572ffa76d2ece70ef7e55f3cbe2e0c54",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6329485",
+    "pregunta": "Will US births in 2026 be between 3.56 million and 3.59 million?",
+    "ts": "2026-11-15T21:51:08.218352",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x564f22744b7941ade18d5e0e4f347c30e3057026",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6329484",
+    "pregunta": "Will US births in 2026 be between 3.53 million and 3.56 million?",
+    "ts": "2026-11-15T21:51:09.263331",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x564f22744b7941ade18d5e0e4f347c30e3057026",
     "whale_signal": "COMPRAR NO"
   }
 ]
