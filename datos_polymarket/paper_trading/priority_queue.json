@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "6949321",
+    "pregunta": "Will \"A Dog's Perfect Christmas\" be the top global Netflix movie this week?",
+    "ts": "2026-11-15T22:48:15.171907",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x01e948dac58f7bf183e207866127912adb455250",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029348",
+    "pregunta": "Will Strait of Hormuz traffic not return to normal in 2027?",
+    "ts": "2026-11-15T22:48:17.164774",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd3ecb2aee0d65622da559ff356b00e8c2e626603",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7058341",
+    "pregunta": "Will the highest temperature in Wuhan be 13\u00b0C on November 17?",
+    "ts": "2026-11-15T22:48:19.175135",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7058332",
+    "pregunta": "Will the highest temperature in Beijing be 10\u00b0C on November 17?",
+    "ts": "2026-11-15T22:48:20.839295",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7035904",
+    "pregunta": "Will the highest temperature in Panama City be 33\u00b0C on November 16?",
+    "ts": "2026-11-15T22:48:21.904703",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7058628",
+    "pregunta": "Will the highest temperature in Karachi be 33\u00b0C on November 17?",
+    "ts": "2026-11-15T22:48:22.942297",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  }
+]
