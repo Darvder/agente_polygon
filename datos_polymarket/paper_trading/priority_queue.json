@@ -1,10 +1,18 @@
 [
   {
-    "id": "6403128",
-    "pregunta": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate at the November meeting?",
-    "ts": "2026-11-16T06:08:33.694187",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-16T06:21:10.127958",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d5f88f1b97317cccad804374e5bd847512e634d",
+    "whale_wallet": "0x212f7fc77c18c6ce34bb1dae43e9198ab19b7fd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581388",
+    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
+    "ts": "2026-11-16T06:21:17.137317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
     "whale_signal": "COMPRAR NO"
   }
 ]
