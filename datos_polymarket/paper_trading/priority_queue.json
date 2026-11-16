@@ -1,26 +1,34 @@
 [
   {
+    "id": "6998285",
+    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+    "ts": "2026-11-15T21:59:53.234958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "6919847",
     "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-15T21:51:05.211823",
+    "ts": "2026-11-15T21:59:54.303517",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2d2e8ad4572ffa76d2ece70ef7e55f3cbe2e0c54",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6329485",
-    "pregunta": "Will US births in 2026 be between 3.56 million and 3.59 million?",
-    "ts": "2026-11-15T21:51:08.218352",
+    "id": "5765888",
+    "pregunta": "JD Vance 2028 presidential odds leader on November 30?",
+    "ts": "2026-11-15T21:59:56.997328",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x564f22744b7941ade18d5e0e4f347c30e3057026",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6329484",
-    "pregunta": "Will US births in 2026 be between 3.53 million and 3.56 million?",
-    "ts": "2026-11-15T21:51:09.263331",
+    "id": "6658605",
+    "pregunta": "Rubio's Republican nomination odds hit 25% by December 31?",
+    "ts": "2026-11-15T21:59:58.146269",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x564f22744b7941ade18d5e0e4f347c30e3057026",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   }
 ]
