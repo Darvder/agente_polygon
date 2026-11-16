@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "7033457",
+    "pregunta": "Will the highest temperature in Chicago be between 54-55\u00b0F on November 16?",
+    "ts": "2026-11-15T20:00:59.571764",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030891",
+    "pregunta": "Will the highest temperature in Munich be 12\u00b0C on November 16?",
+    "ts": "2026-11-15T20:01:00.591447",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7062105",
+    "pregunta": "Will the highest temperature in Houston be between 66-67\u00b0F on November 17?",
+    "ts": "2026-11-15T20:01:01.778854",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7033405",
+    "pregunta": "Will the highest temperature in New York City be between 52-53\u00b0F on November 16?",
+    "ts": "2026-11-15T20:01:02.799649",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  }
+]
