@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2750302",
+    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
+    "ts": "2026-11-16T02:20:27.237388",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4f2592e67c333e73c923547cfe05e768180e5fa",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-16T02:20:28.262814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb4f2592e67c333e73c923547cfe05e768180e5fa",
+    "whale_signal": "COMPRAR NO"
+  }
+]
