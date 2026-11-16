@@ -1,26 +1,10 @@
 [
   {
-    "id": "7027911",
-    "pregunta": "Will the Fed hike-hike-hike in the next three decisions (Dec-Jan-Mar)?",
-    "ts": "2026-11-15T23:31:36.263794",
+    "id": "666665",
+    "pregunta": "Will Howard Lutnick leave the Trump administration before 2027?",
+    "ts": "2026-11-15T23:40:17.599390",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7027912",
-    "pregunta": "Will the Fed hike-hike-pause in the next three decisions (Dec-Jan-Mar)?",
-    "ts": "2026-11-15T23:31:37.429949",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5154351",
-    "pregunta": "Will the Fed Pause-Hike-Hike in the next three decisions (Oct-Dec-Jan)?",
-    "ts": "2026-11-15T23:31:38.499953",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_wallet": "0xecef7a84f071df83cd6a8c40561ac2f8f28275fa",
     "whale_signal": "COMPRAR NO"
   }
 ]
