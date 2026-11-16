@@ -1,34 +1,10 @@
 [
   {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-16T03:00:30.165118",
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-16T03:08:44.749141",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x611d4f37e70e0e2d0b065fe668f4676074c05239",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-16T03:00:33.912854",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831496",
-    "pregunta": "US x Iran Effective Ceasefire by November 30?",
-    "ts": "2026-11-16T03:00:34.953045",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831494",
-    "pregunta": "US x Iran Effective Ceasefire by November 15?",
-    "ts": "2026-11-16T03:00:36.004831",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_wallet": "0xd0e93e23d3c3989df458e7b2baf61b4262b6a95e",
     "whale_signal": "COMPRAR NO"
   }
 ]
