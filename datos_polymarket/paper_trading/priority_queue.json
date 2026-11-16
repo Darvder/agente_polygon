@@ -1,26 +1,10 @@
 [
   {
-    "id": "6998286",
-    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
-    "ts": "2026-11-16T04:23:09.737643",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-16T04:28:24.532678",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8525d746253bac783f18e7deb6ceac1bc40af8d0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085166",
-    "pregunta": "Will Bitcoin reach $66,000 on November 16?",
-    "ts": "2026-11-16T04:23:14.690717",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085202",
-    "pregunta": "Will Ethereum dip to $1,600 November 16-22?",
-    "ts": "2026-11-16T04:23:15.820610",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xea13582807b59380747f2436d3ff98a30367d4b1",
     "whale_signal": "COMPRAR NO"
   }
 ]
