@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "7023029",
+    "pregunta": "Will there be 1 earthquake of 6.5 or above magnitude worldwide?",
+    "ts": "2026-11-16T17:48:22.480699",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x68c24bf4a8ad4d79a6fe4b8eec6f93a02dfd1711",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6422854",
+    "pregunta": "Will a 7.0+ earthquake occur worldwide by November 30?",
+    "ts": "2026-11-16T17:48:23.686760",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x68c24bf4a8ad4d79a6fe4b8eec6f93a02dfd1711",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7096088",
+    "pregunta": "Megaspeed added to the Entity List by December 31, 2026?",
+    "ts": "2026-11-16T17:48:28.493343",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x300c5e1ec9e4d6e8bd9617f0a44508170c5b6a92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7096090",
+    "pregunta": "Megaspeed added to the Entity List by March 31, 2027?",
+    "ts": "2026-11-16T17:48:29.683478",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x300c5e1ec9e4d6e8bd9617f0a44508170c5b6a92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6949003",
+    "pregunta": "Will Gemini Krypton debut in the top 10 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-16T17:48:30.723614",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x300c5e1ec9e4d6e8bd9617f0a44508170c5b6a92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6949001",
+    "pregunta": "Will Gemini Krypton debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-16T17:48:31.907100",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x300c5e1ec9e4d6e8bd9617f0a44508170c5b6a92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6949002",
+    "pregunta": "Will Gemini Krypton debut in the top 5 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-16T17:48:33.094774",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x300c5e1ec9e4d6e8bd9617f0a44508170c5b6a92",
+    "whale_signal": "COMPRAR NO"
+  }
+]
