@@ -1,34 +1,26 @@
 [
   {
-    "id": "7085176",
-    "pregunta": "Will Bitcoin dip to $63,000 on November 16?",
-    "ts": "2026-11-16T00:29:34.641609",
+    "id": "5971398",
+    "pregunta": "Next Astra Model (6.1+) released by November 30, 2026?",
+    "ts": "2026-11-16T00:40:52.506969",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd5a643204bbf5bc36438565ea52fde8d9b4c6991",
+    "whale_wallet": "0xe54689ea6a201ad110e0a50389a60e5cf37728a6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085161",
-    "pregunta": "Will Bitcoin reach $67,000 on November 16?",
-    "ts": "2026-11-16T00:29:37.397856",
+    "id": "5997213",
+    "pregunta": "Next Astra Model (6.1+) released by December 15, 2026?",
+    "ts": "2026-11-16T00:40:53.525056",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7375ea40f0cbe71cf3fe1b280510ac2f2e3e572c",
+    "whale_wallet": "0xe54689ea6a201ad110e0a50389a60e5cf37728a6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085166",
-    "pregunta": "Will Bitcoin reach $66,000 on November 16?",
-    "ts": "2026-11-16T00:29:38.436857",
+    "id": "7029789",
+    "pregunta": "Will Qatar join the Mecca Agreement by December 31, 2027?",
+    "ts": "2026-11-16T00:40:55.993046",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7375ea40f0cbe71cf3fe1b280510ac2f2e3e572c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085199",
-    "pregunta": "Will Ethereum reach $1,900 on November 16?",
-    "ts": "2026-11-16T00:29:39.474639",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7375ea40f0cbe71cf3fe1b280510ac2f2e3e572c",
+    "whale_wallet": "0x696edc2469b75087e4717689cd78ac5a279ff5c4",
     "whale_signal": "COMPRAR NO"
   }
 ]
