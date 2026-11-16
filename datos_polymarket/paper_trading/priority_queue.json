@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-16T04:59:31.611012",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x19f1fa6fa9c7481c11cc172d1229240d5511599e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6990958",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 19?",
+    "ts": "2026-11-16T04:59:33.459503",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085164",
+    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
+    "ts": "2026-11-16T04:59:34.567505",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
