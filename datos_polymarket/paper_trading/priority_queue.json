@@ -1,26 +1,42 @@
 [
   {
-    "id": "1393325",
-    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
-    "ts": "2026-11-16T13:08:51.256957",
+    "id": "6998286",
+    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
+    "ts": "2026-11-16T13:20:04.136683",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc4567fe2a835b23f40db07f567ba0efbbdc98996",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6172754",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
-    "ts": "2026-11-16T13:08:53.195085",
+    "id": "7058466",
+    "pregunta": "Will the highest temperature in Helsinki be 7\u00b0C on November 17?",
+    "ts": "2026-11-16T13:20:06.973431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-16T13:08:56.089390",
+    "id": "7058465",
+    "pregunta": "Will the highest temperature in Helsinki be 6\u00b0C on November 17?",
+    "ts": "2026-11-16T13:20:08.032003",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
+    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085920",
+    "pregunta": "Will the highest temperature in Helsinki be 6\u00b0C on November 18?",
+    "ts": "2026-11-16T13:20:09.195165",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085921",
+    "pregunta": "Will the highest temperature in Helsinki be 7\u00b0C on November 18?",
+    "ts": "2026-11-16T13:20:10.343575",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2f98dcd32590ad0261df6b0431a365704a94e397",
     "whale_signal": "COMPRAR NO"
   }
 ]
