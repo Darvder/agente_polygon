@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-16T05:59:32.512718",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xed7b5823a08f1fe610e7b97ca22af74125055cbe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6771183",
+    "pregunta": "Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?",
+    "ts": "2026-11-16T05:59:35.659036",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcdba1f69b63b8f9eccd5a8d13bbe5c5e7caee7a2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
