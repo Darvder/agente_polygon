@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2965189",
+    "pregunta": "Will Jensen Huang be the #1 searched person on Google this year?",
+    "ts": "2026-11-16T10:00:41.137432",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2293862",
+    "pregunta": "Callum Turner announced as next James Bond?",
+    "ts": "2026-11-16T10:00:43.576798",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa9aca75fb5d8f04c2ec9eeb0eb0c30d2e526c5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5234654",
+    "pregunta": "Will Russia capture all of Kostyantynivka by March 31, 2027?",
+    "ts": "2026-11-16T10:00:47.368382",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x741d9afd772554262a3c319e4e26cfa9d922e35c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
