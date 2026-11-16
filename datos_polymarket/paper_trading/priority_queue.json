@@ -1,10 +1,18 @@
 [
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-16T10:10:26.975430",
+    "id": "2293862",
+    "pregunta": "Callum Turner announced as next James Bond?",
+    "ts": "2026-11-16T10:19:01.061113",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff8ff68968f1577e6811afc7755e2700c0ff47bf",
+    "whale_wallet": "0xe1e24a2ae12c8af2f41ac91fea3928423e039629",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6698731",
+    "pregunta": "Next James Bond announced by December 15, 2026?",
+    "ts": "2026-11-16T10:19:02.120043",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1e24a2ae12c8af2f41ac91fea3928423e039629",
     "whale_signal": "COMPRAR NO"
   }
 ]
