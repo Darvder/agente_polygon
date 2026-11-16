@@ -1,34 +1,10 @@
 [
   {
-    "id": "2750319",
-    "pregunta": "Will no listed leader be out before 2027?",
-    "ts": "2026-11-15T20:27:11.305429",
+    "id": "6909217",
+    "pregunta": "Will the price of Bitcoin be above $66,000 on November 16?",
+    "ts": "2026-11-15T20:40:49.905562",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x58aa47a2e3e0396f8c09259d87990db12e56a481",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2750302",
-    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
-    "ts": "2026-11-15T20:27:13.192146",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831494",
-    "pregunta": "US x Iran Effective Ceasefire by November 15?",
-    "ts": "2026-11-15T20:27:15.024742",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2a58cb03e4934ca46d03d80a3e531879402fb808",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4199438",
-    "pregunta": "Will USD be between 2.5M and 3.0M Iranian rials on December 31?",
-    "ts": "2026-11-15T20:27:18.309128",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2a58cb03e4934ca46d03d80a3e531879402fb808",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
