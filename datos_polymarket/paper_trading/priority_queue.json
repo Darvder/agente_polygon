@@ -1,10 +1,34 @@
 [
   {
-    "id": "567688",
-    "pregunta": "Netanyahu out by end of 2026?",
-    "ts": "2026-11-16T13:30:27.285719",
+    "id": "7018717",
+    "pregunta": "Will Ethereum reach $2,000 in November?",
+    "ts": "2026-11-16T13:39:42.425563",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19f20f9ba84cdd12f566f471e89c5b93ce300121",
+    "whale_wallet": "0x6cb273aa20efc1bee3e14b8641917181d56d99a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6991224",
+    "pregunta": "Will Ethereum reach $2,100 in November?",
+    "ts": "2026-11-16T13:39:43.471115",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6cb273aa20efc1bee3e14b8641917181d56d99a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363844",
+    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
+    "ts": "2026-11-16T13:39:47.733393",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999516",
+    "pregunta": "Will 4 Jensen Huang affairs be reported by December 31?",
+    "ts": "2026-11-16T13:39:51.142509",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
     "whale_signal": "COMPRAR NO"
   }
 ]
