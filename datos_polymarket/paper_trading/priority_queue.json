@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "6935908",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 17?",
+    "ts": "2026-11-16T07:29:15.551125",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67ca58b9a9806e27eeb7475eaf286e0590dd93b6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
