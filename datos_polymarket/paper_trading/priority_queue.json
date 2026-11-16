@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "7027911",
+    "pregunta": "Will the Fed hike-hike-hike in the next three decisions (Dec-Jan-Mar)?",
+    "ts": "2026-11-16T15:39:25.532088",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe89905ca9a689f5129621b62fcf715b5a45b88c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7027912",
+    "pregunta": "Will the Fed hike-hike-pause in the next three decisions (Dec-Jan-Mar)?",
+    "ts": "2026-11-16T15:39:26.599852",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe89905ca9a689f5129621b62fcf715b5a45b88c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7027913",
+    "pregunta": "Will the Fed hike-pause-hike in the next three decisions (Dec-Jan-Mar)?",
+    "ts": "2026-11-16T15:39:27.759110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe89905ca9a689f5129621b62fcf715b5a45b88c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029777",
+    "pregunta": "Moscow air traffic suspended by November 30?",
+    "ts": "2026-11-16T15:39:31.406139",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029778",
+    "pregunta": "Moscow air traffic suspended by December 31?",
+    "ts": "2026-11-16T15:39:32.466597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
