@@ -1,10 +1,18 @@
 [
   {
-    "id": "666665",
-    "pregunta": "Will Howard Lutnick leave the Trump administration before 2027?",
-    "ts": "2026-11-15T23:40:17.599390",
+    "id": "6770166",
+    "pregunta": "Will the next Qwen Max model (3.9+) debut at a score of at least 1480 by June 30, 2027?",
+    "ts": "2026-11-15T23:48:41.000520",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecef7a84f071df83cd6a8c40561ac2f8f28275fa",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6770165",
+    "pregunta": "Will the next Qwen Max model (3.9+) debut at a score of at least 1460 by June 30, 2027?",
+    "ts": "2026-11-15T23:48:42.179268",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
     "whale_signal": "COMPRAR NO"
   }
 ]
