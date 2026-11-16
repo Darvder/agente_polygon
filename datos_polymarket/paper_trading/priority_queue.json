@@ -1,18 +1,26 @@
 [
   {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-16T05:10:30.844253",
+    "id": "6994511",
+    "pregunta": "Will Jensen Huang publicly testify before Congress by March 31, 2027?",
+    "ts": "2026-11-16T05:21:12.487977",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf92a950992181e21874dd1b36c7e5666c443a517",
+    "whale_wallet": "0xf27de6607cbd15be1133619b9807ff63fb86e6d3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1393324",
-    "pregunta": "Predict.fun FDV above $1B one day after launch?",
-    "ts": "2026-11-16T05:10:32.643428",
+    "id": "6994514",
+    "pregunta": "Will Jensen Huang publicly testify before Congress by June 30, 2027?",
+    "ts": "2026-11-16T05:21:13.670866",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3fdf9e7302b8644bf6c780b053d8c64011d59d95",
+    "whale_wallet": "0xf27de6607cbd15be1133619b9807ff63fb86e6d3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1426259",
+    "pregunta": "Will Export-control chip security become law this year?",
+    "ts": "2026-11-16T05:21:14.852574",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf27de6607cbd15be1133619b9807ff63fb86e6d3",
     "whale_signal": "COMPRAR NO"
   }
 ]
