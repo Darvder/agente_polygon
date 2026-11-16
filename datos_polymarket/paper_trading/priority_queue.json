@@ -1,18 +1,26 @@
 [
   {
-    "id": "4599796",
-    "pregunta": "Israeli airspace closed by December 31, 2026?",
-    "ts": "2026-11-16T08:41:09.580861",
+    "id": "2695686",
+    "pregunta": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+    "ts": "2026-11-16T08:51:43.339422",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8afa03dd6974e44d00c4d14dcccb00c0ddf6adb6",
+    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-16T08:51:44.360038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6919847",
     "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-16T08:41:11.658930",
+    "ts": "2026-11-16T08:51:45.382313",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
     "whale_signal": "COMPRAR NO"
   }
 ]
