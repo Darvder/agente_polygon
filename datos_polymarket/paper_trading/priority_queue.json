@@ -1,10 +1,26 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-16T16:21:26.702087",
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-16T16:27:51.669172",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd9c2f88c289444569cf10194f38da24dcad98341",
+    "whale_wallet": "0xd72654f5ab87e3a636715ad63dc5f8ea1279b5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6631535",
+    "pregunta": "Exact Score: Greece 1 - 0 Serbia?",
+    "ts": "2026-11-16T16:28:00.537393",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa4cf6e3699a409e580059808ddb8eaff7ebb3e8c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6631607",
+    "pregunta": "Exact Score: Germany 5 - 1 Netherlands?",
+    "ts": "2026-11-16T16:28:02.327378",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
     "whale_signal": "COMPRAR NO"
   }
 ]
