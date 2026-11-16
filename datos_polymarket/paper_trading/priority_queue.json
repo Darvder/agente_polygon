@@ -1,26 +1,18 @@
 [
   {
-    "id": "1796706",
-    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
-    "ts": "2026-11-16T04:59:31.611012",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-16T05:10:30.844253",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19f1fa6fa9c7481c11cc172d1229240d5511599e",
+    "whale_wallet": "0xf92a950992181e21874dd1b36c7e5666c443a517",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6990958",
-    "pregunta": "Will the price of Bitcoin be above $66,000 on November 19?",
-    "ts": "2026-11-16T04:59:33.459503",
+    "id": "1393324",
+    "pregunta": "Predict.fun FDV above $1B one day after launch?",
+    "ts": "2026-11-16T05:10:32.643428",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085164",
-    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
-    "ts": "2026-11-16T04:59:34.567505",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0x3fdf9e7302b8644bf6c780b053d8c64011d59d95",
     "whale_signal": "COMPRAR NO"
   }
 ]
