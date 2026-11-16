@@ -1,34 +1,50 @@
 [
   {
-    "id": "6998285",
-    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-    "ts": "2026-11-15T21:59:53.234958",
+    "id": "6991123",
+    "pregunta": "Will Elon Musk post 115-139 tweets from November 14 to November 16, 2026?",
+    "ts": "2026-11-15T22:08:58.542065",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_wallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-15T21:59:54.303517",
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-15T22:09:00.429120",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_wallet": "0x1853ece84ea96629e5ada0ed9d198fcbbf70ef5d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5765888",
-    "pregunta": "JD Vance 2028 presidential odds leader on November 30?",
-    "ts": "2026-11-15T21:59:56.997328",
+    "id": "7062061",
+    "pregunta": "Will the highest temperature in Atlanta be between 64-65\u00b0F on November 17?",
+    "ts": "2026-11-15T22:09:02.453208",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0x6b97ebe911d7f2e5e3e8c4a0faad4a5c7c0b8d30",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6658605",
-    "pregunta": "Rubio's Republican nomination odds hit 25% by December 31?",
-    "ts": "2026-11-15T21:59:58.146269",
+    "id": "7058723",
+    "pregunta": "Will the lowest temperature in Seoul (Incheon) be 10\u00b0C on November 17?",
+    "ts": "2026-11-15T22:09:03.640348",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0x6b97ebe911d7f2e5e3e8c4a0faad4a5c7c0b8d30",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7063316",
+    "pregunta": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on November 17?",
+    "ts": "2026-11-15T22:09:04.682594",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6b97ebe911d7f2e5e3e8c4a0faad4a5c7c0b8d30",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7062106",
+    "pregunta": "Will the highest temperature in Houston be between 68-69\u00b0F on November 17?",
+    "ts": "2026-11-15T22:09:05.720483",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6b97ebe911d7f2e5e3e8c4a0faad4a5c7c0b8d30",
     "whale_signal": "COMPRAR NO"
   }
 ]
