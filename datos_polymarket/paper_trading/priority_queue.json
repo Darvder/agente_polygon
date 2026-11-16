@@ -1,10 +1,18 @@
 [
   {
-    "id": "561229",
-    "pregunta": "Will JD Vance win the 2028 US Presidential Election?",
-    "ts": "2026-11-16T16:49:29.269265",
+    "id": "7085173",
+    "pregunta": "Will Bitcoin dip to $60,000 November 16-22?",
+    "ts": "2026-11-16T17:01:11.749200",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0191d054a638baf04c1002fc1e11b0978dd0541d",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085166",
+    "pregunta": "Will Bitcoin reach $66,000 on November 16?",
+    "ts": "2026-11-16T17:01:12.948425",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
