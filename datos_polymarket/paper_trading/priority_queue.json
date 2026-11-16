@@ -1,10 +1,34 @@
 [
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-15T19:00:34.526892",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-15T19:11:43.078373",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc5200e2eed92ece3793de9159fa1a25ae2d90455",
+    "whale_wallet": "0x5e55d8b6f4a2c0bc3c1215cc1a1c22d822309a76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-15T19:11:44.149941",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5e55d8b6f4a2c0bc3c1215cc1a1c22d822309a76",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6934596",
+    "pregunta": "Will MrBeast's next video get between 100 and 110 million views on week 1?",
+    "ts": "2026-11-15T19:11:46.142596",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9db42cd8186e1547c85bb80f2616af109c88dc1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6934594",
+    "pregunta": "Will MrBeast's next video get between 80 and 90 million views on week 1?",
+    "ts": "2026-11-15T19:11:47.237976",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9db42cd8186e1547c85bb80f2616af109c88dc1",
     "whale_signal": "COMPRAR NO"
   }
 ]
