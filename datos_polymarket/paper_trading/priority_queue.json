@@ -1,10 +1,66 @@
 [
   {
-    "id": "1796706",
-    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
-    "ts": "2026-11-16T12:10:38.253138",
+    "id": "7018478",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 20?",
+    "ts": "2026-11-16T12:17:42.594080",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe25e259131c5345bf628ddcad4a2c4dce17f8440",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7073906",
+    "pregunta": "Will the price of XRP be between $0.80 and $0.90 on November 22?",
+    "ts": "2026-11-16T12:17:43.748826",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018538",
+    "pregunta": "Will the price of XRP be between $0.80 and $0.90 on November 20?",
+    "ts": "2026-11-16T12:17:44.908912",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7042972",
+    "pregunta": "Will the price of XRP be between $0.80 and $0.90 on November 21?",
+    "ts": "2026-11-16T12:17:46.077877",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6934596",
+    "pregunta": "Will MrBeast's next video get between 100 and 110 million views on week 1?",
+    "ts": "2026-11-16T12:17:48.008113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe904443b4084bbda216e344353a44cd4324a2d9f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018613",
+    "pregunta": "Will \"Stop The Wedding! - Ashe\" be the #2 US song this week?",
+    "ts": "2026-11-16T12:17:49.065027",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe904443b4084bbda216e344353a44cd4324a2d9f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2506300",
+    "pregunta": "Will Lil Uzi Vert release an album in 2026? ",
+    "ts": "2026-11-16T12:17:50.103404",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe904443b4084bbda216e344353a44cd4324a2d9f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-16T12:17:51.971953",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80a0da00fbdc8440b0ef601341f14c3e24795708",
     "whale_signal": "COMPRAR NO"
   }
 ]
