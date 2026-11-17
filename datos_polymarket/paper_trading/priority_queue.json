@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-17T14:37:48.403785",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa811f46789ddf562c1ceee7a6134b7512a07ad9e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-17T14:37:50.260738",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-17T14:37:52.091784",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x205bdf587a5f67f608cbd42724e2d568c1558edf",
+    "whale_signal": "COMPRAR NO"
+  }
+]
