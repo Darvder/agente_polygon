@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6172754",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
+    "ts": "2026-11-17T18:07:43.069071",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7074444",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-17T18:07:44.116596",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-17T18:07:45.162601",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  }
+]
