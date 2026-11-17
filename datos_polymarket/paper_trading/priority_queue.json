@@ -1,58 +1,26 @@
 [
   {
-    "id": "4906129",
-    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
-    "ts": "2026-11-17T16:10:15.871343",
+    "id": "7074444",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-17T16:21:40.687812",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8575467a6743c81ef0a8d06acc76e99b454a87fe",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6171356",
-    "pregunta": "Will Amazon.com, Inc. (AMZN) hit (LOW) $240 in November?",
-    "ts": "2026-11-17T16:10:17.728483",
+    "id": "6507441",
+    "pregunta": "Will Solana dip to $60 in November?",
+    "ts": "2026-11-17T16:21:41.826976",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6436631",
-    "pregunta": "Will Micron (MU) close above $780 end of November?",
-    "ts": "2026-11-17T16:10:18.846240",
+    "id": "3721702",
+    "pregunta": "Will Anthropic's IPO valuation be between $1.25T and $1.50T?",
+    "ts": "2026-11-17T16:21:44.631172",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121572",
-    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 24?",
-    "ts": "2026-11-17T16:10:19.965302",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7097176",
-    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 23?",
-    "ts": "2026-11-17T16:10:21.083302",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7073693",
-    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 22?",
-    "ts": "2026-11-17T16:10:22.209064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7018504",
-    "pregunta": "Will the price of Solana be above $70 on November 20?",
-    "ts": "2026-11-17T16:10:23.333176",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_wallet": "0xa9f8378fa46d2fe79c687c764ada57284ba45456",
     "whale_signal": "COMPRAR NO"
   }
 ]
