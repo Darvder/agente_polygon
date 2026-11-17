@@ -1,18 +1,34 @@
 [
   {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-17T08:23:01.491951",
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-17T08:29:55.573220",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd67ba35aef659c872377a5ac2becb7ada7f85780",
+    "whale_wallet": "0x1dc6b96ceadba97b27d75a72472503e719acfb06",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831494",
-    "pregunta": "US x Iran Effective Ceasefire by November 15?",
-    "ts": "2026-11-17T08:23:02.517393",
+    "id": "678447",
+    "pregunta": "Will Avengers: Doomsday have the best domestic opening weekend in 2026?",
+    "ts": "2026-11-17T08:30:00.287660",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd67ba35aef659c872377a5ac2becb7ada7f85780",
+    "whale_wallet": "0x6640bd87f6e4b6e8d62457448bd1b3a4711a2202",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3055228",
+    "pregunta": "Will Spider-Man: Brand New Day have the 2nd best domestic opening weekend in 2026?",
+    "ts": "2026-11-17T08:30:01.326581",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6640bd87f6e4b6e8d62457448bd1b3a4711a2202",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2000379",
+    "pregunta": "Will Avengers: Doomsday have the best domestic opening week in 2026?",
+    "ts": "2026-11-17T08:30:02.373453",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6640bd87f6e4b6e8d62457448bd1b3a4711a2202",
     "whale_signal": "COMPRAR NO"
   }
 ]
