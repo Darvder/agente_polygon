@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7018013",
+    "pregunta": "Fourth Jensen Huang affair reported by November 20?",
+    "ts": "2026-11-17T02:39:42.351778",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-17T02:39:47.130146",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x212f7fc77c18c6ce34bb1dae43e9198ab19b7fd2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
