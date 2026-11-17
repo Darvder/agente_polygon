@@ -1,50 +1,26 @@
 [
   {
-    "id": "7109828",
-    "pregunta": "Will Ethereum reach $1,850 on November 17?",
-    "ts": "2026-11-17T06:08:29.471778",
+    "id": "6507424",
+    "pregunta": "Will Ethereum dip to $1,700 in November?",
+    "ts": "2026-11-17T06:23:46.863460",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xc6ed8a225369a4920e7d779d969788de35ac6327",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7109751",
-    "pregunta": "Will Bitcoin reach $66,000 on November 17?",
-    "ts": "2026-11-17T06:08:31.506464",
+    "id": "1571985",
+    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
+    "ts": "2026-11-17T06:23:49.472040",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xe80fa37ec3c8a4043e04b28b1a053785325d3354",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "682705",
-    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-11-17T06:08:33.199084",
+    "id": "7085164",
+    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
+    "ts": "2026-11-17T06:23:52.126831",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84f947e419f3197b47154372d61fb2e76d613453",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6744351",
-    "pregunta": "Will the match end in a draw?",
-    "ts": "2026-11-17T06:08:34.883854",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe068f90953cdc6e918ef66ebbf202b9988c33289",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6030041",
-    "pregunta": "Will PSOE win the most seats in Las Palmas in the 2026 Spanish general election?",
-    "ts": "2026-11-17T06:08:37.632742",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6029625",
-    "pregunta": "Will PSOE win the most seats in C\u00e1diz in the 2026 Spanish general election?",
-    "ts": "2026-11-17T06:08:38.648978",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
