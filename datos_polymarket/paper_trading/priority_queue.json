@@ -1,10 +1,18 @@
 [
   {
-    "id": "7107381",
-    "pregunta": "Jean-Luc M\u00e9lenchon French presidential odds runner-up on December 31?",
-    "ts": "2026-11-17T05:39:09.264813",
+    "id": "6366111",
+    "pregunta": "Will the next Fable model (5.2+) debut in the top 5 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-17T05:47:45.333050",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x805a922574d7d6b158b7bbb49a6fa8925eb60635",
+    "whale_wallet": "0x7dff73963ab261ee6b673b1af34cef0a09fc1f35",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018013",
+    "pregunta": "Fourth Jensen Huang affair reported by November 20?",
+    "ts": "2026-11-17T05:47:46.380219",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7dff73963ab261ee6b673b1af34cef0a09fc1f35",
     "whale_signal": "COMPRAR NO"
   }
 ]
