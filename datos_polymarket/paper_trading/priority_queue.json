@@ -1,18 +1,42 @@
 [
   {
-    "id": "7018013",
-    "pregunta": "Fourth Jensen Huang affair reported by November 20?",
-    "ts": "2026-11-17T02:39:42.351778",
+    "id": "6070879",
+    "pregunta": "Will the 30-year Treasury yield hit 5.50% before 2027?",
+    "ts": "2026-11-17T02:49:28.062580",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-17T02:39:47.130146",
+    "id": "4178739",
+    "pregunta": "Will the 30-year Treasury yield dip below 5.15% before 2027?",
+    "ts": "2026-11-17T02:49:30.472951",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x212f7fc77c18c6ce34bb1dae43e9198ab19b7fd2",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-17T02:49:31.721586",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-17T02:49:34.607947",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x24321d12a64cb847650e306edfe817cfd1243ef5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3344896",
+    "pregunta": "Will Grand Theft Auto VI win Game of the Year at the 2026 Game Awards?",
+    "ts": "2026-11-17T02:49:37.638254",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4cb5ec560735efca23f76f2dd152b74bc6a9b536",
     "whale_signal": "COMPRAR NO"
   }
 ]
