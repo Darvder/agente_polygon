@@ -1,10 +1,42 @@
 [
   {
-    "id": "7048646",
-    "pregunta": "Will the 7-day average ship traffic through the Strait of Hormuz reach 10+ by December 31?",
-    "ts": "2026-11-17T10:40:05.417655",
+    "id": "6327024",
+    "pregunta": "Will Harry Kane win the 2026 BBC Sports Personality of the Year award?",
+    "ts": "2026-11-17T10:51:41.713924",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff06e8c95b984f236a08be2c4b9909be306c2f60",
+    "whale_wallet": "0x33287eae7e55b86c9b4cf4c53444f062d2dbe6b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7092206",
+    "pregunta": "Will Meta (META) close above $620 on November 17?",
+    "ts": "2026-11-17T10:51:45.545830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6172593",
+    "pregunta": "Will S&P 500 (SPY) hit (LOW) $710 in November?",
+    "ts": "2026-11-17T10:51:47.586370",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7092213",
+    "pregunta": "Will Tesla (TSLA) close above $370 on November 17?",
+    "ts": "2026-11-17T10:51:49.632580",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7092180",
+    "pregunta": "Will Apple (AAPL) close above $350 on November 17?",
+    "ts": "2026-11-17T10:51:50.653639",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
     "whale_signal": "COMPRAR NO"
   }
 ]
