@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "3072354",
+    "pregunta": "Will the highest score achieved by an OpenAI model on Humanity\u2019s Last Exam in 2026 be 65% or higher?",
+    "ts": "2026-11-17T13:59:21.693125",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6017631",
+    "pregunta": "Will GPT Astra 6.1+ debut at a score of at least 1460 by June 30, 2027?",
+    "ts": "2026-11-17T13:59:22.875237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7121858",
+    "pregunta": "Will claude-opus-5.5-high be the best AI model on November 30, 2026?",
+    "ts": "2026-11-17T13:59:24.067814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6366008",
+    "pregunta": "Will GPT Astra 6.1+ debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",
+    "ts": "2026-11-17T13:59:25.105449",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
