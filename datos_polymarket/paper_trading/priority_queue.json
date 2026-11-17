@@ -1,82 +1,18 @@
 [
   {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-17T13:30:54.663612",
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-17T13:41:17.769241",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7097127",
-    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 23?",
-    "ts": "2026-11-17T13:30:56.699503",
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-17T13:41:18.790694",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7018538",
-    "pregunta": "Will the price of XRP be between $0.80 and $0.90 on November 20?",
-    "ts": "2026-11-17T13:30:57.848704",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121572",
-    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 24?",
-    "ts": "2026-11-17T13:30:59.026203",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7073785",
-    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 22?",
-    "ts": "2026-11-17T13:31:00.082094",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7042758",
-    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 21?",
-    "ts": "2026-11-17T13:31:01.248461",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7073693",
-    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 22?",
-    "ts": "2026-11-17T13:31:02.403851",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6990956",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 19?",
-    "ts": "2026-11-17T13:31:03.563443",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121618",
-    "pregunta": "Will the price of XRP be between $0.80 and $0.90 on November 24?",
-    "ts": "2026-11-17T13:31:04.624435",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1383905",
-    "pregunta": "Extended FDV above $150M one day after launch?",
-    "ts": "2026-11-17T13:31:08.503106",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4fca270d2cf7df3ad90e490d3c0e4a916c83f72e",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   }
 ]
