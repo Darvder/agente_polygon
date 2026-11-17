@@ -1,10 +1,26 @@
 [
   {
-    "id": "6990918",
-    "pregunta": "Will the price of Ethereum be above $1,900 on November 19?",
-    "ts": "2026-11-17T17:42:52.857615",
+    "id": "7018613",
+    "pregunta": "Will \"Stop The Wedding! - Ashe\" be the #2 US song this week?",
+    "ts": "2026-11-17T17:52:17.146651",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x301e286fd88abb7cda0a19a24e4dc4823c4db752",
+    "whale_wallet": "0xf95355e830cb59796c94768cf0545d620c16a86b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5426105",
+    "pregunta": "Syrian troops enter Yemen by December 31, 2026?",
+    "ts": "2026-11-17T17:52:20.177867",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-17T17:52:21.372715",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
     "whale_signal": "COMPRAR NO"
   }
 ]
