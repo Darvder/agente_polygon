@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "7109751",
+    "pregunta": "Will Bitcoin reach $66,000 on November 17?",
+    "ts": "2026-11-17T05:29:44.333187",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7109828",
+    "pregunta": "Will Ethereum reach $1,850 on November 17?",
+    "ts": "2026-11-17T05:29:45.478924",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7109840",
+    "pregunta": "Will Ethereum dip to $1,700 on November 17?",
+    "ts": "2026-11-17T05:29:48.643296",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6625211",
+    "pregunta": "Will GPT Astra 6.1+ be released on November 17, 2026?",
+    "ts": "2026-11-17T05:29:50.357295",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f0df9d4a214123ccd4fff298ea32fe0e939e2d2",
+    "whale_signal": "COMPRAR NO"
+  }
+]
