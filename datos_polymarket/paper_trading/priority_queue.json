@@ -1,10 +1,18 @@
 [
   {
-    "id": "1339767",
-    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-    "ts": "2026-11-16T19:59:28.700132",
+    "id": "4824875",
+    "pregunta": "Will \"GTA VI: The Album\" first week sales be at least 100k?",
+    "ts": "2026-11-16T20:13:12.524838",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-16T20:13:23.922143",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   }
 ]
