@@ -1,10 +1,58 @@
 [
   {
-    "id": "6771186",
-    "pregunta": "Will Elon Musk post 280-299 tweets from November 10 to November 17, 2026?",
-    "ts": "2026-11-17T03:23:06.456489",
+    "id": "7109751",
+    "pregunta": "Will Bitcoin reach $66,000 on November 17?",
+    "ts": "2026-11-17T03:30:53.154170",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x69645cea639e7a19cbde6c126a197bc1abafef53",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7109757",
+    "pregunta": "Will Bitcoin dip to $64,000 on November 17?",
+    "ts": "2026-11-17T03:30:54.363457",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7109823",
+    "pregunta": "Will Ethereum reach $1,900 on November 17?",
+    "ts": "2026-11-17T03:30:56.643193",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-17T03:30:58.588425",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9e2284d36004cee8af1dd4c4c58e281923e0475",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "559661",
+    "pregunta": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+    "ts": "2026-11-17T03:31:01.430711",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe6f31fc5c16674526fdf18b5146d8d597b102568",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "561974",
+    "pregunta": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+    "ts": "2026-11-17T03:31:03.570117",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe6f31fc5c16674526fdf18b5146d8d597b102568",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-17T03:31:04.639235",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe6f31fc5c16674526fdf18b5146d8d597b102568",
     "whale_signal": "COMPRAR NO"
   }
 ]
