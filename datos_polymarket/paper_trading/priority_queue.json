@@ -1,26 +1,18 @@
 [
   {
-    "id": "6771183",
-    "pregunta": "Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?",
-    "ts": "2026-11-17T02:09:23.004600",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-17T02:18:58.144607",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x750545482cf883fcd5e7f7ad8e14d3f61a322978",
+    "whale_wallet": "0x2b51107e8d030397ea728a794405ffbcf1d2e165",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6919851",
-    "pregunta": "Will Rene Haas be the next CEO of NVIDIA?",
-    "ts": "2026-11-17T02:09:25.769613",
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-17T02:18:59.163659",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaa99a6c279d34492683db6ff1818aa1f8485dbbf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7018707",
-    "pregunta": "Will Bitcoin reach $70,000 in November?",
-    "ts": "2026-11-17T02:09:27.611423",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa4f264bba1f15cd324180f01d887114e8b8e3263",
+    "whale_wallet": "0x2b51107e8d030397ea728a794405ffbcf1d2e165",
     "whale_signal": "COMPRAR NO"
   }
 ]
