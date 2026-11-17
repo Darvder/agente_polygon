@@ -1,98 +1,42 @@
 [
   {
+    "id": "3251265",
+    "pregunta": "Will Erling Braut Haaland be the #1 searched athlete on Google this year?",
+    "ts": "2026-11-16T23:39:39.067309",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4425465",
+    "pregunta": "Will Lionel Messi rank in Google\u2019s Top 5 Most Searched Athletes of 2026?",
+    "ts": "2026-11-16T23:39:40.102248",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "1796706",
     "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
-    "ts": "2026-11-16T23:30:24.728955",
+    "ts": "2026-11-16T23:39:41.134774",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6404bfa37fe830e29ee8967e1c3b2a8091d5f250",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7018013",
-    "pregunta": "Fourth Jensen Huang affair reported by November 20?",
-    "ts": "2026-11-16T23:30:25.764866",
+    "id": "4425463",
+    "pregunta": "Will Lamine Yamal rank in Google\u2019s Top 5 Most Searched Athletes of 2026?",
+    "ts": "2026-11-16T23:39:42.313570",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6404bfa37fe830e29ee8967e1c3b2a8091d5f250",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7062071",
-    "pregunta": "Will the highest temperature in Miami be between 78-79\u00b0F on November 17?",
-    "ts": "2026-11-16T23:30:27.619906",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-16T23:39:44.174198",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7062094",
-    "pregunta": "Will the highest temperature in Austin be between 66-67\u00b0F on November 17?",
-    "ts": "2026-11-16T23:30:28.749764",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085674",
-    "pregunta": "Will the highest temperature in Lucknow be 28\u00b0C on November 18?",
-    "ts": "2026-11-16T23:30:29.785175",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085889",
-    "pregunta": "Will the highest temperature in Busan be 14\u00b0C on November 18?",
-    "ts": "2026-11-16T23:30:30.906422",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085844",
-    "pregunta": "Will the highest temperature in Shenzhen be 26\u00b0C on November 18?",
-    "ts": "2026-11-16T23:30:32.032947",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085846",
-    "pregunta": "Will the highest temperature in Shenzhen be 28\u00b0C on November 18?",
-    "ts": "2026-11-16T23:30:33.068222",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7062049",
-    "pregunta": "Will the highest temperature in Dallas be between 64-65\u00b0F on November 17?",
-    "ts": "2026-11-16T23:30:34.191780",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085661",
-    "pregunta": "Will the highest temperature in Wellington be 19\u00b0C on November 18?",
-    "ts": "2026-11-16T23:30:35.227900",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085906",
-    "pregunta": "Will the highest temperature in Amsterdam be 12\u00b0C on November 18?",
-    "ts": "2026-11-16T23:30:36.263208",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7062095",
-    "pregunta": "Will the highest temperature in Austin be between 68-69\u00b0F on November 17?",
-    "ts": "2026-11-16T23:30:37.301269",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_wallet": "0x048a9d673a40171a1cf44ef518893d35fdf09be4",
     "whale_signal": "COMPRAR NO"
   }
 ]
