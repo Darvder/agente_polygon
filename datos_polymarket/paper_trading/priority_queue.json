@@ -1,34 +1,26 @@
 [
   {
-    "id": "3072354",
-    "pregunta": "Will the highest score achieved by an OpenAI model on Humanity\u2019s Last Exam in 2026 be 65% or higher?",
-    "ts": "2026-11-17T13:59:21.693125",
+    "id": "1399396",
+    "pregunta": "Will there be between 115m and 120m votes cast in the 2026 U.S. House of Representatives midterm elections?",
+    "ts": "2026-11-17T14:14:49.266932",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_wallet": "0x072afc0a066adc5b75c989de372adb952268cee6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6017631",
-    "pregunta": "Will GPT Astra 6.1+ debut at a score of at least 1460 by June 30, 2027?",
-    "ts": "2026-11-17T13:59:22.875237",
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-17T14:14:50.289133",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_wallet": "0x072afc0a066adc5b75c989de372adb952268cee6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7121858",
-    "pregunta": "Will claude-opus-5.5-high be the best AI model on November 30, 2026?",
-    "ts": "2026-11-17T13:59:24.067814",
+    "id": "701578",
+    "pregunta": "Will Solana dip to $60 by December 31, 2026?",
+    "ts": "2026-11-17T14:14:53.832433",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6366008",
-    "pregunta": "Will GPT Astra 6.1+ debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",
-    "ts": "2026-11-17T13:59:25.105449",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
