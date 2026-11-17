@@ -1,66 +1,10 @@
 [
   {
-    "id": "6910695",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in November?",
-    "ts": "2026-11-17T10:28:55.082768",
+    "id": "7048646",
+    "pregunta": "Will the 7-day average ship traffic through the Strait of Hormuz reach 10+ by December 31?",
+    "ts": "2026-11-17T10:40:05.417655",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6172754",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
-    "ts": "2026-11-17T10:28:56.117300",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6685525",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in November?",
-    "ts": "2026-11-17T10:28:57.157291",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-17T10:29:01.719078",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3902370",
-    "pregunta": "Israel x Iran ceasefire continues through November 30?",
-    "ts": "2026-11-17T10:29:03.791810",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831494",
-    "pregunta": "US x Iran Effective Ceasefire by November 15?",
-    "ts": "2026-11-17T10:29:04.826562",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6353938",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the April 2027 meeting?",
-    "ts": "2026-11-17T10:29:05.961752",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7027911",
-    "pregunta": "Will the Fed hike-hike-hike in the next three decisions (Dec-Jan-Mar)?",
-    "ts": "2026-11-17T10:29:06.996278",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
+    "whale_wallet": "0xff06e8c95b984f236a08be2c4b9909be306c2f60",
     "whale_signal": "COMPRAR NO"
   }
 ]
