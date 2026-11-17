@@ -1,18 +1,26 @@
 [
   {
-    "id": "6831494",
-    "pregunta": "US x Iran Effective Ceasefire by November 15?",
-    "ts": "2026-11-17T08:41:28.723649",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-17T08:51:57.707372",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd20b71c94cf1329b7042fa4d976b60663c463a20",
+    "whale_wallet": "0xee401f5405fcf646c0cc0e72758f4a9df6c23333",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-17T08:41:30.577498",
+    "id": "2110752",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-17T08:51:59.757227",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x80a0da00fbdc8440b0ef601341f14c3e24795708",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215012",
+    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
+    "ts": "2026-11-17T08:52:00.799402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
