@@ -1,18 +1,26 @@
 [
   {
-    "id": "6831493",
-    "pregunta": "US x Iran Effective Ceasefire by November 8?",
-    "ts": "2026-11-16T19:30:33.689746",
+    "id": "1393325",
+    "pregunta": "Predict.fun FDV above $1.5B one day after launch?",
+    "ts": "2026-11-16T19:39:28.211375",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_wallet": "0xa778e8d4ed1cebd17521e138bbb9ba57a4e38ce5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2363844",
-    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
-    "ts": "2026-11-16T19:30:34.734171",
+    "id": "1393324",
+    "pregunta": "Predict.fun FDV above $1B one day after launch?",
+    "ts": "2026-11-16T19:39:29.234913",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_wallet": "0xa778e8d4ed1cebd17521e138bbb9ba57a4e38ce5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018707",
+    "pregunta": "Will Bitcoin reach $70,000 in November?",
+    "ts": "2026-11-16T19:39:30.876011",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
