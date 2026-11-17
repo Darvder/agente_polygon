@@ -1,10 +1,18 @@
 [
   {
-    "id": "6771183",
-    "pregunta": "Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?",
-    "ts": "2026-11-16T23:14:38.952166",
+    "id": "5609864",
+    "pregunta": "Ilhan Omar federally charged by December 31?",
+    "ts": "2026-11-16T23:20:57.400876",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_wallet": "0x6c104a31c105ab2573a42e0f178f961e4496df5c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7049681",
+    "pregunta": "Jensen Huang rejoins NVIDIA before divorce?",
+    "ts": "2026-11-16T23:21:15.483288",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5f5d22e326c45806df9ca75769df55c9577f86ce",
     "whale_signal": "COMPRAR NO"
   }
 ]
