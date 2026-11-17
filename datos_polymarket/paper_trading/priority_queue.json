@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-17T17:31:28.030010",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x843e32a367156a1e1e0193a36a04e41ae1b4d2f3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299956",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+    "ts": "2026-11-17T17:31:31.856007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbad26fe5458e6219cec3e40272760e275e835296",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6424259",
+    "pregunta": "Will Iran target Kuwait by November 30, 2026?",
+    "ts": "2026-11-17T17:31:35.428922",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-17T17:31:37.499552",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  }
+]
