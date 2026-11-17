@@ -1,26 +1,34 @@
 [
   {
-    "id": "6507424",
-    "pregunta": "Will Ethereum dip to $1,700 in November?",
-    "ts": "2026-11-17T06:23:46.863460",
+    "id": "7088834",
+    "pregunta": "Will OpenAI have the second highest OpenRouter market share the week of November 16?",
+    "ts": "2026-11-17T06:34:28.103952",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6ed8a225369a4920e7d779d969788de35ac6327",
+    "whale_wallet": "0x637e7d6e17f789f3d78837815681becfce2f8cea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1571985",
-    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
-    "ts": "2026-11-17T06:23:49.472040",
+    "id": "7088838",
+    "pregunta": "Will Google have the second highest OpenRouter market share the week of November 16?",
+    "ts": "2026-11-17T06:34:29.123101",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe80fa37ec3c8a4043e04b28b1a053785325d3354",
+    "whale_wallet": "0x637e7d6e17f789f3d78837815681becfce2f8cea",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085164",
-    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
-    "ts": "2026-11-17T06:23:52.126831",
+    "id": "7088823",
+    "pregunta": "Will Google have the third highest OpenRouter market share the week of November 16?",
+    "ts": "2026-11-17T06:34:30.142984",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x637e7d6e17f789f3d78837815681becfce2f8cea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7088819",
+    "pregunta": "Will OpenAI have the third highest OpenRouter market share the week of November 16?",
+    "ts": "2026-11-17T06:34:31.162568",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x637e7d6e17f789f3d78837815681becfce2f8cea",
     "whale_signal": "COMPRAR NO"
   }
 ]
