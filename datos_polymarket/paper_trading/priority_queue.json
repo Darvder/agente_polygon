@@ -1,18 +1,50 @@
 [
   {
-    "id": "682705",
-    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-11-17T11:32:57.846135",
+    "id": "6831494",
+    "pregunta": "US x Iran Effective Ceasefire by November 15?",
+    "ts": "2026-11-17T11:41:53.114022",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xefde9ff487fae209ab6e3157a8acb4276f9c783d",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043351",
-    "pregunta": "Will Elon Musk post 90-114 tweets from November 16 to November 18, 2026?",
-    "ts": "2026-11-17T11:33:00.554363",
+    "id": "6831493",
+    "pregunta": "US x Iran Effective Ceasefire by November 8?",
+    "ts": "2026-11-17T11:41:54.155246",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb0ccfba29aaf3c20ce28cf97349c951ba589f09b",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6994508",
+    "pregunta": "Will Jensen Huang publicly testify before Congress by December 31, 2026?",
+    "ts": "2026-11-17T11:41:57.066701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x21f701a6d8febfd948f899114f2b9d9a8ef7e19f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363844",
+    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
+    "ts": "2026-11-17T11:41:58.948487",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x814de45404c20dd9956737a83f7c8b0b039eb842",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215013",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
+    "ts": "2026-11-17T11:41:59.993513",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x814de45404c20dd9956737a83f7c8b0b039eb842",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-17T11:42:01.863802",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x45e856f0023259664606b6c370e82d072b24cc6c",
     "whale_signal": "COMPRAR NO"
   }
 ]
