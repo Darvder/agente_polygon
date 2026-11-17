@@ -1,18 +1,50 @@
 [
   {
-    "id": "6771188",
-    "pregunta": "Will Elon Musk post 300-319 tweets from November 10 to November 17, 2026?",
-    "ts": "2026-11-17T11:49:06.212764",
+    "id": "7018013",
+    "pregunta": "Fourth Jensen Huang affair reported by November 20?",
+    "ts": "2026-11-17T11:58:47.388115",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x82882d761b0d7f18b2cc286117d10cd8a15a5519",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6771186",
-    "pregunta": "Will Elon Musk post 280-299 tweets from November 10 to November 17, 2026?",
-    "ts": "2026-11-17T11:49:08.292943",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-17T11:58:48.428305",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x82882d761b0d7f18b2cc286117d10cd8a15a5519",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7073693",
+    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 22?",
+    "ts": "2026-11-17T11:58:51.270711",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7073698",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 22?",
+    "ts": "2026-11-17T11:58:52.321944",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018417",
+    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 20?",
+    "ts": "2026-11-17T11:58:53.484260",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018486",
+    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 20?",
+    "ts": "2026-11-17T11:58:54.541446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
