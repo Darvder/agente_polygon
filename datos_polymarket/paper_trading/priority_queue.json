@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-17T18:31:25.328858",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe732156a2d84cdfb4de831d3f11a22899e49898f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6723714",
+    "pregunta": "Will Abdul El-Sayed be TIME Person of the Year 2026?",
+    "ts": "2026-11-17T18:31:26.352205",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe732156a2d84cdfb4de831d3f11a22899e49898f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363844",
+    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
+    "ts": "2026-11-17T18:31:27.375304",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe732156a2d84cdfb4de831d3f11a22899e49898f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6976755",
+    "pregunta": "Will a single person become TIME's 2026 Person of the Year?",
+    "ts": "2026-11-17T18:31:28.503490",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe732156a2d84cdfb4de831d3f11a22899e49898f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
