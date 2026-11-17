@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6017460",
+    "pregunta": "Will GPT Astra 6.1+ be released between November 16 and November 22, 2026?",
+    "ts": "2026-11-17T03:58:57.881682",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x02981ea7473e0a7ef143b5144f004165284c5cdc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-17T03:59:00.478684",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xed7b5823a08f1fe610e7b97ca22af74125055cbe",
+    "whale_signal": "COMPRAR NO"
+  }
+]
