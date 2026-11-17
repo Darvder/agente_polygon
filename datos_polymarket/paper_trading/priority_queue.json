@@ -1,10 +1,18 @@
 [
   {
-    "id": "7097669",
-    "pregunta": "Will Amazon.com, Inc. (AMZN) hit (LOW) $236 Week of November 16 2026?",
-    "ts": "2026-11-17T11:08:39.905591",
+    "id": "6998286",
+    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
+    "ts": "2026-11-17T11:20:17.452604",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x303d54996766881c3d31062982e859ce0d7aa12a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6771151",
+    "pregunta": "Will White House post 180-199 posts from November 10 to November 17, 2026?",
+    "ts": "2026-11-17T11:20:20.341643",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc757850237e266d3b08d16b8455777a88590ccfc",
     "whale_signal": "COMPRAR NO"
   }
 ]
