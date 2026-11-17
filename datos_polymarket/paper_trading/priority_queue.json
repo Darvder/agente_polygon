@@ -1,10 +1,34 @@
 [
   {
-    "id": "7029445",
-    "pregunta": "Next Gemini Hydrogen (4.1+) released by December 31, 2026?",
-    "ts": "2026-11-17T01:19:42.596605",
+    "id": "4867452",
+    "pregunta": "Next US-Iran senior diplomatic meeting by December 31, 2026?",
+    "ts": "2026-11-17T01:29:22.459462",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x32f83f9cca13b0216c675ff5b5e09c4e5a9911a8",
+    "whale_wallet": "0xb25d2d8100bb0ac29e886c526c74c0871386d127",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-17T01:29:23.645927",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb25d2d8100bb0ac29e886c526c74c0871386d127",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-17T01:29:24.682322",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb25d2d8100bb0ac29e886c526c74c0871386d127",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5713339",
+    "pregunta": "Will Trump pardon anyone by December 31?",
+    "ts": "2026-11-17T01:29:30.529344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d4a9ff98bdce01ff8081362f676749db0c85887",
     "whale_signal": "COMPRAR NO"
   }
 ]
