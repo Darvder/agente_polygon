@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-17T05:00:46.935538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9908053b605b55c48c3b45cb269033091056062c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-17T05:00:48.785767",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x59eb6ff1fcbbe1300f2009737fb3e0f3b3626616",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-17T05:00:51.725422",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf96dcefc4461a3c758e4f18494d28b73312a214b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-17T05:00:52.744059",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf96dcefc4461a3c758e4f18494d28b73312a214b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-17T05:00:53.764720",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf96dcefc4461a3c758e4f18494d28b73312a214b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
