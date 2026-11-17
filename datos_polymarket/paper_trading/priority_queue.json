@@ -1,10 +1,34 @@
 [
   {
-    "id": "6771183",
-    "pregunta": "Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?",
-    "ts": "2026-11-16T23:59:38.230169",
+    "id": "7062050",
+    "pregunta": "Will the highest temperature in Dallas be between 66-67\u00b0F on November 17?",
+    "ts": "2026-11-17T00:07:26.164839",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaac2469db4c243a2931acc252967b171bd97e8ce",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7062049",
+    "pregunta": "Will the highest temperature in Dallas be between 64-65\u00b0F on November 17?",
+    "ts": "2026-11-17T00:07:27.205465",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7062059",
+    "pregunta": "Will the highest temperature in Atlanta be between 60-61\u00b0F on November 17?",
+    "ts": "2026-11-17T00:07:28.253554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7062084",
+    "pregunta": "Will the highest temperature in Chicago be between 58-59\u00b0F on November 17?",
+    "ts": "2026-11-17T00:07:29.293437",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   }
 ]
