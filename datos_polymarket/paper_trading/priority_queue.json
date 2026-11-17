@@ -1,10 +1,18 @@
 [
   {
-    "id": "7085164",
-    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
-    "ts": "2026-11-17T13:10:34.822212",
+    "id": "7092266",
+    "pregunta": "S&P 500 (SPY) closes above $735 on November 17?",
+    "ts": "2026-11-17T13:20:30.000680",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+    "whale_wallet": "0xdefebc7ed6f5d6e8710398f37eea6fc1746a17f4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2316999",
+    "pregunta": "Will OpenAI's IPO valuation be between $1.0T and $1.25T?",
+    "ts": "2026-11-17T13:20:31.773426",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb0fcea24160139269e0af107811e33d99d6ece0b",
     "whale_signal": "COMPRAR NO"
   }
 ]
