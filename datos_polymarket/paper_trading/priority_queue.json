@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "4906129",
+    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
+    "ts": "2026-11-17T16:10:15.871343",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8575467a6743c81ef0a8d06acc76e99b454a87fe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6171356",
+    "pregunta": "Will Amazon.com, Inc. (AMZN) hit (LOW) $240 in November?",
+    "ts": "2026-11-17T16:10:17.728483",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6436631",
+    "pregunta": "Will Micron (MU) close above $780 end of November?",
+    "ts": "2026-11-17T16:10:18.846240",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7121572",
+    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 24?",
+    "ts": "2026-11-17T16:10:19.965302",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7097176",
+    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 23?",
+    "ts": "2026-11-17T16:10:21.083302",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7073693",
+    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 22?",
+    "ts": "2026-11-17T16:10:22.209064",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018504",
+    "pregunta": "Will the price of Solana be above $70 on November 20?",
+    "ts": "2026-11-17T16:10:23.333176",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
