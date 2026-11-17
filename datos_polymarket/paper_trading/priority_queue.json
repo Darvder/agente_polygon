@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6994511",
+    "pregunta": "Will Jensen Huang publicly testify before Congress by March 31, 2027?",
+    "ts": "2026-11-17T10:12:43.193023",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5203dcfc24775b0151e2649443a0f594b8f7f986",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6994508",
+    "pregunta": "Will Jensen Huang publicly testify before Congress by December 31, 2026?",
+    "ts": "2026-11-17T10:12:44.218516",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5203dcfc24775b0151e2649443a0f594b8f7f986",
+    "whale_signal": "COMPRAR NO"
+  }
+]
