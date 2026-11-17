@@ -1,10 +1,34 @@
 [
   {
-    "id": "6998286",
-    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
-    "ts": "2026-11-16T22:00:30.720185",
+    "id": "6947953",
+    "pregunta": "Will Steve Witkoff join Trump at APEC in China?",
+    "ts": "2026-11-16T22:08:40.964752",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0d1bd8f88963a078e48f99e7eba08cb27c4f3be7",
+    "whale_wallet": "0x81962d4b60e570db68de998ae77a35d07822ab69",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4338142",
+    "pregunta": "Russia x Ukraine ceasefire agreement by November 30, 2027?",
+    "ts": "2026-11-16T22:08:43.954484",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4338137",
+    "pregunta": "Russia x Ukraine ceasefire agreement by October 31, 2027?",
+    "ts": "2026-11-16T22:08:45.131543",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4338140",
+    "pregunta": "Russia x Ukraine ceasefire agreement by December 31, 2027?",
+    "ts": "2026-11-16T22:08:46.185822",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
     "whale_signal": "COMPRAR NO"
   }
 ]
