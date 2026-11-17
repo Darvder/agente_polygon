@@ -1,34 +1,26 @@
 [
   {
-    "id": "6947953",
-    "pregunta": "Will Steve Witkoff join Trump at APEC in China?",
-    "ts": "2026-11-16T22:08:40.964752",
+    "id": "6947944",
+    "pregunta": "Russia x Ukraine energy ceasefire agreement by December 31, 2026?",
+    "ts": "2026-11-16T22:20:54.932596",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x81962d4b60e570db68de998ae77a35d07822ab69",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4338142",
-    "pregunta": "Russia x Ukraine ceasefire agreement by November 30, 2027?",
-    "ts": "2026-11-16T22:08:43.954484",
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-16T22:20:58.652750",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
+    "whale_wallet": "0xe94bf89e66b852d60866667bddf7bff9dad65abe",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4338137",
-    "pregunta": "Russia x Ukraine ceasefire agreement by October 31, 2027?",
-    "ts": "2026-11-16T22:08:45.131543",
+    "id": "6935839",
+    "pregunta": "Will the price of Ethereum be above $1,800 on November 17?",
+    "ts": "2026-11-16T22:20:59.833451",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4338140",
-    "pregunta": "Russia x Ukraine ceasefire agreement by December 31, 2027?",
-    "ts": "2026-11-16T22:08:46.185822",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x97ead83eb0e6b7f142e63284791882f05ddf3363",
+    "whale_wallet": "0xe94bf89e66b852d60866667bddf7bff9dad65abe",
     "whale_signal": "COMPRAR NO"
   }
 ]
