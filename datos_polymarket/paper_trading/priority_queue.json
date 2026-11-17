@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "id": "7086192",
+    "pregunta": "Will the lowest temperature in Chengdu be 14\u00b0C on November 18?",
+    "ts": "2026-11-17T06:48:46.026875",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x25f746d98d9e9af0cf45c83de04b915c334a9d55",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085763",
+    "pregunta": "Will the highest temperature in Madrid be 19\u00b0C on November 18?",
+    "ts": "2026-11-17T06:48:48.084949",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085904",
+    "pregunta": "Will the highest temperature in Amsterdam be 10\u00b0C on November 18?",
+    "ts": "2026-11-17T06:48:49.294369",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7110621",
+    "pregunta": "Will the highest temperature in Warsaw be 10\u00b0C on November 19?",
+    "ts": "2026-11-17T06:48:50.504396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085762",
+    "pregunta": "Will the highest temperature in Madrid be 18\u00b0C on November 18?",
+    "ts": "2026-11-17T06:48:51.705346",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7110524",
+    "pregunta": "Will the highest temperature in Lucknow be 28\u00b0C on November 19?",
+    "ts": "2026-11-17T06:48:52.908710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7110694",
+    "pregunta": "Will the highest temperature in Shenzhen be 22\u00b0C on November 19?",
+    "ts": "2026-11-17T06:48:53.952567",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7110822",
+    "pregunta": "Will the highest temperature in Guangzhou be 22\u00b0C or higher on November 19?",
+    "ts": "2026-11-17T06:48:55.149714",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7109760",
+    "pregunta": "Will Bitcoin dip to $63,000 on November 17?",
+    "ts": "2026-11-17T06:48:57.037468",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029518",
+    "pregunta": "Next Fable Model (5.3+) released by December 31, 2026?",
+    "ts": "2026-11-17T06:48:58.943855",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4904283",
+    "pregunta": "Will GPT Astra 6.1+ debut at an output token price of at least $50 by June 30, 2027?",
+    "ts": "2026-11-17T06:49:00.185947",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4903973",
+    "pregunta": "Will GPT Astra's output price be at or below $40 in 2026?",
+    "ts": "2026-11-17T06:49:01.430854",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4903869",
+    "pregunta": "Will OpenAI's frontier output token price be at or below $40 in 2026?",
+    "ts": "2026-11-17T06:49:02.633265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  }
+]
