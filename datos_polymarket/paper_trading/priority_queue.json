@@ -1,10 +1,18 @@
 [
   {
+    "id": "7109909",
+    "pregunta": "Will Solana dip to $70 on November 17?",
+    "ts": "2026-11-17T15:19:51.393735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "6831495",
     "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-17T15:12:05.384098",
+    "ts": "2026-11-17T15:19:56.257792",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09cc4da8a3e39237aa74b445a300565e33d0421a",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
