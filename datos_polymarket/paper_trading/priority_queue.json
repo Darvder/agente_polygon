@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T08:29:32.950388",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe5713580660f822eca5c4e6ffe1084503d360265",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130418",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 24?",
+    "ts": "2026-11-18T08:29:36.247563",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfb9d744a5cc604dc5211d76614e135b178476577",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130421",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by December 1?",
+    "ts": "2026-11-18T08:29:37.374652",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfb9d744a5cc604dc5211d76614e135b178476577",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130420",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 28?",
+    "ts": "2026-11-18T08:29:38.506756",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfb9d744a5cc604dc5211d76614e135b178476577",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130419",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 26?",
+    "ts": "2026-11-18T08:29:39.636454",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfb9d744a5cc604dc5211d76614e135b178476577",
+    "whale_signal": "COMPRAR NO"
+  }
+]
