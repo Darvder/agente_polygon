@@ -1,10 +1,26 @@
 [
   {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-18T03:09:41.059731",
+    "id": "7030489",
+    "pregunta": "Will Donald Trump post 40-59 Truth Social posts from November 17 to November 24, 2026?",
+    "ts": "2026-11-18T03:18:04.282014",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4ae4c0bf86314dd182a32dfabddd7424068bf84a",
+    "whale_wallet": "0xde18162d38cd41fd8c27872584d9451120427ca8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030480",
+    "pregunta": "Will CZ post 20-39 posts from November 17 to November 24, 2026?",
+    "ts": "2026-11-18T03:18:05.357913",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xde18162d38cd41fd8c27872584d9451120427ca8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030497",
+    "pregunta": "Will Donald Trump post 60-79 Truth Social posts from November 17 to November 24, 2026?",
+    "ts": "2026-11-18T03:18:08.935893",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xde18162d38cd41fd8c27872584d9451120427ca8",
     "whale_signal": "COMPRAR NO"
   }
 ]
