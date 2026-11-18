@@ -1,26 +1,42 @@
 [
   {
-    "id": "5622719",
-    "pregunta": "Will voter turnout be 70% or higher in the 2026 Spanish general election?",
-    "ts": "2026-11-18T14:38:11.601684",
+    "id": "6919851",
+    "pregunta": "Will Rene Haas be the next CEO of NVIDIA?",
+    "ts": "2026-11-18T14:49:31.553528",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x97634c0758d60a5818356b1570476b0bab33722d",
+    "whale_wallet": "0xa9aca75fb5d8f04c2ec9eeb0eb0c30d2e526c5d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6438437",
-    "pregunta": "US imports Russian diesel by March 31?",
-    "ts": "2026-11-18T14:38:17.551839",
+    "id": "6264969",
+    "pregunta": "Rockstar releases PC version of GTA VI by March 31, 2027?",
+    "ts": "2026-11-18T14:49:32.692974",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0xa9aca75fb5d8f04c2ec9eeb0eb0c30d2e526c5d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1193093",
-    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-18T14:38:18.599708",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T14:49:33.723072",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0xa9aca75fb5d8f04c2ec9eeb0eb0c30d2e526c5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139754",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1520 by June 30, 2027?",
+    "ts": "2026-11-18T14:49:36.155981",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe74d4976e5e034182d708a3b9df602e72d4722fd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7092287",
+    "pregunta": "Will New Zealand win?",
+    "ts": "2026-11-18T14:49:37.895726",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
     "whale_signal": "COMPRAR NO"
   }
 ]
