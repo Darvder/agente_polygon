@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7135911",
+    "pregunta": "Will Ethereum reach $1,850 on November 18?",
+    "ts": "2026-11-18T05:41:00.572263",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7135895",
+    "pregunta": "Will Bitcoin reach $66,000 on November 18?",
+    "ts": "2026-11-18T05:41:01.607426",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  }
+]
