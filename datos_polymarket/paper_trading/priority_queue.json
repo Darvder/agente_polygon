@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-18T04:00:29.195814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfbc23091f9976f67639e7708fdd70eab3ba3e30e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6967620",
+    "pregunta": "Will the price of Bitcoin be above $64,000 on November 18?",
+    "ts": "2026-11-18T04:00:31.771498",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
