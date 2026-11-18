@@ -1,34 +1,18 @@
 [
   {
-    "id": "3362483",
-    "pregunta": "Will Georgia be a top 4 seed in the 2027 College Football Playoffs?",
-    "ts": "2026-11-18T09:00:41.109491",
+    "id": "7135899",
+    "pregunta": "Will Bitcoin dip to $62,000 on November 18?",
+    "ts": "2026-11-18T09:09:16.899979",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x905a6df64ecb799a5c715ab78174affc12576a7d",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3362487",
-    "pregunta": "Will Alabama be a top 4 seed in the 2027 College Football Playoffs?",
-    "ts": "2026-11-18T09:00:42.302924",
+    "id": "7135911",
+    "pregunta": "Will Ethereum reach $1,850 on November 18?",
+    "ts": "2026-11-18T09:09:17.917960",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x905a6df64ecb799a5c715ab78174affc12576a7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3251265",
-    "pregunta": "Will Erling Braut Haaland be the #1 searched athlete on Google this year?",
-    "ts": "2026-11-18T09:00:43.339839",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x905a6df64ecb799a5c715ab78174affc12576a7d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3362485",
-    "pregunta": "Will Texas be a top 4 seed in the 2027 College Football Playoffs?",
-    "ts": "2026-11-18T09:00:44.516932",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x905a6df64ecb799a5c715ab78174affc12576a7d",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
