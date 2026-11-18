@@ -1,26 +1,26 @@
 [
   {
-    "id": "2299956",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
-    "ts": "2026-11-18T16:22:05.482219",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T16:31:29.043192",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c97325a81ad05c6b58ae30d12eaaec1b8451b68",
+    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2299955",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
-    "ts": "2026-11-18T16:22:06.511397",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-18T16:31:31.745258",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c97325a81ad05c6b58ae30d12eaaec1b8451b68",
+    "whale_wallet": "0x7468650ccc0f714961cac1125a2518e41286348b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7130419",
-    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 26?",
-    "ts": "2026-11-18T16:22:07.541794",
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-18T16:31:35.070058",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c97325a81ad05c6b58ae30d12eaaec1b8451b68",
+    "whale_wallet": "0x464f1488bf47609664d6faf681fdc0d4608c358f",
     "whale_signal": "COMPRAR NO"
   }
 ]
