@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "3215013",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
+    "ts": "2026-11-18T11:42:12.951294",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8c25d1be95a6810890d7f290dd28fa1055e55fb9",
+    "whale_signal": "COMPRAR NO"
+  }
+]
