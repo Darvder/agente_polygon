@@ -1,26 +1,42 @@
 [
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-18T11:12:15.817777",
+    "id": "7135899",
+    "pregunta": "Will Bitcoin dip to $62,000 on November 18?",
+    "ts": "2026-11-18T11:22:44.024596",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf44076b9299b390a1f4bd5979d926ce989aeb009",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7110567",
-    "pregunta": "Will the highest temperature in Hong Kong be 21\u00b0C on November 19?",
-    "ts": "2026-11-18T11:12:18.570045",
+    "id": "7074444",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-18T11:22:45.703559",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x285109735e915f14038a2f41322814e0d6b46b8c",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7110568",
-    "pregunta": "Will the highest temperature in Hong Kong be 22\u00b0C on November 19?",
-    "ts": "2026-11-18T11:12:19.765880",
+    "id": "6507441",
+    "pregunta": "Will Solana dip to $60 in November?",
+    "ts": "2026-11-18T11:22:46.741362",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x285109735e915f14038a2f41322814e0d6b46b8c",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701604",
+    "pregunta": "Will XRP dip to $0.80 by December 31, 2026?",
+    "ts": "2026-11-18T11:22:47.870344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018479",
+    "pregunta": "Will the price of Bitcoin be above $64,000 on November 20?",
+    "ts": "2026-11-18T11:22:48.906419",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
