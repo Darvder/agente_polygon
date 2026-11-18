@@ -1,26 +1,34 @@
 [
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-18T16:31:29.043192",
+    "id": "4425386",
+    "pregunta": "Will Bad Bunny rank in Google\u2019s Top 5 Most Searched People of 2026?",
+    "ts": "2026-11-18T16:41:09.028880",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+    "whale_wallet": "0xf797d4d1c038d1eb0593edae0e66bf8e4b2e0bf2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "2412745",
     "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-18T16:31:31.745258",
+    "ts": "2026-11-18T16:41:10.959948",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7468650ccc0f714961cac1125a2518e41286348b",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-18T16:31:35.070058",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T16:41:11.981525",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x464f1488bf47609664d6faf681fdc0d4608c358f",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2110750",
+    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-18T16:41:13.025150",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
