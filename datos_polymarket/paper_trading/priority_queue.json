@@ -1,18 +1,34 @@
 [
   {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-18T09:30:43.071939",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c2de89583f54677173fe33f185c5cc4dbe23b29",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5386901",
+    "pregunta": "Will Canza launch a token by December 31, 2026?",
+    "ts": "2026-11-18T09:30:48.360394",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "920403",
     "pregunta": "Variational FDV above $1B one day after launch?",
-    "ts": "2026-11-18T09:21:47.584528",
+    "ts": "2026-11-18T09:30:49.392832",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7789c218a7641a0c5b495067082b2c9ace2aa2ce",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "920402",
     "pregunta": "Variational FDV above $800M one day after launch?",
-    "ts": "2026-11-18T09:21:49.296662",
+    "ts": "2026-11-18T09:30:52.948900",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8dc14588aa6f9ea3583c24bcaabc11b59889ea30",
+    "whale_wallet": "0x04474a7db0d8987d29d7c53fe749a5ce8dc001d0",
     "whale_signal": "COMPRAR NO"
   }
 ]
