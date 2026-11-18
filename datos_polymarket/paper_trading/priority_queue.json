@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T18:39:35.140976",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x269ced0ede348b4b3f8fd8470b19f65508f79017",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6908170",
+    "pregunta": "Jensen Huang divorce by March 31, 2027?",
+    "ts": "2026-11-18T18:39:36.187653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x269ced0ede348b4b3f8fd8470b19f65508f79017",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-18T18:39:38.045238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-18T18:39:40.961800",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018479",
+    "pregunta": "Will the price of Bitcoin be above $64,000 on November 20?",
+    "ts": "2026-11-18T18:39:42.151544",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
