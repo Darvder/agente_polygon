@@ -1,26 +1,10 @@
 [
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-18T15:03:51.803685",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-18T15:13:30.227716",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa927cdfebebe4ba309386f12201f4fb0bccb8d9f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4599796",
-    "pregunta": "Israeli airspace closed by December 31, 2026?",
-    "ts": "2026-11-18T15:03:53.688119",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5400eae7fd1cca4c6edb72d0745c18a433551342",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3128768",
-    "pregunta": "Iran full airspace closure by December 31?",
-    "ts": "2026-11-18T15:03:54.711749",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5400eae7fd1cca4c6edb72d0745c18a433551342",
+    "whale_wallet": "0x6cb273aa20efc1bee3e14b8641917181d56d99a3",
     "whale_signal": "COMPRAR NO"
   }
 ]
