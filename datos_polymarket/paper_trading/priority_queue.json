@@ -1,18 +1,10 @@
 [
   {
-    "id": "6967567",
-    "pregunta": "Will the price of Ethereum be above $1,800 on November 18?",
-    "ts": "2026-11-18T09:40:29.481688",
+    "id": "7074444",
+    "pregunta": "Will Bitcoin dip to $62,500 in November?",
+    "ts": "2026-11-18T09:50:28.567037",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa64d76d112e7b47e5ca3f8fbc5485ae41a91cad1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "920402",
-    "pregunta": "Variational FDV above $800M one day after launch?",
-    "ts": "2026-11-18T09:40:31.940345",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xcd1c59f55401336462f8a144e90b2124cb1f61d7",
+    "whale_wallet": "0x09cc4da8a3e39237aa74b445a300565e33d0421a",
     "whale_signal": "COMPRAR NO"
   }
 ]
