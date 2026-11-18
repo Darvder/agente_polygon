@@ -1,34 +1,26 @@
 [
   {
-    "id": "7074444",
-    "pregunta": "Will Bitcoin dip to $62,500 in November?",
-    "ts": "2026-11-18T11:01:57.723438",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T11:12:15.817777",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d6e3a0404b4c2455090d2a2f05d816edcedf977",
+    "whale_wallet": "0xf44076b9299b390a1f4bd5979d926ce989aeb009",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6990907",
-    "pregunta": "Will the price of Ethereum be above $1,700 on November 19?",
-    "ts": "2026-11-18T11:01:59.585140",
+    "id": "7110567",
+    "pregunta": "Will the highest temperature in Hong Kong be 21\u00b0C on November 19?",
+    "ts": "2026-11-18T11:12:18.570045",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_wallet": "0x285109735e915f14038a2f41322814e0d6b46b8c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7110461",
-    "pregunta": "Will the highest temperature in London be 10\u00b0C on November 19?",
-    "ts": "2026-11-18T11:02:01.404805",
+    "id": "7110568",
+    "pregunta": "Will the highest temperature in Hong Kong be 22\u00b0C on November 19?",
+    "ts": "2026-11-18T11:12:19.765880",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7136398",
-    "pregunta": "Will the highest temperature in Singapore be 32\u00b0C on November 20?",
-    "ts": "2026-11-18T11:02:02.524065",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x285109735e915f14038a2f41322814e0d6b46b8c",
     "whale_signal": "COMPRAR NO"
   }
 ]
