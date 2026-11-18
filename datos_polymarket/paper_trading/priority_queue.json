@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6948661",
+    "pregunta": "Will Gemini Hydrogen debut with an HLE-Diamond score of 45% or higher?",
+    "ts": "2026-11-18T00:30:12.553383",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b670a311561dcaf741d8155451774d3fa7fb814",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6948658",
+    "pregunta": "Will Gemini Hydrogen debut with an HLE-Diamond score of 30% or higher?",
+    "ts": "2026-11-18T00:30:13.717916",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b670a311561dcaf741d8155451774d3fa7fb814",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6948659",
+    "pregunta": "Will Gemini Hydrogen debut with an HLE-Diamond score of 35% or higher?",
+    "ts": "2026-11-18T00:30:14.761374",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2b670a311561dcaf741d8155451774d3fa7fb814",
+    "whale_signal": "COMPRAR NO"
+  }
+]
