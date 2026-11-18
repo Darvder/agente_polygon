@@ -1,26 +1,42 @@
 [
   {
-    "id": "7030489",
-    "pregunta": "Will Donald Trump post 40-59 Truth Social posts from November 17 to November 24, 2026?",
-    "ts": "2026-11-18T03:18:04.282014",
+    "id": "7135895",
+    "pregunta": "Will Bitcoin reach $66,000 on November 18?",
+    "ts": "2026-11-18T03:34:14.665408",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde18162d38cd41fd8c27872584d9451120427ca8",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7030480",
-    "pregunta": "Will CZ post 20-39 posts from November 17 to November 24, 2026?",
-    "ts": "2026-11-18T03:18:05.357913",
+    "id": "7135897",
+    "pregunta": "Will Bitcoin dip to $64,000 on November 18?",
+    "ts": "2026-11-18T03:34:15.754682",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde18162d38cd41fd8c27872584d9451120427ca8",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7030497",
-    "pregunta": "Will Donald Trump post 60-79 Truth Social posts from November 17 to November 24, 2026?",
-    "ts": "2026-11-18T03:18:08.935893",
+    "id": "7135911",
+    "pregunta": "Will Ethereum reach $1,850 on November 18?",
+    "ts": "2026-11-18T03:34:16.788026",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde18162d38cd41fd8c27872584d9451120427ca8",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7135932",
+    "pregunta": "Will XRP reach $1.05 on November 18?",
+    "ts": "2026-11-18T03:34:17.830102",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7135898",
+    "pregunta": "Will Bitcoin dip to $63,000 on November 18?",
+    "ts": "2026-11-18T03:34:18.877173",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
