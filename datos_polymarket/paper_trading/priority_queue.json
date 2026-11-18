@@ -1,10 +1,26 @@
 [
   {
-    "id": "2110750",
-    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-18T14:20:02.048836",
+    "id": "3721704",
+    "pregunta": "Will Anthropic's IPO valuation be between $1.50T and $1.75T?",
+    "ts": "2026-11-18T14:29:54.234592",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa5d833a23bc19b7d38adcbee7c117a8f421eff3a",
+    "whale_wallet": "0xd97db54eee130b96bc41341b198dc379b4a96bf4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-18T14:29:56.860095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x30328330513d01e16174d53d98c2047ef35c99e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T14:29:58.924171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   }
 ]
