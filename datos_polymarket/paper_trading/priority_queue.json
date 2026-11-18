@@ -1,34 +1,18 @@
 [
   {
-    "id": "3399468",
-    "pregunta": "Israel x Iran ceasefire continues through December 31?",
-    "ts": "2026-11-18T09:30:43.071939",
+    "id": "6967567",
+    "pregunta": "Will the price of Ethereum be above $1,800 on November 18?",
+    "ts": "2026-11-18T09:40:29.481688",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7c2de89583f54677173fe33f185c5cc4dbe23b29",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5386901",
-    "pregunta": "Will Canza launch a token by December 31, 2026?",
-    "ts": "2026-11-18T09:30:48.360394",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "920403",
-    "pregunta": "Variational FDV above $1B one day after launch?",
-    "ts": "2026-11-18T09:30:49.392832",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_wallet": "0xa64d76d112e7b47e5ca3f8fbc5485ae41a91cad1",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "920402",
     "pregunta": "Variational FDV above $800M one day after launch?",
-    "ts": "2026-11-18T09:30:52.948900",
+    "ts": "2026-11-18T09:40:31.940345",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x04474a7db0d8987d29d7c53fe749a5ce8dc001d0",
+    "whale_wallet": "0xcd1c59f55401336462f8a144e90b2124cb1f61d7",
     "whale_signal": "COMPRAR NO"
   }
 ]
