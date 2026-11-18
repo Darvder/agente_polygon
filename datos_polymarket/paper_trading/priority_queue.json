@@ -1,18 +1,26 @@
 [
   {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-18T12:32:18.751213",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T12:41:26.672818",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
+    "whale_wallet": "0x4163e5c6a487e4ee99c7cc81a5caebd5a115521c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7042921",
-    "pregunta": "Will the price of Solana be between $70 and $80 on November 21?",
-    "ts": "2026-11-18T12:32:23.050769",
+    "id": "2110751",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-18T12:41:27.832410",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_wallet": "0x4163e5c6a487e4ee99c7cc81a5caebd5a115521c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2110752",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-18T12:41:28.998046",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4163e5c6a487e4ee99c7cc81a5caebd5a115521c",
     "whale_signal": "COMPRAR NO"
   }
 ]
