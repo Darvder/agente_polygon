@@ -1,10 +1,18 @@
 [
   {
-    "id": "7121657",
-    "pregunta": "Will MrBeast's next video get between 77 and 78 million views on day 4?",
-    "ts": "2026-11-18T06:21:35.082136",
+    "id": "4824876",
+    "pregunta": "Will \"GTA VI: The Album\" first week sales be at least 200k?",
+    "ts": "2026-11-18T06:30:14.715714",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb4d11b2dcc575c068b4d2037582b5972ce5d02d5",
+    "whale_wallet": "0xdd574188334300a925465d035c89f76866ede0c4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5939088",
+    "pregunta": "Another GTA VI trailer released by November 30?",
+    "ts": "2026-11-18T06:30:15.837809",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd574188334300a925465d035c89f76866ede0c4",
     "whale_signal": "COMPRAR NO"
   }
 ]
