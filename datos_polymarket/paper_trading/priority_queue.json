@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7126287",
+    "pregunta": "Will the US Section 232 tariff rate on Canadian primary aluminum be >20-40% on December 31, 2027?",
+    "ts": "2026-11-18T12:00:05.540565",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4663537",
+    "pregunta": "Will Moonshot AI be added to the Chinese Military Companies list by June 30, 2027?",
+    "ts": "2026-11-18T12:00:06.600290",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x831449c4b94607dd3367023c61525aea99a90b88",
+    "whale_signal": "COMPRAR NO"
+  }
+]
