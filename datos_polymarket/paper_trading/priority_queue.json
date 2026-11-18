@@ -1,18 +1,34 @@
 [
   {
-    "id": "2316998",
-    "pregunta": "Will OpenAI's IPO valuation be less than $1T?",
-    "ts": "2026-11-18T01:20:46.349796",
+    "id": "7129258",
+    "pregunta": "Will Chicago get more snow than average this winter?",
+    "ts": "2026-11-18T01:30:10.758553",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1345235",
-    "pregunta": "Will OpenAI not IPO by December 31, 2027?",
-    "ts": "2026-11-18T01:20:47.389090",
+    "id": "5194659",
+    "pregunta": "Will the median home value in the US be less than $403,000 on December 31?",
+    "ts": "2026-11-18T01:30:11.789726",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7129260",
+    "pregunta": "Will Salt Lake City get more snow than average this winter?",
+    "ts": "2026-11-18T01:30:12.990331",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7105279",
+    "pregunta": "Will Germany GDP growth in Q4 2026 be at least 1.9%?",
+    "ts": "2026-11-18T01:30:14.033931",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   }
 ]
