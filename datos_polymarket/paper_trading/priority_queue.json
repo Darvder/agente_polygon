@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "7000404",
+    "pregunta": "Will UK GDP growth in Q4 2026 be between 0.6% and 0.7%?",
+    "ts": "2026-11-18T04:40:00.363174",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7000403",
+    "pregunta": "Will UK GDP growth in Q4 2026 be between 0.4% and 0.5%?",
+    "ts": "2026-11-18T04:40:01.488888",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-18T04:40:03.832525",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7028098",
+    "pregunta": "Will the US rank 19th or higher in the World Happiness Report 2027?",
+    "ts": "2026-11-18T04:40:04.858825",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4425396",
+    "pregunta": "Will Alysa Liu rank in Google\u2019s Top 5 Most Searched People of 2026?",
+    "ts": "2026-11-18T04:40:05.984186",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  }
+]
