@@ -1,42 +1,18 @@
 [
   {
-    "id": "6172593",
-    "pregunta": "Will S&P 500 (SPY) hit (LOW) $710 in November?",
-    "ts": "2026-11-17T18:49:25.412049",
+    "id": "5426105",
+    "pregunta": "Syrian troops enter Yemen by December 31, 2026?",
+    "ts": "2026-11-17T19:03:26.047973",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf8acec0ab665fee2369d824085e2d5fde7e46f52",
+    "whale_wallet": "0x5fbf72d3dee75b24d8e60a2c2329603b0c128925",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6172592",
-    "pregunta": "Will S&P 500 (SPY) hit (LOW) $720 in November?",
-    "ts": "2026-11-17T18:49:26.609269",
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-17T19:03:27.910033",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf8acec0ab665fee2369d824085e2d5fde7e46f52",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6998286",
-    "pregunta": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
-    "ts": "2026-11-17T18:49:27.684990",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf8acec0ab665fee2369d824085e2d5fde7e46f52",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5234653",
-    "pregunta": "Will Russia capture all of Kostyantynivka by June 30, 2027?",
-    "ts": "2026-11-17T18:49:29.719303",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x14649d0d53a022d17730170671fe5b5a2ea15e75",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7043352",
-    "pregunta": "Will Elon Musk post 115-139 tweets from November 16 to November 18, 2026?",
-    "ts": "2026-11-17T18:49:31.570175",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb0ccfba29aaf3c20ce28cf97349c951ba589f09b",
+    "whale_wallet": "0xd77ba3d17771e8eab33e062678e3580bcaf124ab",
     "whale_signal": "COMPRAR NO"
   }
 ]
