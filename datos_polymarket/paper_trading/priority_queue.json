@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6753891",
+    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $192 in November?",
+    "ts": "2026-11-17T20:19:31.554373",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7104937",
+    "pregunta": "JD Vance Republican nomination odds leader on March 31?",
+    "ts": "2026-11-17T20:19:34.544457",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_signal": "COMPRAR NO"
+  }
+]
