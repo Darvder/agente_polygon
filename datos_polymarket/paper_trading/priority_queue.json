@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7018707",
+    "pregunta": "Will Bitcoin reach $70,000 in November?",
+    "ts": "2026-11-17T21:23:04.938987",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5b8eb95db0c651af2b83fb804cc0b700ce5f0cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3377041",
+    "pregunta": "Will Lux (Rosal\u00eda) win Album of the Year at the 69th Annual GRAMMY Awards?",
+    "ts": "2026-11-17T21:23:07.352668",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa18166afa109f6013edb74ce02b0798970daece8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
