@@ -1,10 +1,26 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-18T07:10:46.120036",
+    "id": "7126246",
+    "pregunta": "US-Canada deal to cut Section 338 tariffs by December 30, 2027?",
+    "ts": "2026-11-18T07:21:13.730511",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff422f8ea02c920f7e9305b66959cce0cf46f632",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2109956",
+    "pregunta": "Israeli election results in a hung parliament?",
+    "ts": "2026-11-18T07:21:16.941260",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018678",
+    "pregunta": "Will \"GTA VI\" have a Metascore of at least 99?",
+    "ts": "2026-11-18T07:21:19.026334",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1bfd792c102c75d3c41c954d058355a796ee40d0",
     "whale_signal": "COMPRAR NO"
   }
 ]
