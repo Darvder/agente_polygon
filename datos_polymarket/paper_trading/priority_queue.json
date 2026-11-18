@@ -1,34 +1,26 @@
 [
   {
-    "id": "2412745",
-    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-18T16:12:54.809456",
+    "id": "2299956",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+    "ts": "2026-11-18T16:22:05.482219",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x0c97325a81ad05c6b58ae30d12eaaec1b8451b68",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2371764",
-    "pregunta": "Will John Turturro be nominated for Best Actor at the 99th Academy Awards?",
-    "ts": "2026-11-18T16:12:55.864302",
+    "id": "2299955",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
+    "ts": "2026-11-18T16:22:06.511397",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x0c97325a81ad05c6b58ae30d12eaaec1b8451b68",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3421253",
-    "pregunta": "Will Robert Pattinson be nominated for Best Actor at the 99th Academy Awards?",
-    "ts": "2026-11-18T16:12:56.943558",
+    "id": "7130419",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 26?",
+    "ts": "2026-11-18T16:22:07.541794",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-18T16:12:58.119530",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x0c97325a81ad05c6b58ae30d12eaaec1b8451b68",
     "whale_signal": "COMPRAR NO"
   }
 ]
