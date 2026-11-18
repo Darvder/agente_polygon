@@ -1,10 +1,26 @@
 [
   {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-18T17:11:44.055361",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb51b3beffd13cde071ed799e70a7b0b598e8b4d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "3399468",
     "pregunta": "Israel x Iran ceasefire continues through December 31?",
-    "ts": "2026-11-18T17:01:33.067811",
+    "ts": "2026-11-18T17:11:45.079263",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbf93328f8b69273453228a82c913207731822fd7",
+    "whale_wallet": "0xb51b3beffd13cde071ed799e70a7b0b598e8b4d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5713339",
+    "pregunta": "Will Trump pardon anyone by December 31?",
+    "ts": "2026-11-18T17:11:46.195000",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb51b3beffd13cde071ed799e70a7b0b598e8b4d9",
     "whale_signal": "COMPRAR NO"
   }
 ]
