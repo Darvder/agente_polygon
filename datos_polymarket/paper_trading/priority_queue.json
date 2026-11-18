@@ -1,10 +1,26 @@
 [
   {
-    "id": "690683",
-    "pregunta": "Will Variational launch a token by December 31, 2026?",
-    "ts": "2026-11-18T14:00:12.379861",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T14:10:02.055182",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb0a32d06fe529a9a368253c7cf7bbe42ef2ed94",
+    "whale_wallet": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1073792",
+    "pregunta": "Will there be between 14 and 16 earthquakes of magnitude 7.0 or higher worldwide in 2026?",
+    "ts": "2026-11-18T14:10:05.101009",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x21d0c129deb8a7f7e1569045200d20e23862ce91",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1075291",
+    "pregunta": "Will there be exactly 1 confirmed VEI 4 or higher volcanic eruption worldwide in 2026?",
+    "ts": "2026-11-18T14:10:06.297180",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x21d0c129deb8a7f7e1569045200d20e23862ce91",
     "whale_signal": "COMPRAR NO"
   }
 ]
