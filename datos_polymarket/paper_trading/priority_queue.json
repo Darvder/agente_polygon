@@ -1,18 +1,10 @@
 [
   {
-    "id": "1068309",
-    "pregunta": "Base FDV above $6B one day after launch?",
-    "ts": "2026-11-17T20:30:21.299055",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-17T20:41:17.915948",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4336176",
-    "pregunta": "Papertrade FDV above $200M one day after launch?",
-    "ts": "2026-11-17T20:30:22.647114",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
