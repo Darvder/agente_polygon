@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-18T02:10:24.097398",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b63b1e903d70a73b105864ff2368a13bc2a57f0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-18T02:10:25.137909",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1b63b1e903d70a73b105864ff2368a13bc2a57f0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
