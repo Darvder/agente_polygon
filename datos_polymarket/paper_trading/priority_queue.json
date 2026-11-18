@@ -1,34 +1,58 @@
 [
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-18T17:59:29.024585",
+    "id": "6997981",
+    "pregunta": "Will Anthropic sell between 850M and 900M shares in its IPO?",
+    "ts": "2026-11-18T18:13:24.763908",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6e131d6c61216b4a5ec571db332ad3226e7fa801",
+    "whale_wallet": "0x2b670a311561dcaf741d8155451774d3fa7fb814",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4906129",
-    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
-    "ts": "2026-11-18T17:59:32.045231",
+    "id": "6267654",
+    "pregunta": "Will Anthropic raise between $75B and $85B in its IPO?",
+    "ts": "2026-11-18T18:13:25.949839",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe16ef7f6c30e71d2c24c88526220c891f579da41",
+    "whale_wallet": "0x2b670a311561dcaf741d8155451774d3fa7fb814",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7155711",
-    "pregunta": "US announces end of Iranian blockade by February 28, 2027?",
-    "ts": "2026-11-18T17:59:33.233050",
+    "id": "3721702",
+    "pregunta": "Will Anthropic's IPO valuation be between $1.25T and $1.50T?",
+    "ts": "2026-11-18T18:13:26.998851",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe16ef7f6c30e71d2c24c88526220c891f579da41",
+    "whale_wallet": "0x2b670a311561dcaf741d8155451774d3fa7fb814",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7155713",
-    "pregunta": "US announces end of Iranian blockade by January 31, 2027?",
-    "ts": "2026-11-18T17:59:34.275062",
+    "id": "6997983",
+    "pregunta": "Will Anthropic sell 900M or more shares in its IPO?",
+    "ts": "2026-11-18T18:13:28.044481",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe16ef7f6c30e71d2c24c88526220c891f579da41",
+    "whale_wallet": "0x2b670a311561dcaf741d8155451774d3fa7fb814",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3721704",
+    "pregunta": "Will Anthropic's IPO valuation be between $1.50T and $1.75T?",
+    "ts": "2026-11-18T18:13:29.917173",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6437440",
+    "pregunta": "Will Anthropic sell between 6% and 7% of its shares in its IPO?",
+    "ts": "2026-11-18T18:13:31.110906",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x708dba576d798c24215e267413503269fe39ea78",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5139753",
+    "pregunta": "Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",
+    "ts": "2026-11-18T18:13:34.303168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
     "whale_signal": "COMPRAR NO"
   }
 ]
