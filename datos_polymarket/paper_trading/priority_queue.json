@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2316998",
+    "pregunta": "Will OpenAI's IPO valuation be less than $1T?",
+    "ts": "2026-11-18T01:20:46.349796",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1345235",
+    "pregunta": "Will OpenAI not IPO by December 31, 2027?",
+    "ts": "2026-11-18T01:20:47.389090",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  }
+]
