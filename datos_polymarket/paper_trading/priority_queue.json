@@ -1,34 +1,50 @@
 [
   {
-    "id": "7029325",
-    "pregunta": "Strait of Hormuz traffic returns to normal by March 31, 2027?",
-    "ts": "2026-11-19T12:00:38.853395",
+    "id": "7157997",
+    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
+    "ts": "2026-11-19T12:10:21.268725",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c0e270cf879583d6a0142fc817e05b768d0434e",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7029326",
-    "pregunta": "Strait of Hormuz traffic returns to normal by June 30, 2027?",
-    "ts": "2026-11-19T12:00:39.991437",
+    "id": "6999663",
+    "pregunta": "Will Anthropic close between $90 and $100 on its first trading day?",
+    "ts": "2026-11-19T12:10:22.437399",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c0e270cf879583d6a0142fc817e05b768d0434e",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7029327",
-    "pregunta": "Strait of Hormuz traffic returns to normal by December 31, 2027?",
-    "ts": "2026-11-19T12:00:41.120768",
+    "id": "2299954",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
+    "ts": "2026-11-19T12:10:23.476521",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0c0e270cf879583d6a0142fc817e05b768d0434e",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7032230",
-    "pregunta": "Will Anthropic open between $110 and $120 on its first trading day?",
-    "ts": "2026-11-19T12:00:43.521104",
+    "id": "6072056",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $2.25T by December 31?",
+    "ts": "2026-11-19T12:10:24.634078",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x731a241767938bb23d1b2fac4c9cd2f3cea9033f",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-19T12:10:25.694879",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7165506",
+    "pregunta": "Will Bitcoin dip to $62,000 on November 19?",
+    "ts": "2026-11-19T12:10:27.538350",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
