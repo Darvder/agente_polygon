@@ -1,26 +1,18 @@
 [
   {
-    "id": "679022",
-    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
-    "ts": "2026-11-19T02:01:54.806253",
+    "id": "7157996",
+    "pregunta": "Anthropic IPO closing market cap above $1.2T?",
+    "ts": "2026-11-19T02:11:11.692718",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x843e32a367156a1e1e0193a36a04e41ae1b4d2f3",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6655995",
-    "pregunta": "Will the 5-year Treasury yield hit 4.99% in November?",
-    "ts": "2026-11-19T02:01:57.704745",
+    "id": "7001903",
+    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
+    "ts": "2026-11-19T02:11:13.381553",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6070880",
-    "pregunta": "Will the 30-year Treasury yield hit 5.60% before 2027?",
-    "ts": "2026-11-19T02:01:58.741419",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_wallet": "0xa52b785a5510117ac3ae03d75d029f89a36c9480",
     "whale_signal": "COMPRAR NO"
   }
 ]
