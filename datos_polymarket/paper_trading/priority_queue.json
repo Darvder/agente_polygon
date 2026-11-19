@@ -1,58 +1,42 @@
 [
   {
-    "id": "7136649",
-    "pregunta": "Will the highest temperature in Guangzhou be 19\u00b0C on November 20?",
-    "ts": "2026-11-19T10:30:46.493609",
+    "id": "6440149",
+    "pregunta": "Will Trump speak to Elon Musk by November 30?",
+    "ts": "2026-11-19T10:45:16.163453",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68f46da42317cdb02ed89ca92d7863fa5071213a",
+    "whale_wallet": "0xf6c9bf136dd67afb78942ce6f5e9ff64ef031c13",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7136500",
-    "pregunta": "Will the highest temperature in Shenzhen be 19\u00b0C on November 20?",
-    "ts": "2026-11-19T10:30:47.561398",
+    "id": "6440135",
+    "pregunta": "Will Trump speak to Volodymyr Zelenskyy by November 30?",
+    "ts": "2026-11-19T10:45:17.182292",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68f46da42317cdb02ed89ca92d7863fa5071213a",
+    "whale_wallet": "0xf6c9bf136dd67afb78942ce6f5e9ff64ef031c13",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7136648",
-    "pregunta": "Will the highest temperature in Guangzhou be 18\u00b0C on November 20?",
-    "ts": "2026-11-19T10:30:48.729293",
+    "id": "6440153",
+    "pregunta": "Will Trump speak to Andy Burnham by November 30?",
+    "ts": "2026-11-19T10:45:18.201556",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x68f46da42317cdb02ed89ca92d7863fa5071213a",
+    "whale_wallet": "0xf6c9bf136dd67afb78942ce6f5e9ff64ef031c13",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3887676",
-    "pregunta": "Anthropic IPO closing market cap above $1.5T?",
-    "ts": "2026-11-19T10:30:52.202586",
+    "id": "6440141",
+    "pregunta": "Will Trump speak to Emmanuel Macron by November 30?",
+    "ts": "2026-11-19T10:45:19.224056",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
+    "whale_wallet": "0xf6c9bf136dd67afb78942ce6f5e9ff64ef031c13",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7157999",
-    "pregunta": "Anthropic IPO closing market cap above $1.4T?",
-    "ts": "2026-11-19T10:30:53.262557",
+    "id": "7147736",
+    "pregunta": "Will HoneyMad finish GTA VI by November 24?",
+    "ts": "2026-11-19T10:45:22.008782",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157996",
-    "pregunta": "Anthropic IPO closing market cap above $1.2T?",
-    "ts": "2026-11-19T10:30:54.313995",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7001903",
-    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
-    "ts": "2026-11-19T10:30:55.376254",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
+    "whale_wallet": "0x37b278ab19e1cdc0e392da980dcc59ef802a8681",
     "whale_signal": "COMPRAR NO"
   }
 ]
