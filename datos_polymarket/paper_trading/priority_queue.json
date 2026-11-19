@@ -1,34 +1,58 @@
 [
   {
-    "id": "5336561",
-    "pregunta": "Will PP win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-19T18:00:55.938490",
+    "id": "7177339",
+    "pregunta": "Will Bitcoin reach $64,000 November 16-22?",
+    "ts": "2026-11-19T18:12:15.576917",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd2770343da54f1a2ed7305dbf83eeefa4a8b73fe",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831497",
-    "pregunta": "US x Iran Effective Ceasefire by December 31?",
-    "ts": "2026-11-19T18:00:57.618925",
+    "id": "7018478",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 20?",
+    "ts": "2026-11-19T18:12:16.597143",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf63a2bc1c39487f6009efd028c56efb8ee7c5d80",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831496",
-    "pregunta": "US x Iran Effective Ceasefire by November 30?",
-    "ts": "2026-11-19T18:00:58.640474",
+    "id": "7042829",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 21?",
+    "ts": "2026-11-19T18:12:17.720047",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf63a2bc1c39487f6009efd028c56efb8ee7c5d80",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4906129",
-    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
-    "ts": "2026-11-19T18:01:00.389199",
+    "id": "7073773",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 22?",
+    "ts": "2026-11-19T18:12:18.753435",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7097175",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 23?",
+    "ts": "2026-11-19T18:12:19.776226",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-19T18:12:20.799217",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-19T18:12:21.824916",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
