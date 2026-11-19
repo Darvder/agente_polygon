@@ -1,42 +1,18 @@
 [
   {
-    "id": "6423030",
-    "pregunta": "Will Russia capture all of Bilytske by November 30?",
-    "ts": "2026-11-18T22:59:54.108011",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-18T22:59:55.129148",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5176784",
-    "pregunta": "Will Alibaba be the third-best Math AI lab at the end of December 2026?",
-    "ts": "2026-11-18T22:59:56.270158",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6404319",
-    "pregunta": "Will the Swiss National Bank increase the SNB policy rate by 25 bps at the March meeting?",
-    "ts": "2026-11-18T22:59:57.401650",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "682705",
     "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-11-18T22:59:58.420744",
+    "ts": "2026-11-18T23:11:09.520225",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0x96e5dfc93001f3b399586e4a83b3a5b262f49c21",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6329508",
+    "pregunta": "Will Pabel Mu\u00f1oz win the next Quito mayoral election?",
+    "ts": "2026-11-18T23:11:10.672375",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x96e5dfc93001f3b399586e4a83b3a5b262f49c21",
     "whale_signal": "COMPRAR NO"
   }
 ]
