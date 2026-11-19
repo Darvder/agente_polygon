@@ -1,42 +1,18 @@
 [
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T14:09:24.391474",
+    "id": "6600818",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.6T by November 30?",
+    "ts": "2026-11-19T14:20:55.458265",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_wallet": "0xf0f86cdb6872730ca12c84ff8b014a539b8c325f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7001903",
-    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
-    "ts": "2026-11-19T14:09:26.366634",
+    "id": "6600819",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.575T by November 30?",
+    "ts": "2026-11-19T14:20:56.495376",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7130417",
-    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 22?",
-    "ts": "2026-11-19T14:09:28.208443",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7150748",
-    "pregunta": "Will xQc finish GTA VI by November 21?",
-    "ts": "2026-11-19T14:09:29.266453",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157997",
-    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
-    "ts": "2026-11-19T14:09:30.337372",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
+    "whale_wallet": "0xf0f86cdb6872730ca12c84ff8b014a539b8c325f",
     "whale_signal": "COMPRAR NO"
   }
 ]
