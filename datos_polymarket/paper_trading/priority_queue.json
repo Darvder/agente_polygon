@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6029620",
+    "pregunta": "Will PP win the most seats in C\u00e1diz in the 2026 Spanish general election?",
+    "ts": "2026-11-19T09:10:05.047948",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6029656",
+    "pregunta": "Will PSOE win the most seats in C\u00e1ceres in the 2026 Spanish general election?",
+    "ts": "2026-11-19T09:10:06.076124",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
+    "whale_signal": "COMPRAR NO"
+  }
+]
