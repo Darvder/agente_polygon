@@ -1,32 +1,8 @@
 [
   {
-    "id": "7001903",
-    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
-    "ts": "2026-11-19T13:19:56.425558",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157997",
-    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
-    "ts": "2026-11-19T13:19:57.455271",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T13:19:58.482136",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157998",
-    "pregunta": "Anthropic IPO closing market cap above $1.35T?",
-    "ts": "2026-11-19T13:19:59.506701",
+    "id": "2110750",
+    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-19T13:30:35.298475",
     "origen": "whale_copytrader",
     "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
     "whale_signal": "COMPRAR NO"
@@ -34,7 +10,31 @@
   {
     "id": "2110751",
     "pregunta": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-19T13:20:00.530304",
+    "ts": "2026-11-19T13:30:36.321454",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7001903",
+    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
+    "ts": "2026-11-19T13:30:37.344756",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-19T13:30:38.367191",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157997",
+    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
+    "ts": "2026-11-19T13:30:39.395257",
     "origen": "whale_copytrader",
     "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
     "whale_signal": "COMPRAR NO"
