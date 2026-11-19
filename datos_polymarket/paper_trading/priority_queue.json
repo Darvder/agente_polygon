@@ -1,42 +1,82 @@
 [
   {
+    "id": "5787490",
+    "pregunta": "Next White House Press Secretary announced by November 30, 2026?",
+    "ts": "2026-11-19T06:28:48.216697",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5784291",
+    "pregunta": "Next White House Press Secretary announced by December 31, 2026?",
+    "ts": "2026-11-19T06:28:49.236182",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "2412744",
     "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T06:21:39.225995",
+    "ts": "2026-11-19T06:28:51.270949",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "2412746",
     "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-    "ts": "2026-11-19T06:21:41.283985",
+    "ts": "2026-11-19T06:28:52.289496",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+    "whale_wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3128886",
-    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
-    "ts": "2026-11-19T06:21:44.150338",
+    "id": "7150748",
+    "pregunta": "Will xQc finish GTA VI by November 21?",
+    "ts": "2026-11-19T06:28:56.496561",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-19T06:21:47.115406",
+    "id": "7147746",
+    "pregunta": "Will HoneyMad finish GTA VI by November 28?",
+    "ts": "2026-11-19T06:28:57.606783",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "567688",
-    "pregunta": "Netanyahu out by end of 2026?",
-    "ts": "2026-11-19T06:21:51.164985",
+    "id": "7147736",
+    "pregunta": "Will HoneyMad finish GTA VI by November 24?",
+    "ts": "2026-11-19T06:28:58.719291",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88e32b106f02fcd7a204e388f830ba290659384e",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7147758",
+    "pregunta": "Will Adin Ross finish GTA VI by November 28?",
+    "ts": "2026-11-19T06:28:59.831898",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7153568",
+    "pregunta": "Will N3on finish GTA VI by November 26?",
+    "ts": "2026-11-19T06:29:00.947741",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7153569",
+    "pregunta": "Will N3on finish GTA VI by November 28?",
+    "ts": "2026-11-19T06:29:02.054193",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
     "whale_signal": "COMPRAR NO"
   }
 ]
