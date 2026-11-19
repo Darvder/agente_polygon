@@ -1,50 +1,10 @@
 [
   {
-    "id": "2412746",
-    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-    "ts": "2026-11-19T11:40:12.983889",
+    "id": "7085173",
+    "pregunta": "Will Bitcoin dip to $60,000 November 16-22?",
+    "ts": "2026-11-19T11:42:54.380944",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2aaca6dcf0797a39821994cc528bfdd4eebfa718",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7158000",
-    "pregunta": "Anthropic IPO closing market cap above $1.45T?",
-    "ts": "2026-11-19T11:40:30.098864",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110752",
-    "pregunta": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-19T11:40:31.140379",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157999",
-    "pregunta": "Anthropic IPO closing market cap above $1.4T?",
-    "ts": "2026-11-19T11:40:32.159616",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157998",
-    "pregunta": "Anthropic IPO closing market cap above $1.35T?",
-    "ts": "2026-11-19T11:40:33.179680",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412745",
-    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-19T11:40:34.201217",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
