@@ -1,34 +1,18 @@
 [
   {
-    "id": "7135899",
-    "pregunta": "Will Bitcoin dip to $62,000 on November 18?",
-    "ts": "2026-11-18T19:20:37.763957",
+    "id": "7157997",
+    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
+    "ts": "2026-11-18T19:36:49.784492",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xd026b76110bdb604fc4716c2e6732c0be293ec2f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3721702",
-    "pregunta": "Will Anthropic's IPO valuation be between $1.25T and $1.50T?",
-    "ts": "2026-11-18T19:20:39.499380",
+    "id": "7109737",
+    "pregunta": "Will Donald Trump post 60-79 Truth Social posts from November 20 to November 27, 2026?",
+    "ts": "2026-11-18T19:36:52.570497",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x037edc7d8a99ce2d688b8e183cc446d83e80af90",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-18T19:20:40.532949",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x037edc7d8a99ce2d688b8e183cc446d83e80af90",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110750",
-    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-18T19:20:41.572205",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x037edc7d8a99ce2d688b8e183cc446d83e80af90",
+    "whale_wallet": "0xdbf99963ba3e62c65a6870d0887d6f776e03b9cc",
     "whale_signal": "COMPRAR NO"
   }
 ]
