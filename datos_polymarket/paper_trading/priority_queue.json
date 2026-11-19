@@ -1,18 +1,10 @@
 [
   {
-    "id": "7019067",
-    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $50 in November?",
-    "ts": "2026-11-19T07:32:24.795174",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-19T07:42:15.447669",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc97b0b2a2547bb3ed57167092ef8a6e816c347e5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6440141",
-    "pregunta": "Will Trump speak to Emmanuel Macron by November 30?",
-    "ts": "2026-11-19T07:32:26.934495",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
     "whale_signal": "COMPRAR NO"
   }
 ]
