@@ -1,42 +1,26 @@
 [
   {
-    "id": "4906129",
-    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
-    "ts": "2026-11-19T13:41:14.225317",
+    "id": "6364436",
+    "pregunta": "Government shutdown by December 12?",
+    "ts": "2026-11-19T13:52:01.285529",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_wallet": "0xd0394bd0de8d901c3fde039a86bf08e6aa4a2532",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T13:41:16.560539",
+    "id": "561975",
+    "pregunta": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+    "ts": "2026-11-19T13:52:02.328507",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
+    "whale_wallet": "0xd0394bd0de8d901c3fde039a86bf08e6aa4a2532",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412745",
-    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-19T13:41:17.583436",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-19T13:52:04.299577",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110751",
-    "pregunta": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-19T13:41:19.319736",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157998",
-    "pregunta": "Anthropic IPO closing market cap above $1.35T?",
-    "ts": "2026-11-19T13:41:20.347932",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_wallet": "0xb2dcc7021ceaa78c55f42a1ea4cd75cfb16bb433",
     "whale_signal": "COMPRAR NO"
   }
 ]
