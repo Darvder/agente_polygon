@@ -1,18 +1,58 @@
 [
   {
-    "id": "7157997",
-    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
-    "ts": "2026-11-19T10:21:02.159328",
+    "id": "7136649",
+    "pregunta": "Will the highest temperature in Guangzhou be 19\u00b0C on November 20?",
+    "ts": "2026-11-19T10:30:46.493609",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3cc379741b2ab96d61aab5942a1a711a89f1fb0b",
+    "whale_wallet": "0x68f46da42317cdb02ed89ca92d7863fa5071213a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T10:21:09.133881",
+    "id": "7136500",
+    "pregunta": "Will the highest temperature in Shenzhen be 19\u00b0C on November 20?",
+    "ts": "2026-11-19T10:30:47.561398",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_wallet": "0x68f46da42317cdb02ed89ca92d7863fa5071213a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7136648",
+    "pregunta": "Will the highest temperature in Guangzhou be 18\u00b0C on November 20?",
+    "ts": "2026-11-19T10:30:48.729293",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x68f46da42317cdb02ed89ca92d7863fa5071213a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3887676",
+    "pregunta": "Anthropic IPO closing market cap above $1.5T?",
+    "ts": "2026-11-19T10:30:52.202586",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157999",
+    "pregunta": "Anthropic IPO closing market cap above $1.4T?",
+    "ts": "2026-11-19T10:30:53.262557",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157996",
+    "pregunta": "Anthropic IPO closing market cap above $1.2T?",
+    "ts": "2026-11-19T10:30:54.313995",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7001903",
+    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
+    "ts": "2026-11-19T10:30:55.376254",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a250d6be6743e9313a6955a545f1998cc8acfc7",
     "whale_signal": "COMPRAR NO"
   }
 ]
