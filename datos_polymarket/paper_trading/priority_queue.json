@@ -1,10 +1,34 @@
 [
   {
-    "id": "7085173",
-    "pregunta": "Will Bitcoin dip to $60,000 November 16-22?",
-    "ts": "2026-11-19T17:49:40.205667",
+    "id": "5336561",
+    "pregunta": "Will PP win the most seats in the 2026 Spanish general election?",
+    "ts": "2026-11-19T18:00:55.938490",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb22682e5efaaa5ae3f48c3b727cf78ae57c04163",
+    "whale_wallet": "0xd2770343da54f1a2ed7305dbf83eeefa4a8b73fe",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-19T18:00:57.618925",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf63a2bc1c39487f6009efd028c56efb8ee7c5d80",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-19T18:00:58.640474",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf63a2bc1c39487f6009efd028c56efb8ee7c5d80",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4906129",
+    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
+    "ts": "2026-11-19T18:01:00.389199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
     "whale_signal": "COMPRAR NO"
   }
 ]
