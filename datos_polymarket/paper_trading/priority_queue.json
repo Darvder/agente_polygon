@@ -1,42 +1,42 @@
 [
   {
-    "id": "3013350",
-    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
-    "ts": "2026-11-19T16:21:45.672324",
+    "id": "3222415",
+    "pregunta": "Will Gold (GC) dip to (LOW) $3,500 by end of December?",
+    "ts": "2026-11-19T16:35:03.212089",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085164",
-    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
-    "ts": "2026-11-19T16:21:46.739050",
+    "id": "701767",
+    "pregunta": "Will BNB dip to $500 by December 31, 2026?",
+    "ts": "2026-11-19T16:35:04.240627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7018478",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 20?",
-    "ts": "2026-11-19T16:21:47.895523",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-19T16:35:07.784351",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-19T16:21:48.955814",
+    "id": "7130418",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 24?",
+    "ts": "2026-11-19T16:35:08.810002",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "701604",
-    "pregunta": "Will XRP dip to $0.80 by December 31, 2026?",
-    "ts": "2026-11-19T16:21:50.120250",
+    "id": "6279781",
+    "pregunta": "Trump declassifies new UFO files by November 30?",
+    "ts": "2026-11-19T16:35:09.837992",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
     "whale_signal": "COMPRAR NO"
   }
 ]
