@@ -1,18 +1,50 @@
 [
   {
-    "id": "3902370",
-    "pregunta": "Israel x Iran ceasefire continues through November 30?",
-    "ts": "2026-11-19T11:20:45.127312",
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-19T11:40:12.983889",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+    "whale_wallet": "0x2aaca6dcf0797a39821994cc528bfdd4eebfa718",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T11:20:47.018059",
+    "id": "7158000",
+    "pregunta": "Anthropic IPO closing market cap above $1.45T?",
+    "ts": "2026-11-19T11:40:30.098864",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9055a9e36aa73274e3a92dc2dbb081bb4d9e756a",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2110752",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-19T11:40:31.140379",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157999",
+    "pregunta": "Anthropic IPO closing market cap above $1.4T?",
+    "ts": "2026-11-19T11:40:32.159616",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157998",
+    "pregunta": "Anthropic IPO closing market cap above $1.35T?",
+    "ts": "2026-11-19T11:40:33.179680",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-19T11:40:34.201217",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
     "whale_signal": "COMPRAR NO"
   }
 ]
