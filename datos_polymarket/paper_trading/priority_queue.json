@@ -1,18 +1,42 @@
 [
   {
-    "id": "6999664",
-    "pregunta": "Will Anthropic close between $100 and $110 on its first trading day?",
-    "ts": "2026-11-19T16:13:47.287468",
+    "id": "3013350",
+    "pregunta": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "ts": "2026-11-19T16:21:45.672324",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2412745",
-    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-    "ts": "2026-11-19T16:13:48.310209",
+    "id": "7085164",
+    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
+    "ts": "2026-11-19T16:21:46.739050",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018478",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 20?",
+    "ts": "2026-11-19T16:21:47.895523",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507390",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-19T16:21:48.955814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701604",
+    "pregunta": "Will XRP dip to $0.80 by December 31, 2026?",
+    "ts": "2026-11-19T16:21:50.120250",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
