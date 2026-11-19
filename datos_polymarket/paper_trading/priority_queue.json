@@ -1,58 +1,10 @@
 [
   {
-    "id": "7158000",
-    "pregunta": "Anthropic IPO closing market cap above $1.45T?",
-    "ts": "2026-11-19T12:29:25.329569",
+    "id": "561229",
+    "pregunta": "Will JD Vance win the 2028 US Presidential Election?",
+    "ts": "2026-11-19T12:39:54.712322",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7001903",
-    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
-    "ts": "2026-11-19T12:29:26.536523",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157999",
-    "pregunta": "Anthropic IPO closing market cap above $1.4T?",
-    "ts": "2026-11-19T12:29:27.576435",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2412744",
-    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T12:29:28.594395",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7157997",
-    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
-    "ts": "2026-11-19T12:29:29.677064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110751",
-    "pregunta": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-19T12:29:30.760291",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2110750",
-    "pregunta": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
-    "ts": "2026-11-19T12:29:31.779218",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_wallet": "0xc028af6e9f420e4139b95aaa0c6898aab57c9a64",
     "whale_signal": "COMPRAR NO"
   }
 ]
