@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7179063",
+    "pregunta": "Ethereum above 1,750 on November 19, 5PM ET?",
+    "ts": "2026-11-19T17:00:16.908323",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x20f35464cb70c0a0b1c4baa512c119875b1737f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7179029",
+    "pregunta": "Bitcoin above 61,600 on November 19, 5PM ET?",
+    "ts": "2026-11-19T17:00:17.954030",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x20f35464cb70c0a0b1c4baa512c119875b1737f8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
