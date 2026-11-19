@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2299956",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+    "ts": "2026-11-19T11:11:02.333171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-19T11:11:03.373559",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
