@@ -1,10 +1,18 @@
 [
   {
-    "id": "7135899",
-    "pregunta": "Will Bitcoin dip to $62,000 on November 18?",
-    "ts": "2026-11-18T21:50:28.971453",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-18T22:00:34.849100",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x6abe7704bd2c9812e1f74a6b01a61ac7368ed6a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-18T22:00:35.886133",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6abe7704bd2c9812e1f74a6b01a61ac7368ed6a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
