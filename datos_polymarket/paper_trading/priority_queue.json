@@ -1,10 +1,26 @@
 [
   {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-18T20:30:52.934350",
+    "id": "2110751",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-18T20:42:29.186336",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7158000",
+    "pregunta": "Anthropic IPO closing market cap above $1.45T?",
+    "ts": "2026-11-18T20:42:30.213372",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4025c911cf213d04ff2d409baee57d1b270c3644",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7106881",
+    "pregunta": "Will Trump say \"Nuclear\" or \"Nuke\" during his trilateral meeting with Xi and Putin?",
+    "ts": "2026-11-18T20:42:31.933402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x20eee0542b86f72f471e87e831798c2f0e41f8fa",
     "whale_signal": "COMPRAR NO"
   }
 ]
