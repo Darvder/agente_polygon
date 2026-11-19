@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7157999",
+    "pregunta": "Anthropic IPO closing market cap above $1.4T?",
+    "ts": "2026-11-19T06:01:08.161466",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "920404",
+    "pregunta": "Variational FDV above $2B one day after launch?",
+    "ts": "2026-11-19T06:01:09.886537",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ea7112fef14e0f75977f2837d4caaa440604e8d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
