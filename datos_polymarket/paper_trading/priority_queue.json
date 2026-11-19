@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2110751",
+    "pregunta": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
+    "ts": "2026-11-19T13:08:04.023171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x686beac4a954696574277b0fdd353f1d9708a463",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-19T13:08:10.045899",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
