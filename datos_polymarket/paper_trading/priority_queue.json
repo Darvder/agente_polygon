@@ -1,26 +1,42 @@
 [
   {
-    "id": "6364436",
-    "pregunta": "Government shutdown by December 12?",
-    "ts": "2026-11-19T13:52:01.285529",
+    "id": "7157997",
+    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
+    "ts": "2026-11-19T13:59:17.635734",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd0394bd0de8d901c3fde039a86bf08e6aa4a2532",
+    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "561975",
-    "pregunta": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-    "ts": "2026-11-19T13:52:02.328507",
+    "id": "6999663",
+    "pregunta": "Will Anthropic close between $90 and $100 on its first trading day?",
+    "ts": "2026-11-19T13:59:18.665987",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd0394bd0de8d901c3fde039a86bf08e6aa4a2532",
+    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "701501",
-    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-    "ts": "2026-11-19T13:52:04.299577",
+    "id": "6999664",
+    "pregunta": "Will Anthropic close between $100 and $110 on its first trading day?",
+    "ts": "2026-11-19T13:59:19.712312",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb2dcc7021ceaa78c55f42a1ea4cd75cfb16bb433",
+    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999654",
+    "pregunta": "Will Anthropic stock rise between 10% and 20% on IPO day?",
+    "ts": "2026-11-19T13:59:20.841840",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-19T13:59:22.578951",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x64649fe6c02d197e4c46b3ffb88460b0b75bad1d",
     "whale_signal": "COMPRAR NO"
   }
 ]
