@@ -1,10 +1,26 @@
 [
   {
-    "id": "6919851",
-    "pregunta": "Will Rene Haas be the next CEO of NVIDIA?",
-    "ts": "2026-11-18T20:50:05.690478",
+    "id": "3902370",
+    "pregunta": "Israel x Iran ceasefire continues through November 30?",
+    "ts": "2026-11-18T20:59:15.668011",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60567382d04d7af8776eea04468a918519ebc27c",
+    "whale_wallet": "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7151107",
+    "pregunta": "Will Bitcoin reach $64,000 November 16-22?",
+    "ts": "2026-11-18T20:59:19.794127",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-18T20:59:20.972485",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
     "whale_signal": "COMPRAR NO"
   }
 ]
