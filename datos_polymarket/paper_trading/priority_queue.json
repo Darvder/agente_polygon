@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "2299956",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+    "ts": "2026-11-18T19:12:49.600986",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x14efa5b7340bee4bdf9dc023a1224329b9ada922",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6597787",
+    "pregunta": "Will Marco Rubio announce a presidential run by June 30, 2027?",
+    "ts": "2026-11-18T19:12:53.344707",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbfe23d7adb6f6108dba269d7e8f275675f531913",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085164",
+    "pregunta": "Will Bitcoin reach $66,000 November 16-22?",
+    "ts": "2026-11-18T19:12:55.399649",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7135899",
+    "pregunta": "Will Bitcoin dip to $62,000 on November 18?",
+    "ts": "2026-11-18T19:12:56.418428",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
