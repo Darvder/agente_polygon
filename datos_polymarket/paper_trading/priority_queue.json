@@ -1,18 +1,66 @@
 [
   {
-    "id": "6029620",
-    "pregunta": "Will PP win the most seats in C\u00e1diz in the 2026 Spanish general election?",
-    "ts": "2026-11-19T09:10:05.047948",
+    "id": "7029404",
+    "pregunta": "Will the 7-day average ship traffic through the Bab el-Mandeb Strait be 22+ on December 31?",
+    "ts": "2026-11-19T09:21:08.987310",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6029656",
-    "pregunta": "Will PSOE win the most seats in C\u00e1ceres in the 2026 Spanish general election?",
-    "ts": "2026-11-19T09:10:06.076124",
+    "id": "6989178",
+    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
+    "ts": "2026-11-19T09:21:10.021744",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x27640de22b1e18cd13080b1b9a3e7b7771b584e6",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150973",
+    "pregunta": "Will Gold (XAUUSD) hit (HIGH) $3,800 in November?",
+    "ts": "2026-11-19T09:21:12.608958",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x915e7d44dd59042b3033131ed6b3981f0181bf4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6172688",
+    "pregunta": "Will Gold (XAUUSD) hit (LOW) $3,600 in November?",
+    "ts": "2026-11-19T09:21:13.642176",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x915e7d44dd59042b3033131ed6b3981f0181bf4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3222415",
+    "pregunta": "Will Gold (GC) dip to (LOW) $3,500 by end of December?",
+    "ts": "2026-11-19T09:21:14.676788",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x915e7d44dd59042b3033131ed6b3981f0181bf4e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157998",
+    "pregunta": "Anthropic IPO closing market cap above $1.35T?",
+    "ts": "2026-11-19T09:21:16.411473",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3887676",
+    "pregunta": "Anthropic IPO closing market cap above $1.5T?",
+    "ts": "2026-11-19T09:21:17.447806",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7158001",
+    "pregunta": "Anthropic IPO closing market cap above $1.6T?",
+    "ts": "2026-11-19T09:21:18.485113",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
     "whale_signal": "COMPRAR NO"
   }
 ]
