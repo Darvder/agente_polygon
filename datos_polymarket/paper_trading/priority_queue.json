@@ -1,42 +1,42 @@
 [
   {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-19T14:09:24.391474",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7001903",
+    "pregunta": "Anthropic IPO closing market cap above $1.25T?",
+    "ts": "2026-11-19T14:09:26.366634",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130417",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 22?",
+    "ts": "2026-11-19T14:09:28.208443",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150748",
+    "pregunta": "Will xQc finish GTA VI by November 21?",
+    "ts": "2026-11-19T14:09:29.266453",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "7157997",
     "pregunta": "Anthropic IPO closing market cap above $1.3T?",
-    "ts": "2026-11-19T13:59:17.635734",
+    "ts": "2026-11-19T14:09:30.337372",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6999663",
-    "pregunta": "Will Anthropic close between $90 and $100 on its first trading day?",
-    "ts": "2026-11-19T13:59:18.665987",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6999664",
-    "pregunta": "Will Anthropic close between $100 and $110 on its first trading day?",
-    "ts": "2026-11-19T13:59:19.712312",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6999654",
-    "pregunta": "Will Anthropic stock rise between 10% and 20% on IPO day?",
-    "ts": "2026-11-19T13:59:20.841840",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-19T13:59:22.578951",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x64649fe6c02d197e4c46b3ffb88460b0b75bad1d",
+    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
     "whale_signal": "COMPRAR NO"
   }
 ]
