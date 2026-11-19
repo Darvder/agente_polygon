@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "920403",
+    "pregunta": "Variational FDV above $1B one day after launch?",
+    "ts": "2026-11-19T04:01:06.875672",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27965ddb885eefceec72fb255bfe8e3d27d32aed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6404239",
+    "pregunta": "Will the Reserve Bank of Australia make no change to the cash rate target at the February meeting?",
+    "ts": "2026-11-19T04:01:09.864366",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed8f7a10686dbb0fb15f5c3335f30e0043793d4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6404208",
+    "pregunta": "Will the Bank of Canada make no change to the target for the overnight rate at the January interest rate announcement?",
+    "ts": "2026-11-19T04:01:10.906747",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed8f7a10686dbb0fb15f5c3335f30e0043793d4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
