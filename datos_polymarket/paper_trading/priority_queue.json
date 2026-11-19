@@ -1,26 +1,18 @@
 [
   {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-18T22:29:26.197461",
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-18T22:42:11.470197",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd98a51f014315d0130d748b876a5092c38394db0",
+    "whale_wallet": "0x58aa47a2e3e0396f8c09259d87990db12e56a481",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "5426105",
     "pregunta": "Syrian troops enter Yemen by December 31, 2026?",
-    "ts": "2026-11-18T22:29:27.335034",
+    "ts": "2026-11-18T22:42:16.635988",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd98a51f014315d0130d748b876a5092c38394db0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "567688",
-    "pregunta": "Netanyahu out by end of 2026?",
-    "ts": "2026-11-18T22:29:29.498887",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd98a51f014315d0130d748b876a5092c38394db0",
+    "whale_wallet": "0x97d1a1072955f50df44fb3b7621f1cc4921818ef",
     "whale_signal": "COMPRAR NO"
   }
 ]
