@@ -1,34 +1,26 @@
 [
   {
-    "id": "7085173",
-    "pregunta": "Will Bitcoin dip to $60,000 November 16-22?",
-    "ts": "2026-11-19T18:32:59.481200",
+    "id": "7018434",
+    "pregunta": "Will the price of Ethereum be above $1,800 on November 20?",
+    "ts": "2026-11-19T18:41:28.098648",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xeee89734db13f62660dccaf1a15037402d1a79df",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7028074",
-    "pregunta": "Will Denmark be 2nd in the World Happiness Report 2027?",
-    "ts": "2026-11-19T18:33:02.000193",
+    "id": "7165507",
+    "pregunta": "Will Bitcoin dip to $61,000 on November 19?",
+    "ts": "2026-11-19T18:41:29.137846",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_wallet": "0xeee89734db13f62660dccaf1a15037402d1a79df",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7179521",
-    "pregunta": "Will Irama compete in Sanremo 2027?",
-    "ts": "2026-11-19T18:33:03.348930",
+    "id": "7097177",
+    "pregunta": "Will the price of Bitcoin be above $64,000 on November 23?",
+    "ts": "2026-11-19T18:41:30.174661",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5194713",
-    "pregunta": "Will the median home value in the Chicago Metro be between $323,000 and $327,000 on December 31?",
-    "ts": "2026-11-19T18:33:04.476991",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_wallet": "0xeee89734db13f62660dccaf1a15037402d1a79df",
     "whale_signal": "COMPRAR NO"
   }
 ]
