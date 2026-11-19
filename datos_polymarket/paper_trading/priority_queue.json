@@ -1,34 +1,42 @@
 [
   {
-    "id": "679030",
-    "pregunta": "Will Jean-Luc M\u00e9lenchon win the 2027 French presidential election?",
-    "ts": "2026-11-19T06:12:18.341469",
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-19T06:21:39.225995",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1db41bf72d3d816224930aaed1d04f74e001c83a",
+    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6919851",
-    "pregunta": "Will Rene Haas be the next CEO of NVIDIA?",
-    "ts": "2026-11-19T06:12:32.854476",
+    "id": "2412746",
+    "pregunta": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+    "ts": "2026-11-19T06:21:41.283985",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88aafa68e62ff436a8ed3de8502fdc40904e6a6e",
+    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-19T06:12:35.796924",
+    "id": "3128886",
+    "pregunta": "US announces end of Iranian blockade by December 31, 2026?",
+    "ts": "2026-11-19T06:21:44.150338",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb615db2a571fccbe4616da82fb05c47c60c173cf",
+    "whale_wallet": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831497",
-    "pregunta": "US x Iran Effective Ceasefire by December 31?",
-    "ts": "2026-11-19T06:12:36.876847",
+    "id": "6507390",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-19T06:21:47.115406",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb615db2a571fccbe4616da82fb05c47c60c173cf",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "567688",
+    "pregunta": "Netanyahu out by end of 2026?",
+    "ts": "2026-11-19T06:21:51.164985",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88e32b106f02fcd7a204e388f830ba290659384e",
     "whale_signal": "COMPRAR NO"
   }
 ]
