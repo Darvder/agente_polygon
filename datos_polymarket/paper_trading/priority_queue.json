@@ -2,33 +2,9 @@
   {
     "id": "2412744",
     "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-    "ts": "2026-11-19T08:33:20.353678",
+    "ts": "2026-11-19T08:41:29.631187",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6919933",
-    "pregunta": "GTA VI Online released by December 31, 2026?",
-    "ts": "2026-11-19T08:33:23.296007",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6440149",
-    "pregunta": "Will Trump speak to Elon Musk by November 30?",
-    "ts": "2026-11-19T08:33:24.498491",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5608146",
-    "pregunta": "Pete Hegseth impeached by March 31, 2027?",
-    "ts": "2026-11-19T08:33:25.546115",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0x0030ee2a77b848147295b8be41c0af3da213008d",
     "whale_signal": "COMPRAR NO"
   }
 ]
