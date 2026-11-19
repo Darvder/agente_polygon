@@ -1,10 +1,34 @@
 [
   {
-    "id": "5336560",
-    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-19T14:50:19.348722",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-19T15:03:21.252898",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157997",
+    "pregunta": "Anthropic IPO closing market cap above $1.3T?",
+    "ts": "2026-11-19T15:03:22.283676",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7157998",
+    "pregunta": "Anthropic IPO closing market cap above $1.35T?",
+    "ts": "2026-11-19T15:03:23.304170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2412744",
+    "pregunta": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+    "ts": "2026-11-19T15:03:24.335711",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a5ac9c360af9ef3e5bbda7a6af56b3d9a7d72d9",
     "whale_signal": "COMPRAR NO"
   }
 ]
