@@ -1,26 +1,18 @@
 [
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-19T16:01:20.887987",
+    "id": "6999664",
+    "pregunta": "Will Anthropic close between $100 and $110 on its first trading day?",
+    "ts": "2026-11-19T16:13:47.287468",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6722269",
-    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $144 in November?",
-    "ts": "2026-11-19T16:01:22.827666",
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-19T16:13:48.310209",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7025135",
-    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $140 Week of November 16 2026?",
-    "ts": "2026-11-19T16:01:25.035910",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
