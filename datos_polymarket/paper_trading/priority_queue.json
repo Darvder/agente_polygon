@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2412745",
+    "pregunta": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+    "ts": "2026-11-18T23:57:37.097742",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6abe7704bd2c9812e1f74a6b01a61ac7368ed6a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6264969",
+    "pregunta": "Rockstar releases PC version of GTA VI by March 31, 2027?",
+    "ts": "2026-11-18T23:57:38.965778",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6264960",
+    "pregunta": "Will Rockstar release GTA VI on PC after March 2027?",
+    "ts": "2026-11-18T23:57:40.133153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  }
+]
