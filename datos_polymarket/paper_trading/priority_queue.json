@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-19T00:23:04.639541",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x435c03d63bd3b90fa877d1d35e07f5e0fba32bed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7107418",
+    "pregunta": "Javier Milei Argentina presidential odds leader on December 31?",
+    "ts": "2026-11-19T00:23:06.574174",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49b60d2cda22653ddc8b6ef21bad6d012a7f170c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
