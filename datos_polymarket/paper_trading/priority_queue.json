@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "7029325",
+    "pregunta": "Strait of Hormuz traffic returns to normal by March 31, 2027?",
+    "ts": "2026-11-19T12:00:38.853395",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c0e270cf879583d6a0142fc817e05b768d0434e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029326",
+    "pregunta": "Strait of Hormuz traffic returns to normal by June 30, 2027?",
+    "ts": "2026-11-19T12:00:39.991437",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c0e270cf879583d6a0142fc817e05b768d0434e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029327",
+    "pregunta": "Strait of Hormuz traffic returns to normal by December 31, 2027?",
+    "ts": "2026-11-19T12:00:41.120768",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0c0e270cf879583d6a0142fc817e05b768d0434e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7032230",
+    "pregunta": "Will Anthropic open between $110 and $120 on its first trading day?",
+    "ts": "2026-11-19T12:00:43.521104",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x731a241767938bb23d1b2fac4c9cd2f3cea9033f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
