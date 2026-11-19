@@ -1,26 +1,10 @@
 [
   {
-    "id": "7165520",
-    "pregunta": "Will Ethereum dip to $1,750 on November 19?",
-    "ts": "2026-11-19T03:19:14.431066",
+    "id": "7032226",
+    "pregunta": "Will Anthropic open between $80 and $90 on its first trading day?",
+    "ts": "2026-11-19T03:32:27.606706",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7165518",
-    "pregunta": "Will Ethereum reach $1,850 on November 19?",
-    "ts": "2026-11-19T03:19:16.757020",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7165503",
-    "pregunta": "Will Bitcoin reach $65,000 on November 19?",
-    "ts": "2026-11-19T03:19:17.919083",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xa9464b8f0b5a5bc5c64c79034212cef7bdc87bc4",
     "whale_signal": "COMPRAR NO"
   }
 ]
