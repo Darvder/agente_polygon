@@ -1,10 +1,26 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-19T01:50:29.649817",
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-19T02:01:54.806253",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8302849a53d3c1fee8aae1d97f098759b6ca99cc",
+    "whale_wallet": "0x843e32a367156a1e1e0193a36a04e41ae1b4d2f3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6655995",
+    "pregunta": "Will the 5-year Treasury yield hit 4.99% in November?",
+    "ts": "2026-11-19T02:01:57.704745",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6070880",
+    "pregunta": "Will the 30-year Treasury yield hit 5.60% before 2027?",
+    "ts": "2026-11-19T02:01:58.741419",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
     "whale_signal": "COMPRAR NO"
   }
 ]
