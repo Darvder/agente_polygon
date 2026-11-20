@@ -1,50 +1,18 @@
 [
   {
-    "id": "1339767",
-    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-    "ts": "2026-11-20T07:11:03.573515",
+    "id": "2299960",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $800B by December 31?",
+    "ts": "2026-11-20T07:21:21.856479",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcb605c21d54f4bc1849f969b550eaf832dc04c99",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-20T07:11:06.312864",
+    "id": "6207382",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $75 in November?",
+    "ts": "2026-11-20T07:21:22.896956",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7018478",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 20?",
-    "ts": "2026-11-20T07:11:18.679992",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507388",
-    "pregunta": "Will Bitcoin dip to $60,000 in November?",
-    "ts": "2026-11-20T07:11:20.821687",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7150748",
-    "pregunta": "Will xQc finish GTA VI by November 21?",
-    "ts": "2026-11-20T07:11:23.273870",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7185169",
-    "pregunta": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
-    "ts": "2026-11-20T07:11:24.399045",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
     "whale_signal": "COMPRAR NO"
   }
 ]
