@@ -1,18 +1,34 @@
 [
   {
-    "id": "7085177",
-    "pregunta": "Will Bitcoin dip to $56,000 November 16-22?",
-    "ts": "2026-11-20T14:26:20.555535",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-20T14:33:20.533334",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5f1a827bc8f750efcae0daed69f84e938fbceb10",
+    "whale_wallet": "0x6dc4bf9d9be9b28e303c3ff1c403fc04e3bc6770",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7189809",
     "pregunta": "Will Bitcoin dip to $57,000 on November 20?",
-    "ts": "2026-11-20T14:26:22.434749",
+    "ts": "2026-11-20T14:33:22.402661",
     "origen": "whale_copytrader",
     "whale_wallet": "0xbf4d202382ba5702721a8c43126f5f08163733ed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701502",
+    "pregunta": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "ts": "2026-11-20T14:33:25.275471",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-20T14:33:30.381855",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
