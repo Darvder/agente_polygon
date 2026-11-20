@@ -1,34 +1,18 @@
 [
   {
-    "id": "5636955",
-    "pregunta": "Military action against King Khalid International Airport (RUH) by November 30?",
-    "ts": "2026-11-20T17:55:40.035861",
+    "id": "7204600",
+    "pregunta": "Will Ethereum reach $1,700 November 16-22?",
+    "ts": "2026-11-20T18:02:23.510433",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
+    "whale_wallet": "0xc8dcd6466701a882e6360acf41889d86684c610a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6947954",
-    "pregunta": "Will Elon Musk join Trump at APEC in China?",
-    "ts": "2026-11-20T17:55:41.218776",
+    "id": "7152197",
+    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by November 30?",
+    "ts": "2026-11-20T18:02:25.515676",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-20T17:55:42.410898",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7113572",
-    "pregunta": "Will the White House call a full lid by 6:30 PM on November 20?",
-    "ts": "2026-11-20T17:55:45.062391",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe176897ced0ae142dda0f98dd949338fffb97f65",
+    "whale_wallet": "0xf2b05d854e0af18e70b76e96534e2e7f7a04b26b",
     "whale_signal": "COMPRAR NO"
   }
 ]
