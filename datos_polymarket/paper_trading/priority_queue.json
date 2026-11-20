@@ -1,34 +1,42 @@
 [
   {
-    "id": "5176781",
-    "pregunta": "Will Anthropic have the #1 AI model at the end of December 2026?",
-    "ts": "2026-11-19T23:41:49.803450",
+    "id": "7085202",
+    "pregunta": "Will Ethereum dip to $1,600 November 16-22?",
+    "ts": "2026-11-19T23:51:40.081921",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5176795",
-    "pregunta": "Will Google have the #1 AI model at the end of December 2026?",
-    "ts": "2026-11-19T23:41:50.969862",
+    "id": "7085175",
+    "pregunta": "Will Bitcoin dip to $58,000 November 16-22?",
+    "ts": "2026-11-19T23:51:41.279612",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5076036",
-    "pregunta": "Will the next Claude Opus model (5.6+) debut at a score of at least 1520 by June 30, 2027?",
-    "ts": "2026-11-19T23:41:52.128169",
+    "id": "7018428",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 20?",
+    "ts": "2026-11-19T23:51:42.374447",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6770165",
-    "pregunta": "Will the next Qwen Max model (3.9+) debut at a score of at least 1460 by June 30, 2027?",
-    "ts": "2026-11-19T23:41:53.301208",
+    "id": "6507390",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-19T23:51:43.470533",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2467467",
+    "pregunta": "Will Solana dip to $50 by December 31, 2026?",
+    "ts": "2026-11-19T23:51:44.668264",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
