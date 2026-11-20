@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "4412321",
+    "pregunta": "Will AI solve 0 more Millennium Prize Problems in 2026?",
+    "ts": "2026-11-20T12:11:34.496491",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x96e6b8f760ee785189a8a597b383806472495615",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6921909",
+    "pregunta": "Will Elon Musk post 340-359 tweets from November 13 to November 20, 2026?",
+    "ts": "2026-11-20T12:11:38.565842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x69645cea639e7a19cbde6c126a197bc1abafef53",
+    "whale_signal": "COMPRAR NO"
+  }
+]
