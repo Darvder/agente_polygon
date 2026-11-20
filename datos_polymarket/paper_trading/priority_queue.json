@@ -2,25 +2,33 @@
   {
     "id": "701502",
     "pregunta": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-    "ts": "2026-11-20T18:42:55.405903",
+    "ts": "2026-11-20T18:51:55.150145",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7085177",
     "pregunta": "Will Bitcoin dip to $56,000 November 16-22?",
-    "ts": "2026-11-20T18:42:56.448541",
+    "ts": "2026-11-20T18:51:59.162989",
     "origen": "whale_copytrader",
     "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085204",
-    "pregunta": "Will Ethereum dip to $1,500 November 16-22?",
-    "ts": "2026-11-20T18:42:58.686356",
+    "id": "7105339",
+    "pregunta": "Will Eurozone GDP growth in Q4 2026 be between 1.2% and 1.5%?",
+    "ts": "2026-11-20T18:52:06.422140",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6404404",
+    "pregunta": "Will the Swiss National Bank make no change to the SNB policy rate at the June meeting?",
+    "ts": "2026-11-20T18:52:07.450257",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   }
 ]
