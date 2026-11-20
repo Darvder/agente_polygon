@@ -1,42 +1,50 @@
 [
   {
-    "id": "7085202",
-    "pregunta": "Will Ethereum dip to $1,600 November 16-22?",
-    "ts": "2026-11-19T23:51:40.081921",
+    "id": "7189802",
+    "pregunta": "Will Bitcoin reach $64,000 on November 20?",
+    "ts": "2026-11-20T00:04:23.575676",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x7375ea40f0cbe71cf3fe1b280510ac2f2e3e572c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085175",
-    "pregunta": "Will Bitcoin dip to $58,000 November 16-22?",
-    "ts": "2026-11-19T23:51:41.279612",
+    "id": "7130419",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 26?",
+    "ts": "2026-11-20T00:04:25.314732",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x6f1901e9a069db659339b086d50d6e02da93b9ff",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7018428",
-    "pregunta": "Will the price of Ethereum be above $1,700 on November 20?",
-    "ts": "2026-11-19T23:51:42.374447",
+    "id": "7130420",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 28?",
+    "ts": "2026-11-20T00:04:26.337766",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x6f1901e9a069db659339b086d50d6e02da93b9ff",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-19T23:51:43.470533",
+    "id": "7182677",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 25?",
+    "ts": "2026-11-20T00:04:27.356788",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x6f1901e9a069db659339b086d50d6e02da93b9ff",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2467467",
-    "pregunta": "Will Solana dip to $50 by December 31, 2026?",
-    "ts": "2026-11-19T23:51:44.668264",
+    "id": "6977298",
+    "pregunta": "Will Joe Henley win The Voice: Season 30?",
+    "ts": "2026-11-20T00:04:28.485161",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x6f1901e9a069db659339b086d50d6e02da93b9ff",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2232295",
+    "pregunta": "Will Nassourdine Imamov fight Sean Strickland next?",
+    "ts": "2026-11-20T00:04:29.516572",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6f1901e9a069db659339b086d50d6e02da93b9ff",
     "whale_signal": "COMPRAR NO"
   }
 ]
