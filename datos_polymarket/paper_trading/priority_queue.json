@@ -1,34 +1,42 @@
 [
   {
-    "id": "4487265",
-    "pregunta": "Will the Houthis enter Saudi Arabia by December 31?",
-    "ts": "2026-11-20T18:10:19.026622",
+    "id": "3581388",
+    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
+    "ts": "2026-11-20T18:23:43.819085",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf2b05d854e0af18e70b76e96534e2e7f7a04b26b",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7097736",
-    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $112 in November?",
-    "ts": "2026-11-20T18:10:20.879594",
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-20T18:23:45.012794",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce835747e39bf987de4c04052b1677e6633e5b97",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043500",
-    "pregunta": "Will Bitcoin dip to $52,500 in November?",
-    "ts": "2026-11-20T18:10:21.896623",
+    "id": "701552",
+    "pregunta": "Will Ethereum dip to $1,500 by December 31, 2026?",
+    "ts": "2026-11-20T18:23:46.034683",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce835747e39bf987de4c04052b1677e6633e5b97",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085177",
-    "pregunta": "Will Bitcoin dip to $56,000 November 16-22?",
-    "ts": "2026-11-20T18:10:22.917627",
+    "id": "3581449",
+    "pregunta": "Will Ko Chih-en win the next Kaohsiung Mayor election?",
+    "ts": "2026-11-20T18:23:47.055814",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xce835747e39bf987de4c04052b1677e6633e5b97",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7175724",
+    "pregunta": "Will xQc finish GTA VI by November 22, 3:59 AM ET?",
+    "ts": "2026-11-20T18:23:50.935162",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
     "whale_signal": "COMPRAR NO"
   }
 ]
