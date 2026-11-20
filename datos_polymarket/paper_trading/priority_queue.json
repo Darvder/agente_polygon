@@ -1,34 +1,18 @@
 [
   {
-    "id": "682705",
-    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-11-20T08:40:49.506680",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-20T08:50:30.808954",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe089e137a01da21d97b1fde81dfc07b71161bedd",
+    "whale_wallet": "0x0dccfae62418c61d2f9a642e88df39702d8bd87c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-20T08:40:50.547959",
+    "id": "7018478",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 20?",
+    "ts": "2026-11-20T08:50:32.548449",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe089e137a01da21d97b1fde81dfc07b71161bedd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6994508",
-    "pregunta": "Will Jensen Huang publicly testify before Congress by December 31, 2026?",
-    "ts": "2026-11-20T08:40:52.657955",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7126288",
-    "pregunta": "Will the US Section 232 tariff rate on Canadian primary aluminum be >40-50% on December 31, 2027?",
-    "ts": "2026-11-20T08:40:53.707887",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_wallet": "0xb5a5dca472a82c1b7770dc801d637b429032e3ca",
     "whale_signal": "COMPRAR NO"
   }
 ]
