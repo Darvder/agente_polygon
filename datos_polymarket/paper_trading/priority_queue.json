@@ -1,18 +1,34 @@
 [
   {
-    "id": "7029518",
-    "pregunta": "Next Fable Model (5.3+) released by December 31, 2026?",
-    "ts": "2026-11-20T03:22:07.297429",
+    "id": "7121859",
+    "pregunta": "Will any other model be the best AI model on November 30, 2026?",
+    "ts": "2026-11-20T03:33:03.799797",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x62cf46cd4c3af254dccfc37a7f93de265b4b5826",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6831496",
-    "pregunta": "US x Iran Effective Ceasefire by November 30?",
-    "ts": "2026-11-20T03:22:08.341808",
+    "id": "4664546",
+    "pregunta": "Will Moonshot be the third-best Chinese AI company at the end of November 2026?",
+    "ts": "2026-11-20T03:33:07.159797",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x62cf46cd4c3af254dccfc37a7f93de265b4b5826",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "690683",
+    "pregunta": "Will Variational launch a token by December 31, 2026?",
+    "ts": "2026-11-20T03:33:08.962191",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6c6578f2fa62b307d71e9c6fcc543dbce5bb3e45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1571985",
+    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
+    "ts": "2026-11-20T03:33:09.984023",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6c6578f2fa62b307d71e9c6fcc543dbce5bb3e45",
     "whale_signal": "COMPRAR NO"
   }
 ]
