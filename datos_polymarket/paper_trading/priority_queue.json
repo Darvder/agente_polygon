@@ -1,10 +1,18 @@
 [
   {
-    "id": "7097304",
-    "pregunta": "Will Elon Musk post <40 tweets from November 19 to November 21, 2026?",
-    "ts": "2026-11-20T05:22:11.408080",
+    "id": "7182837",
+    "pregunta": "Will IShowSpeed finish GTA VI by November 20, 11:59 AM ET?",
+    "ts": "2026-11-20T05:29:35.066607",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x556bb60768b7f4bea93632abf2b333357d7b4e33",
+    "whale_wallet": "0xda3eb33b7295977782959ba5e3198973551de9ca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6029653",
+    "pregunta": "Will PP win the most seats in C\u00e1ceres in the 2026 Spanish general election?",
+    "ts": "2026-11-20T05:29:37.682342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
