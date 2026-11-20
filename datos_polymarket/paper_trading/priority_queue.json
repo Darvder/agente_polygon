@@ -1,10 +1,18 @@
 [
   {
-    "id": "7189809",
-    "pregunta": "Will Bitcoin dip to $57,000 on November 20?",
-    "ts": "2026-11-20T14:45:40.280562",
+    "id": "7203829",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-20T14:51:00.947149",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaad03b403c831d0a8b484abe59ac25188b49f61d",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-20T14:51:01.976361",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
