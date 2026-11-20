@@ -1,18 +1,26 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-20T18:31:32.916306",
+    "id": "701502",
+    "pregunta": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "ts": "2026-11-20T18:42:55.405903",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x47ae6d13566c3418c4795c98ced1f197575eee94",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7042822",
-    "pregunta": "Will the price of Bitcoin be above $58,000 on November 21?",
-    "ts": "2026-11-20T18:31:34.610978",
+    "id": "7085177",
+    "pregunta": "Will Bitcoin dip to $56,000 November 16-22?",
+    "ts": "2026-11-20T18:42:56.448541",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56ef23c0e34a87702f9e3edc9e95892a976917b4",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085204",
+    "pregunta": "Will Ethereum dip to $1,500 November 16-22?",
+    "ts": "2026-11-20T18:42:58.686356",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
