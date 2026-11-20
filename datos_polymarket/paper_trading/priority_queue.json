@@ -1,74 +1,50 @@
 [
   {
-    "id": "6595333",
-    "pregunta": "Will Elon Musk\u2019s net worth be between $900B and $1.00T on November 30?",
-    "ts": "2026-11-20T08:19:08.648735",
+    "id": "5426238",
+    "pregunta": "Will Crude Oil reach a new all-time high by March 31, 2027?",
+    "ts": "2026-11-20T08:32:34.582466",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0x91572b16dc769ef8b8f1f98d5270b05a36e3626b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6722495",
-    "pregunta": "Will Hyperliquid dip to $60 in November?",
-    "ts": "2026-11-20T08:19:09.774975",
+    "id": "6507424",
+    "pregunta": "Will Ethereum dip to $1,700 in November?",
+    "ts": "2026-11-20T08:32:36.477902",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3866009",
-    "pregunta": "Will Hyperliquid dip to $60 by December 31, 2026?",
-    "ts": "2026-11-20T08:19:10.808184",
+    "id": "7018428",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 20?",
+    "ts": "2026-11-20T08:32:38.435709",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0xa64d76d112e7b47e5ca3f8fbc5485ae41a91cad1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7185169",
-    "pregunta": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
-    "ts": "2026-11-20T08:19:11.934865",
+    "id": "6436445",
+    "pregunta": "Will NVIDIA (NVDA) close above $150 end of November?",
+    "ts": "2026-11-20T08:32:41.649908",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0x24787691ebc296444add2ee3dea03c9d6f9b2e62",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2299960",
-    "pregunta": "Will Anthropic's valuation hit (LOW) $800B by December 31?",
-    "ts": "2026-11-20T08:19:12.968280",
+    "id": "6941724",
+    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $128 in November?",
+    "ts": "2026-11-20T08:32:42.838325",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0x24787691ebc296444add2ee3dea03c9d6f9b2e62",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7130420",
-    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 28?",
-    "ts": "2026-11-20T08:19:15.399969",
+    "id": "6722272",
+    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $136 in November?",
+    "ts": "2026-11-20T08:32:44.022567",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x360d3cbee47573eb5700b550b5399cc230d8ca64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7130419",
-    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 26?",
-    "ts": "2026-11-20T08:19:16.439529",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x360d3cbee47573eb5700b550b5399cc230d8ca64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7182677",
-    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 25?",
-    "ts": "2026-11-20T08:19:17.475313",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x360d3cbee47573eb5700b550b5399cc230d8ca64",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6172754",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
-    "ts": "2026-11-20T08:19:22.322165",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb7849a305b28663a193f5d4bc94dc277463bd061",
+    "whale_wallet": "0x24787691ebc296444add2ee3dea03c9d6f9b2e62",
     "whale_signal": "COMPRAR NO"
   }
 ]
