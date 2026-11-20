@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-20T14:01:28.582440",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06fdd1bb8f2f2b7d971e36e1095b1356250feec4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150902",
+    "pregunta": "Will Take-Two report less than 9 million GTA VI units sold before 2027?",
+    "ts": "2026-11-20T14:01:30.406819",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3f3bfc6d754e416699793901ffb12ddeee9f1d77",
+    "whale_signal": "COMPRAR NO"
+  }
+]
