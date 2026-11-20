@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-20T17:09:56.149584",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb2dcc7021ceaa78c55f42a1ea4cd75cfb16bb433",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701502",
+    "pregunta": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "ts": "2026-11-20T17:10:00.088314",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507441",
+    "pregunta": "Will Solana dip to $60 in November?",
+    "ts": "2026-11-20T17:10:02.463842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085204",
+    "pregunta": "Will Ethereum dip to $1,500 November 16-22?",
+    "ts": "2026-11-20T17:10:04.677059",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2467362",
+    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
+    "ts": "2026-11-20T17:10:05.715665",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
