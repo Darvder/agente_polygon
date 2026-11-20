@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "7179306",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by March 31, 2027?",
+    "ts": "2026-11-20T16:50:38.189540",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1796706",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by December 31?",
+    "ts": "2026-11-20T16:50:39.226613",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6324299",
+    "pregunta": "Exponential Time Hypothesis disproof confirmed by December 31, 2026?",
+    "ts": "2026-11-20T16:50:40.359540",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6324300",
+    "pregunta": "Exponential Time Hypothesis disproof confirmed by June 30, 2027?",
+    "ts": "2026-11-20T16:50:41.498740",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcfb502224876900f577704a19580ec67f0877d2d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-20T16:50:45.348115",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-20T16:50:46.387554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
