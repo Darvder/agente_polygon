@@ -1,10 +1,42 @@
 [
   {
-    "id": "1339767",
-    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-    "ts": "2026-11-20T09:41:56.117080",
+    "id": "4412299",
+    "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2027?",
+    "ts": "2026-11-20T09:55:54.199685",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x56ad6bd05999e0f33ea9c05a48ccb1364a46f13e",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418520",
+    "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solved by AI?",
+    "ts": "2026-11-20T09:55:55.384177",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412321",
+    "pregunta": "Will AI solve 0 more Millennium Prize Problems in 2026?",
+    "ts": "2026-11-20T09:55:56.568284",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-20T09:55:57.588355",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4383153",
+    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-20T09:55:58.608814",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0787a58e205a70320db638113fe8da18c8800ca3",
     "whale_signal": "COMPRAR NO"
   }
 ]
