@@ -1,18 +1,10 @@
 [
   {
-    "id": "6404286",
-    "pregunta": "Will the Reserve Bank of New Zealand increase the official cash rate by 25 bps at the March meeting?",
-    "ts": "2026-11-20T06:20:15.575109",
+    "id": "6760766",
+    "pregunta": "Exact Score: Kashima Antlers 0 - 0 Shimizu S-Pulse?",
+    "ts": "2026-11-20T06:32:01.513016",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6404223",
-    "pregunta": "Will the Bank of England make no change to the Bank Rate at the February meeting?",
-    "ts": "2026-11-20T06:20:16.608641",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_wallet": "0x051adea0d16c85df8a8a9c7e400e0655905d1db9",
     "whale_signal": "COMPRAR NO"
   }
 ]
