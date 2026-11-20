@@ -1,10 +1,18 @@
 [
   {
-    "id": "7042829",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 21?",
-    "ts": "2026-11-20T06:11:17.247731",
+    "id": "6404286",
+    "pregunta": "Will the Reserve Bank of New Zealand increase the official cash rate by 25 bps at the March meeting?",
+    "ts": "2026-11-20T06:20:15.575109",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcc8fcf9f91171171e9d20452b7aa328cc7c92df8",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6404223",
+    "pregunta": "Will the Bank of England make no change to the Bank Rate at the February meeting?",
+    "ts": "2026-11-20T06:20:16.608641",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
     "whale_signal": "COMPRAR NO"
   }
 ]
