@@ -1,42 +1,50 @@
 [
   {
-    "id": "5622719",
-    "pregunta": "Will voter turnout be 70% or higher in the 2026 Spanish general election?",
-    "ts": "2026-11-20T10:02:15.439286",
+    "id": "6264960",
+    "pregunta": "Will Rockstar release GTA VI on PC after March 2027?",
+    "ts": "2026-11-20T10:12:50.664313",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb865ce6bd4ecae7ef3725db2314764c339f2a77b",
+    "whale_wallet": "0x76dbc01caffa54d0010368ff8d3226d8017f6987",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5684938",
-    "pregunta": "Spain General Election: PP + Vox get 50%+ of Vote?",
-    "ts": "2026-11-20T10:02:16.641319",
+    "id": "4418520",
+    "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solved by AI?",
+    "ts": "2026-11-20T10:12:51.708378",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb865ce6bd4ecae7ef3725db2314764c339f2a77b",
+    "whale_wallet": "0x76dbc01caffa54d0010368ff8d3226d8017f6987",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085200",
-    "pregunta": "Will Ethereum dip to $1,700 November 16-22?",
-    "ts": "2026-11-20T10:02:21.912720",
+    "id": "4383154",
+    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2027?",
+    "ts": "2026-11-20T10:12:52.752179",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x76dbc01caffa54d0010368ff8d3226d8017f6987",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7189803",
-    "pregunta": "Will Bitcoin reach $63,000 on November 20?",
-    "ts": "2026-11-20T10:02:25.265455",
+    "id": "4418522",
+    "pregunta": "Will no Millennium Prize Problem be solved by AI by December 31, 2027?",
+    "ts": "2026-11-20T10:12:54.634143",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x77e34da86f95280c71e2ec12491d963b85e546cf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7189805",
-    "pregunta": "Will Bitcoin dip to $61,000 on November 20?",
-    "ts": "2026-11-20T10:02:27.591805",
+    "id": "4412322",
+    "pregunta": "Will AI solve 1 more Millennium Prize Problem in 2026?",
+    "ts": "2026-11-20T10:12:56.652162",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xdc83474bc4cdf4d037f8be1eca21cfa290aabcd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4383153",
+    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-20T10:12:59.794087",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc83474bc4cdf4d037f8be1eca21cfa290aabcd2",
     "whale_signal": "COMPRAR NO"
   }
 ]
