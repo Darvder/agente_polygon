@@ -1,34 +1,18 @@
 [
   {
-    "id": "7189807",
-    "pregunta": "Will Bitcoin dip to $59,000 on November 20?",
-    "ts": "2026-11-20T00:13:37.452780",
+    "id": "3848388",
+    "pregunta": "Will Racing Santander be relegated from the 2026-27 LaLiga?",
+    "ts": "2026-11-20T00:19:40.857411",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xd5a817163ea5acd551ee9201efbcf8b709bf9793",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7189803",
-    "pregunta": "Will Bitcoin reach $63,000 on November 20?",
-    "ts": "2026-11-20T00:13:39.858207",
+    "id": "3848399",
+    "pregunta": "Will Valencia be relegated from the 2026-27 LaLiga?",
+    "ts": "2026-11-20T00:19:42.041738",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7375ea40f0cbe71cf3fe1b280510ac2f2e3e572c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7189818",
-    "pregunta": "Will Ethereum reach $1,800 on November 20?",
-    "ts": "2026-11-20T00:13:40.979724",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x7375ea40f0cbe71cf3fe1b280510ac2f2e3e572c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-20T00:13:42.699236",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5f37b9eae39e4fa6b78cb9b7fb3db8835f1a204c",
+    "whale_wallet": "0xd5a817163ea5acd551ee9201efbcf8b709bf9793",
     "whale_signal": "COMPRAR NO"
   }
 ]
