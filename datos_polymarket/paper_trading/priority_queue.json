@@ -1,10 +1,42 @@
 [
   {
-    "id": "6908170",
-    "pregunta": "Jensen Huang divorce by March 31, 2027?",
-    "ts": "2026-11-19T21:11:39.196466",
+    "id": "7130419",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 26?",
+    "ts": "2026-11-19T21:20:31.446831",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4163e5c6a487e4ee99c7cc81a5caebd5a115521c",
+    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130418",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 24?",
+    "ts": "2026-11-19T21:20:32.655189",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7177341",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 23?",
+    "ts": "2026-11-19T21:20:33.698116",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7182677",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 25?",
+    "ts": "2026-11-19T21:20:34.902303",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4838928",
+    "pregunta": "AI bubble burst by June 30, 2027?",
+    "ts": "2026-11-19T21:20:38.722749",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd18d592ddf1a9dfe47b24ceb8f99009a6639c3d7",
     "whale_signal": "COMPRAR NO"
   }
 ]
