@@ -1,10 +1,34 @@
 [
   {
-    "id": "1193093",
-    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-20T13:08:58.758769",
+    "id": "7155713",
+    "pregunta": "US announces end of Iranian blockade by January 31, 2027?",
+    "ts": "2026-11-20T13:21:06.962952",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaa9f65acf563e0c257b5ba92e6d52301311f0df3",
+    "whale_wallet": "0xff7ca9cd180d33119e653e3eb50555a3e2ccb233",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7152198",
+    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by December 31?",
+    "ts": "2026-11-20T13:21:12.157899",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x853c37a959a5791b849e3f3225c7f5963746bd03",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7177979",
+    "pregunta": "Will Trump say \"Iran\" 5+ times during his November 20 news conference?",
+    "ts": "2026-11-20T13:21:14.169121",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x66c1a6fe836ff555ca32848646acedbbe93bfa3f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6596333",
+    "pregunta": "Will Donald Trump publicly praise Mark Rutte by November 30, 2026?",
+    "ts": "2026-11-20T13:21:15.220063",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x66c1a6fe836ff555ca32848646acedbbe93bfa3f",
     "whale_signal": "COMPRAR NO"
   }
 ]
