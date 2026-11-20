@@ -1,42 +1,18 @@
 [
   {
-    "id": "6254930",
-    "pregunta": "Netanyahu out by June 30, 2027?",
-    "ts": "2026-11-20T10:51:28.354226",
+    "id": "7018477",
+    "pregunta": "Will the price of Bitcoin be above $60,000 on November 20?",
+    "ts": "2026-11-20T10:59:21.050226",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0130afd6f3efddf1c3e16e01217b172dd9befb49",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3572732",
-    "pregunta": "Further substantive progress on the Riemann Hypothesis by December 31, 2026?",
-    "ts": "2026-11-20T10:51:29.537161",
+    "id": "7189822",
+    "pregunta": "Will Ethereum dip to $1,600 on November 20?",
+    "ts": "2026-11-20T10:59:35.625996",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0130afd6f3efddf1c3e16e01217b172dd9befb49",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-20T10:51:32.252888",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x92318178c4b81150570b7f780183048631d82212",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1339767",
-    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-    "ts": "2026-11-20T10:51:33.293265",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x92318178c4b81150570b7f780183048631d82212",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7165884",
-    "pregunta": "Will the highest temperature in Beijing be 8\u00b0C on November 21?",
-    "ts": "2026-11-20T10:51:35.225735",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x36901eb0f21519cc9055662a6d2483e96da1e16f",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
