@@ -1,26 +1,18 @@
 [
   {
-    "id": "6507390",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-20T15:14:54.219871",
+    "id": "7152198",
+    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by December 31?",
+    "ts": "2026-11-20T15:23:48.748539",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7203828",
-    "pregunta": "Will Bitcoin reach $60,000 in November?",
-    "ts": "2026-11-20T15:14:56.420704",
+    "id": "7152197",
+    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by November 30?",
+    "ts": "2026-11-20T15:23:49.927391",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6172754",
-    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
-    "ts": "2026-11-20T15:15:00.494256",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
     "whale_signal": "COMPRAR NO"
   }
 ]
