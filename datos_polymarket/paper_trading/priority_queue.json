@@ -1,10 +1,74 @@
 [
   {
-    "id": "7182837",
-    "pregunta": "Will IShowSpeed finish GTA VI by November 20, 11:59 AM ET?",
-    "ts": "2026-11-20T08:09:54.850903",
+    "id": "6595333",
+    "pregunta": "Will Elon Musk\u2019s net worth be between $900B and $1.00T on November 30?",
+    "ts": "2026-11-20T08:19:08.648735",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xda3eb33b7295977782959ba5e3198973551de9ca",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6722495",
+    "pregunta": "Will Hyperliquid dip to $60 in November?",
+    "ts": "2026-11-20T08:19:09.774975",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3866009",
+    "pregunta": "Will Hyperliquid dip to $60 by December 31, 2026?",
+    "ts": "2026-11-20T08:19:10.808184",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7185169",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
+    "ts": "2026-11-20T08:19:11.934865",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299960",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $800B by December 31?",
+    "ts": "2026-11-20T08:19:12.968280",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130420",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 28?",
+    "ts": "2026-11-20T08:19:15.399969",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x360d3cbee47573eb5700b550b5399cc230d8ca64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7130419",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 26?",
+    "ts": "2026-11-20T08:19:16.439529",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x360d3cbee47573eb5700b550b5399cc230d8ca64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7182677",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 25?",
+    "ts": "2026-11-20T08:19:17.475313",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x360d3cbee47573eb5700b550b5399cc230d8ca64",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6172754",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
+    "ts": "2026-11-20T08:19:22.322165",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7849a305b28663a193f5d4bc94dc277463bd061",
     "whale_signal": "COMPRAR NO"
   }
 ]
