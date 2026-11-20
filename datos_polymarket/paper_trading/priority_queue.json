@@ -1,42 +1,18 @@
 [
   {
-    "id": "3581388",
-    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
-    "ts": "2026-11-20T18:23:43.819085",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-20T18:31:32.916306",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_wallet": "0x47ae6d13566c3418c4795c98ced1f197575eee94",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-20T18:23:45.012794",
+    "id": "7042822",
+    "pregunta": "Will the price of Bitcoin be above $58,000 on November 21?",
+    "ts": "2026-11-20T18:31:34.610978",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "701552",
-    "pregunta": "Will Ethereum dip to $1,500 by December 31, 2026?",
-    "ts": "2026-11-20T18:23:46.034683",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581449",
-    "pregunta": "Will Ko Chih-en win the next Kaohsiung Mayor election?",
-    "ts": "2026-11-20T18:23:47.055814",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7175724",
-    "pregunta": "Will xQc finish GTA VI by November 22, 3:59 AM ET?",
-    "ts": "2026-11-20T18:23:50.935162",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
+    "whale_wallet": "0x56ef23c0e34a87702f9e3edc9e95892a976917b4",
     "whale_signal": "COMPRAR NO"
   }
 ]
