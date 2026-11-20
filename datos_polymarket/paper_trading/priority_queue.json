@@ -1,18 +1,26 @@
 [
   {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-20T11:42:51.812172",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-20T11:51:23.620658",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x223b1e457964577ff4fb18c7f40f454433b885df",
+    "whale_wallet": "0xc95ed399d2fbaec9461f2abd70e0d96df1921288",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6921909",
-    "pregunta": "Will Elon Musk post 340-359 tweets from November 13 to November 20, 2026?",
-    "ts": "2026-11-20T11:42:53.625437",
+    "id": "3215013",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
+    "ts": "2026-11-20T11:51:24.786440",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
+    "whale_wallet": "0xc95ed399d2fbaec9461f2abd70e0d96df1921288",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6322992",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
+    "ts": "2026-11-20T11:51:25.825085",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc95ed399d2fbaec9461f2abd70e0d96df1921288",
     "whale_signal": "COMPRAR NO"
   }
 ]
