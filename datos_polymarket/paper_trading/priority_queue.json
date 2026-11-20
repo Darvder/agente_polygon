@@ -1,10 +1,18 @@
 [
   {
-    "id": "7150973",
-    "pregunta": "Will Gold (XAUUSD) hit (HIGH) $3,800 in November?",
-    "ts": "2026-11-20T07:31:25.388200",
+    "id": "6600818",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.6T by November 30?",
+    "ts": "2026-11-20T07:41:01.494866",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x74b4f9447b14b12308963fc048ae363eb0756bea",
+    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7166212",
+    "pregunta": "Will the lowest temperature in Hong Kong be 14\u00b0C on November 21?",
+    "ts": "2026-11-20T07:41:04.234650",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc60bb547dbdf59c8d1746bc8a754accc3809d9f7",
     "whale_signal": "COMPRAR NO"
   }
 ]
