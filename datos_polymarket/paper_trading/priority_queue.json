@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7029518",
+    "pregunta": "Next Fable Model (5.3+) released by December 31, 2026?",
+    "ts": "2026-11-20T03:22:07.297429",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x62cf46cd4c3af254dccfc37a7f93de265b4b5826",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-20T03:22:08.341808",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x62cf46cd4c3af254dccfc37a7f93de265b4b5826",
+    "whale_signal": "COMPRAR NO"
+  }
+]
