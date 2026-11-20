@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-19T23:32:36.224674",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-19T23:32:38.146401",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x27428cf5e178c966322becb17cbfa18b3ad7dc70",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7018488",
+    "pregunta": "Will the price of Ethereum be between $1,700 and $1,800 on November 20?",
+    "ts": "2026-11-19T23:32:41.239702",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-19T23:32:42.281819",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507424",
+    "pregunta": "Will Ethereum dip to $1,700 in November?",
+    "ts": "2026-11-19T23:32:46.352759",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e15f0f862a8fd540373092e37626a5a2254b101",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507425",
+    "pregunta": "Will Ethereum dip to $1,600 in November?",
+    "ts": "2026-11-19T23:32:47.400002",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8e15f0f862a8fd540373092e37626a5a2254b101",
+    "whale_signal": "COMPRAR NO"
+  }
+]
