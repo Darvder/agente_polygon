@@ -1,50 +1,58 @@
 [
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-20T17:32:03.475294",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-20T17:39:15.251741",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507392",
-    "pregunta": "Will Bitcoin dip to $55,000 in November?",
-    "ts": "2026-11-20T17:32:04.502053",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-20T17:39:16.292542",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043500",
-    "pregunta": "Will Bitcoin dip to $52,500 in November?",
-    "ts": "2026-11-20T17:32:05.523920",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-20T17:39:17.346180",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5608146",
-    "pregunta": "Pete Hegseth impeached by March 31, 2027?",
-    "ts": "2026-11-20T17:32:08.276595",
+    "id": "6117752",
+    "pregunta": "Will Kimi Antonelli finish on the podium at the 2026 F1 Las Vegas Grand Prix?",
+    "ts": "2026-11-20T17:39:18.563040",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf27de6607cbd15be1133619b9807ff63fb86e6d3",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7153862",
-    "pregunta": "Will a Senate committee vote to subpoena Howard Lutnick before 2028?",
-    "ts": "2026-11-20T17:32:09.389429",
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-20T17:39:19.607554",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf27de6607cbd15be1133619b9807ff63fb86e6d3",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7206679",
-    "pregunta": "Will Alp\u00f6ge's Lean proof of the Riemann Hypothesis pass independent verification by December 31, 2026?",
-    "ts": "2026-11-20T17:32:11.337642",
+    "id": "3215013",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
+    "ts": "2026-11-20T17:39:20.690849",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7a251ff68217a0418a8f7eddede5b638f8c881d1",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-20T17:39:21.732167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x37f2470323155a5f0165b6f72fba2609c95b21e6",
     "whale_signal": "COMPRAR NO"
   }
 ]
