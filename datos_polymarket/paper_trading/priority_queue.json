@@ -1,18 +1,26 @@
 [
   {
-    "id": "3215012",
-    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
-    "ts": "2026-11-20T15:01:23.741055",
+    "id": "6507390",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-20T15:14:54.219871",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe89905ca9a689f5129621b62fcf715b5a45b88c",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7185150",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.6T by December 31?",
-    "ts": "2026-11-20T15:01:25.453459",
+    "id": "7203828",
+    "pregunta": "Will Bitcoin reach $60,000 in November?",
+    "ts": "2026-11-20T15:14:56.420704",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6172754",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
+    "ts": "2026-11-20T15:15:00.494256",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   }
 ]
