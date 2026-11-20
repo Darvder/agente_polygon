@@ -1,18 +1,26 @@
 [
   {
-    "id": "7018477",
-    "pregunta": "Will the price of Bitcoin be above $60,000 on November 20?",
-    "ts": "2026-11-20T10:59:21.050226",
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-20T11:10:23.033925",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7189822",
-    "pregunta": "Will Ethereum dip to $1,600 on November 20?",
-    "ts": "2026-11-20T10:59:35.625996",
+    "id": "7043500",
+    "pregunta": "Will Bitcoin dip to $52,500 in November?",
+    "ts": "2026-11-20T11:10:24.079482",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7182837",
+    "pregunta": "Will IShowSpeed finish GTA VI by November 20, 11:59 AM ET?",
+    "ts": "2026-11-20T11:10:27.911939",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc5200e2eed92ece3793de9159fa1a25ae2d90455",
     "whale_signal": "COMPRAR NO"
   }
 ]
