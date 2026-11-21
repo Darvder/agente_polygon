@@ -1,10 +1,26 @@
 [
   {
-    "id": "7085179",
-    "pregunta": "Will Bitcoin dip to $54,000 November 16-22?",
-    "ts": "2026-11-20T23:52:48.641030",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-20T23:59:20.005615",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x3f3bfc6d754e416699793901ffb12ddeee9f1d77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6594190",
+    "pregunta": "Will Alphabet be the third-largest company in the world by market cap on November 30, 2026?",
+    "ts": "2026-11-20T23:59:22.783153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-20T23:59:33.189095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60f100f5112b42e2ef89036d8b9c6877757dcb3e",
     "whale_signal": "COMPRAR NO"
   }
 ]
