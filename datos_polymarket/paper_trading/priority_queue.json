@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-21T01:11:38.979907",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085183",
+    "pregunta": "Will Bitcoin dip to $50,000 November 16-22?",
+    "ts": "2026-11-21T01:11:40.020962",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
