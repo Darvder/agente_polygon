@@ -1,10 +1,50 @@
 [
   {
-    "id": "1193093",
-    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-21T10:52:27.683713",
+    "id": "2467467",
+    "pregunta": "Will Solana dip to $50 by December 31, 2026?",
+    "ts": "2026-11-21T10:59:23.754323",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x503a86e62441e6401dd954f4e6989a244415860a",
+    "whale_wallet": "0xf31ad4ffa218bb699c0c93d177529bff2b76bfba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299955",
+    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
+    "ts": "2026-11-21T10:59:25.438763",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-21T10:59:26.458628",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-21T10:59:27.478428",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299960",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $800B by December 31?",
+    "ts": "2026-11-21T10:59:28.500452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5336561",
+    "pregunta": "Will PP win the most seats in the 2026 Spanish general election?",
+    "ts": "2026-11-21T10:59:31.241356",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x70ce5db5ba60a65de28ef226102c093d0dfc1dd2",
     "whale_signal": "COMPRAR NO"
   }
 ]
