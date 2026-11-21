@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-21T03:42:52.644949",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcb86c3db58b8449426da10cc1240ee4660d6feda",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-21T03:42:55.391170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e5a2fdbfda425caa408f8f225b13bf3bca30122",
+    "whale_signal": "COMPRAR NO"
+  }
+]
