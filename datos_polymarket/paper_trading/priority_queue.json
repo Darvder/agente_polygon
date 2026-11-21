@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "5336561",
+    "pregunta": "Will PP win the most seats in the 2026 Spanish general election?",
+    "ts": "2026-11-21T13:21:44.347560",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5336560",
+    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
+    "ts": "2026-11-21T13:21:45.375004",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6031067",
+    "pregunta": "Will PP win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
+    "ts": "2026-11-21T13:21:46.552897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  }
+]
