@@ -1,26 +1,50 @@
 [
   {
-    "id": "2467362",
-    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
-    "ts": "2026-11-20T23:19:53.816486",
+    "id": "7205005",
+    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 27?",
+    "ts": "2026-11-20T23:32:01.135444",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x84427a54d5fdb88972ea33c22bd8b1e12fce9df5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7085181",
-    "pregunta": "Will Bitcoin dip to $52,000 November 16-22?",
-    "ts": "2026-11-20T23:20:01.255752",
+    "id": "7170429",
+    "pregunta": "Will the highest temperature in Toronto be 15\u00b0C on November 21?",
+    "ts": "2026-11-20T23:32:10.227740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3399468",
-    "pregunta": "Israel x Iran ceasefire continues through December 31?",
-    "ts": "2026-11-20T23:20:04.116710",
+    "id": "7193290",
+    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on November 22?",
+    "ts": "2026-11-20T23:32:11.405259",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3c4f0a0dec4b0c76a7e90e2458b8216a773f831e",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7168062",
+    "pregunta": "Will the highest temperature in Miami be between 82-83\u00b0F on November 21?",
+    "ts": "2026-11-20T23:32:12.442276",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7193275",
+    "pregunta": "Will the highest temperature in Atlanta be between 64-65\u00b0F on November 22?",
+    "ts": "2026-11-20T23:32:13.628452",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7168083",
+    "pregunta": "Will the highest temperature in Austin be between 72-73\u00b0F on November 21?",
+    "ts": "2026-11-20T23:32:14.811086",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
     "whale_signal": "COMPRAR NO"
   }
 ]
