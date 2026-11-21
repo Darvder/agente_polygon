@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "7217503",
+    "pregunta": "Will Bitcoin reach $61,000 on November 21?",
+    "ts": "2026-11-21T18:08:15.103502",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7203829",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-21T18:08:16.262860",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x744c072005bde6ddab8764a7477f61d3d22ae37f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4664520",
+    "pregunta": "Will Alibaba be the second-best Chinese AI company at the end of November 2026?",
+    "ts": "2026-11-21T18:08:18.089956",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4664524",
+    "pregunta": "Will Xiaomi be the second-best Chinese AI company at the end of November 2026?",
+    "ts": "2026-11-21T18:08:19.132935",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-21T18:08:21.669411",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9fe3c1dbc9ba3cd69aa1469b35c15c7666c2ca9d",
+    "whale_signal": "COMPRAR NO"
+  }
+]
