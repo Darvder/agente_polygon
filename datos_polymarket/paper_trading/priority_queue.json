@@ -2,25 +2,25 @@
   {
     "id": "6507392",
     "pregunta": "Will Bitcoin dip to $55,000 in November?",
-    "ts": "2026-11-21T09:52:00.203013",
+    "ts": "2026-11-21T10:02:50.293286",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa459d45aa7b8cbed3f0c8faf2213f6659d5b7d24",
+    "whale_wallet": "0x240bb9d7dc5c68df8d622506b27c68da523eb9cf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043500",
-    "pregunta": "Will Bitcoin dip to $52,500 in November?",
-    "ts": "2026-11-21T09:52:01.222507",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-21T10:02:54.390427",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa459d45aa7b8cbed3f0c8faf2213f6659d5b7d24",
+    "whale_wallet": "0x240bb9d7dc5c68df8d622506b27c68da523eb9cf",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6949128",
-    "pregunta": "Gemini Krypton released by January 31, 2027?",
-    "ts": "2026-11-21T09:52:03.278405",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-21T10:02:55.412204",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
+    "whale_wallet": "0x240bb9d7dc5c68df8d622506b27c68da523eb9cf",
     "whale_signal": "COMPRAR NO"
   }
 ]
