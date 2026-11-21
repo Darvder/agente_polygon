@@ -1,10 +1,98 @@
 [
   {
-    "id": "7217503",
-    "pregunta": "Will Bitcoin reach $61,000 on November 21?",
-    "ts": "2026-11-21T16:31:10.730095",
+    "id": "7217636",
+    "pregunta": "Will the highest temperature in Warsaw be 2\u00b0C on November 23?",
+    "ts": "2026-11-21T16:40:51.042610",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7217637",
+    "pregunta": "Will the highest temperature in Warsaw be 3\u00b0C on November 23?",
+    "ts": "2026-11-21T16:40:52.247104",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218320",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 34\u00b0C on November 23?",
+    "ts": "2026-11-21T16:40:53.442070",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218375",
+    "pregunta": "Will the highest temperature in Guangzhou be 24\u00b0C on November 23?",
+    "ts": "2026-11-21T16:40:54.539878",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7194870",
+    "pregunta": "Will the highest temperature in Toronto be 17\u00b0C on November 22?",
+    "ts": "2026-11-21T16:40:55.634096",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7194857",
+    "pregunta": "Will the highest temperature in Buenos Aires be 27\u00b0C on November 22?",
+    "ts": "2026-11-21T16:40:56.727933",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7193274",
+    "pregunta": "Will the highest temperature in Atlanta be between 62-63\u00b0F on November 22?",
+    "ts": "2026-11-21T16:40:57.926480",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7193267",
+    "pregunta": "Will the highest temperature in Dallas be between 64-65\u00b0F on November 22?",
+    "ts": "2026-11-21T16:40:59.020919",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218187",
+    "pregunta": "Will the highest temperature in Beijing be 9\u00b0C on November 23?",
+    "ts": "2026-11-21T16:41:00.221810",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218186",
+    "pregunta": "Will the highest temperature in Beijing be 8\u00b0C on November 23?",
+    "ts": "2026-11-21T16:41:01.419872",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218374",
+    "pregunta": "Will the highest temperature in Guangzhou be 23\u00b0C on November 23?",
+    "ts": "2026-11-21T16:41:02.513328",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0a0c42f6b1da5a633ec1a4d45ba76eb486c1a853",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7190703",
+    "pregunta": "Will the lowest temperature in Tokyo be 7\u00b0C on November 22?",
+    "ts": "2026-11-21T16:41:05.293421",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1bd1c05d0ec5256479ec8e1a83783edb9b4720bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
