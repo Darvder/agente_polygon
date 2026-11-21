@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2870574",
+    "pregunta": "Will the Ornn H100 Index be between $3.50 and $4.00 on December 31, 2026?",
+    "ts": "2026-11-21T09:42:01.413610",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc84058541b1ef3586be91fd56860c1de283296",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6656724",
+    "pregunta": "Will the Ornn H200 Index be at least $6.50 on December 31, 2026?",
+    "ts": "2026-11-21T09:42:02.597431",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xedc84058541b1ef3586be91fd56860c1de283296",
+    "whale_signal": "COMPRAR NO"
+  }
+]
