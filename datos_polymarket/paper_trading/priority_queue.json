@@ -1,18 +1,34 @@
 [
   {
-    "id": "1571985",
-    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
-    "ts": "2026-11-20T19:13:01.999658",
+    "id": "7088834",
+    "pregunta": "Will OpenAI have the second highest OpenRouter market share the week of November 16?",
+    "ts": "2026-11-20T19:24:05.877933",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5b25b5789fc7f4caf62193b0744c71d005000cbc",
+    "whale_wallet": "0x8dc6b0357089f3543bf286bd4252f64a912e22a3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3902370",
-    "pregunta": "Israel x Iran ceasefire continues through November 30?",
-    "ts": "2026-11-20T19:13:04.812395",
+    "id": "7097447",
+    "pregunta": "Will \"I Play Rocky\" Opening Weekend Box Office be between 10m and 13m?",
+    "ts": "2026-11-20T19:24:07.088595",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+    "whale_wallet": "0x8dc6b0357089f3543bf286bd4252f64a912e22a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7042826",
+    "pregunta": "Will the price of Bitcoin be above $60,000 on November 21?",
+    "ts": "2026-11-20T19:24:08.979183",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7875b62d93522284742de2bd49c2729ac477e0ef",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-20T19:24:10.938730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
