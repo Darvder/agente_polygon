@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "7217501",
+    "pregunta": "Will Bitcoin reach $62,000 on November 21?",
+    "ts": "2026-11-21T12:01:07.260005",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
+    "whale_signal": "COMPRAR NO"
+  }
+]
