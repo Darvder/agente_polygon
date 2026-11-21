@@ -1,26 +1,26 @@
 [
   {
-    "id": "4906129",
-    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
-    "ts": "2026-11-21T10:30:08.858673",
+    "id": "7217503",
+    "pregunta": "Will Bitcoin reach $61,000 on November 21?",
+    "ts": "2026-11-21T10:40:46.345398",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
+    "whale_wallet": "0x14e296e208258247e8631c4749ce273d5342282f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043500",
-    "pregunta": "Will Bitcoin dip to $52,500 in November?",
-    "ts": "2026-11-21T10:30:10.873235",
+    "id": "7217501",
+    "pregunta": "Will Bitcoin reach $62,000 on November 21?",
+    "ts": "2026-11-21T10:40:47.364627",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x240bb9d7dc5c68df8d622506b27c68da523eb9cf",
+    "whale_wallet": "0x14e296e208258247e8631c4749ce273d5342282f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1339767",
-    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-    "ts": "2026-11-21T10:30:11.901247",
+    "id": "4662701",
+    "pregunta": "Will CoreWeave announce bankruptcy by December 31, 2029?",
+    "ts": "2026-11-21T10:40:50.073620",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x240bb9d7dc5c68df8d622506b27c68da523eb9cf",
+    "whale_wallet": "0x7d7994be99a8833ee0147feb47fe2aa3e4281e07",
     "whale_signal": "COMPRAR NO"
   }
 ]
