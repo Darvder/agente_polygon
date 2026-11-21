@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7218566",
+    "pregunta": "Will the lowest temperature in Beijing be 1\u00b0C or higher on November 23?",
+    "ts": "2026-11-21T12:49:27.028708",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb87fb360cb36b252a237b11b18d9a4127ee3f7d4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7190675",
+    "pregunta": "Will the lowest temperature in Ankara be 9\u00b0C or higher on November 22?",
+    "ts": "2026-11-21T12:49:28.225303",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb87fb360cb36b252a237b11b18d9a4127ee3f7d4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
