@@ -1,10 +1,34 @@
 [
   {
-    "id": "7217501",
-    "pregunta": "Will Bitcoin reach $62,000 on November 21?",
-    "ts": "2026-11-21T12:01:07.260005",
+    "id": "7151893",
+    "pregunta": "Will Ron DeSantis not announce a run for the Republican nomination before 2028?",
+    "ts": "2026-11-21T12:11:19.563171",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
+    "whale_wallet": "0xdd33bb0f7168462e5c3f9a564a4477650dd441ea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7151895",
+    "pregunta": "Will Ron DeSantis run but lose the 2028 Republican nomination?",
+    "ts": "2026-11-21T12:11:20.586330",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd33bb0f7168462e5c3f9a564a4477650dd441ea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7151898",
+    "pregunta": "Will Pete Buttigieg not announce a run for the Democratic nomination before 2028?",
+    "ts": "2026-11-21T12:11:21.717592",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd33bb0f7168462e5c3f9a564a4477650dd441ea",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7151899",
+    "pregunta": "Will Pete Buttigieg run but lose the 2028 Democratic nomination?",
+    "ts": "2026-11-21T12:11:22.852077",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd33bb0f7168462e5c3f9a564a4477650dd441ea",
     "whale_signal": "COMPRAR NO"
   }
 ]
