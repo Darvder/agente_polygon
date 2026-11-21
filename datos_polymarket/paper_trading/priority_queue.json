@@ -1,10 +1,26 @@
 [
   {
-    "id": "7203829",
-    "pregunta": "Will Bitcoin reach $62,500 in November?",
-    "ts": "2026-11-21T08:38:41.416164",
+    "id": "7204593",
+    "pregunta": "Will Bitcoin reach $62,000 November 16-22?",
+    "ts": "2026-11-21T08:51:32.866302",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x154bd192aa734e343056f51a2559288ff78d54c5",
+    "whale_wallet": "0xdf121673d9641eaa63a626269d3a357486a912e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7177339",
+    "pregunta": "Will Bitcoin reach $64,000 November 16-22?",
+    "ts": "2026-11-21T08:51:34.607064",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043500",
+    "pregunta": "Will Bitcoin dip to $52,500 in November?",
+    "ts": "2026-11-21T08:51:36.648420",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
