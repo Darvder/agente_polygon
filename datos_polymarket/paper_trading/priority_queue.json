@@ -1,34 +1,26 @@
 [
   {
-    "id": "7217503",
-    "pregunta": "Will Bitcoin reach $61,000 on November 21?",
-    "ts": "2026-11-21T17:11:43.213015",
+    "id": "7209783",
+    "pregunta": "Will Anthropic close below its IPO price by November 27, 2026?",
+    "ts": "2026-11-21T17:20:57.586042",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xdda247bd26d5ee9499f5197096deaff6b0074814",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043500",
-    "pregunta": "Will Bitcoin dip to $52,500 in November?",
-    "ts": "2026-11-21T17:11:44.266821",
+    "id": "7208791",
+    "pregunta": "Will Anthropic close below its IPO price by November 25, 2026?",
+    "ts": "2026-11-21T17:20:58.623757",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xdda247bd26d5ee9499f5197096deaff6b0074814",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6507392",
-    "pregunta": "Will Bitcoin dip to $55,000 in November?",
-    "ts": "2026-11-21T17:11:45.316587",
+    "id": "7170138",
+    "pregunta": "Will the highest temperature in Seattle be between 46-47\u00b0F on November 21?",
+    "ts": "2026-11-21T17:21:02.856536",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-21T17:11:50.182179",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x149c7f41390fc12ad8a630721c768e35a69a9f0a",
+    "whale_wallet": "0xc7e532f256082d83a5b6212125f6ae505c23e387",
     "whale_signal": "COMPRAR NO"
   }
 ]
