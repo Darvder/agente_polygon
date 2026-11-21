@@ -1,26 +1,18 @@
 [
   {
-    "id": "5336561",
-    "pregunta": "Will PP win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-21T13:21:44.347560",
+    "id": "4031796",
+    "pregunta": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election?",
+    "ts": "2026-11-21T13:31:30.524921",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xf7b862dc3ff07d99489790a8917f1899221397fc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5336560",
-    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-21T13:21:45.375004",
+    "id": "7208791",
+    "pregunta": "Will Anthropic close below its IPO price by November 25, 2026?",
+    "ts": "2026-11-21T13:31:32.446983",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6031067",
-    "pregunta": "Will PP win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
-    "ts": "2026-11-21T13:21:46.552897",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   }
 ]
