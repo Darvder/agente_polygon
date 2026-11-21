@@ -1,26 +1,10 @@
 [
   {
-    "id": "3747578",
-    "pregunta": "Will Bitcoin hit $150k by December 31, 2027?",
-    "ts": "2026-11-20T20:59:20.662528",
+    "id": "4824876",
+    "pregunta": "Will \"GTA VI: The Album\" first week sales be at least 200k?",
+    "ts": "2026-11-20T21:09:41.919753",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf4c95b636c71243531dfc82a97565a94c106f88c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6920592",
-    "pregunta": "Will the Gatorade shower at Super Bowl LXI be green/yellow?",
-    "ts": "2026-11-20T20:59:23.133014",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x52ebca459280966f4a56240a05e38df8527067ac",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6920591",
-    "pregunta": "Will the Gatorade shower at Super Bowl LXI be orange?",
-    "ts": "2026-11-20T20:59:24.165048",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x52ebca459280966f4a56240a05e38df8527067ac",
+    "whale_wallet": "0x7a86b972c76f703814eedd4ccbe1fe186d35f8e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
