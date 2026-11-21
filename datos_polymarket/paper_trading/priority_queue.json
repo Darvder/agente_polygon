@@ -1,50 +1,10 @@
 [
   {
-    "id": "7205005",
-    "pregunta": "Will Kai Cenat finish his GTA VI marathon by November 27?",
-    "ts": "2026-11-20T23:32:01.135444",
+    "id": "7203829",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-20T23:41:31.070986",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x84427a54d5fdb88972ea33c22bd8b1e12fce9df5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7170429",
-    "pregunta": "Will the highest temperature in Toronto be 15\u00b0C on November 21?",
-    "ts": "2026-11-20T23:32:10.227740",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7193290",
-    "pregunta": "Will the highest temperature in Miami be between 86-87\u00b0F on November 22?",
-    "ts": "2026-11-20T23:32:11.405259",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7168062",
-    "pregunta": "Will the highest temperature in Miami be between 82-83\u00b0F on November 21?",
-    "ts": "2026-11-20T23:32:12.442276",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7193275",
-    "pregunta": "Will the highest temperature in Atlanta be between 64-65\u00b0F on November 22?",
-    "ts": "2026-11-20T23:32:13.628452",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7168083",
-    "pregunta": "Will the highest temperature in Austin be between 72-73\u00b0F on November 21?",
-    "ts": "2026-11-20T23:32:14.811086",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   }
 ]
