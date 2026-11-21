@@ -1,18 +1,26 @@
 [
   {
-    "id": "2870574",
-    "pregunta": "Will the Ornn H100 Index be between $3.50 and $4.00 on December 31, 2026?",
-    "ts": "2026-11-21T09:42:01.413610",
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-21T09:52:00.203013",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedc84058541b1ef3586be91fd56860c1de283296",
+    "whale_wallet": "0xa459d45aa7b8cbed3f0c8faf2213f6659d5b7d24",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6656724",
-    "pregunta": "Will the Ornn H200 Index be at least $6.50 on December 31, 2026?",
-    "ts": "2026-11-21T09:42:02.597431",
+    "id": "7043500",
+    "pregunta": "Will Bitcoin dip to $52,500 in November?",
+    "ts": "2026-11-21T09:52:01.222507",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedc84058541b1ef3586be91fd56860c1de283296",
+    "whale_wallet": "0xa459d45aa7b8cbed3f0c8faf2213f6659d5b7d24",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6949128",
+    "pregunta": "Gemini Krypton released by January 31, 2027?",
+    "ts": "2026-11-21T09:52:03.278405",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
