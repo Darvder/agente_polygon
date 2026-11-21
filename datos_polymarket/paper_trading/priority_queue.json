@@ -1,18 +1,1 @@
-[
-  {
-    "id": "7042822",
-    "pregunta": "Will the price of Bitcoin be above $58,000 on November 21?",
-    "ts": "2026-11-20T20:19:53.978291",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7085177",
-    "pregunta": "Will Bitcoin dip to $56,000 November 16-22?",
-    "ts": "2026-11-20T20:19:54.999754",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
