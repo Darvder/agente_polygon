@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2467362",
+    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
+    "ts": "2026-11-20T23:19:53.816486",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7085181",
+    "pregunta": "Will Bitcoin dip to $52,000 November 16-22?",
+    "ts": "2026-11-20T23:20:01.255752",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-20T23:20:04.116710",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c4f0a0dec4b0c76a7e90e2458b8216a773f831e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
