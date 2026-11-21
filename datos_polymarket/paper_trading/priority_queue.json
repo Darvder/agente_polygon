@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "7073888",
+    "pregunta": "Will the price of XRP be above $0.90 on November 22?",
+    "ts": "2026-11-21T15:51:58.256265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x20f35464cb70c0a0b1c4baa512c119875b1737f8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6997774",
+    "pregunta": "Fourth Jensen Huang affair reported by December 31?",
+    "ts": "2026-11-21T15:52:04.365281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999515",
+    "pregunta": "Will 3 Jensen Huang affairs be reported by December 31?",
+    "ts": "2026-11-21T15:52:05.402833",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  }
+]
