@@ -1,18 +1,42 @@
 [
   {
-    "id": "3249918",
-    "pregunta": "Will New Mexico Lobos Win the 2026 Mountain West Championship?",
-    "ts": "2026-11-20T22:55:08.705057",
+    "id": "2467362",
+    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
+    "ts": "2026-11-20T23:01:21.101138",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "701767",
-    "pregunta": "Will BNB dip to $500 by December 31, 2026?",
-    "ts": "2026-11-20T22:55:09.802616",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-20T23:01:22.197669",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x376441d19f56d43629d3872324dc2e648e13c5eb",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701552",
+    "pregunta": "Will Ethereum dip to $1,500 by December 31, 2026?",
+    "ts": "2026-11-20T23:01:23.291739",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-20T23:01:24.386809",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-20T23:01:25.480542",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
