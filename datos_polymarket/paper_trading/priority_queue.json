@@ -1,18 +1,34 @@
 [
   {
-    "id": "6556100",
-    "pregunta": "Will the Democrats sweep the House and Senate and US gas hit $3.50 by the end of 2026?",
-    "ts": "2026-11-21T17:01:08.460300",
+    "id": "7217503",
+    "pregunta": "Will Bitcoin reach $61,000 on November 21?",
+    "ts": "2026-11-21T17:11:43.213015",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x92e11775eb6ab102db0502b0c6192d83b8266d73",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2760642",
-    "pregunta": "Will Stripe not IPO by December 31, 2027?",
-    "ts": "2026-11-21T17:01:09.479433",
+    "id": "7043500",
+    "pregunta": "Will Bitcoin dip to $52,500 in November?",
+    "ts": "2026-11-21T17:11:44.266821",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x92e11775eb6ab102db0502b0c6192d83b8266d73",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-21T17:11:45.316587",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-21T17:11:50.182179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x149c7f41390fc12ad8a630721c768e35a69a9f0a",
     "whale_signal": "COMPRAR NO"
   }
 ]
