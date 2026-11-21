@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-21T04:38:54.832795",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x57f5d61e6065e9bef95365de94d4851a9a0d8107",
+    "whale_signal": "COMPRAR NO"
+  }
+]
