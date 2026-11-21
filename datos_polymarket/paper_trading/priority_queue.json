@@ -1,18 +1,10 @@
 [
   {
-    "id": "7218566",
-    "pregunta": "Will the lowest temperature in Beijing be 1\u00b0C or higher on November 23?",
-    "ts": "2026-11-21T12:49:27.028708",
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-21T13:00:26.817029",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb87fb360cb36b252a237b11b18d9a4127ee3f7d4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7190675",
-    "pregunta": "Will the lowest temperature in Ankara be 9\u00b0C or higher on November 22?",
-    "ts": "2026-11-21T12:49:28.225303",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb87fb360cb36b252a237b11b18d9a4127ee3f7d4",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
