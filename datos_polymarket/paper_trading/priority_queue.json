@@ -1,18 +1,1 @@
-[
-  {
-    "id": "7193054",
-    "pregunta": "Will the highest temperature in New York City be between 58-59\u00b0F on November 22?",
-    "ts": "2026-11-21T11:13:17.555203",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7217948",
-    "pregunta": "Will the highest temperature in Paris be 7\u00b0C on November 23?",
-    "ts": "2026-11-21T11:13:18.670089",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
