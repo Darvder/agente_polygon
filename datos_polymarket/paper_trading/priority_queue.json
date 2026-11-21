@@ -1,10 +1,18 @@
 [
   {
-    "id": "6507392",
-    "pregunta": "Will Bitcoin dip to $55,000 in November?",
-    "ts": "2026-11-21T04:38:54.832795",
+    "id": "2315076",
+    "pregunta": "Will Multipli.fi launch a token by December 31, 2026?",
+    "ts": "2026-11-21T04:54:26.430942",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x57f5d61e6065e9bef95365de94d4851a9a0d8107",
+    "whale_wallet": "0xa84f6eac41dcefff5c8f59b28fcaa31af9dcbc44",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-21T04:54:35.722614",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa7d2ec6680f4e5f6ab0da244d8006eec3e20f954",
     "whale_signal": "COMPRAR NO"
   }
 ]
