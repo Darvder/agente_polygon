@@ -1,10 +1,26 @@
 [
   {
-    "id": "2299961",
-    "pregunta": "Will Anthropic's valuation hit (LOW) $700B by December 31?",
-    "ts": "2026-11-20T22:22:22.000298",
+    "id": "3697824",
+    "pregunta": "Will total votes cast in the 2026 midterm election for Senator from Massachusetts be between 2,650,000 and 2,800,000?",
+    "ts": "2026-11-20T22:29:39.438471",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ca909e848cc24ec4e220ce1c453bc290c51705",
+    "whale_wallet": "0xc3de5d251eabb1333129184711ad692f2607e227",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3697823",
+    "pregunta": "Will total votes cast in the 2026 midterm election for Senator from Massachusetts be between 2,500,000 and 2,650,000?",
+    "ts": "2026-11-20T22:29:40.479145",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc3de5d251eabb1333129184711ad692f2607e227",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507390",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-20T22:29:42.348396",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3f3cf03140fb4d9043cbf29aafc6dba9719d310b",
     "whale_signal": "COMPRAR NO"
   }
 ]
