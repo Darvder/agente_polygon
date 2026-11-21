@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "4906129",
+    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
+    "ts": "2026-11-21T10:30:08.858673",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2aacd459eaea420eb0d7b94c7b03238786c6dfad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043500",
+    "pregunta": "Will Bitcoin dip to $52,500 in November?",
+    "ts": "2026-11-21T10:30:10.873235",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x240bb9d7dc5c68df8d622506b27c68da523eb9cf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-21T10:30:11.901247",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x240bb9d7dc5c68df8d622506b27c68da523eb9cf",
+    "whale_signal": "COMPRAR NO"
+  }
+]
