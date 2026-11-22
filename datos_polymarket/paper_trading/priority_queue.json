@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7194771",
+    "pregunta": "Will 30+ ships transit the Bab el-Mandeb Strait on any day week of November 23?",
+    "ts": "2026-11-22T01:39:12.771333",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7194772",
+    "pregunta": "Will 32+ ships transit the Bab el-Mandeb Strait on any day week of November 23?",
+    "ts": "2026-11-22T01:39:13.939387",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  }
+]
