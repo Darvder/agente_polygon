@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "7204593",
+    "pregunta": "Will Bitcoin reach $62,000 November 16-22?",
+    "ts": "2026-11-22T12:19:57.386152",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7203524",
+    "pregunta": "Will the price of Bitcoin be above $58,000 on November 27?",
+    "ts": "2026-11-22T12:19:59.585610",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3728737",
+    "pregunta": "Will the Green Party (MP) be in the next Swedish government?",
+    "ts": "2026-11-22T12:20:01.689690",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-22T12:20:02.730483",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-22T12:20:03.771689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
