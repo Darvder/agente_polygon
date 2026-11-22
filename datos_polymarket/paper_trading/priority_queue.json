@@ -1,10 +1,42 @@
 [
   {
-    "id": "4418520",
-    "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solved by AI?",
-    "ts": "2026-11-21T20:13:34.164486",
+    "id": "4383153",
+    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-21T20:21:48.420632",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-21T20:21:49.449143",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-21T20:21:51.346486",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d736920e486176e7df7a76fa218f1ebd853216b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-21T20:21:54.294904",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "567688",
+    "pregunta": "Netanyahu out by end of 2026?",
+    "ts": "2026-11-21T20:21:55.324084",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
     "whale_signal": "COMPRAR NO"
   }
 ]
