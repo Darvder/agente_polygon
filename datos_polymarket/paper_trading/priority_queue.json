@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6364436",
+    "pregunta": "Government shutdown by December 12?",
+    "ts": "2026-11-22T08:40:30.498264",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x993b364feffc42346e28f242d1ad57446c70deda",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1393323",
+    "pregunta": "Predict.fun FDV above $800M one day after launch?",
+    "ts": "2026-11-22T08:40:32.346026",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d42d0740ee8fef330d0148807773fc956856adc",
+    "whale_signal": "COMPRAR NO"
+  }
+]
