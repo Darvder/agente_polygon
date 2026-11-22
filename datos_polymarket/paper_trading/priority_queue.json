@@ -1,18 +1,1 @@
-[
-  {
-    "id": "701501",
-    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-    "ts": "2026-11-22T04:59:38.749018",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6e8d5d946f3b7eaa44abe32d4da3c7bac2e12782",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7073769",
-    "pregunta": "Will the price of Bitcoin be above $60,000 on November 22?",
-    "ts": "2026-11-22T04:59:41.037209",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
