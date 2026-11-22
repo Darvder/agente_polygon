@@ -1,26 +1,26 @@
 [
   {
-    "id": "690683",
-    "pregunta": "Will Variational launch a token by December 31, 2026?",
-    "ts": "2026-11-22T06:31:20.676425",
+    "id": "7073773",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 22?",
+    "ts": "2026-11-22T06:42:46.812035",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x22201d76746dc88be71509178a55b8cadcc59f1c",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-22T06:31:23.514760",
+    "id": "7073693",
+    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 22?",
+    "ts": "2026-11-22T06:42:47.949029",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa1763ba17635269dc19d75807bf742d863ac815a",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4412322",
-    "pregunta": "Will AI solve 1 more Millennium Prize Problem in 2026?",
-    "ts": "2026-11-22T06:31:24.536094",
+    "id": "7043500",
+    "pregunta": "Will Bitcoin dip to $52,500 in November?",
+    "ts": "2026-11-22T06:42:48.967869",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa1763ba17635269dc19d75807bf742d863ac815a",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
