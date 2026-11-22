@@ -1,26 +1,42 @@
 [
   {
-    "id": "567688",
-    "pregunta": "Netanyahu out by end of 2026?",
-    "ts": "2026-11-22T03:31:59.209782",
+    "id": "6507427",
+    "pregunta": "Will Ethereum dip to $1,400 in November?",
+    "ts": "2026-11-22T03:41:53.007053",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88e32b106f02fcd7a204e388f830ba290659384e",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6994508",
-    "pregunta": "Will Jensen Huang publicly testify before Congress by December 31, 2026?",
-    "ts": "2026-11-22T03:32:00.924489",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-22T03:42:01.377864",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6364437",
-    "pregunta": "Government shutdown by December 31?",
-    "ts": "2026-11-22T03:32:01.952163",
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-22T03:42:02.428089",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7246809",
+    "pregunta": "Will Bitcoin dip to $58,000 on November 22?",
+    "ts": "2026-11-22T03:42:08.328258",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7073769",
+    "pregunta": "Will the price of Bitcoin be above $60,000 on November 22?",
+    "ts": "2026-11-22T03:42:10.133353",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8320b90db15e5b777e5a023b5ba3cfa214d4904e",
     "whale_signal": "COMPRAR NO"
   }
 ]
