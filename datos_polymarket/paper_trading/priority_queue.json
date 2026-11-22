@@ -1,10 +1,26 @@
 [
   {
-    "id": "7147735",
-    "pregunta": "Will xQc finish GTA VI by November 22?",
-    "ts": "2026-11-22T06:20:34.556084",
+    "id": "690683",
+    "pregunta": "Will Variational launch a token by December 31, 2026?",
+    "ts": "2026-11-22T06:31:20.676425",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
+    "whale_wallet": "0x22201d76746dc88be71509178a55b8cadcc59f1c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-22T06:31:23.514760",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa1763ba17635269dc19d75807bf742d863ac815a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412322",
+    "pregunta": "Will AI solve 1 more Millennium Prize Problem in 2026?",
+    "ts": "2026-11-22T06:31:24.536094",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa1763ba17635269dc19d75807bf742d863ac815a",
     "whale_signal": "COMPRAR NO"
   }
 ]
