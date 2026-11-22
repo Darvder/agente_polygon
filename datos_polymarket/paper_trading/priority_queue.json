@@ -1,10 +1,34 @@
 [
   {
-    "id": "4418520",
-    "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solved by AI?",
-    "ts": "2026-11-21T21:00:15.970874",
+    "id": "4554109",
+    "pregunta": "Will the next governing coalition of Sweden include M + KD + L + C?",
+    "ts": "2026-11-21T21:12:07.197726",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x477f156a229f1a174fdf945c778b7362dd2b19aa",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4554099",
+    "pregunta": "Will the next governing coalition of Sweden include S + MP + C?",
+    "ts": "2026-11-21T21:12:08.319442",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6764670",
+    "pregunta": "Riksdag approves Swedish Prime Minister by February 28, 2027?",
+    "ts": "2026-11-21T21:12:09.356628",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5430612",
+    "pregunta": "Will Microsoft launch a Muse-like personal agent before 2027?",
+    "ts": "2026-11-21T21:12:10.395705",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
     "whale_signal": "COMPRAR NO"
   }
 ]
