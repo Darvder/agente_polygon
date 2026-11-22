@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "7030586",
+    "pregunta": "Will Elon Musk post 320-339 tweets from November 17 to November 24, 2026?",
+    "ts": "2026-11-22T18:50:41.046472",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f7f9903f46c24ba66900ceb4a427873129c6450",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030585",
+    "pregunta": "Will Elon Musk post 300-319 tweets from November 17 to November 24, 2026?",
+    "ts": "2026-11-22T18:50:42.184168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0f7f9903f46c24ba66900ceb4a427873129c6450",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "691340",
+    "pregunta": "AI bubble burst in 2026?",
+    "ts": "2026-11-22T18:50:43.917016",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0562e01b3c3e65bb93bf0de32f02cec238a79d66",
+    "whale_signal": "COMPRAR NO"
+  }
+]
