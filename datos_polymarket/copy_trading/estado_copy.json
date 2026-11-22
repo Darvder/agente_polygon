@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1569.9,
-  "capital_en_riesgo": 644.99,
-  "n_ciclos": 46282,
-  "ultima_corrida": "2026-11-21 23:10",
-  "n_tp": 1265,
+  "capital_actual": 1639.27,
+  "capital_en_riesgo": 604.93,
+  "n_ciclos": 46283,
+  "ultima_corrida": "2026-11-21 23:23",
+  "n_tp": 1266,
   "n_sl": 862,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 20.48,
-    "capital_en_riesgo": 78.64,
+    "capital_actual": 28.77,
+    "capital_en_riesgo": 73.85,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 4.25,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 718,
+    "n_tp": 719,
     "n_sl": 496,
     "posiciones_abiertas": [
       {
@@ -120,26 +120,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x9765cf002dc654e0e5b62c3bf7c6d38d5ac8ba376f1e363587cd25279213fdd4"
-      },
-      {
-        "fecha_entrada": "2026-11-08",
-        "fecha_entrada_dt": "2026-11-08 16:07",
-        "target_wallet": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
-        "market_id": "6831497",
-        "condition_id": "0xa7ba4563954892f7bdfd3cca6338d99bb4094ced275b459f121d2b40c046f585",
-        "token_id": "97544291047499305738780271996235356650826345502504793599135836265513317588351",
-        "pregunta": "US x Iran Effective Ceasefire by December 31?",
-        "outcome": "No",
-        "precio_token_entrada": 0.205,
-        "precio_actual": 0.305,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.79,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x97fa872f207322be9c0a7ad7798ca133873835700d33310cb88f6bbb37e944c7"
       },
       {
         "fecha_entrada": "2026-11-09",
@@ -271,7 +251,7 @@
         "pregunta": "Will Dejan \u0160o\u0161ki\u0107 be the next Prime Minister of Serbia?",
         "outcome": "No",
         "precio_token_entrada": 0.585,
-        "precio_actual": 0.669,
+        "precio_actual": 0.6685,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.41,
@@ -24662,6 +24642,26 @@
         "pnl_realizado": -0.73,
         "razon_cierre": "TARGET_SELL",
         "tx_hash": "0x87434d18fdd8a8082c78a921b6b417dbdae1c956bd120bfe90ea090e7cc4a5a3"
+      },
+      {
+        "fecha_entrada": "2026-11-08",
+        "fecha_entrada_dt": "2026-11-08 16:07",
+        "target_wallet": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
+        "market_id": "6831497",
+        "condition_id": "0xa7ba4563954892f7bdfd3cca6338d99bb4094ced275b459f121d2b40c046f585",
+        "token_id": "97544291047499305738780271996235356650826345502504793599135836265513317588351",
+        "pregunta": "US x Iran Effective Ceasefire by December 31?",
+        "outcome": "No",
+        "precio_token_entrada": 0.205,
+        "precio_actual": 0.355,
+        "precio_cierre": 0.355,
+        "pct_cambio": 0.7317,
+        "monto_usdc": 4.79,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-21 23:23",
+        "pnl_realizado": 3.5,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x97fa872f207322be9c0a7ad7798ca133873835700d33310cb88f6bbb37e944c7"
       }
     ]
   }
