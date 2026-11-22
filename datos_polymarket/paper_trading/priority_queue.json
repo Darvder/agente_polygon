@@ -1,26 +1,10 @@
 [
   {
-    "id": "701502",
-    "pregunta": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-    "ts": "2026-11-21T22:09:53.223501",
+    "id": "7074445",
+    "pregunta": "Will Bitcoin dip to $50,000 in November?",
+    "ts": "2026-11-21T22:23:25.852204",
     "origen": "whale_copytrader",
     "whale_wallet": "0x794410664e5346e52b526a406f14cee5d0bf05a1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5054002",
-    "pregunta": "Will \"Mo Bamba\" by Sheck Wes be on the radio in GTA VI at launch?",
-    "ts": "2026-11-21T22:09:55.087650",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc62796d790c46a93f6511b112411f125714bcf54",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6030131",
-    "pregunta": "Will PSOE win the most seats in Ja\u00e9n in the 2026 Spanish general election?",
-    "ts": "2026-11-21T22:10:01.436775",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
