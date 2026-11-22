@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6404385",
+    "pregunta": "Will the Reserve Bank of Australia decrease the cash rate target by 25 bps at the March meeting?",
+    "ts": "2026-11-22T17:20:28.722007",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed8f7a10686dbb0fb15f5c3335f30e0043793d4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6404244",
+    "pregunta": "Will the Reserve Bank of New Zealand make no change to the official cash rate at the February meeting?",
+    "ts": "2026-11-22T17:20:29.743653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2ed8f7a10686dbb0fb15f5c3335f30e0043793d4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
