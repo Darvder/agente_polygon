@@ -1,10 +1,58 @@
 [
   {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-22T14:38:51.551573",
+    "id": "7233747",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-22T14:49:09.104880",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1359911d098bf507069e7e22370e6f6cae3f092e",
+    "whale_wallet": "0x1cd24cc49782240413903b4b7e7694779f917f85",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7246844",
+    "pregunta": "Will XRP reach $0.95 on November 22?",
+    "ts": "2026-11-22T14:49:11.076592",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7246805",
+    "pregunta": "Will Bitcoin reach $62,000 on November 22?",
+    "ts": "2026-11-22T14:49:12.116771",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7204593",
+    "pregunta": "Will Bitcoin reach $62,000 November 16-22?",
+    "ts": "2026-11-22T14:49:15.425421",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-22T14:49:18.315394",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7043500",
+    "pregunta": "Will Bitcoin dip to $52,500 in November?",
+    "ts": "2026-11-22T14:49:19.357158",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-22T14:49:21.171262",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb083d9d1c2ff7fdb2e78f3c88a885ec2d58ad6a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
