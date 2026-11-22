@@ -1,10 +1,82 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-22T13:52:04.790386",
+    "id": "7247523",
+    "pregunta": "Will the lowest temperature in London be 2\u00b0C on November 24?",
+    "ts": "2026-11-22T14:03:04.213584",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247322",
+    "pregunta": "Will the highest temperature in Madrid be 9\u00b0C on November 24?",
+    "ts": "2026-11-22T14:03:05.421211",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218142",
+    "pregunta": "Will the highest temperature in Milan be 15\u00b0C on November 23?",
+    "ts": "2026-11-22T14:03:06.467757",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247453",
+    "pregunta": "Will the highest temperature in Amsterdam be 3\u00b0C on November 24?",
+    "ts": "2026-11-22T14:03:07.715153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247181",
+    "pregunta": "Will the highest temperature in Paris be 6\u00b0C on November 24?",
+    "ts": "2026-11-22T14:03:08.759238",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247313",
+    "pregunta": "Will the highest temperature in Milan be 11\u00b0C on November 24?",
+    "ts": "2026-11-22T14:03:09.802724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7249621",
+    "pregunta": "Will the highest temperature in Austin be between 56-57\u00b0F on November 24?",
+    "ts": "2026-11-22T14:03:10.845031",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7249566",
+    "pregunta": "Will the highest temperature in Dallas be between 48-49\u00b0F on November 24?",
+    "ts": "2026-11-22T14:03:12.915402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247183",
+    "pregunta": "Will the highest temperature in Paris be 8\u00b0C on November 24?",
+    "ts": "2026-11-22T14:03:13.959516",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7251836",
+    "pregunta": "Will the highest temperature in Mexico City be 21\u00b0C on November 24?",
+    "ts": "2026-11-22T14:03:15.165972",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
     "whale_signal": "COMPRAR NO"
   }
 ]
