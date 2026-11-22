@@ -1,18 +1,42 @@
 [
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-22T13:12:25.448643",
+    "id": "5176796",
+    "pregunta": "Will Meta be the #2 AI lab at the end of December 2026?",
+    "ts": "2026-11-22T13:22:52.287025",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedadd813336221a17742f5dace188f69bff017b2",
+    "whale_wallet": "0xaee811b7c7e5d961b545ac0e3f62f5f1cb181154",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7203829",
-    "pregunta": "Will Bitcoin reach $62,500 in November?",
-    "ts": "2026-11-22T13:12:26.604872",
+    "id": "4664786",
+    "pregunta": "Will Meta be the #2 AI lab at the end of November 2026?",
+    "ts": "2026-11-22T13:22:53.469024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedadd813336221a17742f5dace188f69bff017b2",
+    "whale_wallet": "0xaee811b7c7e5d961b545ac0e3f62f5f1cb181154",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5176856",
+    "pregunta": "Will Google be the second-best Code Arena | WebDev AI lab at the end of December 2026?",
+    "ts": "2026-11-22T13:22:54.667192",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaee811b7c7e5d961b545ac0e3f62f5f1cb181154",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6531030",
+    "pregunta": "Will Anthropic have the best Code Arena | WebDev AI at the end of December 2026?",
+    "ts": "2026-11-22T13:22:55.847184",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaee811b7c7e5d961b545ac0e3f62f5f1cb181154",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6531059",
+    "pregunta": "Will Alibaba be the third-best Chinese AI company at the end of January 2027?",
+    "ts": "2026-11-22T13:22:56.887802",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xaee811b7c7e5d961b545ac0e3f62f5f1cb181154",
     "whale_signal": "COMPRAR NO"
   }
 ]
