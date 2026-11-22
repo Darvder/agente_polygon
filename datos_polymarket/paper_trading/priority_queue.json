@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "7209782",
+    "pregunta": "Will Anthropic close below its IPO price by December 4, 2026?",
+    "ts": "2026-11-21T21:30:34.647188",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7201654",
+    "pregunta": "Will Anthropic close below its IPO price by December 31, 2026?",
+    "ts": "2026-11-21T21:30:35.674656",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7201653",
+    "pregunta": "Will Anthropic close below its IPO price by December 15, 2026?",
+    "ts": "2026-11-21T21:30:36.792948",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7209783",
+    "pregunta": "Will Anthropic close below its IPO price by November 27, 2026?",
+    "ts": "2026-11-21T21:30:37.907215",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7208791",
+    "pregunta": "Will Anthropic close below its IPO price by November 25, 2026?",
+    "ts": "2026-11-21T21:30:39.025648",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7185169",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
+    "ts": "2026-11-21T21:30:40.051164",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_signal": "COMPRAR NO"
+  }
+]
