@@ -1,26 +1,10 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-22T17:30:58.978192",
+    "id": "7246821",
+    "pregunta": "Will Ethereum reach $1,750 on November 22?",
+    "ts": "2026-11-22T17:42:09.724651",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd13ee003049cc96a26fc6e463cc4a10075b76f62",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "561974",
-    "pregunta": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-    "ts": "2026-11-22T17:31:01.043188",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd13ee003049cc96a26fc6e463cc4a10075b76f62",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2054237",
-    "pregunta": "Will Fabien Roussel be on the ballot for the 2027 French presidential election?",
-    "ts": "2026-11-22T17:31:02.895034",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfd0e12e8e6f33859a247c4f764250ada6f5fd918",
+    "whale_wallet": "0x6ea0aaade6fbc69e27071159ea739c2488669aec",
     "whale_signal": "COMPRAR NO"
   }
 ]
