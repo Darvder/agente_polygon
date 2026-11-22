@@ -1,50 +1,34 @@
 [
   {
-    "id": "7209782",
-    "pregunta": "Will Anthropic close below its IPO price by December 4, 2026?",
-    "ts": "2026-11-21T21:30:34.647188",
+    "id": "7204593",
+    "pregunta": "Will Bitcoin reach $62,000 November 16-22?",
+    "ts": "2026-11-21T21:41:18.255656",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7201654",
-    "pregunta": "Will Anthropic close below its IPO price by December 31, 2026?",
-    "ts": "2026-11-21T21:30:35.674656",
+    "id": "7203829",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-21T21:41:20.320069",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7201653",
-    "pregunta": "Will Anthropic close below its IPO price by December 15, 2026?",
-    "ts": "2026-11-21T21:30:36.792948",
+    "id": "7073689",
+    "pregunta": "Will the price of Bitcoin be between $58,000 and $60,000 on November 22?",
+    "ts": "2026-11-21T21:41:21.501293",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7209783",
-    "pregunta": "Will Anthropic close below its IPO price by November 27, 2026?",
-    "ts": "2026-11-21T21:30:37.907215",
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-21T21:41:23.361795",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7208791",
-    "pregunta": "Will Anthropic close below its IPO price by November 25, 2026?",
-    "ts": "2026-11-21T21:30:39.025648",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7185169",
-    "pregunta": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
-    "ts": "2026-11-21T21:30:40.051164",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd71c1719cd923d7f6796451dcc173abdc0f5c4c5",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
