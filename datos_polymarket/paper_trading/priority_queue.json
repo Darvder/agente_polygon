@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "7193055",
+    "pregunta": "Will the highest temperature in New York City be between 60-61\u00b0F on November 22?",
+    "ts": "2026-11-22T04:31:05.148086",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7193057",
+    "pregunta": "Will the highest temperature in New York City be between 64-65\u00b0F on November 22?",
+    "ts": "2026-11-22T04:31:06.306549",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7246887",
+    "pregunta": "Will the highest temperature in Warsaw be 4\u00b0C on November 24?",
+    "ts": "2026-11-22T04:31:07.472840",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218079",
+    "pregunta": "Will the highest temperature in Tokyo be 14\u00b0C on November 23?",
+    "ts": "2026-11-22T04:31:08.636211",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247287",
+    "pregunta": "Will the highest temperature in Shanghai be 13\u00b0C on November 24?",
+    "ts": "2026-11-22T04:31:09.694234",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218140",
+    "pregunta": "Will the highest temperature in Milan be 13\u00b0C on November 23?",
+    "ts": "2026-11-22T04:31:11.904320",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218196",
+    "pregunta": "Will the highest temperature in Wuhan be 15\u00b0C on November 23?",
+    "ts": "2026-11-22T04:31:12.949261",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218142",
+    "pregunta": "Will the highest temperature in Milan be 15\u00b0C on November 23?",
+    "ts": "2026-11-22T04:31:15.042061",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  }
+]
