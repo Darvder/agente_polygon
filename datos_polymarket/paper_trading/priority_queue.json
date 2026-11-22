@@ -1,98 +1,26 @@
 [
   {
-    "id": "7218423",
-    "pregunta": "Will the lowest temperature in Seoul (Incheon) be 5\u00b0C on November 23?",
-    "ts": "2026-11-21T22:00:15.666099",
+    "id": "701502",
+    "pregunta": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "ts": "2026-11-21T22:09:53.223501",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0x794410664e5346e52b526a406f14cee5d0bf05a1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7218364",
-    "pregunta": "Will the lowest temperature in London be 4\u00b0C on November 23?",
-    "ts": "2026-11-21T22:00:16.725109",
+    "id": "5054002",
+    "pregunta": "Will \"Mo Bamba\" by Sheck Wes be on the radio in GTA VI at launch?",
+    "ts": "2026-11-21T22:09:55.087650",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_wallet": "0xc62796d790c46a93f6511b112411f125714bcf54",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7219708",
-    "pregunta": "Will the lowest temperature in New York City be between 50-51\u00b0F on November 23?",
-    "ts": "2026-11-21T22:00:17.875648",
+    "id": "6030131",
+    "pregunta": "Will PSOE win the most seats in Ja\u00e9n in the 2026 Spanish general election?",
+    "ts": "2026-11-21T22:10:01.436775",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7218206",
-    "pregunta": "Will the highest temperature in Chengdu be 18\u00b0C on November 23?",
-    "ts": "2026-11-21T22:00:18.922699",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7218080",
-    "pregunta": "Will the highest temperature in Tokyo be 15\u00b0C on November 23?",
-    "ts": "2026-11-21T22:00:20.084271",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7219894",
-    "pregunta": "Will the highest temperature in Atlanta be between 66-67\u00b0F on November 23?",
-    "ts": "2026-11-21T22:00:21.257616",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4797667",
-    "pregunta": "Will the 10-year Treasury yield dip below 4.6% before 2027?",
-    "ts": "2026-11-21T22:00:23.178150",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x446eb3ab70aa1594bba83860b6788918c46b0925",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7176832",
-    "pregunta": "Will Elon Musk post 90-114 tweets from November 21 to November 23, 2026?",
-    "ts": "2026-11-21T22:00:25.046128",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7217502",
-    "pregunta": "Will Donald Trump post 60-79 Truth Social posts from November 24 to December 1, 2026?",
-    "ts": "2026-11-21T22:00:27.448983",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7030583",
-    "pregunta": "Will Elon Musk post 260-279 tweets from November 17 to November 24, 2026?",
-    "ts": "2026-11-21T22:00:28.490619",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7030584",
-    "pregunta": "Will Elon Musk post 280-299 tweets from November 17 to November 24, 2026?",
-    "ts": "2026-11-21T22:00:29.537416",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7030506",
-    "pregunta": "Will Donald Trump post 80-99 Truth Social posts from November 17 to November 24, 2026?",
-    "ts": "2026-11-21T22:00:30.597351",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
