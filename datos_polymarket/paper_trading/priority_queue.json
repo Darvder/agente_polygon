@@ -1,50 +1,10 @@
 [
   {
-    "id": "7121531",
-    "pregunta": "Will the price of Ethereum be above $1,800 on November 24?",
-    "ts": "2026-11-23T14:41:39.793995",
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-23T14:52:09.117979",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xafe65d1671a61dfaab2b463257450ec7f1fe8192",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121571",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 24?",
-    "ts": "2026-11-23T14:41:40.969676",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xafe65d1671a61dfaab2b463257450ec7f1fe8192",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2232192",
-    "pregunta": "Will Russia enter Druzkhivka by December 31, 2026?",
-    "ts": "2026-11-23T14:41:42.795955",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4c965fc7d356c79c83c2e2020c589f473ba736c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-23T14:41:44.635095",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2363845",
-    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
-    "ts": "2026-11-23T14:41:45.789583",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-23T14:41:46.834356",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
     "whale_signal": "COMPRAR NO"
   }
 ]
