@@ -1,10 +1,34 @@
 [
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-22T23:41:49.884554",
+    "id": "4664546",
+    "pregunta": "Will Moonshot be the third-best Chinese AI company at the end of November 2026?",
+    "ts": "2026-11-22T23:50:10.668288",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0dbdb7f005f233f4510e4ef7e53a2f76a8df44e",
+    "whale_wallet": "0x13b6891668f4bbea111235e2a83e7dfa381158c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7147735",
+    "pregunta": "Will xQc finish GTA VI by November 22?",
+    "ts": "2026-11-22T23:50:12.594866",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x701187150980c2421bc3c87a74dbdef31d75c6da",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7092288",
+    "pregunta": "Will the match end in a draw?",
+    "ts": "2026-11-22T23:50:14.559049",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa52b785a5510117ac3ae03d75d029f89a36c9480",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7193784",
+    "pregunta": "Will South Africa win?",
+    "ts": "2026-11-22T23:50:15.631700",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa52b785a5510117ac3ae03d75d029f89a36c9480",
     "whale_signal": "COMPRAR NO"
   }
 ]
