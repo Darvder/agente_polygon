@@ -1,90 +1,10 @@
 [
   {
-    "id": "7276614",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.30?",
-    "ts": "2026-11-23T03:30:20.640216",
+    "id": "691340",
+    "pregunta": "AI bubble burst in 2026?",
+    "ts": "2026-11-23T03:41:56.361012",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7276617",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.00?",
-    "ts": "2026-11-23T03:30:21.673723",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7276618",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $2.90?",
-    "ts": "2026-11-23T03:30:22.714914",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277633",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.40?",
-    "ts": "2026-11-23T03:30:23.755422",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277632",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
-    "ts": "2026-11-23T03:30:24.794919",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277630",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $10.00?",
-    "ts": "2026-11-23T03:30:25.835916",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6027325",
-    "pregunta": "Will BNG win exactly 2 seats in the 2026 Spanish general election?",
-    "ts": "2026-11-23T03:30:27.705958",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6027318",
-    "pregunta": "Will PNV win fewer than 4 seats in the 2026 Spanish general election?",
-    "ts": "2026-11-23T03:30:28.889911",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6030976",
-    "pregunta": "Will PSOE win the most seats in Seville in the 2026 Spanish general election?",
-    "ts": "2026-11-23T03:30:29.922399",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6031067",
-    "pregunta": "Will PP win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
-    "ts": "2026-11-23T03:30:30.960440",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6031068",
-    "pregunta": "Will PSOE win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
-    "ts": "2026-11-23T03:30:31.999528",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_wallet": "0xdc21adf39ded0fc7c89066e1ae7b533f706b0726",
     "whale_signal": "COMPRAR NO"
   }
 ]
