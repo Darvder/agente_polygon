@@ -1,50 +1,18 @@
 [
   {
-    "id": "679022",
-    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
-    "ts": "2026-11-23T12:57:47.893262",
+    "id": "7288836",
+    "pregunta": "Will Ethereum dip to $1,700 in November?",
+    "ts": "2026-11-23T13:04:46.567868",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xba685df138d6951b92821b3a9d955e07b05aab07",
+    "whale_wallet": "0x8e15f0f862a8fd540373092e37626a5a2254b101",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7278055",
-    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $2.00?",
-    "ts": "2026-11-23T12:57:50.984673",
+    "id": "7288835",
+    "pregunta": "Will Ethereum reach $1,800 in November?",
+    "ts": "2026-11-23T13:04:47.750395",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7278046",
-    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $3.80?",
-    "ts": "2026-11-23T12:57:52.042891",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7278048",
-    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $3.40?",
-    "ts": "2026-11-23T12:57:53.199681",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7278051",
-    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $2.80?",
-    "ts": "2026-11-23T12:57:54.381576",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7278047",
-    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $3.60?",
-    "ts": "2026-11-23T12:57:55.548765",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0x8e15f0f862a8fd540373092e37626a5a2254b101",
     "whale_signal": "COMPRAR NO"
   }
 ]
