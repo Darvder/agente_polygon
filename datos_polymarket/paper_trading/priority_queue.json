@@ -1,56 +1,48 @@
 [
   {
-    "id": "7277465",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $11.50?",
-    "ts": "2026-11-23T14:30:03.798697",
+    "id": "7121531",
+    "pregunta": "Will the price of Ethereum be above $1,800 on November 24?",
+    "ts": "2026-11-23T14:41:39.793995",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_wallet": "0xafe65d1671a61dfaab2b463257450ec7f1fe8192",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7276617",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.00?",
-    "ts": "2026-11-23T14:30:04.872435",
+    "id": "7121571",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 24?",
+    "ts": "2026-11-23T14:41:40.969676",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_wallet": "0xafe65d1671a61dfaab2b463257450ec7f1fe8192",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7276616",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
-    "ts": "2026-11-23T14:30:05.928706",
+    "id": "2232192",
+    "pregunta": "Will Russia enter Druzkhivka by December 31, 2026?",
+    "ts": "2026-11-23T14:41:42.795955",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_wallet": "0x4c965fc7d356c79c83c2e2020c589f473ba736c9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279414",
-    "pregunta": "Will Bitcoin dip to $61,000 on November 23?",
-    "ts": "2026-11-23T14:30:07.786148",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0dc7bcc5f927796c3391be4ea8b705a1b6bb1024",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7030586",
-    "pregunta": "Will Elon Musk post 320-339 tweets from November 17 to November 24, 2026?",
-    "ts": "2026-11-23T14:30:09.733524",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "676739",
-    "pregunta": "Will NVIDIA be the largest company in the world by market cap on December 31?",
-    "ts": "2026-11-23T14:30:11.605827",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-23T14:41:44.635095",
     "origen": "whale_copytrader",
     "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6997774",
-    "pregunta": "Fourth Jensen Huang affair reported by December 31?",
-    "ts": "2026-11-23T14:30:12.665880",
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-23T14:41:45.789583",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-23T14:41:46.834356",
     "origen": "whale_copytrader",
     "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
     "whale_signal": "COMPRAR NO"
