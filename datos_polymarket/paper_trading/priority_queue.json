@@ -1,24 +1,24 @@
 [
   {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-22T23:12:17.823264",
+    "id": "5154351",
+    "pregunta": "Will the Fed Pause-Hike-Hike in the next three decisions (Oct-Dec-Jan)?",
+    "ts": "2026-11-22T23:21:04.877302",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x58aa47a2e3e0396f8c09259d87990db12e56a481",
+    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6404245",
+    "pregunta": "Will the Reserve Bank of New Zealand increase the official cash rate by 25 bps at the February meeting?",
+    "ts": "2026-11-22T23:21:06.982669",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "6831495",
     "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-22T23:12:21.461114",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x02039f5fc3eac5f5c6cf3369da25c1f72976270d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831497",
-    "pregunta": "US x Iran Effective Ceasefire by December 31?",
-    "ts": "2026-11-22T23:12:22.508245",
+    "ts": "2026-11-22T23:21:11.075440",
     "origen": "whale_copytrader",
     "whale_wallet": "0x02039f5fc3eac5f5c6cf3369da25c1f72976270d",
     "whale_signal": "COMPRAR NO"
