@@ -1,18 +1,58 @@
 [
   {
-    "id": "6507392",
-    "pregunta": "Will Bitcoin dip to $55,000 in November?",
-    "ts": "2026-11-23T14:21:10.611472",
+    "id": "7277465",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $11.50?",
+    "ts": "2026-11-23T14:30:03.798697",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043510",
-    "pregunta": "Will Solana reach $80 in November?",
-    "ts": "2026-11-23T14:21:11.740720",
+    "id": "7276617",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.00?",
+    "ts": "2026-11-23T14:30:04.872435",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7276616",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
+    "ts": "2026-11-23T14:30:05.928706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279414",
+    "pregunta": "Will Bitcoin dip to $61,000 on November 23?",
+    "ts": "2026-11-23T14:30:07.786148",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0dc7bcc5f927796c3391be4ea8b705a1b6bb1024",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030586",
+    "pregunta": "Will Elon Musk post 320-339 tweets from November 17 to November 24, 2026?",
+    "ts": "2026-11-23T14:30:09.733524",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "676739",
+    "pregunta": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+    "ts": "2026-11-23T14:30:11.605827",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6997774",
+    "pregunta": "Fourth Jensen Huang affair reported by December 31?",
+    "ts": "2026-11-23T14:30:12.665880",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x345788662909567370d2c240dac6c050132985c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
