@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-22T21:33:12.537002",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-22T21:33:14.271864",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x972ca06ca3be26c448fbe952a7c5cd187ebb9492",
+    "whale_signal": "COMPRAR NO"
+  }
+]
