@@ -1,26 +1,74 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-23T04:11:14.728205",
+    "id": "7277462",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $13.00?",
+    "ts": "2026-11-23T04:22:52.468576",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3712f15e9586055429f9b1f2fcda5d463e91fcee",
+    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279446",
-    "pregunta": "Will Ethereum dip to $1,650 on November 23?",
-    "ts": "2026-11-23T04:11:16.584017",
+    "id": "7277463",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.50?",
+    "ts": "2026-11-23T04:22:53.609922",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7097132",
-    "pregunta": "Will the price of Ethereum be above $1,700 on November 23?",
-    "ts": "2026-11-23T04:11:17.622735",
+    "id": "7277464",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.00?",
+    "ts": "2026-11-23T04:22:54.643407",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7276616",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
+    "ts": "2026-11-23T04:22:55.769620",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7276615",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.20?",
+    "ts": "2026-11-23T04:22:56.804891",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279440",
+    "pregunta": "Will Ethereum reach $1,800 on November 23?",
+    "ts": "2026-11-23T04:23:02.869618",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279414",
+    "pregunta": "Will Bitcoin dip to $61,000 on November 23?",
+    "ts": "2026-11-23T04:23:05.968676",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279418",
+    "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
+    "ts": "2026-11-23T04:23:07.002289",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7203829",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-23T04:23:08.034312",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
