@@ -1,74 +1,106 @@
 [
   {
-    "id": "7277632",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
-    "ts": "2026-11-23T04:34:07.413017",
+    "id": "7279902",
+    "pregunta": "Will the highest temperature in London be 6\u00b0C on November 25?",
+    "ts": "2026-11-23T04:40:04.968042",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277637",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.60?",
-    "ts": "2026-11-23T04:34:08.440895",
+    "id": "7280017",
+    "pregunta": "Will the highest temperature in Shanghai be 14\u00b0C on November 25?",
+    "ts": "2026-11-23T04:40:06.024624",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277638",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.40?",
-    "ts": "2026-11-23T04:34:09.468058",
+    "id": "7282493",
+    "pregunta": "Will the highest temperature in Dallas be between 52-53\u00b0F on November 25?",
+    "ts": "2026-11-23T04:40:07.182093",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279408",
-    "pregunta": "Will Bitcoin reach $63,000 on November 23?",
-    "ts": "2026-11-23T04:34:12.333782",
+    "id": "7279903",
+    "pregunta": "Will the highest temperature in London be 7\u00b0C on November 25?",
+    "ts": "2026-11-23T04:40:08.248369",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279414",
-    "pregunta": "Will Bitcoin dip to $61,000 on November 23?",
-    "ts": "2026-11-23T04:34:13.511909",
+    "id": "7219774",
+    "pregunta": "Will the highest temperature in New York City be between 66-67\u00b0F on November 23?",
+    "ts": "2026-11-23T04:40:09.403924",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247277",
+    "pregunta": "Will the highest temperature in Hong Kong be 23\u00b0C on November 24?",
+    "ts": "2026-11-23T04:40:10.586426",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7247276",
+    "pregunta": "Will the highest temperature in Hong Kong be 22\u00b0C on November 24?",
+    "ts": "2026-11-23T04:40:18.329114",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7097132",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 23?",
+    "ts": "2026-11-23T04:40:22.380492",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279446",
+    "pregunta": "Will Ethereum dip to $1,650 on November 23?",
+    "ts": "2026-11-23T04:40:23.445095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7279411",
     "pregunta": "Will Bitcoin reach $62,000 on November 23?",
-    "ts": "2026-11-23T04:34:14.563269",
+    "ts": "2026-11-23T04:40:25.359194",
     "origen": "whale_copytrader",
     "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279416",
-    "pregunta": "Will Bitcoin dip to $60,000 on November 23?",
-    "ts": "2026-11-23T04:34:15.602210",
+    "id": "7276615",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.20?",
+    "ts": "2026-11-23T04:40:27.391320",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279418",
-    "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
-    "ts": "2026-11-23T04:34:16.778985",
+    "id": "7277633",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.40?",
+    "ts": "2026-11-23T04:40:30.876591",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279403",
-    "pregunta": "Will Bitcoin reach $64,000 on November 23?",
-    "ts": "2026-11-23T04:34:17.817298",
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-23T04:40:32.037558",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   }
 ]
