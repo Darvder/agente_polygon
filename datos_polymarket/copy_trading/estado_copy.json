@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1621.4,
-  "capital_en_riesgo": 663.8800000000001,
-  "n_ciclos": 46426,
-  "ultima_corrida": "2026-11-22 23:22",
-  "n_tp": 1270,
+  "capital_actual": 1695.33,
+  "capital_en_riesgo": 626.87,
+  "n_ciclos": 46427,
+  "ultima_corrida": "2026-11-22 23:37",
+  "n_tp": 1271,
   "n_sl": 862,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 28.84,
-    "capital_en_riesgo": 80.33,
+    "capital_actual": 38.03,
+    "capital_en_riesgo": 75.73,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 4.68,
@@ -18,7 +18,7 @@
     "risk_pct_per_trade": 0.05,
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
-    "n_tp": 722,
+    "n_tp": 723,
     "n_sl": 496,
     "posiciones_abiertas": [
       {
@@ -31,7 +31,7 @@
         "pregunta": "US announces end of Iranian blockade by November 30, 2026?",
         "outcome": "No",
         "precio_token_entrada": 0.815,
-        "precio_actual": 0.9625,
+        "precio_actual": 0.9665,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.3,
@@ -320,26 +320,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x282f1188695f7898403d3c4c84a13261193bd61f743f76814dbe5acaf07d54c5"
-      },
-      {
-        "fecha_entrada": "2026-11-21",
-        "fecha_entrada_dt": "2026-11-21 21:00",
-        "target_wallet": "0x477f156a229f1a174fdf945c778b7362dd2b19aa",
-        "market_id": "4418520",
-        "condition_id": "0x73a0ebbe09bfe1cdbf0d4deb13f55742d15dd8803845099557aa3afd776804f7",
-        "token_id": "69528978715265735328054729968420705159523497366462580227505172818698436213726",
-        "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solve",
-        "outcome": "No",
-        "precio_token_entrada": 0.2,
-        "precio_actual": 0.307,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 4.6,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x808743ada952ab486e198f2f4b4482a00613bb2272831bd559af7e31064330da"
       },
       {
         "fecha_entrada": "2026-11-22",
@@ -24742,6 +24722,26 @@
         "pnl_realizado": 2.37,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0xd35318bed4d94ce12314fa51d347e6f16c46d1c8b67cea5bb6151bb915ad2016"
+      },
+      {
+        "fecha_entrada": "2026-11-21",
+        "fecha_entrada_dt": "2026-11-21 21:00",
+        "target_wallet": "0x477f156a229f1a174fdf945c778b7362dd2b19aa",
+        "market_id": "4418520",
+        "condition_id": "0x73a0ebbe09bfe1cdbf0d4deb13f55742d15dd8803845099557aa3afd776804f7",
+        "token_id": "69528978715265735328054729968420705159523497366462580227505172818698436213726",
+        "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solve",
+        "outcome": "No",
+        "precio_token_entrada": 0.2,
+        "precio_actual": 0.3995,
+        "precio_cierre": 0.3995,
+        "pct_cambio": 0.9975,
+        "monto_usdc": 4.6,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-22 23:37",
+        "pnl_realizado": 4.59,
+        "razon_cierre": "TAKE_PROFIT",
+        "tx_hash": "0x808743ada952ab486e198f2f4b4482a00613bb2272831bd559af7e31064330da"
       }
     ]
   }
