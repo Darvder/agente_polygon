@@ -1,18 +1,18 @@
 [
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-23T00:12:03.137030",
+    "id": "7249579",
+    "pregunta": "Will the highest temperature in Atlanta be between 60-61\u00b0F on November 24?",
+    "ts": "2026-11-23T00:21:40.144256",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043509",
-    "pregunta": "Will Ethereum reach $1,900 in November?",
-    "ts": "2026-11-23T00:12:04.176471",
+    "id": "7218422",
+    "pregunta": "Will the highest temperature in Karachi be 30\u00b0C on November 23?",
+    "ts": "2026-11-23T00:21:41.196197",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
     "whale_signal": "COMPRAR NO"
   }
 ]
