@@ -1,10 +1,34 @@
 [
   {
-    "id": "7030586",
-    "pregunta": "Will Elon Musk post 320-339 tweets from November 17 to November 24, 2026?",
-    "ts": "2026-11-23T10:42:43.349296",
+    "id": "6977205",
+    "pregunta": "New NVIDIA CEO named by December 31, 2026?",
+    "ts": "2026-11-23T10:50:31.462161",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60ece66980b57e441ed2f335a63573f1f20f8d4c",
+    "whale_wallet": "0xe5982977b7979d9196e0f8585399bcf8e8912f57",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-23T10:50:35.316878",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xae0beca61febcce08c1946f1f099803399700913",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6617893",
+    "pregunta": "Will the KMT win Taipei and the DPP win New Taipei?",
+    "ts": "2026-11-23T10:50:36.360983",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xae0beca61febcce08c1946f1f099803399700913",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279412",
+    "pregunta": "Will Bitcoin dip to $58,000 November 23-29?",
+    "ts": "2026-11-23T10:50:38.426879",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
