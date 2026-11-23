@@ -1,10 +1,18 @@
 [
   {
-    "id": "6919851",
-    "pregunta": "Will Rene Haas be the next CEO of NVIDIA?",
-    "ts": "2026-11-23T07:04:13.608627",
+    "id": "7176830",
+    "pregunta": "Will Elon Musk post 65-89 tweets from November 21 to November 23, 2026?",
+    "ts": "2026-11-23T07:13:46.238199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3e03eaee9fa9d188e2a15e8bfd9c34b95e44b571",
+    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "814612",
+    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-23T07:13:48.484830",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
     "whale_signal": "COMPRAR NO"
   }
 ]
