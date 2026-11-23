@@ -1,18 +1,58 @@
 [
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-23T12:11:11.212393",
+    "id": "4338143",
+    "pregunta": "Russia x Ukraine ceasefire agreement by January 31, 2027?",
+    "ts": "2026-11-23T12:21:40.915330",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedadd813336221a17742f5dace188f69bff017b2",
+    "whale_wallet": "0xbb985dc6d168f4e830f5448dc295b83054c16d3c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7043499",
-    "pregunta": "Will Bitcoin reach $67,500 in November?",
-    "ts": "2026-11-23T12:11:12.267659",
+    "id": "7233232",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 28?",
+    "ts": "2026-11-23T12:21:42.703843",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xedadd813336221a17742f5dace188f69bff017b2",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7233252",
+    "pregunta": "Will the price of Bitcoin be above $60,000 on November 28?",
+    "ts": "2026-11-23T12:21:43.823736",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150189",
+    "pregunta": "Will the price of Ethereum be between $1,600 and $1,700 on November 25?",
+    "ts": "2026-11-23T12:21:44.842107",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150144",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 25?",
+    "ts": "2026-11-23T12:21:45.858883",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7233274",
+    "pregunta": "Will the price of Solana be above $70 on November 28?",
+    "ts": "2026-11-23T12:21:46.886702",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7176660",
+    "pregunta": "Will the price of Solana be above $70 on November 26?",
+    "ts": "2026-11-23T12:21:47.907621",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
