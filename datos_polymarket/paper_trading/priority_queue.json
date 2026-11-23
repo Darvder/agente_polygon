@@ -1,42 +1,34 @@
 [
   {
-    "id": "7121526",
-    "pregunta": "Will the price of Ethereum be above $1,700 on November 24?",
-    "ts": "2026-11-23T16:48:29.309461",
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-23T17:00:22.586273",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa64d76d112e7b47e5ca3f8fbc5485ae41a91cad1",
+    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-23T16:48:31.106260",
+    "id": "7277630",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $10.00?",
+    "ts": "2026-11-23T17:00:23.629677",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3728734",
-    "pregunta": "Will the Centre Party (C) be in the next Swedish government?",
-    "ts": "2026-11-23T16:48:32.269431",
+    "id": "2431412",
+    "pregunta": "Will Google have the best AI model at the end of December 2026?",
+    "ts": "2026-11-23T17:00:28.191147",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_wallet": "0xda66ddc4529eb7ac68add4eca06c37cdcde03f38",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4554109",
-    "pregunta": "Will the next governing coalition of Sweden include M + KD + L + C?",
-    "ts": "2026-11-23T16:48:34.613207",
+    "id": "6975335",
+    "pregunta": "Kimberly Powell announced resignation or removal by November 30, 2026?",
+    "ts": "2026-11-23T17:00:29.222517",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3728731",
-    "pregunta": "Will the Swedish Social Democratic Party (S) be in the next Swedish government?",
-    "ts": "2026-11-23T16:48:35.665057",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_wallet": "0xda66ddc4529eb7ac68add4eca06c37cdcde03f38",
     "whale_signal": "COMPRAR NO"
   }
 ]
