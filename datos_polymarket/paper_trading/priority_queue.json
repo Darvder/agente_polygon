@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "561979",
+    "pregunta": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
+    "ts": "2026-11-22T21:11:14.912570",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77fbd6bdba89da0ce4ae6e5bee380d6a51de266c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7147735",
+    "pregunta": "Will xQc finish GTA VI by November 22?",
+    "ts": "2026-11-22T21:11:21.024733",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9d75ea3a7fa4b62ba1b222f354eeb4be731fab74",
+    "whale_signal": "COMPRAR NO"
+  }
+]
