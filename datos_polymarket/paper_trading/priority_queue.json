@@ -1,24 +1,8 @@
 [
   {
-    "id": "4383153",
-    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-22T22:29:31.662026",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0562e01b3c3e65bb93bf0de32f02cec238a79d66",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7152197",
-    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by November 30?",
-    "ts": "2026-11-22T22:29:32.713223",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0562e01b3c3e65bb93bf0de32f02cec238a79d66",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "7204593",
     "pregunta": "Will Bitcoin reach $62,000 November 16-22?",
-    "ts": "2026-11-22T22:29:35.563262",
+    "ts": "2026-11-22T22:43:34.672033",
     "origen": "whale_copytrader",
     "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
@@ -26,17 +10,9 @@
   {
     "id": "7246805",
     "pregunta": "Will Bitcoin reach $62,000 on November 22?",
-    "ts": "2026-11-22T22:29:36.606259",
+    "ts": "2026-11-22T22:43:35.871261",
     "origen": "whale_copytrader",
     "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-22T22:29:38.478812",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3594526e2a0aaf467038ee1799d6ded344aedc58",
     "whale_signal": "COMPRAR NO"
   }
 ]
