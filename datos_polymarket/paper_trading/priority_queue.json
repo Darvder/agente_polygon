@@ -1,18 +1,10 @@
 [
   {
-    "id": "1193093",
-    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-23T15:48:16.330393",
+    "id": "7247192",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 5\u00b0C on November 24?",
+    "ts": "2026-11-23T15:53:29.108418",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcbb528aa8609d983387788c6f51ce773aed93123",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7043499",
-    "pregunta": "Will Bitcoin reach $67,500 in November?",
-    "ts": "2026-11-23T15:48:18.348986",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6cffe15b87a42bd7c0a0b95790aba11cf99b45ac",
+    "whale_wallet": "0xfe3b663c38ea35a94bf20905210bb3cf943fae48",
     "whale_signal": "COMPRAR NO"
   }
 ]
