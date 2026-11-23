@@ -1,10 +1,26 @@
 [
   {
-    "id": "7246805",
-    "pregunta": "Will Bitcoin reach $62,000 on November 22?",
-    "ts": "2026-11-22T22:50:25.398552",
+    "id": "6919847",
+    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+    "ts": "2026-11-22T22:59:43.156708",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xe0dbdb7f005f233f4510e4ef7e53a2f76a8df44e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7152198",
+    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by December 31?",
+    "ts": "2026-11-22T22:59:46.996820",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7152197",
+    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by November 30?",
+    "ts": "2026-11-22T22:59:48.035275",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
