@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "6027297",
+    "pregunta": "Will Podemos win exactly 0 seats in the 2026 Spanish general election?",
+    "ts": "2026-11-23T15:32:12.396618",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2243498",
+    "pregunta": "Will Gukesh Dommaraju win the 2026 World Chess Championship?",
+    "ts": "2026-11-23T15:32:13.420087",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6753891",
+    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $192 in November?",
+    "ts": "2026-11-23T15:32:15.205373",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe228f29215f2a0e9b5a5f57a0974063e23401f4c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
