@@ -1,34 +1,10 @@
 [
   {
-    "id": "7201655",
-    "pregunta": "Will Anthropic close below its IPO price by March 31, 2027?",
-    "ts": "2026-11-23T18:31:58.523576",
+    "id": "7247288",
+    "pregunta": "Will the highest temperature in Shanghai be 14\u00b0C on November 24?",
+    "ts": "2026-11-23T18:40:40.956830",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7201654",
-    "pregunta": "Will Anthropic close below its IPO price by December 31, 2026?",
-    "ts": "2026-11-23T18:31:59.553766",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7208791",
-    "pregunta": "Will Anthropic close below its IPO price by November 25, 2026?",
-    "ts": "2026-11-23T18:32:00.670971",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x59e5812376c95ba42d4360b25aa8110c88a37a2b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277900",
-    "pregunta": "Will the average Ornn B200 rental price in January 2027 be above $10.50?",
-    "ts": "2026-11-23T18:32:02.408260",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
