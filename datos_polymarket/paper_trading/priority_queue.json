@@ -1,18 +1,10 @@
 [
   {
-    "id": "7194766",
-    "pregunta": "Democratic 2028 presidential odds 66-68% on November 27?",
-    "ts": "2026-11-22T22:12:58.952732",
+    "id": "7152197",
+    "pregunta": "Will Trump call for Jensen Huang's return as NVIDIA CEO by November 30?",
+    "ts": "2026-11-22T22:19:50.555404",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7092289",
-    "pregunta": "Will India win?",
-    "ts": "2026-11-22T22:13:00.968535",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1d1d408f7378a5ce9db1e796b15fb5574aebf2df",
+    "whale_wallet": "0xe5982977b7979d9196e0f8585399bcf8e8912f57",
     "whale_signal": "COMPRAR NO"
   }
 ]
