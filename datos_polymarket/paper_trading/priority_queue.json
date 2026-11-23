@@ -1,26 +1,18 @@
 [
   {
-    "id": "7203829",
-    "pregunta": "Will Bitcoin reach $62,500 in November?",
-    "ts": "2026-11-23T02:08:52.947382",
+    "id": "5194535",
+    "pregunta": "Will the Iranian regime fall before 2028?",
+    "ts": "2026-11-23T02:23:29.402687",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4f3a034b7958425854f44bc70865dd388269ec24",
+    "whale_wallet": "0x410aa391edffa58af64517ec579af5def62b2643",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-23T02:08:54.011916",
+    "id": "7030585",
+    "pregunta": "Will Elon Musk post 300-319 tweets from November 17 to November 24, 2026?",
+    "ts": "2026-11-23T02:23:31.129933",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4f3a034b7958425854f44bc70865dd388269ec24",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "682705",
-    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-11-23T02:08:55.053749",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4f3a034b7958425854f44bc70865dd388269ec24",
+    "whale_wallet": "0x708e213f7618f0ff3524c6bd3b77763003d29bb1",
     "whale_signal": "COMPRAR NO"
   }
 ]
