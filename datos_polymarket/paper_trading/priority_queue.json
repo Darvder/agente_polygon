@@ -1,10 +1,18 @@
 [
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-23T02:50:56.818671",
+    "id": "7279418",
+    "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
+    "ts": "2026-11-23T03:05:07.163089",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7218091",
+    "pregunta": "Will the highest temperature in Hong Kong be 23\u00b0C on November 23?",
+    "ts": "2026-11-23T03:05:09.852989",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2277c18fb73d4cfbd61384be80ef9339a9496604",
     "whale_signal": "COMPRAR NO"
   }
 ]
