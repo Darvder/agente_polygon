@@ -1,10 +1,34 @@
 [
   {
-    "id": "6919847",
-    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-    "ts": "2026-11-23T05:50:42.946067",
+    "id": "7121666",
+    "pregunta": "Will OpenRouter process less than 230T tokens the week of November 23?",
+    "ts": "2026-11-23T05:59:03.692699",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77fbd6bdba89da0ce4ae6e5bee380d6a51de266c",
+    "whale_wallet": "0x92e11775eb6ab102db0502b0c6192d83b8266d73",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6404391",
+    "pregunta": "Will the Central Bank of Chile make no change to the monetary policy rate at the March meeting?",
+    "ts": "2026-11-23T05:59:04.875099",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92e11775eb6ab102db0502b0c6192d83b8266d73",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6920601",
+    "pregunta": "Will the 2027 Big Game national anthem last between 110 and 120 seconds?",
+    "ts": "2026-11-23T05:59:06.055950",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92e11775eb6ab102db0502b0c6192d83b8266d73",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6403184",
+    "pregunta": "Will the Central Bank of Chile make no change to the monetary policy rate at the January meeting?",
+    "ts": "2026-11-23T05:59:07.257435",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x92e11775eb6ab102db0502b0c6192d83b8266d73",
     "whale_signal": "COMPRAR NO"
   }
 ]
