@@ -1,18 +1,26 @@
 [
   {
-    "id": "5784291",
-    "pregunta": "Next White House Press Secretary announced by December 31, 2026?",
-    "ts": "2026-11-23T17:11:19.983459",
+    "id": "2371049",
+    "pregunta": "Will David Lisnard advance to the second round of the next French presidential election?",
+    "ts": "2026-11-23T17:20:28.893538",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
+    "whale_wallet": "0x9aa0ab7a83d7241e6f1b0ab614ab6c71cbd2b7c6",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6353938",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the April 2027 meeting?",
-    "ts": "2026-11-23T17:11:21.111095",
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-23T17:20:29.934493",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd426adbc3c4461c86099c26221c877f20e42334a",
+    "whale_wallet": "0x9aa0ab7a83d7241e6f1b0ab614ab6c71cbd2b7c6",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6975336",
+    "pregunta": "Kimberly Powell announced resignation or removal by December 31, 2026?",
+    "ts": "2026-11-23T17:20:33.464554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x78048aa26ac1967566b8ed11910b529e5f2d7025",
     "whale_signal": "COMPRAR NO"
   }
 ]
