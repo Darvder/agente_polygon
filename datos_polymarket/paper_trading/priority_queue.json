@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3581450",
+    "pregunta": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+    "ts": "2026-11-23T08:31:17.161039",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279408",
+    "pregunta": "Will Bitcoin reach $63,000 on November 23?",
+    "ts": "2026-11-23T08:31:18.987200",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf70eb753810c0ccea22a6948ebc3a541f04981df",
+    "whale_signal": "COMPRAR NO"
+  }
+]
