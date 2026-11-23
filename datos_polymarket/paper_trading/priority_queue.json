@@ -1,18 +1,42 @@
 [
   {
-    "id": "7279414",
-    "pregunta": "Will Bitcoin dip to $61,000 on November 23?",
-    "ts": "2026-11-23T12:32:31.874087",
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-23T12:42:19.060533",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7194765",
-    "pregunta": "Democratic 2028 presidential odds 64-66% on November 27?",
-    "ts": "2026-11-23T12:32:37.753836",
+    "id": "4599796",
+    "pregunta": "Israeli airspace closed by December 31, 2026?",
+    "ts": "2026-11-23T12:42:20.193199",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x04ac1f3cd180ed3fa4c5cb25adbb35c7bf4b6451",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7179306",
+    "pregunta": "Howard Lutnick out as Secretary of Commerce by March 31, 2027?",
+    "ts": "2026-11-23T12:42:21.224164",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6989178",
+    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
+    "ts": "2026-11-23T12:42:23.285270",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5622719",
+    "pregunta": "Will voter turnout be 70% or higher in the 2026 Spanish general election?",
+    "ts": "2026-11-23T12:42:26.369298",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   }
 ]
