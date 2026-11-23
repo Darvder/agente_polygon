@@ -1,10 +1,34 @@
 [
   {
-    "id": "7247287",
-    "pregunta": "Will the highest temperature in Shanghai be 13\u00b0C on November 24?",
-    "ts": "2026-11-23T17:53:22.771555",
+    "id": "6440135",
+    "pregunta": "Will Trump speak to Volodymyr Zelenskyy by November 30?",
+    "ts": "2026-11-23T18:03:13.238900",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfa0d315d809aaa185ee376680b67cc5c5dcb60bb",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6440142",
+    "pregunta": "Will Trump speak to Ursula von der Leyen by November 30?",
+    "ts": "2026-11-23T18:03:14.274353",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6440153",
+    "pregunta": "Will Trump speak to Andy Burnham by November 30?",
+    "ts": "2026-11-23T18:03:15.421167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6440141",
+    "pregunta": "Will Trump speak to Emmanuel Macron by November 30?",
+    "ts": "2026-11-23T18:03:17.085788",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
     "whale_signal": "COMPRAR NO"
   }
 ]
