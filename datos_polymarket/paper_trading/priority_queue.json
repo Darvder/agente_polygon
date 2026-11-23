@@ -1,10 +1,34 @@
 [
   {
-    "id": "6998284",
-    "pregunta": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-    "ts": "2026-11-23T09:32:16.366935",
+    "id": "6919847",
+    "pregunta": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+    "ts": "2026-11-23T09:41:00.820755",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x73e35ce0b7e36ef3ce29ebd12b30b28007383239",
+    "whale_wallet": "0x71edffd0d70a1da823ff07a3c6fc81457294d338",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6436445",
+    "pregunta": "Will NVIDIA (NVDA) close above $150 end of November?",
+    "ts": "2026-11-23T09:41:02.799942",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x36ffadbc1b1fdc056e105ee0670795863804ab6f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6436446",
+    "pregunta": "Will NVIDIA (NVDA) close above $160 end of November?",
+    "ts": "2026-11-23T09:41:03.959544",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x36ffadbc1b1fdc056e105ee0670795863804ab6f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6436448",
+    "pregunta": "Will NVIDIA (NVDA) close above $170 end of November?",
+    "ts": "2026-11-23T09:41:05.000035",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x36ffadbc1b1fdc056e105ee0670795863804ab6f",
     "whale_signal": "COMPRAR NO"
   }
 ]
