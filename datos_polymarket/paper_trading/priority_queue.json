@@ -1,18 +1,50 @@
 [
   {
-    "id": "7249579",
-    "pregunta": "Will the highest temperature in Atlanta be between 60-61\u00b0F on November 24?",
-    "ts": "2026-11-23T00:21:40.144256",
+    "id": "7218034",
+    "pregunta": "Will the highest temperature in Lucknow be 27\u00b0C on November 23?",
+    "ts": "2026-11-23T00:31:58.369372",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_wallet": "0x333af1947bead3fb01271a6b55875c12fcbc75c1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7218422",
-    "pregunta": "Will the highest temperature in Karachi be 30\u00b0C on November 23?",
-    "ts": "2026-11-23T00:21:41.196197",
+    "id": "7121519",
+    "pregunta": "Will the price of Bitcoin be between $58,000 and $60,000 on November 24?",
+    "ts": "2026-11-23T00:32:00.237972",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7121613",
+    "pregunta": "Will the price of XRP be above $0.90 on November 24?",
+    "ts": "2026-11-23T00:32:01.393630",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7121594",
+    "pregunta": "Will the price of Solana be above $70 on November 24?",
+    "ts": "2026-11-23T00:32:02.524199",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150136",
+    "pregunta": "Will the price of Bitcoin be between $58,000 and $60,000 on November 25?",
+    "ts": "2026-11-23T00:32:03.660003",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7121597",
+    "pregunta": "Will the price of Solana be between $70 and $80 on November 24?",
+    "ts": "2026-11-23T00:32:04.806880",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
