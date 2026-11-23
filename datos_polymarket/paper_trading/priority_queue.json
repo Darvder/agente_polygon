@@ -1,10 +1,42 @@
 [
   {
-    "id": "7277653",
-    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $11.50?",
-    "ts": "2026-11-23T16:41:59.538770",
+    "id": "7121526",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 24?",
+    "ts": "2026-11-23T16:48:29.309461",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0xa64d76d112e7b47e5ca3f8fbc5485ae41a91cad1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-23T16:48:31.106260",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3728734",
+    "pregunta": "Will the Centre Party (C) be in the next Swedish government?",
+    "ts": "2026-11-23T16:48:32.269431",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4554109",
+    "pregunta": "Will the next governing coalition of Sweden include M + KD + L + C?",
+    "ts": "2026-11-23T16:48:34.613207",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3728731",
+    "pregunta": "Will the Swedish Social Democratic Party (S) be in the next Swedish government?",
+    "ts": "2026-11-23T16:48:35.665057",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf0df89d9f60612e56f005a28d47210e1cb2369c5",
     "whale_signal": "COMPRAR NO"
   }
 ]
