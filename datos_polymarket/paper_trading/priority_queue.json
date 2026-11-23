@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-22T20:19:10.076223",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5386901",
+    "pregunta": "Will Canza launch a token by December 31, 2026?",
+    "ts": "2026-11-22T20:19:11.917094",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f7f21abe08dc478cfc3c08b16f2fe5f8e8b4fc0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5386902",
+    "pregunta": "Will Canza launch a token by March 31, 2027?",
+    "ts": "2026-11-22T20:19:13.075167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f7f21abe08dc478cfc3c08b16f2fe5f8e8b4fc0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5386903",
+    "pregunta": "Will Canza launch a token by December 31, 2027?",
+    "ts": "2026-11-22T20:19:14.253974",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f7f21abe08dc478cfc3c08b16f2fe5f8e8b4fc0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
