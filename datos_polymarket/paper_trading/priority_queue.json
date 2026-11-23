@@ -1,10 +1,42 @@
 [
   {
-    "id": "7179314",
-    "pregunta": "Will Jensen Huang rejoin NVIDIA by March 31, 2027?",
-    "ts": "2026-11-23T01:31:23.578848",
+    "id": "7210795",
+    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $46 Week of November 23 2026?",
+    "ts": "2026-11-23T01:42:26.540842",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x18b0f4b837bc7307f1c263a5a0a9a9ee5a86f46f",
+    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7210794",
+    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $47 Week of November 23 2026?",
+    "ts": "2026-11-23T01:42:27.671651",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7210780",
+    "pregunta": "Will Gold (XAUUSD) hit (HIGH) $3,800 Week of November 23 2026?",
+    "ts": "2026-11-23T01:42:28.707576",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7260820",
+    "pregunta": "Will Bitcoin dip to $60,000 in November?",
+    "ts": "2026-11-23T01:42:31.130705",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6160eef8e0f8ae1676d64e4a847b9470863c7f02",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279409",
+    "pregunta": "Will Bitcoin dip to $60,000 November 23-29?",
+    "ts": "2026-11-23T01:42:32.169944",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6160eef8e0f8ae1676d64e4a847b9470863c7f02",
     "whale_signal": "COMPRAR NO"
   }
 ]
