@@ -1,26 +1,18 @@
 [
   {
-    "id": "2371049",
-    "pregunta": "Will David Lisnard advance to the second round of the next French presidential election?",
-    "ts": "2026-11-23T17:20:28.893538",
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-23T17:33:38.675825",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9aa0ab7a83d7241e6f1b0ab614ab6c71cbd2b7c6",
+    "whale_wallet": "0xe0ad70274728fb9cf3cd847974af69cc5e9fb056",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "679022",
-    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
-    "ts": "2026-11-23T17:20:29.934493",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-23T17:33:39.694226",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9aa0ab7a83d7241e6f1b0ab614ab6c71cbd2b7c6",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6975336",
-    "pregunta": "Kimberly Powell announced resignation or removal by December 31, 2026?",
-    "ts": "2026-11-23T17:20:33.464554",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x78048aa26ac1967566b8ed11910b529e5f2d7025",
+    "whale_wallet": "0xe0ad70274728fb9cf3cd847974af69cc5e9fb056",
     "whale_signal": "COMPRAR NO"
   }
 ]
