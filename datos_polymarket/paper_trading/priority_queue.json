@@ -1,10 +1,26 @@
 [
   {
-    "id": "7185150",
-    "pregunta": "Will Anthropic's valuation hit (HIGH) $1.6T by December 31?",
-    "ts": "2026-11-23T11:51:36.833548",
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-23T12:04:08.742102",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5fbf72d3dee75b24d8e60a2c2329603b0c128925",
+    "whale_wallet": "0xdade0c83c7820af23889146b468915ae39cb3639",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7097130",
+    "pregunta": "Will the price of Bitcoin be between $62,000 and $64,000 on November 23?",
+    "ts": "2026-11-23T12:04:10.481667",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7097175",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 23?",
+    "ts": "2026-11-23T12:04:11.515121",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
     "whale_signal": "COMPRAR NO"
   }
 ]
