@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-22T20:02:02.965174",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-22T20:02:06.083686",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x96e6b8f760ee785189a8a597b383806472495615",
+    "whale_signal": "COMPRAR NO"
+  }
+]
