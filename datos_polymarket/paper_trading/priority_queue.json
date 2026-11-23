@@ -1,26 +1,18 @@
 [
   {
-    "id": "1193094",
-    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-    "ts": "2026-11-23T12:04:08.742102",
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-23T12:11:11.212393",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdade0c83c7820af23889146b468915ae39cb3639",
+    "whale_wallet": "0xedadd813336221a17742f5dace188f69bff017b2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7097130",
-    "pregunta": "Will the price of Bitcoin be between $62,000 and $64,000 on November 23?",
-    "ts": "2026-11-23T12:04:10.481667",
+    "id": "7043499",
+    "pregunta": "Will Bitcoin reach $67,500 in November?",
+    "ts": "2026-11-23T12:11:12.267659",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7097175",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 23?",
-    "ts": "2026-11-23T12:04:11.515121",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
+    "whale_wallet": "0xedadd813336221a17742f5dace188f69bff017b2",
     "whale_signal": "COMPRAR NO"
   }
 ]
