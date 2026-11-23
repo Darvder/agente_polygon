@@ -1,74 +1,74 @@
 [
   {
-    "id": "7277462",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $13.00?",
-    "ts": "2026-11-23T04:22:52.468576",
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-23T04:34:07.413017",
     "origen": "whale_copytrader",
     "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277463",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.50?",
-    "ts": "2026-11-23T04:22:53.609922",
+    "id": "7277637",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.60?",
+    "ts": "2026-11-23T04:34:08.440895",
     "origen": "whale_copytrader",
     "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277464",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.00?",
-    "ts": "2026-11-23T04:22:54.643407",
+    "id": "7277638",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.40?",
+    "ts": "2026-11-23T04:34:09.468058",
     "origen": "whale_copytrader",
     "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7276616",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
-    "ts": "2026-11-23T04:22:55.769620",
+    "id": "7279408",
+    "pregunta": "Will Bitcoin reach $63,000 on November 23?",
+    "ts": "2026-11-23T04:34:12.333782",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7276615",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.20?",
-    "ts": "2026-11-23T04:22:56.804891",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7279440",
-    "pregunta": "Will Ethereum reach $1,800 on November 23?",
-    "ts": "2026-11-23T04:23:02.869618",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7279414",
     "pregunta": "Will Bitcoin dip to $61,000 on November 23?",
-    "ts": "2026-11-23T04:23:05.968676",
+    "ts": "2026-11-23T04:34:13.511909",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279411",
+    "pregunta": "Will Bitcoin reach $62,000 on November 23?",
+    "ts": "2026-11-23T04:34:14.563269",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7279416",
+    "pregunta": "Will Bitcoin dip to $60,000 on November 23?",
+    "ts": "2026-11-23T04:34:15.602210",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7279418",
     "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
-    "ts": "2026-11-23T04:23:07.002289",
+    "ts": "2026-11-23T04:34:16.778985",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7203829",
-    "pregunta": "Will Bitcoin reach $62,500 in November?",
-    "ts": "2026-11-23T04:23:08.034312",
+    "id": "7279403",
+    "pregunta": "Will Bitcoin reach $64,000 on November 23?",
+    "ts": "2026-11-23T04:34:17.817298",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
     "whale_signal": "COMPRAR NO"
   }
 ]
