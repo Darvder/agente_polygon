@@ -1,58 +1,10 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-23T08:41:31.870250",
+    "id": "7260820",
+    "pregunta": "Will Bitcoin dip to $60,000 in November?",
+    "ts": "2026-11-23T09:01:31.931875",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3ae9f8280a66a2da19ea284e574cd3da88a8c15b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7183273",
-    "pregunta": "EU country blames Russia for new sabotage attack by December 31, 2026?",
-    "ts": "2026-11-23T08:41:33.816269",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb51b3beffd13cde071ed799e70a7b0b598e8b4d9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121571",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 24?",
-    "ts": "2026-11-23T08:41:36.488712",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121529",
-    "pregunta": "Will the price of Bitcoin be between $62,000 and $64,000 on November 24?",
-    "ts": "2026-11-23T08:41:37.546417",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7043499",
-    "pregunta": "Will Bitcoin reach $67,500 in November?",
-    "ts": "2026-11-23T08:41:38.595728",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7279416",
-    "pregunta": "Will Bitcoin dip to $60,000 on November 23?",
-    "ts": "2026-11-23T08:41:39.750464",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7279418",
-    "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
-    "ts": "2026-11-23T08:41:40.814632",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0x1cd24cc49782240413903b4b7e7694779f917f85",
     "whale_signal": "COMPRAR NO"
   }
 ]
