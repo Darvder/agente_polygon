@@ -1,18 +1,26 @@
 [
   {
-    "id": "7279418",
-    "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
-    "ts": "2026-11-23T03:05:07.163089",
+    "id": "7097132",
+    "pregunta": "Will the price of Ethereum be above $1,700 on November 23?",
+    "ts": "2026-11-23T03:12:35.681914",
     "origen": "whale_copytrader",
     "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7218091",
-    "pregunta": "Will the highest temperature in Hong Kong be 23\u00b0C on November 23?",
-    "ts": "2026-11-23T03:05:09.852989",
+    "id": "7279418",
+    "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
+    "ts": "2026-11-23T03:12:36.802730",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2277c18fb73d4cfbd61384be80ef9339a9496604",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7210763",
+    "pregunta": "Will South Korea ETF (EWY) hit (LOW) $120 Week of November 23 2026?",
+    "ts": "2026-11-23T03:12:38.590946",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x94d453d43bfd94f857113ef8bc3ad181f0cf9092",
     "whale_signal": "COMPRAR NO"
   }
 ]
