@@ -1,10 +1,18 @@
 [
   {
-    "id": "7277652",
-    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.00?",
-    "ts": "2026-11-23T20:42:19.353314",
+    "id": "4425386",
+    "pregunta": "Will Bad Bunny rank in Google\u2019s Top 5 Most Searched People of 2026?",
+    "ts": "2026-11-23T20:49:42.013324",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_wallet": "0xf797d4d1c038d1eb0593edae0e66bf8e4b2e0bf2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-23T20:49:45.816075",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8888a4f8c8d3834482d77405530d7f5428a40b39",
     "whale_signal": "COMPRAR NO"
   }
 ]
