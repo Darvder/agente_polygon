@@ -1,34 +1,58 @@
 [
   {
-    "id": "3399468",
-    "pregunta": "Israel x Iran ceasefire continues through December 31?",
-    "ts": "2026-11-24T01:22:57.021292",
+    "id": "6618279",
+    "pregunta": "Will Venezuela win Miss Universe 2026?",
+    "ts": "2026-11-24T01:32:51.400403",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ea3553140c18cbc1efa1636dc5b702429f3d00",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-24T01:22:58.047585",
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-24T01:32:55.531614",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ea3553140c18cbc1efa1636dc5b702429f3d00",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3585429",
-    "pregunta": "Tesla and SpaceX merger officially announced by January 31, 2027?",
-    "ts": "2026-11-24T01:22:59.069832",
+    "id": "7277652",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.00?",
+    "ts": "2026-11-24T01:32:56.567491",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ea3553140c18cbc1efa1636dc5b702429f3d00",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-24T01:23:00.092641",
+    "id": "7278004",
+    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $3.00?",
+    "ts": "2026-11-24T01:32:57.603600",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb1ea3553140c18cbc1efa1636dc5b702429f3d00",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-24T01:33:03.506202",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277651",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.50?",
+    "ts": "2026-11-24T01:33:04.526268",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277650",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $13.00?",
+    "ts": "2026-11-24T01:33:05.664967",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
