@@ -1,10 +1,18 @@
 [
   {
-    "id": "2243499",
-    "pregunta": "Will Javokhir Sindarov win the 2026 World Chess Championship?",
-    "ts": "2026-11-24T10:38:33.615324",
+    "id": "7301903",
+    "pregunta": "Will Bitcoin dip to $58,000 on November 24?",
+    "ts": "2026-11-24T10:56:51.503384",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfa011919b3ce3222620052757ee0f0c66c41f0a7",
+    "whale_wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-24T10:56:52.523110",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
     "whale_signal": "COMPRAR NO"
   }
 ]
