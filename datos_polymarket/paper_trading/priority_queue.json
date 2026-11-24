@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-24T14:21:55.398117",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbeb4590de7a24cad8f95b5af42aadc345354db65",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-24T14:21:56.441757",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbeb4590de7a24cad8f95b5af42aadc345354db65",
+    "whale_signal": "COMPRAR NO"
+  }
+]
