@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "7287079",
+    "pregunta": "Jensen Huang announced resignation or removal again by December 31, 2027?",
+    "ts": "2026-11-24T00:32:04.535474",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x62596bb2b9a0e984cc969c57797f79ab2dd7c692",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7121571",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 24?",
+    "ts": "2026-11-24T00:32:05.575689",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x62596bb2b9a0e984cc969c57797f79ab2dd7c692",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-24T00:32:07.305460",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe1d948782302802ddf0d52829bb9a28cad7fbf16",
+    "whale_signal": "COMPRAR NO"
+  }
+]
