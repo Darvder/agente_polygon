@@ -1,18 +1,42 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-24T07:41:41.802270",
+    "id": "7185169",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
+    "ts": "2026-11-24T07:50:23.677275",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x212f7fc77c18c6ce34bb1dae43e9198ab19b7fd2",
+    "whale_wallet": "0xbace5a5a9e309d69164dc81788d353fed8d43429",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "679022",
-    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
-    "ts": "2026-11-24T07:41:43.714922",
+    "id": "3358974",
+    "pregunta": "Will Nvidia\u2019s market capitalization be less than $4.00T at the end of 2026?",
+    "ts": "2026-11-24T07:50:25.364580",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb7632365a9edc5be7239295bf559e8cd98a8d3a5",
+    "whale_wallet": "0xbfe23d7adb6f6108dba269d7e8f275675f531913",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418520",
+    "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solved by AI?",
+    "ts": "2026-11-24T07:50:27.402851",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbfe23d7adb6f6108dba269d7e8f275675f531913",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701578",
+    "pregunta": "Will Solana dip to $60 by December 31, 2026?",
+    "ts": "2026-11-24T07:50:29.221531",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6618279",
+    "pregunta": "Will Venezuela win Miss Universe 2026?",
+    "ts": "2026-11-24T07:50:30.340538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
