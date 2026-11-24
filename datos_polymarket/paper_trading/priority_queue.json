@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "6976744",
+    "pregunta": "Will Jensen Huang's resignation or removal be announced and Nvidia's market cap be below $4T at the end of 2026?",
+    "ts": "2026-11-24T09:54:16.404441",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6254930",
+    "pregunta": "Netanyahu out by June 30, 2027?",
+    "ts": "2026-11-24T09:54:17.424227",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7209783",
+    "pregunta": "Will Anthropic close below its IPO price by November 27, 2026?",
+    "ts": "2026-11-24T09:54:18.443862",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4383153",
+    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-24T09:54:19.463609",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-24T09:54:21.305724",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9e521d9291612a0ec1f0a0de4e586adae09719c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7287079",
+    "pregunta": "Jensen Huang announced resignation or removal again by December 31, 2027?",
+    "ts": "2026-11-24T09:54:23.510886",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9e521d9291612a0ec1f0a0de4e586adae09719c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-24T09:54:24.528803",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9e521d9291612a0ec1f0a0de4e586adae09719c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7301903",
+    "pregunta": "Will Bitcoin dip to $58,000 on November 24?",
+    "ts": "2026-11-24T09:54:30.524153",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
