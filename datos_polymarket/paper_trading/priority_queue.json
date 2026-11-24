@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-24T17:32:50.421941",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-24T17:32:51.462836",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "814612",
+    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-24T17:32:52.508604",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2060106",
+    "pregunta": "Will Ezra Frech win Dancing With the Stars: Season 35?",
+    "ts": "2026-11-24T17:32:55.322921",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2060103",
+    "pregunta": "Will Amber Glenn win Dancing With the Stars: Season 35?",
+    "ts": "2026-11-24T17:32:56.363365",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
