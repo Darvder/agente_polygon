@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-24T17:02:15.670177",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6723102",
+    "pregunta": "Marco Rubio out as Secretary of State by March 31, 2027?",
+    "ts": "2026-11-24T17:02:16.795835",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6618279",
+    "pregunta": "Will Venezuela win Miss Universe 2026?",
+    "ts": "2026-11-24T17:02:18.611746",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2431413",
+    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
+    "ts": "2026-11-24T17:02:19.641812",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-24T17:02:21.699851",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7301891",
+    "pregunta": "Will Bitcoin reach $61,000 on November 24?",
+    "ts": "2026-11-24T17:02:23.577701",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7301899",
+    "pregunta": "Will Bitcoin dip to $59,000 on November 24?",
+    "ts": "2026-11-24T17:02:24.607601",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302029",
+    "pregunta": "Will Ethereum dip to $1,650 on November 24?",
+    "ts": "2026-11-24T17:02:25.737489",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  }
+]
