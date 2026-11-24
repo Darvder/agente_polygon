@@ -1,10 +1,26 @@
 [
   {
-    "id": "7277984",
-    "pregunta": "Will the average Ornn B200 rental price in December 2027 be above $7.00?",
-    "ts": "2026-11-24T16:30:55.331900",
+    "id": "6992350",
+    "pregunta": "Will Jensen Huang rank in Google\u2019s Top 5 Most Searched People of 2026?",
+    "ts": "2026-11-24T16:42:16.857118",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0xe8dc200c0e3c71d0d96957d5488d2426e0cc3e53",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4664548",
+    "pregunta": "Will Z.ai be the third-best Chinese AI company at the end of November 2026?",
+    "ts": "2026-11-24T16:42:22.318706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6066031",
+    "pregunta": "Will the next Claude Opus model (5.6+) debut with an HLE-Diamond score of 65% or higher?",
+    "ts": "2026-11-24T16:42:23.432985",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcb48f490d8579832e56954cb31dfee630d59be6d",
     "whale_signal": "COMPRAR NO"
   }
 ]
