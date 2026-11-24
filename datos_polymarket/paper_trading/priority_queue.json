@@ -1,10 +1,26 @@
 [
   {
-    "id": "7208791",
-    "pregunta": "Will Anthropic close below its IPO price by November 25, 2026?",
-    "ts": "2026-11-23T23:09:39.762196",
+    "id": "4383153",
+    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-23T23:22:31.435538",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412321",
+    "pregunta": "Will AI solve 0 more Millennium Prize Problems in 2026?",
+    "ts": "2026-11-23T23:22:32.466431",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3740652",
+    "pregunta": "Will One Nation win the second-most seats in the next Victorian state election?",
+    "ts": "2026-11-23T23:22:34.469931",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6560abb717a8e5f3afaacd1a31e9c03eed71e164",
     "whale_signal": "COMPRAR NO"
   }
 ]
