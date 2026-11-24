@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1619.88,
-  "capital_en_riesgo": 657.34,
-  "n_ciclos": 46585,
-  "ultima_corrida": "2026-11-24 02:55",
+  "capital_actual": 1667.72,
+  "capital_en_riesgo": 606.89,
+  "n_ciclos": 46586,
+  "ultima_corrida": "2026-11-24 03:01",
   "n_tp": 1271,
-  "n_sl": 864,
+  "n_sl": 865,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 33.14,
-    "capital_en_riesgo": 80.6,
+    "capital_actual": 39.06,
+    "capital_en_riesgo": 74.36,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 4.87,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 723,
-    "n_sl": 496,
+    "n_sl": 497,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-11-07",
@@ -71,7 +71,7 @@
         "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
         "outcome": "Yes",
         "precio_token_entrada": 0.77,
-        "precio_actual": 0.805,
+        "precio_actual": 0.81,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 4.3,
@@ -340,26 +340,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x5a8338851a688224cd6f9a40b4ee11053f3ee67fc25a89601729200e6e060098"
-      },
-      {
-        "fecha_entrada": "2026-11-22",
-        "fecha_entrada_dt": "2026-11-22 21:11",
-        "target_wallet": "0x77fbd6bdba89da0ce4ae6e5bee380d6a51de266c",
-        "market_id": "561979",
-        "condition_id": "0x64d31a2af85518c6718a5757a35b840f08eca20c1e22c0eb1e96ec01cc55b8b6",
-        "token_id": "12127975650736113116407758794754973741525044713193258995588171654429754588610",
-        "pregunta": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
-        "outcome": "Yes",
-        "precio_token_entrada": 0.1545,
-        "precio_actual": 0.1465,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 6.24,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0xc8daafb9083f6136d818138c35cdd0f529e73c57dd71563241453324b975fe35"
       },
       {
         "fecha_entrada": "2026-11-22",
@@ -24762,6 +24742,26 @@
         "pnl_realizado": 4.57,
         "razon_cierre": "TAKE_PROFIT",
         "tx_hash": "0x808743ada952ab486e198f2f4b4482a00613bb2272831bd559af7e31064330da"
+      },
+      {
+        "fecha_entrada": "2026-11-22",
+        "fecha_entrada_dt": "2026-11-22 21:11",
+        "target_wallet": "0x77fbd6bdba89da0ce4ae6e5bee380d6a51de266c",
+        "market_id": "561979",
+        "condition_id": "0x64d31a2af85518c6718a5757a35b840f08eca20c1e22c0eb1e96ec01cc55b8b6",
+        "token_id": "12127975650736113116407758794754973741525044713193258995588171654429754588610",
+        "pregunta": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
+        "outcome": "Yes",
+        "precio_token_entrada": 0.1545,
+        "precio_actual": 0.1465,
+        "precio_cierre": 0.1465,
+        "pct_cambio": -0.0518,
+        "monto_usdc": 6.24,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-24 03:01",
+        "pnl_realizado": -0.32,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0xc8daafb9083f6136d818138c35cdd0f529e73c57dd71563241453324b975fe35"
       }
     ]
   }
