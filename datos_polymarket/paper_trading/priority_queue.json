@@ -1,34 +1,10 @@
 [
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-23T23:02:31.755188",
+    "id": "7208791",
+    "pregunta": "Will Anthropic close below its IPO price by November 25, 2026?",
+    "ts": "2026-11-23T23:09:39.762196",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x55e2436d747835c7e40b0c6cf92f632bf1215fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7233747",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-23T23:02:33.821528",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x55e2436d747835c7e40b0c6cf92f632bf1215fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4412298",
-    "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-23T23:02:38.202219",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6723102",
-    "pregunta": "Marco Rubio out as Secretary of State by March 31, 2027?",
-    "ts": "2026-11-23T23:02:39.238046",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
