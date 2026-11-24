@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "7280016",
+    "pregunta": "Will the highest temperature in Shanghai be 13\u00b0C on November 25?",
+    "ts": "2026-11-24T15:11:01.031456",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98699bdc11df975bffb9d44f6c7398b30ea21a45",
+    "whale_signal": "COMPRAR NO"
+  }
+]
