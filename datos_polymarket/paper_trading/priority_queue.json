@@ -1,26 +1,10 @@
 [
   {
-    "id": "7176639",
-    "pregunta": "Will the price of Bitcoin be above $58,000 on November 26?",
-    "ts": "2026-11-24T12:43:50.727549",
+    "id": "4418556",
+    "pregunta": "Will AI solve the twin prime conjecture in 2026?",
+    "ts": "2026-11-24T12:52:39.932856",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7203543",
-    "pregunta": "Will the price of Solana be above $65 on November 27?",
-    "ts": "2026-11-24T12:43:51.859458",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7288591",
-    "pregunta": "Will the price of Ethereum be above $1,600 on November 30?",
-    "ts": "2026-11-24T12:43:52.989768",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_wallet": "0x9d4a9ff98bdce01ff8081362f676749db0c85887",
     "whale_signal": "COMPRAR NO"
   }
 ]
