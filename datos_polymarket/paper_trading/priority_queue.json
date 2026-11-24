@@ -1,18 +1,42 @@
 [
   {
-    "id": "7027911",
-    "pregunta": "Will the Fed hike-hike-hike in the next three decisions (Dec-Jan-Mar)?",
-    "ts": "2026-11-24T07:12:14.215270",
+    "id": "2431413",
+    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
+    "ts": "2026-11-24T07:22:20.196750",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6322991",
-    "pregunta": "Will there be no change in Fed interest rates after the March 2027 meeting?",
-    "ts": "2026-11-24T07:12:15.420036",
+    "id": "6618279",
+    "pregunta": "Will Venezuela win Miss Universe 2026?",
+    "ts": "2026-11-24T07:22:21.233431",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2965189",
+    "pregunta": "Will Jensen Huang be the #1 searched person on Google this year?",
+    "ts": "2026-11-24T07:22:23.392346",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-24T07:22:25.456789",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6919935",
+    "pregunta": "GTA VI Online released by June 30, 2027?",
+    "ts": "2026-11-24T07:22:26.489159",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
