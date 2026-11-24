@@ -1,26 +1,18 @@
 [
   {
-    "id": "7247453",
-    "pregunta": "Will the highest temperature in Amsterdam be 3\u00b0C on November 24?",
-    "ts": "2026-11-24T03:00:35.972747",
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-24T03:11:54.252409",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x73534402899084573c0f0ddc003674eba01cb6c5",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7249351",
-    "pregunta": "Will the highest temperature in New York City be between 52-53\u00b0F on November 24?",
-    "ts": "2026-11-24T03:00:38.041379",
+    "id": "7301895",
+    "pregunta": "Will Bitcoin dip to $60,000 on November 24?",
+    "ts": "2026-11-24T03:11:56.469433",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x73534402899084573c0f0ddc003674eba01cb6c5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7249350",
-    "pregunta": "Will the highest temperature in New York City be between 50-51\u00b0F on November 24?",
-    "ts": "2026-11-24T03:00:39.080083",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x73534402899084573c0f0ddc003674eba01cb6c5",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
   }
 ]
