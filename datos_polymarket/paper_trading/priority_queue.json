@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-23T19:28:01.918098",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363844",
+    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
+    "ts": "2026-11-23T19:28:02.996493",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2467362",
+    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
+    "ts": "2026-11-23T19:28:04.068536",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "679018",
+    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
+    "ts": "2026-11-23T19:28:05.146083",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4824666",
+    "pregunta": "Will Together be in the next Israeli government?",
+    "ts": "2026-11-23T19:28:08.213652",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6299701",
+    "pregunta": "Next Israeli government formed by June 30, 2027?",
+    "ts": "2026-11-23T19:28:09.444259",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
+    "whale_signal": "COMPRAR NO"
+  }
+]
