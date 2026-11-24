@@ -1,18 +1,90 @@
 [
   {
-    "id": "7301883",
-    "pregunta": "Will Bitcoin reach $63,000 on November 24?",
-    "ts": "2026-11-24T02:42:20.811401",
+    "id": "6029446",
+    "pregunta": "Will PSOE win the most seats in \u00c1lava in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:13.324742",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7301903",
-    "pregunta": "Will Bitcoin dip to $58,000 on November 24?",
-    "ts": "2026-11-24T02:42:24.057303",
+    "id": "6029039",
+    "pregunta": "Will PSOE win the most seats in the Basque Country in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:14.346811",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6027297",
+    "pregunta": "Will Podemos win exactly 0 seats in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:15.365353",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6027315",
+    "pregunta": "Will EH Bildu win exactly 7 seats in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:16.560381",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6029313",
+    "pregunta": "Will PSOE win the most seats in Asturias in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:17.578666",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6029137",
+    "pregunta": "Will PSOE win the most seats in Biscay in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:18.771770",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6030009",
+    "pregunta": "Will PSOE win the most seats in Le\u00f3n in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:19.965659",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6030041",
+    "pregunta": "Will PSOE win the most seats in Las Palmas in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:20.983723",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6067012",
+    "pregunta": "Will PP win the Ceuta seat in the 2026 Spanish general election?",
+    "ts": "2026-11-24T02:54:22.173881",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6619275",
+    "pregunta": "Will the right bloc win the Spanish election by 40-49 seats?",
+    "ts": "2026-11-24T02:54:23.194620",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7030583",
+    "pregunta": "Will Elon Musk post 260-279 tweets from November 17 to November 24, 2026?",
+    "ts": "2026-11-24T02:54:25.035373",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb0ccfba29aaf3c20ce28cf97349c951ba589f09b",
     "whale_signal": "COMPRAR NO"
   }
 ]
