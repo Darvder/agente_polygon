@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7027911",
+    "pregunta": "Will the Fed hike-hike-hike in the next three decisions (Dec-Jan-Mar)?",
+    "ts": "2026-11-24T07:12:14.215270",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6322991",
+    "pregunta": "Will there be no change in Fed interest rates after the March 2027 meeting?",
+    "ts": "2026-11-24T07:12:15.420036",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_signal": "COMPRAR NO"
+  }
+]
