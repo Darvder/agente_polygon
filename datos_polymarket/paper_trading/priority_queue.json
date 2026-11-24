@@ -1,10 +1,34 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-23T22:53:31.324708",
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-23T23:02:31.755188",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x072afc0a066adc5b75c989de372adb952268cee6",
+    "whale_wallet": "0x55e2436d747835c7e40b0c6cf92f632bf1215fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7233747",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-23T23:02:33.821528",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x55e2436d747835c7e40b0c6cf92f632bf1215fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412298",
+    "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-23T23:02:38.202219",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6723102",
+    "pregunta": "Marco Rubio out as Secretary of State by March 31, 2027?",
+    "ts": "2026-11-23T23:02:39.238046",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
