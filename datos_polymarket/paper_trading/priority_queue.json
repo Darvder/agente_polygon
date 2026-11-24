@@ -1,18 +1,26 @@
 [
   {
-    "id": "701501",
-    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-    "ts": "2026-11-24T14:42:20.813115",
+    "id": "7284561",
+    "pregunta": "Will Google (GOOGL) close above $280 on November 24?",
+    "ts": "2026-11-24T14:53:26.390729",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6618279",
-    "pregunta": "Will Venezuela win Miss Universe 2026?",
-    "ts": "2026-11-24T14:42:21.840968",
+    "id": "7204316",
+    "pregunta": "Will Microsoft Corporation (MSFT) hit (HIGH) $510 in November?",
+    "ts": "2026-11-24T14:53:27.520593",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7284621",
+    "pregunta": "S&P 500 (SPY) closes above $715 on November 24?",
+    "ts": "2026-11-24T14:53:29.687837",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
     "whale_signal": "COMPRAR NO"
   }
 ]
