@@ -1,18 +1,26 @@
 [
   {
-    "id": "7277988",
-    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $13.00?",
-    "ts": "2026-11-24T08:41:33.970605",
+    "id": "7277466",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $11.00?",
+    "ts": "2026-11-24T08:51:26.112081",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7301694",
-    "pregunta": "Will Crusoe IPO by December 31, 2027?",
-    "ts": "2026-11-24T08:41:38.310822",
+    "id": "7277467",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $10.50?",
+    "ts": "2026-11-24T08:51:27.304947",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7121569",
+    "pregunta": "Will the price of Bitcoin be above $60,000 on November 24?",
+    "ts": "2026-11-24T08:51:31.324703",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
     "whale_signal": "COMPRAR NO"
   }
 ]
