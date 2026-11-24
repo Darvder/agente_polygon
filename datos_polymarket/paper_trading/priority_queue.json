@@ -1,50 +1,10 @@
 [
   {
-    "id": "4824666",
-    "pregunta": "Will Together be in the next Israeli government?",
-    "ts": "2026-11-24T00:51:52.749414",
+    "id": "7150681",
+    "pregunta": "Will Bitcoin reach $65,000 in November?",
+    "ts": "2026-11-24T01:03:49.151738",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6299701",
-    "pregunta": "Next Israeli government formed by June 30, 2027?",
-    "ts": "2026-11-24T00:51:53.955888",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xfd59791f361f6aed2960d5923eed702887300231",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7155713",
-    "pregunta": "US announces end of Iranian blockade by January 31, 2027?",
-    "ts": "2026-11-24T00:51:56.078153",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa82b0e89cf734e2fa70cbd52ca65c77d64595220",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7233467",
-    "pregunta": "Will Elon Musk post 65-89 tweets from November 23 to November 25, 2026?",
-    "ts": "2026-11-24T00:51:59.897449",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7233468",
-    "pregunta": "Will Elon Musk post 90-114 tweets from November 23 to November 25, 2026?",
-    "ts": "2026-11-24T00:52:00.938082",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7109773",
-    "pregunta": "Will Elon Musk post 300-319 tweets from November 20 to November 27, 2026?",
-    "ts": "2026-11-24T00:52:02.145060",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x279c5de35108afc30b99f09e595555b428e92b82",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
