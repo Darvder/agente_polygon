@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7279409",
+    "pregunta": "Will Bitcoin dip to $60,000 November 23-29?",
+    "ts": "2026-11-23T21:51:07.611146",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6989178",
+    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
+    "ts": "2026-11-23T21:51:10.530243",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "whale_signal": "COMPRAR NO"
+  }
+]
