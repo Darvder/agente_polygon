@@ -1,10 +1,18 @@
 [
   {
-    "id": "6723101",
-    "pregunta": "Marco Rubio out as Secretary of State by December 31, 2026?",
-    "ts": "2026-11-24T07:32:53.507314",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-24T07:41:41.802270",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x32a556cfb790ead3ae39c61d37bc7790c4bf76b9",
+    "whale_wallet": "0x212f7fc77c18c6ce34bb1dae43e9198ab19b7fd2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-24T07:41:43.714922",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7632365a9edc5be7239295bf559e8cd98a8d3a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
