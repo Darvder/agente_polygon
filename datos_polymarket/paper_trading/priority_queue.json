@@ -1,32 +1,8 @@
 [
   {
-    "id": "6618279",
-    "pregunta": "Will Venezuela win Miss Universe 2026?",
-    "ts": "2026-11-24T18:21:52.652615",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2431413",
-    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
-    "ts": "2026-11-24T18:21:53.818184",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-24T18:21:56.897334",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x34004f59431dc5b842679ddc1d827a7b61754832",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "7302029",
     "pregunta": "Will Ethereum dip to $1,650 on November 24?",
-    "ts": "2026-11-24T18:21:58.860441",
+    "ts": "2026-11-24T18:33:40.779861",
     "origen": "whale_copytrader",
     "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
@@ -34,7 +10,7 @@
   {
     "id": "7301899",
     "pregunta": "Will Bitcoin dip to $59,000 on November 24?",
-    "ts": "2026-11-24T18:22:00.026636",
+    "ts": "2026-11-24T18:33:41.947808",
     "origen": "whale_copytrader",
     "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
