@@ -1,18 +1,26 @@
 [
   {
-    "id": "2244953",
-    "pregunta": "Arc FDV above $5B one day after launch?",
-    "ts": "2026-11-24T12:32:58.374132",
+    "id": "7176639",
+    "pregunta": "Will the price of Bitcoin be above $58,000 on November 26?",
+    "ts": "2026-11-24T12:43:50.727549",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2431413",
-    "pregunta": "Will Anthropic have the best AI model at the end of December 2026?",
-    "ts": "2026-11-24T12:33:00.392637",
+    "id": "7203543",
+    "pregunta": "Will the price of Solana be above $65 on November 27?",
+    "ts": "2026-11-24T12:43:51.859458",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x91784d82fbe4543459ee85fc9809be185d70a2b2",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7288591",
+    "pregunta": "Will the price of Ethereum be above $1,600 on November 30?",
+    "ts": "2026-11-24T12:43:52.989768",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17dbae6fecba1c02bd673887b3cd94b75529c1e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
