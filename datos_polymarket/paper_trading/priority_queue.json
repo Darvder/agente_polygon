@@ -2,39 +2,15 @@
   {
     "id": "6989178",
     "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
-    "ts": "2026-11-23T22:10:31.247207",
+    "ts": "2026-11-23T22:24:50.824308",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+    "whale_wallet": "0x964231203d56d95d6ff908907ef43d967199f372",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279418",
-    "pregunta": "Will Bitcoin dip to $59,000 on November 23?",
-    "ts": "2026-11-23T22:10:34.122371",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121519",
-    "pregunta": "Will the price of Bitcoin be between $58,000 and $60,000 on November 24?",
-    "ts": "2026-11-23T22:10:35.317669",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7279415",
-    "pregunta": "Will Bitcoin dip to $56,000 November 23-29?",
-    "ts": "2026-11-23T22:10:36.352428",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7279416",
-    "pregunta": "Will Bitcoin dip to $60,000 on November 23?",
-    "ts": "2026-11-23T22:10:37.384981",
+    "id": "7121569",
+    "pregunta": "Will the price of Bitcoin be above $60,000 on November 24?",
+    "ts": "2026-11-23T22:24:54.865302",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
     "whale_signal": "COMPRAR NO"
@@ -42,33 +18,9 @@
   {
     "id": "7121526",
     "pregunta": "Will the price of Ethereum be above $1,700 on November 24?",
-    "ts": "2026-11-23T22:10:38.426025",
+    "ts": "2026-11-23T22:24:57.945625",
     "origen": "whale_copytrader",
     "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-23T22:10:39.457959",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7121569",
-    "pregunta": "Will the price of Bitcoin be above $60,000 on November 24?",
-    "ts": "2026-11-23T22:10:40.498625",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6440144",
-    "pregunta": "Will Trump speak to Mark Rutte by November 30?",
-    "ts": "2026-11-23T22:10:42.486729",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xe4b9359975e07a89fa8ada61d2848624c0da4d3a",
     "whale_signal": "COMPRAR NO"
   }
 ]
