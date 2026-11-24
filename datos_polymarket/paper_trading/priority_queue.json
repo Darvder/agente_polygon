@@ -1,10 +1,18 @@
 [
   {
-    "id": "4418556",
-    "pregunta": "Will AI solve the twin prime conjecture in 2026?",
-    "ts": "2026-11-24T12:52:39.932856",
+    "id": "6299699",
+    "pregunta": "Next Israeli government formed by December 31, 2026?",
+    "ts": "2026-11-24T13:01:53.968745",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9d4a9ff98bdce01ff8081362f676749db0c85887",
+    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6299700",
+    "pregunta": "Next Israeli government formed by February 28, 2027?",
+    "ts": "2026-11-24T13:01:55.051385",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
     "whale_signal": "COMPRAR NO"
   }
 ]
