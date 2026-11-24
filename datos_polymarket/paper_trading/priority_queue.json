@@ -1,10 +1,42 @@
 [
   {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-24T01:03:49.151738",
+    "id": "7287078",
+    "pregunta": "Jensen Huang announced resignation or removal again by March 31, 2027?",
+    "ts": "2026-11-24T01:11:58.772002",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x410aa391edffa58af64517ec579af5def62b2643",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6989178",
+    "pregunta": "Jensen Huang admits to another affair with a woman by December 31?",
+    "ts": "2026-11-24T01:12:03.671256",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302005",
+    "pregunta": "Will Ethereum reach $1,750 on November 24?",
+    "ts": "2026-11-24T01:12:08.039262",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7301883",
+    "pregunta": "Will Bitcoin reach $63,000 on November 24?",
+    "ts": "2026-11-24T01:12:09.122650",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7301895",
+    "pregunta": "Will Bitcoin dip to $60,000 on November 24?",
+    "ts": "2026-11-24T01:12:10.326762",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
