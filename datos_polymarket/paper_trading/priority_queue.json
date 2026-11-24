@@ -1,18 +1,10 @@
 [
   {
-    "id": "6507441",
-    "pregunta": "Will Solana dip to $60 in November?",
-    "ts": "2026-11-24T10:23:04.429003",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-24T10:31:51.847854",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507392",
-    "pregunta": "Will Bitcoin dip to $55,000 in November?",
-    "ts": "2026-11-24T10:23:06.514962",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
