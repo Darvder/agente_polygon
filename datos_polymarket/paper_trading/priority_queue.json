@@ -1,42 +1,50 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-24T17:32:50.421941",
+    "id": "7302029",
+    "pregunta": "Will Ethereum dip to $1,650 on November 24?",
+    "ts": "2026-11-24T17:42:38.498804",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-24T17:32:51.462836",
+    "id": "7301891",
+    "pregunta": "Will Bitcoin reach $61,000 on November 24?",
+    "ts": "2026-11-24T17:42:39.552100",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "814612",
-    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
-    "ts": "2026-11-24T17:32:52.508604",
+    "id": "7301899",
+    "pregunta": "Will Bitcoin dip to $59,000 on November 24?",
+    "ts": "2026-11-24T17:42:40.604375",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc92dc182c79cb16dfc5688152d74208b0ecbe67a",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2060106",
-    "pregunta": "Will Ezra Frech win Dancing With the Stars: Season 35?",
-    "ts": "2026-11-24T17:32:55.322921",
+    "id": "2677044",
+    "pregunta": "Will Russia capture Myropillia by December 31?",
+    "ts": "2026-11-24T17:42:43.570150",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_wallet": "0xc23ecc9f4d36ad8fa7675f135a6f59f36dac6499",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2060103",
-    "pregunta": "Will Amber Glenn win Dancing With the Stars: Season 35?",
-    "ts": "2026-11-24T17:32:56.363365",
+    "id": "7104786",
+    "pregunta": "Alexandria Ocasio-Cortez Democratic nomination odds leader on December 31?",
+    "ts": "2026-11-24T17:42:44.782638",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
+    "whale_wallet": "0xc23ecc9f4d36ad8fa7675f135a6f59f36dac6499",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7104785",
+    "pregunta": "Jon Ossoff Democratic nomination odds leader on December 31?",
+    "ts": "2026-11-24T17:42:45.825552",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc23ecc9f4d36ad8fa7675f135a6f59f36dac6499",
     "whale_signal": "COMPRAR NO"
   }
 ]
