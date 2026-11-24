@@ -1,10 +1,26 @@
 [
   {
-    "id": "5336560",
-    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-23T19:51:08.279067",
+    "id": "7276621",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $2.60?",
+    "ts": "2026-11-23T20:00:05.135961",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5652090d21c85a9d1ca5b6a41fe07f3099fb00c9",
+    "whale_wallet": "0xd5b97d08ec6098407bfbf66c2786ccc9967fe44e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7276619",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $2.80?",
+    "ts": "2026-11-23T20:00:06.190050",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd5b97d08ec6098407bfbf66c2786ccc9967fe44e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7276620",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $2.70?",
+    "ts": "2026-11-23T20:00:07.229281",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd5b97d08ec6098407bfbf66c2786ccc9967fe44e",
     "whale_signal": "COMPRAR NO"
   }
 ]
