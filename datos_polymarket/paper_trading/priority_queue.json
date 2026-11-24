@@ -1,26 +1,10 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-24T06:31:19.407050",
+    "id": "6770015",
+    "pregunta": "Aleksandar Vu\u010di\u0107 arrested by December 31, 2026?",
+    "ts": "2026-11-24T06:42:21.689189",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x498d2c229b37bf35116281bddbe484d7e1b6ddd4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277467",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $10.50?",
-    "ts": "2026-11-24T06:31:21.933220",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277988",
-    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $13.00?",
-    "ts": "2026-11-24T06:31:22.970503",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0xc77f752128cfa749002f1ceb6e4ce05a13fccf51",
     "whale_signal": "COMPRAR NO"
   }
 ]
