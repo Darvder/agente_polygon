@@ -1,10 +1,66 @@
 [
   {
-    "id": "7213161",
-    "pregunta": "Will a turkey audibly gobble during the Thanksgiving Turkey Pardon on November 24?",
-    "ts": "2026-11-24T15:20:55.295117",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-24T15:33:15.416137",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9def9524630e31ff90f884eed32c3eecfbf8d1a5",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581388",
+    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
+    "ts": "2026-11-24T15:33:16.607107",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4867865",
+    "pregunta": "Will no qualifying US-Iran senior diplomatic meeting take place by December 31, 2026?",
+    "ts": "2026-11-24T15:33:17.824763",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581450",
+    "pregunta": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+    "ts": "2026-11-24T15:33:18.881908",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5194659",
+    "pregunta": "Will the median home value in the US be less than $403,000 on December 31?",
+    "ts": "2026-11-24T15:33:24.206398",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2299960",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $800B by December 31?",
+    "ts": "2026-11-24T15:33:25.249777",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6264957",
+    "pregunta": "Will Rockstar release GTA VI on PC in January 2027 (ET)?",
+    "ts": "2026-11-24T15:33:26.455720",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7299949",
+    "pregunta": "Will Afghanistan be last in the World Happiness Report 2027?",
+    "ts": "2026-11-24T15:33:28.323424",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x49b60d2cda22653ddc8b6ef21bad6d012a7f170c",
     "whale_signal": "COMPRAR NO"
   }
 ]
