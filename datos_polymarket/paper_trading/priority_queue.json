@@ -1,10 +1,58 @@
 [
   {
-    "id": "2060107",
-    "pregunta": "Will Connor Wood win Dancing With the Stars: Season 35?",
-    "ts": "2026-11-24T23:00:21.891414",
+    "id": "7280266",
+    "pregunta": "Will the highest temperature in Guangzhou be 20\u00b0C on November 25?",
+    "ts": "2026-11-24T23:10:59.425488",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1516e33a89185075457382053ef6b14d7302e7a4",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7282505",
+    "pregunta": "Will the highest temperature in Atlanta be between 52-53\u00b0F on November 25?",
+    "ts": "2026-11-24T23:11:00.449808",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302624",
+    "pregunta": "Will the highest temperature in Paris be 5\u00b0C on November 26?",
+    "ts": "2026-11-24T23:11:01.469406",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302625",
+    "pregunta": "Will the highest temperature in Paris be 6\u00b0C on November 26?",
+    "ts": "2026-11-24T23:11:02.491848",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302915",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 31\u00b0C on November 26?",
+    "ts": "2026-11-24T23:11:03.514547",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302917",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on November 26?",
+    "ts": "2026-11-24T23:11:04.641266",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-24T23:11:06.340675",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xca4f87bf1c674492e467218aad04864f80d0ff9e",
     "whale_signal": "COMPRAR NO"
   }
 ]
