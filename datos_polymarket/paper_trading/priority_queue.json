@@ -1,26 +1,34 @@
 [
   {
-    "id": "7176619",
-    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 26?",
-    "ts": "2026-11-25T18:18:44.842669",
+    "id": "4383153",
+    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-25T18:31:41.457340",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0x9140cb3294681cc3d7b944124b87babd2c6c2449",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7335773",
-    "pregunta": "Will Bitcoin reach $61,000 on November 25?",
-    "ts": "2026-11-25T18:18:49.309737",
+    "id": "4412298",
+    "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-25T18:31:42.494307",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0x9140cb3294681cc3d7b944124b87babd2c6c2449",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7203505",
-    "pregunta": "Will the price of Bitcoin be between $58,000 and $60,000 on November 27?",
-    "ts": "2026-11-25T18:18:52.596878",
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-25T18:31:43.528051",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_wallet": "0x9140cb3294681cc3d7b944124b87babd2c6c2449",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "682705",
+    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "ts": "2026-11-25T18:31:49.433964",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbad26fe5458e6219cec3e40272760e275e835296",
     "whale_signal": "COMPRAR NO"
   }
 ]
