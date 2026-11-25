@@ -1,18 +1,10 @@
 [
   {
-    "id": "5636955",
-    "pregunta": "Military action against King Khalid International Airport (RUH) by November 30?",
-    "ts": "2026-11-24T21:31:30.163679",
+    "id": "690683",
+    "pregunta": "Will Variational launch a token by December 31, 2026?",
+    "ts": "2026-11-24T21:42:37.114942",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6440141",
-    "pregunta": "Will Trump speak to Emmanuel Macron by November 30?",
-    "ts": "2026-11-24T21:31:31.193680",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_wallet": "0xd48279acc71437ea12713c90c1b0d1d5422fb559",
     "whale_signal": "COMPRAR NO"
   }
 ]
