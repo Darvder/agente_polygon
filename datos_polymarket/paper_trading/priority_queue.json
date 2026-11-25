@@ -1,18 +1,34 @@
 [
   {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-24T19:53:00.057549",
+    "id": "7328313",
+    "pregunta": "Will an open-source model be ranked #1 on Arena by March 31, 2027?",
+    "ts": "2026-11-24T20:03:24.664584",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6992277",
-    "pregunta": "Will Trump pardon Jensen Huang before 2027?",
-    "ts": "2026-11-24T19:53:01.819625",
+    "id": "7328316",
+    "pregunta": "Will an open-source model be ranked #1 on Arena by June 30, 2027?",
+    "ts": "2026-11-24T20:03:25.689825",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277984",
+    "pregunta": "Will the average Ornn B200 rental price in December 2027 be above $7.00?",
+    "ts": "2026-11-24T20:03:27.838667",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277983",
+    "pregunta": "Will the average Ornn B200 rental price in December 2027 be above $8.00?",
+    "ts": "2026-11-24T20:03:28.954355",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
   }
 ]
