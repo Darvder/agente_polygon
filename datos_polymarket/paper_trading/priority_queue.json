@@ -1,34 +1,66 @@
 [
   {
-    "id": "4425383",
-    "pregunta": "Will Erling Haaland rank in Google\u2019s Top 5 Most Searched People of 2026?",
-    "ts": "2026-11-24T21:04:26.095122",
+    "id": "7277640",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.00?",
+    "ts": "2026-11-24T21:10:53.078876",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277464",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.00?",
-    "ts": "2026-11-24T21:04:27.114968",
+    "id": "7299071",
+    "pregunta": "Will Inception Labs be acquired before 2028?",
+    "ts": "2026-11-24T21:10:55.642167",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7278008",
-    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.60?",
-    "ts": "2026-11-24T21:04:29.329387",
+    "id": "7299074",
+    "pregunta": "Will AMI Labs be acquired before 2028?",
+    "ts": "2026-11-24T21:10:56.756907",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-24T21:04:34.080780",
+    "id": "7299073",
+    "pregunta": "Will Periodic Labs be acquired before 2028?",
+    "ts": "2026-11-24T21:10:57.871230",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x730754ce4cb7cdbf03593021f44a842906e56681",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7299072",
+    "pregunta": "Will Physical Intelligence be acquired before 2028?",
+    "ts": "2026-11-24T21:10:58.982068",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7299067",
+    "pregunta": "Will Thinking Machines Lab be acquired before 2028?",
+    "ts": "2026-11-24T21:11:00.095874",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7299068",
+    "pregunta": "Will Safe Superintelligence (SSI) be acquired before 2028?",
+    "ts": "2026-11-24T21:11:02.325902",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7299076",
+    "pregunta": "Will Perplexity be acquired before 2028?",
+    "ts": "2026-11-24T21:11:03.442291",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
