@@ -1,34 +1,26 @@
 [
   {
-    "id": "7289122",
-    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $168 in November?",
-    "ts": "2026-11-25T09:32:15.060870",
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-25T09:47:49.818792",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_wallet": "0x88ee376120bfcf1daf5642c5d8a6b45d7637c234",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6171551",
-    "pregunta": "Will Alphabet Inc. (GOOGL) hit (LOW) $260 in November?",
-    "ts": "2026-11-25T09:32:16.193050",
+    "id": "7319212",
+    "pregunta": "Will NVIDIA (NVDA) hit (HIGH) $160 in November?",
+    "ts": "2026-11-25T09:47:51.818396",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_wallet": "0x7c30ee60b7f53f80211ca65df99d48cce53b7673",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3358975",
-    "pregunta": "Will Nvidia\u2019s market capitalization be between $4.00T and $4.50T at the end of 2026?",
-    "ts": "2026-11-25T09:32:18.352133",
+    "id": "7234300",
+    "pregunta": "Will NVIDIA (NVDA) hit (LOW) $128 in November?",
+    "ts": "2026-11-25T09:47:52.906381",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6722331",
-    "pregunta": "Will S&P 500 (SPY) hit (LOW) $680 in November?",
-    "ts": "2026-11-25T09:32:19.483764",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+    "whale_wallet": "0x7c30ee60b7f53f80211ca65df99d48cce53b7673",
     "whale_signal": "COMPRAR NO"
   }
 ]
