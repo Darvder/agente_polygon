@@ -1,10 +1,58 @@
 [
   {
-    "id": "5167094",
-    "pregunta": "Will Anthropic\u2019s valuation be between $750B and $1.00T at the end of November 2026?",
-    "ts": "2026-11-25T14:12:27.480801",
+    "id": "7001783",
+    "pregunta": "Will the Bank of Korea make no change to the base rate at the April meeting?",
+    "ts": "2026-11-25T14:19:46.959112",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
+    "whale_wallet": "0x8dc6b0357089f3543bf286bd4252f64a912e22a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7027914",
+    "pregunta": "Will the Fed hike-pause-pause in the next three decisions (Dec-Jan-Mar)?",
+    "ts": "2026-11-25T14:19:50.248932",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7307998",
+    "pregunta": "Will the highest temperature in Toronto be 5\u00b0C on November 26?",
+    "ts": "2026-11-25T14:19:51.274157",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7303080",
+    "pregunta": "Will the lowest temperature in Shanghai be 9\u00b0C on November 26?",
+    "ts": "2026-11-25T14:19:52.390940",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302424",
+    "pregunta": "Will the highest temperature in Warsaw be 1\u00b0C on November 26?",
+    "ts": "2026-11-25T14:19:53.416316",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302992",
+    "pregunta": "Will the highest temperature in Karachi be 30\u00b0C on November 26?",
+    "ts": "2026-11-25T14:19:54.441898",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7282541",
+    "pregunta": "Will the highest temperature in Austin be between 56-57\u00b0F on November 25?",
+    "ts": "2026-11-25T14:19:55.561693",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
     "whale_signal": "COMPRAR NO"
   }
 ]
