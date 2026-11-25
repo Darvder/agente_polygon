@@ -1,10 +1,18 @@
 [
   {
-    "id": "2431412",
-    "pregunta": "Will Google have the best AI model at the end of December 2026?",
-    "ts": "2026-11-24T19:43:42.575994",
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-24T19:53:00.057549",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6992277",
+    "pregunta": "Will Trump pardon Jensen Huang before 2027?",
+    "ts": "2026-11-24T19:53:01.819625",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
