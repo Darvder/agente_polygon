@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6949183",
+    "pregunta": "Will Google have the best AI model on December 15, 2026?",
+    "ts": "2026-11-25T09:24:01.904920",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278015",
+    "pregunta": "Will the average Ornn H100 rental price in February 2027 be above $3.20?",
+    "ts": "2026-11-25T09:24:02.924612",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  }
+]
