@@ -1,106 +1,18 @@
 [
   {
-    "id": "7343536",
-    "pregunta": "Will Amazon (AMZN) close above $240 on November 27?",
-    "ts": "2026-11-25T12:11:24.954045",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-25T12:23:40.392131",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7210218",
-    "pregunta": "Will Apple (AAPL) hit (LOW) $344 Week of November 23 2026?",
-    "ts": "2026-11-25T12:11:26.073282",
+    "id": "2467467",
+    "pregunta": "Will Solana dip to $50 by December 31, 2026?",
+    "ts": "2026-11-25T12:23:41.434401",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7234293",
-    "pregunta": "Will Apple (AAPL) hit (LOW) $344 in November?",
-    "ts": "2026-11-25T12:11:27.189658",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6436264",
-    "pregunta": "Will Amazon (AMZN) close above $250 end of November?",
-    "ts": "2026-11-25T12:11:28.213425",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7319210",
-    "pregunta": "Will Meta Platforms, Inc. (META) hit (HIGH) $600 in November?",
-    "ts": "2026-11-25T12:11:29.233781",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6436401",
-    "pregunta": "Will Tesla (TSLA) close above $380 end of November?",
-    "ts": "2026-11-25T12:11:30.352974",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7289136",
-    "pregunta": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $70 in November?",
-    "ts": "2026-11-25T12:11:31.471876",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7210246",
-    "pregunta": "Will Microsoft (MSFT) finish week of November 23 above $470?",
-    "ts": "2026-11-25T12:11:32.490214",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7210406",
-    "pregunta": "Will Tesla (TSLA) finish week of November 23 above $355?",
-    "ts": "2026-11-25T12:11:33.509227",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7210403",
-    "pregunta": "Will Tesla (TSLA) finish week of November 23 above $350?",
-    "ts": "2026-11-25T12:11:34.528545",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7043839",
-    "pregunta": "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $168 in November?",
-    "ts": "2026-11-25T12:11:35.646716",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7019032",
-    "pregunta": "Will Apple (AAPL) hit (HIGH) $360 in November?",
-    "ts": "2026-11-25T12:11:36.667279",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x969fae0a3a93778adc42178f72c612ed8c4e4d55",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1250830",
-    "pregunta": "Will there be at least 7500 measles cases in the U.S. in 2026?",
-    "ts": "2026-11-25T12:11:39.203841",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb6f4f83fb0d6705f8ac194e55ce99828bca69afc",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
