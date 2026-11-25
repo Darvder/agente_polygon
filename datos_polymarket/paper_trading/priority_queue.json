@@ -1,18 +1,10 @@
 [
   {
-    "id": "1339767",
-    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-    "ts": "2026-11-25T02:43:20.481445",
+    "id": "7108380",
+    "pregunta": "Margaret Qualley announced as next Bond girl?",
+    "ts": "2026-11-25T02:52:32.578506",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "567688",
-    "pregunta": "Netanyahu out by end of 2026?",
-    "ts": "2026-11-25T02:43:23.174941",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x35abfb82dfc4a821f714827297123fd6445ea400",
+    "whale_wallet": "0x8dc6b0357089f3543bf286bd4252f64a912e22a3",
     "whale_signal": "COMPRAR NO"
   }
 ]
