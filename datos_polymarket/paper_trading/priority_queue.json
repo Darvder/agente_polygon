@@ -1,18 +1,10 @@
 [
   {
-    "id": "701501",
-    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-    "ts": "2026-11-25T16:31:07.656816",
+    "id": "7302762",
+    "pregunta": "Will the highest temperature in Madrid be 12\u00b0C on November 26?",
+    "ts": "2026-11-25T16:40:58.011557",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x127e13d04b6ed6f5cdecd7c279f292b07a9fa6b5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7328604",
-    "pregunta": "Trump declassifies new UFO files by January 31?",
-    "ts": "2026-11-25T16:31:10.102088",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0x44dabe09f4c0d31435be1df63ed299e5207fe225",
     "whale_signal": "COMPRAR NO"
   }
 ]
