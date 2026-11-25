@@ -1,34 +1,26 @@
 [
   {
-    "id": "4383153",
-    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-25T18:31:41.457340",
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-25T18:41:32.311223",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9140cb3294681cc3d7b944124b87babd2c6c2449",
+    "whale_wallet": "0x969ea393e9af7a6eccb081fe7deee6cbf5208d88",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "4412298",
     "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-25T18:31:42.494307",
+    "ts": "2026-11-25T18:41:40.163819",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9140cb3294681cc3d7b944124b87babd2c6c2449",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-25T18:31:43.528051",
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-25T18:41:41.963617",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9140cb3294681cc3d7b944124b87babd2c6c2449",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "682705",
-    "pregunta": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-    "ts": "2026-11-25T18:31:49.433964",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbad26fe5458e6219cec3e40272760e275e835296",
+    "whale_wallet": "0xc34a4af2e3a818fdcdfaa7b5b140eca017ae6007",
     "whale_signal": "COMPRAR NO"
   }
 ]
