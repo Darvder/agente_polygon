@@ -1,10 +1,26 @@
 [
   {
-    "id": "690683",
-    "pregunta": "Will Variational launch a token by December 31, 2026?",
-    "ts": "2026-11-24T21:42:37.114942",
+    "id": "6367369",
+    "pregunta": "Israel x Iran ceasefire continues through December 15?",
+    "ts": "2026-11-24T21:53:05.505955",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd48279acc71437ea12713c90c1b0d1d5422fb559",
+    "whale_wallet": "0x10210a9fd731590147802fe35399ce151d831655",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7332428",
+    "pregunta": "Bitcoin above 59,400 on November 24, 10PM ET?",
+    "ts": "2026-11-24T21:53:11.694987",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a40eb4c6d35ec90d07d332ed3ab3891457ec6a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215013",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
+    "ts": "2026-11-24T21:53:12.745626",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7a40eb4c6d35ec90d07d332ed3ab3891457ec6a5",
     "whale_signal": "COMPRAR NO"
   }
 ]
