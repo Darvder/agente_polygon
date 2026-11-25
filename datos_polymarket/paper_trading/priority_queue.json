@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "3215012",
+    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
+    "ts": "2026-11-25T07:12:17.750954",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5194901",
+    "pregunta": "Will the 2-year Treasury yield dip below 4.20% before 2027?",
+    "ts": "2026-11-25T07:12:18.837267",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6322991",
+    "pregunta": "Will there be no change in Fed interest rates after the March 2027 meeting?",
+    "ts": "2026-11-25T07:12:19.995594",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7104712",
+    "pregunta": "Hike 25 bps or No change favored for January Fed on December 10?",
+    "ts": "2026-11-25T07:12:21.077732",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6736297",
+    "pregunta": "Will Damon Hininger be the next to hold Blackburn's Senate seat by March 31?",
+    "ts": "2026-11-25T07:12:25.343377",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb5e83a636f2d77c0c25e2d2abaca753ea204a5f9",
+    "whale_signal": "COMPRAR NO"
+  }
+]
