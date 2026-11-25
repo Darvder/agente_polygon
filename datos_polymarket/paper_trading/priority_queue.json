@@ -1,18 +1,10 @@
 [
   {
-    "id": "2371764",
-    "pregunta": "Will John Turturro be nominated for Best Actor at the 99th Academy Awards?",
-    "ts": "2026-11-24T23:44:36.359206",
+    "id": "701502",
+    "pregunta": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "ts": "2026-11-24T23:52:47.196670",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7254824",
-    "pregunta": "Will Jynxzi finish GTA VI by December 3?",
-    "ts": "2026-11-24T23:44:39.229054",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9d12d54266643f08e660281a08e044627569bdf6",
+    "whale_wallet": "0xdd276c629e635f3c15ac93c31dbb54647dea66aa",
     "whale_signal": "COMPRAR NO"
   }
 ]
