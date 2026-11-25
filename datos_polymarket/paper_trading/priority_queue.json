@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-25T12:55:24.648005",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "814613",
+    "pregunta": "Will the Democratic Progressive Party (DPP) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-25T12:55:25.686345",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "814612",
+    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-25T12:55:26.724481",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-25T12:55:27.742038",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "691340",
+    "pregunta": "AI bubble burst in 2026?",
+    "ts": "2026-11-25T12:55:30.729964",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1f451df45d88896731b0d3b98dd3e067f34497ce",
+    "whale_signal": "COMPRAR NO"
+  }
+]
