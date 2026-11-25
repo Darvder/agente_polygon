@@ -1,10 +1,18 @@
 [
   {
-    "id": "7302769",
-    "pregunta": "Will the highest temperature in Taipei be 22\u00b0C on November 26?",
-    "ts": "2026-11-25T16:03:20.010298",
+    "id": "7278014",
+    "pregunta": "Will the average Ornn H100 rental price in February 2027 be above $3.40?",
+    "ts": "2026-11-25T16:10:25.960206",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x8a4c788f043023b8b28a762216d037e9f148532b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7328313",
+    "pregunta": "Will an open-source model be ranked #1 on Arena by March 31, 2027?",
+    "ts": "2026-11-25T16:10:29.942799",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
