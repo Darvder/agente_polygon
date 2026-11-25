@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-25T17:13:32.534847",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x98d04f9eb52d08ef9697f6eb8d7cfe8d46e5f14a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2116540",
+    "pregunta": "Will Christopher Luxon be the next Prime Minister of New Zealand after the 2026 elections?",
+    "ts": "2026-11-25T17:13:40.604166",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7d249aa60d2be7ed0b477df0e22f9caf9791a93f",
+    "whale_signal": "COMPRAR NO"
+  }
+]
