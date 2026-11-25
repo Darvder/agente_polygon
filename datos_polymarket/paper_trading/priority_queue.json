@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "2244949",
+    "pregunta": "Arc FDV above $1B one day after launch?",
+    "ts": "2026-11-25T11:09:56.162630",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9f9a7610efa67b8614c3152f50af2bd9db6c5e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2244948",
+    "pregunta": "Arc FDV above $800M one day after launch?",
+    "ts": "2026-11-25T11:09:57.291095",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9f9a7610efa67b8614c3152f50af2bd9db6c5e8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "920402",
+    "pregunta": "Variational FDV above $800M one day after launch?",
+    "ts": "2026-11-25T11:09:58.324496",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc9f9a7610efa67b8614c3152f50af2bd9db6c5e8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
