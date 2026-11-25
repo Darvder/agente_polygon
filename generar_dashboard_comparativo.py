@@ -612,14 +612,22 @@ def generar_dashboard():
         daily_roi_copy = [round((float(v) / capital_inicial_copy) * 100.0, 2) for v in daily_pnl_copy]
         daily_colors_copy = ['#10b981' if v >= 0 else '#ef4444' for v in daily_pnl_copy]
 
-        if not daily_grouped.empty:
+        today_str = datetime.now().strftime('%d %b')
+        if not daily_grouped.empty and str(daily_grouped.iloc[-1]['dia_str']) == today_str:
             ultimo_dia = daily_grouped.iloc[-1]
             pnl_hoy_copy = float(ultimo_dia['pnl_dia'])
             ops_hoy_copy = int(ultimo_dia['ops'])
             wins_hoy_copy = int(ultimo_dia['wins'])
             wr_hoy_copy = (wins_hoy_copy / ops_hoy_copy * 100.0) if ops_hoy_copy > 0 else 0.0
-            dia_nombre_hoy = str(ultimo_dia['dia_str'])
+            dia_nombre_hoy = "Hoy (" + today_str + ")"
             roi_hoy_pct_copy = (pnl_hoy_copy / capital_inicial_copy) * 100.0
+        else:
+            pnl_hoy_copy = 0.0
+            ops_hoy_copy = 0
+            wins_hoy_copy = 0
+            wr_hoy_copy = 0.0
+            dia_nombre_hoy = "Hoy (" + today_str + ")"
+            roi_hoy_pct_copy = 0.0
 
         # Rendimiento Semanal y Mensual Copy
         now_dt = cerradas_copy['fecha_dt'].max()
@@ -943,6 +951,7 @@ def generar_dashboard():
     micro_win_rate = (micro_wins / micro_total_eval * 100.0) if micro_total_eval > 0 else 0.0
     micro_roi = (micro_pnl_realizado / micro_cap_ini * 100.0) if micro_cap_ini > 0 else 0.0
     micro_equity = micro_cap_act + micro_cap_riesgo + micro_pnl_flotante
+    micro_equity_roi = ((micro_equity - micro_cap_ini) / micro_cap_ini * 100.0) if micro_cap_ini > 0 else 0.0
     micro_pf_str = f"{(micro_wins_sum / micro_losses_sum):.2f}" if micro_losses_sum > 0 else ("∞" if micro_wins_sum > 0 else "0.00")
     micro_pf_clase = "positive" if micro_losses_sum == 0 or (micro_wins_sum / micro_losses_sum >= 1.0) else "negative"
     micro_pnl_clase = "positive" if micro_pnl_realizado >= 0 else "negative"
@@ -1048,24 +1057,41 @@ def generar_dashboard():
         daily_roi_micro = [round((float(v) / micro_cap_ini) * 100.0, 2) for v in daily_pnl_micro]
         daily_colors_micro = ['#10b981' if v >= 0 else '#ef4444' for v in daily_pnl_micro]
 
-        if not daily_grouped_m.empty:
+        today_str = datetime.now().strftime('%d %b')
+        if not daily_grouped_m.empty and str(daily_grouped_m.iloc[-1]['dia_str']) == today_str:
             ultimo_dia_m = daily_grouped_m.iloc[-1]
             pnl_hoy_micro = float(ultimo_dia_m['pnl_dia'])
             ops_hoy_micro = int(ultimo_dia_m['ops'])
             wins_hoy_micro = int(ultimo_dia_m['wins'])
             wr_hoy_micro = (wins_hoy_micro / ops_hoy_micro * 100.0) if ops_hoy_micro > 0 else 0.0
-            dia_nombre_hoy_micro = str(ultimo_dia_m['dia_str'])
+            dia_nombre_hoy_micro = "Hoy (" + today_str + ")"
             roi_hoy_pct_micro = (pnl_hoy_micro / micro_cap_ini) * 100.0
+        else:
+            pnl_hoy_micro = 0.0
+            ops_hoy_micro = 0
+            wins_hoy_micro = 0
+            wr_hoy_micro = 0.0
+            dia_nombre_hoy_micro = "Hoy (" + today_str + ")"
+            roi_hoy_pct_micro = 0.0
 
-        pnl_7d_micro = micro_pnl_realizado
-        roi_7d_micro = micro_roi
-        ops_7d_micro = len(df_micro_cerradas)
-        wr_7d_micro = micro_win_rate
-
-        pnl_30d_micro = micro_pnl_realizado
-        roi_30d_micro = micro_roi
-        ops_30d_micro = len(df_micro_cerradas)
-        wr_30d_micro = micro_win_rate
+        now_dt_micro = df_micro_cerradas['fecha_dt'].max()
+        if pd.notna(now_dt_micro):
+            t_7d_m = now_dt_micro - pd.Timedelta(days=7)
+            t_30d_m = now_dt_micro - pd.Timedelta(days=30)
+            
+            c_7d_m = df_micro_cerradas[df_micro_cerradas['fecha_dt'] >= t_7d_m]
+            if not c_7d_m.empty:
+                pnl_7d_micro = float(pd.to_numeric(c_7d_m['pnl_realizado'], errors='coerce').fillna(0.0).sum())
+                roi_7d_micro = (pnl_7d_micro / micro_cap_ini) * 100.0
+                ops_7d_micro = len(c_7d_m)
+                wr_7d_micro = ((pd.to_numeric(c_7d_m['pnl_realizado'], errors='coerce') > 0).sum() / ops_7d_micro * 100.0) if ops_7d_micro > 0 else 0.0
+            
+            c_30d_m = df_micro_cerradas[df_micro_cerradas['fecha_dt'] >= t_30d_m]
+            if not c_30d_m.empty:
+                pnl_30d_micro = float(pd.to_numeric(c_30d_m['pnl_realizado'], errors='coerce').fillna(0.0).sum())
+                roi_30d_micro = (pnl_30d_micro / micro_cap_ini) * 100.0
+                ops_30d_micro = len(c_30d_m)
+                wr_30d_micro = ((pd.to_numeric(c_30d_m['pnl_realizado'], errors='coerce') > 0).sum() / ops_30d_micro * 100.0) if ops_30d_micro > 0 else 0.0
 
         daily_active_m = df_micro_cerradas.groupby(df_micro_cerradas['fecha_dt'].dt.date)['pnl_realizado'].sum()
         avg_daily_pnl_micro = float(daily_active_m.mean()) if not daily_active_m.empty else 0.0
@@ -1372,26 +1398,42 @@ def generar_dashboard():
         m_valid['is_win'] = (m_valid['pnl_realizado'] > 0).astype(int)
         m_valid['rolling_wr'] = m_valid['is_win'].rolling(window=20, min_periods=1).mean() * 100.0
 
+        # Para gráfico comparativo general (Tab 1)
         m_hourly_pnl = m_valid.set_index('fecha_dt')[['cum_pnl']].resample('1h').last()
-        m_hourly_wr = m_valid.set_index('fecha_dt')[['rolling_wr']].resample('1h').last()
-
         df_grid['micro_pnl'] = m_hourly_pnl['cum_pnl']
-        df_grid['micro_wr'] = m_hourly_wr['rolling_wr']
         df_grid['micro_pnl'] = df_grid['micro_pnl'].ffill().fillna(0.0)
-        df_grid['micro_wr'] = df_grid['micro_wr'].ffill().fillna(50.0)
 
-        eq_curve_micro = micro_cap_ini + df_grid['micro_pnl']
+        # Para gráficos dedicados de Micro (Tab 4): Iniciar en fecha real de Micro (ts_inicio_exp)
+        start_micro_dt = pd.to_datetime(ts_inicio_exp).floor('1h')
+        hourly_idx_micro = pd.date_range(start=start_micro_dt, end=end_chart_dt, freq='1h')
+        df_grid_micro = pd.DataFrame(index=hourly_idx_micro)
+
+        m_hourly_pnl_m = m_valid.set_index('fecha_dt')[['cum_pnl']].resample('1h').last()
+        m_hourly_wr_m = m_valid.set_index('fecha_dt')[['rolling_wr']].resample('1h').last()
+
+        df_grid_micro['micro_pnl'] = m_hourly_pnl_m['cum_pnl']
+        df_grid_micro['micro_wr'] = m_hourly_wr_m['rolling_wr']
+        df_grid_micro['micro_pnl'] = df_grid_micro['micro_pnl'].ffill().fillna(0.0)
+
+        init_wr_m = float(m_valid['rolling_wr'].iloc[0]) if not m_valid.empty else 50.0
+        df_grid_micro['micro_wr'] = df_grid_micro['micro_wr'].ffill().fillna(init_wr_m)
+
+        eq_curve_micro = micro_cap_ini + df_grid_micro['micro_pnl']
         peak_curve_micro = eq_curve_micro.cummax()
-        df_grid['micro_drawdown'] = ((eq_curve_micro - peak_curve_micro) / peak_curve_micro) * 100.0
+        df_grid_micro['micro_drawdown'] = ((eq_curve_micro - peak_curve_micro) / peak_curve_micro) * 100.0
+
+        fechas_micro_chart = [dt.strftime("%d %b %H:%M") for dt in df_grid_micro.index]
+        valores_micro_chart = [round(float(v), 2) for v in df_grid_micro['micro_pnl']]
+        drawdown_series_micro = [round(float(v), 2) for v in df_grid_micro['micro_drawdown']]
+        rolling_wr_series_micro = [round(float(v), 1) for v in df_grid_micro['micro_wr']]
     else:
         df_grid['micro_pnl'] = 0.0
-        df_grid['micro_wr'] = 50.0
-        df_grid['micro_drawdown'] = 0.0
+        fechas_micro_chart = chart_labels_comp
+        valores_micro_chart = [0.0] * len(chart_labels_comp)
+        drawdown_series_micro = [0.0] * len(chart_labels_comp)
+        rolling_wr_series_micro = [50.0] * len(chart_labels_comp)
 
-    fechas_micro_chart = chart_labels_comp
-    valores_micro_chart = [round(float(v), 2) for v in df_grid['micro_pnl']]
-    drawdown_series_micro = [round(float(v), 2) for v in df_grid['micro_drawdown']]
-    rolling_wr_series_micro = [round(float(v), 1) for v in df_grid['micro_wr']]
+    chart_data_micro_comp = [round(float(v), 2) for v in df_grid['micro_pnl']]
 
     fechas_copy = chart_labels_comp
     valores_copy = chart_data_copy_comp
@@ -1407,9 +1449,9 @@ def generar_dashboard():
     donut_data_hib = [n_tp_calc, n_sl_calc, n_time_calc, n_inactiva_calc]
     donut_colors_hib = ['#10b981', '#ef4444', '#f59e0b', '#6b7280']
 
-    donut_labels_copy = ['Whale Sell', 'Market Resolved', 'Failsafe Exit']
-    donut_data_copy = [n_target_sell_copy, n_resolved_copy, n_failsafe_copy]
-    donut_colors_copy = ['#06b6d4', '#10b981', '#f59e0b']
+    donut_labels_copy = ['Take Profit', 'Stop Loss', 'Failsafe Exit', 'Market Resolved', 'Whale Sell']
+    donut_data_copy = [n_tp_copy, n_sl_copy, n_failsafe_copy, n_resolved_copy, n_target_sell_copy]
+    donut_colors_copy = ['#10b981', '#ef4444', '#f59e0b', '#3b82f6', '#06b6d4']
 
     # ──────────────────────────────────────────────────────────────
     # 6. COMPILAR HTML MAESTRO
@@ -2701,6 +2743,80 @@ tr:hover td {
       </div>
     </div>
 
+    <!-- Panel Comparativo Sincronizado: Macro ($1,000) vs Micro ($70) -->
+    <div class="panel" style="border: 1px solid rgba(56, 189, 248, 0.3); background: rgba(15, 23, 42, 0.45);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <h3 style="margin-bottom:0.25rem; display:flex; align-items:center; gap:0.6rem; color:#38bdf8;">
+            <span>💎</span> Experimento en Vivo: Cartera Macro ($1,000) vs Espejo Micro ($70)
+          </h3>
+          <p style="margin:0; font-size:0.85rem; color:var(--muted);">
+            Evaluación sincronizada bajo exactamente la misma ventana temporal (desde __FECHA_INICIO_EXP_STR__ a hoy)
+          </p>
+        </div>
+        <div class="status-badge" style="background:rgba(56,189,248,0.1); border-color:#38bdf8;">
+          <span class="status-dot pulse" style="background-color:#38bdf8; box-shadow:0 0 10px #38bdf8"></span>
+          <span class="status-text" style="color:#38bdf8">PERIODO SINCRONIZADO</span>
+        </div>
+      </div>
+
+      <div class="tabla-contenedor" style="margin-bottom:0.5rem;">
+        <table style="text-align:center;">
+          <thead>
+            <tr>
+              <th style="text-align:left;">Métrica de Rendimiento</th>
+              <th style="color:#38bdf8;">🐋 Cartera Macro ($1,000)<br><span style="font-size:0.7rem; font-weight:400; color:var(--muted)">Ventana desde __FECHA_INICIO_EXP_STR__</span></th>
+              <th style="color:#38bdf8;">💎 Cartera Espejo Micro ($70)<br><span style="font-size:0.7rem; font-weight:400; color:var(--muted)">Ventana desde __FECHA_INICIO_EXP_STR__</span></th>
+              <th>Diferencial / Análisis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background: rgba(56, 189, 248, 0.05);">
+              <td style="text-align:left; font-weight:600; color:#38bdf8;">⏱️ Ventana de Evaluación</td>
+              <td colspan="2" style="font-weight:600; color:#38bdf8;">Desde __FECHA_INICIO_EXP_STR__ hasta hoy (mismas condiciones)</td>
+              <td style="font-size:0.75rem; color:var(--muted);">Mismas ballenas y mercados</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Capital de Referencia</td>
+              <td>$1,000.00 USDC</td>
+              <td style="color:#38bdf8; font-weight:600;">$70.00 USDC</td>
+              <td>Escala de cuenta 14.3x</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Operaciones Cerradas</td>
+              <td style="font-weight:600;">__TOTAL_CERRADAS_MACRO_SYNC__ ops</td>
+              <td style="color:#38bdf8; font-weight:600;">__TOTAL_CERRADAS_MICRO_SYNC__ ops</td>
+              <td>Micro acotado por cupo (18)</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Win Rate en el Periodo</td>
+              <td style="color:#fbbf24; font-weight:600;">__WR_MACRO_SYNC__% (__WINS_MACRO_SYNC__W - __LOSSES_MACRO_SYNC__L)</td>
+              <td style="color:#fbbf24; font-weight:600;">__WIN_RATE_MICRO__% (__TOTAL_GANADAS_MICRO__W - __TOTAL_PERDIDAS_MICRO__L)</td>
+              <td>Efectividad paralela</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">P&amp;L Realizado en el Periodo</td>
+              <td class="__PNL_CLASE_MACRO_SYNC__" style="font-weight:700;">__PNL_MACRO_SYNC__</td>
+              <td class="__PNL_CLASE_MICRO__" style="font-weight:700;">__PNL_REALIZADO_MICRO__</td>
+              <td>Ganancia neta cerrada</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Retorno ROI Sincronizado</td>
+              <td class="__PNL_CLASE_MACRO_SYNC__" style="font-weight:700;">__ROI_MACRO_SYNC__%</td>
+              <td class="__PNL_CLASE_MICRO__" style="font-weight:700;">__ROI_MICRO__%</td>
+              <td style="font-weight:600; color:var(--green);">Micro supera en retorno %</td>
+            </tr>
+            <tr>
+              <td style="text-align:left; font-weight:600;">Profit Factor Sincronizado</td>
+              <td style="font-weight:600;">__PF_MACRO_SYNC__</td>
+              <td style="font-weight:600;">__PROFIT_FACTOR_MICRO__</td>
+              <td>Solidez de la ventaja</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
     <!-- Double Historial Tables side-by-side -->
     <div class="panel">
       <div class="filter-bar">
@@ -3266,7 +3382,7 @@ tr:hover td {
       <div class="card-m" style="--accent: #38bdf8; --accent-hover: #7dd3fc; --accent-glow: rgba(56, 189, 248, 0.25)">
         <h4>Valor Neto Flotante</h4>
         <div class="val __EQUITY_CLASE_MICRO__">__NET_EQUITY_MICRO_VAL__</div>
-        <div class="sub">Efectivo + flotante (__ROI_MICRO__%)</div>
+        <div class="sub">Efectivo + flotante (__ROI_EQUITY_MICRO__%)</div>
       </div>
       <div class="card-m" style="--accent: #818cf8; --accent-hover: #a5b4fc; --accent-glow: rgba(129, 140, 248, 0.2)">
         <h4>USDC En Riesgo</h4>
@@ -3623,6 +3739,12 @@ function switchMainTab(tabId) {
     selectedBtn.classList.add('active');
   }
   localStorage.setItem('activeMainTab', tabId);
+
+  // Redimensionar automáticamente todos los gráficos de Chart.js para evitar gráficos aplastados
+  window.dispatchEvent(new Event('resize'));
+  setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, 50);
 }
 
 // Side-by-side Historial Switcher (Tab 1 Comparativa)
@@ -3830,15 +3952,26 @@ new Chart(ctxComp, {
         pointBackgroundColor: '#8b5cf6'
       },
       {
-        label: 'Agente Copy-Trader',
+        label: 'Agente Copy-Trader ($1,000)',
         data: __VALORES_RENDIMIENTO_COPY_COMP__,
         borderColor: '#0284c7',
         backgroundColor: 'rgba(2, 132, 199, 0.04)',
         fill: true,
         tension: 0.25,
         borderWidth: 2.5,
-        pointRadius: 3,
+        pointRadius: 2,
         pointBackgroundColor: '#0284c7'
+      },
+      {
+        label: 'Agente Micro ($70)',
+        data: __VALORES_RENDIMIENTO_MICRO_COMP__,
+        borderColor: '#38bdf8',
+        backgroundColor: 'rgba(56, 189, 248, 0.04)',
+        fill: false,
+        tension: 0.25,
+        borderWidth: 2.5,
+        pointRadius: 2,
+        pointBackgroundColor: '#38bdf8'
       }
     ]
   },
@@ -4565,6 +4698,7 @@ new Chart(document.getElementById('chartMicroRollingWr').getContext('2d'), {
     html_content = html_content.replace("__PNL_CLASE_MICRO__", micro_pnl_clase)
     html_content = html_content.replace("__EQUITY_CLASE_MICRO__", micro_equity_clase)
     html_content = html_content.replace("__ROI_MICRO__", f"{micro_roi:+.1f}")
+    html_content = html_content.replace("__ROI_EQUITY_MICRO__", f"{micro_equity_roi:+.1f}")
     html_content = html_content.replace("__ROI_COPY__", f"{roi_copy:+.1f}")
     html_content = html_content.replace("__WIN_RATE_MICRO__", f"{micro_win_rate:.1f}")
     html_content = html_content.replace("__TOTAL_GANADAS_MICRO__", str(micro_wins))
@@ -4664,6 +4798,7 @@ new Chart(document.getElementById('chartMicroRollingWr').getContext('2d'), {
     html_content = html_content.replace("__FECHAS_RENDIMIENTO_COMP__", json.dumps(chart_labels_comp))
     html_content = html_content.replace("__VALORES_RENDIMIENTO_HIB_COMP__", json.dumps(chart_data_hib_comp))
     html_content = html_content.replace("__VALORES_RENDIMIENTO_COPY_COMP__", json.dumps(chart_data_copy_comp))
+    html_content = html_content.replace("__VALORES_RENDIMIENTO_MICRO_COMP__", json.dumps(chart_data_micro_comp))
 
     html_content = html_content.replace("__FECHAS_RENDIMIENTO_HIB__", json.dumps(fechas_hib))
     html_content = html_content.replace("__VALORES_RENDIMIENTO_HIB__", json.dumps(valores_hib))
