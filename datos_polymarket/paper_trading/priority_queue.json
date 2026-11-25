@@ -1,10 +1,34 @@
 [
   {
-    "id": "7278004",
-    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $3.00?",
-    "ts": "2026-11-25T00:42:30.576639",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-25T00:52:10.126962",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x19bb8bf4bd5cc5cdbc43d2745e14e525fafe8070",
+    "whale_wallet": "0x9cf8f29b7b584ea13bfc6e23cae33dd8c01b7f09",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-25T00:52:11.302222",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9cf8f29b7b584ea13bfc6e23cae33dd8c01b7f09",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-25T00:52:13.111315",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x96d917843de81c9cfc523a8578674876afd0afde",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6403111",
+    "pregunta": "Will there be exactly 2 North Korea tests in November 2026?",
+    "ts": "2026-11-25T00:52:15.674102",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x1432713c2e790a541d8d2189ae3102a801e4ad69",
     "whale_signal": "COMPRAR NO"
   }
 ]
