@@ -1,10 +1,18 @@
 [
   {
-    "id": "4418550",
-    "pregunta": "Will AI solve P versus NP in 2026?",
-    "ts": "2026-11-25T16:23:28.292554",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-25T16:31:07.656816",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x95dcb3d91f4c83b09fbc5a8b6f52a4a45d134b45",
+    "whale_wallet": "0x127e13d04b6ed6f5cdecd7c279f292b07a9fa6b5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7328604",
+    "pregunta": "Trump declassifies new UFO files by January 31?",
+    "ts": "2026-11-25T16:31:10.102088",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   }
 ]
