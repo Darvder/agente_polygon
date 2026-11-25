@@ -1,10 +1,34 @@
 [
   {
-    "id": "7278016",
-    "pregunta": "Will the average Ornn H100 rental price in February 2027 be above $3.00?",
-    "ts": "2026-11-25T10:33:27.521708",
+    "id": "1393324",
+    "pregunta": "Predict.fun FDV above $1B one day after launch?",
+    "ts": "2026-11-25T10:42:18.944296",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
+    "whale_wallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "690683",
+    "pregunta": "Will Variational launch a token by December 31, 2026?",
+    "ts": "2026-11-25T10:42:21.694191",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4841661",
+    "pregunta": "Will Jumper's FDV be greater than $200M one day after launch?",
+    "ts": "2026-11-25T10:42:22.857259",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "920403",
+    "pregunta": "Variational FDV above $1B one day after launch?",
+    "ts": "2026-11-25T10:42:26.222093",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa3e9a711841e655def080044768452b60f4263d0",
     "whale_signal": "COMPRAR NO"
   }
 ]
