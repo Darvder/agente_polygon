@@ -1,10 +1,18 @@
 [
   {
-    "id": "7104785",
-    "pregunta": "Jon Ossoff Democratic nomination odds leader on December 31?",
-    "ts": "2026-11-24T21:22:58.052535",
+    "id": "5636955",
+    "pregunta": "Military action against King Khalid International Airport (RUH) by November 30?",
+    "ts": "2026-11-24T21:31:30.163679",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6440141",
+    "pregunta": "Will Trump speak to Emmanuel Macron by November 30?",
+    "ts": "2026-11-24T21:31:31.193680",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
     "whale_signal": "COMPRAR NO"
   }
 ]
