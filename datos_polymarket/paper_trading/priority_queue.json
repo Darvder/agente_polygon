@@ -1,18 +1,42 @@
 [
   {
-    "id": "7335773",
-    "pregunta": "Will Bitcoin reach $61,000 on November 25?",
-    "ts": "2026-11-25T04:06:37.263234",
+    "id": "2977681",
+    "pregunta": "Will Inde Navarrette be the #1 searched actor on Google this year?",
+    "ts": "2026-11-25T04:14:42.558996",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdd50b2c7ac10224d07099ea51a0de757e16f2f1c",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7233467",
-    "pregunta": "Will Elon Musk post 65-89 tweets from November 23 to November 25, 2026?",
-    "ts": "2026-11-25T04:06:39.121694",
+    "id": "6992350",
+    "pregunta": "Will Jensen Huang rank in Google\u2019s Top 5 Most Searched People of 2026?",
+    "ts": "2026-11-25T04:14:43.581343",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4425383",
+    "pregunta": "Will Erling Haaland rank in Google\u2019s Top 5 Most Searched People of 2026?",
+    "ts": "2026-11-25T04:14:44.603193",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4425386",
+    "pregunta": "Will Bad Bunny rank in Google\u2019s Top 5 Most Searched People of 2026?",
+    "ts": "2026-11-25T04:14:45.624791",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1393323",
+    "pregunta": "Predict.fun FDV above $800M one day after launch?",
+    "ts": "2026-11-25T04:14:47.328639",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x407dd149f1e92c91d0053e0240e03318a1e01bae",
     "whale_signal": "COMPRAR NO"
   }
 ]
