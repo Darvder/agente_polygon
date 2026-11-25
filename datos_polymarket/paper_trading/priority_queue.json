@@ -1,34 +1,18 @@
 [
   {
-    "id": "7299826",
-    "pregunta": "Will GTA VI be the #1 searched game on Google this year?",
-    "ts": "2026-11-25T02:22:53.512969",
+    "id": "3090817",
+    "pregunta": "Will CMI declare a Millennium Prize Problem solved by December 31, 2027?",
+    "ts": "2026-11-25T02:29:48.954167",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xfb3ab011587835646dbcae3355c786c2f4ccaef9",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7335803",
-    "pregunta": "Will Ethereum reach $1,700 on November 25?",
-    "ts": "2026-11-25T02:22:55.364597",
+    "id": "3358974",
+    "pregunta": "Will Nvidia\u2019s market capitalization be less than $4.00T at the end of 2026?",
+    "ts": "2026-11-25T02:30:00.214219",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7335773",
-    "pregunta": "Will Bitcoin reach $61,000 on November 25?",
-    "ts": "2026-11-25T02:22:56.399897",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6507392",
-    "pregunta": "Will Bitcoin dip to $55,000 in November?",
-    "ts": "2026-11-25T02:22:57.431735",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0xa8ae9f8f2a92cb27a73791bb816e65071ca38eb7",
     "whale_signal": "COMPRAR NO"
   }
 ]
