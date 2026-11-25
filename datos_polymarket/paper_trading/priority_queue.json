@@ -1,42 +1,50 @@
 [
   {
-    "id": "3215012",
-    "pregunta": "Will there be no change in Fed interest rates after the January 2027 meeting?",
-    "ts": "2026-11-25T07:12:17.750954",
+    "id": "7278015",
+    "pregunta": "Will the average Ornn H100 rental price in February 2027 be above $3.20?",
+    "ts": "2026-11-25T07:22:10.897707",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5194901",
-    "pregunta": "Will the 2-year Treasury yield dip below 4.20% before 2027?",
-    "ts": "2026-11-25T07:12:18.837267",
+    "id": "7278028",
+    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.60?",
+    "ts": "2026-11-25T07:22:11.943109",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6322991",
-    "pregunta": "Will there be no change in Fed interest rates after the March 2027 meeting?",
-    "ts": "2026-11-25T07:12:19.995594",
+    "id": "7278017",
+    "pregunta": "Will the average Ornn H100 rental price in February 2027 be above $2.80?",
+    "ts": "2026-11-25T07:22:12.980445",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7104712",
-    "pregunta": "Hike 25 bps or No change favored for January Fed on December 10?",
-    "ts": "2026-11-25T07:12:21.077732",
+    "id": "2252540",
+    "pregunta": "Tesla and SpaceX merger officially announced by December 31?",
+    "ts": "2026-11-25T07:22:14.812025",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xabfc61c972ae66b699520f0b45df927ac29cd119",
+    "whale_wallet": "0x014c4e7ae2145992861c2d1b124af633a97f820c",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6736297",
-    "pregunta": "Will Damon Hininger be the next to hold Blackburn's Senate seat by March 31?",
-    "ts": "2026-11-25T07:12:25.343377",
+    "id": "6322992",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
+    "ts": "2026-11-25T07:22:21.882754",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5e83a636f2d77c0c25e2d2abaca753ea204a5f9",
+    "whale_wallet": "0x014c4e7ae2145992861c2d1b124af633a97f820c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6390068",
+    "pregunta": "Will Core PCE YoY be 3.3% in October?",
+    "ts": "2026-11-25T07:22:24.846858",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8dc6b0357089f3543bf286bd4252f64a912e22a3",
     "whale_signal": "COMPRAR NO"
   }
 ]
