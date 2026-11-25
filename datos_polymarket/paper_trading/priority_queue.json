@@ -1,10 +1,34 @@
 [
   {
-    "id": "7280095",
-    "pregunta": "Will the highest temperature in Wuhan be 16\u00b0C on November 25?",
-    "ts": "2026-11-25T02:14:39.109983",
+    "id": "7299826",
+    "pregunta": "Will GTA VI be the #1 searched game on Google this year?",
+    "ts": "2026-11-25T02:22:53.512969",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xbd30133fcab66ccac37b2743306b9b01d417f0d1",
+    "whale_wallet": "0xfb3ab011587835646dbcae3355c786c2f4ccaef9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7335803",
+    "pregunta": "Will Ethereum reach $1,700 on November 25?",
+    "ts": "2026-11-25T02:22:55.364597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7335773",
+    "pregunta": "Will Bitcoin reach $61,000 on November 25?",
+    "ts": "2026-11-25T02:22:56.399897",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6507392",
+    "pregunta": "Will Bitcoin dip to $55,000 in November?",
+    "ts": "2026-11-25T02:22:57.431735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
