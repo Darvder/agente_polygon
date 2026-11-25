@@ -1,58 +1,66 @@
 [
   {
-    "id": "7001783",
-    "pregunta": "Will the Bank of Korea make no change to the base rate at the April meeting?",
-    "ts": "2026-11-25T14:19:46.959112",
+    "id": "3399468",
+    "pregunta": "Israel x Iran ceasefire continues through December 31?",
+    "ts": "2026-11-25T14:33:15.779478",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8dc6b0357089f3543bf286bd4252f64a912e22a3",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7027914",
-    "pregunta": "Will the Fed hike-pause-pause in the next three decisions (Dec-Jan-Mar)?",
-    "ts": "2026-11-25T14:19:50.248932",
+    "id": "7277923",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $6.50?",
+    "ts": "2026-11-25T14:33:16.941213",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7307998",
-    "pregunta": "Will the highest temperature in Toronto be 5\u00b0C on November 26?",
-    "ts": "2026-11-25T14:19:51.274157",
+    "id": "7277922",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $7.00?",
+    "ts": "2026-11-25T14:33:18.098142",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7303080",
-    "pregunta": "Will the lowest temperature in Shanghai be 9\u00b0C on November 26?",
-    "ts": "2026-11-25T14:19:52.390940",
+    "id": "7277900",
+    "pregunta": "Will the average Ornn B200 rental price in January 2027 be above $10.50?",
+    "ts": "2026-11-25T14:33:19.256874",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7302424",
-    "pregunta": "Will the highest temperature in Warsaw be 1\u00b0C on November 26?",
-    "ts": "2026-11-25T14:19:53.416316",
+    "id": "7277721",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $15.00?",
+    "ts": "2026-11-25T14:33:21.358903",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7302992",
-    "pregunta": "Will the highest temperature in Karachi be 30\u00b0C on November 26?",
-    "ts": "2026-11-25T14:19:54.441898",
+    "id": "6831497",
+    "pregunta": "US x Iran Effective Ceasefire by December 31?",
+    "ts": "2026-11-25T14:33:23.464206",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7282541",
-    "pregunta": "Will the highest temperature in Austin be between 56-57\u00b0F on November 25?",
-    "ts": "2026-11-25T14:19:55.561693",
+    "id": "6831496",
+    "pregunta": "US x Iran Effective Ceasefire by November 30?",
+    "ts": "2026-11-25T14:33:25.285824",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3504755541dfe2a3ffd844ecb6ba2ca25bf5a832",
+    "whale_wallet": "0xd72654f5ab87e3a636715ad63dc5f8ea1279b5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6831495",
+    "pregunta": "US x Iran Effective Ceasefire by November 22?",
+    "ts": "2026-11-25T14:33:26.343792",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd72654f5ab87e3a636715ad63dc5f8ea1279b5c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
