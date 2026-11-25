@@ -1,34 +1,42 @@
 [
   {
-    "id": "7104937",
-    "pregunta": "JD Vance Republican nomination odds leader on March 31?",
-    "ts": "2026-11-24T23:22:03.930460",
+    "id": "7277964",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $7.00?",
+    "ts": "2026-11-24T23:34:42.122752",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0x9f2a10f2967c9d63ed36f0880eea5fd7189d3706",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7330164",
-    "pregunta": "Will NVIDIA resume China AI chip shipments by June 30, 2027?",
-    "ts": "2026-11-24T23:22:04.970329",
+    "id": "7277962",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $9.00?",
+    "ts": "2026-11-24T23:34:43.312283",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0x9f2a10f2967c9d63ed36f0880eea5fd7189d3706",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7330165",
-    "pregunta": "Will NVIDIA resume China AI chip shipments by December 31, 2027?",
-    "ts": "2026-11-24T23:22:06.010502",
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-24T23:34:46.343336",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7326394",
-    "pregunta": "Will Vera Rubin be rentable on-demand by December 31, 2026?",
-    "ts": "2026-11-24T23:22:07.189092",
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-24T23:34:47.529502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "814612",
+    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-24T23:34:48.553668",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
     "whale_signal": "COMPRAR NO"
   }
 ]
