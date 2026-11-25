@@ -1,42 +1,18 @@
 [
   {
-    "id": "7277964",
-    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $7.00?",
-    "ts": "2026-11-24T23:34:42.122752",
+    "id": "2371764",
+    "pregunta": "Will John Turturro be nominated for Best Actor at the 99th Academy Awards?",
+    "ts": "2026-11-24T23:44:36.359206",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2a10f2967c9d63ed36f0880eea5fd7189d3706",
+    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277962",
-    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $9.00?",
-    "ts": "2026-11-24T23:34:43.312283",
+    "id": "7254824",
+    "pregunta": "Will Jynxzi finish GTA VI by December 3?",
+    "ts": "2026-11-24T23:44:39.229054",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9f2a10f2967c9d63ed36f0880eea5fd7189d3706",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "701501",
-    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-    "ts": "2026-11-24T23:34:46.343336",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-24T23:34:47.529502",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "814612",
-    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
-    "ts": "2026-11-24T23:34:48.553668",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+    "whale_wallet": "0x9d12d54266643f08e660281a08e044627569bdf6",
     "whale_signal": "COMPRAR NO"
   }
 ]
