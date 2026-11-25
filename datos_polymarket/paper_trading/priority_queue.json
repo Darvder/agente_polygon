@@ -1,10 +1,18 @@
 [
   {
-    "id": "6403133",
-    "pregunta": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate at the January meeting?",
-    "ts": "2026-11-25T13:34:36.579801",
+    "id": "5605528",
+    "pregunta": "Will Russia capture Orikhiv by June 30, 2027?",
+    "ts": "2026-11-25T13:44:36.431600",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf1635e1c8f1e22dc3beb58e922bb9e115db781fe",
+    "whale_wallet": "0x741d9afd772554262a3c319e4e26cfa9d922e35c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6017719",
+    "pregunta": "Will Russia enter Druzkhivka by June 30, 2027?",
+    "ts": "2026-11-25T13:44:37.627067",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x741d9afd772554262a3c319e4e26cfa9d922e35c",
     "whale_signal": "COMPRAR NO"
   }
 ]
