@@ -1,10 +1,18 @@
 [
   {
-    "id": "2363844",
-    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
-    "ts": "2026-11-25T13:01:37.547928",
+    "id": "5203096",
+    "pregunta": "Russia military action against an EU country by December 31, 2027?",
+    "ts": "2026-11-25T13:16:22.763021",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x217eac421dd9d7154646ac7e0d93a73f47f13a4c",
+    "whale_wallet": "0x5ff7455790cd4a08ce14eb5887e6b12279e0f7f0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6027340",
+    "pregunta": "Will PP receive between 32% and 34% of the vote in the 2026 Spanish general election?",
+    "ts": "2026-11-25T13:16:23.973527",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5ff7455790cd4a08ce14eb5887e6b12279e0f7f0",
     "whale_signal": "COMPRAR NO"
   }
 ]
