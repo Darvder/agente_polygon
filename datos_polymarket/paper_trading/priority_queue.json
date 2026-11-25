@@ -1,10 +1,42 @@
 [
   {
-    "id": "1571985",
-    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
-    "ts": "2026-11-24T22:42:08.147203",
+    "id": "2060106",
+    "pregunta": "Will Ezra Frech win Dancing With the Stars: Season 35?",
+    "ts": "2026-11-24T22:52:24.018270",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x993f451b6d5c21996b1bf688493cea9c4c823ee3",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2060107",
+    "pregunta": "Will Connor Wood win Dancing With the Stars: Season 35?",
+    "ts": "2026-11-24T22:52:26.045667",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x28ca4e9a04531f2eac0c2770f95db4e1c6a65d19",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6617895",
+    "pregunta": "Will the DPP win the Taipei and New Taipei mayoral elections?",
+    "ts": "2026-11-24T22:52:27.281991",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x28ca4e9a04531f2eac0c2770f95db4e1c6a65d19",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1193094",
+    "pregunta": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-24T22:52:28.377653",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x28ca4e9a04531f2eac0c2770f95db4e1c6a65d19",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3740667",
+    "pregunta": "Will One Nation win the third-most seats in the next Victorian state election?",
+    "ts": "2026-11-24T22:52:29.578511",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x28ca4e9a04531f2eac0c2770f95db4e1c6a65d19",
     "whale_signal": "COMPRAR NO"
   }
 ]
