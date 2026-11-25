@@ -1,34 +1,58 @@
 [
   {
-    "id": "6066030",
-    "pregunta": "Will the next Claude Opus model (5.6+) debut with an HLE-Diamond score of 60% or higher?",
-    "ts": "2026-11-24T20:15:08.174696",
+    "id": "7279923",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 9\u00b0C on November 25?",
+    "ts": "2026-11-24T20:20:41.293974",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9578af80708f271f705e27867dcf6ec653acf066",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7301899",
-    "pregunta": "Will Bitcoin dip to $59,000 on November 24?",
-    "ts": "2026-11-24T20:15:10.518094",
+    "id": "7302779",
+    "pregunta": "Will the highest temperature in Chongqing be 17\u00b0C on November 26?",
+    "ts": "2026-11-24T20:20:42.484183",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4425465",
-    "pregunta": "Will Lionel Messi rank in Google\u2019s Top 5 Most Searched Athletes of 2026?",
-    "ts": "2026-11-24T20:15:12.246399",
+    "id": "7279925",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 11\u00b0C on November 25?",
+    "ts": "2026-11-24T20:20:43.523295",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9727ed498a58a9e8e8758d51c5a4eb0b752dcd9",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4425471",
-    "pregunta": "Will Kylian Mbapp\u00e9 rank in Google\u2019s Top 5 Most Searched Athletes of 2026?",
-    "ts": "2026-11-24T20:15:13.372505",
+    "id": "7280196",
+    "pregunta": "Will the highest temperature in Kuala Lumpur be 30\u00b0C on November 25?",
+    "ts": "2026-11-24T20:20:44.716862",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc9727ed498a58a9e8e8758d51c5a4eb0b752dcd9",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302835",
+    "pregunta": "Will the highest temperature in Shenzhen be 20\u00b0C on November 26?",
+    "ts": "2026-11-24T20:20:45.914259",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7280094",
+    "pregunta": "Will the highest temperature in Wuhan be 15\u00b0C on November 25?",
+    "ts": "2026-11-24T20:20:46.968525",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7305046",
+    "pregunta": "Will the highest temperature in Dallas be between 52-53\u00b0F on November 26?",
+    "ts": "2026-11-24T20:20:48.153970",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
     "whale_signal": "COMPRAR NO"
   }
 ]
