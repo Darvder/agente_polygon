@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3090817",
+    "pregunta": "Will CMI declare a Millennium Prize Problem solved by December 31, 2027?",
+    "ts": "2026-11-24T22:22:20.091058",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdf273e0fe72a613b27de588aaa5237f3b76ae6e4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3572730",
+    "pregunta": "Will CMI declare the Riemann Hypothesis solved by December 31, 2027?",
+    "ts": "2026-11-24T22:22:21.208454",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdf273e0fe72a613b27de588aaa5237f3b76ae6e4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
