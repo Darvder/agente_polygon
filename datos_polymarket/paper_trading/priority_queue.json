@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "7176619",
+    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 26?",
+    "ts": "2026-11-25T18:18:44.842669",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7335773",
+    "pregunta": "Will Bitcoin reach $61,000 on November 25?",
+    "ts": "2026-11-25T18:18:49.309737",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7203505",
+    "pregunta": "Will the price of Bitcoin be between $58,000 and $60,000 on November 27?",
+    "ts": "2026-11-25T18:18:52.596878",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdb5ad26b68d77ae966d29e7180147272ab7a3965",
+    "whale_signal": "COMPRAR NO"
+  }
+]
