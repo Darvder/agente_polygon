@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "7277636",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.80?",
+    "ts": "2026-11-25T15:30:11.515636",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277635",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
+    "ts": "2026-11-25T15:30:12.647674",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277639",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.20?",
+    "ts": "2026-11-25T15:30:13.783106",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277638",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.40?",
+    "ts": "2026-11-25T15:30:14.824071",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  }
+]
