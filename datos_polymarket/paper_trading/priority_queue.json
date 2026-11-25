@@ -1,18 +1,50 @@
 [
   {
-    "id": "2363845",
-    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
-    "ts": "2026-11-25T17:13:32.534847",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-25T17:23:14.399203",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x98d04f9eb52d08ef9697f6eb8d7cfe8d46e5f14a",
+    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2116540",
-    "pregunta": "Will Christopher Luxon be the next Prime Minister of New Zealand after the 2026 elections?",
-    "ts": "2026-11-25T17:13:40.604166",
+    "id": "6999519",
+    "pregunta": "Will 7 or more Jensen Huang affairs be reported by December 31?",
+    "ts": "2026-11-25T17:23:16.341884",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7d249aa60d2be7ed0b477df0e22f9caf9791a93f",
+    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5151685",
+    "pregunta": "Will Yair Lapid be the next Israeli Minister of Foreign Affairs?",
+    "ts": "2026-11-25T17:23:17.491130",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-25T17:23:18.540054",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4838928",
+    "pregunta": "AI bubble burst by June 30, 2027?",
+    "ts": "2026-11-25T17:23:19.696657",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "567688",
+    "pregunta": "Netanyahu out by end of 2026?",
+    "ts": "2026-11-25T17:23:21.641379",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x09bb36b444503887dcd4ad3a9722a9432ae1f8b1",
     "whale_signal": "COMPRAR NO"
   }
 ]
