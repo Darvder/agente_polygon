@@ -1,58 +1,34 @@
 [
   {
-    "id": "7280266",
-    "pregunta": "Will the highest temperature in Guangzhou be 20\u00b0C on November 25?",
-    "ts": "2026-11-24T23:10:59.425488",
+    "id": "7104937",
+    "pregunta": "JD Vance Republican nomination odds leader on March 31?",
+    "ts": "2026-11-24T23:22:03.930460",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7282505",
-    "pregunta": "Will the highest temperature in Atlanta be between 52-53\u00b0F on November 25?",
-    "ts": "2026-11-24T23:11:00.449808",
+    "id": "7330164",
+    "pregunta": "Will NVIDIA resume China AI chip shipments by June 30, 2027?",
+    "ts": "2026-11-24T23:22:04.970329",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7302624",
-    "pregunta": "Will the highest temperature in Paris be 5\u00b0C on November 26?",
-    "ts": "2026-11-24T23:11:01.469406",
+    "id": "7330165",
+    "pregunta": "Will NVIDIA resume China AI chip shipments by December 31, 2027?",
+    "ts": "2026-11-24T23:22:06.010502",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7302625",
-    "pregunta": "Will the highest temperature in Paris be 6\u00b0C on November 26?",
-    "ts": "2026-11-24T23:11:02.491848",
+    "id": "7326394",
+    "pregunta": "Will Vera Rubin be rentable on-demand by December 31, 2026?",
+    "ts": "2026-11-24T23:22:07.189092",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7302915",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 31\u00b0C on November 26?",
-    "ts": "2026-11-24T23:11:03.514547",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7302917",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 33\u00b0C on November 26?",
-    "ts": "2026-11-24T23:11:04.641266",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "701501",
-    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-    "ts": "2026-11-24T23:11:06.340675",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xca4f87bf1c674492e467218aad04864f80d0ff9e",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   }
 ]
