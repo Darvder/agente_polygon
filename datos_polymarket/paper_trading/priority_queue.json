@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-26T17:50:08.216639",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4fc386bc9551e57344e916dd2ba5a323526be9a2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7152902",
+    "pregunta": "Will \"Hexed\" 5-Day Opening Weekend Box Office be between 32m and 36m?",
+    "ts": "2026-11-26T17:50:09.934730",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x039b08dc2cb66400f1d725821b1a38924f799b6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1323320",
+    "pregunta": "Will the US federal government take a stake in NVIDIA Corporation?",
+    "ts": "2026-11-26T17:50:11.057741",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x039b08dc2cb66400f1d725821b1a38924f799b6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5622719",
+    "pregunta": "Will voter turnout be 70% or higher in the 2026 Spanish general election?",
+    "ts": "2026-11-26T17:50:12.191882",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x039b08dc2cb66400f1d725821b1a38924f799b6c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
