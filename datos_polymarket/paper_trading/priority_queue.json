@@ -1,34 +1,18 @@
 [
   {
-    "id": "7203506",
-    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 27?",
-    "ts": "2026-11-26T13:28:44.597864",
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-26T13:43:54.808034",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12bb1f6b17ea7d173b7605944c217ab7e11919c5",
+    "whale_wallet": "0x5f145575cb31aa906195799b371b476137f0c52a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6367369",
-    "pregunta": "Israel x Iran ceasefire continues through December 15?",
-    "ts": "2026-11-26T13:28:47.202159",
+    "id": "7277960",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $11.00?",
+    "ts": "2026-11-26T13:43:56.841854",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4906129",
-    "pregunta": "US announces end of Iranian blockade by March 31, 2027?",
-    "ts": "2026-11-26T13:28:48.275185",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xecb1d3b9d240a8347415108882cb8fa1f7e2f1c4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7374758",
-    "pregunta": "Will Bitcoin dip to $60,000 in November?",
-    "ts": "2026-11-26T13:28:50.279913",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   }
 ]
