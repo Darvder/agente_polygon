@@ -1,34 +1,18 @@
 [
   {
-    "id": "1339767",
-    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-    "ts": "2026-11-26T05:43:12.399343",
+    "id": "7152903",
+    "pregunta": "Will \"Hexed\" 5-Day Opening Weekend Box Office be between 36m and 40m?",
+    "ts": "2026-11-26T05:51:59.154932",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x4d62b95e963b354d75ba8f6a020cca1348cda1f0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7279439",
-    "pregunta": "Will Ethereum dip to $1,600 November 23-29?",
-    "ts": "2026-11-26T05:43:15.470741",
+    "id": "7152905",
+    "pregunta": "Will \"Focker-In-Law\" 5-Day Opening Weekend Box Office be less than 40m?",
+    "ts": "2026-11-26T05:52:00.175552",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7203527",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 27?",
-    "ts": "2026-11-26T05:43:17.511598",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-26T05:43:20.067018",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb44579ae3126cfa4c28dafe317bdb53578eae4a3",
+    "whale_wallet": "0x4d62b95e963b354d75ba8f6a020cca1348cda1f0",
     "whale_signal": "COMPRAR NO"
   }
 ]
