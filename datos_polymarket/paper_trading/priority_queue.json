@@ -1,16 +1,24 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-25T23:52:04.799399",
+    "id": "7277972",
+    "pregunta": "Will the average Ornn B200 rental price in September 2027 be above $9.00?",
+    "ts": "2026-11-26T00:03:33.538330",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe3e649cbff5551601349d526c4ec5761c5152c5a",
+    "whale_wallet": "0x0b818c8b1245753ed16a08a1a878158caf73b9fb",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277972",
-    "pregunta": "Will the average Ornn B200 rental price in September 2027 be above $9.00?",
-    "ts": "2026-11-25T23:52:08.756802",
+    "id": "7277984",
+    "pregunta": "Will the average Ornn B200 rental price in December 2027 be above $7.00?",
+    "ts": "2026-11-26T00:03:34.658017",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0b818c8b1245753ed16a08a1a878158caf73b9fb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277974",
+    "pregunta": "Will the average Ornn B200 rental price in September 2027 be above $7.00?",
+    "ts": "2026-11-26T00:03:35.679304",
     "origen": "whale_copytrader",
     "whale_wallet": "0x0b818c8b1245753ed16a08a1a878158caf73b9fb",
     "whale_signal": "COMPRAR NO"
