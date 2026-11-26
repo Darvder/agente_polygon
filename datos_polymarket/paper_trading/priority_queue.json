@@ -1,18 +1,34 @@
 [
   {
-    "id": "5144353",
-    "pregunta": "Rockstar releases PC version of GTA VI by June 30, 2027?",
-    "ts": "2026-11-26T03:42:26.302629",
+    "id": "7363486",
+    "pregunta": "Will Bitcoin dip to $59,000 on November 26?",
+    "ts": "2026-11-26T03:50:03.740580",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa5cf1c7af56c65717bc4eb16217497b137bed306",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6264969",
-    "pregunta": "Rockstar releases PC version of GTA VI by March 31, 2027?",
-    "ts": "2026-11-26T03:42:27.361446",
+    "id": "7363485",
+    "pregunta": "Will Bitcoin dip to $60,000 on November 26?",
+    "ts": "2026-11-26T03:50:12.205417",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa5cf1c7af56c65717bc4eb16217497b137bed306",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-26T03:50:17.545961",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7104937",
+    "pregunta": "JD Vance Republican nomination odds leader on March 31?",
+    "ts": "2026-11-26T03:50:18.598751",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
