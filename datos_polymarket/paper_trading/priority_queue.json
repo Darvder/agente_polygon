@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "3581388",
+    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
+    "ts": "2026-11-26T10:01:47.011820",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4bd62b4eb99a6c4866d5975716e8a74e8d72212d",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7152902",
+    "pregunta": "Will \"Hexed\" 5-Day Opening Weekend Box Office be between 32m and 36m?",
+    "ts": "2026-11-26T10:01:49.004226",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7056f248c5098cce2fb0a062cdd2ab0f8318c95c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7152905",
+    "pregunta": "Will \"Focker-In-Law\" 5-Day Opening Weekend Box Office be less than 40m?",
+    "ts": "2026-11-26T10:01:50.042899",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7056f248c5098cce2fb0a062cdd2ab0f8318c95c",
+    "whale_signal": "COMPRAR NO"
+  }
+]
