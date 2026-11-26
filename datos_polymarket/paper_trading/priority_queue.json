@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6723714",
+    "pregunta": "Will Abdul El-Sayed be TIME Person of the Year 2026?",
+    "ts": "2026-11-25T23:38:53.200735",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xad529df14c293d77984a0137990a1441b25211ac",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-25T23:38:54.255581",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xad529df14c293d77984a0137990a1441b25211ac",
+    "whale_signal": "COMPRAR NO"
+  }
+]
