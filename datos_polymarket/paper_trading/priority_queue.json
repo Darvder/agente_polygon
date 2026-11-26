@@ -1,10 +1,18 @@
 [
   {
-    "id": "3156930",
-    "pregunta": "Will John Malkovich win Best Actor at the 99th Academy Awards?",
-    "ts": "2026-11-26T15:51:32.620024",
+    "id": "7277466",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $11.00?",
+    "ts": "2026-11-26T16:01:55.936159",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf07fd219adb8eec50136f24a5eb6576a8ea0d791",
+    "whale_wallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277465",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $11.50?",
+    "ts": "2026-11-26T16:01:56.981891",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
     "whale_signal": "COMPRAR NO"
   }
 ]
