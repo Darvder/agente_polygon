@@ -1,42 +1,26 @@
 [
   {
-    "id": "7308070",
-    "pregunta": "Will the highest temperature in Panama City be 33\u00b0C on November 26?",
-    "ts": "2026-11-26T11:50:12.258747",
+    "id": "4554109",
+    "pregunta": "Will the next governing coalition of Sweden include M + KD + L + C?",
+    "ts": "2026-11-26T12:01:55.659503",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x33c8f2e65c1ffc09a7af6ad0bfc6987a4db1de24",
+    "whale_wallet": "0xe5c271b727270f001c77104b019a03f86f0c6b76",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7307997",
-    "pregunta": "Will the highest temperature in Toronto be 4\u00b0C on November 26?",
-    "ts": "2026-11-26T11:50:13.414899",
+    "id": "1193093",
+    "pregunta": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+    "ts": "2026-11-26T12:01:56.706990",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x33c8f2e65c1ffc09a7af6ad0bfc6987a4db1de24",
+    "whale_wallet": "0xe5c271b727270f001c77104b019a03f86f0c6b76",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7307998",
-    "pregunta": "Will the highest temperature in Toronto be 5\u00b0C on November 26?",
-    "ts": "2026-11-26T11:50:14.570661",
+    "id": "6439046",
+    "pregunta": "Will \"Dune: Part Three\" Opening Weekend Box Office be between 70m and 90m?",
+    "ts": "2026-11-26T12:01:59.449308",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x33c8f2e65c1ffc09a7af6ad0bfc6987a4db1de24",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7305058",
-    "pregunta": "Will the highest temperature in Atlanta be between 50-51\u00b0F on November 26?",
-    "ts": "2026-11-26T11:50:15.634907",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x33c8f2e65c1ffc09a7af6ad0bfc6987a4db1de24",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-26T11:50:16.683598",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x33c8f2e65c1ffc09a7af6ad0bfc6987a4db1de24",
+    "whale_wallet": "0x8dc6b0357089f3543bf286bd4252f64a912e22a3",
     "whale_signal": "COMPRAR NO"
   }
 ]
