@@ -1,26 +1,10 @@
 [
   {
-    "id": "7344190",
-    "pregunta": "Will Trump speak to Ursula von der Leyen by December 31?",
-    "ts": "2026-11-26T07:43:18.516875",
+    "id": "7288720",
+    "pregunta": "Will Elon Musk post 40-64 tweets from November 26 to November 28, 2026?",
+    "ts": "2026-11-26T07:53:11.076269",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xed93303c8b887b9ed4dd99aa8421159b89be8538",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7126288",
-    "pregunta": "Will the US Section 232 tariff rate on Canadian primary aluminum be >40-50% on December 31, 2027?",
-    "ts": "2026-11-26T07:43:21.777453",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7299416",
-    "pregunta": "Will a GPU compute futures contract trade on a US exchange by June 30, 2027?",
-    "ts": "2026-11-26T07:43:22.983202",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_wallet": "0x8007ad03470539b924f93d3d263981c39d05a8f4",
     "whale_signal": "COMPRAR NO"
   }
 ]
