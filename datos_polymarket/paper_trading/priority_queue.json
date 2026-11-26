@@ -1,10 +1,26 @@
 [
   {
-    "id": "7351886",
-    "pregunta": "Will Bitcoin dip to $58,000 November 23-29?",
-    "ts": "2026-11-26T05:03:53.677504",
+    "id": "6617892",
+    "pregunta": "Will the KMT win the Taipei and New Taipei mayoral elections?",
+    "ts": "2026-11-26T05:11:27.967474",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xafd34bd22a58466cf7fc1fafd7bc855b705df4b1",
+    "whale_wallet": "0x288b5e76ebb63f72a5cf39e2fd121071e875c05b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-26T05:11:28.998540",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x288b5e76ebb63f72a5cf39e2fd121071e875c05b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-26T05:11:30.030478",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x288b5e76ebb63f72a5cf39e2fd121071e875c05b",
     "whale_signal": "COMPRAR NO"
   }
 ]
