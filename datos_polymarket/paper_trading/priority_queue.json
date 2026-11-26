@@ -1,50 +1,26 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-26T00:43:42.569424",
+    "id": "7277963",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $8.00?",
+    "ts": "2026-11-26T00:52:52.982059",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277635",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
-    "ts": "2026-11-26T00:43:43.664624",
+    "id": "7277918",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $9.00?",
+    "ts": "2026-11-26T00:52:54.032211",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277631",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.80?",
-    "ts": "2026-11-26T00:43:44.735208",
+    "id": "7277634",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.20?",
+    "ts": "2026-11-26T00:52:56.725453",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277630",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $10.00?",
-    "ts": "2026-11-26T00:43:45.834797",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4418550",
-    "pregunta": "Will AI solve P versus NP in 2026?",
-    "ts": "2026-11-26T00:43:47.899766",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x964231203d56d95d6ff908907ef43d967199f372",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4418552",
-    "pregunta": "Will AI solve the Hodge Conjecture in 2026?",
-    "ts": "2026-11-26T00:43:48.995022",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x964231203d56d95d6ff908907ef43d967199f372",
+    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
     "whale_signal": "COMPRAR NO"
   }
 ]
