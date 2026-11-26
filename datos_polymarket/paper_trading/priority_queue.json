@@ -1,10 +1,34 @@
 [
   {
-    "id": "7245039",
-    "pregunta": "Exact Score: Atl\u00e9tico Nacional 1 - 1 Independiente Medell\u00edn?",
-    "ts": "2026-11-25T21:34:20.178654",
+    "id": "7319130",
+    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $42 Week of November 23 2026?",
+    "ts": "2026-11-25T21:40:13.923106",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf828681ac93e8e54f8fa1e8f7b020e8d17fc6129",
+    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6910695",
+    "pregunta": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in November?",
+    "ts": "2026-11-25T21:40:14.941469",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7319238",
+    "pregunta": "Will Silver (XAGUSD) hit (HIGH) $42 in November?",
+    "ts": "2026-11-25T21:40:17.078051",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa5a822f64402d2f5c2b30c0dd3651e61de2a8aed",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-25T21:40:18.797617",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x737a719a5b34c0d63cfb141ebbb9672073d63c1c",
     "whale_signal": "COMPRAR NO"
   }
 ]
