@@ -1,34 +1,18 @@
 [
   {
-    "id": "7289354",
-    "pregunta": "Will Ethereum reach $1,800 November 23-29?",
-    "ts": "2026-11-26T02:31:42.684001",
+    "id": "7287078",
+    "pregunta": "Jensen Huang announced resignation or removal again by March 31, 2027?",
+    "ts": "2026-11-26T02:44:38.962129",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xb817f217328e752370ba1554fd57d2edc09b7b4a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277903",
-    "pregunta": "Will the average Ornn B200 rental price in January 2027 be above $9.00?",
-    "ts": "2026-11-26T02:31:46.556466",
+    "id": "7287079",
+    "pregunta": "Jensen Huang announced resignation or removal again by December 31, 2027?",
+    "ts": "2026-11-26T02:44:39.982458",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7739793f0732c39f26afb02b40b116a949a64dc4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7336181",
-    "pregunta": "Will the highest temperature in Warsaw be 2\u00b0C on November 27?",
-    "ts": "2026-11-26T02:31:48.451105",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2116540",
-    "pregunta": "Will Christopher Luxon be the next Prime Minister of New Zealand after the 2026 elections?",
-    "ts": "2026-11-26T02:31:50.162437",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x64c44b101f8bba55a8041a882e1b40dd4ec3119a",
+    "whale_wallet": "0xb817f217328e752370ba1554fd57d2edc09b7b4a",
     "whale_signal": "COMPRAR NO"
   }
 ]
