@@ -1,26 +1,34 @@
 [
   {
-    "id": "7299952",
-    "pregunta": "Will Sierra Leone be last in the World Happiness Report 2027?",
-    "ts": "2026-11-25T18:51:52.468449",
+    "id": "7029779",
+    "pregunta": "Will Iran join the Mecca Agreement by December 31, 2027?",
+    "ts": "2026-11-25T19:01:49.244604",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x85b9e9226c56d4f2a3ff92c56b745f42498f906d",
+    "whale_wallet": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-25T18:51:54.392174",
+    "id": "2314972",
+    "pregunta": "Will City Protocol launch a token by December 31, 2026?",
+    "ts": "2026-11-25T19:01:57.335259",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaff736feb22d0f0b0daafb5c630a2156dc4fcdc4",
+    "whale_wallet": "0x6c6578f2fa62b307d71e9c6fcc543dbce5bb3e45",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3581449",
-    "pregunta": "Will Ko Chih-en win the next Kaohsiung Mayor election?",
-    "ts": "2026-11-25T18:51:55.584717",
+    "id": "2362958",
+    "pregunta": "Will Yeet launch a token by December 31, 2026?",
+    "ts": "2026-11-25T19:01:58.514953",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xaff736feb22d0f0b0daafb5c630a2156dc4fcdc4",
+    "whale_wallet": "0x6c6578f2fa62b307d71e9c6fcc543dbce5bb3e45",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2446299",
+    "pregunta": "Will Saturn launch a token by December 31, 2026?",
+    "ts": "2026-11-25T19:01:59.553101",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6c6578f2fa62b307d71e9c6fcc543dbce5bb3e45",
     "whale_signal": "COMPRAR NO"
   }
 ]
