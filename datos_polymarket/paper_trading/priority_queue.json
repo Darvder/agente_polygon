@@ -1,18 +1,50 @@
 [
   {
-    "id": "5336561",
-    "pregunta": "Will PP win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-26T16:51:07.384230",
+    "id": "7277964",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $7.00?",
+    "ts": "2026-11-26T17:00:35.224866",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9589a01c747dbb166718f81087220dc4071439b0",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2054226",
-    "pregunta": "Will \u00c9douard Philippe be on the ballot for the 2027 French presidential election?",
-    "ts": "2026-11-26T16:51:09.294983",
+    "id": "7277919",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $8.50?",
+    "ts": "2026-11-26T17:00:36.287289",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x36c107a99ace4a076485fe503e8570a3f16f46ff",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277918",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $9.00?",
+    "ts": "2026-11-26T17:00:37.336464",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362348",
+    "pregunta": "Will the average Ornn H200 rental price in March 2027 be above $7.00?",
+    "ts": "2026-11-26T17:00:38.383057",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6030392",
+    "pregunta": "Will PP win the most seats in Cuenca in the 2026 Spanish general election?",
+    "ts": "2026-11-26T17:00:48.545515",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd7ace093254d347055cdfc95a94f0550b4b7bfb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6030171",
+    "pregunta": "Will PP win the most seats in Huesca in the 2026 Spanish general election?",
+    "ts": "2026-11-26T17:00:49.692274",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdd7ace093254d347055cdfc95a94f0550b4b7bfb",
     "whale_signal": "COMPRAR NO"
   }
 ]
