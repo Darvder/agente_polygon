@@ -1,58 +1,10 @@
 [
   {
-    "id": "7277994",
-    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $7.00?",
-    "ts": "2026-11-25T22:04:56.835505",
+    "id": "567688",
+    "pregunta": "Netanyahu out by end of 2026?",
+    "ts": "2026-11-25T22:13:14.845187",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360803",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22B?",
-    "ts": "2026-11-25T22:04:58.024585",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360808",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22.5B?",
-    "ts": "2026-11-25T22:04:59.217203",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360794",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $21B?",
-    "ts": "2026-11-25T22:05:00.408968",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360783",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $20.5B?",
-    "ts": "2026-11-25T22:05:01.599099",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2054226",
-    "pregunta": "Will \u00c9douard Philippe be on the ballot for the 2027 French presidential election?",
-    "ts": "2026-11-25T22:05:05.425064",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x434f1d603a4d7bc6c078f312f925c4b62bee7d13",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2054225",
-    "pregunta": "Will \u00c9ric Zemmour be on the ballot for the 2027 French presidential election?",
-    "ts": "2026-11-25T22:05:06.609667",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x434f1d603a4d7bc6c078f312f925c4b62bee7d13",
+    "whale_wallet": "0x04902c7046da0f93f29d070b00f9366a165ac81f",
     "whale_signal": "COMPRAR NO"
   }
 ]
