@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5336561",
+    "pregunta": "Will PP win the most seats in the 2026 Spanish general election?",
+    "ts": "2026-11-26T16:51:07.384230",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9589a01c747dbb166718f81087220dc4071439b0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2054226",
+    "pregunta": "Will \u00c9douard Philippe be on the ballot for the 2027 French presidential election?",
+    "ts": "2026-11-26T16:51:09.294983",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x36c107a99ace4a076485fe503e8570a3f16f46ff",
+    "whale_signal": "COMPRAR NO"
+  }
+]
