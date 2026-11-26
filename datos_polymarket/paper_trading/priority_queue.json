@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "7330164",
+    "pregunta": "Will NVIDIA resume China AI chip shipments by June 30, 2027?",
+    "ts": "2026-11-25T20:52:13.348661",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277981",
+    "pregunta": "Will the average Ornn B200 rental price in December 2027 be above $10.00?",
+    "ts": "2026-11-25T20:52:14.374167",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277992",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $9.00?",
+    "ts": "2026-11-25T20:52:15.508488",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277993",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $8.00?",
+    "ts": "2026-11-25T20:52:16.531048",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4595915",
+    "pregunta": "Will Trump be impeached by December 31, 2027?",
+    "ts": "2026-11-25T20:52:19.002099",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8637486964986793609c477ced8be14e840a39bd",
+    "whale_signal": "COMPRAR NO"
+  }
+]
