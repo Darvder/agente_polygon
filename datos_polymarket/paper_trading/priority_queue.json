@@ -1,26 +1,18 @@
 [
   {
-    "id": "7328320",
-    "pregunta": "Will an open-source model be ranked #1 on Arena by December 31, 2027?",
-    "ts": "2026-11-26T07:12:49.994557",
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-26T07:19:53.322569",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc004b035b67be284e0d1db56c39e865df6cac095",
+    "whale_wallet": "0x5bbdda8c2447fd63f0e8dc8a3712352fc81b9ec2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-26T07:12:51.851936",
+    "id": "5336560",
+    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
+    "ts": "2026-11-26T07:19:55.163391",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-26T07:12:52.897171",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
+    "whale_wallet": "0xe31a1eeb278d171656bbc4880e9050885254adff",
     "whale_signal": "COMPRAR NO"
   }
 ]
