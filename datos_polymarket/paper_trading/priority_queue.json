@@ -1,18 +1,10 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-26T09:01:28.452114",
+    "id": "5727014",
+    "pregunta": "Bank of England increases interest rates by 25 bps after December 2026 meeting?",
+    "ts": "2026-11-26T09:10:12.600984",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1bcad7ff8570eb0ad4305c0ef4785d4da55c1c69",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7336912",
-    "pregunta": "Will the highest temperature in Kuala Lumpur be 31\u00b0C on November 27?",
-    "ts": "2026-11-26T09:01:30.486669",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x77f069c3233901628c89d0e8ea5bb510a2822b1f",
+    "whale_wallet": "0x674887d1ac838099a48b629dff53f25b7b87ee08",
     "whale_signal": "COMPRAR NO"
   }
 ]
