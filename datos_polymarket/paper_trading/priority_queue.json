@@ -1,10 +1,58 @@
 [
   {
-    "id": "7023983",
-    "pregunta": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
-    "ts": "2026-11-25T22:53:11.328333",
+    "id": "7276616",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
+    "ts": "2026-11-25T23:01:05.162014",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x894df6e8ad9f01be25ea47e5733dde6dabfc04e2",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277728",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $12.00?",
+    "ts": "2026-11-25T23:01:06.194033",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277964",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $7.00?",
+    "ts": "2026-11-25T23:01:09.078915",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278052",
+    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $2.60?",
+    "ts": "2026-11-25T23:01:10.200433",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7337080",
+    "pregunta": "Will the lowest temperature in Shanghai be 8\u00b0C on November 27?",
+    "ts": "2026-11-25T23:01:12.068025",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7302635",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 15\u00b0C on November 26?",
+    "ts": "2026-11-25T23:01:13.102908",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7341316",
+    "pregunta": "Will the highest temperature in Sao Paulo be 23\u00b0C on November 27?",
+    "ts": "2026-11-25T23:01:14.236965",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
