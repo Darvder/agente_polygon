@@ -1,10 +1,18 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-26T15:08:46.075996",
+    "id": "7277962",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $9.00?",
+    "ts": "2026-11-26T15:19:40.598203",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7336773",
+    "pregunta": "Will the highest temperature in Beijing be 11\u00b0C on November 27?",
+    "ts": "2026-11-26T15:19:45.742486",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
     "whale_signal": "COMPRAR NO"
   }
 ]
