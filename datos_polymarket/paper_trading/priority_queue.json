@@ -1,26 +1,10 @@
 [
   {
-    "id": "7277963",
-    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $8.00?",
-    "ts": "2026-11-26T00:52:52.982059",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-26T01:00:39.698391",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277918",
-    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $9.00?",
-    "ts": "2026-11-26T00:52:54.032211",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277634",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.20?",
-    "ts": "2026-11-26T00:52:56.725453",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
+    "whale_wallet": "0x640807f5a8e61c6e76fba29e94c123e87a365807",
     "whale_signal": "COMPRAR NO"
   }
 ]
