@@ -1,24 +1,8 @@
 [
   {
-    "id": "7362375",
-    "pregunta": "Will the average Ornn H200 rental price in January 2027 be above $5.50?",
-    "ts": "2026-11-26T16:22:03.246977",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277654",
-    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $11.00?",
-    "ts": "2026-11-26T16:22:05.462655",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "7277652",
     "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.00?",
-    "ts": "2026-11-26T16:22:06.500382",
+    "ts": "2026-11-26T16:31:28.926866",
     "origen": "whale_copytrader",
     "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
     "whale_signal": "COMPRAR NO"
@@ -26,9 +10,25 @@
   {
     "id": "7278027",
     "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.80?",
-    "ts": "2026-11-26T16:22:15.476022",
+    "ts": "2026-11-26T16:31:35.609266",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277911",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $11.00?",
+    "ts": "2026-11-26T16:31:36.719473",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277910",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $11.50?",
+    "ts": "2026-11-26T16:31:37.836053",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
     "whale_signal": "COMPRAR NO"
   }
 ]
