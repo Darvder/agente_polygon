@@ -1,34 +1,18 @@
 [
   {
-    "id": "6976755",
-    "pregunta": "Will a single person become TIME's 2026 Person of the Year?",
-    "ts": "2026-11-26T04:03:04.451658",
+    "id": "7288720",
+    "pregunta": "Will Elon Musk post 40-64 tweets from November 26 to November 28, 2026?",
+    "ts": "2026-11-26T04:12:02.294336",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x6114ab1b41a31643998b1cfe021ec6562a48cff0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7150681",
-    "pregunta": "Will Bitcoin reach $65,000 in November?",
-    "ts": "2026-11-26T04:03:07.255028",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7279439",
     "pregunta": "Will Ethereum dip to $1,600 November 23-29?",
-    "ts": "2026-11-26T04:03:08.306096",
+    "ts": "2026-11-26T04:12:10.184637",
     "origen": "whale_copytrader",
     "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-26T04:03:10.048754",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa8c63f775ddbbe66b56614191747def3021444e8",
     "whale_signal": "COMPRAR NO"
   }
 ]
