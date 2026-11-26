@@ -1,66 +1,122 @@
 [
   {
-    "id": "7277663",
-    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $13.00?",
-    "ts": "2026-11-26T18:12:42.516865",
+    "id": "7277960",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $11.00?",
+    "ts": "2026-11-26T18:20:56.297385",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277726",
-    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $13.00?",
-    "ts": "2026-11-26T18:12:44.596572",
+    "id": "7277971",
+    "pregunta": "Will the average Ornn B200 rental price in September 2027 be above $10.00?",
+    "ts": "2026-11-26T18:20:58.652240",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277632",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
-    "ts": "2026-11-26T18:12:45.636777",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7362358",
     "pregunta": "Will the average Ornn H200 rental price in March 2027 be above $5.00?",
-    "ts": "2026-11-26T18:12:46.674963",
+    "ts": "2026-11-26T18:20:59.719067",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7371881",
-    "pregunta": "Will Zohran Mamdani say \"Governor\" or \"Hochul\" during his next livestream?",
-    "ts": "2026-11-26T18:12:50.420703",
+    "id": "7277951",
+    "pregunta": "Will the average Ornn B200 rental price in March 2027 be above $8.50?",
+    "ts": "2026-11-26T18:21:01.598680",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277467",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $10.50?",
-    "ts": "2026-11-26T18:12:51.600332",
+    "id": "7277667",
+    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $9.00?",
+    "ts": "2026-11-26T18:21:02.672588",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7362303",
-    "pregunta": "Will the average Ornn H200 rental price in December 2026 be above $7.00?",
-    "ts": "2026-11-26T18:12:52.800012",
+    "id": "7277666",
+    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $10.00?",
+    "ts": "2026-11-26T18:21:03.845061",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7362304",
-    "pregunta": "Will the average Ornn H200 rental price in December 2026 be above $6.75?",
-    "ts": "2026-11-26T18:12:53.838042",
+    "id": "7277735",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $9.00?",
+    "ts": "2026-11-26T18:21:04.921651",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277726",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $13.00?",
+    "ts": "2026-11-26T18:21:06.109586",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277723",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $14.00?",
+    "ts": "2026-11-26T18:21:07.183980",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277721",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $15.00?",
+    "ts": "2026-11-26T18:21:08.368248",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277717",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $16.00?",
+    "ts": "2026-11-26T18:21:09.453537",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-26T18:21:16.524725",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-26T18:21:17.615496",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-26T18:21:18.691554",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412200",
+    "pregunta": "Will OpenAI announce another Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-26T18:21:19.878597",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   }
 ]
