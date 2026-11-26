@@ -1,18 +1,10 @@
 [
   {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-26T15:41:38.379153",
+    "id": "3156930",
+    "pregunta": "Will John Malkovich win Best Actor at the 99th Academy Awards?",
+    "ts": "2026-11-26T15:51:32.620024",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb5d5547fdb8c250e78620fd4c0a4b51fe48fb336",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277917",
-    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $9.50?",
-    "ts": "2026-11-26T15:41:40.103571",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_wallet": "0xf07fd219adb8eec50136f24a5eb6576a8ea0d791",
     "whale_signal": "COMPRAR NO"
   }
 ]
