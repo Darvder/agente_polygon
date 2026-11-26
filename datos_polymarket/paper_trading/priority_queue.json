@@ -1,34 +1,18 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-26T02:52:00.840231",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-26T03:01:02.552481",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb7d5ce581fbfa8a545fb28e53ecb345efc8bf959",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-26T02:52:01.887380",
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-26T03:01:08.672702",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb7d5ce581fbfa8a545fb28e53ecb345efc8bf959",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6976258",
-    "pregunta": "Will Chiang Wan-an win the 2026 Taipei Mayoral Election by between 4% and 8%?",
-    "ts": "2026-11-26T02:52:05.473832",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-26T02:52:08.608916",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
+    "whale_wallet": "0x66e7ce01c6831b8a2503d09edd6167152ee68bcd",
     "whale_signal": "COMPRAR NO"
   }
 ]
