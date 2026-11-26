@@ -1,18 +1,10 @@
 [
   {
-    "id": "7152903",
-    "pregunta": "Will \"Hexed\" 5-Day Opening Weekend Box Office be between 36m and 40m?",
-    "ts": "2026-11-26T05:51:59.154932",
+    "id": "682708",
+    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+    "ts": "2026-11-26T06:01:08.977718",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4d62b95e963b354d75ba8f6a020cca1348cda1f0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7152905",
-    "pregunta": "Will \"Focker-In-Law\" 5-Day Opening Weekend Box Office be less than 40m?",
-    "ts": "2026-11-26T05:52:00.175552",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4d62b95e963b354d75ba8f6a020cca1348cda1f0",
+    "whale_wallet": "0x9cc455b6be15a1182e4ab75384d46565e998abd7",
     "whale_signal": "COMPRAR NO"
   }
 ]
