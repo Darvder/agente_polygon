@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "7338431",
+    "pregunta": "Will the highest temperature in New York City be between 56-57\u00b0F on November 27?",
+    "ts": "2026-11-26T13:10:25.533632",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7363778",
+    "pregunta": "Will the highest temperature in Paris be 5\u00b0C on November 28?",
+    "ts": "2026-11-26T13:10:27.489481",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7363936",
+    "pregunta": "Will the highest temperature in Chongqing be 20\u00b0C on November 28?",
+    "ts": "2026-11-26T13:10:28.649702",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7336611",
+    "pregunta": "Will the highest temperature in Seoul (Incheon) be 16\u00b0C on November 27?",
+    "ts": "2026-11-26T13:10:31.915430",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7360783",
+    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $20.5B?",
+    "ts": "2026-11-26T13:10:33.759432",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4d76fd2818d8655235e273028504c80dad9cd7a0",
+    "whale_signal": "COMPRAR NO"
+  }
+]
