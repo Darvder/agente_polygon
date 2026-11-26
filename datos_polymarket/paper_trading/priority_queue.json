@@ -1,34 +1,18 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-26T15:30:09.265774",
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-26T15:41:38.379153",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde24e2c62876aef30b38779cd99d43edaccb4ded",
+    "whale_wallet": "0xb5d5547fdb8c250e78620fd4c0a4b51fe48fb336",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5336560",
-    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-26T15:30:10.306279",
+    "id": "7277917",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $9.50?",
+    "ts": "2026-11-26T15:41:40.103571",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xde24e2c62876aef30b38779cd99d43edaccb4ded",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277905",
-    "pregunta": "Will the average Ornn B200 rental price in January 2027 be above $8.00?",
-    "ts": "2026-11-26T15:30:12.216119",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277954",
-    "pregunta": "Will the average Ornn B200 rental price in March 2027 be above $7.00?",
-    "ts": "2026-11-26T15:30:13.398865",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
     "whale_signal": "COMPRAR NO"
   }
 ]
