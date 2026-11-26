@@ -1,18 +1,66 @@
 [
   {
-    "id": "7367090",
-    "pregunta": "Google Year in Search 2026 released by December 10?",
-    "ts": "2026-11-26T18:04:21.919627",
+    "id": "7277663",
+    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $13.00?",
+    "ts": "2026-11-26T18:12:42.516865",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x048a9d673a40171a1cf44ef518893d35fdf09be4",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7367089",
-    "pregunta": "Google Year in Search 2026 released by December 5?",
-    "ts": "2026-11-26T18:04:23.098069",
+    "id": "7277726",
+    "pregunta": "Will the average Ornn B300 rental price in March 2027 be above $13.00?",
+    "ts": "2026-11-26T18:12:44.596572",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x048a9d673a40171a1cf44ef518893d35fdf09be4",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-26T18:12:45.636777",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362358",
+    "pregunta": "Will the average Ornn H200 rental price in March 2027 be above $5.00?",
+    "ts": "2026-11-26T18:12:46.674963",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7371881",
+    "pregunta": "Will Zohran Mamdani say \"Governor\" or \"Hochul\" during his next livestream?",
+    "ts": "2026-11-26T18:12:50.420703",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277467",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $10.50?",
+    "ts": "2026-11-26T18:12:51.600332",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362303",
+    "pregunta": "Will the average Ornn H200 rental price in December 2026 be above $7.00?",
+    "ts": "2026-11-26T18:12:52.800012",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362304",
+    "pregunta": "Will the average Ornn H200 rental price in December 2026 be above $6.75?",
+    "ts": "2026-11-26T18:12:53.838042",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
