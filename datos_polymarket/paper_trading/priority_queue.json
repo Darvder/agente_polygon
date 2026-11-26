@@ -1,10 +1,18 @@
 [
   {
-    "id": "2363845",
-    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
-    "ts": "2026-11-26T03:31:52.988069",
+    "id": "5144353",
+    "pregunta": "Rockstar releases PC version of GTA VI by June 30, 2027?",
+    "ts": "2026-11-26T03:42:26.302629",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdd58b7e8b989f2cd20ccd903ecc4a997ff3618f9",
+    "whale_wallet": "0xa5cf1c7af56c65717bc4eb16217497b137bed306",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6264969",
+    "pregunta": "Rockstar releases PC version of GTA VI by March 31, 2027?",
+    "ts": "2026-11-26T03:42:27.361446",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa5cf1c7af56c65717bc4eb16217497b137bed306",
     "whale_signal": "COMPRAR NO"
   }
 ]
