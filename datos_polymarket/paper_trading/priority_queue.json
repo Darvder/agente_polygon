@@ -1,58 +1,18 @@
 [
   {
-    "id": "7023983",
-    "pregunta": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
-    "ts": "2026-11-26T08:23:36.850243",
+    "id": "6770167",
+    "pregunta": "Will the next Qwen Max model (3.9+) debut at a score of at least 1500 by June 30, 2027?",
+    "ts": "2026-11-26T08:32:20.743008",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x12d51de654df441c57e97c81156613681114f0eb",
+    "whale_wallet": "0x0f22a6d593f01dd994d315f2bb677857070f281f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7354029",
-    "pregunta": "Will AutoZone (AZO) beat quarterly earnings?",
-    "ts": "2026-11-26T08:23:39.771307",
+    "id": "4664495",
+    "pregunta": "Will Alibaba have the best Chinese AI model at the end of November 2026?",
+    "ts": "2026-11-26T08:32:22.945628",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7354019",
-    "pregunta": "Will DocuSign (DOCU) beat quarterly earnings?",
-    "ts": "2026-11-26T08:23:40.982342",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7354025",
-    "pregunta": "Will Build-A-Bear (BBW) beat quarterly earnings?",
-    "ts": "2026-11-26T08:23:42.026261",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360794",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $21B?",
-    "ts": "2026-11-26T08:23:44.277377",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360799",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $21.5B?",
-    "ts": "2026-11-26T08:23:45.320080",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360783",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $20.5B?",
-    "ts": "2026-11-26T08:23:46.364250",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0x0f22a6d593f01dd994d315f2bb677857070f281f",
     "whale_signal": "COMPRAR NO"
   }
 ]
