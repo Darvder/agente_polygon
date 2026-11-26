@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "7279439",
+    "pregunta": "Will Ethereum dip to $1,600 November 23-29?",
+    "ts": "2026-11-26T04:39:31.193700",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5959788",
+    "pregunta": "Will Google have the best Image-to-Video AI at the end of November 2026?",
+    "ts": "2026-11-26T04:39:33.965802",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7330418",
+    "pregunta": "Will the Fear & Greed Index be 24 or below on November 27?",
+    "ts": "2026-11-26T04:39:35.024342",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7300520",
+    "pregunta": "Will Jensen Huang say \"Trump\" during his GTC Washington, D.C. keynote?",
+    "ts": "2026-11-26T04:39:36.081512",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb23e88a3e729951c1992b361435a5c410fcf829a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
