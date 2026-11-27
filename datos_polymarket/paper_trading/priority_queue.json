@@ -1,18 +1,18 @@
 [
   {
-    "id": "7363483",
-    "pregunta": "Will Bitcoin reach $62,000 on November 26?",
-    "ts": "2026-11-26T21:34:52.834626",
+    "id": "2467362",
+    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
+    "ts": "2026-11-26T21:42:48.978195",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7203527",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 27?",
-    "ts": "2026-11-26T21:34:53.854417",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-26T21:42:50.007579",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
