@@ -1,34 +1,10 @@
 [
   {
-    "id": "679022",
-    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
-    "ts": "2026-11-27T16:51:26.045055",
+    "id": "4713962",
+    "pregunta": "Russia military action against an EU country by December 31, 2026?",
+    "ts": "2026-11-27T17:02:31.977250",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0ffcad4963e25dc150774363f4061ebe840c8236",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7278006",
-    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.80?",
-    "ts": "2026-11-27T16:51:27.872909",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277651",
-    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.50?",
-    "ts": "2026-11-27T16:51:28.998701",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5336560",
-    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-27T16:51:30.820360",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1ace65152cb597f8d5c432030cf5650286be3038",
+    "whale_wallet": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
     "whale_signal": "COMPRAR NO"
   }
 ]
