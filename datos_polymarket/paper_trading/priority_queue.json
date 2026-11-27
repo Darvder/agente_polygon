@@ -1,34 +1,42 @@
 [
   {
-    "id": "679018",
-    "pregunta": "Will Marine Le Pen win the 2027 French presidential election?",
-    "ts": "2026-11-27T08:52:50.328040",
+    "id": "3581102",
+    "pregunta": "Will Huang Shih-chieh win the next Taoyuan Mayor election?",
+    "ts": "2026-11-27T09:00:40.208871",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe5982977b7979d9196e0f8585399bcf8e8912f57",
+    "whale_wallet": "0x4387cf455c43427fb863308193fc365f55e8bc65",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2363844",
-    "pregunta": "Will Zohran Mamdani be TIME Person of the Year 2026?",
-    "ts": "2026-11-27T08:52:51.437973",
+    "id": "920403",
+    "pregunta": "Variational FDV above $1B one day after launch?",
+    "ts": "2026-11-27T09:00:42.108907",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe5982977b7979d9196e0f8585399bcf8e8912f57",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4383153",
-    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-27T08:52:53.286045",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x34026514e0bda25f0f9fbb053fe3070cdc8c9446",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3580932",
     "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T08:52:54.301766",
+    "ts": "2026-11-27T09:00:43.965882",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x0ceddde3485c8d903ff2066a60eb3c8265a08192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "814612",
+    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-27T09:00:45.010424",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0ceddde3485c8d903ff2066a60eb3c8265a08192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-27T09:00:46.092237",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0ceddde3485c8d903ff2066a60eb3c8265a08192",
     "whale_signal": "COMPRAR NO"
   }
 ]
