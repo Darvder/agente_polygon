@@ -1,18 +1,10 @@
 [
   {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-27T04:50:48.739167",
+    "id": "7249680",
+    "pregunta": "Exact Score: VVV Venlo 0 - 0 RKC Waalwijk?",
+    "ts": "2026-11-27T05:02:08.466580",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x0dccfae62418c61d2f9a642e88df39702d8bd87c",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7151927",
-    "pregunta": "Will Andy Beshear run but lose the 2028 Democratic nomination?",
-    "ts": "2026-11-27T04:50:52.392726",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
+    "whale_wallet": "0x586d6eb20da348501206e18eba11be8fe9f6c5dc",
     "whale_signal": "COMPRAR NO"
   }
 ]
