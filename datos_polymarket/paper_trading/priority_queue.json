@@ -1,74 +1,26 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-27T12:10:07.160265",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T12:10:08.205603",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "7362362",
     "pregunta": "Will the average Ornn H200 rental price in February 2027 be above $7.00?",
-    "ts": "2026-11-27T12:10:10.063248",
+    "ts": "2026-11-27T12:24:27.066202",
     "origen": "whale_copytrader",
     "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7278044",
-    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $4.20?",
-    "ts": "2026-11-27T12:10:13.550418",
+    "id": "7278028",
+    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.60?",
+    "ts": "2026-11-27T12:24:28.138303",
     "origen": "whale_copytrader",
     "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7360808",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22.5B?",
-    "ts": "2026-11-27T12:10:14.605019",
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-27T12:24:33.628579",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7360803",
-    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22B?",
-    "ts": "2026-11-27T12:10:15.666119",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7362375",
-    "pregunta": "Will the average Ornn H200 rental price in January 2027 be above $5.50?",
-    "ts": "2026-11-27T12:10:16.837103",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277921",
-    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $7.50?",
-    "ts": "2026-11-27T12:10:18.938204",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7288835",
-    "pregunta": "Will Ethereum reach $1,800 in November?",
-    "ts": "2026-11-27T12:10:21.970598",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
     "whale_signal": "COMPRAR NO"
   }
 ]
