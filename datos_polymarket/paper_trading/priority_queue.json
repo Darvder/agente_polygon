@@ -1,10 +1,26 @@
 [
   {
-    "id": "6585117",
-    "pregunta": "Will PARIVISION win BLAST Slam IX?",
-    "ts": "2026-11-27T08:14:29.131486",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-27T08:22:40.155080",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x86e0596f41151defebdb73ed7c176d77a15fc394",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-27T08:22:41.223067",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1571985",
+    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
+    "ts": "2026-11-27T08:22:43.128368",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xdc767c90ec054dd8250cf27cb4b2f675c9807842",
     "whale_signal": "COMPRAR NO"
   }
 ]
