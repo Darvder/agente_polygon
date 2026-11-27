@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7104785",
+    "pregunta": "Jon Ossoff Democratic nomination odds leader on December 31?",
+    "ts": "2026-11-27T13:40:32.475253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e35a2a8cfd1eb1e69dacd043206db5a787f1a6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6617892",
+    "pregunta": "Will the KMT win the Taipei and New Taipei mayoral elections?",
+    "ts": "2026-11-27T13:40:34.345956",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65b937cc36d9fc0f75ec83ddc83f0ceca2fe92a3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
