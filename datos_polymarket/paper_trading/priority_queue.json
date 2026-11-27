@@ -1,18 +1,26 @@
 [
   {
-    "id": "5727013",
-    "pregunta": "No change in Bank of England\u2019s interest rates after December 2026 meeting?",
-    "ts": "2026-11-27T05:50:30.810333",
+    "id": "7362367",
+    "pregunta": "Will the average Ornn H200 rental price in June 2027 be above $6.00?",
+    "ts": "2026-11-27T06:04:30.407466",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x24787691ebc296444add2ee3dea03c9d6f9b2e62",
+    "whale_wallet": "0x996ac56c9e72b6ca38a30ae9f6e85152d9afe3cc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6322992",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
-    "ts": "2026-11-27T05:50:35.274911",
+    "id": "7277651",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.50?",
+    "ts": "2026-11-27T06:04:32.247321",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x24787691ebc296444add2ee3dea03c9d6f9b2e62",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278027",
+    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.80?",
+    "ts": "2026-11-27T06:04:34.483317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
