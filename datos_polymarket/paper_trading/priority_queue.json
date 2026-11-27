@@ -1,26 +1,10 @@
 [
   {
-    "id": "7362362",
-    "pregunta": "Will the average Ornn H200 rental price in February 2027 be above $7.00?",
-    "ts": "2026-11-27T12:24:27.066202",
+    "id": "7386791",
+    "pregunta": "Will Bitcoin dip to $58,000 on November 27?",
+    "ts": "2026-11-27T12:31:58.343118",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7278028",
-    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.60?",
-    "ts": "2026-11-27T12:24:28.138303",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7288834",
-    "pregunta": "Will Bitcoin reach $62,500 in November?",
-    "ts": "2026-11-27T12:24:33.628579",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+    "whale_wallet": "0x646404ea0d3bd89a4c96af6f155a20b2545186bc",
     "whale_signal": "COMPRAR NO"
   }
 ]
