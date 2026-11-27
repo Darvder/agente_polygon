@@ -1,18 +1,74 @@
 [
   {
-    "id": "7182037",
-    "pregunta": "Exact Score: CS Mar\u00edtimo 0 - 2 CD Nacional?",
-    "ts": "2026-11-27T18:15:43.264235",
+    "id": "7328320",
+    "pregunta": "Will an open-source model be ranked #1 on Arena by December 31, 2027?",
+    "ts": "2026-11-27T18:20:39.342190",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x32ea2b9da53bd9d7128f4b6df542c33b1ba9105d",
+    "whale_wallet": "0x2c3928af89565c352afe8e2a1b25deed77a056dc",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7364296",
-    "pregunta": "Will the lowest temperature in Hong Kong be 21\u00b0C on November 28?",
-    "ts": "2026-11-27T18:15:46.022917",
+    "id": "7328316",
+    "pregunta": "Will an open-source model be ranked #1 on Arena by June 30, 2027?",
+    "ts": "2026-11-27T18:20:40.457802",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc60bb547dbdf59c8d1746bc8a754accc3809d9f7",
+    "whale_wallet": "0x2c3928af89565c352afe8e2a1b25deed77a056dc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277467",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $10.50?",
+    "ts": "2026-11-27T18:20:42.263019",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277651",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.50?",
+    "ts": "2026-11-27T18:20:43.285341",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3215013",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
+    "ts": "2026-11-27T18:20:44.307135",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x80a4552cdcde3b861b8adc146ab1fbd4711022cc",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277772",
+    "pregunta": "Will the average Ornn B300 rental price in June 2027 be above $17.00?",
+    "ts": "2026-11-27T18:20:46.073394",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277958",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $13.00?",
+    "ts": "2026-11-27T18:20:47.189736",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2750319",
+    "pregunta": "Will no listed leader be out before 2027?",
+    "ts": "2026-11-27T18:20:50.353171",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6031067",
+    "pregunta": "Will PP win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
+    "ts": "2026-11-27T18:20:51.375052",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   }
 ]
