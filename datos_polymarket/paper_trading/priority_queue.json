@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "2363845",
+    "pregunta": "Will James Talarico be TIME Person of the Year 2026?",
+    "ts": "2026-11-27T03:34:07.036378",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcf921c8a5d4e7879b8a5ca2e2135ea5014ea61e3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7386789",
+    "pregunta": "Will Bitcoin dip to $60,000 on November 27?",
+    "ts": "2026-11-27T03:34:08.889233",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7386785",
+    "pregunta": "Will Bitcoin reach $64,000 on November 27?",
+    "ts": "2026-11-27T03:34:09.912331",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7386786",
+    "pregunta": "Will Bitcoin reach $63,000 on November 27?",
+    "ts": "2026-11-27T03:34:10.932695",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
