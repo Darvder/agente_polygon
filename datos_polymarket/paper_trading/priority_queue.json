@@ -1,26 +1,74 @@
 [
   {
+    "id": "7277639",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.20?",
+    "ts": "2026-11-27T06:33:47.451297",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277638",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.40?",
+    "ts": "2026-11-27T06:33:48.487017",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277634",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.20?",
+    "ts": "2026-11-27T06:33:49.523218",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-27T06:33:50.556311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277633",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.40?",
+    "ts": "2026-11-27T06:33:51.589099",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581450",
+    "pregunta": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+    "ts": "2026-11-27T06:33:53.986490",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8f173ff3a3e39309297217f470bb61930e966f7b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "3580932",
     "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T06:24:54.572033",
+    "ts": "2026-11-27T06:33:55.701757",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x70f870c8c0b71e3cca282a4a89da4f0f028682e7",
+    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5608145",
-    "pregunta": "Pete Hegseth impeached by June 30, 2027?",
-    "ts": "2026-11-27T06:24:58.699190",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-27T06:33:56.734763",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e35a2a8cfd1eb1e69dacd043206db5a787f1a6c",
+    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6999516",
-    "pregunta": "Will 4 Jensen Huang affairs be reported by December 31?",
-    "ts": "2026-11-27T06:24:59.760501",
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-27T06:33:57.766093",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e35a2a8cfd1eb1e69dacd043206db5a787f1a6c",
+    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
     "whale_signal": "COMPRAR NO"
   }
 ]
