@@ -1,18 +1,1 @@
-[
-  {
-    "id": "7203527",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 27?",
-    "ts": "2026-11-27T09:31:51.169357",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T09:31:53.146581",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5b0e382af3cffad100bdb774d12de8067092192d",
-    "whale_signal": "COMPRAR NO"
-  }
-]
+[]
