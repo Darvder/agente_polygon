@@ -1,26 +1,10 @@
 [
   {
-    "id": "7278029",
-    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.40?",
-    "ts": "2026-11-27T08:04:32.188099",
+    "id": "6585117",
+    "pregunta": "Will PARIVISION win BLAST Slam IX?",
+    "ts": "2026-11-27T08:14:29.131486",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4412322",
-    "pregunta": "Will AI solve 1 more Millennium Prize Problem in 2026?",
-    "ts": "2026-11-27T08:04:36.923380",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc1e141089ea332543ca59ce9a225bf2f03b478a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "4412321",
-    "pregunta": "Will AI solve 0 more Millennium Prize Problems in 2026?",
-    "ts": "2026-11-27T08:04:38.986864",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc1e141089ea332543ca59ce9a225bf2f03b478a",
+    "whale_wallet": "0x86e0596f41151defebdb73ed7c176d77a15fc394",
     "whale_signal": "COMPRAR NO"
   }
 ]
