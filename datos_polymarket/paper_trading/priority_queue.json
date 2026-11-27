@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-27T11:51:16.852412",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7350617",
+    "pregunta": "Will Bitcoin dip to $57,500 in November?",
+    "ts": "2026-11-27T11:51:18.005901",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277960",
+    "pregunta": "Will the average Ornn B200 rental price in June 2027 be above $11.00?",
+    "ts": "2026-11-27T11:51:23.630570",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x77266604e63f5caf08d19caebae0c563ce064aee",
+    "whale_signal": "COMPRAR NO"
+  }
+]
