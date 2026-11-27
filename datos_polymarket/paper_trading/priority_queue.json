@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "7342262",
+    "pregunta": "Will at least 15 ships transit the Strait of Hormuz on any day by December 31, 2026?",
+    "ts": "2026-11-27T13:04:48.579026",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x048a9d673a40171a1cf44ef518893d35fdf09be4",
+    "whale_signal": "COMPRAR NO"
+  }
+]
