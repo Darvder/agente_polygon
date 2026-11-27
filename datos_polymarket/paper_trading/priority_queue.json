@@ -1,34 +1,26 @@
 [
   {
-    "id": "2371761",
-    "pregunta": "Will Ryan Gosling be nominated for Best Actor at the 99th Academy Awards?",
-    "ts": "2026-11-27T06:11:04.988454",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2371763",
-    "pregunta": "Will Timoth\u00e9e Chalamet be nominated for Best Actor at the 99th Academy Awards?",
-    "ts": "2026-11-27T06:11:06.179887",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3421253",
-    "pregunta": "Will Robert Pattinson be nominated for Best Actor at the 99th Academy Awards?",
-    "ts": "2026-11-27T06:11:07.361332",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "3580932",
     "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T06:11:08.399803",
+    "ts": "2026-11-27T06:24:54.572033",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x70f870c8c0b71e3cca282a4a89da4f0f028682e7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5608145",
+    "pregunta": "Pete Hegseth impeached by June 30, 2027?",
+    "ts": "2026-11-27T06:24:58.699190",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e35a2a8cfd1eb1e69dacd043206db5a787f1a6c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6999516",
+    "pregunta": "Will 4 Jensen Huang affairs be reported by December 31?",
+    "ts": "2026-11-27T06:24:59.760501",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x7e35a2a8cfd1eb1e69dacd043206db5a787f1a6c",
     "whale_signal": "COMPRAR NO"
   }
 ]
