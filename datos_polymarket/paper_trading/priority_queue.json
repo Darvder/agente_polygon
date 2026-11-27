@@ -1,26 +1,42 @@
 [
   {
+    "id": "814612",
+    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-27T08:37:24.658508",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0ceddde3485c8d903ff2066a60eb3c8265a08192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581450",
+    "pregunta": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+    "ts": "2026-11-27T08:37:25.678128",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0ceddde3485c8d903ff2066a60eb3c8265a08192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581388",
+    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
+    "ts": "2026-11-27T08:37:26.869842",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x0ceddde3485c8d903ff2066a60eb3c8265a08192",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "3580932",
     "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T08:22:40.155080",
+    "ts": "2026-11-27T08:37:27.887761",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_wallet": "0x0ceddde3485c8d903ff2066a60eb3c8265a08192",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-27T08:22:41.223067",
+    "id": "7277654",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $11.00?",
+    "ts": "2026-11-27T08:37:33.962912",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1571985",
-    "pregunta": "Will Predict.fun launch a token by December 31, 2026?",
-    "ts": "2026-11-27T08:22:43.128368",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xdc767c90ec054dd8250cf27cb4b2f675c9807842",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
