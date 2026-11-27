@@ -1,26 +1,10 @@
 [
   {
-    "id": "690683",
-    "pregunta": "Will Variational launch a token by December 31, 2026?",
-    "ts": "2026-11-26T21:54:50.697921",
+    "id": "3229383",
+    "pregunta": "Will Jon Ossoff win the South Carolina Democratic Presidential primary?",
+    "ts": "2026-11-26T22:02:36.826534",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdbcc73b57c33f8ef3ba9a56116e0c07e96a3fbc2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7362369",
-    "pregunta": "Will the average Ornn H200 rental price in February 2027 be above $5.00?",
-    "ts": "2026-11-26T21:54:52.695690",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xecef7a84f071df83cd6a8c40561ac2f8f28275fa",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277919",
-    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $8.50?",
-    "ts": "2026-11-26T21:54:53.887208",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xecef7a84f071df83cd6a8c40561ac2f8f28275fa",
+    "whale_wallet": "0x383cc45cceb1798a27bc9b8f932cac0b9baf325e",
     "whale_signal": "COMPRAR NO"
   }
 ]
