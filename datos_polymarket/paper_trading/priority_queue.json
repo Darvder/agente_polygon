@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "2243499",
+    "pregunta": "Will Javokhir Sindarov win the 2026 World Chess Championship?",
+    "ts": "2026-11-27T09:21:59.426726",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x880c3700c6c2684084e0d3e6e63e052ec333440a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2243498",
+    "pregunta": "Will Gukesh Dommaraju win the 2026 World Chess Championship?",
+    "ts": "2026-11-27T09:22:00.465179",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x880c3700c6c2684084e0d3e6e63e052ec333440a",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-27T09:22:02.318444",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xab804828bc83de0570e04f7290cfbce05b7b7923",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581102",
+    "pregunta": "Will Huang Shih-chieh win the next Taoyuan Mayor election?",
+    "ts": "2026-11-27T09:22:04.299722",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4387cf455c43427fb863308193fc365f55e8bc65",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-27T09:22:06.432514",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-27T09:22:07.471843",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "whale_signal": "COMPRAR NO"
+  }
+]
