@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-27T13:21:11.298312",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65b937cc36d9fc0f75ec83ddc83f0ceca2fe92a3",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-27T13:21:12.337903",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x65b937cc36d9fc0f75ec83ddc83f0ceca2fe92a3",
+    "whale_signal": "COMPRAR NO"
+  }
+]
