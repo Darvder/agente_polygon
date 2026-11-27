@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "1323320",
+    "pregunta": "Will the US federal government take a stake in NVIDIA Corporation?",
+    "ts": "2026-11-27T18:00:50.809715",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-27T18:00:51.918293",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7363779",
+    "pregunta": "Will the highest temperature in Paris be 6\u00b0C on November 28?",
+    "ts": "2026-11-27T18:00:54.536666",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7363777",
+    "pregunta": "Will the highest temperature in Paris be 4\u00b0C on November 28?",
+    "ts": "2026-11-27T18:00:55.668720",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7366772",
+    "pregunta": "Will the highest temperature in Buenos Aires be 34\u00b0C on November 28?",
+    "ts": "2026-11-27T18:00:56.713170",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7366773",
+    "pregunta": "Will the highest temperature in Buenos Aires be 35\u00b0C on November 28?",
+    "ts": "2026-11-27T18:00:57.758496",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7366761",
+    "pregunta": "Will the highest temperature in Sao Paulo be 23\u00b0C on November 28?",
+    "ts": "2026-11-27T18:00:58.900176",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7365328",
+    "pregunta": "Will the highest temperature in Austin be between 72-73\u00b0F on November 28?",
+    "ts": "2026-11-27T18:01:00.041539",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7388660",
+    "pregunta": "Will the highest temperature in Miami be between 82-83\u00b0F on November 29?",
+    "ts": "2026-11-27T18:01:01.077271",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x16f01030a76c2b671047485e5b52f61a46372bad",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581388",
+    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
+    "ts": "2026-11-27T18:01:02.827010",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xfbe66593e49c4e7a7180a2582f041158bfb800f8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
