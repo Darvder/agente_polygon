@@ -1,10 +1,18 @@
 [
   {
-    "id": "5727013",
-    "pregunta": "No change in Bank of England\u2019s interest rates after December 2026 meeting?",
-    "ts": "2026-11-27T10:00:54.804869",
+    "id": "7203526",
+    "pregunta": "Will the price of Bitcoin be above $60,000 on November 27?",
+    "ts": "2026-11-27T10:12:29.576397",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x674887d1ac838099a48b629dff53f25b7b87ee08",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701501",
+    "pregunta": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "ts": "2026-11-27T10:12:30.623603",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
     "whale_signal": "COMPRAR NO"
   }
 ]
