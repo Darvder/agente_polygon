@@ -1,26 +1,18 @@
 [
   {
-    "id": "7299952",
-    "pregunta": "Will Sierra Leone be last in the World Happiness Report 2027?",
-    "ts": "2026-11-27T02:42:30.213229",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-27T02:51:16.301683",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
+    "whale_wallet": "0xe8d9cc1d077817beb32096bb90a7b21f3700dcb1",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7364248",
-    "pregunta": "Will the lowest temperature in Tokyo be 10\u00b0C on November 28?",
-    "ts": "2026-11-27T02:42:36.336626",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-27T02:51:18.264768",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7363789",
-    "pregunta": "Will the highest temperature in Seoul (Incheon) be 11\u00b0C on November 28?",
-    "ts": "2026-11-27T02:42:37.517202",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3b22f9851d5e70162d8f66f096792b7ecdb56f69",
+    "whale_wallet": "0x9e614f3202b3a3d008992295671f1fbb5b13d0c9",
     "whale_signal": "COMPRAR NO"
   }
 ]
