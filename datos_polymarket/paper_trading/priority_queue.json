@@ -1,26 +1,10 @@
 [
   {
-    "id": "7277632",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
-    "ts": "2026-11-27T03:50:29.994890",
+    "id": "6018065",
+    "pregunta": "Houthis capture Taiz city by December 31?",
+    "ts": "2026-11-27T04:03:36.574168",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "682708",
-    "pregunta": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-    "ts": "2026-11-27T03:50:31.033278",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277631",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.80?",
-    "ts": "2026-11-27T03:50:32.070942",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5a0d0c6eee71b96db16e5e271e0fa724be8dfa97",
+    "whale_wallet": "0xcce2b7c71f21e358b8e5e797e586cbc03160d58b",
     "whale_signal": "COMPRAR NO"
   }
 ]
