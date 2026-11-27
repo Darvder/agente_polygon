@@ -1,34 +1,18 @@
 [
   {
-    "id": "3215013",
-    "pregunta": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-    "ts": "2026-11-26T22:09:32.406192",
+    "id": "1323320",
+    "pregunta": "Will the US federal government take a stake in NVIDIA Corporation?",
+    "ts": "2026-11-26T22:24:44.108387",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcdb1f1ef8213c06911e4ba6a884176c5571e276c",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "5994195",
-    "pregunta": "Will Russia capture Dobropillia by March 31, 2027?",
-    "ts": "2026-11-26T22:09:36.038907",
+    "id": "7104887",
+    "pregunta": "Marco Rubio Republican nomination odds runner-up on December 31?",
+    "ts": "2026-11-26T22:24:45.149696",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xe0f1e7751df4035f78a5eb2f4296c98b4d5bc4bd",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7203527",
-    "pregunta": "Will the price of Bitcoin be above $62,000 on November 27?",
-    "ts": "2026-11-26T22:09:37.700601",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7363483",
-    "pregunta": "Will Bitcoin reach $62,000 on November 26?",
-    "ts": "2026-11-26T22:09:38.730569",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
     "whale_signal": "COMPRAR NO"
   }
 ]
