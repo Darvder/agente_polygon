@@ -1,74 +1,50 @@
 [
   {
-    "id": "7277639",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.20?",
-    "ts": "2026-11-27T06:33:47.451297",
+    "id": "7287079",
+    "pregunta": "Jensen Huang announced resignation or removal again by December 31, 2027?",
+    "ts": "2026-11-27T06:44:39.756766",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277638",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.40?",
-    "ts": "2026-11-27T06:33:48.487017",
+    "id": "7276617",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.00?",
+    "ts": "2026-11-27T06:44:40.773561",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277634",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.20?",
-    "ts": "2026-11-27T06:33:49.523218",
+    "id": "7276618",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $2.90?",
+    "ts": "2026-11-27T06:44:41.797483",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277632",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
-    "ts": "2026-11-27T06:33:50.556311",
+    "id": "7276616",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
+    "ts": "2026-11-27T06:44:42.815290",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_wallet": "0x264cbb7263b0c336c58fb5a5de1773896e6bbaca",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277633",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.40?",
-    "ts": "2026-11-27T06:33:51.589099",
+    "id": "7277463",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.50?",
+    "ts": "2026-11-27T06:44:47.249367",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3581450",
-    "pregunta": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
-    "ts": "2026-11-27T06:33:53.986490",
+    "id": "7277651",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $12.50?",
+    "ts": "2026-11-27T06:44:48.266434",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8f173ff3a3e39309297217f470bb61930e966f7b",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T06:33:55.701757",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-27T06:33:56.734763",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-27T06:33:57.766093",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x0e8dbd90635b63f2341db6f84ba5f468a5ecc7e0",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
