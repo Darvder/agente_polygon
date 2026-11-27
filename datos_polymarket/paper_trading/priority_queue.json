@@ -1,10 +1,26 @@
 [
   {
-    "id": "7249680",
-    "pregunta": "Exact Score: VVV Venlo 0 - 0 RKC Waalwijk?",
-    "ts": "2026-11-27T05:02:08.466580",
+    "id": "4838928",
+    "pregunta": "AI bubble burst by June 30, 2027?",
+    "ts": "2026-11-27T05:14:06.377234",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x586d6eb20da348501206e18eba11be8fe9f6c5dc",
+    "whale_wallet": "0x05ede65980909056e407a42ddf0bf3a9b5d4bf70",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "691340",
+    "pregunta": "AI bubble burst in 2026?",
+    "ts": "2026-11-27T05:14:07.402911",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x05ede65980909056e407a42ddf0bf3a9b5d4bf70",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3740666",
+    "pregunta": "Will Greens win the third-most seats in the next Victorian state election?",
+    "ts": "2026-11-27T05:14:09.408205",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xe0ad70274728fb9cf3cd847974af69cc5e9fb056",
     "whale_signal": "COMPRAR NO"
   }
 ]
