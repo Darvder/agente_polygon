@@ -1,10 +1,26 @@
 [
   {
-    "id": "4418549",
-    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
-    "ts": "2026-11-26T23:14:33.370440",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-26T23:22:23.369615",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xd14aa86fa6cac2e09edd9944f5c0c0d48634a8ad",
+    "whale_wallet": "0xd0ade10dbfd80cfd48c0e876b640796ae67bb23e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-26T23:22:24.440344",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd0ade10dbfd80cfd48c0e876b640796ae67bb23e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7363809",
+    "pregunta": "Will the highest temperature in Wellington be 21\u00b0C on November 28?",
+    "ts": "2026-11-26T23:22:26.463347",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x199cedf45e8169785e3f4bf66abb2da75e17467a",
     "whale_signal": "COMPRAR NO"
   }
 ]
