@@ -1,10 +1,18 @@
 [
   {
-    "id": "7277902",
-    "pregunta": "Will the average Ornn B200 rental price in January 2027 be above $9.50?",
-    "ts": "2026-11-26T21:24:43.994852",
+    "id": "7363483",
+    "pregunta": "Will Bitcoin reach $62,000 on November 26?",
+    "ts": "2026-11-26T21:34:52.834626",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7203527",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 27?",
+    "ts": "2026-11-26T21:34:53.854417",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
