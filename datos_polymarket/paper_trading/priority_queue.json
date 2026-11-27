@@ -1,18 +1,82 @@
 [
   {
-    "id": "7104785",
-    "pregunta": "Jon Ossoff Democratic nomination odds leader on December 31?",
-    "ts": "2026-11-27T13:40:32.475253",
+    "id": "6617895",
+    "pregunta": "Will the DPP win the Taipei and New Taipei mayoral elections?",
+    "ts": "2026-11-27T13:54:29.913641",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x7e35a2a8cfd1eb1e69dacd043206db5a787f1a6c",
+    "whale_wallet": "0x784feec38475dc47e63c3a16cbd24b905dab5df9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6617892",
-    "pregunta": "Will the KMT win the Taipei and New Taipei mayoral elections?",
-    "ts": "2026-11-27T13:40:34.345956",
+    "id": "7362366",
+    "pregunta": "Will the average Ornn H200 rental price in February 2027 be above $6.00?",
+    "ts": "2026-11-27T13:54:32.104628",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x65b937cc36d9fc0f75ec83ddc83f0ceca2fe92a3",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362362",
+    "pregunta": "Will the average Ornn H200 rental price in February 2027 be above $7.00?",
+    "ts": "2026-11-27T13:54:33.290135",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362304",
+    "pregunta": "Will the average Ornn H200 rental price in December 2026 be above $6.75?",
+    "ts": "2026-11-27T13:54:34.314856",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362307",
+    "pregunta": "Will the average Ornn H200 rental price in December 2026 be above $6.00?",
+    "ts": "2026-11-27T13:54:36.356053",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7179199",
+    "pregunta": "Will \"Avengers: Doomsday\" score at least 65 on the Rotten Tomatoes Tomatometer?",
+    "ts": "2026-11-27T13:54:39.583169",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362368",
+    "pregunta": "Will the average Ornn H200 rental price in December 2028 be above $5.00?",
+    "ts": "2026-11-27T13:54:44.345487",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362374",
+    "pregunta": "Will the average Ornn H200 rental price in December 2028 be above $3.00?",
+    "ts": "2026-11-27T13:54:45.537197",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362360",
+    "pregunta": "Will the average Ornn H200 rental price in December 2028 be above $7.00?",
+    "ts": "2026-11-27T13:54:46.732059",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278073",
+    "pregunta": "Will the average Ornn H100 rental price in December 2028 be above $2.00?",
+    "ts": "2026-11-27T13:54:48.777168",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   }
 ]
