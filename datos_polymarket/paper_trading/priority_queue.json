@@ -1,18 +1,26 @@
 [
   {
-    "id": "3222415",
-    "pregunta": "Will Gold (GC) dip to (LOW) $3,500 by end of December?",
-    "ts": "2026-11-26T22:33:03.840031",
+    "id": "5154351",
+    "pregunta": "Will the Fed Pause-Hike-Hike in the next three decisions (Oct-Dec-Jan)?",
+    "ts": "2026-11-26T22:41:23.645686",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf8acec0ab665fee2369d824085e2d5fde7e46f52",
+    "whale_wallet": "0xf1e1d98271d19cb607450ce5242df086df2e6f6f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7375062",
-    "pregunta": "Will S&P 500 (SPY) hit (LOW) $710 in November?",
-    "ts": "2026-11-26T22:33:04.962189",
+    "id": "7203508",
+    "pregunta": "Will the price of Bitcoin be between $62,000 and $64,000 on November 27?",
+    "ts": "2026-11-26T22:41:25.689485",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf8acec0ab665fee2369d824085e2d5fde7e46f52",
+    "whale_wallet": "0x88ee376120bfcf1daf5642c5d8a6b45d7637c234",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-26T22:41:26.884811",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88ee376120bfcf1daf5642c5d8a6b45d7637c234",
     "whale_signal": "COMPRAR NO"
   }
 ]
