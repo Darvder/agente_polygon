@@ -1,58 +1,42 @@
 [
   {
-    "id": "7278004",
-    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $3.00?",
-    "ts": "2026-11-26T22:50:47.377549",
+    "id": "7336739",
+    "pregunta": "Will the highest temperature in Madrid be 14\u00b0C or higher on November 27?",
+    "ts": "2026-11-26T23:03:53.946469",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x6e571a4f307a851320822256431c1511212c5068",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7362370",
-    "pregunta": "Will the average Ornn H200 rental price in January 2027 be above $6.00?",
-    "ts": "2026-11-26T22:50:48.421846",
+    "id": "7336599",
+    "pregunta": "Will the highest temperature in Paris be 3\u00b0C on November 27?",
+    "ts": "2026-11-26T23:03:55.042635",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x6e571a4f307a851320822256431c1511212c5068",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7278064",
-    "pregunta": "Will the average Ornn H100 rental price in December 2027 be above $2.00?",
-    "ts": "2026-11-26T22:50:49.599818",
+    "id": "7341325",
+    "pregunta": "Will the highest temperature in Buenos Aires be 32\u00b0C on November 27?",
+    "ts": "2026-11-26T23:03:56.181862",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x6e571a4f307a851320822256431c1511212c5068",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7104937",
-    "pregunta": "JD Vance Republican nomination odds leader on March 31?",
-    "ts": "2026-11-26T22:50:53.435399",
+    "id": "7341327",
+    "pregunta": "Will the highest temperature in Buenos Aires be 34\u00b0C on November 27?",
+    "ts": "2026-11-26T23:03:57.276373",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
+    "whale_wallet": "0x6e571a4f307a851320822256431c1511212c5068",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6658607",
-    "pregunta": "Rubio's Republican nomination odds dip to 15% by December 31?",
-    "ts": "2026-11-26T22:50:54.599486",
+    "id": "7341314",
+    "pregunta": "Will the highest temperature in Sao Paulo be 21\u00b0C on November 27?",
+    "ts": "2026-11-26T23:03:58.466465",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6658610",
-    "pregunta": "Vance's Republican nomination odds dip to 25% by December 31?",
-    "ts": "2026-11-26T22:50:55.764887",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x38f50488b14a87769e0c5cd6c514b6c2e8ec6824",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7313127",
-    "pregunta": "Will Jynxzi finish GTA VI by December 10?",
-    "ts": "2026-11-26T22:51:00.143477",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd140dfa8d989b24dff0826a59433f80172629554",
+    "whale_wallet": "0x6e571a4f307a851320822256431c1511212c5068",
     "whale_signal": "COMPRAR NO"
   }
 ]
