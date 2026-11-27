@@ -1,42 +1,18 @@
 [
   {
-    "id": "7109771",
-    "pregunta": "Will Elon Musk post 260-279 tweets from November 20 to November 27, 2026?",
-    "ts": "2026-11-27T07:41:03.358320",
+    "id": "7027911",
+    "pregunta": "Will the Fed hike-hike-hike in the next three decisions (Dec-Jan-Mar)?",
+    "ts": "2026-11-27T07:51:53.012426",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
+    "whale_wallet": "0x3a74a63aac71c75815410ff8b78fa13013c112d7",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7288720",
-    "pregunta": "Will Elon Musk post 40-64 tweets from November 26 to November 28, 2026?",
-    "ts": "2026-11-27T07:41:04.395724",
+    "id": "7386788",
+    "pregunta": "Will Bitcoin dip to $61,000 on November 27?",
+    "ts": "2026-11-27T07:51:55.242000",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7372502",
-    "pregunta": "Will Elon Musk post 90-114 tweets from November 28 to November 30, 2026?",
-    "ts": "2026-11-27T07:41:05.532255",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x09b4c4173607390b4a499d91b43b713987d3e56d",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2467362",
-    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
-    "ts": "2026-11-27T07:41:07.961417",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x353a046f732f6ed4f5a71db97ad43207529c7b82",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5336560",
-    "pregunta": "Will PSOE win the most seats in the 2026 Spanish general election?",
-    "ts": "2026-11-27T07:41:09.680943",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x8d372429b423188760e3e59442ff1333803cb317",
+    "whale_wallet": "0xc6a2910714d2febe8730f8386277641f7c1fc9b7",
     "whale_signal": "COMPRAR NO"
   }
 ]
