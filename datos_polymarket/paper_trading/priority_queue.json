@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "6617893",
+    "pregunta": "Will the KMT win Taipei and the DPP win New Taipei?",
+    "ts": "2026-11-26T19:39:13.005317",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xec1fe51724fefc0b238514e88837dbcaa07bd325",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-26T19:39:14.043306",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xec1fe51724fefc0b238514e88837dbcaa07bd325",
+    "whale_signal": "COMPRAR NO"
+  }
+]
