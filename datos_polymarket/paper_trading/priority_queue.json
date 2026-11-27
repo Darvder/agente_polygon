@@ -1,34 +1,74 @@
 [
   {
-    "id": "7350617",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-27T12:00:56.758198",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-27T12:10:07.160265",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-27T12:10:08.205603",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6575759174ad221bba9947bc3f18750ec769b198",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362362",
+    "pregunta": "Will the average Ornn H200 rental price in February 2027 be above $7.00?",
+    "ts": "2026-11-27T12:10:10.063248",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278044",
+    "pregunta": "Will the average Ornn H100 rental price in September 2027 be above $4.20?",
+    "ts": "2026-11-27T12:10:13.550418",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7360808",
+    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22.5B?",
+    "ts": "2026-11-27T12:10:14.605019",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7360803",
+    "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22B?",
+    "ts": "2026-11-27T12:10:15.666119",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362375",
+    "pregunta": "Will the average Ornn H200 rental price in January 2027 be above $5.50?",
+    "ts": "2026-11-27T12:10:16.837103",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277921",
+    "pregunta": "Will the average Ornn B200 rental price in February 2027 be above $7.50?",
+    "ts": "2026-11-27T12:10:18.938204",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7288835",
+    "pregunta": "Will Ethereum reach $1,800 in November?",
+    "ts": "2026-11-27T12:10:21.970598",
     "origen": "whale_copytrader",
     "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7203526",
-    "pregunta": "Will the price of Bitcoin be above $60,000 on November 27?",
-    "ts": "2026-11-27T12:00:57.781753",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581449",
-    "pregunta": "Will Ko Chih-en win the next Kaohsiung Mayor election?",
-    "ts": "2026-11-27T12:01:01.267216",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1a4b78a33f4ce0c60892e8fed590d24207d12eff",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-27T12:01:02.287904",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x1a4b78a33f4ce0c60892e8fed590d24207d12eff",
     "whale_signal": "COMPRAR NO"
   }
 ]
