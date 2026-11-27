@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "5727013",
+    "pregunta": "No change in Bank of England\u2019s interest rates after December 2026 meeting?",
+    "ts": "2026-11-27T05:50:30.810333",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x24787691ebc296444add2ee3dea03c9d6f9b2e62",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6322992",
+    "pregunta": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
+    "ts": "2026-11-27T05:50:35.274911",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x24787691ebc296444add2ee3dea03c9d6f9b2e62",
+    "whale_signal": "COMPRAR NO"
+  }
+]
