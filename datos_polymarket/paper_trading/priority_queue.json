@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-26T20:09:58.087823",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x914bc38b6e539d390977d1525b7e71a9c359e406",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412321",
+    "pregunta": "Will AI solve 0 more Millennium Prize Problems in 2026?",
+    "ts": "2026-11-26T20:09:59.769925",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5e090847ff704b55de5b7b0794ae81a17945e03a",
+    "whale_signal": "COMPRAR NO"
+  }
+]
