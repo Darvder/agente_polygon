@@ -1,26 +1,34 @@
 [
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-27T00:40:59.270566",
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-27T00:52:01.210482",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x73adb40105631964f24ce7489d1748de1b73118e",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6031068",
-    "pregunta": "Will PSOE win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
-    "ts": "2026-11-27T00:41:03.199072",
+    "id": "7277633",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.40?",
+    "ts": "2026-11-27T00:52:02.411966",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2750319",
-    "pregunta": "Will no listed leader be out before 2027?",
-    "ts": "2026-11-27T00:41:05.303156",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-27T00:52:06.357139",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xb176eb68c9c9dda7f588c6e3a5dd645151e619ca",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2467362",
+    "pregunta": "Will Ethereum dip to $1,250 by December 31, 2026?",
+    "ts": "2026-11-27T00:52:07.398497",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb176eb68c9c9dda7f588c6e3a5dd645151e619ca",
     "whale_signal": "COMPRAR NO"
   }
 ]
