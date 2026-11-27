@@ -1,26 +1,10 @@
 [
   {
-    "id": "3580994",
-    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
-    "ts": "2026-11-27T09:53:08.179156",
+    "id": "5727013",
+    "pregunta": "No change in Bank of England\u2019s interest rates after December 2026 meeting?",
+    "ts": "2026-11-27T10:00:54.804869",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9a848bbc52f35cd677978447f953785899261197",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581449",
-    "pregunta": "Will Ko Chih-en win the next Kaohsiung Mayor election?",
-    "ts": "2026-11-27T09:53:09.213854",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9a848bbc52f35cd677978447f953785899261197",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T09:53:10.245008",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x9a848bbc52f35cd677978447f953785899261197",
+    "whale_wallet": "0x674887d1ac838099a48b629dff53f25b7b87ee08",
     "whale_signal": "COMPRAR NO"
   }
 ]
