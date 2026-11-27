@@ -1,10 +1,34 @@
 [
   {
-    "id": "7350617",
-    "pregunta": "Will Bitcoin dip to $57,500 in November?",
-    "ts": "2026-11-27T02:10:56.289697",
+    "id": "7277466",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $11.00?",
+    "ts": "2026-11-27T02:21:57.548044",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
+    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278005",
+    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.90?",
+    "ts": "2026-11-27T02:21:58.621542",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278006",
+    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.80?",
+    "ts": "2026-11-27T02:21:59.692875",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xefb70577dc01cee93601053a2d18d419827a0870",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7203527",
+    "pregunta": "Will the price of Bitcoin be above $62,000 on November 27?",
+    "ts": "2026-11-27T02:22:03.198474",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
     "whale_signal": "COMPRAR NO"
   }
 ]
