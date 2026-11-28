@@ -1,18 +1,26 @@
 [
   {
-    "id": "7374760",
-    "pregunta": "Will Solana dip to $70 in November?",
-    "ts": "2026-11-28T08:30:13.684982",
+    "id": "7151907",
+    "pregunta": "Will Josh Shapiro run but lose the 2028 Democratic nomination?",
+    "ts": "2026-11-28T08:44:35.145936",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0x80a0da00fbdc8440b0ef601341f14c3e24795708",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7288834",
-    "pregunta": "Will Bitcoin reach $62,500 in November?",
-    "ts": "2026-11-28T08:30:17.816645",
+    "id": "920403",
+    "pregunta": "Variational FDV above $1B one day after launch?",
+    "ts": "2026-11-28T08:44:38.157418",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xcef62ade3852cc3b68a69ead082a11f96a3a353f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7350612",
+    "pregunta": "Variational FDV above $1.5B one day after launch?",
+    "ts": "2026-11-28T08:44:39.293261",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xcef62ade3852cc3b68a69ead082a11f96a3a353f",
     "whale_signal": "COMPRAR NO"
   }
 ]
