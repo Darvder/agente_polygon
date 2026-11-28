@@ -1,58 +1,42 @@
 [
   {
-    "id": "7278027",
-    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.80?",
-    "ts": "2026-11-27T19:01:20.871708",
+    "id": "3848380",
+    "pregunta": "Will Levante be relegated from the 2026-27 LaLiga?",
+    "ts": "2026-11-27T19:14:05.934613",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0xf802a499d7ff91f329dea4ea9b43abcc72e8d91d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7362346",
-    "pregunta": "Will the average Ornn H200 rental price in September 2027 be above $6.00?",
-    "ts": "2026-11-27T19:01:24.159660",
+    "id": "6027287",
+    "pregunta": "Will Broad Front (FA) win 9-11 seats in the 2026 Spanish general election?",
+    "ts": "2026-11-27T19:14:07.133617",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0xf802a499d7ff91f329dea4ea9b43abcc72e8d91d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277972",
-    "pregunta": "Will the average Ornn B200 rental price in September 2027 be above $9.00?",
-    "ts": "2026-11-27T19:01:26.575296",
+    "id": "6027263",
+    "pregunta": "Will PSOE win 114-119 seats in the 2026 Spanish general election?",
+    "ts": "2026-11-27T19:14:08.179657",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0xf802a499d7ff91f329dea4ea9b43abcc72e8d91d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7276617",
-    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.00?",
-    "ts": "2026-11-27T19:01:27.617498",
+    "id": "6027273",
+    "pregunta": "Will PP win fewer than 120 seats in the 2026 Spanish general election?",
+    "ts": "2026-11-27T19:14:09.366559",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0xf802a499d7ff91f329dea4ea9b43abcc72e8d91d",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7278036",
-    "pregunta": "Will the average Ornn H100 rental price in June 2027 be above $3.20?",
-    "ts": "2026-11-27T19:01:28.862526",
+    "id": "5622719",
+    "pregunta": "Will voter turnout be 70% or higher in the 2026 Spanish general election?",
+    "ts": "2026-11-27T19:14:10.413537",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "2750302",
-    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
-    "ts": "2026-11-27T19:01:32.034639",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x6c17546c05c378555c52d804aebd00d3f4ec6a7e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277952",
-    "pregunta": "Will the average Ornn B200 rental price in March 2027 be above $8.00?",
-    "ts": "2026-11-27T19:01:34.170898",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
+    "whale_wallet": "0xf802a499d7ff91f329dea4ea9b43abcc72e8d91d",
     "whale_signal": "COMPRAR NO"
   }
 ]
