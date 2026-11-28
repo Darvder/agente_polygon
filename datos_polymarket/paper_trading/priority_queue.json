@@ -1,26 +1,58 @@
 [
   {
-    "id": "3581450",
-    "pregunta": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
-    "ts": "2026-11-28T01:00:25.851069",
+    "id": "7387333",
+    "pregunta": "Will the highest temperature in Milan be 9\u00b0C on November 29?",
+    "ts": "2026-11-28T01:16:36.066321",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf2b05d854e0af18e70b76e96534e2e7f7a04b26b",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-28T01:00:27.655684",
+    "id": "7412546",
+    "pregunta": "Will the highest temperature in Karachi be 31\u00b0C on November 30?",
+    "ts": "2026-11-28T01:16:37.252613",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3ca259f9dd2e521353c412862abb97b44f4d56a0",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "691340",
-    "pregunta": "AI bubble burst in 2026?",
-    "ts": "2026-11-28T01:00:29.508233",
+    "id": "7412217",
+    "pregunta": "Will the highest temperature in Tokyo be 15\u00b0C on November 30?",
+    "ts": "2026-11-28T01:16:38.276059",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5fbf72d3dee75b24d8e60a2c2329603b0c128925",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7388695",
+    "pregunta": "Will the highest temperature in Houston be between 70-71\u00b0F on November 29?",
+    "ts": "2026-11-28T01:16:39.295970",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7389862",
+    "pregunta": "Will the highest temperature in Mexico City be 20\u00b0C on November 29?",
+    "ts": "2026-11-28T01:16:40.488874",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7412491",
+    "pregunta": "Will the highest temperature in Cape Town be 25\u00b0C on November 30?",
+    "ts": "2026-11-28T01:16:41.518201",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7412344",
+    "pregunta": "Will the highest temperature in Chengdu be 20\u00b0C on November 30?",
+    "ts": "2026-11-28T01:16:42.537040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
     "whale_signal": "COMPRAR NO"
   }
 ]
