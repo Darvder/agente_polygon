@@ -1,34 +1,42 @@
 [
   {
-    "id": "6440122",
-    "pregunta": "Will Trump meet with Elon Musk by November 30, 2026?",
-    "ts": "2026-11-28T00:32:14.253681",
+    "id": "7277996",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $5.00?",
+    "ts": "2026-11-28T00:40:37.757052",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7404112",
-    "pregunta": "Will Trump meet with Narendra Modi by December 31, 2026?",
-    "ts": "2026-11-28T00:32:15.365833",
+    "id": "7277990",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $11.00?",
+    "ts": "2026-11-28T00:40:38.934830",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7404108",
-    "pregunta": "Will Trump meet with Emmanuel Macron by December 31, 2026?",
-    "ts": "2026-11-28T00:32:16.483883",
+    "id": "7278072",
+    "pregunta": "Will the average Ornn H100 rental price in December 2028 be above $2.50?",
+    "ts": "2026-11-28T00:40:40.120990",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7404109",
-    "pregunta": "Will Trump meet with Ursula von der Leyen by December 31, 2026?",
-    "ts": "2026-11-28T00:32:17.604408",
+    "id": "2243499",
+    "pregunta": "Will Javokhir Sindarov win the 2026 World Chess Championship?",
+    "ts": "2026-11-28T00:40:45.288740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x879247bf7570a40d193dd3bb9118820e0b194174",
+    "whale_wallet": "0x52f9c45a6fa8182649067bef26209878b935e1c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277993",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $8.00?",
+    "ts": "2026-11-28T00:40:47.204941",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
