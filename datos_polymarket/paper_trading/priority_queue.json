@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "4595916",
+    "pregunta": "Will Trump be impeached by June 30, 2027?",
+    "ts": "2026-11-27T21:52:54.075297",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8637486964986793609c477ced8be14e840a39bd",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-27T21:52:56.983302",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x64b47229f7b9340ccbd52768959fb55ac148b21e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6617895",
+    "pregunta": "Will the DPP win the Taipei and New Taipei mayoral elections?",
+    "ts": "2026-11-27T21:52:58.022643",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x64b47229f7b9340ccbd52768959fb55ac148b21e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4713962",
+    "pregunta": "Russia military action against an EU country by December 31, 2026?",
+    "ts": "2026-11-27T21:53:02.093551",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7029399",
+    "pregunta": "Will the 7-day average ship traffic through the Strait of Hormuz be 3+ on December 31?",
+    "ts": "2026-11-27T21:53:03.225768",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xd056d2e765630ee61850a7c743a30e20d2e2f1be",
+    "whale_signal": "COMPRAR NO"
+  }
+]
