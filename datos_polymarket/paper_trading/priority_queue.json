@@ -1,34 +1,18 @@
 [
   {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-28T02:23:56.892253",
+    "id": "3740666",
+    "pregunta": "Will Greens win the third-most seats in the next Victorian state election?",
+    "ts": "2026-11-28T02:32:33.026489",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b9dbf4b6e0e11309a9d6d2a09b72f65f652adc0",
+    "whale_wallet": "0xf29dbb8a92efb21e55094f0892a0a5d28b8fadd3",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-28T02:23:57.964698",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-28T02:32:34.970631",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x2b9dbf4b6e0e11309a9d6d2a09b72f65f652adc0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-28T02:23:59.018087",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b9dbf4b6e0e11309a9d6d2a09b72f65f652adc0",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581388",
-    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
-    "ts": "2026-11-28T02:24:00.070687",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x2b9dbf4b6e0e11309a9d6d2a09b72f65f652adc0",
+    "whale_wallet": "0xe020cefed3ec6392f039099e196d90e389d13cc4",
     "whale_signal": "COMPRAR NO"
   }
 ]
