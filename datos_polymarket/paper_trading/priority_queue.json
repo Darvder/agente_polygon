@@ -1,34 +1,50 @@
 [
   {
-    "id": "7397823",
-    "pregunta": "Will Ethereum reach $1,700 in November?",
-    "ts": "2026-11-28T00:13:50.725424",
+    "id": "7362351",
+    "pregunta": "Will the average Ornn H200 rental price in December 2028 be above $9.00?",
+    "ts": "2026-11-28T00:24:59.261918",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7233233",
-    "pregunta": "Will the price of Bitcoin be between $60,000 and $62,000 on November 28?",
-    "ts": "2026-11-28T00:13:54.634105",
+    "id": "7277996",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $5.00?",
+    "ts": "2026-11-28T00:25:00.457918",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7233231",
-    "pregunta": "Will the price of Bitcoin be between $58,000 and $60,000 on November 28?",
-    "ts": "2026-11-28T00:13:55.671188",
+    "id": "7277993",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $8.00?",
+    "ts": "2026-11-28T00:25:01.639082",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x8970b56535153baadee991ca25a178ac085636b5",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-28T00:13:57.525085",
+    "id": "7277990",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $11.00?",
+    "ts": "2026-11-28T00:25:02.826903",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3337099efa67f22846c5e1214dc0d507841d8695",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362374",
+    "pregunta": "Will the average Ornn H200 rental price in December 2028 be above $3.00?",
+    "ts": "2026-11-28T00:25:07.273629",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3740666",
+    "pregunta": "Will Greens win the third-most seats in the next Victorian state election?",
+    "ts": "2026-11-28T00:25:10.009752",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4462e46cf0d31466693058893f4913e2411fbfdf",
     "whale_signal": "COMPRAR NO"
   }
 ]
