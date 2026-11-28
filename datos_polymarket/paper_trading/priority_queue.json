@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5622719",
+    "pregunta": "Will voter turnout be 70% or higher in the 2026 Spanish general election?",
+    "ts": "2026-11-28T06:21:23.304594",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5622711",
+    "pregunta": "Will voter turnout be between 66% and 68% in the 2026 Spanish general election?",
+    "ts": "2026-11-28T06:21:24.330783",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x524db836890e08aceb3abcdee98d44240e324495",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581794",
+    "pregunta": "Will Liu Chien-kuo win the next Yunlin County Magistrate election?",
+    "ts": "2026-11-28T06:21:26.361159",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x24ded84d901a743cfee095f8082b0f9f647183cb",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581793",
+    "pregunta": "Will Chang Chia-chun win the next Yunlin County Magistrate election?",
+    "ts": "2026-11-28T06:21:27.389780",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x24ded84d901a743cfee095f8082b0f9f647183cb",
+    "whale_signal": "COMPRAR NO"
+  }
+]
