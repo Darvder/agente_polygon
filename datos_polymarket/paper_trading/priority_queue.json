@@ -1,18 +1,26 @@
 [
   {
-    "id": "7287078",
-    "pregunta": "Jensen Huang announced resignation or removal again by March 31, 2027?",
-    "ts": "2026-11-28T07:52:56.600062",
+    "id": "691340",
+    "pregunta": "AI bubble burst in 2026?",
+    "ts": "2026-11-28T08:00:32.402261",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xec1fe51724fefc0b238514e88837dbcaa07bd325",
+    "whale_wallet": "0x9fb7149b6d30c71b0b218cca504373a6a6683297",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7287079",
-    "pregunta": "Jensen Huang announced resignation or removal again by December 31, 2027?",
-    "ts": "2026-11-28T07:52:57.618160",
+    "id": "3867083",
+    "pregunta": "Will Zcash dip to $500 by December 31, 2026?",
+    "ts": "2026-11-28T08:00:36.843866",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xec1fe51724fefc0b238514e88837dbcaa07bd325",
+    "whale_wallet": "0x9fb7149b6d30c71b0b218cca504373a6a6683297",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-28T08:00:38.002538",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x9fb7149b6d30c71b0b218cca504373a6a6683297",
     "whale_signal": "COMPRAR NO"
   }
 ]
