@@ -1,16 +1,24 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T20:50:23.667148",
+    "id": "1339767",
+    "pregunta": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "ts": "2026-11-27T20:53:26.843803",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x1d8fce2bc6181654cf64fbd05eda12541aede16e",
+    "whale_wallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-27T20:53:28.650339",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x614ef98a8be021de3a974942b2fb98794ff34f1b",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "7360808",
     "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22.5B?",
-    "ts": "2026-11-27T20:50:28.867501",
+    "ts": "2026-11-27T20:53:33.811454",
     "origen": "whale_copytrader",
     "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
     "whale_signal": "COMPRAR NO"
@@ -18,9 +26,33 @@
   {
     "id": "7360803",
     "pregunta": "Will Anthropic (ANT) Q4 revenue be above $22B?",
-    "ts": "2026-11-27T20:50:30.052422",
+    "ts": "2026-11-27T20:53:34.879504",
     "origen": "whale_copytrader",
     "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7328320",
+    "pregunta": "Will an open-source model be ranked #1 on Arena by December 31, 2027?",
+    "ts": "2026-11-27T20:53:37.102135",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xa58d4f278d7953cd38eeb929f7e242bfc7c0b9b8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7364042",
+    "pregunta": "Will the highest temperature in Busan be 14\u00b0C on November 28?",
+    "ts": "2026-11-27T20:53:39.145453",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7364043",
+    "pregunta": "Will the highest temperature in Busan be 15\u00b0C on November 28?",
+    "ts": "2026-11-27T20:53:40.207607",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f",
     "whale_signal": "COMPRAR NO"
   }
 ]
