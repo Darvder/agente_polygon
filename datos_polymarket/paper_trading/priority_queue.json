@@ -1,42 +1,18 @@
 [
   {
-    "id": "7415710",
-    "pregunta": "Will the highest temperature in Buenos Aires be 36\u00b0C on November 30?",
-    "ts": "2026-11-28T06:52:23.142349",
+    "id": "5420002",
+    "pregunta": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
+    "ts": "2026-11-28T07:01:38.945115",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_wallet": "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7362355",
-    "pregunta": "Will the average Ornn H200 rental price in March 2027 be above $6.00?",
-    "ts": "2026-11-28T06:52:25.116949",
+    "id": "6649553",
+    "pregunta": "Will the DPP win 9 Taiwanese head of local government races?",
+    "ts": "2026-11-28T07:01:40.129456",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277663",
-    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $13.00?",
-    "ts": "2026-11-28T06:52:26.153385",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7278026",
-    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $3.00?",
-    "ts": "2026-11-28T06:52:27.338902",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277866",
-    "pregunta": "Will the average Ornn B300 rental price in September 2027 be above $8.00?",
-    "ts": "2026-11-28T06:52:28.369065",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_wallet": "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
     "whale_signal": "COMPRAR NO"
   }
 ]
