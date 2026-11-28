@@ -1,66 +1,18 @@
 [
   {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-27T23:01:27.807898",
+    "id": "4557459",
+    "pregunta": "Will the 2026\u201327 El Ni\u00f1o be the strongest on record?",
+    "ts": "2026-11-27T23:15:25.831906",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5e55d8b6f4a2c0bc3c1215cc1a1c22d822309a76",
+    "whale_wallet": "0x34dbc406881a24b82f4b138e09169d9a004b1b63",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-27T23:01:28.858240",
+    "id": "3680998",
+    "pregunta": "Will the peak RONI for the 2026\u201327 El Ni\u00f1o be at least 2.25 but below 2.5?",
+    "ts": "2026-11-27T23:15:26.948996",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5e55d8b6f4a2c0bc3c1215cc1a1c22d822309a76",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T23:01:30.676671",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x296b656db996db84ddbb587c3777488429c06d6e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580994",
-    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
-    "ts": "2026-11-27T23:01:31.717783",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x296b656db996db84ddbb587c3777488429c06d6e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581482",
-    "pregunta": "Will Hsieh Kuo-liang win the next Keelung Mayor election?",
-    "ts": "2026-11-27T23:01:32.769212",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x296b656db996db84ddbb587c3777488429c06d6e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581388",
-    "pregunta": "Will Johnny Chiang win the next Taichung Mayor election?",
-    "ts": "2026-11-27T23:01:33.818150",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x296b656db996db84ddbb587c3777488429c06d6e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "814612",
-    "pregunta": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
-    "ts": "2026-11-27T23:01:34.859683",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x296b656db996db84ddbb587c3777488429c06d6e",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6617893",
-    "pregunta": "Will the KMT win Taipei and the DPP win New Taipei?",
-    "ts": "2026-11-27T23:01:39.561489",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_wallet": "0x34dbc406881a24b82f4b138e09169d9a004b1b63",
     "whale_signal": "COMPRAR NO"
   }
 ]
