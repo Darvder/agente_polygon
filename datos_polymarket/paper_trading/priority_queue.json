@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "7277635",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
+    "ts": "2026-11-28T05:50:36.542040",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x748ac19f73c96312e98227f49f65699542943c56",
+    "whale_signal": "COMPRAR NO"
+  }
+]
