@@ -1,34 +1,18 @@
 [
   {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-27T22:42:21.123570",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-27T22:52:07.057959",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x122022b364c33b6e265cfaf56fe59ba306b2c483",
+    "whale_wallet": "0xab804828bc83de0570e04f7290cfbce05b7b7923",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7277464",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.00?",
-    "ts": "2026-11-27T22:42:22.832695",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-27T22:52:16.894526",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc722c1a1a0bfddf4e0edb3286f7ebce127221334",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277467",
-    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $10.50?",
-    "ts": "2026-11-27T22:42:23.951098",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc722c1a1a0bfddf4e0edb3286f7ebce127221334",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7388695",
-    "pregunta": "Will the highest temperature in Houston be between 70-71\u00b0F on November 29?",
-    "ts": "2026-11-27T22:42:25.657533",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc1bfad2e3039732ec124aae3944223135b0cf3f4",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   }
 ]
