@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "7278073",
+    "pregunta": "Will the average Ornn H100 rental price in December 2028 be above $2.00?",
+    "ts": "2026-11-28T10:18:41.153314",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277893",
+    "pregunta": "Will the average Ornn B300 rental price in December 2028 be above $9.00?",
+    "ts": "2026-11-28T10:18:43.420546",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277996",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $5.00?",
+    "ts": "2026-11-28T10:18:44.564142",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  }
+]
