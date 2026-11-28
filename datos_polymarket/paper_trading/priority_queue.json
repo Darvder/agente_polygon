@@ -1,26 +1,74 @@
 [
   {
+    "id": "6648502",
+    "pregunta": "Will the DPP win the New Taipei and Kaohsiung mayoral elections?",
+    "ts": "2026-11-27T22:31:10.155231",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6617893",
+    "pregunta": "Will the KMT win Taipei and the DPP win New Taipei?",
+    "ts": "2026-11-27T22:31:11.301025",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6976237",
+    "pregunta": "Will the Democratic Progressive Party (DPP) win the most mayoral elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-27T22:31:12.468311",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "6976236",
+    "pregunta": "Will Kuomintang (KMT) win the most mayoral elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-27T22:31:13.626835",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3581389",
+    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+    "ts": "2026-11-27T22:31:14.683332",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "3580932",
     "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T22:25:08.318270",
+    "ts": "2026-11-27T22:31:16.483506",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcd0d4d86e6aad62b0790819aacf82f4f70cff5d5",
+    "whale_wallet": "0xd6378941a4038415fbbb597252ab62e90c43be9a",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-27T22:25:09.338956",
+    "id": "6723102",
+    "pregunta": "Marco Rubio out as Secretary of State by March 31, 2027?",
+    "ts": "2026-11-27T22:31:19.135136",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xcd0d4d86e6aad62b0790819aacf82f4f70cff5d5",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "2431412",
-    "pregunta": "Will Google have the best AI model at the end of December 2026?",
-    "ts": "2026-11-27T22:25:11.204194",
+    "id": "7277635",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
+    "ts": "2026-11-27T22:31:25.574387",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277636",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.80?",
+    "ts": "2026-11-27T22:31:26.619909",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
     "whale_signal": "COMPRAR NO"
   }
 ]
