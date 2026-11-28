@@ -1,18 +1,26 @@
 [
   {
-    "id": "5420002",
-    "pregunta": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
-    "ts": "2026-11-28T07:01:38.945115",
+    "id": "4418549",
+    "pregunta": "Will AI solve the Riemann Hypothesis in 2026?",
+    "ts": "2026-11-28T07:10:26.170789",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+    "whale_wallet": "0x61b55a479d9c11b9020ed36741438b39175cde77",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6649553",
-    "pregunta": "Will the DPP win 9 Taiwanese head of local government races?",
-    "ts": "2026-11-28T07:01:40.129456",
+    "id": "4412298",
+    "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-28T07:10:27.376974",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+    "whale_wallet": "0x61b55a479d9c11b9020ed36741438b39175cde77",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4418520",
+    "pregunta": "Will the Riemann Hypothesis be the next Millennium Prize Problem solved by AI?",
+    "ts": "2026-11-28T07:10:28.398605",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x61b55a479d9c11b9020ed36741438b39175cde77",
     "whale_signal": "COMPRAR NO"
   }
 ]
