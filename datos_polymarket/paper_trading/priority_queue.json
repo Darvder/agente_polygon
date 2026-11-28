@@ -1,10 +1,74 @@
 [
   {
-    "id": "3581572",
-    "pregunta": "Will Hsu Hsin-ying win the next Hsinchu County Magistrate election?",
-    "ts": "2026-11-28T03:23:45.866128",
+    "id": "2299960",
+    "pregunta": "Will Anthropic's valuation hit (LOW) $800B by December 31?",
+    "ts": "2026-11-28T03:33:31.318160",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+    "whale_wallet": "0x8a4c788f043023b8b28a762216d037e9f148532b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277638",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.40?",
+    "ts": "2026-11-28T03:33:32.356976",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x8a4c788f043023b8b28a762216d037e9f148532b",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277890",
+    "pregunta": "Will the average Ornn B300 rental price in December 2028 be above $12.00?",
+    "ts": "2026-11-28T03:33:35.331358",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278070",
+    "pregunta": "Will the average Ornn H100 rental price in December 2028 be above $3.50?",
+    "ts": "2026-11-28T03:33:36.517752",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277996",
+    "pregunta": "Will the average Ornn B200 rental price in December 2028 be above $5.00?",
+    "ts": "2026-11-28T03:33:37.558402",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362360",
+    "pregunta": "Will the average Ornn H200 rental price in December 2028 be above $7.00?",
+    "ts": "2026-11-28T03:33:38.736890",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278069",
+    "pregunta": "Will the average Ornn H100 rental price in December 2028 be above $4.00?",
+    "ts": "2026-11-28T03:33:42.161818",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362366",
+    "pregunta": "Will the average Ornn H200 rental price in February 2027 be above $6.00?",
+    "ts": "2026-11-28T03:33:43.992022",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277664",
+    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $12.00?",
+    "ts": "2026-11-28T03:33:46.217243",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
