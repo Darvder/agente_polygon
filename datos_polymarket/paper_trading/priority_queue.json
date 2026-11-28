@@ -1,26 +1,18 @@
 [
   {
-    "id": "679022",
-    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
-    "ts": "2026-11-28T01:52:30.602978",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xb7632365a9edc5be7239295bf559e8cd98a8d3a5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-28T01:52:34.243253",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x512027c64566a75a0a8e23c69f92eb8b6b3e6db8",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "3580932",
     "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-28T01:52:35.265673",
+    "ts": "2026-11-28T02:04:56.343420",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x512027c64566a75a0a8e23c69f92eb8b6b3e6db8",
+    "whale_wallet": "0x9dfab8c87d58c9c9bab39750a017f99341ec39df",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7363980",
+    "pregunta": "Will the highest temperature in Chengdu be 20\u00b0C on November 28?",
+    "ts": "2026-11-28T02:04:58.948637",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf3618ba9f63638ab77e85553c67dbb9aaeba783a",
     "whale_signal": "COMPRAR NO"
   }
 ]
