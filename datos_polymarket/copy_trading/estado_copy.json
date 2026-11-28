@@ -1,16 +1,16 @@
 {
   "capital_inicial": 1000.0,
-  "capital_actual": 1826.78,
-  "capital_en_riesgo": 604.78,
-  "n_ciclos": 47139,
-  "ultima_corrida": "2026-11-28 01:26",
+  "capital_actual": 1867.5,
+  "capital_en_riesgo": 563.11,
+  "n_ciclos": 47140,
+  "ultima_corrida": "2026-11-28 01:36",
   "n_tp": 1304,
-  "n_sl": 874,
+  "n_sl": 875,
   "n_time": 0,
   "simulacion_micro": {
     "capital_inicial": 70.0,
-    "capital_actual": 35.71,
-    "capital_en_riesgo": 98.61,
+    "capital_actual": 41.95,
+    "capital_en_riesgo": 92.22,
     "max_positions": 18,
     "max_positions_per_wallet": 3,
     "min_capital_per_trade": 5.76,
@@ -19,7 +19,7 @@
     "take_profit_pct": 0.6,
     "stop_loss_pct": -0.5,
     "n_tp": 751,
-    "n_sl": 505,
+    "n_sl": 506,
     "posiciones_abiertas": [
       {
         "fecha_entrada": "2026-11-22",
@@ -251,7 +251,7 @@
         "pregunta": "Will Bitcoin dip to $52,500 in November?",
         "outcome": "No",
         "precio_token_entrada": 0.735,
-        "precio_actual": 0.964,
+        "precio_actual": 0.9635,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 5.16,
@@ -311,7 +311,7 @@
         "pregunta": "Will Fl\u00e1vio Bolsonaro rank in Google\u2019s Top 5 Most Searched People of 2",
         "outcome": "No",
         "precio_token_entrada": 0.54,
-        "precio_actual": 0.55,
+        "precio_actual": 0.565,
         "precio_cierre": "",
         "pct_cambio": 0.0,
         "monto_usdc": 5.64,
@@ -360,26 +360,6 @@
         "pnl_realizado": 0.0,
         "razon_cierre": "",
         "tx_hash": "0x53300e8d4da96d4eb39a801ceab4d2811ecfe03c0d1c0a3933280cabc839566c"
-      },
-      {
-        "fecha_entrada": "2026-11-27",
-        "fecha_entrada_dt": "2026-11-27 19:52",
-        "target_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
-        "market_id": "3580932",
-        "condition_id": "0xbf7a9da08326512f76129d4accf9f7d852dbf1cb7dd2c512479ff40c872f5659",
-        "token_id": "28042880819135054236705112210866715426402068267079731308218252509537644025901",
-        "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-        "outcome": "No",
-        "precio_token_entrada": 0.44,
-        "precio_actual": 0.43,
-        "precio_cierre": "",
-        "pct_cambio": 0.0,
-        "monto_usdc": 6.39,
-        "estado": "ABIERTA",
-        "fecha_cierre_real": "",
-        "pnl_realizado": 0.0,
-        "razon_cierre": "",
-        "tx_hash": "0x225833fa4234a205ef347ee03a8fac1dc7a7e47624a8c2ec71484cf26a03f5c7"
       }
     ],
     "historial_cerradas": [
@@ -25502,6 +25482,26 @@
         "pnl_realizado": 1.62,
         "razon_cierre": "FAILSAFE_SYNC_EXIT",
         "tx_hash": "0x8951dc904c8407a6c232a4334f707d4de0e3df492b85aa0d204d309e681a18d4"
+      },
+      {
+        "fecha_entrada": "2026-11-27",
+        "fecha_entrada_dt": "2026-11-27 19:52",
+        "target_wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+        "market_id": "3580932",
+        "condition_id": "0xbf7a9da08326512f76129d4accf9f7d852dbf1cb7dd2c512479ff40c872f5659",
+        "token_id": "28042880819135054236705112210866715426402068267079731308218252509537644025901",
+        "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+        "outcome": "No",
+        "precio_token_entrada": 0.44,
+        "precio_actual": 0.43,
+        "precio_cierre": 0.43,
+        "pct_cambio": -0.0227,
+        "monto_usdc": 6.39,
+        "estado": "CERRADA",
+        "fecha_cierre_real": "2026-11-28 01:36",
+        "pnl_realizado": -0.15,
+        "razon_cierre": "FAILSAFE_SYNC_EXIT",
+        "tx_hash": "0x225833fa4234a205ef347ee03a8fac1dc7a7e47624a8c2ec71484cf26a03f5c7"
       }
     ]
   }
