@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "679022",
+    "pregunta": "Will David Lisnard win the 2027 French presidential election?",
+    "ts": "2026-11-28T01:52:30.602978",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xb7632365a9edc5be7239295bf559e8cd98a8d3a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-28T01:52:34.243253",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x512027c64566a75a0a8e23c69f92eb8b6b3e6db8",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-28T01:52:35.265673",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x512027c64566a75a0a8e23c69f92eb8b6b3e6db8",
+    "whale_signal": "COMPRAR NO"
+  }
+]
