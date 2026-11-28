@@ -1,18 +1,26 @@
 [
   {
-    "id": "6831495",
-    "pregunta": "US x Iran Effective Ceasefire by November 22?",
-    "ts": "2026-11-28T00:53:51.979104",
+    "id": "3581450",
+    "pregunta": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+    "ts": "2026-11-28T01:00:25.851069",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
+    "whale_wallet": "0xf2b05d854e0af18e70b76e96534e2e7f7a04b26b",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4383153",
-    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-28T00:53:53.003296",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-28T01:00:27.655684",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9453a389c73df7991249d9f2c6e2c854157b1a48",
+    "whale_wallet": "0x3ca259f9dd2e521353c412862abb97b44f4d56a0",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "691340",
+    "pregunta": "AI bubble burst in 2026?",
+    "ts": "2026-11-28T01:00:29.508233",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x5fbf72d3dee75b24d8e60a2c2329603b0c128925",
     "whale_signal": "COMPRAR NO"
   }
 ]
