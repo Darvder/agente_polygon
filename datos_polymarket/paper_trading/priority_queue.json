@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7374760",
+    "pregunta": "Will Solana dip to $70 in November?",
+    "ts": "2026-11-28T08:30:13.684982",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-28T08:30:17.816645",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  }
+]
