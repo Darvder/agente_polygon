@@ -1,10 +1,58 @@
 [
   {
-    "id": "5609864",
-    "pregunta": "Ilhan Omar federally charged by December 31?",
-    "ts": "2026-11-27T18:50:23.686080",
+    "id": "7278027",
+    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $2.80?",
+    "ts": "2026-11-27T19:01:20.871708",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362346",
+    "pregunta": "Will the average Ornn H200 rental price in September 2027 be above $6.00?",
+    "ts": "2026-11-27T19:01:24.159660",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277972",
+    "pregunta": "Will the average Ornn B200 rental price in September 2027 be above $9.00?",
+    "ts": "2026-11-27T19:01:26.575296",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7276617",
+    "pregunta": "Will the average Ornn H100 rental price in December 2026 be above $3.00?",
+    "ts": "2026-11-27T19:01:27.617498",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278036",
+    "pregunta": "Will the average Ornn H100 rental price in June 2027 be above $3.20?",
+    "ts": "2026-11-27T19:01:28.862526",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "2750302",
+    "pregunta": "Will Benjamin Netanyahu be the next leader out before 2027?",
+    "ts": "2026-11-27T19:01:32.034639",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x6c17546c05c378555c52d804aebd00d3f4ec6a7e",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277952",
+    "pregunta": "Will the average Ornn B200 rental price in March 2027 be above $8.00?",
+    "ts": "2026-11-27T19:01:34.170898",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
