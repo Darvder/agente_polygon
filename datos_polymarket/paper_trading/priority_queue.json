@@ -1,66 +1,50 @@
 [
   {
+    "id": "7277655",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $10.50?",
+    "ts": "2026-11-27T20:34:58.734706",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
     "id": "7278006",
     "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.80?",
-    "ts": "2026-11-27T20:24:49.149020",
+    "ts": "2026-11-27T20:35:00.826684",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7278005",
-    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.90?",
-    "ts": "2026-11-27T20:24:50.318574",
+    "id": "7362354",
+    "pregunta": "Will the average Ornn H200 rental price in June 2027 be above $8.00?",
+    "ts": "2026-11-27T20:35:03.674906",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "701552",
-    "pregunta": "Will Ethereum dip to $1,500 by December 31, 2026?",
-    "ts": "2026-11-27T20:24:52.993514",
+    "id": "7277663",
+    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $13.00?",
+    "ts": "2026-11-27T20:35:04.736488",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "4412298",
-    "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-27T20:24:54.177034",
+    "id": "7277654",
+    "pregunta": "Will the average Ornn B300 rental price in January 2027 be above $11.00?",
+    "ts": "2026-11-27T20:35:05.786960",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3580994",
-    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
-    "ts": "2026-11-27T20:24:55.227533",
+    "id": "7387264",
+    "pregunta": "Will the highest temperature in Munich be -1\u00b0C on November 29?",
+    "ts": "2026-11-27T20:35:06.857965",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-27T20:24:56.277141",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "5609864",
-    "pregunta": "Ilhan Omar federally charged by December 31?",
-    "ts": "2026-11-27T20:24:57.441263",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "1830625",
-    "pregunta": "Will Palmeiras win Copa Libertadores?",
-    "ts": "2026-11-27T20:24:59.380483",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x93e8ba9b24138838324faed75137d095a8cd0197",
+    "whale_wallet": "0xbbca3e86a17c383ac291890d56359e75eaa2c369",
     "whale_signal": "COMPRAR NO"
   }
 ]
