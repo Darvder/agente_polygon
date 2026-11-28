@@ -1,10 +1,66 @@
 [
   {
-    "id": "4383153",
-    "pregunta": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
-    "ts": "2026-11-27T20:14:01.676849",
+    "id": "7278006",
+    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.80?",
+    "ts": "2026-11-27T20:24:49.149020",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x67d657e52db60591b27b411f0ed1dbde811c245e",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278005",
+    "pregunta": "Will the average Ornn H100 rental price in January 2027 be above $2.90?",
+    "ts": "2026-11-27T20:24:50.318574",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x4b8ae011176b76888949476d7fb7a56985faf4a4",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "701552",
+    "pregunta": "Will Ethereum dip to $1,500 by December 31, 2026?",
+    "ts": "2026-11-27T20:24:52.993514",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "4412298",
+    "pregunta": "Will Anthropic announce a Millennium Prize solution by December 31, 2026?",
+    "ts": "2026-11-27T20:24:54.177034",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580994",
+    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+    "ts": "2026-11-27T20:24:55.227533",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-27T20:24:56.277141",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "5609864",
+    "pregunta": "Ilhan Omar federally charged by December 31?",
+    "ts": "2026-11-27T20:24:57.441263",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "1830625",
+    "pregunta": "Will Palmeiras win Copa Libertadores?",
+    "ts": "2026-11-27T20:24:59.380483",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x93e8ba9b24138838324faed75137d095a8cd0197",
     "whale_signal": "COMPRAR NO"
   }
 ]
