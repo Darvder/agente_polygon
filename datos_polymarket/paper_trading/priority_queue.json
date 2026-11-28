@@ -1,74 +1,34 @@
 [
   {
-    "id": "6648502",
-    "pregunta": "Will the DPP win the New Taipei and Kaohsiung mayoral elections?",
-    "ts": "2026-11-27T22:31:10.155231",
+    "id": "3580995",
+    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+    "ts": "2026-11-27T22:42:21.123570",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_wallet": "0x122022b364c33b6e265cfaf56fe59ba306b2c483",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6617893",
-    "pregunta": "Will the KMT win Taipei and the DPP win New Taipei?",
-    "ts": "2026-11-27T22:31:11.301025",
+    "id": "7277464",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.00?",
+    "ts": "2026-11-27T22:42:22.832695",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_wallet": "0xc722c1a1a0bfddf4e0edb3286f7ebce127221334",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6976237",
-    "pregunta": "Will the Democratic Progressive Party (DPP) win the most mayoral elections in the 2026 Taiwan local elections?",
-    "ts": "2026-11-27T22:31:12.468311",
+    "id": "7277467",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $10.50?",
+    "ts": "2026-11-27T22:42:23.951098",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
+    "whale_wallet": "0xc722c1a1a0bfddf4e0edb3286f7ebce127221334",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "6976236",
-    "pregunta": "Will Kuomintang (KMT) win the most mayoral elections in the 2026 Taiwan local elections?",
-    "ts": "2026-11-27T22:31:13.626835",
+    "id": "7388695",
+    "pregunta": "Will the highest temperature in Houston be between 70-71\u00b0F on November 29?",
+    "ts": "2026-11-27T22:42:25.657533",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3581389",
-    "pregunta": "Will Ho Hsin-chun win the next Taichung Mayor election?",
-    "ts": "2026-11-27T22:31:14.683332",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x51ba9580d16b3264930ce28778e701f08aee3ca5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-27T22:31:16.483506",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd6378941a4038415fbbb597252ab62e90c43be9a",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "6723102",
-    "pregunta": "Marco Rubio out as Secretary of State by March 31, 2027?",
-    "ts": "2026-11-27T22:31:19.135136",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277635",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
-    "ts": "2026-11-27T22:31:25.574387",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "7277636",
-    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.80?",
-    "ts": "2026-11-27T22:31:26.619909",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+    "whale_wallet": "0xc1bfad2e3039732ec124aae3944223135b0cf3f4",
     "whale_signal": "COMPRAR NO"
   }
 ]
