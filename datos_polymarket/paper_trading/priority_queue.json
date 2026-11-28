@@ -1,18 +1,10 @@
 [
   {
-    "id": "3580932",
-    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-28T03:14:25.458609",
+    "id": "3581572",
+    "pregunta": "Will Hsu Hsin-ying win the next Hsinchu County Magistrate election?",
+    "ts": "2026-11-28T03:23:45.866128",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580933",
-    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-28T03:14:28.551242",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
+    "whale_wallet": "0x5a218c7ad04135830a45c41aaed7294df7809318",
     "whale_signal": "COMPRAR NO"
   }
 ]
