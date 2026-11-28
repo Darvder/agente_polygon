@@ -1,10 +1,42 @@
 [
   {
-    "id": "7126288",
-    "pregunta": "Will the US Section 232 tariff rate on Canadian primary aluminum be >40-50% on December 31, 2027?",
-    "ts": "2026-11-28T06:41:24.708210",
+    "id": "7415710",
+    "pregunta": "Will the highest temperature in Buenos Aires be 36\u00b0C on November 30?",
+    "ts": "2026-11-28T06:52:23.142349",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x277989790d4a8c782d7a4992e13c2dcaa031239a",
+    "whale_wallet": "0x9efda3d6354152901fc4706c3b1a9ce50b45ad00",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362355",
+    "pregunta": "Will the average Ornn H200 rental price in March 2027 be above $6.00?",
+    "ts": "2026-11-28T06:52:25.116949",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277663",
+    "pregunta": "Will the average Ornn B300 rental price in February 2027 be above $13.00?",
+    "ts": "2026-11-28T06:52:26.153385",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278026",
+    "pregunta": "Will the average Ornn H100 rental price in March 2027 be above $3.00?",
+    "ts": "2026-11-28T06:52:27.338902",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7277866",
+    "pregunta": "Will the average Ornn B300 rental price in September 2027 be above $8.00?",
+    "ts": "2026-11-28T06:52:28.369065",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
