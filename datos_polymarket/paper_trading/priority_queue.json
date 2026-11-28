@@ -1,34 +1,26 @@
 [
   {
-    "id": "6976236",
-    "pregunta": "Will Kuomintang (KMT) win the most mayoral elections in the 2026 Taiwan local elections?",
-    "ts": "2026-11-28T03:40:33.381168",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
     "id": "3581482",
     "pregunta": "Will Hsieh Kuo-liang win the next Keelung Mayor election?",
-    "ts": "2026-11-28T03:40:34.398623",
+    "ts": "2026-11-28T03:49:53.272388",
     "origen": "whale_copytrader",
     "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3581483",
-    "pregunta": "Will Tung Tzu-wei win the next Keelung Mayor election?",
-    "ts": "2026-11-28T03:40:36.434882",
+    "id": "6976237",
+    "pregunta": "Will the Democratic Progressive Party (DPP) win the most mayoral elections in the 2026 Taiwan local elections?",
+    "ts": "2026-11-28T03:49:54.356532",
     "origen": "whale_copytrader",
     "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "3581573",
-    "pregunta": "Will Cheng Chao-fang win the next Hsinchu County Magistrate election?",
-    "ts": "2026-11-28T03:40:37.555370",
+    "id": "7288834",
+    "pregunta": "Will Bitcoin reach $62,500 in November?",
+    "ts": "2026-11-28T03:50:14.561708",
     "origen": "whale_copytrader",
-    "whale_wallet": "0x3c46ad7364f7f9bdb424516987c1ae0f91dd7893",
+    "whale_wallet": "0x21c52a310ce110d58270e2d5a9676c217a5e3533",
     "whale_signal": "COMPRAR NO"
   }
 ]
