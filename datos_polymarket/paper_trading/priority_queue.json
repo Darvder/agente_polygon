@@ -1,58 +1,74 @@
 [
   {
-    "id": "7387333",
-    "pregunta": "Will the highest temperature in Milan be 9\u00b0C on November 29?",
-    "ts": "2026-11-28T01:16:36.066321",
+    "id": "7277632",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+    "ts": "2026-11-28T01:25:14.917740",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7412546",
-    "pregunta": "Will the highest temperature in Karachi be 31\u00b0C on November 30?",
-    "ts": "2026-11-28T01:16:37.252613",
+    "id": "7277633",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.40?",
+    "ts": "2026-11-28T01:25:16.104027",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7412217",
-    "pregunta": "Will the highest temperature in Tokyo be 15\u00b0C on November 30?",
-    "ts": "2026-11-28T01:16:38.276059",
+    "id": "7277635",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
+    "ts": "2026-11-28T01:25:17.303480",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7388695",
-    "pregunta": "Will the highest temperature in Houston be between 70-71\u00b0F on November 29?",
-    "ts": "2026-11-28T01:16:39.295970",
+    "id": "7277637",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.60?",
+    "ts": "2026-11-28T01:25:18.506572",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7389862",
-    "pregunta": "Will the highest temperature in Mexico City be 20\u00b0C on November 29?",
-    "ts": "2026-11-28T01:16:40.488874",
+    "id": "7277636",
+    "pregunta": "Will the average Ornn B200 rental price in December 2026 be above $8.80?",
+    "ts": "2026-11-28T01:25:19.557982",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_wallet": "0xb3cf15f10ce065bab2f8857a1c49b85ddc5e4723",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7412491",
-    "pregunta": "Will the highest temperature in Cape Town be 25\u00b0C on November 30?",
-    "ts": "2026-11-28T01:16:41.518201",
+    "id": "3580932",
+    "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
+    "ts": "2026-11-28T01:25:21.415021",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
     "whale_signal": "COMPRAR NO"
   },
   {
-    "id": "7412344",
-    "pregunta": "Will the highest temperature in Chengdu be 20\u00b0C on November 30?",
-    "ts": "2026-11-28T01:16:42.537040",
+    "id": "3580933",
+    "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
+    "ts": "2026-11-28T01:25:22.458174",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+    "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7397823",
+    "pregunta": "Will Ethereum reach $1,700 in November?",
+    "ts": "2026-11-28T01:25:24.330030",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278070",
+    "pregunta": "Will the average Ornn H100 rental price in December 2028 be above $3.50?",
+    "ts": "2026-11-28T01:25:31.902011",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0xbe74297ff19030f104ce1d538709f43b30eca70e",
     "whale_signal": "COMPRAR NO"
   }
 ]
