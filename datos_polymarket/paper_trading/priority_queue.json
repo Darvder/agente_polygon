@@ -1,10 +1,26 @@
 [
   {
-    "id": "3581449",
-    "pregunta": "Will Ko Chih-en win the next Kaohsiung Mayor election?",
-    "ts": "2026-11-27T22:04:21.341091",
+    "id": "7277464",
+    "pregunta": "Will the average Ornn B300 rental price in December 2026 be above $12.00?",
+    "ts": "2026-11-27T22:12:00.831387",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xb63d2c013589f469350d55d9fce81b47243f239f",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7278016",
+    "pregunta": "Will the average Ornn H100 rental price in February 2027 be above $3.00?",
+    "ts": "2026-11-27T22:12:01.884343",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
+    "whale_signal": "COMPRAR NO"
+  },
+  {
+    "id": "7362365",
+    "pregunta": "Will the average Ornn H200 rental price in December 2027 be above $4.00?",
+    "ts": "2026-11-27T22:12:04.130848",
+    "origen": "whale_copytrader",
+    "whale_wallet": "0x88d9152ebea621540ac6ea9a90e118d7c6f935c7",
     "whale_signal": "COMPRAR NO"
   }
 ]
