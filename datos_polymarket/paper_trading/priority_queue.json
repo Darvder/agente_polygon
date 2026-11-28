@@ -2,33 +2,17 @@
   {
     "id": "3580932",
     "pregunta": "Will Chiang Wan-an win the next Taipei Mayor election?",
-    "ts": "2026-11-28T03:11:04.715929",
+    "ts": "2026-11-28T03:14:25.458609",
     "origen": "whale_copytrader",
-    "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
+    "whale_wallet": "0x9c9fe391bf7ba8701bc97c9e561a46cbce11e2d2",
     "whale_signal": "COMPRAR NO"
   },
   {
     "id": "3580933",
     "pregunta": "Will Puma Shen win the next Taipei Mayor election?",
-    "ts": "2026-11-28T03:11:05.736040",
+    "ts": "2026-11-28T03:14:28.551242",
     "origen": "whale_copytrader",
     "whale_wallet": "0xc2e5359b204c4296b7e1a07603fe0b657486b3a5",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580994",
-    "pregunta": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
-    "ts": "2026-11-28T03:11:07.768929",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
-    "whale_signal": "COMPRAR NO"
-  },
-  {
-    "id": "3580995",
-    "pregunta": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-    "ts": "2026-11-28T03:11:12.586905",
-    "origen": "whale_copytrader",
-    "whale_wallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
     "whale_signal": "COMPRAR NO"
   }
 ]
